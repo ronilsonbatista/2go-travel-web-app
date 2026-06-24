@@ -542,6 +542,25 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
     }
   }, [preselectedDestinationSlug]);
 
+  // Parse search parameters on mount
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const urlDestino = params.get('destino') || '';
+      const urlStep = params.get('step') || '';
+      
+      if (urlDestino) {
+        const destSlug = urlDestino.toLowerCase().trim();
+        setDestination(destSlug);
+        setSearchQuery(urlDestino);
+        
+        if (urlStep === '2' || !urlStep) {
+          setStep(1); // Set to Step 1 (which is Passo 2 of 3)
+        }
+      }
+    }
+  }, []);
+
   const handleNext = () => {
     if (step < 2) {
       setStep(step + 1);
@@ -611,7 +630,57 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
     return true;
   };
 
-  const activeItinerary = itineraryDatabase[destination] || itineraryDatabase.rio;
+  // Resolve active itinerary (with custom generator fallback for unknown destinations)
+  let activeItinerary = itineraryDatabase[destination];
+  if (!activeItinerary && destination) {
+    // Capitalize destination name
+    const formattedName = destination.charAt(0).toUpperCase() + destination.slice(1);
+    
+    // Choose style description label
+    let styleText = 'Personalizado';
+    if (style === 'aventura') styleText = 'Aventura & Natureza';
+    else if (style === 'cultura') styleText = 'Cultural & Histórico';
+    else if (style === 'natureza') styleText = 'Relax & Bem-Estar';
+    else if (style === 'gastronomia') styleText = 'Gastronomia & Luxo';
+
+    activeItinerary = {
+      name: formattedName,
+      title: `${formattedName}: Roteiro ${styleText}`,
+      desc: `Um planejamento exclusivo feito sob medida para você explorar o melhor de ${formattedName} com foco em ${styleText.toLowerCase()}.`,
+      days: [
+        {
+          day: 'Dia 1',
+          title: 'Chegada & Ambientação local',
+          events: [
+            { time: '14:00', title: `Check-in em hotel boutique de alto padrão em ${formattedName}` },
+            { time: '16:30', title: `Passeio guiado a pé pelos pontos mais emblemáticos de ${formattedName}` },
+            { time: '20:00', title: `Jantar de boas-vindas com pratos tradicionais locais` }
+          ]
+        },
+        {
+          day: 'Dia 2',
+          title: style === 'aventura' ? 'Aventura & Ação no Destino' : style === 'cultura' ? 'Arte & Imersão Cultural' : style === 'natureza' ? 'Natureza, Relax & Bem-Estar' : 'Experiências Gastronômicas Exclusivas',
+          events: [
+            { time: '09:00', title: style === 'aventura' ? `Trilha panorâmica ou exploração com adrenalina ao redor de ${formattedName}` : style === 'cultura' ? `Visita privativa a museus clássicos e monumentos históricos de ${formattedName}` : style === 'natureza' ? `Visita guiada a parques ecológicos, lagos ou praias relaxantes` : `Tour gourmet guiado pelos mercados locais e bairros históricos` },
+            { time: '13:00', title: `Almoço gourmet especial com indicação de nossos curadores` },
+            { time: '15:30', title: style === 'aventura' ? `Prática de esportes ao ar livre e rotas cênicas off-road` : style === 'cultura' ? `Visita arquitetônica exclusiva com guia local historiador` : style === 'natureza' ? `Sessão de SPA premium ou meditação ao pôr do sol` : `Degustação VIP de vinhos locais ou workshop com Chef regional` },
+            { time: '20:30', title: budget === 'luxo' ? `Experiência Premium: Jantar de gala ou em restaurante estrelado Michelin em ${formattedName}` : `Jantar aconchegante em bistrô tradicional com excelente custo-benefício` }
+          ]
+        },
+        {
+          day: 'Dia 3',
+          title: 'Descobertas Finais & Despedida',
+          events: [
+            { time: '10:00', title: `Visita a mirantes locais e compras em boutiques artesanais` },
+            { time: '13:30', title: `Almoço de despedida em restaurante com vista panorâmica` },
+            { time: '16:00', title: `Check-out, transfer privado e retorno` }
+          ]
+        }
+      ]
+    };
+  } else if (!activeItinerary) {
+    activeItinerary = itineraryDatabase.rio;
+  }
 
   return (
     <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">

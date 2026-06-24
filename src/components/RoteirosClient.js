@@ -70,6 +70,10 @@ export default function RoteirosClient({ itineraries = [] }) {
     });
   }
 
+  const displayDestName = searchQuery.trim() 
+    ? searchQuery.trim().split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ')
+    : '';
+
   return (
     <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
@@ -88,7 +92,7 @@ export default function RoteirosClient({ itineraries = [] }) {
               Planejamentos Completos de Viagem
             </h1>
             <p className="text-sm sm:text-base text-text-muted max-w-2xl leading-relaxed">
-              Explore roteiros dia a dia otimizados por nossos especialistas. Roteiros estruturados com as melhores rotas, passeios clássicos e locais secretos para otimizar o seu tempo.
+              Explore roteiros dia a dia otimizados por nossos especialistas. Roteiros estruturados com as melhores rotas, passeios clássicos and locais secretos para otimizar o seu tempo.
             </p>
           </header>
 
@@ -119,7 +123,7 @@ export default function RoteirosClient({ itineraries = [] }) {
                 {matchingDests.map((dest) => (
                   <Link
                     key={dest.slug}
-                    href={`/planejamento/${dest.slug}`}
+                    href={`/planejamento?destino=${encodeURIComponent(dest.slug)}&step=2`}
                     className="inline-flex items-center gap-2 bg-white border border-border-gray hover:border-[#96AB21] hover:bg-[#96AB21]/5 text-xs font-bold text-brand-navy px-4.5 py-2.5 rounded-xl transition-all shadow-xs group/link cursor-pointer hover:scale-[1.01] active:scale-95 animate-fade-in"
                   >
                     <span>{dest.emoji}</span>
@@ -157,8 +161,11 @@ export default function RoteirosClient({ itineraries = [] }) {
                 key={itinerary.slug}
                 className="group bg-white border border-border-gray rounded-[28px] overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between"
               >
-                {/* Header Image Area */}
-                <div className="h-56 overflow-hidden relative bg-bg-light">
+                {/* Header Image Area wrapped in Link */}
+                <Link 
+                  href={`/roteiros/${itinerary.slug}`}
+                  className="h-56 overflow-hidden relative bg-bg-light block cursor-pointer"
+                >
                   {itinerary.destinationImage ? (
                     <img 
                       src={itinerary.destinationImage} 
@@ -183,14 +190,16 @@ export default function RoteirosClient({ itineraries = [] }) {
                       <span>{itinerary.duration} {itinerary.duration === 1 ? 'dia' : 'dias'}</span>
                     </div>
                   </div>
-                </div>
+                </Link>
 
                 {/* Details Section */}
                 <div className="p-6 md:p-8 flex flex-col justify-between flex-grow gap-5 text-left">
                   <div className="flex flex-col gap-2">
-                    <h3 className="font-headers text-lg md:text-xl font-bold text-brand-navy group-hover:text-brand-orange transition-colors leading-tight">
-                      {itinerary.title}
-                    </h3>
+                    <Link href={`/roteiros/${itinerary.slug}`}>
+                      <h3 className="font-headers text-lg md:text-xl font-bold text-brand-navy group-hover:text-brand-orange transition-colors leading-tight cursor-pointer">
+                        {itinerary.title}
+                      </h3>
+                    </Link>
                     <p className="text-xs sm:text-sm text-text-muted leading-relaxed line-clamp-3">
                       {itinerary.desc}
                     </p>
@@ -227,10 +236,28 @@ export default function RoteirosClient({ itineraries = [] }) {
           </div>
 
           {filteredItineraries.length === 0 && (
-            <div className="bg-white border border-border-gray rounded-[28px] p-12 text-center my-10 flex flex-col items-center">
-              <Sparkles className="w-12 h-12 text-brand-orange/30 mb-4" />
-              <h3 className="font-headers text-lg font-bold text-brand-navy">Nenhum roteiro encontrado</h3>
-              <p className="text-xs text-text-muted mt-2 max-w-sm">No momento não temos roteiros cadastrados para esse filtro de destino.</p>
+            <div className="bg-white border border-border-gray rounded-[28px] p-8 sm:p-12 text-center my-10 flex flex-col items-center max-w-xl mx-auto shadow-sm animate-fade-in-up">
+              <Sparkles className="w-12 h-12 text-brand-orange/30 mb-5 animate-pulse" />
+              <h3 className="font-headers text-xl sm:text-2xl font-bold text-brand-navy">Ainda não temos esse roteiro pronto.</h3>
+              <p className="text-xs sm:text-sm text-text-muted mt-3 leading-relaxed max-w-md">Mas a 2GO pode montar um roteiro personalizado para esse destino em poucos passos.</p>
+              <div className="mt-8 flex flex-col sm:flex-row gap-3 w-full items-center justify-center">
+                <Link
+                  href={`/planejamento?destino=${encodeURIComponent(searchQuery.trim().toLowerCase())}&step=2`}
+                  className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold px-6 py-3.5 rounded-xl transition-all shadow-sm hover:scale-[1.01] active:scale-95 text-xs flex items-center justify-center gap-1.5 cursor-pointer w-full sm:w-auto"
+                >
+                  <span>Planejar minha viagem para {displayDestName}</span>
+                  <ArrowRight className="w-4 h-4 shrink-0" />
+                </Link>
+                <button
+                  onClick={() => {
+                    setSearchQuery('');
+                    setSelectedDest('todos');
+                  }}
+                  className="bg-transparent border border-border-gray hover:border-brand-navy/30 text-brand-navy font-bold px-6 py-3.5 rounded-xl transition-all hover:scale-[1.01] active:scale-95 text-xs flex items-center justify-center cursor-pointer w-full sm:w-auto"
+                >
+                  Ver destinos populares
+                </button>
+              </div>
             </div>
           )}
 

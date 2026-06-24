@@ -155,7 +155,7 @@ const getSlideFilterClass = (id) => {
     case 'noronha':
       return 'brightness-[1.14] contrast-[1.08] saturate-[1.30]';
     case 'maldivas':
-      return 'brightness-[1.14] contrast-[1.08] saturate-[1.22] hue-rotate-[3deg]';
+      return 'brightness-[1.10] contrast-[1.22] saturate-[1.25] hue-rotate-[3deg]'; // contraste levemente maior
     case 'toscana':
       return 'brightness-[1.08] contrast-[1.08] saturate-[1.20] sepia-[0.08]';
     default:
@@ -166,8 +166,10 @@ const getSlideFilterClass = (id) => {
 // Dynamic warm overlay opacity to add life to specific destinations
 const getSlideWarmOverlayStyle = (id) => {
   switch (id) {
+    case 'santorini':
+      return 'rgba(255, 255, 255, 0.15)'; // overlay claro
     case 'norway':
-      return 'rgba(244, 122, 32, 0.02)';
+      return 'rgba(255, 255, 255, 0.20)'; // overlay claro suave
     case 'maldivas':
       return 'rgba(244, 122, 32, 0.03)';
     case 'noronha':
@@ -175,7 +177,7 @@ const getSlideWarmOverlayStyle = (id) => {
     case 'capadocia':
       return 'rgba(244, 122, 32, 0.12)';
     case 'paris':
-      return 'rgba(244, 122, 32, 0.10)';
+      return 'rgba(0, 0, 0, 0)'; // quase sem overlay
     case 'toscana':
       return 'rgba(244, 122, 32, 0.10)';
     default:
@@ -186,15 +188,27 @@ const getSlideWarmOverlayStyle = (id) => {
 // Dynamic subtle dark overlay to enhance depth and readability
 const getSlideDarkOverlayStyle = (id) => {
   switch (id) {
+    case 'santorini':
+      return 'linear-gradient(to top, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.02))'; // overlay claro
+    case 'norway':
+      return 'linear-gradient(to top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.02))'; // overlay claro suave
     case 'maldivas':
       return 'linear-gradient(to top, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.10))';
     case 'noronha':
-      return 'linear-gradient(to top, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.08))';
-    case 'santorini':
-      return 'linear-gradient(to top, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.08))';
+      return 'linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05))'; // overlay levemente escuro no rodapé
+    case 'paris':
+      return 'linear-gradient(to top, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.01))'; // quase sem overlay
     default:
       return 'linear-gradient(to top, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.06))';
   }
+};
+
+// Dynamic subtle text shadow for Hero text readability
+const getHeroTextShadow = (id) => {
+  if (id === 'santorini') {
+    return { textShadow: '0 2px 18px rgba(255, 255, 255, 0.85), 0 1px 4px rgba(255, 255, 255, 0.60)' };
+  }
+  return { textShadow: '0 2px 14px rgba(255, 255, 255, 0.55)' };
 };
 
 // Curated Editorial Itineraries Data with daily timeline summaries
@@ -410,67 +424,85 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               
               {/* Left text panel */}
-              <div className="lg:col-span-7 text-left flex flex-col gap-5 sm:gap-6 animate-fade-in-up items-center sm:items-start">
-                <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
-                  <span className="bg-[#F47A20] text-white text-[11px] sm:text-[12px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
-                    ROTEIROS PERSONALIZADOS
-                  </span>
-                  <span className="bg-brand-navy/5 border border-brand-navy/10 text-brand-navy text-[11px] sm:text-[12px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full w-fit flex items-center gap-1">
-                    📍 {premiumSlides[currentSlide].name}
-                  </span>
-                </div>
+              <div className="lg:col-span-7 flex flex-col items-center sm:items-start text-left">
+                <div 
+                  className="w-full max-w-2xl bg-white/26 backdrop-blur-[10px] border border-white/35 shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-6 sm:p-8 md:p-10 rounded-[28px] flex flex-col gap-5 sm:gap-6 animate-fade-in-up items-center sm:items-start"
+                >
+                  <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+                    <span className="bg-[#F47A20] text-white text-[11px] sm:text-[12px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
+                      ROTEIROS PERSONALIZADOS
+                    </span>
+                    <span className="bg-brand-navy/5 border border-brand-navy/10 text-brand-navy text-[11px] sm:text-[12px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full w-fit flex items-center gap-1">
+                      📍 {premiumSlides[currentSlide].name}
+                    </span>
+                  </div>
 
-                <div className="flex flex-col gap-2 text-center sm:text-left w-full">
-                  <h1 className="font-headers text-brand-navy font-extrabold text-[36px] sm:text-[46px] md:text-[clamp(56px,6vw,88px)] leading-[0.95] tracking-[-0.03em] max-w-2xl transition-all duration-500 overflow-wrap-normal">
-                    {premiumSlides[currentSlide].name}
-                  </h1>
-                  <p className="font-headers text-brand-navy font-bold text-lg sm:text-xl lg:text-[1.38rem] leading-snug tracking-tight max-w-xl">
-                    A sua próxima viagem, planejada em minutos.
+                  <div className="flex flex-col gap-2 text-center sm:text-left w-full">
+                    <h1 
+                      style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
+                      className="font-headers text-brand-navy font-extrabold text-[36px] sm:text-[46px] md:text-[clamp(56px,6vw,88px)] leading-[0.95] tracking-[-0.03em] max-w-2xl transition-all duration-500 overflow-wrap-normal"
+                    >
+                      {premiumSlides[currentSlide].name}
+                    </h1>
+                    <p 
+                      style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
+                      className="font-headers text-brand-navy font-bold text-lg sm:text-xl lg:text-[1.38rem] leading-snug tracking-tight max-w-xl"
+                    >
+                      A sua próxima viagem, planejada em minutos.
+                    </p>
+                  </div>
+                  
+                  <p 
+                    style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
+                    className="text-sm sm:text-base text-brand-navy/80 leading-relaxed max-w-xl line-clamp-2 text-center sm:text-left font-medium"
+                  >
+                    A 2GO cria roteiros personalizados e une tecnologia, curadoria e praticidade para você viajar do seu jeito.
                   </p>
-                </div>
-                
-                <p className="text-sm sm:text-base text-brand-navy/80 leading-relaxed max-w-xl line-clamp-2 text-center sm:text-left">
-                  A 2GO cria roteiros personalizados e une tecnologia, curadoria e praticidade para você viajar do seu jeito.
-                </p>
-                
-                <div className="flex items-center mt-1 bg-brand-navy/5 border border-brand-navy/10 px-4 py-2.5 rounded-xl w-fit">
-                  <span className="text-brand-navy/85 text-sm italic font-medium">"{premiumSlides[currentSlide].phrase}"</span>
-                </div>
-                
-                <div className="flex flex-col sm:flex-row gap-3 mt-2 w-full sm:w-auto items-center sm:items-start">
-                  <button 
-                    onClick={() => setIsDownloadOpen(true)}
-                    className="w-full max-w-[280px] sm:w-auto bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold px-8 py-3.5 rounded-xl shadow-sm flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-[0.98]"
-                  >
-                    Baixar Aplicativo
-                  </button>
-                  <Link 
-                    href="/planejamento"
-                    className="w-full max-w-[280px] sm:w-auto border border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white bg-transparent font-bold px-8 py-3.5 rounded-xl transition-all flex items-center justify-center"
-                  >
-                    Criar Meu Roteiro
-                  </Link>
-                </div>
+                  
+                  <div className="flex items-center mt-1 bg-brand-navy/5 border border-brand-navy/10 px-4 py-2.5 rounded-xl w-fit">
+                    <span className="text-brand-navy/85 text-sm italic font-medium">"{premiumSlides[currentSlide].phrase}"</span>
+                  </div>
+                  
+                  <div className="flex flex-col gap-2 mt-2 w-full sm:w-auto items-center sm:items-start">
+                    <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                      <button 
+                        onClick={() => setIsDownloadOpen(true)}
+                        className="w-full max-w-[280px] sm:w-auto bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold px-8 py-3.5 rounded-xl shadow-sm flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-[0.98]"
+                      >
+                        Baixar App
+                      </button>
+                      <Link 
+                        href="/planejamento"
+                        className="w-full max-w-[280px] sm:w-auto border border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white bg-transparent font-bold px-8 py-3.5 rounded-xl transition-all flex items-center justify-center"
+                      >
+                        Criar Meu Roteiro
+                      </Link>
+                    </div>
+                    <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-1 text-center sm:text-left">
+                      Planeje agora e leve tudo no aplicativo.
+                    </p>
+                  </div>
 
-                {/* Progress bar */}
-                <div className="w-full max-w-md bg-brand-navy/10 h-1 rounded-full overflow-hidden mt-2">
-                  <div 
-                    className="bg-brand-orange h-full transition-all duration-100 ease-linear"
-                    style={{ width: `${progress}%` }}
-                  />
-                </div>
+                  {/* Progress bar */}
+                  <div className="w-full max-w-md bg-brand-navy/10 h-1 rounded-full overflow-hidden mt-2">
+                    <div 
+                      className="bg-brand-orange h-full transition-all duration-100 ease-linear"
+                      style={{ width: `${progress}%` }}
+                    />
+                  </div>
 
-                {/* Micro Provas */}
-                <div className="flex flex-wrap justify-center sm:justify-start items-center gap-4 sm:gap-6 mt-2 text-xs sm:text-sm text-brand-navy/80 font-medium border-t border-brand-navy/10 pt-4 max-w-md w-full">
-                  <span className="flex items-center gap-1.5">
-                    <span className="text-yellow-500">★</span> 4,9 de avaliação
-                  </span>
-                  <span className="flex items-center gap-1.5">
-                    <span className="text-brand-orange">🌍</span> +120 destinos
-                  </span>
-                  <span className="flex items-center gap-1.5">
-                    <span className="text-brand-green">⚡</span> Roteiros em poucos minutos
-                  </span>
+                  {/* Micro Provas */}
+                  <div className="flex flex-wrap justify-center sm:justify-start items-center gap-4 sm:gap-6 mt-2 text-xs sm:text-sm text-brand-navy/80 font-medium border-t border-brand-navy/10 pt-4 max-w-md w-full">
+                    <span className="flex items-center gap-1.5">
+                      <span className="text-yellow-500">★</span> 4,9 de avaliação
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <span className="text-brand-orange">🌍</span> +120 destinos
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <span className="text-brand-green">⚡</span> Roteiros em poucos minutos
+                    </span>
+                  </div>
                 </div>
               </div>
 
@@ -530,9 +562,9 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Compass className="w-6 h-6" />
                 </div>
-                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Escolha o destino</h3>
+                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Planeje no site</h3>
                 <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-md">
-                  Diga para onde quer ir, suas datas e estilo de viagem.
+                  Escolha o destino e preencha suas preferências de viagem em poucos passos.
                 </p>
               </div>
 
@@ -542,9 +574,9 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Sliders className="w-6 h-6" />
                 </div>
-                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Receba o roteiro pronto</h3>
+                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Leve tudo no bolso</h3>
                 <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-md">
-                  Veja um roteiro diário, organizado e sob medida.
+                  Sincronize o roteiro no celular com mapas offline, horários e atrações organizados em um só lugar.
                 </p>
               </div>
 
@@ -554,9 +586,9 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Navigation className="w-6 h-6" />
                 </div>
-                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Viaje sem stress</h3>
+                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Acompanhe no App</h3>
                 <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-md">
-                  Tudo no app, com ajustes a qualquer momento.
+                  Edite, salve, compartilhe seu roteiro offline e receba sugestões personalizadas por destino em tempo real.
                 </p>
               </div>
             </div>
@@ -666,14 +698,14 @@ export default function Home() {
             {/* App download trigger banner */}
             <div className="mt-12 bg-white border border-border-gray rounded-[24px] p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-sm border-l-4 border-l-[#96AB21] text-left">
               <div className="text-left flex-grow">
-                <h4 className="font-headers text-base sm:text-lg font-bold text-brand-navy">Escolheu seu próximo destino?</h4>
-                <p className="text-xs sm:text-sm text-text-muted mt-1">Leve seu roteiro no app. O site inspira. O app acompanha a viagem.</p>
+                <h4 className="font-headers text-base sm:text-lg font-bold text-brand-navy">Seu roteiro sempre com você</h4>
+                <p className="text-xs sm:text-sm text-text-muted mt-1">Tudo organizado no celular: mapas, horários e atrações em um só lugar. Planeje no site e acompanhe tudo pelo aplicativo da 2GO.</p>
               </div>
               <button 
                 onClick={() => setIsDownloadOpen(true)}
                 className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold px-6 py-3.5 rounded-xl transition-all shadow-sm shadow-[#96AB21]/10 hover:scale-[1.01] active:scale-95 text-xs whitespace-nowrap cursor-pointer shrink-0"
               >
-                Baixar Aplicativo
+                Baixar App
               </button>
             </div>
           </ScrollReveal>
@@ -1036,19 +1068,24 @@ export default function Home() {
                   O app da 2GO organiza seu roteiro diário, otimizado e sob medida.
                 </p>
                 
-                <div className="flex flex-col sm:flex-row gap-4 mt-2 w-full sm:w-auto">
-                  <button 
-                    onClick={() => setIsDownloadOpen(true)}
-                    className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold px-8 py-4 rounded-xl shadow-md shadow-[#96AB21]/10 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95"
-                  >
-                    Baixar Aplicativo
-                  </button>
-                  <Link 
-                    href="/planejamento"
-                    className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-8 py-4 rounded-xl transition-all flex items-center justify-center"
-                  >
-                    Criar Meu Roteiro
-                  </Link>
+                <div className="flex flex-col gap-2 mt-2 w-full sm:w-auto items-center sm:items-start">
+                  <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                    <button 
+                      onClick={() => setIsDownloadOpen(true)}
+                      className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold px-8 py-4 rounded-xl shadow-md shadow-[#96AB21]/10 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95"
+                    >
+                      Baixar App
+                    </button>
+                    <Link 
+                      href="/planejamento"
+                      className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-8 py-4 rounded-xl transition-all flex items-center justify-center"
+                    >
+                      Criar Meu Roteiro
+                    </Link>
+                  </div>
+                  <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-1">
+                    Planeje agora e leve tudo no aplicativo.
+                  </p>
                 </div>
               </div>
               
