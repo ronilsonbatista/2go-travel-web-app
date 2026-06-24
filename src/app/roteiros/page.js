@@ -26,7 +26,9 @@ export default async function RoteirosPage() {
       destinationName: destination ? destination.name : '',
       destinationCountry: destination ? destination.country : '',
       destinationImage: destination ? destination.image : '',
-      destinationEmoji: destination ? destination.emoji : ''
+      destinationEmoji: destination ? destination.emoji : '',
+      destinationCurrency: destination ? destination.currency : 'EUR',
+      destinationSlug: destination ? destination.slug : (itinerary.destinationSlug || '')
     };
   });
 

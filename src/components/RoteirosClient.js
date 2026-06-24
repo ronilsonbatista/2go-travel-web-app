@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ArrowRight, Clock, MapPin, Sparkles } from 'lucide-react';
+import { ArrowRight, Clock, MapPin, Sparkles, Search } from 'lucide-react';
 import Header from './Header';
 import Footer from './Footer';
 import Breadcrumbs from './Breadcrumbs';
@@ -11,13 +11,64 @@ import AppDownloadModal from './AppDownloadModal';
 export default function RoteirosClient({ itineraries = [] }) {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [selectedDest, setSelectedDest] = useState('todos');
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // Read URL search parameter on client mount
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const search = params.get('search') || '';
+      if (search) {
+        setSearchQuery(search);
+      }
+    }
+  }, []);
 
   // Extract unique destinations that have itineraries
   const destFilters = ['todos', ...new Set(itineraries.map(it => it.destinationName).filter(Boolean))];
 
-  const filteredItineraries = selectedDest === 'todos'
-    ? itineraries
-    : itineraries.filter(it => it.destinationName === selectedDest);
+  const filteredItineraries = itineraries.filter(it => {
+    // 1. Filter by tab destination
+    if (selectedDest !== 'todos' && it.destinationName !== selectedDest) {
+      return false;
+    }
+    // 2. Filter by search query
+    if (searchQuery.trim() !== '') {
+      const query = searchQuery.toLowerCase().trim();
+      return (
+        it.title.toLowerCase().includes(query) ||
+        it.desc.toLowerCase().includes(query) ||
+        it.destinationName.toLowerCase().includes(query) ||
+        it.destinationCountry.toLowerCase().includes(query) ||
+        (it.style && it.style.toLowerCase().includes(query))
+      );
+    }
+    return true;
+  });
+
+  // Extract matching destinations for direct Planning CTA
+  const matchingDests = [];
+  if (searchQuery.trim() !== '') {
+    const query = searchQuery.toLowerCase().trim();
+    const seen = new Set();
+    itineraries.forEach(it => {
+      if (
+        it.destinationName && 
+        (it.destinationName.toLowerCase().includes(query) || 
+         it.destinationCountry.toLowerCase().includes(query))
+      ) {
+        if (!seen.has(it.destinationSlug)) {
+          seen.add(it.destinationSlug);
+          matchingDests.push({
+            name: it.destinationName,
+            country: it.destinationCountry,
+            emoji: it.destinationEmoji,
+            slug: it.destinationSlug
+          });
+        }
+      }
+    });
+  }
 
   return (
     <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
@@ -40,6 +91,45 @@ export default function RoteirosClient({ itineraries = [] }) {
               Explore roteiros dia a dia otimizados por nossos especialistas. Roteiros estruturados com as melhores rotas, passeios clássicos e locais secretos para otimizar o seu tempo.
             </p>
           </header>
+
+          {/* Search Bar Input */}
+          <div className="my-6 relative w-full">
+            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <Search className="h-5 w-5 text-text-muted/60" />
+            </div>
+            <input
+              type="text"
+              placeholder="Busque por países, cidades, estilos ou experiências (ex: 'Paris', 'Itália', 'Romance')..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full bg-white border border-border-gray pl-12 pr-6 py-4 rounded-xl text-sm sm:text-base font-semibold text-brand-navy placeholder:text-text-muted/50 focus:outline-none focus:border-brand-navy transition-all shadow-xs"
+            />
+          </div>
+
+          {/* Autocomplete / Found destinations suggestions panel */}
+          {matchingDests.length > 0 && (
+            <div className="mb-8 p-5 bg-[#FAF9F6] border border-brand-navy/5 rounded-2xl animate-fade-in text-left flex flex-col gap-3 shadow-sm">
+              <span className="text-[11px] font-black text-brand-orange uppercase tracking-wider block">
+                Destinos Encontrados
+              </span>
+              <p className="text-xs text-text-muted">
+                Deseja criar um roteiro personalizado do seu jeito para um destes destinos? Clique para iniciar o planejador:
+              </p>
+              <div className="flex flex-wrap gap-3">
+                {matchingDests.map((dest) => (
+                  <Link
+                    key={dest.slug}
+                    href={`/planejamento/${dest.slug}`}
+                    className="inline-flex items-center gap-2 bg-white border border-border-gray hover:border-[#96AB21] hover:bg-[#96AB21]/5 text-xs font-bold text-brand-navy px-4.5 py-2.5 rounded-xl transition-all shadow-xs group/link cursor-pointer hover:scale-[1.01] active:scale-95 animate-fade-in"
+                  >
+                    <span>{dest.emoji}</span>
+                    <span>Planejar viagem para {dest.name}</span>
+                    <ArrowRight className="w-3.5 h-3.5 text-[#96AB21] transform group-hover/link:translate-x-0.5 transition-transform" />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Destination Filters (App Tab Bar Style) */}
           {destFilters.length > 2 && (
@@ -96,7 +186,7 @@ export default function RoteirosClient({ itineraries = [] }) {
                 </div>
 
                 {/* Details Section */}
-                <div className="p-6 md:p-8 flex flex-col justify-between flex-grow gap-4 text-left">
+                <div className="p-6 md:p-8 flex flex-col justify-between flex-grow gap-5 text-left">
                   <div className="flex flex-col gap-2">
                     <h3 className="font-headers text-lg md:text-xl font-bold text-brand-navy group-hover:text-brand-orange transition-colors leading-tight">
                       {itinerary.title}
@@ -106,17 +196,29 @@ export default function RoteirosClient({ itineraries = [] }) {
                     </p>
                   </div>
 
-                  <div className="pt-4 border-t border-border-gray/30 flex items-center justify-between">
-                    <span className="text-[11px] text-text-muted font-medium flex items-center gap-1">
-                      <MapPin className="w-3.5 h-3.5 text-brand-orange shrink-0" />
-                      <span>{itinerary.destinationName}, {itinerary.destinationCountry}</span>
-                    </span>
+                  <div className="flex flex-col gap-2.5 pt-4 border-t border-border-gray/30 mt-auto">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[11px] text-text-muted font-medium flex items-center gap-1">
+                        <MapPin className="w-3.5 h-3.5 text-brand-orange shrink-0" />
+                        <span>{itinerary.destinationName}, {itinerary.destinationCountry}</span>
+                      </span>
+                      <Link 
+                        href={`/roteiros/${itinerary.slug}`}
+                        className="bg-[#96AB21] hover:bg-[#85981D] text-[#081B6B] font-extrabold px-5 py-2.5 rounded-xl transition-all shadow-sm hover:scale-[1.01] active:scale-95 text-xs flex items-center gap-1.5 cursor-pointer border border-[#96AB21]/10"
+                      >
+                        <span>Ver Roteiro</span>
+                        <ArrowRight className="w-3.5 h-3.5 transform group-hover/link:translate-x-0.5 transition-transform" />
+                      </Link>
+                    </div>
+
                     <Link 
-                      href={`/roteiros/${itinerary.slug}`}
-                      className="bg-[#96AB21] hover:bg-[#85981D] text-[#081B6B] font-extrabold px-5 py-2.5 rounded-xl transition-all shadow-sm hover:scale-[1.01] active:scale-95 text-xs flex items-center gap-1.5 cursor-pointer border border-[#96AB21]/10 animate-fade-in"
+                      href={`/quanto-custa/${itinerary.destinationSlug}`}
+                      className="text-xs font-semibold text-text-muted hover:text-brand-orange transition-colors flex items-center justify-between py-1 cursor-pointer"
                     >
-                      <span>Ver Roteiro</span>
-                      <ArrowRight className="w-3.5 h-3.5 transform group-hover:translate-x-0.5 transition-transform" />
+                      <span>Quanto custa viajar?</span>
+                      <span className="text-[11px] text-brand-green bg-brand-green/10 px-2.5 py-0.5 rounded-md font-bold">
+                        {itinerary.destinationCurrency || 'EUR'}
+                      </span>
                     </Link>
                   </div>
                 </div>

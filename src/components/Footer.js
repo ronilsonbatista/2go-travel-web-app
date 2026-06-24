@@ -74,8 +74,8 @@ export default function Footer({ onOpenDownload }) {
               </Link>
             </li>
             <li>
-              <Link href="/#destinos" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Destinos Curados
+              <Link href="/roteiros" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
+                Roteiros Curados
               </Link>
             </li>
             <li>

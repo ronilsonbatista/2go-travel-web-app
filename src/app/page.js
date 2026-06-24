@@ -38,7 +38,7 @@ const premiumSlides = [
     desc: 'Vilarejos de domos azuis sobre penhascos vulcânicos cercados por águas termais azul-turquesa.',
     tags: ['Romance', 'Praias'],
     img: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/destinos/santorini'
+    ctaLink: '/roteiros?search=Santorini'
   },
   {
     id: 'japan',
@@ -49,7 +49,7 @@ const premiumSlides = [
     desc: 'Caminhe sob os portais Torii vermelhos, explore templos budistas medievais e contemple avenidas futuristas.',
     tags: ['Cultura', 'Tecnologia'],
     img: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/destinos/toquio'
+    ctaLink: '/roteiros?search=Tóquio'
   },
   {
     id: 'norway',
@@ -60,7 +60,7 @@ const premiumSlides = [
     desc: 'Navegue entre paredões de rochas gigantescas esculpidos pelo gelo e assista às luzes mágicas do norte.',
     tags: ['Natureza', 'Aventura'],
     img: 'https://images.unsplash.com/photo-1527004013197-933c4bb611b3?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/destinos/noruega'
+    ctaLink: '/roteiros?search=Noruega'
   },
   {
     id: 'paris',
@@ -71,7 +71,7 @@ const premiumSlides = [
     desc: 'Das ruelas boêmias de Montmartre aos bulevares elegantes desenhados por Haussmann.',
     tags: ['Cultura', 'Romance'],
     img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/destinos/paris'
+    ctaLink: '/roteiros?search=Paris'
   },
   {
     id: 'capadocia',
@@ -82,7 +82,7 @@ const premiumSlides = [
     desc: 'Flutue ao nascer do sol em balões coloridos sobre chaminés de fadas e cidades esculpidas na rocha.',
     tags: ['Aventura', 'Romance'],
     img: 'https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/destinos/capadocia'
+    ctaLink: '/roteiros?search=Capadócia'
   },
   {
     id: 'noronha',
@@ -93,7 +93,7 @@ const premiumSlides = [
     desc: 'Praias intocadas de águas mornas habitadas por golfinhos, tartarugas marinhas e piscinas naturais de corais.',
     tags: ['Praias', 'Natureza'],
     img: '/assets/noronha.png',
-    ctaLink: '/destinos/fernando-de-noronha'
+    ctaLink: '/roteiros?search=Fernando de Noronha'
   },
   {
     id: 'maldivas',
@@ -104,7 +104,7 @@ const premiumSlides = [
     desc: 'Relaxe em praias de areia branca ultrafina, mergulhe em lagoas azul-piscina e viva o isolamento luxuoso.',
     tags: ['Romance', 'Praias'],
     img: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/destinos'
+    ctaLink: '/roteiros?search=Maldivas'
   },
   {
     id: 'toscana',
@@ -115,7 +115,7 @@ const premiumSlides = [
     desc: 'Percorra estradas ladeadas por ciprestes, visite vilas medievais de pedra e prove vinhos de classe mundial.',
     tags: ['Cultura', 'Gastronomia'],
     img: 'https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/destinos/roma'
+    ctaLink: '/roteiros?search=Toscana'
   },
   {
     id: 'south_africa',
@@ -126,7 +126,7 @@ const premiumSlides = [
     desc: 'Encontre os Big Five em reservas naturais e aprecie a Table Mountain sob a brisa do oceano Atlântico.',
     tags: ['Aventura', 'Natureza'],
     img: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/destinos'
+    ctaLink: '/roteiros?search=África do Sul'
   },
   {
     id: 'gramado',
@@ -137,7 +137,7 @@ const premiumSlides = [
     desc: 'O aconchego da colonização alemã com lagos cercados de pinheiros e gastronomia farta sob a neblina fria.',
     tags: ['Romance', 'Gastronomia'],
     img: 'https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/destinos/gramado'
+    ctaLink: '/roteiros?search=Gramado'
   }
 ];
 
@@ -579,7 +579,7 @@ export default function Home() {
                 </p>
               </div>
               <Link 
-                href="/destinos" 
+                href="/roteiros" 
                 className="text-sm font-bold text-brand-orange hover:text-[#96AB21] flex items-center gap-1 transition-colors whitespace-nowrap cursor-pointer"
               >
                 Ver todos &rarr;
@@ -589,12 +589,12 @@ export default function Home() {
             {/* Continental categories selectors */}
             <div className="flex gap-3 overflow-x-auto pb-6 mb-8 custom-scrollbar-hide flex-nowrap border-b border-border-gray/30">
               {[
-                { label: 'Europa 🇪🇺', slug: '/destinos' },
-                { label: 'Ásia ⛩️', slug: '/destinos' },
-                { label: 'América do Sul 🌴', slug: '/destinos' },
-                { label: 'América do Norte 🏔️', slug: '/destinos' },
-                { label: 'África 🦁', slug: '/destinos' },
-                { label: 'Oceania 🌊', slug: '/destinos' }
+                { label: 'Europa 🇪🇺', slug: '/roteiros?search=Europa' },
+                { label: 'Ásia ⛩️', slug: '/roteiros?search=Ásia' },
+                { label: 'América do Sul 🌴', slug: '/roteiros?search=América' },
+                { label: 'América do Norte 🏔️', slug: '/roteiros?search=América' },
+                { label: 'África 🦁', slug: '/roteiros?search=África' },
+                { label: 'Oceania 🌊', slug: '/roteiros?search=Oceania' }
               ].map((cat, i) => (
                 <Link 
                   key={i} 
@@ -610,7 +610,7 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
               {/* Paris */}
               <Link 
-                href="/destinos/paris"
+                href="/roteiros?search=Paris"
                 className="group relative h-64 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray"
               >
                 <img 
@@ -628,7 +628,7 @@ export default function Home() {
 
               {/* Roma */}
               <Link 
-                href="/destinos/roma"
+                href="/roteiros?search=Roma"
                 className="group relative h-64 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray"
               >
                 <img 
@@ -646,7 +646,7 @@ export default function Home() {
 
               {/* Lisboa */}
               <Link 
-                href="/destinos/lisboa"
+                href="/roteiros?search=Lisboa"
                 className="group relative h-64 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray"
               >
                 <img 
@@ -875,27 +875,46 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-5xl mx-auto w-full">
-              {/* Left Column Chat Mockup */}
-              <div className="bg-white border border-border-gray rounded-[28px] p-6 shadow-md flex flex-col gap-4 max-w-[420px] mx-auto w-full text-brand-navy relative">
-                <div className="flex items-center gap-3 border-b border-border-gray/50 pb-4">
-                  <div className="w-10 h-10 rounded-full bg-brand-navy flex items-center justify-center text-white font-headers font-bold text-sm">2GO</div>
-                  <div className="text-left">
-                    <h4 className="text-sm font-bold text-brand-navy">Especialista Local</h4>
-                    <span className="text-[12px] text-brand-green font-bold uppercase tracking-wider flex items-center gap-1">
-                      <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse"></span> Ativo agora
-                    </span>
+              {/* Left Column Chat Mockup (WhatsApp Business/Premium Style) */}
+              <div className="bg-[#E5DDD5] border border-border-gray/45 rounded-[28px] overflow-hidden shadow-lg flex flex-col max-w-[420px] mx-auto w-full text-brand-navy relative min-h-[385px] font-sans">
+                {/* Chat Header */}
+                <div className="bg-[#075E54] text-white p-4 flex items-center justify-between shadow-sm">
+                  <div className="flex items-center gap-3">
+                    <img 
+                      src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80" 
+                      alt="Marina Especialista" 
+                      className="w-10 h-10 rounded-full object-cover border border-white/20"
+                    />
+                    <div className="text-left">
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-xs font-extrabold text-white tracking-tight">Marina — Especialista 2GO</span>
+                        <span className="w-3.5 h-3.5 rounded-full bg-blue-500 text-white flex items-center justify-center text-[7px] font-black" title="Verificado">✓</span>
+                      </div>
+                      <span className="text-[10px] text-white/80 block">Ativa agora</span>
+                    </div>
+                  </div>
+                  <div className="flex gap-2.5 opacity-80 text-white text-xs">
+                    <span>💬</span>
                   </div>
                 </div>
 
-                <div className="flex flex-col gap-3.5 h-[230px] pr-1 text-xs select-none justify-end">
-                  <div className="bg-[#F7F8FA] text-brand-navy rounded-[18px] rounded-bl-sm p-3.5 max-w-[85%] text-left self-start shadow-sm border border-border-gray leading-relaxed animate-fade-in-up">
-                    Olá! Revisei seu roteiro de Santorini. O catamarã tradicional que você selecionou tem horários instáveis na temporada. Sugiro o rápido, que sai 15 min mais cedo e poupa 1h de mar. Reservo?
+                {/* Messages Container */}
+                <div className="flex flex-col gap-4 p-4 flex-grow text-xs justify-end leading-relaxed overflow-y-auto min-h-[290px]">
+                  {/* Message 1 */}
+                  <div className="bg-white text-brand-navy rounded-[14px] rounded-tl-sm p-3.5 max-w-[85%] text-left self-start shadow-sm border border-black/5 relative after:content-[''] after:absolute after:top-0 after:left-[-6px] after:border-t-[8px] after:border-t-white after:border-l-[8px] after:border-l-transparent">
+                    <p className="text-[10px] font-black text-brand-orange uppercase tracking-wider mb-1 block">Curadoria Humana 2GO</p>
+                    Olá, Ronilson! Tudo bem? ✈️ Vi seu interesse pela Toscana em outubro. Recomendo mudarmos a visita à vinícola para as 15h em vez das 17h, pois o pôr do sol acontece mais cedo no outono. Assim você aproveita a degustação com luz solar. O que acha?
+                    <span className="text-[8px] text-text-muted/70 float-right mt-1.5 ml-2">10:14</span>
                   </div>
-                  <div className="bg-brand-navy text-white rounded-[18px] rounded-br-sm p-3.5 max-w-[85%] text-left self-end shadow-sm leading-relaxed animate-fade-in-up" style={{ animationDelay: '300ms' }}>
-                    Nossa, ótima dica! Reservar sim, por favor. O voucher sincroniza no aplicativo?
+                  {/* Message 2 */}
+                  <div className="bg-[#DCF8C6] text-brand-navy rounded-[14px] rounded-tr-sm p-3.5 max-w-[85%] text-left self-end shadow-sm border border-black/5 relative after:content-[''] after:absolute after:top-0 after:right-[-6px] after:border-t-[8px] after:border-t-[#DCF8C6] after:border-r-[8px] after:border-r-transparent">
+                    Nossa, excelente observação Marina! Nem me atentei a isso. Pode ajustar por favor!
+                    <span className="text-[8px] text-text-muted/70 float-right mt-1.5 ml-2">10:16 ✓✓</span>
                   </div>
-                  <div className="bg-[#F7F8FA] text-brand-navy rounded-[18px] rounded-bl-sm p-3.5 max-w-[85%] text-left self-start shadow-sm border border-border-gray leading-relaxed animate-fade-in-up" style={{ animationDelay: '600ms' }}>
-                    Sim! Já está salvo direto na sua carteira de vouchers offline no app da 2GO. Boa travessia! ⛵
+                  {/* Message 3 */}
+                  <div className="bg-white text-brand-navy rounded-[14px] rounded-tl-sm p-3.5 max-w-[85%] text-left self-start shadow-sm border border-black/5 relative after:content-[''] after:absolute after:top-0 after:left-[-6px] after:border-t-[8px] after:border-t-white after:border-l-[8px] after:border-l-transparent">
+                    Ajustado! A reserva da vinícola e os transportes locais já foram atualizados. Você pode acessar os novos vouchers diretamente no aplicativo 2GO, mesmo offline. Boa viagem! 🍷
+                    <span className="text-[8px] text-text-muted/70 float-right mt-1.5 ml-2">10:17</span>
                   </div>
                 </div>
               </div>
@@ -1033,14 +1052,83 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* App Mockup Presentation */}
-              <div className="lg:col-span-5 relative z-10 flex justify-center items-center w-full h-80 lg:h-96">
-                <img 
-                  src="/assets/app-mockup.png" 
-                  alt="Aplicativo 2GO" 
-                  className="h-full object-contain hover:scale-105 transition-transform duration-500 drop-shadow-[0_20px_50px_rgba(244,122,32,0.15)]"
-                  loading="lazy"
-                />
+              {/* iOS Clean App Mockup in Pure CSS */}
+              <div className="lg:col-span-5 relative z-10 flex justify-center items-center w-full">
+                <div className="w-[280px] h-[500px] bg-[#0A1128] border-[6px] border-brand-navy rounded-[42px] shadow-2xl relative flex flex-col p-2.5 ring-8 ring-brand-navy/5 select-none hover:scale-102 transition-transform duration-500">
+                  {/* Dynamic Island */}
+                  <div className="absolute top-4 left-1/2 -translate-x-1/2 w-20 h-4.5 bg-brand-navy rounded-full z-30 flex items-center justify-center">
+                    <div className="w-1.5 h-1.5 rounded-full bg-white/10 absolute right-3"></div>
+                  </div>
+
+                  {/* Device Screen */}
+                  <div className="bg-white h-full w-full rounded-[32px] overflow-hidden flex flex-col justify-between p-4 font-sans text-brand-navy relative shadow-inner">
+                    {/* Time & Battery Status Bar */}
+                    <div className="flex justify-between items-center text-[9px] font-bold text-brand-navy/40 px-2 pt-0.5">
+                      <span>09:41</span>
+                      <div className="flex items-center gap-1">
+                        <span>📶</span>
+                        <span>🔋</span>
+                      </div>
+                    </div>
+
+                    {/* Screen Header */}
+                    <div className="text-left mt-3 px-1">
+                      <span className="text-[9px] font-extrabold text-brand-orange uppercase tracking-wider block">Meu Roteiro</span>
+                      <h4 className="font-headers text-base font-extrabold text-brand-navy leading-tight mt-0.5">Noronha Completo 🏝️</h4>
+                    </div>
+
+                    {/* Day Tabs */}
+                    <div className="flex gap-1 mt-3 px-1 overflow-x-auto pb-1 text-[10px] font-bold">
+                      <span className="bg-brand-navy text-white px-3 py-1.5 rounded-full cursor-pointer">Dia 1</span>
+                      <span className="bg-bg-light text-text-muted px-3 py-1.5 rounded-full cursor-pointer">Dia 2</span>
+                      <span className="bg-bg-light text-text-muted px-3 py-1.5 rounded-full cursor-pointer">Dia 3</span>
+                    </div>
+
+                    {/* Clean Timeline (Notion/Airbnb style) */}
+                    <div className="flex-grow flex flex-col gap-3.5 mt-4 text-left px-2 border-l-2 border-border-gray ml-3 relative">
+                      {/* Event 1 */}
+                      <div className="relative pl-4">
+                        <div className="absolute top-1 left-[-23px] w-3 h-3 rounded-full bg-brand-orange border border-white shadow-xs"></div>
+                        <span className="text-[9px] font-extrabold text-[#F47A20] block font-mono">09:00</span>
+                        <h5 className="text-[12px] font-extrabold text-brand-navy mt-0.5 leading-tight">Passeio de Barco ⛵</h5>
+                        <span className="inline-block text-[8px] bg-brand-green/10 text-brand-green font-bold px-1.5 py-0.5 rounded-md mt-0.5">Confirmado</span>
+                      </div>
+
+                      {/* Event 2 */}
+                      <div className="relative pl-4">
+                        <div className="absolute top-1 left-[-23px] w-3 h-3 rounded-full bg-[#96AB21] border border-white shadow-xs"></div>
+                        <span className="text-[9px] font-extrabold text-[#96AB21] block font-mono">13:00</span>
+                        <h5 className="text-[12px] font-extrabold text-brand-navy mt-0.5 leading-tight">Almoço no Pico 🍽️</h5>
+                        <p className="text-[9px] text-text-muted mt-0.5 leading-none">Frutos do mar locais</p>
+                      </div>
+
+                      {/* Event 3 */}
+                      <div className="relative pl-4">
+                        <div className="absolute top-1 left-[-23px] w-3 h-3 rounded-full bg-brand-navy border border-white shadow-xs"></div>
+                        <span className="text-[9px] font-extrabold text-brand-navy/60 block font-mono">16:30</span>
+                        <h5 className="text-[12px] font-extrabold text-brand-navy mt-0.5 leading-tight">Pôr do Sol no Boldró 🌅</h5>
+                        <span className="inline-block text-[8px] bg-brand-orange/10 text-brand-orange font-bold px-1.5 py-0.5 rounded-md mt-0.5">Imperdível</span>
+                      </div>
+                    </div>
+
+                    {/* Bottom Nav Bar */}
+                    <div className="border-t border-border-gray/40 pt-2 flex justify-around items-center text-[9px] font-extrabold text-brand-navy/65 mt-2 bg-white w-full">
+                      <div className="flex flex-col items-center gap-0.5 text-brand-orange">
+                        <span>📍</span>
+                        <span>Roteiro</span>
+                      </div>
+                      <div className="flex flex-col items-center gap-0.5">
+                        <span>💬</span>
+                        <span>Especialista</span>
+                      </div>
+                      <div className="flex flex-col items-center gap-0.5">
+                        <span>🗺️</span>
+                        <span>Mapa</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
               </div>
             </div>
           </ScrollReveal>

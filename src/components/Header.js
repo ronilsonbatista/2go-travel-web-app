@@ -21,12 +21,10 @@ export default function Header({ onOpenDownload }) {
   }, []);
 
   const menuItems = [
-    { label: 'Destinos', href: '/destinos' },
     { label: 'Roteiros', href: '/roteiros' },
     { label: 'Custos', href: '/quanto-custa' },
     { label: 'Planejamento', href: '/planejamento' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'Pesquisar', href: '/destinos' }
+    { label: 'Blog', href: '/blog' }
   ];
 
   return (
