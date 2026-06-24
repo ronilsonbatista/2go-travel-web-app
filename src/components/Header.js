@@ -58,7 +58,7 @@ export default function Header({ onOpenDownload }) {
                 <li key={idx}>
                   <Link
                     href={item.href}
-                    className={`font-body font-semibold text-[0.88rem] xl:text-[0.95rem] py-2 relative cursor-pointer transition-colors ${
+                    className={`font-body font-semibold text-[0.96rem] xl:text-[1.05rem] py-2 relative cursor-pointer transition-colors ${
                       pathname === item.href 
                         ? 'text-brand-orange' 
                         : 'text-text-muted hover:text-brand-navy'

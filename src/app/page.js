@@ -412,10 +412,10 @@ export default function Home() {
               {/* Left text panel */}
               <div className="lg:col-span-7 text-left flex flex-col gap-5 sm:gap-6 animate-fade-in-up items-center sm:items-start">
                 <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
-                  <span className="bg-[#F47A20] text-white text-[9px] sm:text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
+                  <span className="bg-[#F47A20] text-white text-[11px] sm:text-[12px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
                     ROTEIROS PERSONALIZADOS
                   </span>
-                  <span className="bg-brand-navy/5 border border-brand-navy/10 text-brand-navy text-[9px] sm:text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full w-fit flex items-center gap-1">
+                  <span className="bg-brand-navy/5 border border-brand-navy/10 text-brand-navy text-[11px] sm:text-[12px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full w-fit flex items-center gap-1">
                     📍 {premiumSlides[currentSlide].name}
                   </span>
                 </div>
@@ -434,7 +434,7 @@ export default function Home() {
                 </p>
                 
                 <div className="flex items-center mt-1 bg-brand-navy/5 border border-brand-navy/10 px-4 py-2.5 rounded-xl w-fit">
-                  <span className="text-brand-navy/85 text-xs italic font-medium">"{premiumSlides[currentSlide].phrase}"</span>
+                  <span className="text-brand-navy/85 text-sm italic font-medium">"{premiumSlides[currentSlide].phrase}"</span>
                 </div>
                 
                 <div className="flex flex-col sm:flex-row gap-3 mt-2 w-full sm:w-auto items-center sm:items-start">
@@ -476,7 +476,7 @@ export default function Home() {
 
               {/* Right Columns: Interactive Side Slider Previews (Apple TV Style) */}
               <div className="lg:col-span-5 flex flex-col lg:border-l lg:border-brand-navy/10 lg:pl-8 mt-10 lg:mt-0 w-full overflow-hidden">
-                <span className="text-[10px] font-black text-brand-navy/60 tracking-wider uppercase mb-3 block text-center lg:text-left">Mais Destinos</span>
+                <span className="text-[12px] font-black text-brand-navy/60 tracking-wider uppercase mb-3 block text-center lg:text-left">Mais Destinos</span>
                 
                 <div className="flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-visible lg:overflow-y-visible gap-3 pb-4 lg:pb-0 custom-scrollbar-hide flex-nowrap lg:flex-wrap w-full px-1 lg:px-0">
                   {premiumSlides.map((slide, idx) => {
@@ -496,7 +496,7 @@ export default function Home() {
                         </div>
                         <div className="min-w-0 flex-1 flex flex-col justify-center">
                           <h4 className={`text-sm font-extrabold truncate ${isSelected ? 'text-brand-navy font-black' : 'text-brand-navy/80 group-hover:text-brand-navy'}`}>{slide.name}</h4>
-                          <p className="text-[11px] font-medium line-clamp-2 mt-0.5 leading-snug whitespace-normal text-brand-navy/60 group-hover:text-brand-navy/80">{slide.phrase}</p>
+                          <p className="text-[13px] font-medium line-clamp-2 mt-0.5 leading-snug whitespace-normal text-brand-navy/60 group-hover:text-brand-navy/80">{slide.phrase}</p>
                         </div>
                       </button>
                     );
@@ -512,7 +512,7 @@ export default function Home() {
         <section id="como-funciona" className="py-20 md:py-28 bg-bg-light border-b border-border-gray/50 scroll-mt-20">
           <ScrollReveal className="container mx-auto px-6">
             <div className="text-center max-w-[600px] mx-auto mb-14 md:mb-16">
-              <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
+              <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
                 MÁXIMA PRATICIDADE
               </span>
               <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
@@ -568,7 +568,7 @@ export default function Home() {
           <ScrollReveal className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
               <div className="text-left max-w-2xl">
-                <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
+                <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
                   PORTAL DE VIAGENS
                 </span>
                 <h2 className="font-headers text-3.5xl font-black text-brand-navy mt-4 tracking-tight">
@@ -599,7 +599,7 @@ export default function Home() {
                 <Link 
                   key={i} 
                   href={cat.slug} 
-                  className="px-5 py-2.5 rounded-full bg-white border border-border-gray/70 hover:border-[#96AB21] hover:text-[#96AB21] text-[10px] sm:text-xs font-extrabold text-brand-navy shrink-0 transition-all duration-300 hover:scale-[1.02] shadow-sm uppercase tracking-wider"
+                  className="px-5 py-2.5 rounded-full bg-white border border-border-gray/70 hover:border-[#96AB21] hover:text-[#96AB21] text-xs sm:text-sm font-extrabold text-brand-navy shrink-0 transition-all duration-300 hover:scale-[1.02] shadow-sm uppercase tracking-wider"
                 >
                   {cat.label}
                 </Link>
@@ -620,9 +620,9 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
                 <div className="absolute bottom-5 left-5 right-5 text-left">
-                  <span className="text-[8px] font-black text-[#96AB21] bg-[#96AB21]/15 px-2 py-0.5 rounded uppercase tracking-wider">França 🇫🇷</span>
+                  <span className="text-[11px] font-black text-[#96AB21] bg-[#96AB21]/15 px-2 py-0.5 rounded-md uppercase tracking-wider">França 🇫🇷</span>
                   <h4 className="font-headers text-sm sm:text-base font-extrabold text-white mt-1 group-hover:text-[#96AB21] transition-colors">Paris, França</h4>
-                  <p className="text-[10px] text-white/70 line-clamp-2 mt-0.5">Arte, bistrôs tradicionais e o charme do Rio Sena.</p>
+                  <p className="text-[12px] text-white/70 line-clamp-2 mt-0.5">Arte, bistrôs tradicionais e o charme do Rio Sena.</p>
                 </div>
               </Link>
 
@@ -638,9 +638,9 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
                 <div className="absolute bottom-5 left-5 right-5 text-left">
-                  <span className="text-[8px] font-black text-[#96AB21] bg-[#96AB21]/15 px-2 py-0.5 rounded uppercase tracking-wider">Itália 🇮🇹</span>
+                  <span className="text-[11px] font-black text-[#96AB21] bg-[#96AB21]/15 px-2 py-0.5 rounded-md uppercase tracking-wider">Itália 🇮🇹</span>
                   <h4 className="font-headers text-sm sm:text-base font-extrabold text-white mt-1 group-hover:text-[#96AB21] transition-colors">Roma, Itália</h4>
-                  <p className="text-[10px] text-white/70 line-clamp-2 mt-0.5">A Cidade Eterna com ruínas históricas e gastronomia inigualável.</p>
+                  <p className="text-[12px] text-white/70 line-clamp-2 mt-0.5">A Cidade Eterna com ruínas históricas e gastronomia inigualável.</p>
                 </div>
               </Link>
 
@@ -656,9 +656,9 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
                 <div className="absolute bottom-5 left-5 right-5 text-left">
-                  <span className="text-[8px] font-black text-[#96AB21] bg-[#96AB21]/15 px-2 py-0.5 rounded uppercase tracking-wider">Portugal 🇵🇹</span>
+                  <span className="text-[11px] font-black text-[#96AB21] bg-[#96AB21]/15 px-2 py-0.5 rounded-md uppercase tracking-wider">Portugal 🇵🇹</span>
                   <h4 className="font-headers text-sm sm:text-base font-extrabold text-white mt-1 group-hover:text-[#96AB21] transition-colors">Lisboa, Portugal</h4>
-                  <p className="text-[10px] text-white/70 line-clamp-2 mt-0.5">Ruelas históricas, bondinhos amarelos e pastéis de Belém.</p>
+                  <p className="text-[12px] text-white/70 line-clamp-2 mt-0.5">Ruelas históricas, bondinhos amarelos e pastéis de Belém.</p>
                 </div>
               </Link>
             </div>
@@ -683,7 +683,7 @@ export default function Home() {
         <section className="py-20 md:py-28 bg-white border-b border-border-gray/50">
           <ScrollReveal className="container mx-auto px-6 max-w-5xl">
             <div className="text-center max-w-[620px] mx-auto mb-14 md:mb-16">
-              <span className="bg-brand-green/10 text-brand-green text-[10px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
+              <span className="bg-brand-green/10 text-brand-green text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
                 TECNOLOGIA EXCLUSIVA
               </span>
               <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
@@ -701,7 +701,7 @@ export default function Home() {
                   <h4 className="font-headers text-base sm:text-lg font-bold text-brand-navy border-b border-border-gray pb-3">Parâmetros de Viagem</h4>
                   
                   <div className="flex flex-col gap-1">
-                    <span className="text-[10px] font-bold text-text-muted uppercase tracking-wide">Destino</span>
+                    <span className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Destino</span>
                     <div className="bg-white border border-border-gray px-4 py-2.5 rounded-xl text-sm font-semibold text-brand-navy flex items-center justify-between">
                       <span>Japão 🇯🇵</span>
                       <span className="text-xs font-normal text-text-muted">Tóquio & Kyoto</span>
@@ -710,13 +710,13 @@ export default function Home() {
 
                   <div className="grid grid-cols-2 gap-4">
                     <div className="flex flex-col gap-1">
-                      <span className="text-[10px] font-bold text-text-muted uppercase tracking-wide">Duração</span>
+                      <span className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Duração</span>
                       <div className="bg-white border border-border-gray px-4 py-2.5 rounded-xl text-sm font-semibold text-brand-navy">
                         14 dias 📅
                       </div>
                     </div>
                     <div className="flex flex-col gap-1">
-                      <span className="text-[10px] font-bold text-text-muted uppercase tracking-wide">Companhia</span>
+                      <span className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Companhia</span>
                       <div className="bg-white border border-border-gray px-4 py-2.5 rounded-xl text-sm font-semibold text-brand-navy">
                         Casal 👩‍❤️‍👨
                       </div>
@@ -724,7 +724,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex flex-col gap-1">
-                    <span className="text-[10px] font-bold text-text-muted uppercase tracking-wide">Estilo de Viagem</span>
+                    <span className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Estilo de Viagem</span>
                     <div className="bg-white border border-border-gray px-4 py-2.5 rounded-xl text-sm font-semibold text-brand-navy">
                       Cultura, Templos & Comida 🍣
                     </div>
@@ -789,22 +789,22 @@ export default function Home() {
                   {visibleDays.includes('day1') && (
                     <div className="bg-white border border-border-gray rounded-xl p-4 text-left shadow-xs animate-fade-in-up">
                       <div className="flex justify-between items-center mb-3">
-                        <span className="bg-brand-orange/10 text-brand-orange text-[9px] font-bold px-2 py-0.5 rounded">DIA 1</span>
-                        <span className="text-[10px] text-text-muted font-medium">Tóquio cultural</span>
+                        <span className="bg-brand-orange/10 text-brand-orange text-[11px] font-bold px-2 py-0.5 rounded-md">DIA 1</span>
+                        <span className="text-[12px] text-text-muted font-medium">Tóquio cultural</span>
                       </div>
                       <div className="flex flex-col gap-2">
                         <div className="flex gap-2.5 items-start text-xs text-brand-navy">
                           <span className="text-sm shrink-0">⛩️</span>
                           <div>
                             <strong className="block font-semibold">Templo Senso-ji em Asakusa</strong>
-                            <span className="text-[10px] text-text-muted">Visita agendada para primeiras horas da manhã (evitando filas).</span>
+                            <span className="text-[12px] text-text-muted">Visita agendada para primeiras horas da manhã (evitando filas).</span>
                           </div>
                         </div>
                         <div className="flex gap-2.5 items-start text-xs text-brand-navy">
                           <span className="text-sm shrink-0">🗼</span>
                           <div>
                             <strong className="block font-semibold">Shinjuku Sky & Jantar Típico</strong>
-                            <span className="text-[10px] text-text-muted">Jantar tradicional sugerido no beco histórico Omoide Yokocho.</span>
+                            <span className="text-[12px] text-text-muted">Jantar tradicional sugerido no beco histórico Omoide Yokocho.</span>
                           </div>
                         </div>
                       </div>
@@ -814,15 +814,15 @@ export default function Home() {
                   {visibleDays.includes('day2') && (
                     <div className="bg-white border border-border-gray rounded-xl p-4 text-left shadow-xs animate-fade-in-up">
                       <div className="flex justify-between items-center mb-3">
-                        <span className="bg-brand-orange/10 text-brand-orange text-[9px] font-bold px-2 py-0.5 rounded">DIA 2</span>
-                        <span className="text-[10px] text-text-muted font-medium">Monte Fuji & Hakone</span>
+                        <span className="bg-brand-orange/10 text-brand-orange text-[11px] font-bold px-2 py-0.5 rounded-md">DIA 2</span>
+                        <span className="text-[12px] text-text-muted font-medium">Monte Fuji & Hakone</span>
                       </div>
                       <div className="flex flex-col gap-2">
                         <div className="flex gap-2.5 items-start text-xs text-brand-navy">
                           <span className="text-sm shrink-0">🗻</span>
                           <div>
                             <strong className="block font-semibold">Lago Ashi & Vista do Monte Fuji</strong>
-                            <span className="text-[10px] text-text-muted">Passeio de catamarã pelo lago com paradas no Tori flutuante.</span>
+                            <span className="text-[12px] text-text-muted">Passeio de catamarã pelo lago com paradas no Tori flutuante.</span>
                           </div>
                         </div>
                       </div>
@@ -832,15 +832,15 @@ export default function Home() {
                   {visibleDays.includes('day3') && (
                     <div className="bg-white border border-border-gray rounded-xl p-4 text-left shadow-xs animate-fade-in-up">
                       <div className="flex justify-between items-center mb-3">
-                        <span className="bg-brand-orange/10 text-brand-orange text-[9px] font-bold px-2 py-0.5 rounded">DIA 3</span>
-                        <span className="text-[10px] text-text-muted font-medium">Kyoto Clássico</span>
+                        <span className="bg-brand-orange/10 text-brand-orange text-[11px] font-bold px-2 py-0.5 rounded-md">DIA 3</span>
+                        <span className="text-[12px] text-text-muted font-medium">Kyoto Clássico</span>
                       </div>
                       <div className="flex flex-col gap-2">
                         <div className="flex gap-2.5 items-start text-xs text-brand-navy">
                           <span className="text-sm shrink-0">🌸</span>
                           <div>
                             <strong className="block font-semibold">Santuário de Fushimi Inari-taisha</strong>
-                            <span className="text-[10px] text-text-muted">Caminhada sob os milhares de Torii tradicionais ladeando a floresta.</span>
+                            <span className="text-[12px] text-text-muted">Caminhada sob os milhares de Torii tradicionais ladeando a floresta.</span>
                           </div>
                         </div>
                       </div>
@@ -856,7 +856,7 @@ export default function Home() {
         <section id="roteiros" className="py-20 md:py-28 bg-white border-b border-border-gray/50 scroll-mt-20">
           <ScrollReveal className="container mx-auto px-6">
             <div className="text-left max-w-xl mb-12">
-              <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
+              <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
                 CATÁLOGO EDITORIAL
               </span>
               <h2 className="font-headers text-3.5xl font-black text-brand-navy mt-4 tracking-tight">
@@ -884,13 +884,13 @@ export default function Home() {
                     <div className="h-44 overflow-hidden relative">
                       <img src={itinerary.img} alt={itinerary.dest} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-103" />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-                      <span className="absolute top-4 left-4 bg-brand-orange text-white text-[9px] font-extrabold px-3 py-1 rounded-xl shadow-sm">
+                      <span className="absolute top-4 left-4 bg-brand-orange text-white text-[11px] font-extrabold px-3 py-1 rounded-xl shadow-sm">
                         {itinerary.days}
                       </span>
                     </div>
 
                     <div className="p-5 text-left">
-                      <span className="text-[9px] text-[#96AB21] font-bold block uppercase tracking-wide">{itinerary.style}</span>
+                      <span className="text-[11px] text-[#96AB21] font-bold block uppercase tracking-wide">{itinerary.style}</span>
                       <h3 className="font-headers text-base font-bold text-brand-navy mt-1 group-hover:text-brand-orange transition-colors leading-tight">
                         {itinerary.dest}
                       </h3>
@@ -900,13 +900,13 @@ export default function Home() {
                   <div className="p-5 pt-0 grid grid-cols-2 gap-2 mt-2">
                     <Link 
                       href={`/roteiros/${itinerary.slug}`}
-                      className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-bold py-2 rounded-xl transition-all text-[11px] flex items-center justify-center gap-1 cursor-pointer"
+                      className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-bold py-2 rounded-xl transition-all text-[13px] flex items-center justify-center gap-1 cursor-pointer"
                     >
                       Ver Roteiro
                     </Link>
                     <Link 
                       href="/planejamento"
-                      className="border border-[#96AB21] text-[#96AB21] hover:bg-[#96AB21]/5 font-bold py-2 rounded-xl transition-all text-[11px] flex items-center justify-center cursor-pointer"
+                      className="border border-[#96AB21] text-[#96AB21] hover:bg-[#96AB21]/5 font-bold py-2 rounded-xl transition-all text-[13px] flex items-center justify-center cursor-pointer"
                     >
                       Criar semelhante
                     </Link>
@@ -927,7 +927,7 @@ export default function Home() {
                   Criar Meu Roteiro
                 </Link>
               </div>
-              <p className="text-[11px] text-text-muted mt-4">
+              <p className="text-[13px] text-text-muted mt-4">
                 📲 Salve, edite e acompanhe sua viagem pelo celular.
               </p>
             </div>
@@ -940,7 +940,7 @@ export default function Home() {
 
           <ScrollReveal className="container mx-auto px-6">
             <div className="text-center max-w-[600px] mx-auto mb-14 md:mb-16">
-              <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
+              <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
                 TOQUE HUMANO ESPECIALIZADO
               </span>
               <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
@@ -958,7 +958,7 @@ export default function Home() {
                   <div className="w-10 h-10 rounded-full bg-brand-navy flex items-center justify-center text-white font-headers font-bold text-sm">2GO</div>
                   <div className="text-left">
                     <h4 className="text-sm font-bold text-brand-navy">Especialista Local</h4>
-                    <span className="text-[10px] text-brand-green font-bold uppercase tracking-wider flex items-center gap-1">
+                    <span className="text-[12px] text-brand-green font-bold uppercase tracking-wider flex items-center gap-1">
                       <span className="w-1.5 h-1.5 rounded-full bg-brand-green animate-pulse"></span> Ativo agora
                     </span>
                   </div>
@@ -1020,7 +1020,7 @@ export default function Home() {
         <section id="avaliacoes" className="py-20 md:py-28 bg-white border-b border-border-gray/50 scroll-mt-20">
           <ScrollReveal className="container mx-auto px-6">
             <div className="text-center max-w-[600px] mx-auto mb-14 md:mb-16">
-              <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
+              <span className="bg-brand-navy/10 text-brand-navy text-[12px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
                 DEPOIMENTOS DE VIAJANTES
               </span>
               <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
@@ -1053,7 +1053,7 @@ export default function Home() {
                 }
               ].map((review, idx) => (
                 <div key={idx} className="group bg-[#F7F8FA] border border-border-gray/70 p-6 sm:p-8 rounded-[24px] shadow-xs hover:shadow-md hover:translate-y-[-2px] transition-all duration-300 flex flex-col text-left">
-                  <span className="bg-brand-green/10 text-brand-green text-[8.5px] font-extrabold tracking-widest px-2.5 py-1 rounded w-fit mb-6">FEEDBACK VERIFICADO</span>
+                  <span className="bg-brand-green/10 text-brand-green text-[11px] font-extrabold tracking-widest px-2.5 py-1 rounded w-fit mb-6">FEEDBACK VERIFICADO</span>
                   <p className="text-base italic leading-relaxed mb-6 flex-grow font-semibold text-brand-navy">
                     "{review.text}"
                   </p>
@@ -1063,7 +1063,7 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col">
                       <h4 className="text-xs font-extrabold text-brand-navy">{review.name}</h4>
-                      <span className="text-[9.5px] text-text-muted leading-none mt-1">{review.trip}</span>
+                      <span className="text-[12px] text-text-muted leading-none mt-1">{review.trip}</span>
                     </div>
                   </div>
                 </div>
@@ -1084,7 +1084,7 @@ export default function Home() {
               <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-[#96AB21]/10 rounded-full blur-[100px] pointer-events-none select-none"></div>
 
               <div className="lg:col-span-7 flex flex-col gap-5 sm:gap-6 relative z-10 w-full">
-                <span className="bg-brand-orange text-white text-[9px] font-extrabold tracking-widest px-2.5 py-1 rounded-full w-fit">
+                <span className="bg-brand-orange text-white text-[11px] font-extrabold tracking-widest px-2.5 py-1 rounded-full w-fit">
                   INICIE SEU PLANO
                 </span>
                 <h2 className="font-headers text-3xl md:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-white">
