@@ -518,8 +518,8 @@ export default function Home() {
               <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
                 Do sonho ao roteiro em 3 passos
               </h2>
-              <p className="text-sm text-text-muted mt-3">
-                O planejamento simplificado e a curadoria local unidos para criar sua próxima experiência sob medida.
+              <p className="text-sm text-text-muted mt-3 font-medium">
+                <span className="text-brand-orange font-bold">A tecnologia organiza. Especialistas aperfeiçoam.</span> O planejamento simplificado e a curadoria local unidos para criar sua próxima experiência sob medida.
               </p>
             </div>
 
@@ -852,87 +852,7 @@ export default function Home() {
           </ScrollReveal>
         </section>
 
-        {/* 5. EDITORIAL ITINERARIES CATALOG */}
-        <section id="roteiros" className="py-20 md:py-28 bg-white border-b border-border-gray/50 scroll-mt-20">
-          <ScrollReveal className="container mx-auto px-6">
-            <div className="text-left max-w-xl mb-12">
-              <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
-                CATÁLOGO EDITORIAL
-              </span>
-              <h2 className="font-headers text-3.5xl font-black text-brand-navy mt-4 tracking-tight">
-                Roteiros para inspirar sua próxima viagem
-              </h2>
-              <p className="text-sm text-text-muted mt-2">
-                Navegue por sugestões de itinerários completos e estruturados por quem entende do assunto.
-              </p>
-            </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {[
-                { dest: 'Paris, França 🇫🇷', days: '5 dias', style: 'Cultura & Romance', img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80', slug: 'paris-5-dias' },
-                { dest: 'Roma, Itália 🇮🇹', days: '4 dias', style: 'História & Gastronomia', img: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&q=80', slug: 'roma-3-dias' },
-                { dest: 'Portugal 🇵🇹', days: '10 dias', style: 'Cultura & Litoral', img: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80', slug: 'lisboa-3-dias' },
-                { dest: 'Japão 🇯🇵', days: '14 dias', style: 'Templos & Tecnologia', img: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80', slug: 'toquio-7-dias' },
-                { dest: 'Itália 🇮🇹', days: '15 dias', style: 'Vinhos & Gastronomia', img: 'https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=600&q=80', slug: 'italia-15-dias' },
-                { dest: 'Grécia 🇬🇷', days: '12 dias', style: 'Praias & Romance', img: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=600&q=80', slug: 'santorini' }
-              ].map((itinerary, index) => (
-                <div 
-                  key={index}
-                  className="group bg-white border border-border-gray rounded-[24px] overflow-hidden shadow-sm hover:shadow-md hover:translate-y-[-3px] transition-all duration-300 flex flex-col justify-between"
-                >
-                  <div>
-                    <div className="h-44 overflow-hidden relative">
-                      <img src={itinerary.img} alt={itinerary.dest} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-103" />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-                      <span className="absolute top-4 left-4 bg-brand-orange text-white text-[11px] font-extrabold px-3 py-1 rounded-xl shadow-sm">
-                        {itinerary.days}
-                      </span>
-                    </div>
-
-                    <div className="p-5 text-left">
-                      <span className="text-[11px] text-[#96AB21] font-bold block uppercase tracking-wide">{itinerary.style}</span>
-                      <h3 className="font-headers text-base font-bold text-brand-navy mt-1 group-hover:text-brand-orange transition-colors leading-tight">
-                        {itinerary.dest}
-                      </h3>
-                    </div>
-                  </div>
-
-                  <div className="p-5 pt-0 grid grid-cols-2 gap-2 mt-2">
-                    <Link 
-                      href={`/roteiros/${itinerary.slug}`}
-                      className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-bold py-2 rounded-xl transition-all text-[13px] flex items-center justify-center gap-1 cursor-pointer"
-                    >
-                      Ver Roteiro
-                    </Link>
-                    <Link 
-                      href="/planejamento"
-                      className="border border-[#96AB21] text-[#96AB21] hover:bg-[#96AB21]/5 font-bold py-2 rounded-xl transition-all text-[13px] flex items-center justify-center cursor-pointer"
-                    >
-                      Criar semelhante
-                    </Link>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Custom CTA block */}
-            <div className="mt-16 text-center max-w-lg mx-auto">
-              <h4 className="font-headers text-lg sm:text-xl font-bold text-brand-navy">Gostou de algum roteiro?</h4>
-              <p className="text-xs sm:text-sm text-text-muted mt-2">Crie uma versão personalizada para sua viagem.</p>
-              <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center items-center">
-                <Link 
-                  href="/planejamento"
-                  className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold px-8 py-3.5 rounded-xl shadow-md shadow-[#96AB21]/15 text-xs transition-all hover:scale-[1.01] active:scale-95 cursor-pointer"
-                >
-                  Criar Meu Roteiro
-                </Link>
-              </div>
-              <p className="text-[13px] text-text-muted mt-4">
-                📲 Salve, edite e acompanhe sua viagem pelo celular.
-              </p>
-            </div>
-          </ScrollReveal>
-        </section>
 
         {/* 6. EXPERIÊNCIA PERSONALIZADA (LIGHT BG REDESIGN) */}
         <section id="premium-custom" className="py-20 md:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative overflow-hidden">
@@ -946,7 +866,10 @@ export default function Home() {
               <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
                 Quer um toque humano no seu planejamento?
               </h2>
-              <p className="text-sm text-text-muted mt-3">
+              <p className="text-base font-bold text-brand-orange mt-2">
+                A tecnologia organiza. Especialistas aperfeiçoam.
+              </p>
+              <p className="text-sm text-text-muted mt-2">
                 Para viagens especiais, conte com um especialista da 2GO: atendimento individual, curadoria sob medida e suporte do início ao fim.
               </p>
             </div>
@@ -1078,7 +1001,7 @@ export default function Home() {
           <div className="absolute bottom-20 left-1/3 w-3 h-3 bg-brand-green/30 rounded-full"></div>
 
           <ScrollReveal className="container mx-auto px-6">
-            <div className="bg-brand-navy text-white p-8 md:p-16 rounded-[32px] relative overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-center gap-12 text-left shadow-xl border border-white/5">
+            <div className="bg-[#FAF9F6] text-brand-navy p-8 md:p-16 rounded-[32px] relative overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-center gap-12 text-left shadow-lg border border-brand-navy/5">
               {/* Subtle background glow */}
               <div className="absolute -top-24 -right-24 w-96 h-96 bg-brand-orange/10 rounded-full blur-[100px] pointer-events-none select-none"></div>
               <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-[#96AB21]/10 rounded-full blur-[100px] pointer-events-none select-none"></div>
@@ -1087,10 +1010,10 @@ export default function Home() {
                 <span className="bg-brand-orange text-white text-[11px] font-extrabold tracking-widest px-2.5 py-1 rounded-full w-fit">
                   INICIE SEU PLANO
                 </span>
-                <h2 className="font-headers text-3xl md:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-white">
+                <h2 className="font-headers text-3xl md:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-brand-navy">
                   Crie seu roteiro perfeito em poucos toques
                 </h2>
-                <p className="text-sm md:text-base text-white/80 leading-relaxed">
+                <p className="text-sm md:text-base text-text-muted leading-relaxed">
                   O app da 2GO organiza seu roteiro diário, otimizado e sob medida.
                 </p>
                 
@@ -1103,7 +1026,7 @@ export default function Home() {
                   </button>
                   <Link 
                     href="/planejamento"
-                    className="border border-white/20 text-white hover:bg-white/10 font-bold px-8 py-4 rounded-xl transition-all flex items-center justify-center"
+                    className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-8 py-4 rounded-xl transition-all flex items-center justify-center"
                   >
                     Criar Meu Roteiro
                   </Link>

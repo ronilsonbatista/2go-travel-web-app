@@ -369,6 +369,142 @@ const itineraryDatabase = {
         ]
       }
     ]
+  },
+  noruega: {
+    name: 'Noruega (Fiordes & Aurora Boreal)',
+    title: 'Fiordes Noruegueses & Aurora Boreal',
+    desc: 'Uma expedição sob as luzes do norte e através dos fiordes mais profundos e belos do mundo.',
+    days: [
+      {
+        day: 'Dia 1',
+        title: 'Chegada a Oslo & Cultura Nórdica',
+        events: [
+          { time: '14:00', title: 'Check-in no The Thief Hotel (Oslo)' },
+          { time: '16:00', title: 'Visita guiada ao Museu Munch e Ópera de Oslo' },
+          { time: '20:00', title: 'Jantar de culinária neo-nórdica no Maaemo' }
+        ]
+      },
+      {
+        day: 'Dia 2',
+        title: 'Voo para Tromsø & Caçada à Aurora Boreal',
+        events: [
+          { time: '09:00', title: 'Voo doméstico de Oslo para Tromsø (a capital do Ártico)' },
+          { time: '14:00', title: 'Passeio pelo centro histórico e Catedral Ártica' },
+          { time: '19:00', title: 'Expedição privativa de trenó para caça da Aurora Boreal' }
+        ]
+      },
+      {
+        day: 'Dia 3',
+        title: 'Navegação Silenciosa pelos Fiordes',
+        events: [
+          { time: '09:30', title: 'Cruzeiro híbrido elétrico pelas águas cristalinas do fiorde de Tromsø' },
+          { time: '13:00', title: 'Almoço com degustação de iguarias árticas a bordo' },
+          { time: '16:00', title: 'Retorno, relax em spa térmico e check-out' }
+        ]
+      }
+    ]
+  },
+  maldivas: {
+    name: 'Ilhas Maldivas (Oceano Índico)',
+    title: 'Maldivas Exclusivo & Sob Medida',
+    desc: 'O refúgio de praia perfeito em bangalôs luxuosos sobre as águas azul-turquesa cristalinas.',
+    days: [
+      {
+        day: 'Dia 1',
+        title: 'Transfer de Hidroavião & Bangalô de Luxo',
+        events: [
+          { time: '11:00', title: 'Transfer cênico de hidroavião para o Resort Soneva Jani' },
+          { time: '14:00', title: 'Check-in no bangalô sobre as águas com tobogã privativo' },
+          { time: '17:00', title: 'Sunset cocktail no bar flutuante com música ambiente' }
+        ]
+      },
+      {
+        day: 'Dia 2',
+        title: 'Mergulho com Raias & Spa sobre a Água',
+        events: [
+          { time: '08:30', title: 'Snorkeling privado para nadar com tartarugas e arraias manta' },
+          { time: '13:00', title: 'Almoço flutuante servido na piscina privativa do bangalô' },
+          { time: '16:00', title: 'Massagem ayurvédica de casal no spa sobre a lagoa' }
+        ]
+      },
+      {
+        day: 'Dia 3',
+        title: 'Sandbank Privado & Jantar Sob as Estrelas',
+        events: [
+          { time: '10:00', title: 'Passeio de lancha rápida para piquenique gourmet em banco de areia deserto' },
+          { time: '16:00', title: 'Tempo livre para stand-up paddle ou caiaque transparente' },
+          { time: '19:30', title: 'Jantar privativo à luz de velas com churrasco de frutos do mar' }
+        ]
+      }
+    ]
+  },
+  grecia: {
+    name: 'Santorini & Atenas, Grécia',
+    title: 'Grécia Clássica & Ilhas Egeias',
+    desc: 'A fusão da história clássica ocidental em Atenas com a beleza cênica e romântica de Santorini.',
+    days: [
+      {
+        day: 'Dia 1',
+        title: 'Acrópole Histórica & Plaka',
+        events: [
+          { time: '09:00', title: 'Visita exclusiva com guia arqueológico à Acrópole e Museu' },
+          { time: '13:00', title: 'Almoço grego tradicional nas ruelas charmosas de Plaka' },
+          { time: '17:00', title: 'Caminhada ao topo do Monte Licabeto para vista de Atenas' }
+        ]
+      },
+      {
+        day: 'Dia 2',
+        title: 'Voo para Santorini & Pôr do Sol em Oia',
+        events: [
+          { time: '08:00', title: 'Voo de Atenas para Santorini (ou balsa rápida classe VIP)' },
+          { time: '13:00', title: 'Check-in em hotel boutique em penhasco da Caldera' },
+          { time: '17:30', title: 'Degustação de vinhos locais e pôr do sol nas ruínas de Oia' }
+        ]
+      },
+      {
+        day: 'Dia 3',
+        title: 'Navegação na Caldera de Catamarã',
+        events: [
+          { time: '09:30', title: 'Cruzeiro privativo de catamarã pela Caldera, vulcão e fontes termais' },
+          { time: '13:30', title: 'Almoço grego grelhado na hora a bordo do catamarã' },
+          { time: '18:00', title: 'Retorno ao hotel e jantar com vista da Caldera iluminada' }
+        ]
+      }
+    ]
+  },
+  safari: {
+    name: 'Kruger Park & Cape Town, África do Sul',
+    title: 'Safári de Luxo & Rota dos Vinhos',
+    desc: 'A emoção dos Big Five na savana combinada ao charme cosmopolita de Cape Town e vinícolas.',
+    days: [
+      {
+        day: 'Dia 1',
+        title: 'Chegada a Cape Town & Table Mountain',
+        events: [
+          { time: '12:00', title: 'Check-in no The Silo Hotel (V&A Waterfront, Cape Town)' },
+          { time: '15:00', title: 'Subida de teleférico à icônica Table Mountain' },
+          { time: '20:00', title: 'Jantar contemporâneo africano no restaurante FYN' }
+        ]
+      },
+      {
+        day: 'Dia 2',
+        title: 'Safári no Kruger Park (Big Five)',
+        events: [
+          { time: '06:00', title: 'Voo privado de Cape Town para a pista de pouso de Skukuza no Kruger' },
+          { time: '13:00', title: 'Hospedagem no Singita Boulders Lodge à beira do rio' },
+          { time: '15:30', title: 'Game Drive em veículo 4x4 aberto para avistar animais selvagens' }
+        ]
+      },
+      {
+        day: 'Dia 3',
+        title: 'Safári ao Amanhecer & Stellenbosch',
+        events: [
+          { time: '05:30', title: 'Safári fotográfico matinal seguido de café da manhã na savana' },
+          { time: '13:00', title: 'Retorno a Stellenbosch para tour privativo pelas vinícolas' },
+          { time: '17:00', title: 'Transfer final e check-out' }
+        ]
+      }
+    ]
   }
 };
 
@@ -386,6 +522,17 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
   const [style, setStyle] = useState('');
   const [duration, setDuration] = useState('');
   const [budget, setBudget] = useState('');
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const selectDestinationAndAdvance = (destId) => {
+    setDestination(destId);
+    setStep(1);
+  };
+
+  const selectStyleAndAdvance = (styleId) => {
+    setStyle(styleId);
+    setStep(2);
+  };
 
   // Reset steps if preselected value changes
   useEffect(() => {
@@ -501,24 +648,95 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Para onde você vai viajar?
                     </h2>
-                    <p className="text-xs text-text-muted mt-2">Escolha um de nossos destinos integrados recomendados.</p>
+                    <p className="text-sm text-text-muted mt-2">Busque por país, cidade ou tipo de experiência.</p>
                     
+                    {/* Search Input */}
+                    <div className="mt-5 relative">
+                      <input
+                        type="text"
+                        placeholder="Pesquise por 'Itália', 'Lua de Mel', 'Aurora Boreal', 'Gramado'..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="w-full bg-[#F8FAFC] border border-border-gray px-5 py-3.5 rounded-xl text-base font-semibold text-brand-navy placeholder:text-text-muted/50 focus:outline-none focus:border-brand-navy focus:bg-white transition-all shadow-xs"
+                      />
+                    </div>
+
+                    {/* Pre-search tags (Destinos Populares & Experiências) */}
+                    {searchQuery === '' && (
+                      <div className="mt-6 flex flex-col gap-4">
+                        <div>
+                          <span className="text-[11px] font-bold text-text-muted uppercase tracking-wider block mb-2">Destinos Populares</span>
+                          <div className="flex flex-wrap gap-2">
+                            {[
+                              { id: 'toquio', label: 'Japão 🇯🇵' },
+                              { id: 'roma', label: 'Itália 🇮🇹' },
+                              { id: 'grecia', label: 'Grécia 🇬🇷' },
+                              { id: 'noruega', label: 'Noruega 🏔️' },
+                              { id: 'maldivas', label: 'Maldivas 🏖️' },
+                              { id: 'noronha', label: 'Noronha 🏝️' }
+                            ].map(tag => (
+                              <button
+                                key={tag.id}
+                                onClick={() => selectDestinationAndAdvance(tag.id)}
+                                className="px-3.5 py-2 rounded-full border border-border-gray hover:border-brand-navy text-xs font-bold text-brand-navy bg-white transition-all cursor-pointer hover:scale-[1.02] shadow-xs"
+                              >
+                                {tag.label}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+
+                        <div>
+                          <span className="text-[11px] font-bold text-text-muted uppercase tracking-wider block mb-2">Experiências & Regiões</span>
+                          <div className="flex flex-wrap gap-2">
+                            {[
+                              { id: 'noronha', label: '👩‍❤️‍👨 Lua de Mel' },
+                              { id: 'noruega', label: '🌌 Aurora Boreal' },
+                              { id: 'safari', label: '🦁 Safári' },
+                              { id: 'gramado', label: '🍷 Vinícolas' },
+                              { id: 'roma', label: '🍝 Gastronomia' }
+                            ].map(tag => (
+                              <button
+                                key={tag.label}
+                                onClick={() => selectDestinationAndAdvance(tag.id)}
+                                className="px-3.5 py-2 rounded-full border border-border-gray hover:border-brand-orange text-xs font-semibold text-brand-navy bg-white transition-all cursor-pointer hover:scale-[1.02] shadow-xs"
+                              >
+                                {tag.label}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-6">
                       {[
-                        { id: 'paris', label: 'Paris, França', icon: '🇫🇷', desc: 'A capital da luz, museus e culinária.' },
-                        { id: 'roma', label: 'Roma, Itália', icon: '🇮🇹', desc: 'História milenar e praças barrocas.' },
-                        { id: 'lisboa', label: 'Lisboa, Portugal', icon: '🇵🇹', desc: 'História, bondes e pastéis de nata.' },
-                        { id: 'londres', label: 'Londres, Reino Unido', icon: '🇬🇧', desc: 'Realeza, museus grátis e pubs.' },
-                        { id: 'toquio', label: 'Tóquio, Japão', icon: '🇯🇵', desc: 'Arranha-céus neon e santuários.' },
-                        { id: 'noronha', label: 'Fernando de Noronha', icon: '🏝️', desc: 'Ecoturismo exclusivo e praias.' },
-                        { id: 'rio', label: 'Rio de Janeiro', icon: '🏖️', desc: 'Cultura vibrante e charme carioca.' },
-                        { id: 'veadeiros', label: 'Chapada dos Veadeiros', icon: '✨', desc: 'Misticismo e cachoeiras de cristal.' },
-                        { id: 'amazonas', label: 'Amazônia', icon: '🐆', desc: 'Eco-lodges e imersão profunda.' },
-                        { id: 'gramado', label: 'Serra Gaúcha', icon: '🍷', desc: 'Vinho, fondue e charme europeu.' }
-                      ].map(opt => (
+                        { id: 'paris', label: 'Paris, França', icon: '🇫🇷', desc: 'A capital da luz, museus e culinária.', tags: ['França', 'Europa', 'Romance', 'Cultura', 'Gastronomia'] },
+                        { id: 'roma', label: 'Roma, Itália', icon: '🇮🇹', desc: 'História milenar e praças barrocas.', tags: ['Itália', 'Europa', 'Cultura', 'Gastronomia', 'História', 'Vinícolas'] },
+                        { id: 'lisboa', label: 'Lisboa, Portugal', icon: '🇵🇹', desc: 'História, bondes e pastéis de nata.', tags: ['Portugal', 'Europa', 'Cultura', 'Litoral', 'Gastronomia'] },
+                        { id: 'londres', label: 'Londres, Reino Unido', icon: '🇬🇧', desc: 'Realeza, museus grátis e pubs.', tags: ['Reino Unido', 'Inglaterra', 'Europa', 'Cultura', 'História'] },
+                        { id: 'toquio', label: 'Tóquio, Japão', icon: '🇯🇵', desc: 'Arranha-céus neon e santuários.', tags: ['Japão', 'Ásia', 'Cultura', 'Tecnologia', 'Gastronomia'] },
+                        { id: 'noronha', label: 'Fernando de Noronha', icon: '🏝️', desc: 'Ecoturismo exclusivo e praias.', tags: ['Brasil', 'América do Sul', 'Praia', 'Ecoturismo', 'Lua de Mel', 'Romance'] },
+                        { id: 'rio', label: 'Rio de Janeiro', icon: '🏖️', desc: 'Cultura vibrante e charme carioca.', tags: ['Brasil', 'América do Sul', 'Praia', 'Cultura', 'Litoral'] },
+                        { id: 'veadeiros', label: 'Chapada dos Veadeiros', icon: '✨', desc: 'Misticismo e cachoeiras de cristal.', tags: ['Brasil', 'América do Sul', 'Cachoeira', 'Ecoturismo', 'Misticismo'] },
+                        { id: 'amazonas', label: 'Amazônia', icon: '🐆', desc: 'Eco-lodges e imersão profunda.', tags: ['Brasil', 'América do Sul', 'Floresta', 'Ecoturismo', 'Aventura', 'Safári'] },
+                        { id: 'gramado', label: 'Serra Gaúcha', icon: '🍷', desc: 'Vinho, fondue e charme europeu.', tags: ['Brasil', 'América do Sul', 'Serra', 'Vinícolas', 'Gastronomia', 'Romance'] },
+                        { id: 'noruega', label: 'Noruega', icon: '🏔️', desc: 'Fiordes, chalés de madeira e Aurora Boreal.', tags: ['Noruega', 'Europa', 'Fiordes', 'Aurora Boreal', 'Frio', 'Natureza'] },
+                        { id: 'maldivas', label: 'Maldivas', icon: '🏖️', desc: 'Bangalôs sobre a água e areia branca.', tags: ['Maldivas', 'Ásia', 'Praia', 'Romance', 'Lua de Mel', 'Ilhas'] },
+                        { id: 'grecia', label: 'Grécia', icon: '🇬🇷', desc: 'Santorini romântica e história em Atenas.', tags: ['Grécia', 'Europa', 'Praia', 'Romance', 'Lua de Mel', 'História'] },
+                        { id: 'safari', label: 'África do Sul', icon: '🦁', desc: 'Safáris de luxo e a Rota dos Vinhos.', tags: ['África do Sul', 'África', 'Safári', 'Natureza', 'Vinícolas', 'Aventura'] }
+                      ].filter(opt => {
+                        if (searchQuery === '') return true;
+                        const query = searchQuery.toLowerCase().trim();
+                        return (
+                          opt.label.toLowerCase().includes(query) ||
+                          opt.desc.toLowerCase().includes(query) ||
+                          opt.tags.some(tag => tag.toLowerCase().includes(query))
+                        );
+                      }).map(opt => (
                         <button 
                           key={opt.id}
-                          onClick={() => setDestination(opt.id)}
+                          onClick={() => selectDestinationAndAdvance(opt.id)}
                           className={`text-left p-4 sm:p-5 rounded-[20px] border transition-all duration-300 cursor-pointer flex flex-col gap-1.5 bg-white ${
                             destination === opt.id 
                               ? 'border-brand-navy bg-brand-navy/5 shadow-sm' 
@@ -526,8 +744,8 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                           }`}
                         >
                           <span className="text-2xl">{opt.icon}</span>
-                          <h4 className="font-headers text-sm sm:text-base font-bold text-brand-navy">{opt.label}</h4>
-                          <p className="text-[10px] text-text-muted">{opt.desc}</p>
+                          <h4 className="font-headers text-base font-bold text-brand-navy">{opt.label}</h4>
+                          <p className="text-xs text-text-muted">{opt.desc}</p>
                         </button>
                       ))}
                     </div>
@@ -547,14 +765,14 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-6">
                       {[
-                        { id: 'aventura', label: 'Aventura & Ação', icon: '🧗', desc: 'Trilhas, mirantes desafiadores e esportes.' },
-                        { id: 'cultura', label: 'Cultural & Histórico', icon: '🏛️', desc: 'Museus, patrimônio e passeios guiados.' },
-                        { id: 'natureza', label: 'Natureza & Bem-Estar', icon: '🌿', desc: 'Spas, retiros e águas termais.' },
-                        { id: 'gastronomia', label: 'Alta Gastronomia', icon: '🍽️', desc: 'Festivais, risoterias e jantares chef.' }
+                        { id: 'aventura', label: 'Aventura & Ação', icon: '🧗', desc: 'Trilhas, mirantes desafiadores e esportes ao ar livre.' },
+                        { id: 'cultura', label: 'Cultural & Histórico', icon: '🏛️', desc: 'Museus renomados, monumentos históricos e passeios guiados.' },
+                        { id: 'natureza', label: 'Natureza & Bem-Estar', icon: '🌿', desc: 'Spas relaxantes, refúgios naturais e águas termais.' },
+                        { id: 'gastronomia', label: 'Alta Gastronomia', icon: '🍽️', desc: 'Festivais gastronômicos, risoterias e jantares exclusivos.' }
                       ].map(opt => (
                         <button 
                           key={opt.id}
-                          onClick={() => setStyle(opt.id)}
+                          onClick={() => selectStyleAndAdvance(opt.id)}
                           className={`text-left p-6 rounded-[20px] border transition-all duration-300 cursor-pointer flex flex-col gap-2 bg-white ${
                             style === opt.id 
                               ? 'border-brand-navy bg-brand-navy/5 shadow-sm' 
@@ -563,7 +781,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                         >
                           <span className="text-3xl">{opt.icon}</span>
                           <h4 className="font-headers text-base font-bold text-brand-navy">{opt.label}</h4>
-                          <p className="text-xs text-text-muted">{opt.desc}</p>
+                          <p className="text-sm text-text-muted">{opt.desc}</p>
                         </button>
                       ))}
                     </div>
@@ -579,9 +797,9 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Duração e Orçamento
                     </h2>
-                    <p className="text-xs text-text-muted mt-2">Ajuste o período desejado e nível de conforto da viagem.</p>
+                    <p className="text-sm text-text-muted mt-2">Ajuste o período desejado e nível de conforto da viagem.</p>
                     
-                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-6 mb-3 uppercase tracking-wider">Duração da Viagem</h3>
+                    <h3 className="text-sm font-headers text-brand-navy/80 font-bold mt-6 mb-3 uppercase tracking-wider">Duração da Viagem</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                       {[
                         { id: '3', label: 'Curta (3 Dias)', icon: '⏱️', desc: 'Foco no essencial.' },
@@ -598,13 +816,13 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                           }`}
                         >
                           <span className="text-2xl">{opt.icon}</span>
-                          <h4 className="font-headers text-xs font-bold text-brand-navy">{opt.label}</h4>
-                          <p className="text-[10px] text-text-muted">{opt.desc}</p>
+                          <h4 className="font-headers text-sm font-bold text-brand-navy">{opt.label}</h4>
+                          <p className="text-xs text-text-muted">{opt.desc}</p>
                         </button>
                       ))}
                     </div>
 
-                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-6 mb-3 uppercase tracking-wider">Orçamento Estimado</h3>
+                    <h3 className="text-sm font-headers text-brand-navy/80 font-bold mt-6 mb-3 uppercase tracking-wider">Orçamento Estimado</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       {[
                         { id: 'moderado', label: 'Padrão Moderado', icon: '💳', desc: 'Curadoria gastronômica de ótimo custo.' },
@@ -620,8 +838,8 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                           }`}
                         >
                           <span className="text-2xl">{opt.icon}</span>
-                          <h4 className="font-headers text-xs font-bold text-brand-navy">{opt.label}</h4>
-                          <p className="text-[10px] text-text-muted">{opt.desc}</p>
+                          <h4 className="font-headers text-sm font-bold text-brand-navy">{opt.label}</h4>
+                          <p className="text-xs text-text-muted">{opt.desc}</p>
                         </button>
                       ))}
                     </div>
@@ -697,15 +915,29 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 </div>
 
                 {/* Conversion Hook Warning */}
-                <div className="bg-brand-navy/5 border border-brand-navy/10 p-6 rounded-[20px] mb-8 flex gap-4 text-left items-start">
-                  <ShieldAlert className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
-                  <div>
-                    <span className="font-headers text-xs font-bold text-brand-navy uppercase tracking-widest">
-                      Utilize Offline no seu Celular
-                    </span>
-                    <p className="text-xs text-text-muted mt-1 leading-relaxed">
-                      Baixe o app 2GO para usar este roteiro com mapas offline ativos, GPS e controle de gastos em tempo real durante a viagem.
-                    </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                  <div className="bg-brand-navy/5 border border-brand-navy/10 p-6 rounded-[20px] flex gap-4 text-left items-start">
+                    <ShieldAlert className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-headers text-xs font-bold text-brand-navy uppercase tracking-widest">
+                        Utilize Offline no seu Celular
+                      </span>
+                      <p className="text-xs text-text-muted mt-1 leading-relaxed">
+                        Baixe o app 2GO para usar este roteiro com mapas offline ativos, GPS e controle de gastos em tempo real durante a viagem.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#FAF9F6] border border-brand-navy/10 p-6 rounded-[20px] flex gap-4 text-left items-start">
+                    <span className="text-xl shrink-0 mt-0.5">🤝</span>
+                    <div>
+                      <span className="font-headers text-xs font-bold text-brand-orange uppercase tracking-widest block">
+                        A tecnologia organiza. Especialistas aperfeiçoam.
+                      </span>
+                      <p className="text-xs text-text-muted mt-1 leading-relaxed">
+                        Seu roteiro foi desenhado com tecnologia de ponta. Deseja que especialistas revisem sua logística e incluam serviços vip? Ative o suporte no app.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
