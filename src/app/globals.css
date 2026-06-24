@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+@theme {
+  /* 2GO Official Design System Theme overrides */
+  --color-brand-navy: #081B6B;
+  --color-brand-orange: #F47A20;
+  --color-brand-green: #96AB21;
+  --color-bg-white: #FFFFFF;
+  --color-bg-light: #F7F8FA;
+  --color-border-gray: #E9EDF2;
+  --color-text-main: #1E293B;
+  --color-text-muted: #64748B;
+  
+  --font-headers: var(--font-plus-jakarta-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 16px -2px rgba(8, 27, 107, 0.04), 0 1px 3px 0 rgba(0, 0, 0, 0.02);
+  --shadow-lg: 0 16px 36px -4px rgba(8, 27, 107, 0.08), 0 4px 12px -2px rgba(8, 27, 107, 0.04);
+  --shadow-xl: 0 24px 64px -8px rgba(8, 27, 107, 0.14), 0 8px 24px -4px rgba(8, 27, 107, 0.06);
+
+  --animate-spin-slow: spin 12s linear infinite;
+  --animate-fade-in-up: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom resets & scrollbars */
+html {
+  scroll-behavior: smooth;
+  background-color: #F7F8FA;
+  color: #1E293B;
+  font-family: var(--font-body), sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F8FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E9EDF2;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #081B6B;
+}
+
+/* Glassmorphism custom classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(8, 27, 107, 0.08);
+  box-shadow: 0 4px 16px -2px rgba(8, 27, 107, 0.04), 0 1px 3px 0 rgba(0, 0, 0, 0.02);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #081B6B 0%, #F47A20 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-orange {
+  background: linear-gradient(135deg, #F47A20 0%, #96AB21 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom transitions and buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px; /* radius-md */
+  transition: all 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 10px;
+}
+
+.btn-xs {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #081B6B;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+}
+
+.btn-primary:hover {
+  background-color: #F47A20;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px -2px rgba(8, 27, 107, 0.08);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  background-color: #F47A20;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+}
+
+.btn-secondary:hover {
+  background-color: #d86514;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px -2px rgba(8, 27, 107, 0.08);
+}
+
+.btn-secondary:active {
+  transform: translateY(0);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #081B6B;
+  border: 1px solid #081B6B;
+}
+
+.btn-outline:hover {
+  background-color: #081B6B;
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+.btn-outline:active {
+  transform: translateY(0);
+}
+
+.card-premium {
+  background-color: #FFFFFF;
+  border: 1px solid #E9EDF2;
+  border-radius: 20px; /* radius-lg */
+  box-shadow: 0 4px 16px -2px rgba(8, 27, 107, 0.04), 0 1px 3px 0 rgba(0, 0, 0, 0.02);
+  transition: all 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-premium:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -4px rgba(8, 27, 107, 0.08), 0 4px 12px -2px rgba(8, 27, 107, 0.04);
+}
+
+/* Custom Keyframe Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.carousel-fallback-item {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s;
+}
+
+.custom-scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.custom-scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
