@@ -362,9 +362,8 @@ export default function Home() {
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
       
       <main className="flex-grow">
-        
         {/* 1. NEW CINEMATIC HERO SECTION */}
-        <section className="relative min-h-[90vh] lg:min-h-screen flex items-center justify-start pt-24 pb-20 overflow-hidden bg-bg-light text-brand-navy">
+        <section className="relative min-h-[60vh] lg:min-h-screen flex items-center justify-start pt-20 pb-12 lg:pt-24 lg:pb-20 overflow-hidden bg-bg-light text-brand-navy">
           {/* Parallax Background Crossfade */}
           <div className="absolute inset-0 z-0 select-none pointer-events-none">
             {premiumSlides.map((slide, idx) => (
@@ -420,33 +419,33 @@ export default function Home() {
             />
           </div>
 
-          <div className="container mx-auto px-6 relative z-20 max-w-6xl w-full">
+          <div className="container mx-auto px-4 sm:px-6 relative z-20 max-w-6xl w-full">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               
               {/* Left text panel */}
               <div className="lg:col-span-7 flex flex-col items-center sm:items-start text-left">
                 <div 
-                  className="w-full max-w-2xl bg-white/26 backdrop-blur-[10px] border border-white/35 shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-6 sm:p-8 md:p-10 rounded-[28px] flex flex-col gap-5 sm:gap-6 animate-fade-in-up items-center sm:items-start"
+                  className="w-full max-w-2xl bg-white/26 backdrop-blur-[6px] lg:backdrop-blur-[10px] border border-white/30 lg:border-white/35 shadow-[0_15px_45px_rgba(8,27,107,0.06)] lg:shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-4 sm:p-8 md:p-10 rounded-[20px] lg:rounded-[28px] flex flex-col gap-3.5 lg:gap-6 animate-fade-in-up items-center sm:items-start"
                 >
-                  <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2">
-                    <span className="bg-[#F47A20] text-white text-[11px] sm:text-[12px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
+                  <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5">
+                    <span className="bg-[#F47A20] text-white text-[10px] sm:text-[12px] font-black uppercase tracking-widest px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
                       ROTEIROS PERSONALIZADOS
                     </span>
-                    <span className="bg-brand-navy/5 border border-brand-navy/10 text-brand-navy text-[11px] sm:text-[12px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full w-fit flex items-center gap-1">
+                    <span className="bg-brand-navy/5 border border-brand-navy/10 text-brand-navy text-[10px] sm:text-[12px] font-bold uppercase tracking-widest px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit flex items-center gap-1">
                       📍 {premiumSlides[currentSlide].name}
                     </span>
                   </div>
 
-                  <div className="flex flex-col gap-2 text-center sm:text-left w-full">
+                  <div className="flex flex-col gap-1 lg:gap-2 text-center sm:text-left w-full">
                     <h1 
                       style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
-                      className="font-headers text-brand-navy font-extrabold text-[36px] sm:text-[46px] md:text-[clamp(56px,6vw,88px)] leading-[0.95] tracking-[-0.03em] max-w-2xl transition-all duration-500 overflow-wrap-normal"
+                      className="font-headers text-brand-navy font-extrabold text-[30px] sm:text-[46px] lg:text-[clamp(56px,6vw,88px)] leading-[1.0] lg:leading-[0.95] tracking-[-0.03em] max-w-2xl transition-all duration-500 overflow-wrap-normal"
                     >
                       {premiumSlides[currentSlide].name}
                     </h1>
                     <p 
                       style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
-                      className="font-headers text-brand-navy font-bold text-lg sm:text-xl lg:text-[1.38rem] leading-snug tracking-tight max-w-xl"
+                      className="font-headers text-brand-navy font-bold text-base sm:text-xl lg:text-[1.38rem] leading-snug tracking-tight max-w-xl hidden sm:block"
                     >
                       A sua próxima viagem, planejada em minutos.
                     </p>
@@ -454,16 +453,17 @@ export default function Home() {
                   
                   <p 
                     style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
-                    className="text-sm sm:text-base text-brand-navy/80 leading-relaxed max-w-xl line-clamp-2 text-center sm:text-left font-medium"
+                    className="text-xs sm:text-base text-brand-navy/80 leading-relaxed max-w-xl line-clamp-2 sm:line-clamp-none text-center sm:text-left font-medium"
                   >
                     A 2GO cria roteiros personalizados e une tecnologia, curadoria e praticidade para você viajar do seu jeito.
                   </p>
                   
-                  <div className="flex items-center mt-1 bg-brand-navy/5 border border-brand-navy/10 px-4 py-2.5 rounded-xl w-fit">
+                  <div className="flex items-center mt-0.5 bg-brand-navy/5 border border-brand-navy/10 px-3.5 py-2 rounded-xl w-fit text-xs sm:text-sm">
                     <span className="text-brand-navy/85 text-sm italic font-medium">"{premiumSlides[currentSlide].phrase}"</span>
                   </div>
                   
-                  <div className="flex flex-col gap-2 mt-2 w-full sm:w-auto items-center sm:items-start">
+                  {/* Desktop CTA buttons */}
+                  <div className="hidden lg:flex flex-col gap-2 mt-2 w-full sm:w-auto items-center sm:items-start">
                     <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
                       <button 
                         onClick={() => setIsDownloadOpen(true)}
@@ -483,8 +483,19 @@ export default function Home() {
                     </p>
                   </div>
 
+                  {/* Mobile Discrete Link CTA */}
+                  <div className="lg:hidden mt-1">
+                    <Link 
+                      href="/planejamento"
+                      className="inline-flex items-center gap-1.5 text-sm font-extrabold text-brand-orange hover:text-brand-orange/80 transition-all cursor-pointer pb-1 border-b-2 border-brand-orange/20 hover:border-brand-orange"
+                    >
+                      <span>Criar roteiro</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  </div>
+
                   {/* Progress bar */}
-                  <div className="w-full max-w-md bg-brand-navy/10 h-1 rounded-full overflow-hidden mt-2">
+                  <div className="w-full max-w-md bg-brand-navy/10 h-1 rounded-full overflow-hidden mt-1">
                     <div 
                       className="bg-brand-orange h-full transition-all duration-100 ease-linear"
                       style={{ width: `${progress}%` }}
@@ -492,7 +503,7 @@ export default function Home() {
                   </div>
 
                   {/* Micro Provas */}
-                  <div className="flex flex-wrap justify-center sm:justify-start items-center gap-4 sm:gap-6 mt-2 text-xs sm:text-sm text-brand-navy/80 font-medium border-t border-brand-navy/10 pt-4 max-w-md w-full">
+                  <div className="hidden sm:flex flex-wrap justify-center sm:justify-start items-center gap-4 sm:gap-6 mt-2 text-xs sm:text-sm text-brand-navy/80 font-medium border-t border-brand-navy/10 pt-4 max-w-md w-full">
                     <span className="flex items-center gap-1.5">
                       <span className="text-yellow-500">★</span> 4,9 de avaliação
                     </span>
@@ -507,28 +518,28 @@ export default function Home() {
               </div>
 
               {/* Right Columns: Interactive Side Slider Previews (Apple TV Style) */}
-              <div className="lg:col-span-5 flex flex-col lg:border-l lg:border-brand-navy/10 lg:pl-8 mt-10 lg:mt-0 w-full overflow-hidden">
-                <span className="text-[12px] font-black text-brand-navy/60 tracking-wider uppercase mb-3 block text-center lg:text-left">Mais Destinos</span>
+              <div className="lg:col-span-5 flex flex-col lg:border-l lg:border-brand-navy/10 lg:pl-8 mt-6 lg:mt-0 w-full overflow-hidden">
+                <span className="text-[11px] lg:text-[12px] font-black text-brand-navy/60 tracking-wider uppercase mb-2 lg:mb-3 block text-center lg:text-left">Mais Destinos</span>
                 
-                <div className="flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-visible lg:overflow-y-visible gap-3 pb-4 lg:pb-0 custom-scrollbar-hide flex-nowrap lg:flex-wrap w-full px-1 lg:px-0">
+                <div className="flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-visible lg:overflow-y-visible gap-2 pb-4 lg:pb-0 custom-scrollbar-hide flex-nowrap lg:flex-wrap w-full px-1 lg:px-0 snap-x snap-mandatory scroll-smooth">
                   {premiumSlides.map((slide, idx) => {
                     const isSelected = idx === currentSlide;
                     return (
                       <button
                         key={slide.id}
                         onClick={() => selectSlide(idx)}
-                        className={`group flex items-center gap-3.5 p-3 rounded-xl border text-left transition-all duration-300 cursor-pointer shrink-0 w-[240px] lg:w-full ${
+                        className={`group flex items-center gap-2.5 p-2 lg:p-3 rounded-xl border text-left transition-all duration-300 cursor-pointer shrink-0 w-[185px] lg:w-full snap-start ${
                           isSelected 
-                            ? 'bg-white/70 border-white/40 shadow-md border-l-4 border-l-[#F47A20] backdrop-blur-md pl-3.5 text-brand-navy' 
-                            : 'bg-brand-navy/5 border-brand-navy/5 border-l-4 border-l-transparent hover:bg-brand-navy/10 text-brand-navy/70 pl-3.5'
+                            ? 'bg-white/75 border-white/50 shadow-md border-l-4 border-l-[#F47A20] backdrop-blur-md pl-3 text-brand-navy font-bold' 
+                            : 'bg-brand-navy/5 border-brand-navy/5 border-l-4 border-l-transparent hover:bg-brand-navy/10 text-brand-navy/70 pl-3'
                         }`}
                       >
-                        <div className="w-12 h-12 rounded-lg overflow-hidden shrink-0 border border-brand-navy/10 relative">
+                        <div className="w-9 h-9 lg:w-12 lg:h-12 rounded-lg overflow-hidden shrink-0 border border-brand-navy/10 relative">
                           <img src={slide.img} alt={slide.name} className="w-full h-full object-cover transition-transform group-hover:scale-[1.03]" />
                         </div>
                         <div className="min-w-0 flex-1 flex flex-col justify-center">
-                          <h4 className={`text-sm font-extrabold truncate ${isSelected ? 'text-brand-navy font-black' : 'text-brand-navy/80 group-hover:text-brand-navy'}`}>{slide.name}</h4>
-                          <p className="text-[13px] font-medium line-clamp-2 mt-0.5 leading-snug whitespace-normal text-brand-navy/60 group-hover:text-brand-navy/80">{slide.phrase}</p>
+                          <h4 className={`text-xs lg:text-sm font-extrabold truncate ${isSelected ? 'text-brand-navy font-black' : 'text-brand-navy/80 group-hover:text-brand-navy'}`}>{slide.name}</h4>
+                          <p className="text-[11px] lg:text-[13px] font-medium line-clamp-1 lg:line-clamp-2 mt-0.5 leading-snug whitespace-normal text-brand-navy/60 group-hover:text-brand-navy/80">{slide.phrase}</p>
                         </div>
                       </button>
                     );
@@ -541,8 +552,8 @@ export default function Home() {
         </section>
 
         {/* 2. COMO FUNCIONA */}
-        <section id="como-funciona" className="py-20 md:py-28 bg-bg-light border-b border-border-gray/50 scroll-mt-20">
-          <ScrollReveal className="container mx-auto px-6">
+        <section id="como-funciona" className="py-12 lg:py-28 bg-bg-light border-b border-border-gray/50 scroll-mt-20">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6">
             <div className="text-center max-w-[600px] mx-auto mb-14 md:mb-16">
               <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
                 MÁXIMA PRATICIDADE
@@ -557,7 +568,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-5xl mx-auto w-full">
               {/* Step 1 */}
-              <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left">
+              <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover">
                 <span className="font-headers text-6xl font-extrabold text-brand-orange/20 absolute top-6 right-8 leading-none select-none group-hover:scale-105 transition-transform duration-300">1</span>
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Compass className="w-6 h-6" />
@@ -569,7 +580,7 @@ export default function Home() {
               </div>
 
               {/* Step 2 */}
-              <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left">
+              <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover">
                 <span className="font-headers text-6xl font-extrabold text-brand-orange/20 absolute top-6 right-8 leading-none select-none group-hover:scale-105 transition-transform duration-300">2</span>
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Sliders className="w-6 h-6" />
@@ -581,7 +592,7 @@ export default function Home() {
               </div>
 
               {/* Step 3 */}
-              <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left">
+              <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover">
                 <span className="font-headers text-6xl font-extrabold text-brand-orange/20 absolute top-6 right-8 leading-none select-none group-hover:scale-105 transition-transform duration-300">3</span>
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Navigation className="w-6 h-6" />
@@ -596,8 +607,8 @@ export default function Home() {
         </section>
 
         {/* 3. DESTINATIONS ROWS (Airbnb/Netflix style) */}
-        <section id="destinos" className="py-20 md:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative scroll-mt-20">
-          <ScrollReveal className="container mx-auto px-6">
+        <section id="destinos" className="py-12 lg:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative scroll-mt-20">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
               <div className="text-left max-w-2xl">
                 <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
@@ -643,7 +654,7 @@ export default function Home() {
               {/* Paris */}
               <Link 
                 href="/roteiros?search=Paris"
-                className="group relative h-64 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray"
+                className="group relative h-72 sm:h-64 rounded-[28px] lg:rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray card-premium-hover"
               >
                 <img 
                   src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80" 
@@ -661,7 +672,7 @@ export default function Home() {
               {/* Roma */}
               <Link 
                 href="/roteiros?search=Roma"
-                className="group relative h-64 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray"
+                className="group relative h-72 sm:h-64 rounded-[28px] lg:rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray card-premium-hover"
               >
                 <img 
                   src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&q=80" 
@@ -679,7 +690,7 @@ export default function Home() {
               {/* Lisboa */}
               <Link 
                 href="/roteiros?search=Lisboa"
-                className="group relative h-64 rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray"
+                className="group relative h-72 sm:h-64 rounded-[28px] lg:rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray card-premium-hover"
               >
                 <img 
                   src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80" 
@@ -696,7 +707,7 @@ export default function Home() {
             </div>
 
             {/* App download trigger banner */}
-            <div className="mt-12 bg-white border border-border-gray rounded-[24px] p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-sm border-l-4 border-l-[#96AB21] text-left">
+            <div className="mt-8 lg:mt-12 bg-white border border-border-gray rounded-[28px] lg:rounded-[24px] p-5 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-sm border-l-4 border-l-[#96AB21] text-left">
               <div className="text-left flex-grow">
                 <h4 className="font-headers text-base sm:text-lg font-bold text-brand-navy">Seu roteiro sempre com você</h4>
                 <p className="text-xs sm:text-sm text-text-muted mt-1">Tudo organizado no celular: mapas, horários e atrações em um só lugar. Planeje no site e acompanhe tudo pelo aplicativo da 2GO.</p>
@@ -712,8 +723,8 @@ export default function Home() {
         </section>
 
         {/* 4. INTERACTIVE SIMULATOR */}
-        <section className="py-20 md:py-28 bg-white border-b border-border-gray/50">
-          <ScrollReveal className="container mx-auto px-6 max-w-5xl">
+        <section className="py-12 lg:py-28 bg-white border-b border-border-gray/50">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-5xl">
             <div className="text-center max-w-[620px] mx-auto mb-14 md:mb-16">
               <span className="bg-brand-green/10 text-brand-green text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
                 TECNOLOGIA EXCLUSIVA
@@ -728,7 +739,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
               {/* Input Config Panel */}
-              <div className="lg:col-span-5 bg-[#F8FAFC] border border-border-gray rounded-[24px] p-6 flex flex-col justify-between text-left">
+              <div className="lg:col-span-5 bg-[#F8FAFC] border border-border-gray rounded-[28px] lg:rounded-[24px] p-5 sm:p-6 flex flex-col justify-between text-left">
                 <div className="flex flex-col gap-4">
                   <h4 className="font-headers text-base sm:text-lg font-bold text-brand-navy border-b border-border-gray pb-3">Parâmetros de Viagem</h4>
                   
@@ -787,7 +798,7 @@ export default function Home() {
               </div>
 
               {/* Real-time Output Board */}
-              <div className="lg:col-span-7 bg-[#F8FAFC] border border-border-gray rounded-[24px] p-6 flex flex-col min-h-[440px] relative overflow-hidden">
+              <div className="lg:col-span-7 bg-[#F8FAFC] border border-border-gray rounded-[28px] lg:rounded-[24px] p-4 sm:p-6 flex flex-col min-h-[440px] relative overflow-hidden">
                 {simState !== 'idle' && (
                   <div className="mb-6 animate-fade-in-up text-left">
                     <div className="flex justify-between items-center mb-2">
@@ -884,18 +895,16 @@ export default function Home() {
           </ScrollReveal>
         </section>
 
-
-
         {/* 6. EXPERIÊNCIA PERSONALIZADA (LIGHT BG REDESIGN) */}
-        <section id="premium-custom" className="py-20 md:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative overflow-hidden">
+        <section id="premium-custom" className="py-12 lg:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-orange/5 rounded-full blur-[120px] pointer-events-none select-none"></div>
 
-          <ScrollReveal className="container mx-auto px-6">
-            <div className="text-center max-w-[600px] mx-auto mb-14 md:mb-16">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6">
+            <div className="text-center max-w-[600px] mx-auto mb-10 md:mb-16">
               <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
                 TOQUE HUMANO ESPECIALIZADO
               </span>
-              <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
+              <h2 className="font-headers text-3xl md:text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
                 Quer um toque humano no seu planejamento?
               </h2>
               <p className="text-base font-bold text-brand-orange mt-2">
@@ -906,9 +915,9 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-5xl mx-auto w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center max-w-5xl mx-auto w-full">
               {/* Left Column Chat Mockup (WhatsApp Business/Premium Style) */}
-              <div className="bg-[#E5DDD5] border border-border-gray/45 rounded-[28px] overflow-hidden shadow-lg flex flex-col max-w-[420px] mx-auto w-full text-brand-navy relative min-h-[385px] font-sans">
+              <div className="bg-[#E5DDD5] border border-border-gray/45 rounded-2xl overflow-hidden shadow-lg flex flex-col max-w-[420px] mx-auto w-full text-brand-navy relative min-h-[385px] font-sans">
                 {/* Chat Header */}
                 <div className="bg-[#075E54] text-white p-4 flex items-center justify-between shadow-sm">
                   <div className="flex items-center gap-3">
@@ -991,13 +1000,13 @@ export default function Home() {
         </section>
 
         {/* 7. TESTIMONIALS */}
-        <section id="avaliacoes" className="py-20 md:py-28 bg-white border-b border-border-gray/50 scroll-mt-20">
-          <ScrollReveal className="container mx-auto px-6">
-            <div className="text-center max-w-[600px] mx-auto mb-14 md:mb-16">
+        <section id="avaliacoes" className="py-12 lg:py-28 bg-white border-b border-border-gray/50 scroll-mt-20">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6">
+            <div className="text-center max-w-[600px] mx-auto mb-10 md:mb-16">
               <span className="bg-brand-navy/10 text-brand-navy text-[12px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
                 DEPOIMENTOS DE VIAJANTES
               </span>
-              <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
+              <h2 className="font-headers text-3xl md:text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
                 Histórias reais de viajantes
               </h2>
               <p className="text-sm text-text-muted mt-3">
@@ -1026,7 +1035,7 @@ export default function Home() {
                   trip: 'Lisboa • Roteiro Sob Medida' 
                 }
               ].map((review, idx) => (
-                <div key={idx} className="group bg-[#F7F8FA] border border-border-gray/70 p-6 sm:p-8 rounded-[24px] shadow-xs hover:shadow-md hover:translate-y-[-2px] transition-all duration-300 flex flex-col text-left">
+                <div key={idx} className="group bg-[#F7F8FA] border border-border-gray/70 p-6 sm:p-8 rounded-2xl lg:rounded-[24px] shadow-xs hover:shadow-md hover:translate-y-[-2px] transition-all duration-300 flex flex-col text-left card-premium-hover">
                   <span className="bg-brand-green/10 text-brand-green text-[11px] font-extrabold tracking-widest px-2.5 py-1 rounded w-fit mb-6">FEEDBACK VERIFICADO</span>
                   <p className="text-base italic leading-relaxed mb-6 flex-grow font-semibold text-brand-navy">
                     "{review.text}"
@@ -1047,12 +1056,12 @@ export default function Home() {
         </section>
 
         {/* 8. FINAL CTA (CLEAN REDESIGN) */}
-        <section className="py-20 md:py-28 bg-[#F7F8FA] relative overflow-hidden">
+        <section className="py-12 lg:py-28 bg-[#F7F8FA] relative overflow-hidden">
           <div className="absolute top-10 left-10 w-2.5 h-2.5 bg-brand-orange/40 rounded-full"></div>
           <div className="absolute bottom-20 left-1/3 w-3 h-3 bg-brand-green/30 rounded-full"></div>
 
-          <ScrollReveal className="container mx-auto px-6">
-            <div className="bg-[#FAF9F6] text-brand-navy p-8 md:p-16 rounded-[32px] relative overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-center gap-12 text-left shadow-lg border border-brand-navy/5">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6">
+            <div className="bg-[#FAF9F6] text-brand-navy p-6 md:p-16 rounded-[28px] lg:rounded-[32px] relative overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-center gap-12 text-left shadow-lg border border-brand-navy/5">
               {/* Subtle background glow */}
               <div className="absolute -top-24 -right-24 w-96 h-96 bg-brand-orange/10 rounded-full blur-[100px] pointer-events-none select-none"></div>
               <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-[#96AB21]/10 rounded-full blur-[100px] pointer-events-none select-none"></div>

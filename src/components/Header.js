@@ -73,13 +73,13 @@ export default function Header({ onOpenDownload }) {
           <div className="flex items-center gap-2 sm:gap-4">
             <Link 
               href="/premium"
-              className="hidden md:inline-flex btn btn-primary btn-sm cursor-pointer"
+              className="hidden lg:inline-flex btn btn-primary btn-sm cursor-pointer"
             >
               Consultoria
             </Link>
             <button 
               onClick={onOpenDownload}
-              className="inline-flex btn btn-outline btn-xs sm:btn-sm cursor-pointer"
+              className="hidden lg:inline-flex btn btn-outline btn-sm cursor-pointer"
             >
               Baixar App
             </button>
@@ -98,24 +98,24 @@ export default function Header({ onOpenDownload }) {
  
       {/* Mobile Nav Sidebar Drawer Overlay */}
       <div 
-        className={`fixed inset-0 bg-black/30 backdrop-blur-sm z-40 transition-opacity duration-300 lg:hidden ${
+        className={`fixed inset-0 bg-black/40 backdrop-blur-md z-45 transition-opacity duration-300 lg:hidden ${
           isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
         onClick={() => setIsMobileMenuOpen(false)}
       >
         <div 
-          className={`fixed top-0 right-0 w-[300px] h-screen bg-white/95 backdrop-blur-2xl border-l border-border-gray p-10 pt-24 flex flex-col gap-10 z-50 transition-transform duration-300 shadow-xl ${
+          className={`fixed top-0 right-0 w-[285px] h-screen bg-white/95 backdrop-blur-2xl border-l border-border-gray/30 p-8 pt-28 flex flex-col gap-8 z-50 transition-transform duration-300 shadow-2xl ease-out ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
           onClick={(e) => e.stopPropagation()}
         >
-          <ul className="list-none flex flex-col gap-6 m-0 p-0">
+          <ul className="list-none flex flex-col gap-4 m-0 p-0 text-left">
             {menuItems.map((item, idx) => (
-              <li key={idx}>
+              <li key={idx} className="w-full">
                 <Link
                   href={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="font-headers text-xl font-bold text-left w-full cursor-pointer block text-brand-navy/70 hover:text-brand-navy"
+                  className="font-headers text-2.5xl font-black text-brand-navy hover:text-brand-orange hover:translate-x-1.5 transition-all duration-300 w-full block text-left py-2 border-b border-border-gray/30"
                 >
                   {item.label}
                 </Link>
@@ -123,11 +123,11 @@ export default function Header({ onOpenDownload }) {
             ))}
           </ul>
           
-          <div className="mt-auto flex flex-col gap-4">
+          <div className="mt-auto flex flex-col gap-3.5">
             <Link 
               href="/premium"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="w-full btn btn-primary py-3 flex items-center justify-center gap-2 cursor-pointer"
+              className="w-full bg-[#081B6B] hover:bg-[#06144f] text-white py-3.5 flex items-center justify-center gap-2 cursor-pointer font-bold rounded-xl shadow-md shadow-brand-navy/10 text-sm"
             >
               <Map className="w-4.5 h-4.5" /> Consultoria
             </Link>
@@ -136,7 +136,7 @@ export default function Header({ onOpenDownload }) {
                 setIsMobileMenuOpen(false);
                 onOpenDownload();
               }}
-              className="w-full btn btn-outline py-3 cursor-pointer"
+              className="w-full border border-brand-navy text-brand-navy hover:bg-brand-navy/5 py-3.5 flex items-center justify-center cursor-pointer font-bold rounded-xl text-sm"
             >
               Baixar App
             </button>

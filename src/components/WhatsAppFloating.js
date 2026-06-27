@@ -71,7 +71,7 @@ export default function WhatsAppFloating() {
   };
 
   return (
-    <div className="fixed bottom-20 right-4 sm:bottom-6 sm:right-6 z-[3000] flex flex-col items-end select-none">
+    <div className="fixed bottom-28 right-4 sm:bottom-6 sm:right-6 z-[2000] flex flex-col items-end select-none">
       {/* Tooltip text bubble (hidden on mobile) */}
       {showTooltip && (
         <div className="hidden sm:flex mb-3 bg-white text-brand-navy border border-border-gray p-4 rounded-[20px] shadow-xl max-w-[250px] relative animate-fade-in-up items-start gap-2 text-left">

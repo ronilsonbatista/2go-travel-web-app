@@ -197,3 +197,28 @@ html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Custom Keyframe Animation for Floating Button Pulse Scale */
+@keyframes softScale {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 30px rgba(8, 27, 107, 0.12);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 15px 35px rgba(8, 27, 107, 0.20);
+  }
+}
+
+.animate-btn-pulse {
+  animation: softScale 3s infinite ease-in-out;
+}
+
+/* Card hover animation with scale 1.02 for premium visual feel */
+.card-premium-hover {
+  transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 300ms cubic-bezier(0.16, 1, 0.3, 1), border-color 300ms;
+}
+.card-premium-hover:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 28px rgba(8, 27, 107, 0.06);
+}
