@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Footer({ onOpenDownload }) {
   return (
-    <footer className="bg-bg-light border-t border-border-gray pt-20 pb-10">
+    <footer className="bg-bg-light border-t border-border-gray pt-20 pb-28 lg:pb-10">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         
         {/* Brand Information */}

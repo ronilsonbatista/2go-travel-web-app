@@ -32,15 +32,15 @@ export default function Header({ onOpenDownload }) {
       <header 
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 flex items-center ${
           isScrolled 
-            ? 'h-[70px] bg-white/95 backdrop-blur-md border-b border-border-gray shadow-sm' 
-            : 'h-20 bg-transparent border-b border-transparent'
+            ? 'h-[56px] lg:h-[70px] bg-white/90 backdrop-blur-md border-b border-border-gray/20' 
+            : 'h-14 lg:h-20 bg-transparent border-b border-transparent'
         }`}
       >
-        <div className="container mx-auto px-6 flex justify-between items-center w-full">
+        <div className="container mx-auto px-4 lg:px-6 flex justify-between items-center w-full">
           {/* Official Logo */}
           <Link 
             href="/"
-            className="flex items-center cursor-pointer h-[38px] lg:h-[48px] w-auto"
+            className="flex items-center cursor-pointer h-[28px] lg:h-[48px] w-auto"
           >
             <img 
               src="/images/Logo2GO.png" 
@@ -90,7 +90,7 @@ export default function Header({ onOpenDownload }) {
               className="lg:hidden text-brand-navy cursor-pointer p-1"
               aria-label={isMobileMenuOpen ? "Fechar menu" : "Abrir menu"}
             >
-              {isMobileMenuOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
+              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
         </div>
@@ -110,6 +110,15 @@ export default function Header({ onOpenDownload }) {
           onClick={(e) => e.stopPropagation()}
         >
           <ul className="list-none flex flex-col gap-4 m-0 p-0 text-left">
+            <li className="w-full">
+              <Link
+                href="/roteiros"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="font-headers text-2.5xl font-black text-brand-navy hover:text-brand-orange hover:translate-x-1.5 transition-all duration-300 w-full block text-left py-2 border-b border-border-gray/30"
+              >
+                Destinos
+              </Link>
+            </li>
             {menuItems.map((item, idx) => (
               <li key={idx} className="w-full">
                 <Link
