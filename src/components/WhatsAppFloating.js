@@ -99,7 +99,7 @@ export default function WhatsAppFloating() {
       {/* Floating button */}
       <button
         onClick={handleClick}
-        className="w-12 h-12 sm:w-14 sm:h-14 bg-[#25D366] hover:bg-[#20BA5A] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-105 active:scale-95 transition-all cursor-pointer relative group"
+        className="w-[42px] h-[42px] sm:w-14 sm:h-14 bg-[#25D366] hover:bg-[#20BA5A] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-105 active:scale-95 transition-all cursor-pointer relative group"
         aria-label="Fale no WhatsApp"
       >
         {/* Animated radar rings */}
@@ -107,7 +107,7 @@ export default function WhatsAppFloating() {
         
         {/* Custom SVG WhatsApp icon or MessageSquare fallback */}
         <svg 
-          className="w-6 h-6 sm:w-7 sm:h-7 fill-current" 
+          className="w-5.5 h-5.5 sm:w-7 sm:h-7 fill-current" 
           viewBox="0 0 24 24"
         >
           <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.863-9.864.001-2.637-1.03-5.114-2.905-6.989-1.874-1.875-4.355-2.907-6.992-2.908-5.443 0-9.87 4.417-9.873 9.861-.001 1.77.476 3.497 1.382 5.027l-.95 3.47 3.553-.932zm10.102-5.466c-.29-.145-1.713-.846-1.978-.942-.266-.097-.459-.144-.652.146-.193.289-.748.942-.917 1.134-.169.192-.338.217-.628.072-1.79-.899-2.944-1.599-4.123-3.613-.31-.53.31-.492.887-1.64.097-.192.048-.361-.024-.505-.072-.144-.652-1.572-.894-2.15-.236-.569-.475-.491-.652-.5l-.556-.01c-.193 0-.507.072-.772.361-.266.289-1.014.992-1.014 2.422 0 1.43 1.039 2.81 1.184 3.002.145.193 2.043 3.12 4.95 4.373.692.298 1.232.476 1.654.61.694.221 1.327.19 1.827.115.556-.084 1.713-.7 1.954-1.374.241-.674.241-1.253.169-1.373-.072-.12-.265-.193-.555-.338z"/>

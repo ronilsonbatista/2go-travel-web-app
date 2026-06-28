@@ -14,7 +14,7 @@ export default function AppFloatingButton() {
       >
         <button
           onClick={() => setIsOpen(true)}
-          className="w-full bg-white/95 backdrop-blur-md border border-white/50 text-brand-navy font-black py-3.5 px-6 rounded-full shadow-[0_10px_35px_rgba(8,27,107,0.12)] flex items-center justify-center hover:scale-[1.02] active:scale-95 transition-all cursor-pointer text-sm tracking-wider animate-btn-pulse"
+          className="w-full bg-gradient-to-r from-[#F47A20] to-[#ff8f3c] text-white font-extrabold py-3.5 px-6 rounded-full shadow-[0_14px_35px_rgba(244,122,32,0.35)] flex items-center justify-center hover:scale-[1.02] active:scale-95 transition-all cursor-pointer text-sm tracking-widest animate-btn-pulse border-none"
         >
           <span>Baixar App</span>
         </button>

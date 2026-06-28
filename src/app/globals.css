@@ -202,11 +202,11 @@ html {
 @keyframes softScale {
   0%, 100% {
     transform: scale(1);
-    box-shadow: 0 10px 30px rgba(8, 27, 107, 0.12);
+    box-shadow: 0 14px 35px rgba(244, 122, 32, 0.35);
   }
   50% {
     transform: scale(1.03);
-    box-shadow: 0 15px 35px rgba(8, 27, 107, 0.20);
+    box-shadow: 0 18px 45px rgba(244, 122, 32, 0.50);
   }
 }
 

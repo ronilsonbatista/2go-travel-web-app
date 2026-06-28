@@ -1,0 +1,38 @@
+# Lista de Tarefas — Overhaul da Experiência Mobile 2GO Travel
+
+- `[x]` 1. Configurar o Cabeçalho Mobile e Drawer lateral
+  - `[x]` Ocultar os botões "Consultoria" e "Baixar App" no Header em telas abaixo de `lg` (`Header.js`)
+  - `[x]` Refatorar o Drawer lateral do menu hambúrguer para visual premium (blur de fundo, links grandes, botões internos de Consultoria e Baixar App)
+- `[x]` 2. Criar e Integrar o Botão Flutuante Global "Baixar App"
+  - `[x]` Criar o componente `AppFloatingButton.js` (posicionamento centralizado inferior, safe area com `env(safe-area-inset-bottom)`, ícones Apple/Android, sombra e microanimação de pulso)
+  - `[x]` Adicionar o `<AppFloatingButton />` globalmente em `layout.js`
+- `[x]` 3. Ajustar o Botão Flutuante do WhatsApp
+  - `[x]` Reposicionar o botão do WhatsApp no mobile (`WhatsAppFloating.js`) para `bottom-24` ou `bottom-28`, prevenindo colisões ou ocultações com o CTA flutuante e o rodapé
+- `[x]` 4. Compactar o Hero e a Tipografia da Home no Mobile (`page.js`)
+  - `[x]` Diminuir a altura do Hero (`min-h-[60vh]`) e paddings verticais no mobile
+  - `[x]` Refinar tipografia (título principal com `text-[30px]` e subtítulo dinâmico compacto, descrição com limite de 2 linhas via `line-clamp-2`)
+  - `[x]` Ocultar botões CTA grandes e adicionar o link discreto `"Criar roteiro ➔"` no mobile Hero
+  - `[x]` Otimizar o Card de Vidro (reduzir padding para `p-4`, raio de borda para `rounded-[20px]`)
+  - `[x]` Substituir lista de destinos lateral por um carrossel horizontal de scroll suave com snap
+- `[x]` 5. Ajustar Seções, Espaçamentos e Cards da Home (`page.js`)
+  - `[x]` Diminuir espaçamentos de todas as seções (mudar de `py-20 md:py-28` para `py-12 lg:py-28` no mobile)
+  - `[x]` Otimizar cards de "Destinos em Destaque" (1 card por linha, padding lateral de 16px, cantos arredondados amplos `rounded-[28px]` e imagens maiores)
+  - `[x]` Padronizar e unificar o estilo dos cards secundários (Como Funciona, Depoimentos, etc.)
+- `[x]` 6. Configurar Folhas de Estilos e Animações
+  - `[x]` Adicionar a definição `@keyframes softScale` e `.animate-btn-pulse` em `globals.css`
+  - `[x]` Adicionar animação de hover `.card-premium-hover` e transição rápida
+- `[x]` 7. Validação, Testes e Documentação
+  - `[x]` Executar `npm run build` para testar compilação Next.js
+  - `[x]` Verificar ausência de overflow horizontal e compatibilidade de safe area em múltiplos simuladores móveis
+  - `[x]` Atualizar os logs em `walkthrough.md`
+  - `[x]` Marcar todas as tarefas como concluídas e efetuar commit/push das alterações
+- `[x]` 8. Ajustes Finais da Experiência Mobile (Alinhamentos Finais)
+  - `[x]` Remover completamente os CTAs do Header móvel (ficando apenas Logo + Hamburger)
+  - `[x]` Remover ícones Apple/Android do botão flutuante de download, mantendo apenas texto centralizado
+  - `[x]` Adicionar link "Destinos" no menu lateral móvel drawer, centralizando todas as opções
+  - `[x]` Discretizar o Header móvel (reduzir tamanho do Logo de 38px para 28px e altura do header de 70px para 56px) para dar dominância ao Hero/Conteúdo
+  - `[x]` Aumentar bottom padding do Footer móvel de 40px para 112px (`pb-28`) para evitar sobreposições com o CTA flutuante
+- `[x]` 9. Polimento Visual e Conectividade do Botão Flutuante (Laranja e WhatsApp Compacto)
+  - `[x]` Adicionar gradiente de fundo laranja `#F47A20` ao botão flutuante de download (`AppFloatingButton.js`)
+  - `[x]` Configurar sombra com brilho laranja e ajustar animações keyframe em `globals.css`
+  - `[x]` Redimensionar o widget flutuante do WhatsApp no mobile para `w-[42px] h-[42px]` para evitar obstrução visual
