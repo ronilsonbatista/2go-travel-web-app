@@ -8,16 +8,28 @@ import { Menu, X, Map } from 'lucide-react';
 export default function Header({ onOpenDownload }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const pathname = usePathname();
 
-  // Shrink header on scroll
+  // Shrink header on scroll & check mobile viewport size dynamically
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+    
     window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', checkMobile);
+    
     handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
+    checkMobile();
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', checkMobile);
+    };
   }, []);
 
   const menuItems = [
@@ -71,18 +83,22 @@ export default function Header({ onOpenDownload }) {
  
           {/* Actions */}
           <div className="flex items-center gap-2 sm:gap-4">
-            <Link 
-              href="/premium"
-              className="hidden lg:inline-flex btn btn-primary btn-sm cursor-pointer"
-            >
-              Consultoria
-            </Link>
-            <button 
-              onClick={onOpenDownload}
-              className="hidden lg:inline-flex btn btn-outline btn-sm cursor-pointer"
-            >
-              Baixar App
-            </button>
+            {!isMobile && (
+              <>
+                <Link 
+                  href="/premium"
+                  className="hidden lg:inline-flex btn btn-primary btn-sm cursor-pointer"
+                >
+                  Consultoria
+                </Link>
+                <button 
+                  onClick={onOpenDownload}
+                  className="hidden lg:inline-flex btn btn-outline btn-sm cursor-pointer"
+                >
+                  Baixar App
+                </button>
+              </>
+            )}
             
             {/* Hamburger Burger icon */}
             <button 
@@ -133,22 +149,22 @@ export default function Header({ onOpenDownload }) {
           </ul>
           
           <div className="mt-auto flex flex-col gap-3.5">
-            <Link 
-              href="/premium"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="w-full bg-[#081B6B] hover:bg-[#06144f] text-white py-3.5 flex items-center justify-center gap-2 cursor-pointer font-bold rounded-xl shadow-md shadow-brand-navy/10 text-sm"
-            >
-              <Map className="w-4.5 h-4.5" /> Consultoria
-            </Link>
             <button 
               onClick={() => {
                 setIsMobileMenuOpen(false);
                 onOpenDownload();
               }}
-              className="w-full border border-brand-navy text-brand-navy hover:bg-brand-navy/5 py-3.5 flex items-center justify-center cursor-pointer font-bold rounded-xl text-sm"
+              className="w-full bg-[#081B6B] hover:bg-[#06144f] text-white py-3.5 flex items-center justify-center cursor-pointer font-bold rounded-xl shadow-md shadow-brand-navy/10 text-sm"
             >
               Baixar App
             </button>
+            <Link 
+              href="/premium"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="w-full border border-brand-navy text-brand-navy hover:bg-brand-navy/5 py-3.5 flex items-center justify-center gap-2 cursor-pointer font-bold rounded-xl text-sm"
+            >
+              <Map className="w-4.5 h-4.5" /> Consultoria
+            </Link>
           </div>
         </div>
       </div>

@@ -36,3 +36,6 @@
   - `[x]` Adicionar gradiente de fundo laranja `#F47A20` ao botão flutuante de download (`AppFloatingButton.js`)
   - `[x]` Configurar sombra com brilho laranja e ajustar animações keyframe em `globals.css`
   - `[x]` Redimensionar o widget flutuante do WhatsApp no mobile para `w-[42px] h-[42px]` para evitar obstrução visual
+- `[x]` 10. Correção de Renderização Condicional no Header e Reordenação Drawer Menu
+  - `[x]` Implementar `isMobile` check em `Header.js` para remover totalmente os botões da árvore DOM no mobile.
+  - `[x]` Inserir os botões no Drawer na ordem correta: "Baixar App" (primeiro) e "Consultoria" (segundo).
