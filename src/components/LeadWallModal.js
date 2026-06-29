@@ -131,12 +131,11 @@ export default function LeadWallModal({ isOpen, onClose, onUnlock, destinationNa
               Quando pretende viajar?
             </label>
             <input 
-              type="text" 
+              type="date" 
               id="modal-date"
               value={tripDate}
               onChange={(e) => setTripDate(e.target.value)}
-              className="w-full px-4 py-2.5 rounded-xl border border-border-gray bg-bg-light text-brand-navy focus:outline-none focus:border-brand-navy focus:bg-white focus:ring-2 focus:ring-brand-navy/10 transition-all text-xs"
-              placeholder="Ex: Dezembro de 2026" 
+              className="w-full px-4 py-2.5 rounded-xl border border-border-gray bg-bg-light text-brand-navy focus:outline-none focus:border-brand-navy focus:bg-white focus:ring-2 focus:ring-brand-navy/10 transition-all text-xs cursor-pointer"
               required 
             />
           </div>

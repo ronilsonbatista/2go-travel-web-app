@@ -72,8 +72,7 @@ export default function ItineraryClient({ itinerary, destination }) {
     trackPageView('itinerary', itinerary.slug);
     
     if (typeof window !== 'undefined') {
-      const unlocked = localStorage.getItem('itinerary_unlocked_all') === 'true' || 
-                       localStorage.getItem(`itinerary_unlocked_${itinerary.slug}`) === 'true';
+      const unlocked = localStorage.getItem(`itinerary_unlocked_${itinerary.slug}`) === 'true';
       if (unlocked) {
         setIsUnlocked(true);
       }
@@ -85,7 +84,6 @@ export default function ItineraryClient({ itinerary, destination }) {
   const handleUnlock = () => {
     if (typeof window !== 'undefined') {
       localStorage.setItem(`itinerary_unlocked_${itinerary.slug}`, 'true');
-      localStorage.setItem('itinerary_unlocked_all', 'true');
     }
     setIsUnlocked(true);
     
@@ -286,13 +284,42 @@ export default function ItineraryClient({ itinerary, destination }) {
               >
                 <ArrowLeft className="w-4.5 h-4.5" />
               </Link>
-              <div className="flex gap-2">
+              <div className="flex gap-2 relative">
                 <button 
                   onClick={handleCopyLink}
                   className="w-8 h-8 rounded-full bg-white/15 hover:bg-white/25 backdrop-blur-xs flex items-center justify-center text-white transition-all cursor-pointer"
+                  title="Copiar Link"
                 >
                   <Share2 className="w-4 h-4" />
                 </button>
+                {/* 3-dots Menu Button */}
+                <div className="relative group">
+                  <button 
+                    className="w-8 h-8 rounded-full bg-white/15 hover:bg-white/25 backdrop-blur-xs flex items-center justify-center text-white transition-all cursor-pointer"
+                    title="Mais Opções"
+                  >
+                    <MoreVertical className="w-4 h-4" />
+                  </button>
+                  {/* Dropdown Menu */}
+                  <div className="absolute right-0 top-9 w-44 bg-white rounded-xl shadow-lg border border-border-gray/50 py-1.5 hidden group-hover:block hover:block z-50 animate-fade-in text-left">
+                    <button 
+                      onClick={handleCopyLink}
+                      className="w-full px-4 py-2 text-xs font-semibold text-brand-navy hover:bg-[#F7F8FA] transition-colors flex items-center gap-2 text-left cursor-pointer"
+                    >
+                      <span>🔗</span> {copied ? 'Copiado!' : 'Copiar Link'}
+                    </button>
+                    <button 
+                      onClick={() => {
+                        if (typeof window !== 'undefined') {
+                          window.print();
+                        }
+                      }}
+                      className="w-full px-4 py-2 text-xs font-semibold text-brand-navy hover:bg-[#F7F8FA] transition-colors flex items-center gap-2 text-left cursor-pointer"
+                    >
+                      <span>🖨️</span> Imprimir / PDF
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -401,8 +428,13 @@ export default function ItineraryClient({ itinerary, destination }) {
                 {/* Timeline Header */}
                 <div className="flex justify-between items-center border-b border-border-gray/50 pb-4 mb-6 text-left">
                   <div>
-                    <span className="text-[9px] font-black text-brand-orange uppercase tracking-wider">PROGRAMAÇÃO ATIVA</span>
-                    <h3 className="font-headers text-base sm:text-lg font-bold text-brand-navy mt-1">
+                    <div className="flex items-center gap-1.5 flex-wrap">
+                      <span className="text-[9px] font-black text-brand-orange bg-brand-orange/10 px-2 py-0.5 rounded uppercase tracking-wider">Programação ativa</span>
+                      <span className="text-[10px] text-text-muted font-medium italic">
+                        (Cronograma diário estruturado e otimizado para evitar desperdício de tempo)
+                      </span>
+                    </div>
+                    <h3 className="font-headers text-base sm:text-lg font-bold text-brand-navy mt-1.5">
                       {isUnlocked || activeDayIndex === 0 
                         ? itinerary.days[activeDayIndex].title 
                         : 'Programação de Dia Completo Oculta'}
@@ -557,47 +589,86 @@ export default function ItineraryClient({ itinerary, destination }) {
               {/* Consulting Promo card */}
               <div className="bg-brand-navy text-white p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
                 <span className="text-[8.5px] font-extrabold text-brand-orange uppercase tracking-wider">SUPORTE EXCLUSIVO</span>
-                <h4 className="font-headers font-bold text-white text-sm leading-tight">Deseja curadoria personalizada?</h4>
+                <h4 className="font-headers font-bold text-white text-sm leading-tight">Deseja consultoria personalizada?</h4>
                 <p className="text-[11px] text-white/70 leading-relaxed">Deixe que um consultor local da 2GO estruture e agende todas as suas atrações, hotéis e transportes sob medida.</p>
                 <Link 
                   href="/premium"
                   className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold py-3 text-xs justify-center flex items-center gap-1.5 transition-all mt-2 rounded-xl"
                 >
-                  Falar com Especialista
+                  Agendar Consultoria
                 </Link>
               </div>
 
-              {/* Local FAQs list in sidebar */}
-              {destination && destination.faqs && destination.faqs.length > 0 && (
-                <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-4">
-                  <h4 className="font-headers font-bold text-brand-navy text-sm">
-                    Dúvidas sobre {destination.name}
-                  </h4>
-                  <div className="flex flex-col gap-2">
-                    {destination.faqs.slice(0, 3).map((faq, i) => (
-                      <div 
-                        key={i}
-                        className="border border-border-gray rounded-lg overflow-hidden"
+              {/* Related Itineraries */}
+              <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-4 text-left">
+                <h4 className="font-headers font-bold text-brand-navy text-sm">
+                  Roteiros Relacionados
+                </h4>
+                <div className="flex flex-col gap-3">
+                  {[
+                    { name: 'Paris', title: 'Paris Essencial 🗼', slug: 'paris-7-dias', img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=150&h=150&q=80' },
+                    { name: 'Roma', title: 'Roma Clássica 🇮🇹', slug: 'roma-5-dias', img: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=150&h=150&q=80' },
+                    { name: 'Lisboa', title: 'Lisboa & Sintra 🇵🇹', slug: 'lisboa-3-dias', img: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=150&q=80' }
+                  ]
+                    .filter(item => item.slug !== itinerary.slug)
+                    .slice(0, 2)
+                    .map((related) => (
+                      <Link
+                        key={related.slug}
+                        href={`/roteiros/${related.slug}`}
+                        className="flex items-center gap-3 group border border-border-gray/30 p-2.5 rounded-xl hover:border-brand-orange hover:bg-[#F8FAFC]/50 transition-all cursor-pointer"
                       >
-                        <button
-                          onClick={() => toggleFaq(i)}
-                          className="w-full p-3 font-headers text-[11px] font-bold text-brand-navy text-left flex justify-between items-center bg-bg-light/20 hover:bg-bg-light transition-colors"
-                        >
-                          <span className="line-clamp-2">{faq.q}</span>
-                          <ChevronRight className={`w-3.5 h-3.5 text-brand-orange shrink-0 transform transition-transform ${
-                            openFaqIndex === i ? 'rotate-90' : ''
-                          }`} />
-                        </button>
-                        {openFaqIndex === i && (
-                          <div className="p-3 text-[11px] text-text-muted leading-relaxed border-t border-border-gray bg-white">
-                            {faq.a}
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
+                        <div className="w-12 h-12 rounded-lg overflow-hidden shrink-0 border border-border-gray/30">
+                          <img src={related.img} alt={related.name} className="w-full h-full object-cover transition-transform group-hover:scale-105 duration-300" />
+                        </div>
+                        <div className="min-w-0 flex-grow">
+                          <h5 className="font-headers text-xs font-bold text-brand-navy group-hover:text-brand-orange transition-colors truncate">
+                            {related.title}
+                          </h5>
+                          <p className="text-[10px] text-text-muted mt-0.5">Ver roteiro completo &rarr;</p>
+                        </div>
+                      </Link>
+                    ))
+                  }
                 </div>
-              )}
+              </div>
+
+              {/* FAQs list in sidebar */}
+              <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-4 text-left">
+                <h4 className="font-headers font-bold text-brand-navy text-sm">
+                  {destination ? `Dúvidas sobre ${destination.name}` : 'Dúvidas Frequentes'}
+                </h4>
+                <div className="flex flex-col gap-2">
+                  {(destination && destination.faqs && destination.faqs.length > 0 
+                    ? destination.faqs.slice(0, 3) 
+                    : [
+                        { q: 'Como sincronizar o roteiro offline?', a: 'Basta desbloquear o roteiro completo informando seus dados de viagem, e escanear o QR Code gerado usando a câmera do seu celular no app 2GO.' },
+                        { q: 'Posso alterar os horários sugeridos?', a: 'Sim. No aplicativo móvel da 2GO você pode arrastar e soltar atividades, personalizar horários, e receber alertas em tempo real.' },
+                        { q: 'Como funciona o suporte da consultoria?', a: 'Nosso time de consultores locais está disponível 24/7 para reservas de hotéis, restaurantes, passeios exclusivos e suporte a imprevistos.' }
+                      ]
+                  ).map((faq, i) => (
+                    <div 
+                      key={i}
+                      className="border border-border-gray rounded-lg overflow-hidden"
+                    >
+                      <button
+                        onClick={() => toggleFaq(i)}
+                        className="w-full p-3 font-headers text-[11px] font-bold text-brand-navy text-left flex justify-between items-center bg-bg-light/20 hover:bg-bg-light transition-colors cursor-pointer"
+                      >
+                        <span className="line-clamp-2">{faq.q}</span>
+                        <ChevronRight className={`w-3.5 h-3.5 text-brand-orange shrink-0 transform transition-transform ${
+                          openFaqIndex === i ? 'rotate-90' : ''
+                        }`} />
+                      </button>
+                      {openFaqIndex === i && (
+                        <div className="p-3 text-[11px] text-text-muted leading-relaxed border-t border-border-gray bg-white">
+                          {faq.a}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
 
             </div>
 
@@ -617,10 +688,10 @@ export default function ItineraryClient({ itinerary, destination }) {
       </main>
 
       {/* Floating Mapa Button */}
-      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40">
+      <div className="fixed bottom-28 left-4 sm:bottom-6 sm:left-1/2 sm:-translate-x-1/2 z-40">
         <button 
           onClick={() => setIsDownloadOpen(true)}
-          className="bg-brand-navy hover:bg-brand-navy/95 text-white font-bold px-6 py-3 rounded-full flex items-center gap-1.5 shadow-lg shadow-brand-navy/20 cursor-pointer transition-all hover:scale-105 active:scale-95 text-xs uppercase tracking-wider"
+          className="bg-brand-navy hover:bg-brand-navy/95 text-white font-bold px-5 py-3 rounded-full flex items-center gap-1.5 shadow-lg shadow-brand-navy/20 cursor-pointer transition-all hover:scale-105 active:scale-95 text-xs uppercase tracking-wider border-none"
         >
           <Map className="w-4 h-4 text-brand-orange shrink-0" />
           <span>Mapa</span>

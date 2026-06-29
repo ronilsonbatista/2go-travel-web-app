@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { User, LogOut, Heart, Clock, Star, Landmark, MapPin, Compass, Share2, Clipboard, Smartphone, Settings } from 'lucide-react';
+import { User, LogOut, Heart, Clock, Star, Landmark, MapPin, Compass, Share2, Clipboard, Smartphone, Settings, ArrowRight, ChevronRight } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';

@@ -25,7 +25,7 @@ export default function AdminDashboard() {
     loadStats();
   }, []);
 
-  const loadStats = () => {
+  function loadStats() {
     if (typeof window !== 'undefined') {
       // 1. Load simulated stats
       const localStats = JSON.parse(localStorage.getItem('admin_stats') || '{"clicks":14,"revenue":394,"conversions":2}');

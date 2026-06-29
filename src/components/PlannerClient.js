@@ -546,17 +546,13 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
-      const urlDestino = params.get('destino') || '';
-      const urlStep = params.get('step') || '';
+      const urlDest = params.get('dest') || params.get('destino') || '';
       
-      if (urlDestino) {
-        const destSlug = urlDestino.toLowerCase().trim();
-        setDestination(destSlug);
-        setSearchQuery(urlDestino);
-        
-        if (urlStep === '2' || !urlStep) {
-          setStep(1); // Set to Step 1 (which is Passo 2 of 3)
-        }
+      if (urlDest) {
+        const destDecoded = decodeURIComponent(urlDest).trim();
+        setDestination(destDecoded);
+        setSearchQuery(destDecoded);
+        setStep(1); // Auto-advance to Step 2 (Style)
       }
     }
   }, []);
@@ -712,7 +708,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 {step === 0 && (
                   <div className="animate-fade-in-up">
                     <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PASSO 1 DE 3
+                      Passo 1 de 3
                     </span>
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Para onde você vai viajar?
@@ -729,6 +725,17 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                         className="w-full bg-[#F8FAFC] border border-border-gray px-5 py-3.5 rounded-xl text-base font-semibold text-brand-navy placeholder:text-text-muted/50 focus:outline-none focus:border-brand-navy focus:bg-white transition-all shadow-xs"
                       />
                     </div>
+
+                    {/* Custom search query autocomplete card */}
+                    {searchQuery.trim() !== '' && !['paris', 'roma', 'lisboa', 'londres', 'tóquio', 'toquio', 'noronha', 'rio', 'veadeiros', 'amazonas', 'gramado', 'noruega', 'maldivas', 'grécia', 'grecia', 'safari'].includes(searchQuery.toLowerCase().trim()) && (
+                      <button
+                        onClick={() => selectDestinationAndAdvance(searchQuery.trim())}
+                        className="w-full text-left p-4 rounded-xl border border-brand-orange bg-brand-orange/5 text-brand-navy flex items-center justify-between mt-3 font-semibold text-xs sm:text-sm shadow-xs transition-all hover:scale-[1.01] cursor-pointer"
+                      >
+                        <span className="flex items-center gap-2">🌍 Planejar viagem para &ldquo;{searchQuery.trim()}&rdquo;</span>
+                        <ArrowRight className="w-4 h-4 text-brand-orange" />
+                      </button>
+                    )}
 
                     {/* Pre-search tags (Destinos Populares & Experiências) */}
                     {searchQuery === '' && (
@@ -825,12 +832,12 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 {step === 1 && (
                   <div className="animate-fade-in-up">
                     <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PASSO 2 DE 3
+                      Passo 2 de 3
                     </span>
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Qual é o estilo da sua viagem?
                     </h2>
-                    <p className="text-xs text-text-muted mt-2">Personalize a curadoria das atividades sugeridas.</p>
+                    <p className="text-xs text-text-muted mt-2">Personalize a consultoria das atividades sugeridas.</p>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-6">
                       {[
@@ -861,7 +868,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 {step === 2 && (
                   <div className="animate-fade-in-up">
                     <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PASSO 3 DE 3
+                      Passo 3 de 3
                     </span>
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Duração e Orçamento
@@ -894,7 +901,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                     <h3 className="text-sm font-headers text-brand-navy/80 font-bold mt-6 mb-3 uppercase tracking-wider">Orçamento Estimado</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       {[
-                        { id: 'moderado', label: 'Padrão Moderado', icon: '💳', desc: 'Curadoria gastronômica de ótimo custo.' },
+                        { id: 'moderado', label: 'Padrão Moderado', icon: '💳', desc: 'Consultoria gastronômica de ótimo custo.' },
                         { id: 'luxo', label: 'Alto Luxo Premium', icon: '👑', desc: 'Experiências vips exclusivas e iates.' }
                       ].map(opt => (
                         <button 

@@ -70,17 +70,17 @@ export default function Footer({ onOpenDownload }) {
           <ul className="flex flex-col gap-3 list-none m-0 p-0">
             <li>
               <Link href="/planejamento" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Gerar Roteiro
+                Criar roteiro
               </Link>
             </li>
             <li>
               <Link href="/roteiros" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Roteiros Curados
+                Roteiros
               </Link>
             </li>
             <li>
               <Link href="/premium" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Suporte VIP
+                Consultoria
               </Link>
             </li>
           </ul>

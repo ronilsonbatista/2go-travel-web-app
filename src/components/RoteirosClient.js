@@ -10,7 +10,7 @@ import AppDownloadModal from './AppDownloadModal';
 
 export default function RoteirosClient({ itineraries = [] }) {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
-  const [selectedDest, setSelectedDest] = useState('todos');
+  const [selectedContinent, setSelectedContinent] = useState('todos');
   const [searchQuery, setSearchQuery] = useState('');
 
   // Read URL search parameter on client mount
@@ -24,22 +24,79 @@ export default function RoteirosClient({ itineraries = [] }) {
     }
   }, []);
 
-  // Extract unique destinations that have itineraries
-  const destFilters = ['todos', ...new Set(itineraries.map(it => it.destinationName).filter(Boolean))];
+  // Helper to map country to continent
+  const getContinentOfCountry = (country) => {
+    if (!country) return 'Outros';
+    const c = country.toLowerCase();
+    if (['frança', 'itália', 'portugal', 'grécia', 'franca', 'italia', 'gricia', 'grecia'].includes(c)) return 'Europa';
+    if (['japão', 'japao', 'tailândia', 'china'].includes(c)) return 'Ásia';
+    if (['brasil', 'argentina', 'colômbia', 'colombia'].includes(c)) return 'América do Sul';
+    return 'Outros';
+  };
+
+  const getContinentIcon = (continent) => {
+    switch (continent) {
+      case 'Europa':
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5 shrink-0">
+            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+          </svg>
+        );
+      case 'Ásia':
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5 shrink-0">
+            <path d="M12 2v20M17 5H7M19 9H5M21 13H3" />
+          </svg>
+        );
+      case 'América do Sul':
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5 shrink-0">
+            <path d="M12 2c-3.5 0-7 2-7 7s3.5 11 7 13c3.5-2 7-8 7-13s-3.5-7-7-7z" />
+            <circle cx="12" cy="9" r="3" />
+          </svg>
+        );
+      default:
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5 shrink-0">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+          </svg>
+        );
+    }
+  };
+
+  // Extract unique continents that have itineraries
+  const continentFilters = ['todos', ...new Set(itineraries.map(it => getContinentOfCountry(it.destinationCountry)).filter(Boolean))];
 
   const filteredItineraries = itineraries.filter(it => {
-    // 1. Filter by tab destination
-    if (selectedDest !== 'todos' && it.destinationName !== selectedDest) {
+    // 1. Filter by continent
+    if (selectedContinent !== 'todos' && getContinentOfCountry(it.destinationCountry) !== selectedContinent) {
       return false;
     }
-    // 2. Filter by search query
+    // 2. Filter by search query (expanded search logic)
     if (searchQuery.trim() !== '') {
       const query = searchQuery.toLowerCase().trim();
+      
+      let countriesForContinent = [];
+      if (query === 'europa') {
+        countriesForContinent = ['frança', 'itália', 'portugal', 'grécia', 'espanha', 'inglaterra', 'alemanha'];
+      } else if (query === 'ásia' || query === 'asia') {
+        countriesForContinent = ['japão', 'tailândia', 'china', 'índia', 'indonésia'];
+      } else if (query === 'américa do sul' || query === 'america do sul' || query === 'américa' || query === 'america') {
+        countriesForContinent = ['brasil', 'argentina', 'chile', 'colômbia', 'peru'];
+      }
+      
+      const matchesContinent = countriesForContinent.includes(it.destinationCountry.toLowerCase());
+      const matchesTags = it.tags && it.tags.some(tag => tag.toLowerCase().includes(query));
+      
       return (
         it.title.toLowerCase().includes(query) ||
         it.desc.toLowerCase().includes(query) ||
         it.destinationName.toLowerCase().includes(query) ||
         it.destinationCountry.toLowerCase().includes(query) ||
+        matchesContinent ||
+        matchesTags ||
         (it.style && it.style.toLowerCase().includes(query))
       );
     }
@@ -86,13 +143,13 @@ export default function RoteirosClient({ itineraries = [] }) {
           {/* Header */}
           <header className="my-8">
             <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-full w-fit">
-              ROTEIROS DE CURADORIA
+              Roteiros de consultoria
             </span>
             <h1 className="font-headers text-3.5xl sm:text-5xl font-extrabold text-brand-navy mt-4 mb-4 tracking-tight">
               Planejamentos Completos de Viagem
             </h1>
             <p className="text-sm sm:text-base text-text-muted max-w-2xl leading-relaxed">
-              Explore roteiros dia a dia otimizados por nossos especialistas. Roteiros estruturados com as melhores rotas, passeios clássicos and locais secretos para otimizar o seu tempo.
+              Explore roteiros dia a dia otimizados por nossos consultores. Roteiros estruturados com as melhores rotas, passeios clássicos e locais secretos para otimizar o seu tempo.
             </p>
           </header>
 
@@ -123,7 +180,7 @@ export default function RoteirosClient({ itineraries = [] }) {
                 {matchingDests.map((dest) => (
                   <Link
                     key={dest.slug}
-                    href={`/planejamento?destino=${encodeURIComponent(dest.slug)}&step=2`}
+                    href={`/planejamento?dest=${encodeURIComponent(dest.name)}`}
                     className="inline-flex items-center gap-2 bg-white border border-border-gray hover:border-[#96AB21] hover:bg-[#96AB21]/5 text-xs font-bold text-brand-navy px-4.5 py-2.5 rounded-xl transition-all shadow-xs group/link cursor-pointer hover:scale-[1.01] active:scale-95 animate-fade-in"
                   >
                     <span>{dest.emoji}</span>
@@ -135,20 +192,21 @@ export default function RoteirosClient({ itineraries = [] }) {
             </div>
           )}
 
-          {/* Destination Filters (App Tab Bar Style) */}
-          {destFilters.length > 2 && (
-            <div className="flex flex-wrap gap-2 my-8">
-              {destFilters.map((dest) => (
+          {/* Continent Filters (App Tab Bar Style with SVGs) */}
+          {continentFilters.length > 2 && (
+            <div className="flex flex-wrap gap-2.5 my-8">
+              {continentFilters.map((cont) => (
                 <button
-                  key={dest}
-                  onClick={() => setSelectedDest(dest)}
-                  className={`px-4 py-2.5 rounded-full text-xs font-bold transition-all duration-300 cursor-pointer border shrink-0 ${
-                    selectedDest === dest
+                  key={cont}
+                  onClick={() => setSelectedContinent(cont)}
+                  className={`px-4.5 py-2.5 rounded-full text-xs font-bold transition-all duration-300 cursor-pointer border shrink-0 flex items-center gap-1.5 ${
+                    selectedContinent === cont
                       ? 'bg-brand-navy border-brand-navy text-white shadow-sm'
                       : 'bg-white border-border-gray text-text-muted hover:border-brand-navy/30 hover:text-brand-navy'
                   }`}
                 >
-                  {dest === 'todos' ? 'Todos os Destinos' : dest}
+                  {cont !== 'todos' && getContinentIcon(cont)}
+                  <span>{cont === 'todos' ? 'Todos os continentes' : cont}</span>
                 </button>
               ))}
             </div>
@@ -242,7 +300,7 @@ export default function RoteirosClient({ itineraries = [] }) {
               <p className="text-xs sm:text-sm text-text-muted mt-3 leading-relaxed max-w-md">Mas a 2GO pode montar um roteiro personalizado para esse destino em poucos passos.</p>
               <div className="mt-8 flex flex-col sm:flex-row gap-3 w-full items-center justify-center">
                 <Link
-                  href={`/planejamento?destino=${encodeURIComponent(searchQuery.trim().toLowerCase())}&step=2`}
+                  href={`/planejamento?dest=${encodeURIComponent(searchQuery.trim())}`}
                   className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold px-6 py-3.5 rounded-xl transition-all shadow-sm hover:scale-[1.01] active:scale-95 text-xs flex items-center justify-center gap-1.5 cursor-pointer w-full sm:w-auto"
                 >
                   <span>Planejar minha viagem para {displayDestName}</span>
@@ -251,7 +309,7 @@ export default function RoteirosClient({ itineraries = [] }) {
                 <button
                   onClick={() => {
                     setSearchQuery('');
-                    setSelectedDest('todos');
+                    setSelectedContinent('todos');
                   }}
                   className="bg-transparent border border-border-gray hover:border-brand-navy/30 text-brand-navy font-bold px-6 py-3.5 rounded-xl transition-all hover:scale-[1.01] active:scale-95 text-xs flex items-center justify-center cursor-pointer w-full sm:w-auto"
                 >

@@ -18,7 +18,24 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata = {
   title: "2GO Travel | Planejamento de Viagem Personalizado",
-  description: "Crie roteiros sob medida organizados automaticamente. Tecnologia e curadoria para sua próxima viagem.",
+  description: "Crie roteiros sob medida organizados automaticamente. Tecnologia e consultoria para sua próxima viagem.",
+  metadataBase: new URL("https://2go-travel-web-app.vercel.app"),
+  alternates: {
+    canonical: "/"
+  },
+  openGraph: {
+    title: "2GO Travel | Planejamento de Viagem Personalizado",
+    description: "Crie roteiros sob medida organizados automaticamente. Tecnologia e consultoria para sua próxima viagem.",
+    url: "https://2go-travel-web-app.vercel.app",
+    siteName: "2GO Travel",
+    locale: "pt_BR",
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "2GO Travel | Planejamento de Viagem Personalizado",
+    description: "Crie roteiros sob medida organizados automaticamente."
+  }
 };
 
 export default function RootLayout({ children }) {

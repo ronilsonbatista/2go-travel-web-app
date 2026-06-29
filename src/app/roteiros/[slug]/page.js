@@ -25,6 +25,10 @@ export async function generateMetadata({ params }) {
   return {
     title,
     description,
+    metadataBase: new URL("https://2go-travel-web-app.vercel.app"),
+    alternates: {
+      canonical: `/roteiros/${slug}`
+    },
     openGraph: {
       title,
       description,
