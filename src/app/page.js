@@ -637,9 +637,9 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Sliders className="w-6 h-6" />
                 </div>
-                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Leve tudo no bolso</h3>
+                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Roteiro organizado</h3>
                 <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-md">
-                  Sincronize o roteiro no celular com mapas offline, horários e atrações organizadas em um só lugar.
+                  A 2GO organiza seu roteiro por dia, horário, atrações e deslocamentos sob medida.
                 </p>
               </Link>
 
