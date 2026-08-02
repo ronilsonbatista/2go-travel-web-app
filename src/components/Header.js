@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, Map } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Header({ onOpenDownload }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,11 +32,21 @@ export default function Header({ onOpenDownload }) {
     };
   }, []);
 
-  const menuItems = [
+  // EXACTLY 3 items for Desktop Main Menu
+  const desktopMenuItems = [
     { label: 'Roteiros', href: '/roteiros' },
-    { label: 'Custos', href: '/quanto-custa' },
     { label: 'Criar roteiro', href: '/planejamento' },
     { label: 'Blog', href: '/blog' }
+  ];
+
+  // Mobile Drawer Menu
+  const mobileMenuItems = [
+    { label: 'Roteiros', href: '/roteiros' },
+    { label: 'Criar roteiro', href: '/planejamento' },
+    { label: 'Blog', href: '/blog' },
+    { label: 'Quem somos', href: '/quem-somos' },
+    { label: 'Consultoria Premium', href: '/premium' },
+    { label: 'Contato', href: '/quem-somos#contato' }
   ];
 
   return (
@@ -52,11 +62,7 @@ export default function Header({ onOpenDownload }) {
           {/* Official Logo */}
           <Link 
             href="/"
-            className={`flex items-center cursor-pointer transition-all duration-500 w-auto ${
-              isScrolled 
-                ? 'h-[42px] lg:h-[52px]' 
-                : 'h-[42px] lg:h-[52px]'
-            }`}
+            className="flex items-center cursor-pointer transition-all duration-500 w-auto h-[42px] lg:h-[52px]"
           >
             <img 
               src="/images/Logo2GO.png" 
@@ -64,16 +70,16 @@ export default function Header({ onOpenDownload }) {
               className="h-full w-auto object-contain transition-all duration-500"
             />
           </Link>
- 
-          {/* Desktop Navigation Menu */}
+
+          {/* Desktop Navigation Menu: EXACTLY 3 items */}
           <nav className="hidden lg:block">
             <ul className="flex gap-8 xl:gap-10 items-center list-none m-0 p-0">
-              {menuItems.map((item, idx) => (
+              {desktopMenuItems.map((item, idx) => (
                 <li key={idx}>
                   <Link
                     href={item.href}
                     className={`font-body font-semibold text-[0.96rem] xl:text-[1.05rem] py-2 relative cursor-pointer transition-colors ${
-                      pathname === item.href 
+                      pathname === item.href || (item.href === '/blog' && pathname.startsWith('/blog'))
                         ? 'text-brand-orange' 
                         : 'text-text-muted hover:text-brand-navy'
                     } after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-brand-orange after:transition-all after:duration-300 after:rounded-full after:w-0 hover:after:w-full`}
@@ -84,8 +90,8 @@ export default function Header({ onOpenDownload }) {
               ))}
             </ul>
           </nav>
- 
-          {/* Actions */}
+
+          {/* Commercial CTA Action Buttons */}
           <div className="flex items-center gap-2 sm:gap-4">
             {!isMobile && (
               <>
@@ -104,7 +110,7 @@ export default function Header({ onOpenDownload }) {
               </>
             )}
             
-            {/* Hamburger Burger icon */}
+            {/* Mobile Hamburger Burger Icon */}
             <button 
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="lg:hidden text-brand-navy cursor-pointer p-1"
@@ -115,7 +121,7 @@ export default function Header({ onOpenDownload }) {
           </div>
         </div>
       </header>
- 
+
       {/* Mobile Nav Sidebar Drawer Overlay */}
       <div 
         className={`fixed inset-0 bg-black/40 backdrop-blur-md z-45 transition-opacity duration-300 lg:hidden ${
@@ -124,18 +130,18 @@ export default function Header({ onOpenDownload }) {
         onClick={() => setIsMobileMenuOpen(false)}
       >
         <div 
-          className={`fixed top-0 right-0 w-[285px] h-screen bg-white/95 backdrop-blur-2xl border-l border-border-gray/30 p-8 pt-28 flex flex-col gap-8 z-50 transition-transform duration-300 shadow-2xl ease-out ${
+          className={`fixed top-0 right-0 w-[285px] h-screen bg-white/95 backdrop-blur-2xl border-l border-border-gray/30 p-6 pt-24 flex flex-col gap-6 z-50 transition-transform duration-300 shadow-2xl ease-out overflow-y-auto ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
           onClick={(e) => e.stopPropagation()}
         >
-          <ul className="list-none flex flex-col gap-4 m-0 p-0 text-left">
-            {menuItems.map((item, idx) => (
+          <ul className="list-none flex flex-col gap-2.5 m-0 p-0 text-left">
+            {mobileMenuItems.map((item, idx) => (
               <li key={idx} className="w-full">
                 <Link
                   href={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="font-headers text-2.5xl font-black text-brand-navy hover:text-brand-orange hover:translate-x-1.5 transition-all duration-300 w-full block text-left py-2 border-b border-border-gray/30"
+                  className="font-headers text-xl font-bold text-brand-navy hover:text-brand-orange hover:translate-x-1.5 transition-all duration-300 w-full block text-left py-2 border-b border-border-gray/20"
                 >
                   {item.label}
                 </Link>
@@ -143,7 +149,7 @@ export default function Header({ onOpenDownload }) {
             ))}
           </ul>
           
-          <div className="mt-auto flex flex-col gap-3.5">
+          <div className="mt-auto flex flex-col gap-3.5 pt-4 border-t border-border-gray/30">
             <button 
               onClick={() => {
                 setIsMobileMenuOpen(false);
@@ -153,13 +159,6 @@ export default function Header({ onOpenDownload }) {
             >
               Baixar App
             </button>
-            <Link 
-              href="/premium"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="w-full border border-brand-navy text-brand-navy hover:bg-brand-navy/5 py-3.5 flex items-center justify-center gap-2 cursor-pointer font-bold rounded-xl text-sm"
-            >
-              Consultoria Premium
-            </Link>
           </div>
         </div>
       </div>

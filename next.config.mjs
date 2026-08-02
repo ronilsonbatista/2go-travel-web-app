@@ -2,6 +2,9 @@
 const nextConfig = {
   async redirects() {
     return [
+      { source: '/como-planejar-viagem-paris', destination: '/blog/como-planejar-viagem-paris', permanent: true },
+      { source: '/guia-de-viagem', destination: '/blog', permanent: true },
+      { source: '/guia-de-viagem/:slug', destination: '/blog/:slug', permanent: true },
       { source: '/destinos', destination: '/roteiros', permanent: true },
       { source: '/destinos/:slug', destination: '/roteiros?search=:slug', permanent: true },
       { source: '/en/destinations', destination: '/roteiros', permanent: true },

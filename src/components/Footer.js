@@ -47,18 +47,18 @@ export default function Footer({ onOpenDownload }) {
           <h4 className="font-headers text-base font-bold text-brand-navy mb-6">Empresa</h4>
           <ul className="flex flex-col gap-3 list-none m-0 p-0">
             <li>
-              <Link href="/about" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Sobre nós
+              <Link href="/quem-somos" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
+                Quem somos
               </Link>
             </li>
             <li>
               <Link href="/blog" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Blog editorial
+                Blog
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Trabalhe conosco
+              <Link href="/quem-somos#contato" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
+                Contato
               </Link>
             </li>
           </ul>
