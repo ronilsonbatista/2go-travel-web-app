@@ -27,180 +27,156 @@ import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
 
-// Cinematic Unsplash Images for the Premium Hero Carousel & Categories
+// Cinematic Images for the Premium Hero Carousel & Categories
 const premiumSlides = [
-  {
-    id: 'santorini',
-    name: 'Santorini, Grécia',
-    country: 'Grécia',
-    emoji: '🇬🇷',
-    phrase: 'Pôr do sol inesquecível sobre o Mar Egeu.',
-    desc: 'Vilarejos de domos azuis sobre penhascos vulcânicos cercados por águas termais azul-turquesa.',
-    tags: ['Romance', 'Praias'],
-    img: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/roteiros?search=Santorini'
-  },
-  {
-    id: 'japan',
-    name: 'Quioto & Tóquio, Japão',
-    country: 'Japão',
-    emoji: '🇯🇵',
-    phrase: 'Tradição milenar e tecnologia em perfeita harmonia.',
-    desc: 'Caminhe sob os portais Torii vermelhos, explore templos budistas medievais e contemple avenidas futuristas.',
-    tags: ['Cultura', 'Tecnologia'],
-    img: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/roteiros?search=Tóquio'
-  },
-  {
-    id: 'norway',
-    name: 'Fiordes, Noruega',
-    country: 'Noruega',
-    emoji: '🇳🇴',
-    phrase: 'Aurora Boreal, fiordes e paisagens surreais.',
-    desc: 'Navegue entre paredões de rochas gigantescas esculpidos pelo gelo e assista às luzes mágicas do norte.',
-    tags: ['Natureza', 'Aventura'],
-    img: 'https://images.unsplash.com/photo-1527004013197-933c4bb611b3?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/roteiros?search=Noruega'
-  },
   {
     id: 'paris',
     name: 'Paris, França',
     country: 'França',
     emoji: '🇫🇷',
-    phrase: 'Arte, bistrôs tradicionais e o charme do Rio Sena.',
-    desc: 'Das ruelas boêmias de Montmartre aos bulevares elegantes desenhados por Haussmann.',
+    phrase: 'Arte, gastronomia e o charme do Rio Sena.',
+    desc: 'Torre Eiffel ao entardecer com o reflexo das luzes no Rio Sena e o charme eterno da capital francesa.',
     tags: ['Cultura', 'Romance'],
-    img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80',
+    img: '/images/destinations/paris/paris-1.jpg',
     ctaLink: '/roteiros?search=Paris'
   },
   {
-    id: 'capadocia',
-    name: 'Capadócia, Turquia',
-    country: 'Turquia',
-    emoji: '🇹🇷',
-    phrase: 'Voando sobre paisagens que parecem outro planeta.',
-    desc: 'Flutue ao nascer do sol em balões coloridos sobre chaminés de fadas e cidades esculpidas na rocha.',
-    tags: ['Aventura', 'Romance'],
-    img: 'https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/roteiros?search=Capadócia'
+    id: 'ny',
+    name: 'Nova York, Estados Unidos',
+    country: 'Estados Unidos',
+    emoji: '🇺🇸',
+    phrase: 'Energia, cultura e experiências em cada esquina.',
+    desc: 'O Empire State Building e o skyline de Manhattan ao entardecer com luzes urbanas elegantes e atmosfera cinematográfica.',
+    tags: ['Urbano', 'Cultura'],
+    img: '/images/destinations/nova-york/nova-york-1.jpg',
+    ctaLink: '/roteiros?search=Nova York'
   },
   {
-    id: 'noronha',
-    name: 'Fernando de Noronha, Brasil',
+    id: 'tokyo',
+    name: 'Tóquio, Japão',
+    country: 'Japão',
+    emoji: '🇯🇵',
+    phrase: 'Tradição, tecnologia e experiências únicas.',
+    desc: 'A majestosa Tokyo Tower iluminada durante a blue hour em harmonia entre a tradição e a vanguarda tecnológica.',
+    tags: ['Cultura', 'Tecnologia'],
+    img: '/images/destinations/toquio/toquio-1.jpg',
+    ctaLink: '/roteiros?search=Tóquio'
+  },
+  {
+    id: 'rio',
+    name: 'Rio de Janeiro, Brasil',
     country: 'Brasil',
     emoji: '🇧🇷',
-    phrase: 'Um dos mares mais bonitos do planeta.',
-    desc: 'Praias intocadas de águas mornas habitadas por golfinhos, tartarugas marinhas e piscinas naturais de corais.',
+    phrase: 'Praias, montanhas e paisagens inesquecíveis.',
+    desc: 'Pão de Açúcar ao pôr do sol em tons suaves de fim de tarde e natureza exuberante.',
     tags: ['Praias', 'Natureza'],
-    img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/roteiros?search=Fernando de Noronha'
+    img: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Rio de Janeiro'
   },
   {
-    id: 'maldivas',
-    name: 'Ilhas Maldivas',
-    country: 'Maldivas',
-    emoji: '🇲🇻',
-    phrase: 'Bungalows sobre águas cristalinas e atóis de corais.',
-    desc: 'Relaxe em praias de areia branca ultrafina, mergulhe em lagoas azul-piscina e viva o isolamento luxuoso.',
-    tags: ['Romance', 'Praias'],
-    img: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/roteiros?search=Maldivas'
-  },
-  {
-    id: 'toscana',
-    name: 'Toscana, Itália',
+    id: 'roma',
+    name: 'Roma, Itália',
     country: 'Itália',
     emoji: '🇮🇹',
-    phrase: 'Colinas douradas, vinhedos e arte renascentista.',
-    desc: 'Percorra estradas ladeadas por ciprestes, visite vilas medievais de pedra e prove vinhos de classe mundial.',
+    phrase: 'História, arte e monumentos a céu aberto.',
+    desc: 'O Coliseu ao entardecer em luz quente moderada e atmosfera histórica incomparável.',
+    tags: ['História', 'Gastronomia'],
+    img: '/images/destinations/roma/roma-1.jpg',
+    ctaLink: '/roteiros?search=Roma'
+  },
+  {
+    id: 'londres',
+    name: 'Londres, Reino Unido',
+    country: 'Reino Unido',
+    emoji: '🇬🇧',
+    phrase: 'História, cultura e ícones reconhecidos no mundo inteiro.',
+    desc: 'Big Ben e o Palácio de Westminster durante a blue hour com tons frios e refinados.',
+    tags: ['Cultura', 'História'],
+    img: '/images/destinations/londres/londres-1.jpg',
+    ctaLink: '/roteiros?search=Londres'
+  },
+  {
+    id: 'istanbul',
+    name: 'Istambul, Turquia',
+    country: 'Turquia',
+    emoji: '🇹🇷',
+    phrase: 'Onde Europa e Ásia se encontram.',
+    desc: 'A vista do Bósforo e das mesquitas seculares ao pôr do sol em suaves tons terrosos.',
+    tags: ['História', 'Cultura'],
+    img: '/images/destinations/istambul/istambul-1.jpg',
+    ctaLink: '/roteiros?search=Istambul'
+  },
+  {
+    id: 'sydney',
+    name: 'Sydney, Austrália',
+    country: 'Austrália',
+    emoji: '🇦🇺',
+    phrase: 'Praias, natureza e arquitetura icônica.',
+    desc: 'A Opera House de Sydney em blue hour com o skyline noturno refletido nas águas da baía.',
+    tags: ['Praias', 'Arquitetura'],
+    img: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Sydney'
+  },
+  {
+    id: 'bangkok',
+    name: 'Bangkok, Tailândia',
+    country: 'Tailândia',
+    emoji: '🇹🇭',
+    phrase: 'Templos, sabores e uma cidade cheia de vida.',
+    desc: 'A silhueta inconfundível do templo Wat Arun no Rio Chao Phraya durante a luz serena do entardecer.',
     tags: ['Cultura', 'Gastronomia'],
-    img: 'https://images.unsplash.com/photo-1523906921802-b5d2d899e93b?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/roteiros?search=Toscana'
+    img: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Bangkok'
   },
   {
-    id: 'south_africa',
-    name: 'África do Sul',
-    country: 'África do Sul',
-    emoji: '🇿🇦',
-    phrase: 'Vida selvagem, safáris e praias da Cidade do Cabo.',
-    desc: 'Encontre os Big Five em reservas naturais e aprecie a Table Mountain sob a brisa do oceano Atlântico.',
-    tags: ['Aventura', 'Natureza'],
-    img: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80',
-    ctaLink: '/roteiros?search=África do Sul'
-  },
-  {
-    id: 'gramado',
-    name: 'Gramado, RS',
-    country: 'Brasil',
-    emoji: '🇧🇷',
-    phrase: 'Charme europeu, hortênsias e fondue na serra.',
-    desc: 'O aconchego da colonização alemã com lagos cercados de pinheiros e gastronomia farta sob a neblina fria.',
-    tags: ['Romance', 'Gastronomia'],
-    img: '/assets/gramado.png',
-    ctaLink: '/roteiros?search=Gramado'
+    id: 'amsterdam',
+    name: 'Amsterdã, Países Baixos',
+    country: 'Países Baixos',
+    emoji: '🇳🇱',
+    phrase: 'Canais, cultura e charme em cada rua.',
+    desc: 'Os canais seculares ao anoitecer com luzes acolhedoras refletidas na água e arquitetura histórica.',
+    tags: ['Cultura', 'Canais'],
+    img: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Amsterdã'
   }
 ];
 
-// Dynamic CSS filters per destination to highlight their natural beauty
+// Dynamic CSS filters per destination for a cinematic, elegant, lower-saturation look
 const getSlideFilterClass = (id) => {
   switch (id) {
-    case 'santorini':
-      return 'brightness-[1.14] contrast-[1.10] saturate-[1.20]';
-    case 'norway':
-      return 'brightness-[1.08] contrast-[1.12] saturate-[1.05] hue-rotate-[-3deg]';
     case 'paris':
-      return 'brightness-[1.10] contrast-[1.06] saturate-[1.15] sepia-[0.06]';
-    case 'capadocia':
-      return 'brightness-[1.12] contrast-[1.06] saturate-[1.25] sepia-[0.10]';
-    case 'noronha':
-      return 'brightness-[1.14] contrast-[1.08] saturate-[1.30]';
-    case 'maldivas':
-      return 'brightness-[1.10] contrast-[1.22] saturate-[1.25] hue-rotate-[3deg]'; // contraste levemente maior
-    case 'toscana':
-      return 'brightness-[1.08] contrast-[1.08] saturate-[1.20] sepia-[0.08]';
+      return 'brightness-[0.84] contrast-[1.04] saturate-[0.76]';
+    case 'ny':
+      return 'brightness-[0.82] contrast-[1.05] saturate-[0.78]';
+    case 'tokyo':
+      return 'brightness-[0.83] contrast-[1.04] saturate-[0.74]';
+    case 'rio':
+      return 'brightness-[0.85] contrast-[1.03] saturate-[0.80]';
+    case 'roma':
+      return 'brightness-[0.84] contrast-[1.05] saturate-[0.76]';
+    case 'londres':
+      return 'brightness-[0.82] contrast-[1.05] saturate-[0.72]';
+    case 'istanbul':
+      return 'brightness-[0.84] contrast-[1.04] saturate-[0.78]';
+    case 'sydney':
+      return 'brightness-[0.83] contrast-[1.05] saturate-[0.75]';
+    case 'bangkok':
+      return 'brightness-[0.84] contrast-[1.04] saturate-[0.78]';
+    case 'amsterdam':
+      return 'brightness-[0.82] contrast-[1.06] saturate-[0.74]';
     default:
-      return 'brightness-[1.08] contrast-[1.08] saturate-[1.12]';
+      return 'brightness-[0.83] contrast-[1.04] saturate-[0.76]';
   }
 };
 
 // Dynamic warm overlay opacity to add life to specific destinations
 const getSlideWarmOverlayStyle = (id) => {
-  switch (id) {
-    case 'santorini':
-      return 'rgba(255, 255, 255, 0.15)'; // overlay claro
-    case 'norway':
-      return 'rgba(255, 255, 255, 0.20)'; // overlay claro suave
-    case 'maldivas':
-      return 'rgba(244, 122, 32, 0.03)';
-    case 'noronha':
-      return 'rgba(244, 122, 32, 0.04)';
-    case 'capadocia':
-      return 'rgba(244, 122, 32, 0.12)';
-    case 'paris':
-      return 'rgba(0, 0, 0, 0)'; // quase sem overlay
-    case 'toscana':
-      return 'rgba(244, 122, 32, 0.10)';
-    default:
-      return 'rgba(244, 122, 32, 0.08)';
-  }
+  return 'rgba(0, 0, 0, 0)';
 };
 
-// Dynamic subtle dark overlay to enhance depth and readability
+// Dynamic subtle dark overlay to enhance depth and text readability
 const getSlideDarkOverlayStyle = (id) => {
-  switch (id) {
-    case 'santorini':
-      return 'linear-gradient(to top, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.02))'; // overlay claro
-    case 'norway':
-      return 'linear-gradient(to top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.02))'; // overlay claro suave
-    case 'maldivas':
-      return 'linear-gradient(to top, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.10))';
-    case 'noronha':
-      return 'linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05))'; // overlay levemente escuro no rodapé
-    case 'paris':
-      return 'linear-gradient(to top, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.01))'; // quase sem overlay
-    default:
-      return 'linear-gradient(to top, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.06))';
-  }
+  return 'linear-gradient(to top, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.02) 100%)';
 };
 
 // Dynamic subtle text shadow for Hero text readability

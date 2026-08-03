@@ -13,9 +13,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
-import CheckoutModal from './CheckoutModal';
 import NewsletterBox from './NewsletterBox';
-import AffiliateDeals from './AffiliateDeals';
 import JsonLd from './JsonLd';
 import { getItinerarySchema, getFAQSchema } from '@/lib/schema';
 import { trackPageView } from '@/lib/analytics';
@@ -37,9 +35,8 @@ const EVENT_IMAGES = {
 
 export default function ItineraryClient({ itinerary, destination }) {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
-  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   const [isMapModalOpen, setIsMapModalOpen] = useState(false);
-  const [isUnlocked, setIsUnlocked] = useState(false);
+  const [isUnlocked, setIsUnlocked] = useState(true);
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
   const [copied, setCopied] = useState(false);
   const [activeMenuEventIdx, setActiveMenuEventIdx] = useState(null);
@@ -734,9 +731,6 @@ export default function ItineraryClient({ itinerary, destination }) {
                 )}
               </div>
 
-              {/* Affiliate Deals */}
-              <AffiliateDeals destinationName={destName} />
-
               {/* Dicas locais */}
               <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
                 <span className="text-[9px] font-extrabold text-brand-orange uppercase tracking-wider block font-headers">💡 DICAS DO CURADOR</span>
@@ -795,7 +789,7 @@ export default function ItineraryClient({ itinerary, destination }) {
           className="bg-brand-navy hover:bg-brand-navy/95 text-white font-bold px-6 py-3 rounded-full flex items-center gap-1.5 shadow-lg shadow-brand-navy/20 cursor-pointer transition-all hover:scale-105 active:scale-95 text-xs uppercase tracking-wider font-headers"
         >
           <Map className="w-4 h-4 text-brand-orange shrink-0" />
-          <span>Mapa</span>
+          <span>Abrir mapa no app</span>
         </button>
       </div>
 
@@ -804,14 +798,6 @@ export default function ItineraryClient({ itinerary, destination }) {
       <AppDownloadModal 
         isOpen={isDownloadOpen} 
         onClose={() => setIsDownloadOpen(false)} 
-      />
-
-      <CheckoutModal
-        isOpen={isCheckoutOpen}
-        onClose={() => setIsCheckoutOpen(false)}
-        destinationName={destName}
-        itinerarySlug={itinerary.slug}
-        onSuccess={handleUnlock}
       />
 
       <MapModal />

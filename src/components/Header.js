@@ -32,18 +32,19 @@ export default function Header({ onOpenDownload }) {
     };
   }, []);
 
-  // EXACTLY 3 items for Desktop Main Menu
+  // Desktop Main Menu (EXACTLY 4 items)
   const desktopMenuItems = [
     { label: 'Roteiros', href: '/roteiros' },
     { label: 'Criar roteiro', href: '/planejamento' },
-    { label: 'Blog', href: '/blog' }
+    { label: 'Guia de Viagem', href: '/blog' },
+    { label: 'Quem somos', href: '/quem-somos' }
   ];
 
   // Mobile Drawer Menu
   const mobileMenuItems = [
     { label: 'Roteiros', href: '/roteiros' },
     { label: 'Criar roteiro', href: '/planejamento' },
-    { label: 'Blog', href: '/blog' },
+    { label: 'Guia de Viagem', href: '/blog' },
     { label: 'Quem somos', href: '/quem-somos' },
     { label: 'Consultoria Premium', href: '/premium' },
     { label: 'Contato', href: '/quem-somos#contato' }

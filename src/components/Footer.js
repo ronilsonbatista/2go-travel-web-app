@@ -53,7 +53,7 @@ export default function Footer({ onOpenDownload }) {
             </li>
             <li>
               <Link href="/blog" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Blog
+                Guia de Viagem
               </Link>
             </li>
             <li>

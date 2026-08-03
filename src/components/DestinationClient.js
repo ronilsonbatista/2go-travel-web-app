@@ -9,7 +9,6 @@ import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
 import LeadMagnetBox from './LeadMagnetBox';
 import NewsletterBox from './NewsletterBox';
-import AffiliateDeals from './AffiliateDeals';
 import JsonLd from './JsonLd';
 import { getDestinationSchema, getFAQSchema } from '@/lib/schema';
 import { trackPageView } from '@/lib/analytics';
@@ -336,11 +335,6 @@ export default function DestinationClient({ destination, itineraries }) {
 
             </div>
 
-          </div>
-
-          {/* Affiliate Deals Section */}
-          <div className="mt-12 w-full">
-            <AffiliateDeals destination={destination} />
           </div>
 
           {/* Recommendation Engine Section */}

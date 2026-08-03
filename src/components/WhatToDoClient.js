@@ -8,7 +8,6 @@ import Footer from './Footer';
 import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
 import LeadMagnetBox from './LeadMagnetBox';
-import AffiliateDeals from './AffiliateDeals';
 import JsonLd from './JsonLd';
 import { getFAQSchema } from '@/lib/schema';
 import { trackPageView } from '@/lib/analytics';
@@ -151,11 +150,6 @@ export default function WhatToDoClient({ destination }) {
                   </div>
                 </div>
               </section>
-
-              {/* Affiliate Deals Section */}
-              <div className="my-4">
-                <AffiliateDeals destination={destination} />
-              </div>
 
               {/* Lead Magnet Guia PDF */}
               <LeadMagnetBox 

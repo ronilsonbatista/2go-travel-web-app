@@ -7,7 +7,6 @@ import { Compass, Clock, MapPin, Sparkles, User, ArrowLeft, Heart, CheckCircle, 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
-import AffiliateDeals from '@/components/AffiliateDeals';
 import { getItineraryBySlug, getDestinationBySlug } from '@/lib/cms';
 import { trackPageView, trackEvent } from '@/lib/analytics';
 import confetti from 'canvas-confetti';
@@ -234,13 +233,6 @@ export default function SharedItinerary({ params }) {
             </div>
 
           </div>
-
-          {/* Dynamic Affiliate offers at the bottom */}
-          {destination && (
-            <div className="mt-12 w-full">
-              <AffiliateDeals destination={destination} />
-            </div>
-          )}
 
         </div>
       </main>

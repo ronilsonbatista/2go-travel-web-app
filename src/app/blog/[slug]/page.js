@@ -1,68 +1,65 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { getBlogPostBySlug, getBlogPosts } from '@/lib/cms';
+import { destinationGuides } from '@/data/guidesData';
 import BlogPostClient from '@/components/BlogPostClient';
+import GuideArticleClient from '@/components/GuideArticleClient';
 
-// 1. Dynamic Metadata for SEO
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const post = await getBlogPostBySlug(slug);
-  if (!post) {
+  
+  if (destinationGuides[slug]) {
+    const guide = destinationGuides[slug];
     return {
-      title: 'Artigo Não Encontrado | 2GO Roteiros',
-      description: 'O artigo solicitado não está disponível em nossa base editorial.'
+      title: guide.metaTitle,
+      description: guide.metaDescription,
+      openGraph: {
+        title: guide.metaTitle,
+        description: guide.metaDescription,
+        type: 'article',
+        images: [{ url: guide.heroImage, width: 1200, height: 630, alt: guide.title }]
+      }
     };
   }
 
-  const title = `${post.title} | Blog 2GO Roteiros`;
-  const description = post.excerpt;
+  const post = await getBlogPostBySlug(slug);
+  if (!post) {
+    return {
+      title: 'Guia Não Encontrado | 2GO Travel',
+      description: 'O guia solicitado não foi encontrado.'
+    };
+  }
 
   return {
-    title,
-    description,
+    title: `${post.title} | 2GO Travel`,
+    description: post.excerpt,
     openGraph: {
-      title,
-      description,
+      title: `${post.title} | 2GO Travel`,
+      description: post.excerpt,
       type: 'article',
-      publishedTime: new Date().toISOString(),
-      images: [
-        {
-          url: post.image,
-          width: 800,
-          height: 600,
-          alt: post.title
-        }
-      ]
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [post.image]
+      images: [{ url: post.image, width: 800, height: 600, alt: post.title }]
     }
   };
 }
 
-// 2. SSG static params pre-generation during build time
 export async function generateStaticParams() {
   const posts = await getBlogPosts();
-  return posts.map(post => ({
-    slug: post.slug
-  }));
+  const guideSlugs = Object.keys(destinationGuides).map(slug => ({ slug }));
+  const postSlugs = posts.map(post => ({ slug: post.slug }));
+  return [...guideSlugs, ...postSlugs];
 }
 
-// 3. Server Component Page entry
 export default async function BlogPostPage({ params }) {
   const { slug } = await params;
-  const post = await getBlogPostBySlug(slug);
 
+  if (destinationGuides[slug]) {
+    return <GuideArticleClient guide={destinationGuides[slug]} />;
+  }
+
+  const post = await getBlogPostBySlug(slug);
   if (!post) {
     notFound();
   }
 
-  return (
-    <BlogPostClient 
-      post={post}
-    />
-  );
+  return <BlogPostClient post={post} />;
 }

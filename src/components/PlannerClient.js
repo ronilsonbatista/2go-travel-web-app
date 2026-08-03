@@ -22,7 +22,6 @@ import confetti from 'canvas-confetti';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
-import CheckoutModal from '@/components/CheckoutModal';
 import { matchesSearch } from '@/lib/searchHelper';
 
 const destinationImages = {
@@ -528,8 +527,7 @@ const itineraryDatabase = {
 
 export default function PlannerClient({ preselectedDestinationSlug }) {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
-  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
-  const [isUnlocked, setIsUnlocked] = useState(false);
+  const [isUnlocked, setIsUnlocked] = useState(true);
   const [step, setStep] = useState(preselectedDestinationSlug ? 1 : 0);
   const [loading, setLoading] = useState(false);
   const [loadingText, setLoadingText] = useState('');
@@ -548,20 +546,6 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
   const [pace, setPace] = useState('');
   const [style, setStyle] = useState('');
   const [interests, setInterests] = useState([]);
-  const [diet, setDiet] = useState('nenhuma');
-  const [restrictions, setRestrictions] = useState('');
-
-  // Check purchase status in LocalStorage dynamically for the active destination
-  useEffect(() => {
-    if (typeof window !== 'undefined' && destination) {
-      const purchased = JSON.parse(localStorage.getItem('purchased_roteiros') || '[]');
-      if (purchased.includes(destination)) {
-        setIsUnlocked(true);
-      } else {
-        setIsUnlocked(false);
-      }
-    }
-  }, [destination, showResults]);
 
   const selectDestinationAndAdvance = (destId) => {
     setDestination(destId);
@@ -1426,16 +1410,10 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                                   <p className="text-[11px] text-text-muted mt-0.5 leading-relaxed">Rota do primeiro dia otimizada com tempos de trânsito em tempo real.</p>
                                 </div>
                                 <button
-                                  onClick={() => {
-                                    if (isUnlocked) {
-                                      setIsDownloadOpen(true);
-                                    } else {
-                                      setIsCheckoutOpen(true);
-                                    }
-                                  }}
+                                  onClick={() => setIsDownloadOpen(true)}
                                   className="btn btn-outline py-2 px-4 text-xs font-bold shrink-0 cursor-pointer"
                                 >
-                                  {isUnlocked ? 'Ver Mapa Completo' : 'Desbloquear Mapa'}
+                                  Ver no app
                                 </button>
                               </div>
                             )}
@@ -1447,30 +1425,28 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 </div>
 
                 {/* Bottom Call to Action banner */}
-                {isUnlocked && (
-                  <div className="bg-brand-navy text-white p-8 md:p-12 rounded-[28px] mt-12 text-center flex flex-col items-center gap-4 shadow-lg border border-brand-navy animate-fade-in-up">
-                    <h3 className="font-headers text-xl md:text-3xl font-extrabold tracking-tight">
-                      Sua viagem com você, em qualquer lugar 🗺️
-                    </h3>
-                    <p className="text-xs sm:text-sm text-white/80 max-w-[520px] leading-relaxed">
-                      Agora que seu roteiro está completo, importe para o aplicativo 2GO e acesse mapas, direções por GPS e vouchers de forma 100% offline.
-                    </p>
-                    <div className="flex gap-4 mt-4 w-full justify-center max-w-[420px] flex-col sm:flex-row">
-                      <button 
-                        onClick={() => setIsDownloadOpen(true)}
-                        className="btn btn-secondary py-3.5 px-6 shadow-md cursor-pointer hover:bg-white hover:text-brand-navy flex-1 text-center justify-center font-bold"
-                      >
-                        Sincronizar no Celular
-                      </button>
-                      <button 
-                        onClick={handleReset}
-                        className="btn border border-white/30 text-white bg-transparent py-3.5 px-6 hover:bg-white/10 hover:border-white transition-all cursor-pointer flex-1 text-center justify-center font-bold"
-                      >
-                        Criar Outro Roteiro
-                      </button>
-                    </div>
+                <div className="bg-brand-navy text-white p-8 md:p-12 rounded-[28px] mt-12 text-center flex flex-col items-center gap-4 shadow-lg border border-brand-navy animate-fade-in-up">
+                  <h3 className="font-headers text-xl md:text-3xl font-extrabold tracking-tight">
+                    Sua viagem com você, em qualquer lugar 🗺️
+                  </h3>
+                  <p className="text-xs sm:text-sm text-white/80 max-w-[520px] leading-relaxed">
+                    Agora que seu roteiro está completo, importe para o aplicativo 2GO e acesse mapas, direções por GPS e vouchers de forma 100% offline.
+                  </p>
+                  <div className="flex gap-4 mt-4 w-full justify-center max-w-[420px] flex-col sm:flex-row">
+                    <button 
+                      onClick={() => setIsDownloadOpen(true)}
+                      className="btn btn-secondary py-3.5 px-6 shadow-md cursor-pointer hover:bg-white hover:text-brand-navy flex-1 text-center justify-center font-bold"
+                    >
+                      Sincronizar no Celular
+                    </button>
+                    <button 
+                      onClick={handleReset}
+                      className="btn border border-white/30 text-white bg-transparent py-3.5 px-6 hover:bg-white/10 hover:border-white transition-all cursor-pointer flex-1 text-center justify-center font-bold"
+                    >
+                      Criar Outro Roteiro
+                    </button>
                   </div>
-                )}
+                </div>
               </div>
             )}
 
@@ -1483,14 +1459,6 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
       <AppDownloadModal 
         isOpen={isDownloadOpen} 
         onClose={() => setIsDownloadOpen(false)} 
-      />
-
-      <CheckoutModal
-        isOpen={isCheckoutOpen}
-        onClose={() => setIsCheckoutOpen(false)}
-        destinationName={activeItinerary?.name || destination}
-        itinerarySlug={destination}
-        onSuccess={handleUnlockSuccess}
       />
     </div>
   );
