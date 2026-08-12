@@ -1,44 +1,44 @@
-import BlogPostParisClient from '@/components/BlogPostParisClient';
+import GuideArticleClient from '@/components/GuideArticleClient';
+import { destinationGuides } from '@/data/guidesData';
 
 export const metadata = {
-  title: 'Como planejar uma viagem para Paris: guia completo (2026)',
+  title: 'Como planejar uma viagem para Paris: guia completo',
   description: 'Descubra como planejar sua viagem para Paris sem estresse. Veja documentos, transporte, hospedagem, orçamento e dicas.',
   alternates: {
     canonical: 'https://2go.com.br/blog/como-planejar-viagem-paris'
   },
   openGraph: {
-    title: 'Como planejar uma viagem para Paris: guia completo (2026)',
+    title: 'Como planejar uma viagem para Paris: guia completo',
     description: 'Descubra como planejar sua viagem para Paris sem estresse. Veja documentos, transporte, hospedagem, orçamento e dicas.',
     url: 'https://2go.com.br/blog/como-planejar-viagem-paris',
     siteName: '2GO Travel',
     type: 'article',
-    publishedTime: '2026-06-12T00:00:00.000Z',
-    authors: ['2GO Travel Editorial'],
     images: [
       {
-        url: 'https://2go.com.br/assets/paris.png',
+        url: '/images/destinations/paris/paris-eiffel-seine.jpg',
         width: 1200,
         height: 630,
-        alt: 'Vista noturna da Torre Eiffel e do Rio Sena em Paris'
+        alt: 'Torre Eiffel ao entardecer'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Como planejar uma viagem para Paris: guia completo (2026)',
+    title: 'Como planejar uma viagem para Paris: guia completo',
     description: 'Descubra como planejar sua viagem para Paris sem estresse. Veja documentos, transporte, hospedagem, orçamento e dicas.',
-    images: ['https://2go.com.br/assets/paris.png']
+    images: ['/images/destinations/paris/paris-eiffel-seine.jpg']
   }
 };
 
 export default function BlogPostParisPage() {
+  const guide = destinationGuides['como-planejar-viagem-paris'];
+  
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
-    headline: 'Como planejar uma viagem para Paris sem estresse',
+    headline: 'Como planejar uma viagem para Paris: guia completo',
     description: 'Descubra os passos essenciais para organizar sua viagem, escolher onde ficar, entender o metrô e evitar os erros mais comuns em Paris.',
-    image: 'https://2go.com.br/assets/paris.png',
-    datePublished: '2026-06-12T00:00:00.000Z',
+    image: 'https://2go.com.br/images/destinations/paris/paris-eiffel-seine.jpg',
     author: {
       '@type': 'Organization',
       name: '2GO Travel'
@@ -63,7 +63,7 @@ export default function BlogPostParisPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <BlogPostParisClient />
+      <GuideArticleClient guide={guide} />
     </>
   );
 }

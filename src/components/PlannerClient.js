@@ -1227,7 +1227,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 <div className="bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] shadow-sm mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 text-left">
                   <div>
                     <span className="bg-brand-orange text-white text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      ROTEIRO PERSONALIZADO
+                      PRÉVIA DO ROTEIRO NO APP
                     </span>
                     <h2 className="font-headers text-2xl md:text-3.5xl font-bold text-brand-navy mt-3 leading-tight font-extrabold">
                       {activeItinerary.title}
@@ -1238,21 +1238,12 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                   </div>
                   
                   <div className="flex gap-3 w-full md:w-auto shrink-0">
-                    {isUnlocked ? (
-                      <button 
-                        onClick={() => setIsDownloadOpen(true)}
-                        className="btn btn-primary justify-center shadow-sm cursor-pointer flex-1 sm:flex-initial"
-                      >
-                        <Smartphone className="w-4 h-4 mr-2" /> Salvar no App
-                      </button>
-                    ) : (
-                      <button 
-                        onClick={() => setIsCheckoutOpen(true)}
-                        className="btn btn-secondary justify-center shadow-sm cursor-pointer flex-1 sm:flex-initial"
-                      >
-                        <Lock className="w-4 h-4 mr-2" /> Desbloquear Completo
-                      </button>
-                    )}
+                    <button 
+                      onClick={() => setIsDownloadOpen(true)}
+                      className="btn btn-primary justify-center shadow-sm cursor-pointer flex-1 sm:flex-initial"
+                    >
+                      <Smartphone className="w-4 h-4 mr-2" /> Baixar no App
+                    </button>
                     <button 
                       onClick={handleReset}
                       className="btn btn-outline cursor-pointer px-4"
@@ -1263,181 +1254,96 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                   </div>
                 </div>
 
-                {/* Info Banners */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                  <div className="bg-brand-navy/5 border border-brand-navy/10 p-6 rounded-[20px] flex gap-4 text-left items-start">
-                    <ShieldAlert className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
-                    <div>
-                      <span className="font-headers text-xs font-bold text-brand-navy uppercase tracking-widest">
-                        Utilize Offline no seu Celular
+                {/* Day 1 Timeline Card */}
+                <div className="bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] shadow-sm text-left relative mb-8">
+                  {/* Banner Day 1 */}
+                  <div className="mb-6 rounded-2xl overflow-hidden border border-border-gray/30 relative h-48 bg-brand-navy text-white shadow-xs">
+                    <img 
+                      src={destinationImages[destination] || 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80'} 
+                      alt={activeItinerary.name} 
+                      className="w-full h-full object-cover opacity-60"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                    <div className="absolute bottom-4 left-4 right-4 text-left">
+                      <span className="bg-brand-orange text-white text-[9px] font-extrabold tracking-widest px-2.5 py-1 rounded-full uppercase font-headers">
+                        PRIMEIRO DIA DE VIAGEM
                       </span>
-                      <p className="text-xs text-text-muted mt-1 leading-relaxed">
-                        Importe para o app 2GO para usar este roteiro com mapas offline ativos, GPS e controle de gastos em tempo real durante a viagem.
-                      </p>
+                      <h4 className="font-headers text-lg sm:text-xl font-bold mt-1.5 leading-tight">
+                        Chegada e ambientação em {activeItinerary.name || destination}
+                      </h4>
                     </div>
                   </div>
 
-                  <div className="bg-[#FAF9F6] border border-brand-navy/10 p-6 rounded-[20px] flex gap-4 text-left items-start">
-                    <span className="text-xl shrink-0 mt-0.5">🤝</span>
-                    <div>
-                      <span className="font-headers text-xs font-bold text-brand-orange uppercase tracking-widest block">
-                        A tecnologia organiza. Especialistas aperfeiçoam.
-                      </span>
-                      <p className="text-xs text-text-muted mt-1 leading-relaxed">
-                        Seu roteiro foi desenhado com tecnologia de ponta. Deseja que especialistas revisem sua logística e incluam serviços VIP? Ative o suporte no app.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Day-by-Day Timeline */}
-                <div className="relative pl-8 flex flex-col gap-6 before:content-[''] before:absolute before:top-0 before:left-3.5 before:w-[2px] before:h-full before:bg-border-gray text-left">
-                  {finalDays.map((day, idx) => {
-                    const isGated = idx > 0 && !isUnlocked;
-
-                    return (
-                      <div 
-                        key={idx} 
-                        className={`relative bg-white border border-border-gray p-6 rounded-[24px] shadow-sm transition-all duration-300 ${
-                          isGated ? 'min-h-[220px] overflow-hidden' : ''
-                        }`}
-                      >
-                        {/* Dot */}
-                        <div className="absolute top-8 left-[calc(-32px-8px)] w-6 h-6 rounded-full bg-[#F7F8FA] border-2 border-brand-navy flex items-center justify-center">
-                          <div className="w-2.5 h-2.5 rounded-full bg-brand-orange shadow-[0_2px_6px_rgba(244,122,32,0.4)]"></div>
-                        </div>
-
-                        {isGated ? (
-                          /* Gated Day Cover Layer */
-                          <>
-                            <div className="filter blur-sm pointer-events-none select-none opacity-40">
-                              <span className="font-headers text-xs font-bold text-brand-orange uppercase tracking-wider">
-                                {day.day}
-                              </span>
-                              <h3 className="font-headers text-lg sm:text-xl font-bold text-brand-navy mt-1 mb-4">
-                                {day.title}
-                              </h3>
-                              <ul className="flex flex-col gap-3.5 list-none m-0 p-0">
-                                {day.events.map((evt, eIdx) => (
-                                  <li key={eIdx} className="flex gap-4 text-xs sm:text-sm items-start">
-                                    <span className="font-headers text-[10px] font-bold text-brand-navy bg-bg-light border border-border-gray px-2 py-0.5 rounded whitespace-nowrap">
-                                      {evt.time}
-                                    </span>
-                                    <div>{evt.title}</div>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-                            
-                            {/* Locking Overlay Card */}
-                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-white/80 backdrop-blur-xs p-6 text-center z-10">
-                              <Lock className="w-8 h-8 text-brand-orange mb-2 animate-[bounce_3s_infinite_ease-in-out]" />
-                              <h4 className="font-headers text-sm font-extrabold text-brand-navy">Roteiro Completo Bloqueado</h4>
-                              <p className="text-[10px] text-text-muted mt-1 mb-4 max-w-[280px]">Desbloqueie o roteiro para liberar todos os dias, horários e transporte off-line.</p>
-                              <button 
-                                onClick={() => setIsCheckoutOpen(true)} 
-                                className="btn btn-secondary btn-sm shadow-md shadow-brand-orange/20 cursor-pointer text-xs"
-                              >
-                                Desbloquear Roteiro Completo
-                              </button>
-                            </div>
-                          </>
-                        ) : (
-                          /* Unlocked / Day 1 Full Display (Fase 4.1 UI) */
-                          <>
-                            {idx === 0 && (
-                              <div className="mb-6 rounded-2xl overflow-hidden border border-border-gray/30 relative h-48 bg-brand-navy text-white shadow-xs">
-                                <img 
-                                  src={destinationImages[destination] || 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80'} 
-                                  alt={activeItinerary.name} 
-                                  className="w-full h-full object-cover opacity-60"
-                                />
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                                <div className="absolute bottom-4 left-4 right-4 text-left">
-                                  <span className="bg-brand-orange text-white text-[9px] font-extrabold tracking-widest px-2.5 py-1 rounded-full uppercase font-headers">
-                                    PRIMEIRO DIA DE VIAGEM
-                                  </span>
-                                  <h4 className="font-headers text-lg sm:text-xl font-bold mt-1.5 leading-tight">
-                                    Chegada e ambientação em {activeItinerary.name || destination}
-                                  </h4>
-                                </div>
-                              </div>
-                            )}
-
-                            <span className="font-headers text-xs font-bold text-brand-orange uppercase tracking-wider">
-                              {day.day}
-                            </span>
-                            <h3 className="font-headers text-lg sm:text-xl font-bold text-brand-navy mt-1 mb-4">
-                              {day.title}
-                            </h3>
-                            
-                            <div className="flex flex-col gap-4">
-                              {day.events.map((evt, eIdx) => {
-                                let icon = <Compass className="w-4 h-4 text-brand-navy" />;
-                                if (evt.title.toLowerCase().includes('check-in') || evt.title.toLowerCase().includes('hotel') || evt.title.toLowerCase().includes('pousada')) {
-                                  icon = <span className="text-sm">🏨</span>;
-                                } else if (evt.title.toLowerCase().includes('jantar') || evt.title.toLowerCase().includes('almoço') || evt.title.toLowerCase().includes('comer') || evt.title.toLowerCase().includes('restaurante')) {
-                                  icon = <span className="text-sm">🍴</span>;
-                                } else if (evt.title.toLowerCase().includes('transfer') || evt.title.toLowerCase().includes('voo') || evt.title.toLowerCase().includes('helicóptero') || evt.title.toLowerCase().includes('barco') || evt.title.toLowerCase().includes('buggy') || evt.title.toLowerCase().includes('táxi')) {
-                                  icon = <span className="text-sm">🚗</span>;
-                                } else if (evt.title.toLowerCase().includes('sunset') || evt.title.toLowerCase().includes('pôr do sol') || evt.title.toLowerCase().includes('vista')) {
-                                  icon = <span className="text-sm">🌅</span>;
-                                }
-
-                                return (
-                                  <div key={eIdx} className="flex gap-4 items-start bg-bg-light/30 border border-border-gray/30 p-4 rounded-xl shadow-xs">
-                                    <div className="w-10 h-10 rounded-lg bg-white border border-border-gray flex items-center justify-center shrink-0 shadow-xs font-mono text-[10px] font-bold text-brand-navy">
-                                      {evt.time}
-                                    </div>
-                                    <div className="flex-grow">
-                                      <h4 className="text-xs sm:text-sm font-bold text-brand-navy flex items-center gap-1.5">
-                                        {icon}
-                                        <span>{evt.title}</span>
-                                      </h4>
-                                      <p className="text-[11px] text-text-muted mt-1 leading-relaxed">
-                                        Curadoria premium otimizada para deslocamento e aproveitamento inteligente.
-                                      </p>
-                                    </div>
-                                  </div>
-                                );
-                              })}
-                            </div>
-
-                            {idx === 0 && (
-                              <div className="mt-6 border border-brand-navy/10 bg-brand-navy/5 p-4 rounded-2xl flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-                                <div className="text-left">
-                                  <span className="text-[10px] font-bold text-brand-navy uppercase tracking-wider block">📍 MAPA INTERATIVO</span>
-                                  <p className="text-[11px] text-text-muted mt-0.5 leading-relaxed">Rota do primeiro dia otimizada com tempos de trânsito em tempo real.</p>
-                                </div>
-                                <button
-                                  onClick={() => setIsDownloadOpen(true)}
-                                  className="btn btn-outline py-2 px-4 text-xs font-bold shrink-0 cursor-pointer"
-                                >
-                                  Ver no app
-                                </button>
-                              </div>
-                            )}
-                          </>
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
-
-                {/* Bottom Call to Action banner */}
-                <div className="bg-brand-navy text-white p-8 md:p-12 rounded-[28px] mt-12 text-center flex flex-col items-center gap-4 shadow-lg border border-brand-navy animate-fade-in-up">
-                  <h3 className="font-headers text-xl md:text-3xl font-extrabold tracking-tight">
-                    Sua viagem com você, em qualquer lugar 🗺️
+                  <span className="font-headers text-xs font-bold text-brand-orange uppercase tracking-wider">
+                    Dia 1 • Prévia da Programação
+                  </span>
+                  <h3 className="font-headers text-lg sm:text-xl font-bold text-brand-navy mt-1 mb-4">
+                    {finalDays[0] ? finalDays[0].title : 'Primeiro Dia Otimizado'}
                   </h3>
-                  <p className="text-xs sm:text-sm text-white/80 max-w-[520px] leading-relaxed">
-                    Agora que seu roteiro está completo, importe para o aplicativo 2GO e acesse mapas, direções por GPS e vouchers de forma 100% offline.
+                  
+                  <div className="flex flex-col gap-4">
+                    {finalDays[0] && finalDays[0].events.map((evt, eIdx) => {
+                      let icon = <Compass className="w-4 h-4 text-brand-navy" />;
+                      if (evt.title.toLowerCase().includes('check-in') || evt.title.toLowerCase().includes('hotel') || evt.title.toLowerCase().includes('pousada')) {
+                        icon = <span className="text-sm">🏨</span>;
+                      } else if (evt.title.toLowerCase().includes('jantar') || evt.title.toLowerCase().includes('almoço') || evt.title.toLowerCase().includes('comer') || evt.title.toLowerCase().includes('restaurante')) {
+                        icon = <span className="text-sm">🍴</span>;
+                      } else if (evt.title.toLowerCase().includes('transfer') || evt.title.toLowerCase().includes('voo') || evt.title.toLowerCase().includes('helicóptero') || evt.title.toLowerCase().includes('barco') || evt.title.toLowerCase().includes('buggy') || evt.title.toLowerCase().includes('táxi')) {
+                        icon = <span className="text-sm">🚗</span>;
+                      } else if (evt.title.toLowerCase().includes('sunset') || evt.title.toLowerCase().includes('pôr do sol') || evt.title.toLowerCase().includes('vista')) {
+                        icon = <span className="text-sm">🌅</span>;
+                      }
+
+                      return (
+                        <div key={eIdx} className="flex gap-4 items-start bg-bg-light/30 border border-border-gray/30 p-4 rounded-xl shadow-xs">
+                          <div className="w-10 h-10 rounded-lg bg-white border border-border-gray flex items-center justify-center shrink-0 shadow-xs font-mono text-[10px] font-bold text-brand-navy">
+                            {evt.time}
+                          </div>
+                          <div className="flex-grow">
+                            <h4 className="text-xs sm:text-sm font-bold text-brand-navy flex items-center gap-1.5">
+                              {icon}
+                              <span>{evt.title}</span>
+                            </h4>
+                            <p className="text-[11px] text-text-muted mt-1 leading-relaxed">
+                              Curadoria premium otimizada para deslocamento e aproveitamento inteligente.
+                            </p>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  <div className="mt-6 border border-brand-navy/10 bg-brand-navy/5 p-4 rounded-2xl flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div className="text-left">
+                      <span className="text-[10px] font-bold text-brand-navy uppercase tracking-wider block">📍 MAPA DA ROTA DO DIA</span>
+                      <p className="text-[11px] text-text-muted mt-0.5 leading-relaxed">Sincronize a rota completa com GPS e deslocamentos no aplicativo 2GO.</p>
+                    </div>
+                    <button
+                      onClick={() => setIsDownloadOpen(true)}
+                      className="btn btn-outline py-2 px-4 text-xs font-bold shrink-0 cursor-pointer"
+                    >
+                      Abrir no app
+                    </button>
+                  </div>
+                </div>
+
+                {/* Main CTA after Day 1 */}
+                <div className="bg-gradient-to-br from-brand-navy via-[#081B6B] to-brand-navy text-white p-8 md:p-12 rounded-[28px] text-center flex flex-col items-center gap-5 shadow-lg border border-brand-navy/30 animate-fade-in-up">
+                  <div className="w-14 h-14 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center text-brand-orange border border-white/20 mb-1">
+                    <Smartphone className="w-7 h-7" />
+                  </div>
+                  <h3 className="font-headers text-xl md:text-3xl font-extrabold tracking-tight">
+                    Baixar o app e acessar o roteiro completo
+                  </h3>
+                  <p className="text-xs sm:text-sm text-white/80 max-w-[580px] leading-relaxed">
+                    No app você pode visualizar todos os dias, ajustar a rota ao seu ritmo, sincronizar vouchers e receber alertas em tempo real durante a viagem.
                   </p>
-                  <div className="flex gap-4 mt-4 w-full justify-center max-w-[420px] flex-col sm:flex-row">
+                  <div className="flex gap-4 mt-2 w-full justify-center max-w-[420px] flex-col sm:flex-row">
                     <button 
                       onClick={() => setIsDownloadOpen(true)}
-                      className="btn btn-secondary py-3.5 px-6 shadow-md cursor-pointer hover:bg-white hover:text-brand-navy flex-1 text-center justify-center font-bold"
+                      className="btn bg-brand-orange hover:bg-brand-orange/95 text-white py-3.5 px-6 shadow-md cursor-pointer font-bold flex-1 text-center justify-center border border-brand-orange/20"
                     >
-                      Sincronizar no Celular
+                      Baixar o App
                     </button>
                     <button 
                       onClick={handleReset}

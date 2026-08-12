@@ -469,40 +469,6 @@ export default function ItineraryClient({ itinerary, destination }) {
       )}
 
       <main className="flex-grow pt-32">
-        
-        {/* Banner de Oferta Especial */}
-        {!isUnlocked && (
-          <div className="bg-[#FAF9F6] border-b border-border-gray py-4 text-center">
-            <div className="container mx-auto px-6 max-w-5xl flex flex-col sm:flex-row items-center justify-center gap-4 text-left">
-              <div className="flex items-center gap-3">
-                <span className="text-xl">⚡</span>
-                <div>
-                  <span className="font-headers text-[9px] font-black text-brand-orange uppercase tracking-wider">OFERTA DE LANÇAMENTO</span>
-                  <h4 className="font-headers text-xs font-bold text-brand-navy mt-0.5">
-                    Libere este roteiro completo e ganhe 50% de desconto!
-                  </h4>
-                </div>
-              </div>
-              <div className="flex items-center gap-3 shrink-0">
-                <div className="flex items-center gap-1">
-                  <span className="text-[10px] text-text-muted">Expira em:</span>
-                  {renderDigits(timeLeft.hours)}
-                  <span className="text-[#E13B22] font-black font-mono text-xs">:</span>
-                  {renderDigits(timeLeft.minutes)}
-                  <span className="text-[#E13B22] font-black font-mono text-xs">:</span>
-                  {renderDigits(timeLeft.seconds)}
-                </div>
-                <button
-                  onClick={() => setIsCheckoutOpen(true)}
-                  className="bg-brand-orange hover:bg-brand-orange/95 text-white font-extrabold text-[10px] px-3.5 py-1.5 rounded-lg shadow-sm cursor-pointer transition-all uppercase tracking-wider"
-                >
-                  Garantir
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
-
         <div className="container mx-auto px-6 max-w-[1440px] w-full mt-6">
           <Breadcrumbs />
 
@@ -511,7 +477,7 @@ export default function ItineraryClient({ itinerary, destination }) {
             <div>
               <div className="flex items-center gap-2">
                 <span className="bg-brand-orange/10 text-brand-orange text-[9px] font-extrabold tracking-widest px-2.5 py-1 rounded-md uppercase font-headers">
-                  ROTEIRO DE VIAGEM
+                  PRÉVIA DO ROTEIRO
                 </span>
                 <span className="bg-brand-navy/10 text-brand-navy text-[9px] font-extrabold tracking-widest px-2.5 py-1 rounded-md uppercase font-headers">
                   Curadoria 2GO
@@ -534,153 +500,99 @@ export default function ItineraryClient({ itinerary, destination }) {
                 <span>{copied ? 'Copiado!' : 'Compartilhar'}</span>
               </button>
               
-              {isUnlocked ? (
-                <button 
-                  onClick={() => setIsDownloadOpen(true)}
-                  className="btn btn-primary py-2.5 px-4 text-xs font-bold inline-flex items-center gap-1.5 cursor-pointer justify-center flex-1 sm:flex-initial"
-                >
-                  <Smartphone className="w-3.5 h-3.5" />
-                  <span>Sincronizar no App</span>
-                </button>
-              ) : (
-                <button 
-                  onClick={() => setIsCheckoutOpen(true)}
-                  className="btn btn-secondary py-2.5 px-4 text-xs font-bold inline-flex items-center gap-1.5 cursor-pointer justify-center flex-1 sm:flex-initial"
-                >
-                  <Lock className="w-3.5 h-3.5" />
-                  <span>Desbloquear Roteiro</span>
-                </button>
-              )}
+              <button 
+                onClick={() => setIsDownloadOpen(true)}
+                className="btn btn-primary py-2.5 px-4 text-xs font-bold inline-flex items-center gap-1.5 cursor-pointer justify-center flex-1 sm:flex-initial"
+              >
+                <Smartphone className="w-3.5 h-3.5" />
+                <span>Baixar o App</span>
+              </button>
             </div>
           </div>
 
-          {/* Days Tabs selector */}
-          <div className="flex gap-2 overflow-x-auto pb-4 mb-6 scrollbar-hide text-left">
-            {itinerary.days.map((day, idx) => {
-              const isActive = activeDayIndex === idx;
-              const isLocked = idx > 0 && !isUnlocked;
-              const dayLabel = getDayLabel(idx);
-
-              return (
-                <button
-                  key={idx}
-                  onClick={() => setActiveDayIndex(idx)}
-                  className={`flex items-center gap-2 px-5 py-3 rounded-full text-xs font-extrabold shrink-0 border transition-all cursor-pointer ${
-                    isActive
-                      ? 'bg-brand-navy border-brand-navy text-white shadow-sm'
-                      : 'bg-white border-border-gray text-text-muted hover:border-brand-navy/30 hover:text-brand-navy'
-                  }`}
-                >
-                  <span>{dayLabel}</span>
-                  {isLocked && <Lock className="w-3 h-3 text-brand-orange/80 shrink-0" />}
-                </button>
-              );
-            })}
+          {/* Day 1 Badge */}
+          <div className="flex items-center gap-2 mb-6 text-left">
+            <span className="px-5 py-2.5 rounded-full text-xs font-extrabold bg-brand-navy text-white shadow-sm border border-brand-navy">
+              Dia 1 • Prévia da Programação
+            </span>
           </div>
 
           {/* Content Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
             
-            {/* Left Column: Active Day timeline */}
+            {/* Left Column: Active Day 1 timeline */}
             <div className="lg:col-span-8 flex flex-col gap-6 w-full">
               
-              {/* Active day's timeline card */}
+              {/* Day 1 timeline card */}
               <div className="bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] shadow-sm relative">
                 
                 {/* Timeline Header */}
                 <div className="flex justify-between items-center border-b border-border-gray/50 pb-4 mb-6 text-left">
                   <div>
-                    <span className="text-[9px] font-black text-brand-orange uppercase tracking-wider font-headers">PROGRAMAÇÃO DO DIA</span>
+                    <span className="text-[9px] font-black text-brand-orange uppercase tracking-wider font-headers">PROGRAMAÇÃO DO DIA 1</span>
                     <h3 className="font-headers text-base sm:text-lg font-bold text-brand-navy mt-1">
-                      {isUnlocked || activeDayIndex === 0 
-                        ? itinerary.days[activeDayIndex].title 
-                        : 'Programação de Dia Completo Oculta'}
+                      {itinerary.days && itinerary.days[0] ? itinerary.days[0].title : 'Chegada e primeiras atrações'}
                     </h3>
                   </div>
                   <span className="text-[10px] font-black text-brand-navy bg-brand-navy/10 px-3 py-1 rounded-full uppercase tracking-wider font-headers">
-                    {itinerary.days[activeDayIndex].day}
+                    Dia 1
                   </span>
                 </div>
 
-                {/* Timeline content */}
-                {activeDayIndex > 0 && !isUnlocked ? (
-                  // Locked placeholder state
-                  <div className="relative py-6">
-                    {/* Blurred mockup events */}
-                    <div className="flex flex-col gap-6 select-none blur-md pointer-events-none pr-8">
-                      <div className="flex gap-4 items-start">
-                        <span className="text-xs font-bold text-text-muted w-12 shrink-0 font-headers text-right">09:00</span>
-                        <div className="w-3.5 h-3.5 rounded-full border-2 border-border-gray bg-white mt-3 shrink-0"></div>
-                        <div className="h-14 bg-bg-light rounded w-full"></div>
-                      </div>
-                      <div className="flex gap-4 items-start">
-                        <span className="text-xs font-bold text-text-muted w-12 shrink-0 font-headers text-right">13:00</span>
-                        <div className="w-3.5 h-3.5 rounded-full border-2 border-border-gray bg-white mt-3 shrink-0"></div>
-                        <div className="h-14 bg-bg-light rounded w-full"></div>
-                      </div>
-                    </div>
-                    {/* Lock Overlay */}
-                    <div className="absolute inset-0 bg-white/80 backdrop-blur-xs flex flex-col items-center justify-center text-center p-4">
-                      <div className="w-12 h-12 rounded-full bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-3">
-                        <Lock className="w-5 h-5 animate-pulse" />
-                      </div>
-                      <h4 className="font-headers text-sm font-bold text-brand-navy mb-1">Roteiro Completo Bloqueado</h4>
-                      <p className="text-[11px] text-text-muted mb-4 max-w-[280px] leading-normal">
-                        Revele as atrações detalhadas, cafés sugeridos e rotas completas dos dias restantes gratuitamente.
-                      </p>
-                      <button 
-                        onClick={() => setIsCheckoutOpen(true)}
-                        className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold py-2.5 px-6 text-xs flex items-center gap-1.5 cursor-pointer shadow-md shadow-[#96AB21]/20 hover:scale-[1.01] active:scale-95 transition-all rounded-xl"
-                      >
-                        <span>Liberar Roteiro Completo</span>
-                        <Sparkles className="w-3.5 h-3.5" />
-                      </button>
-                    </div>
-                  </div>
-                ) : (
-                  // Real Timeline
-                  <div className="flex flex-col gap-4 relative">
-                    {/* Timeline vertical bar */}
-                    <div className="absolute left-[65px] top-3 bottom-3 w-0.5 bg-brand-navy z-0"></div>
+                {/* Real Timeline for Day 1 */}
+                <div className="flex flex-col gap-4 relative">
+                  {/* Timeline vertical bar */}
+                  <div className="absolute left-[65px] top-3 bottom-3 w-0.5 bg-brand-navy z-0"></div>
 
-                    {itinerary.days[activeDayIndex].events.map((event, eIdx) => (
-                      <div key={eIdx} className="flex flex-col gap-2">
-                        <div className="flex gap-4 items-start relative z-10">
-                          {/* Time */}
-                          <span className="text-xs font-bold text-brand-navy w-12 shrink-0 py-2.5 text-right font-headers font-mono">
-                            {event.time}
-                          </span>
-                          
-                          {/* Timeline indicator node */}
-                          <div className="w-3.5 h-3.5 rounded-full border-2 border-brand-navy bg-white mt-3 shrink-0 shadow-sm animate-fade-in"></div>
-                          
-                          {/* Render Rich Event Card */}
-                          {renderEventCard(event, eIdx)}
-                        </div>
+                  {itinerary.days && itinerary.days[0] && itinerary.days[0].events.map((event, eIdx) => (
+                    <div key={eIdx} className="flex flex-col gap-2">
+                      <div className="flex gap-4 items-start relative z-10">
+                        {/* Time */}
+                        <span className="text-xs font-bold text-brand-navy w-12 shrink-0 py-2.5 text-right font-headers font-mono">
+                          {event.time}
+                        </span>
                         
-                        {/* Render Transit Info between events */}
-                        {eIdx < itinerary.days[activeDayIndex].events.length - 1 && renderTransitInfo(eIdx)}
+                        {/* Timeline indicator node */}
+                        <div className="w-3.5 h-3.5 rounded-full border-2 border-brand-navy bg-white mt-3 shrink-0 shadow-sm animate-fade-in"></div>
+                        
+                        {/* Render Rich Event Card */}
+                        {renderEventCard(event, eIdx)}
                       </div>
-                    ))}
-                  </div>
-                )}
+                      
+                      {/* Render Transit Info between events */}
+                      {eIdx < itinerary.days[0].events.length - 1 && renderTransitInfo(eIdx)}
+                    </div>
+                  ))}
+                </div>
               </div>
 
-              {/* Custom Planner CTA at the bottom */}
-              <div className="bg-gradient-to-br from-brand-orange/5 to-white border border-brand-orange/15 p-6 sm:p-8 rounded-[28px] text-center flex flex-col items-center gap-4 mt-6">
-                <h3 className="font-headers text-base sm:text-lg font-bold text-brand-navy leading-tight">
-                  Gostou deste roteiro? Crie um roteiro totalmente personalizado.
+              {/* App CTA replacing days 2+ */}
+              <div className="bg-gradient-to-br from-brand-navy via-[#0A2288] to-brand-navy text-white border border-brand-navy/20 p-8 sm:p-10 rounded-[28px] text-center flex flex-col items-center gap-5 shadow-lg relative overflow-hidden">
+                <div className="w-14 h-14 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center text-brand-orange border border-white/20 mb-1">
+                  <Smartphone className="w-7 h-7" />
+                </div>
+                <h3 className="font-headers text-xl sm:text-2xl font-black leading-tight text-white">
+                  Crie seu roteiro personalizado no app
                 </h3>
-                <p className="text-xs text-text-muted max-w-md leading-relaxed">
-                  Nosso assistente inteligente pode estruturar uma programação única baseada no seu orçamento exato, dias livres e estilo de viagem.
+                <p className="text-xs sm:text-sm text-white/80 max-w-lg leading-relaxed">
+                  Baixe o aplicativo da 2GO para gerar todos os dias, editar sua programação e acompanhar o roteiro durante a viagem.
                 </p>
-                <Link 
-                  href={`/planejamento?destino=${itinerary.destinationSlug}`}
-                  className="bg-[#96AB21] hover:bg-[#85981D] text-[#081B6B] font-extrabold py-3 px-6 rounded-xl transition-all shadow-md shadow-[#96AB21]/10 hover:scale-[1.01] active:scale-95 text-xs flex items-center gap-1.5 cursor-pointer border border-[#96AB21]/10 font-headers"
-                >
-                  <span>Gerar meu roteiro</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
+                <div className="flex flex-col sm:flex-row gap-3 w-full max-w-md mt-2">
+                  <button 
+                    onClick={() => setIsDownloadOpen(true)}
+                    className="btn bg-brand-orange hover:bg-brand-orange/95 text-white font-extrabold py-3.5 px-6 rounded-xl transition-all shadow-md text-xs flex items-center justify-center gap-2 cursor-pointer border border-brand-orange/20 font-headers w-full"
+                  >
+                    <Smartphone className="w-4 h-4" />
+                    <span>Baixar o App Grátis</span>
+                  </button>
+                  <Link 
+                    href={`/planejamento?destino=${itinerary.destinationSlug}`}
+                    className="btn border border-white/30 text-white bg-white/10 hover:bg-white/20 py-3.5 px-6 rounded-xl transition-all text-xs flex items-center justify-center gap-2 cursor-pointer font-headers w-full"
+                  >
+                    <span>Criar Roteiro no Site</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
               </div>
 
             </div>
@@ -690,45 +602,23 @@ export default function ItineraryClient({ itinerary, destination }) {
               
               {/* QR Code offline sync card */}
               <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-4 text-left">
-                {isUnlocked ? (
-                  <>
-                    <span className="text-[9px] font-extrabold text-brand-orange uppercase tracking-wider flex items-center gap-1 font-headers">
-                      <Smartphone className="w-3.5 h-3.5" /> LEVAR NA VIAGEM
-                    </span>
-                    <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">
-                      Leve o roteiro com você
-                    </h4>
-                    <p className="text-[11px] text-text-muted leading-relaxed">
-                      Escaneie o QR Code abaixo para abrir este roteiro em tempo real e offline no seu app 2GO.
-                    </p>
-                    
-                    {/* QR Code */}
-                    <div className="p-3 bg-bg-light border border-border-gray/50 rounded-xl w-fit mx-auto flex items-center justify-center shadow-xs">
-                      <QRCodeSVG 
-                        value={typeof window !== 'undefined' ? window.location.href : `https://2go.com.br/roteiros/${itinerary.slug}`} 
-                        size={120}
-                      />
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    <span className="text-[9px] font-extrabold text-brand-orange uppercase tracking-wider flex items-center gap-1 font-headers">
-                      <Lock className="w-3.5 h-3.5" /> ROTEIRO BLOQUEADO
-                    </span>
-                    <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">
-                      Desbloqueie para levar no celular
-                    </h4>
-                    <p className="text-[11px] text-text-muted leading-relaxed">
-                      Desbloqueie os dias restantes e a integração offline para sincronizar no seu app e usar na sua viagem.
-                    </p>
-                    <button
-                      onClick={() => setIsCheckoutOpen(true)}
-                      className="btn btn-secondary py-3 justify-center text-xs font-bold text-center w-full"
-                    >
-                      Desbloquear Roteiro
-                    </button>
-                  </>
-                )}
+                <span className="text-[9px] font-extrabold text-brand-orange uppercase tracking-wider flex items-center gap-1 font-headers">
+                  <Smartphone className="w-3.5 h-3.5" /> LEVAR NA VIAGEM
+                </span>
+                <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">
+                  Acesse no aplicativo
+                </h4>
+                <p className="text-[11px] text-text-muted leading-relaxed">
+                  Escaneie o QR Code abaixo para baixar o app 2GO e acessar seu roteiro completo offline.
+                </p>
+                
+                {/* QR Code */}
+                <div className="p-3 bg-bg-light border border-border-gray/50 rounded-xl w-fit mx-auto flex items-center justify-center shadow-xs">
+                  <QRCodeSVG 
+                    value={typeof window !== 'undefined' ? window.location.href : `https://2go.com.br/roteiros/${itinerary.slug}`} 
+                    size={120}
+                  />
+                </div>
               </div>
 
               {/* Dicas locais */}
@@ -754,11 +644,11 @@ export default function ItineraryClient({ itinerary, destination }) {
               {/* Roteiros Relacionados */}
               <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
                 <span className="text-[9px] font-extrabold text-brand-navy uppercase tracking-wider block font-headers">✨ ROTEIROS RECOMENDADOS</span>
-                <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight font-bold">Também em {destName || 'regiões próximas'}</h4>
+                <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight font-bold">Mais roteiros no app</h4>
                 <div className="flex flex-col gap-3 mt-1 text-left">
                   {[
-                    { title: `Fim de Semana Romântico em ${destName || 'Destino'}`, duration: '3 Dias' },
-                    { title: `Guia Gastronômico Completo em ${destName || 'Destino'}`, duration: '5 Dias' }
+                    { title: `Roteiro completo de ${destName || 'Destino'} no App`, duration: 'Personalizável' },
+                    { title: `Guia Gastronômico de ${destName || 'Destino'}`, duration: '3 a 7 Dias' }
                   ].map((related, idx) => (
                     <div key={idx} className="flex justify-between items-center p-3 rounded-xl border border-border-gray/70 hover:border-brand-orange/30 transition-all text-xs">
                       <div>

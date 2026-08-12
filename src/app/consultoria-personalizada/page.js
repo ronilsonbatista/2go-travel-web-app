@@ -10,6 +10,6 @@ export const metadata = {
   }
 };
 
-export default function PremiumPage() {
+export default function ConsultoriaPersonalizadaPage() {
   return <ConsultoriaClient />;
 }

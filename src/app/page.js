@@ -37,7 +37,7 @@ const premiumSlides = [
     phrase: 'Arte, gastronomia e o charme do Rio Sena.',
     desc: 'Torre Eiffel ao entardecer com o reflexo das luzes no Rio Sena e o charme eterno da capital francesa.',
     tags: ['Cultura', 'Romance'],
-    img: '/images/destinations/paris/paris-1.jpg',
+    img: '/images/destinations/paris/paris-eiffel-seine.jpg',
     ctaLink: '/roteiros?search=Paris'
   },
   {
@@ -81,7 +81,7 @@ const premiumSlides = [
     phrase: 'História, arte e monumentos a céu aberto.',
     desc: 'O Coliseu ao entardecer em luz quente moderada e atmosfera histórica incomparável.',
     tags: ['História', 'Gastronomia'],
-    img: '/images/destinations/roma/roma-1.jpg',
+    img: '/images/destinations/roma/roma-coliseu.jpg',
     ctaLink: '/roteiros?search=Roma'
   },
   {
@@ -601,14 +601,14 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Compass className="w-6 h-6" />
                 </div>
-                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Planeje no site</h3>
+                <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">Planeje no App</h3>
                 <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-md">
                   Escolha o destino e preencha suas preferências de viagem em poucos passos.
                 </p>
               </Link>
 
               {/* Step 2 */}
-              <Link href="/app" className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover cursor-pointer w-full">
+              <Link href="/planejamento" className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover cursor-pointer w-full">
                 <span className="font-headers text-6xl font-extrabold text-brand-orange/20 absolute top-6 right-8 leading-none select-none group-hover:scale-105 transition-transform duration-300">2</span>
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Sliders className="w-6 h-6" />
@@ -620,7 +620,7 @@ export default function Home() {
               </Link>
 
               {/* Step 3 */}
-              <Link href="/app" className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover cursor-pointer w-full">
+              <Link href="/planejamento" className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover cursor-pointer w-full">
                 <span className="font-headers text-6xl font-extrabold text-brand-orange/20 absolute top-6 right-8 leading-none select-none group-hover:scale-105 transition-transform duration-300">3</span>
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Navigation className="w-6 h-6" />
@@ -951,7 +951,7 @@ export default function Home() {
           <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-6xl w-full">
             <div className="text-center max-w-[600px] mx-auto mb-10 md:mb-16">
               <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
-                CONSULTORIA PREMIUM
+                CONSULTORIA PERSONALIZADA
               </span>
               <h2 className="font-headers text-3xl md:text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
                 Quer um toque humano no seu planejamento?
@@ -989,7 +989,7 @@ export default function Home() {
                 <div className="flex flex-col gap-4 p-4 flex-grow text-xs justify-end leading-relaxed overflow-y-auto min-h-[290px]">
                   {/* Message 1 */}
                   <div className="bg-white text-brand-navy rounded-[14px] rounded-tl-sm p-3.5 max-w-[85%] text-left self-start shadow-sm border border-black/5 relative after:content-[''] after:absolute after:top-0 after:left-[-6px] after:border-t-[8px] after:border-t-white after:border-l-[8px] after:border-l-transparent">
-                    <p className="text-[10px] font-black text-brand-orange uppercase tracking-wider mb-1 block">Consultoria Premium 2GO</p>
+                    <p className="text-[10px] font-black text-brand-orange uppercase tracking-wider mb-1 block">Consultoria Personalizada 2GO</p>
                     Olá, Ronilson! Tudo bem? ✈️ Vi seu interesse pela Toscana em outubro. Recomendo mudarmos a visita à vinícola para as 15h em vez das 17h, pois o pôr do sol acontece mais cedo no outono. Assim você aproveita a degustação com luz solar. O que acha?
                     <span className="text-[8px] text-text-muted/70 float-right mt-1.5 ml-2">10:14</span>
                   </div>
@@ -1009,7 +1009,7 @@ export default function Home() {
               {/* Right Column */}
               <div className="flex flex-col gap-6 text-left w-full">
                 <h3 className="font-headers text-2xl md:text-3.5xl font-black leading-tight text-brand-navy">
-                  Consultoria Premium 🤝
+                  Consultoria Personalizada 🤝
                 </h3>
                 <p className="text-xs sm:text-sm md:text-base text-text-muted leading-relaxed">
                   Para viagens especiais e sob medida, conte com a nossa equipe de especialistas parceiros. Planejamento otimizado com a tranquilidade de ter tudo resolvido.
@@ -1022,7 +1022,7 @@ export default function Home() {
                   </div>
                   <div className="flex gap-3 items-center">
                     <div className="w-6 h-6 rounded-full bg-brand-green/10 text-brand-green flex items-center justify-center shrink-0 text-xs font-bold">✓</div>
-                    <span className="text-xs sm:text-sm font-semibold text-brand-navy">Consultoria Premium</span>
+                    <span className="text-xs sm:text-sm font-semibold text-brand-navy">Curadoria autoral sob medida</span>
                   </div>
                   <div className="flex gap-3 items-center">
                     <div className="w-6 h-6 rounded-full bg-brand-green/10 text-brand-green flex items-center justify-center shrink-0 text-xs font-bold">✓</div>
@@ -1035,7 +1035,7 @@ export default function Home() {
                 </div>
 
                 <Link 
-                  href="/premium"
+                  href="/consultoria-personalizada"
                   className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold py-3.5 px-8 rounded-xl transition-all shadow-md shadow-brand-orange/20 hover:scale-[1.01] active:scale-95 text-xs inline-flex items-center gap-1.5 cursor-pointer border-none w-fit self-start"
                 >
                   Falar com especialista
@@ -1066,21 +1066,21 @@ export default function Home() {
                   name: 'Amanda Martins', 
                   avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80', 
                   text: 'Foi como ter uma amiga especialista cuidando de cada detalhe.', 
-                  trip: 'Noronha • Consultoria Premium',
+                  trip: 'Noronha • Consultoria Personalizada',
                   badgeColor: 'bg-brand-orange/10 text-brand-orange'
                 },
                 { 
                   name: 'Rodrigo Fonseca', 
                   avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80', 
                   text: 'Sentimos que o roteiro tinha sido feito para nós.', 
-                  trip: 'Tóquio • Roteiro Personalizado',
+                  trip: 'Tóquio • Roteiro no App',
                   badgeColor: 'bg-brand-green/10 text-brand-green'
                 },
                 { 
                   name: 'Luísa Cavalcanti', 
                   avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80', 
                   text: 'Economizei semanas de pesquisa.', 
-                  trip: 'Lisboa • Roteiro Personalizado',
+                  trip: 'Lisboa • Roteiro no App',
                   badgeColor: 'bg-brand-orange/10 text-brand-orange'
                 }
               ].map((review, idx) => (

@@ -539,134 +539,6 @@ const itineraries = {
       }
     ]
   },
-  'paris-5-dias': {
-    slug: 'paris-5-dias',
-    destinationSlug: 'paris',
-    title: 'Roteiro Paris 5 dias: Imersão e Bate-Volta',
-    desc: 'O roteiro ideal para quem visita Paris pela primeira vez com tempo suficiente para desbravar a cidade sem pressa e fazer um bate-volta a Versalhes.',
-    duration: 5,
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Do Louvre à Torre Eiffel',
-        events: [
-          { time: '09:00', title: 'Visita matinal no Museu do Louvre' },
-          { time: '13:00', title: 'Almoço no Jardin des Tuileries' },
-          { time: '15:30', title: 'Arco do Triunfo e caminhada pela Champs-Élysées' },
-          { time: '20:00', title: 'Jantar próximo à Torre Eiffel' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Notre-Dame & Quartier Latin',
-        events: [
-          { time: '09:30', title: 'Caminhada pela Île de la Cité e Catedral de Notre-Dame' },
-          { time: '13:00', title: 'Almoço tradicional francês no Quartier Latin' },
-          { time: '15:00', title: 'Passeio relaxante pelos Jardins de Luxemburgo' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Palácio de Versalhes',
-        events: [
-          { time: '08:30', title: 'Trem RER C em direção ao Palácio de Versalhes' },
-          { time: '09:30', title: 'Entrada no Palácio e passeio pelos luxuosos aposentos reais' },
-          { time: '13:00', title: 'Almoço nos jardins de Versalhes' },
-          { time: '14:30', title: 'Visita aos palácios do Trianon e domínio de Maria Antonieta' },
-          { time: '18:00', title: 'Retorno a Paris e jantar livre' }
-        ]
-      },
-      {
-        day: 'Dia 4',
-        title: 'O Charme de Montmartre',
-        events: [
-          { time: '09:00', title: 'Visita à basílica de Sacré-Cœur e ruas de Montmartre' },
-          { time: '15:00', title: 'Visita ao Museu de Orsay (Impressionistas)' },
-          { time: '18:00', title: 'Cruzeiro pelo Rio Sena no entardecer' }
-        ]
-      },
-      {
-        day: 'Dia 5',
-        title: 'Le Marais & Pompidou',
-        events: [
-          { time: '10:00', title: 'Exploração do vibrante bairro histórico Le Marais' },
-          { time: '13:00', title: 'Almoço de falafel na icônica Rue des Rosiers' },
-          { time: '15:00', title: 'Visita ao museu de arte moderna Centro Pompidou' },
-          { time: '20:30', title: 'Jantar de despedida elegante em Saint-Germain-des-Prés' }
-        ]
-      }
-    ]
-  },
-  'paris-7-dias': {
-    slug: 'paris-7-dias',
-    destinationSlug: 'paris',
-    title: 'Roteiro Paris 7 dias: Imersão Completa e Cultura',
-    desc: 'Uma semana inteira em Paris para viver como um parisiense, conhecer museus secundários fascinantes e fazer bate-voltas a Versalhes e Giverny.',
-    duration: 7,
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Louvre à Torre Eiffel',
-        events: [
-          { time: '09:00', title: 'Visita ao Museu do Louvre' },
-          { time: '15:30', title: 'Champs-Élysées e Arco do Triunfo' },
-          { time: '20:00', title: 'Jantar na Torre Eiffel' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Île de la Cité & Notre-Dame',
-        events: [
-          { time: '09:30', title: 'Notre-Dame e Saint-Chapelle' },
-          { time: '13:00', title: 'Almoço no Quartier Latin' },
-          { time: '15:00', title: 'Passeio nos Jardins de Luxemburgo' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Palácio de Versalhes',
-        events: [
-          { time: '08:30', title: 'Visita guiada no Palácio de Versalhes' },
-          { time: '14:00', title: 'Caminhada nos Jardins Reais e Grand Trianon' }
-        ]
-      },
-      {
-        day: 'Dia 4',
-        title: 'Montmartre Artístico',
-        events: [
-          { time: '09:00', title: 'Basílica de Sacré-Cœur e Place du Tertre' },
-          { time: '15:00', title: 'Museu de Orsay' },
-          { time: '18:00', title: 'Cruzeiro pelo Rio Sena' }
-        ]
-      },
-      {
-        day: 'Dia 5',
-        title: 'Le Marais & Centro Pompidou',
-        events: [
-          { time: '10:00', title: 'Visita ao museu Picasso e caminhada no Marais' },
-          { time: '15:00', title: 'Coleções de arte moderna do Pompidou' }
-        ]
-      },
-      {
-        day: 'Dia 6',
-        title: 'Bate-Volta a Giverny (Jardins de Monet)',
-        events: [
-          { time: '08:00', title: 'Trem saindo de Gare Saint-Lazare para Vernon/Giverny' },
-          { time: '10:00', title: 'Visita à Casa e Jardins do pintor Claude Monet' },
-          { time: '16:00', title: 'Retorno a Paris e compras na Galeries Lafayette' }
-        ]
-      },
-      {
-        day: 'Dia 7',
-        title: 'Catacumbas & Saint-Germain-des-Prés',
-        events: [
-          { time: '09:30', title: 'Tour pelas Catacumbas de Paris' },
-          { time: '14:00', title: 'Café histórico nas mesas do Café de Flore' },
-          { time: '20:00', title: 'Jantar refinado de despedida' }
-        ]
-      }
-    ]
-  },
   'roma-3-dias': {
     slug: 'roma-3-dias',
     destinationSlug: 'roma',
@@ -750,350 +622,82 @@ const itineraries = {
       }
     ]
   },
-  'londres-4-dias': {
-    slug: 'londres-4-dias',
+  'londres-3-dias': {
+    slug: 'londres-3-dias',
     destinationSlug: 'londres',
-    title: 'Roteiro Londres 4 dias: O Melhor da Realeza',
-    desc: 'Um roteiro abrangente ligando a pompa real dos palácios com a riqueza cultural de museus gratuitos e bairros modernos.',
-    duration: 4,
+    title: 'Roteiro Londres 3 dias: O Essencial da Realeza e Cultura',
+    desc: 'Um roteiro focado unindo os palácios reais de Westminster, museus gratuitos mundialmente famosos e os melhores pubs de Londres.',
+    duration: 3,
     days: [
       {
         day: 'Dia 1',
-        title: 'Marcos de Westminster',
+        title: 'Marcos de Westminster & London Eye',
         events: [
-          { time: '09:30', title: 'Palácio de Buckingham (Troca da Guarda)' },
-          { time: '11:30', title: 'Caminhada pelo St James\'s Park até Westminster Abbey' },
-          { time: '13:30', title: 'Almoço tradicional em um Pub inglês' },
-          { time: '15:30', title: 'Passeio na London Eye (Vista espetacular do Big Ben)' }
+          { time: '09:30', title: 'Palácio de Buckingham e Troca da Guarda' },
+          { time: '11:30', title: 'Caminhada pelo St James\'s Park até Big Ben e Westminster' },
+          { time: '13:30', title: 'Almoço tradicional em um Pub britânico' },
+          { time: '15:30', title: 'Voo panorâmico na London Eye sobre o Rio Tâmisa' },
+          { time: '20:00', title: 'Jantar no dinâmico bairro de Soho' }
         ]
       },
       {
         day: 'Dia 2',
-        title: 'A Torre e as Pontes',
+        title: 'A Torre de Londres, Pontes & Borough Market',
         events: [
           { time: '09:00', title: 'Visita à histórica Torre de Londres e Jóias da Coroa' },
-          { time: '12:00', title: 'Caminhada panorâmica pela Tower Bridge' },
+          { time: '12:00', title: 'Travessia icônica a pé pela Tower Bridge' },
           { time: '13:30', title: 'Almoço gastronômico no Borough Market' },
-          { time: '15:30', title: 'Museu de arte contemporânea Tate Modern' }
+          { time: '15:30', title: 'Museu de Arte Moderna Tate Modern e Millennium Bridge' },
+          { time: '19:30', title: 'Jantar em Covent Garden' }
         ]
       },
       {
         day: 'Dia 3',
-        title: 'Cultura, Museus & Soho',
+        title: 'British Museum & Charmes de Notting Hill',
         events: [
-          { time: '09:30', title: 'Visita guiada no British Museum (Múmias e Pedra de Roseta)' },
-          { time: '13:00', title: 'Almoço em Covent Garden' },
-          { time: '15:00', title: 'Caminhada pelas ruas coloridas de Neal\'s Yard e lojas do Soho' },
-          { time: '20:00', title: 'Assistir a um Musical da Broadway no West End londrino' }
-        ]
-      },
-      {
-        day: 'Dia 4',
-        title: 'Kensington & Notting Hill',
-        events: [
-          { time: '10:00', title: 'Passeio pelo bairro elegante de Kensington e Hyde Park' },
-          { time: '12:30', title: 'Almoço em Notting Hill' },
-          { time: '14:30', title: 'Explorar as lojinhas e antiguidades no Portobello Road Market' }
+          { time: '09:30', title: 'Visita guiada ao British Museum' },
+          { time: '13:00', title: 'Almoço no elegante bairro de Kensington' },
+          { time: '15:00', title: 'Passeio pelas casas coloridas e feira de antiguidades de Notting Hill' },
+          { time: '20:00', title: 'Musical no West End' }
         ]
       }
     ]
   },
-  'toquio-7-dias': {
-    slug: 'toquio-7-dias',
+  'toquio-3-dias': {
+    slug: 'toquio-3-dias',
     destinationSlug: 'toquio',
-    title: 'Roteiro Tóquio 7 dias: Tecnologia & Templos',
-    desc: 'O roteiro definitivo de 1 semana para desbravar todos os distritos futuristas e bairros tradicionais de Tóquio.',
-    duration: 7,
+    title: 'Roteiro Tóquio 3 dias: Tradição e Futurismo',
+    desc: 'O roteiro ideal para vivenciar o contraste fascinante entre os templos milenares de Asakusa e as luzes vibrantes de Shibuya e Akihabara.',
+    duration: 3,
     days: [
       {
         day: 'Dia 1',
-        title: 'Asakusa Histórico',
+        title: 'Asakusa Histórico & Skytree',
         events: [
           { time: '09:00', title: 'Visita ao Templo Senso-ji e rua comercial Nakamise' },
           { time: '13:00', title: 'Almoço de tempura em restaurante centenário' },
-          { time: '15:30', title: 'Vista panorâmica do topo da Tokyo Skytree' }
+          { time: '15:30', title: 'Vista panorâmica do topo da Tokyo Skytree' },
+          { time: '19:00', title: 'Jantar de Ramen artesanal' }
         ]
       },
       {
         day: 'Dia 2',
-        title: 'Shibuya Futurista',
+        title: 'Shibuya & Harajuku',
         events: [
-          { time: '10:00', title: 'Caminhada pela Meiji Dori e compras em Harajuku' },
-          { time: '13:00', title: 'Almoço de sushi de esteira (Kura Sushi)' },
-          { time: '15:30', title: 'Atravessar o Shibuya Crossing e subir ao Shibuya Sky no pôr do sol' }
+          { time: '10:00', title: 'Santuário Meiji Jingu e rua Takeshita em Harajuku' },
+          { time: '13:00', title: 'Almoço de sushi tradicional' },
+          { time: '15:30', title: 'Atravessar o Shibuya Crossing e subir ao Shibuya Sky no pôr do sol' },
+          { time: '20:00', title: 'Jantar nos becos de Omoide Yokocho em Shinjuku' }
         ]
       },
       {
         day: 'Dia 3',
-        title: 'Hakone & Monte Fuji',
+        title: 'Arte Digital no teamLab & Akihabara',
         events: [
-          { time: '08:00', title: 'Trem expresso Romancecar para Hakone' },
-          { time: '10:30', title: 'Navegação em barco pirata no Lago Ashi com vista do Monte Fuji' },
-          { time: '15:00', title: 'Banhos termais em um Onsen tradicional' }
-        ]
-      },
-      {
-        day: 'Dia 4',
-        title: 'Eletrônicos & Otaku em Akihabara',
-        events: [
-          { time: '10:00', title: 'Visita ao Jardim Imperial do Palácio Real' },
-          { time: '13:00', title: 'Almoço de Katsudon' },
-          { time: '15:00', title: 'Explorar as megalojas de eletrônicos e arcades de Akihabara' }
-        ]
-      },
-      {
-        day: 'Dia 5',
-        title: 'Shinjuku à Noite',
-        events: [
-          { time: '11:00', title: 'Parque Shinjuku Gyoen (Jardins tradicionais)' },
-          { time: '16:00', title: 'Mirante gratuito no Edifício do Governo Metropolitano' },
-          { time: '20:00', title: 'Jantar de espetinhos (Yakitori) nos becos de Omoide Yokocho' }
-        ]
-      },
-      {
-        day: 'Dia 6',
-        title: 'Arte Digital no teamLab',
-        events: [
-          { time: '09:30', title: 'Visita à exposição imersiva teamLab Planets em Toyosu' },
-          { time: '13:00', title: 'Almoço de peixe fresco no mercado Tsukiji Outer Market' },
-          { time: '15:30', title: 'Passeio pela ilha artificial futurista de Odaiba' }
-        ]
-      },
-      {
-        day: 'Dia 7',
-        title: 'Ueno & Despedida',
-        events: [
-          { time: '10:00', title: 'Parque de Ueno e seus museus nacionais' },
-          { time: '13:30', title: 'Almoço na rua comercial Ameyoko' },
-          { time: '17:00', title: 'Compras de lembranças e doces exóticos no Ginza' }
-        ]
-      }
-    ]
-  },
-  'japao-10-dias': {
-    slug: 'japao-10-dias',
-    destinationSlug: 'japao',
-    title: 'Roteiro Japão 10 dias: Tóquio, Quioto e Monte Fuji',
-    desc: 'Descubra as principais faces do Japão, do futurismo eletrizante de Tóquio à tradição milenar dos templos de Quioto e Nara, com paradas no Monte Fuji.',
-    duration: 10,
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Chegada em Tóquio',
-        events: [
-          { time: '15:00', title: 'Check-in no hotel em Shinjuku' },
-          { time: '18:00', title: 'Caminhada pelas ruas iluminadas por neons' },
-          { time: '20:00', title: 'Jantar clássico de Yakitori' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Tóquio Clássica: Asakusa e Skytree',
-        events: [
-          { time: '09:00', title: 'Templo Senso-ji e compras de doces típicos' },
-          { time: '15:00', title: 'Subir ao topo do observatório da Tokyo Skytree' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Tóquio Jovem: Harajuku & Shibuya Crossing',
-        events: [
-          { time: '10:00', title: 'Passeio pelo Santuário Meiji Jingu' },
-          { time: '14:00', title: 'Rua Takeshita e lojas de Harajuku' },
-          { time: '17:30', title: 'Pôr do sol no observatório Shibuya Sky' }
-        ]
-      },
-      {
-        day: 'Dia 4',
-        title: 'Arte Digital no teamLab Planets & Odaiba',
-        events: [
-          { time: '09:30', title: 'Exposição de arte imersiva teamLab em Toyosu' },
-          { time: '14:00', title: 'Passeio pela orla da ilha de Odaiba e vista da Estátua da Liberdade' }
-        ]
-      },
-      {
-        day: 'Dia 5',
-        title: 'Trem-Bala para Hakone (Vista do Monte Fuji)',
-        events: [
-          { time: '08:30', title: 'Viagem de trem para Hakone' },
-          { time: '11:00', title: 'Cruzeiro no Lago Ashi com vista do Monte Fuji' },
-          { time: '16:00', title: 'Hospedagem em Ryokan tradicional com banhos Onsen' }
-        ]
-      },
-      {
-        day: 'Dia 6',
-        title: 'Quioto: Santuário de Ouro & Floresta de Bambu',
-        events: [
-          { time: '09:00', title: 'Trem-bala para Quioto' },
-          { time: '11:30', title: 'Visita ao magnífico pavilhão Kinkaku-ji' },
-          { time: '15:00', title: 'Caminhada pela Floresta de Bambu de Arashiyama' }
-        ]
-      },
-      {
-        day: 'Dia 7',
-        title: 'Quioto: Portais Torii de Fushimi Inari',
-        events: [
-          { time: '08:00', title: 'Caminhada matinal sob os milhares de Torii de Fushimi Inari' },
-          { time: '14:00', title: 'Visita ao templo Kiyomizu-dera com vista da cidade' }
-        ]
-      },
-      {
-        day: 'Dia 8',
-        title: 'Bate-Volta a Nara',
-        events: [
-          { time: '09:00', title: 'Trem local para Nara' },
-          { time: '10:00', title: 'Interação com os cervos sagrados no Parque de Nara' },
-          { time: '12:00', title: 'Visita ao templo do Grande Buda Todai-ji' }
-        ]
-      },
-      {
-        day: 'Dia 9',
-        title: 'Osaka: Comida de rua em Dotonbori',
-        events: [
-          { time: '10:00', title: 'Deslocamento de Quioto para Osaka' },
-          { time: '13:00', title: 'Visita ao Castelo de Osaka' },
-          { time: '18:00', title: 'Jantar degustando Takoyaki e Okonomiyaki em Dotonbori' }
-        ]
-      },
-      {
-        day: 'Dia 10',
-        title: 'Retorno de Osaka para Tóquio & Despedida',
-        events: [
-          { time: '10:00', title: 'Trem-bala de volta para Tóquio' },
-          { time: '14:00', title: 'Últimas compras de souvenirs em Ginza' },
-          { time: '18:00', title: 'Jantar de despedida de Sushi Premium' }
-        ]
-      }
-    ]
-  },
-  'italia-15-dias': {
-    slug: 'italia-15-dias',
-    destinationSlug: 'italia',
-    title: 'Roteiro Itália Clássica 15 dias: Roma, Florença, Veneza e Costa Amalfitana',
-    desc: 'A grande viagem dos seus sonhos pela Itália, cobrindo o melhor da história de Roma, o renascimento em Florença, os canais de Veneza e o sol da Costa Amalfitana.',
-    duration: 15,
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Chegada em Roma',
-        events: [
-          { time: '14:00', title: 'Check-in no hotel no centro histórico' },
-          { time: '17:00', title: 'Passeio a pé pela Piazza Navona e Pantheon' },
-          { time: '20:00', title: 'Jantar de massas romanas no Trastevere' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Roma: Coliseu & Ruínas Imperiais',
-        events: [
-          { time: '09:00', title: 'Tour guiado no Coliseu, Fórum Romano e Palatino' },
-          { time: '16:00', title: 'Caminhada pela Via del Corso e Fontana di Trevi' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Vaticano: Museus e Capela Sistina',
-        events: [
-          { time: '08:30', title: 'Visita aos Museus do Vaticano e Capela Sistina' },
-          { time: '14:00', title: 'Entrada na Basílica de São Pedro e subida à Cúpula' }
-        ]
-      },
-      {
-        day: 'Dia 4',
-        title: 'Roma para Nápoles & Pompéia',
-        events: [
-          { time: '08:00', title: 'Trem de alta velocidade de Roma para Nápoles' },
-          { time: '11:00', title: 'Passeio arqueológico pelas ruínas preservadas de Pompéia' },
-          { time: '18:00', title: 'Retorno a Nápoles e degustação da autêntica Pizza Napolitana' }
-        ]
-      },
-      {
-        day: 'Dia 5',
-        title: 'Costa Amalfitana: Chegada em Positano',
-        events: [
-          { time: '09:00', title: 'Deslocamento de Nápoles para Positano' },
-          { time: '14:00', title: 'Passeio a pé pelas ladeiras de lojinhas de limoncello e praia' }
-        ]
-      },
-      {
-        day: 'Dia 6',
-        title: 'Costa Amalfitana: Cruzeiro a Capri',
-        events: [
-          { time: '09:00', title: 'Charter de barco diurno para a Ilha de Capri' },
-          { time: '14:00', title: 'Visita guiada e subida de teleférico em Anacapri' }
-        ]
-      },
-      {
-        day: 'Dia 7',
-        title: 'Costa Amalfitana: Bate-volta a Amalfi e Ravello',
-        events: [
-          { time: '10:00', title: 'Ônibus ou balsa local para a cidade de Amalfi' },
-          { time: '15:00', title: 'Visita às vilas de Ravello com vistas espetaculares das falésias' }
-        ]
-      },
-      {
-        day: 'Dia 8',
-        title: 'Costa Amalfitana para Florença',
-        events: [
-          { time: '08:00', title: 'Viagem de trem rápido para a Toscana (Florença)' },
-          { time: '14:30', title: 'Visita à Galeria da Academia (Estátua de Davi de Michelangelo)' }
-        ]
-      },
-      {
-        day: 'Dia 9',
-        title: 'Florença: Galeria Uffizi & Ponte Vecchio',
-        events: [
-          { time: '09:00', title: 'Visita guiada ao museu Galeria Uffizi' },
-          { time: '15:00', title: 'Caminhada pela Catedral Duomo e Ponte Vecchio' }
-        ]
-      },
-      {
-        day: 'Dia 10',
-        title: 'Toscana: Pisa & San Gimignano',
-        events: [
-          { time: '08:30', title: 'Bate-volta de trem a Pisa (Torre de Pisa)' },
-          { time: '14:00', title: 'Caminhada medieval na cidade das torres San Gimignano' }
-        ]
-      },
-      {
-        day: 'Dia 11',
-        title: 'Florença para Veneza',
-        events: [
-          { time: '09:30', title: 'Trem rápido de Florença para Veneza Santa Lucia' },
-          { time: '14:00', title: 'Passeio de Vaporetto pelo Grand Canal' },
-          { time: '17:00', title: 'Passeio guiado na Praça e Basílica de São Marcos' }
-        ]
-      },
-      {
-        day: 'Dia 12',
-        title: 'Veneza: Gôndola e Labirinto de Canais',
-        events: [
-          { time: '10:00', title: 'Passeio tradicional de gôndola pelos canais' },
-          { time: '15:00', title: 'Caminhada pela Ponte Rialto e lojas de máscaras artesanais' }
-        ]
-      },
-      {
-        day: 'Dia 13',
-        title: 'Veneza: Bate-volta a Murano & Burano',
-        events: [
-          { time: '09:30', title: 'Balsa local para as ilhas de vidro de Murano e casas coloridas de Burano' },
-          { time: '16:00', title: 'Jantar romântico de frutos do mar à beira de um canal calmo' }
-        ]
-      },
-      {
-        day: 'Dia 14',
-        title: 'Veneza de volta a Roma',
-        events: [
-          { time: '09:00', title: 'Trem rápido cruzando a península de Veneza para Roma' },
-          { time: '15:00', title: 'Últimas compras de couros e produtos gourmet italianos' },
-          { time: '20:30', title: 'Banquete de encerramento da viagem' }
-        ]
-      },
-      {
-        day: 'Dia 15',
-        title: 'Roma & Voo de Retorno',
-        events: [
-          { time: '09:00', title: 'Café da manhã no hotel e transfer para o aeroporto Fiumicino' }
+          { time: '09:30', title: 'Visita imersiva ao teamLab Planets em Toyosu' },
+          { time: '13:00', title: 'Almoço de peixes frescos no mercado Tsukiji Outer Market' },
+          { time: '15:30', title: 'Megalojas de eletrônicos e cultura otaku em Akihabara' },
+          { time: '20:00', title: 'Jantar de encerramento em Ginza' }
         ]
       }
     ]

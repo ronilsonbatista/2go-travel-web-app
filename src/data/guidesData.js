@@ -12,17 +12,13 @@ export const destinationGuides = {
     subtitle: 'Tudo o que você precisa saber sobre documentos, transporte de metrô, melhores arrondissements, custos diários e reservas antecipadas.',
     category: 'Destinos',
     categoryLabel: 'Guia de destino',
-    metaTitle: 'Como planejar uma viagem para Paris: guia completo (2026)',
+    metaTitle: 'Como planejar uma viagem para Paris: guia completo',
     metaDescription: 'Guia completo e definitivo para planejar sua viagem para Paris. Saiba sobre vistos, seguro viagem, passagens de metrô, bairros e atrações.',
-    heroImage: '/images/destinations/paris/paris-1.jpg',
+    heroImage: '/images/destinations/paris/paris-eiffel-seine.jpg',
     images: [
-      { url: '/images/destinations/paris/paris-1.jpg', alt: 'Torre Eiffel ao entardecer' },
-      { url: '/images/destinations/paris/paris-2.jpg', alt: 'Museu do Louvre e Pirâmide' },
-      { url: '/images/destinations/paris/paris-3.jpg', alt: 'Arco do Triunfo e Champs-Élysées' },
-      { url: '/images/destinations/paris/paris-4.jpg', alt: 'Basílica Sacré-Cœur em Montmartre' },
-      { url: '/images/destinations/paris/paris-5.jpg', alt: 'Catedral de Notre-Dame e as margens do Sena' },
-      { url: '/images/destinations/paris/paris-6.jpg', alt: 'Pont Alexandre III' },
-      { url: '/images/destinations/paris/paris-7.jpg', alt: 'Rio Sena ao entardecer' }
+      { url: '/images/destinations/paris/paris-eiffel-seine.jpg', alt: 'Torre Eiffel e Rio Sena' },
+      { url: '/images/destinations/paris/paris-louvre.jpg', alt: 'Museu do Louvre e Pirâmide' },
+      { url: '/images/destinations/paris/paris-notre-dame.jpg', alt: 'Catedral de Notre-Dame e Rio Sena' }
     ],
     summaryText: 'Paris é uma das capitais mais visitadas do planeta. Planejar a viagem exige entender a distribuição por arrondissements, a malha de metrô, as regras do Espaço Schengen e o agendamento de ingressos fura-fila.',
     intro: 'Paris é uma metrópole vibrante que combina monumentos históricos seculares, galerias de arte renomadas mundialmente e a mais prestigiada cultura gastronômica. Organizar uma viagem para a Cidade Luz exige estratégia para otimizar os dias, evitar filas extensas e circular com facilidade entre os distritos.',
@@ -49,6 +45,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Torre Eiffel',
+        priority: 'Alta',
         desc: 'O monumento pago mais visitado do mundo, inaugurado em 1889 para a Exposição Universal com 330 metros de altura.',
         whyVisit: 'Símbolo máximo de Paris com vista panorâmica em 360 graus inesquecível de toda a cidade.',
         recommendedTime: '2 a 3 horas',
@@ -61,6 +58,7 @@ export const destinationGuides = {
       },
       {
         name: 'Museu do Louvre',
+        priority: 'Alta',
         desc: 'O maior museu de arte do planeta, abrigando mais de 35.000 obras incluindo a Mona Lisa, a Vênus de Milo e a Vitória de Samotrácia.',
         whyVisit: 'Acervo cultural incomparável reunindo artefatos do Egito antigo, Grécia, Roma e pintura renascentista.',
         recommendedTime: '3 a 5 horas',
@@ -73,6 +71,7 @@ export const destinationGuides = {
       },
       {
         name: 'Arco do Triunfo & Champs-Élysées',
+        priority: 'Média',
         desc: 'Monumento neoclássico encomendado por Napoleão Bonaparte em 1806 para celebrar as vitórias do exército francês.',
         whyVisit: 'O terraço no topo oferece a vista mais bonita da Torre Eiffel e do traçado das 12 avenidas que convergem na praça.',
         recommendedTime: '1,5 a 2 horas',
@@ -85,6 +84,7 @@ export const destinationGuides = {
       },
       {
         name: 'Basílica de Sacré-Cœur e Montmartre',
+        priority: 'Alta',
         desc: 'Templo de mármore branco situado no topo da colina de Montmartre, o histórico bairro dos pintores boêmios.',
         whyVisit: 'Combina vista espetacular da cidade com ruelas charmosas, a Place du Tertre e o Muro do Eu Te Amo.',
         recommendedTime: '3 a 4 horas',
@@ -183,17 +183,13 @@ export const destinationGuides = {
     subtitle: 'Passaporte, visto americano, transporte OMNY 24h, melhores bairros de Manhattan e custos diários.',
     category: 'Destinos',
     categoryLabel: 'Guia de destino',
-    metaTitle: 'Como planejar uma viagem para Nova York: guia completo (2026)',
+    metaTitle: 'Como planejar uma viagem para Nova York: guia completo',
     metaDescription: 'Guia completo para planejar sua viagem a Nova York. Saiba sobre vistos, metrô OMNY, hospedagem e atrações de Manhattan.',
-    heroImage: '/images/destinations/nova-york/nova-york-1.jpg',
+    heroImage: '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg',
     images: [
-      { url: '/images/destinations/nova-york/nova-york-1.jpg', alt: 'Empire State Building ao entardecer' },
-      { url: '/images/destinations/nova-york/nova-york-2.jpg', alt: 'Ponte do Brooklyn' },
-      { url: '/images/destinations/nova-york/nova-york-3.jpg', alt: 'Central Park' },
-      { url: '/images/destinations/nova-york/nova-york-4.jpg', alt: 'Estátua da Liberdade' },
-      { url: '/images/destinations/nova-york/nova-york-5.jpg', alt: 'Manhattan Skyline' },
-      { url: '/images/destinations/nova-york/nova-york-6.jpg', alt: 'Times Square' },
-      { url: '/images/destinations/nova-york/nova-york-7.jpg', alt: 'High Line Park' }
+      { url: '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg', alt: 'Estátua da Liberdade' },
+      { url: '/images/destinations/nova-york/nova-york-empire-state.jpg', alt: 'Empire State Building' },
+      { url: '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg', alt: 'Brooklyn Bridge com Manhattan' }
     ],
     summaryText: 'Nova York é a capital cultural dos Estados Unidos. Planejar exige vistos em dia, entender a divisão de Manhattan e usar o sistema de transporte OMNY.',
     intro: 'Nova York é uma metrópole vibrante, famosa por seus arranha-céus icônicos, espetáculos da Broadway e bairros cheios de personalidade. Uma viagem inesquecível para a Big Apple exige um bom planejamento de deslocamento e orçamento.',
@@ -203,7 +199,7 @@ export const destinationGuides = {
     howToGet: 'Voos chegam aos aeroportos JFK, Newark (EWR) ou LaGuardia (LGA). Do JFK, o AirTrain conecta ao metrô na estação Jamaica por cerca de $ 11,25.',
     documentation: 'Exige visto americano de turismo (B1/B2) válido ou autorização ESTA para quem tem passaporte de país elegível.',
     insurance: 'Recomendadíssimo contratá-lo. Os custos de atendimento médico nos EUA estão entre os mais altos do planeta.',
-    internet: 'Recomendamos adquirir um eSIM antes do embarque para ter internet ilimitada ilimitada logo ao pousar.',
+    internet: 'Recomendamos adquirir um eSIM internacional antes do embarque para ter internet ilimitada logo ao pousar.',
     currencyInfo: 'Dólar Americano ($). Cartões de débito internacionais (Nomad, Wise) são amplamente aceitos.',
     languageInfo: 'Inglês. O espanhol é vastamente falado por grande parte dos trabalhadores da cidade.',
     
@@ -220,6 +216,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Empire State Building',
+        priority: 'Alta',
         desc: 'O arranha-céu mais famoso do mundo no coração de Midtown.',
         whyVisit: 'Mirante clássico do 86º andar com vista de 360 graus.',
         recommendedTime: '2 horas',
@@ -232,6 +229,7 @@ export const destinationGuides = {
       },
       {
         name: 'Central Park',
+        priority: 'Alta',
         desc: 'O pulmão verde no meio dos arranha-céus de Manhattan.',
         whyVisit: 'Área imensa para caminhadas, passeios de bicicleta e piqueniques.',
         recommendedTime: '3 a 4 horas',
@@ -293,17 +291,13 @@ export const destinationGuides = {
     subtitle: 'Isenção de visto para brasileiros, cartão IC Suica, transporte pontual e bairros como Shinjuku e Shibuya.',
     category: 'Destinos',
     categoryLabel: 'Guia de destino',
-    metaTitle: 'Como planejar uma viagem para Tóquio: guia completo (2026)',
+    metaTitle: 'Como planejar uma viagem para Tóquio: guia completo',
     metaDescription: 'Guia completo para viajar a Tóquio. Saiba sobre isenção de visto, transporte IC Suica, onde ficar e roteiro em Tóquio.',
-    heroImage: '/images/destinations/toquio/toquio-1.jpg',
+    heroImage: '/images/destinations/toquio/toquio-tokyo-tower.jpg',
     images: [
-      { url: '/images/destinations/toquio/toquio-1.jpg', alt: 'Tokyo Tower iluminada' },
-      { url: '/images/destinations/toquio/toquio-2.jpg', alt: 'Templo Senso-ji em Asakusa' },
-      { url: '/images/destinations/toquio/toquio-3.jpg', alt: 'Cruzamento de Shibuya' },
-      { url: '/images/destinations/toquio/toquio-4.jpg', alt: 'Meiji Shrine' },
-      { url: '/images/destinations/toquio/toquio-5.jpg', alt: 'Skyline com Monte Fuji' },
-      { url: '/images/destinations/toquio/toquio-6.jpg', alt: 'Akihabara e Shinjuku' },
-      { url: '/images/destinations/toquio/toquio-7.jpg', alt: 'Jardins Orientais' }
+      { url: '/images/destinations/toquio/toquio-tokyo-tower.jpg', alt: 'Tokyo Tower' },
+      { url: '/images/destinations/toquio/toquio-sensoji.jpg', alt: 'Templo Senso-ji' },
+      { url: '/images/destinations/toquio/toquio-shibuya-crossing.jpg', alt: 'Shibuya Crossing' }
     ],
     summaryText: 'Tóquio mescla tradição milenar e tecnologia de ponta com um sistema de transporte impecável.',
     intro: 'Tóquio é uma metrópole surpreendente pela organização, segurança absoluta e riqueza gastronômica. Viajar para o Japão ficou ainda mais fácil com a isenção de visto para brasileiros.',
@@ -329,6 +323,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Templo Senso-ji (Asakusa)',
+        priority: 'Alta',
         desc: 'O templo budista mais antigo de Tóquio.',
         whyVisit: 'Atmosfera histórica incrível com a rua de comércio tradicional Nakamise.',
         recommendedTime: '2 horas',
@@ -389,17 +384,13 @@ export const destinationGuides = {
     subtitle: 'Autorização ETA, transporte de metrô Underground, atrações gratuitas e museus épicos.',
     category: 'Destinos',
     categoryLabel: 'Guia de destino',
-    metaTitle: 'Como planejar uma viagem para Londres: guia completo (2026)',
+    metaTitle: 'Como planejar uma viagem para Londres: guia completo',
     metaDescription: 'Guia completo para planejar sua viagem a Londres. Saiba sobre ETA, Oyster/contactless, museus gratuitos e bairros.',
-    heroImage: '/images/destinations/londres/londres-1.jpg',
+    heroImage: '/images/destinations/londres/londres-big-ben.jpg',
     images: [
-      { url: '/images/destinations/londres/londres-1.jpg', alt: 'Big Ben e Palácio de Westminster' },
-      { url: '/images/destinations/londres/londres-2.jpg', alt: 'Tower Bridge' },
-      { url: '/images/destinations/londres/londres-3.jpg', alt: 'Palácio de Buckingham' },
-      { url: '/images/destinations/londres/londres-4.jpg', alt: 'London Eye' },
-      { url: '/images/destinations/londres/londres-5.jpg', alt: 'Ônibus vermelho de Westminster' },
-      { url: '/images/destinations/londres/londres-6.jpg', alt: 'Catedral de São Paulo' },
-      { url: '/images/destinations/londres/londres-7.jpg', alt: 'Piccadilly Circus' }
+      { url: '/images/destinations/londres/londres-big-ben.jpg', alt: 'Big Ben e Parlamento' },
+      { url: '/images/destinations/londres/londres-tower-bridge.jpg', alt: 'Tower Bridge' },
+      { url: '/images/destinations/londres/londres-buckingham-palace.jpg', alt: 'Palácio de Buckingham' }
     ],
     summaryText: 'Londres combina realeza, museus de classe mundial e parques imensos com transporte excelente.',
     intro: 'Londres é uma metrópole multicultural com história em cada esquina. A cidade oferece uma vasta gama de museus públicos com entrada gratuita.',
@@ -424,6 +415,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Big Ben & Palácio de Westminster',
+        priority: 'Alta',
         desc: 'O ícone máximo britânico às margens do Rio Tâmisa.',
         whyVisit: 'Cartão postal mundial com arquitetura neogótica impressionante.',
         recommendedTime: '1 hora',
@@ -484,17 +476,13 @@ export const destinationGuides = {
     subtitle: 'Coliseu, Vaticano, hospedagem no Centro Storico, passagens de metrô e culinária romana.',
     category: 'Destinos',
     categoryLabel: 'Guia de destino',
-    metaTitle: 'Como planejar uma viagem para Roma: guia completo (2026)',
+    metaTitle: 'Como planejar uma viagem para Roma: guia completo',
     metaDescription: 'Guia completo para sua viagem a Roma. Descubra os segredos do Coliseu, Vaticano, bairros e transporte.',
-    heroImage: '/images/destinations/roma/roma-1.jpg',
+    heroImage: '/images/destinations/roma/roma-coliseu.jpg',
     images: [
-      { url: '/images/destinations/roma/roma-1.jpg', alt: 'O Coliseu de Roma' },
-      { url: '/images/destinations/roma/roma-2.jpg', alt: 'Fontana di Trevi' },
-      { url: '/images/destinations/roma/roma-3.jpg', alt: 'Praça de São Pedro no Vaticano' },
-      { url: '/images/destinations/roma/roma-4.jpg', alt: 'Panteão' },
-      { url: '/images/destinations/roma/roma-5.jpg', alt: 'Piazza Navona' },
-      { url: '/images/destinations/roma/roma-6.jpg', alt: 'Fórum Romano' },
-      { url: '/images/destinations/roma/roma-7.jpg', alt: 'Castel Sant\'Angelo' }
+      { url: '/images/destinations/roma/roma-coliseu.jpg', alt: 'Coliseu de Roma' },
+      { url: '/images/destinations/roma/roma-fontana-trevi.jpg', alt: 'Fontana di Trevi' },
+      { url: '/images/destinations/roma/roma-vaticano.jpg', alt: 'Praça de São Pedro e Vaticano' }
     ],
     summaryText: 'Roma é um museu a céu aberto com milênios de história, fontes barrocas e gastronomia inigualável.',
     intro: 'Roma encanta por preservar ruínas romanas ao lado de praças barrocas animadas e trattorias acolhedoras.',
@@ -519,6 +507,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Coliseu & Fórum Romano',
+        priority: 'Alta',
         desc: 'O anfiteatro romano lendário e o centro político da Roma antiga.',
         whyVisit: 'Uma viagem no tempo pela arquitetura do Império Romano.',
         recommendedTime: '3 horas',
@@ -579,17 +568,13 @@ export const destinationGuides = {
     subtitle: 'Mesquitas seculares, travessia do Bósforo, cartão Istanbulkart e mercados tradicionais.',
     category: 'Destinos',
     categoryLabel: 'Guia de destino',
-    metaTitle: 'Como planejar uma viagem para Istambul: guia completo (2026)',
+    metaTitle: 'Como planejar uma viagem para Istambul: guia completo',
     metaDescription: 'Guia completo para viajar a Istambul. Saiba sobre mesquitas, transporte Istanbulkart, passeios no Bósforo e mercados.',
-    heroImage: '/images/destinations/istambul/istambul-1.jpg',
+    heroImage: '/images/destinations/istambul/istambul-hagia-sophia.jpg',
     images: [
-      { url: '/images/destinations/istambul/istambul-1.jpg', alt: 'Hagia Sophia' },
-      { url: '/images/destinations/istambul/istambul-2.jpg', alt: 'Mesquita Azul' },
-      { url: '/images/destinations/istambul/istambul-3.jpg', alt: 'Estreito do Bósforo' },
-      { url: '/images/destinations/istambul/istambul-4.jpg', alt: 'Torre de Galata' },
-      { url: '/images/destinations/istambul/istambul-5.jpg', alt: 'Grande Bazar' },
-      { url: '/images/destinations/istambul/istambul-6.jpg', alt: 'Palácio Topkapi' },
-      { url: '/images/destinations/istambul/istambul-7.jpg', alt: 'Mesquita de Ortaköy' }
+      { url: '/images/destinations/istambul/istambul-hagia-sophia.jpg', alt: 'Hagia Sophia' },
+      { url: '/images/destinations/istambul/istambul-mesquita-azul.jpg', alt: 'Mesquita Azul' },
+      { url: '/images/destinations/istambul/istambul-bosforo.jpg', alt: 'Estreito do Bósforo' }
     ],
     summaryText: 'Istambul é a única metrópole do mundo situada entre dois continentes (Europa e Ásia).',
     intro: 'Istambul fascina pela fusão da arquitetura otomana e bizantina com uma cena cultural vibrante.',
@@ -614,6 +599,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Hagia Sophia',
+        priority: 'Alta',
         desc: 'Obra-prima arquitetônica construída como catedral no século VI e convertida em mesquita.',
         whyVisit: 'Cúpula monumental imensa e mosaicos históricos extraordinários.',
         recommendedTime: '2 horas',
@@ -674,17 +660,13 @@ export const destinationGuides = {
     subtitle: 'Burj Khalifa, safari no deserto, cartão Nol Card, hotéis de luxo e passeios imperdíveis.',
     category: 'Destinos',
     categoryLabel: 'Guia de destino',
-    metaTitle: 'Como planejar uma viagem para Dubai: guia completo (2026)',
+    metaTitle: 'Como planejar uma viagem para Dubai: guia completo',
     metaDescription: 'Guia completo para planejar sua viagem a Dubai. Saiba sobre visto gratuito, Burj Khalifa, praias e safari no deserto.',
-    heroImage: '/images/destinations/dubai/dubai-1.jpg',
+    heroImage: '/images/destinations/dubai/dubai-burj-khalifa.jpg',
     images: [
-      { url: '/images/destinations/dubai/dubai-1.jpg', alt: 'Burj Khalifa ao entardecer' },
-      { url: '/images/destinations/dubai/dubai-2.jpg', alt: 'Dubai Marina' },
-      { url: '/images/destinations/dubai/dubai-3.jpg', alt: 'Palm Jumeirah e Atlantis' },
-      { url: '/images/destinations/dubai/dubai-4.jpg', alt: 'Dubai Frame' },
-      { url: '/images/destinations/dubai/dubai-5.jpg', alt: 'Safari no Deserto' },
-      { url: '/images/destinations/dubai/dubai-6.jpg', alt: 'Skyline noturno de Dubai' },
-      { url: '/images/destinations/dubai/dubai-7.jpg', alt: 'Burj Al Arab' }
+      { url: '/images/destinations/dubai/dubai-burj-khalifa.jpg', alt: 'Burj Khalifa' },
+      { url: '/images/destinations/dubai/dubai-marina.jpg', alt: 'Dubai Marina' },
+      { url: '/images/destinations/dubai/dubai-burj-al-arab.jpg', alt: 'Burj Al Arab' }
     ],
     summaryText: 'Dubai é o centro mundial da arquitetura futurista, compras de luxo e atrações audaciosas.',
     intro: 'Dubai impressiona com seus arranha-céus arrojados, ilhas artificiais e infraestrutura impecável no deserto.',
@@ -709,6 +691,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Burj Khalifa',
+        priority: 'Alta',
         desc: 'O arranha-céu mais alto do planeta com 828 metros de altura e 163 andares.',
         whyVisit: 'Mirantes nos andares 124, 125 e 148 com vista deslumbrante de todo o deserto e oceano.',
         recommendedTime: '2 horas',
