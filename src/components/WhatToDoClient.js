@@ -213,11 +213,11 @@ export default function WhatToDoClient({ destination }) {
 
               {/* Consulting promo */}
               <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
-                <span className="text-[8.5px] font-extrabold text-brand-orange uppercase tracking-wider">CONSULTORIA PREMIUM</span>
+                <span className="text-[8.5px] font-extrabold text-brand-orange tracking-wide">Consultoria Personalizada</span>
                 <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">Quer suporte de especialistas?</h4>
-                <p className="text-[11px] text-text-muted leading-relaxed">Conecte-se com um consultor local premium da 2GO para criar um roteiro 100% sob medida e fechar reservas.</p>
+                <p className="text-[11px] text-text-muted leading-relaxed">Fale com um especialista da 2GO para planejar a viagem sob medida e fechar reservas.</p>
                 <Link 
-                  href="/premium"
+                  href="/consultoria-personalizada"
                   className="btn btn-outline py-2.5 text-xs text-center justify-center font-bold mt-2"
                 >
                   Falar com especialista

@@ -40,14 +40,14 @@ export default function ConsultoriaClient() {
       <main className="flex-grow pt-28 pb-20">
         
         {/* Hero Section */}
-        <section className="container mx-auto px-6 text-center max-w-4xl relative overflow-hidden mb-16">
+        <section className="container mx-auto px-4 sm:px-6 text-center max-w-4xl relative overflow-hidden mb-16">
           <div className="absolute top-10 left-10 w-44 h-44 bg-brand-orange/5 rounded-full blur-[60px] pointer-events-none select-none"></div>
           <div className="absolute bottom-10 right-10 w-44 h-44 bg-brand-navy/5 rounded-full blur-[60px] pointer-events-none select-none"></div>
 
-          <span className="bg-brand-orange text-white text-[10px] font-extrabold tracking-widest px-4 py-1.5 rounded-full w-fit mx-auto uppercase font-headers">
+          <span className="bg-brand-orange text-white text-[10px] font-extrabold tracking-wide px-4 py-1.5 rounded-full w-fit mx-auto font-headers">
             Consultoria Personalizada
           </span>
-          <h1 className="font-headers text-3xl sm:text-5xl md:text-6xl font-black text-brand-navy mt-6 mb-6 leading-tight tracking-tight">
+          <h1 className="font-headers text-3xl sm:text-5xl font-black text-brand-navy mt-6 mb-6 leading-tight tracking-tight break-words">
             Sua viagem planejada sob medida por especialistas
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-text-muted max-w-[760px] mx-auto leading-relaxed">
@@ -94,8 +94,8 @@ export default function ConsultoriaClient() {
         <section id="formulario" className="container mx-auto px-6 max-w-4xl">
           <div className="bg-white border border-border-gray p-8 md:p-12 rounded-[32px] shadow-sm text-left relative">
             <div className="mb-8 border-b border-border-gray/50 pb-6">
-              <span className="text-[10px] font-black text-brand-orange uppercase tracking-wider font-headers block">
-                ATENDIMENTO DIRETO
+              <span className="text-[10px] font-black text-brand-orange tracking-wide font-headers block">
+                Atendimento direto
               </span>
               <h2 className="font-headers text-2xl sm:text-3xl font-bold text-brand-navy mt-1">
                 Solicite sua Consultoria Personalizada
@@ -121,7 +121,7 @@ export default function ConsultoriaClient() {
                 {/* Dados pessoais */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                    <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                       Nome Completo *
                     </label>
                     <input 
@@ -134,7 +134,7 @@ export default function ConsultoriaClient() {
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                    <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                       WhatsApp *
                     </label>
                     <input 
@@ -147,7 +147,7 @@ export default function ConsultoriaClient() {
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                    <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                       E-mail *
                     </label>
                     <input 
@@ -164,7 +164,7 @@ export default function ConsultoriaClient() {
                 {/* Dados da viagem */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                    <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                       Destino Desejado *
                     </label>
                     <input 
@@ -177,7 +177,7 @@ export default function ConsultoriaClient() {
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                    <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                       Cidade de Origem *
                     </label>
                     <input 
@@ -190,7 +190,7 @@ export default function ConsultoriaClient() {
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                    <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                       Datas ou Mês Pretendido *
                     </label>
                     <input 
@@ -207,7 +207,7 @@ export default function ConsultoriaClient() {
                 {/* Perfil da viagem */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                    <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                       Quantidade de Pessoas
                     </label>
                     <select 
@@ -223,7 +223,7 @@ export default function ConsultoriaClient() {
                   </div>
 
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                    <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                       Estilo de Viagem
                     </label>
                     <select 
@@ -239,7 +239,7 @@ export default function ConsultoriaClient() {
                   </div>
 
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                    <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                       Orçamento Estimado
                     </label>
                     <select 
@@ -256,7 +256,7 @@ export default function ConsultoriaClient() {
 
                 {/* Preferências e observações */}
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                  <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                     Preferências Principais
                   </label>
                   <input 
@@ -269,7 +269,7 @@ export default function ConsultoriaClient() {
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-[10px] font-bold text-brand-navy uppercase tracking-wider font-headers">
+                  <label className="text-[10px] font-bold text-brand-navy tracking-wide font-headers">
                     Observações Adicionais (Opcional)
                   </label>
                   <textarea 
@@ -284,7 +284,7 @@ export default function ConsultoriaClient() {
                 {/* Submit button */}
                 <button
                   type="submit"
-                  className="btn bg-brand-orange hover:bg-brand-orange/95 text-white font-extrabold py-4 px-8 rounded-xl shadow-md text-xs flex items-center justify-center gap-2 cursor-pointer transition-all uppercase tracking-wider font-headers mt-2"
+                  className="btn bg-brand-orange hover:bg-brand-orange/95 text-white font-extrabold py-4 px-8 rounded-xl shadow-md text-sm flex items-center justify-center gap-2 cursor-pointer transition-all font-headers mt-2 w-full sm:w-auto"
                 >
                   <Send className="w-4 h-4" />
                   <span>Enviar solicitação</span>

@@ -11,11 +11,14 @@ export default function Footer({ onOpenDownload }) {
         <div className="flex flex-col gap-6">
           <Link 
             href="/"
-            className="flex items-center cursor-pointer h-[52px] lg:h-[64px] w-auto mb-2"
+            className="flex items-center cursor-pointer h-16 lg:h-20 w-auto mb-2"
           >
             <img 
               src="/images/Logo2GO.png" 
-              alt="2GO Roteiros" 
+              alt="2GO Roteiros"
+              width={228}
+              height={192}
+              sizes="(min-width: 1024px) 95px, 76px"
               className="h-full w-auto object-contain"
             />
           </Link>

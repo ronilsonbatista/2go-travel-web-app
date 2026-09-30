@@ -243,11 +243,11 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
 
       <main className="flex-grow">
         {/* Planner Hero Header */}
-        <section className="container mx-auto px-6 pt-36 pb-8 text-center max-w-3xl">
-          <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-full w-fit mx-auto">
-            ALGORITMO DE CURADORIA
+        <section className="container mx-auto px-4 sm:px-6 pt-28 sm:pt-36 pb-8 text-center max-w-3xl">
+          <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-wide px-3 py-1.5 rounded-full w-fit mx-auto">
+            Curadoria 2GO
           </span>
-          <h1 className="font-headers text-3.5xl sm:text-5xl md:text-6xl font-extrabold text-brand-navy mt-6 mb-6 leading-tight">
+          <h1 className="font-headers text-3xl sm:text-5xl md:text-6xl font-extrabold text-brand-navy mt-6 mb-6 leading-tight break-words">
             Planeje sua jornada.
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-text-muted max-w-[600px] mx-auto leading-relaxed">
@@ -257,7 +257,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
 
         {/* Wizard Form and Results */}
         <section className="py-8 bg-bg-light">
-          <div className="container mx-auto px-6 max-w-[1440px] w-full">
+          <div className="container mx-auto px-4 sm:px-6 max-w-[1440px] w-full min-w-0">
             
             {/* 1. Step-by-step Wizard Form */}
             {!loading && !showResults && (
@@ -267,7 +267,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 {step === 0 && (
                   <div className="animate-fade-in-up">
                     <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PASSO 1 DE 6
+                      Passo 1 de 6
                     </span>
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Para onde você vai viajar?
@@ -288,7 +288,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                     {/* Pre-search tags (Destinos Populares & Experiências) */}
                     {searchQuery === '' && (
                       <div className="mt-6">
-                        <span className="text-xs font-bold text-brand-navy uppercase tracking-wider block mb-3">
+                        <span className="text-xs font-bold text-brand-navy tracking-wide block mb-3">
                           🔥 Destinos Populares
                         </span>
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
@@ -312,7 +312,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                           ))}
                         </div>
 
-                        <span className="text-xs font-bold text-brand-navy uppercase tracking-wider block mb-3">
+                        <span className="text-xs font-bold text-brand-navy tracking-wide block mb-3">
                           ✨ Experiências &amp; Sugestões Sazonais
                         </span>
                         <div className="flex flex-wrap gap-2 mb-4">
@@ -379,7 +379,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 {step === 1 && (
                   <div className="animate-fade-in-up">
                     <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PASSO 2 DE 6
+                      Passo 2 de 6
                     </span>
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Quando você pretende viajar?
@@ -411,7 +411,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                     {!noExactDates ? (
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
                         <div className="flex flex-col gap-1.5 text-left">
-                          <label htmlFor="start-date" className="text-[10px] font-bold text-brand-navy uppercase tracking-wider">
+                          <label htmlFor="start-date" className="text-[10px] font-bold text-brand-navy tracking-wide">
                             Data de Ida
                           </label>
                           <input 
@@ -424,7 +424,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                           />
                         </div>
                         <div className="flex flex-col gap-1.5 text-left">
-                          <label htmlFor="end-date" className="text-[10px] font-bold text-brand-navy uppercase tracking-wider">
+                          <label htmlFor="end-date" className="text-[10px] font-bold text-brand-navy tracking-wide">
                             Data de Volta
                           </label>
                           <input 
@@ -465,7 +465,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 {step === 2 && (
                   <div className="animate-fade-in-up">
                     <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PASSO 3 DE 6
+                      Passo 3 de 6
                     </span>
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Quem vai viajar com você?
@@ -495,7 +495,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                       ))}
                     </div>
 
-                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-8 mb-3 uppercase tracking-wider">Necessidades Especiais</h3>
+                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-8 mb-3 tracking-wide">Necessidades Especiais</h3>
                     <div className="flex flex-col sm:flex-row gap-4">
                       {[
                         { id: 'não', label: 'Sem Crianças ou Idosos ✈️', desc: 'Ritmo normal.' },
@@ -523,14 +523,14 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 {step === 3 && (
                   <div className="animate-fade-in-up">
                     <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PASSO 4 DE 6
+                      Passo 4 de 6
                     </span>
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Orçamento e Ritmo da Viagem
                     </h2>
                     <p className="text-xs text-text-muted mt-2">Escolha como prefere gastar e o ritmo ideal de deslocamento.</p>
 
-                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-6 mb-3 uppercase tracking-wider">Perfil Financeiro</h3>
+                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-6 mb-3 tracking-wide">Perfil Financeiro</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                       {[
                         { id: 'economy', label: 'Econômico/Mochileiro 🎒', desc: 'Atrações baratas e hostels.' },
@@ -553,7 +553,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                       ))}
                     </div>
 
-                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-8 mb-3 uppercase tracking-wider">Ritmo Diário</h3>
+                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-8 mb-3 tracking-wide">Ritmo Diário</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                       {[
                         { id: 'lento', label: 'Lento e Relaxado 🐌', desc: 'Poucas atrações, com tempo de descanso.' },
@@ -582,14 +582,14 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 {step === 4 && (
                   <div className="animate-fade-in-up">
                     <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PASSO 5 DE 6
+                      Passo 5 de 6
                     </span>
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Estilo e Interesses
                     </h2>
                     <p className="text-xs text-text-muted mt-2">Indique suas atividades preferidas para a curadoria local.</p>
 
-                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-6 mb-3 uppercase tracking-wider">Estilo Principal</h3>
+                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-6 mb-3 tracking-wide">Estilo Principal</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                       {[
                         { id: 'aventura', label: '🧗 Aventura & Natureza' },
@@ -612,7 +612,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                       ))}
                     </div>
 
-                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-8 mb-3 uppercase tracking-wider">Áreas de Interesse (Selecione múltiplos)</h3>
+                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-8 mb-3 tracking-wide">Áreas de Interesse (Selecione múltiplos)</h3>
                     <div className="flex flex-wrap gap-2">
                       {[
                         'Museus & Galerias', 'Praias & Litoral', 'Cachoeiras & Trilhas',
@@ -649,14 +649,14 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 {step === 5 && (
                   <div className="animate-fade-in-up">
                     <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PASSO 6 DE 6
+                      Passo 6 de 6
                     </span>
                     <h2 className="font-headers text-2xl md:text-3xl font-bold mt-4 text-brand-navy">
                       Alimentação e Restrições
                     </h2>
                     <p className="text-xs text-text-muted mt-2">Personalize a filtragem de restaurantes e locais para comer.</p>
 
-                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-6 mb-3 uppercase tracking-wider">Preferência Alimentar</h3>
+                    <h3 className="text-xs font-headers text-brand-navy/80 font-bold mt-6 mb-3 tracking-wide">Preferência Alimentar</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                       {[
                         { id: 'nenhuma', label: 'Sem Restrições 🥩' },
@@ -680,7 +680,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                     </div>
 
                     <div className="flex flex-col gap-2 mt-8 text-left">
-                      <label htmlFor="custom-restrictions" className="text-[10px] font-bold font-headers text-brand-navy uppercase tracking-wider">
+                      <label htmlFor="custom-restrictions" className="text-[10px] font-bold font-headers text-brand-navy tracking-wide">
                         Outras Restrições ou Preferências Específicas (Opcional)
                       </label>
                       <textarea
@@ -696,7 +696,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                 )}
 
                 {/* Navigation Controls */}
-                <div className="flex justify-between items-center mt-10 pt-6 border-t border-border-gray/50 w-full">
+                <div className="flex flex-wrap justify-between items-center gap-3 mt-10 pt-6 border-t border-border-gray/50 w-full">
                   <button 
                     onClick={handlePrev} 
                     disabled={preselectedDestinationSlug ? step === 1 : step === 0}
@@ -711,7 +711,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                       step === 5 ? 'btn-primary' : 'btn-outline'
                     } disabled:opacity-30 disabled:pointer-events-none`}
                   >
-                    {step === 5 ? 'Gerar Roteiro' : 'Avançar'} <ArrowRight className="w-3.5 h-3.5 ml-1.5" />
+                    {step === 5 ? 'Criar roteiro' : 'Avançar'} <ArrowRight className="w-3.5 h-3.5 ml-1.5" />
                   </button>
                 </div>
 
@@ -791,8 +791,8 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                     <div className="absolute bottom-4 left-4 right-4 text-left">
-                      <span className="bg-brand-orange text-white text-[9px] font-extrabold tracking-widest px-2.5 py-1 rounded-full uppercase font-headers">
-                        PRIMEIRO DIA DE VIAGEM
+                      <span className="bg-brand-orange text-white text-[9px] font-extrabold tracking-wide px-2.5 py-1 rounded-full font-headers">
+                        Primeiro dia de viagem
                       </span>
                       <h4 className="font-headers text-lg sm:text-xl font-bold mt-1.5 leading-tight">
                         Chegada e ambientação em {activeItinerary.name || destination}
@@ -800,8 +800,8 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                     </div>
                   </div>
 
-                  <span className="font-headers text-xs font-bold text-brand-orange uppercase tracking-wider">
-                    Dia 1 • Prévia da Programação
+                  <span className="font-headers text-xs font-bold text-brand-orange tracking-wide">
+                    Dia 1 • Prévia da programação
                   </span>
                   <h3 className="font-headers text-lg sm:text-xl font-bold text-brand-navy mt-1 mb-4">
                     {finalDays[0] ? finalDays[0].title : 'Primeiro Dia Otimizado'}
@@ -831,7 +831,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                               <span>{evt.title}</span>
                             </h4>
                             <p className="text-[11px] text-text-muted mt-1 leading-relaxed">
-                              Curadoria premium otimizada para deslocamento e aproveitamento inteligente.
+                              Curadoria 2GO para deslocamento e aproveitamento do dia.
                             </p>
                           </div>
                         </div>
@@ -841,7 +841,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
 
                   <div className="mt-6 border border-brand-navy/10 bg-brand-navy/5 p-4 rounded-2xl flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                     <div className="text-left">
-                      <span className="text-[10px] font-bold text-brand-navy uppercase tracking-wider block">📍 MAPA DA ROTA DO DIA</span>
+                      <span className="text-[10px] font-bold text-brand-navy tracking-wide block">Mapa da rota do dia</span>
                       <p className="text-[11px] text-text-muted mt-0.5 leading-relaxed">Sincronize a rota completa com GPS e deslocamentos no aplicativo 2GO.</p>
                     </div>
                     <button

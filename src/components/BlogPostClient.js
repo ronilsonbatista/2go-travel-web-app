@@ -150,17 +150,17 @@ export default function BlogPostClient({ post }) {
                   href="/planejamento"
                   className="btn btn-secondary py-3 text-xs justify-center font-bold text-center w-full bg-brand-orange text-white hover:bg-white hover:text-brand-navy hover:scale-[1.01] active:scale-95 transition-all"
                 >
-                  Gerar Roteiro Grátis
+                  Criar roteiro
                 </Link>
               </div>
 
               {/* Consulting Promo */}
               <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
-                <span className="text-[8.5px] font-extrabold text-brand-orange uppercase tracking-wider">SUPORTE EXCLUSIVO</span>
-                <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">Quer Consultoria Premium?</h4>
-                <p className="text-[11px] text-text-muted leading-relaxed">Fale com um consultor local premium da 2GO para planejar sua rota detalhada dia a dia e fechar todas as suas reservas.</p>
+                <span className="text-[8.5px] font-extrabold text-brand-orange tracking-wide">Consultoria Personalizada</span>
+                <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">Quer um especialista no planejamento?</h4>
+                <p className="text-[11px] text-text-muted leading-relaxed">Fale com um especialista da 2GO para planejar a viagem sob medida, fora do roteiro automático do app.</p>
                 <Link 
-                  href="/premium"
+                  href="/consultoria-personalizada"
                   className="btn btn-outline py-2.5 text-xs text-center justify-center font-bold mt-2"
                 >
                   Falar com especialista

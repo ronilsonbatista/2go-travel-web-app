@@ -121,7 +121,7 @@ export default function CostClient({ destination }) {
                   href={`/planejamento/${destination.slug}`}
                   className="btn btn-secondary w-full py-3.5 flex items-center justify-center gap-2 cursor-pointer font-bold text-xs shadow-md shadow-brand-orange/20"
                 >
-                  Gerar Roteiro Deste Perfil <Sparkles className="w-4 h-4" />
+                  Criar roteiro <Sparkles className="w-4 h-4" />
                 </Link>
               </div>
             </div>

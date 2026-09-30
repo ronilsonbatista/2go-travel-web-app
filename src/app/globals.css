@@ -42,6 +42,13 @@ html {
   background-color: #F7F8FA;
   color: #1E293B;
   font-family: var(--font-body), sans-serif;
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+body {
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 ::-webkit-scrollbar {
