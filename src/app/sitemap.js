@@ -8,7 +8,6 @@ export default async function sitemap() {
     '',
     '/premium',
     '/app',
-    '/destinos',
     '/roteiros',
     '/quanto-custa',
     '/blog',
@@ -32,15 +31,7 @@ export default async function sitemap() {
     getBlogPosts()
   ]);
 
-  // 2. Dynamic Destinos /destinos/[slug]
-  const destinationRoutes = destinations.map(dest => ({
-    url: `${baseUrl}/destinos/${dest.slug}`,
-    lastModified: new Date().toISOString(),
-    changeFrequency: 'weekly',
-    priority: 0.9
-  }));
-
-  // 3. Dynamic Roteiros /roteiros/[slug]
+  // 2. Dynamic Roteiros /roteiros/[slug]
   const itineraryRoutes = itineraries.map(it => ({
     url: `${baseUrl}/roteiros/${it.slug}`,
     lastModified: new Date().toISOString(),
@@ -98,7 +89,6 @@ export default async function sitemap() {
 
   return [
     ...staticRoutes,
-    ...destinationRoutes,
     ...itineraryRoutes,
     ...costRoutes,
     ...plannerRoutes,
