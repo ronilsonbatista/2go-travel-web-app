@@ -1,6 +1,5 @@
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import Script from 'next/script';
-import WhatsAppFloating from "@/components/WhatsAppFloating";
 import AppFloatingButton from "@/components/AppFloatingButton";
 import "./globals.css";
 
@@ -80,9 +79,6 @@ export default function RootLayout({ children }) {
         ) : null}
 
         {children}
-
-        {/* Floating Contextual Smart WhatsApp button */}
-        <WhatsAppFloating />
 
         {/* Global Floating Mobile Download button */}
         <AppFloatingButton />

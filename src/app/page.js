@@ -26,120 +26,65 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
+import { listDestinations, listItinerariesForDestination } from '@/lib/cms';
+import { destinationGuides } from '@/data/guidesData';
 
-// Cinematic Images for the Premium Hero Carousel & Categories
-const premiumSlides = [
-  {
-    id: 'paris',
-    name: 'Paris, França',
-    country: 'França',
-    emoji: '🇫🇷',
-    phrase: 'Arte, gastronomia e o charme do Rio Sena.',
-    desc: 'Torre Eiffel ao entardecer com o reflexo das luzes no Rio Sena e o charme eterno da capital francesa.',
-    tags: ['Cultura', 'Romance'],
-    img: '/images/destinations/paris/paris-eiffel-seine.jpg',
-    ctaLink: '/roteiros?search=Paris'
-  },
-  {
-    id: 'ny',
-    name: 'Nova York, Estados Unidos',
-    country: 'Estados Unidos',
-    emoji: '🇺🇸',
-    phrase: 'Energia, cultura e experiências em cada esquina.',
-    desc: 'O Empire State Building e o skyline de Manhattan ao entardecer com luzes urbanas elegantes e atmosfera cinematográfica.',
-    tags: ['Urbano', 'Cultura'],
-    img: '/images/destinations/nova-york/nova-york-1.jpg',
-    ctaLink: '/roteiros?search=Nova York'
-  },
-  {
-    id: 'tokyo',
-    name: 'Tóquio, Japão',
-    country: 'Japão',
-    emoji: '🇯🇵',
-    phrase: 'Tradição, tecnologia e experiências únicas.',
-    desc: 'A majestosa Tokyo Tower iluminada durante a blue hour em harmonia entre a tradição e a vanguarda tecnológica.',
-    tags: ['Cultura', 'Tecnologia'],
-    img: '/images/destinations/toquio/toquio-1.jpg',
-    ctaLink: '/roteiros?search=Tóquio'
-  },
-  {
-    id: 'rio',
-    name: 'Rio de Janeiro, Brasil',
-    country: 'Brasil',
-    emoji: '🇧🇷',
-    phrase: 'Praias, montanhas e paisagens inesquecíveis.',
-    desc: 'Pão de Açúcar ao pôr do sol em tons suaves de fim de tarde e natureza exuberante.',
-    tags: ['Praias', 'Natureza'],
-    img: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1400&q=85',
-    ctaLink: '/roteiros?search=Rio de Janeiro'
-  },
-  {
-    id: 'roma',
-    name: 'Roma, Itália',
-    country: 'Itália',
-    emoji: '🇮🇹',
-    phrase: 'História, arte e monumentos a céu aberto.',
-    desc: 'O Coliseu ao entardecer em luz quente moderada e atmosfera histórica incomparável.',
-    tags: ['História', 'Gastronomia'],
-    img: '/images/destinations/roma/roma-coliseu.jpg',
-    ctaLink: '/roteiros?search=Roma'
-  },
-  {
-    id: 'londres',
-    name: 'Londres, Reino Unido',
-    country: 'Reino Unido',
-    emoji: '🇬🇧',
-    phrase: 'História, cultura e ícones reconhecidos no mundo inteiro.',
-    desc: 'Big Ben e o Palácio de Westminster durante a blue hour com tons frios e refinados.',
-    tags: ['Cultura', 'História'],
-    img: '/images/destinations/londres/londres-1.jpg',
-    ctaLink: '/roteiros?search=Londres'
-  },
-  {
-    id: 'istanbul',
-    name: 'Istambul, Turquia',
-    country: 'Turquia',
-    emoji: '🇹🇷',
-    phrase: 'Onde Europa e Ásia se encontram.',
-    desc: 'A vista do Bósforo e das mesquitas seculares ao pôr do sol em suaves tons terrosos.',
-    tags: ['História', 'Cultura'],
-    img: '/images/destinations/istambul/istambul-1.jpg',
-    ctaLink: '/roteiros?search=Istambul'
-  },
-  {
-    id: 'sydney',
-    name: 'Sydney, Austrália',
-    country: 'Austrália',
-    emoji: '🇦🇺',
-    phrase: 'Praias, natureza e arquitetura icônica.',
-    desc: 'A Opera House de Sydney em blue hour com o skyline noturno refletido nas águas da baía.',
-    tags: ['Praias', 'Arquitetura'],
-    img: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=85',
-    ctaLink: '/roteiros?search=Sydney'
-  },
-  {
-    id: 'bangkok',
-    name: 'Bangkok, Tailândia',
-    country: 'Tailândia',
-    emoji: '🇹🇭',
-    phrase: 'Templos, sabores e uma cidade cheia de vida.',
-    desc: 'A silhueta inconfundível do templo Wat Arun no Rio Chao Phraya durante a luz serena do entardecer.',
-    tags: ['Cultura', 'Gastronomia'],
-    img: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1400&q=85',
-    ctaLink: '/roteiros?search=Bangkok'
-  },
-  {
-    id: 'amsterdam',
-    name: 'Amsterdã, Países Baixos',
-    country: 'Países Baixos',
-    emoji: '🇳🇱',
-    phrase: 'Canais, cultura e charme em cada rua.',
-    desc: 'Os canais seculares ao anoitecer com luzes acolhedoras refletidas na água e arquitetura histórica.',
-    tags: ['Cultura', 'Canais'],
-    img: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=85',
-    ctaLink: '/roteiros?search=Amsterdã'
-  }
+function sameCity(left, right) {
+  const normalize = (value) => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  return normalize(left) === normalize(right);
+}
+
+const destinations = listDestinations();
+const guides = Object.values(destinationGuides);
+
+function guideForDestination(destination) {
+  return guides.find((guide) => sameCity(guide.city, destination.name)) || null;
+}
+
+const guideOnlyCities = guides.filter((guide) => !destinations.some((destination) => sameCity(destination.name, guide.city)));
+
+const premiumSlides = destinations
+  .filter((destination) => listItinerariesForDestination(destination.slug).length > 0)
+  .map((destination) => {
+    const guide = guideForDestination(destination);
+    const itinerary = listItinerariesForDestination(destination.slug)[0];
+    return {
+      id: destination.slug,
+      name: `${destination.name}, ${destination.country}`,
+      country: destination.country,
+      emoji: destination.emoji,
+      phrase: destination.description,
+      desc: guide?.summaryText || destination.longDescription || destination.description,
+      tags: guide ? [guide.categoryLabel] : [],
+      img: guide?.heroImage || destination.image,
+      ctaLink: `/roteiros/${itinerary.slug}`
+    };
+  });
+
+const featuredDestinations = [
+  ...destinations.map((destination) => {
+    const guide = guideForDestination(destination);
+    const itinerary = listItinerariesForDestination(destination.slug)[0];
+    return {
+      name: destination.name,
+      country: destination.country,
+      img: guide?.heroImage || destination.image,
+      phrase: destination.description,
+      link: itinerary
+        ? `/roteiros/${itinerary.slug}`
+        : (guide ? `/blog/${guide.slug}` : `/o-que-fazer/${destination.slug}`)
+    };
+  }),
+  ...guideOnlyCities.map((guide) => ({
+    name: guide.city,
+    country: guide.country,
+    img: guide.heroImage,
+    phrase: guide.subtitle,
+    link: `/blog/${guide.slug}`
+  }))
 ];
+
+const publishedDestinationCount = destinations.length + guideOnlyCities.length;
 
 // Dynamic CSS filters per destination for a cinematic, elegant, lower-saturation look
 const getSlideFilterClass = (id) => {
@@ -183,46 +128,6 @@ const getSlideDarkOverlayStyle = (id) => {
 const getHeroTextShadow = (id) => {
   return { textShadow: '0 1px 8px rgba(0,0,0,0.15)' };
 };
-
-// Curated Editorial Itineraries Data with daily timeline summaries
-const editorialItineraries = [
-  {
-    title: 'Paris Essencial & Clássica',
-    destination: 'Paris, França 🇫🇷',
-    duration: '3 Dias',
-    img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80',
-    slug: 'paris-3-dias',
-    summary: [
-      { day: 'Dia 1', action: 'Museu do Louvre, Jardins Tuileries & Jantar na Torre Eiffel' },
-      { day: 'Dia 2', action: 'Île de la Cité, Catedral Notre-Dame & Saint-Germain' },
-      { day: 'Dia 3', action: 'Basílica Sacré-Cœur, ruelas de Montmartre & Cruzeiro Sena' }
-    ]
-  },
-  {
-    title: 'A Cidade Eterna e Arredores',
-    destination: 'Roma, Itália 🇮🇹',
-    duration: '5 Dias',
-    img: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&q=80',
-    slug: 'paris-5-dias', // mapped to existing route for demo
-    summary: [
-      { day: 'Dia 1', action: 'Coliseu, Fórum Romano & Fontana di Trevi' },
-      { day: 'Dia 2', action: 'Pantheon, Piazza Navona & Jantar em Trastevere' },
-      { day: 'Dia 3', action: 'Bate-volta para Museus do Vaticano & Capela Sistina' }
-    ]
-  },
-  {
-    title: 'Lisboa Histórica & Sintra',
-    destination: 'Lisboa, Portugal 🇵🇹',
-    duration: '3 Dias',
-    img: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80',
-    slug: 'paris-7-dias', // mapped to existing route for demo
-    summary: [
-      { day: 'Dia 1', action: 'Torre de Belém, Pastéis de Belém & Mosteiro dos Jerónimos' },
-      { day: 'Dia 2', action: 'Bonde Elétrico 28, Castelo de São Jorge & Tasca de Fado' },
-      { day: 'Dia 3', action: 'Bate-volta de trem para os Palácios de Sintra' }
-    ]
-  }
-];
 
 function ScrollReveal({ children, className = '', delay = 0 }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -536,7 +441,7 @@ export default function Home() {
                       <span className="text-yellow-500">★</span> 4,9 de avaliação
                     </span>
                     <span className="flex items-center gap-1.5">
-                      <span className="text-brand-orange">🌍</span> +120 destinos
+                      <span className="text-brand-orange">🌍</span> {publishedDestinationCount} destinos publicados
                     </span>
                     <span className="flex items-center gap-1.5">
                       <span className="text-brand-green">⚡</span> Roteiros em poucos minutos
@@ -643,7 +548,7 @@ export default function Home() {
                   DESTINOS EM DESTAQUE
                 </span>
                 <p className="text-sm text-text-muted mt-2">
-                  Escolha seu próximo destino e leve seu roteiro personalizado no bolso com o aplicativo da 2GO.
+                  Destinos com ficha publicada. O roteiro abre só quando ele existe.
                 </p>
               </div>
               <Link 
@@ -676,15 +581,7 @@ export default function Home() {
 
             {/* Featured destinations scrollable carousel */}
             <div className="flex gap-6 overflow-x-auto pb-6 custom-scrollbar-hide snap-x snap-mandatory">
-              {[
-                { name: 'Paris', country: 'França', img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80', phrase: 'Arte, bistrôs tradicionais e o charme do Rio Sena.', link: '/roteiros?search=Paris' },
-                { name: 'Roma', country: 'Itália', img: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&q=80', phrase: 'A Cidade Eterna com ruínas históricas e gastronomia inigualável.', link: '/roteiros?search=Roma' },
-                { name: 'Lisboa', country: 'Portugal', img: 'https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=600&q=80', phrase: 'Ruelas históricas, bondinhos amarelos e pastéis de Belém.', link: '/roteiros?search=Lisboa' },
-                { name: 'Tóquio', country: 'Japão', img: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80', phrase: 'Tradição milenar e tecnologia em perfeita harmonia.', link: '/roteiros?search=Tóquio' },
-                { name: 'Fernando de Noronha', country: 'Brasil', img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=600&q=80', phrase: 'Um dos mares mais bonitos e preservados do planeta.', link: '/roteiros?search=Fernando de Noronha' },
-                { name: 'Santorini', country: 'Grécia', img: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=600&q=80', phrase: 'Pôr do sol inesquecível sobre o Mar Egeu.', link: '/roteiros?search=Santorini' },
-                { name: 'Gramado', country: 'Brasil', img: '/assets/gramado.png', phrase: 'Charme europeu, hortênsias e fondue na serra.', link: '/roteiros?search=Gramado' }
-              ].map((dest, idx) => (
+              {featuredDestinations.map((dest, idx) => (
                 <Link 
                   key={idx}
                   href={dest.link}

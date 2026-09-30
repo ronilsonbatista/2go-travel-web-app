@@ -706,16 +706,6 @@ const itineraries = {
 
 const blogPosts = [
   {
-    title: 'Como planejar uma viagem para Paris sem estresse',
-    slug: 'como-planejar-viagem-paris',
-    excerpt: 'Descubra os passos essenciais para organizar sua mala, escolher o melhor transporte e evitar golpes comuns na Cidade Luz.',
-    content: 'Planejar uma viagem para Paris pode parecer intimidador, mas com as ferramentas certas tudo fica simples. Neste artigo, explicamos detalhadamente como funciona o metrô, quais aplicativos baixar, como economizar nas refeições fora dos pontos turísticos óbvios e como garantir seus ingressos para atrações concorridas como a Torre Eiffel e o Museu do Louvre com antecedência.',
-    readTime: '5 min',
-    date: '12 Junho 2026',
-    category: 'Planejamento',
-    image: '/assets/paris.png'
-  },
-  {
     title: 'O guia definitivo de massas romanas tradicionais',
     slug: 'guia-massas-romanas-tradicionais',
     excerpt: 'Entenda a diferença entre Carbonara, Cacio e Pepe, Amatriciana e Gricia e onde comer as versões autênticas em Roma.',
@@ -759,8 +749,24 @@ const blogPosts = [
 
 // Async CMS Interface Mock functions for dynamic server fetching simulation
 
-export async function getDestinations() {
+export function listDestinations() {
   return Object.values(destinations);
+}
+
+export function listItineraries() {
+  return Object.values(itineraries);
+}
+
+export function listItinerariesForDestination(destSlug) {
+  return Object.values(itineraries).filter(it => it.destinationSlug === destSlug);
+}
+
+export function listBlogPosts() {
+  return blogPosts;
+}
+
+export async function getDestinations() {
+  return listDestinations();
 }
 
 export async function getDestinationBySlug(slug) {
@@ -768,7 +774,7 @@ export async function getDestinationBySlug(slug) {
 }
 
 export async function getItineraries() {
-  return Object.values(itineraries);
+  return listItineraries();
 }
 
 export async function getItineraryBySlug(slug) {
@@ -776,11 +782,11 @@ export async function getItineraryBySlug(slug) {
 }
 
 export async function getItinerariesForDestination(destSlug) {
-  return Object.values(itineraries).filter(it => it.destinationSlug === destSlug);
+  return listItinerariesForDestination(destSlug);
 }
 
 export async function getBlogPosts() {
-  return blogPosts;
+  return listBlogPosts();
 }
 
 export async function getBlogPostBySlug(slug) {
