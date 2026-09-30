@@ -12,7 +12,10 @@ export const metadata = {
   }
 };
 
-export default async function RoteirosPage() {
+export default async function RoteirosPage({ searchParams }) {
+  const resolvedSearch = await searchParams;
+  const rawSearch = resolvedSearch?.search;
+  const initialSearch = Array.isArray(rawSearch) ? rawSearch[0] || '' : rawSearch || '';
   const [itineraries, destinations] = await Promise.all([
     getItineraries(),
     getDestinations()
@@ -33,6 +36,6 @@ export default async function RoteirosPage() {
   });
 
   return (
-    <RoteirosClient itineraries={richItineraries} />
+    <RoteirosClient itineraries={richItineraries} initialSearch={initialSearch} />
   );
 }

@@ -9,21 +9,15 @@ import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
 import { matchesSearch } from '@/lib/searchHelper';
 
-export default function RoteirosClient({ itineraries = [] }) {
+export default function RoteirosClient({ itineraries = [], initialSearch = '' }) {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [selectedDest, setSelectedDest] = useState('Todos');
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState(initialSearch);
 
-  // Read URL search parameter on client mount
+  // Keep the field in sync when the URL search changes (continent chips, etc.)
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const params = new URLSearchParams(window.location.search);
-      const search = params.get('search') || '';
-      if (search) {
-        setSearchQuery(search);
-      }
-    }
-  }, []);
+    setSearchQuery(initialSearch || '');
+  }, [initialSearch]);
 
   // Filter chips
   const destFilters = ['Todos', 'Paris', 'Roma', 'Lisboa', 'Londres', 'Japão', 'Itália', 'Praia', 'Romance', 'Família', 'Aventura'];
