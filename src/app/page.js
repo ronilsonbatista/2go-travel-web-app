@@ -361,10 +361,10 @@ export default function Home() {
                   className="w-full max-w-2xl bg-white/26 backdrop-blur-[6px] lg:backdrop-blur-[10px] border border-white/30 lg:border-white/35 shadow-[0_15px_45px_rgba(8,27,107,0.06)] lg:shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-4 sm:p-8 md:p-10 rounded-[20px] lg:rounded-[28px] flex flex-col gap-3.5 lg:gap-6 animate-fade-in-up items-center sm:items-start"
                 >
                   <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5">
-                    <span className="bg-[#F47A20] text-white text-[10px] sm:text-[12px] font-black uppercase tracking-widest px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
-                      ROTEIROS PERSONALIZADOS
+                    <span className="bg-[#F47A20] text-white text-[10px] sm:text-[12px] font-black tracking-wide px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
+                      Roteiros personalizados
                     </span>
-                    <span className="bg-brand-navy/5 border border-brand-navy/10 text-brand-navy text-[10px] sm:text-[12px] font-bold uppercase tracking-widest px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit flex items-center gap-1">
+                    <span className="bg-brand-navy/5 border border-brand-navy/10 text-brand-navy text-[10px] sm:text-[12px] font-bold tracking-wide px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit flex items-center gap-1">
                       📍 {premiumSlides[currentSlide].country}
                     </span>
                   </div>
@@ -391,8 +391,8 @@ export default function Home() {
                     A 2GO cria roteiros personalizados e une tecnologia, curadoria e praticidade para você viajar do seu jeito.
                   </p>
                   
-                  <div className="flex items-center mt-0.5 bg-brand-navy/5 border border-brand-navy/10 px-3.5 py-2 rounded-xl w-fit text-xs sm:text-sm">
-                    <span className="text-brand-navy/85 text-sm italic font-medium">"{premiumSlides[currentSlide].phrase}"</span>
+                  <div className="flex items-center mt-0.5 bg-brand-navy/5 border border-brand-navy/10 px-3.5 py-2 rounded-xl w-full max-w-full text-xs sm:text-sm">
+                    <span className="text-brand-navy/85 text-sm italic font-medium break-words">"{premiumSlides[currentSlide].phrase}"</span>
                   </div>
                   
                   {/* Desktop CTA buttons */}
@@ -452,7 +452,7 @@ export default function Home() {
 
               {/* Right Columns: Interactive Side Slider Previews (Apple TV Style) */}
               <div className="lg:col-span-5 flex flex-col lg:border-l lg:border-brand-navy/10 lg:pl-8 mt-6 lg:mt-0 w-full overflow-hidden">
-                <span className="text-[11px] lg:text-[12px] font-black text-brand-navy/60 tracking-wider uppercase mb-2 lg:mb-3 block text-center lg:text-left">Mais Destinos</span>
+                <span className="text-[11px] lg:text-[12px] font-black text-brand-navy/60 tracking-wide mb-2 lg:mb-3 block text-center lg:text-left">Mais destinos</span>
                 
                 <div className="flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-visible lg:overflow-y-visible gap-2 pb-4 lg:pb-0 custom-scrollbar-hide flex-nowrap lg:flex-wrap w-full px-1 lg:px-0 snap-x snap-mandatory scroll-smooth">
                   {premiumSlides.map((slide, idx) => {
@@ -488,8 +488,8 @@ export default function Home() {
         <section id="como-funciona" className="py-12 lg:py-28 bg-[#F4F6F9] border-b border-border-gray/50 scroll-mt-20">
           <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-6xl w-full">
             <div className="text-center max-w-[600px] mx-auto mb-14 md:mb-16">
-              <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
-                MÁXIMA PRATICIDADE
+              <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
+                Máxima praticidade
               </span>
               <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
                 Do sonho ao roteiro em 3 passos
@@ -544,8 +544,8 @@ export default function Home() {
           <ScrollReveal className="container mx-auto px-4 sm:px-6">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
               <div className="text-left max-w-2xl">
-                <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
-                  DESTINOS EM DESTAQUE
+                <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
+                  Destinos em destaque
                 </span>
                 <p className="text-sm text-text-muted mt-2">
                   Destinos com ficha publicada. O roteiro abre só quando ele existe.
@@ -560,7 +560,7 @@ export default function Home() {
             </div>
 
             {/* Continental categories selectors */}
-            <div className="flex gap-3 overflow-x-auto pb-6 mb-8 custom-scrollbar-hide flex-nowrap border-b border-border-gray/30">
+            <div className="flex gap-3 overflow-x-auto pb-4 mb-4 custom-scrollbar-hide flex-nowrap border-b border-border-gray/30 min-w-0 max-w-full">
               {[
                 { label: '🇪🇺 Europa', slug: '/roteiros?search=Europa' },
                 { label: '⛩️ Ásia', slug: '/roteiros?search=Ásia' },
@@ -572,7 +572,7 @@ export default function Home() {
                 <Link 
                   key={i} 
                   href={cat.slug} 
-                  className="px-5 py-2.5 rounded-full bg-white border border-border-gray/70 hover:border-[#96AB21] hover:text-[#96AB21] text-xs sm:text-sm font-extrabold text-brand-navy shrink-0 transition-all duration-300 hover:scale-[1.02] shadow-sm uppercase tracking-wider"
+                  className="px-4 sm:px-5 py-2.5 rounded-full bg-white border border-border-gray/70 hover:border-[#96AB21] hover:text-[#96AB21] text-xs sm:text-sm font-extrabold text-brand-navy shrink-0 transition-all duration-300 hover:scale-[1.02] shadow-sm"
                 >
                   {cat.label}
                 </Link>
@@ -580,12 +580,12 @@ export default function Home() {
             </div>
 
             {/* Featured destinations scrollable carousel */}
-            <div className="flex gap-6 overflow-x-auto pb-6 custom-scrollbar-hide snap-x snap-mandatory">
+            <div className="flex gap-4 sm:gap-6 overflow-x-auto pb-6 custom-scrollbar-hide snap-x snap-mandatory min-w-0 max-w-full">
               {featuredDestinations.map((dest, idx) => (
                 <Link 
                   key={idx}
                   href={dest.link}
-                  className="group relative h-96 w-72 shrink-0 rounded-[24px] overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray card-premium-hover snap-start"
+                  className="group relative h-96 w-[min(18rem,78vw)] sm:w-72 shrink-0 rounded-[24px] overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray card-premium-hover snap-start"
                 >
                   <img 
                     src={dest.img} 
@@ -604,16 +604,14 @@ export default function Home() {
             </div>
 
             {/* Section visual break banner */}
-            <div className="mt-12 lg:mt-16 bg-gradient-to-r from-brand-navy to-[#0c248b] rounded-[24px] p-8 lg:p-10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl relative overflow-hidden text-left">
-              {/* Decorative subtle background blur/circle */}
+            <div className="mt-8 lg:mt-12 bg-gradient-to-r from-brand-navy to-[#0c248b] rounded-[24px] p-6 sm:p-8 lg:p-10 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-6 shadow-xl relative overflow-hidden text-left">
               <div className="absolute right-0 top-0 w-64 h-64 bg-brand-orange/10 rounded-full blur-3xl pointer-events-none" />
-              <div className="text-left flex-grow z-10">
-                <h4 className="font-headers text-xl sm:text-2xl font-black text-white">Seu próximo destino já pode virar roteiro.</h4>
-                <p className="text-xs sm:text-sm text-white/80 mt-2 max-w-2xl">Escolha para onde deseja viajar e leve o planejamento completo no aplicativo da 2GO.</p>
+              <div className="text-left flex-grow z-10 min-w-0">
+                <h4 className="font-headers text-lg sm:text-2xl font-black text-white leading-snug break-words">Pare de juntar abas. Em minutos, a 2GO monta o dia a dia — e você leva no app.</h4>
               </div>
               <Link 
                 href="/planejamento"
-                className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-8 py-3.5 rounded-xl transition-all shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-98 text-sm whitespace-nowrap cursor-pointer shrink-0 z-10 border-none flex items-center justify-center"
+                className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 sm:px-8 py-3.5 rounded-xl transition-all shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-98 text-sm text-center cursor-pointer shrink-0 z-10 border-none flex items-center justify-center"
               >
                 Criar roteiro
               </Link>
@@ -625,8 +623,8 @@ export default function Home() {
         <section className="py-12 lg:py-28 bg-[#F4F6F9] border-b border-border-gray/50">
           <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-5xl">
             <div className="text-center max-w-[620px] mx-auto mb-14 md:mb-16">
-              <span className="bg-brand-green/10 text-brand-green text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
-                TECNOLOGIA EXCLUSIVA
+              <span className="bg-brand-green/10 text-brand-green text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
+                Tecnologia exclusiva
               </span>
               <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
                 Veja seu roteiro tomando forma ⚡
@@ -722,25 +720,23 @@ export default function Home() {
                 </div>
 
                 <div className="mt-8 flex flex-col gap-3">
+                  <Link 
+                    href={`/planejamento?dest=${encodeURIComponent(simDest.toLowerCase())}`}
+                    className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold py-3.5 px-4 rounded-xl text-center shadow-md shadow-brand-orange/25 block text-sm border-none"
+                  >
+                    Criar meu roteiro sob medida
+                  </Link>
                   <button
                     onClick={startSimulation}
                     disabled={simState === 'running'}
-                    className={`btn w-full py-3.5 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] rounded-xl ${
+                    className={`w-full py-3 flex items-center justify-center gap-2 cursor-pointer transition-all rounded-xl border text-sm font-bold ${
                       simState === 'running' 
-                        ? 'bg-brand-navy/10 text-brand-navy/40 border-transparent cursor-not-allowed' 
-                        : 'bg-brand-orange hover:bg-brand-orange/95 text-white font-extrabold shadow-md shadow-brand-orange/10'
+                        ? 'bg-transparent text-brand-navy/40 border-brand-navy/10 cursor-not-allowed' 
+                        : 'bg-white border-brand-navy/25 text-brand-navy hover:border-brand-navy/50'
                     }`}
                   >
-                    {simState === 'running' ? 'Organizando preferências...' : 'Simular Criação do Roteiro'}
+                    {simState === 'running' ? 'Organizando preferências...' : 'Simular criação do roteiro'}
                   </button>
-                  {simState === 'done' && (
-                    <Link 
-                      href={`/planejamento?dest=${encodeURIComponent(simDest.toLowerCase())}`}
-                      className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold py-3.5 rounded-xl text-center shadow-md shadow-brand-orange/10 animate-fade-in-up block text-xs border-none"
-                    >
-                      Criar roteiro sob medida
-                    </Link>
-                  )}
                 </div>
               </div>
 
@@ -754,7 +750,7 @@ export default function Home() {
                         {simProgress >= 35 && simProgress < 65 && '🚄 Mapeando distâncias...'}
                         {simProgress >= 65 && simProgress < 85 && '🍣 Customizando rotas...'}
                         {simProgress >= 85 && simProgress < 100 && '⚙️ Finalizando cronogramas...'}
-                        {simProgress === 100 && '✨ Roteiro Personalizado Gerado com Sucesso!'}
+                        {simProgress === 100 && '✨ Prévia pronta. O restante fica no app.'}
                       </span>
                       <span className="text-xs font-bold text-brand-orange">{Math.round(simProgress)}%</span>
                     </div>
@@ -847,8 +843,8 @@ export default function Home() {
 
           <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-6xl w-full">
             <div className="text-center max-w-[600px] mx-auto mb-10 md:mb-16">
-              <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit">
-                CONSULTORIA PERSONALIZADA
+              <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
+                Consultoria personalizada
               </span>
               <h2 className="font-headers text-3xl md:text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
                 Quer um toque humano no seu planejamento?
@@ -886,7 +882,7 @@ export default function Home() {
                 <div className="flex flex-col gap-4 p-4 flex-grow text-xs justify-end leading-relaxed overflow-y-auto min-h-[290px]">
                   {/* Message 1 */}
                   <div className="bg-white text-brand-navy rounded-[14px] rounded-tl-sm p-3.5 max-w-[85%] text-left self-start shadow-sm border border-black/5 relative after:content-[''] after:absolute after:top-0 after:left-[-6px] after:border-t-[8px] after:border-t-white after:border-l-[8px] after:border-l-transparent">
-                    <p className="text-[10px] font-black text-brand-orange uppercase tracking-wider mb-1 block">Consultoria Personalizada 2GO</p>
+                    <p className="text-[10px] font-black text-brand-orange tracking-wide mb-1 block">Consultoria Personalizada</p>
                     Olá, Ronilson! Tudo bem? ✈️ Vi seu interesse pela Toscana em outubro. Recomendo mudarmos a visita à vinícola para as 15h em vez das 17h, pois o pôr do sol acontece mais cedo no outono. Assim você aproveita a degustação com luz solar. O que acha?
                     <span className="text-[8px] text-text-muted/70 float-right mt-1.5 ml-2">10:14</span>
                   </div>
@@ -946,8 +942,8 @@ export default function Home() {
         <section id="avaliacoes" className="py-12 lg:py-28 bg-white border-b border-border-gray/50 scroll-mt-20">
           <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-6xl w-full">
             <div className="text-center max-w-[600px] mx-auto mb-10 md:mb-16">
-              <span className="bg-brand-navy/10 text-brand-navy text-[12px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                DEPOIMENTOS
+              <span className="bg-brand-navy/10 text-brand-navy text-[12px] font-extrabold tracking-wide px-3 py-1 rounded-full w-fit">
+                Depoimentos
               </span>
               <h2 className="font-headers text-3xl md:text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
                 Viajantes 2GO
@@ -982,7 +978,7 @@ export default function Home() {
                 }
               ].map((review, idx) => (
                 <div key={idx} className="group bg-[#F7F8FA] border border-border-gray/70 p-6 sm:p-8 rounded-2xl lg:rounded-[24px] shadow-xs hover:shadow-md hover:translate-y-[-2px] transition-all duration-300 flex flex-col text-left card-premium-hover">
-                  <span className={`text-[11px] font-extrabold tracking-widest px-2.5 py-1 rounded w-fit mb-6 ${review.badgeColor}`}>FEEDBACK VERIFICADO</span>
+                  <span className={`text-[11px] font-extrabold tracking-wide px-2.5 py-1 rounded w-fit mb-6 ${review.badgeColor}`}>Feedback verificado</span>
                   <p className="text-base italic leading-relaxed mb-6 flex-grow font-semibold text-brand-navy">
                     "{review.text}"
                   </p>

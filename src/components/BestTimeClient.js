@@ -200,20 +200,20 @@ export default function BestTimeClient({ destination }) {
                   href={`/planejamento/${destination.slug}`}
                   className="btn btn-secondary py-3 text-xs justify-center font-bold text-center w-full bg-brand-orange text-white hover:bg-white hover:text-brand-navy transition-all"
                 >
-                  Criar Roteiro Inteligente
+                  Criar roteiro
                 </Link>
               </div>
 
               {/* Support consulting */}
               <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
-                <span className="text-[8.5px] font-extrabold text-brand-orange uppercase tracking-wider font-headers">SUPORTE EXCLUSIVO</span>
-                <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">Deseja uma viagem perfeita?</h4>
-                <p className="text-[11px] text-text-muted leading-relaxed">Conecte-se com um especialista local da 2GO para planejar a sua viagem sob medida considerando a melhor época climática.</p>
+                <span className="text-[8.5px] font-extrabold text-brand-orange tracking-wide font-headers">Consultoria Personalizada</span>
+                <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">Deseja uma viagem sob medida?</h4>
+                <p className="text-[11px] text-text-muted leading-relaxed">Fale com um especialista da 2GO para planejar a viagem considerando a melhor época.</p>
                 <Link 
-                  href="/premium"
+                  href="/consultoria-personalizada"
                   className="btn btn-outline py-2.5 text-xs text-center justify-center font-bold mt-2"
                 >
-                  Falar com Especialista
+                  Falar com especialista
                 </Link>
               </div>
 

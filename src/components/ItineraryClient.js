@@ -282,14 +282,14 @@ export default function ItineraryClient({ itinerary, destination }) {
     if (isAccomodation || isBreakfast || isMeal) {
       // Note-style card (Simple, clean layout)
       return (
-        <div className="flex-grow bg-white border border-border-gray/70 rounded-2xl p-4 shadow-sm flex items-center justify-between gap-4 relative">
-          <div className="flex items-center gap-3">
+        <div className="flex-grow min-w-0 bg-white border border-border-gray/70 rounded-2xl p-3 sm:p-4 shadow-sm flex items-center justify-between gap-3 relative">
+          <div className="flex items-center gap-3 min-w-0">
             <div className="w-9 h-9 rounded-xl bg-bg-light flex items-center justify-center shrink-0">
               {icon}
             </div>
-            <div className="text-left">
-              <h4 className="font-headers text-xs sm:text-sm font-bold text-brand-navy">{title}</h4>
-              <p className="text-[10px] text-text-muted mt-0.5">{desc || (isBreakfast ? 'Ver recomendações' : isAccomodation ? 'Para otimizar o deslocamento' : 'Horário livre para refeição')}</p>
+            <div className="text-left min-w-0">
+              <h4 className="font-headers text-xs sm:text-sm font-bold text-brand-navy break-words">{title}</h4>
+              <p className="text-[10px] text-text-muted mt-0.5 break-words">{desc || (isBreakfast ? 'Ver recomendações' : isAccomodation ? 'Para otimizar o deslocamento' : 'Horário livre para refeição')}</p>
             </div>
           </div>
           <div className="relative shrink-0">
@@ -312,11 +312,11 @@ export default function ItineraryClient({ itinerary, destination }) {
       const thumb = imgUrl || (destination ? destination.image : 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=150&q=80');
       
       return (
-        <div className="flex-grow bg-white border border-border-gray/70 rounded-2xl overflow-hidden shadow-sm flex hover:border-brand-orange/30 transition-all duration-300">
-          <div className="w-24 sm:w-28 h-24 sm:h-28 shrink-0 relative bg-bg-light border-r border-border-gray/30">
+        <div className="flex-grow min-w-0 bg-white border border-border-gray/70 rounded-2xl overflow-hidden shadow-sm flex hover:border-brand-orange/30 transition-all duration-300">
+          <div className="w-16 sm:w-28 h-24 sm:h-28 shrink-0 relative bg-bg-light border-r border-border-gray/30">
             <img src={thumb} alt={title} className="w-full h-full object-cover" />
           </div>
-          <div className="p-3 sm:p-4 flex flex-col justify-between flex-grow text-left relative">
+          <div className="p-3 sm:p-4 flex flex-col justify-between flex-grow min-w-0 text-left relative">
             <div>
               <div className="flex justify-between items-start gap-2 pr-6">
                 <h4 className="font-headers text-xs sm:text-sm font-bold text-brand-navy leading-snug line-clamp-2">
@@ -346,7 +346,7 @@ export default function ItineraryClient({ itinerary, destination }) {
             </div>
 
             <div className="flex justify-between items-center mt-2 border-t border-border-gray/30 pt-2">
-              <span className="text-[9px] font-black uppercase tracking-wider text-brand-green bg-brand-green/10 px-2 py-0.5 rounded-md">
+              <span className="text-[9px] font-black tracking-wide text-brand-green bg-brand-green/10 px-2 py-0.5 rounded-md">
                 {price}
               </span>
               <span className="text-[9px] font-bold text-text-muted">
@@ -404,8 +404,8 @@ export default function ItineraryClient({ itinerary, destination }) {
             ✕
           </button>
           
-          <span className="bg-brand-orange/10 text-brand-orange text-[9px] font-extrabold tracking-widest px-3 py-1 rounded-full uppercase font-headers">
-            📍 MAPA INTERATIVO
+          <span className="bg-brand-orange/10 text-brand-orange text-[9px] font-extrabold tracking-wide px-3 py-1 rounded-full font-headers">
+            Mapa interativo
           </span>
           
           <h3 className="font-headers text-lg font-bold text-brand-navy mt-4">
@@ -439,7 +439,7 @@ export default function ItineraryClient({ itinerary, destination }) {
             </a>
             
             <div className="border-t border-border-gray/50 my-2 pt-3">
-              <span className="text-[9px] font-extrabold text-brand-navy uppercase tracking-wider block mb-2 font-headers">Sincronizar com celular</span>
+              <span className="text-[9px] font-extrabold text-brand-navy tracking-wide block mb-2 font-headers">Sincronizar com o celular</span>
               <div className="p-2 bg-white border border-border-gray rounded-xl w-24 h-24 mx-auto flex items-center justify-center shadow-xs">
                 <QRCodeSVG 
                   value={typeof window !== 'undefined' ? window.location.href : `https://2go.com.br/roteiros/${itinerary.slug}`} 
@@ -454,7 +454,7 @@ export default function ItineraryClient({ itinerary, destination }) {
   };
 
   return (
-    <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy pb-24">
+    <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy pb-36 lg:pb-24">
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
 
       {/* JSON-LD Schemas */}
@@ -469,21 +469,21 @@ export default function ItineraryClient({ itinerary, destination }) {
       )}
 
       <main className="flex-grow pt-32">
-        <div className="container mx-auto px-6 max-w-[1440px] w-full mt-6">
+        <div className="container mx-auto px-4 sm:px-6 max-w-[1440px] w-full mt-6 min-w-0">
           <Breadcrumbs />
 
           {/* Roteiro Hero Section */}
-          <div className="bg-white border border-border-gray rounded-[28px] p-6 sm:p-8 shadow-xs mb-8 mt-4 text-left flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+          <div className="bg-white border border-border-gray rounded-[28px] p-4 sm:p-8 shadow-xs mb-8 mt-4 text-left flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div>
-              <div className="flex items-center gap-2">
-                <span className="bg-brand-orange/10 text-brand-orange text-[9px] font-extrabold tracking-widest px-2.5 py-1 rounded-md uppercase font-headers">
-                  PRÉVIA DO ROTEIRO
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="bg-brand-orange/10 text-brand-orange text-[9px] font-extrabold tracking-wide px-2.5 py-1 rounded-md font-headers">
+                  Prévia do roteiro
                 </span>
-                <span className="bg-brand-navy/10 text-brand-navy text-[9px] font-extrabold tracking-widest px-2.5 py-1 rounded-md uppercase font-headers">
+                <span className="bg-brand-navy/10 text-brand-navy text-[9px] font-extrabold tracking-wide px-2.5 py-1 rounded-md font-headers">
                   Curadoria 2GO
                 </span>
               </div>
-              <h1 className="font-headers text-2.5xl sm:text-3.5xl font-black text-brand-navy mt-3 leading-tight">
+              <h1 className="font-headers text-2xl sm:text-3.5xl font-black text-brand-navy mt-3 leading-tight break-words">
                 {itinerary.title}
               </h1>
               <p className="text-xs sm:text-sm text-text-muted mt-2 max-w-[620px] leading-relaxed">
@@ -527,14 +527,14 @@ export default function ItineraryClient({ itinerary, destination }) {
               <div className="bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] shadow-sm relative">
                 
                 {/* Timeline Header */}
-                <div className="flex justify-between items-center border-b border-border-gray/50 pb-4 mb-6 text-left">
-                  <div>
-                    <span className="text-[9px] font-black text-brand-orange uppercase tracking-wider font-headers">PROGRAMAÇÃO DO DIA 1</span>
+                <div className="flex justify-between items-start gap-3 border-b border-border-gray/50 pb-4 mb-6 text-left">
+                  <div className="min-w-0">
+                    <span className="text-[9px] font-black text-brand-orange tracking-wide font-headers">Programação do dia 1</span>
                     <h3 className="font-headers text-base sm:text-lg font-bold text-brand-navy mt-1">
                       {itinerary.days && itinerary.days[0] ? itinerary.days[0].title : 'Chegada e primeiras atrações'}
                     </h3>
                   </div>
-                  <span className="text-[10px] font-black text-brand-navy bg-brand-navy/10 px-3 py-1 rounded-full uppercase tracking-wider font-headers">
+                  <span className="text-[10px] font-black text-brand-navy bg-brand-navy/10 px-3 py-1 rounded-full tracking-wide font-headers shrink-0">
                     Dia 1
                   </span>
                 </div>
@@ -546,7 +546,7 @@ export default function ItineraryClient({ itinerary, destination }) {
 
                   {itinerary.days && itinerary.days[0] && itinerary.days[0].events.map((event, eIdx) => (
                     <div key={eIdx} className="flex flex-col gap-2">
-                      <div className="flex gap-4 items-start relative z-10">
+                      <div className="flex gap-3 sm:gap-4 items-start relative z-10 min-w-0">
                         {/* Time */}
                         <span className="text-xs font-bold text-brand-navy w-12 shrink-0 py-2.5 text-right font-headers font-mono">
                           {event.time}
@@ -583,13 +583,13 @@ export default function ItineraryClient({ itinerary, destination }) {
                     className="btn bg-brand-orange hover:bg-brand-orange/95 text-white font-extrabold py-3.5 px-6 rounded-xl transition-all shadow-md text-xs flex items-center justify-center gap-2 cursor-pointer border border-brand-orange/20 font-headers w-full"
                   >
                     <Smartphone className="w-4 h-4" />
-                    <span>Baixar o App Grátis</span>
+                    <span>Baixar o App</span>
                   </button>
                   <Link 
                     href={`/planejamento?destino=${itinerary.destinationSlug}`}
                     className="btn border border-white/30 text-white bg-white/10 hover:bg-white/20 py-3.5 px-6 rounded-xl transition-all text-xs flex items-center justify-center gap-2 cursor-pointer font-headers w-full"
                   >
-                    <span>Criar Roteiro no Site</span>
+                    <span>Criar roteiro</span>
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
@@ -602,8 +602,8 @@ export default function ItineraryClient({ itinerary, destination }) {
               
               {/* QR Code offline sync card */}
               <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-4 text-left">
-                <span className="text-[9px] font-extrabold text-brand-orange uppercase tracking-wider flex items-center gap-1 font-headers">
-                  <Smartphone className="w-3.5 h-3.5" /> LEVAR NA VIAGEM
+                <span className="text-[9px] font-extrabold text-brand-orange tracking-wide flex items-center gap-1 font-headers">
+                  <Smartphone className="w-3.5 h-3.5" /> Levar na viagem
                 </span>
                 <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">
                   Acesse no aplicativo
@@ -623,7 +623,7 @@ export default function ItineraryClient({ itinerary, destination }) {
 
               {/* Dicas locais */}
               <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
-                <span className="text-[9px] font-extrabold text-brand-orange uppercase tracking-wider block font-headers">💡 DICAS DO CURADOR</span>
+                <span className="text-[9px] font-extrabold text-brand-orange tracking-wide block font-headers">Dicas do curador</span>
                 <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">Como aproveitar {destName || 'seu destino'}</h4>
                 <ul className="text-[11px] text-text-muted flex flex-col gap-2.5 list-none p-0 m-0 text-left">
                   <li className="flex gap-2 items-start">
@@ -643,7 +643,7 @@ export default function ItineraryClient({ itinerary, destination }) {
 
               {/* Roteiros Relacionados */}
               <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
-                <span className="text-[9px] font-extrabold text-brand-navy uppercase tracking-wider block font-headers">✨ ROTEIROS RECOMENDADOS</span>
+                <span className="text-[9px] font-extrabold text-brand-navy tracking-wide block font-headers">Roteiros recomendados</span>
                 <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight font-bold">Mais roteiros no app</h4>
                 <div className="flex flex-col gap-3 mt-1 text-left">
                   {[
@@ -673,10 +673,10 @@ export default function ItineraryClient({ itinerary, destination }) {
       </main>
 
       {/* Floating Mapa Button */}
-      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40">
+      <div className="fixed bottom-24 lg:bottom-6 left-1/2 -translate-x-1/2 z-40 max-w-[calc(100%-2rem)]">
         <button 
           onClick={handleMapClick}
-          className="bg-brand-navy hover:bg-brand-navy/95 text-white font-bold px-6 py-3 rounded-full flex items-center gap-1.5 shadow-lg shadow-brand-navy/20 cursor-pointer transition-all hover:scale-105 active:scale-95 text-xs uppercase tracking-wider font-headers"
+          className="bg-brand-navy hover:bg-brand-navy/95 text-white font-bold px-5 sm:px-6 py-3 rounded-full flex items-center gap-1.5 shadow-lg shadow-brand-navy/20 cursor-pointer transition-all hover:scale-105 active:scale-95 text-xs tracking-wide font-headers"
         >
           <Map className="w-4 h-4 text-brand-orange shrink-0" />
           <span>Abrir mapa no app</span>

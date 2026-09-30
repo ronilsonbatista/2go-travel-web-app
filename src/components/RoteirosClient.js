@@ -88,16 +88,16 @@ export default function RoteirosClient({ itineraries = [] }) {
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pt-24 pb-16">
-        <div className="container mx-auto px-6 max-w-[1440px] w-full text-left">
+        <div className="container mx-auto px-4 sm:px-6 max-w-[1440px] w-full text-left min-w-0">
           
           <Breadcrumbs items={[{ name: 'Roteiros', url: '/roteiros' }]} />
 
           {/* Header */}
-          <header className="my-8">
-            <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-full w-fit">
-              EXEMPLOS DE ROTEIROS
+          <header className="mt-6 mb-4">
+            <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-wide px-3 py-1.5 rounded-full w-fit">
+              Exemplos de roteiros
             </span>
-            <h1 className="font-headers text-3.5xl sm:text-5xl font-extrabold text-brand-navy mt-4 mb-4 tracking-tight">
+            <h1 className="font-headers text-3xl sm:text-5xl font-extrabold text-brand-navy mt-4 mb-4 tracking-tight break-words">
               Roteiros Completos para se Inspirar
             </h1>
             <p className="text-sm sm:text-base text-text-muted max-w-2xl leading-relaxed">
@@ -106,7 +106,7 @@ export default function RoteirosClient({ itineraries = [] }) {
           </header>
 
           {/* Search Bar Input */}
-          <div className="my-6 relative w-full">
+          <div className="my-4 relative w-full min-w-0">
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
               <Search className="h-5 w-5 text-text-muted/60" />
             </div>
@@ -122,8 +122,8 @@ export default function RoteirosClient({ itineraries = [] }) {
           {/* Autocomplete / Found destinations suggestions panel */}
           {matchingDests.length > 0 && (
             <div className="mb-8 p-5 bg-[#FAF9F6] border border-brand-navy/5 rounded-2xl animate-fade-in text-left flex flex-col gap-3 shadow-sm">
-              <span className="text-[11px] font-black text-brand-orange uppercase tracking-wider block">
-                Destinos Encontrados
+              <span className="text-[11px] font-black text-brand-orange tracking-wide block">
+                Destinos encontrados
               </span>
               <p className="text-xs text-text-muted">
                 Deseja criar um roteiro personalizado do seu jeito para um destes destinos? Clique para iniciar o planejador:
@@ -136,7 +136,7 @@ export default function RoteirosClient({ itineraries = [] }) {
                     className="inline-flex items-center gap-2 bg-white border border-border-gray hover:border-[#96AB21] hover:bg-[#96AB21]/5 text-xs font-bold text-brand-navy px-4.5 py-2.5 rounded-xl transition-all shadow-xs group/link cursor-pointer hover:scale-[1.01] active:scale-95 animate-fade-in"
                   >
                     <span>{dest.emoji}</span>
-                    <span>Planejar viagem para {dest.name}</span>
+                    <span>Criar roteiro para {dest.name}</span>
                     <ArrowRight className="w-3.5 h-3.5 text-[#96AB21] transform group-hover/link:translate-x-0.5 transition-transform" />
                   </Link>
                 ))}
@@ -146,7 +146,7 @@ export default function RoteirosClient({ itineraries = [] }) {
 
           {/* Destination Filters (App Tab Bar Style) */}
           {destFilters.length > 2 && (
-            <div className="flex flex-wrap gap-2 my-8">
+            <div className="flex flex-wrap gap-2 mt-4 mb-3">
               {destFilters.map((dest) => (
                 <button
                   key={dest}
@@ -164,7 +164,7 @@ export default function RoteirosClient({ itineraries = [] }) {
           )}
 
           {/* Itineraries Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mt-3">
             {filteredItineraries.map((itinerary) => (
               <div 
                 key={itinerary.slug}

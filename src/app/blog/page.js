@@ -310,8 +310,8 @@ export default function BlogIndex() {
 
           {/* 2. Compact Editorial Hero */}
           <header className="my-6 sm:my-8 text-center max-w-3xl mx-auto">
-            <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3.5 py-1.5 rounded-full w-fit mx-auto font-headers uppercase">
-              GUIA DE VIAGEM
+            <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit mx-auto font-headers">
+              Guia de viagem
             </span>
             <h1 className="font-headers text-3xl sm:text-4.5xl md:text-5xl font-extrabold text-brand-navy mt-3 mb-3 tracking-tight leading-tight">
               Guia completo de viagem por destino
@@ -337,12 +337,12 @@ export default function BlogIndex() {
 
           {/* 4. Categories Tabs (Destinos & Custos) */}
           <div className="mb-6 w-full flex justify-center border-b border-border-gray/50 pb-4">
-            <div className="flex gap-2 bg-white border border-border-gray/80 p-1.5 rounded-2xl shadow-2xs">
+            <div className="flex flex-wrap justify-center gap-2 bg-white border border-border-gray/80 p-1.5 rounded-2xl shadow-2xs max-w-full">
               {categories.map(cat => (
                 <button
                   key={cat}
                   onClick={() => handleCategoryChange(cat)}
-                  className={`px-6 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+                  className={`px-4 sm:px-6 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                     activeCategory === cat
                       ? 'bg-brand-navy text-white shadow-xs'
                       : 'text-text-muted hover:text-brand-navy hover:bg-bg-light/60'
@@ -361,12 +361,12 @@ export default function BlogIndex() {
             <div className="max-w-6xl mx-auto mb-8">
               <div className="flex items-center gap-2 mb-3">
                 <MapPin className="w-4 h-4 text-brand-orange shrink-0" />
-                <span className="text-xs font-bold text-brand-navy uppercase tracking-wider font-headers">
-                  Filtrar por cidade:
+                <span className="text-xs font-bold text-brand-navy tracking-wide font-headers">
+                  Filtrar por cidade
                 </span>
               </div>
               
-              <div className="w-full overflow-x-auto scrollbar-hide snap-x snap-mandatory flex gap-2 pb-2">
+              <div className="w-full min-w-0 max-w-full overflow-x-auto scrollbar-hide snap-x snap-mandatory flex gap-2 pb-2">
                 <button
                   onClick={() => setSelectedCity(null)}
                   className={`snap-start px-4 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-all cursor-pointer border ${

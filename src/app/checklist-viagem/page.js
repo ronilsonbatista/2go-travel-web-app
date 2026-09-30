@@ -286,7 +286,7 @@ export default function ChecklistViagem() {
                   href="/planejamento"
                   className="btn btn-secondary py-3 text-xs justify-center font-bold text-center w-full bg-brand-orange text-white hover:bg-white hover:text-brand-navy transition-all"
                 >
-                  Gerar Roteiro Grátis
+                  Criar roteiro
                 </Link>
               </div>
 

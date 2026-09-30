@@ -60,27 +60,29 @@ export default function Header({ onOpenDownload }) {
             : 'h-[64px] lg:h-[78px] bg-transparent border-b border-transparent'
         }`}
       >
-        <div className="container mx-auto px-4 lg:px-6 flex justify-between items-center w-full py-3 lg:py-4">
-          {/* Official Logo */}
+        <div className="container mx-auto px-4 lg:px-5 flex justify-between items-center w-full min-w-0 gap-3">
+          {/* Official Logo — único asset (228×192); exibido maior para usar o arquivo inteiro */}
           <Link 
             href="/"
-            className="flex items-center cursor-pointer transition-all duration-500 w-auto h-[42px] lg:h-[52px]"
+            className="flex items-center cursor-pointer shrink-0 w-auto h-11 lg:h-[60px]"
           >
             <img 
               src="/images/Logo2GO.png" 
-              alt="2GO Roteiros" 
-              className="h-full w-auto object-contain transition-all duration-500"
+              alt="2GO Roteiros"
+              width={228}
+              height={192}
+              sizes="(min-width: 1024px) 72px, 52px"
+              className="h-full w-auto object-contain"
             />
           </Link>
 
-          {/* Desktop Navigation Menu: EXACTLY 3 items */}
-          <nav className="hidden lg:block">
-            <ul className="flex gap-8 xl:gap-10 items-center list-none m-0 p-0">
+          <nav className="hidden lg:block min-w-0">
+            <ul className="flex gap-3 xl:gap-5 items-center list-none m-0 p-0">
               {desktopMenuItems.map((item, idx) => (
                 <li key={idx}>
                   <Link
                     href={item.href}
-                    className={`font-body font-semibold text-[0.96rem] xl:text-[1.05rem] py-2 relative cursor-pointer transition-colors ${
+                    className={`font-body font-semibold text-[0.82rem] xl:text-[0.98rem] py-2 whitespace-nowrap relative cursor-pointer transition-colors ${
                       pathname === item.href || (item.href === '/blog' && pathname.startsWith('/blog'))
                         ? 'text-brand-orange' 
                         : 'text-text-muted hover:text-brand-navy'
@@ -105,7 +107,7 @@ export default function Header({ onOpenDownload }) {
                 </Link>
                 <button 
                   onClick={onOpenDownload}
-                  className="hidden lg:inline-flex btn btn-outline btn-sm cursor-pointer"
+                  className="hidden xl:inline-flex btn btn-outline btn-sm cursor-pointer"
                 >
                   Baixar App
                 </button>

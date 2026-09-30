@@ -9,7 +9,7 @@ export default function AppFloatingButton() {
   return (
     <>
       <div 
-        className="fixed left-1/2 -translate-x-1/2 z-[2500] w-full max-w-[260px] px-4 lg:hidden"
+        className="fixed left-1/2 -translate-x-1/2 z-[2500] w-[min(260px,calc(100%-2rem))] lg:hidden"
         style={{ bottom: 'calc(1.2rem + env(safe-area-inset-bottom, 0px))' }}
       >
         <button

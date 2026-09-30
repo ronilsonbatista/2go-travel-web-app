@@ -38,8 +38,11 @@ export default function AppDownloadModal({ isOpen, onClose }) {
         {/* Brand Logo */}
         <img 
           src="/images/Logo2GO.png" 
-          alt="2GO Roteiros" 
-          className="h-10 w-auto object-contain mb-4"
+          alt="2GO Roteiros"
+          width={228}
+          height={192}
+          sizes="64px"
+          className="h-16 w-auto object-contain mb-4"
         />
 
         <h3 className="font-headers text-2xl font-bold text-brand-navy mb-2">
