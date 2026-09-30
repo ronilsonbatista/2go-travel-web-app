@@ -1,6 +1,7 @@
 import { getDestinations, getItineraries, getBlogPosts } from '@/lib/cms';
 import { destinationGuides } from '@/data/guidesData';
 import { buildSitemapEntries } from '@/lib/sitemapEntries';
+import { SITE_URL } from '@/lib/site';
 import nextConfig from '../../next.config.mjs';
 
 export default async function sitemap() {
@@ -13,7 +14,7 @@ export default async function sitemap() {
   const redirectSources = (await nextConfig.redirects()).map((redirect) => redirect.source);
 
   return buildSitemapEntries({
-    baseUrl: 'https://2go.com.br',
+    baseUrl: SITE_URL,
     destinations,
     itineraries,
     blogPosts,

@@ -90,7 +90,7 @@ Crie um arquivo `.env.local` na raiz do projeto com as seguintes chaves:
 ```env
 NEXT_PUBLIC_SUPABASE_URL=https://sua-instancia.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=sua-chave-anonima-supabase
-NEXT_PUBLIC_SITE_URL=https://2go.com.br
+NEXT_PUBLIC_SITE_URL=https://2go-travel-web-app.vercel.app
 ```
 
 ---
