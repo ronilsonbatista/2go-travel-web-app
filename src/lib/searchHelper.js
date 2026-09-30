@@ -1,3 +1,16 @@
+import { listDestinations } from './cms';
+import { destinationGuides } from '../data/guidesData';
+
+const publishedSlugs = new Set(listDestinations().map((destination) => destination.slug));
+const guideCities = new Set(
+  Object.values(destinationGuides).map((guide) =>
+    guide.city
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+  )
+);
+
 // Helper for search query normalization and semantic/experience synonyms mapping
 
 /**
@@ -49,6 +62,27 @@ const EXPERIENCE_SYNONYMS = {
   'barce': ['barcelona'],
   'barna': ['barcelona']
 };
+
+for (const keyword of Object.keys(EXPERIENCE_SYNONYMS)) {
+  const slugs = EXPERIENCE_SYNONYMS[keyword]
+    .map((slug) => (slug === 'noronha' ? 'fernando-de-noronha' : slug))
+    .filter((slug) => publishedSlugs.has(slug));
+  if (slugs.length === 0) {
+    delete EXPERIENCE_SYNONYMS[keyword];
+  } else {
+    EXPERIENCE_SYNONYMS[keyword] = slugs;
+  }
+}
+
+export function hasPublishedFicha(slug) {
+  return publishedSlugs.has(slug);
+}
+
+export function hasGuideCity(name) {
+  if (!name) return false;
+  const normalized = name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  return guideCities.has(normalized);
+}
 
 /**
  * Returns true if the query matches the item semantically or by substring.

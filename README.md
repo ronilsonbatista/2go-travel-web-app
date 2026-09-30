@@ -37,7 +37,7 @@ Plataforma web de alta performance da **2GO Travel**, desenvolvida para transfor
 │   ├── components/          # Componentes modulares e reutilizáveis
 │   │   ├── Header.js        # Menu principal (Roteiros | Criar roteiro | Blog) e Drawer mobile
 │   │   ├── Footer.js        # Rodapé corporativo e links da plataforma
-│   │   ├── BlogPostParisClient.js # Layout editorial 2 colunas do Guia de Paris
+│   │   ├── GuideArticleClient.js # Artigo dos guias publicados em guidesData
 │   │   ├── PlannerClient.js # Assistente interativo de criação de roteiros
 │   │   ├── ItineraryClient.js # Timeline detalhada e mapa inteligente
 │   │   └── CheckoutModal.js # Modal de checkout e desbloqueio simulado

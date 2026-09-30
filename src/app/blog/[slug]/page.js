@@ -13,6 +13,9 @@ export async function generateMetadata({ params }) {
     return {
       title: guide.metaTitle,
       description: guide.metaDescription,
+      alternates: {
+        canonical: `https://2go.com.br/blog/${slug}`
+      },
       openGraph: {
         title: guide.metaTitle,
         description: guide.metaDescription,
@@ -44,9 +47,11 @@ export async function generateMetadata({ params }) {
 
 export async function generateStaticParams() {
   const posts = await getBlogPosts();
-  const guideSlugs = Object.keys(destinationGuides).map(slug => ({ slug }));
-  const postSlugs = posts.map(post => ({ slug: post.slug }));
-  return [...guideSlugs, ...postSlugs];
+  const slugs = new Set([
+    ...Object.keys(destinationGuides),
+    ...posts.map(post => post.slug)
+  ]);
+  return [...slugs].map(slug => ({ slug }));
 }
 
 export default async function BlogPostPage({ params }) {

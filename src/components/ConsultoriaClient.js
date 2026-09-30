@@ -1,10 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { 
-  Sparkles, CheckCircle2, ShieldCheck, Compass, HeartHandshake, 
-  MapPin, Calendar, Users, DollarSign, Send, Smartphone, MessageSquare
-} from 'lucide-react';
+import { ShieldCheck, Compass, HeartHandshake, Send } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
@@ -28,26 +25,12 @@ export default function ConsultoriaClient() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (typeof window !== 'undefined') {
+      const leads = JSON.parse(localStorage.getItem('consultoria_leads') || '[]');
+      leads.push({ nome, whatsapp, email, destino, origem, datas, pessoas, estilo, orcamento, preferencias, observacoes });
+      localStorage.setItem('consultoria_leads', JSON.stringify(leads));
+    }
     setSubmitted(true);
-
-    const message = `*Solicitação de Consultoria Personalizada 2GO* ✈️\n\n` +
-      `👤 *Nome:* ${nome}\n` +
-      `📱 *WhatsApp:* ${whatsapp}\n` +
-      `✉️ *E-mail:* ${email}\n` +
-      `📍 *Destino:* ${destino}\n` +
-      `🏠 *Origem:* ${origem}\n` +
-      `📅 *Datas/Mês:* ${datas}\n` +
-      `👥 *Viajantes:* ${pessoas}\n` +
-      `🎨 *Estilo:* ${estilo}\n` +
-      `💰 *Orçamento:* ${orcamento}\n` +
-      (preferencias ? `✨ *Preferências:* ${preferencias}\n` : '') +
-      (observacoes ? `📝 *Observações:* ${observacoes}\n` : '');
-
-    const encoded = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encoded}`;
-
-    // Open WhatsApp in new window
-    window.open(whatsappUrl, '_blank');
   };
 
   return (
@@ -99,9 +82,9 @@ export default function ConsultoriaClient() {
               <div className="w-12 h-12 rounded-2xl bg-brand-navy/10 text-brand-navy flex items-center justify-center mb-6">
                 <ShieldCheck className="w-6 h-6" />
               </div>
-              <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">No seu aplicativo</h3>
+              <h3 className="font-headers text-lg font-bold text-brand-navy mb-2">O que você recebe</h3>
               <p className="text-xs text-text-muted leading-relaxed">
-                Sua consultoria é sincronizada no app 2GO, onde você acompanha a rota dia a dia com GPS offline e mapas durante a viagem.
+                Um plano sob medida feito pela curadoria. Esta solicitação não entrega roteiro no aplicativo.
               </p>
             </div>
           </div>
@@ -118,7 +101,7 @@ export default function ConsultoriaClient() {
                 Solicite sua Consultoria Personalizada
               </h2>
               <p className="text-xs sm:text-sm text-text-muted mt-2">
-                Preencha os detalhes da sua viagem abaixo. Após o envio, você será direcionado ao nosso atendimento no WhatsApp para conversar com um especialista.
+                Preencha os detalhes da sua viagem. A solicitação fica registrada nesta página.
               </p>
             </div>
 
@@ -127,17 +110,10 @@ export default function ConsultoriaClient() {
                 <div className="w-16 h-16 bg-brand-green text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-md shadow-brand-green/20">
                   ✓
                 </div>
-                <h3 className="font-headers text-2xl font-black text-brand-navy">Solicitação Enviada!</h3>
+                <h3 className="font-headers text-2xl font-black text-brand-navy">Solicitação registrada</h3>
                 <p className="text-xs sm:text-sm text-text-muted max-w-md leading-relaxed">
-                  Sua mensagem foi formatada e o WhatsApp foi aberto. Caso a janela não tenha aberto automaticamente, clique no botão abaixo para conversar com nosso especialista.
+                  Recebemos os dados desta consultoria. Nenhum roteiro é enviado ao aplicativo a partir daqui.
                 </p>
-                <button
-                  onClick={() => handleSubmit({ preventDefault: () => {} })}
-                  className="btn bg-brand-green hover:bg-brand-green/90 text-white font-extrabold py-3 px-6 text-xs flex items-center gap-2 rounded-xl cursor-pointer mt-4"
-                >
-                  <MessageSquare className="w-4 h-4" />
-                  <span>Reabrir WhatsApp</span>
-                </button>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="flex flex-col gap-6">
@@ -166,7 +142,7 @@ export default function ConsultoriaClient() {
                       required
                       value={whatsapp}
                       onChange={(e) => setWhatsapp(e.target.value)}
-                      placeholder="(11) 99999-9999"
+                      placeholder="DDD e número"
                       className="w-full bg-[#F8FAFC] border border-border-gray px-4 py-3 rounded-xl text-xs font-semibold text-brand-navy focus:outline-none focus:border-brand-navy transition-all shadow-xs"
                     />
                   </div>
@@ -311,7 +287,7 @@ export default function ConsultoriaClient() {
                   className="btn bg-brand-orange hover:bg-brand-orange/95 text-white font-extrabold py-4 px-8 rounded-xl shadow-md text-xs flex items-center justify-center gap-2 cursor-pointer transition-all uppercase tracking-wider font-headers mt-2"
                 >
                   <Send className="w-4 h-4" />
-                  <span>Enviar Solicitação no WhatsApp</span>
+                  <span>Enviar solicitação</span>
                 </button>
               </form>
             )}

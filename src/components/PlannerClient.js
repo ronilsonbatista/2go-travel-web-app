@@ -24,506 +24,54 @@ import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import { matchesSearch } from '@/lib/searchHelper';
 
-const destinationImages = {
-  paris: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80',
-  roma: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80',
-  lisboa: 'https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=800&q=80',
-  londres: 'https://images.unsplash.com/photo-1513635269975-59663e0ca1ad?auto=format&fit=crop&w=800&q=80',
-  toquio: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80',
-  noronha: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80',
-  rio: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=800&q=80',
-  veadeiros: 'https://images.unsplash.com/photo-1549558549-415fa4bc3586?auto=format&fit=crop&w=800&q=80',
-  amazonas: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80',
-  gramado: '/assets/gramado.png',
-  noruega: 'https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=800&q=80',
-  maldivas: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=80',
-  grecia: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=800&q=80',
-  safari: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80'
-};
+import { listDestinations, listItinerariesForDestination } from '@/lib/cms';
+import { destinationGuides } from '@/data/guidesData';
 
-const itineraryDatabase = {
-  noronha: {
-    name: 'Fernando de Noronha, Brasil',
-    title: 'Fernando de Noronha de Alto Padrão',
-    desc: 'Um mergulho na exclusividade e na beleza natural do arquipélago mais preservado do Brasil.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Chegada ao Paraíso & Sunset VIP',
-        events: [
-          { time: '14:00', title: 'Check-in na Pousada Boutique (Nannai ou Maria Bonita)' },
-          { time: '16:30', title: 'Navegação Privada ao Pôr do Sol com Espumante' },
-          { time: '20:30', title: 'Jantar Gourmet no Restaurante Xica da Silva' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Exploração Subaquática & Baías Icônicas',
-        events: [
-          { time: '08:30', title: 'Mergulho com tartarugas e tubarões na Baía do Sueste' },
-          { time: '12:00', title: 'Almoço com Vista Panorâmica na Baía dos Golfinhos' },
-          { time: '14:30', title: 'Trilha Privativa e Descida à Baía do Sancho' },
-          { time: '19:30', title: 'Experiência Gastronômica: Festival do Zé Maria' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Aventura Leve & Mirantes Privados',
-        events: [
-          { time: '09:00', title: 'Passeio de buggy off-road privativo pelas praias do Mar de Fora' },
-          { time: '15:00', title: 'Trilha histórica da Fortaleza de Nossa Senhora dos Remédios' },
-          { time: '18:00', title: 'Jantar de despedida no Bar do Meio com música ao vivo' }
-        ]
-      }
-    ]
-  },
-  rio: {
-    name: 'Rio de Janeiro, Brasil',
-    title: 'Rio de Janeiro Experiência Exclusiva',
-    desc: 'A essência carioca sofisticada, misturando história, natureza urbana e alta gastronomia.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Check-In Imperial & Orla no Ocaso',
-        events: [
-          { time: '13:00', title: 'Hospedagem no Copacabana Palace ou Hotel Emiliano' },
-          { time: '16:00', title: 'Passeio Privativo de Helicóptero sobre o Cristo Redentor' },
-          { time: '20:00', title: 'Jantar Harmonizado no Restaurante Michelin ORO' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Natureza Imersiva & Arte Contemporânea',
-        events: [
-          { time: '09:00', title: 'Caminhada Privada com Guia pela Floresta da Tijuca' },
-          { time: '13:00', title: 'Almoço sofisticado no Aprazível (Santa Teresa)' },
-          { time: '15:30', title: 'Visita guiada exclusiva ao Museu de Arte Contemporânea (MAC)' },
-          { time: '21:00', title: 'Drinks e Jazz ao vivo no moderníssimo Baretto-Londra' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Mar do Rio & Despedida Premium',
-        events: [
-          { time: '10:00', title: 'Charter de Iate Privado ao longo das Ilhas Cagarras' },
-          { time: '14:30', title: 'Almoço tardio no charmoso Satyricon' },
-          { time: '17:30', title: 'Relax no Spa do hotel e check-out' }
-        ]
-      }
-    ]
-  },
-  veadeiros: {
-    name: 'Chapada dos Veadeiros, Brasil',
-    title: 'Chapada dos Veadeiros Mística e Luxuosa',
-    desc: 'Conexão profunda com a natureza dos cristais com total conforto e bem-estar.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Chegada ao Cerrado & Spa Wellness',
-        events: [
-          { time: '14:00', title: 'Check-in no Glamping de Luxo em Alto Paraíso' },
-          { time: '16:30', title: 'Terapia de som e massagem holística no Spa da pousada' },
-          { time: '20:00', title: 'Jantar orgânico farm-to-table no L\'Alcofa' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Canyons de Cristal & Saltos Majestosos',
-        events: [
-          { time: '08:30', title: 'Trilha Premium ao Parque Nacional: Mirante do Salto' },
-          { time: '13:00', title: 'Piquenique gourmet servido à beira das águas na cachoeira' },
-          { time: '15:30', title: 'Visita ao Vale da Lua com iluminação de final de tarde' },
-          { time: '20:30', title: 'Degustação de cervejas artesanais locais e jantar sofisticado' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Cachoeira do Segredo & Conexão de Despedida',
-        events: [
-          { time: '09:00', title: 'Aventura 4x4 e trilha privativa até a Cachoeira do Segredo' },
-          { time: '14:00', title: 'Almoço no Santo Cerrado Risoteria' },
-          { time: '17:00', title: 'Transfer privado de retorno' }
-        ]
-      }
-    ]
-  },
-  amazonas: {
-    name: 'Manaus & Selva, Brasil',
-    title: 'Imersão Eco-Luxo na Amazônia',
-    desc: 'A grandiosidade da maior floresta tropical do mundo desbravada com sofisticação incomparável.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Chegada Flutuante & Encontro das Águas',
-        events: [
-          { time: '12:00', title: 'Transfer fluvial privado para o Mirante do Gavião Amazon Lodge' },
-          { time: '15:30', title: 'Navegação de luxo para avistar o Encontro das Águas' },
-          { time: '19:30', title: 'Jantar com culinária regional contemporânea assinada por Chef' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Despertar da Selva & Trilhas na Copa',
-        events: [
-          { time: '05:30', title: 'Canoagem matinal silenciosa para observação do nascer do sol' },
-          { time: '09:30', title: 'Trilha interpretativa com guia indígena' },
-          { time: '15:00', title: 'Focagem noturna de jacarés em barco privativo' },
-          { time: '20:30', title: 'Jantar na copa das árvores no mirante panorâmico do Lodge' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Visita Comunitária & Ritual de Despedida',
-        events: [
-          { time: '09:00', title: 'Visita guiada e intercâmbio cultural em comunidade ribeirinha' },
-          { time: '13:00', title: 'Almoço de peixe assado na brasa na Ilha de Anavilhanas' },
-          { time: '16:00', title: 'Retorno com transfer privativo para Manaus' }
-        ]
-      }
-    ]
-  },
-  gramado: {
-    name: 'Gramado, Brasil',
-    title: 'Gramado e Canela Autêntico Europeu',
-    desc: 'Romantismo, névoa, chocolate artesanal e o melhor do vinho nacional na Serra Gaúcha.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Chegada Serrana & Alta Gastronomia',
-        events: [
-          { time: '14:00', title: 'Hospedagem no Kurotel ou Estalagem St. Hubertus' },
-          { time: '16:30', title: 'Chá da tarde colonial privativo com vista para o Lago Negro' },
-          { time: '20:30', title: 'Jantar Suíço Tradicional (Fondue Premium) no Belle du Valais' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Vales Vitivinícolas & Cascata do Caracol',
-        events: [
-          { time: '09:00', title: 'Tour privativo pelos vinhedos com degustação VIP' },
-          { time: '13:30', title: 'Almoço harmonizado na vinícola Casa Valduga' },
-          { time: '16:00', title: 'Parada no mirante exclusivo da Cascata do Caracol' },
-          { time: '20:30', title: 'Jantar contemporâneo no estrelado Wood Lounge Bar' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Chocolaterias Finas & Caminhos de Pedra',
-        events: [
-          { time: '10:00', title: 'Workshop privado de produção de trufas artesanais' },
-          { time: '13:00', title: 'Almoço tipicamente italiano nos Caminhos de Pedra' },
-          { time: '16:00', title: 'Check-out e transfer de retorno' }
-        ]
-      }
-    ]
-  },
-  paris: {
-    name: 'Paris, França',
-    title: 'Paris Clássico & Romântico',
-    desc: 'Aproveite o melhor de Paris com visitas a monumentos históricos e charmosos bistrôs locais.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Monumentos Clássicos & Sena',
-        events: [
-          { time: '09:00', title: 'Visita ao Museu do Louvre' },
-          { time: '13:00', title: 'Almoço no Jardin des Tuileries' },
-          { time: '16:00', title: 'Subir ao topo do Arco do Triunfo' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Notre-Dame & Montmartre',
-        events: [
-          { time: '10:00', title: 'Caminhada artística por Montmartre e Basílica de Sacré-Cœur' },
-          { time: '14:00', title: 'Almoço na Place du Tertre' },
-          { time: '18:00', title: 'Cruzeiro ao pôr do sol pelo Rio Sena' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Torre Eiffel & Jardins',
-        events: [
-          { time: '09:30', title: 'Visita guiada à Torre Eiffel' },
-          { time: '13:00', title: 'Piquenique nos Jardins do Champ de Mars' },
-          { time: '16:00', title: 'Exploração de Saint-Germain-des-Prés' }
-        ]
-      }
-    ]
-  },
-  roma: {
-    name: 'Roma, Itália',
-    title: 'Roma a Cidade Eterna',
-    desc: 'Descubra a história e os segredos arqueológicos e gastronômicos de Roma.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Coliseu & Império Romano',
-        events: [
-          { time: '09:00', title: 'Visita guiada ao Coliseu e Fórum Romano' },
-          { time: '13:30', title: 'Almoço em Osteria tradicional' },
-          { time: '16:00', title: 'Caminhada até a Piazza Navona' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Vaticano & Capela Sistina',
-        events: [
-          { time: '08:30', title: 'Museus do Vaticano e Capela Sistina' },
-          { time: '12:00', title: 'Visita interna da Basílica de São Pedro' },
-          { time: '15:00', title: 'Cruzar a Ponte de Santo Ângelo' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Fontana di Trevi & Pantheon',
-        events: [
-          { time: '09:30', title: 'Caminhada matinal até o Pantheon' },
-          { time: '12:00', title: 'Jogar moedas na Fontana di Trevi' },
-          { time: '16:00', title: 'Tarde livre de compras na Via del Corso' }
-        ]
-      }
-    ]
-  },
-  lisboa: {
-    name: 'Lisboa, Portugal',
-    title: 'Lisboa e Seus Encantos',
-    desc: 'Explore o bairro de Alfama, prove pastéis de nata deliciosos e visite Belém.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Colinas & Elétrico 28',
-        events: [
-          { time: '09:30', title: 'Caminhada pela Praça do Comércio e Rossio' },
-          { time: '11:00', title: 'Passeio panorâmico no Elétrico 28' },
-          { time: '13:00', title: 'Almoço de bacalhau em Alfama' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Mosteiro e Torre de Belém',
-        events: [
-          { time: '09:30', title: 'Visita guiada no Mosteiro dos Jerónimos' },
-          { time: '11:30', title: 'Provar pastéis de Belém na fábrica original' },
-          { time: '14:00', title: 'Passeio de barco pelo Rio Tejo no pôr do sol' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'LX Factory & Cais do Sodré',
-        events: [
-          { time: '10:00', title: 'Tarde cultural na LX Factory' },
-          { time: '13:30', title: 'Almoço no Mercado da Ribeira (Time Out Market)' },
-          { time: '16:00', title: 'Relax no Miradouro de Santa Catarina' }
-        ]
-      }
-    ]
-  },
-  londres: {
-    name: 'Londres, Reino Unido',
-    title: 'Londres Imperial',
-    desc: 'Os marcos régios, museus gratuitos e modernidades de Londres.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Westminster e Big Ben',
-        events: [
-          { time: '09:30', title: 'Palácio de Buckingham e St. James\'s Park' },
-          { time: '12:00', title: 'Westminster Abbey e fotos no Big Ben' },
-          { time: '15:00', title: 'Voo panorâmico na roda gigante London Eye' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Torre de Londres e Pontes',
-        events: [
-          { time: '09:00', title: 'Visita guiada à histórica Torre de Londres' },
-          { time: '12:30', title: 'Caminhada sobre a Tower Bridge' },
-          { time: '14:00', title: 'Almoço gastronômico no Borough Market' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Museu Britânico & Soho',
-        events: [
-          { time: '10:00', title: 'Visita ao British Museum' },
-          { time: '13:30', title: 'Almoço e compras em Covent Garden' },
-          { time: '16:00', title: 'Caminhada cultural pelas ruelas do Soho' }
-        ]
-      }
-    ]
-  },
-  toquio: {
-    name: 'Tóquio, Japão',
-    title: 'Tóquio de Neon a Templos',
-    desc: 'Explore Shibuya Crossing, templos milenares de Asakusa e robótica futurista.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Asakusa Clássico',
-        events: [
-          { time: '09:00', title: 'Templo Senso-ji e compras em Nakamise' },
-          { time: '13:00', title: 'Almoço de Yakitori' },
-          { time: '15:30', title: 'Vista aérea panorâmica da Tokyo Skytree' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Shibuya e Harajuku',
-        events: [
-          { time: '10:00', title: 'Santuário Meiji Jingu e ruelas de Harajuku' },
-          { time: '13:00', title: 'Almoço de sushi em esteira rolante' },
-          { time: '16:00', title: 'Cruzamento de Shibuya e pôr do sol no Shibuya Sky' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Arte Digital e Odaiba',
-        events: [
-          { time: '09:30', title: 'Exposição de arte imersiva teamLab Planets' },
-          { time: '13:00', title: 'Almoço de peixe fresco no Tsukiji Market' },
-          { time: '15:30', title: 'Passeio pela baía futurista de Odaiba' }
-        ]
-      }
-    ]
-  },
-  noruega: {
-    name: 'Tromsø, Noruega',
-    title: 'Fiordes Noruegueses & Aurora Boreal',
-    desc: 'Uma expedição sob as luzes do norte e através dos fiordes mais profundos e belos do mundo.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Chegada a Oslo & Cultura Nórdica',
-        events: [
-          { time: '14:00', title: 'Check-in no The Thief Hotel (Oslo)' },
-          { time: '16:00', title: 'Visita guiada ao Museu Munch e Ópera de Oslo' },
-          { time: '20:00', title: 'Jantar de culinária neo-nórdica no Maaemo' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Voo para Tromsø & Caçada à Aurora Boreal',
-        events: [
-          { time: '09:00', title: 'Voo doméstico de Oslo para Tromsø' },
-          { time: '14:00', title: 'Passeio pelo centro histórico e Catedral Ártica' },
-          { time: '19:00', title: 'Expedição privativa para caça da Aurora Boreal' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Navegação Silenciosa pelos Fiordes',
-        events: [
-          { time: '09:30', title: 'Cruzeiro híbrido elétrico pelas águas cristalinas do fiorde' },
-          { time: '13:00', title: 'Almoço com degustação de iguarias árticas' },
-          { time: '16:00', title: 'Retorno, relax em spa térmico e check-out' }
-        ]
-      }
-    ]
-  },
-  maldivas: {
-    name: 'Ilhas Maldivas',
-    title: 'Maldivas Exclusivo & Sob Medida',
-    desc: 'O refúgio de praia perfeito em bangalôs luxuosos sobre as águas azul-turquesa.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Transfer de Hidroavião & Bangalô de Luxo',
-        events: [
-          { time: '11:00', title: 'Transfer cênico de hidroavião para o Resort Soneva Jani' },
-          { time: '14:00', title: 'Check-in no bangalô sobre as águas com tobogã privativo' },
-          { time: '17:00', title: 'Sunset cocktail no bar flutuante com música' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Mergulho com Raias & Spa sobre a Água',
-        events: [
-          { time: '08:30', title: 'Snorkeling privado para nadar com arraias manta' },
-          { time: '13:00', title: 'Almoço flutuante servido na piscina privativa' },
-          { time: '16:00', title: 'Massagem ayurvédica de casal no spa sobre a lagoa' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Sandbank Privado & Jantar Sob as Estrelas',
-        events: [
-          { time: '10:00', title: 'Passeio de lancha rápida para piquenique em banco de areia deserto' },
-          { time: '16:00', title: 'Tempo livre para stand-up paddle ou caiaque transparente' },
-          { time: '19:30', title: 'Jantar privativo com churrasco de frutos do mar' }
-        ]
-      }
-    ]
-  },
-  grecia: {
-    name: 'Santorini, Grécia',
-    title: 'Grécia Clássica & Ilhas Egeias',
-    desc: 'A fusão da história clássica ocidental em Atenas com a beleza cênica e romântica de Santorini.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Acrópole Histórica & Plaka',
-        events: [
-          { time: '09:00', title: 'Visita exclusiva com guia arqueológico à Acrópole' },
-          { time: '13:00', title: 'Almoço grego tradicional nas ruelas de Plaka' },
-          { time: '17:00', title: 'Caminhada ao topo do Monte Licabeto' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Voo para Santorini & Pôr do Sol em Oia',
-        events: [
-          { time: '08:00', title: 'Voo de Atenas para Santorini (classe VIP)' },
-          { time: '13:00', title: 'Check-in em hotel boutique em penhasco da Caldera' },
-          { time: '17:30', title: 'Degustação de vinhos locais e pôr do sol nas ruínas' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Navegação na Caldera de Catamarã',
-        events: [
-          { time: '09:30', title: 'Cruzeiro privativo de catamarã pela Caldera' },
-          { time: '13:30', title: 'Almoço grego grelhado na hora a bordo' },
-          { time: '18:00', title: 'Retorno ao hotel e jantar com vista da Caldera' }
-        ]
-      }
-    ]
-  },
-  safari: {
-    name: 'Kruger & Cape Town, África do Sul',
-    title: 'Safári de Luxo & Rota dos Vinhos',
-    desc: 'A emoção dos Big Five na savana combinada ao charme cosmopolita de Cape Town e vinícolas.',
-    days: [
-      {
-        day: 'Dia 1',
-        title: 'Chegada a Cape Town & Table Mountain',
-        events: [
-          { time: '12:00', title: 'Check-in no The Silo Hotel (Cape Town)' },
-          { time: '15:00', title: 'Subida de teleférico à Table Mountain' },
-          { time: '20:00', title: 'Jantar contemporâneo africano no restaurante FYN' }
-        ]
-      },
-      {
-        day: 'Dia 2',
-        title: 'Safári no Kruger Park (Big Five)',
-        events: [
-          { time: '06:00', title: 'Voo privado para o Kruger' },
-          { time: '13:00', title: 'Hospedagem no Singita Boulders Lodge à beira do rio' },
-          { time: '15:30', title: 'Game Drive em veículo 4x4 aberto' }
-        ]
-      },
-      {
-        day: 'Dia 3',
-        title: 'Safári ao Amanhecer & Stellenbosch',
-        events: [
-          { time: '05:30', title: 'Safári fotográfico matinal seguido de café na savana' },
-          { time: '13:00', title: 'Retorno a Stellenbosch para tour pelas vinícolas' },
-          { time: '17:00', title: 'Transfer final e check-out' }
-        ]
-      }
-    ]
-  }
-};
+const destinations = listDestinations();
+const guides = Object.values(destinationGuides);
+
+function guideForDestination(destination) {
+  const city = destination.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  return guides.find((guide) => guide.city.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '') === city) || null;
+}
+
+const destinationChoices = destinations.map((destination) => {
+  const guide = guideForDestination(destination);
+  const itinerary = listItinerariesForDestination(destination.slug)[0] || null;
+  return {
+    id: destination.slug,
+    label: `${destination.name}, ${destination.country}`,
+    icon: destination.emoji || '✈️',
+    name: destination.name,
+    desc: destination.description,
+    img: guide?.heroImage || destination.image,
+    tags: [destination.name, destination.country, destination.slug, ...(guide ? [guide.city, guide.country] : [])],
+    itinerary
+  };
+});
+
+const guideOnlyChoices = guides
+  .filter((guide) => !destinations.some((destination) => guideForDestination(destination)?.slug === guide.slug))
+  .map((guide) => ({
+    id: guide.slug,
+    label: `${guide.city}, ${guide.country}`,
+    icon: guide.emoji || '✈️',
+    name: guide.city,
+    desc: guide.subtitle,
+    img: guide.heroImage,
+    tags: [guide.city, guide.country, guide.slug],
+    itinerary: null,
+    href: `/blog/${guide.slug}`
+  }));
+
+const popularDestinations = destinationChoices.filter((choice) => choice.itinerary).slice(0, 6);
+const experienceTags = [
+  { id: 'roma', label: '🍝 Gastronomia' },
+  { id: 'paris', label: '🎨 Cultura' },
+  { id: 'lisboa', label: '🌊 Litoral' },
+  { id: 'londres', label: '🏛️ História' },
+  { id: 'toquio', label: '🌃 Cidade' }
+].filter((tag) => destinationChoices.some((choice) => choice.id === tag.id && choice.itinerary));
 
 export default function PlannerClient({ preselectedDestinationSlug }) {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
@@ -546,8 +94,11 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
   const [pace, setPace] = useState('');
   const [style, setStyle] = useState('');
   const [interests, setInterests] = useState([]);
+  const [diet, setDiet] = useState('nenhuma');
+  const [restrictions, setRestrictions] = useState('');
 
   const selectDestinationAndAdvance = (destId) => {
+    if (!destinationChoices.some((choice) => choice.id === destId)) return;
     setDestination(destId);
     setStep(1);
   };
@@ -569,6 +120,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
       
       if (urlDestino) {
         const destSlug = urlDestino.toLowerCase().trim();
+        if (!destinationChoices.some((choice) => choice.id === destSlug)) return;
         setDestination(destSlug);
         setSearchQuery(urlDestino);
         
@@ -671,51 +223,19 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
     return Math.max(1, Math.min(30, diffDays));
   };
 
-  // Resolve active itinerary (with custom generator fallback for unknown destinations)
-  let activeItinerary = itineraryDatabase[destination];
+  const selectedChoice = destinationChoices.find((choice) => choice.id === destination) || null;
+  const publishedItinerary = selectedChoice?.itinerary || null;
   const targetDaysCount = getTravelDaysCount();
-
-  if (!activeItinerary && destination) {
-    const formattedName = destination.charAt(0).toUpperCase() + destination.slice(1);
-    let styleText = 'Personalizado';
-    if (style === 'aventura') styleText = 'Aventura & Natureza';
-    else if (style === 'cultura') styleText = 'Cultural & Histórico';
-    else if (style === 'natureza') styleText = 'Relax & Bem-Estar';
-    else if (style === 'gastronomia') styleText = 'Gastronomia & Luxo';
-
-    activeItinerary = {
-      name: formattedName,
-      title: `${formattedName}: Roteiro ${styleText}`,
-      desc: `Um planejamento exclusivo feito sob medida para você explorar o melhor de ${formattedName} com foco em ${styleText.toLowerCase()}.`,
-      days: []
-    };
-  }
-
-  // Populate dynamic days based on base days count and user selected duration
-  let finalDays = [];
-  if (activeItinerary) {
-    const baseDays = activeItinerary.days || [];
-    finalDays = [...baseDays];
-
-    if (finalDays.length < targetDaysCount) {
-      const diff = targetDaysCount - finalDays.length;
-      for (let d = 1; d <= diff; d++) {
-        const nextDayNum = finalDays.length + 1;
-        finalDays.push({
-          day: `Dia ${nextDayNum}`,
-          title: style === 'aventura' ? 'Caminhos Cênicos & Exploração Extrema' : style === 'cultura' ? 'Marcos Históricos & Museus Locais' : style === 'natureza' ? 'Relaxamento, Mirantes & Conexão Local' : 'Imersão de Sabores & Vinhedos',
-          events: [
-            { time: '09:00', title: `Exploração guiada das redondezas de ${activeItinerary.name || destination}` },
-            { time: '13:00', title: `Almoço especial sugerido por nossos curadores locais` },
-            { time: '15:30', title: `Passeios com foco nas suas preferências (${interests.join(', ') || 'lazer'})` },
-            { time: '20:30', title: budget === 'luxury' ? `Jantar vip em restaurante conceituado` : `Jantar em bistrô tradicional com receitas artesanais` }
-          ]
-        });
+  const activeItinerary = publishedItinerary && selectedChoice
+    ? {
+        name: selectedChoice.name,
+        title: publishedItinerary.title,
+        desc: publishedItinerary.desc,
+        image: selectedChoice.img,
+        days: publishedItinerary.days || []
       }
-    } else if (finalDays.length > targetDaysCount) {
-      finalDays = finalDays.slice(0, targetDaysCount);
-    }
-  }
+    : null;
+  const finalDays = activeItinerary ? activeItinerary.days.slice(0, targetDaysCount) : [];
 
   return (
     <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
@@ -772,14 +292,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                           🔥 Destinos Populares
                         </span>
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
-                          {[
-                            { id: 'paris', label: '🇫🇷 Paris, França', img: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=400&q=80' },
-                            { id: 'roma', label: '🇮🇹 Roma, Itália', img: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=400&q=80' },
-                            { id: 'toquio', label: '🇯🇵 Tóquio, Japão', img: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=400&q=80' },
-                            { id: 'noronha', label: '🇧🇷 F. de Noronha, Brasil', img: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=400&q=80' },
-                            { id: 'maldivas', label: '🇲🇻 Ilhas Maldivas', img: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=400&q=80' },
-                            { id: 'noruega', label: '🇳🇴 Tromsø, Noruega', img: 'https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=400&q=80' }
-                          ].map(dest => (
+                          {popularDestinations.map(dest => (
                             <button
                               key={dest.id}
                               type="button"
@@ -793,7 +306,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                               />
                               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                               <span className="absolute bottom-3 left-3 text-xs sm:text-sm font-bold text-white leading-none">
-                                {dest.label}
+                                {dest.icon} {dest.label}
                               </span>
                             </button>
                           ))}
@@ -803,14 +316,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                           ✨ Experiências &amp; Sugestões Sazonais
                         </span>
                         <div className="flex flex-wrap gap-2 mb-4">
-                          {[
-                            { id: 'noronha', label: '👩‍❤️‍👨 Lua de Mel' },
-                            { id: 'noruega', label: '🌌 Aurora Boreal' },
-                            { id: 'safari', label: '🦁 Safári de Luxo' },
-                            { id: 'gramado', label: '🍷 Serra & Vinícolas' },
-                            { id: 'roma', label: '🍝 Gastronomia' },
-                            { id: 'veadeiros', label: '🌿 Bem-Estar & SPA' }
-                          ].map(tag => (
+                          {experienceTags.map(tag => (
                             <button
                               key={tag.label}
                               type="button"
@@ -826,24 +332,23 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
 
                     {searchQuery !== '' && (
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-                        {[
-                          { id: 'paris', label: 'Paris, França', icon: '🇫🇷', desc: 'A capital da luz, museus e culinária.', tags: ['França', 'Europa', 'Romance', 'Cultura', 'Gastronomia'] },
-                          { id: 'roma', label: 'Roma, Itália', icon: '🇮🇹', desc: 'História milenar e praças barrocas.', tags: ['Itália', 'Europa', 'Cultura', 'Gastronomia', 'História', 'Vinícolas'] },
-                          { id: 'lisboa', label: 'Lisboa, Portugal', icon: '🇵🇹', desc: 'História, bondes e pastéis de nata.', tags: ['Portugal', 'Europa', 'Cultura', 'Litoral', 'Gastronomia'] },
-                          { id: 'londres', label: 'Londres, Reino Unido', icon: '🇬🇧', desc: 'Realeza, museus grátis e pubs.', tags: ['Reino Unido', 'Inglaterra', 'Europa', 'Cultura', 'História'] },
-                          { id: 'toquio', label: 'Tóquio, Japão', icon: '🇯🇵', desc: 'Arranha-céus neon e santuários.', tags: ['Japão', 'Ásia', 'Cultura', 'Tecnologia', 'Gastronomia'] },
-                          { id: 'noronha', label: 'Fernando de Noronha, Brasil', icon: '🇧🇷', desc: 'Ecoturismo exclusivo e praias.', tags: ['Brasil', 'América do Sul', 'Praia', 'Ecoturismo', 'Lua de Mel', 'Romance'] },
-                          { id: 'rio', label: 'Rio de Janeiro, Brasil', icon: '🇧🇷', desc: 'Cultura vibrante e charme carioca.', tags: ['Brasil', 'América do Sul', 'Praia', 'Cultura', 'Litoral'] },
-                          { id: 'veadeiros', label: 'Chapada dos Veadeiros, Brasil', icon: '🇧🇷', desc: 'Misticismo e cachoeiras de cristal.', tags: ['Brasil', 'América do Sul', 'Cachoeira', 'Ecoturismo', 'Misticismo'] },
-                          { id: 'amazonas', label: 'Manaus & Selva, Brasil', icon: '🇧🇷', desc: 'Eco-lodges e imersão profunda.', tags: ['Brasil', 'América do Sul', 'Floresta', 'Ecoturismo', 'Aventura', 'Safári'] },
-                          { id: 'gramado', label: 'Gramado, Brasil', icon: '🇧🇷', desc: 'Vinho, fondue e charme europeu.', tags: ['Brasil', 'América do Sul', 'Serra', 'Vinícolas', 'Gastronomia', 'Romance'] },
-                          { id: 'noruega', label: 'Tromsø, Noruega', icon: '🇳🇴', desc: 'Fiordes, chalés de madeira e Aurora Boreal.', tags: ['Noruega', 'Europa', 'Fiordes', 'Aurora Boreal', 'Frio', 'Natureza'] },
-                          { id: 'maldivas', label: 'Ilhas Maldivas', icon: '🇲🇻', desc: 'Bangalôs sobre a água e areia branca.', tags: ['Maldivas', 'Ásia', 'Praia', 'Romance', 'Lua de Mel', 'Ilhas'] },
-                          { id: 'grecia', label: 'Santorini, Grécia', icon: '🇬🇷', desc: 'Santorini romântica e história em Atenas.', tags: ['Grécia', 'Europa', 'Praia', 'Romance', 'Lua de Mel', 'História'] },
-                          { id: 'safari', label: 'Kruger & Cape Town, África do Sul', icon: '🇿🇦', desc: 'Safáris de luxo e a Rota dos Vinhos.', tags: ['África do Sul', 'África', 'Safári', 'Natureza', 'Vinícolas', 'Aventura'] }
-                        ].filter(opt => {
+                        {[...destinationChoices, ...guideOnlyChoices].filter(opt => {
                           return matchesSearch(searchQuery, opt);
                         }).map(opt => (
+                          opt.href ? (
+                            <Link
+                              key={opt.id}
+                              href={opt.href}
+                              className="text-left p-4 rounded-[20px] border border-border-gray hover:border-brand-navy/30 transition-all duration-300 cursor-pointer flex items-center gap-4 bg-white"
+                            >
+                              <span className="text-3xl shrink-0">{opt.icon}</span>
+                              <div>
+                                <h4 className="font-headers text-sm font-bold text-brand-navy">{opt.label}</h4>
+                                <p className="text-[11px] text-text-muted mt-0.5">{opt.desc}</p>
+                                <p className="text-[10px] font-bold text-brand-orange mt-1">Guia publicado, sem roteiro</p>
+                              </div>
+                            </Link>
+                          ) : (
                           <button 
                             key={opt.id}
                             type="button"
@@ -858,8 +363,12 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                             <div>
                               <h4 className="font-headers text-sm font-bold text-brand-navy">{opt.label}</h4>
                               <p className="text-[11px] text-text-muted mt-0.5">{opt.desc}</p>
+                              {!opt.itinerary && (
+                                <p className="text-[10px] font-bold text-text-muted mt-1">Sem roteiro publicado</p>
+                              )}
                             </div>
                           </button>
+                          )
                         ))}
                       </div>
                     )}
@@ -1220,14 +729,31 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
               </div>
             )}
 
+            {showResults && !activeItinerary && (
+              <div className="bg-white border border-border-gray p-8 rounded-[28px] max-w-lg mx-auto shadow-sm text-center">
+                <h2 className="font-headers text-2xl font-bold text-brand-navy">
+                  Não há roteiro publicado para {selectedChoice?.name || 'este destino'}
+                </h2>
+                <p className="text-sm text-text-muted mt-3 leading-relaxed">
+                  A cidade só aparece aqui quando tem ficha. Sem roteiro publicado, a prévia não é inventada.
+                </p>
+                <button
+                  onClick={handleReset}
+                  className="btn btn-outline cursor-pointer mt-6"
+                >
+                  Escolher outro destino
+                </button>
+              </div>
+            )}
+
             {/* 3. Planner Results Panel */}
-            {showResults && (
+            {showResults && activeItinerary && (
               <div className="animate-fade-in-up max-w-[1440px] w-full mx-auto">
                 {/* Results Header */}
                 <div className="bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] shadow-sm mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 text-left">
                   <div>
                     <span className="bg-brand-orange text-white text-[10px] font-extrabold tracking-widest px-3 py-1 rounded-full w-fit">
-                      PRÉVIA DO ROTEIRO NO APP
+                      PRÉVIA DO DIA 1
                     </span>
                     <h2 className="font-headers text-2xl md:text-3.5xl font-bold text-brand-navy mt-3 leading-tight font-extrabold">
                       {activeItinerary.title}
@@ -1259,7 +785,7 @@ export default function PlannerClient({ preselectedDestinationSlug }) {
                   {/* Banner Day 1 */}
                   <div className="mb-6 rounded-2xl overflow-hidden border border-border-gray/30 relative h-48 bg-brand-navy text-white shadow-xs">
                     <img 
-                      src={destinationImages[destination] || 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80'} 
+                      src={activeItinerary.image} 
                       alt={activeItinerary.name} 
                       className="w-full h-full object-cover opacity-60"
                     />
