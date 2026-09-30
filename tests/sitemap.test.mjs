@@ -9,6 +9,7 @@ import {
   isPrivateSitemapPath,
   matchesRedirectSource
 } from '../src/lib/sitemapEntries.js';
+import { SITE_URL } from '../src/lib/site.js';
 
 const PRIVATE_PATHS = [
   '/login',
@@ -22,7 +23,7 @@ const PRIVATE_PATHS = [
 test('sitemap omits redirects and private routes', async () => {
   const redirectSources = (await nextConfig.redirects()).map((redirect) => redirect.source);
   const entries = buildSitemapEntries({
-    baseUrl: 'https://2go.com.br',
+    baseUrl: SITE_URL,
     destinations: listDestinations(),
     itineraries: listItineraries(),
     blogPosts: listBlogPosts(),
@@ -42,6 +43,8 @@ test('sitemap omits redirects and private routes', async () => {
     assert.equal(paths.includes(blocked), false, blocked);
   }
 
+  assert.ok(entries.every((entry) => entry.url === SITE_URL || entry.url.startsWith(`${SITE_URL}/`)));
+  assert.equal(entries.some((entry) => /2go\.com\.br|2go-site\.vercel\.app|2go-travel-react\.vercel\.app/.test(entry.url)), false);
   assert.equal(paths.filter((path) => path === '/blog/como-planejar-viagem-paris').length, 1);
   assert.equal(paths.some((path) => path.startsWith('/en/') || path.startsWith('/es/') || path.startsWith('/pt/')), false);
 });

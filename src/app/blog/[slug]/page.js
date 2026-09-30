@@ -4,6 +4,7 @@ import { getBlogPostBySlug, getBlogPosts } from '@/lib/cms';
 import { destinationGuides } from '@/data/guidesData';
 import BlogPostClient from '@/components/BlogPostClient';
 import GuideArticleClient from '@/components/GuideArticleClient';
+import { absoluteSiteUrl } from '@/lib/site';
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -14,7 +15,7 @@ export async function generateMetadata({ params }) {
       title: guide.metaTitle,
       description: guide.metaDescription,
       alternates: {
-        canonical: `https://2go.com.br/blog/${slug}`
+        canonical: absoluteSiteUrl(`/blog/${slug}`)
       },
       openGraph: {
         title: guide.metaTitle,

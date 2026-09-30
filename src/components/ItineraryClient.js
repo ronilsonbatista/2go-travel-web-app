@@ -17,6 +17,7 @@ import NewsletterBox from './NewsletterBox';
 import JsonLd from './JsonLd';
 import { getItinerarySchema, getFAQSchema } from '@/lib/schema';
 import { trackPageView } from '@/lib/analytics';
+import { absoluteSiteUrl } from '@/lib/site';
 
 const EVENT_IMAGES = {
   louvre: 'https://images.unsplash.com/photo-1543349689-9a4d426bee87?auto=format&fit=crop&w=150&q=80',
@@ -442,7 +443,7 @@ export default function ItineraryClient({ itinerary, destination }) {
               <span className="text-[9px] font-extrabold text-brand-navy tracking-wide block mb-2 font-headers">Sincronizar com o celular</span>
               <div className="p-2 bg-white border border-border-gray rounded-xl w-24 h-24 mx-auto flex items-center justify-center shadow-xs">
                 <QRCodeSVG 
-                  value={typeof window !== 'undefined' ? window.location.href : `https://2go.com.br/roteiros/${itinerary.slug}`} 
+                  value={typeof window !== 'undefined' ? window.location.href : absoluteSiteUrl(`/roteiros/${itinerary.slug}`)} 
                   size={80}
                 />
               </div>
@@ -615,7 +616,7 @@ export default function ItineraryClient({ itinerary, destination }) {
                 {/* QR Code */}
                 <div className="p-3 bg-bg-light border border-border-gray/50 rounded-xl w-fit mx-auto flex items-center justify-center shadow-xs">
                   <QRCodeSVG 
-                    value={typeof window !== 'undefined' ? window.location.href : `https://2go.com.br/roteiros/${itinerary.slug}`} 
+                    value={typeof window !== 'undefined' ? window.location.href : absoluteSiteUrl(`/roteiros/${itinerary.slug}`)} 
                     size={120}
                   />
                 </div>

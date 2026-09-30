@@ -1,3 +1,5 @@
+import { absoluteSiteUrl } from './site';
+
 // Rich Snippets Schema.org JSON-LD Builders for 2GO Travel SEO Foundation
 
 export function getDestinationSchema(destination) {
@@ -7,8 +9,8 @@ export function getDestinationSchema(destination) {
     "@type": "TravelDestination",
     "name": destination.name,
     "description": destination.description,
-    "url": `https://2go.com.br/destinos/${destination.slug}`,
-    "image": `https://2go.com.br${destination.image}`,
+    "url": absoluteSiteUrl(`/destinos/${destination.slug}`),
+    "image": absoluteSiteUrl(destination.image),
     "containedInPlace": {
       "@type": "Country",
       "name": destination.country
@@ -55,7 +57,7 @@ export function getBreadcrumbsSchema(items) {
       "@type": "ListItem",
       "position": index + 1,
       "name": item.name,
-      "item": `https://2go.com.br${item.url}`
+      "item": absoluteSiteUrl(item.url)
     }))
   };
 }

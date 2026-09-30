@@ -9,6 +9,7 @@ import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
 import NewsletterBox from './NewsletterBox';
 import { trackPageView } from '@/lib/analytics';
+import { absoluteSiteUrl } from '@/lib/site';
 import JsonLd from './JsonLd';
 
 export default function BlogPostClient({ post }) {
@@ -44,21 +45,21 @@ export default function BlogPostClient({ post }) {
     "headline": post.title,
     "description": post.excerpt,
     "image": [
-      post.image.startsWith('http') ? post.image : `https://2go-travel-react.vercel.app${post.image}`
+      absoluteSiteUrl(post.image)
     ],
     "datePublished": getIsoDate(post.date),
     "dateModified": getIsoDate(post.date),
     "author": {
       "@type": "Person",
       "name": "Curador Local 2GO Travel",
-      "url": "https://2go-travel-react.vercel.app/blog"
+      "url": absoluteSiteUrl('/blog')
     },
     "publisher": {
       "@type": "Organization",
       "name": "2GO Travel",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://2go-travel-react.vercel.app/logo.png"
+        "url": absoluteSiteUrl('/images/Logo2GO.png')
       }
     }
   };

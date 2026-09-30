@@ -1,3 +1,5 @@
+import { SITE_URL } from '@/lib/site';
+
 export default function robots() {
   return {
     rules: {
@@ -10,6 +12,6 @@ export default function robots() {
         '/private/'
       ],
     },
-    sitemap: 'https://2go.com.br/sitemap.xml',
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }
