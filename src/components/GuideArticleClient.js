@@ -100,8 +100,8 @@ export default function GuideArticleClient({ guide }) {
   if (!guide) return null;
 
   return (
-    <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
-      <Header onOpenDownload={() => setIsDownloadOpen(true)} />
+    <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
+      <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pt-28 pb-20">
         <div className="container mx-auto px-4 sm:px-6 max-w-[1440px] w-full text-left">
@@ -122,48 +122,60 @@ export default function GuideArticleClient({ guide }) {
             </Link>
           </div>
 
-          {/* Article header follows the Paris guide: badge, title, summary, actions, then a single meta line. */}
           <header className="my-6 max-w-4xl text-left">
-            <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-full w-fit font-headers uppercase">
-              {guide.category || 'Destinos'}
-            </span>
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-full font-headers uppercase">
+                Destino
+              </span>
+              <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-full font-headers uppercase">
+                Guia oficial 2GO
+              </span>
+            </div>
 
-            <h1 className="font-headers text-3xl sm:text-4.5xl md:text-5xl font-extrabold text-brand-navy mt-4 mb-4 tracking-tight leading-tight">
+            <h1 className="font-headers text-3xl sm:text-4.5xl md:text-5.5xl font-extrabold text-brand-navy mb-4 tracking-tight leading-tight">
               {guide.title}
             </h1>
-            <p className="text-sm sm:text-base md:text-lg text-text-muted leading-relaxed max-w-3xl mb-6 font-body">
+            <p className="text-sm sm:text-base md:text-lg text-text-muted leading-relaxed max-w-3xl font-body">
               {guide.subtitle}
             </p>
 
-            <div className="flex flex-col sm:flex-row flex-wrap gap-3">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3 mt-6">
               <Link
                 href={`/planejamento?destination=${encodeURIComponent(guide.city)}`}
-                className="inline-flex items-center justify-center gap-2 bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold text-sm px-6 py-3.5 rounded-xl shadow-md transition-all hover:scale-[1.01] active:scale-[0.98]"
+                className="inline-flex items-center justify-center bg-brand-navy hover:bg-brand-navy/90 text-white font-extrabold text-sm px-6 py-3.5 rounded-xl shadow-sm transition-all"
               >
                 Criar roteiro
-                <ArrowRight className="w-4 h-4" />
               </Link>
               <button
                 type="button"
                 onClick={() => setIsDownloadOpen(true)}
-                className="inline-flex items-center justify-center border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-transparent font-bold text-sm px-6 py-3.5 rounded-xl transition-all"
+                className="inline-flex items-center justify-center border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-white font-bold text-sm px-6 py-3.5 rounded-xl transition-all"
               >
                 Baixar o App
               </button>
             </div>
 
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-text-muted border-t border-b border-border-gray/50 py-3.5 mt-6">
-              <span className="font-semibold text-brand-navy">{guide.emoji} {guide.city}, {guide.country}</span>
-              <span aria-hidden="true">•</span>
-              <span className="flex items-center gap-1 font-semibold text-brand-navy">
-                <Coins className="w-3.5 h-3.5 text-brand-orange" /> Moeda: {guide.currency}
+            <div className="flex flex-wrap gap-2 mt-5">
+              <span className="inline-flex items-center gap-2 bg-[#F4F6F9] text-brand-navy text-xs font-semibold px-4 py-2 rounded-full">
+                <Coins className="w-3.5 h-3.5 text-brand-orange" />
+                Moeda
+                <span className="font-extrabold">{guide.currency}</span>
               </span>
-              <span aria-hidden="true">•</span>
-              <span className="flex items-center gap-1 font-semibold text-brand-navy">
-                <Globe className="w-3.5 h-3.5 text-brand-orange" /> Idioma: {guide.language}
+              <span className="inline-flex items-center gap-2 bg-[#F4F6F9] text-brand-navy text-xs font-semibold px-4 py-2 rounded-full">
+                <Globe className="w-3.5 h-3.5 text-brand-navy" />
+                Idioma
+                <span className="font-extrabold">{guide.language}</span>
               </span>
             </div>
           </header>
+
+          <div className="w-full h-72 sm:h-96 md:h-[480px] rounded-[32px] overflow-hidden my-8 shadow-md relative bg-bg-light">
+            <img
+              src={guide.heroImage}
+              alt={guide.title}
+              className="w-full h-full object-cover"
+            />
+          </div>
 
           {/* MAIN GRID: Sidebar TOC (Left/Right) + Content Body */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
@@ -210,14 +222,6 @@ export default function GuideArticleClient({ guide }) {
 
             {/* Main Content Column */}
             <div className="lg:col-span-9 space-y-12 text-left font-body">
-
-              <div className="rounded-[28px] overflow-hidden border border-border-gray/80 shadow-sm relative h-72 sm:h-96 md:h-[440px] bg-bg-light">
-                <img
-                  src={guide.heroImage}
-                  alt={guide.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
 
               {/* 1. Introdução */}
               <section id="introducao" className="bg-white border border-border-gray/80 p-6 sm:p-8 rounded-[28px] shadow-xs">

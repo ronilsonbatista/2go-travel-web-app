@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 
-export default function Header({ onOpenDownload }) {
+export default function Header({ onOpenDownload, solid = false }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -55,7 +55,7 @@ export default function Header({ onOpenDownload }) {
     <>
       <header 
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 flex items-center ${
-          isScrolled 
+          solid || isScrolled 
             ? 'h-[64px] lg:h-[78px] bg-white shadow-sm border-b border-border-gray/30' 
             : 'h-[64px] lg:h-[78px] bg-transparent border-b border-transparent'
         }`}
