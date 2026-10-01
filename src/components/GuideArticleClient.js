@@ -4,9 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { 
   ArrowLeft, 
-  Clock, 
   MapPin, 
-  Calendar, 
   DollarSign, 
   CheckCircle2, 
   AlertTriangle, 
@@ -124,67 +122,48 @@ export default function GuideArticleClient({ guide }) {
             </Link>
           </div>
 
-          {/* HERO SECTION */}
+          {/* Article header follows the Paris guide: badge, title, summary, actions, then a single meta line. */}
           <header className="my-6 max-w-4xl text-left">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-full font-headers uppercase flex items-center gap-1.5">
-                <span>{guide.emoji}</span>
-                <span>{guide.country.toUpperCase()}</span>
-              </span>
-              <span className="bg-brand-navy/10 text-brand-navy text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-full font-headers uppercase">
-                GUIA OFICIAL 2GO
-              </span>
-            </div>
+            <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-widest px-3 py-1.5 rounded-full w-fit font-headers uppercase">
+              {guide.category || 'Destinos'}
+            </span>
 
-            <h1 className="font-headers text-3xl sm:text-4.5xl md:text-5.5xl font-extrabold text-brand-navy mb-4 tracking-tight leading-tight">
+            <h1 className="font-headers text-3xl sm:text-4.5xl md:text-5xl font-extrabold text-brand-navy mt-4 mb-4 tracking-tight leading-tight">
               {guide.title}
             </h1>
-            <p className="text-sm sm:text-base md:text-lg text-text-muted leading-relaxed font-body">
+            <p className="text-sm sm:text-base md:text-lg text-text-muted leading-relaxed max-w-3xl mb-6 font-body">
               {guide.subtitle}
             </p>
 
-            {/* Meta Key Info Badges */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6">
-              <div className="bg-white border border-border-gray/80 p-3.5 rounded-2xl flex items-center gap-3 shadow-2xs">
-                <Coins className="w-5 h-5 text-brand-orange shrink-0" />
-                <div>
-                  <span className="text-[10px] font-bold text-text-muted block uppercase">Moeda</span>
-                  <span className="text-xs font-extrabold text-brand-navy">{guide.currency}</span>
-                </div>
-              </div>
-              <div className="bg-white border border-border-gray/80 p-3.5 rounded-2xl flex items-center gap-3 shadow-2xs">
-                <Globe className="w-5 h-5 text-brand-navy shrink-0" />
-                <div>
-                  <span className="text-[10px] font-bold text-text-muted block uppercase">Idioma</span>
-                  <span className="text-xs font-extrabold text-brand-navy">{guide.language}</span>
-                </div>
-              </div>
-              <div className="bg-white border border-border-gray/80 p-3.5 rounded-2xl flex items-center gap-3 shadow-2xs">
-                <Clock className="w-5 h-5 text-[#96AB21] shrink-0" />
-                <div>
-                  <span className="text-[10px] font-bold text-text-muted block uppercase">Duração ideal</span>
-                  <span className="text-xs font-extrabold text-brand-navy">{guide.city}: 5 a 7 dias</span>
-                </div>
-              </div>
-              <div className="bg-white border border-border-gray/80 p-3.5 rounded-2xl flex items-center gap-3 shadow-2xs">
-                <Calendar className="w-5 h-5 text-brand-orange shrink-0" />
-                <div>
-                  <span className="text-[10px] font-bold text-text-muted block uppercase">Melhor Época</span>
-                  <span className="text-xs font-extrabold text-brand-navy">Primavera / Outono</span>
-                </div>
-              </div>
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3">
+              <Link
+                href={`/planejamento?destination=${encodeURIComponent(guide.city)}`}
+                className="inline-flex items-center justify-center gap-2 bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold text-sm px-6 py-3.5 rounded-xl shadow-md transition-all hover:scale-[1.01] active:scale-[0.98]"
+              >
+                Criar roteiro
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              <button
+                type="button"
+                onClick={() => setIsDownloadOpen(true)}
+                className="inline-flex items-center justify-center border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-transparent font-bold text-sm px-6 py-3.5 rounded-xl transition-all"
+              >
+                Baixar o App
+              </button>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-text-muted border-t border-b border-border-gray/50 py-3.5 mt-6">
+              <span className="font-semibold text-brand-navy">{guide.emoji} {guide.city}, {guide.country}</span>
+              <span aria-hidden="true">•</span>
+              <span className="flex items-center gap-1 font-semibold text-brand-navy">
+                <Coins className="w-3.5 h-3.5 text-brand-orange" /> Moeda: {guide.currency}
+              </span>
+              <span aria-hidden="true">•</span>
+              <span className="flex items-center gap-1 font-semibold text-brand-navy">
+                <Globe className="w-3.5 h-3.5 text-brand-orange" /> Idioma: {guide.language}
+              </span>
             </div>
           </header>
-
-          {/* Hero Cover Image */}
-          <div className="w-full h-72 sm:h-96 md:h-[480px] rounded-[32px] overflow-hidden my-8 shadow-md relative bg-bg-light">
-            <img 
-              src={guide.heroImage} 
-              alt={guide.title} 
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
-          </div>
 
           {/* MAIN GRID: Sidebar TOC (Left/Right) + Content Body */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
@@ -231,6 +210,14 @@ export default function GuideArticleClient({ guide }) {
 
             {/* Main Content Column */}
             <div className="lg:col-span-9 space-y-12 text-left font-body">
+
+              <div className="rounded-[28px] overflow-hidden border border-border-gray/80 shadow-sm relative h-72 sm:h-96 md:h-[440px] bg-bg-light">
+                <img
+                  src={guide.heroImage}
+                  alt={guide.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
               {/* 1. Introdução */}
               <section id="introducao" className="bg-white border border-border-gray/80 p-6 sm:p-8 rounded-[28px] shadow-xs">
