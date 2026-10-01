@@ -43,23 +43,118 @@ function guideForDestination(destination) {
 
 const guideOnlyCities = guides.filter((guide) => !destinations.some((destination) => sameCity(destination.name, guide.city)));
 
-const premiumSlides = destinations
-  .filter((destination) => listItinerariesForDestination(destination.slug).length > 0)
-  .map((destination) => {
-    const guide = guideForDestination(destination);
-    const itinerary = listItinerariesForDestination(destination.slug)[0];
-    return {
-      id: destination.slug,
-      name: `${destination.name}, ${destination.country}`,
-      country: destination.country,
-      emoji: destination.emoji,
-      phrase: destination.description,
-      desc: guide?.summaryText || destination.longDescription || destination.description,
-      tags: guide ? [guide.categoryLabel] : [],
-      img: guide?.heroImage || destination.image,
-      ctaLink: `/roteiros/${itinerary.slug}`
-    };
-  });
+const premiumSlides = [
+  {
+    id: 'paris',
+    name: 'Paris, França',
+    country: 'França',
+    emoji: '🇫🇷',
+    phrase: 'Arte, gastronomia e o charme do Rio Sena.',
+    desc: 'Torre Eiffel ao entardecer com o reflexo das luzes no Rio Sena e o charme eterno da capital francesa.',
+    tags: ['Cultura', 'Romance'],
+    img: '/images/destinations/paris/paris-eiffel-seine.jpg',
+    ctaLink: '/roteiros/paris-3-dias'
+  },
+  {
+    id: 'ny',
+    name: 'Nova York, Estados Unidos',
+    country: 'Estados Unidos',
+    emoji: '🇺🇸',
+    phrase: 'Energia, cultura e experiências em cada esquina.',
+    desc: 'O Empire State Building e o skyline de Manhattan ao entardecer com luzes urbanas elegantes e atmosfera cinematográfica.',
+    tags: ['Urbano', 'Cultura'],
+    img: '/images/destinations/nova-york/nova-york-1.jpg',
+    ctaLink: '/blog/como-planejar-viagem-nova-york'
+  },
+  {
+    id: 'tokyo',
+    name: 'Tóquio, Japão',
+    country: 'Japão',
+    emoji: '🇯🇵',
+    phrase: 'Tradição, tecnologia e experiências únicas.',
+    desc: 'A majestosa Tokyo Tower iluminada durante a blue hour em harmonia entre a tradição e a vanguarda tecnológica.',
+    tags: ['Cultura', 'Tecnologia'],
+    img: '/images/destinations/toquio/toquio-1.jpg',
+    ctaLink: '/roteiros/toquio-3-dias'
+  },
+  {
+    id: 'rio',
+    name: 'Rio de Janeiro, Brasil',
+    country: 'Brasil',
+    emoji: '🇧🇷',
+    phrase: 'Praias, montanhas e paisagens inesquecíveis.',
+    desc: 'Pão de Açúcar ao pôr do sol em tons suaves de fim de tarde e natureza exuberante.',
+    tags: ['Praias', 'Natureza'],
+    img: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Rio de Janeiro'
+  },
+  {
+    id: 'roma',
+    name: 'Roma, Itália',
+    country: 'Itália',
+    emoji: '🇮🇹',
+    phrase: 'História, arte e monumentos a céu aberto.',
+    desc: 'O Coliseu ao entardecer em luz quente moderada e atmosfera histórica incomparável.',
+    tags: ['História', 'Gastronomia'],
+    img: '/images/destinations/roma/roma-coliseu.jpg',
+    ctaLink: '/roteiros/roma-3-dias'
+  },
+  {
+    id: 'londres',
+    name: 'Londres, Reino Unido',
+    country: 'Reino Unido',
+    emoji: '🇬🇧',
+    phrase: 'História, cultura e ícones reconhecidos no mundo inteiro.',
+    desc: 'Big Ben e o Palácio de Westminster durante a blue hour com tons frios e refinados.',
+    tags: ['Cultura', 'História'],
+    img: '/images/destinations/londres/londres-1.jpg',
+    ctaLink: '/roteiros/londres-3-dias'
+  },
+  {
+    id: 'istanbul',
+    name: 'Istambul, Turquia',
+    country: 'Turquia',
+    emoji: '🇹🇷',
+    phrase: 'Onde Europa e Ásia se encontram.',
+    desc: 'A vista do Bósforo e das mesquitas seculares ao pôr do sol em suaves tons terrosos.',
+    tags: ['História', 'Cultura'],
+    img: '/images/destinations/istambul/istambul-1.jpg',
+    ctaLink: '/blog/como-planejar-viagem-istambul'
+  },
+  {
+    id: 'sydney',
+    name: 'Sydney, Austrália',
+    country: 'Austrália',
+    emoji: '🇦🇺',
+    phrase: 'Praias, natureza e arquitetura icônica.',
+    desc: 'A Opera House de Sydney em blue hour com o skyline noturno refletido nas águas da baía.',
+    tags: ['Praias', 'Arquitetura'],
+    img: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Sydney'
+  },
+  {
+    id: 'bangkok',
+    name: 'Bangkok, Tailândia',
+    country: 'Tailândia',
+    emoji: '🇹🇭',
+    phrase: 'Templos, sabores e uma cidade cheia de vida.',
+    desc: 'A silhueta inconfundível do templo Wat Arun no Rio Chao Phraya durante a luz serena do entardecer.',
+    tags: ['Cultura', 'Gastronomia'],
+    img: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Bangkok'
+  },
+  {
+    id: 'amsterdam',
+    name: 'Amsterdã, Países Baixos',
+    country: 'Países Baixos',
+    emoji: '🇳🇱',
+    phrase: 'Canais, cultura e charme em cada rua.',
+    desc: 'Os canais seculares ao anoitecer com luzes acolhedoras refletidas na água e arquitetura histórica.',
+    tags: ['Cultura', 'Canais'],
+    img: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Amsterdã'
+  }
+];
 
 const featuredDestinations = [
   ...destinations.map((destination) => {
