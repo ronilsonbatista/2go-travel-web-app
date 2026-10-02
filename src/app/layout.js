@@ -17,8 +17,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata = {
-  title: "2GO Travel | Planejamento de Viagem Personalizado",
-  description: "Crie roteiros sob medida organizados automaticamente. Tecnologia e consultoria para sua próxima viagem.",
+  title: "2GO Travel | Roteiros de viagem no app",
+  description: "Veja destinos e guias no site. Planeje a timeline, o mapa e os ajustes no aplicativo 2GO.",
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: "/"

@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
 
 export default function ComoPlanejarViagemParisRedirect() {
-  redirect('/blog/como-planejar-viagem-paris');
+  redirect('/guias/como-planejar-viagem-paris');
 }

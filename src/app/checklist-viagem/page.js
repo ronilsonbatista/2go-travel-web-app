@@ -282,12 +282,13 @@ export default function ChecklistViagem() {
                     Além do checklist, tenha o cronograma diário completo gerado sob medida para o seu destino no app 2GO.
                   </p>
                 </div>
-                <Link 
-                  href="/planejamento"
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="btn btn-secondary py-3 text-xs justify-center font-bold text-center w-full bg-brand-orange text-white hover:bg-white hover:text-brand-navy transition-all"
                 >
-                  Criar roteiro
-                </Link>
+                  Baixar o App
+                </button>
               </div>
 
             </div>

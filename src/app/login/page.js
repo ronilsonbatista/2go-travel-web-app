@@ -108,7 +108,7 @@ export default function Login() {
                 Acesse seus Roteiros
               </h1>
               <p className="text-xs text-text-muted leading-relaxed max-w-[280px] mx-auto">
-                Sincronize seus favoritos, acesse guias e gerencie suas consultorias VIP em um só lugar.
+                Acesse seus guias e favoritos. O dia a dia da viagem fica no aplicativo.
               </p>
             </div>
 

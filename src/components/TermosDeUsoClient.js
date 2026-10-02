@@ -37,7 +37,7 @@ export default function TermosDeUsoClient() {
               <section className="flex flex-col gap-2">
                 <h2 className="font-headers text-base sm:text-lg font-bold text-brand-navy">2. Descrição dos Serviços</h2>
                 <p>
-                  A 2GO Roteiros oferece soluções de curadoria de itinerários digitais, guias de viagem e consultoria personalizada para planejamento de viagens. Nossos itinerários têm caráter informativo e sugestivo para otimização da experiência do usuário.
+                  A 2GO Roteiros oferece guias de viagem e itinerários digitais de inspiração. O planejamento do dia a dia acontece no aplicativo. Os conteúdos têm caráter informativo e sugestivo.
                 </p>
               </section>
 

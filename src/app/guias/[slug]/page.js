@@ -15,7 +15,7 @@ export async function generateMetadata({ params }) {
       title: guide.metaTitle,
       description: guide.metaDescription,
       alternates: {
-        canonical: absoluteSiteUrl(`/blog/${slug}`)
+        canonical: absoluteSiteUrl(`/guias/${slug}`)
       },
       openGraph: {
         title: guide.metaTitle,

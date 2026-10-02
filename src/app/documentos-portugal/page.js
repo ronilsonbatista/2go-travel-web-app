@@ -142,12 +142,13 @@ export default function DocumentosPortugal() {
                     Além de organizar seus documentos, use nosso assistente para programar seu dia a dia na capital de Portugal gratuitamente.
                   </p>
                 </div>
-                <Link 
-                  href="/planejamento/lisboa"
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="btn btn-secondary py-3 text-xs justify-center font-bold text-center w-full bg-brand-orange text-white hover:bg-white hover:text-brand-navy transition-all"
                 >
-                  Planejar Roteiro de Lisboa
-                </Link>
+                  Baixar o App
+                </button>
               </div>
 
             </div>

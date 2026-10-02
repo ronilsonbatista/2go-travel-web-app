@@ -135,12 +135,13 @@ export default function SeguroViagem() {
                     Com a segurança garantida pelo seguro, monte seu dia a dia inteligente com o gerador automático da 2GO.
                   </p>
                 </div>
-                <Link 
-                  href="/planejamento"
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="btn btn-secondary py-3 text-xs justify-center font-bold text-center w-full bg-brand-orange text-white hover:bg-white hover:text-brand-navy transition-all"
                 >
-                  Criar roteiro
-                </Link>
+                  Baixar o App
+                </button>
               </div>
 
               {/* Newsletter capture */}

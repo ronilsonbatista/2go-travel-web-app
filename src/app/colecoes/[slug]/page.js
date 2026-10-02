@@ -142,12 +142,13 @@ export default function ColecaoDetail({ params }) {
                     >
                       Ver Atrações de Lazer
                     </Link>
-                    <Link
-                      href={`/planejamento/${dest.slug}`}
+                    <button
+                      type="button"
+                      onClick={() => setIsDownloadOpen(true)}
                       className="btn btn-outline border-brand-orange/20 text-brand-orange hover:bg-brand-orange/5 py-2 px-3.5 text-[10px] font-bold inline-flex items-center gap-1 cursor-pointer"
                     >
-                      <Sparkles className="w-3 h-3" /> Planejar Roteiro
-                    </Link>
+                      <Sparkles className="w-3 h-3" /> Baixar o App
+                    </button>
                   </div>
                 </div>
 

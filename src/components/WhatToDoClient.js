@@ -198,30 +198,18 @@ export default function WhatToDoClient({ destination }) {
               <div className="bg-brand-navy text-white p-6 rounded-[24px] shadow-sm flex flex-col gap-4">
                 <Sparkles className="w-8 h-8 text-brand-orange animate-pulse" />
                 <div>
-                  <h4 className="font-headers font-bold text-sm">Gostou das atrações?</h4>
+                  <h4 className="font-headers font-bold text-sm">Monte o dia a dia no app</h4>
                   <p className="text-[11px] text-white/70 mt-1 leading-normal">
-                    Deixe que a 2GO crie uma programação diária inteligente para você em segundos, organizando os tempos de deslocamento e visitas.
+                    As atrações ficam neste guia. A programação, os horários e o mapa ficam no aplicativo.
                   </p>
                 </div>
-                <Link 
-                  href={`/planejamento/${destination.slug}`}
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="btn btn-secondary py-3 text-xs justify-center font-bold text-center w-full bg-brand-orange text-white hover:bg-white hover:text-brand-navy transition-all border-none cursor-pointer flex items-center"
                 >
-                  Criar roteiro
-                </Link>
-              </div>
-
-              {/* Consulting promo */}
-              <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
-                <span className="text-[8.5px] font-extrabold text-brand-orange tracking-wide">Consultoria Personalizada</span>
-                <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">Quer suporte de especialistas?</h4>
-                <p className="text-[11px] text-text-muted leading-relaxed">Fale com um especialista da 2GO para planejar a viagem sob medida e fechar reservas.</p>
-                <Link 
-                  href="/consultoria-personalizada"
-                  className="btn btn-outline py-2.5 text-xs text-center justify-center font-bold mt-2"
-                >
-                  Falar com especialista
-                </Link>
+                  Baixar o App
+                </button>
               </div>
 
             </div>

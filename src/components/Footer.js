@@ -4,14 +4,14 @@ import { Lock } from 'lucide-react';
 
 export default function Footer({ onOpenDownload }) {
   return (
-    <footer className="bg-bg-light border-t border-border-gray pt-20 pb-28 lg:pb-10">
+    <footer className="bg-[#081B6B] text-white pt-20 pb-28 lg:pb-10">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         
         {/* Brand Information */}
         <div className="flex flex-col gap-6">
           <Link 
             href="/"
-            className="flex items-center cursor-pointer h-16 lg:h-20 w-auto mb-2"
+            className="inline-flex items-center cursor-pointer h-16 lg:h-20 w-fit mb-2 bg-white rounded-2xl px-3 py-1.5"
           >
             <img 
               src="/images/Logo2GO.png" 
@@ -22,23 +22,23 @@ export default function Footer({ onOpenDownload }) {
               className="h-full w-auto object-contain"
             />
           </Link>
-          <p className="text-sm text-text-muted leading-relaxed max-w-[280px]">
-            A plataforma definitiva para planejar, estruturar e vivenciar experiências de viagens personalizadas de alto padrão.
+          <p className="text-sm text-white/75 leading-relaxed max-w-[280px]">
+            Destinos e guias para inspirar. O dia a dia da viagem fica no aplicativo.
           </p>
           <div className="flex gap-4">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-border-gray text-brand-navy flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:bg-brand-orange/5 hover:-translate-y-0.5" aria-label="Instagram">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 text-white flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:-translate-y-0.5" aria-label="Instagram">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
               </svg>
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-border-gray text-brand-navy flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:bg-brand-orange/5 hover:-translate-y-0.5" aria-label="Facebook">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 text-white flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:-translate-y-0.5" aria-label="Facebook">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
               </svg>
             </a>
-            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-border-gray text-brand-navy flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:bg-brand-orange/5 hover:-translate-y-0.5" aria-label="X (Twitter)">
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 text-white flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:-translate-y-0.5" aria-label="X (Twitter)">
               <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
               </svg>
@@ -48,21 +48,21 @@ export default function Footer({ onOpenDownload }) {
 
         {/* Company Links */}
         <div>
-          <h4 className="font-headers text-base font-bold text-brand-navy mb-6">Empresa</h4>
+          <h4 className="font-headers text-base font-bold text-white mb-6">Empresa</h4>
           <ul className="flex flex-col gap-3 list-none m-0 p-0">
             <li>
-              <Link href="/quem-somos" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
+              <Link href="/quem-somos" className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block">
                 Quem somos
               </Link>
             </li>
             <li>
-              <Link href="/blog" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
+              <Link href="/guias" className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block">
                 Guia de Viagem
               </Link>
             </li>
             <li>
-              <Link href="/consultoria-personalizada" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Contato
+              <Link href="/roteiros" className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block">
+                Roteiros
               </Link>
             </li>
           </ul>
@@ -70,30 +70,24 @@ export default function Footer({ onOpenDownload }) {
 
         {/* Services Links */}
         <div>
-          <h4 className="font-headers text-base font-bold text-brand-navy mb-6">Serviços</h4>
+          <h4 className="font-headers text-base font-bold text-white mb-6">Serviços</h4>
           <ul className="flex flex-col gap-3 list-none m-0 p-0">
             <li>
-              <Link href="/planejamento" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Criar roteiro
-              </Link>
-            </li>
-            <li>
-              <Link href="/roteiros" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Roteiros
-              </Link>
-            </li>
-            <li>
-              <Link href="/consultoria-personalizada" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Consultoria Personalizada
-              </Link>
+              <button
+                type="button"
+                onClick={onOpenDownload}
+                className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block"
+              >
+                Baixar App
+              </button>
             </li>
           </ul>
         </div>
 
         {/* App download redirects to https://app.2go.com.br */}
         <div className="flex flex-col gap-4">
-          <h4 className="font-headers text-base font-bold text-brand-navy mb-2">Aplicativo 2GO</h4>
-          <p className="text-sm text-text-muted leading-relaxed">
+          <h4 className="font-headers text-base font-bold text-white mb-2">Aplicativo 2GO</h4>
+          <p className="text-sm text-white/75 leading-relaxed">
             Planeje em segundos e viaje com tranquilidade off-line.
           </p>
           
@@ -134,10 +128,10 @@ export default function Footer({ onOpenDownload }) {
 
       </div>
 
-      <div className="container mx-auto px-6 pt-10 border-t border-border-gray flex flex-col md:flex-row justify-between items-center text-xs text-text-muted gap-4">
+      <div className="container mx-auto px-6 pt-10 border-t border-white/15 flex flex-col md:flex-row justify-between items-center text-xs text-white/60 gap-4">
         <div className="flex items-center gap-4 flex-wrap justify-center md:justify-start">
           <p>&copy; 2026 2GO S.A. Todos os direitos reservados.</p>
-          <span className="inline-flex items-center gap-1.5 bg-brand-navy/5 text-brand-navy font-semibold px-2.5 py-1 rounded-md text-[11px] border border-border-gray/50">
+          <span className="inline-flex items-center gap-1.5 bg-white/10 text-white font-semibold px-2.5 py-1 rounded-md text-[11px] border border-white/15">
             <Lock className="w-3 h-3 text-brand-orange" />
             Ambiente seguro
           </span>

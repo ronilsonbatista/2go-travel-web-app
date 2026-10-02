@@ -8,47 +8,23 @@ import { Menu, X } from 'lucide-react';
 export default function Header({ onOpenDownload, solid = false }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
   const pathname = usePathname();
 
-  // Shrink header on scroll & check mobile viewport size dynamically
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 1024);
-    };
-    
+
     window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', checkMobile);
-    
     handleScroll();
-    checkMobile();
-    
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', checkMobile);
-    };
+
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Desktop Main Menu (EXACTLY 5 items)
-  const desktopMenuItems = [
+  const menuItems = [
     { label: 'Roteiros', href: '/roteiros' },
-    { label: 'Criar roteiro', href: '/planejamento' },
-    { label: 'Guia de Viagem', href: '/blog' },
-    { label: 'Consultoria Personalizada', href: '/consultoria-personalizada' },
+    { label: 'Guia de Viagem', href: '/guias' },
     { label: 'Quem somos', href: '/quem-somos' }
-  ];
-
-  // Mobile Drawer Menu
-  const mobileMenuItems = [
-    { label: 'Roteiros', href: '/roteiros' },
-    { label: 'Criar roteiro', href: '/planejamento' },
-    { label: 'Guia de Viagem', href: '/blog' },
-    { label: 'Consultoria Personalizada', href: '/consultoria-personalizada' },
-    { label: 'Quem somos', href: '/quem-somos' },
-    { label: 'Contato', href: '/consultoria-personalizada' }
   ];
 
   return (
@@ -78,12 +54,12 @@ export default function Header({ onOpenDownload, solid = false }) {
 
           <nav className="hidden lg:block min-w-0">
             <ul className="flex gap-3 xl:gap-5 items-center list-none m-0 p-0">
-              {desktopMenuItems.map((item, idx) => (
+              {menuItems.map((item, idx) => (
                 <li key={idx}>
                   <Link
                     href={item.href}
-                    className={`font-body font-semibold text-[0.82rem] xl:text-[0.98rem] py-2 whitespace-nowrap relative cursor-pointer transition-colors ${
-                      pathname === item.href || (item.href === '/blog' && pathname.startsWith('/blog'))
+                    className={`font-body font-semibold text-[0.78rem] xl:text-[0.92rem] py-2 whitespace-nowrap relative cursor-pointer transition-colors ${
+                      pathname === item.href || (item.href === '/guias' && pathname.startsWith('/guias'))
                         ? 'text-brand-orange' 
                         : 'text-text-muted hover:text-brand-navy'
                     } after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-brand-orange after:transition-all after:duration-300 after:rounded-full after:w-0 hover:after:w-full`}
@@ -97,22 +73,13 @@ export default function Header({ onOpenDownload, solid = false }) {
 
           {/* Commercial CTA Action Buttons */}
           <div className="flex items-center gap-2 sm:gap-4">
-            {!isMobile && (
-              <>
-                <Link 
-                  href="/planejamento"
-                  className="hidden lg:inline-flex btn btn-primary btn-sm cursor-pointer"
-                >
-                  Criar roteiro
-                </Link>
-                <button 
-                  onClick={onOpenDownload}
-                  className="hidden xl:inline-flex btn btn-outline btn-sm cursor-pointer"
-                >
-                  Baixar App
-                </button>
-              </>
-            )}
+            <button
+              type="button"
+              onClick={onOpenDownload}
+              className="hidden lg:inline-flex btn btn-primary btn-sm cursor-pointer"
+            >
+              Baixar App
+            </button>
             
             {/* Mobile Hamburger Burger Icon */}
             <button 
@@ -140,7 +107,7 @@ export default function Header({ onOpenDownload, solid = false }) {
           onClick={(e) => e.stopPropagation()}
         >
           <ul className="list-none flex flex-col gap-2.5 m-0 p-0 text-left">
-            {mobileMenuItems.map((item, idx) => (
+            {menuItems.map((item, idx) => (
               <li key={idx} className="w-full">
                 <Link
                   href={item.href}

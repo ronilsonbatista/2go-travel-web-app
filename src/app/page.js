@@ -2,31 +2,14 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { 
-  Compass, 
-  Sliders, 
-  Navigation, 
-  ArrowRight, 
-  Clock, 
-  Map, 
-  ChevronLeft, 
-  ChevronRight, 
-  MapPin, 
-  Calendar,
-  Check,
-  MessageSquare,
-  Sparkles,
-  Heart,
-  Plane,
-  Utensils,
-  Star
-} from 'lucide-react';
+import { Compass, Sliders, Navigation, ArrowRight } from 'lucide-react';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
-import { listDestinations, listItinerariesForDestination } from '@/lib/cms';
+
+import { listDestinations } from '@/lib/cms';
 import { destinationGuides } from '@/data/guidesData';
 
 function sameCity(left, right) {
@@ -42,6 +25,58 @@ function guideForDestination(destination) {
 }
 
 const guideOnlyCities = guides.filter((guide) => !destinations.some((destination) => sameCity(destination.name, guide.city)));
+
+const CONTINENT_BY_COUNTRY = {
+  'França': 'Europa',
+  'Itália': 'Europa',
+  'Portugal': 'Europa',
+  'Reino Unido': 'Europa',
+  'Grécia': 'Europa',
+  'Noruega': 'Europa',
+  'Turquia': 'Europa',
+  'Europa': 'Europa',
+  'Japão': 'Ásia',
+  'Ásia': 'Ásia',
+  'Emirados Árabes Unidos': 'Ásia',
+  'Brasil': 'América do Sul',
+  'Estados Unidos': 'América do Norte'
+};
+
+function continentOf(country) {
+  return CONTINENT_BY_COUNTRY[country] || 'Outros';
+}
+
+const featuredGuides = [
+  ...destinations.map((destination) => {
+    const guide = guideForDestination(destination);
+    return {
+      name: destination.name,
+      country: destination.country,
+      continent: continentOf(destination.country),
+      img: guide?.heroImage || destination.image,
+      phrase: guide?.subtitle || destination.description,
+      link: guide ? `/guias/${guide.slug}` : '/guias'
+    };
+  }),
+  ...guideOnlyCities.map((guide) => ({
+    name: guide.city,
+    country: guide.country,
+    continent: continentOf(guide.country),
+    img: guide.heroImage,
+    phrase: guide.subtitle,
+    link: `/guias/${guide.slug}`
+  }))
+];
+
+const CONTINENT_FILTERS = [
+  { id: 'Todos', label: 'Todos' },
+  { id: 'Europa', label: '🇪🇺 Europa' },
+  { id: 'Ásia', label: '⛩️ Ásia' },
+  { id: 'América do Sul', label: '🌴 América do Sul' },
+  { id: 'América do Norte', label: '🏔️ América do Norte' },
+  { id: 'África', label: '🦁 África' },
+  { id: 'Oceania', label: '🌊 Oceania' }
+].filter((item) => item.id === 'Todos' || featuredGuides.some((guide) => guide.continent === item.id));
 
 const premiumSlides = [
   {
@@ -64,7 +99,7 @@ const premiumSlides = [
     desc: 'O Empire State Building e o skyline de Manhattan ao entardecer com luzes urbanas elegantes e atmosfera cinematográfica.',
     tags: ['Urbano', 'Cultura'],
     img: '/images/destinations/nova-york/nova-york-1.jpg',
-    ctaLink: '/blog/como-planejar-viagem-nova-york'
+    ctaLink: '/guias/como-planejar-viagem-nova-york'
   },
   {
     id: 'tokyo',
@@ -119,7 +154,7 @@ const premiumSlides = [
     desc: 'A vista do Bósforo e das mesquitas seculares ao pôr do sol em suaves tons terrosos.',
     tags: ['História', 'Cultura'],
     img: '/images/destinations/istambul/istambul-1.jpg',
-    ctaLink: '/blog/como-planejar-viagem-istambul'
+    ctaLink: '/guias/como-planejar-viagem-istambul'
   },
   {
     id: 'sydney',
@@ -154,29 +189,6 @@ const premiumSlides = [
     img: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=85',
     ctaLink: '/roteiros?search=Amsterdã'
   }
-];
-
-const featuredDestinations = [
-  ...destinations.map((destination) => {
-    const guide = guideForDestination(destination);
-    const itinerary = listItinerariesForDestination(destination.slug)[0];
-    return {
-      name: destination.name,
-      country: destination.country,
-      img: guide?.heroImage || destination.image,
-      phrase: destination.description,
-      link: itinerary
-        ? `/roteiros/${itinerary.slug}`
-        : (guide ? `/blog/${guide.slug}` : `/o-que-fazer/${destination.slug}`)
-    };
-  }),
-  ...guideOnlyCities.map((guide) => ({
-    name: guide.city,
-    country: guide.country,
-    img: guide.heroImage,
-    phrase: guide.subtitle,
-    link: `/blog/${guide.slug}`
-  }))
 ];
 
 const publishedDestinationCount = destinations.length + guideOnlyCities.length;
@@ -223,6 +235,7 @@ const getSlideDarkOverlayStyle = (id) => {
 const getHeroTextShadow = (id) => {
   return { textShadow: '0 1px 8px rgba(0,0,0,0.15)' };
 };
+
 
 function ScrollReveal({ children, className = '', delay = 0 }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -272,70 +285,11 @@ function ScrollReveal({ children, className = '', delay = 0 }) {
   );
 }
 
-const simResults = {
-  'Japão': [
-    { day: 'DIA 1', title: 'Tóquio Cultural', items: [
-      { emoji: '⛩️', place: 'Templo Senso-ji em Asakusa', desc: 'Visita agendada para primeiras horas da manhã (evitando filas).' },
-      { emoji: '🗼', place: 'Shinjuku Sky & Jantar Típico', desc: 'Jantar tradicional sugerido no beco histórico Omoide Yokocho.' }
-    ]},
-    { day: 'DIA 2', title: 'Monte Fuji & Hakone', items: [
-      { emoji: '🗻', place: 'Lago Ashi & Vista do Monte Fuji', desc: 'Passeio de catamarã pelo lago com paradas no Tori flutuante.' }
-    ]},
-    { day: 'DIA 3', title: 'Kyoto Clássico', items: [
-      { emoji: '🌸', place: 'Santuário de Fushimi Inari-taisha', desc: 'Caminhada sob os milhares de Torii tradicionais ladeando a floresta.' }
-    ]}
-  ],
-  'França': [
-    { day: 'DIA 1', title: 'Paris Romântico', items: [
-      { emoji: '🗼', place: 'Torre Eiffel & Jardins do Trocadéro', desc: 'Subida ao topo no entardecer para ver as luzes se acenderem.' },
-      { emoji: '⛵', place: 'Cruzeiro no Rio Sena', desc: 'Passeio noturno com guia histórico passando por pontes famosas.' }
-    ]},
-    { day: 'DIA 2', title: 'Louvre & Arte', items: [
-      { emoji: '🎨', place: 'Museu do Louvre (Acesso Rápido)', desc: 'Roteiro guiado de 2h focando nas principais obras de arte.' }
-    ]},
-    { day: 'DIA 3', title: 'Charme de Montmartre', items: [
-      { emoji: '⛪', place: 'Basílica de Sacré-Cœur', desc: 'Passeio pelas ruelas dos artistas e almoço em bistrô tradicional.' }
-    ]}
-  ],
-  'Itália': [
-    { day: 'DIA 1', title: 'Roma Antiga', items: [
-      { emoji: '🏛️', place: 'Coliseu & Fórum Romano', desc: 'Entrada prioritária com guia arqueológico especializado.' },
-      { emoji: '⛲', place: 'Fontana di Trevi & Panteão', desc: 'Caminhada clássica de fim de tarde para jogar a moeda.' }
-    ]},
-    { day: 'DIA 2', title: 'Vaticano & Museus', items: [
-      { emoji: '🇻🇦', place: 'Capela Sistina & Basílica de S. Pedro', desc: 'Visita matinal sem filas e subida à cúpula para vista panorâmica.' }
-    ]},
-    { day: 'DIA 3', title: 'Sabores de Trastevere', items: [
-      { emoji: '🍝', place: 'Jantar Gastronômico', desc: 'Degustação de massas clássicas e vinhos artesanais da região.' }
-    ]}
-  ],
-  'Brasil': [
-    { day: 'DIA 1', title: 'Baía do Sancho', items: [
-      { emoji: '🐢', place: 'Praia do Sancho & Snorkel', desc: 'Mergulho guiado com tartarugas marinhas e arraias nas águas cristalinas.' },
-      { emoji: '🌅', place: 'Pôr do sol no Boldró', desc: 'Mirante clássico com vista para os dois irmãos.' }
-    ]},
-    { day: 'DIA 2', title: 'Ilha Tour Completo', items: [
-      { emoji: '🚙', place: 'Tour 4x4 por praias intocadas', desc: 'Visita guiada passando por cacimba do padre, baía dos porcos e leão.' }
-    ]},
-    { day: 'DIA 3', title: 'Piscinas do Atalaia', items: [
-      { emoji: '🐠', place: 'Trilha do Atalaia & Flutuação', desc: 'Flutuação monitorada nas piscinas de corais com peixes tropicais.' }
-    ]}
-  ]
-};
-
 export default function Home() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [progress, setProgress] = useState(0);
-
-  // Simulation states for "Veja seu roteiro tomando forma"
-  const [simProgress, setSimProgress] = useState(0);
-  const [simState, setSimState] = useState('idle'); // 'idle' | 'running' | 'done'
-  const [visibleDays, setVisibleDays] = useState([]);
-  const [simDest, setSimDest] = useState('Japão');
-  const [simDays, setSimDays] = useState('3 dias');
-  const [simComp, setSimComp] = useState('Casal');
-  const [simSty, setSimSty] = useState('Cultura & Templos');
+  const [guideContinent, setGuideContinent] = useState('Todos');
 
   // Auto transition for Hero Carousel
   useEffect(() => {
@@ -357,32 +311,6 @@ export default function Home() {
   const selectSlide = (idx) => {
     setCurrentSlide(idx);
     setProgress(0);
-  };
-
-  // Run real-time simulation
-  const startSimulation = () => {
-    setSimState('running');
-    setSimProgress(5);
-    setVisibleDays([]);
-
-    const timers = [
-      setTimeout(() => setSimProgress(35), 600),
-      setTimeout(() => {
-        setSimProgress(65);
-        setVisibleDays(prev => [...prev, 'day1']);
-      }, 1500),
-      setTimeout(() => {
-        setSimProgress(85);
-        setVisibleDays(prev => [...prev, 'day2']);
-      }, 2600),
-      setTimeout(() => {
-        setSimProgress(100);
-        setVisibleDays(prev => [...prev, 'day3']);
-        setSimState('done');
-      }, 3600)
-    ];
-
-    return () => timers.forEach(clearTimeout);
   };
 
   return (
@@ -490,36 +418,36 @@ export default function Home() {
                     <span className="text-brand-navy/85 text-sm italic font-medium break-words">"{premiumSlides[currentSlide].phrase}"</span>
                   </div>
                   
-                  {/* Desktop CTA buttons */}
                   <div className="hidden lg:flex flex-col gap-2 mt-2 w-full sm:w-auto items-center sm:items-start">
                     <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
-                      <Link 
-                        href="/planejamento"
+                      <button
+                        type="button"
+                        onClick={() => setIsDownloadOpen(true)}
                         className="w-full max-w-[280px] sm:w-auto bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-8 py-3.5 rounded-xl shadow-md flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-[0.98] border-none"
                       >
-                        Criar roteiro
-                      </Link>
-                      <button 
-                        onClick={() => setIsDownloadOpen(true)}
-                        className="w-full max-w-[280px] sm:w-auto border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-transparent font-bold px-8 py-3.5 rounded-xl transition-all"
-                      >
-                        Baixar App
+                        Baixar o App
                       </button>
+                      <Link
+                        href="/roteiros"
+                        className="w-full max-w-[280px] sm:w-auto border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-transparent font-bold px-8 py-3.5 rounded-xl transition-all inline-flex items-center justify-center"
+                      >
+                        Ver roteiros
+                      </Link>
                     </div>
                     <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-1 text-center sm:text-left">
-                      Planeje agora e leve tudo no aplicativo.
+                      A prévia fica no site. O dia a dia, no aplicativo.
                     </p>
                   </div>
 
-                  {/* Mobile Discrete Link CTA */}
                   <div className="lg:hidden mt-1">
-                    <Link 
-                      href="/planejamento"
+                    <button
+                      type="button"
+                      onClick={() => setIsDownloadOpen(true)}
                       className="inline-flex items-center gap-1.5 text-sm font-extrabold text-brand-orange hover:text-brand-orange/80 transition-all cursor-pointer pb-1 border-b-2 border-brand-orange/20 hover:border-brand-orange"
                     >
-                      <span>Criar roteiro</span>
+                      <span>Baixar o App</span>
                       <ArrowRight className="w-4 h-4" />
-                    </Link>
+                    </button>
                   </div>
 
                   {/* Progress bar */}
@@ -590,13 +518,13 @@ export default function Home() {
                 Do sonho ao roteiro em 3 passos
               </h2>
               <p className="text-sm text-text-muted mt-3 font-medium">
-                <span className="text-brand-orange font-bold">A tecnologia organiza. Especialistas aperfeiçoam.</span> O planejamento simplificado e as atrações organizadas unidos para criar sua próxima experiência sob medida.
+                O site mostra o destino. No aplicativo, a 2GO organiza o dia, o horário e o mapa.
               </p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-5xl mx-auto w-full">
               {/* Step 1 */}
-              <Link href="/planejamento" className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover cursor-pointer w-full">
+              <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm flex flex-col items-start text-left w-full">
                 <span className="font-headers text-6xl font-extrabold text-brand-orange/20 absolute top-6 right-8 leading-none select-none group-hover:scale-105 transition-transform duration-300">1</span>
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Compass className="w-6 h-6" />
@@ -605,10 +533,10 @@ export default function Home() {
                 <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-md">
                   Escolha o destino e preencha suas preferências de viagem em poucos passos.
                 </p>
-              </Link>
+              </div>
 
               {/* Step 2 */}
-              <Link href="/planejamento" className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover cursor-pointer w-full">
+              <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm flex flex-col items-start text-left w-full">
                 <span className="font-headers text-6xl font-extrabold text-brand-orange/20 absolute top-6 right-8 leading-none select-none group-hover:scale-105 transition-transform duration-300">2</span>
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Sliders className="w-6 h-6" />
@@ -617,10 +545,10 @@ export default function Home() {
                 <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-md">
                   A 2GO organiza seu roteiro por dia, horário, atrações e deslocamentos sob medida.
                 </p>
-              </Link>
+              </div>
 
               {/* Step 3 */}
-              <Link href="/planejamento" className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm hover:shadow-md hover:translate-y-[-4px] hover:border-brand-orange/20 transition-all duration-300 flex flex-col items-start text-left card-premium-hover cursor-pointer w-full">
+              <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm flex flex-col items-start text-left w-full">
                 <span className="font-headers text-6xl font-extrabold text-brand-orange/20 absolute top-6 right-8 leading-none select-none group-hover:scale-105 transition-transform duration-300">3</span>
                 <div className="w-12 h-12 rounded-[16px] bg-brand-orange/10 text-brand-orange flex items-center justify-center mb-6 transition-transform group-hover:rotate-6 duration-300">
                   <Navigation className="w-6 h-6" />
@@ -629,12 +557,11 @@ export default function Home() {
                 <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-md">
                   Edite, salve, compartilhe seu roteiro offline e receba sugestões personalizadas por destino em tempo real.
                 </p>
-              </Link>
+              </div>
             </div>
           </ScrollReveal>
         </section>
 
-        {/* 3. DESTINATIONS ROWS (Airbnb/Netflix style) */}
         <section id="destinos" className="py-12 lg:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative scroll-mt-20">
           <ScrollReveal className="container mx-auto px-4 sm:px-6">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
@@ -643,392 +570,61 @@ export default function Home() {
                   Destinos em destaque
                 </span>
                 <p className="text-sm text-text-muted mt-2">
-                  Destinos com ficha publicada. O roteiro abre só quando ele existe.
+                  Guias publicados para conhecer o destino antes de embarcar.
                 </p>
               </div>
-              <Link 
-                href="/roteiros" 
+              <Link
+                href="/guias"
                 className="text-sm font-bold text-brand-orange hover:text-[#96AB21] flex items-center gap-1 transition-colors whitespace-nowrap cursor-pointer"
               >
                 Ver todos &rarr;
               </Link>
             </div>
 
-            {/* Continental categories selectors */}
             <div className="flex gap-3 overflow-x-auto pb-4 mb-4 custom-scrollbar-hide flex-nowrap border-b border-border-gray/30 min-w-0 max-w-full">
-              {[
-                { label: '🇪🇺 Europa', slug: '/roteiros?search=Europa' },
-                { label: '⛩️ Ásia', slug: '/roteiros?search=Ásia' },
-                { label: '🌴 América do Sul', slug: '/roteiros?search=América' },
-                { label: '🏔️ América do Norte', slug: '/roteiros?search=América' },
-                { label: '🦁 África', slug: '/roteiros?search=África' },
-                { label: '🌊 Oceania', slug: '/roteiros?search=Oceania' }
-              ].map((cat, i) => (
-                <Link 
-                  key={i} 
-                  href={cat.slug} 
-                  className="px-4 sm:px-5 py-2.5 rounded-full bg-white border border-border-gray/70 hover:border-[#96AB21] hover:text-[#96AB21] text-xs sm:text-sm font-extrabold text-brand-navy shrink-0 transition-all duration-300 hover:scale-[1.02] shadow-sm"
-                >
-                  {cat.label}
-                </Link>
-              ))}
-            </div>
-
-            {/* Featured destinations scrollable carousel */}
-            <div className="flex gap-4 sm:gap-6 overflow-x-auto pb-6 custom-scrollbar-hide snap-x snap-mandatory min-w-0 max-w-full">
-              {featuredDestinations.map((dest, idx) => (
-                <Link 
-                  key={idx}
-                  href={dest.link}
-                  className="group relative h-96 w-[min(18rem,78vw)] sm:w-72 shrink-0 rounded-[24px] overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray card-premium-hover snap-start"
-                >
-                  <img 
-                    src={dest.img} 
-                    alt={dest.name} 
-                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]" 
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-                  <div className="absolute bottom-5 left-5 right-5 text-left text-white">
-                    <h4 className="font-headers text-base font-extrabold text-white mt-1 group-hover:text-brand-orange transition-colors">
-                      {dest.name}, {dest.country}
-                    </h4>
-                    <p className="text-[12px] text-white/80 line-clamp-2 mt-1 leading-snug">{dest.phrase}</p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-
-            {/* Section visual break banner */}
-            <div className="mt-8 lg:mt-12 bg-gradient-to-r from-brand-navy to-[#0c248b] rounded-[24px] p-6 sm:p-8 lg:p-10 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-6 shadow-xl relative overflow-hidden text-left">
-              <div className="absolute right-0 top-0 w-64 h-64 bg-brand-orange/10 rounded-full blur-3xl pointer-events-none" />
-              <div className="text-left flex-grow z-10 min-w-0">
-                <h4 className="font-headers text-lg sm:text-2xl font-black text-white leading-snug break-words">Pare de juntar abas. Em minutos, a 2GO monta o dia a dia — e você leva no app.</h4>
-              </div>
-              <Link 
-                href="/planejamento"
-                className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 sm:px-8 py-3.5 rounded-xl transition-all shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-98 text-sm text-center cursor-pointer shrink-0 z-10 border-none flex items-center justify-center"
-              >
-                Criar roteiro
-              </Link>
-            </div>
-          </ScrollReveal>
-        </section>
-
-        {/* 4. INTERACTIVE SIMULATOR */}
-        <section className="py-12 lg:py-28 bg-[#F4F6F9] border-b border-border-gray/50">
-          <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-5xl">
-            <div className="text-center max-w-[620px] mx-auto mb-14 md:mb-16">
-              <span className="bg-brand-green/10 text-brand-green text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
-                Tecnologia exclusiva
-              </span>
-              <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
-                Veja seu roteiro tomando forma ⚡
-              </h2>
-              <p className="text-sm text-text-muted mt-3">
-                Defina seu destino, preencha suas preferências e assista à estruturação inteligente de rotas.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
-              {/* Input Config Panel */}
-              <div className="lg:col-span-5 bg-[#F8FAFC] border border-border-gray rounded-[28px] lg:rounded-[24px] p-5 sm:p-6 flex flex-col justify-between text-left">
-                <div className="flex flex-col gap-4">
-                  <h4 className="font-headers text-base sm:text-lg font-bold text-brand-navy border-b border-border-gray pb-3">Parâmetros de Viagem</h4>
-                  
-                  <div className="flex flex-col gap-1">
-                    <label htmlFor="sim-dest-select" className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Destino</label>
-                    <select 
-                      id="sim-dest-select"
-                      value={simDest}
-                      onChange={(e) => {
-                        setSimDest(e.target.value);
-                        setSimState('idle');
-                        setVisibleDays([]);
-                        setSimProgress(0);
-                      }}
-                      className="bg-white border border-border-gray px-4 py-2.5 rounded-xl text-sm font-semibold text-brand-navy outline-none focus:border-brand-orange w-full cursor-pointer"
-                    >
-                      <option value="Japão">Japão 🇯🇵 (Tóquio & Kyoto)</option>
-                      <option value="França">França 🇫🇷 (Paris Romântico)</option>
-                      <option value="Itália">Itália 🇮🇹 (Roma Histórica)</option>
-                      <option value="Brasil">Brasil 🇧🇷 (Fernando de Noronha)</option>
-                    </select>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex flex-col gap-1">
-                      <label htmlFor="sim-days-select" className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Duração</label>
-                      <select
-                        id="sim-days-select"
-                        value={simDays}
-                        onChange={(e) => {
-                          setSimDays(e.target.value);
-                          setSimState('idle');
-                          setVisibleDays([]);
-                          setSimProgress(0);
-                        }}
-                        className="bg-white border border-border-gray px-3 py-2.5 rounded-xl text-xs sm:text-sm font-semibold text-brand-navy outline-none focus:border-brand-orange cursor-pointer"
-                      >
-                        <option value="3 dias">3 Dias 📅</option>
-                        <option value="5 dias">5 Dias 📅</option>
-                        <option value="7 dias">7 Dias 📅</option>
-                      </select>
-                    </div>
-                    <div className="flex flex-col gap-1">
-                      <label htmlFor="sim-comp-select" className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Companhia</label>
-                      <select
-                        id="sim-comp-select"
-                        value={simComp}
-                        onChange={(e) => {
-                          setSimComp(e.target.value);
-                          setSimState('idle');
-                          setVisibleDays([]);
-                          setSimProgress(0);
-                        }}
-                        className="bg-white border border-border-gray px-3 py-2.5 rounded-xl text-xs sm:text-sm font-semibold text-brand-navy outline-none focus:border-brand-orange cursor-pointer"
-                      >
-                        <option value="Casal">Casal 👩‍❤️‍👨</option>
-                        <option value="Sozinho">Sozinho 🎒</option>
-                        <option value="Família">Família 👨‍👩‍👧‍👦</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col gap-1">
-                    <label htmlFor="sim-style-select" className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Estilo de Viagem</label>
-                    <select
-                      id="sim-style-select"
-                      value={simSty}
-                      onChange={(e) => {
-                        setSimSty(e.target.value);
-                        setSimState('idle');
-                        setVisibleDays([]);
-                        setSimProgress(0);
-                      }}
-                      className="bg-white border border-border-gray px-4 py-2.5 rounded-xl text-sm font-semibold text-brand-navy outline-none focus:border-brand-orange w-full cursor-pointer"
-                    >
-                      <option value="Cultura & Templos">Cultura & Templos 🍣</option>
-                      <option value="Praia & Aventura">Praia & Aventura 🏄‍♂️</option>
-                      <option value="Luxo & Conforto">Luxo & Conforto 🍷</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div className="mt-8 flex flex-col gap-3">
-                  <Link 
-                    href={`/planejamento?dest=${encodeURIComponent(simDest.toLowerCase())}`}
-                    className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold py-3.5 px-4 rounded-xl text-center shadow-md shadow-brand-orange/25 block text-sm border-none"
-                  >
-                    Criar meu roteiro sob medida
-                  </Link>
+              {CONTINENT_FILTERS.map((cat) => {
+                const selected = guideContinent === cat.id;
+                return (
                   <button
-                    onClick={startSimulation}
-                    disabled={simState === 'running'}
-                    className={`w-full py-3 flex items-center justify-center gap-2 cursor-pointer transition-all rounded-xl border text-sm font-bold ${
-                      simState === 'running' 
-                        ? 'bg-transparent text-brand-navy/40 border-brand-navy/10 cursor-not-allowed' 
-                        : 'bg-white border-brand-navy/25 text-brand-navy hover:border-brand-navy/50'
+                    key={cat.id}
+                    type="button"
+                    onClick={() => setGuideContinent(cat.id)}
+                    className={`px-4 sm:px-5 py-2.5 rounded-full border text-xs sm:text-sm font-extrabold shrink-0 transition-all duration-300 shadow-sm cursor-pointer ${
+                      selected
+                        ? 'bg-brand-navy text-white border-brand-navy'
+                        : 'bg-white border-border-gray/70 text-brand-navy hover:border-[#96AB21] hover:text-[#96AB21]'
                     }`}
                   >
-                    {simState === 'running' ? 'Organizando preferências...' : 'Simular criação do roteiro'}
+                    {cat.label}
                   </button>
-                </div>
-              </div>
-
-              {/* Real-time Output Board */}
-              <div className="lg:col-span-7 bg-[#F8FAFC] border border-border-gray rounded-[28px] lg:rounded-[24px] p-4 sm:p-6 flex flex-col min-h-[440px] relative overflow-hidden">
-                {simState !== 'idle' && (
-                  <div className="mb-6 animate-fade-in-up text-left">
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="text-xs font-bold text-brand-navy">
-                        {simProgress < 35 && '🔍 Estruturando preferências...'}
-                        {simProgress >= 35 && simProgress < 65 && '🚄 Mapeando distâncias...'}
-                        {simProgress >= 65 && simProgress < 85 && '🍣 Customizando rotas...'}
-                        {simProgress >= 85 && simProgress < 100 && '⚙️ Finalizando cronogramas...'}
-                        {simProgress === 100 && '✨ Prévia pronta. O restante fica no app.'}
-                      </span>
-                      <span className="text-xs font-bold text-brand-orange">{Math.round(simProgress)}%</span>
-                    </div>
-                    <div className="w-full bg-brand-navy/10 h-2 rounded-full overflow-hidden">
-                      <div 
-                        className="bg-brand-orange h-full rounded-full transition-all duration-500"
-                        style={{ width: `${simProgress}%` }}
-                      />
-                    </div>
-                  </div>
-                )}
-
-                <div className="flex-grow flex flex-col gap-4 overflow-y-auto pr-1">
-                  {simState === 'idle' && (
-                    <div className="flex-grow flex flex-col items-center justify-center text-center p-6 gap-3">
-                      <Sparkles className="w-10 h-10 text-brand-orange animate-pulse" />
-                      <p className="text-sm font-semibold text-brand-navy">Simulador de Rotas 2GO</p>
-                      <p className="text-xs text-text-muted max-w-[280px]">Inicie a simulação ao lado para assistir à estruturação das rotas diárias da viagem de forma automatizada.</p>
-                    </div>
-                  )}
-
-                  {visibleDays.includes('day1') && simResults[simDest]?.[0] && (
-                    <div className="bg-white border border-border-gray rounded-xl p-4 text-left shadow-xs animate-fade-in-up">
-                      <div className="flex justify-between items-center mb-3">
-                        <span className="bg-brand-orange/10 text-brand-orange text-[11px] font-bold px-2 py-0.5 rounded-md">DIA 1</span>
-                        <span className="text-[12px] text-text-muted font-medium">{simResults[simDest][0].title}</span>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        {simResults[simDest][0].items.map((item, idx) => (
-                          <div key={idx} className="flex gap-2.5 items-start text-xs text-brand-navy">
-                            <span className="text-sm shrink-0">{item.emoji}</span>
-                            <div>
-                              <strong className="block font-semibold">{item.place}</strong>
-                              <span className="text-[12px] text-text-muted">{item.desc}</span>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {visibleDays.includes('day2') && simResults[simDest]?.[1] && (
-                    <div className="bg-white border border-border-gray rounded-xl p-4 text-left shadow-xs animate-fade-in-up">
-                      <div className="flex justify-between items-center mb-3">
-                        <span className="bg-brand-orange/10 text-brand-orange text-[11px] font-bold px-2 py-0.5 rounded-md">DIA 2</span>
-                        <span className="text-[12px] text-text-muted font-medium">{simResults[simDest][1].title}</span>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        {simResults[simDest][1].items.map((item, idx) => (
-                          <div key={idx} className="flex gap-2.5 items-start text-xs text-brand-navy">
-                            <span className="text-sm shrink-0">{item.emoji}</span>
-                            <div>
-                              <strong className="block font-semibold">{item.place}</strong>
-                              <span className="text-[12px] text-text-muted">{item.desc}</span>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {visibleDays.includes('day3') && simResults[simDest]?.[2] && (
-                    <div className="bg-white border border-border-gray rounded-xl p-4 text-left shadow-xs animate-fade-in-up">
-                      <div className="flex justify-between items-center mb-3">
-                        <span className="bg-brand-orange/10 text-brand-orange text-[11px] font-bold px-2 py-0.5 rounded-md">DIA 3</span>
-                        <span className="text-[12px] text-text-muted font-medium">{simResults[simDest][2].title}</span>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        {simResults[simDest][2].items.map((item, idx) => (
-                          <div key={idx} className="flex gap-2.5 items-start text-xs text-brand-navy">
-                            <span className="text-sm shrink-0">{item.emoji}</span>
-                            <div>
-                              <strong className="block font-semibold">{item.place}</strong>
-                              <span className="text-[12px] text-text-muted">{item.desc}</span>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          </ScrollReveal>
-        </section>
-
-        {/* 6. EXPERIÊNCIA PERSONALIZADA (LIGHT BG REDESIGN) */}
-        <section id="premium-custom" className="py-12 lg:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative overflow-hidden">
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-orange/5 rounded-full blur-[120px] pointer-events-none select-none"></div>
-
-          <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-6xl w-full">
-            <div className="text-center max-w-[600px] mx-auto mb-10 md:mb-16">
-              <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
-                Consultoria personalizada
-              </span>
-              <h2 className="font-headers text-3xl md:text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
-                Quer um toque humano no seu planejamento?
-              </h2>
-              <p className="text-sm text-text-muted mt-2">
-                Para viagens especiais, conte com um especialista da 2GO: atendimento individual, curadoria sob medida e suporte do início ao fim.
-              </p>
+                );
+              })}
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center max-w-5xl mx-auto w-full">
-              {/* Left Column Chat Mockup (WhatsApp Business/Premium Style) */}
-              <div className="bg-[#E5DDD5] border border-border-gray/45 rounded-2xl overflow-hidden shadow-lg flex flex-col max-w-[420px] mx-auto w-full text-brand-navy relative min-h-[385px] font-sans">
-                {/* Chat Header */}
-                <div className="bg-[#075E54] text-white p-4 flex items-center justify-between shadow-sm">
-                  <div className="flex items-center gap-3">
-                    <img 
-                      src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&h=150&q=80" 
-                      alt="Marina Especialista" 
-                      className="w-10 h-10 rounded-full object-cover border border-white/20"
+            <div className="flex gap-4 sm:gap-6 overflow-x-auto pb-6 custom-scrollbar-hide snap-x snap-mandatory min-w-0 max-w-full">
+              {featuredGuides
+                .filter((dest) => guideContinent === 'Todos' || dest.continent === guideContinent)
+                .map((dest) => (
+                  <Link
+                    key={`${dest.name}-${dest.country}`}
+                    href={dest.link}
+                    className="group relative h-96 w-[min(18rem,78vw)] sm:w-72 shrink-0 rounded-[24px] overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray card-premium-hover snap-start"
+                  >
+                    <img
+                      src={dest.img}
+                      alt={dest.name}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
                     />
-                    <div className="text-left">
-                      <div className="flex items-center gap-1.5">
-                        <span className="text-xs font-extrabold text-white tracking-tight">Marina — Especialista 2GO</span>
-                        <span className="w-3.5 h-3.5 rounded-full bg-blue-500 text-white flex items-center justify-center text-[7px] font-black" title="Verificado">✓</span>
-                      </div>
-                      <span className="text-[10px] text-white/80 block">Ativa agora</span>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+                    <div className="absolute bottom-5 left-5 right-5 text-left text-white">
+                      <p className="text-[10px] font-extrabold tracking-wide text-brand-orange uppercase">Guia de Viagem</p>
+                      <h4 className="font-headers text-base font-extrabold text-white mt-1 group-hover:text-brand-orange transition-colors">
+                        {dest.name}, {dest.country}
+                      </h4>
+                      <p className="text-[12px] text-white/80 line-clamp-2 mt-1 leading-snug">{dest.phrase}</p>
                     </div>
-                  </div>
-                  <div className="flex gap-2.5 opacity-80 text-white text-xs">
-                    <span>💬</span>
-                  </div>
-                </div>
-
-                {/* Messages Container */}
-                <div className="flex flex-col gap-4 p-4 flex-grow text-xs justify-end leading-relaxed overflow-y-auto min-h-[290px]">
-                  {/* Message 1 */}
-                  <div className="bg-white text-brand-navy rounded-[14px] rounded-tl-sm p-3.5 max-w-[85%] text-left self-start shadow-sm border border-black/5 relative after:content-[''] after:absolute after:top-0 after:left-[-6px] after:border-t-[8px] after:border-t-white after:border-l-[8px] after:border-l-transparent">
-                    <p className="text-[10px] font-black text-brand-orange tracking-wide mb-1 block">Consultoria Personalizada</p>
-                    Olá, Ronilson! Tudo bem? ✈️ Vi seu interesse pela Toscana em outubro. Recomendo mudarmos a visita à vinícola para as 15h em vez das 17h, pois o pôr do sol acontece mais cedo no outono. Assim você aproveita a degustação com luz solar. O que acha?
-                    <span className="text-[8px] text-text-muted/70 float-right mt-1.5 ml-2">10:14</span>
-                  </div>
-                  {/* Message 2 */}
-                  <div className="bg-[#DCF8C6] text-brand-navy rounded-[14px] rounded-tr-sm p-3.5 max-w-[85%] text-left self-end shadow-sm border border-black/5 relative after:content-[''] after:absolute after:top-0 after:right-[-6px] after:border-t-[8px] after:border-t-[#DCF8C6] after:border-r-[8px] after:border-r-transparent">
-                    Nossa, excelente observação Marina! Nem me atentei a isso. Pode ajustar por favor!
-                    <span className="text-[8px] text-text-muted/70 float-right mt-1.5 ml-2">10:16 ✓✓</span>
-                  </div>
-                  {/* Message 3 */}
-                  <div className="bg-white text-brand-navy rounded-[14px] rounded-tl-sm p-3.5 max-w-[85%] text-left self-start shadow-sm border border-black/5 relative after:content-[''] after:absolute after:top-0 after:left-[-6px] after:border-t-[8px] after:border-t-white after:border-l-[8px] after:border-l-transparent">
-                    Ajustado! A reserva da vinícola e os transportes locais já foram atualizados. Você pode acessar os novos vouchers diretamente no aplicativo 2GO, mesmo offline. Boa viagem! 🍷
-                    <span className="text-[8px] text-text-muted/70 float-right mt-1.5 ml-2">10:17</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Right Column */}
-              <div className="flex flex-col gap-6 text-left w-full">
-                <h3 className="font-headers text-2xl md:text-3.5xl font-black leading-tight text-brand-navy">
-                  Consultoria Personalizada 🤝
-                </h3>
-                <p className="text-xs sm:text-sm md:text-base text-text-muted leading-relaxed">
-                  Para viagens especiais e sob medida, conte com a nossa equipe de especialistas parceiros. Planejamento otimizado com a tranquilidade de ter tudo resolvido.
-                </p>
-
-                <div className="flex flex-col gap-4 mt-2">
-                  <div className="flex gap-3 items-center">
-                    <div className="w-6 h-6 rounded-full bg-brand-green/10 text-brand-green flex items-center justify-center shrink-0 text-xs font-bold">✓</div>
-                    <span className="text-xs sm:text-sm font-semibold text-brand-navy">Atendimento individual com especialista</span>
-                  </div>
-                  <div className="flex gap-3 items-center">
-                    <div className="w-6 h-6 rounded-full bg-brand-green/10 text-brand-green flex items-center justify-center shrink-0 text-xs font-bold">✓</div>
-                    <span className="text-xs sm:text-sm font-semibold text-brand-navy">Curadoria autoral sob medida</span>
-                  </div>
-                  <div className="flex gap-3 items-center">
-                    <div className="w-6 h-6 rounded-full bg-brand-green/10 text-brand-green flex items-center justify-center shrink-0 text-xs font-bold">✓</div>
-                    <span className="text-xs sm:text-sm font-semibold text-brand-navy">Reservas e logística resolvidas</span>
-                  </div>
-                  <div className="flex gap-3 items-center">
-                    <div className="w-6 h-6 rounded-full bg-brand-green/10 text-brand-green flex items-center justify-center shrink-0 text-xs font-bold">✓</div>
-                    <span className="text-xs sm:text-sm font-semibold text-brand-navy">Suporte durante toda a viagem</span>
-                  </div>
-                </div>
-
-                <Link 
-                  href="/consultoria-personalizada"
-                  className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold py-3.5 px-8 rounded-xl transition-all shadow-md shadow-brand-orange/20 hover:scale-[1.01] active:scale-95 text-xs inline-flex items-center gap-1.5 cursor-pointer border-none w-fit self-start"
-                >
-                  Falar com especialista
-                </Link>
-              </div>
+                  </Link>
+                ))}
             </div>
           </ScrollReveal>
         </section>
@@ -1053,8 +649,8 @@ export default function Home() {
                 { 
                   name: 'Amanda Martins', 
                   avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80', 
-                  text: 'Foi como ter uma amiga especialista cuidando de cada detalhe.', 
-                  trip: 'Noronha • Consultoria Personalizada',
+                  text: 'O dia a dia ficou claro antes mesmo de embarcar.', 
+                  trip: 'Noronha • Roteiro no App',
                   badgeColor: 'bg-brand-orange/10 text-brand-orange'
                 },
                 { 
@@ -1110,29 +706,30 @@ export default function Home() {
                   Roteiros personalizados
                 </span>
                 <h2 className="font-headers text-3xl md:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-brand-navy">
-                  Crie seu roteiro perfeito em poucos minutos
+                  Seus roteiros ganham vida no app
                 </h2>
                 <p className="text-sm md:text-base text-text-muted leading-relaxed">
-                  Planeje no site e leve horários, atrações, mapas e recomendações com você no aplicativo.
+                  Veja destinos aqui. Timeline, mapa e ajustes ficam no aplicativo.
                 </p>
                 
                 <div className="flex flex-col gap-2 mt-2 w-full sm:w-auto items-center sm:items-start">
                   <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-                    <Link 
-                      href="/planejamento"
+                    <button
+                      type="button"
+                      onClick={() => setIsDownloadOpen(true)}
                       className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-8 py-4 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 border-none"
                     >
-                      Criar roteiro
-                    </Link>
-                    <button 
-                      onClick={() => setIsDownloadOpen(true)}
+                      Baixar o App
+                    </button>
+                    <Link
+                      href="/roteiros"
                       className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-8 py-4 rounded-xl transition-all flex items-center justify-center bg-transparent"
                     >
-                      Baixar App
-                    </button>
+                      Ver roteiros
+                    </Link>
                   </div>
                   <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-1">
-                    Planeje agora e leve tudo no aplicativo.
+                    A prévia fica no site. O dia a dia, no aplicativo.
                   </p>
                 </div>
               </div>

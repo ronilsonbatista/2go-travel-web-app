@@ -1,10 +1,29 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async redirects() {
+    const toRoteiros = [
+      '/consultoria',
+      '/consultoria/:path*',
+      '/consultoria-personalizada',
+      '/consultoria-personalizada/:path*',
+      '/premium',
+      '/premium/:path*',
+      '/planejamento',
+      '/planejamento/:path*',
+      '/criar-roteiro',
+      '/criar-roteiro/:path*',
+      '/en/planner/:slug',
+      '/es/planificacion/:slug',
+      '/pt/planejamento/:slug'
+    ].map((source) => ({ source, destination: '/roteiros', statusCode: 301 }));
+
     return [
-      { source: '/como-planejar-viagem-paris', destination: '/blog/como-planejar-viagem-paris', permanent: true },
-      { source: '/guia-de-viagem', destination: '/blog', permanent: true },
-      { source: '/guia-de-viagem/:slug', destination: '/blog/:slug', permanent: true },
+      ...toRoteiros,
+      { source: '/blog', destination: '/guias', statusCode: 301 },
+      { source: '/blog/:slug', destination: '/guias/:slug', statusCode: 301 },
+      { source: '/como-planejar-viagem-paris', destination: '/guias/como-planejar-viagem-paris', statusCode: 301 },
+      { source: '/guia-de-viagem', destination: '/guias', statusCode: 301 },
+      { source: '/guia-de-viagem/:slug', destination: '/guias/:slug', statusCode: 301 },
       { source: '/destinos', destination: '/roteiros', permanent: true },
       { source: '/destinos/:slug', destination: '/roteiros?search=:slug', permanent: true },
       { source: '/en/destinations', destination: '/roteiros', permanent: true },
@@ -17,10 +36,6 @@ const nextConfig = {
   },
   async rewrites() {
     return [
-      // criar-roteiro friendly path mapping
-      { source: '/criar-roteiro', destination: '/planejamento' },
-      { source: '/criar-roteiro/:slug', destination: '/planejamento/:slug' },
-
       // English rewrites
       { source: '/en/destinations/:slug', destination: '/roteiros?search=:slug&locale=en' },
       { source: '/en/what-to-do/:slug', destination: '/o-que-fazer/:slug?locale=en' },
@@ -28,8 +43,7 @@ const nextConfig = {
       { source: '/en/how-much/:slug', destination: '/quanto-custa/:slug?locale=en' },
       { source: '/en/itineraries/:slug', destination: '/roteiros/:slug?locale=en' },
       { source: '/en/itinerary/:slug', destination: '/roteiros/:slug?locale=en' },
-      { source: '/en/planner/:slug', destination: '/planejamento/:slug?locale=en' },
-      { source: '/en/blog/:slug', destination: '/blog/:slug?locale=en' },
+      { source: '/en/blog/:slug', destination: '/guias/:slug?locale=en' },
 
       // Spanish rewrites
       { source: '/es/destinos/:slug', destination: '/roteiros?search=:slug&locale=es' },
@@ -37,8 +51,7 @@ const nextConfig = {
       { source: '/es/mejor-epoca/:slug', destination: '/melhor-epoca/:slug?locale=es' },
       { source: '/es/cuanto-cuesta/:slug', destination: '/quanto-custa/:slug?locale=es' },
       { source: '/es/itinerarios/:slug', destination: '/roteiros/:slug?locale=es' },
-      { source: '/es/planificacion/:slug', destination: '/planejamento/:slug?locale=es' },
-      { source: '/es/blog/:slug', destination: '/blog/:slug?locale=es' },
+      { source: '/es/blog/:slug', destination: '/guias/:slug?locale=es' },
 
       // Portuguese rewrites
       { source: '/pt/destinos/:slug', destination: '/roteiros?search=:slug&locale=pt' },
@@ -46,8 +59,7 @@ const nextConfig = {
       { source: '/pt/melhor-epoca/:slug', destination: '/melhor-epoca/:slug?locale=pt' },
       { source: '/pt/quanto-custa/:slug', destination: '/quanto-custa/:slug?locale=pt' },
       { source: '/pt/roteiros/:slug', destination: '/roteiros/:slug?locale=pt' },
-      { source: '/pt/planejamento/:slug', destination: '/planejamento/:slug?locale=pt' },
-      { source: '/pt/blog/:slug', destination: '/blog/:slug?locale=pt' },
+      { source: '/pt/blog/:slug', destination: '/guias/:slug?locale=pt' },
     ];
   }
 };

@@ -151,17 +151,18 @@ export default function ComoPlanejarUmaViagem() {
               <div className="bg-brand-navy text-white p-6 rounded-[24px] shadow-sm flex flex-col gap-4 text-left">
                 <Sparkles className="w-8 h-8 text-brand-orange animate-pulse" />
                 <div>
-                  <h4 className="font-headers font-bold text-sm">Facilite seu Planejamento</h4>
+                  <h4 className="font-headers font-bold text-sm">O dia a dia fica no app</h4>
                   <p className="text-[11px] text-white/70 mt-1 leading-normal">
-                    Em vez de planejar tudo na mão, nosso assistente inteligente automatiza seu cronograma de viagem em segundos.
+                    Use este guia como referência. Timeline, mapa e ajustes ficam no aplicativo.
                   </p>
                 </div>
-                <Link 
-                  href="/planejamento"
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="btn btn-secondary py-3 text-xs justify-center font-bold text-center w-full bg-brand-orange text-white hover:bg-white hover:text-brand-navy transition-all"
                 >
-                  Criar roteiro
-                </Link>
+                  Baixar o App
+                </button>
               </div>
 
               {/* Newsletter Box */}

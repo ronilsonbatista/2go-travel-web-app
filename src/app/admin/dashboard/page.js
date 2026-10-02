@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { TrendingUp, DollarSign, Users, Award, MousePointer, Download, RotateCcw, ShieldAlert, FileText, CheckCircle } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -57,7 +56,7 @@ export default function AdminDashboard() {
         feed.unshift({
           time: 'Recente',
           type: 'Venda',
-          desc: `Nova consultoria VIP para ${lead.destination || 'Lisboa'} (Plano ${lead.budget || 'Premium'})`
+          desc: `Novo lead para ${lead.destination || 'Lisboa'}`
         });
       });
 
@@ -114,7 +113,7 @@ export default function AdminDashboard() {
                 Dashboard de Receita 2GO
               </h1>
               <p className="text-xs text-text-muted mt-1 leading-relaxed">
-                Audite em tempo real a conversão de leads, cliques em afiliados de viagens, downloads e faturamento da consultoria VIP.
+                Números simulados de leads, cliques e downloads. Esta tela não abre produto público.
               </p>
             </div>
 
@@ -181,7 +180,7 @@ export default function AdminDashboard() {
             <div className="bg-white border border-border-gray p-6 rounded-2xl shadow-xs text-left relative overflow-hidden flex flex-col justify-between">
               <div className="flex justify-between items-start">
                 <div>
-                  <span className="text-[9px] text-text-muted font-bold tracking-wider uppercase">Consultorias VIP</span>
+                  <span className="text-[9px] text-text-muted font-bold tracking-wider uppercase">Leads</span>
                   <h3 className="font-headers text-2xl font-black text-brand-navy mt-1">
                     {stats.conversions}
                   </h3>
@@ -243,7 +242,7 @@ export default function AdminDashboard() {
               <div className="bg-brand-orange/5 border border-brand-orange/10 p-4 rounded-xl flex items-start gap-3">
                 <ShieldAlert className="w-5 h-5 text-brand-orange shrink-0 mt-0.5" />
                 <p className="text-[11px] text-brand-navy leading-normal">
-                  <strong>Simulação Ativa:</strong> Faça um pagamento fictício na página <Link href="/premium" className="font-bold underline text-brand-orange hover:text-brand-orange/80">Premium</Link> ou clique em ofertas afiliadas nas páginas de destinos para ver estas métricas subirem em tempo real.
+                  <strong>Simulação interna:</strong> os números desta tela não abrem checkout nem consultoria. O produto público é o aplicativo.
                 </p>
               </div>
             </div>
