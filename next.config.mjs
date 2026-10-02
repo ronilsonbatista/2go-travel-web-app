@@ -24,7 +24,6 @@ const nextConfig = {
       { source: '/como-planejar-viagem-paris', destination: '/guias/como-planejar-viagem-paris', statusCode: 301 },
       { source: '/guia-de-viagem', destination: '/guias', statusCode: 301 },
       { source: '/guia-de-viagem/:slug', destination: '/guias/:slug', statusCode: 301 },
-      { source: '/quem-somos', destination: '/#quem-somos', statusCode: 301 },
       { source: '/destinos', destination: '/roteiros', permanent: true },
       { source: '/destinos/:slug', destination: '/roteiros?search=:slug', permanent: true },
       { source: '/en/destinations', destination: '/roteiros', permanent: true },

@@ -20,7 +20,63 @@ function sameCity(left, right) {
 const destinations = listDestinations();
 const guides = Object.values(destinationGuides);
 
+function guideForDestination(destination) {
+  return guides.find((guide) => sameCity(guide.city, destination.name)) || null;
+}
+
 const guideOnlyCities = guides.filter((guide) => !destinations.some((destination) => sameCity(destination.name, guide.city)));
+
+const CONTINENT_BY_COUNTRY = {
+  'França': 'Europa',
+  'Itália': 'Europa',
+  'Portugal': 'Europa',
+  'Reino Unido': 'Europa',
+  'Grécia': 'Europa',
+  'Noruega': 'Europa',
+  'Turquia': 'Europa',
+  'Europa': 'Europa',
+  'Japão': 'Ásia',
+  'Ásia': 'Ásia',
+  'Emirados Árabes Unidos': 'Ásia',
+  'Brasil': 'América do Sul',
+  'Estados Unidos': 'América do Norte'
+};
+
+function continentOf(country) {
+  return CONTINENT_BY_COUNTRY[country] || 'Outros';
+}
+
+const featuredGuides = [
+  ...destinations.map((destination) => {
+    const guide = guideForDestination(destination);
+    return {
+      name: destination.name,
+      country: destination.country,
+      continent: continentOf(destination.country),
+      img: guide?.heroImage || destination.image,
+      phrase: guide?.subtitle || destination.description,
+      link: guide ? `/guias/${guide.slug}` : '/guias'
+    };
+  }),
+  ...guideOnlyCities.map((guide) => ({
+    name: guide.city,
+    country: guide.country,
+    continent: continentOf(guide.country),
+    img: guide.heroImage,
+    phrase: guide.subtitle,
+    link: `/guias/${guide.slug}`
+  }))
+];
+
+const CONTINENT_FILTERS = [
+  { id: 'Todos', label: 'Todos' },
+  { id: 'Europa', label: '🇪🇺 Europa' },
+  { id: 'Ásia', label: '⛩️ Ásia' },
+  { id: 'América do Sul', label: '🌴 América do Sul' },
+  { id: 'América do Norte', label: '🏔️ América do Norte' },
+  { id: 'África', label: '🦁 África' },
+  { id: 'Oceania', label: '🌊 Oceania' }
+].filter((item) => item.id === 'Todos' || featuredGuides.some((guide) => guide.continent === item.id));
 
 const premiumSlides = [
   {
@@ -233,6 +289,7 @@ export default function Home() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [progress, setProgress] = useState(0);
+  const [guideContinent, setGuideContinent] = useState('Todos');
 
   // Auto transition for Hero Carousel
   useEffect(() => {
@@ -505,53 +562,71 @@ export default function Home() {
           </ScrollReveal>
         </section>
 
-        <section id="quem-somos" className="scroll-mt-24 py-16 lg:py-24 bg-[#F4F6F9] border-y border-border-gray/40">
-          <div className="container mx-auto px-4 sm:px-6 max-w-3xl w-full text-left">
-            <p className="text-[11px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">Quem somos</p>
-            <h2 className="font-headers text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy mt-3 tracking-tight leading-[1.05]">
-              Roteiros claros para a viagem.
-            </h2>
-            <p className="mt-6 text-base text-text-muted leading-relaxed">
-              A 2GO ajuda a planejar a viagem com roteiros claros no aplicativo. A tecnologia organiza o percurso. A curadoria escolhe o que vale o seu tempo.
-            </p>
-          </div>
-        </section>
-
-        <section className="py-16 lg:py-24 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 max-w-3xl w-full text-left">
-            <h2 className="font-headers text-2xl sm:text-3xl font-extrabold text-brand-navy tracking-tight">
-              O que fazemos
-            </h2>
-            <p className="mt-4 text-base text-text-muted leading-relaxed">
-              O site apresenta destinos, roteiros e o guia de viagem. No aplicativo, o roteiro fica útil no dia a dia: timeline, ajustes e mapa.
-            </p>
-          </div>
-        </section>
-
-        <section className="py-16 lg:py-24 bg-[#16357A] text-white">
-          <div className="container mx-auto px-4 sm:px-6 max-w-3xl w-full text-left">
-            <h2 className="font-headers text-2xl sm:text-3xl font-extrabold tracking-tight">
-              Por que existe
-            </h2>
-            <p className="mt-4 text-base text-white/85 leading-relaxed">
-              Menos tempo perdido pesquisando. Mais tempo no destino.
-            </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <button
-                type="button"
-                onClick={() => setIsDownloadOpen(true)}
-                className="inline-flex items-center justify-center bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold text-sm px-6 py-3.5 rounded-xl"
-              >
-                Baixar o App
-              </button>
+        <section id="destinos" className="py-12 lg:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative scroll-mt-20">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
+              <div className="text-left max-w-2xl">
+                <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
+                  Destinos em destaque
+                </span>
+                <p className="text-sm text-text-muted mt-2">
+                  Guias publicados para conhecer o destino antes de embarcar.
+                </p>
+              </div>
               <Link
-                href="/roteiros"
-                className="inline-flex items-center justify-center border border-white/40 text-white font-bold text-sm px-6 py-3.5 rounded-xl"
+                href="/guias"
+                className="text-sm font-bold text-brand-orange hover:text-[#96AB21] flex items-center gap-1 transition-colors whitespace-nowrap cursor-pointer"
               >
-                Ver roteiros
+                Ver todos &rarr;
               </Link>
             </div>
-          </div>
+
+            <div className="flex gap-3 overflow-x-auto pb-4 mb-4 custom-scrollbar-hide flex-nowrap border-b border-border-gray/30 min-w-0 max-w-full">
+              {CONTINENT_FILTERS.map((cat) => {
+                const selected = guideContinent === cat.id;
+                return (
+                  <button
+                    key={cat.id}
+                    type="button"
+                    onClick={() => setGuideContinent(cat.id)}
+                    className={`px-4 sm:px-5 py-2.5 rounded-full border text-xs sm:text-sm font-extrabold shrink-0 transition-all duration-300 shadow-sm cursor-pointer ${
+                      selected
+                        ? 'bg-brand-navy text-white border-brand-navy'
+                        : 'bg-white border-border-gray/70 text-brand-navy hover:border-[#96AB21] hover:text-[#96AB21]'
+                    }`}
+                  >
+                    {cat.label}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="flex gap-4 sm:gap-6 overflow-x-auto pb-6 custom-scrollbar-hide snap-x snap-mandatory min-w-0 max-w-full">
+              {featuredGuides
+                .filter((dest) => guideContinent === 'Todos' || dest.continent === guideContinent)
+                .map((dest) => (
+                  <Link
+                    key={`${dest.name}-${dest.country}`}
+                    href={dest.link}
+                    className="group relative h-96 w-[min(18rem,78vw)] sm:w-72 shrink-0 rounded-[24px] overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray card-premium-hover snap-start"
+                  >
+                    <img
+                      src={dest.img}
+                      alt={dest.name}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+                    <div className="absolute bottom-5 left-5 right-5 text-left text-white">
+                      <p className="text-[10px] font-extrabold tracking-wide text-brand-orange uppercase">Guia de Viagem</p>
+                      <h4 className="font-headers text-base font-extrabold text-white mt-1 group-hover:text-brand-orange transition-colors">
+                        {dest.name}, {dest.country}
+                      </h4>
+                      <p className="text-[12px] text-white/80 line-clamp-2 mt-1 leading-snug">{dest.phrase}</p>
+                    </div>
+                  </Link>
+                ))}
+            </div>
+          </ScrollReveal>
         </section>
 
         {/* 7. TESTIMONIALS */}

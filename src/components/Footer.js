@@ -51,7 +51,7 @@ export default function Footer({ onOpenDownload }) {
           <h4 className="font-headers text-base font-bold text-white mb-6">Empresa</h4>
           <ul className="flex flex-col gap-3 list-none m-0 p-0">
             <li>
-              <Link href="/#quem-somos" className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block">
+              <Link href="/quem-somos" className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block">
                 Quem somos
               </Link>
             </li>
