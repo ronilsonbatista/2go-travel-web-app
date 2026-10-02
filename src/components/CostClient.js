@@ -117,12 +117,13 @@ export default function CostClient({ destination }) {
 
               {/* Start Planner CTA */}
               <div className="mt-8">
-                <Link 
-                  href={`/planejamento/${destination.slug}`}
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="btn btn-secondary w-full py-3.5 flex items-center justify-center gap-2 cursor-pointer font-bold text-xs shadow-md shadow-brand-orange/20"
                 >
-                  Criar roteiro <Sparkles className="w-4 h-4" />
-                </Link>
+                  Baixar o App <Sparkles className="w-4 h-4" />
+                </button>
               </div>
             </div>
 

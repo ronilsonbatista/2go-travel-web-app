@@ -8,7 +8,6 @@ export default function robots() {
       disallow: [
         '/_next/',
         '/api/',
-        '/planejamento?*', // Prevent query parameters indexing
         '/private/'
       ],
     },

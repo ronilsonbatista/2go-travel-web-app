@@ -299,7 +299,7 @@ export default function BlogIndex() {
   };
 
   return (
-    <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
+    <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pt-28 pb-16">
@@ -309,16 +309,23 @@ export default function BlogIndex() {
           <Breadcrumbs items={[{ name: 'Guia de Viagem', url: '/blog' }]} />
 
           {/* 2. Compact Editorial Hero */}
-          <header className="my-6 sm:my-8 text-center max-w-3xl mx-auto">
-            <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit mx-auto font-headers">
-              Guia de viagem
+          <header className="my-6 sm:my-8 text-left max-w-3xl">
+            <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit font-headers uppercase">
+              Guia
             </span>
             <h1 className="font-headers text-3xl sm:text-4.5xl md:text-5xl font-extrabold text-brand-navy mt-3 mb-3 tracking-tight leading-tight">
-              Guia completo de viagem por destino
+              Guias de viagem para consultar antes de ir
             </h1>
-            <p className="text-xs sm:text-sm md:text-base text-text-muted max-w-2xl mx-auto leading-relaxed">
-              Encontre informações práticas, custos e conteúdos completos para planejar cada etapa da sua viagem.
+            <p className="text-sm md:text-base text-text-muted max-w-2xl leading-relaxed">
+              Moeda, bairro, custo e o que ver. O dia a dia você acompanha no aplicativo.
             </p>
+            <button
+              type="button"
+              onClick={() => setIsDownloadOpen(true)}
+              className="mt-5 inline-flex items-center justify-center bg-brand-navy text-white font-extrabold text-sm px-6 py-3.5 rounded-xl"
+            >
+              Baixar o App
+            </button>
           </header>
 
           {/* 3. Search Input */}

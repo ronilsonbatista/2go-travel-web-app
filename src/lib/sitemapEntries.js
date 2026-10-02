@@ -27,12 +27,11 @@ export function buildSitemapEntries({
 }) {
   const staticRoutes = [
     '',
-    '/premium',
     '/app',
     '/roteiros',
     '/quanto-custa',
     '/blog',
-    '/planejamento',
+    '/quem-somos',
     '/checklist-viagem',
     '/documentos-portugal',
     '/seguro-viagem',
@@ -49,7 +48,6 @@ export function buildSitemapEntries({
     ...staticRoutes,
     ...itineraries.map((itinerary) => `/roteiros/${itinerary.slug}`),
     ...destinations.map((destination) => `/quanto-custa/${destination.slug}`),
-    ...destinations.map((destination) => `/planejamento/${destination.slug}`),
     ...destinations.map((destination) => `/o-que-fazer/${destination.slug}`),
     ...destinations.map((destination) => `/melhor-epoca/${destination.slug}`),
     ...[...blogSlugs].map((slug) => `/blog/${slug}`),

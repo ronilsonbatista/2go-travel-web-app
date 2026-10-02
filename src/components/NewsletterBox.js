@@ -57,7 +57,7 @@ export default function NewsletterBox({ destinationName = '' }) {
           Receba roteiros e guias inéditos no seu e-mail
         </h3>
         <p className="text-xs text-white/70 leading-relaxed max-w-md">
-          Inscreva-se gratuitamente para receber curadorias de viagem mensais, comparativos de custos e dicas de especialistas locais.
+          Inscreva-se para receber guias de destino e comparativos de custo. O planejamento do dia a dia fica no app.
         </p>
       </div>
 

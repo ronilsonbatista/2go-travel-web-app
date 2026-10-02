@@ -191,30 +191,18 @@ export default function BestTimeClient({ destination }) {
               <div className="bg-brand-navy text-white p-6 rounded-[24px] shadow-sm flex flex-col gap-4">
                 <Sparkles className="w-8 h-8 text-brand-orange animate-pulse" />
                 <div>
-                  <h4 className="font-headers font-bold text-sm">Gostou das dicas?</h4>
+                  <h4 className="font-headers font-bold text-sm">Escolha a época e siga no app</h4>
                   <p className="text-[11px] text-white/70 mt-1 leading-normal">
-                    Selecione a data da sua viagem no nosso planejador e receba um roteiro personalizado que se adapta ao clima da época.
+                    Use estas datas como referência. A timeline da viagem fica no aplicativo.
                   </p>
                 </div>
-                <Link 
-                  href={`/planejamento/${destination.slug}`}
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="btn btn-secondary py-3 text-xs justify-center font-bold text-center w-full bg-brand-orange text-white hover:bg-white hover:text-brand-navy transition-all"
                 >
-                  Criar roteiro
-                </Link>
-              </div>
-
-              {/* Support consulting */}
-              <div className="bg-white border border-border-gray p-6 rounded-[24px] shadow-sm flex flex-col gap-3">
-                <span className="text-[8.5px] font-extrabold text-brand-orange tracking-wide font-headers">Consultoria Personalizada</span>
-                <h4 className="font-headers font-bold text-brand-navy text-sm leading-tight">Deseja uma viagem sob medida?</h4>
-                <p className="text-[11px] text-text-muted leading-relaxed">Fale com um especialista da 2GO para planejar a viagem considerando a melhor época.</p>
-                <Link 
-                  href="/consultoria-personalizada"
-                  className="btn btn-outline py-2.5 text-xs text-center justify-center font-bold mt-2"
-                >
-                  Falar com especialista
-                </Link>
+                  Baixar o App
+                </button>
               </div>
 
             </div>

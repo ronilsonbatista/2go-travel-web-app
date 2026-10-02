@@ -4,10 +4,10 @@ import RoteirosClient from '@/components/RoteirosClient';
 
 export const metadata = {
   title: 'Roteiros de Viagem Personalizados e Otimizados | 2GO Roteiros',
-  description: 'Explore nossos roteiros de viagem prontos e detalhados para Paris, Roma, Lisboa, Londres e Tóquio. Economize tempo com planejamentos completos.',
+  description: 'Veja exemplos de roteiros no site. Timeline, mapa e ajustes ficam no aplicativo 2GO.',
   openGraph: {
     title: 'Roteiros de Viagem Personalizados e Otimizados | 2GO Roteiros',
-    description: 'Explore nossos roteiros de viagem prontos e detalhados para Paris, Roma, Lisboa, Londres e Tóquio. Economize tempo com planejamentos completos.',
+    description: 'Veja exemplos de roteiros no site. Timeline, mapa e ajustes ficam no aplicativo 2GO.',
     type: 'website',
   }
 };

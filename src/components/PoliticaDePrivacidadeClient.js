@@ -30,7 +30,7 @@ export default function PoliticaDePrivacidadeClient() {
               <section className="flex flex-col gap-2">
                 <h2 className="font-headers text-base sm:text-lg font-bold text-brand-navy">1. Coleta de Informações</h2>
                 <p>
-                  A 2GO Roteiros preza pela privacidade dos seus usuários. Coletamos dados fornecidos voluntariamente durante a navegação, simulação de roteiros ou preenchimento de formulários de consultoria (como nome, e-mail, WhatsApp e preferências de viagem).
+                  A 2GO Roteiros preza pela privacidade dos seus usuários. Coletamos dados fornecidos voluntariamente durante a navegação e o uso do aplicativo (como nome, e-mail e preferências de viagem).
                 </p>
               </section>
 
@@ -44,7 +44,7 @@ export default function PoliticaDePrivacidadeClient() {
               <section className="flex flex-col gap-2">
                 <h2 className="font-headers text-base sm:text-lg font-bold text-brand-navy">3. Compartilhamento de Dados</h2>
                 <p>
-                  Não vendemos nem comercializamos dados de usuários a terceiros. As informações de consultoria são acessadas unicamente pela equipe autorizada da 2GO para a prestação do atendimento solicitado.
+                  Não vendemos nem comercializamos dados de usuários a terceiros. As informações da conta são acessadas unicamente pela equipe autorizada da 2GO para operar o aplicativo e o site.
                 </p>
               </section>
 

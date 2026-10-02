@@ -92,12 +92,49 @@ export default function RoteirosClient({ itineraries = [], initialSearch = '' })
               Exemplos de roteiros
             </span>
             <h1 className="font-headers text-3xl sm:text-5xl font-extrabold text-brand-navy mt-4 mb-4 tracking-tight break-words">
-              Roteiros Completos para se Inspirar
+              Seus roteiros ganham vida no app
             </h1>
             <p className="text-sm sm:text-base text-text-muted max-w-2xl leading-relaxed">
-              Explore roteiros dia a dia reais e otimizados. Use como inspiração para planejar a sua própria rota na 2GO.
+              Estes exemplos são uma prévia. Planejamento, timeline, mapa e ajustes ficam no aplicativo.
             </p>
+            <button
+              type="button"
+              onClick={() => setIsDownloadOpen(true)}
+              className="mt-5 inline-flex items-center justify-center bg-brand-navy hover:bg-brand-navy/90 text-white font-extrabold text-sm px-6 py-3.5 rounded-xl"
+            >
+              Baixar o App
+            </button>
           </header>
+
+          <section className="my-8 bg-white border border-border-gray rounded-[28px] p-5 sm:p-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div className="text-left">
+                <p className="text-[11px] font-extrabold tracking-wide text-brand-orange">Prints do aplicativo</p>
+                <h2 className="font-headers text-2xl sm:text-3xl font-extrabold text-brand-navy mt-2">
+                  Da próxima viagem ao dia a dia
+                </h2>
+                <p className="text-sm text-text-muted mt-3 leading-relaxed max-w-md">
+                  A home mostra a viagem que vem. O roteiro abre o dia, o horário e o mapa. Você ajusta tudo no app.
+                </p>
+              </div>
+              <div className="flex items-end justify-center gap-3 sm:gap-5">
+                <img
+                  src="/assets/app-home-gustavo.webp"
+                  alt="Tela inicial do app 2GO com a próxima viagem"
+                  width={390}
+                  height={1474}
+                  className="h-[280px] sm:h-[420px] w-auto rounded-[24px] border border-border-gray shadow-md object-cover object-top bg-white"
+                />
+                <img
+                  src="/assets/app-roteiro-roma.webp"
+                  alt="Timeline do roteiro de Roma no app 2GO"
+                  width={202}
+                  height={856}
+                  className="h-[280px] sm:h-[420px] w-auto rounded-[24px] border border-border-gray shadow-md object-cover object-top bg-white"
+                />
+              </div>
+            </div>
+          </section>
 
           {/* Search Bar Input */}
           <div className="my-4 relative w-full min-w-0">
@@ -120,19 +157,19 @@ export default function RoteirosClient({ itineraries = [], initialSearch = '' })
                 Destinos encontrados
               </span>
               <p className="text-xs text-text-muted">
-                Deseja criar um roteiro personalizado do seu jeito para um destes destinos? Clique para iniciar o planejador:
+                A prévia fica nesta página. O dia a dia desses destinos fica no aplicativo.
               </p>
               <div className="flex flex-wrap gap-3">
                 {matchingDests.map((dest) => (
-                  <Link
+                  <button
                     key={dest.slug}
-                    href={`/planejamento?destino=${encodeURIComponent(dest.slug)}&step=2`}
-                    className="inline-flex items-center gap-2 bg-white border border-border-gray hover:border-[#96AB21] hover:bg-[#96AB21]/5 text-xs font-bold text-brand-navy px-4.5 py-2.5 rounded-xl transition-all shadow-xs group/link cursor-pointer hover:scale-[1.01] active:scale-95 animate-fade-in"
+                    type="button"
+                    onClick={() => setIsDownloadOpen(true)}
+                    className="inline-flex items-center gap-2 bg-white border border-border-gray hover:border-[#96AB21] hover:bg-[#96AB21]/5 text-xs font-bold text-brand-navy px-4.5 py-2.5 rounded-xl transition-all shadow-xs cursor-pointer"
                   >
                     <span>{dest.emoji}</span>
-                    <span>Criar roteiro para {dest.name}</span>
-                    <ArrowRight className="w-3.5 h-3.5 text-[#96AB21] transform group-hover/link:translate-x-0.5 transition-transform" />
-                  </Link>
+                    <span>Baixar o App para {dest.name}</span>
+                  </button>
                 ))}
               </div>
             </div>
@@ -241,20 +278,21 @@ export default function RoteirosClient({ itineraries = [], initialSearch = '' })
           {filteredItineraries.length === 0 && (
             <div className="bg-white border border-border-gray rounded-[28px] p-8 sm:p-12 text-center my-10 flex flex-col items-center max-w-xl mx-auto shadow-sm animate-fade-in-up">
               <Sparkles className="w-12 h-12 text-brand-orange/30 mb-5 animate-pulse" />
-              <h3 className="font-headers text-xl sm:text-2xl font-bold text-brand-navy">Ainda não temos esse roteiro pronto.</h3>
-              <p className="text-xs sm:text-sm text-text-muted mt-3 leading-relaxed max-w-md">Mas a 2GO pode montar um roteiro personalizado para esse destino em poucos passos.</p>
+              <h3 className="font-headers text-xl sm:text-2xl font-bold text-brand-navy">Ainda não temos esse exemplo no site.</h3>
+              <p className="text-xs sm:text-sm text-text-muted mt-3 leading-relaxed max-w-md">O aplicativo monta o dia a dia quando o destino entra na sua viagem.</p>
               <div className="mt-8 flex flex-col sm:flex-row gap-3 w-full items-center justify-center">
-                <Link
-                  href={`/planejamento?destino=${encodeURIComponent(searchQuery.trim().toLowerCase())}&step=2`}
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="bg-[#96AB21] hover:bg-[#85981D] text-brand-navy font-extrabold px-6 py-3.5 rounded-xl transition-all shadow-sm hover:scale-[1.01] active:scale-95 text-xs flex items-center justify-center gap-1.5 cursor-pointer w-full sm:w-auto"
                 >
-                  <span>Planejar minha viagem para {displayDestName}</span>
+                  <span>Baixar o App{displayDestName ? ` e ver ${displayDestName}` : ''}</span>
                   <ArrowRight className="w-4 h-4 shrink-0" />
-                </Link>
+                </button>
                 <button
                   onClick={() => {
                     setSearchQuery('');
-                    setSelectedDest('todos');
+                    setSelectedDest('Todos');
                   }}
                   className="bg-transparent border border-border-gray hover:border-brand-navy/30 text-brand-navy font-bold px-6 py-3.5 rounded-xl transition-all hover:scale-[1.01] active:scale-95 text-xs flex items-center justify-center cursor-pointer w-full sm:w-auto"
                 >

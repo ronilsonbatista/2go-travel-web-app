@@ -586,11 +586,11 @@ export default function ItineraryClient({ itinerary, destination }) {
                     <Smartphone className="w-4 h-4" />
                     <span>Baixar o App</span>
                   </button>
-                  <Link 
-                    href={`/planejamento?destino=${itinerary.destinationSlug}`}
+                  <Link
+                    href="/roteiros"
                     className="btn border border-white/30 text-white bg-white/10 hover:bg-white/20 py-3.5 px-6 rounded-xl transition-all text-xs flex items-center justify-center gap-2 cursor-pointer font-headers w-full"
                   >
-                    <span>Criar roteiro</span>
+                    <span>Ver roteiros</span>
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>

@@ -23,7 +23,7 @@ export default function Footer({ onOpenDownload }) {
             />
           </Link>
           <p className="text-sm text-text-muted leading-relaxed max-w-[280px]">
-            A plataforma definitiva para planejar, estruturar e vivenciar experiências de viagens personalizadas de alto padrão.
+            Destinos e guias para inspirar. O dia a dia da viagem fica no aplicativo.
           </p>
           <div className="flex gap-4">
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-border-gray text-brand-navy flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:bg-brand-orange/5 hover:-translate-y-0.5" aria-label="Instagram">
@@ -61,8 +61,8 @@ export default function Footer({ onOpenDownload }) {
               </Link>
             </li>
             <li>
-              <Link href="/consultoria-personalizada" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Contato
+              <Link href="/roteiros" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
+                Roteiros
               </Link>
             </li>
           </ul>
@@ -73,18 +73,17 @@ export default function Footer({ onOpenDownload }) {
           <h4 className="font-headers text-base font-bold text-brand-navy mb-6">Serviços</h4>
           <ul className="flex flex-col gap-3 list-none m-0 p-0">
             <li>
-              <Link href="/planejamento" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Criar roteiro
-              </Link>
+              <button
+                type="button"
+                onClick={onOpenDownload}
+                className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block"
+              >
+                Baixar App
+              </button>
             </li>
             <li>
-              <Link href="/roteiros" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Roteiros
-              </Link>
-            </li>
-            <li>
-              <Link href="/consultoria-personalizada" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Consultoria Personalizada
+              <Link href="/blog" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
+                Guia
               </Link>
             </li>
           </ul>

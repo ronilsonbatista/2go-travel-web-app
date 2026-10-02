@@ -137,7 +137,7 @@ export default function Perfil() {
               <span className="font-headers text-2.5xl font-black text-brand-navy mt-1">{favoriteItineraries.length + favoriteDestinations.length}</span>
             </div>
             <div className="bg-white border border-border-gray p-5 rounded-2xl shadow-xs text-center flex flex-col justify-center">
-              <span className="text-[10px] text-text-muted font-bold tracking-wider uppercase">Consultorias Ativas</span>
+              <span className="text-[10px] text-text-muted font-bold tracking-wider uppercase">No aplicativo</span>
               <span className="font-headers text-2.5xl font-black text-brand-orange mt-1">01 ✉️</span>
             </div>
             <div className="bg-white border border-border-gray p-5 rounded-2xl shadow-xs text-center flex flex-col justify-center">
@@ -179,10 +179,10 @@ export default function Perfil() {
                         
                         <div className="flex gap-2 w-full sm:w-auto justify-end">
                           <Link
-                            href={`/planejamento?destino=${it.slug}&step=2`}
+                            href={`/roteiros/${it.slug}`}
                             className="bg-brand-navy hover:bg-brand-orange text-white text-[10px] font-bold px-4 py-2.5 rounded-xl transition-all flex items-center gap-1 cursor-pointer"
                           >
-                            Abrir Roteiro Completo <ArrowRight className="w-3.5 h-3.5" />
+                            Ver roteiro <ArrowRight className="w-3.5 h-3.5" />
                           </Link>
                         </div>
                       </div>
@@ -192,7 +192,7 @@ export default function Perfil() {
                   <div className="text-center py-8 text-text-muted flex flex-col items-center justify-center gap-2">
                     <Lock className="w-10 h-10 text-text-muted/65" />
                     <p className="text-xs">Você ainda não comprou ou desbloqueou nenhum roteiro completo.</p>
-                    <Link href="/planejamento" className="text-xs font-bold text-brand-orange hover:underline mt-1">Criar e Desbloquear Roteiro</Link>
+                    <button type="button" onClick={() => setIsDownloadOpen(true)} className="text-xs font-bold text-brand-orange hover:underline mt-1">Baixar o App</button>
                   </div>
                 )}
               </section>

@@ -140,19 +140,19 @@ export default function GuideArticleClient({ guide }) {
             </p>
 
             <div className="flex flex-col sm:flex-row flex-wrap gap-3 mt-6">
-              <Link
-                href={`/planejamento?destination=${encodeURIComponent(guide.city)}`}
-                className="inline-flex items-center justify-center bg-brand-navy hover:bg-brand-navy/90 text-white font-extrabold text-sm px-6 py-3.5 rounded-xl shadow-sm transition-all"
-              >
-                Criar roteiro
-              </Link>
               <button
                 type="button"
                 onClick={() => setIsDownloadOpen(true)}
-                className="inline-flex items-center justify-center border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-white font-bold text-sm px-6 py-3.5 rounded-xl transition-all"
+                className="inline-flex items-center justify-center bg-brand-navy hover:bg-brand-navy/90 text-white font-extrabold text-sm px-6 py-3.5 rounded-xl shadow-sm transition-all"
               >
                 Baixar o App
               </button>
+              <Link
+                href="/roteiros"
+                className="inline-flex items-center justify-center border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-white font-bold text-sm px-6 py-3.5 rounded-xl transition-all"
+              >
+                Ver roteiros
+              </Link>
             </div>
 
             <div className="flex flex-wrap gap-2 mt-5">
@@ -205,18 +205,19 @@ export default function GuideArticleClient({ guide }) {
               {/* Sidebar Contextual CTA */}
               <div className="mt-6 pt-4 border-t border-border-gray/40 text-left">
                 <span className="text-[10px] font-extrabold text-brand-orange uppercase block mb-1">
-                  PLANEJAMENTO 2GO
+                  No aplicativo
                 </span>
                 <p className="text-xs text-brand-navy font-bold mb-3 leading-snug">
-                  Crie seu roteiro personalizado para {guide.city} em poucos segundos.
+                  A timeline, o mapa e os ajustes de {guide.city} ficam no app.
                 </p>
-                <Link
-                  href={`/planejamento?destination=${encodeURIComponent(guide.city)}`}
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="bg-brand-navy hover:bg-brand-navy/90 text-white font-extrabold text-xs py-2.5 px-4 rounded-xl w-full flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer"
                 >
-                  <span>Criar roteiro para {guide.city}</span>
+                  <span>Baixar o App</span>
                   <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
+                </button>
               </div>
             </aside>
 
@@ -626,21 +627,22 @@ export default function GuideArticleClient({ guide }) {
               {/* CONTEXTUAL CTA */}
               <div className="bg-brand-navy text-white rounded-[32px] p-8 sm:p-12 text-center shadow-md my-12">
                 <span className="text-[10px] font-extrabold text-brand-orange uppercase tracking-widest block mb-2 font-headers">
-                  PLANEJAMENTO PERSONALIZADO 2GO
+                  Leve {guide.city} no app
                 </span>
                 <h3 className="font-headers text-2xl sm:text-3.5xl font-extrabold mb-4 leading-tight">
-                  Criar roteiro para {guide.city}
+                  O dia a dia fica no aplicativo
                 </h3>
                 <p className="text-xs sm:text-sm text-white/80 max-w-xl mx-auto mb-6 leading-relaxed font-body">
-                  Organize cada dia da sua viagem para {guide.city} de acordo com seu ritmo, orçamento e preferências.
+                  Este guia é a prévia. Timeline, mapa e ajustes da viagem para {guide.city} você acompanha no app.
                 </p>
-                <Link
-                  href={`/planejamento?destination=${encodeURIComponent(guide.city)}`}
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
                   className="bg-brand-orange hover:bg-brand-orange/90 text-white font-extrabold text-sm py-4 px-8 rounded-2xl inline-flex items-center gap-2 transition-all shadow-sm hover:scale-[1.02] cursor-pointer"
                 >
-                  <span>Criar roteiro para {guide.city}</span>
+                  <span>Baixar o App</span>
                   <ArrowRight className="w-4 h-4" />
-                </Link>
+                </button>
               </div>
 
             </div>
