@@ -206,6 +206,19 @@ body {
 }
 
 /* Custom Keyframe Animation for Floating Button Pulse Scale */
+@keyframes guideKen {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+
+.guide-ken {
+  animation: guideKen 8.5s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .guide-ken { animation: none; }
+}
+
 @keyframes softScale {
   0%, 100% {
     transform: scale(1);

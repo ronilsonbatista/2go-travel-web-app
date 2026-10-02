@@ -36,10 +36,98 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
 
+const LOCAL_FRAMES = {
+  paris: [
+    '/images/destinations/paris/paris-eiffel-seine.jpg',
+    '/images/destinations/paris/paris-louvre.jpg',
+    '/images/destinations/paris/paris-notre-dame.jpg',
+    '/images/destinations/paris/paris-1.jpg',
+    '/images/destinations/paris/paris-2.jpg',
+    '/images/destinations/paris/paris-3.jpg'
+  ],
+  'nova-york': [
+    '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg',
+    '/images/destinations/nova-york/nova-york-empire-state.jpg',
+    '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg',
+    '/images/destinations/nova-york/nova-york-1.jpg',
+    '/images/destinations/nova-york/nova-york-2.jpg',
+    '/images/destinations/nova-york/nova-york-3.jpg'
+  ],
+  toquio: [
+    '/images/destinations/toquio/toquio-tokyo-tower.jpg',
+    '/images/destinations/toquio/toquio-sensoji.jpg',
+    '/images/destinations/toquio/toquio-shibuya-crossing.jpg',
+    '/images/destinations/toquio/toquio-1.jpg',
+    '/images/destinations/toquio/toquio-2.jpg',
+    '/images/destinations/toquio/toquio-3.jpg'
+  ],
+  londres: [
+    '/images/destinations/londres/londres-big-ben.jpg',
+    '/images/destinations/londres/londres-tower-bridge.jpg',
+    '/images/destinations/londres/londres-buckingham-palace.jpg',
+    '/images/destinations/londres/londres-1.jpg',
+    '/images/destinations/londres/londres-2.jpg',
+    '/images/destinations/londres/londres-3.jpg'
+  ],
+  roma: [
+    '/images/destinations/roma/roma-coliseu.jpg',
+    '/images/destinations/roma/roma-fontana-trevi.jpg',
+    '/images/destinations/roma/roma-vaticano.jpg',
+    '/images/destinations/roma/roma-1.jpg',
+    '/images/destinations/roma/roma-2.jpg',
+    '/images/destinations/roma/roma-3.jpg'
+  ],
+  istambul: [
+    '/images/destinations/istambul/istambul-hagia-sophia.jpg',
+    '/images/destinations/istambul/istambul-mesquita-azul.jpg',
+    '/images/destinations/istambul/istambul-bosforo.jpg',
+    '/images/destinations/istambul/istambul-1.jpg',
+    '/images/destinations/istambul/istambul-2.jpg',
+    '/images/destinations/istambul/istambul-3.jpg'
+  ],
+  dubai: [
+    '/images/destinations/dubai/dubai-burj-khalifa.jpg',
+    '/images/destinations/dubai/dubai-marina.jpg',
+    '/images/destinations/dubai/dubai-burj-al-arab.jpg',
+    '/images/destinations/dubai/dubai-1.jpg',
+    '/images/destinations/dubai/dubai-2.jpg',
+    '/images/destinations/dubai/dubai-3.jpg'
+  ]
+};
+
+function framesFor(guide) {
+  const listed = (guide.images || [])
+    .map((image) => (typeof image === 'string' ? image : image?.url))
+    .filter(Boolean);
+  const folder = (guide.heroImage || '').split('/')[3];
+  const unique = [];
+  for (const src of [guide.heroImage, ...listed, ...(LOCAL_FRAMES[folder] || [])]) {
+    if (src && !unique.includes(src)) unique.push(src);
+  }
+  return unique;
+}
+
 export default function GuideArticleClient({ guide }) {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('introducao');
   const [openFaqIdx, setOpenFaqIdx] = useState(null);
+  const [frameIndex, setFrameIndex] = useState(0);
+  const frames = framesFor(guide || {});
+
+  useEffect(() => {
+    setFrameIndex(0);
+  }, [guide?.slug]);
+
+  useEffect(() => {
+    if (frames.length < 2) return undefined;
+    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (media.matches) return undefined;
+    const total = frames.length;
+    const id = setInterval(() => {
+      setFrameIndex((current) => (current + 1) % total);
+    }, 5200);
+    return () => clearInterval(id);
+  }, [guide?.slug, frames.length]);
 
   const sectionsList = [
     { id: 'introducao', label: '1. Introdução' },
@@ -103,60 +191,63 @@ export default function GuideArticleClient({ guide }) {
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
       <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
-      <main className="flex-grow pt-28 pb-20">
-        <div className="container mx-auto px-4 sm:px-6 max-w-[1440px] w-full text-left">
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
-            <Breadcrumbs 
+      <main className="flex-grow pb-20">
+        <section className="relative mt-[64px] lg:mt-[78px] h-[calc(100svh-64px)] lg:h-[calc(100svh-78px)] min-h-[620px] overflow-hidden bg-[#0b1220]">
+          {frames.map((src, index) => (
+            <img
+              key={src}
+              src={src}
+              alt=""
+              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-[1400ms] ease-in-out ${
+                index === frameIndex ? 'opacity-100 guide-ken' : 'opacity-0'
+              }`}
+            />
+          ))}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/25" />
+          <div className="relative z-10 flex h-full flex-col justify-end">
+            <div className="container mx-auto w-full max-w-[1440px] px-4 pb-10 text-left text-white sm:px-6 sm:pb-14">
+              <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <p className="text-xs font-semibold text-white/80">
+                  <Link href="/" className="hover:text-white">Home</Link>
+                  <span className="mx-2 text-white/40">/</span>
+                  <Link href="/guias" className="hover:text-white">Guia de Viagem</Link>
+                  <span className="mx-2 text-white/40">/</span>
+                  <span>{guide.city}</span>
+                </p>
+                <Link href="/guias" className="inline-flex items-center gap-1.5 text-xs font-bold text-white/90 hover:text-white">
+                  <ArrowLeft className="w-3.5 h-3.5" /> Voltar ao Guia de Viagem
+                </Link>
+              </div>
+              <p className="text-[11px] font-extrabold tracking-[0.18em] text-white/70 uppercase">Guia de Viagem</p>
+              <h1 className="font-headers mt-3 max-w-4xl text-6xl font-extrabold leading-[0.9] tracking-tight text-white sm:text-7xl md:text-8xl">
+                {guide.city}
+              </h1>
+              <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/85 sm:text-base">
+                {guide.subtitle}
+              </p>
+              <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
+                <button
+                  type="button"
+                  onClick={() => setIsDownloadOpen(true)}
+                  className="inline-flex items-center justify-center rounded-xl bg-white px-6 py-3.5 text-sm font-extrabold text-brand-navy"
+                >
+                  Baixar o App
+                </button>
+                <p className="text-xs font-semibold text-white/80">
+                  {guide.currency} · {guide.language}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="sr-only">
+            <Breadcrumbs
               items={[
                 { name: 'Guia de Viagem', url: '/guias' },
                 { name: guide.city, url: `/guias/${guide.slug}` }
-              ]} 
+              ]}
             />
-            <Link 
-              href="/guias" 
-              className="text-xs font-bold text-brand-orange hover:underline flex items-center gap-1.5 shrink-0 cursor-pointer"
-            >
-              <ArrowLeft className="w-3.5 h-3.5" /> Voltar ao Guia de Viagem
-            </Link>
           </div>
-
-          <header className="mb-8 max-w-4xl text-left">
-            <p className="text-[11px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">Guia de Viagem</p>
-            <h1 className="font-headers text-5xl sm:text-7xl md:text-8xl font-extrabold text-brand-navy mt-3 tracking-tight leading-[0.92]">
-              {guide.city}
-            </h1>
-            <p className="text-sm sm:text-base md:text-lg text-text-muted leading-relaxed max-w-2xl font-body mt-4">
-              {guide.subtitle}
-            </p>
-            <button
-              type="button"
-              onClick={() => setIsDownloadOpen(true)}
-              className="mt-6 inline-flex items-center justify-center bg-brand-navy hover:bg-brand-navy/90 text-white font-extrabold text-sm px-6 py-3.5 rounded-xl shadow-sm transition-all"
-            >
-              Baixar o App
-            </button>
-            <div className="flex flex-wrap gap-2 mt-5">
-              <span className="inline-flex items-center gap-2 bg-[#F4F6F9] text-brand-navy text-xs font-semibold px-4 py-2 rounded-full">
-                <Coins className="w-3.5 h-3.5 text-brand-orange" />
-                Moeda
-                <span className="font-extrabold">{guide.currency}</span>
-              </span>
-              <span className="inline-flex items-center gap-2 bg-[#F4F6F9] text-brand-navy text-xs font-semibold px-4 py-2 rounded-full">
-                <Globe className="w-3.5 h-3.5 text-brand-navy" />
-                Idioma
-                <span className="font-extrabold">{guide.language}</span>
-              </span>
-            </div>
-          </header>
-        </div>
-
-        <div className="w-full h-[42vh] min-h-[240px] sm:h-[58vh] sm:min-h-[380px] max-h-[720px] overflow-hidden bg-bg-light">
-          <img
-            src={guide.heroImage}
-            alt={guide.city}
-            className="w-full h-full object-cover"
-          />
-        </div>
+        </section>
 
         <div className="container mx-auto px-4 sm:px-6 max-w-[1440px] w-full text-left mt-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">

@@ -9,17 +9,21 @@ import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
 import { matchesSearch } from '@/lib/searchHelper';
 
-function PhoneShot({ src, alt, tilt = '' }) {
+function HeroPhone({ src, alt }) {
   return (
-    <div className={`w-[168px] sm:w-[196px] ${tilt}`}>
-      <div className="rounded-[2.15rem] bg-[#12151c] p-[7px] shadow-[0_22px_40px_rgba(8,27,107,0.16)] ring-1 ring-black/20">
-        <div className="relative aspect-[9/19.5] overflow-hidden rounded-[1.65rem] bg-[#0b0d12]">
-          <img
-            src={src}
-            alt={alt}
-            className="h-full w-full object-cover object-top"
-          />
-          <div className="pointer-events-none absolute left-1/2 top-2 z-10 h-[18px] w-[68px] -translate-x-1/2 rounded-full bg-black shadow-[inset_0_0_0_1px_rgba(255,255,255,0.08)]" />
+    <div className="relative mx-auto w-[232px] sm:w-[280px] lg:w-[300px]">
+      <div className="pointer-events-none absolute -bottom-8 left-1/2 h-10 w-[72%] -translate-x-1/2 rounded-full bg-[#081B6B]/20 blur-2xl" />
+      <span className="pointer-events-none absolute -left-[3px] top-[18%] h-7 w-[3px] rounded-l-sm bg-gradient-to-b from-[#c5cad3] to-[#5c6370]" />
+      <span className="pointer-events-none absolute -left-[3px] top-[27%] h-11 w-[3px] rounded-l-sm bg-gradient-to-b from-[#c5cad3] to-[#5c6370]" />
+      <span className="pointer-events-none absolute -left-[3px] top-[38%] h-11 w-[3px] rounded-l-sm bg-gradient-to-b from-[#c5cad3] to-[#5c6370]" />
+      <span className="pointer-events-none absolute -right-[3px] top-[26%] h-16 w-[3px] rounded-r-sm bg-gradient-to-b from-[#e8ebf0] to-[#6a7180]" />
+      <div className="relative rounded-[2.7rem] bg-gradient-to-br from-[#d7dbe3] via-[#8b909b] to-[#2a2e36] p-[1.5px] shadow-[0_28px_50px_rgba(8,27,107,0.22),0_10px_18px_rgba(0,0,0,0.16)]">
+        <div className="rounded-[2.6rem] bg-gradient-to-b from-[#2a2f3a] to-[#0e1116] p-[11px]">
+          <div className="relative aspect-[9/19.5] overflow-hidden rounded-[1.9rem] bg-black shadow-[inset_0_0_0_1px_rgba(255,255,255,0.16)]">
+            <img src={src} alt={alt} className="h-full w-full object-cover object-top" />
+            <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white/20 to-transparent" />
+            <div className="pointer-events-none absolute left-1/2 top-2.5 z-10 h-[22px] w-[88px] -translate-x-1/2 rounded-full bg-black shadow-[inset_0_0_0_1px_rgba(255,255,255,0.14)]" />
+          </div>
         </div>
       </div>
     </div>
@@ -124,8 +128,8 @@ export default function RoteirosClient({ itineraries = [], initialSearch = '' })
           </header>
 
           <section className="my-8 bg-white border border-border-gray rounded-[28px] p-5 sm:p-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              <div className="text-left">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+              <div className="lg:col-span-6 text-left">
                 <p className="text-[11px] font-extrabold tracking-wide text-brand-orange">Prints do aplicativo</p>
                 <h2 className="font-headers text-2xl sm:text-3xl font-extrabold text-brand-navy mt-2">
                   Da próxima viagem ao dia a dia
@@ -134,16 +138,10 @@ export default function RoteirosClient({ itineraries = [], initialSearch = '' })
                   A home mostra a viagem que vem. O roteiro abre o dia, o horário e o mapa. Você ajusta tudo no app.
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center gap-6 sm:flex-row sm:items-end sm:gap-5">
-                <PhoneShot
+              <div className="lg:col-span-6 flex justify-center lg:justify-end py-6 lg:py-2">
+                <HeroPhone
                   src="/assets/app-home-gustavo.webp"
-                  alt="Tela inicial do app 2GO com a próxima viagem"
-                  tilt="sm:-rotate-[2deg]"
-                />
-                <PhoneShot
-                  src="/assets/app-roteiro-roma.webp"
-                  alt="Timeline do roteiro de Roma no app 2GO"
-                  tilt="sm:rotate-[2deg]"
+                  alt="Tela inicial do app 2GO, com a próxima viagem para Roma"
                 />
               </div>
             </div>
