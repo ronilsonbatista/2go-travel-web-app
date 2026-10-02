@@ -509,27 +509,48 @@ export default function Home() {
           <div className="container mx-auto px-4 sm:px-6 max-w-3xl w-full text-left">
             <p className="text-[11px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">Quem somos</p>
             <h2 className="font-headers text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy mt-3 tracking-tight leading-[1.05]">
-              Vinte abas abertas não são um plano.
+              Roteiros claros para a viagem.
             </h2>
             <p className="mt-6 text-base text-text-muted leading-relaxed">
-              A 2GO começou de um hábito conhecido: mapa numa aba, museu na outra, horário de trem numa terceira, e o dia ainda sem ordem. A gente existe para fechar isso.
+              A 2GO ajuda a planejar a viagem com roteiros claros no aplicativo. A tecnologia organiza o percurso. A curadoria escolhe o que vale o seu tempo.
             </p>
           </div>
         </section>
 
         <section className="py-16 lg:py-24 bg-white">
           <div className="container mx-auto px-4 sm:px-6 max-w-3xl w-full text-left">
-            <p className="text-base text-text-muted leading-relaxed">
-              O site mostra o lugar. O aplicativo coloca a manhã, o deslocamento e o que ainda cabe antes do jantar. A inteligência sugere a sequência. Você muda o que não combina com o seu ritmo e leva o dia no bolso, mesmo sem sinal.
+            <h2 className="font-headers text-2xl sm:text-3xl font-extrabold text-brand-navy tracking-tight">
+              O que fazemos
+            </h2>
+            <p className="mt-4 text-base text-text-muted leading-relaxed">
+              O site apresenta destinos, roteiros e o guia de viagem. No aplicativo, o roteiro fica útil no dia a dia: timeline, ajustes e mapa.
             </p>
           </div>
         </section>
 
         <section className="py-16 lg:py-24 bg-[#16357A] text-white">
           <div className="container mx-auto px-4 sm:px-6 max-w-3xl w-full text-left">
-            <p className="text-xl sm:text-2xl font-headers font-bold leading-snug">
-              Paris às nove, o próximo passo quando o metrô atrasa, o mapa quando a rua some. É isso que a gente quer na sua mão.
+            <h2 className="font-headers text-2xl sm:text-3xl font-extrabold tracking-tight">
+              Por que existe
+            </h2>
+            <p className="mt-4 text-base text-white/85 leading-relaxed">
+              Menos tempo perdido pesquisando. Mais tempo no destino.
             </p>
+            <div className="mt-8 flex flex-col sm:flex-row gap-3">
+              <button
+                type="button"
+                onClick={() => setIsDownloadOpen(true)}
+                className="inline-flex items-center justify-center bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold text-sm px-6 py-3.5 rounded-xl"
+              >
+                Baixar o App
+              </button>
+              <Link
+                href="/roteiros"
+                className="inline-flex items-center justify-center border border-white/40 text-white font-bold text-sm px-6 py-3.5 rounded-xl"
+              >
+                Ver roteiros
+              </Link>
+            </div>
           </div>
         </section>
 
