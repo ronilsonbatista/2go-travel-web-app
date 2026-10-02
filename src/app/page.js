@@ -9,6 +9,177 @@ import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
 
+import { listDestinations } from '@/lib/cms';
+import { destinationGuides } from '@/data/guidesData';
+
+function sameCity(left, right) {
+  const normalize = (value) => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  return normalize(left) === normalize(right);
+}
+
+const destinations = listDestinations();
+const guides = Object.values(destinationGuides);
+
+const guideOnlyCities = guides.filter((guide) => !destinations.some((destination) => sameCity(destination.name, guide.city)));
+
+const premiumSlides = [
+  {
+    id: 'paris',
+    name: 'Paris, França',
+    country: 'França',
+    emoji: '🇫🇷',
+    phrase: 'Arte, gastronomia e o charme do Rio Sena.',
+    desc: 'Torre Eiffel ao entardecer com o reflexo das luzes no Rio Sena e o charme eterno da capital francesa.',
+    tags: ['Cultura', 'Romance'],
+    img: '/images/destinations/paris/paris-eiffel-seine.jpg',
+    ctaLink: '/roteiros/paris-3-dias'
+  },
+  {
+    id: 'ny',
+    name: 'Nova York, Estados Unidos',
+    country: 'Estados Unidos',
+    emoji: '🇺🇸',
+    phrase: 'Energia, cultura e experiências em cada esquina.',
+    desc: 'O Empire State Building e o skyline de Manhattan ao entardecer com luzes urbanas elegantes e atmosfera cinematográfica.',
+    tags: ['Urbano', 'Cultura'],
+    img: '/images/destinations/nova-york/nova-york-1.jpg',
+    ctaLink: '/guias/como-planejar-viagem-nova-york'
+  },
+  {
+    id: 'tokyo',
+    name: 'Tóquio, Japão',
+    country: 'Japão',
+    emoji: '🇯🇵',
+    phrase: 'Tradição, tecnologia e experiências únicas.',
+    desc: 'A majestosa Tokyo Tower iluminada durante a blue hour em harmonia entre a tradição e a vanguarda tecnológica.',
+    tags: ['Cultura', 'Tecnologia'],
+    img: '/images/destinations/toquio/toquio-1.jpg',
+    ctaLink: '/roteiros/toquio-3-dias'
+  },
+  {
+    id: 'rio',
+    name: 'Rio de Janeiro, Brasil',
+    country: 'Brasil',
+    emoji: '🇧🇷',
+    phrase: 'Praias, montanhas e paisagens inesquecíveis.',
+    desc: 'Pão de Açúcar ao pôr do sol em tons suaves de fim de tarde e natureza exuberante.',
+    tags: ['Praias', 'Natureza'],
+    img: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Rio de Janeiro'
+  },
+  {
+    id: 'roma',
+    name: 'Roma, Itália',
+    country: 'Itália',
+    emoji: '🇮🇹',
+    phrase: 'História, arte e monumentos a céu aberto.',
+    desc: 'O Coliseu ao entardecer em luz quente moderada e atmosfera histórica incomparável.',
+    tags: ['História', 'Gastronomia'],
+    img: '/images/destinations/roma/roma-coliseu.jpg',
+    ctaLink: '/roteiros/roma-3-dias'
+  },
+  {
+    id: 'londres',
+    name: 'Londres, Reino Unido',
+    country: 'Reino Unido',
+    emoji: '🇬🇧',
+    phrase: 'História, cultura e ícones reconhecidos no mundo inteiro.',
+    desc: 'Big Ben e o Palácio de Westminster durante a blue hour com tons frios e refinados.',
+    tags: ['Cultura', 'História'],
+    img: '/images/destinations/londres/londres-1.jpg',
+    ctaLink: '/roteiros/londres-3-dias'
+  },
+  {
+    id: 'istanbul',
+    name: 'Istambul, Turquia',
+    country: 'Turquia',
+    emoji: '🇹🇷',
+    phrase: 'Onde Europa e Ásia se encontram.',
+    desc: 'A vista do Bósforo e das mesquitas seculares ao pôr do sol em suaves tons terrosos.',
+    tags: ['História', 'Cultura'],
+    img: '/images/destinations/istambul/istambul-1.jpg',
+    ctaLink: '/guias/como-planejar-viagem-istambul'
+  },
+  {
+    id: 'sydney',
+    name: 'Sydney, Austrália',
+    country: 'Austrália',
+    emoji: '🇦🇺',
+    phrase: 'Praias, natureza e arquitetura icônica.',
+    desc: 'A Opera House de Sydney em blue hour com o skyline noturno refletido nas águas da baía.',
+    tags: ['Praias', 'Arquitetura'],
+    img: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Sydney'
+  },
+  {
+    id: 'bangkok',
+    name: 'Bangkok, Tailândia',
+    country: 'Tailândia',
+    emoji: '🇹🇭',
+    phrase: 'Templos, sabores e uma cidade cheia de vida.',
+    desc: 'A silhueta inconfundível do templo Wat Arun no Rio Chao Phraya durante a luz serena do entardecer.',
+    tags: ['Cultura', 'Gastronomia'],
+    img: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Bangkok'
+  },
+  {
+    id: 'amsterdam',
+    name: 'Amsterdã, Países Baixos',
+    country: 'Países Baixos',
+    emoji: '🇳🇱',
+    phrase: 'Canais, cultura e charme em cada rua.',
+    desc: 'Os canais seculares ao anoitecer com luzes acolhedoras refletidas na água e arquitetura histórica.',
+    tags: ['Cultura', 'Canais'],
+    img: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=85',
+    ctaLink: '/roteiros?search=Amsterdã'
+  }
+];
+
+const publishedDestinationCount = destinations.length + guideOnlyCities.length;
+
+// Dynamic CSS filters per destination for a cinematic, elegant, lower-saturation look
+const getSlideFilterClass = (id) => {
+  switch (id) {
+    case 'paris':
+      return 'brightness-[0.84] contrast-[1.04] saturate-[0.76]';
+    case 'ny':
+      return 'brightness-[0.82] contrast-[1.05] saturate-[0.78]';
+    case 'tokyo':
+      return 'brightness-[0.83] contrast-[1.04] saturate-[0.74]';
+    case 'rio':
+      return 'brightness-[0.85] contrast-[1.03] saturate-[0.80]';
+    case 'roma':
+      return 'brightness-[0.84] contrast-[1.05] saturate-[0.76]';
+    case 'londres':
+      return 'brightness-[0.82] contrast-[1.05] saturate-[0.72]';
+    case 'istanbul':
+      return 'brightness-[0.84] contrast-[1.04] saturate-[0.78]';
+    case 'sydney':
+      return 'brightness-[0.83] contrast-[1.05] saturate-[0.75]';
+    case 'bangkok':
+      return 'brightness-[0.84] contrast-[1.04] saturate-[0.78]';
+    case 'amsterdam':
+      return 'brightness-[0.82] contrast-[1.06] saturate-[0.74]';
+    default:
+      return 'brightness-[0.83] contrast-[1.04] saturate-[0.76]';
+  }
+};
+
+// Dynamic warm overlay opacity to add life to specific destinations
+const getSlideWarmOverlayStyle = (id) => {
+  return 'rgba(0, 0, 0, 0)';
+};
+
+// Dynamic subtle dark overlay to enhance depth and text readability
+const getSlideDarkOverlayStyle = (id) => {
+  return 'linear-gradient(to top, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.02) 100%)';
+};
+
+// Dynamic subtle text shadow for Hero text readability
+const getHeroTextShadow = (id) => {
+  return { textShadow: '0 1px 8px rgba(0,0,0,0.15)' };
+};
+
 
 function ScrollReveal({ children, className = '', delay = 0 }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -60,31 +231,177 @@ function ScrollReveal({ children, className = '', delay = 0 }) {
 
 export default function Home() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [progress, setProgress] = useState(0);
+
+  // Auto transition for Hero Carousel
+  useEffect(() => {
+    setProgress(0);
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % premiumSlides.length);
+    }, 6000);
+
+    const progressInterval = setInterval(() => {
+      setProgress((prev) => Math.min(prev + 100 / 60, 100));
+    }, 100);
+
+    return () => {
+      clearInterval(interval);
+      clearInterval(progressInterval);
+    };
+  }, [currentSlide]);
+
+  const selectSlide = (idx) => {
+    setCurrentSlide(idx);
+    setProgress(0);
+  };
 
   return (
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
-      <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
+      <Header onOpenDownload={() => setIsDownloadOpen(true)} />
       
       <main className="flex-grow">
-        <section className="bg-white pt-[88px] lg:pt-[118px] pb-16 lg:pb-24">
-          <div className="container mx-auto px-4 sm:px-6 max-w-3xl w-full text-left">
-            <p className="text-[11px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">2GO</p>
-            <h1 className="font-headers text-4xl sm:text-5xl lg:text-[3.4rem] font-extrabold text-brand-navy mt-3 tracking-tight leading-[1.05]">
-              A sua próxima viagem, planejada em minutos.
-            </h1>
-            <p className="text-base sm:text-lg text-brand-navy/80 mt-4 leading-relaxed max-w-xl">
-              A 2GO cria roteiros personalizados e une tecnologia, curadoria e praticidade para você viajar do seu jeito.
-            </p>
-            <button
-              type="button"
-              onClick={() => setIsDownloadOpen(true)}
-              className="mt-8 bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-8 py-3.5 rounded-xl shadow-md cursor-pointer transition-all"
-            >
-              Baixar o App
-            </button>
-            <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-3">
-              A prévia fica no site. O dia a dia, no aplicativo.
-            </p>
+        {/* 1. NEW CINEMATIC HERO SECTION */}
+        <section className="relative min-h-[60vh] lg:min-h-screen flex items-center justify-start pt-[64px] pb-12 lg:pt-[78px] lg:pb-20 overflow-hidden bg-bg-light text-brand-navy">
+          {/* Parallax Background Crossfade */}
+          <div className="absolute inset-0 z-0 select-none pointer-events-none">
+            {premiumSlides.map((slide, idx) => (
+              <div
+                key={slide.id}
+                className={`absolute inset-0 bg-cover bg-center transition-all duration-[1200ms] ${
+                  idx === currentSlide ? 'opacity-[0.88] scale-102' : 'opacity-0 scale-100'
+                } ${getSlideFilterClass(slide.id)}`}
+                style={{ 
+                  backgroundImage: `url(${slide.img})`,
+                  transform: idx === currentSlide ? 'scale(1.05)' : 'scale(1)',
+                  transition: 'opacity 1200ms ease-in-out, transform 5500ms linear'
+                }}
+              />
+            ))}
+            {/* Subtle dark overlay for image depth and text contrast */}
+            <div 
+              className="absolute inset-0 z-5 pointer-events-none transition-all duration-[1200ms]" 
+              style={{
+                backgroundImage: getSlideDarkOverlayStyle(premiumSlides[currentSlide].id)
+              }}
+            />
+            {/* Elegant light linear overlay (Option A - Editorial Style) */}
+            <div 
+              className="absolute inset-0 z-10 pointer-events-none" 
+              style={{
+                backgroundImage: 'linear-gradient(90deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.45) 35%, rgba(255, 255, 255, 0.15) 100%)'
+              }}
+            />
+            
+            {/* Soft backdrop blur on the left side behind the text panel */}
+            <div 
+              className="absolute top-0 left-0 w-full lg:w-[55%] h-full z-10 pointer-events-none"
+              style={{
+                backdropFilter: 'blur(6px)',
+                WebkitBackdropFilter: 'blur(6px)',
+                maskImage: 'linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0.6) 60%, transparent 100%)',
+                WebkitMaskImage: 'linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0.6) 60%, transparent 100%)'
+              }}
+            />
+            <div 
+              className="absolute inset-0 z-10 pointer-events-none animate-fade-in" 
+              style={{
+                backgroundImage: 'linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.35) 100%)'
+              }}
+            />
+            {/* Warm overlay to add life to photos */}
+            <div 
+              className="absolute inset-0 z-10 pointer-events-none transition-all duration-[1200ms]" 
+              style={{
+                backgroundColor: getSlideWarmOverlayStyle(premiumSlides[currentSlide].id)
+              }}
+            />
+          </div>
+
+          <div className="container mx-auto px-4 sm:px-6 relative z-20 max-w-6xl w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              
+              {/* Left text panel */}
+              <div className="lg:col-span-7 flex flex-col items-center sm:items-start text-left">
+                <div 
+                  className="w-full max-w-2xl bg-white/26 backdrop-blur-[6px] lg:backdrop-blur-[10px] border border-white/30 lg:border-white/35 shadow-[0_15px_45px_rgba(8,27,107,0.06)] lg:shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-4 sm:p-8 md:p-10 rounded-[20px] lg:rounded-[28px] flex flex-col gap-3.5 lg:gap-6 animate-fade-in-up items-center sm:items-start"
+                >
+                  <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5">
+                    <span className="bg-[#F47A20] text-white text-[10px] sm:text-[12px] font-black tracking-wide px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
+                      Roteiros personalizados
+                    </span>
+                    <span className="bg-brand-navy/5 border border-brand-navy/10 text-brand-navy text-[10px] sm:text-[12px] font-bold tracking-wide px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit flex items-center gap-1">
+                      📍 {premiumSlides[currentSlide].country}
+                    </span>
+                  </div>
+
+                  <div className="flex flex-col gap-1 lg:gap-2 text-center sm:text-left w-full">
+                    <h1 
+                      style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
+                      className="font-headers text-brand-navy font-extrabold text-[30px] sm:text-[46px] lg:text-[clamp(56px,6vw,88px)] leading-[1.0] lg:leading-[0.95] tracking-[-0.03em] max-w-2xl transition-all duration-500 overflow-wrap-normal"
+                    >
+                      {premiumSlides[currentSlide].name}
+                    </h1>
+                  </div>
+                  
+                  <div className="flex items-center mt-0.5 bg-brand-navy/5 border border-brand-navy/10 px-3.5 py-2 rounded-xl w-full max-w-full text-xs sm:text-sm">
+                    <span className="text-brand-navy/85 text-sm italic font-medium break-words">"{premiumSlides[currentSlide].phrase}"</span>
+                  </div>
+                  
+                  {/* Progress bar */}
+                  <div className="w-full max-w-md bg-brand-navy/10 h-1 rounded-full overflow-hidden mt-1">
+                    <div 
+                      className="bg-brand-orange h-full transition-all duration-100 ease-linear"
+                      style={{ width: `${progress}%` }}
+                    />
+                  </div>
+
+                  {/* Micro Provas */}
+                  <div className="hidden sm:flex flex-wrap justify-center sm:justify-start items-center gap-4 sm:gap-6 mt-2 text-xs sm:text-sm text-brand-navy/80 font-medium border-t border-brand-navy/10 pt-4 max-w-md w-full">
+                    <span className="flex items-center gap-1.5">
+                      <span className="text-yellow-500">★</span> 4,9 de avaliação
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <span className="text-brand-orange">🌍</span> {publishedDestinationCount} destinos publicados
+                    </span>
+                    <span className="flex items-center gap-1.5">
+                      <span className="text-brand-green">⚡</span> Roteiros em poucos minutos
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Columns: Interactive Side Slider Previews (Apple TV Style) */}
+              <div className="lg:col-span-5 flex flex-col lg:border-l lg:border-brand-navy/10 lg:pl-8 mt-6 lg:mt-0 w-full overflow-hidden">
+                <span className="text-[11px] lg:text-[12px] font-black text-brand-navy/60 tracking-wide mb-2 lg:mb-3 block text-center lg:text-left">Mais destinos</span>
+                
+                <div className="flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-visible lg:overflow-y-visible gap-2 pb-4 lg:pb-0 custom-scrollbar-hide flex-nowrap lg:flex-wrap w-full px-1 lg:px-0 snap-x snap-mandatory scroll-smooth">
+                  {premiumSlides.map((slide, idx) => {
+                    const isSelected = idx === currentSlide;
+                    return (
+                      <button
+                        key={slide.id}
+                        onClick={() => selectSlide(idx)}
+                        className={`group flex items-center gap-2.5 p-2 lg:p-3 rounded-xl border text-left transition-all duration-300 cursor-pointer shrink-0 w-[185px] lg:w-full snap-start ${
+                          isSelected 
+                            ? 'bg-white/75 border-white/50 shadow-md border-l-4 border-l-[#F47A20] backdrop-blur-md pl-3 text-brand-navy font-bold' 
+                            : 'bg-brand-navy/5 border-brand-navy/5 border-l-4 border-l-transparent hover:bg-brand-navy/10 text-brand-navy/70 pl-3'
+                        }`}
+                      >
+                        <div className="w-9 h-9 lg:w-12 lg:h-12 rounded-lg overflow-hidden shrink-0 border border-brand-navy/10 relative">
+                          <img src={slide.img} alt={slide.name} className="w-full h-full object-cover transition-transform group-hover:scale-[1.03]" />
+                        </div>
+                        <div className="min-w-0 flex-1 flex flex-col justify-center">
+                          <h4 className={`text-xs lg:text-sm font-extrabold truncate ${isSelected ? 'text-brand-navy font-black' : 'text-brand-navy/80 group-hover:text-brand-navy'}`}>{slide.name}</h4>
+                          <p className="text-[11px] lg:text-[13px] font-medium line-clamp-1 lg:line-clamp-2 mt-0.5 leading-snug whitespace-normal text-brand-navy/60 group-hover:text-brand-navy/80">{slide.phrase}</p>
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+            </div>
           </div>
         </section>
 
