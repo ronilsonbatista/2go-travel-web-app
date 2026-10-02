@@ -9,6 +9,23 @@ import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
 import { matchesSearch } from '@/lib/searchHelper';
 
+function PhoneShot({ src, alt, tilt = '' }) {
+  return (
+    <div className={`w-[168px] sm:w-[196px] ${tilt}`}>
+      <div className="rounded-[2.15rem] bg-[#12151c] p-[7px] shadow-[0_22px_40px_rgba(8,27,107,0.16)] ring-1 ring-black/20">
+        <div className="relative aspect-[9/19.5] overflow-hidden rounded-[1.65rem] bg-[#0b0d12]">
+          <img
+            src={src}
+            alt={alt}
+            className="h-full w-full object-cover object-top"
+          />
+          <div className="pointer-events-none absolute left-1/2 top-2 z-10 h-[18px] w-[68px] -translate-x-1/2 rounded-full bg-black shadow-[inset_0_0_0_1px_rgba(255,255,255,0.08)]" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function RoteirosClient({ itineraries = [], initialSearch = '' }) {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [selectedDest, setSelectedDest] = useState('Todos');
@@ -117,20 +134,16 @@ export default function RoteirosClient({ itineraries = [], initialSearch = '' })
                   A home mostra a viagem que vem. O roteiro abre o dia, o horário e o mapa. Você ajusta tudo no app.
                 </p>
               </div>
-              <div className="flex items-end justify-center gap-3 sm:gap-5">
-                <img
+              <div className="flex flex-col items-center justify-center gap-6 sm:flex-row sm:items-end sm:gap-5">
+                <PhoneShot
                   src="/assets/app-home-gustavo.webp"
                   alt="Tela inicial do app 2GO com a próxima viagem"
-                  width={390}
-                  height={1474}
-                  className="h-[280px] sm:h-[420px] w-auto rounded-[24px] border border-border-gray shadow-md object-cover object-top bg-white"
+                  tilt="sm:-rotate-[2deg]"
                 />
-                <img
+                <PhoneShot
                   src="/assets/app-roteiro-roma.webp"
                   alt="Timeline do roteiro de Roma no app 2GO"
-                  width={202}
-                  height={856}
-                  className="h-[280px] sm:h-[420px] w-auto rounded-[24px] border border-border-gray shadow-md object-cover object-top bg-white"
+                  tilt="sm:rotate-[2deg]"
                 />
               </div>
             </div>
