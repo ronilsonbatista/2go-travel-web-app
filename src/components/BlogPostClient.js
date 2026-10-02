@@ -1,8 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { Clock, Calendar, ArrowLeft, BookOpen, Sparkles } from 'lucide-react';
+import { Clock, Calendar, BookOpen, Sparkles } from 'lucide-react';
 import Header from './Header';
 import Footer from './Footer';
 import Breadcrumbs from './Breadcrumbs';
@@ -76,16 +75,6 @@ export default function BlogPostClient({ post }) {
             { name: 'Guia de Viagem', url: '/guias' },
             { name: post.title, url: `/guias/${post.slug}` }
           ]} />
-
-          {/* Back button */}
-          <div className="my-4">
-            <Link 
-              href="/guias"
-              className="text-xs font-semibold text-text-muted hover:text-brand-navy transition-colors inline-flex items-center gap-1.5"
-            >
-              <ArrowLeft className="w-3.5 h-3.5" /> Voltar ao Guia de Viagem
-            </Link>
-          </div>
 
           {/* Header block */}
           <header className="mb-8">

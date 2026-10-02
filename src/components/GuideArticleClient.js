@@ -1,9 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { 
-  ArrowLeft, 
   MapPin, 
   DollarSign, 
   CheckCircle2, 
@@ -192,52 +190,47 @@ export default function GuideArticleClient({ guide }) {
       <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pb-20">
-        <div className="mt-[64px] flex h-[calc(100svh-64px)] min-h-[620px] flex-col lg:mt-[78px] lg:h-[calc(100svh-78px)]">
-          <div className="shrink-0 border-b border-border-gray/70 bg-white">
-            <div className="container mx-auto w-full max-w-[1440px] px-4 pt-4 text-left sm:px-6">
-              <Link href="/guias" className="inline-flex items-center gap-1.5 text-sm font-bold text-brand-navy hover:text-brand-orange">
-                <ArrowLeft className="w-4 h-4" /> Voltar ao Guia de Viagem
-              </Link>
+        <section className="relative mt-[64px] h-[calc(100svh-64px)] min-h-[620px] overflow-hidden bg-[#0b1220] lg:mt-[78px] lg:h-[calc(100svh-78px)]">
+          {frames.map((src, index) => (
+            <img
+              key={src}
+              src={src}
+              alt=""
+              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-[1400ms] ease-in-out ${
+                index === frameIndex ? 'opacity-100 guide-ken' : 'opacity-0'
+              }`}
+            />
+          ))}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/20" />
+          <div className="absolute inset-x-0 top-0 h-36 bg-gradient-to-b from-black/55 to-transparent" />
+          <div className="relative z-10 flex h-full flex-col">
+            <div className="container mx-auto w-full max-w-[1440px] px-4 pt-5 text-left sm:px-6 sm:pt-6">
               <Breadcrumbs
+                variant="onDark"
                 items={[
                   { name: 'Guia de Viagem', url: '/guias' },
                   { name: guide.city, url: `/guias/${guide.slug}` }
                 ]}
               />
             </div>
-          </div>
-          <section className="relative min-h-0 flex-1 overflow-hidden bg-[#0b1220]">
-            {frames.map((src, index) => (
-              <img
-                key={src}
-                src={src}
-                alt=""
-                className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-[1400ms] ease-in-out ${
-                  index === frameIndex ? 'opacity-100 guide-ken' : 'opacity-0'
-                }`}
-              />
-            ))}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/25" />
-            <div className="relative z-10 flex h-full flex-col justify-end">
-              <div className="container mx-auto w-full max-w-[1440px] px-4 pb-10 text-left text-white sm:px-6 sm:pb-14">
-                <p className="text-[11px] font-extrabold tracking-[0.18em] text-white/70 uppercase">Guia de Viagem</p>
-                <h1 className="font-headers mt-3 max-w-4xl text-6xl font-extrabold leading-[0.9] tracking-tight text-white sm:text-7xl md:text-8xl">
-                  {guide.city}
-                </h1>
-                <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/85 sm:text-base">
-                  {guide.subtitle}
-                </p>
-                <button
-                  type="button"
-                  onClick={() => setIsDownloadOpen(true)}
-                  className="mt-6 inline-flex items-center justify-center rounded-xl bg-white px-6 py-3.5 text-sm font-extrabold text-brand-navy"
-                >
-                  Baixar o App
-                </button>
-              </div>
+            <div className="container mx-auto mt-auto w-full max-w-[1440px] px-4 pb-10 text-left text-white sm:px-6 sm:pb-14">
+              <p className="text-[11px] font-extrabold tracking-[0.18em] text-white/70 uppercase">Guia de Viagem</p>
+              <h1 className="font-headers mt-3 max-w-4xl text-6xl font-extrabold leading-[0.9] tracking-tight text-white sm:text-7xl md:text-8xl">
+                {guide.city}
+              </h1>
+              <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/85 sm:text-base">
+                {guide.subtitle}
+              </p>
+              <button
+                type="button"
+                onClick={() => setIsDownloadOpen(true)}
+                className="mt-6 inline-flex items-center justify-center rounded-xl bg-white px-6 py-3.5 text-sm font-extrabold text-brand-navy"
+              >
+                Baixar o App
+              </button>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
 
         <div className="container mx-auto px-4 sm:px-6 max-w-[1440px] w-full text-left mt-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
