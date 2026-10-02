@@ -23,7 +23,7 @@ export default function Header({ onOpenDownload, solid = false }) {
 
   const menuItems = [
     { label: 'Roteiros', href: '/roteiros' },
-    { label: 'Guia', href: '/blog' },
+    { label: 'Blog', href: '/blog' },
     { label: 'Quem somos', href: '/quem-somos' }
   ];
 

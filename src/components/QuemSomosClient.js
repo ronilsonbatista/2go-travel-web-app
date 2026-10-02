@@ -15,40 +15,27 @@ export default function QuemSomosClient() {
       <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pt-28 pb-20">
-        <div className="container mx-auto px-4 sm:px-6 max-w-3xl w-full text-left">
+        <div className="container mx-auto px-4 sm:px-6 max-w-2xl w-full text-left">
           <Breadcrumbs items={[{ name: 'Quem somos', url: '/quem-somos' }]} />
 
-          <header className="mt-8 mb-10">
-            <p className="text-[11px] font-extrabold tracking-widest text-brand-orange uppercase">2GO</p>
-            <h1 className="font-headers text-3xl sm:text-5xl font-extrabold text-brand-navy mt-3 tracking-tight leading-tight">
-              A viagem fica mais leve quando o plano cabe no bolso.
+          <header className="mt-10">
+            <p className="text-[11px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">2GO</p>
+            <h1 className="font-headers text-4xl sm:text-5xl font-extrabold text-brand-navy mt-3 tracking-tight leading-[1.05]">
+              Vinte abas abertas não são um plano.
             </h1>
-            <p className="text-base sm:text-lg text-text-muted mt-4 leading-relaxed">
-              A 2GO junta guias de destino e roteiros com IA em um aplicativo. O site mostra para onde ir. O app organiza o dia, o horário e o mapa.
-            </p>
           </header>
 
-          <section className="space-y-4 text-sm sm:text-base text-text-muted leading-relaxed">
+          <div className="mt-8 space-y-5 text-base text-text-muted leading-relaxed">
             <p>
-              Antes de embarcar, a pesquisa vira uma pilha de abas. A gente nasceu para encurtar isso: uma prévia clara no site e o roteiro vivo no aplicativo, no ritmo de quem viaja.
+              A 2GO começou de um hábito conhecido: mapa numa aba, museu na outra, horário de trem numa terceira, e o dia ainda sem ordem. A gente existe para fechar isso.
             </p>
             <p>
-              Não prometemos uma viagem pronta sem você. A inteligência sugere a ordem do dia. Você ajusta, salva e leva offline.
+              O site mostra o lugar. O aplicativo coloca a manhã, o deslocamento e o que ainda cabe antes do jantar. A inteligência sugere a sequência. Você muda o que não combina com o seu ritmo e leva o dia no bolso, mesmo sem sinal.
             </p>
-          </section>
-
-          <ul className="mt-10 divide-y divide-border-gray/70 border-y border-border-gray/70">
-            {[
-              ['Clareza', 'Custo, bairro e o que ver, sem letra miúda.'],
-              ['Seu ritmo', 'O dia a dia respeita o tempo e o estilo da viagem.'],
-              ['No app', 'Timeline, mapa e mudanças ficam com você durante a viagem.']
-            ].map(([title, desc]) => (
-              <li key={title} className="py-5">
-                <h2 className="font-headers text-lg font-extrabold text-brand-navy">{title}</h2>
-                <p className="text-sm text-text-muted mt-1">{desc}</p>
-              </li>
-            ))}
-          </ul>
+            <p className="text-brand-navy font-semibold">
+              Paris às nove, o próximo passo quando o metrô atrasa, o mapa quando a rua some. É isso que a gente quer na sua mão.
+            </p>
+          </div>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-3">
             <button
@@ -60,7 +47,7 @@ export default function QuemSomosClient() {
             </button>
             <Link
               href="/roteiros"
-              className="inline-flex items-center justify-center border border-brand-navy text-brand-navy font-bold text-sm px-6 py-3.5 rounded-xl"
+              className="inline-flex items-center justify-center border border-brand-navy/30 text-brand-navy font-bold text-sm px-6 py-3.5 rounded-xl"
             >
               Ver roteiros
             </Link>

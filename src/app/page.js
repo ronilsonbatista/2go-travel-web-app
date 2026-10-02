@@ -15,7 +15,6 @@ import {
   Calendar,
   Check,
   MessageSquare,
-  Sparkles,
   Heart,
   Plane,
   Utensils,
@@ -26,7 +25,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
-import { listDestinations, listItinerariesForDestination } from '@/lib/cms';
+import { listDestinations } from '@/lib/cms';
 import { destinationGuides } from '@/data/guidesData';
 
 function sameCity(left, right) {
@@ -36,10 +35,6 @@ function sameCity(left, right) {
 
 const destinations = listDestinations();
 const guides = Object.values(destinationGuides);
-
-function guideForDestination(destination) {
-  return guides.find((guide) => sameCity(guide.city, destination.name)) || null;
-}
 
 const guideOnlyCities = guides.filter((guide) => !destinations.some((destination) => sameCity(destination.name, guide.city)));
 
@@ -156,29 +151,6 @@ const premiumSlides = [
   }
 ];
 
-const featuredDestinations = [
-  ...destinations.map((destination) => {
-    const guide = guideForDestination(destination);
-    const itinerary = listItinerariesForDestination(destination.slug)[0];
-    return {
-      name: destination.name,
-      country: destination.country,
-      img: guide?.heroImage || destination.image,
-      phrase: destination.description,
-      link: itinerary
-        ? `/roteiros/${itinerary.slug}`
-        : (guide ? `/blog/${guide.slug}` : `/o-que-fazer/${destination.slug}`)
-    };
-  }),
-  ...guideOnlyCities.map((guide) => ({
-    name: guide.city,
-    country: guide.country,
-    img: guide.heroImage,
-    phrase: guide.subtitle,
-    link: `/blog/${guide.slug}`
-  }))
-];
-
 const publishedDestinationCount = destinations.length + guideOnlyCities.length;
 
 // Dynamic CSS filters per destination for a cinematic, elegant, lower-saturation look
@@ -272,70 +244,10 @@ function ScrollReveal({ children, className = '', delay = 0 }) {
   );
 }
 
-const simResults = {
-  'Japão': [
-    { day: 'DIA 1', title: 'Tóquio Cultural', items: [
-      { emoji: '⛩️', place: 'Templo Senso-ji em Asakusa', desc: 'Visita agendada para primeiras horas da manhã (evitando filas).' },
-      { emoji: '🗼', place: 'Shinjuku Sky & Jantar Típico', desc: 'Jantar tradicional sugerido no beco histórico Omoide Yokocho.' }
-    ]},
-    { day: 'DIA 2', title: 'Monte Fuji & Hakone', items: [
-      { emoji: '🗻', place: 'Lago Ashi & Vista do Monte Fuji', desc: 'Passeio de catamarã pelo lago com paradas no Tori flutuante.' }
-    ]},
-    { day: 'DIA 3', title: 'Kyoto Clássico', items: [
-      { emoji: '🌸', place: 'Santuário de Fushimi Inari-taisha', desc: 'Caminhada sob os milhares de Torii tradicionais ladeando a floresta.' }
-    ]}
-  ],
-  'França': [
-    { day: 'DIA 1', title: 'Paris Romântico', items: [
-      { emoji: '🗼', place: 'Torre Eiffel & Jardins do Trocadéro', desc: 'Subida ao topo no entardecer para ver as luzes se acenderem.' },
-      { emoji: '⛵', place: 'Cruzeiro no Rio Sena', desc: 'Passeio noturno com guia histórico passando por pontes famosas.' }
-    ]},
-    { day: 'DIA 2', title: 'Louvre & Arte', items: [
-      { emoji: '🎨', place: 'Museu do Louvre (Acesso Rápido)', desc: 'Roteiro guiado de 2h focando nas principais obras de arte.' }
-    ]},
-    { day: 'DIA 3', title: 'Charme de Montmartre', items: [
-      { emoji: '⛪', place: 'Basílica de Sacré-Cœur', desc: 'Passeio pelas ruelas dos artistas e almoço em bistrô tradicional.' }
-    ]}
-  ],
-  'Itália': [
-    { day: 'DIA 1', title: 'Roma Antiga', items: [
-      { emoji: '🏛️', place: 'Coliseu & Fórum Romano', desc: 'Entrada prioritária com guia arqueológico especializado.' },
-      { emoji: '⛲', place: 'Fontana di Trevi & Panteão', desc: 'Caminhada clássica de fim de tarde para jogar a moeda.' }
-    ]},
-    { day: 'DIA 2', title: 'Vaticano & Museus', items: [
-      { emoji: '🇻🇦', place: 'Capela Sistina & Basílica de S. Pedro', desc: 'Visita matinal sem filas e subida à cúpula para vista panorâmica.' }
-    ]},
-    { day: 'DIA 3', title: 'Sabores de Trastevere', items: [
-      { emoji: '🍝', place: 'Jantar Gastronômico', desc: 'Degustação de massas clássicas e vinhos artesanais da região.' }
-    ]}
-  ],
-  'Brasil': [
-    { day: 'DIA 1', title: 'Baía do Sancho', items: [
-      { emoji: '🐢', place: 'Praia do Sancho & Snorkel', desc: 'Mergulho guiado com tartarugas marinhas e arraias nas águas cristalinas.' },
-      { emoji: '🌅', place: 'Pôr do sol no Boldró', desc: 'Mirante clássico com vista para os dois irmãos.' }
-    ]},
-    { day: 'DIA 2', title: 'Ilha Tour Completo', items: [
-      { emoji: '🚙', place: 'Tour 4x4 por praias intocadas', desc: 'Visita guiada passando por cacimba do padre, baía dos porcos e leão.' }
-    ]},
-    { day: 'DIA 3', title: 'Piscinas do Atalaia', items: [
-      { emoji: '🐠', place: 'Trilha do Atalaia & Flutuação', desc: 'Flutuação monitorada nas piscinas de corais com peixes tropicais.' }
-    ]}
-  ]
-};
-
 export default function Home() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [progress, setProgress] = useState(0);
-
-  // Simulation states for "Veja seu roteiro tomando forma"
-  const [simProgress, setSimProgress] = useState(0);
-  const [simState, setSimState] = useState('idle'); // 'idle' | 'running' | 'done'
-  const [visibleDays, setVisibleDays] = useState([]);
-  const [simDest, setSimDest] = useState('Japão');
-  const [simDays, setSimDays] = useState('3 dias');
-  const [simComp, setSimComp] = useState('Casal');
-  const [simSty, setSimSty] = useState('Cultura & Templos');
 
   // Auto transition for Hero Carousel
   useEffect(() => {
@@ -357,32 +269,6 @@ export default function Home() {
   const selectSlide = (idx) => {
     setCurrentSlide(idx);
     setProgress(0);
-  };
-
-  // Run real-time simulation
-  const startSimulation = () => {
-    setSimState('running');
-    setSimProgress(5);
-    setVisibleDays([]);
-
-    const timers = [
-      setTimeout(() => setSimProgress(35), 600),
-      setTimeout(() => {
-        setSimProgress(65);
-        setVisibleDays(prev => [...prev, 'day1']);
-      }, 1500),
-      setTimeout(() => {
-        setSimProgress(85);
-        setVisibleDays(prev => [...prev, 'day2']);
-      }, 2600),
-      setTimeout(() => {
-        setSimProgress(100);
-        setVisibleDays(prev => [...prev, 'day3']);
-        setSimState('done');
-      }, 3600)
-    ];
-
-    return () => timers.forEach(clearTimeout);
   };
 
   return (
@@ -632,306 +518,6 @@ export default function Home() {
                   Edite, salve, compartilhe seu roteiro offline e receba sugestões personalizadas por destino em tempo real.
                 </p>
               </button>
-            </div>
-          </ScrollReveal>
-        </section>
-
-        {/* 3. DESTINATIONS ROWS (Airbnb/Netflix style) */}
-        <section id="destinos" className="py-12 lg:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative scroll-mt-20">
-          <ScrollReveal className="container mx-auto px-4 sm:px-6">
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
-              <div className="text-left max-w-2xl">
-                <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
-                  Destinos em destaque
-                </span>
-                <p className="text-sm text-text-muted mt-2">
-                  Destinos com ficha publicada. O roteiro abre só quando ele existe.
-                </p>
-              </div>
-              <Link 
-                href="/roteiros" 
-                className="text-sm font-bold text-brand-orange hover:text-[#96AB21] flex items-center gap-1 transition-colors whitespace-nowrap cursor-pointer"
-              >
-                Ver todos &rarr;
-              </Link>
-            </div>
-
-            {/* Continental categories selectors */}
-            <div className="flex gap-3 overflow-x-auto pb-4 mb-4 custom-scrollbar-hide flex-nowrap border-b border-border-gray/30 min-w-0 max-w-full">
-              {[
-                { label: '🇪🇺 Europa', slug: '/roteiros?search=Europa' },
-                { label: '⛩️ Ásia', slug: '/roteiros?search=Ásia' },
-                { label: '🌴 América do Sul', slug: '/roteiros?search=América' },
-                { label: '🏔️ América do Norte', slug: '/roteiros?search=América' },
-                { label: '🦁 África', slug: '/roteiros?search=África' },
-                { label: '🌊 Oceania', slug: '/roteiros?search=Oceania' }
-              ].map((cat, i) => (
-                <Link 
-                  key={i} 
-                  href={cat.slug} 
-                  className="px-4 sm:px-5 py-2.5 rounded-full bg-white border border-border-gray/70 hover:border-[#96AB21] hover:text-[#96AB21] text-xs sm:text-sm font-extrabold text-brand-navy shrink-0 transition-all duration-300 hover:scale-[1.02] shadow-sm"
-                >
-                  {cat.label}
-                </Link>
-              ))}
-            </div>
-
-            {/* Featured destinations scrollable carousel */}
-            <div className="flex gap-4 sm:gap-6 overflow-x-auto pb-6 custom-scrollbar-hide snap-x snap-mandatory min-w-0 max-w-full">
-              {featuredDestinations.map((dest, idx) => (
-                <Link 
-                  key={idx}
-                  href={dest.link}
-                  className="group relative h-96 w-[min(18rem,78vw)] sm:w-72 shrink-0 rounded-[24px] overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-500 ease-out border border-border-gray card-premium-hover snap-start"
-                >
-                  <img 
-                    src={dest.img} 
-                    alt={dest.name} 
-                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]" 
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-                  <div className="absolute bottom-5 left-5 right-5 text-left text-white">
-                    <h4 className="font-headers text-base font-extrabold text-white mt-1 group-hover:text-brand-orange transition-colors">
-                      {dest.name}, {dest.country}
-                    </h4>
-                    <p className="text-[12px] text-white/80 line-clamp-2 mt-1 leading-snug">{dest.phrase}</p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-
-            {/* Section visual break banner */}
-            <div className="mt-8 lg:mt-12 bg-gradient-to-r from-brand-navy to-[#0c248b] rounded-[24px] p-6 sm:p-8 lg:p-10 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-6 shadow-xl relative overflow-hidden text-left">
-              <div className="absolute right-0 top-0 w-64 h-64 bg-brand-orange/10 rounded-full blur-3xl pointer-events-none" />
-              <div className="text-left flex-grow z-10 min-w-0">
-                <h4 className="font-headers text-lg sm:text-2xl font-black text-white leading-snug break-words">Pare de juntar abas. Em minutos, a 2GO monta o dia a dia — e você leva no app.</h4>
-              </div>
-              <button
-                type="button"
-                onClick={() => setIsDownloadOpen(true)}
-                className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 sm:px-8 py-3.5 rounded-xl transition-all shadow-lg shadow-brand-orange/20 hover:scale-[1.02] active:scale-98 text-sm text-center cursor-pointer shrink-0 z-10 border-none flex items-center justify-center"
-              >
-                Baixar o App
-              </button>
-            </div>
-          </ScrollReveal>
-        </section>
-
-        {/* 4. INTERACTIVE SIMULATOR */}
-        <section className="py-12 lg:py-28 bg-[#F4F6F9] border-b border-border-gray/50">
-          <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-5xl">
-            <div className="text-center max-w-[620px] mx-auto mb-14 md:mb-16">
-              <span className="bg-brand-green/10 text-brand-green text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
-                Tecnologia exclusiva
-              </span>
-              <h2 className="font-headers text-3.5xl font-black mt-4 text-brand-navy tracking-tight">
-                Veja seu roteiro tomando forma ⚡
-              </h2>
-              <p className="text-sm text-text-muted mt-3">
-                Defina seu destino, preencha suas preferências e assista à estruturação inteligente de rotas.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
-              {/* Input Config Panel */}
-              <div className="lg:col-span-5 bg-[#F8FAFC] border border-border-gray rounded-[28px] lg:rounded-[24px] p-5 sm:p-6 flex flex-col justify-between text-left">
-                <div className="flex flex-col gap-4">
-                  <h4 className="font-headers text-base sm:text-lg font-bold text-brand-navy border-b border-border-gray pb-3">Parâmetros de Viagem</h4>
-                  
-                  <div className="flex flex-col gap-1">
-                    <label htmlFor="sim-dest-select" className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Destino</label>
-                    <select 
-                      id="sim-dest-select"
-                      value={simDest}
-                      onChange={(e) => {
-                        setSimDest(e.target.value);
-                        setSimState('idle');
-                        setVisibleDays([]);
-                        setSimProgress(0);
-                      }}
-                      className="bg-white border border-border-gray px-4 py-2.5 rounded-xl text-sm font-semibold text-brand-navy outline-none focus:border-brand-orange w-full cursor-pointer"
-                    >
-                      <option value="Japão">Japão 🇯🇵 (Tóquio & Kyoto)</option>
-                      <option value="França">França 🇫🇷 (Paris Romântico)</option>
-                      <option value="Itália">Itália 🇮🇹 (Roma Histórica)</option>
-                      <option value="Brasil">Brasil 🇧🇷 (Fernando de Noronha)</option>
-                    </select>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex flex-col gap-1">
-                      <label htmlFor="sim-days-select" className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Duração</label>
-                      <select
-                        id="sim-days-select"
-                        value={simDays}
-                        onChange={(e) => {
-                          setSimDays(e.target.value);
-                          setSimState('idle');
-                          setVisibleDays([]);
-                          setSimProgress(0);
-                        }}
-                        className="bg-white border border-border-gray px-3 py-2.5 rounded-xl text-xs sm:text-sm font-semibold text-brand-navy outline-none focus:border-brand-orange cursor-pointer"
-                      >
-                        <option value="3 dias">3 Dias 📅</option>
-                        <option value="5 dias">5 Dias 📅</option>
-                        <option value="7 dias">7 Dias 📅</option>
-                      </select>
-                    </div>
-                    <div className="flex flex-col gap-1">
-                      <label htmlFor="sim-comp-select" className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Companhia</label>
-                      <select
-                        id="sim-comp-select"
-                        value={simComp}
-                        onChange={(e) => {
-                          setSimComp(e.target.value);
-                          setSimState('idle');
-                          setVisibleDays([]);
-                          setSimProgress(0);
-                        }}
-                        className="bg-white border border-border-gray px-3 py-2.5 rounded-xl text-xs sm:text-sm font-semibold text-brand-navy outline-none focus:border-brand-orange cursor-pointer"
-                      >
-                        <option value="Casal">Casal 👩‍❤️‍👨</option>
-                        <option value="Sozinho">Sozinho 🎒</option>
-                        <option value="Família">Família 👨‍👩‍👧‍👦</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div className="flex flex-col gap-1">
-                    <label htmlFor="sim-style-select" className="text-[12px] font-bold text-text-muted uppercase tracking-wide">Estilo de Viagem</label>
-                    <select
-                      id="sim-style-select"
-                      value={simSty}
-                      onChange={(e) => {
-                        setSimSty(e.target.value);
-                        setSimState('idle');
-                        setVisibleDays([]);
-                        setSimProgress(0);
-                      }}
-                      className="bg-white border border-border-gray px-4 py-2.5 rounded-xl text-sm font-semibold text-brand-navy outline-none focus:border-brand-orange w-full cursor-pointer"
-                    >
-                      <option value="Cultura & Templos">Cultura & Templos 🍣</option>
-                      <option value="Praia & Aventura">Praia & Aventura 🏄‍♂️</option>
-                      <option value="Luxo & Conforto">Luxo & Conforto 🍷</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div className="mt-8 flex flex-col gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setIsDownloadOpen(true)}
-                    className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold py-3.5 px-4 rounded-xl text-center shadow-md shadow-brand-orange/25 block text-sm border-none w-full"
-                  >
-                    Baixar o App
-                  </button>
-                  <button
-                    onClick={startSimulation}
-                    disabled={simState === 'running'}
-                    className={`w-full py-3 flex items-center justify-center gap-2 cursor-pointer transition-all rounded-xl border text-sm font-bold ${
-                      simState === 'running' 
-                        ? 'bg-transparent text-brand-navy/40 border-brand-navy/10 cursor-not-allowed' 
-                        : 'bg-white border-brand-navy/25 text-brand-navy hover:border-brand-navy/50'
-                    }`}
-                  >
-                        {simState === 'running' ? 'Organizando preferências...' : 'Ver uma prévia'}
-                  </button>
-                </div>
-              </div>
-
-              {/* Real-time Output Board */}
-              <div className="lg:col-span-7 bg-[#F8FAFC] border border-border-gray rounded-[28px] lg:rounded-[24px] p-4 sm:p-6 flex flex-col min-h-[440px] relative overflow-hidden">
-                {simState !== 'idle' && (
-                  <div className="mb-6 animate-fade-in-up text-left">
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="text-xs font-bold text-brand-navy">
-                        {simProgress < 35 && '🔍 Estruturando preferências...'}
-                        {simProgress >= 35 && simProgress < 65 && '🚄 Mapeando distâncias...'}
-                        {simProgress >= 65 && simProgress < 85 && '🍣 Customizando rotas...'}
-                        {simProgress >= 85 && simProgress < 100 && '⚙️ Finalizando cronogramas...'}
-                        {simProgress === 100 && '✨ Prévia pronta. O restante fica no app.'}
-                      </span>
-                      <span className="text-xs font-bold text-brand-orange">{Math.round(simProgress)}%</span>
-                    </div>
-                    <div className="w-full bg-brand-navy/10 h-2 rounded-full overflow-hidden">
-                      <div 
-                        className="bg-brand-orange h-full rounded-full transition-all duration-500"
-                        style={{ width: `${simProgress}%` }}
-                      />
-                    </div>
-                  </div>
-                )}
-
-                <div className="flex-grow flex flex-col gap-4 overflow-y-auto pr-1">
-                  {simState === 'idle' && (
-                    <div className="flex-grow flex flex-col items-center justify-center text-center p-6 gap-3">
-                      <Sparkles className="w-10 h-10 text-brand-orange animate-pulse" />
-                      <p className="text-sm font-semibold text-brand-navy">Simulador de Rotas 2GO</p>
-                      <p className="text-xs text-text-muted max-w-[280px]">Inicie a simulação ao lado para assistir à estruturação das rotas diárias da viagem de forma automatizada.</p>
-                    </div>
-                  )}
-
-                  {visibleDays.includes('day1') && simResults[simDest]?.[0] && (
-                    <div className="bg-white border border-border-gray rounded-xl p-4 text-left shadow-xs animate-fade-in-up">
-                      <div className="flex justify-between items-center mb-3">
-                        <span className="bg-brand-orange/10 text-brand-orange text-[11px] font-bold px-2 py-0.5 rounded-md">DIA 1</span>
-                        <span className="text-[12px] text-text-muted font-medium">{simResults[simDest][0].title}</span>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        {simResults[simDest][0].items.map((item, idx) => (
-                          <div key={idx} className="flex gap-2.5 items-start text-xs text-brand-navy">
-                            <span className="text-sm shrink-0">{item.emoji}</span>
-                            <div>
-                              <strong className="block font-semibold">{item.place}</strong>
-                              <span className="text-[12px] text-text-muted">{item.desc}</span>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {visibleDays.includes('day2') && simResults[simDest]?.[1] && (
-                    <div className="bg-white border border-border-gray rounded-xl p-4 text-left shadow-xs animate-fade-in-up">
-                      <div className="flex justify-between items-center mb-3">
-                        <span className="bg-brand-orange/10 text-brand-orange text-[11px] font-bold px-2 py-0.5 rounded-md">DIA 2</span>
-                        <span className="text-[12px] text-text-muted font-medium">{simResults[simDest][1].title}</span>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        {simResults[simDest][1].items.map((item, idx) => (
-                          <div key={idx} className="flex gap-2.5 items-start text-xs text-brand-navy">
-                            <span className="text-sm shrink-0">{item.emoji}</span>
-                            <div>
-                              <strong className="block font-semibold">{item.place}</strong>
-                              <span className="text-[12px] text-text-muted">{item.desc}</span>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {visibleDays.includes('day3') && simResults[simDest]?.[2] && (
-                    <div className="bg-white border border-border-gray rounded-xl p-4 text-left shadow-xs animate-fade-in-up">
-                      <div className="flex justify-between items-center mb-3">
-                        <span className="bg-brand-orange/10 text-brand-orange text-[11px] font-bold px-2 py-0.5 rounded-md">DIA 3</span>
-                        <span className="text-[12px] text-text-muted font-medium">{simResults[simDest][2].title}</span>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        {simResults[simDest][2].items.map((item, idx) => (
-                          <div key={idx} className="flex gap-2.5 items-start text-xs text-brand-navy">
-                            <span className="text-sm shrink-0">{item.emoji}</span>
-                            <div>
-                              <strong className="block font-semibold">{item.place}</strong>
-                              <span className="text-[12px] text-text-muted">{item.desc}</span>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              </div>
             </div>
           </ScrollReveal>
         </section>

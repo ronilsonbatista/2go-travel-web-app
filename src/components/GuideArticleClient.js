@@ -110,7 +110,7 @@ export default function GuideArticleClient({ guide }) {
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4">
             <Breadcrumbs 
               items={[
-                { name: 'Guia de Viagem', url: '/blog' },
+                { name: 'Blog', url: '/blog' },
                 { name: guide.title, url: `/blog/${guide.slug}` }
               ]} 
             />
@@ -118,7 +118,7 @@ export default function GuideArticleClient({ guide }) {
               href="/blog" 
               className="text-xs font-bold text-brand-orange hover:underline flex items-center gap-1.5 shrink-0 cursor-pointer"
             >
-              <ArrowLeft className="w-3.5 h-3.5" /> Voltar ao Guia de Viagem
+              <ArrowLeft className="w-3.5 h-3.5" /> Voltar ao Blog
             </Link>
           </div>
 
@@ -147,12 +147,6 @@ export default function GuideArticleClient({ guide }) {
               >
                 Baixar o App
               </button>
-              <Link
-                href="/roteiros"
-                className="inline-flex items-center justify-center border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-white font-bold text-sm px-6 py-3.5 rounded-xl transition-all"
-              >
-                Ver roteiros
-              </Link>
             </div>
 
             <div className="flex flex-wrap gap-2 mt-5">

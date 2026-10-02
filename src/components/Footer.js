@@ -57,7 +57,7 @@ export default function Footer({ onOpenDownload }) {
             </li>
             <li>
               <Link href="/blog" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Guia de Viagem
+                Blog
               </Link>
             </li>
             <li>
@@ -80,11 +80,6 @@ export default function Footer({ onOpenDownload }) {
               >
                 Baixar App
               </button>
-            </li>
-            <li>
-              <Link href="/blog" className="text-sm text-text-muted hover:text-brand-orange transition-colors cursor-pointer text-left block">
-                Guia
-              </Link>
             </li>
           </ul>
         </div>
