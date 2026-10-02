@@ -45,7 +45,9 @@ test('sitemap omits redirects and private routes', async () => {
 
   assert.ok(entries.every((entry) => entry.url === SITE_URL || entry.url.startsWith(`${SITE_URL}/`)));
   assert.equal(entries.some((entry) => /2go\.com\.br|2go-site\.vercel\.app|2go-travel-react\.vercel\.app/.test(entry.url)), false);
-  assert.equal(paths.filter((path) => path === '/blog/como-planejar-viagem-paris').length, 1);
+  assert.equal(paths.filter((path) => path === '/guias/como-planejar-viagem-paris').length, 1);
+  assert.equal(paths.includes('/blog'), false);
+  assert.equal(paths.some((path) => path.startsWith('/blog/')), false);
   for (const retired of ['/planejamento', '/premium', '/consultoria', '/consultoria-personalizada', '/criar-roteiro']) {
     assert.equal(paths.includes(retired), false, retired);
     assert.equal(paths.some((path) => path.startsWith(`${retired}/`)), false, retired);

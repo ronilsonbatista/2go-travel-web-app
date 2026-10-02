@@ -31,7 +31,7 @@ const articles = [
     title: 'Como planejar uma viagem para Paris: guia completo',
     desc: 'Documentos, transporte, hospedagem, orçamento e o que ver antes de montar o dia a dia.',
     images: destinationGuides['como-planejar-viagem-paris'].images,
-    url: '/blog/como-planejar-viagem-paris'
+    url: '/guias/como-planejar-viagem-paris'
   },
   {
     id: 'ny-guia',
@@ -41,7 +41,7 @@ const articles = [
     title: 'Como planejar uma viagem para Nova York: guia completo',
     desc: 'Visto, transporte, bairros e o que cabe numa primeira visita à cidade.',
     images: destinationGuides['como-planejar-viagem-nova-york'].images,
-    url: '/blog/como-planejar-viagem-nova-york'
+    url: '/guias/como-planejar-viagem-nova-york'
   },
   {
     id: 'toquio-guia',
@@ -51,7 +51,7 @@ const articles = [
     title: 'Como planejar uma viagem para Tóquio: guia completo',
     desc: 'Trem, bairros e o ritmo da cidade, sem transformar o guia num formulário.',
     images: destinationGuides['como-planejar-viagem-toquio'].images,
-    url: '/blog/como-planejar-viagem-toquio'
+    url: '/guias/como-planejar-viagem-toquio'
   },
   {
     id: 'londres-guia',
@@ -61,7 +61,7 @@ const articles = [
     title: 'Como planejar uma viagem para Londres: guia completo',
     desc: 'ETA, Tube, atrações e uma ideia real de custo antes de embarcar.',
     images: destinationGuides['como-planejar-viagem-londres'].images,
-    url: '/blog/como-planejar-viagem-londres'
+    url: '/guias/como-planejar-viagem-londres'
   },
   {
     id: 'roma-guia',
@@ -71,7 +71,7 @@ const articles = [
     title: 'Como planejar uma viagem para Roma: guia completo',
     desc: 'Coliseu, Vaticano, onde ficar e como não perder o dia em fila.',
     images: destinationGuides['como-planejar-viagem-roma'].images,
-    url: '/blog/como-planejar-viagem-roma'
+    url: '/guias/como-planejar-viagem-roma'
   },
   {
     id: 'istambul-guia',
@@ -81,7 +81,7 @@ const articles = [
     title: 'Como planejar uma viagem para Istambul: guia completo',
     desc: 'Bósforo, bairros e o que separar entre o lado europeu e o asiático.',
     images: destinationGuides['como-planejar-viagem-istambul'].images,
-    url: '/blog/como-planejar-viagem-istambul'
+    url: '/guias/como-planejar-viagem-istambul'
   },
   {
     id: 'dubai-guia',
@@ -91,7 +91,7 @@ const articles = [
     title: 'Como planejar uma viagem para Dubai: guia completo',
     desc: 'Visto, calor, Burj Khalifa e o que realmente pesa no orçamento.',
     images: destinationGuides['como-planejar-viagem-dubai'].images,
-    url: '/blog/como-planejar-viagem-dubai'
+    url: '/guias/como-planejar-viagem-dubai'
   },
   {
     id: 'custos-paris',
@@ -125,7 +125,7 @@ const articles = [
   }
 ];
 
-export default function BlogIndex() {
+export default function GuiasIndex() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -147,31 +147,16 @@ export default function BlogIndex() {
 
       <main className="flex-grow pt-28 pb-16">
         <div className="container mx-auto px-4 sm:px-6 max-w-[1100px] w-full text-left">
-          <Breadcrumbs items={[{ name: 'Blog', url: '/blog' }]} />
+          <Breadcrumbs items={[{ name: 'Guia de Viagem', url: '/guias' }]} />
 
           <header className="mt-8 mb-10 max-w-3xl">
-            <p className="text-[11px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">Blog 2GO</p>
+            <p className="text-[11px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">2GO</p>
             <h1 className="font-headers text-4xl sm:text-5xl font-extrabold text-brand-navy mt-3 tracking-tight leading-[1.05]">
-              Ideias e guias para a próxima viagem
+              Guia de Viagem
             </h1>
             <p className="text-base sm:text-lg text-text-muted mt-4 leading-relaxed max-w-2xl">
               O que ver, quanto guardar e como o lugar funciona. O dia a dia fica no aplicativo.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 mt-6">
-              <button
-                type="button"
-                onClick={() => setIsDownloadOpen(true)}
-                className="inline-flex items-center justify-center bg-brand-navy text-white font-extrabold text-sm px-6 py-3.5 rounded-xl"
-              >
-                Baixar o App
-              </button>
-              <Link
-                href="/roteiros"
-                className="inline-flex items-center justify-center border border-brand-navy text-brand-navy font-bold text-sm px-6 py-3.5 rounded-xl"
-              >
-                Ver roteiros
-              </Link>
-            </div>
           </header>
 
           <div className="relative mb-10 max-w-xl">

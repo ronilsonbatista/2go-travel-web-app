@@ -23,8 +23,8 @@ export default function Header({ onOpenDownload, solid = false }) {
 
   const menuItems = [
     { label: 'Roteiros', href: '/roteiros' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'Quem somos', href: '/quem-somos' }
+    { label: 'Guia de Viagem', href: '/guias' },
+    { label: 'Quem somos', href: '/#quem-somos', anchor: true }
   ];
 
   return (
@@ -58,8 +58,14 @@ export default function Header({ onOpenDownload, solid = false }) {
                 <li key={idx}>
                   <Link
                     href={item.href}
-                    className={`font-body font-semibold text-[0.82rem] xl:text-[0.98rem] py-2 whitespace-nowrap relative cursor-pointer transition-colors ${
-                      pathname === item.href || (item.href === '/blog' && pathname.startsWith('/blog'))
+                    onClick={(event) => {
+                      if (!item.anchor || pathname !== '/') return;
+                      event.preventDefault();
+                      document.getElementById('quem-somos')?.scrollIntoView({ behavior: 'smooth' });
+                      setIsMobileMenuOpen(false);
+                    }}
+                    className={`font-body font-semibold text-[0.78rem] xl:text-[0.92rem] py-2 whitespace-nowrap relative cursor-pointer transition-colors ${
+                      pathname === item.href || (item.href === '/guias' && pathname.startsWith('/guias'))
                         ? 'text-brand-orange' 
                         : 'text-text-muted hover:text-brand-navy'
                     } after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-brand-orange after:transition-all after:duration-300 after:rounded-full after:w-0 hover:after:w-full`}
@@ -111,7 +117,12 @@ export default function Header({ onOpenDownload, solid = false }) {
               <li key={idx} className="w-full">
                 <Link
                   href={item.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={(event) => {
+                    setIsMobileMenuOpen(false);
+                    if (!item.anchor || pathname !== '/') return;
+                    event.preventDefault();
+                    document.getElementById('quem-somos')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
                   className="font-headers text-xl font-bold text-brand-navy hover:text-brand-orange hover:translate-x-1.5 transition-all duration-300 w-full block text-left py-2 border-b border-border-gray/20"
                 >
                   {item.label}

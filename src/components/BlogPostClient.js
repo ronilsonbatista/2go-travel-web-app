@@ -52,7 +52,7 @@ export default function BlogPostClient({ post }) {
     "author": {
       "@type": "Person",
       "name": "Curador Local 2GO Travel",
-      "url": absoluteSiteUrl('/blog')
+      "url": absoluteSiteUrl('/guias')
     },
     "publisher": {
       "@type": "Organization",
@@ -73,17 +73,17 @@ export default function BlogPostClient({ post }) {
         <div className="container mx-auto px-6 max-w-[1440px] w-full text-left">
           
           <Breadcrumbs items={[
-            { name: 'Blog', url: '/blog' },
-            { name: post.title, url: `/blog/${post.slug}` }
+            { name: 'Guia de Viagem', url: '/guias' },
+            { name: post.title, url: `/guias/${post.slug}` }
           ]} />
 
           {/* Back button */}
           <div className="my-4">
             <Link 
-              href="/blog"
+              href="/guias"
               className="text-xs font-semibold text-text-muted hover:text-brand-navy transition-colors inline-flex items-center gap-1.5"
             >
-              <ArrowLeft className="w-3.5 h-3.5" /> Voltar ao blog
+              <ArrowLeft className="w-3.5 h-3.5" /> Voltar ao Guia de Viagem
             </Link>
           </div>
 
