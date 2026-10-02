@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { Compass, Sliders, Navigation } from 'lucide-react';
+import { Compass, Sliders, Navigation, ArrowRight } from 'lucide-react';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -342,12 +342,57 @@ export default function Home() {
                     >
                       {premiumSlides[currentSlide].name}
                     </h1>
+                    <p 
+                      style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
+                      className="font-headers text-brand-navy font-bold text-base sm:text-xl lg:text-[1.38rem] leading-snug tracking-tight max-w-xl hidden sm:block"
+                    >
+                      A sua próxima viagem, planejada em minutos.
+                    </p>
                   </div>
+                  
+                  <p 
+                    style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
+                    className="text-xs sm:text-base text-brand-navy/80 leading-relaxed max-w-xl line-clamp-2 sm:line-clamp-none text-center sm:text-left font-medium"
+                  >
+                    A 2GO cria roteiros personalizados e une tecnologia, curadoria e praticidade para você viajar do seu jeito.
+                  </p>
                   
                   <div className="flex items-center mt-0.5 bg-brand-navy/5 border border-brand-navy/10 px-3.5 py-2 rounded-xl w-full max-w-full text-xs sm:text-sm">
                     <span className="text-brand-navy/85 text-sm italic font-medium break-words">"{premiumSlides[currentSlide].phrase}"</span>
                   </div>
                   
+                  <div className="hidden lg:flex flex-col gap-2 mt-2 w-full sm:w-auto items-center sm:items-start">
+                    <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                      <button
+                        type="button"
+                        onClick={() => setIsDownloadOpen(true)}
+                        className="w-full max-w-[280px] sm:w-auto bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-8 py-3.5 rounded-xl shadow-md flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-[0.98] border-none"
+                      >
+                        Baixar o App
+                      </button>
+                      <Link
+                        href="/roteiros"
+                        className="w-full max-w-[280px] sm:w-auto border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-transparent font-bold px-8 py-3.5 rounded-xl transition-all inline-flex items-center justify-center"
+                      >
+                        Ver roteiros
+                      </Link>
+                    </div>
+                    <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-1 text-center sm:text-left">
+                      A prévia fica no site. O dia a dia, no aplicativo.
+                    </p>
+                  </div>
+
+                  <div className="lg:hidden mt-1">
+                    <button
+                      type="button"
+                      onClick={() => setIsDownloadOpen(true)}
+                      className="inline-flex items-center gap-1.5 text-sm font-extrabold text-brand-orange hover:text-brand-orange/80 transition-all cursor-pointer pb-1 border-b-2 border-brand-orange/20 hover:border-brand-orange"
+                    >
+                      <span>Baixar o App</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </button>
+                  </div>
+
                   {/* Progress bar */}
                   <div className="w-full max-w-md bg-brand-navy/10 h-1 rounded-full overflow-hidden mt-1">
                     <div 
