@@ -13,10 +13,7 @@ import {
   HelpCircle,
   Hotel,
   MapPin,
-  Moon,
   ShoppingBag,
-  Sparkles,
-  Utensils,
   Wallet,
   X,
   AlertTriangle,
@@ -91,33 +88,6 @@ const LOCAL_FRAMES = {
   ]
 };
 
-const STYLE_COPY = [
-  {
-    id: 'primeira-vez',
-    title: 'Primeira vez',
-    desc: 'Ícones essenciais sem correria — o essencial bem organizado.',
-    icon: Sparkles
-  },
-  {
-    id: 'romantico',
-    title: 'Romântico',
-    desc: 'Passeios ao entardecer, jantares e cantos com atmosfera.',
-    icon: Moon
-  },
-  {
-    id: 'cultura',
-    title: 'Cultura & museus',
-    desc: 'Acervos, monumentos e bairros com história em cada esquina.',
-    icon: Compass
-  },
-  {
-    id: 'gastronomia',
-    title: 'Gastronomia',
-    desc: 'Mercados, bistrôs e o melhor do destino no prato.',
-    icon: Utensils
-  }
-];
-
 const DAY_ACCENTS = ['bg-brand-orange', 'bg-[#2F6FED]', 'bg-brand-green', 'bg-[#B45309]', 'bg-[#7C3AED]', 'bg-[#0F766E]'];
 
 function framesFor(guide) {
@@ -145,14 +115,6 @@ function shortFact(text, fallback) {
   const clean = String(text).replace(/\s+/g, ' ').trim();
   if (clean.length <= 72) return clean;
   return `${clean.slice(0, 69).trim()}…`;
-}
-
-function itineraryBullets(details) {
-  return String(details || '')
-    .split(/,| e |;/)
-    .map((part) => part.trim())
-    .filter(Boolean)
-    .slice(0, 3);
 }
 
 export default function GuideArticleClient({ guide }) {
@@ -228,14 +190,6 @@ export default function GuideArticleClient({ guide }) {
     ];
   }, [guide]);
 
-  const travelStyles = useMemo(() => {
-    if (!guide) return [];
-    return STYLE_COPY.map((style, index) => ({
-      ...style,
-      image: frames[index % Math.max(frames.length, 1)] || guide.heroImage
-    }));
-  }, [guide, frames]);
-
   const visibleItinerary = useMemo(() => {
     if (!guide?.suggestedItinerary) return [];
     if (itineraryTab === '3') return guide.suggestedItinerary.slice(0, 3);
@@ -279,10 +233,10 @@ export default function GuideArticleClient({ guide }) {
             </div>
             <div className="container mx-auto mt-auto w-full max-w-[1440px] px-4 pb-10 text-left text-white sm:px-6 sm:pb-14">
               <p className="text-[11px] font-extrabold tracking-[0.18em] text-white/70 uppercase">Guia de Viagem</p>
-              <h1 className="font-headers mt-3 max-w-4xl text-5xl font-extrabold leading-[0.95] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl break-words">
-                {guide.city}
+              <h1 className="font-headers mt-3 max-w-5xl text-4xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+                {guide.city}: Guia completo
               </h1>
-              <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/85 sm:text-base">
+              <p className="mt-4 max-w-3xl text-sm leading-relaxed text-white/85 sm:text-base">
                 {guide.subtitle}
               </p>
               <button
@@ -318,50 +272,33 @@ export default function GuideArticleClient({ guide }) {
           </div>
         </ScrollReveal>
 
-        <div className="container mx-auto mt-14 w-full max-w-[1200px] px-4 sm:px-6">
+        <div className="container mx-auto mt-14 w-full max-w-[1440px] px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <GuideThirtySeconds guide={guide} />
           </ScrollReveal>
 
           <ScrollReveal className="mt-10" delay={40}>
-            <section className="text-left">
-              <p className="max-w-3xl text-base leading-relaxed text-text-muted">{guide.intro}</p>
-              <p className="mt-3 max-w-3xl text-sm leading-relaxed text-text-muted">{guide.whyVisit}</p>
+            <section id="introducao" className="text-left">
+              <p className="max-w-[46rem] text-base leading-relaxed text-text-muted sm:text-lg">{guide.intro}</p>
+              <p className="mt-4 max-w-[46rem] text-sm leading-relaxed text-text-muted sm:text-base">{guide.whyVisit}</p>
             </section>
           </ScrollReveal>
 
-          <ScrollReveal className="mt-16" delay={60}>
-            <section id="estilos">
-              <div className="mb-6 text-left">
-                <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Estilos</p>
-                <h2 className="font-headers mt-2 text-3xl font-extrabold text-brand-navy">
-                  Escolha seu estilo de viagem
+          <ScrollReveal className="mt-12" delay={40}>
+            <section id="quando-ir" className="grid grid-cols-1 gap-4 md:grid-cols-2 text-left">
+              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
+                <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Quando ir</p>
+                <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy">
+                  Melhor época em {guide.city}
                 </h2>
+                <p className="mt-3 text-sm leading-relaxed text-text-muted sm:text-base">{guide.whenToGo}</p>
               </div>
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                {travelStyles.map((style) => {
-                  const Icon = style.icon;
-                  return (
-                    <article
-                      key={style.id}
-                      className="group relative h-64 overflow-hidden rounded-[24px] bg-brand-navy text-left shadow-md"
-                    >
-                      <img
-                        src={style.image}
-                        alt=""
-                        className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-black/10" />
-                      <div className="relative z-10 flex h-full flex-col justify-end p-5 text-white">
-                        <span className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/15 backdrop-blur-sm">
-                          <Icon className="h-5 w-5 text-brand-orange" />
-                        </span>
-                        <h3 className="font-headers text-xl font-extrabold">{style.title}</h3>
-                        <p className="mt-1 text-xs leading-relaxed text-white/80">{style.desc}</p>
-                      </div>
-                    </article>
-                  );
-                })}
+              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
+                <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Duração</p>
+                <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy">
+                  Quantos dias ficar
+                </h2>
+                <p className="mt-3 text-sm leading-relaxed text-text-muted sm:text-base">{guide.idealDays}</p>
               </div>
             </section>
           </ScrollReveal>
@@ -372,7 +309,7 @@ export default function GuideArticleClient({ guide }) {
                 <div>
                   <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Roteiro</p>
                   <h2 className="font-headers mt-2 text-3xl font-extrabold text-brand-navy">
-                    Roteiro pronto em {guide.city}
+                    Roteiro sugerido
                   </h2>
                 </div>
                 <div className="flex flex-wrap gap-2">
@@ -404,13 +341,13 @@ export default function GuideArticleClient({ guide }) {
                 </div>
               </div>
 
-              <div className="-mx-4 flex gap-4 overflow-x-auto px-4 pb-3 custom-scrollbar-hide sm:mx-0 sm:px-0">
+              <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
                 {visibleItinerary.map((item, idx) => (
                   <article
                     key={`${item.day}-${item.title}`}
-                    className="w-[min(260px,78vw)] shrink-0 overflow-hidden rounded-[24px] border border-border-gray/80 bg-white shadow-sm transition-transform duration-300 hover:-translate-y-1"
+                    className="overflow-hidden rounded-[24px] border border-border-gray/80 bg-white shadow-sm transition-transform duration-300 hover:-translate-y-1"
                   >
-                    <div className="relative h-36 overflow-hidden">
+                    <div className="relative h-40 overflow-hidden">
                       <img
                         src={frames[idx % Math.max(frames.length, 1)] || guide.heroImage}
                         alt=""
@@ -418,21 +355,16 @@ export default function GuideArticleClient({ guide }) {
                       />
                       <span className={`absolute left-3 top-3 h-2.5 w-2.5 rounded-full ${DAY_ACCENTS[idx % DAY_ACCENTS.length]}`} />
                     </div>
-                    <div className="p-4 text-left">
+                    <div className="p-5 text-left">
                       <p className="text-[10px] font-extrabold uppercase tracking-wider text-brand-orange">
                         {item.day}
                       </p>
-                      <h3 className="font-headers mt-1 text-base font-extrabold text-brand-navy">
+                      <h3 className="font-headers mt-1 text-lg font-extrabold text-brand-navy">
                         {item.title}
                       </h3>
-                      <ul className="mt-3 space-y-1.5">
-                        {itineraryBullets(item.details).map((bullet) => (
-                          <li key={bullet} className="flex items-start gap-2 text-xs text-text-muted">
-                            <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-orange" />
-                            <span>{bullet}</span>
-                          </li>
-                        ))}
-                      </ul>
+                      <p className="mt-3 text-sm leading-relaxed text-text-muted">
+                        {item.details}
+                      </p>
                     </div>
                   </article>
                 ))}
@@ -466,7 +398,16 @@ export default function GuideArticleClient({ guide }) {
                     </div>
                     <div className="p-5">
                       <h3 className="font-headers text-lg font-extrabold text-brand-navy">{att.name}</h3>
-                      <p className="mt-2 text-xs leading-relaxed text-text-muted line-clamp-3">{att.desc}</p>
+                      <p className="mt-2 text-sm leading-relaxed text-text-muted">{att.desc}</p>
+                      {att.whyVisit ? (
+                        <p className="mt-2 text-sm leading-relaxed text-text-muted">{att.whyVisit}</p>
+                      ) : null}
+                      {att.tip2GO ? (
+                        <p className="mt-3 text-xs leading-relaxed text-brand-navy/80">
+                          <span className="font-extrabold text-brand-orange">Dica 2GO: </span>
+                          {att.tip2GO}
+                        </p>
+                      ) : null}
                       <div className="mt-4 grid grid-cols-2 gap-2 text-[11px]">
                         <div className="rounded-xl bg-bg-light px-3 py-2">
                           <span className="block text-[10px] uppercase text-text-muted">Preço</span>
@@ -478,11 +419,11 @@ export default function GuideArticleClient({ guide }) {
                         </div>
                         <div className="rounded-xl bg-bg-light px-3 py-2">
                           <span className="block text-[10px] uppercase text-text-muted">Melhor horário</span>
-                          <span className="font-bold text-brand-navy line-clamp-2">{att.bestTime}</span>
+                          <span className="font-bold text-brand-navy">{att.bestTime}</span>
                         </div>
                         <div className="rounded-xl bg-bg-light px-3 py-2">
                           <span className="block text-[10px] uppercase text-text-muted">Reserva</span>
-                          <span className="font-bold text-brand-orange line-clamp-2">{att.reservation}</span>
+                          <span className="font-bold text-brand-orange">{att.reservation}</span>
                         </div>
                       </div>
                     </div>
@@ -595,7 +536,7 @@ export default function GuideArticleClient({ guide }) {
                 <h3 className="font-headers mb-4 flex items-center gap-2 text-lg font-extrabold text-brand-navy">
                   <AlertTriangle className="h-5 w-5 text-brand-orange" /> Erros comuns
                 </h3>
-                <ul className="space-y-3 text-xs text-text-muted">
+                <ul className="space-y-3 text-sm text-text-muted">
                   {guide.commonMistakes.map((err) => (
                     <li key={err} className="flex items-start gap-2.5">
                       <span className="text-brand-orange font-bold">•</span>
@@ -608,7 +549,7 @@ export default function GuideArticleClient({ guide }) {
                 <h3 className="font-headers mb-4 flex items-center gap-2 text-lg font-extrabold text-brand-navy">
                   <Info className="h-5 w-5 text-brand-navy" /> Dicas importantes
                 </h3>
-                <ul className="space-y-3 text-xs text-text-muted">
+                <ul className="space-y-3 text-sm text-text-muted">
                   {guide.importantTips.map((tip) => (
                     <li key={tip} className="flex items-start gap-2.5">
                       <span className="text-brand-navy font-bold">•</span>
@@ -621,36 +562,37 @@ export default function GuideArticleClient({ guide }) {
           </ScrollReveal>
 
           <ScrollReveal className="mt-12" delay={40}>
-            <section className="grid grid-cols-1 gap-4 md:grid-cols-3 text-left">
-              <div className="rounded-[24px] bg-[#F7F8FA] p-5 md:col-span-1">
+            <section className="grid grid-cols-1 gap-4 lg:grid-cols-3 text-left">
+              <div className="rounded-[24px] bg-[#F7F8FA] p-6">
                 <h3 className="font-headers text-lg font-extrabold text-brand-navy">Bate-volta</h3>
-                <ul className="mt-3 space-y-2 text-xs text-text-muted">
+                <ul className="mt-3 space-y-2.5 text-sm text-text-muted">
                   {guide.dayTrips.map((trip) => (
-                    <li key={trip} className="flex items-center gap-2">
-                      <Compass className="h-3.5 w-3.5 shrink-0 text-brand-orange" />
+                    <li key={trip} className="flex items-start gap-2">
+                      <Compass className="mt-0.5 h-3.5 w-3.5 shrink-0 text-brand-orange" />
                       <span>{trip}</span>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="rounded-[24px] bg-[#F7F8FA] p-5 md:col-span-1">
+              <div className="rounded-[24px] bg-[#F7F8FA] p-6">
                 <h3 className="font-headers text-lg font-extrabold text-brand-navy">Gastronomia</h3>
-                <div className="mt-3 flex flex-wrap gap-2">
+                <ul className="mt-3 space-y-2.5 text-sm text-text-muted">
                   {guide.gastronomy.map((item) => (
-                    <span key={item} className="rounded-xl bg-white px-3 py-1.5 text-[11px] font-bold text-brand-navy">
-                      {item}
-                    </span>
+                    <li key={item} className="flex items-start gap-2">
+                      <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-brand-orange" />
+                      <span>{item}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
-              <div className="rounded-[24px] bg-[#F7F8FA] p-5 md:col-span-1">
+              <div className="rounded-[24px] bg-[#F7F8FA] p-6">
                 <h3 className="font-headers mb-3 flex items-center gap-2 text-lg font-extrabold text-brand-navy">
                   <ShoppingBag className="h-4 w-4 text-brand-orange" /> Compras & noite
                 </h3>
-                <ul className="space-y-2 text-xs text-text-muted">
-                  {[...guide.shopping, ...guide.nightlife].slice(0, 5).map((item) => (
-                    <li key={item} className="flex items-center gap-2">
-                      <CheckCircle2 className="h-3.5 w-3.5 shrink-0 text-brand-orange" />
+                <ul className="space-y-2.5 text-sm text-text-muted">
+                  {[...guide.shopping, ...guide.nightlife].map((item) => (
+                    <li key={item} className="flex items-start gap-2">
+                      <CheckCircle2 className="mt-0.5 h-3.5 w-3.5 shrink-0 text-brand-orange" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -658,6 +600,19 @@ export default function GuideArticleClient({ guide }) {
               </div>
             </section>
           </ScrollReveal>
+
+          {guide.summaryText ? (
+            <ScrollReveal className="mt-12" delay={40}>
+              <section id="resumo-rapido" className="rounded-[24px] border border-border-gray/70 bg-white p-6 text-left sm:p-8">
+                <h2 className="font-headers text-2xl font-extrabold text-brand-navy">
+                  Resumo rápido
+                </h2>
+                <p className="mt-3 max-w-4xl text-sm leading-relaxed text-text-muted sm:text-base">
+                  {guide.summaryText}
+                </p>
+              </section>
+            </ScrollReveal>
+          ) : null}
 
           <ScrollReveal className="mt-16" delay={60}>
             <section id="faq" className="text-left">

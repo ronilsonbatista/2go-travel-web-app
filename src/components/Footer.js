@@ -5,7 +5,7 @@ import { Lock } from 'lucide-react';
 export default function Footer({ onOpenDownload }) {
   return (
     <footer className="bg-[#081B6B] text-white pt-16 sm:pt-20 pb-28 lg:pb-10 overflow-x-clip">
-      <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 mb-16">
+      <div className="container mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 mb-16">
         
         {/* Brand Information */}
         <div className="flex flex-col gap-6">
@@ -22,7 +22,7 @@ export default function Footer({ onOpenDownload }) {
               className="h-full w-auto object-contain brightness-0 invert opacity-95"
             />
           </Link>
-          <p className="text-sm text-white/75 leading-relaxed max-w-[280px]">
+          <p className="text-sm text-white/75 leading-relaxed max-w-sm">
             Destinos e guias para inspirar. O dia a dia da viagem fica no aplicativo.
           </p>
           <div className="flex gap-4">
@@ -128,7 +128,7 @@ export default function Footer({ onOpenDownload }) {
 
       </div>
 
-      <div className="container mx-auto px-6 pt-10 border-t border-white/15 flex flex-col md:flex-row justify-between items-center text-xs text-white/60 gap-4">
+      <div className="container mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 pt-10 border-t border-white/15 flex flex-col md:flex-row justify-between items-center text-xs text-white/60 gap-4">
         <div className="flex items-center gap-4 flex-wrap justify-center md:justify-start">
           <p>&copy; 2026 2GO S.A. Todos os direitos reservados.</p>
           <span className="inline-flex items-center gap-1.5 bg-white/10 text-white font-semibold px-2.5 py-1 rounded-md text-[11px] border border-white/15">
