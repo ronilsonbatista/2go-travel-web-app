@@ -5,15 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
-import { PhoneFrame } from './AppPhoneMockup';
-
-function HeroPhone({ src, alt }) {
-  return (
-    <PhoneFrame size="md" className="max-w-[240px] sm:max-w-[280px] lg:max-w-[300px]" glowClassName="bg-[#081B6B]/20">
-      <img src={src} alt={alt} className="h-full w-full object-cover object-top" />
-    </PhoneFrame>
-  );
-}
+import AppPhoneMockup, { PhoneFrame, PhoneScreenImage } from './AppPhoneMockup';
 
 export default function RoteirosClient() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
@@ -27,7 +19,6 @@ export default function RoteirosClient() {
           
           <Breadcrumbs items={[{ name: 'Roteiros', url: '/roteiros' }]} />
 
-          {/* Header */}
           <header className="mt-6 mb-4">
             <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-wide px-3 py-1.5 rounded-full w-fit">
               Exemplos de roteiros
@@ -49,7 +40,7 @@ export default function RoteirosClient() {
 
           <section className="my-8 bg-white border border-border-gray rounded-[28px] p-5 sm:p-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-              <div className="lg:col-span-6 text-left">
+              <div className="lg:col-span-5 text-left">
                 <p className="text-[11px] font-extrabold tracking-wide text-brand-orange">Prints do aplicativo</p>
                 <h2 className="font-headers text-2xl sm:text-3xl font-extrabold text-brand-navy mt-2">
                   Da próxima viagem ao dia a dia
@@ -58,11 +49,14 @@ export default function RoteirosClient() {
                   A home mostra a viagem que vem. O roteiro abre o dia, o horário e o mapa. Você ajusta tudo no app.
                 </p>
               </div>
-              <div className="lg:col-span-6 flex justify-center lg:justify-end py-6 lg:py-2">
-                <HeroPhone
-                  src="/assets/app-home-gustavo.webp"
-                  alt="Tela inicial do app 2GO, com a próxima viagem para Roma"
-                />
+              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-6 sm:gap-8 py-6 lg:py-2">
+                <PhoneFrame size="md" className="max-w-[200px] sm:max-w-[230px]" glowClassName="bg-[#081B6B]/18">
+                  <PhoneScreenImage
+                    src="/assets/app-home-gustavo.webp"
+                    alt="Tela inicial do app 2GO, com a próxima viagem para Roma"
+                  />
+                </PhoneFrame>
+                <AppPhoneMockup variant="roma" size="md" className="max-w-[200px] sm:max-w-[230px]" />
               </div>
             </div>
           </section>
