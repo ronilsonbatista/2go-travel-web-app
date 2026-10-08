@@ -279,8 +279,8 @@ export default function GuideArticleClient({ guide }) {
 
           <ScrollReveal className="mt-10" delay={40}>
             <section id="introducao" className="text-left">
-              <p className="max-w-4xl text-base leading-relaxed text-text-muted sm:text-lg">{guide.intro}</p>
-              <p className="mt-4 max-w-4xl text-sm leading-relaxed text-text-muted sm:text-base">{guide.whyVisit}</p>
+              <p className="max-w-[46rem] text-base leading-relaxed text-text-muted sm:text-lg">{guide.intro}</p>
+              <p className="mt-4 max-w-[46rem] text-sm leading-relaxed text-text-muted sm:text-base">{guide.whyVisit}</p>
             </section>
           </ScrollReveal>
 
