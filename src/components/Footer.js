@@ -4,8 +4,8 @@ import { Lock } from 'lucide-react';
 
 export default function Footer({ onOpenDownload }) {
   return (
-    <footer className="bg-[#081B6B] text-white pt-20 pb-28 lg:pb-10">
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+    <footer className="bg-[#081B6B] text-white pt-16 sm:pt-20 pb-28 lg:pb-10 overflow-x-clip">
+      <div className="container mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 mb-16">
         
         {/* Brand Information */}
         <div className="flex flex-col gap-6">

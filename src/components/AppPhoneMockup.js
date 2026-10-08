@@ -107,9 +107,9 @@ const META = {
 };
 
 const SIZE_CLASS = {
-  sm: 'w-[200px]',
-  md: 'w-[260px] sm:w-[280px]',
-  lg: 'w-[280px] sm:w-[320px]'
+  sm: 'w-full max-w-[180px]',
+  md: 'w-full max-w-[240px] sm:max-w-[280px]',
+  lg: 'w-full max-w-[250px] sm:max-w-[300px] lg:max-w-[320px]'
 };
 
 /**

@@ -228,11 +228,11 @@ export default function GuideArticleClient({ guide }) {
   if (!guide) return null;
 
   return (
-    <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
+    <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pb-20">
-        <section className="relative mt-[64px] h-[calc(100svh-64px)] min-h-[620px] overflow-hidden bg-[#0b1220] lg:mt-[78px] lg:h-[calc(100svh-78px)]">
+        <section className="relative mt-[64px] h-[calc(100svh-64px)] min-h-[520px] sm:min-h-[620px] overflow-hidden bg-[#0b1220] lg:mt-[78px] lg:h-[calc(100svh-78px)]">
           {frames.map((src, index) => (
             <img
               key={src}
@@ -257,7 +257,7 @@ export default function GuideArticleClient({ guide }) {
             </div>
             <div className="container mx-auto mt-auto w-full max-w-[1440px] px-4 pb-10 text-left text-white sm:px-6 sm:pb-14">
               <p className="text-[11px] font-extrabold tracking-[0.18em] text-white/70 uppercase">Guia de Viagem</p>
-              <h1 className="font-headers mt-3 max-w-4xl text-6xl font-extrabold leading-[0.9] tracking-tight text-white sm:text-7xl md:text-8xl">
+              <h1 className="font-headers mt-3 max-w-4xl text-5xl font-extrabold leading-[0.95] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-8xl break-words">
                 {guide.city}
               </h1>
               <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/85 sm:text-base">
@@ -388,11 +388,11 @@ export default function GuideArticleClient({ guide }) {
                 </div>
               </div>
 
-              <div className="flex gap-4 overflow-x-auto pb-3 custom-scrollbar-hide">
+              <div className="-mx-4 flex gap-4 overflow-x-auto px-4 pb-3 custom-scrollbar-hide sm:mx-0 sm:px-0">
                 {visibleItinerary.map((item, idx) => (
                   <article
                     key={`${item.day}-${item.title}`}
-                    className="w-[260px] shrink-0 overflow-hidden rounded-[24px] border border-border-gray/80 bg-white shadow-sm transition-transform duration-300 hover:-translate-y-1"
+                    className="w-[min(260px,78vw)] shrink-0 overflow-hidden rounded-[24px] border border-border-gray/80 bg-white shadow-sm transition-transform duration-300 hover:-translate-y-1"
                   >
                     <div className="relative h-36 overflow-hidden">
                       <img
@@ -711,7 +711,7 @@ export default function GuideArticleClient({ guide }) {
                     <ArrowRight className="h-4 w-4" />
                   </button>
                 </div>
-                <div className="flex justify-center lg:col-span-5 lg:justify-end">
+                <div className="flex justify-center lg:col-span-5 lg:justify-end min-w-0 px-2">
                   <AppPhoneMockup variant={phoneVariantFor(guide)} size="lg" />
                 </div>
               </div>

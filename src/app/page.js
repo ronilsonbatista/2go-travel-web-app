@@ -268,7 +268,7 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
+    <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
       
       <main className="flex-grow">
@@ -688,7 +688,7 @@ export default function Home() {
                 </div>
               </div>
               
-              <div className="lg:col-span-5 relative z-10 flex justify-center items-center w-full py-4">
+              <div className="lg:col-span-5 relative z-10 flex justify-center items-center w-full min-w-0 py-2 sm:py-4 px-2">
                 <AppPhoneMockup variant="noronha" size="md" />
               </div>
             </div>

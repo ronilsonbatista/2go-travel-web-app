@@ -9,7 +9,7 @@ import { PhoneFrame } from './AppPhoneMockup';
 
 function HeroPhone({ src, alt }) {
   return (
-    <PhoneFrame size="md" className="lg:w-[300px]" glowClassName="bg-[#081B6B]/20">
+    <PhoneFrame size="md" className="max-w-[240px] sm:max-w-[280px] lg:max-w-[300px]" glowClassName="bg-[#081B6B]/20">
       <img src={src} alt={alt} className="h-full w-full object-cover object-top" />
     </PhoneFrame>
   );
@@ -19,7 +19,7 @@ export default function RoteirosClient() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
 
   return (
-    <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
+    <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pt-24 pb-16">
