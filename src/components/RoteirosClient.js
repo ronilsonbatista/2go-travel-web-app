@@ -5,25 +5,13 @@ import Header from './Header';
 import Footer from './Footer';
 import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
+import { PhoneFrame } from './AppPhoneMockup';
 
 function HeroPhone({ src, alt }) {
   return (
-    <div className="relative mx-auto w-[232px] sm:w-[280px] lg:w-[300px]">
-      <div className="pointer-events-none absolute -bottom-8 left-1/2 h-10 w-[72%] -translate-x-1/2 rounded-full bg-[#081B6B]/20 blur-2xl" />
-      <span className="pointer-events-none absolute -left-[3px] top-[18%] h-7 w-[3px] rounded-l-sm bg-gradient-to-b from-[#c5cad3] to-[#5c6370]" />
-      <span className="pointer-events-none absolute -left-[3px] top-[27%] h-11 w-[3px] rounded-l-sm bg-gradient-to-b from-[#c5cad3] to-[#5c6370]" />
-      <span className="pointer-events-none absolute -left-[3px] top-[38%] h-11 w-[3px] rounded-l-sm bg-gradient-to-b from-[#c5cad3] to-[#5c6370]" />
-      <span className="pointer-events-none absolute -right-[3px] top-[26%] h-16 w-[3px] rounded-r-sm bg-gradient-to-b from-[#e8ebf0] to-[#6a7180]" />
-      <div className="relative rounded-[2.7rem] bg-gradient-to-br from-[#d7dbe3] via-[#8b909b] to-[#2a2e36] p-[1.5px] shadow-[0_28px_50px_rgba(8,27,107,0.22),0_10px_18px_rgba(0,0,0,0.16)]">
-        <div className="rounded-[2.6rem] bg-gradient-to-b from-[#2a2f3a] to-[#0e1116] p-[11px]">
-          <div className="relative aspect-[9/19.5] overflow-hidden rounded-[1.9rem] bg-black shadow-[inset_0_0_0_1px_rgba(255,255,255,0.16)]">
-            <img src={src} alt={alt} className="h-full w-full object-cover object-top" />
-            <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white/20 to-transparent" />
-            <div className="pointer-events-none absolute left-1/2 top-2.5 z-10 h-[22px] w-[88px] -translate-x-1/2 rounded-full bg-black shadow-[inset_0_0_0_1px_rgba(255,255,255,0.14)]" />
-          </div>
-        </div>
-      </div>
-    </div>
+    <PhoneFrame size="md" className="lg:w-[300px]" glowClassName="bg-[#081B6B]/20">
+      <img src={src} alt={alt} className="h-full w-full object-cover object-top" />
+    </PhoneFrame>
   );
 }
 
