@@ -27,15 +27,15 @@ export default function QuemSomosClient() {
             className="pointer-events-none absolute -left-16 bottom-0 h-56 w-56 rounded-full bg-brand-navy/10 blur-3xl"
           />
 
-          <div className="container relative z-10 mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-4 py-12 sm:px-6 sm:py-16 lg:grid-cols-12 lg:gap-12 lg:py-24">
+          <div className="container relative z-10 mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-10 px-4 py-12 sm:px-6 lg:px-8 sm:py-16 lg:grid-cols-12 lg:gap-12 lg:py-24">
             <ScrollReveal className="text-left lg:col-span-7 min-w-0">
-              <h1 className="font-headers text-3xl font-extrabold leading-[1.1] tracking-tight text-brand-navy sm:text-4xl md:text-5xl lg:text-6xl break-words">
+              <h1 className="font-headers text-3xl font-extrabold leading-[1.1] tracking-tight text-brand-navy sm:text-4xl md:text-5xl lg:text-6xl">
                 Quem somos
               </h1>
-              <p className="mt-6 max-w-2xl text-base leading-relaxed text-text-muted sm:text-lg">
+              <p className="mt-6 max-w-3xl text-base leading-relaxed text-text-muted sm:text-lg">
                 A 2GO é uma plataforma de planejamento de viagens que transforma a pesquisa sobre um destino em um roteiro personalizado, organizado e feito para o seu jeito de viajar.
               </p>
-              <p className="mt-4 max-w-2xl text-base leading-relaxed text-text-muted sm:text-lg">
+              <p className="mt-4 max-w-3xl text-base leading-relaxed text-text-muted sm:text-lg">
                 Nossa proposta é simples: facilitar a descoberta do que fazer em cada destino e transformar todas as informações necessárias para uma viagem em um único roteiro.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -65,7 +65,7 @@ export default function QuemSomosClient() {
 
         {/* Research pain + simplify */}
         <section className="bg-white">
-          <div className="container mx-auto max-w-3xl px-4 py-14 text-left sm:px-6 sm:py-16 lg:py-20">
+          <div className="container mx-auto max-w-[960px] px-4 py-14 text-left sm:px-6 lg:px-8 sm:py-16 lg:py-20">
             <ScrollReveal>
               <p className="text-base leading-relaxed text-text-muted">
                 Hoje, planejar uma viagem pode significar passar horas pesquisando. Você procura artigos, assiste a vídeos, salva publicações nas redes sociais, compara preços, descobre como chegar a cada atração, pesquisa restaurantes, horários, ingressos, transporte e, depois, ainda precisa organizar tudo para que faça sentido dentro dos dias que você tem disponíveis.
@@ -82,7 +82,7 @@ export default function QuemSomosClient() {
 
         {/* Cada viagem é única + brand panel */}
         <section className="bg-[#F7F8FA]">
-          <div className="container mx-auto max-w-5xl px-4 py-14 sm:px-6 sm:py-16 lg:py-20">
+          <div className="container mx-auto max-w-[1440px] px-4 py-14 sm:px-6 lg:px-8 sm:py-16 lg:py-20">
             <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-12">
               <ScrollReveal className="text-left lg:col-span-7 min-w-0">
                 <h2 className="font-headers text-2xl font-extrabold text-brand-navy sm:text-3xl">
@@ -144,7 +144,7 @@ export default function QuemSomosClient() {
 
         {/* Objetivo + closing */}
         <section className="bg-white">
-          <div className="container mx-auto max-w-3xl px-4 py-14 text-left sm:px-6 sm:py-16 lg:py-20">
+          <div className="container mx-auto max-w-[960px] px-4 py-14 text-left sm:px-6 lg:px-8 sm:py-16 lg:py-20">
             <ScrollReveal>
               <p className="text-base leading-relaxed text-text-muted">
                 Nosso objetivo é economizar o seu tempo e tornar o planejamento mais simples, organizado e eficiente.

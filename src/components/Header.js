@@ -36,7 +36,7 @@ export default function Header({ onOpenDownload, solid = false }) {
             : 'h-[64px] lg:h-[78px] bg-transparent border-b border-transparent'
         }`}
       >
-        <div className="container mx-auto px-4 lg:px-5 flex justify-between items-center w-full min-w-0 gap-3">
+        <div className="container mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 flex justify-between items-center w-full min-w-0 gap-3">
           {/* Official Logo — único asset (228×192); exibido maior para usar o arquivo inteiro */}
           <Link 
             href="/"

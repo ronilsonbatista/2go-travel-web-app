@@ -329,13 +329,13 @@ export default function Home() {
             />
           </div>
 
-          <div className="container mx-auto px-4 sm:px-6 relative z-20 max-w-6xl w-full">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20 max-w-[1440px] w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
               
               {/* Left text panel */}
               <div className="lg:col-span-7 flex flex-col items-center sm:items-start text-left">
                 <div 
-                  className="w-full max-w-2xl bg-white/26 backdrop-blur-[6px] lg:backdrop-blur-[10px] border border-white/30 lg:border-white/35 shadow-[0_15px_45px_rgba(8,27,107,0.06)] lg:shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-4 sm:p-8 md:p-10 rounded-[20px] lg:rounded-[28px] flex flex-col gap-3.5 lg:gap-6 animate-fade-in-up items-center sm:items-start"
+                  className="w-full max-w-3xl bg-white/26 backdrop-blur-[6px] lg:backdrop-blur-[10px] border border-white/30 lg:border-white/35 shadow-[0_15px_45px_rgba(8,27,107,0.06)] lg:shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-4 sm:p-8 md:p-10 rounded-[20px] lg:rounded-[28px] flex flex-col gap-3.5 lg:gap-6 animate-fade-in-up items-center sm:items-start"
                 >
                   <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5">
                     <span className="bg-[#F47A20] text-white text-[10px] sm:text-[12px] font-black tracking-wide px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
@@ -463,8 +463,8 @@ export default function Home() {
 
         {/* 2. COMO FUNCIONA */}
         <section id="como-funciona" className="py-12 lg:py-28 bg-[#F4F6F9] border-b border-border-gray/50 scroll-mt-20">
-          <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-6xl w-full">
-            <div className="text-center max-w-[600px] mx-auto mb-14 md:mb-16">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full">
+            <div className="text-center max-w-[720px] mx-auto mb-14 md:mb-16">
               <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
                 Máxima praticidade
               </span>
@@ -476,7 +476,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-5xl mx-auto w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-[1200px] mx-auto w-full">
               {/* Step 1 */}
               <div className="group relative bg-white border border-border-gray p-6 sm:p-8 rounded-[28px] lg:rounded-[24px] shadow-sm flex flex-col items-start text-left w-full">
                 <span className="font-headers text-6xl font-extrabold text-brand-orange/20 absolute top-6 right-8 leading-none select-none group-hover:scale-105 transition-transform duration-300">1</span>
@@ -517,9 +517,9 @@ export default function Home() {
         </section>
 
         <section id="destinos" className="py-12 lg:py-28 bg-[#F7F8FA] border-b border-border-gray/50 relative scroll-mt-20">
-          <ScrollReveal className="container mx-auto px-4 sm:px-6">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
-              <div className="text-left max-w-2xl">
+              <div className="text-left max-w-3xl">
                 <span className="bg-brand-orange/10 text-brand-orange text-[12px] font-extrabold tracking-wide px-3.5 py-1.5 rounded-full w-fit">
                   Destinos em destaque
                 </span>
@@ -585,8 +585,8 @@ export default function Home() {
 
         {/* 7. TESTIMONIALS */}
         <section id="avaliacoes" className="py-12 lg:py-28 bg-white border-b border-border-gray/50 scroll-mt-20">
-          <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-6xl w-full">
-            <div className="text-center max-w-[600px] mx-auto mb-10 md:mb-16">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full">
+            <div className="text-center max-w-[720px] mx-auto mb-10 md:mb-16">
               <span className="bg-brand-navy/10 text-brand-navy text-[12px] font-extrabold tracking-wide px-3 py-1 rounded-full w-fit">
                 Depoimentos
               </span>
@@ -598,7 +598,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto w-full">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[1200px] mx-auto w-full">
               {[
                 { 
                   name: 'Amanda Martins', 
@@ -649,7 +649,7 @@ export default function Home() {
           <div className="absolute top-10 left-10 w-2.5 h-2.5 bg-brand-orange/40 rounded-full"></div>
           <div className="absolute bottom-20 left-1/3 w-3 h-3 bg-brand-green/30 rounded-full"></div>
 
-          <ScrollReveal className="container mx-auto px-4 sm:px-6 max-w-6xl w-full">
+          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full">
             <div className="bg-[#FAF9F6] text-brand-navy p-6 md:p-16 rounded-[28px] lg:rounded-[32px] relative overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-center gap-12 text-left shadow-lg border border-brand-navy/5">
               {/* Subtle background glow */}
               <div className="absolute -top-24 -right-24 w-96 h-96 bg-brand-orange/10 rounded-full blur-[100px] pointer-events-none select-none"></div>
@@ -697,7 +697,7 @@ export default function Home() {
 
         {/* 9. NEWSLETTER */}
         <section className="pb-20 bg-[#F7F8FA]">
-          <div className="container mx-auto px-6 max-w-5xl">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
             <NewsletterBox />
           </div>
         </section>

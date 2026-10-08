@@ -15,7 +15,7 @@ export default function RoteirosClient() {
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pt-24 pb-16">
-        <div className="container mx-auto px-4 sm:px-6 max-w-[1440px] w-full text-left min-w-0">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full text-left min-w-0">
           
           <Breadcrumbs items={[{ name: 'Roteiros', url: '/roteiros' }]} />
 
@@ -23,10 +23,10 @@ export default function RoteirosClient() {
             <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-wide px-3 py-1.5 rounded-full w-fit">
               Exemplos de roteiros
             </span>
-            <h1 className="font-headers text-3xl sm:text-5xl font-extrabold text-brand-navy mt-4 mb-4 tracking-tight break-words">
+            <h1 className="font-headers text-3xl sm:text-5xl font-extrabold text-brand-navy mt-4 mb-4 tracking-tight">
               Seus roteiros ganham vida no app
             </h1>
-            <p className="text-sm sm:text-base text-text-muted max-w-2xl leading-relaxed">
+            <p className="text-sm sm:text-base text-text-muted max-w-3xl leading-relaxed">
               Estes exemplos são uma prévia. Planejamento, timeline, mapa e ajustes ficam no aplicativo.
             </p>
             <button

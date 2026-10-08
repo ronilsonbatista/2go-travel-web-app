@@ -29,7 +29,7 @@ const articles = [
     tag: 'Destino',
     city: 'Paris',
     country: 'França',
-    title: 'Como planejar uma viagem para Paris: guia completo',
+    title: 'Paris: Guia completo',
     desc: 'Documentos, transporte, hospedagem, orçamento e o que ver antes de montar o dia a dia.',
     images: destinationGuides['como-planejar-viagem-paris'].images,
     url: '/guias/como-planejar-viagem-paris'
@@ -39,7 +39,7 @@ const articles = [
     tag: 'Destino',
     city: 'Nova York',
     country: 'Estados Unidos',
-    title: 'Como planejar uma viagem para Nova York: guia completo',
+    title: 'Nova York: Guia completo',
     desc: 'Visto, transporte, bairros e o que cabe numa primeira visita à cidade.',
     images: destinationGuides['como-planejar-viagem-nova-york'].images,
     url: '/guias/como-planejar-viagem-nova-york'
@@ -49,7 +49,7 @@ const articles = [
     tag: 'Destino',
     city: 'Tóquio',
     country: 'Japão',
-    title: 'Como planejar uma viagem para Tóquio: guia completo',
+    title: 'Tóquio: Guia completo',
     desc: 'Trem, bairros e o ritmo da cidade, sem transformar o guia num formulário.',
     images: destinationGuides['como-planejar-viagem-toquio'].images,
     url: '/guias/como-planejar-viagem-toquio'
@@ -59,7 +59,7 @@ const articles = [
     tag: 'Destino',
     city: 'Londres',
     country: 'Reino Unido',
-    title: 'Como planejar uma viagem para Londres: guia completo',
+    title: 'Londres: Guia completo',
     desc: 'ETA, Tube, atrações e uma ideia real de custo antes de embarcar.',
     images: destinationGuides['como-planejar-viagem-londres'].images,
     url: '/guias/como-planejar-viagem-londres'
@@ -69,7 +69,7 @@ const articles = [
     tag: 'Destino',
     city: 'Roma',
     country: 'Itália',
-    title: 'Como planejar uma viagem para Roma: guia completo',
+    title: 'Roma: Guia completo',
     desc: 'Coliseu, Vaticano, onde ficar e como não perder o dia em fila.',
     images: destinationGuides['como-planejar-viagem-roma'].images,
     url: '/guias/como-planejar-viagem-roma'
@@ -79,7 +79,7 @@ const articles = [
     tag: 'Destino',
     city: 'Istambul',
     country: 'Turquia',
-    title: 'Como planejar uma viagem para Istambul: guia completo',
+    title: 'Istambul: Guia completo',
     desc: 'Bósforo, bairros e o que separar entre o lado europeu e o asiático.',
     images: destinationGuides['como-planejar-viagem-istambul'].images,
     url: '/guias/como-planejar-viagem-istambul'
@@ -89,7 +89,7 @@ const articles = [
     tag: 'Destino',
     city: 'Dubai',
     country: 'Emirados Árabes Unidos',
-    title: 'Como planejar uma viagem para Dubai: guia completo',
+    title: 'Dubai: Guia completo',
     desc: 'Visto, calor, Burj Khalifa e o que realmente pesa no orçamento.',
     images: destinationGuides['como-planejar-viagem-dubai'].images,
     url: '/guias/como-planejar-viagem-dubai'
@@ -147,20 +147,20 @@ export default function GuiasIndex() {
       <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pt-28 pb-16">
-        <div className="container mx-auto px-4 sm:px-6 max-w-[1100px] w-full text-left min-w-0">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full text-left min-w-0">
           <Breadcrumbs items={[{ name: 'Guia de Viagem', url: '/guias' }]} />
 
-          <header className="mt-8 mb-10 max-w-3xl">
+          <header className="mt-8 mb-10 max-w-4xl">
             <p className="text-[11px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">2GO</p>
             <h1 className="font-headers text-4xl sm:text-5xl font-extrabold text-brand-navy mt-3 tracking-tight leading-[1.05]">
               Guia de Viagem
             </h1>
-            <p className="text-base sm:text-lg text-text-muted mt-4 leading-relaxed max-w-2xl">
+            <p className="text-base sm:text-lg text-text-muted mt-4 leading-relaxed max-w-3xl">
               O que ver, quanto guardar e como o lugar funciona. O dia a dia fica no aplicativo.
             </p>
           </header>
 
-          <div className="relative mb-10 max-w-xl">
+          <div className="relative mb-10 max-w-2xl">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-text-muted" />
             <input
               type="search"
