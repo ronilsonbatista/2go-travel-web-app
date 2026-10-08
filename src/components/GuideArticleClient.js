@@ -29,6 +29,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
 import AppPhoneMockup from '@/components/AppPhoneMockup';
+import GuideThirtySeconds from '@/components/GuideThirtySeconds';
 import ScrollReveal from '@/components/ScrollReveal';
 
 const LOCAL_FRAMES = {
@@ -135,7 +136,8 @@ function phoneVariantFor(guide) {
   const city = (guide.city || '').toLowerCase();
   if (city.includes('roma')) return 'roma';
   if (city.includes('paris')) return 'paris';
-  return 'noronha';
+  if (city.includes('nova york') || city.includes('new york')) return 'nova-york';
+  return 'paris';
 }
 
 function shortFact(text, fallback) {
@@ -177,31 +179,51 @@ export default function GuideArticleClient({ guide }) {
 
   const quickFacts = useMemo(() => {
     if (!guide) return [];
+    const daysMatch = String(guide.idealDays || '').match(/(\d+)\s*a\s*(\d+)/i);
+    const daysLabel = daysMatch
+      ? `${daysMatch[1]} a ${daysMatch[2]} dias`
+      : shortFact(guide.idealDays, '5 a 7 dias');
+    const season = shortFact(
+      String(guide.whenToGo || '')
+        .split(/[.;]/)[0]
+        .replace(/\([^)]*\)/g, '')
+        .trim(),
+      'Primavera e outono'
+    );
+    const neighborhood = (guide.neighborhoods?.[0]?.name || 'Melhores bairros')
+      .split('(')[0]
+      .trim();
+    const transport = shortFact(
+      String(guide.transportDetails || '')
+        .split(/[.;]/)[0]
+        .trim(),
+      'Transporte local'
+    );
     return [
       {
         icon: CalendarDays,
         label: 'Melhor época',
-        value: shortFact(guide.whenToGo, 'Primavera e outono')
+        value: season.length > 42 ? `${season.slice(0, 40)}…` : season
       },
       {
         icon: MapPin,
         label: 'Quantos dias',
-        value: shortFact(guide.idealDays, '5 a 7 dias')
+        value: daysLabel
       },
       {
         icon: Wallet,
         label: 'Quanto custa',
-        value: guide.costsTable?.comfort?.daily || guide.costsTable?.economy?.daily || 'Consulte o guia'
+        value: guide.costsTable?.economy?.daily || guide.costsTable?.comfort?.daily || 'Consulte o guia'
       },
       {
         icon: Hotel,
         label: 'Onde ficar',
-        value: guide.neighborhoods?.[0]?.name || 'Melhores bairros'
+        value: neighborhood
       },
       {
         icon: Compass,
         label: 'Como se locomover',
-        value: shortFact(guide.transportDetails, 'Transporte local')
+        value: transport.length > 42 ? `${transport.slice(0, 40)}…` : transport
       }
     ];
   }, [guide]);
@@ -296,21 +318,15 @@ export default function GuideArticleClient({ guide }) {
           </div>
         </ScrollReveal>
 
-        <div className="container mx-auto mt-14 w-full max-w-[1100px] px-4 sm:px-6">
+        <div className="container mx-auto mt-14 w-full max-w-[1200px] px-4 sm:px-6">
           <ScrollReveal>
-            <section id="introducao" className="text-left">
-              <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">
-                {guide.city} em 30 segundos
-              </p>
-              <h2 className="font-headers mt-2 text-3xl font-extrabold tracking-tight text-brand-navy sm:text-4xl">
-                Tudo o que importa, sem a corrida de abas
-              </h2>
-              <p className="mt-4 max-w-3xl text-base leading-relaxed text-text-muted">
-                {guide.intro}
-              </p>
-              <p className="mt-3 max-w-3xl text-sm leading-relaxed text-text-muted">
-                {guide.whyVisit}
-              </p>
+            <GuideThirtySeconds guide={guide} />
+          </ScrollReveal>
+
+          <ScrollReveal className="mt-10" delay={40}>
+            <section className="text-left">
+              <p className="max-w-3xl text-base leading-relaxed text-text-muted">{guide.intro}</p>
+              <p className="mt-3 max-w-3xl text-sm leading-relaxed text-text-muted">{guide.whyVisit}</p>
             </section>
           </ScrollReveal>
 

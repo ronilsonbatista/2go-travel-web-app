@@ -689,7 +689,7 @@ export default function Home() {
               </div>
               
               <div className="lg:col-span-5 relative z-10 flex justify-center items-center w-full min-w-0 py-2 sm:py-4 px-2">
-                <AppPhoneMockup variant="noronha" size="md" />
+                <AppPhoneMockup variant="paris" size="md" />
               </div>
             </div>
           </ScrollReveal>

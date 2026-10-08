@@ -91,6 +91,36 @@ const VARIANTS = {
         dot: 'navy'
       }
     ]
+  },
+  'nova-york': {
+    label: 'Meu Roteiro',
+    title: 'NYC em 6 dias',
+    days: ['Dia 1', 'Dia 2', 'Dia 3'],
+    activeDay: 0,
+    heroImage: '/images/destinations/nova-york/nova-york-empire-state.jpg',
+    events: [
+      {
+        time: '09:00',
+        title: 'Times Square',
+        meta: 'Confirmado',
+        metaTone: 'green',
+        dot: 'orange'
+      },
+      {
+        time: '14:00',
+        title: 'Central Park',
+        meta: 'Passeio livre',
+        metaTone: 'muted',
+        dot: 'green'
+      },
+      {
+        time: '19:30',
+        title: 'Broadway',
+        meta: 'Imperdível',
+        metaTone: 'orange',
+        dot: 'navy'
+      }
+    ]
   }
 };
 
@@ -131,13 +161,12 @@ export function PhoneFrame({
         />
       )}
 
-      {/* Soft contact / depth shadow */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-[8%] -bottom-3 h-6 rounded-[50%] bg-black/25 blur-xl"
+        className="pointer-events-none absolute inset-x-[10%] -bottom-2.5 h-5 rounded-[50%] bg-black/20 blur-lg"
       />
 
-      {/* Side buttons — titanium, flush to chassis */}
+      {/* Side buttons */}
       <span
         aria-hidden
         className="pointer-events-none absolute -left-[2px] top-[16.5%] z-20 h-[18px] w-[2.5px] rounded-l-full bg-gradient-to-b from-[#6b7078] via-[#3a3e46] to-[#1c1f24] shadow-[inset_0_1px_0_rgba(255,255,255,0.25)]"
@@ -162,55 +191,53 @@ export function PhoneFrame({
           background:
             'linear-gradient(145deg, #9aa0a8 0%, #3d424a 18%, #1a1d22 45%, #5c636e 72%, #1a1d22 100%)',
           boxShadow:
-            '0 32px 56px -12px rgba(0,0,0,0.38), 0 14px 24px -10px rgba(8,27,107,0.18), inset 0 1px 0 rgba(255,255,255,0.28)'
+            '0 28px 48px -14px rgba(0,0,0,0.42), 0 12px 22px -10px rgba(8,27,107,0.16), inset 0 1px 0 rgba(255,255,255,0.28)'
         }}
       >
-        {/* Matte black chassis */}
         <div
-          className="relative rounded-[2.58rem] p-[7px] sm:p-[8px]"
+          className="relative rounded-[2.58rem] p-[6px] sm:p-[7px]"
           style={{
             background: 'linear-gradient(180deg, #1c1f24 0%, #0a0b0d 55%, #121418 100%)',
             boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.06)'
           }}
         >
-          {/* Screen glass */}
-          <div className="relative aspect-[9/19.5] overflow-hidden rounded-[2.1rem] bg-black">
-            {/* Glass edge ring */}
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-0 z-30 rounded-[2.1rem]"
-              style={{
-                boxShadow:
-                  'inset 0 0 0 1px rgba(255,255,255,0.12), inset 0 0 0 2px rgba(0,0,0,0.35)'
-              }}
-            />
-            {/* Specular glaze (subtle) */}
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-y-0 left-0 z-20 w-[38%] bg-gradient-to-r from-white/[0.07] to-transparent"
-            />
-
+          {/* Screen — single clipped surface, opaque fill, no soft fade artifacts */}
+          <div
+            className="relative aspect-[9/19.5] overflow-hidden rounded-[2.05rem] bg-white isolate"
+            style={{
+              boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.1)'
+            }}
+          >
             {/* Dynamic Island */}
-            <div className="pointer-events-none absolute left-1/2 top-[11px] z-40 flex h-[22px] w-[92px] -translate-x-1/2 items-center justify-center rounded-full bg-black shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_2px_6px_rgba(0,0,0,0.45)] sm:h-[24px] sm:w-[98px]">
+            <div className="pointer-events-none absolute left-1/2 top-[10px] z-40 flex h-[22px] w-[90px] -translate-x-1/2 items-center justify-center rounded-full bg-black sm:h-[24px] sm:w-[96px]">
               <span
                 aria-hidden
-                className="absolute right-[14px] h-[7px] w-[7px] rounded-full bg-[#0f1520] shadow-[inset_0_0_0_1px_rgba(80,120,180,0.35)]"
+                className="absolute right-[13px] h-[7px] w-[7px] rounded-full bg-[#0f1520] shadow-[inset_0_0_0_1px_rgba(80,120,180,0.35)]"
               />
               <span
                 aria-hidden
-                className="absolute right-[16px] h-[2.5px] w-[2.5px] rounded-full bg-[#1e3a5f]/80"
+                className="absolute right-[15px] h-[2.5px] w-[2.5px] rounded-full bg-[#1e3a5f]/80"
               />
             </div>
 
-            {/* Screen content */}
-            <div className="absolute inset-0 overflow-hidden rounded-[2.1rem] bg-white text-brand-navy">
+            {/* Screen content — clipped hard to screen radius */}
+            <div className="absolute inset-0 overflow-hidden rounded-[2.05rem] bg-white text-brand-navy [transform:translateZ(0)]">
               {children}
             </div>
 
-            {/* Home indicator */}
+            {/* Thin edge ring (no bottom gray wash) */}
             <div
               aria-hidden
-              className="pointer-events-none absolute bottom-[6px] left-1/2 z-40 h-[4px] w-[34%] -translate-x-1/2 rounded-full bg-black/35"
+              className="pointer-events-none absolute inset-0 z-30 rounded-[2.05rem]"
+              style={{
+                boxShadow: 'inset 0 0 0 1px rgba(0,0,0,0.28)'
+              }}
+            />
+
+            {/* Home indicator — solid, not a translucent bar wash */}
+            <div
+              aria-hidden
+              className="pointer-events-none absolute bottom-[7px] left-1/2 z-40 h-[3.5px] w-[32%] -translate-x-1/2 rounded-full bg-[#1E293B]/55"
             />
           </div>
         </div>
@@ -219,15 +246,30 @@ export function PhoneFrame({
   );
 }
 
+function NavIcon({ children, active = false }) {
+  return (
+    <span className={`flex flex-col items-center gap-0.5 ${active ? 'text-brand-orange' : 'text-brand-navy/45'}`}>
+      <span aria-hidden className="flex h-4 w-4 items-center justify-center">
+        {children}
+      </span>
+    </span>
+  );
+}
+
 function AppScreen({ data }) {
   return (
-    <>
+    <div className="absolute inset-0 flex flex-col bg-white">
       {data.heroImage ? (
-        <div className="relative h-[28%] overflow-hidden">
-          <img src={data.heroImage} alt="" className="h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
-          <div className="absolute bottom-2 left-3 right-3 text-left">
-            <span className="text-[8px] font-extrabold uppercase tracking-wider text-white/80">
+        <div className="relative h-[27%] shrink-0 overflow-hidden bg-brand-navy">
+          <img
+            src={data.heroImage}
+            alt=""
+            className="h-full w-full object-cover object-center"
+            draggable={false}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-transparent" />
+          <div className="absolute bottom-2.5 left-3 right-3 text-left">
+            <span className="text-[8px] font-extrabold uppercase tracking-[0.14em] text-white/85">
               {data.label}
             </span>
             <p className="font-headers text-[13px] font-extrabold leading-tight text-white">
@@ -236,7 +278,7 @@ function AppScreen({ data }) {
           </div>
         </div>
       ) : (
-        <div className="px-3.5 pt-10 text-left">
+        <div className="shrink-0 px-3.5 pb-1 pt-10 text-left">
           <span className="text-[9px] font-extrabold uppercase tracking-wider text-brand-orange">
             {data.label}
           </span>
@@ -247,7 +289,7 @@ function AppScreen({ data }) {
       )}
 
       <div
-        className={`flex gap-1 overflow-x-auto px-3 pb-1 text-[10px] font-bold ${
+        className={`flex shrink-0 gap-1 overflow-x-auto px-3 pb-1 text-[10px] font-bold ${
           data.heroImage ? 'mt-2.5' : 'mt-3'
         }`}
       >
@@ -265,46 +307,79 @@ function AppScreen({ data }) {
         ))}
       </div>
 
-      <div className="relative ml-4 mr-3 mt-3 flex flex-col gap-3 border-l-2 border-border-gray pl-4 text-left">
-        {data.events.map((event) => (
-          <div key={`${event.time}-${event.title}`} className="relative">
-            <div
-              className={`absolute top-1 left-[-23px] h-3 w-3 rounded-full border border-white shadow-xs ${DOT[event.dot]}`}
-            />
-            <span className="block font-mono text-[9px] font-extrabold text-brand-orange">
-              {event.time}
-            </span>
-            <h5 className="mt-0.5 text-[12px] font-extrabold leading-tight text-brand-navy">
-              {event.title}
-            </h5>
-            {event.metaTone === 'muted' ? (
-              <p className="mt-0.5 text-[9px] leading-none text-text-muted">{event.meta}</p>
-            ) : (
-              <span
-                className={`mt-0.5 inline-block rounded-md px-1.5 py-0.5 text-[8px] font-bold ${META[event.metaTone]}`}
-              >
-                {event.meta}
+      <div className="relative ml-4 mr-3 mt-3 min-h-0 flex-1 overflow-hidden">
+        <div className="flex flex-col gap-3.5 border-l-2 border-border-gray pl-4 text-left">
+          {data.events.map((event) => (
+            <div key={`${event.time}-${event.title}`} className="relative">
+              <div
+                className={`absolute top-1 left-[-23px] h-3 w-3 rounded-full border-2 border-white shadow-sm ${DOT[event.dot]}`}
+              />
+              <span className="block font-mono text-[9px] font-extrabold tracking-tight text-brand-orange">
+                {event.time}
               </span>
-            )}
-          </div>
-        ))}
+              <h5 className="mt-0.5 text-[12px] font-extrabold leading-tight text-brand-navy">
+                {event.title}
+              </h5>
+              {event.metaTone === 'muted' ? (
+                <p className="mt-0.5 text-[9px] leading-none text-text-muted">{event.meta}</p>
+              ) : (
+                <span
+                  className={`mt-1 inline-block rounded-md px-1.5 py-0.5 text-[8px] font-bold ${META[event.metaTone]}`}
+                >
+                  {event.meta}
+                </span>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
 
-      <div className="absolute inset-x-0 bottom-0 flex items-center justify-around border-t border-border-gray/50 bg-white/95 px-2 pb-3.5 pt-2 text-[9px] font-extrabold text-brand-navy/55 backdrop-blur-sm">
-        <span className="flex flex-col items-center gap-0.5 text-brand-orange">
-          <span aria-hidden>📍</span>
-          Roteiro
-        </span>
-        <span className="flex flex-col items-center gap-0.5">
-          <span aria-hidden>💬</span>
-          Especialista
-        </span>
-        <span className="flex flex-col items-center gap-0.5">
-          <span aria-hidden>🗺️</span>
-          Mapa
-        </span>
+      {/* Opaque bottom nav — no blur/transparency that reads as gray artifacts */}
+      <div className="relative z-10 shrink-0 border-t border-border-gray bg-white px-2 pb-[18px] pt-2">
+        <div className="flex items-end justify-around text-[9px] font-extrabold">
+          <span className="flex flex-col items-center gap-0.5 text-brand-orange">
+            <NavIcon active>
+              <svg viewBox="0 0 16 16" className="h-3.5 w-3.5 fill-current" aria-hidden>
+                <path d="M8 1.6 2.2 6.3V14h4.1v-3.4h3.4V14h4.1V6.3L8 1.6Z" />
+              </svg>
+            </NavIcon>
+            Roteiro
+          </span>
+          <span className="flex flex-col items-center gap-0.5 text-brand-navy/45">
+            <NavIcon>
+              <svg viewBox="0 0 16 16" className="h-3.5 w-3.5 fill-current" aria-hidden>
+                <path d="M2.2 3.2h11.6v7.4H9.1L8 12.8l-1.1-2.2H2.2V3.2Z" />
+              </svg>
+            </NavIcon>
+            Especialista
+          </span>
+          <span className="flex flex-col items-center gap-0.5 text-brand-navy/45">
+            <NavIcon>
+              <svg viewBox="0 0 16 16" className="h-3.5 w-3.5 fill-current" aria-hidden>
+                <path d="M8 1.8c-2.7 0-4.9 2-4.9 4.5 0 3.3 4.2 7.5 4.9 7.5s4.9-4.2 4.9-7.5C12.9 3.8 10.7 1.8 8 1.8Zm0 6.1A1.6 1.6 0 1 1 8 4.7a1.6 1.6 0 0 1 0 3.2Z" />
+              </svg>
+            </NavIcon>
+            Mapa
+          </span>
+        </div>
       </div>
-    </>
+    </div>
+  );
+}
+
+/**
+ * Image screen inside PhoneFrame — crops tall screenshots cleanly, opaque fill.
+ */
+export function PhoneScreenImage({ src, alt = '' }) {
+  return (
+    <div className="absolute inset-0 overflow-hidden bg-[#0b1220]">
+      <img
+        src={src}
+        alt={alt}
+        className="h-full w-full object-cover object-top"
+        draggable={false}
+      />
+    </div>
   );
 }
 
