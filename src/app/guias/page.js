@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AppDownloadModal from '@/components/AppDownloadModal';
+import AppPhoneMockup from '@/components/AppPhoneMockup';
 import { destinationGuides } from '@/data/guidesData';
 
 function coverOf(article) {
@@ -208,32 +209,28 @@ export default function GuiasIndex() {
             </div>
           )}
 
-          <section className="mt-16 bg-[#F7F8FA] rounded-[28px] p-6 sm:p-8 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
-            <div className="md:col-span-7">
+          <section className="mt-16 bg-[#F7F8FA] rounded-[28px] p-6 sm:p-10 grid grid-cols-1 md:grid-cols-12 gap-8 items-center overflow-hidden">
+            <div className="md:col-span-6">
               <p className="text-[11px] font-extrabold tracking-widest text-brand-orange uppercase">No aplicativo</p>
-              <h2 className="font-headers text-2xl font-extrabold text-brand-navy mt-2">O guia fica aqui. O dia a dia, no app.</h2>
+              <h2 className="font-headers text-2xl sm:text-3xl font-extrabold text-brand-navy mt-2">O guia fica aqui. O dia a dia, no app.</h2>
               <p className="text-sm text-text-muted mt-2 leading-relaxed max-w-md">
-                Timeline, mapa e o ajuste de última hora. Os prints são do aplicativo 2GO.
+                Timeline, mapa e o ajuste de última hora — no mesmo formato do aplicativo 2GO.
               </p>
               <button
                 type="button"
                 onClick={() => setIsDownloadOpen(true)}
-                className="mt-5 inline-flex items-center justify-center bg-brand-navy text-white font-extrabold text-sm px-5 py-3 rounded-xl"
+                className="mt-5 inline-flex items-center justify-center bg-brand-navy text-white font-extrabold text-sm px-5 py-3 rounded-xl transition-transform hover:-translate-y-0.5"
               >
                 Baixar o App
               </button>
             </div>
-            <div className="md:col-span-5 flex items-end justify-center gap-3">
-              <img
-                src="/assets/app-home-gustavo.webp"
-                alt="Tela inicial do app 2GO"
-                className="h-40 sm:h-48 w-auto rounded-2xl border border-border-gray object-cover object-top shadow-sm"
-              />
-              <img
-                src="/assets/app-roteiro-roma.webp"
-                alt="Timeline de Roma no app 2GO"
-                className="h-40 sm:h-48 w-auto rounded-2xl border border-border-gray object-cover object-top shadow-sm"
-              />
+            <div className="md:col-span-6 relative flex justify-center md:justify-end py-4">
+              <div className="absolute right-8 top-2 hidden sm:block scale-[0.78] opacity-70 rotate-6 origin-bottom">
+                <AppPhoneMockup variant="roma" size="sm" glow={false} />
+              </div>
+              <div className="relative z-10 -rotate-2">
+                <AppPhoneMockup variant="paris" size="md" />
+              </div>
             </div>
           </section>
         </div>

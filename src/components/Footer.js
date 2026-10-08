@@ -9,17 +9,17 @@ export default function Footer({ onOpenDownload }) {
         
         {/* Brand Information */}
         <div className="flex flex-col gap-6">
-          <Link 
+          <Link
             href="/"
-            className="inline-flex items-center cursor-pointer h-16 lg:h-20 w-fit mb-2 bg-white rounded-2xl px-3 py-1.5"
+            className="inline-flex items-center cursor-pointer h-14 lg:h-[68px] w-fit mb-1"
           >
-            <img 
-              src="/images/Logo2GO.png" 
+            <img
+              src="/images/Logo2GO.png"
               alt="2GO Roteiros"
               width={228}
               height={192}
               sizes="(min-width: 1024px) 95px, 76px"
-              className="h-full w-auto object-contain"
+              className="h-full w-auto object-contain brightness-0 invert opacity-95"
             />
           </Link>
           <p className="text-sm text-white/75 leading-relaxed max-w-[280px]">

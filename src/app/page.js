@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Compass, Sliders, Navigation, ArrowRight } from 'lucide-react';
 
@@ -8,6 +8,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
+import AppPhoneMockup from '@/components/AppPhoneMockup';
+import ScrollReveal from '@/components/ScrollReveal';
 
 import { listDestinations } from '@/lib/cms';
 import { destinationGuides } from '@/data/guidesData';
@@ -236,54 +238,6 @@ const getHeroTextShadow = (id) => {
   return { textShadow: '0 1px 8px rgba(0,0,0,0.15)' };
 };
 
-
-function ScrollReveal({ children, className = '', delay = 0 }) {
-  const [isVisible, setIsVisible] = useState(false);
-  const domRef = useRef();
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-    if (mediaQuery.matches) {
-      setIsVisible(true);
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(entry.target);
-        }
-      },
-      { threshold: 0.05, rootMargin: '0px 0px -40px 0px' }
-    );
-    
-    const current = domRef.current;
-    if (current) {
-      observer.observe(current);
-    }
-    
-    return () => {
-      if (current) {
-        observer.unobserve(current);
-      }
-    };
-  }, []);
-
-  return (
-    <div
-      ref={domRef}
-      className={`transition-all duration-[1000ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
-        isVisible 
-          ? 'opacity-100 translate-y-0' 
-          : 'opacity-0 translate-y-12'
-      } ${className}`}
-      style={{ transitionDelay: `${delay}ms` }}
-    >
-      {children}
-    </div>
-  );
-}
 
 export default function Home() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
@@ -734,83 +688,8 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* iOS Clean App Mockup in Pure CSS */}
-              <div className="lg:col-span-5 relative z-10 flex justify-center items-center w-full">
-                <div className="w-[280px] h-[500px] bg-[#0A1128] border-[6px] border-brand-navy rounded-[42px] shadow-2xl relative flex flex-col p-2.5 ring-8 ring-brand-navy/5 select-none hover:scale-102 transition-transform duration-500">
-                  {/* Dynamic Island */}
-                  <div className="absolute top-4 left-1/2 -translate-x-1/2 w-20 h-4.5 bg-brand-navy rounded-full z-30 flex items-center justify-center">
-                    <div className="w-1.5 h-1.5 rounded-full bg-white/10 absolute right-3"></div>
-                  </div>
-
-                  {/* Device Screen */}
-                  <div className="bg-white h-full w-full rounded-[32px] overflow-hidden flex flex-col justify-between p-4 font-sans text-brand-navy relative shadow-inner">
-                    {/* Time & Battery Status Bar */}
-                    <div className="flex justify-between items-center text-[9px] font-bold text-brand-navy/40 px-2 pt-0.5">
-                      <span>09:41</span>
-                      <div className="flex items-center gap-1">
-                        <span>📶</span>
-                        <span>🔋</span>
-                      </div>
-                    </div>
-
-                    {/* Screen Header */}
-                    <div className="text-left mt-3 px-1">
-                      <span className="text-[9px] font-extrabold text-brand-orange uppercase tracking-wider block">Meu Roteiro</span>
-                      <h4 className="font-headers text-base font-extrabold text-brand-navy leading-tight mt-0.5">Noronha Completo 🏝️</h4>
-                    </div>
-
-                    {/* Day Tabs */}
-                    <div className="flex gap-1 mt-3 px-1 overflow-x-auto pb-1 text-[10px] font-bold">
-                      <span className="bg-brand-navy text-white px-3 py-1.5 rounded-full cursor-pointer">Dia 1</span>
-                      <span className="bg-bg-light text-text-muted px-3 py-1.5 rounded-full cursor-pointer">Dia 2</span>
-                      <span className="bg-bg-light text-text-muted px-3 py-1.5 rounded-full cursor-pointer">Dia 3</span>
-                    </div>
-
-                    {/* Clean Timeline (Notion/Airbnb style) */}
-                    <div className="flex-grow flex flex-col gap-3.5 mt-4 text-left px-2 border-l-2 border-border-gray ml-3 relative">
-                      {/* Event 1 */}
-                      <div className="relative pl-4">
-                        <div className="absolute top-1 left-[-23px] w-3 h-3 rounded-full bg-brand-orange border border-white shadow-xs"></div>
-                        <span className="text-[9px] font-extrabold text-[#F47A20] block font-mono">09:00</span>
-                        <h5 className="text-[12px] font-extrabold text-brand-navy mt-0.5 leading-tight">Passeio de Barco ⛵</h5>
-                        <span className="inline-block text-[8px] bg-brand-green/10 text-brand-green font-bold px-1.5 py-0.5 rounded-md mt-0.5">Confirmado</span>
-                      </div>
-
-                      {/* Event 2 */}
-                      <div className="relative pl-4">
-                        <div className="absolute top-1 left-[-23px] w-3 h-3 rounded-full bg-[#96AB21] border border-white shadow-xs"></div>
-                        <span className="text-[9px] font-extrabold text-[#96AB21] block font-mono">13:00</span>
-                        <h5 className="text-[12px] font-extrabold text-brand-navy mt-0.5 leading-tight">Almoço no Pico 🍽️</h5>
-                        <p className="text-[9px] text-text-muted mt-0.5 leading-none">Frutos do mar locais</p>
-                      </div>
-
-                      {/* Event 3 */}
-                      <div className="relative pl-4">
-                        <div className="absolute top-1 left-[-23px] w-3 h-3 rounded-full bg-brand-navy border border-white shadow-xs"></div>
-                        <span className="text-[9px] font-extrabold text-brand-navy/60 block font-mono">16:30</span>
-                        <h5 className="text-[12px] font-extrabold text-brand-navy mt-0.5 leading-tight">Pôr do Sol no Boldró 🌅</h5>
-                        <span className="inline-block text-[8px] bg-brand-orange/10 text-brand-orange font-bold px-1.5 py-0.5 rounded-md mt-0.5">Imperdível</span>
-                      </div>
-                    </div>
-
-                    {/* Bottom Nav Bar */}
-                    <div className="border-t border-border-gray/40 pt-2 flex justify-around items-center text-[9px] font-extrabold text-brand-navy/65 mt-2 bg-white w-full">
-                      <div className="flex flex-col items-center gap-0.5 text-brand-orange">
-                        <span>📍</span>
-                        <span>Roteiro</span>
-                      </div>
-                      <div className="flex flex-col items-center gap-0.5">
-                        <span>💬</span>
-                        <span>Especialista</span>
-                      </div>
-                      <div className="flex flex-col items-center gap-0.5">
-                        <span>🗺️</span>
-                        <span>Mapa</span>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
+              <div className="lg:col-span-5 relative z-10 flex justify-center items-center w-full py-4">
+                <AppPhoneMockup variant="noronha" size="md" />
               </div>
             </div>
           </ScrollReveal>
