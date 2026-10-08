@@ -18,8 +18,8 @@ import ScrollReveal from '@/components/ScrollReveal';
 const PHOTOS = {
   hero: '/images/destinations/paris/paris-eiffel-seine.jpg',
   problem: '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg',
-  solution: '/images/destinations/roma/roma-fontana-trevi.jpg',
-  purpose: '/images/destinations/istambul/istambul-bosforo.jpg'
+  solution: '/images/destinations/roma/roma-coliseu.jpg',
+  purpose: '/assets/greece.png'
 };
 
 const UNIQUE_POINTS = [
@@ -219,8 +219,8 @@ export default function QuemSomosClient() {
               alt=""
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/92 to-white/55" />
-            <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-white to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-r from-white via-white/88 to-white/35" />
+            <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-white to-transparent" />
           </div>
 
           <div className="container relative z-10 mx-auto max-w-[1440px] px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
