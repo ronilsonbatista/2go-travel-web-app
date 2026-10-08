@@ -112,32 +112,35 @@ function CityMapCanvas({ regions, activeId, onSelect }) {
       {regions.map((region) => {
         const active = region.id === activeId;
         return (
-          <button
+          <div
             key={region.id}
-            type="button"
-            onClick={() => onSelect(region.id)}
-            className={`absolute z-10 flex max-w-[180px] items-center gap-2 rounded-xl bg-white/95 p-1.5 pr-2.5 text-left shadow-md backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 ${
-              active ? 'scale-[1.03] ring-2 ring-brand-navy/20' : 'opacity-95'
-            }`}
+            className="absolute z-10 -translate-x-1/2 -translate-y-1/2"
             style={{
               top: region.pin?.top || '40%',
-              left: region.pin?.left || '40%',
-              transform: 'translate(-50%, -50%)'
+              left: region.pin?.left || '40%'
             }}
           >
-            <span
-              className="h-10 w-10 shrink-0 overflow-hidden rounded-lg bg-bg-light"
-              style={{ boxShadow: `inset 0 0 0 2px ${region.color}33` }}
+            <button
+              type="button"
+              onClick={() => onSelect(region.id)}
+              className={`flex max-w-[190px] items-center gap-2 rounded-xl bg-white p-1.5 pr-2.5 text-left shadow-md transition-transform duration-300 hover:-translate-y-0.5 ${
+                active ? 'ring-2 ring-brand-navy/20' : ''
+              }`}
             >
-              <img src={region.image} alt="" className="h-full w-full object-cover" />
-            </span>
-            <span className="min-w-0">
-              <span className="block truncate text-[11px] font-extrabold leading-tight text-brand-navy">
-                {region.name}
+              <span
+                className="h-10 w-10 shrink-0 overflow-hidden rounded-md bg-bg-light"
+                style={{ boxShadow: `inset 0 0 0 2px ${region.color}40` }}
+              >
+                <img src={region.image} alt="" className="h-full w-full object-cover" />
               </span>
-              <span className="mt-0.5 block truncate text-[10px] text-text-muted">{region.blurb}</span>
-            </span>
-          </button>
+              <span className="min-w-0">
+                <span className="block truncate text-[11px] font-extrabold leading-tight text-brand-navy">
+                  {region.name}
+                </span>
+                <span className="mt-0.5 block truncate text-[10px] text-text-muted">{region.blurb}</span>
+              </span>
+            </button>
+          </div>
         );
       })}
     </div>
