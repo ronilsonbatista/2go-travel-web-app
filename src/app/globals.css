@@ -242,3 +242,54 @@ body {
   transform: scale(1.02);
   box-shadow: 0 12px 28px rgba(8, 27, 107, 0.06);
 }
+
+/* Site-wide subtle reveal + interactive polish */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 800ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 800ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.faq-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 320ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.faq-panel.is-open {
+  grid-template-rows: 1fr;
+}
+
+.faq-panel > div {
+  overflow: hidden;
+}
+
+.link-lift {
+  transition: color 220ms ease, transform 220ms ease;
+}
+
+.link-lift:hover {
+  transform: translateY(-1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll,
+  .reveal-on-scroll.is-visible,
+  .faq-panel,
+  .link-lift,
+  .card-premium-hover,
+  .card-premium-hover:hover {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    animation: none;
+  }
+}

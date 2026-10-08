@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AppDownloadModal from '@/components/AppDownloadModal';
+import AppPhoneMockup from '@/components/AppPhoneMockup';
 import { destinationGuides } from '@/data/guidesData';
 
 function coverOf(article) {
@@ -142,11 +143,11 @@ export default function GuiasIndex() {
   const grid = filtered.slice(1);
 
   return (
-    <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy">
+    <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pt-28 pb-16">
-        <div className="container mx-auto px-4 sm:px-6 max-w-[1100px] w-full text-left">
+        <div className="container mx-auto px-4 sm:px-6 max-w-[1100px] w-full text-left min-w-0">
           <Breadcrumbs items={[{ name: 'Guia de Viagem', url: '/guias' }]} />
 
           <header className="mt-8 mb-10 max-w-3xl">
@@ -208,32 +209,28 @@ export default function GuiasIndex() {
             </div>
           )}
 
-          <section className="mt-16 bg-[#F7F8FA] rounded-[28px] p-6 sm:p-8 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
-            <div className="md:col-span-7">
+          <section className="mt-16 bg-[#F7F8FA] rounded-[28px] p-5 sm:p-10 grid grid-cols-1 md:grid-cols-12 gap-8 items-center overflow-hidden">
+            <div className="md:col-span-6 min-w-0">
               <p className="text-[11px] font-extrabold tracking-widest text-brand-orange uppercase">No aplicativo</p>
-              <h2 className="font-headers text-2xl font-extrabold text-brand-navy mt-2">O guia fica aqui. O dia a dia, no app.</h2>
+              <h2 className="font-headers text-2xl sm:text-3xl font-extrabold text-brand-navy mt-2">O guia fica aqui. O dia a dia, no app.</h2>
               <p className="text-sm text-text-muted mt-2 leading-relaxed max-w-md">
-                Timeline, mapa e o ajuste de última hora. Os prints são do aplicativo 2GO.
+                Timeline, mapa e o ajuste de última hora — no mesmo formato do aplicativo 2GO.
               </p>
               <button
                 type="button"
                 onClick={() => setIsDownloadOpen(true)}
-                className="mt-5 inline-flex items-center justify-center bg-brand-navy text-white font-extrabold text-sm px-5 py-3 rounded-xl"
+                className="mt-5 inline-flex items-center justify-center bg-brand-navy text-white font-extrabold text-sm px-5 py-3 rounded-xl transition-transform hover:-translate-y-0.5"
               >
                 Baixar o App
               </button>
             </div>
-            <div className="md:col-span-5 flex items-end justify-center gap-3">
-              <img
-                src="/assets/app-home-gustavo.webp"
-                alt="Tela inicial do app 2GO"
-                className="h-40 sm:h-48 w-auto rounded-2xl border border-border-gray object-cover object-top shadow-sm"
-              />
-              <img
-                src="/assets/app-roteiro-roma.webp"
-                alt="Timeline de Roma no app 2GO"
-                className="h-40 sm:h-48 w-auto rounded-2xl border border-border-gray object-cover object-top shadow-sm"
-              />
+            <div className="md:col-span-6 relative flex justify-center md:justify-end py-4 min-w-0">
+              <div className="absolute right-4 top-2 hidden md:block scale-[0.72] opacity-70 rotate-6 origin-bottom">
+                <AppPhoneMockup variant="roma" size="sm" glow={false} />
+              </div>
+              <div className="relative z-10 w-full max-w-[240px] sm:max-w-[280px] -rotate-1 sm:-rotate-2">
+                <AppPhoneMockup variant="paris" size="md" />
+              </div>
             </div>
           </section>
         </div>
