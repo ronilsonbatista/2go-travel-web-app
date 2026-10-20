@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import {
   ArrowRight,
   Building2,
+  ChevronLeft,
   ChevronRight,
   Compass,
   Flame,
@@ -155,6 +156,8 @@ export default function GuiasIndex() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeRegion, setActiveRegion] = useState(null);
+  const carouselRef = useRef(null);
+  const [paused, setPaused] = useState(false);
 
   const filtered = useMemo(() => {
     const query = normalize(searchQuery.trim());
@@ -167,10 +170,41 @@ export default function GuiasIndex() {
     });
   }, [searchQuery, activeRegion]);
 
+  const featured = useMemo(
+    () => (activeRegion || searchQuery.trim() ? filtered : DESTINATIONS),
+    [activeRegion, searchQuery, filtered]
+  );
+
   const scrollToDestinos = () => {
     const el = document.getElementById('destinos-destaque');
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
+
+  const scrollCarousel = (direction) => {
+    const el = carouselRef.current;
+    if (!el) return;
+    const amount = Math.min(320, el.clientWidth * 0.8);
+    el.scrollBy({ left: direction * amount, behavior: 'smooth' });
+  };
+
+  useEffect(() => {
+    const el = carouselRef.current;
+    if (!el || paused || featured.length < 2) return undefined;
+    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (media.matches) return undefined;
+
+    const id = setInterval(() => {
+      const maxScroll = el.scrollWidth - el.clientWidth;
+      if (maxScroll <= 8) return;
+      if (el.scrollLeft >= maxScroll - 12) {
+        el.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        el.scrollBy({ left: Math.min(300, el.clientWidth * 0.75), behavior: 'smooth' });
+      }
+    }, 4200);
+
+    return () => clearInterval(id);
+  }, [featured.length, paused]);
 
   return (
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
@@ -226,79 +260,8 @@ export default function GuiasIndex() {
             </ScrollReveal>
           </section>
 
-          {/* Destinos em destaque */}
-          <section id="destinos-destaque" className="mt-16 scroll-mt-28 sm:mt-20">
-            <div className="mb-6 flex items-end justify-between gap-4">
-              <h2 className="font-headers text-2xl font-extrabold tracking-tight text-brand-navy sm:text-3xl">
-                Destinos em destaque
-              </h2>
-              <button
-                type="button"
-                onClick={() => {
-                  setActiveRegion(null);
-                  setSearchQuery('');
-                  scrollToDestinos();
-                }}
-                className="inline-flex items-center gap-1 text-sm font-extrabold text-brand-orange transition-colors hover:text-brand-navy"
-              >
-                Ver todos
-                <ArrowRight className="h-4 w-4" />
-              </button>
-            </div>
-
-            {filtered.length === 0 ? (
-              <p className="rounded-[24px] border border-border-gray/70 bg-[#F7F8FA] px-5 py-8 text-sm text-text-muted">
-                Nenhum destino com esse termo. Tente Paris, Roma ou Tóquio.
-              </p>
-            ) : (
-              <div className="-mx-4 flex gap-4 overflow-x-auto px-4 pb-3 custom-scrollbar-hide sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-cols-3 xl:grid-cols-5">
-                {filtered.map((destination, index) => {
-                  const BadgeIcon = destination.badge.icon;
-                  return (
-                    <ScrollReveal
-                      key={destination.id}
-                      delay={index * 40}
-                      className="w-[min(240px,78vw)] shrink-0 sm:w-auto"
-                    >
-                      <Link
-                        href={destination.url}
-                        className="group flex h-full flex-col overflow-hidden rounded-[24px] border border-border-gray/70 bg-white shadow-sm transition-transform duration-300 hover:-translate-y-1 hover:shadow-md"
-                      >
-                        <div className="relative h-40 overflow-hidden bg-bg-light">
-                          <img
-                            src={coverOf(destination.guide)}
-                            alt=""
-                            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
-                          />
-                          <span
-                            className={`absolute left-3 top-3 inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[10px] font-extrabold ${BADGE_TONES[destination.badge.tone]}`}
-                          >
-                            <BadgeIcon className="h-3 w-3" />
-                            {destination.badge.label}
-                          </span>
-                        </div>
-                        <div className="flex flex-1 flex-col p-4 text-left">
-                          <h3 className="font-headers text-lg font-extrabold text-brand-navy group-hover:text-brand-orange transition-colors">
-                            {destination.city}
-                          </h3>
-                          <p className="mt-0.5 text-xs font-semibold text-text-muted">{destination.country}</p>
-                          <p className="mt-3 text-xs leading-relaxed text-text-muted line-clamp-3">
-                            {destination.desc}
-                          </p>
-                          <p className="mt-auto pt-4 text-xs font-extrabold text-brand-navy">
-                            {destination.city}: Guia completo
-                          </p>
-                        </div>
-                      </Link>
-                    </ScrollReveal>
-                  );
-                })}
-              </div>
-            )}
-          </section>
-
-          {/* Explore por região */}
-          <section className="mt-16 sm:mt-20">
+          {/* Explore por região — below hero, before featured */}
+          <section id="explore-regiao" className="mt-14 scroll-mt-28 sm:mt-16">
             <div className="mb-6 flex items-end justify-between gap-4">
               <h2 className="font-headers text-2xl font-extrabold tracking-tight text-brand-navy sm:text-3xl">
                 Explore por região
@@ -351,6 +314,95 @@ export default function GuiasIndex() {
                 );
               })}
             </div>
+          </section>
+
+          {/* Destinos em destaque — home-style carousel */}
+          <section id="destinos-destaque" className="mt-16 scroll-mt-28 sm:mt-20">
+            <div className="mb-6 flex items-end justify-between gap-4">
+              <h2 className="font-headers text-2xl font-extrabold tracking-tight text-brand-navy sm:text-3xl">
+                Destinos em destaque
+              </h2>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  aria-label="Anterior"
+                  onClick={() => scrollCarousel(-1)}
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
+                >
+                  <ChevronLeft className="h-4 w-4" />
+                </button>
+                <button
+                  type="button"
+                  aria-label="Próximo"
+                  onClick={() => scrollCarousel(1)}
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
+                >
+                  <ChevronRight className="h-4 w-4" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setActiveRegion(null);
+                    setSearchQuery('');
+                    scrollToDestinos();
+                  }}
+                  className="ml-1 inline-flex items-center gap-1 text-sm font-extrabold text-brand-orange transition-colors hover:text-brand-navy"
+                >
+                  Ver todos
+                  <ArrowRight className="h-4 w-4" />
+                </button>
+              </div>
+            </div>
+
+            {featured.length === 0 ? (
+              <p className="rounded-[24px] border border-border-gray/70 bg-[#F7F8FA] px-5 py-8 text-sm text-text-muted">
+                Nenhum destino com esse termo. Tente Paris, Roma ou Tóquio.
+              </p>
+            ) : (
+              <div
+                ref={carouselRef}
+                onMouseEnter={() => setPaused(true)}
+                onMouseLeave={() => setPaused(false)}
+                onFocusCapture={() => setPaused(true)}
+                onBlurCapture={() => setPaused(false)}
+                className="-mx-4 flex gap-4 overflow-x-auto px-4 pb-4 custom-scrollbar-hide snap-x snap-mandatory sm:mx-0 sm:px-0"
+              >
+                {featured.map((destination) => {
+                  const BadgeIcon = destination.badge.icon;
+                  return (
+                    <Link
+                      key={destination.id}
+                      href={destination.url}
+                      className="group relative h-80 w-[min(18rem,78vw)] shrink-0 snap-start overflow-hidden rounded-[24px] border border-border-gray/70 shadow-sm transition-all duration-500 hover:-translate-y-1 hover:shadow-md sm:h-96 sm:w-72"
+                    >
+                      <img
+                        src={coverOf(destination.guide)}
+                        alt={destination.city}
+                        className="absolute inset-0 h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+                      <span
+                        className={`absolute left-3 top-3 inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[10px] font-extrabold ${BADGE_TONES[destination.badge.tone]}`}
+                      >
+                        <BadgeIcon className="h-3 w-3" />
+                        {destination.badge.label}
+                      </span>
+                      <div className="absolute bottom-5 left-5 right-5 text-left text-white">
+                        <p className="text-[10px] font-extrabold tracking-wide text-brand-orange uppercase">
+                          Guia de Viagem
+                        </p>
+                        <h3 className="font-headers mt-1 text-base font-extrabold text-white transition-colors group-hover:text-brand-orange sm:text-lg">
+                          {destination.city}, {destination.country}
+                        </h3>
+                        <p className="mt-1 line-clamp-2 text-[12px] leading-snug text-white/80">
+                          {destination.desc}
+                        </p>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            )}
           </section>
         </div>
       </main>
