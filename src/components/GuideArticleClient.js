@@ -28,15 +28,23 @@ import NewsletterBox from '@/components/NewsletterBox';
 import AppPhoneMockup from '@/components/AppPhoneMockup';
 import GuideThirtySeconds from '@/components/GuideThirtySeconds';
 import ScrollReveal from '@/components/ScrollReveal';
+import {
+  attractionImage,
+  dayImage,
+  itineraryTabsFor,
+  neighborhoodImage
+} from '@/lib/guideVisuals';
 
 const LOCAL_FRAMES = {
   paris: [
     '/images/destinations/paris/paris-eiffel-seine.jpg',
     '/images/destinations/paris/paris-louvre.jpg',
+    '/images/destinations/paris/paris-arc-triomphe.jpg',
+    '/images/destinations/paris/paris-sacre-coeur.jpg',
     '/images/destinations/paris/paris-notre-dame.jpg',
-    '/images/destinations/paris/paris-1.jpg',
-    '/images/destinations/paris/paris-2.jpg',
-    '/images/destinations/paris/paris-3.jpg'
+    '/images/destinations/paris/paris-versailles.jpg',
+    '/images/destinations/paris/paris-orsay.jpg',
+    '/images/destinations/paris/paris-marais.jpg'
   ],
   'nova-york': [
     '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg',
@@ -122,6 +130,8 @@ export default function GuideArticleClient({ guide }) {
   const [openFaqIdx, setOpenFaqIdx] = useState(null);
   const [frameIndex, setFrameIndex] = useState(0);
   const [itineraryTab, setItineraryTab] = useState('all');
+  const [activeNeighborhood, setActiveNeighborhood] = useState(0);
+  const [introExpanded, setIntroExpanded] = useState(false);
   const frames = framesFor(guide || {});
 
   useEffect(() => {
@@ -165,30 +175,40 @@ export default function GuideArticleClient({ guide }) {
       {
         icon: CalendarDays,
         label: 'Melhor época',
-        value: season.length > 42 ? `${season.slice(0, 40)}…` : season
+        value: season.length > 42 ? `${season.slice(0, 40)}…` : season,
+        href: '#quando-ir'
       },
       {
         icon: MapPin,
         label: 'Quantos dias',
-        value: daysLabel
+        value: daysLabel,
+        href: '#quantos-dias'
       },
       {
         icon: Wallet,
         label: 'Quanto custa',
-        value: guide.costsTable?.economy?.daily || guide.costsTable?.comfort?.daily || 'Consulte o guia'
+        value: guide.costsTable?.economy?.daily || guide.costsTable?.comfort?.daily || 'Consulte o guia',
+        href: '#custos'
       },
       {
         icon: Hotel,
         label: 'Onde ficar',
-        value: neighborhood
+        value: neighborhood,
+        href: '#onde-ficar'
       },
       {
         icon: Compass,
         label: 'Como se locomover',
-        value: transport.length > 42 ? `${transport.slice(0, 40)}…` : transport
+        value: transport.length > 42 ? `${transport.slice(0, 40)}…` : transport,
+        href: '#locomocao'
       }
     ];
   }, [guide]);
+
+  const itineraryTabs = useMemo(
+    () => itineraryTabsFor(guide?.suggestedItinerary || []),
+    [guide]
+  );
 
   const visibleItinerary = useMemo(() => {
     if (!guide?.suggestedItinerary) return [];
@@ -196,6 +216,17 @@ export default function GuideArticleClient({ guide }) {
     if (itineraryTab === '5') return guide.suggestedItinerary.slice(0, 5);
     return guide.suggestedItinerary;
   }, [guide, itineraryTab]);
+
+  const dayImages = useMemo(() => {
+    const used = new Set();
+    return visibleItinerary.map((item, idx) => dayImage(guide, item, frames, idx, used));
+  }, [guide, visibleItinerary, frames]);
+
+  const scrollToId = (href) => {
+    const id = href.replace('#', '');
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
 
   const toggleFaq = (idx) => {
     setOpenFaqIdx(openFaqIdx === idx ? null : idx);
@@ -255,9 +286,11 @@ export default function GuideArticleClient({ guide }) {
             {quickFacts.map((fact) => {
               const Icon = fact.icon;
               return (
-                <div
+                <button
                   key={fact.label}
-                  className="rounded-2xl border border-border-gray/80 bg-white px-4 py-4 shadow-sm transition-transform duration-300 hover:-translate-y-0.5"
+                  type="button"
+                  onClick={() => scrollToId(fact.href)}
+                  className="rounded-2xl border border-border-gray/80 bg-white px-4 py-4 text-left shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-orange/40 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange/40"
                 >
                   <div className="mb-2 flex items-center gap-2 text-brand-orange">
                     <Icon className="h-4 w-4" />
@@ -266,7 +299,7 @@ export default function GuideArticleClient({ guide }) {
                     </span>
                   </div>
                   <p className="text-sm font-bold leading-snug text-brand-navy">{fact.value}</p>
-                </div>
+                </button>
               );
             })}
           </div>
@@ -278,22 +311,81 @@ export default function GuideArticleClient({ guide }) {
           </ScrollReveal>
 
           <ScrollReveal className="mt-10" delay={40}>
-            <section id="introducao" className="text-left">
-              <p className="max-w-[46rem] text-base leading-relaxed text-text-muted sm:text-lg">{guide.intro}</p>
-              <p className="mt-4 max-w-[46rem] text-sm leading-relaxed text-text-muted sm:text-base">{guide.whyVisit}</p>
+            <section id="introducao" className="scroll-mt-28 text-left">
+              <div className="overflow-hidden rounded-[28px] border border-border-gray/80 bg-gradient-to-br from-[#F7F8FA] via-white to-[#FFF7F0]">
+                <div className="grid grid-cols-1 lg:grid-cols-12">
+                  <div className="relative min-h-[220px] lg:col-span-5">
+                    <img
+                      src={frames[0] || guide.heroImage}
+                      alt=""
+                      className="absolute inset-0 h-full w-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 via-brand-navy/20 to-transparent" />
+                    <div className="absolute bottom-5 left-5 right-5 text-white">
+                      <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">
+                        Por que {guide.city}
+                      </p>
+                      <p className="mt-2 font-headers text-xl font-extrabold leading-snug sm:text-2xl">
+                        {(guide.whyVisit || '').split(/[.;]/)[0]}.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col justify-center p-6 sm:p-8 lg:col-span-7">
+                    <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">
+                      Antes de montar o dia a dia
+                    </p>
+                    <p className="mt-3 text-base leading-relaxed text-brand-navy/90 sm:text-lg">
+                      {guide.intro}
+                    </p>
+                    <div
+                      className={`overflow-hidden transition-all duration-500 ${
+                        introExpanded ? 'mt-4 max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                      }`}
+                    >
+                      <p className="text-sm leading-relaxed text-text-muted sm:text-base">
+                        {guide.whyVisit}
+                      </p>
+                    </div>
+                    <div className="mt-5 flex flex-wrap gap-2">
+                      {[
+                        { label: 'Quando ir', href: '#quando-ir' },
+                        { label: 'Roteiro', href: '#roteiro-sugerido' },
+                        { label: 'Imperdíveis', href: '#atracoes' },
+                        { label: 'Onde ficar', href: '#onde-ficar' }
+                      ].map((chip) => (
+                        <button
+                          key={chip.href}
+                          type="button"
+                          onClick={() => scrollToId(chip.href)}
+                          className="rounded-full border border-border-gray/80 bg-white px-3.5 py-1.5 text-[11px] font-extrabold text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
+                        >
+                          {chip.label}
+                        </button>
+                      ))}
+                      <button
+                        type="button"
+                        onClick={() => setIntroExpanded((open) => !open)}
+                        className="rounded-full bg-brand-navy px-3.5 py-1.5 text-[11px] font-extrabold text-white transition-colors hover:bg-brand-navy/90"
+                      >
+                        {introExpanded ? 'Recolher' : 'Ler mais'}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
           </ScrollReveal>
 
           <ScrollReveal className="mt-12" delay={40}>
-            <section id="quando-ir" className="grid grid-cols-1 gap-4 md:grid-cols-2 text-left">
-              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
+            <section className="grid grid-cols-1 gap-4 md:grid-cols-2 text-left">
+              <div id="quando-ir" className="scroll-mt-28 rounded-[24px] border border-border-gray/70 bg-white p-6">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Quando ir</p>
                 <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy">
                   Melhor época em {guide.city}
                 </h2>
                 <p className="mt-3 text-sm leading-relaxed text-text-muted sm:text-base">{guide.whenToGo}</p>
               </div>
-              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
+              <div id="quantos-dias" className="scroll-mt-28 rounded-[24px] border border-border-gray/70 bg-white p-6">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Duração</p>
                 <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy">
                   Quantos dias ficar
@@ -304,7 +396,7 @@ export default function GuideArticleClient({ guide }) {
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={80}>
-            <section id="roteiro-sugerido">
+            <section id="roteiro-sugerido" className="scroll-mt-28">
               <div className="mb-6 flex flex-col gap-4 text-left sm:flex-row sm:items-end sm:justify-between">
                 <div>
                   <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Roteiro</p>
@@ -313,11 +405,7 @@ export default function GuideArticleClient({ guide }) {
                   </h2>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {[
-                    { id: 'all', label: `${guide.suggestedItinerary.length} dias` },
-                    { id: '3', label: '3 dias' },
-                    { id: '5', label: '5 dias' }
-                  ].map((tab) => (
+                  {itineraryTabs.map((tab) => (
                     <button
                       key={tab.id}
                       type="button"
@@ -349,7 +437,7 @@ export default function GuideArticleClient({ guide }) {
                   >
                     <div className="relative h-40 overflow-hidden">
                       <img
-                        src={frames[idx % Math.max(frames.length, 1)] || guide.heroImage}
+                        src={dayImages[idx] || guide.heroImage}
                         alt=""
                         className="h-full w-full object-cover"
                       />
@@ -373,7 +461,7 @@ export default function GuideArticleClient({ guide }) {
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={80}>
-            <section id="atracoes">
+            <section id="atracoes" className="scroll-mt-28">
               <div className="mb-6 text-left">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Imperdíveis</p>
                 <h2 className="font-headers mt-2 text-3xl font-extrabold text-brand-navy">
@@ -388,7 +476,7 @@ export default function GuideArticleClient({ guide }) {
                   >
                     <div className="relative h-44 overflow-hidden">
                       <img
-                        src={frames[idx % Math.max(frames.length, 1)] || guide.heroImage}
+                        src={attractionImage(guide, att, frames, idx)}
                         alt={att.name}
                         className="h-full w-full object-cover"
                       />
@@ -434,31 +522,88 @@ export default function GuideArticleClient({ guide }) {
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={60}>
-            <section id="onde-ficar" className="text-left">
+            <section id="onde-ficar" className="scroll-mt-28 text-left">
               <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Hospedagem</p>
               <h2 className="font-headers mt-2 text-3xl font-extrabold text-brand-navy">
                 Onde ficar em {guide.city}
               </h2>
-              <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
-                {guide.neighborhoods.map((n) => (
-                  <div key={n.name} className="rounded-[24px] border border-border-gray/80 bg-[#F7F8FA] p-5">
-                    <h3 className="font-headers text-lg font-extrabold text-brand-navy">{n.name}</h3>
-                    <div className="mt-3 grid grid-cols-1 gap-3 text-xs sm:grid-cols-2">
-                      <div className="rounded-xl bg-white p-3">
-                        <span className="mb-1 flex items-center gap-1.5 font-bold text-green-800">
-                          <Check className="h-3.5 w-3.5 text-green-600" /> Vantagens
+              <div className="mt-6 grid grid-cols-1 gap-4 lg:grid-cols-12">
+                <div className="flex gap-2 overflow-x-auto pb-1 custom-scrollbar-hide lg:col-span-4 lg:flex-col lg:overflow-visible">
+                  {guide.neighborhoods.map((n, idx) => {
+                    const selected = activeNeighborhood === idx;
+                    return (
+                      <button
+                        key={n.name}
+                        type="button"
+                        onClick={() => setActiveNeighborhood(idx)}
+                        className={`flex min-w-[220px] items-center gap-3 rounded-2xl border px-3 py-3 text-left transition-all lg:min-w-0 ${
+                          selected
+                            ? 'border-brand-orange/40 bg-white shadow-sm'
+                            : 'border-border-gray/70 bg-[#F7F8FA] hover:border-brand-navy/20'
+                        }`}
+                      >
+                        <span className="h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-bg-light">
+                          <img
+                            src={neighborhoodImage(guide, n, frames, idx)}
+                            alt=""
+                            className="h-full w-full object-cover"
+                          />
                         </span>
-                        <p className="leading-relaxed text-text-muted">{n.pros}</p>
-                      </div>
-                      <div className="rounded-xl bg-white p-3">
-                        <span className="mb-1 flex items-center gap-1.5 font-bold text-amber-800">
-                          <X className="h-3.5 w-3.5 text-amber-600" /> Atenção
+                        <span className="min-w-0">
+                          <span className="block font-headers text-sm font-extrabold text-brand-navy">
+                            {n.name.split('(')[0].trim()}
+                          </span>
+                          <span className="mt-0.5 block truncate text-[11px] text-text-muted">
+                            {n.pros}
+                          </span>
                         </span>
-                        <p className="leading-relaxed text-text-muted">{n.cons}</p>
+                      </button>
+                    );
+                  })}
+                </div>
+                {guide.neighborhoods[activeNeighborhood] ? (
+                  <article className="overflow-hidden rounded-[28px] border border-border-gray/80 bg-white shadow-sm lg:col-span-8">
+                    <div className="relative h-56 sm:h-64">
+                      <img
+                        src={neighborhoodImage(
+                          guide,
+                          guide.neighborhoods[activeNeighborhood],
+                          frames,
+                          activeNeighborhood
+                        )}
+                        alt={guide.neighborhoods[activeNeighborhood].name}
+                        className="h-full w-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                      <div className="absolute bottom-5 left-5 right-5 text-white">
+                        <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-white/70">
+                          Bairro
+                        </p>
+                        <h3 className="font-headers mt-1 text-2xl font-extrabold">
+                          {guide.neighborhoods[activeNeighborhood].name}
+                        </h3>
                       </div>
                     </div>
-                  </div>
-                ))}
+                    <div className="grid grid-cols-1 gap-3 p-5 text-sm sm:grid-cols-2">
+                      <div className="rounded-2xl bg-[#F3FAF4] p-4">
+                        <span className="mb-2 flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-wider text-green-800">
+                          <Check className="h-3.5 w-3.5 text-green-600" /> Vantagens
+                        </span>
+                        <p className="leading-relaxed text-text-muted">
+                          {guide.neighborhoods[activeNeighborhood].pros}
+                        </p>
+                      </div>
+                      <div className="rounded-2xl bg-[#FFF7ED] p-4">
+                        <span className="mb-2 flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-wider text-amber-800">
+                          <X className="h-3.5 w-3.5 text-amber-600" /> Atenção
+                        </span>
+                        <p className="leading-relaxed text-text-muted">
+                          {guide.neighborhoods[activeNeighborhood].cons}
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                ) : null}
               </div>
             </section>
           </ScrollReveal>
@@ -477,7 +622,10 @@ export default function GuideArticleClient({ guide }) {
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-text-muted">{guide.languageInfo}</p>
               </div>
-              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6 md:col-span-2">
+              <div
+                id="locomocao"
+                className="scroll-mt-28 rounded-[24px] border border-border-gray/70 bg-white p-6 md:col-span-2"
+              >
                 <h3 className="font-headers text-xl font-extrabold text-brand-navy">Como chegar e se locomover</h3>
                 <p className="mt-3 text-sm leading-relaxed text-text-muted">{guide.howToGet}</p>
                 <p className="mt-2 text-sm leading-relaxed text-text-muted">{guide.transportDetails}</p>
@@ -495,7 +643,7 @@ export default function GuideArticleClient({ guide }) {
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={60}>
-            <section id="custos" className="text-left">
+            <section id="custos" className="scroll-mt-28 text-left">
               <h2 className="font-headers text-3xl font-extrabold text-brand-navy">
                 Custos médios em {guide.city}
               </h2>

@@ -100,7 +100,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Le Marais',
         blurb: 'Charme e vida local',
         color: '#8B7CF6',
-        image: PARIS_IMG.a,
+        image: '/images/destinations/paris/paris-marais.jpg',
         pin: { top: '42%', left: '62%' },
         hotel: 'Apartamentos charmosos no 3º e 4º'
       },
@@ -109,7 +109,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Montmartre',
         blurb: 'Arte e vista incrível',
         color: '#96AB21',
-        image: PARIS_IMG.b,
+        image: '/images/destinations/paris/paris-sacre-coeur.jpg',
         pin: { top: '22%', left: '55%' },
         hotel: 'Pousadas com vista no Sacré-Cœur'
       }
