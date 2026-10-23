@@ -113,6 +113,44 @@ export const GUIDE_THIRTY_SECONDS = {
         pin: { top: '22%', left: '55%' },
         hotel: 'Pousadas com vista no Sacré-Cœur'
       }
+    ],
+    hotels: [
+      {
+        id: 'paris-hotel-eiffel',
+        name: 'Hôtel du Champs de Mars',
+        neighborhood: 'Torre Eiffel',
+        note: '€€ · Boutique perto do Champ de Mars',
+        image: PARIS_IMG.eiffel,
+        color: '#5B8DEF',
+        pin: { top: '58%', left: '22%' }
+      },
+      {
+        id: 'paris-hotel-louvre',
+        name: 'Hôtel Brighton',
+        neighborhood: 'Louvre / Opéra',
+        note: '€€€ · Clássico com vista para o jardim',
+        image: PARIS_IMG.louvre,
+        color: '#F47A20',
+        pin: { top: '48%', left: '48%' }
+      },
+      {
+        id: 'paris-hotel-marais',
+        name: 'Hôtel Jeanne d’Arc',
+        neighborhood: 'Le Marais',
+        note: '€€ · Charme no 4º arrondissement',
+        image: '/images/destinations/paris/paris-marais.jpg',
+        color: '#8B7CF6',
+        pin: { top: '42%', left: '62%' }
+      },
+      {
+        id: 'paris-hotel-montmartre',
+        name: 'Timhotel Montmartre',
+        neighborhood: 'Montmartre',
+        note: '€€ · Vista para o Sacré-Cœur',
+        image: '/images/destinations/paris/paris-sacre-coeur.jpg',
+        color: '#96AB21',
+        pin: { top: '22%', left: '55%' }
+      }
     ]
   },
 
@@ -159,6 +197,44 @@ export const GUIDE_THIRTY_SECONDS = {
         image: NY_IMG.brooklyn,
         pin: { top: '72%', left: '68%' },
         hotel: 'Williamsburg e DUMBO com skyline'
+      }
+    ],
+    hotels: [
+      {
+        id: 'ny-hotel-midtown',
+        name: 'Pod Times Square',
+        neighborhood: 'Midtown',
+        note: '$ · Prático perto da Broadway',
+        image: NY_IMG.empire,
+        color: '#5B8DEF',
+        pin: { top: '42%', left: '48%' }
+      },
+      {
+        id: 'ny-hotel-downtown',
+        name: 'Conrad New York Downtown',
+        neighborhood: 'Lower Manhattan',
+        note: '$$$ · Vista do porto e Battery',
+        image: NY_IMG.liberty,
+        color: '#F47A20',
+        pin: { top: '68%', left: '40%' }
+      },
+      {
+        id: 'ny-hotel-park',
+        name: 'The Lucerne',
+        neighborhood: 'Upper West Side',
+        note: '$$ · Clássico perto do Central Park',
+        image: NY_IMG.a,
+        color: '#96AB21',
+        pin: { top: '28%', left: '52%' }
+      },
+      {
+        id: 'ny-hotel-brooklyn',
+        name: '1 Hotel Brooklyn Bridge',
+        neighborhood: 'DUMBO',
+        note: '$$$ · Skyline e promenade',
+        image: NY_IMG.brooklyn,
+        color: '#8B7CF6',
+        pin: { top: '72%', left: '68%' }
       }
     ]
   },
@@ -207,6 +283,44 @@ export const GUIDE_THIRTY_SECONDS = {
         pin: { top: '52%', left: '55%' },
         hotel: 'Hotéis de luxo em Ginza'
       }
+    ],
+    hotels: [
+      {
+        id: 'tokyo-hotel-shinjuku',
+        name: 'Hotel Gracery Shinjuku',
+        neighborhood: 'Shinjuku',
+        note: '¥¥ · Ícone Godzilla na estação',
+        image: TOKYO_IMG.a,
+        color: '#5B8DEF',
+        pin: { top: '40%', left: '30%' }
+      },
+      {
+        id: 'tokyo-hotel-shibuya',
+        name: 'Shibuya Stream Excel Hotel Tokyu',
+        neighborhood: 'Shibuya',
+        note: '¥¥¥ · Moderno no scrambling',
+        image: TOKYO_IMG.shibuya,
+        color: '#F47A20',
+        pin: { top: '58%', left: '38%' }
+      },
+      {
+        id: 'tokyo-hotel-asakusa',
+        name: 'Wired Hotel Asakusa',
+        neighborhood: 'Asakusa',
+        note: '¥¥ · Design perto do Sensō-ji',
+        image: TOKYO_IMG.sensoji,
+        color: '#96AB21',
+        pin: { top: '32%', left: '68%' }
+      },
+      {
+        id: 'tokyo-hotel-ginza',
+        name: 'Mitsui Garden Hotel Ginza',
+        neighborhood: 'Ginza',
+        note: '¥¥¥ · Elegância a pé da Tokyo Tower',
+        image: TOKYO_IMG.tower,
+        color: '#8B7CF6',
+        pin: { top: '52%', left: '55%' }
+      }
     ]
   },
 
@@ -253,6 +367,44 @@ export const GUIDE_THIRTY_SECONDS = {
         image: LONDON_IMG.a,
         pin: { top: '38%', left: '58%' },
         hotel: 'Shoreditch e Clerkenwell'
+      }
+    ],
+    hotels: [
+      {
+        id: 'london-hotel-westminster',
+        name: 'Park Plaza Westminster Bridge',
+        neighborhood: 'Westminster',
+        note: '££ · Vista do Big Ben',
+        image: LONDON_IMG.ben,
+        color: '#5B8DEF',
+        pin: { top: '55%', left: '42%' }
+      },
+      {
+        id: 'london-hotel-southbank',
+        name: 'CitizenM Tower of London',
+        neighborhood: 'South Bank',
+        note: '££ · Design perto da Tower Bridge',
+        image: LONDON_IMG.bridge,
+        color: '#F47A20',
+        pin: { top: '62%', left: '62%' }
+      },
+      {
+        id: 'london-hotel-buckingham',
+        name: 'The Rubens at the Palace',
+        neighborhood: 'Buckingham',
+        note: '£££ · Frente ao palácio',
+        image: LONDON_IMG.buck,
+        color: '#96AB21',
+        pin: { top: '48%', left: '30%' }
+      },
+      {
+        id: 'london-hotel-shoreditch',
+        name: 'The Hoxton Shoreditch',
+        neighborhood: 'East End',
+        note: '££ · Street food e nightlife',
+        image: LONDON_IMG.a,
+        color: '#8B7CF6',
+        pin: { top: '38%', left: '58%' }
       }
     ]
   },
@@ -301,6 +453,44 @@ export const GUIDE_THIRTY_SECONDS = {
         pin: { top: '68%', left: '38%' },
         hotel: 'Trastevere para jantares a pé'
       }
+    ],
+    hotels: [
+      {
+        id: 'roma-hotel-coliseu',
+        name: 'Hotel Palazzo Dama',
+        neighborhood: 'Roma Antiga',
+        note: '€€€ · Boutique a passos do Coliseu',
+        image: ROMA_IMG.coliseu,
+        color: '#F47A20',
+        pin: { top: '58%', left: '58%' }
+      },
+      {
+        id: 'roma-hotel-vaticano',
+        name: 'Hotel dei Mellini',
+        neighborhood: 'Prati / Vaticano',
+        note: '€€ · Prático para a Capela Sistina',
+        image: ROMA_IMG.vaticano,
+        color: '#5B8DEF',
+        pin: { top: '40%', left: '22%' }
+      },
+      {
+        id: 'roma-hotel-centro',
+        name: 'Hotel Pantheon',
+        neighborhood: 'Centro Storico',
+        note: '€€€ · Entre Fontana e Pantheon',
+        image: ROMA_IMG.trevi,
+        color: '#8B7CF6',
+        pin: { top: '45%', left: '48%' }
+      },
+      {
+        id: 'roma-hotel-trastevere',
+        name: 'Hotel Santa Maria',
+        neighborhood: 'Trastevere',
+        note: '€€ · Pátio e trattorias a pé',
+        image: ROMA_IMG.a,
+        color: '#96AB21',
+        pin: { top: '68%', left: '38%' }
+      }
     ]
   },
 
@@ -348,6 +538,44 @@ export const GUIDE_THIRTY_SECONDS = {
         pin: { top: '48%', left: '62%' },
         hotel: 'Beyazıt e Eminönü'
       }
+    ],
+    hotels: [
+      {
+        id: 'ist-hotel-sultanahmet',
+        name: 'Hotel Ibrahim Pasha',
+        neighborhood: 'Sultanahmet',
+        note: '₺₺ · Boutique frente à Hagia Sophia',
+        image: IST_IMG.hagia,
+        color: '#5B8DEF',
+        pin: { top: '55%', left: '55%' }
+      },
+      {
+        id: 'ist-hotel-azul',
+        name: 'Sultanahmet Palace Hotel',
+        neighborhood: 'Mesquita Azul',
+        note: '₺₺ · Terraço com vista otomana',
+        image: IST_IMG.azul,
+        color: '#F47A20',
+        pin: { top: '62%', left: '48%' }
+      },
+      {
+        id: 'ist-hotel-bosforo',
+        name: 'Tomtom Suites',
+        neighborhood: 'Karaköy / Galata',
+        note: '₺₺₺ · Vista do Bósforo',
+        image: IST_IMG.bosforo,
+        color: '#0F766E',
+        pin: { top: '38%', left: '40%' }
+      },
+      {
+        id: 'ist-hotel-bazaar',
+        name: 'Sirkeci Mansion',
+        neighborhood: 'Grande Bazar',
+        note: '₺₺ · Perto de Beyazıt e Eminönü',
+        image: IST_IMG.a,
+        color: '#8B7CF6',
+        pin: { top: '48%', left: '62%' }
+      }
     ]
   },
 
@@ -394,6 +622,44 @@ export const GUIDE_THIRTY_SECONDS = {
         image: DUBAI_IMG.a,
         pin: { top: '32%', left: '55%' },
         hotel: 'Al Fahidi e Creek'
+      }
+    ],
+    hotels: [
+      {
+        id: 'dubai-hotel-downtown',
+        name: 'Address Downtown',
+        neighborhood: 'Downtown',
+        note: 'AED $$$ · Vista do Burj Khalifa',
+        image: DUBAI_IMG.burj,
+        color: '#5B8DEF',
+        pin: { top: '48%', left: '48%' }
+      },
+      {
+        id: 'dubai-hotel-marina',
+        name: 'Rove Dubai Marina',
+        neighborhood: 'Dubai Marina',
+        note: 'AED $$ · Promenade e JBR',
+        image: DUBAI_IMG.marina,
+        color: '#0F766E',
+        pin: { top: '62%', left: '28%' }
+      },
+      {
+        id: 'dubai-hotel-jumeirah',
+        name: 'Jumeirah Beach Hotel',
+        neighborhood: 'Jumeirah',
+        note: 'AED $$$ · Praia perto do Burj Al Arab',
+        image: DUBAI_IMG.arab,
+        color: '#F47A20',
+        pin: { top: '58%', left: '38%' }
+      },
+      {
+        id: 'dubai-hotel-old',
+        name: 'XVA Art Hotel',
+        neighborhood: 'Old Dubai',
+        note: 'AED $$ · Al Fahidi e Creek',
+        image: DUBAI_IMG.a,
+        color: '#8B7CF6',
+        pin: { top: '32%', left: '55%' }
       }
     ]
   }
@@ -476,6 +742,16 @@ function buildFromGuide(guide) {
     });
   }
 
+  const hotels = regions.map((region, index) => ({
+    id: `hotel-fallback-${index}`,
+    name: `Hospedagem em ${region.name.split('(')[0].trim()}`,
+    neighborhood: region.name,
+    note: region.hotel || `Sugestão de bairro em ${guide.city}`,
+    image: region.image,
+    color: region.color,
+    pin: region.pin
+  }));
+
   return {
     facts: [
       { value: shortIdealDays(guide.idealDays), label: 'Tempo ideal', tone: 'green' },
@@ -487,13 +763,30 @@ function buildFromGuide(guide) {
         tone: 'blue'
       }
     ],
-    regions
+    regions,
+    hotels
   };
+}
+
+function withHotels(entry, guide) {
+  if (entry.hotels?.length) return entry;
+  const hotels = (entry.regions || []).map((region, index) => ({
+    id: `hotel-derived-${index}`,
+    name: region.hotel || `Hospedagem em ${region.name.split('(')[0].trim()}`,
+    neighborhood: region.name,
+    note: `Sugestão de bairro em ${guide?.city || 'destino'}`,
+    image: region.image,
+    color: region.color,
+    pin: region.pin
+  }));
+  return { ...entry, hotels };
 }
 
 export function getThirtySeconds(guide) {
   if (!guide) {
-    return { facts: [], regions: [] };
+    return { facts: [], regions: [], hotels: [] };
   }
-  return GUIDE_THIRTY_SECONDS[guide.slug] || buildFromGuide(guide);
+  const curated = GUIDE_THIRTY_SECONDS[guide.slug];
+  if (curated) return withHotels(curated, guide);
+  return buildFromGuide(guide);
 }

@@ -46,6 +46,10 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
 
       {pins.map((pin) => {
         const active = pin.id === activeId;
+        const subtitle =
+          mode === 'hotels'
+            ? pin.neighborhood || pin.note || pin.blurb
+            : pin.blurb;
         return (
           <div
             key={pin.id}
@@ -78,7 +82,7 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
                   {pin.name}
                 </span>
                 <span className="mt-0.5 block truncate text-[10px] text-text-muted">
-                  {mode === 'hotels' ? pin.hotel || pin.blurb : pin.blurb}
+                  {subtitle}
                 </span>
               </span>
             </button>
@@ -112,7 +116,21 @@ export default function GuideThirtySeconds({ guide }) {
     });
   }, [guide, data.regions]);
 
-  const pins = tab === 'attractions' ? attractionPins : data.regions;
+  const hotelPins = useMemo(() => {
+    if (data.hotels?.length) return data.hotels;
+    return (data.regions || []).map((region, index) => ({
+      id: `hotel-region-${index}`,
+      name: region.hotel || `Hospedagem em ${region.name}`,
+      neighborhood: region.name,
+      note: region.blurb,
+      image: region.image,
+      color: region.color,
+      pin: region.pin
+    }));
+  }, [data.hotels, data.regions]);
+
+  const pins =
+    tab === 'attractions' ? attractionPins : tab === 'hotels' ? hotelPins : data.regions;
   const activeId =
     pins.some((pin) => pin.id === activeRegion) ? activeRegion : pins[0]?.id || null;
 
@@ -133,7 +151,7 @@ export default function GuideThirtySeconds({ guide }) {
               key={item.id}
               type="button"
               onClick={() => setTab(item.id)}
-              className={`rounded-full px-3.5 py-1.5 text-[11px] font-extrabold transition-all sm:text-xs ${
+              className={`min-h-11 rounded-full px-3.5 py-2 text-[11px] font-extrabold transition-all sm:text-xs ${
                 tab === item.id
                   ? 'bg-brand-navy text-white shadow-sm'
                   : 'bg-bg-light text-text-muted hover:text-brand-navy'
@@ -180,20 +198,59 @@ export default function GuideThirtySeconds({ guide }) {
 
         <aside className="text-left lg:col-span-3">
           <div className="mb-3 flex items-center gap-2">
-            <MapPinned className="h-4 w-4 text-brand-orange" />
+            {tab === 'hotels' ? (
+              <Hotel className="h-4 w-4 text-brand-orange" />
+            ) : (
+              <MapPinned className="h-4 w-4 text-brand-orange" />
+            )}
             <h3 className="font-headers text-sm font-extrabold text-brand-navy">
-              {tab === 'hotels' ? 'Explore hospedagem' : 'Explore o mapa'}
+              {tab === 'hotels' ? 'Hotéis sugeridos' : 'Explore o mapa'}
             </h3>
           </div>
-          <ul className="space-y-2">
+          <ul className="space-y-2.5">
             {pins.map((pin) => {
               const active = pin.id === activeId;
+              if (tab === 'hotels') {
+                return (
+                  <li key={pin.id}>
+                    <button
+                      type="button"
+                      onClick={() => setActiveRegion(pin.id)}
+                      className={`flex w-full min-h-11 items-stretch gap-3 rounded-2xl border p-2 text-left transition-all ${
+                        active
+                          ? 'border-brand-navy/20 bg-brand-navy/[0.04] shadow-sm'
+                          : 'border-border-gray/70 bg-white hover:border-brand-navy/10 hover:bg-bg-light/60'
+                      }`}
+                    >
+                      <span className="relative h-16 w-16 shrink-0 overflow-hidden rounded-xl bg-bg-light">
+                        <img src={pin.image} alt="" className="h-full w-full object-cover" />
+                        <span className="absolute left-1.5 top-1.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-brand-navy/90 text-white shadow-sm">
+                          <Hotel className="h-3 w-3" />
+                        </span>
+                      </span>
+                      <span className="flex min-w-0 flex-1 flex-col justify-center py-0.5">
+                        <span className="block truncate font-headers text-[13px] font-extrabold text-brand-navy">
+                          {pin.name}
+                        </span>
+                        <span className="mt-1 inline-flex w-fit max-w-full items-center truncate rounded-full bg-brand-orange/10 px-2 py-0.5 text-[10px] font-bold text-brand-orange">
+                          {pin.neighborhood || pin.blurb}
+                        </span>
+                        <span className="mt-1.5 line-clamp-2 text-[11px] leading-snug text-text-muted">
+                          {pin.note || pin.hotel || pin.blurb}
+                        </span>
+                      </span>
+                      <ChevronRight className="mt-1 h-4 w-4 shrink-0 self-center text-text-muted" />
+                    </button>
+                  </li>
+                );
+              }
+
               return (
                 <li key={pin.id}>
                   <button
                     type="button"
                     onClick={() => setActiveRegion(pin.id)}
-                    className={`flex w-full items-center gap-2.5 rounded-2xl border px-2.5 py-2 text-left transition-all ${
+                    className={`flex w-full min-h-11 items-center gap-2.5 rounded-2xl border px-2.5 py-2 text-left transition-all ${
                       active
                         ? 'border-brand-navy/15 bg-brand-navy/[0.04] shadow-sm'
                         : 'border-border-gray/70 bg-white hover:border-brand-navy/10 hover:bg-bg-light/60'
@@ -211,7 +268,7 @@ export default function GuideThirtySeconds({ guide }) {
                         {pin.name}
                       </span>
                       <span className="mt-0.5 block truncate text-[10px] text-text-muted">
-                        {tab === 'hotels' ? pin.hotel || pin.blurb : pin.blurb}
+                        {pin.blurb}
                       </span>
                     </span>
                     <ChevronRight className="h-4 w-4 shrink-0 text-text-muted" />

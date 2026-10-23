@@ -218,11 +218,11 @@ export default function GuiasIndex() {
           <section className="mt-8 grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-14">
             <ScrollReveal className="lg:col-span-5 min-w-0">
               <p className="text-[11px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">2GO</p>
-              <h1 className="font-headers mt-3 text-4xl font-extrabold leading-[1.05] tracking-tight text-brand-navy sm:text-5xl lg:text-6xl">
-                Guia de Viagem
+              <h1 className="font-headers mt-3 text-[clamp(1.85rem,5.5vw,3.75rem)] font-extrabold leading-[1.08] tracking-tight text-brand-navy">
+                Tudo o que você precisa saber antes de viajar.
               </h1>
               <p className="mt-4 max-w-md text-base leading-relaxed text-text-muted sm:text-lg">
-                O que ver, quanto guardar e como o lugar funciona. O dia a dia fica no aplicativo.
+                O que conhecer, quanto gastar e como se locomover. Encontre as informações essenciais para planejar sua viagem em um só lugar.
               </p>
               <div className="relative mt-8 max-w-lg">
                 <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-text-muted" />
@@ -327,7 +327,7 @@ export default function GuiasIndex() {
                   type="button"
                   aria-label="Anterior"
                   onClick={() => scrollCarousel(-1)}
-                  className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
+                  className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
                 >
                   <ChevronLeft className="h-4 w-4" />
                 </button>
@@ -335,7 +335,7 @@ export default function GuiasIndex() {
                   type="button"
                   aria-label="Próximo"
                   onClick={() => scrollCarousel(1)}
-                  className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
+                  className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
                 >
                   <ChevronRight className="h-4 w-4" />
                 </button>
