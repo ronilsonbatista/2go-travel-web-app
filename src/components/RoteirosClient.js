@@ -23,18 +23,18 @@ export default function RoteirosClient() {
             <span className="bg-brand-orange/10 text-brand-orange text-[10px] font-extrabold tracking-wide px-3 py-1.5 rounded-full w-fit">
               Exemplos de roteiros
             </span>
-            <h1 className="font-headers text-3xl sm:text-5xl font-extrabold text-brand-navy mt-4 mb-4 tracking-tight">
-              Seus roteiros ganham vida no app
+            <h1 className="font-headers text-3xl sm:text-5xl font-extrabold text-brand-navy mt-4 mb-3 tracking-tight">
+              Crie seu roteiro personalizado
             </h1>
             <p className="text-sm sm:text-base text-text-muted max-w-3xl leading-relaxed">
-              Estes exemplos são uma prévia. Planejamento, timeline, mapa e ajustes ficam no aplicativo.
+              Planeje sua próxima viagem do seu jeito, com muito mais praticidade.
             </p>
             <button
               type="button"
               onClick={() => setIsDownloadOpen(true)}
-              className="mt-5 inline-flex items-center justify-center bg-brand-navy hover:bg-brand-navy/90 text-white font-extrabold text-sm px-6 py-3.5 rounded-xl"
+              className="mt-5 inline-flex min-h-11 w-full sm:w-auto items-center justify-center rounded-xl bg-brand-navy px-6 py-3.5 text-sm font-extrabold text-white hover:bg-brand-navy/90"
             >
-              Baixar o App
+              Criar meu roteiro
             </button>
           </header>
 
