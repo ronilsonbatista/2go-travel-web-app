@@ -33,7 +33,50 @@ const TABS = [
   { id: 'hotels', label: 'Hotéis recomendados' }
 ];
 
+const MIN_PIN_GAP = 11;
+
+function parsePercent(value, fallback) {
+  const n = parseFloat(String(value ?? '').replace('%', ''));
+  return Number.isFinite(n) ? n : fallback;
+}
+
+/** Nudge overlapping pins apart so labels/markers stay readable. */
+function declutterPins(pins) {
+  const placed = pins.map((pin, index) => ({
+    ...pin,
+    _top: parsePercent(pin.pin?.top, 40 + index * 8),
+    _left: parsePercent(pin.pin?.left, 40 + index * 8)
+  }));
+
+  for (let pass = 0; pass < 4; pass += 1) {
+    for (let i = 0; i < placed.length; i += 1) {
+      for (let j = i + 1; j < placed.length; j += 1) {
+        const a = placed[i];
+        const b = placed[j];
+        const dy = b._top - a._top;
+        const dx = b._left - a._left;
+        const dist = Math.hypot(dx, dy) || 0.01;
+        if (dist >= MIN_PIN_GAP) continue;
+        const push = (MIN_PIN_GAP - dist) / 2;
+        const ux = dx / dist;
+        const uy = dy / dist;
+        a._left = Math.min(88, Math.max(12, a._left - ux * push));
+        a._top = Math.min(88, Math.max(12, a._top - uy * push));
+        b._left = Math.min(88, Math.max(12, b._left + ux * push));
+        b._top = Math.min(88, Math.max(12, b._top + uy * push));
+      }
+    }
+  }
+
+  return placed.map(({ _top, _left, ...pin }) => ({
+    ...pin,
+    pin: { top: `${_top.toFixed(1)}%`, left: `${_left.toFixed(1)}%` }
+  }));
+}
+
 function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
+  const laidOut = useMemo(() => declutterPins(pins), [pins]);
+
   return (
     <div className="relative h-full min-h-[300px] w-full overflow-hidden rounded-[22px] border border-border-gray/60 bg-[#dfe7f0]">
       <img
@@ -44,7 +87,7 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
       <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-black/10" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_45%,rgba(11,18,32,0.18)_100%)]" />
 
-      {pins.map((pin) => {
+      {laidOut.map((pin) => {
         const active = pin.id === activeId;
         const subtitle =
           mode === 'hotels'
@@ -53,39 +96,66 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
         return (
           <div
             key={pin.id}
-            className="absolute z-10 -translate-x-1/2 -translate-y-1/2"
+            className="absolute -translate-x-1/2 -translate-y-1/2"
             style={{
               top: pin.pin?.top || '40%',
-              left: pin.pin?.left || '40%'
+              left: pin.pin?.left || '40%',
+              zIndex: active ? 30 : 10
             }}
           >
-            <button
-              type="button"
-              onClick={() => onSelect(pin.id)}
-              className={`group flex max-w-[200px] items-center gap-2 rounded-xl bg-white/95 p-1.5 pr-2.5 text-left shadow-md backdrop-blur-sm transition-transform duration-300 hover:-translate-y-0.5 ${
-                active ? 'ring-2 ring-brand-orange/70' : 'ring-1 ring-black/5'
-              }`}
-            >
-              <span
-                className="relative h-10 w-10 shrink-0 overflow-hidden rounded-md bg-bg-light"
-                style={{ boxShadow: `inset 0 0 0 2px ${pin.color}55` }}
+            {active ? (
+              <button
+                type="button"
+                onClick={() => onSelect(pin.id)}
+                aria-pressed="true"
+                className="group flex max-w-[210px] items-center gap-2 rounded-xl bg-white p-1.5 pr-2.5 text-left shadow-[0_8px_24px_rgba(8,27,107,0.18)] ring-2 ring-brand-orange/70 backdrop-blur-sm transition-transform duration-300 hover:-translate-y-0.5"
               >
-                <img src={pin.image} alt="" className="h-full w-full object-cover" />
-                {mode === 'hotels' ? (
-                  <span className="absolute inset-x-0 bottom-0 flex justify-center bg-brand-navy/80 py-0.5">
-                    <Hotel className="h-2.5 w-2.5 text-white" />
+                <span
+                  className="relative h-10 w-10 shrink-0 overflow-hidden rounded-md bg-bg-light"
+                  style={{ boxShadow: `inset 0 0 0 2px ${pin.color}55` }}
+                >
+                  <img src={pin.image} alt="" className="h-full w-full object-cover" />
+                  {mode === 'hotels' ? (
+                    <span className="absolute inset-x-0 bottom-0 flex justify-center bg-brand-navy/80 py-0.5">
+                      <Hotel className="h-2.5 w-2.5 text-white" />
+                    </span>
+                  ) : null}
+                </span>
+                <span className="min-w-0">
+                  <span className="block text-[11px] font-extrabold leading-tight text-brand-navy [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] overflow-hidden">
+                    {pin.name}
                   </span>
-                ) : null}
-              </span>
-              <span className="min-w-0">
-                <span className="block truncate text-[11px] font-extrabold leading-tight text-brand-navy">
+                  <span className="mt-0.5 block truncate text-[10px] font-medium text-text-muted">
+                    {subtitle}
+                  </span>
+                </span>
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={() => onSelect(pin.id)}
+                aria-label={pin.name}
+                className="group relative flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-[0_6px_16px_rgba(8,27,107,0.2)] ring-2 ring-white transition-transform duration-300 hover:-translate-y-0.5 hover:scale-105"
+                style={{ boxShadow: `0 6px 16px rgba(8,27,107,0.2), 0 0 0 2px ${pin.color}` }}
+              >
+                <span className="h-8 w-8 overflow-hidden rounded-full bg-bg-light">
+                  <img src={pin.image} alt="" className="h-full w-full object-cover" />
+                </span>
+                {mode === 'hotels' ? (
+                  <span className="absolute -bottom-0.5 -right-0.5 inline-flex h-4 w-4 items-center justify-center rounded-full bg-brand-navy text-white shadow-sm">
+                    <Hotel className="h-2.5 w-2.5" />
+                  </span>
+                ) : (
+                  <span
+                    className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-full ring-2 ring-white"
+                    style={{ backgroundColor: pin.color }}
+                  />
+                )}
+                <span className="pointer-events-none absolute left-1/2 top-[calc(100%+6px)] z-20 hidden -translate-x-1/2 whitespace-nowrap rounded-md bg-brand-navy px-2 py-1 text-[10px] font-bold text-white shadow-md group-hover:block group-focus-visible:block">
                   {pin.name}
                 </span>
-                <span className="mt-0.5 block truncate text-[10px] text-text-muted">
-                  {subtitle}
-                </span>
-              </span>
-            </button>
+              </button>
+            )}
           </div>
         );
       })}
@@ -124,6 +194,7 @@ export default function GuideThirtySeconds({ guide }) {
       neighborhood: region.name,
       note: region.blurb,
       image: region.image,
+      imageIllustrative: true,
       color: region.color,
       pin: region.pin
     }));
@@ -145,13 +216,13 @@ export default function GuideThirtySeconds({ guide }) {
         <h2 className="font-headers text-left text-2xl font-extrabold tracking-tight text-brand-navy sm:text-3xl">
           {guide.city} em 30 segundos
         </h2>
-        <div className="flex flex-wrap gap-2">
+        <div className="-mx-1 flex max-w-full gap-2 overflow-x-auto px-1 pb-1 custom-scrollbar-hide sm:flex-wrap sm:overflow-visible">
           {TABS.map((item) => (
             <button
               key={item.id}
               type="button"
               onClick={() => setTab(item.id)}
-              className={`min-h-11 rounded-full px-3.5 py-2 text-[11px] font-extrabold transition-all sm:text-xs ${
+              className={`min-h-11 shrink-0 rounded-full px-3.5 py-2 text-[11px] font-extrabold transition-all sm:text-xs ${
                 tab === item.id
                   ? 'bg-brand-navy text-white shadow-sm'
                   : 'bg-bg-light text-text-muted hover:text-brand-navy'
@@ -211,6 +282,7 @@ export default function GuideThirtySeconds({ guide }) {
             {pins.map((pin) => {
               const active = pin.id === activeId;
               if (tab === 'hotels') {
+                const showIllustrative = pin.imageIllustrative !== false;
                 return (
                   <li key={pin.id}>
                     <button
@@ -227,9 +299,14 @@ export default function GuideThirtySeconds({ guide }) {
                         <span className="absolute left-1.5 top-1.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-brand-navy/90 text-white shadow-sm">
                           <Hotel className="h-3 w-3" />
                         </span>
+                        {showIllustrative ? (
+                          <span className="absolute inset-x-0 bottom-0 bg-black/65 px-1 py-0.5 text-center text-[8px] font-bold uppercase tracking-wide text-white">
+                            Imagem ilustrativa
+                          </span>
+                        ) : null}
                       </span>
                       <span className="flex min-w-0 flex-1 flex-col justify-center py-0.5">
-                        <span className="block truncate font-headers text-[13px] font-extrabold text-brand-navy">
+                        <span className="block font-headers text-[13px] font-extrabold leading-snug text-brand-navy [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] overflow-hidden">
                           {pin.name}
                         </span>
                         <span className="mt-1 inline-flex w-fit max-w-full items-center truncate rounded-full bg-brand-orange/10 px-2 py-0.5 text-[10px] font-bold text-brand-orange">
@@ -238,6 +315,11 @@ export default function GuideThirtySeconds({ guide }) {
                         <span className="mt-1.5 line-clamp-2 text-[11px] leading-snug text-text-muted">
                           {pin.note || pin.hotel || pin.blurb}
                         </span>
+                        {pin.address ? (
+                          <span className="mt-1 line-clamp-1 text-[10px] text-text-muted/80">
+                            {pin.address}
+                          </span>
+                        ) : null}
                       </span>
                       <ChevronRight className="mt-1 h-4 w-4 shrink-0 self-center text-text-muted" />
                     </button>

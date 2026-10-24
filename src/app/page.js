@@ -743,7 +743,7 @@ export default function Home() {
         </section>
 
         {/* 9. NEWSLETTER */}
-        <section className="pb-20 bg-[#F7F8FA]">
+        <section className="pb-28 lg:pb-20 bg-[#F7F8FA]">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
             <NewsletterBox />
           </div>

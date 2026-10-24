@@ -210,7 +210,7 @@ export default function GuiasIndex() {
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
-      <main className="flex-grow pt-28 pb-20">
+      <main className="flex-grow pt-28 pb-28 lg:pb-20">
         <div className="container mx-auto max-w-[1440px] w-full px-4 sm:px-6 lg:px-8 text-left min-w-0">
           <Breadcrumbs items={[{ name: 'Guia de Viagem', url: '/guias' }]} />
 
@@ -327,7 +327,7 @@ export default function GuiasIndex() {
                   type="button"
                   aria-label="Anterior"
                   onClick={() => scrollCarousel(-1)}
-                  className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
+                  className="inline-flex h-11 w-11 min-h-11 min-w-11 shrink-0 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
                 >
                   <ChevronLeft className="h-4 w-4" />
                 </button>
@@ -335,7 +335,7 @@ export default function GuiasIndex() {
                   type="button"
                   aria-label="Próximo"
                   onClick={() => scrollCarousel(1)}
-                  className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
+                  className="inline-flex h-11 w-11 min-h-11 min-w-11 shrink-0 items-center justify-center rounded-full border border-border-gray/80 text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
                 >
                   <ChevronRight className="h-4 w-4" />
                 </button>

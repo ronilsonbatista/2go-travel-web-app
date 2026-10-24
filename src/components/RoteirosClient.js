@@ -14,7 +14,7 @@ export default function RoteirosClient() {
     <div className="w-full bg-[#F7F8FA] min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
 
-      <main className="flex-grow pt-24 pb-16">
+      <main className="flex-grow pt-24 pb-28 lg:pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full text-left min-w-0">
           
           <Breadcrumbs items={[{ name: 'Roteiros', url: '/roteiros' }]} />
