@@ -290,7 +290,7 @@ export default function GuideArticleClient({ guide }) {
                   key={fact.label}
                   type="button"
                   onClick={() => scrollToId(fact.href)}
-                  className="rounded-2xl border border-border-gray/80 bg-white px-4 py-4 text-left shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-orange/40 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange/40"
+                  className="min-h-11 rounded-2xl border border-border-gray/80 bg-white px-4 py-4 text-left shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-orange/40 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange/40"
                 >
                   <div className="mb-2 flex items-center gap-2 text-brand-orange">
                     <Icon className="h-4 w-4" />
@@ -357,7 +357,7 @@ export default function GuideArticleClient({ guide }) {
                           key={chip.href}
                           type="button"
                           onClick={() => scrollToId(chip.href)}
-                          className="rounded-full border border-border-gray/80 bg-white px-3.5 py-1.5 text-[11px] font-extrabold text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
+                          className="inline-flex min-h-11 items-center rounded-full border border-border-gray/80 bg-white px-3.5 py-2 text-[11px] font-extrabold text-brand-navy transition-colors hover:border-brand-orange hover:text-brand-orange"
                         >
                           {chip.label}
                         </button>
@@ -365,7 +365,7 @@ export default function GuideArticleClient({ guide }) {
                       <button
                         type="button"
                         onClick={() => setIntroExpanded((open) => !open)}
-                        className="rounded-full bg-brand-navy px-3.5 py-1.5 text-[11px] font-extrabold text-white transition-colors hover:bg-brand-navy/90"
+                        className="inline-flex min-h-11 items-center rounded-full bg-brand-navy px-3.5 py-2 text-[11px] font-extrabold text-white transition-colors hover:bg-brand-navy/90"
                       >
                         {introExpanded ? 'Recolher' : 'Ler mais'}
                       </button>
@@ -409,8 +409,9 @@ export default function GuideArticleClient({ guide }) {
                     <button
                       key={tab.id}
                       type="button"
+                      aria-pressed={itineraryTab === tab.id}
                       onClick={() => setItineraryTab(tab.id)}
-                      className={`rounded-full px-3.5 py-1.5 text-xs font-extrabold transition-all ${
+                      className={`inline-flex min-h-11 items-center rounded-full px-3.5 py-2 text-xs font-extrabold transition-all ${
                         itineraryTab === tab.id
                           ? 'bg-brand-navy text-white'
                           : 'bg-bg-light text-text-muted hover:text-brand-navy'
@@ -422,7 +423,7 @@ export default function GuideArticleClient({ guide }) {
                   <button
                     type="button"
                     onClick={() => setIsDownloadOpen(true)}
-                    className="rounded-full bg-brand-orange/10 px-3.5 py-1.5 text-xs font-extrabold text-brand-orange transition-colors hover:bg-brand-orange hover:text-white"
+                    className="inline-flex min-h-11 items-center rounded-full bg-brand-orange/10 px-3.5 py-2 text-xs font-extrabold text-brand-orange transition-colors hover:bg-brand-orange hover:text-white"
                   >
                     Personalizar no app
                   </button>
