@@ -33,7 +33,7 @@ const TABS = [
   { id: 'hotels', label: 'Hotéis recomendados' }
 ];
 
-const MIN_PIN_GAP = 11;
+const MIN_PIN_GAP = 14;
 
 function parsePercent(value, fallback) {
   const n = parseFloat(String(value ?? '').replace('%', ''));
@@ -108,7 +108,7 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
                 type="button"
                 onClick={() => onSelect(pin.id)}
                 aria-pressed="true"
-                className="group flex max-w-[210px] items-center gap-2 rounded-xl bg-white p-1.5 pr-2.5 text-left shadow-[0_8px_24px_rgba(8,27,107,0.18)] ring-2 ring-brand-orange/70 backdrop-blur-sm transition-transform duration-300 hover:-translate-y-0.5"
+                className="group flex max-w-[min(168px,42vw)] items-center gap-2 rounded-xl bg-white p-1.5 pr-2.5 text-left shadow-[0_8px_24px_rgba(8,27,107,0.18)] ring-2 ring-brand-orange/70 backdrop-blur-sm transition-transform duration-300 hover:-translate-y-0.5 sm:max-w-[210px]"
               >
                 <span
                   className="relative h-10 w-10 shrink-0 overflow-hidden rounded-md bg-bg-light"
@@ -135,7 +135,8 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
                 type="button"
                 onClick={() => onSelect(pin.id)}
                 aria-label={pin.name}
-                className="group relative flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-[0_6px_16px_rgba(8,27,107,0.2)] ring-2 ring-white transition-transform duration-300 hover:-translate-y-0.5 hover:scale-105"
+                aria-pressed="false"
+                className="group relative flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-[0_6px_16px_rgba(8,27,107,0.2)] ring-2 ring-white transition-transform duration-300 hover:-translate-y-0.5 hover:scale-105 sm:h-11 sm:w-11"
                 style={{ boxShadow: `0 6px 16px rgba(8,27,107,0.2), 0 0 0 2px ${pin.color}` }}
               >
                 <span className="h-8 w-8 overflow-hidden rounded-full bg-bg-light">
@@ -210,17 +211,23 @@ export default function GuideThirtySeconds({ guide }) {
   return (
     <section
       id="em-30-segundos"
-      className="overflow-hidden rounded-[28px] border border-border-gray/80 bg-white p-5 shadow-md sm:p-7 scroll-mt-28"
+      className="scroll-mt-28 overflow-hidden rounded-[28px] border border-border-gray/80 bg-white p-5 pb-16 shadow-md sm:p-7 lg:pb-7"
     >
       <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
         <h2 className="font-headers text-left text-2xl font-extrabold tracking-tight text-brand-navy sm:text-3xl">
           {guide.city} em 30 segundos
         </h2>
-        <div className="-mx-1 flex max-w-full gap-2 overflow-x-auto px-1 pb-1 custom-scrollbar-hide sm:flex-wrap sm:overflow-visible">
+        <div
+          role="tablist"
+          aria-label={`Explorar ${guide.city}`}
+          className="-mx-1 flex max-w-full gap-2 overflow-x-auto px-1 pb-1 custom-scrollbar-hide sm:flex-wrap sm:overflow-visible"
+        >
           {TABS.map((item) => (
             <button
               key={item.id}
               type="button"
+              role="tab"
+              aria-selected={tab === item.id}
               onClick={() => setTab(item.id)}
               className={`min-h-11 shrink-0 rounded-full px-3.5 py-2 text-[11px] font-extrabold transition-all sm:text-xs ${
                 tab === item.id
@@ -288,6 +295,7 @@ export default function GuideThirtySeconds({ guide }) {
                     <button
                       type="button"
                       onClick={() => setActiveRegion(pin.id)}
+                      aria-pressed={active}
                       className={`flex w-full min-h-11 items-stretch gap-3 rounded-2xl border p-2 text-left transition-all ${
                         active
                           ? 'border-brand-navy/20 bg-brand-navy/[0.04] shadow-sm'
@@ -332,6 +340,7 @@ export default function GuideThirtySeconds({ guide }) {
                   <button
                     type="button"
                     onClick={() => setActiveRegion(pin.id)}
+                    aria-pressed={active}
                     className={`flex w-full min-h-11 items-center gap-2.5 rounded-2xl border px-2.5 py-2 text-left transition-all ${
                       active
                         ? 'border-brand-navy/15 bg-brand-navy/[0.04] shadow-sm'
