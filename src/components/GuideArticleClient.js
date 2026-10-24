@@ -238,7 +238,7 @@ export default function GuideArticleClient({ guide }) {
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
-      <main className="flex-grow pb-20">
+      <main className="flex-grow pb-28 lg:pb-20">
         <section className="relative mt-[64px] h-[calc(100svh-64px)] min-h-[520px] sm:min-h-[620px] overflow-hidden bg-[#0b1220] lg:mt-[78px] lg:h-[calc(100svh-78px)]">
           {frames.map((src, index) => (
             <img
