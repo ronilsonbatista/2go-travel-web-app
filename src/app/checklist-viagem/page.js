@@ -7,7 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AppDownloadModal from '@/components/AppDownloadModal';
-import { supabase } from '@/lib/supabase';
+import { isSupabaseConfigured, supabase } from '@/lib/supabase';
 import { trackPageView, trackLeadCapture, trackDownloadPDF } from '@/lib/analytics';
 import confetti from 'canvas-confetti';
 
@@ -40,6 +40,7 @@ export default function ChecklistViagem() {
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
   const [downloaded, setDownloaded] = useState(false);
+  const [formError, setFormError] = useState('');
 
   useEffect(() => {
     trackPageView('checklist');
@@ -56,6 +57,7 @@ export default function ChecklistViagem() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    setFormError('');
 
     const leadData = {
       name,
@@ -66,31 +68,38 @@ export default function ChecklistViagem() {
     };
 
     try {
-      // Save lead to Supabase
+      if (!isSupabaseConfigured || !supabase) {
+        throw new Error('checklist_not_configured');
+      }
       const { error } = await supabase.from('leads').insert([leadData]);
       if (error) throw error;
-    } catch (err) {
-      console.error('Error saving checklist lead:', err);
-      // Fallback: save to LocalStorage
-      if (typeof window !== 'undefined') {
-        const localLeads = JSON.parse(localStorage.getItem('checklist_leads') || '[]');
-        localLeads.push(leadData);
-        localStorage.setItem('checklist_leads', JSON.stringify(localLeads));
-      }
-    } finally {
-      setLoading(false);
+
       setDownloaded(true);
-      
-      // Trigger analytics tracking
       trackLeadCapture('checklist', email);
       trackDownloadPDF('general', 'checklist');
-      
-      // Trigger confetti
       confetti({
         particleCount: 100,
         spread: 70,
         origin: { y: 0.8 }
       });
+    } catch (err) {
+      console.error('Error saving checklist lead:', err);
+      if (typeof window !== 'undefined') {
+        try {
+          const drafts = JSON.parse(localStorage.getItem('checklist_drafts') || '[]');
+          drafts.push({ ...leadData, draft: true });
+          localStorage.setItem('checklist_drafts', JSON.stringify(drafts));
+        } catch {
+          /* ignore */
+        }
+      }
+      setFormError(
+        err?.message === 'checklist_not_configured'
+          ? 'Download temporariamente indisponível. Tente novamente mais tarde.'
+          : 'Não foi possível salvar seus dados. Tente de novo.'
+      );
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -260,10 +269,15 @@ export default function ChecklistViagem() {
                           disabled={loading}
                         />
                       </div>
+                      {formError ? (
+                        <p role="alert" className="text-[11px] font-semibold leading-snug text-red-600">
+                          {formError}
+                        </p>
+                      ) : null}
                       <button 
                         type="submit" 
                         disabled={loading}
-                        className="btn btn-primary py-3 text-xs font-bold flex items-center justify-center gap-1.5 cursor-pointer shadow-md shadow-brand-navy/10 hover:scale-[1.01] active:scale-95 transition-all"
+                        className="btn btn-primary flex min-h-11 items-center justify-center gap-1.5 py-3 text-xs font-bold cursor-pointer shadow-md shadow-brand-navy/10 transition-all hover:scale-[1.01] active:scale-95 disabled:opacity-60"
                       >
                         <Lock className="w-3.5 h-3.5" />
                         <span>{loading ? 'Processando...' : 'Liberar Checklist PDF'}</span>

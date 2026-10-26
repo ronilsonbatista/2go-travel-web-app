@@ -57,7 +57,8 @@ const featuredGuides = [
       continent: continentOf(destination.country),
       img: guide?.heroImage || destination.image,
       phrase: guide?.subtitle || destination.description,
-      link: guide ? `/guias/${guide.slug}` : '/guias'
+      link: guide ? `/guias/${guide.slug}` : '/guias',
+      hasGuide: Boolean(guide)
     };
   }),
   ...guideOnlyCities.map((guide) => ({
@@ -66,7 +67,8 @@ const featuredGuides = [
     continent: continentOf(guide.country),
     img: guide.heroImage,
     phrase: guide.subtitle,
-    link: `/guias/${guide.slug}`
+    link: `/guias/${guide.slug}`,
+    hasGuide: true
   }))
 ];
 
@@ -618,7 +620,9 @@ export default function Home() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
                     <div className="absolute bottom-5 left-5 right-5 text-left text-white">
-                      <p className="text-[10px] font-extrabold tracking-wide text-brand-orange uppercase">Guia de Viagem</p>
+                      <p className="text-[10px] font-extrabold tracking-wide text-brand-orange uppercase">
+                        {dest.hasGuide ? 'Guia de Viagem' : 'Explorar guias'}
+                      </p>
                       <h4 className="font-headers text-base font-extrabold text-white mt-1 group-hover:text-brand-orange transition-colors">
                         {dest.name}, {dest.country}
                       </h4>
