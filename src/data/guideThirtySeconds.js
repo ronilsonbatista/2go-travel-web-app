@@ -117,39 +117,47 @@ export const GUIDE_THIRTY_SECONDS = {
     hotels: [
       {
         id: 'paris-hotel-eiffel',
-        name: 'Hôtel du Champs de Mars',
-        neighborhood: 'Torre Eiffel',
-        note: '€€ · Boutique perto do Champ de Mars',
+        name: 'Hôtel du Champ de Mars',
+        neighborhood: '7º · Champ de Mars',
+        address: '7 rue du Champ de Mars, 75007 Paris',
+        note: '€€ · Boutique a pé da Torre Eiffel',
         image: PARIS_IMG.eiffel,
+        imageIllustrative: true,
         color: '#5B8DEF',
-        pin: { top: '58%', left: '22%' }
+        pin: { top: '60%', left: '20%' }
       },
       {
         id: 'paris-hotel-louvre',
         name: 'Hôtel Brighton',
-        neighborhood: 'Louvre / Opéra',
-        note: '€€€ · Clássico com vista para o jardim',
+        neighborhood: '1º · Tuileries / Louvre',
+        address: '218 rue de Rivoli, 75001 Paris',
+        note: '€€€ · Clássico de frente aos Jardins',
         image: PARIS_IMG.louvre,
+        imageIllustrative: true,
         color: '#F47A20',
-        pin: { top: '48%', left: '48%' }
+        pin: { top: '50%', left: '46%' }
       },
       {
         id: 'paris-hotel-marais',
         name: 'Hôtel Jeanne d’Arc',
-        neighborhood: 'Le Marais',
-        note: '€€ · Charme no 4º arrondissement',
+        neighborhood: '4º · Le Marais',
+        address: '3 rue de Jarente, 75004 Paris',
+        note: '€€ · Charme no coração do Marais',
         image: '/images/destinations/paris/paris-marais.jpg',
+        imageIllustrative: true,
         color: '#8B7CF6',
-        pin: { top: '42%', left: '62%' }
+        pin: { top: '44%', left: '64%' }
       },
       {
         id: 'paris-hotel-montmartre',
         name: 'Timhotel Montmartre',
-        neighborhood: 'Montmartre',
-        note: '€€ · Vista para o Sacré-Cœur',
+        neighborhood: '18º · Montmartre',
+        address: '11 rue Ravignan, 75018 Paris',
+        note: '€€ · Place Émile Goudeau, perto do Sacré-Cœur',
         image: '/images/destinations/paris/paris-sacre-coeur.jpg',
+        imageIllustrative: true,
         color: '#96AB21',
-        pin: { top: '22%', left: '55%' }
+        pin: { top: '20%', left: '57%' }
       }
     ]
   },
@@ -203,38 +211,46 @@ export const GUIDE_THIRTY_SECONDS = {
       {
         id: 'ny-hotel-midtown',
         name: 'Pod Times Square',
-        neighborhood: 'Midtown',
+        neighborhood: 'Midtown · Times Square',
+        address: '400 W 42nd St, New York, NY',
         note: '$ · Prático perto da Broadway',
         image: NY_IMG.empire,
+        imageIllustrative: true,
         color: '#5B8DEF',
-        pin: { top: '42%', left: '48%' }
+        pin: { top: '44%', left: '46%' }
       },
       {
         id: 'ny-hotel-downtown',
         name: 'Conrad New York Downtown',
-        neighborhood: 'Lower Manhattan',
+        neighborhood: 'Battery Park City',
+        address: '102 N End Ave, New York, NY',
         note: '$$$ · Vista do porto e Battery',
         image: NY_IMG.liberty,
+        imageIllustrative: true,
         color: '#F47A20',
-        pin: { top: '68%', left: '40%' }
+        pin: { top: '70%', left: '38%' }
       },
       {
         id: 'ny-hotel-park',
         name: 'The Lucerne',
         neighborhood: 'Upper West Side',
+        address: '201 W 79th St, New York, NY',
         note: '$$ · Clássico perto do Central Park',
         image: NY_IMG.a,
+        imageIllustrative: true,
         color: '#96AB21',
-        pin: { top: '28%', left: '52%' }
+        pin: { top: '26%', left: '50%' }
       },
       {
         id: 'ny-hotel-brooklyn',
         name: '1 Hotel Brooklyn Bridge',
         neighborhood: 'DUMBO',
+        address: '60 Furman St, Brooklyn, NY',
         note: '$$$ · Skyline e promenade',
         image: NY_IMG.brooklyn,
+        imageIllustrative: true,
         color: '#8B7CF6',
-        pin: { top: '72%', left: '68%' }
+        pin: { top: '74%', left: '70%' }
       }
     ]
   },
@@ -289,37 +305,45 @@ export const GUIDE_THIRTY_SECONDS = {
         id: 'tokyo-hotel-shinjuku',
         name: 'Hotel Gracery Shinjuku',
         neighborhood: 'Shinjuku',
+        address: '1-19-1 Kabukicho, Shinjuku, Tokyo',
         note: '¥¥ · Ícone Godzilla na estação',
         image: TOKYO_IMG.a,
+        imageIllustrative: true,
         color: '#5B8DEF',
-        pin: { top: '40%', left: '30%' }
+        pin: { top: '38%', left: '28%' }
       },
       {
         id: 'tokyo-hotel-shibuya',
         name: 'Shibuya Stream Excel Hotel Tokyu',
         neighborhood: 'Shibuya',
+        address: '3-21-3 Shibuya, Tokyo',
         note: '¥¥¥ · Moderno no scrambling',
         image: TOKYO_IMG.shibuya,
+        imageIllustrative: true,
         color: '#F47A20',
-        pin: { top: '58%', left: '38%' }
+        pin: { top: '60%', left: '36%' }
       },
       {
         id: 'tokyo-hotel-asakusa',
         name: 'Wired Hotel Asakusa',
         neighborhood: 'Asakusa',
+        address: '2-16-2 Asakusa, Taito, Tokyo',
         note: '¥¥ · Design perto do Sensō-ji',
         image: TOKYO_IMG.sensoji,
+        imageIllustrative: true,
         color: '#96AB21',
-        pin: { top: '32%', left: '68%' }
+        pin: { top: '30%', left: '70%' }
       },
       {
         id: 'tokyo-hotel-ginza',
         name: 'Mitsui Garden Hotel Ginza',
         neighborhood: 'Ginza',
-        note: '¥¥¥ · Elegância a pé da Tokyo Tower',
+        address: '8-13-1 Ginza, Chuo, Tokyo',
+        note: '¥¥¥ · Base elegante em Ginza',
         image: TOKYO_IMG.tower,
+        imageIllustrative: true,
         color: '#8B7CF6',
-        pin: { top: '52%', left: '55%' }
+        pin: { top: '54%', left: '57%' }
       }
     ]
   },
@@ -373,38 +397,46 @@ export const GUIDE_THIRTY_SECONDS = {
       {
         id: 'london-hotel-westminster',
         name: 'Park Plaza Westminster Bridge',
-        neighborhood: 'Westminster',
+        neighborhood: 'South Bank · Westminster',
+        address: '200 Westminster Bridge Rd, London',
         note: '££ · Vista do Big Ben',
         image: LONDON_IMG.ben,
+        imageIllustrative: true,
         color: '#5B8DEF',
-        pin: { top: '55%', left: '42%' }
+        pin: { top: '57%', left: '40%' }
       },
       {
         id: 'london-hotel-southbank',
         name: 'CitizenM Tower of London',
-        neighborhood: 'South Bank',
+        neighborhood: 'Tower Hill',
+        address: '40 Trinity Square, London',
         note: '££ · Design perto da Tower Bridge',
         image: LONDON_IMG.bridge,
+        imageIllustrative: true,
         color: '#F47A20',
-        pin: { top: '62%', left: '62%' }
+        pin: { top: '64%', left: '64%' }
       },
       {
         id: 'london-hotel-buckingham',
         name: 'The Rubens at the Palace',
-        neighborhood: 'Buckingham',
+        neighborhood: 'Victoria · Buckingham',
+        address: '39 Buckingham Palace Rd, London',
         note: '£££ · Frente ao palácio',
         image: LONDON_IMG.buck,
+        imageIllustrative: true,
         color: '#96AB21',
-        pin: { top: '48%', left: '30%' }
+        pin: { top: '46%', left: '28%' }
       },
       {
         id: 'london-hotel-shoreditch',
         name: 'The Hoxton Shoreditch',
-        neighborhood: 'East End',
+        neighborhood: 'Shoreditch',
+        address: '81 Great Eastern St, London',
         note: '££ · Street food e nightlife',
         image: LONDON_IMG.a,
+        imageIllustrative: true,
         color: '#8B7CF6',
-        pin: { top: '38%', left: '58%' }
+        pin: { top: '36%', left: '60%' }
       }
     ]
   },
@@ -456,40 +488,59 @@ export const GUIDE_THIRTY_SECONDS = {
     ],
     hotels: [
       {
-        id: 'roma-hotel-coliseu',
+        id: 'roma-hotel-palazzo-dama',
         name: 'Hotel Palazzo Dama',
-        neighborhood: 'Roma Antiga',
-        note: '€€€ · Boutique a passos do Coliseu',
+        neighborhood: 'Flaminio · Piazza del Popolo',
+        address: 'Lungotevere Arnaldo da Brescia 2, 00196 Roma',
+        note: '€€€ · Boutique no Tibre, perto da Piazza del Popolo',
+        image: ROMA_IMG.b,
+        imageIllustrative: true,
+        color: '#B45309',
+        pin: { top: '28%', left: '44%' }
+      },
+      {
+        id: 'roma-hotel-coliseu',
+        name: 'Hotel Forum',
+        neighborhood: 'Monti · Coliseu',
+        address: 'Via Tor de’ Conti 25, 00184 Roma',
+        note: '€€€ · Terraço com vista do Fórum e Coliseu',
         image: ROMA_IMG.coliseu,
+        imageIllustrative: true,
         color: '#F47A20',
-        pin: { top: '58%', left: '58%' }
+        pin: { top: '60%', left: '60%' }
       },
       {
         id: 'roma-hotel-vaticano',
         name: 'Hotel dei Mellini',
-        neighborhood: 'Prati / Vaticano',
-        note: '€€ · Prático para a Capela Sistina',
+        neighborhood: 'Prati',
+        address: 'Via Muzio Clementi 81, 00193 Roma',
+        note: '€€ · Entre Piazza del Popolo e o Vaticano',
         image: ROMA_IMG.vaticano,
+        imageIllustrative: true,
         color: '#5B8DEF',
-        pin: { top: '40%', left: '22%' }
+        pin: { top: '36%', left: '24%' }
       },
       {
         id: 'roma-hotel-centro',
         name: 'Hotel Pantheon',
         neighborhood: 'Centro Storico',
-        note: '€€€ · Entre Fontana e Pantheon',
+        address: 'Via dei Pastini 131, 00186 Roma',
+        note: '€€€ · A passos do Pantheon e da Fontana di Trevi',
         image: ROMA_IMG.trevi,
+        imageIllustrative: true,
         color: '#8B7CF6',
-        pin: { top: '45%', left: '48%' }
+        pin: { top: '47%', left: '50%' }
       },
       {
         id: 'roma-hotel-trastevere',
         name: 'Hotel Santa Maria',
         neighborhood: 'Trastevere',
-        note: '€€ · Pátio e trattorias a pé',
+        address: 'Vicolo del Piede 2, 00153 Roma',
+        note: '€€ · Pátio e trattorias a pé da Santa Maria',
         image: ROMA_IMG.a,
+        imageIllustrative: true,
         color: '#96AB21',
-        pin: { top: '68%', left: '38%' }
+        pin: { top: '70%', left: '36%' }
       }
     ]
   },
@@ -544,37 +595,45 @@ export const GUIDE_THIRTY_SECONDS = {
         id: 'ist-hotel-sultanahmet',
         name: 'Hotel Ibrahim Pasha',
         neighborhood: 'Sultanahmet',
-        note: '₺₺ · Boutique frente à Hagia Sophia',
+        address: 'Terzihane Sokak 7, Sultanahmet, Istanbul',
+        note: '₺₺ · Boutique perto da Hagia Sophia',
         image: IST_IMG.hagia,
+        imageIllustrative: true,
         color: '#5B8DEF',
-        pin: { top: '55%', left: '55%' }
+        pin: { top: '52%', left: '58%' }
       },
       {
         id: 'ist-hotel-azul',
         name: 'Sultanahmet Palace Hotel',
         neighborhood: 'Mesquita Azul',
+        address: 'Torun Sokak 19, Sultanahmet, Istanbul',
         note: '₺₺ · Terraço com vista otomana',
         image: IST_IMG.azul,
+        imageIllustrative: true,
         color: '#F47A20',
-        pin: { top: '62%', left: '48%' }
+        pin: { top: '66%', left: '46%' }
       },
       {
         id: 'ist-hotel-bosforo',
         name: 'Tomtom Suites',
         neighborhood: 'Karaköy / Galata',
+        address: 'Boğazkesen Cad. 18, Beyoğlu, Istanbul',
         note: '₺₺₺ · Vista do Bósforo',
         image: IST_IMG.bosforo,
+        imageIllustrative: true,
         color: '#0F766E',
-        pin: { top: '38%', left: '40%' }
+        pin: { top: '36%', left: '38%' }
       },
       {
         id: 'ist-hotel-bazaar',
         name: 'Sirkeci Mansion',
-        neighborhood: 'Grande Bazar',
+        neighborhood: 'Sirkeci · Grande Bazar',
+        address: 'Taya Hatun Cad. 5, Sirkeci, Istanbul',
         note: '₺₺ · Perto de Beyazıt e Eminönü',
         image: IST_IMG.a,
+        imageIllustrative: true,
         color: '#8B7CF6',
-        pin: { top: '48%', left: '62%' }
+        pin: { top: '48%', left: '66%' }
       }
     ]
   },
@@ -628,38 +687,46 @@ export const GUIDE_THIRTY_SECONDS = {
       {
         id: 'dubai-hotel-downtown',
         name: 'Address Downtown',
-        neighborhood: 'Downtown',
+        neighborhood: 'Downtown Dubai',
+        address: 'Mohammed Bin Rashid Blvd, Downtown Dubai',
         note: 'AED $$$ · Vista do Burj Khalifa',
         image: DUBAI_IMG.burj,
+        imageIllustrative: true,
         color: '#5B8DEF',
-        pin: { top: '48%', left: '48%' }
+        pin: { top: '46%', left: '50%' }
       },
       {
         id: 'dubai-hotel-marina',
         name: 'Rove Dubai Marina',
         neighborhood: 'Dubai Marina',
+        address: 'Al Seba Street, Dubai Marina',
         note: 'AED $$ · Promenade e JBR',
         image: DUBAI_IMG.marina,
+        imageIllustrative: true,
         color: '#0F766E',
-        pin: { top: '62%', left: '28%' }
+        pin: { top: '64%', left: '26%' }
       },
       {
         id: 'dubai-hotel-jumeirah',
         name: 'Jumeirah Beach Hotel',
-        neighborhood: 'Jumeirah',
+        neighborhood: 'Jumeirah Beach',
+        address: 'Jumeirah Beach Rd, Dubai',
         note: 'AED $$$ · Praia perto do Burj Al Arab',
         image: DUBAI_IMG.arab,
+        imageIllustrative: true,
         color: '#F47A20',
-        pin: { top: '58%', left: '38%' }
+        pin: { top: '56%', left: '36%' }
       },
       {
         id: 'dubai-hotel-old',
         name: 'XVA Art Hotel',
-        neighborhood: 'Old Dubai',
+        neighborhood: 'Al Fahidi · Old Dubai',
+        address: 'Al Fahidi Historical Neighbourhood, Dubai',
         note: 'AED $$ · Al Fahidi e Creek',
         image: DUBAI_IMG.a,
+        imageIllustrative: true,
         color: '#8B7CF6',
-        pin: { top: '32%', left: '55%' }
+        pin: { top: '30%', left: '57%' }
       }
     ]
   }
@@ -748,6 +815,7 @@ function buildFromGuide(guide) {
     neighborhood: region.name,
     note: region.hotel || `Sugestão de bairro em ${guide.city}`,
     image: region.image,
+    imageIllustrative: true,
     color: region.color,
     pin: region.pin
   }));
@@ -776,6 +844,7 @@ function withHotels(entry, guide) {
     neighborhood: region.name,
     note: `Sugestão de bairro em ${guide?.city || 'destino'}`,
     image: region.image,
+    imageIllustrative: true,
     color: region.color,
     pin: region.pin
   }));

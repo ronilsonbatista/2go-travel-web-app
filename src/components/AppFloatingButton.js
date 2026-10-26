@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import { Smartphone } from 'lucide-react';
 import AppDownloadModal from './AppDownloadModal';
 
 export default function AppFloatingButton() {
@@ -8,21 +9,28 @@ export default function AppFloatingButton() {
 
   return (
     <>
-      <div 
-        className="fixed left-1/2 -translate-x-1/2 z-[2500] w-[min(260px,calc(100%-2rem))] lg:hidden"
-        style={{ bottom: 'calc(1.2rem + env(safe-area-inset-bottom, 0px))' }}
+      {/* Compact bottom-right FAB — avoids covering centered carousels and 30s tabs */}
+      <div
+        className="pointer-events-none fixed z-[2500] lg:hidden"
+        style={{
+          right: 'max(0.75rem, env(safe-area-inset-right, 0px))',
+          bottom: 'calc(0.75rem + env(safe-area-inset-bottom, 0px))'
+        }}
       >
         <button
+          type="button"
           onClick={() => setIsOpen(true)}
-          className="w-full bg-gradient-to-r from-[#F47A20] to-[#ff8f3c] text-white font-extrabold py-3.5 px-6 rounded-full shadow-[0_14px_35px_rgba(244,122,32,0.35)] flex items-center justify-center hover:scale-[1.02] active:scale-95 transition-all cursor-pointer text-sm tracking-widest animate-btn-pulse border-none"
+          aria-label="Baixar App"
+          className="pointer-events-auto inline-flex min-h-11 items-center justify-center gap-1.5 rounded-full border-none bg-gradient-to-r from-[#F47A20] to-[#ff8f3c] px-3.5 py-2.5 text-xs font-extrabold tracking-wide text-white shadow-[0_10px_28px_rgba(244,122,32,0.4)] transition-all hover:scale-[1.03] active:scale-95 animate-btn-pulse cursor-pointer"
         >
+          <Smartphone className="h-4 w-4 shrink-0" strokeWidth={2.4} aria-hidden />
           <span>Baixar App</span>
         </button>
       </div>
 
-      <AppDownloadModal 
-        isOpen={isOpen} 
-        onClose={() => setIsOpen(false)} 
+      <AppDownloadModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
       />
     </>
   );
