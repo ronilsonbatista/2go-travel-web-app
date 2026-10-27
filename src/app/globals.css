@@ -219,16 +219,14 @@ body {
   .guide-ken { animation: none; }
 }
 
-/* Modern cool theme over vintage city-map PNGs (shared by all guides). */
+/* Modern light (Opção 2) — production default for all city-guide 30s maps. */
 .guide-city-map {
-  background:
-    radial-gradient(circle at 28% 18%, rgba(125, 211, 252, 0.28), transparent 46%),
-    linear-gradient(160deg, #c9d9ea 0%, #e8eef6 52%, #c5d4e4 100%);
+  background: linear-gradient(160deg, #eef2f6 0%, #f7f9fb 100%);
 }
 
 .guide-city-map__img {
-  /* Cool/desaturate beige Stamen-like maps into a contemporary slate-blue read. */
-  filter: sepia(0.12) saturate(0.22) contrast(1.38) brightness(1.2) hue-rotate(198deg);
+  /* Light Positron-like assets; slight contrast keeps baked street/arrondissement labels readable. */
+  filter: contrast(1.08) brightness(1.03);
   transform: scale(1.02);
   transform-origin: center;
 }
@@ -236,28 +234,137 @@ body {
 .guide-city-map__wash {
   pointer-events: none;
   background:
-    linear-gradient(180deg, rgba(15, 23, 42, 0.18) 0%, transparent 30%, rgba(15, 23, 42, 0.2) 100%),
-    linear-gradient(120deg, rgba(14, 165, 233, 0.18), transparent 42%, rgba(99, 102, 241, 0.12));
-  mix-blend-mode: color;
-  opacity: 0.55;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, transparent 35%, rgba(15, 23, 42, 0.08) 100%),
+    linear-gradient(120deg, rgba(148, 163, 184, 0.12), transparent 50%);
+  mix-blend-mode: normal;
+  opacity: 0.65;
 }
 
 .guide-city-map__wash::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(241, 245, 249, 0.08), transparent 40%, rgba(15, 23, 42, 0.12));
+  background: linear-gradient(180deg, rgba(248, 250, 252, 0.12), transparent 40%, rgba(15, 23, 42, 0.06));
   mix-blend-mode: soft-light;
 }
 
 .guide-city-map__grid {
   pointer-events: none;
-  opacity: 0.18;
+  opacity: 0.1;
   background-image:
-    linear-gradient(rgba(15, 23, 42, 0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(15, 23, 42, 0.07) 1px, transparent 1px);
+    linear-gradient(rgba(15, 23, 42, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.06) 1px, transparent 1px);
   background-size: 44px 44px;
   mask-image: radial-gradient(circle at center, black 38%, transparent 90%);
+}
+
+/* Preview themes for /mapa-opcoes (production default = modern-light / no data-map-theme). */
+.guide-city-map[data-map-theme='atual-slate'] {
+  background:
+    radial-gradient(circle at 28% 18%, rgba(125, 211, 252, 0.28), transparent 46%),
+    linear-gradient(160deg, #c9d9ea 0%, #e8eef6 52%, #c5d4e4 100%);
+}
+.guide-city-map[data-map-theme='atual-slate'] .guide-city-map__img {
+  filter: sepia(0.12) saturate(0.22) contrast(1.38) brightness(1.2) hue-rotate(198deg);
+}
+.guide-city-map[data-map-theme='atual-slate'] .guide-city-map__wash {
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.18) 0%, transparent 30%, rgba(15, 23, 42, 0.2) 100%),
+    linear-gradient(120deg, rgba(14, 165, 233, 0.18), transparent 42%, rgba(99, 102, 241, 0.12));
+  mix-blend-mode: color;
+  opacity: 0.55;
+}
+.guide-city-map[data-map-theme='atual-slate'] .guide-city-map__grid {
+  opacity: 0.18;
+}
+
+.guide-city-map[data-map-theme='modern-light'] {
+  background: linear-gradient(160deg, #eef2f6 0%, #f7f9fb 100%);
+}
+.guide-city-map[data-map-theme='modern-light'] .guide-city-map__img {
+  filter: contrast(1.08) brightness(1.03);
+  transform: scale(1.02);
+}
+.guide-city-map[data-map-theme='modern-light'] .guide-city-map__wash {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.28) 0%, transparent 35%, rgba(15, 23, 42, 0.08) 100%),
+    linear-gradient(120deg, rgba(148, 163, 184, 0.12), transparent 50%);
+  mix-blend-mode: normal;
+  opacity: 0.65;
+}
+.guide-city-map[data-map-theme='modern-light'] .guide-city-map__grid {
+  opacity: 0.1;
+}
+
+.guide-city-map[data-map-theme='dark-slate'] {
+  background: linear-gradient(160deg, #0f172a 0%, #1e293b 100%);
+  border-color: rgba(15, 23, 42, 0.5);
+}
+.guide-city-map[data-map-theme='dark-slate'] .guide-city-map__img {
+  filter: saturate(0.7) contrast(1.15) brightness(0.95);
+  transform: scale(1.01);
+}
+.guide-city-map[data-map-theme='dark-slate'] .guide-city-map__wash {
+  background:
+    linear-gradient(180deg, rgba(2, 6, 23, 0.35) 0%, transparent 40%, rgba(2, 6, 23, 0.45) 100%),
+    linear-gradient(120deg, rgba(56, 189, 248, 0.12), transparent 45%, rgba(99, 102, 241, 0.1));
+  mix-blend-mode: soft-light;
+  opacity: 0.85;
+}
+.guide-city-map[data-map-theme='dark-slate'] .guide-city-map__grid {
+  opacity: 0.12;
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.12) 1px, transparent 1px);
+}
+
+.guide-city-map[data-map-theme='soft-pastel'] {
+  background: linear-gradient(160deg, #fce7f3 0%, #ede9fe 50%, #e0f2fe 100%);
+}
+.guide-city-map[data-map-theme='soft-pastel'] .guide-city-map__img {
+  filter: saturate(0.85) contrast(0.95) brightness(1.08);
+  transform: scale(1.02);
+}
+.guide-city-map[data-map-theme='soft-pastel'] .guide-city-map__wash {
+  background:
+    linear-gradient(180deg, rgba(251, 207, 232, 0.25) 0%, transparent 40%, rgba(196, 181, 253, 0.2) 100%),
+    linear-gradient(120deg, rgba(253, 224, 71, 0.08), transparent 50%);
+  mix-blend-mode: soft-light;
+  opacity: 0.75;
+}
+
+.guide-city-map[data-map-theme='high-contrast'] {
+  background: #e2e8f0;
+}
+.guide-city-map[data-map-theme='high-contrast'] .guide-city-map__img {
+  filter: contrast(1.12) saturate(0.9) brightness(1.02);
+  transform: none;
+}
+.guide-city-map[data-map-theme='high-contrast'] .guide-city-map__wash {
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.06) 0%, transparent 30%, rgba(15, 23, 42, 0.1) 100%);
+  mix-blend-mode: normal;
+  opacity: 0.55;
+}
+.guide-city-map[data-map-theme='high-contrast'] .guide-city-map__grid {
+  opacity: 0.08;
+}
+
+.guide-city-map[data-map-theme='satellite-lite'] {
+  background: #1e293b;
+}
+.guide-city-map[data-map-theme='satellite-lite'] .guide-city-map__img {
+  filter: saturate(0.9) contrast(1.05) brightness(1.05);
+  transform: scale(1.01);
+}
+.guide-city-map[data-map-theme='satellite-lite'] .guide-city-map__wash {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, transparent 35%, rgba(15, 23, 42, 0.25) 100%),
+    linear-gradient(120deg, rgba(255, 255, 255, 0.1), transparent 50%);
+  mix-blend-mode: soft-light;
+  opacity: 0.9;
+}
+.guide-city-map[data-map-theme='satellite-lite'] .guide-city-map__grid {
+  opacity: 0.06;
 }
 
 @keyframes softScale {
