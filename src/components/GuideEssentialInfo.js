@@ -125,7 +125,7 @@ export default function GuideEssentialInfo({ guide, frames: framesProp }) {
                       className={`h-5 w-5 transition-transform duration-300 ${open ? 'rotate-90' : ''}`}
                     />
                     <span className="sr-only">
-                      {open ? 'Recolher' : 'Expandir'} {card.title}
+                      {open ? 'Mostrar menos' : 'Expandir'} {card.title}
                     </span>
                   </button>
                 ) : (

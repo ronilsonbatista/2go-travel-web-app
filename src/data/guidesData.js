@@ -25,6 +25,11 @@ export const destinationGuides = {
     whyVisit: 'Paris oferece uma densidade cultural incomparável: em poucas quadras você caminha dos jardins reais dos Tuileries até os bistrôs históricos de Saint-Germain, admirando a arquitetura haussmanniana e acervos artísticos da humanidade no Louvre e Musée d\'Orsay.',
     whenToGo: 'A primavera (abril a junho) e o outono (setembro a novembro) são as épocas ideais, apresentando temperaturas amenas entre 12°C e 22°C e belos cenários floridos ou avermelhados nos parques. O verão (julho/agosto) é bastante movimentado e quente, enquanto o inverno (dezembro a fevereiro) é frio e cinzento, porém perfeito para museus e preços mais baixos.',
     idealDays: '5 a 7 dias é o período recomendado para cobrir os principais monumentos sem correria e realizar ao menos um bate-volta a Versalhes.',
+    chipFacts: {
+      season: 'Primavera e outono',
+      days: '5 a 7 dias',
+      transport: 'Metrô RATP com Navigo Easy'
+    },
     howToGet: 'A maioria dos voos internacionais chega pelo Aeroporto Charles de Gaulle (CDG) ou Orly (ORY). O trem RER B conecta o aeroporto CDG ao centro de Paris (estações Gare du Nord, Châtelet e Saint-Michel) em 35 minutos. O táxi oficial possui tarifa fixa tabelada para o centro de Paris (€ 56 a € 65).',
     documentation: 'Brasileiros não precisam de visto prévio para viagens a turismo de até 90 dias no Espaço Schengen. Requisitos obrigatórios na imigração: passaporte válido por no mínimo 3 meses após a saída planejada, seguro viagem com cobertura de ao menos € 30.000, comprovantes de hospedagem e recursos financeiros (€ 65 a € 120 por dia).',
     insurance: 'O seguro viagem com cobertura de despesas médicas de no mínimo € 30.000 é item obrigatório exigido pelas autoridades do Espaço Schengen. Deve ser contratado antes do embarque.',
@@ -40,7 +45,7 @@ export const destinationGuides = {
       { name: 'Quartier Latin (5º arrondissement)', pros: 'Atmosfera universitária jovem, livrarias históricas e opções acessíveis de refeição.', cons: 'Algumas ruas perto do Boulevard Saint-Michel podem ser barulhentas.' }
     ],
 
-    transportDetails: 'O metrô de Paris (RATP) conta com 16 linhas que cobrem cada canto da cidade. O cartão recarregável Navigo Easy ou o passe semanal Navigo Découverte (que requer foto 3x4) são muito mais econômicos do que comprar passagens individuais em papel. Os táxis oficiais e aplicativos como Uber funcionam bem, porém o trânsito no centro pode ser lento nos horários de pico.',
+    transportDetails: 'Metrô RATP com Navigo Easy ou Navigo Découverte. O metrô de Paris conta com 16 linhas que cobrem cada canto da cidade; o cartão recarregável Navigo Easy ou o passe semanal Navigo Découverte (que requer foto 3x4) são bem mais econômicos do que bilhetes avulsos em papel. Táxis oficiais e apps como Uber funcionam bem, porém o trânsito no centro pode ser lento nos horários de pico.',
 
     attractions: [
       {
@@ -193,25 +198,30 @@ export const destinationGuides = {
     ],
     summaryText: 'Nova York é a capital cultural dos Estados Unidos. Planejar exige vistos em dia, entender a divisão de Manhattan e usar o sistema de transporte OMNY.',
     intro: 'Nova York é uma metrópole vibrante, famosa por seus arranha-céus icônicos, espetáculos da Broadway e bairros cheios de personalidade. Uma viagem inesquecível para a Big Apple exige um bom planejamento de deslocamento e orçamento.',
-    whyVisit: 'Diversidade cultural sem igual, gastronomia do mundo todo, museus globais (como MoMA e Met) e parques lendários como o Central Park.',
+    whyVisit: 'Diversidade cultural sem igual, gastronomia do mundo todo, museus globais (como MoMA e Met) e parques lendários como o Central Park. A cidade recompensa quem combina ícones de Midtown com caminhadas no Brooklyn e no Lower Manhattan.',
     whenToGo: 'Outono (setembro a novembro) e Primavera (abril a junho) oferecem clima ideal. O inverno é mágico para festas de fim de ano, porém muito frio.',
     idealDays: '6 a 8 dias para vivenciar o essencial de Manhattan e dar uma escapada ao Brooklyn.',
+    chipFacts: {
+      season: 'Outono e primavera',
+      days: '6 a 8 dias',
+      transport: 'Metrô 24h com OMNY'
+    },
     howToGet: 'Voos chegam aos aeroportos JFK, Newark (EWR) ou LaGuardia (LGA). Do JFK, o AirTrain conecta ao metrô na estação Jamaica por cerca de $ 11,25.',
     documentation: 'Exige visto americano de turismo (B1/B2) válido ou autorização ESTA para quem tem passaporte de país elegível.',
-    insurance: 'Recomendadíssimo contratá-lo. Os custos de atendimento médico nos EUA estão entre os mais altos do planeta.',
+    insurance: 'Altamente recomendado. Os custos de atendimento médico nos EUA estão entre os mais altos do planeta.',
     internet: 'Recomendamos adquirir um eSIM internacional antes do embarque para ter internet ilimitada logo ao pousar.',
-    currencyInfo: 'Dólar Americano ($). Cartões de débito internacionais (Nomad, Wise) são amplamente aceitos.',
-    languageInfo: 'Inglês. O espanhol é vastamente falado por grande parte dos trabalhadores da cidade.',
+    currencyInfo: 'Dólar Americano ($). Cartões de débito internacionais (Nomad, Wise) são amplamente aceitos; quase tudo funciona por aproximação.',
+    languageInfo: 'Inglês é o idioma principal. O espanhol é amplamente falado por grande parte dos trabalhadores da cidade.',
     
     neighborhoods: [
       { name: 'Midtown Manhattan', pros: 'Perto da Times Square, Broadway e principais atrações.', cons: 'Movimentado e barulhento.' },
       { name: 'Lower Manhattan / Financial District', pros: 'Tranquilo à noite, perto do Memorial do 11 de Setembro.', cons: 'Comércio fecha mais cedo.' },
-      { name: 'Chelsea & Meatpacking District', pros: 'Bairro descolado, perto do High Line e Chelsea Market.', cons: 'Hotéis mais caros.' },
+      { name: 'Chelsea & Meatpacking District', pros: 'Bairro descolado, perto do High Line e Chelsea Market.', cons: 'Hospedagem em geral mais cara.' },
       { name: 'Upper West Side', pros: 'Residencial, arborizado, perto do Central Park.', cons: 'Menos vida noturna agitada.' },
       { name: 'Williamsburg (Brooklyn)', pros: 'Atmosfera hipster, cafés excelentes e vistas de Manhattan.', cons: 'Exige deslocamento de metrô.' }
     ],
 
-    transportDetails: 'O metrô de Nova York funciona 24 horas por dia. O sistema OMNY permite pagar aproximando cartão de débito ou celular diretamente na catraca, com limite semanal automático de $ 34,00.',
+    transportDetails: 'Metrô 24h com pagamento OMNY. O metrô de Nova York funciona o dia inteiro; o sistema OMNY permite pagar aproximando cartão de débito ou celular na catraca, com limite semanal automático de $ 34,00.',
 
     attractions: [
       {
@@ -265,7 +275,7 @@ export const destinationGuides = {
       { q: 'Precisa de visto para Nova York?', a: 'Sim, o visto americano B1/B2 ou ESTA é obrigatório.' },
       { q: 'Qual a melhor época para ir?', a: 'Maio a Junho e Setembro a Outubro oferecem clima agradável.' },
       { q: 'Quantos dias são ideais?', a: 'Recomendamos de 6 a 8 dias.' },
-      { q: 'Como pagar o metrô?', a: 'Aproxime seu cartão de débito aproximação ou celular no leitor OMNY.' },
+      { q: 'Como pagar o metrô?', a: 'Aproxime seu cartão de débito por aproximação ou celular no leitor OMNY.' },
       { q: 'Gorjeta é obrigatória?', a: 'Sim, é culturalmente esperada de 18% a 20% em restaurantes.' },
       { q: 'O seguro viagem é obrigatório?', a: 'Não é exigência legal, mas é altamente recomendado pelos custos médicos dos EUA.' },
       { q: 'Como ir do aeroporto JFK?', a: 'O AirTrain conecta ao metrô em Jamaica Station.' },
@@ -301,24 +311,29 @@ export const destinationGuides = {
     ],
     summaryText: 'Tóquio mescla tradição milenar e tecnologia de ponta com um sistema de transporte impecável.',
     intro: 'Tóquio é uma metrópole surpreendente pela organização, segurança absoluta e riqueza gastronômica. Viajar para o Japão ficou ainda mais fácil com a isenção de visto para brasileiros.',
-    whyVisit: 'Gastronomia excepcional, templos históricos preservationistas e cultura pop única no mundo.',
+    whyVisit: 'Gastronomia excepcional, templos históricos preservados e cultura pop única no mundo. Em poucos dias você mescla Shibuya, templos de Asakusa e mirantes da Tokyo Tower.',
     whenToGo: 'Primavera (março a maio, época das cerejeiras) e Outono (setembro a novembro) são perfeitos.',
     idealDays: '6 a 7 dias para explorar os diversos distritos urbanos.',
+    chipFacts: {
+      season: 'Primavera e outono',
+      days: '6 a 7 dias',
+      transport: 'Metrô e JR com Suica/Pasmo'
+    },
     howToGet: 'Voos chegam pelos aeroportos de Narita (NRT) ou Haneda (HND). Haneda fica bem mais perto do centro.',
     documentation: 'Brasileiros com passaporte comum estão isentos de visto para estadias de até 90 dias.',
-    insurance: 'Recomendado contratar seguro viagem internacional.',
-    internet: 'Alugue um Pocket Wi-Fi no aeroporto ou compre um eSIM.',
+    insurance: 'Recomendado contratar seguro viagem internacional com cobertura médica e extravio de bagagem.',
+    internet: 'Alugue um Pocket Wi-Fi no aeroporto ou ative um eSIM antes do embarque para ter dados na chegada.',
     currencyInfo: 'Iene (¥). Embora os cartões sejam bem aceitos, dinheiro em espécie ainda é usado em pequenos estabelecimentos.',
-    languageInfo: 'Japonês. O Google Tradutor e sinalizações em inglês ajudam bastante.',
+    languageInfo: 'Japonês. O Google Tradutor e sinalizações em inglês ajudam bastante no metrô e em áreas turísticas.',
 
     neighborhoods: [
       { name: 'Shinjuku', pros: 'Vida noturna vibrante, conexão de trens imbatível.', cons: 'Estação imensa e movimentada.' },
       { name: 'Shibuya', pros: 'Jovem, moderno, perto do famoso cruzamento.', cons: 'Preços de diárias mais altos.' },
-      { name: 'Ginza', pros: 'Bairro elegante, lojas de luxo, tranquilo.', cons: 'Opções gastronômicas sofisticadas e caradas.' },
-      { name: 'Asakusa', pros: 'Tradiconal, perto do templo Senso-ji, mais em conta.', cons: 'Mais distante da zona oeste.' }
+      { name: 'Ginza', pros: 'Bairro elegante, lojas de luxo, tranquilo.', cons: 'Opções gastronômicas sofisticadas e caras.' },
+      { name: 'Asakusa', pros: 'Tradicional, perto do templo Senso-ji, mais em conta.', cons: 'Mais distante da zona oeste.' }
     ],
 
-    transportDetails: 'O metrô e as linhas da JR (incluindo a Yamanote Line) cobrem toda a cidade. Adicione o cartão IC Suica ou Pasmo na sua Apple Wallet para pagar aproximação.',
+    transportDetails: 'Metrô e JR com Suica ou Pasmo. O metrô e as linhas da JR (incluindo a Yamanote Line) cobrem toda a cidade; adicione o cartão IC Suica ou Pasmo na Apple Wallet para pagar por aproximação.',
 
     attractions: [
       {
@@ -394,15 +409,20 @@ export const destinationGuides = {
     ],
     summaryText: 'Londres combina realeza, museus de classe mundial e parques imensos com transporte excelente.',
     intro: 'Londres é uma metrópole multicultural com história em cada esquina. A cidade oferece uma vasta gama de museus públicos com entrada gratuita.',
-    whyVisit: 'Museus gratuitos incríveis (British Museum, Natural History), teatros do West End e parques reais.',
-    whenToGo: 'De maio a setembro o clima é mais ameno e os dias são longos.',
-    idealDays: '5 a 7 dias.',
+    whyVisit: 'Museus gratuitos incríveis (British Museum, Natural History), teatros do West End e parques reais. Em poucos dias você combina Westminster, South Bank e um bate-volta clássico.',
+    whenToGo: 'De maio a setembro o clima é mais ameno e os dias são longos. No inverno, museus e teatros compensam os dias mais curtos.',
+    idealDays: '5 a 7 dias para cobrir Westminster, museus e um bate-volta.',
+    chipFacts: {
+      season: 'Maio a setembro',
+      days: '5 a 7 dias',
+      transport: 'Tube e ônibus contactless'
+    },
     howToGet: 'Aeroportos de Heathrow (LHR) e Gatwick (LGW). A linha de metrô Elizabeth Line conecta Heathrow ao centro rapidamente.',
     documentation: 'Exige a autorização prévia de viagem ETA (Electronic Travel Authorization) para brasileiros.',
-    insurance: 'Altamente recomendado.',
-    internet: 'eSIM ou chip local da Three / EE.',
-    currencyInfo: 'Libra Esterlina (£). O uso de cartão por aproximação é universal.',
-    languageInfo: 'Inglês.',
+    insurance: 'Altamente recomendado: atendimento privado para turistas pode sair caro fora do NHS.',
+    internet: 'Ative um eSIM antes de sair do aeroporto ou compre chip local da Three / EE na chegada.',
+    currencyInfo: 'Libra Esterlina (£). O uso de cartão por aproximação é universal; dinheiro vivo quase não é necessário.',
+    languageInfo: 'Inglês é o idioma oficial; sinalização e atendimento turístico são claros em toda a cidade.',
 
     neighborhoods: [
       { name: 'Covent Garden & Soho', pros: 'Coração cultural, restaurantes e teatros a pé.', cons: 'Hospedagem cara.' },
@@ -410,7 +430,7 @@ export const destinationGuides = {
       { name: 'Southwark & Bankside', pros: 'Perto da Tower Bridge e Borough Market.', cons: 'Menos residencial.' }
     ],
 
-    transportDetails: 'O Underground (Tube) e os ônibus usam cartão de débito aproximação diretamente nas catracas com limite de tarifa diária (Daily Cap).',
+    transportDetails: 'Tube e ônibus com contactless e Daily Cap. O Underground e os ônibus usam cartão de débito por aproximação nas catracas, com limite de tarifa diária (Daily Cap).',
 
     attractions: [
       {
@@ -451,7 +471,7 @@ export const destinationGuides = {
       { q: 'Qual a moeda de Londres?', a: 'Libra Esterlina (£).' },
       { q: 'Quantos dias ficar?', a: 'Entre 5 e 7 dias.' },
       { q: 'Os museus são gratuitos?', a: 'Sim! Museus como o British Museum e Natural History Museum têm entrada gratuita.' },
-      { q: 'Como pagar o metrô?', a: 'Basta encostar seu cartão de débito aproximação na catraca.' },
+      { q: 'Como pagar o metrô?', a: 'Basta encostar seu cartão de débito por aproximação na catraca.' },
       { q: 'O que é o Daily Cap?', a: 'É o valor máximo cobrado no dia no metrô. Após atingi-lo, as demais viagens saem de graça.' },
       { q: 'Londres chove muito?', a: 'Chove com frequência mas em forma de garoa fina. Leve um guardas-chuva.' },
       { q: 'Onde se hospedar?', a: 'Covent Garden e Kensington são ótimas regiões.' },
@@ -486,15 +506,20 @@ export const destinationGuides = {
     ],
     summaryText: 'Roma é um museu a céu aberto com milênios de história, fontes barrocas e gastronomia inigualável.',
     intro: 'Roma encanta por preservar ruínas romanas ao lado de praças barrocas animadas e trattorias acolhedoras.',
-    whyVisit: 'Coliseu, Vaticano, Fontana di Trevi e as autênticas massas romanas (Carbonara, Cacio e Pepe).',
-    whenToGo: 'Abril a Maio e Setembro a Outubro.',
-    idealDays: '4 a 5 dias.',
+    whyVisit: 'Coliseu, Vaticano, Fontana di Trevi e as autênticas massas romanas (Carbonara, Cacio e Pepe). Reserve ingressos com hora marcada para evitar filas longas nos ícones principais.',
+    whenToGo: 'Abril a maio e setembro a outubro oferecem clima ameno e menos calor extremo do que o verão romano.',
+    idealDays: '4 a 5 dias para Coliseu, Vaticano e centro histórico sem correria.',
+    chipFacts: {
+      season: 'Abril–maio e set–out',
+      days: '4 a 5 dias',
+      transport: 'A pé no centro + metrô A/B'
+    },
     howToGet: 'Aeroporto Fiumicino (FCO). O trem Leonardo Express leva 32 minutos até a estação Roma Termini.',
     documentation: 'Sem visto prévio para até 90 dias no Espaço Schengen. Seguro viagem com € 30.000 de cobertura é obrigatório.',
-    insurance: 'Obrigatório.',
-    internet: 'eSIM ou SIM card italiano (TIM/Vodafone).',
-    currencyInfo: 'Euro (€).',
-    languageInfo: 'Italiano.',
+    insurance: 'Obrigatório no Espaço Schengen: cobertura médica mínima de € 30.000, contratada antes do embarque.',
+    internet: 'Ative um eSIM antes de pousar ou compre SIM card italiano (TIM/Vodafone) na chegada.',
+    currencyInfo: 'Euro (€). Cartões são amplamente aceitos; mantenha um pouco de dinheiro para cafés e gelaterias menores.',
+    languageInfo: 'Italiano; inglês em zonas turísticas. Um “Buongiorno” ajuda no atendimento.',
 
     neighborhoods: [
       { name: 'Centro Storico', pros: 'Perto da Piazza Navona e Pantheon.', cons: 'Tarifas elevadas.' },
@@ -502,7 +527,7 @@ export const destinationGuides = {
       { name: 'Monti', pros: 'Coladinho no Coliseu, charmoso e jovem.', cons: 'Ladeiras e paralelepípedos.' }
     ],
 
-    transportDetails: 'Roma é ideal para ser explorada a pé. O metrô possui duas linhas principais (A e B) que se cruzam na estação Termini.',
+    transportDetails: 'A pé no centro + metrô A/B. Roma é ideal para ser explorada caminhando; o metrô possui duas linhas principais (A e B) que se cruzam na estação Termini.',
 
     attractions: [
       {
@@ -578,15 +603,20 @@ export const destinationGuides = {
     ],
     summaryText: 'Istambul é a única metrópole do mundo situada entre dois continentes (Europa e Ásia).',
     intro: 'Istambul fascina pela fusão da arquitetura otomana e bizantina com uma cena cultural vibrante.',
-    whyVisit: 'Hagia Sophia, Mesquita Azul, passeio de balsa pelo Bósforo e os aromas do Grande Bazar.',
-    whenToGo: 'Primavera (abril-maio) e Outono (setembro-outubro).',
-    idealDays: '4 a 5 dias.',
+    whyVisit: 'Hagia Sophia, Mesquita Azul, passeio de balsa pelo Bósforo e os aromas do Grande Bazar. A cidade recompensa quem cruza Europa e Ásia no mesmo dia.',
+    whenToGo: 'Primavera (abril-maio) e outono (setembro-outubro) trazem temperaturas agradáveis e menos umidade.',
+    idealDays: '4 a 5 dias para Sultanahmet, Bósforo e um dia no lado asiático.',
+    chipFacts: {
+      season: 'Primavera e outono',
+      days: '4 a 5 dias',
+      transport: 'Istanbulkart em metrô e balsas'
+    },
     howToGet: 'Novo Aeroporto de Istambul (IST) ou Sabiha Gökçen (SAW). O ônibus Havaist conecta ao centro.',
     documentation: 'Brasileiros não precisam de visto para viagens a turismo de até 90 dias.',
-    insurance: 'Recomendado.',
-    internet: 'eSIM ou SIM card da Turkcell.',
-    currencyInfo: 'Lira Turca (₺).',
-    languageInfo: 'Turco. O inglês é bem aceito em zonas turísticas.',
+    insurance: 'Recomendado contratar seguro viagem internacional com cobertura médica e extravio.',
+    internet: 'Ative um eSIM antes de pousar ou compre SIM card da Turkcell na chegada.',
+    currencyInfo: 'Lira Turca (₺). Cartões funcionam bem; leve um pouco de dinheiro para bazares e chá nas ruas.',
+    languageInfo: 'Turco. O inglês é bem aceito em zonas turísticas e hotéis.',
 
     neighborhoods: [
       { name: 'Sultanahmet', pros: 'Perto da Hagia Sophia e Mesquita Azul.', cons: 'Turístico e quieto à noite.' },
@@ -594,7 +624,7 @@ export const destinationGuides = {
       { name: 'Kadıköy (Lado Asiático)', pros: 'Autêntico, gastronômico e mais barato.', cons: 'Exige travessia de balsa.' }
     ],
 
-    transportDetails: 'O cartão Istanbulkart permite usar bondes elétricos (T1), metrôs e balsas entre os continentes.',
+    transportDetails: 'Istanbulkart em metrô, bonde T1 e balsas. O cartão permite usar bondes elétricos, metrôs e balsas entre os continentes com uma única recarga.',
 
     attractions: [
       {
@@ -670,14 +700,19 @@ export const destinationGuides = {
     ],
     summaryText: 'Dubai é o centro mundial da arquitetura futurista, compras de luxo e atrações audaciosas.',
     intro: 'Dubai impressiona com seus arranha-céus arrojados, ilhas artificiais e infraestrutura impecável no deserto.',
-    whyVisit: 'Burj Khalifa (o prédio mais alto do mundo), Dubai Mall, safari nas dunas e praias de água morna.',
+    whyVisit: 'Burj Khalifa (o prédio mais alto do mundo), Dubai Mall, safari nas dunas e praias de água morna. Combine Downtown, Marina e um dia de deserto sem perder o ritmo.',
     whenToGo: 'Novembro a Março (inverno local, com temperaturas ideais de 20°C a 28°C). Evite o verão (junho-agosto) devido ao calor extremo de 45°C.',
-    idealDays: '4 a 6 dias.',
+    idealDays: '4 a 6 dias para Downtown, Marina e um safari.',
+    chipFacts: {
+      season: 'Novembro a março',
+      days: '4 a 6 dias',
+      transport: 'Metrô + Nol Card'
+    },
     howToGet: 'Aeroporto Internacional de Dubai (DXB). O metrô de Dubai conecta os terminais T1 e T3 diretamente a Downtown e Marina.',
     documentation: 'Brasileiros recebem visto gratuito de turismo no desembarque para estadias de até 90 dias.',
     insurance: 'Recomendado contratar seguro viagem internacional.',
     internet: 'eSIM ou SIM card gratuito concedido pela imigração na chegada.',
-    currencyInfo: 'Dirham dos Emirados (AED). Cartões internacionais são aceitos em todo lugar.',
+    currencyInfo: 'Dirham dos Emirados (AED). Cartões internacionais são aceitos em todo lugar; gorjetas em restaurantes ficam em torno de 10%.',
     languageInfo: 'Árabe é o idioma oficial, mas o inglês é a língua falada por 95% da população.',
 
     neighborhoods: [
@@ -686,7 +721,7 @@ export const destinationGuides = {
       { name: 'Deira & Bur Dubai', pros: 'Histórico, mercados de ouro e especiarias, hotéis econômicos.', cons: 'Menos futurista.' }
     ],
 
-    transportDetails: 'O metrô de Dubai é futurista e climatizado. Adquira o cartão Nol Card (Silver) nas estações para pagar a tarifa integrada.',
+    transportDetails: 'Metrô + Nol Card (Silver). O metrô de Dubai é futurista e climatizado; adquira o cartão nas estações para pagar a tarifa integrada.',
 
     attractions: [
       {
