@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useId, useState } from 'react';
-import { ChevronRight, Coins, FileCheck2, Globe, Plane } from 'lucide-react';
+import { Coins, FileCheck2, Globe, Plane } from 'lucide-react';
 import { firstSentences, guideFolderKey, guideFrameList, pickDiverseFrame } from '@/lib/guideInterior';
 
 const CARD_DEFS = [
@@ -99,39 +99,42 @@ export default function GuideEssentialInfo({ guide, frames: framesProp, usedFram
                 card.sectionId ? 'scroll-mt-28' : ''
               }`}
             >
-              <div className="flex min-w-0 flex-1 flex-col p-4 pr-3 md:p-5 md:pr-3">
-                <span className="inline-flex h-9 w-9 items-center justify-center rounded-full border-[1.5px] border-brand-orange text-brand-orange">
-                  <Icon className="h-[17px] w-[17px]" strokeWidth={2.2} aria-hidden />
-                </span>
-                <h3 className="font-headers mt-3 text-[15px] font-extrabold leading-snug text-brand-navy">
-                  {card.title}
-                </h3>
-                <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-text-muted">
-                  {open ? card.full : card.summary}
-                </p>
-                {expandable ? (
-                  <button
-                    type="button"
-                    aria-expanded={open}
-                    aria-controls={panelId}
-                    onClick={() => setOpenId(open ? null : card.id)}
-                    className="mt-3 inline-flex min-h-11 w-fit items-center text-brand-orange focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange/40"
-                  >
-                    <ChevronRight
-                      className={`h-5 w-5 transition-transform duration-300 ${open ? 'rotate-90' : ''}`}
-                    />
-                    <span className="sr-only">
-                      {open ? 'Mostrar menos' : 'Expandir'} {card.title}
-                    </span>
-                  </button>
-                ) : (
-                  <span className="mt-3 inline-flex text-brand-orange" aria-hidden>
-                    <ChevronRight className="h-5 w-5" />
+              {expandable ? (
+                <button
+                  type="button"
+                  aria-expanded={open}
+                  aria-controls={panelId}
+                  onClick={() => setOpenId(open ? null : card.id)}
+                  className="flex min-w-0 flex-1 flex-col p-4 pr-3 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-orange/40 md:p-5 md:pr-3"
+                >
+                  <span className="inline-flex h-9 w-9 items-center justify-center rounded-full border-[1.5px] border-brand-orange text-brand-orange">
+                    <Icon className="h-[17px] w-[17px]" strokeWidth={2.2} aria-hidden />
                   </span>
-                )}
-                <div id={panelId} hidden={!open} className="sr-only">
-                  {card.full}
+                  <h3 className="font-headers mt-3 text-[15px] font-extrabold leading-snug text-brand-navy">
+                    {card.title}
+                  </h3>
+                  <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-text-muted">
+                    {open ? card.full : card.summary}
+                  </p>
+                  <span className="sr-only">
+                    {open ? 'Mostrar menos' : 'Expandir'} {card.title}
+                  </span>
+                </button>
+              ) : (
+                <div className="flex min-w-0 flex-1 flex-col p-4 pr-3 md:p-5 md:pr-3">
+                  <span className="inline-flex h-9 w-9 items-center justify-center rounded-full border-[1.5px] border-brand-orange text-brand-orange">
+                    <Icon className="h-[17px] w-[17px]" strokeWidth={2.2} aria-hidden />
+                  </span>
+                  <h3 className="font-headers mt-3 text-[15px] font-extrabold leading-snug text-brand-navy">
+                    {card.title}
+                  </h3>
+                  <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-text-muted">
+                    {card.summary}
+                  </p>
                 </div>
+              )}
+              <div id={panelId} hidden={!open} className="sr-only">
+                {card.full}
               </div>
               <div className="guide-essential-photo-wrap relative w-[38%] max-w-[120px] shrink-0 self-stretch">
                 {card.image ? (

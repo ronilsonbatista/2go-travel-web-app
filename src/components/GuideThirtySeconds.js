@@ -34,18 +34,26 @@ const TABS = [
 ];
 
 const MIN_PIN_GAP = 14;
+/** Must match `--guide-map-zoom` in globals.css — optical zoom enlarges baked map labels. */
+const MAP_LABEL_ZOOM = 1.48;
 
 function parsePercent(value, fallback) {
   const n = parseFloat(String(value ?? '').replace('%', ''));
   return Number.isFinite(n) ? n : fallback;
 }
 
+/** Keep pins locked to map features after CSS center-zoom on the PNG. */
+function zoomPinPercent(value, fallback) {
+  const raw = parsePercent(value, fallback);
+  return 50 + (raw - 50) * MAP_LABEL_ZOOM;
+}
+
 /** Nudge overlapping pins apart so labels/markers stay readable. */
 function declutterPins(pins) {
   const placed = pins.map((pin, index) => ({
     ...pin,
-    _top: parsePercent(pin.pin?.top, 40 + index * 8),
-    _left: parsePercent(pin.pin?.left, 40 + index * 8)
+    _top: zoomPinPercent(pin.pin?.top, 40 + index * 8),
+    _left: zoomPinPercent(pin.pin?.left, 40 + index * 8)
   }));
 
   for (let pass = 0; pass < 4; pass += 1) {
@@ -60,10 +68,10 @@ function declutterPins(pins) {
         const push = (MIN_PIN_GAP - dist) / 2;
         const ux = dx / dist;
         const uy = dy / dist;
-        a._left = Math.min(88, Math.max(12, a._left - ux * push));
-        a._top = Math.min(88, Math.max(12, a._top - uy * push));
-        b._left = Math.min(88, Math.max(12, b._left + ux * push));
-        b._top = Math.min(88, Math.max(12, b._top + uy * push));
+        a._left = Math.min(92, Math.max(8, a._left - ux * push));
+        a._top = Math.min(92, Math.max(8, a._top - uy * push));
+        b._left = Math.min(92, Math.max(8, b._left + ux * push));
+        b._top = Math.min(92, Math.max(8, b._top + uy * push));
       }
     }
   }
@@ -78,7 +86,7 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
   const laidOut = useMemo(() => declutterPins(pins), [pins]);
 
   return (
-    <div className="guide-city-map relative h-full min-h-[380px] w-full overflow-hidden rounded-[22px] border border-slate-200/80 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)] sm:min-h-[440px] lg:min-h-[520px]">
+    <div className="guide-city-map relative h-full min-h-[300px] w-full overflow-hidden rounded-[22px] border border-slate-200/80 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)]">
       <img
         src={mapSrc}
         alt=""
@@ -86,7 +94,7 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
       />
       <div className="guide-city-map__wash absolute inset-0" />
       <div className="guide-city-map__grid absolute inset-0" />
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 via-transparent to-slate-900/10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/15 via-transparent to-slate-900/8" />
 
       {laidOut.map((pin) => {
         const active = pin.id === activeId;
@@ -242,30 +250,30 @@ export default function GuideThirtySeconds({ guide }) {
         </div>
       </div>
 
-      <div className="mt-5 grid grid-cols-2 gap-2.5 sm:grid-cols-4 sm:gap-3">
-        {data.facts.map((fact) => {
-          const Icon = FACT_ICONS[fact.tone] || MapPinned;
-          return (
-            <div
-              key={fact.label}
-              className="rounded-[18px] border border-border-gray/70 bg-[#FAFBFC] px-3 py-3 text-left transition-transform duration-300 hover:-translate-y-0.5 sm:px-3.5 sm:py-3.5"
-            >
-              <span
-                className={`mb-2 inline-flex h-9 w-9 items-center justify-center rounded-xl ${FACT_TONE[fact.tone]}`}
+      <div className="mt-6 grid grid-cols-1 gap-5 lg:grid-cols-12 lg:gap-6">
+        <div className="grid grid-cols-2 gap-3 lg:col-span-3">
+          {data.facts.map((fact) => {
+            const Icon = FACT_ICONS[fact.tone] || MapPinned;
+            return (
+              <div
+                key={fact.label}
+                className="rounded-[20px] border border-border-gray/70 bg-[#FAFBFC] p-3.5 text-left transition-transform duration-300 hover:-translate-y-0.5"
               >
-                <Icon className="h-4 w-4" strokeWidth={2.25} />
-              </span>
-              <p className="font-headers text-[13px] font-extrabold leading-tight text-brand-navy sm:text-sm">
-                {fact.value}
-              </p>
-              <p className="mt-1 text-[10px] leading-snug text-text-muted sm:text-[11px]">{fact.label}</p>
-            </div>
-          );
-        })}
-      </div>
+                <span
+                  className={`mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl ${FACT_TONE[fact.tone]}`}
+                >
+                  <Icon className="h-5 w-5" strokeWidth={2.25} />
+                </span>
+                <p className="font-headers text-sm font-extrabold leading-tight text-brand-navy sm:text-[15px]">
+                  {fact.value}
+                </p>
+                <p className="mt-1 text-[11px] leading-snug text-text-muted">{fact.label}</p>
+              </div>
+            );
+          })}
+        </div>
 
-      <div className="mt-5 grid grid-cols-1 gap-5 lg:grid-cols-12 lg:gap-5">
-        <div className="lg:col-span-8 xl:col-span-9">
+        <div className="lg:col-span-6">
           <CityMapCanvas
             mapSrc={mapSrc}
             pins={pins}
@@ -275,7 +283,7 @@ export default function GuideThirtySeconds({ guide }) {
           />
         </div>
 
-        <aside className="text-left lg:col-span-4 xl:col-span-3">
+        <aside className="text-left lg:col-span-3">
           <div className="mb-3 flex items-center gap-2">
             {tab === 'hotels' ? (
               <Hotel className="h-4 w-4 text-brand-orange" />
