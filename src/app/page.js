@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { CalendarDays, Clock3, Compass, MapPinned, Navigation, Sliders, ArrowRight } from 'lucide-react';
+import { Compass, Sliders, Navigation, ArrowRight } from 'lucide-react';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -515,53 +515,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </ScrollReveal>
-        </section>
-
-        {/* Dark band — Seu roteiro na prática (alto contraste) */}
-        <section
-          id="seu-roteiro-na-pratica"
-          className="bg-[#0B1220] border-b border-white/5 scroll-mt-20"
-          aria-labelledby="seu-roteiro-na-pratica-title"
-        >
-          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full py-14 sm:py-16 lg:py-20">
-            <div className="max-w-3xl text-left">
-              <p className="text-[11px] sm:text-[12px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">
-                Seu roteiro na prática
-              </p>
-              <h2
-                id="seu-roteiro-na-pratica-title"
-                className="font-headers mt-3 text-[clamp(1.6rem,4.2vw,2.75rem)] font-extrabold leading-[1.12] tracking-tight text-white"
-              >
-                Sua próxima viagem, organizada em cada detalhe.
-              </h2>
-              <p className="mt-4 text-sm sm:text-base leading-relaxed text-white/85 max-w-2xl">
-                Veja como seu roteiro personalizado ganha vida no app: atrações organizadas por dia, horários, dicas e mapa para você aproveitar cada destino sem perder tempo planejando.
-              </p>
-            </div>
-
-            <ul className="mt-10 flex flex-col gap-4 sm:mt-12 md:flex-row md:flex-wrap md:items-stretch md:gap-6 lg:gap-10">
-              {[
-                { icon: CalendarDays, label: 'Dias organizados' },
-                { icon: MapPinned, label: 'Mapa e localizações' },
-                { icon: Clock3, label: 'Horários e dicas' }
-              ].map((feature) => {
-                const Icon = feature.icon;
-                return (
-                  <li
-                    key={feature.label}
-                    className="flex min-w-0 items-center gap-3 text-white md:min-w-[12rem] md:flex-1"
-                  >
-                    <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-orange/15 text-brand-orange">
-                      <Icon className="h-5 w-5" strokeWidth={2.25} aria-hidden />
-                    </span>
-                    <span className="font-headers text-sm font-extrabold sm:text-base">
-                      {feature.label}
-                    </span>
-                  </li>
-                );
-              })}
-            </ul>
           </ScrollReveal>
         </section>
 
