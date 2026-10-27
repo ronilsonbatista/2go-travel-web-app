@@ -33,6 +33,7 @@ import {
   itineraryTabsFor,
   neighborhoodImage
 } from '@/lib/guideVisuals';
+import { pickDiverseFrame } from '@/lib/guideInterior';
 
 const LOCAL_FRAMES = {
   paris: [
@@ -43,7 +44,12 @@ const LOCAL_FRAMES = {
     '/images/destinations/paris/paris-notre-dame.jpg',
     '/images/destinations/paris/paris-versailles.jpg',
     '/images/destinations/paris/paris-orsay.jpg',
-    '/images/destinations/paris/paris-marais.jpg'
+    '/images/destinations/paris/paris-marais.jpg',
+    '/images/destinations/paris/paris-opera.jpg',
+    '/images/destinations/paris/paris-latin.jpg',
+    '/images/destinations/paris/paris-montmartre.jpg',
+    '/images/destinations/paris/paris-saint-germain.jpg',
+    '/images/destinations/paris/paris-seine-bridge.jpg'
   ],
   'nova-york': [
     '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg',
@@ -130,6 +136,16 @@ function firstSentence(text) {
   if (!clean) return '';
   const match = clean.match(/^(.+?[.!?])(?:\s|$)/);
   return (match ? match[1] : clean).trim();
+}
+
+/** Keep intro overlay compact — full copy lives in expand / body. */
+function overlayTeaser(text, maxChars = 118) {
+  const sentence = firstSentence(text);
+  if (!sentence) return '';
+  if (sentence.length <= maxChars) return sentence;
+  const cut = sentence.slice(0, maxChars - 1);
+  const neat = cut.replace(/\s+\S*$/, '').trim();
+  return `${neat || cut.trim()}…`;
 }
 
 /** Expand body must not repeat the overlay teaser. */
@@ -238,8 +254,28 @@ export default function GuideArticleClient({ guide }) {
     ];
   }, [guide]);
 
-  const introTeaser = useMemo(() => firstSentence(guide?.whyVisit), [guide?.whyVisit]);
-  const introMore = useMemo(() => introExpandCopy(guide), [guide]);
+  const introTeaser = useMemo(() => overlayTeaser(guide?.whyVisit), [guide?.whyVisit]);
+  const introMore = useMemo(() => {
+    const fullWhy = String(guide?.whyVisit || '').replace(/\s+/g, ' ').trim();
+    const teaser = overlayTeaser(guide?.whyVisit);
+    // Prefer remainder after first sentence; if overlay truncated, fall back to full whyVisit.
+    const fromCopy = introExpandCopy(guide);
+    if (fromCopy) return fromCopy;
+    if (fullWhy && teaser && fullWhy !== teaser) return fullWhy;
+    return '';
+  }, [guide]);
+
+  /** Fresh each render so picks stay stable across sections without stale Set growth. */
+  const interiorUsedFrames = new Set();
+  const introImage =
+    pickDiverseFrame(frames, {
+      hints: ['louvre', 'orsay', 'marais', 'arc', 'opera', 'latin', '2', '3'],
+      used: interiorUsedFrames,
+      fallbackIndex: 1
+    }) ||
+    frames[1] ||
+    frames[0] ||
+    guide?.heroImage;
 
   const itineraryTabs = useMemo(
     () => itineraryTabsFor(guide?.suggestedItinerary || []),
@@ -305,7 +341,7 @@ export default function GuideArticleClient({ guide }) {
             </div>
             <div className="container mx-auto mt-auto w-full max-w-[1440px] px-4 pb-10 text-left text-white sm:px-6 sm:pb-14">
               <p className="text-[11px] font-extrabold tracking-[0.18em] text-white/70 uppercase">Guia de Viagem</p>
-              <h1 className="font-headers mt-3 max-w-5xl text-4xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+              <h1 className="font-headers mt-3 max-w-4xl text-3xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-4xl md:text-5xl lg:text-[3.25rem]">
                 {guide.city}: Guia completo
               </h1>
               <p className="mt-4 max-w-3xl text-sm leading-relaxed text-white/85 sm:text-base">
@@ -355,19 +391,19 @@ export default function GuideArticleClient({ guide }) {
             <section id="introducao" className="scroll-mt-28 text-left">
               <div className="overflow-hidden rounded-[28px] border border-border-gray/80 bg-gradient-to-br from-[#F7F8FA] via-white to-[#FFF7F0]">
                 <div className="grid grid-cols-1 lg:grid-cols-12">
-                  <div className="relative min-h-[220px] lg:col-span-5">
+                  <div className="relative min-h-[200px] overflow-hidden rounded-t-[28px] lg:col-span-5 lg:rounded-none lg:rounded-l-[28px]">
                     <img
-                      src={frames[0] || guide.heroImage}
+                      src={introImage}
                       alt=""
                       className="absolute inset-0 h-full w-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 via-brand-navy/25 to-transparent" />
-                    <div className="absolute bottom-5 left-5 right-5 text-white">
-                      <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">
+                    <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/85 via-brand-navy/30 to-transparent" />
+                    <div className="absolute bottom-4 left-4 right-4 text-white sm:bottom-5 sm:left-5 sm:right-5">
+                      <p className="text-[10px] font-extrabold uppercase tracking-[0.16em] text-brand-orange">
                         Por que {guide.city}
                       </p>
                       {introTeaser ? (
-                        <p className="mt-2 font-headers text-lg font-extrabold leading-snug sm:text-xl">
+                        <p className="mt-1.5 max-w-[36ch] text-[12.5px] font-medium leading-snug text-white/95 sm:text-[13px] sm:leading-snug [display:-webkit-box] [-webkit-line-clamp:3] [-webkit-box-orient:vertical] overflow-hidden">
                           {introTeaser}
                         </p>
                       ) : null}
@@ -377,7 +413,7 @@ export default function GuideArticleClient({ guide }) {
                     <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">
                       Antes de montar o dia a dia
                     </p>
-                    <p className="mt-3 text-base leading-relaxed text-brand-navy/90 sm:text-[17px] sm:leading-7">
+                    <p className="mt-3 text-sm leading-relaxed text-brand-navy/90 sm:text-[15px] sm:leading-7">
                       {guide.intro}
                     </p>
                     {introMore ? (
@@ -433,14 +469,14 @@ export default function GuideArticleClient({ guide }) {
             <section className="grid grid-cols-1 gap-4 md:grid-cols-2 text-left">
               <div id="quando-ir" className="scroll-mt-28 rounded-[24px] border border-border-gray/70 bg-white p-6">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Quando ir</p>
-                <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy">
+                <h2 className="font-headers mt-2 text-xl font-extrabold text-brand-navy sm:text-[1.35rem]">
                   Melhor época em {guide.city}
                 </h2>
                 <p className="mt-3 text-sm leading-relaxed text-text-muted sm:text-base">{guide.whenToGo}</p>
               </div>
               <div id="quantos-dias" className="scroll-mt-28 rounded-[24px] border border-border-gray/70 bg-white p-6">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Duração</p>
-                <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy">
+                <h2 className="font-headers mt-2 text-xl font-extrabold text-brand-navy sm:text-[1.35rem]">
                   Quantos dias ficar
                 </h2>
                 <p className="mt-3 text-sm leading-relaxed text-text-muted sm:text-base">{guide.idealDays}</p>
@@ -453,7 +489,7 @@ export default function GuideArticleClient({ guide }) {
               <div className="mb-5 flex flex-col gap-3 text-left sm:mb-6 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
                 <div className="min-w-0">
                   <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Roteiro</p>
-                  <h2 className="font-headers mt-2 text-3xl font-extrabold text-brand-navy">
+                  <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy sm:text-[1.65rem]">
                     Roteiro sugerido
                   </h2>
                 </div>
@@ -540,7 +576,7 @@ export default function GuideArticleClient({ guide }) {
             <section id="atracoes" className="scroll-mt-28">
               <div className="mb-5 text-left sm:mb-6">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Imperdíveis</p>
-                <h2 className="font-headers mt-2 text-3xl font-extrabold text-brand-navy">
+                <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy sm:text-[1.65rem]">
                   Imperdíveis em {guide.city}
                 </h2>
               </div>
@@ -620,7 +656,7 @@ export default function GuideArticleClient({ guide }) {
           <ScrollReveal className="mt-16" delay={60}>
             <section id="onde-ficar" className="scroll-mt-28 text-left">
               <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Hospedagem</p>
-              <h2 className="font-headers mt-2 text-3xl font-extrabold text-brand-navy">
+              <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy sm:text-[1.65rem]">
                 Onde ficar em {guide.city}
               </h2>
               <div className="mt-6 grid grid-cols-1 gap-4 lg:grid-cols-12">
@@ -705,15 +741,15 @@ export default function GuideArticleClient({ guide }) {
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={60}>
-            <GuideEssentialInfo guide={guide} frames={frames} />
+            <GuideEssentialInfo guide={guide} frames={frames} usedFrames={interiorUsedFrames} />
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={60}>
-            <GuideAverageCosts guide={guide} frames={frames} />
+            <GuideAverageCosts guide={guide} frames={frames} usedFrames={interiorUsedFrames} />
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={60}>
-            <GuideInsightsTrio guide={guide} frames={frames} />
+            <GuideInsightsTrio guide={guide} frames={frames} usedFrames={interiorUsedFrames} />
           </ScrollReveal>
 
           <ScrollReveal className="mt-12" delay={40}>
@@ -760,8 +796,8 @@ export default function GuideArticleClient({ guide }) {
 
           <ScrollReveal className="mt-16" delay={60}>
             <section id="faq" className="text-left">
-              <h2 className="font-headers mb-6 flex items-center gap-2 text-3xl font-extrabold text-brand-navy">
-                <HelpCircle className="h-6 w-6 text-brand-orange" /> Perguntas frequentes
+              <h2 className="font-headers mb-6 flex items-center gap-2 text-2xl font-extrabold text-brand-navy sm:text-[1.65rem]">
+                <HelpCircle className="h-5 w-5 text-brand-orange" /> Perguntas frequentes
               </h2>
               <div className="space-y-3">
                 {guide.faqs.map((faq, idx) => {

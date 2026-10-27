@@ -2,7 +2,7 @@
 
 import React, { useId, useState } from 'react';
 import { ChevronRight, Coins, FileCheck2, Globe, Plane } from 'lucide-react';
-import { firstSentences, guideFolderKey, guideFrameList } from '@/lib/guideInterior';
+import { firstSentences, guideFolderKey, guideFrameList, pickDiverseFrame } from '@/lib/guideInterior';
 
 const CARD_DEFS = [
   {
@@ -10,21 +10,21 @@ const CARD_DEFS = [
     title: 'Moeda & pagamentos',
     Icon: Coins,
     fields: ['currencyInfo'],
-    imageHints: ['opera', 'marais', '1']
+    imageHints: ['opera', 'marais', 'latin', '1']
   },
   {
     id: 'idioma',
     title: 'Idioma',
     Icon: Globe,
     fields: ['languageInfo'],
-    imageHints: ['montmartre', 'latin', '2']
+    imageHints: ['montmartre', 'latin', 'saint', '2']
   },
   {
     id: 'locomocao',
     title: 'Como chegar e se locomover',
     Icon: Plane,
     fields: ['howToGet', 'transportDetails'],
-    imageHints: ['seine', 'bridge', 'arc', '3'],
+    imageHints: ['arc', 'bridge', 'seine', '3'],
     sectionId: 'locomocao'
   },
   {
@@ -32,22 +32,9 @@ const CARD_DEFS = [
     title: 'Documentação & seguro',
     Icon: FileCheck2,
     fields: ['documentation', 'insurance'],
-    imageHints: ['notre', 'orsay', 'saint']
+    imageHints: ['notre', 'orsay', 'opera', 'saint']
   }
 ];
-
-function pickCardImage(guide, frames, hints, fallbackIndex) {
-  const folder = guideFolderKey(guide);
-  const pool = frames.length
-    ? frames
-    : [`/images/destinations/${folder}/${folder}-1.jpg`, guide?.heroImage].filter(Boolean);
-
-  for (const hint of hints) {
-    const hit = pool.find((src) => String(src).toLowerCase().includes(hint));
-    if (hit) return hit;
-  }
-  return pool[fallbackIndex % pool.length] || guide?.heroImage || '';
-}
 
 function cardBody(guide, fields) {
   return fields
@@ -56,12 +43,18 @@ function cardBody(guide, fields) {
     .join(' ');
 }
 
-export default function GuideEssentialInfo({ guide, frames: framesProp }) {
+export default function GuideEssentialInfo({ guide, frames: framesProp, usedFrames }) {
   const baseId = useId();
   const [openId, setOpenId] = useState(null);
   const frames = framesProp?.length ? framesProp : guideFrameList(guide);
+  const used = usedFrames || new Set();
 
   if (!guide) return null;
+
+  const folder = guideFolderKey(guide);
+  const pool = frames.length
+    ? frames
+    : [`/images/destinations/${folder}/${folder}-1.jpg`, guide?.heroImage].filter(Boolean);
 
   const cards = CARD_DEFS.map((def, idx) => {
     const full = cardBody(guide, def.fields);
@@ -70,7 +63,11 @@ export default function GuideEssentialInfo({ guide, frames: framesProp }) {
       ...def,
       full,
       summary: firstSentences(full, 2, 130),
-      image: pickCardImage(guide, frames, def.imageHints, idx + 1)
+      image: pickDiverseFrame(pool, {
+        hints: def.imageHints,
+        used,
+        fallbackIndex: idx + 1
+      })
     };
   }).filter(Boolean);
 
@@ -78,16 +75,15 @@ export default function GuideEssentialInfo({ guide, frames: framesProp }) {
 
   return (
     <section id="praticos" className="scroll-mt-28 text-left">
-      <div className="mb-6 max-w-3xl">
-        <h2 className="font-headers text-3xl font-extrabold tracking-tight text-brand-navy md:text-4xl">
+      <div className="mb-5 max-w-3xl sm:mb-6">
+        <h2 className="font-headers text-2xl font-extrabold tracking-tight text-brand-navy sm:text-[1.65rem]">
           Informações essenciais
         </h2>
-        <p className="mt-2 text-sm leading-relaxed text-text-muted md:text-base">
+        <p className="mt-2 text-sm leading-relaxed text-text-muted">
           O básico para chegar, se comunicar e se organizar em {guide.city} — sem enrolação.
         </p>
       </div>
 
-      {/* Desktop: 4 cards in one row. Use explicit auto-fit fallback via CSS class. */}
       <div className="guide-essentials-grid">
         {cards.map((card) => {
           const Icon = card.Icon;
@@ -137,7 +133,7 @@ export default function GuideEssentialInfo({ guide, frames: framesProp }) {
                   {card.full}
                 </div>
               </div>
-              <div className="guide-essential-photo-wrap relative w-[42%] max-w-[132px] shrink-0 self-stretch">
+              <div className="guide-essential-photo-wrap relative w-[38%] max-w-[120px] shrink-0 self-stretch">
                 {card.image ? (
                   <img
                     src={card.image}

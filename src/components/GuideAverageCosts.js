@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { BedDouble, Bus, Lightbulb, UtensilsCrossed, Wallet } from 'lucide-react';
-import { guideFolderKey, guideFrameList } from '@/lib/guideInterior';
+import { guideFolderKey, guideFrameList, pickDiverseFrame } from '@/lib/guideInterior';
 
 const TIERS = [
   {
@@ -25,32 +25,27 @@ const TIERS = [
   }
 ];
 
-function atmosphericImage(guide, frames) {
-  const folder = guideFolderKey(guide);
-  const preferred = [
-    ...frames.filter((src) => /eiffel|seine|saint|marais|cafe|orsay/i.test(src)),
-    ...frames,
-    guide?.heroImage,
-    `/images/destinations/${folder}/${folder}-1.jpg`
-  ].filter(Boolean);
-  return preferred[0] || '';
-}
-
 function atmosphericCaption(guide) {
   const food = guide?.gastronomy?.[0];
   if (food) {
     let short = String(food).replace(/\s+/g, ' ').trim();
-    if (short.length > 40) short = `${short.slice(0, 38).trim()}…`;
+    if (short.length > 48) short = `${short.slice(0, 46).trim()}…`;
     if (short.length > 8) return short;
   }
   return `Sabores de ${guide?.city || 'destino'}`;
 }
 
-export default function GuideAverageCosts({ guide, frames: framesProp }) {
+export default function GuideAverageCosts({ guide, frames: framesProp, usedFrames }) {
   if (!guide?.costsTable) return null;
 
   const frames = framesProp?.length ? framesProp : guideFrameList(guide);
-  const image = atmosphericImage(guide, frames);
+  const used = usedFrames || new Set();
+  const folder = guideFolderKey(guide);
+  const image = pickDiverseFrame(frames, {
+    hints: ['marais', 'orsay', 'latin', 'saint', 'cafe', 'opera', '1', '2'],
+    used,
+    fallbackIndex: 2
+  }) || `/images/destinations/${folder}/${folder}-1.jpg` || guide?.heroImage || '';
   const caption = atmosphericCaption(guide);
 
   const tiers = TIERS.map((tier) => {
@@ -66,14 +61,17 @@ export default function GuideAverageCosts({ guide, frames: framesProp }) {
       <div className="rounded-[28px] border border-[#EDE6DC] bg-[#FBF7F1] p-5 md:p-7 lg:p-8">
         <div className="mb-6 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">
-            <h2 className="font-headers text-3xl font-extrabold tracking-tight text-brand-navy md:text-4xl">
+            <p className="text-[11px] font-extrabold uppercase tracking-[0.16em] text-brand-orange">
+              Forma da viagem
+            </p>
+            <h2 className="font-headers mt-1.5 text-2xl font-extrabold tracking-tight text-brand-navy sm:text-[1.65rem]">
               Custos médios em {guide.city}
             </h2>
-            <p className="mt-2 text-sm leading-relaxed text-text-muted md:text-base">
+            <p className="mt-2 text-sm leading-relaxed text-text-muted">
               Três perfis de orçamento diário com base no que já está mapeado neste guia.
             </p>
           </div>
-          <div className="inline-flex max-w-md items-start gap-2.5 rounded-2xl border border-brand-orange/25 bg-white/80 px-4 py-3 text-sm leading-relaxed text-brand-navy/85">
+          <div className="inline-flex max-w-md items-start gap-2.5 rounded-2xl border border-brand-orange/25 bg-white/90 px-4 py-3 text-sm leading-relaxed text-brand-navy/85">
             <Lightbulb className="mt-0.5 h-4 w-4 shrink-0 text-brand-orange" aria-hidden />
             <p>Valores médios aproximados — variam conforme temporada, bairro e estilo de viagem.</p>
           </div>
@@ -96,7 +94,7 @@ export default function GuideAverageCosts({ guide, frames: framesProp }) {
                     {tier.label}
                   </p>
                 </div>
-                <p className="font-headers mt-3 text-[1.55rem] font-extrabold leading-none text-brand-orange md:text-2xl">
+                <p className="font-headers mt-3 text-[1.4rem] font-extrabold leading-none text-brand-orange md:text-[1.5rem]">
                   {tier.daily}
                   <span className="ml-1 text-sm font-bold text-brand-orange/80">/ dia</span>
                 </p>
@@ -130,12 +128,12 @@ export default function GuideAverageCosts({ guide, frames: framesProp }) {
             ))}
           </div>
 
-          <figure className="guide-cost-blob relative min-h-[240px] overflow-hidden bg-bg-light shadow-md md:min-h-[280px] lg:min-h-full">
+          <figure className="guide-cost-photo relative min-h-[220px] bg-bg-light shadow-sm md:min-h-[260px] lg:min-h-full">
             {image ? (
               <img src={image} alt="" className="absolute inset-0 h-full w-full object-cover" />
             ) : null}
-            <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/70 via-brand-navy/15 to-transparent" />
-            <figcaption className="guide-cost-caption absolute bottom-[12%] left-[16%] right-[12%] text-left text-[15px] font-semibold leading-snug text-white md:text-base">
+            <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/75 via-brand-navy/10 to-transparent" />
+            <figcaption className="guide-cost-caption absolute bottom-4 left-4 right-4 text-left text-sm font-semibold leading-snug text-white md:text-[15px]">
               {caption}
             </figcaption>
           </figure>
