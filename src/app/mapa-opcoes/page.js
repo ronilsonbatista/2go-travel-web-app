@@ -55,24 +55,24 @@ const GEO_PINS = [
 
 export const MAP_STYLE_OPTIONS = [
   {
-    id: 'atual-slate',
-    name: 'Atual slate (produção)',
-    short: 'atual-slate',
-    description: 'CSS cool slate-blue atual sobre o PNG vintage — referência de produção.',
+    id: 'modern-light',
+    name: 'Modern light (produção)',
+    short: 'modern-light',
+    description: 'Opção 2 escolhida — base clara Positron-like + wash leve (produção em todos os guias).',
     mapSrc: '/images/maps/paris.png',
     pins: ORIG_PINS,
     productionLike: true,
-    cssTheme: 'atual-slate'
+    cssTheme: 'modern-light'
   },
   {
-    id: 'modern-light',
-    name: 'Modern light (Positron-like)',
-    short: 'modern-light',
-    description: 'Base cinza-clara tipo Carto Positron (ESRI Light Gray) com wash leve.',
-    mapSrc: '/images/maps/preview/paris-positron-like.png',
-    pins: GEO_PINS,
+    id: 'atual-slate',
+    name: 'Slate anterior',
+    short: 'atual-slate',
+    description: 'CSS cool slate-blue sobre o PNG vintage — estilo anterior à escolha.',
+    mapSrc: '/images/maps/vintage/paris.png',
+    pins: ORIG_PINS,
     productionLike: false,
-    cssTheme: 'modern-light'
+    cssTheme: 'atual-slate'
   },
   {
     id: 'dark-slate',
@@ -183,7 +183,7 @@ function MapPreview({ option, activeId = 'eiffel' }) {
 
 function PreviewInner() {
   const params = useSearchParams();
-  const styleId = params.get('style') || 'atual-slate';
+  const styleId = params.get('style') || 'modern-light';
   const shot = params.get('shot') === '1';
   const option =
     MAP_STYLE_OPTIONS.find((o) => o.id === styleId) || MAP_STYLE_OPTIONS[0];
@@ -223,8 +223,8 @@ function PreviewInner() {
             Opções de estilo do mapa — Paris
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-text-muted">
-            Mesma região e pins. Carto CDN bloqueado neste ambiente; Positron/Voyager
-            aproximados via ESRI Light / OSM high-contrast. Sem Place IDs.
+            Produção = Modern light em todos os guias. Comparativo histórico das outras
+            opções; sem Place IDs.
           </p>
         </header>
 
