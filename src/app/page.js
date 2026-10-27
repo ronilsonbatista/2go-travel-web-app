@@ -2,13 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Compass, Sliders, Navigation, ArrowRight } from 'lucide-react';
+import { CalendarDays, Clock3, Compass, MapPinned, Navigation, Sliders, ArrowRight } from 'lucide-react';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
-import AppPhoneMockup from '@/components/AppPhoneMockup';
+import AppPhoneMockup, { PhoneFrame, PhoneScreenImage } from '@/components/AppPhoneMockup';
 import ScrollReveal from '@/components/ScrollReveal';
 
 import { listDestinations } from '@/lib/cms';
@@ -513,6 +513,69 @@ export default function Home() {
                 <p className="text-xs sm:text-sm text-text-muted leading-relaxed max-w-md">
                   Edite, salve, compartilhe seu roteiro offline e receba sugestões personalizadas por destino em tempo real.
                 </p>
+              </div>
+            </div>
+          </ScrollReveal>
+        </section>
+
+        {/* Prévia real do app — O roteiro na prática */}
+        <section
+          id="seu-roteiro-na-pratica"
+          className="py-12 lg:py-28 bg-white border-b border-border-gray/50 scroll-mt-20"
+          aria-labelledby="seu-roteiro-na-pratica-title"
+        >
+          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+              <div className="lg:col-span-5 text-left min-w-0">
+                <p className="text-[11px] sm:text-[12px] font-extrabold tracking-[0.18em] text-brand-orange uppercase">
+                  O roteiro na prática
+                </p>
+                <h2
+                  id="seu-roteiro-na-pratica-title"
+                  className="font-headers mt-3 text-[clamp(1.6rem,4.2vw,2.75rem)] font-extrabold leading-[1.12] tracking-tight text-brand-navy"
+                >
+                  Sua próxima viagem, organizada em cada detalhe.
+                </h2>
+                <p className="mt-4 text-sm sm:text-base leading-relaxed text-text-muted max-w-xl">
+                  Veja como seu roteiro personalizado ganha vida no app: atrações organizadas por dia, horários, dicas e mapa para você aproveitar cada destino sem perder tempo planejando.
+                </p>
+
+                <ul className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-4">
+                  {[
+                    { icon: CalendarDays, label: 'Dias organizados' },
+                    { icon: MapPinned, label: 'Mapa e localizações' },
+                    { icon: Clock3, label: 'Horários e dicas' }
+                  ].map((feature) => {
+                    const Icon = feature.icon;
+                    return (
+                      <li
+                        key={feature.label}
+                        className="flex min-w-0 items-center gap-3 text-brand-navy sm:min-w-[10.5rem]"
+                      >
+                        <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand-orange/10 text-brand-orange">
+                          <Icon className="h-5 w-5" strokeWidth={2.25} aria-hidden />
+                        </span>
+                        <span className="font-headers text-sm font-extrabold sm:text-[15px]">
+                          {feature.label}
+                        </span>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+
+              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-6 sm:gap-8 py-4 lg:py-2 min-w-0">
+                <PhoneFrame size="md" className="max-w-[180px] sm:max-w-[210px] lg:max-w-[230px]" glowClassName="bg-[#081B6B]/18">
+                  <PhoneScreenImage
+                    src="/assets/app-home-gustavo.webp"
+                    alt="Prévia real do app 2GO: tela inicial com a próxima viagem para Roma"
+                  />
+                </PhoneFrame>
+                <AppPhoneMockup
+                  variant="roma"
+                  size="md"
+                  className="max-w-[180px] sm:max-w-[210px] lg:max-w-[230px]"
+                />
               </div>
             </div>
           </ScrollReveal>
