@@ -8,16 +8,12 @@ import {
   CheckCircle2,
   ChevronDown,
   Compass,
-  Coins,
-  Globe,
   HelpCircle,
   Hotel,
   MapPin,
   ShoppingBag,
   Wallet,
-  X,
-  AlertTriangle,
-  Info
+  X
 } from 'lucide-react';
 
 import Header from '@/components/Header';
@@ -27,6 +23,9 @@ import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
 import AppPhoneMockup from '@/components/AppPhoneMockup';
 import GuideThirtySeconds from '@/components/GuideThirtySeconds';
+import GuideEssentialInfo from '@/components/GuideEssentialInfo';
+import GuideAverageCosts from '@/components/GuideAverageCosts';
+import GuideInsightsTrio from '@/components/GuideInsightsTrio';
 import ScrollReveal from '@/components/ScrollReveal';
 import {
   attractionImage,
@@ -664,119 +663,19 @@ export default function GuideArticleClient({ guide }) {
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={60}>
-            <section id="praticos" className="grid grid-cols-1 gap-4 md:grid-cols-2 text-left">
-              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
-                <h3 className="font-headers flex items-center gap-2 text-xl font-extrabold text-brand-navy">
-                  <Coins className="h-5 w-5 text-brand-orange" /> Moeda & pagamentos
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-text-muted">{guide.currencyInfo}</p>
-              </div>
-              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
-                <h3 className="font-headers flex items-center gap-2 text-xl font-extrabold text-brand-navy">
-                  <Globe className="h-5 w-5 text-brand-navy" /> Idioma
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-text-muted">{guide.languageInfo}</p>
-              </div>
-              <div
-                id="locomocao"
-                className="scroll-mt-28 rounded-[24px] border border-border-gray/70 bg-white p-6 md:col-span-2"
-              >
-                <h3 className="font-headers text-xl font-extrabold text-brand-navy">Como chegar e se locomover</h3>
-                <p className="mt-3 text-sm leading-relaxed text-text-muted">{guide.howToGet}</p>
-                <p className="mt-2 text-sm leading-relaxed text-text-muted">{guide.transportDetails}</p>
-              </div>
-              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
-                <h3 className="font-headers text-xl font-extrabold text-brand-navy">Documentação & seguro</h3>
-                <p className="mt-3 text-sm leading-relaxed text-text-muted">{guide.documentation}</p>
-                <p className="mt-2 text-sm leading-relaxed text-text-muted">{guide.insurance}</p>
-              </div>
-              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
-                <h3 className="font-headers text-xl font-extrabold text-brand-navy">Internet & conectividade</h3>
-                <p className="mt-3 text-sm leading-relaxed text-text-muted">{guide.internet}</p>
-              </div>
-            </section>
+            <GuideEssentialInfo guide={guide} frames={frames} />
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={60}>
-            <section id="custos" className="scroll-mt-28 text-left">
-              <h2 className="font-headers text-3xl font-extrabold text-brand-navy">
-                Custos médios em {guide.city}
-              </h2>
-              <div className="mt-6 overflow-x-auto rounded-[24px] border border-border-gray/80 bg-white">
-                <table className="w-full border-collapse text-left text-xs sm:text-sm">
-                  <thead>
-                    <tr className="border-b border-border-gray/60 bg-bg-light font-headers text-brand-navy">
-                      <th className="p-4 font-extrabold">Perfil</th>
-                      <th className="p-4 font-extrabold">Orçamento diário</th>
-                      <th className="p-4 font-extrabold">Hospedagem</th>
-                      <th className="p-4 font-extrabold">Alimentação</th>
-                      <th className="p-4 font-extrabold">Transporte</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-border-gray/40 text-text-muted">
-                    {[
-                      ['Econômico', guide.costsTable.economy],
-                      ['Intermediário', guide.costsTable.comfort],
-                      ['Luxo', guide.costsTable.luxury]
-                    ].map(([label, row]) => (
-                      <tr key={label}>
-                        <td className="p-4 font-extrabold text-brand-navy">{label}</td>
-                        <td className="p-4 font-bold text-brand-orange">{row.daily}</td>
-                        <td className="p-4">{row.hotel}</td>
-                        <td className="p-4">{row.food}</td>
-                        <td className="p-4">{row.transport}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </section>
+            <GuideAverageCosts guide={guide} frames={frames} />
           </ScrollReveal>
 
           <ScrollReveal className="mt-16" delay={60}>
-            <section className="grid grid-cols-1 gap-4 md:grid-cols-2 text-left">
-              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
-                <h3 className="font-headers mb-4 flex items-center gap-2 text-lg font-extrabold text-brand-navy">
-                  <AlertTriangle className="h-5 w-5 text-brand-orange" /> Erros comuns
-                </h3>
-                <ul className="space-y-3 text-sm text-text-muted">
-                  {guide.commonMistakes.map((err) => (
-                    <li key={err} className="flex items-start gap-2.5">
-                      <span className="text-brand-orange font-bold">•</span>
-                      <span>{err}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="rounded-[24px] border border-border-gray/70 bg-white p-6">
-                <h3 className="font-headers mb-4 flex items-center gap-2 text-lg font-extrabold text-brand-navy">
-                  <Info className="h-5 w-5 text-brand-navy" /> Dicas importantes
-                </h3>
-                <ul className="space-y-3 text-sm text-text-muted">
-                  {guide.importantTips.map((tip) => (
-                    <li key={tip} className="flex items-start gap-2.5">
-                      <span className="text-brand-navy font-bold">•</span>
-                      <span>{tip}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </section>
+            <GuideInsightsTrio guide={guide} frames={frames} />
           </ScrollReveal>
 
           <ScrollReveal className="mt-12" delay={40}>
-            <section className="grid grid-cols-1 gap-4 lg:grid-cols-3 text-left">
-              <div className="rounded-[24px] bg-[#F7F8FA] p-6">
-                <h3 className="font-headers text-lg font-extrabold text-brand-navy">Bate-volta</h3>
-                <ul className="mt-3 space-y-2.5 text-sm text-text-muted">
-                  {guide.dayTrips.map((trip) => (
-                    <li key={trip} className="flex items-start gap-2">
-                      <Compass className="mt-0.5 h-3.5 w-3.5 shrink-0 text-brand-orange" />
-                      <span>{trip}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <section className="grid grid-cols-1 gap-4 md:grid-cols-2 text-left">
               <div className="rounded-[24px] bg-[#F7F8FA] p-6">
                 <h3 className="font-headers text-lg font-extrabold text-brand-navy">Gastronomia</h3>
                 <ul className="mt-3 space-y-2.5 text-sm text-text-muted">

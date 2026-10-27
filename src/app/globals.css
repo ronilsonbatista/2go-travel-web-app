@@ -293,3 +293,128 @@ body {
     animation: none;
   }
 }
+
+/* Guide interior layout — explicit CSS so dense grids never depend on purged utilities */
+.guide-essentials-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .guide-essentials-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px) {
+  .guide-essentials-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+}
+
+.guide-essential-card {
+  min-height: 168px;
+}
+
+.guide-essential-photo-wrap {
+  clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.guide-costs-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.guide-costs-tiers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+
+@media (min-width: 640px) {
+  .guide-costs-tiers {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .guide-costs-layout {
+    grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.85fr);
+    gap: 1.35rem;
+  }
+
+  .guide-costs-tiers {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.guide-cost-blob {
+  border-radius: 46% 54% 48% 52% / 32% 36% 64% 68%;
+}
+
+.guide-cost-caption {
+  font-family: var(--font-headers), sans-serif;
+  font-style: italic;
+  text-shadow: 0 2px 12px rgba(8, 27, 107, 0.45);
+}
+
+.guide-insights-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .guide-insights-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.1rem;
+  }
+}
+
+.guide-insight-copy {
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  .guide-insight-card:has(.guide-insight-wave) .guide-insight-copy,
+  .guide-insight-card:has(.guide-insight-wave-alt) .guide-insight-copy {
+    max-width: 72%;
+  }
+}
+
+.guide-insight-wave,
+.guide-insight-wave-alt {
+  pointer-events: none;
+  position: absolute;
+  top: 2.5rem;
+  right: -0.25rem;
+  bottom: 0;
+  width: 38%;
+  max-width: 160px;
+  overflow: hidden;
+  opacity: 0.95;
+}
+
+.guide-insight-wave {
+  clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 28%, 10% 16%);
+}
+
+.guide-insight-wave-alt {
+  clip-path: polygon(0% 12%, 22% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+@media (max-width: 639px) {
+  .guide-insight-wave,
+  .guide-insight-wave-alt {
+    width: 32%;
+    opacity: 0.55;
+  }
+
+  .guide-insight-copy {
+    max-width: 78%;
+  }
+}
