@@ -78,14 +78,15 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
   const laidOut = useMemo(() => declutterPins(pins), [pins]);
 
   return (
-    <div className="relative h-full min-h-[300px] w-full overflow-hidden rounded-[22px] border border-border-gray/60 bg-[#dfe7f0]">
+    <div className="guide-city-map relative h-full min-h-[300px] w-full overflow-hidden rounded-[22px] border border-slate-200/80 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)]">
       <img
         src={mapSrc}
         alt=""
-        className="absolute inset-0 h-full w-full object-cover"
+        className="guide-city-map__img absolute inset-0 h-full w-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-black/10" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_45%,rgba(11,18,32,0.18)_100%)]" />
+      <div className="guide-city-map__wash absolute inset-0" />
+      <div className="guide-city-map__grid absolute inset-0" />
+      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 via-transparent to-slate-900/10" />
 
       {laidOut.map((pin) => {
         const active = pin.id === activeId;
@@ -214,7 +215,7 @@ export default function GuideThirtySeconds({ guide }) {
       className="scroll-mt-28 overflow-hidden rounded-[28px] border border-border-gray/80 bg-white p-5 pb-16 shadow-md sm:p-7 lg:pb-7"
     >
       <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-        <h2 className="font-headers text-left text-2xl font-extrabold tracking-tight text-brand-navy sm:text-3xl">
+        <h2 className="font-headers text-left text-base font-bold tracking-tight text-brand-navy sm:text-lg">
           {guide.city} em 30 segundos
         </h2>
         <div
@@ -355,10 +356,10 @@ export default function GuideThirtySeconds({ guide }) {
                       <img src={pin.image} alt="" className="h-full w-full object-cover" />
                     </span>
                     <span className="min-w-0 flex-1">
-                      <span className="block truncate text-[12px] font-extrabold text-brand-navy">
+                      <span className="block text-[12px] font-extrabold leading-snug text-brand-navy [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] overflow-hidden">
                         {pin.name}
                       </span>
-                      <span className="mt-0.5 block truncate text-[10px] text-text-muted">
+                      <span className="mt-0.5 block text-[10px] leading-snug text-text-muted [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] overflow-hidden">
                         {pin.blurb}
                       </span>
                     </span>

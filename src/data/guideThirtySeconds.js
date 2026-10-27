@@ -547,8 +547,8 @@ export const GUIDE_THIRTY_SECONDS = {
 
   'como-planejar-viagem-istambul': {
     facts: [
-      { value: '5 – 6 dias', label: 'Tempo ideal', tone: 'green' },
-      { value: '₺ acessível', label: 'Ótimo custo-benefício', tone: 'yellow' },
+      { value: '4 – 5 dias', label: 'Tempo ideal', tone: 'green' },
+      { value: '₺ 1.500 – 2.500', label: 'Por dia (média)', tone: 'yellow' },
       { value: 'Istanbulkart', label: 'Metrô, bondinho e ferry', tone: 'orange' },
       { value: 'Mesquitas & palácios', label: 'Chegue cedo', tone: 'blue' }
     ],

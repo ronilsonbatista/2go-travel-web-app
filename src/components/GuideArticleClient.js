@@ -124,6 +124,34 @@ function shortFact(text, fallback) {
   return `${clean.slice(0, 69).trim()}…`;
 }
 
+/** First sentence without mid-word cuts — for overlay teasers. */
+function firstSentence(text) {
+  const clean = String(text || '').replace(/\s+/g, ' ').trim();
+  if (!clean) return '';
+  const match = clean.match(/^(.+?[.!?])(?:\s|$)/);
+  return (match ? match[1] : clean).trim();
+}
+
+/** Expand body must not repeat the overlay teaser. */
+function introExpandCopy(guide) {
+  const why = String(guide?.whyVisit || '').replace(/\s+/g, ' ').trim();
+  const teaser = firstSentence(why);
+  const remainder = why.slice(teaser.length).replace(/^[\s.;:—-]+/, '').trim();
+  if (remainder) return remainder;
+  const summary = String(guide?.summaryText || '').replace(/\s+/g, ' ').trim();
+  if (summary && summary !== String(guide?.intro || '').trim() && summary !== teaser) {
+    return summary;
+  }
+  return '';
+}
+
+function chipLine(preferred, fallback) {
+  const value = String(preferred || fallback || '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return value || fallback || '';
+}
+
 /** Grid that matches real card count — avoids empty multi-column voids. */
 function cardsGridClass(count) {
   if (count <= 1) return 'grid grid-cols-1 gap-4';
@@ -157,31 +185,30 @@ export default function GuideArticleClient({ guide }) {
 
   const quickFacts = useMemo(() => {
     if (!guide) return [];
+    const chips = guide.chipFacts || {};
     const daysMatch = String(guide.idealDays || '').match(/(\d+)\s*a\s*(\d+)/i);
-    const daysLabel = daysMatch
-      ? `${daysMatch[1]} a ${daysMatch[2]} dias`
-      : shortFact(guide.idealDays, '5 a 7 dias');
-    const season = shortFact(
-      String(guide.whenToGo || '')
-        .split(/[.;]/)[0]
-        .replace(/\([^)]*\)/g, '')
-        .trim(),
-      'Primavera e outono'
-    );
-    const neighborhood = (guide.neighborhoods?.[0]?.name || 'Melhores bairros')
-      .split('(')[0]
+    const daysLabel = chips.days
+      || (daysMatch
+        ? `${daysMatch[1]} a ${daysMatch[2]} dias`
+        : shortFact(guide.idealDays, '5 a 7 dias'));
+    const seasonFallback = String(guide.whenToGo || '')
+      .split(/[.;]/)[0]
+      .replace(/\([^)]*\)/g, '')
       .trim();
-    const transport = shortFact(
-      String(guide.transportDetails || '')
-        .split(/[.;]/)[0]
-        .trim(),
-      'Transporte local'
+    const season = chipLine(chips.season, seasonFallback || 'Primavera e outono');
+    const neighborhood = chipLine(
+      chips.stay,
+      (guide.neighborhoods?.[0]?.name || 'Melhores bairros').split('(')[0].trim()
     );
+    const transportFallback = String(guide.transportDetails || '')
+      .split(/[.;]/)[0]
+      .trim();
+    const transport = chipLine(chips.transport, transportFallback || 'Transporte local');
     return [
       {
         icon: CalendarDays,
         label: 'Melhor época',
-        value: season.length > 42 ? `${season.slice(0, 40)}…` : season,
+        value: season,
         href: '#quando-ir'
       },
       {
@@ -193,7 +220,7 @@ export default function GuideArticleClient({ guide }) {
       {
         icon: Wallet,
         label: 'Quanto custa',
-        value: guide.costsTable?.economy?.daily || guide.costsTable?.comfort?.daily || 'Consulte o guia',
+        value: chips.cost || guide.costsTable?.economy?.daily || guide.costsTable?.comfort?.daily || 'Consulte o guia',
         href: '#custos'
       },
       {
@@ -205,11 +232,14 @@ export default function GuideArticleClient({ guide }) {
       {
         icon: Compass,
         label: 'Como se locomover',
-        value: transport.length > 42 ? `${transport.slice(0, 40)}…` : transport,
+        value: transport,
         href: '#locomocao'
       }
     ];
   }, [guide]);
+
+  const introTeaser = useMemo(() => firstSentence(guide?.whyVisit), [guide?.whyVisit]);
+  const introMore = useMemo(() => introExpandCopy(guide), [guide]);
 
   const itineraryTabs = useMemo(
     () => itineraryTabsFor(guide?.suggestedItinerary || []),
@@ -331,33 +361,37 @@ export default function GuideArticleClient({ guide }) {
                       alt=""
                       className="absolute inset-0 h-full w-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 via-brand-navy/20 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 via-brand-navy/25 to-transparent" />
                     <div className="absolute bottom-5 left-5 right-5 text-white">
                       <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">
                         Por que {guide.city}
                       </p>
-                      <p className="mt-2 font-headers text-xl font-extrabold leading-snug sm:text-2xl">
-                        {(guide.whyVisit || '').split(/[.;]/)[0]}.
-                      </p>
+                      {introTeaser ? (
+                        <p className="mt-2 font-headers text-lg font-extrabold leading-snug sm:text-xl">
+                          {introTeaser}
+                        </p>
+                      ) : null}
                     </div>
                   </div>
                   <div className="flex flex-col justify-center p-6 sm:p-8 lg:col-span-7">
                     <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">
                       Antes de montar o dia a dia
                     </p>
-                    <p className="mt-3 text-base leading-relaxed text-brand-navy/90 sm:text-lg">
+                    <p className="mt-3 text-base leading-relaxed text-brand-navy/90 sm:text-[17px] sm:leading-7">
                       {guide.intro}
                     </p>
-                    <div
-                      className={`overflow-hidden transition-all duration-500 ${
-                        introExpanded ? 'mt-4 max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                      }`}
-                    >
-                      <p className="text-sm leading-relaxed text-text-muted sm:text-base">
-                        {guide.whyVisit}
-                      </p>
-                    </div>
-                    <div className="mt-5 flex flex-wrap gap-2">
+                    {introMore ? (
+                      <div
+                        className={`overflow-hidden transition-all duration-500 ${
+                          introExpanded ? 'mt-4 max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                        }`}
+                      >
+                        <p className="text-sm leading-relaxed text-text-muted sm:text-[15px] sm:leading-7">
+                          {introMore}
+                        </p>
+                      </div>
+                    ) : null}
+                    <div className="mt-5 flex flex-wrap items-center gap-2">
                       {[
                         { label: 'Quando ir', href: '#quando-ir' },
                         { label: 'Roteiro', href: '#roteiro-sugerido' },
@@ -373,13 +407,21 @@ export default function GuideArticleClient({ guide }) {
                           {chip.label}
                         </button>
                       ))}
-                      <button
-                        type="button"
-                        onClick={() => setIntroExpanded((open) => !open)}
-                        className="inline-flex min-h-11 items-center rounded-full bg-brand-navy px-3.5 py-2 text-[11px] font-extrabold text-white transition-colors hover:bg-brand-navy/90"
-                      >
-                        {introExpanded ? 'Recolher' : 'Ler mais'}
-                      </button>
+                      {introMore ? (
+                        <button
+                          type="button"
+                          aria-expanded={introExpanded}
+                          onClick={() => setIntroExpanded((open) => !open)}
+                          className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-brand-navy/15 bg-white px-3.5 py-2 text-[11px] font-extrabold text-brand-navy transition-colors hover:border-brand-navy/30 hover:bg-bg-light"
+                        >
+                          {introExpanded ? 'Mostrar menos' : 'Ler mais'}
+                          <ChevronDown
+                            className={`h-3.5 w-3.5 transition-transform duration-300 ${
+                              introExpanded ? 'rotate-180' : ''
+                            }`}
+                          />
+                        </button>
+                      ) : null}
                     </div>
                   </div>
                 </div>
