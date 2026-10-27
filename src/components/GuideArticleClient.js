@@ -125,6 +125,13 @@ function shortFact(text, fallback) {
   return `${clean.slice(0, 69).trim()}…`;
 }
 
+/** Grid that matches real card count — avoids empty multi-column voids. */
+function cardsGridClass(count) {
+  if (count <= 1) return 'grid grid-cols-1 gap-4';
+  if (count === 2) return 'grid grid-cols-1 gap-4 md:grid-cols-2';
+  return 'grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3';
+}
+
 export default function GuideArticleClient({ guide }) {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [openFaqIdx, setOpenFaqIdx] = useState(null);
@@ -234,12 +241,17 @@ export default function GuideArticleClient({ guide }) {
 
   if (!guide) return null;
 
+  const itineraryCount = visibleItinerary.length;
+  const attractionsCount = guide.attractions?.length || 0;
+  const itinerarySingle = itineraryCount === 1;
+  const attractionSingle = attractionsCount === 1;
+
   return (
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
-      <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
+      <Header overDark onOpenDownload={() => setIsDownloadOpen(true)} />
 
       <main className="flex-grow pb-28 lg:pb-20">
-        <section className="relative mt-[64px] h-[calc(100svh-64px)] min-h-[520px] sm:min-h-[620px] overflow-hidden bg-[#0b1220] lg:mt-[78px] lg:h-[calc(100svh-78px)]">
+        <section className="relative h-[100svh] min-h-[520px] sm:min-h-[620px] overflow-hidden bg-[#0b1220]">
           {frames.map((src, index) => (
             <img
               key={src}
@@ -251,9 +263,9 @@ export default function GuideArticleClient({ guide }) {
             />
           ))}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/20" />
-          <div className="absolute inset-x-0 top-0 h-36 bg-gradient-to-b from-black/55 to-transparent" />
+          <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/60 to-transparent" />
           <div className="relative z-10 flex h-full flex-col">
-            <div className="container mx-auto w-full max-w-[1440px] px-4 pt-5 text-left sm:px-6 sm:pt-6">
+            <div className="container mx-auto w-full max-w-[1440px] px-4 pt-[calc(64px+1rem)] text-left sm:px-6 lg:pt-[calc(78px+1.25rem)]">
               <Breadcrumbs
                 variant="onDark"
                 items={[
@@ -273,7 +285,7 @@ export default function GuideArticleClient({ guide }) {
               <button
                 type="button"
                 onClick={() => setIsDownloadOpen(true)}
-                className="mt-6 inline-flex items-center justify-center rounded-xl bg-white px-6 py-3.5 text-sm font-extrabold text-brand-navy transition-transform hover:-translate-y-0.5"
+                className="mt-6 inline-flex min-h-11 items-center justify-center rounded-xl bg-white px-6 py-3.5 text-sm font-extrabold text-brand-navy transition-transform hover:-translate-y-0.5"
               >
                 Baixar o App
               </button>
@@ -397,14 +409,14 @@ export default function GuideArticleClient({ guide }) {
 
           <ScrollReveal className="mt-16" delay={80}>
             <section id="roteiro-sugerido" className="scroll-mt-28">
-              <div className="mb-6 flex flex-col gap-4 text-left sm:flex-row sm:items-end sm:justify-between">
-                <div>
+              <div className="mb-5 flex flex-col gap-3 text-left sm:mb-6 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
+                <div className="min-w-0">
                   <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Roteiro</p>
                   <h2 className="font-headers mt-2 text-3xl font-extrabold text-brand-navy">
                     Roteiro sugerido
                   </h2>
                 </div>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap items-center gap-2">
                   {itineraryTabs.map((tab) => (
                     <button
                       key={tab.id}
@@ -430,28 +442,50 @@ export default function GuideArticleClient({ guide }) {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+              <div className={cardsGridClass(itineraryCount)}>
                 {visibleItinerary.map((item, idx) => (
                   <article
                     key={`${item.day}-${item.title}`}
-                    className="overflow-hidden rounded-[24px] border border-border-gray/80 bg-white shadow-sm transition-transform duration-300 hover:-translate-y-1"
+                    className={`overflow-hidden rounded-[24px] border border-border-gray/80 bg-white shadow-sm transition-transform duration-300 hover:-translate-y-1 ${
+                      itinerarySingle
+                        ? 'flex flex-col sm:flex-row sm:items-stretch'
+                        : 'flex flex-col'
+                    }`}
                   >
-                    <div className="relative h-40 overflow-hidden">
+                    <div
+                      className={`relative overflow-hidden ${
+                        itinerarySingle
+                          ? 'aspect-[16/10] w-full shrink-0 sm:aspect-auto sm:w-[min(42%,360px)] sm:min-h-[220px]'
+                          : 'aspect-[16/10] w-full'
+                      }`}
+                    >
                       <img
                         src={dayImages[idx] || guide.heroImage}
                         alt=""
-                        className="h-full w-full object-cover"
+                        className="absolute inset-0 h-full w-full object-cover"
                       />
                       <span className={`absolute left-3 top-3 h-2.5 w-2.5 rounded-full ${DAY_ACCENTS[idx % DAY_ACCENTS.length]}`} />
                     </div>
-                    <div className="p-5 text-left">
+                    <div
+                      className={`flex flex-1 flex-col justify-center text-left ${
+                        itinerarySingle ? 'p-5 sm:p-6 lg:p-8' : 'p-5'
+                      }`}
+                    >
                       <p className="text-[10px] font-extrabold uppercase tracking-wider text-brand-orange">
                         {item.day}
                       </p>
-                      <h3 className="font-headers mt-1 text-lg font-extrabold text-brand-navy">
+                      <h3
+                        className={`font-headers mt-1 font-extrabold text-brand-navy ${
+                          itinerarySingle ? 'text-xl sm:text-2xl' : 'text-lg'
+                        }`}
+                      >
                         {item.title}
                       </h3>
-                      <p className="mt-3 text-sm leading-relaxed text-text-muted">
+                      <p
+                        className={`mt-3 leading-relaxed text-text-muted ${
+                          itinerarySingle ? 'text-sm sm:text-base' : 'text-sm'
+                        }`}
+                      >
                         {item.details}
                       </p>
                     </div>
@@ -463,30 +497,50 @@ export default function GuideArticleClient({ guide }) {
 
           <ScrollReveal className="mt-16" delay={80}>
             <section id="atracoes" className="scroll-mt-28">
-              <div className="mb-6 text-left">
+              <div className="mb-5 text-left sm:mb-6">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Imperdíveis</p>
                 <h2 className="font-headers mt-2 text-3xl font-extrabold text-brand-navy">
                   Imperdíveis em {guide.city}
                 </h2>
               </div>
-              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              <div className={cardsGridClass(attractionsCount)}>
                 {guide.attractions.map((att, idx) => (
                   <article
                     key={att.name}
-                    className="overflow-hidden rounded-[24px] border border-border-gray/80 bg-white text-left shadow-sm transition-transform duration-300 hover:-translate-y-1"
+                    className={`overflow-hidden rounded-[24px] border border-border-gray/80 bg-white text-left shadow-sm transition-transform duration-300 hover:-translate-y-1 ${
+                      attractionSingle
+                        ? 'flex flex-col sm:flex-row sm:items-stretch'
+                        : 'flex flex-col'
+                    }`}
                   >
-                    <div className="relative h-44 overflow-hidden">
+                    <div
+                      className={`relative overflow-hidden ${
+                        attractionSingle
+                          ? 'aspect-[16/10] w-full shrink-0 sm:aspect-auto sm:w-[min(42%,360px)] sm:min-h-[240px]'
+                          : 'aspect-[16/10] w-full'
+                      }`}
+                    >
                       <img
                         src={attractionImage(guide, att, frames, idx)}
                         alt={att.name}
-                        className="h-full w-full object-cover"
+                        className="absolute inset-0 h-full w-full object-cover"
                       />
                       <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-brand-orange">
                         Prioridade {att.priority}
                       </span>
                     </div>
-                    <div className="p-5">
-                      <h3 className="font-headers text-lg font-extrabold text-brand-navy">{att.name}</h3>
+                    <div
+                      className={`flex flex-1 flex-col justify-center ${
+                        attractionSingle ? 'p-5 sm:p-6 lg:p-8' : 'p-5'
+                      }`}
+                    >
+                      <h3
+                        className={`font-headers font-extrabold text-brand-navy ${
+                          attractionSingle ? 'text-xl sm:text-2xl' : 'text-lg'
+                        }`}
+                      >
+                        {att.name}
+                      </h3>
                       <p className="mt-2 text-sm leading-relaxed text-text-muted">{att.desc}</p>
                       {att.whyVisit ? (
                         <p className="mt-2 text-sm leading-relaxed text-text-muted">{att.whyVisit}</p>

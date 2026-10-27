@@ -12,7 +12,6 @@ import {
   Globe2,
   Heart,
   Landmark,
-  MapPin,
   Mountain,
   Search,
   Star
@@ -22,6 +21,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import ScrollReveal from '@/components/ScrollReveal';
+import GuiasHeroHighlight from '@/components/GuiasHeroHighlight';
 import { destinationGuides } from '@/data/guidesData';
 
 function coverOf(guide) {
@@ -237,26 +237,7 @@ export default function GuiasIndex() {
             </ScrollReveal>
 
             <ScrollReveal className="relative lg:col-span-7 min-w-0" delay={80}>
-              <div className="overflow-hidden rounded-[32px] bg-bg-light shadow-md">
-                <img
-                  src="/assets/greece.png"
-                  alt="Destino em destaque"
-                  className="aspect-[16/11] w-full object-cover sm:aspect-[16/10]"
-                />
-              </div>
-              <div className="absolute bottom-4 left-4 right-4 max-w-sm rounded-2xl border border-white/70 bg-white/95 p-4 shadow-lg backdrop-blur-sm sm:bottom-6 sm:left-6 sm:right-auto">
-                <div className="flex items-start gap-3">
-                  <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-orange/10 text-brand-orange">
-                    <MapPin className="h-4 w-4" />
-                  </span>
-                  <div>
-                    <p className="font-headers text-sm font-extrabold text-brand-navy">Santorini</p>
-                    <p className="mt-1 text-xs leading-relaxed text-text-muted">
-                      Guias completos para os destinos mais incríveis do mundo.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <GuiasHeroHighlight destinations={DESTINATIONS} />
             </ScrollReveal>
           </section>
 
