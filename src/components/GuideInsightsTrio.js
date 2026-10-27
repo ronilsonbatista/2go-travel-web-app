@@ -12,32 +12,35 @@ import { dayImage } from '@/lib/guideVisuals';
 import {
   guideFrameList,
   parseDayTrip,
+  pickDiverseFrame,
   splitTitleDetail
 } from '@/lib/guideInterior';
-
-function sidePhoto(guide, frames, preferKeys, fallbackIndex) {
-  const hit = frames.find((src) =>
-    preferKeys.some((key) => String(src).toLowerCase().includes(key))
-  );
-  return hit || frames[fallbackIndex % Math.max(frames.length, 1)] || guide?.heroImage || '';
-}
 
 function dayTripThumb(guide, frames, trip, idx, used) {
   const probe = { day: '', title: trip.name, details: trip.meta || trip.raw };
   return dayImage(guide, probe, frames, idx, used);
 }
 
-export default function GuideInsightsTrio({ guide, frames: framesProp }) {
+export default function GuideInsightsTrio({ guide, frames: framesProp, usedFrames }) {
   if (!guide) return null;
 
   const frames = framesProp?.length ? framesProp : guideFrameList(guide);
+  const used = usedFrames || new Set();
   const mistakes = (guide.commonMistakes || []).map((item) => splitTitleDetail(item));
   const tips = guide.importantTips || [];
   const trips = (guide.dayTrips || []).map(parseDayTrip);
-  const usedThumbs = new Set();
+  const usedThumbs = new Set(used);
 
-  const mistakesPhoto = sidePhoto(guide, frames, ['louvre', 'notre', 'orsay'], 1);
-  const tipsPhoto = sidePhoto(guide, frames, ['sacre', 'montmartre', 'eiffel', 'seine'], 0);
+  const mistakesPhoto = pickDiverseFrame(frames, {
+    hints: ['louvre', 'notre', 'orsay', 'opera'],
+    used,
+    fallbackIndex: 1
+  });
+  const tipsPhoto = pickDiverseFrame(frames, {
+    hints: ['sacre', 'montmartre', 'seine-bridge', 'marais', 'latin'],
+    used,
+    fallbackIndex: 3
+  });
 
   const hasMistakes = mistakes.length > 0;
   const hasTips = tips.length > 0;
@@ -48,9 +51,9 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
     <section className="text-left">
       <div className="guide-insights-grid">
         {hasMistakes ? (
-          <article className="guide-insight-card relative overflow-hidden rounded-[22px] border border-[#E4E9F0] bg-white p-5 shadow-[0_2px_10px_rgba(8,27,107,0.04)] md:p-6">
-            <div className="guide-insight-copy relative z-10">
-              <h3 className="font-headers flex items-center gap-2 text-lg font-extrabold text-brand-navy">
+          <article className="guide-insight-card guide-insight-card-with-photo overflow-hidden rounded-[22px] border border-[#E4E9F0] bg-white shadow-[0_2px_10px_rgba(8,27,107,0.04)]">
+            <div className="guide-insight-copy p-5 md:p-6">
+              <h3 className="font-headers flex items-center gap-2 text-base font-extrabold text-brand-navy sm:text-lg">
                 <AlertTriangle className="h-5 w-5 text-brand-orange" aria-hidden />
                 Erros comuns
               </h3>
@@ -75,17 +78,17 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
               </ol>
             </div>
             {mistakesPhoto ? (
-              <div className="guide-insight-wave" aria-hidden>
-                <img src={mistakesPhoto} alt="" className="h-full w-full object-cover" />
+              <div className="guide-insight-photo relative" aria-hidden>
+                <img src={mistakesPhoto} alt="" className="absolute inset-0 h-full w-full object-cover" />
               </div>
             ) : null}
           </article>
         ) : null}
 
         {hasTips ? (
-          <article className="guide-insight-card relative overflow-hidden rounded-[22px] border border-[#E4E9F0] bg-white p-5 shadow-[0_2px_10px_rgba(8,27,107,0.04)] md:p-6">
-            <div className="guide-insight-copy relative z-10">
-              <h3 className="font-headers flex items-center gap-2 text-lg font-extrabold text-brand-navy">
+          <article className="guide-insight-card guide-insight-card-with-photo overflow-hidden rounded-[22px] border border-[#E4E9F0] bg-white shadow-[0_2px_10px_rgba(8,27,107,0.04)]">
+            <div className="guide-insight-copy p-5 md:p-6">
+              <h3 className="font-headers flex items-center gap-2 text-base font-extrabold text-brand-navy sm:text-lg">
                 <Lightbulb className="h-5 w-5 text-brand-green" aria-hidden />
                 Dicas importantes
               </h3>
@@ -105,8 +108,8 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
               </ul>
             </div>
             {tipsPhoto ? (
-              <div className="guide-insight-wave-alt" aria-hidden>
-                <img src={tipsPhoto} alt="" className="h-full w-full object-cover" />
+              <div className="guide-insight-photo relative" aria-hidden>
+                <img src={tipsPhoto} alt="" className="absolute inset-0 h-full w-full object-cover" />
               </div>
             ) : null}
           </article>
@@ -114,7 +117,7 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
 
         {hasTrips ? (
           <article className="guide-insight-card rounded-[22px] border border-[#E4E9F0] bg-white p-5 shadow-[0_2px_10px_rgba(8,27,107,0.04)] md:p-6">
-            <h3 className="font-headers flex items-center gap-2 text-lg font-extrabold text-brand-navy">
+            <h3 className="font-headers flex items-center gap-2 text-base font-extrabold text-brand-navy sm:text-lg">
               <MapPin className="h-5 w-5 text-[#2F6FED]" aria-hidden />
               Bate-volta imperdíveis
             </h3>

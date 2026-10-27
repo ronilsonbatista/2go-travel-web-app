@@ -76,3 +76,30 @@ export function guideFrameList(guide) {
   }
   return unique;
 }
+
+/** Landmark filenames that tend to repeat (Eiffel, Liberty, etc.). Prefer alternatives when available. */
+const OVERUSED_FRAME = /eiffel|estatua-liberdade|liberty|coliseu|big-ben|burj-khalifa|tokyo-tower|hagia/i;
+
+/**
+ * Pick a frame for interior slots, avoiding already-used URLs and overused landmarks when alternatives exist.
+ */
+export function pickDiverseFrame(frames, { hints = [], used = null, fallbackIndex = 0, allowOverused = false } = {}) {
+  const pool = (frames || []).filter(Boolean);
+  if (!pool.length) return '';
+
+  const available = used ? pool.filter((src) => !used.has(src)) : pool;
+  const search = available.length ? available : pool;
+
+  for (const hint of hints) {
+    const hit = search.find((src) => String(src).toLowerCase().includes(String(hint).toLowerCase()));
+    if (hit && (allowOverused || !OVERUSED_FRAME.test(hit) || search.every((s) => OVERUSED_FRAME.test(s)))) {
+      if (used) used.add(hit);
+      return hit;
+    }
+  }
+
+  const fresh = search.find((src) => allowOverused || !OVERUSED_FRAME.test(src));
+  const chosen = fresh || search[fallbackIndex % search.length] || pool[0];
+  if (chosen && used) used.add(chosen);
+  return chosen || '';
+}

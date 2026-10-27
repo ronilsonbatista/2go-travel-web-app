@@ -360,7 +360,14 @@ body {
 }
 
 .guide-essential-photo-wrap {
-  clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+  border-radius: 0 16px 16px 0;
+  overflow: hidden;
+}
+
+@media (max-width: 639px) {
+  .guide-essential-photo-wrap {
+    border-radius: 0 14px 14px 0;
+  }
 }
 
 .guide-costs-layout {
@@ -384,8 +391,8 @@ body {
 
 @media (min-width: 1024px) {
   .guide-costs-layout {
-    grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.85fr);
-    gap: 1.35rem;
+    grid-template-columns: minmax(0, 1.4fr) minmax(220px, 0.75fr);
+    gap: 1.25rem;
   }
 
   .guide-costs-tiers {
@@ -393,14 +400,14 @@ body {
   }
 }
 
-.guide-cost-blob {
-  border-radius: 46% 54% 48% 52% / 32% 36% 64% 68%;
+.guide-cost-photo {
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .guide-cost-caption {
   font-family: var(--font-headers), sans-serif;
-  font-style: italic;
-  text-shadow: 0 2px 12px rgba(8, 27, 107, 0.45);
+  text-shadow: 0 2px 12px rgba(8, 27, 107, 0.4);
 }
 
 .guide-insights-grid {
@@ -416,46 +423,27 @@ body {
   }
 }
 
-.guide-insight-copy {
-  max-width: 100%;
+.guide-insight-card-with-photo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
 }
 
 @media (min-width: 640px) {
-  .guide-insight-card:has(.guide-insight-wave) .guide-insight-copy,
-  .guide-insight-card:has(.guide-insight-wave-alt) .guide-insight-copy {
-    max-width: 72%;
+  .guide-insight-card-with-photo {
+    grid-template-columns: minmax(0, 1.15fr) minmax(112px, 0.55fr);
   }
 }
 
-.guide-insight-wave,
-.guide-insight-wave-alt {
-  pointer-events: none;
-  position: absolute;
-  top: 2.5rem;
-  right: -0.25rem;
-  bottom: 0;
-  width: 38%;
-  max-width: 160px;
+.guide-insight-photo {
+  display: none;
   overflow: hidden;
-  opacity: 0.95;
+  border-radius: 0 18px 18px 0;
 }
 
-.guide-insight-wave {
-  clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 28%, 10% 16%);
-}
-
-.guide-insight-wave-alt {
-  clip-path: polygon(0% 12%, 22% 0%, 100% 0%, 100% 100%, 0% 100%);
-}
-
-@media (max-width: 639px) {
-  .guide-insight-wave,
-  .guide-insight-wave-alt {
-    width: 32%;
-    opacity: 0.55;
-  }
-
-  .guide-insight-copy {
-    max-width: 78%;
+@media (min-width: 640px) {
+  .guide-insight-photo {
+    display: block;
+    min-height: 100%;
   }
 }
