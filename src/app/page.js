@@ -399,7 +399,7 @@ export default function Home() {
                     <button
                       type="button"
                       onClick={() => setIsDownloadOpen(true)}
-                      className="inline-flex items-center gap-1.5 text-sm font-extrabold text-brand-orange hover:text-brand-orange/80 transition-all cursor-pointer pb-1 border-b-2 border-brand-orange/20 hover:border-brand-orange"
+                      className="inline-flex min-h-11 items-center gap-1.5 text-sm font-extrabold text-brand-orange hover:text-brand-orange/80 transition-all cursor-pointer py-2 border-b-2 border-brand-orange/20 hover:border-brand-orange"
                     >
                       <span>Baixar o App</span>
                       <ArrowRight className="w-4 h-4" />
@@ -521,7 +521,7 @@ export default function Home() {
         {/* Prévia real do app — O roteiro na prática */}
         <section
           id="seu-roteiro-na-pratica"
-          className="py-12 lg:py-28 bg-white border-b border-border-gray/50 scroll-mt-20"
+          className="pt-12 pb-24 lg:py-28 bg-white border-b border-border-gray/50 scroll-mt-20"
           aria-labelledby="seu-roteiro-na-pratica-title"
         >
           <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px] w-full">
@@ -594,7 +594,7 @@ export default function Home() {
               </div>
               <Link
                 href="/guias"
-                className="text-sm font-bold text-brand-orange hover:text-[#96AB21] flex items-center gap-1 transition-colors whitespace-nowrap cursor-pointer"
+                className="inline-flex min-h-11 items-center gap-1 text-sm font-bold text-brand-orange hover:text-[#96AB21] transition-colors whitespace-nowrap cursor-pointer"
               >
                 Ver todos &rarr;
               </Link>
@@ -608,7 +608,7 @@ export default function Home() {
                     key={cat.id}
                     type="button"
                     onClick={() => setGuideContinent(cat.id)}
-                    className={`px-4 sm:px-5 py-2.5 rounded-full border text-xs sm:text-sm font-extrabold shrink-0 transition-all duration-300 shadow-sm cursor-pointer ${
+                    className={`min-h-11 px-4 sm:px-5 py-2.5 rounded-full border text-xs sm:text-sm font-extrabold shrink-0 transition-all duration-300 shadow-sm cursor-pointer ${
                       selected
                         ? 'bg-brand-navy text-white border-brand-navy'
                         : 'bg-white border-border-gray/70 text-brand-navy hover:border-[#96AB21] hover:text-[#96AB21]'

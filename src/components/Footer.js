@@ -5,7 +5,7 @@ import StoreDownloadButtons from './StoreDownloadButtons';
 
 export default function Footer({ onOpenDownload }) {
   return (
-    <footer className="bg-[#081B6B] text-white pt-16 sm:pt-20 pb-28 lg:pb-10 overflow-x-clip">
+    <footer className="bg-[#081B6B] text-white pt-16 sm:pt-20 pb-32 lg:pb-10 overflow-x-clip">
       <div className="container mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 mb-16">
         
         {/* Brand Information */}
@@ -27,19 +27,19 @@ export default function Footer({ onOpenDownload }) {
             Destinos e guias para inspirar. O dia a dia da viagem fica no aplicativo.
           </p>
           <div className="flex gap-4">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 text-white flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:-translate-y-0.5" aria-label="Instagram">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="inline-flex h-11 w-11 min-h-11 min-w-11 rounded-full border border-white/20 text-white items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:-translate-y-0.5" aria-label="Instagram">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
               </svg>
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 text-white flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:-translate-y-0.5" aria-label="Facebook">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="inline-flex h-11 w-11 min-h-11 min-w-11 rounded-full border border-white/20 text-white items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:-translate-y-0.5" aria-label="Facebook">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
               </svg>
             </a>
-            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 text-white flex items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:-translate-y-0.5" aria-label="X (Twitter)">
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="inline-flex h-11 w-11 min-h-11 min-w-11 rounded-full border border-white/20 text-white items-center justify-center transition-all hover:border-brand-orange hover:text-brand-orange hover:-translate-y-0.5" aria-label="X (Twitter)">
               <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
               </svg>
@@ -50,19 +50,19 @@ export default function Footer({ onOpenDownload }) {
         {/* Company Links */}
         <div>
           <h4 className="font-headers text-base font-bold text-white mb-6">Empresa</h4>
-          <ul className="flex flex-col gap-3 list-none m-0 p-0">
+          <ul className="flex flex-col gap-1 list-none m-0 p-0">
             <li>
-              <Link href="/quem-somos" className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block">
+              <Link href="/quem-somos" className="inline-flex min-h-11 items-center text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left">
                 Quem somos
               </Link>
             </li>
             <li>
-              <Link href="/guias" className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block">
+              <Link href="/guias" className="inline-flex min-h-11 items-center text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left">
                 Guia de Viagem
               </Link>
             </li>
             <li>
-              <Link href="/roteiros" className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block">
+              <Link href="/roteiros" className="inline-flex min-h-11 items-center text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left">
                 Roteiros
               </Link>
             </li>
@@ -72,12 +72,12 @@ export default function Footer({ onOpenDownload }) {
         {/* Services Links */}
         <div>
           <h4 className="font-headers text-base font-bold text-white mb-6">Serviços</h4>
-          <ul className="flex flex-col gap-3 list-none m-0 p-0">
+          <ul className="flex flex-col gap-1 list-none m-0 p-0">
             <li>
               <button
                 type="button"
                 onClick={onOpenDownload}
-                className="text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left block"
+                className="inline-flex min-h-11 items-center text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left"
               >
                 Baixar App
               </button>
@@ -103,10 +103,10 @@ export default function Footer({ onOpenDownload }) {
             Ambiente seguro
           </span>
         </div>
-        <p className="flex gap-4">
-          <Link href="/termos-de-uso" className="hover:text-brand-orange transition-colors">Termos de Uso</Link>
-          <span>|</span>
-          <Link href="/politica-de-privacidade" className="hover:text-brand-orange transition-colors">Política de Privacidade</Link>
+        <p className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 md:justify-end">
+          <Link href="/termos-de-uso" className="inline-flex min-h-11 items-center hover:text-brand-orange transition-colors">Termos de Uso</Link>
+          <span aria-hidden className="hidden sm:inline">|</span>
+          <Link href="/politica-de-privacidade" className="inline-flex min-h-11 items-center hover:text-brand-orange transition-colors">Política de Privacidade</Link>
         </p>
       </div>
     </footer>

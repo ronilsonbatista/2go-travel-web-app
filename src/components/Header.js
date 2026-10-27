@@ -4,11 +4,13 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
+import { useUiOverlayLock } from './UiOverlayContext';
 
 export default function Header({ onOpenDownload, solid = false, overDark = false }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
+  useUiOverlayLock(isMobileMenuOpen);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -104,15 +106,15 @@ export default function Header({ onOpenDownload, solid = false, overDark = false
         </div>
       </header>
 
-      {/* Mobile Nav Sidebar Drawer Overlay */}
+      {/* Mobile Nav Sidebar Drawer Overlay — above FAB (z-900) so CTAs stay tappable */}
       <div 
-        className={`fixed inset-0 bg-black/40 backdrop-blur-md z-45 transition-opacity duration-300 lg:hidden ${
+        className={`fixed inset-0 bg-black/40 backdrop-blur-md z-[1100] transition-opacity duration-300 lg:hidden ${
           isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
         onClick={() => setIsMobileMenuOpen(false)}
       >
         <div 
-          className={`fixed top-0 right-0 w-[285px] h-screen bg-white/95 backdrop-blur-2xl border-l border-border-gray/30 p-6 pt-24 flex flex-col gap-6 z-50 transition-transform duration-300 shadow-2xl ease-out overflow-y-auto ${
+          className={`fixed top-0 right-0 w-[285px] h-screen bg-white/95 backdrop-blur-2xl border-l border-border-gray/30 p-6 pt-24 flex flex-col gap-6 z-[1101] transition-transform duration-300 shadow-2xl ease-out overflow-y-auto ${
             isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
           onClick={(e) => e.stopPropagation()}
@@ -131,14 +133,14 @@ export default function Header({ onOpenDownload, solid = false, overDark = false
             ))}
           </ul>
           
-          <div className="mt-auto flex flex-col gap-3.5 pt-4 border-t border-border-gray/30">
+          <div className="mt-auto flex flex-col gap-3.5 pt-4 pb-[max(0.5rem,env(safe-area-inset-bottom,0px))] border-t border-border-gray/30">
             <button 
               type="button"
               onClick={() => {
                 setIsMobileMenuOpen(false);
                 onOpenDownload();
               }}
-              className="w-full min-h-11 bg-[#081B6B] hover:bg-[#06144f] text-white py-3.5 px-4 flex items-center justify-center cursor-pointer font-bold rounded-xl shadow-md shadow-brand-navy/10 text-sm border-none whitespace-nowrap"
+              className="w-full min-h-11 bg-[#081B6B] hover:bg-[#06144f] text-white py-3.5 px-4 pr-5 flex items-center justify-center cursor-pointer font-bold rounded-xl shadow-md shadow-brand-navy/10 text-sm border-none whitespace-nowrap"
             >
               Criar meu roteiro
             </button>

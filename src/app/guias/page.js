@@ -210,7 +210,7 @@ export default function GuiasIndex() {
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header solid onOpenDownload={() => setIsDownloadOpen(true)} />
 
-      <main className="flex-grow pt-28 pb-28 lg:pb-20">
+      <main className="flex-grow pt-28 pb-32 lg:pb-20">
         <div className="container mx-auto max-w-[1440px] w-full px-4 sm:px-6 lg:px-8 text-left min-w-0">
           <Breadcrumbs items={[{ name: 'Guia de Viagem', url: '/guias' }]} />
 
@@ -327,7 +327,7 @@ export default function GuiasIndex() {
                     setSearchQuery('');
                     scrollToDestinos();
                   }}
-                  className="ml-1 inline-flex items-center gap-1 text-sm font-extrabold text-brand-orange transition-colors hover:text-brand-navy"
+                  className="ml-1 inline-flex min-h-11 items-center gap-1 px-1 text-sm font-extrabold text-brand-orange transition-colors hover:text-brand-navy"
                 >
                   Ver todos
                   <ArrowRight className="h-4 w-4" />
