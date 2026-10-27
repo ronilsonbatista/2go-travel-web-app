@@ -142,7 +142,7 @@ export default function GuiasHeroHighlight({ destinations = [] }) {
               type="button"
               aria-label="Destino anterior"
               onClick={() => step(-1)}
-              className="absolute left-3 top-1/2 z-10 inline-flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/50 bg-white/85 text-brand-navy shadow-sm backdrop-blur-sm transition-colors hover:border-brand-orange hover:text-brand-orange sm:left-4"
+              className="absolute left-3 top-1/2 z-10 inline-flex h-11 w-11 min-h-11 min-w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/50 bg-white/85 text-brand-navy shadow-sm backdrop-blur-sm transition-colors hover:border-brand-orange hover:text-brand-orange sm:left-4"
             >
               <ChevronLeft className="h-4 w-4" />
             </button>
@@ -150,7 +150,7 @@ export default function GuiasHeroHighlight({ destinations = [] }) {
               type="button"
               aria-label="Próximo destino"
               onClick={() => step(1)}
-              className="absolute right-3 top-1/2 z-10 inline-flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-white/50 bg-white/85 text-brand-navy shadow-sm backdrop-blur-sm transition-colors hover:border-brand-orange hover:text-brand-orange sm:right-4"
+              className="absolute right-3 top-1/2 z-10 inline-flex h-11 w-11 min-h-11 min-w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/50 bg-white/85 text-brand-navy shadow-sm backdrop-blur-sm transition-colors hover:border-brand-orange hover:text-brand-orange sm:right-4"
             >
               <ChevronRight className="h-4 w-4" />
             </button>
@@ -159,7 +159,7 @@ export default function GuiasHeroHighlight({ destinations = [] }) {
       </div>
 
       {count > 1 ? (
-        <div className="mt-3 flex items-center justify-center gap-1.5" role="tablist" aria-label="Destinos do destaque">
+        <div className="mt-3 flex items-center justify-center gap-1" role="tablist" aria-label="Destinos do destaque">
           {slides.map((slide, slideIndex) => {
             const selected = slideIndex === ((index % count) + count) % count;
             return (
@@ -170,10 +170,14 @@ export default function GuiasHeroHighlight({ destinations = [] }) {
                 aria-selected={selected}
                 aria-label={slide.city}
                 onClick={() => goTo(slideIndex)}
-                className={`h-2.5 rounded-full transition-all ${
-                  selected ? 'w-6 bg-brand-orange' : 'w-2.5 bg-brand-navy/20 hover:bg-brand-navy/40'
-                }`}
-              />
+                className="inline-flex h-11 min-w-11 items-center justify-center"
+              >
+                <span
+                  className={`block h-2.5 rounded-full transition-all ${
+                    selected ? 'w-6 bg-brand-orange' : 'w-2.5 bg-brand-navy/20'
+                  }`}
+                />
+              </button>
             );
           })}
         </div>

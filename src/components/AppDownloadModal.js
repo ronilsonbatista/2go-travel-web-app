@@ -8,6 +8,7 @@ import {
   getPlayStoreUrl,
   getPreferredDownloadUrl
 } from '@/lib/appDownload';
+import { useUiOverlayLock } from './UiOverlayContext';
 
 export default function AppDownloadModal({ isOpen, onClose }) {
   const titleId = useId();
@@ -15,6 +16,7 @@ export default function AppDownloadModal({ isOpen, onClose }) {
   const dialogRef = useRef(null);
   const closeRef = useRef(null);
   const previouslyFocused = useRef(null);
+  useUiOverlayLock(isOpen);
 
   const appStore = getAppStoreUrl();
   const playStore = getPlayStoreUrl();

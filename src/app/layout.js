@@ -1,6 +1,7 @@
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import Script from 'next/script';
 import AppFloatingButton from "@/components/AppFloatingButton";
+import { UiOverlayProvider } from "@/components/UiOverlayContext";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -79,10 +80,12 @@ export default function RootLayout({ children }) {
           </noscript>
         ) : null}
 
-        {children}
+        <UiOverlayProvider>
+          {children}
 
-        {/* Global Floating Mobile Download button */}
-        <AppFloatingButton />
+          {/* Global Floating Mobile Download button */}
+          <AppFloatingButton />
+        </UiOverlayProvider>
       </body>
     </html>
   );

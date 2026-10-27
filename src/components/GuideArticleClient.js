@@ -315,7 +315,7 @@ export default function GuideArticleClient({ guide }) {
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header overDark onOpenDownload={() => setIsDownloadOpen(true)} />
 
-      <main className="flex-grow pb-28 lg:pb-20">
+      <main className="flex-grow pb-32 lg:pb-20">
         <section className="relative h-[100svh] min-h-[520px] sm:min-h-[620px] overflow-hidden bg-[#0b1220]">
           {frames.map((src, index) => (
             <img
@@ -559,7 +559,7 @@ export default function GuideArticleClient({ guide }) {
                         {item.title}
                       </h3>
                       <p
-                        className={`mt-3 leading-relaxed text-text-muted ${
+                        className={`mt-3 leading-relaxed text-slate-700 ${
                           itinerarySingle ? 'text-sm sm:text-base' : 'text-sm'
                         }`}
                       >
@@ -618,7 +618,7 @@ export default function GuideArticleClient({ guide }) {
                       >
                         {att.name}
                       </h3>
-                      <p className="mt-2 text-sm leading-relaxed text-text-muted">{att.desc}</p>
+                      <p className="mt-2 text-sm leading-relaxed text-slate-700">{att.desc}</p>
                       {att.whyVisit ? (
                         <p className="mt-2 text-sm leading-relaxed text-text-muted">{att.whyVisit}</p>
                       ) : null}
