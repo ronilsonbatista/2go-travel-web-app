@@ -46,15 +46,15 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
 
   return (
     <section className="text-left">
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-5">
+      <div className="guide-insights-grid">
         {hasMistakes ? (
-          <article className="relative overflow-hidden rounded-[24px] border border-border-gray/80 bg-white p-5 shadow-sm sm:p-6">
-            <div className="relative z-10 max-w-[92%] sm:max-w-[78%]">
-              <h3 className="font-headers flex items-center gap-2 text-lg font-extrabold text-brand-navy sm:text-xl">
+          <article className="guide-insight-card relative overflow-hidden rounded-[22px] border border-[#E4E9F0] bg-white p-5 shadow-[0_2px_10px_rgba(8,27,107,0.04)] md:p-6">
+            <div className="guide-insight-copy relative z-10">
+              <h3 className="font-headers flex items-center gap-2 text-lg font-extrabold text-brand-navy">
                 <AlertTriangle className="h-5 w-5 text-brand-orange" aria-hidden />
                 Erros comuns
               </h3>
-              <ol className="mt-5 space-y-4">
+              <ol className="mt-5 space-y-3.5">
                 {mistakes.map((item, idx) => (
                   <li key={`${item.title}-${idx}`} className="flex items-start gap-3">
                     <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-orange text-[12px] font-extrabold text-white">
@@ -65,7 +65,7 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
                         {item.title}
                       </span>
                       {item.detail ? (
-                        <span className="mt-0.5 block text-[13px] leading-relaxed text-text-muted">
+                        <span className="mt-0.5 block text-[12.5px] leading-relaxed text-text-muted">
                           {item.detail}
                         </span>
                       ) : null}
@@ -75,30 +75,26 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
               </ol>
             </div>
             {mistakesPhoto ? (
-              <div
-                className="guide-insight-wave pointer-events-none absolute -right-2 bottom-0 top-10 w-[42%] max-w-[160px] sm:top-8 sm:w-[38%]"
-                aria-hidden
-              >
-                <img
-                  src={mistakesPhoto}
-                  alt=""
-                  className="h-full w-full object-cover"
-                />
+              <div className="guide-insight-wave" aria-hidden>
+                <img src={mistakesPhoto} alt="" className="h-full w-full object-cover" />
               </div>
             ) : null}
           </article>
         ) : null}
 
         {hasTips ? (
-          <article className="relative overflow-hidden rounded-[24px] border border-border-gray/80 bg-white p-5 shadow-sm sm:p-6">
-            <div className="relative z-10 max-w-[92%] sm:max-w-[78%]">
-              <h3 className="font-headers flex items-center gap-2 text-lg font-extrabold text-brand-navy sm:text-xl">
+          <article className="guide-insight-card relative overflow-hidden rounded-[22px] border border-[#E4E9F0] bg-white p-5 shadow-[0_2px_10px_rgba(8,27,107,0.04)] md:p-6">
+            <div className="guide-insight-copy relative z-10">
+              <h3 className="font-headers flex items-center gap-2 text-lg font-extrabold text-brand-navy">
                 <Lightbulb className="h-5 w-5 text-brand-green" aria-hidden />
                 Dicas importantes
               </h3>
-              <ul className="mt-5 space-y-3.5">
+              <ul className="mt-5 space-y-3">
                 {tips.map((tip) => (
-                  <li key={tip} className="flex items-start gap-2.5 text-sm leading-relaxed text-text-muted">
+                  <li
+                    key={tip}
+                    className="flex items-start gap-2.5 text-sm leading-relaxed text-text-muted"
+                  >
                     <CheckCircle2
                       className="mt-0.5 h-5 w-5 shrink-0 text-brand-green"
                       aria-hidden
@@ -109,10 +105,7 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
               </ul>
             </div>
             {tipsPhoto ? (
-              <div
-                className="guide-insight-wave-alt pointer-events-none absolute -right-1 bottom-0 top-12 w-[40%] max-w-[150px] sm:top-10 sm:w-[36%]"
-                aria-hidden
-              >
+              <div className="guide-insight-wave-alt" aria-hidden>
                 <img src={tipsPhoto} alt="" className="h-full w-full object-cover" />
               </div>
             ) : null}
@@ -120,8 +113,8 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
         ) : null}
 
         {hasTrips ? (
-          <article className="rounded-[24px] border border-border-gray/80 bg-white p-5 shadow-sm sm:p-6">
-            <h3 className="font-headers flex items-center gap-2 text-lg font-extrabold text-brand-navy sm:text-xl">
+          <article className="guide-insight-card rounded-[22px] border border-[#E4E9F0] bg-white p-5 shadow-[0_2px_10px_rgba(8,27,107,0.04)] md:p-6">
+            <h3 className="font-headers flex items-center gap-2 text-lg font-extrabold text-brand-navy">
               <MapPin className="h-5 w-5 text-[#2F6FED]" aria-hidden />
               Bate-volta imperdíveis
             </h3>
@@ -131,13 +124,9 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
                 return (
                   <li key={trip.raw}>
                     <div className="flex min-h-14 items-center gap-3 py-3 first:pt-0 last:pb-0">
-                      <span className="h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-bg-light sm:h-[52px] sm:w-[52px]">
+                      <span className="h-12 w-14 shrink-0 overflow-hidden rounded-xl bg-bg-light">
                         {thumb ? (
-                          <img
-                            src={thumb}
-                            alt=""
-                            className="h-full w-full object-cover"
-                          />
+                          <img src={thumb} alt="" className="h-full w-full object-cover" />
                         ) : null}
                       </span>
                       <span className="min-w-0 flex-1">
@@ -150,10 +139,7 @@ export default function GuideInsightsTrio({ guide, frames: framesProp }) {
                           </span>
                         ) : null}
                       </span>
-                      <ChevronRight
-                        className="h-5 w-5 shrink-0 text-brand-orange"
-                        aria-hidden
-                      />
+                      <ChevronRight className="h-5 w-5 shrink-0 text-brand-orange" aria-hidden />
                     </div>
                   </li>
                 );

@@ -69,7 +69,7 @@ export default function GuideEssentialInfo({ guide, frames: framesProp }) {
     return {
       ...def,
       full,
-      summary: firstSentences(full, 2, 148),
+      summary: firstSentences(full, 2, 130),
       image: pickCardImage(guide, frames, def.imageHints, idx + 1)
     };
   }).filter(Boolean);
@@ -79,15 +79,16 @@ export default function GuideEssentialInfo({ guide, frames: framesProp }) {
   return (
     <section id="praticos" className="scroll-mt-28 text-left">
       <div className="mb-6 max-w-3xl">
-        <h2 className="font-headers text-3xl font-extrabold tracking-tight text-brand-navy sm:text-4xl">
+        <h2 className="font-headers text-3xl font-extrabold tracking-tight text-brand-navy md:text-4xl">
           Informações essenciais
         </h2>
-        <p className="mt-2 text-sm leading-relaxed text-text-muted sm:text-base">
+        <p className="mt-2 text-sm leading-relaxed text-text-muted md:text-base">
           O básico para chegar, se comunicar e se organizar em {guide.city} — sem enrolação.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-4">
+      {/* Desktop: 4 cards in one row. Use explicit auto-fit fallback via CSS class. */}
+      <div className="guide-essentials-grid">
         {cards.map((card) => {
           const Icon = card.Icon;
           const open = openId === card.id;
@@ -98,56 +99,54 @@ export default function GuideEssentialInfo({ guide, frames: framesProp }) {
             <article
               key={card.id}
               id={card.sectionId}
-              className={`group relative overflow-hidden rounded-[22px] border border-border-gray/80 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-orange/35 hover:shadow-md ${
+              className={`guide-essential-card group relative flex overflow-hidden rounded-[20px] border border-[#E4E9F0] bg-white shadow-[0_2px_10px_rgba(8,27,107,0.04)] transition-transform duration-300 hover:-translate-y-0.5 ${
                 card.sectionId ? 'scroll-mt-28' : ''
               }`}
             >
-              <div className="flex h-full min-h-[168px]">
-                <div className="flex min-w-0 flex-1 flex-col p-4 pr-2 sm:p-5 sm:pr-3">
-                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border-[1.5px] border-brand-orange text-brand-orange">
-                    <Icon className="h-[18px] w-[18px]" strokeWidth={2.15} />
-                  </span>
-                  <h3 className="font-headers mt-3 text-[15px] font-extrabold leading-snug text-brand-navy sm:text-base">
-                    {card.title}
-                  </h3>
-                  <p className="mt-2 flex-1 text-[13px] leading-relaxed text-text-muted">
-                    {open ? card.full : card.summary}
-                  </p>
-                  {expandable ? (
-                    <button
-                      type="button"
-                      aria-expanded={open}
-                      aria-controls={panelId}
-                      onClick={() => setOpenId(open ? null : card.id)}
-                      className="mt-3 inline-flex min-h-11 w-fit items-center gap-1 text-brand-orange transition-transform hover:translate-x-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange/40"
-                    >
-                      <ChevronRight
-                        className={`h-5 w-5 transition-transform duration-300 ${open ? 'rotate-90' : ''}`}
-                      />
-                      <span className="sr-only">
-                        {open ? 'Recolher' : 'Expandir'} {card.title}
-                      </span>
-                    </button>
-                  ) : (
-                    <span className="mt-3 inline-flex text-brand-orange" aria-hidden>
-                      <ChevronRight className="h-5 w-5 opacity-70" />
+              <div className="flex min-w-0 flex-1 flex-col p-4 pr-3 md:p-5 md:pr-3">
+                <span className="inline-flex h-9 w-9 items-center justify-center rounded-full border-[1.5px] border-brand-orange text-brand-orange">
+                  <Icon className="h-[17px] w-[17px]" strokeWidth={2.2} aria-hidden />
+                </span>
+                <h3 className="font-headers mt-3 text-[15px] font-extrabold leading-snug text-brand-navy">
+                  {card.title}
+                </h3>
+                <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-text-muted">
+                  {open ? card.full : card.summary}
+                </p>
+                {expandable ? (
+                  <button
+                    type="button"
+                    aria-expanded={open}
+                    aria-controls={panelId}
+                    onClick={() => setOpenId(open ? null : card.id)}
+                    className="mt-3 inline-flex min-h-11 w-fit items-center text-brand-orange focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange/40"
+                  >
+                    <ChevronRight
+                      className={`h-5 w-5 transition-transform duration-300 ${open ? 'rotate-90' : ''}`}
+                    />
+                    <span className="sr-only">
+                      {open ? 'Recolher' : 'Expandir'} {card.title}
                     </span>
-                  )}
-                  <div id={panelId} hidden={!open} className="sr-only">
-                    {card.full}
-                  </div>
+                  </button>
+                ) : (
+                  <span className="mt-3 inline-flex text-brand-orange" aria-hidden>
+                    <ChevronRight className="h-5 w-5" />
+                  </span>
+                )}
+                <div id={panelId} hidden={!open} className="sr-only">
+                  {card.full}
                 </div>
-                <div className="relative w-[38%] min-w-[96px] max-w-[128px] shrink-0 self-stretch py-3 pr-3">
-                  <div className="guide-essential-photo relative h-full min-h-[140px] overflow-hidden rounded-[18px] bg-bg-light shadow-sm">
-                    {card.image ? (
-                      <img
-                        src={card.image}
-                        alt=""
-                        className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                    ) : null}
-                  </div>
-                </div>
+              </div>
+              <div className="guide-essential-photo-wrap relative w-[42%] max-w-[132px] shrink-0 self-stretch">
+                {card.image ? (
+                  <img
+                    src={card.image}
+                    alt=""
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                  />
+                ) : (
+                  <div className="absolute inset-0 bg-bg-light" />
+                )}
               </div>
             </article>
           );
@@ -155,7 +154,7 @@ export default function GuideEssentialInfo({ guide, frames: framesProp }) {
       </div>
 
       {guide.internet ? (
-        <div className="mt-4 rounded-2xl border border-dashed border-border-gray bg-[#F7F8FA]/80 px-4 py-3 text-sm leading-relaxed text-text-muted sm:px-5">
+        <div className="mt-4 rounded-2xl border border-dashed border-border-gray bg-[#F7F8FA]/80 px-4 py-3 text-sm leading-relaxed text-text-muted md:px-5">
           <span className="font-extrabold text-brand-navy">Internet & conectividade: </span>
           {guide.internet}
         </div>
