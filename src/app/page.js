@@ -722,38 +722,39 @@ export default function Home() {
           </ScrollReveal>
         </section>
 
-        {/* 8. FINAL CTA — copy left + brand photo panel (no phone) */}
+        {/* 8. FINAL CTA — text + buttons only (no phone, no photo) */}
         <section className="py-10 lg:py-20 bg-[#F7F8FA] relative overflow-hidden">
           <div className="absolute top-10 left-10 w-2.5 h-2.5 bg-brand-orange/40 rounded-full"></div>
           <div className="absolute bottom-20 left-1/3 w-3 h-3 bg-brand-green/30 rounded-full"></div>
 
-          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1120px] w-full">
-            <div className="bg-[#FAF9F6] text-brand-navy relative overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-stretch text-left shadow-lg border border-brand-navy/5 rounded-[24px] lg:rounded-[28px]">
-              <div className="absolute -bottom-24 -left-24 w-80 h-80 bg-[#96AB21]/10 rounded-full blur-[90px] pointer-events-none select-none"></div>
+          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[920px] w-full">
+            <div className="relative overflow-hidden rounded-[24px] lg:rounded-[28px] border border-brand-navy/5 bg-[#FAF9F6] px-5 py-8 sm:px-10 sm:py-10 md:px-14 md:py-12 text-center shadow-lg">
+              <div className="absolute -top-24 -right-16 w-72 h-72 bg-brand-orange/10 rounded-full blur-[90px] pointer-events-none select-none"></div>
+              <div className="absolute -bottom-24 -left-16 w-72 h-72 bg-[#081B6B]/8 rounded-full blur-[90px] pointer-events-none select-none"></div>
 
-              <div className="lg:col-span-6 xl:col-span-7 flex flex-col justify-center gap-3 sm:gap-4 relative z-10 w-full min-w-0 px-5 py-7 sm:px-8 sm:py-9 md:px-10 lg:pl-12 lg:pr-8 lg:py-11">
+              <div className="relative z-10 flex flex-col items-center gap-3 sm:gap-4">
                 <span className="bg-brand-orange text-white text-[11px] font-extrabold tracking-widest px-2.5 py-1 rounded-full w-fit">
                   Roteiros personalizados
                 </span>
-                <h2 className="font-headers text-2xl sm:text-3xl md:text-[2.15rem] lg:text-[2.35rem] font-black leading-[1.12] tracking-tight text-brand-navy">
+                <h2 className="font-headers text-2xl sm:text-3xl md:text-[2.35rem] lg:text-[2.5rem] font-black leading-[1.12] tracking-tight text-brand-navy max-w-2xl">
                   Crie seu roteiro personalizado
                 </h2>
-                <p className="text-sm text-text-muted leading-relaxed max-w-md">
+                <p className="text-sm sm:text-base text-text-muted leading-relaxed max-w-lg">
                   Planeje sua próxima viagem do seu jeito, com muito mais praticidade.
                 </p>
 
-                <div className="flex flex-col gap-1.5 mt-1 w-full sm:w-auto items-center sm:items-start">
-                  <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                <div className="flex flex-col gap-2 mt-2 w-full sm:w-auto items-center">
+                  <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto justify-center">
                     <button
                       type="button"
                       onClick={() => setIsDownloadOpen(true)}
-                      className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 py-3 sm:px-7 sm:py-3.5 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 border-none text-sm"
+                      className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 border-none text-sm"
                     >
                       Criar meu roteiro
                     </button>
                     <Link
                       href="/roteiros"
-                      className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-6 py-3 sm:px-7 sm:py-3.5 rounded-xl transition-all flex items-center justify-center bg-transparent text-sm"
+                      className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl transition-all flex items-center justify-center bg-transparent text-sm"
                     >
                       Ver roteiros
                     </Link>
@@ -761,29 +762,6 @@ export default function Home() {
                   <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-0.5">
                     A prévia fica no site. O dia a dia, no aplicativo.
                   </p>
-                </div>
-              </div>
-
-              <div className="lg:col-span-6 xl:col-span-5 relative z-10 w-full min-h-[240px] sm:min-h-[280px] lg:min-h-[320px]">
-                <div className="absolute inset-0 overflow-hidden">
-                  <img
-                    src="/images/destinations/paris/paris-eiffel-seine.jpg"
-                    alt="Paris ao entardecer — inspira o roteiro personalizado 2GO"
-                    className="absolute inset-0 h-full w-full object-cover object-[center_35%] scale-[1.02] transition-transform duration-700 ease-out hover:scale-105"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                  {/* Soft brand washes — short seam into cream (top on mobile, left edge on desktop) */}
-                  <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-[#FAF9F6] to-transparent lg:hidden pointer-events-none"></div>
-                  <div className="absolute inset-y-0 left-0 w-16 sm:w-20 bg-gradient-to-r from-[#FAF9F6] to-transparent hidden lg:block pointer-events-none"></div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#081B6B]/55 via-transparent to-transparent pointer-events-none"></div>
-                  <div className="absolute inset-0 bg-gradient-to-br from-brand-orange/20 via-transparent to-[#96AB21]/12 mix-blend-soft-light pointer-events-none"></div>
-                  {/* Destination cue sits in the photo plane */}
-                  <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-6 lg:p-7">
-                    <p className="font-headers text-white/95 text-sm sm:text-[15px] font-extrabold tracking-tight drop-shadow-[0_1px_8px_rgba(8,27,107,0.45)]">
-                      Paris · Roma · e o mundo no seu ritmo
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
