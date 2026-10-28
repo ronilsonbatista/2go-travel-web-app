@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
-import AppPhoneMockup, { PhoneFrame, PhoneScreenImage } from './AppPhoneMockup';
+import { PhoneFrame, PhoneScreenImage } from './AppPhoneMockup';
 
 export default function RoteirosClient() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
@@ -49,14 +49,27 @@ export default function RoteirosClient() {
                   A home mostra a viagem que vem. O roteiro abre o dia, o horário e o mapa. Você ajusta tudo no app.
                 </p>
               </div>
-              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-6 sm:gap-8 py-6 lg:py-2">
-                <PhoneFrame size="md" className="max-w-[200px] sm:max-w-[230px]" glowClassName="bg-[#081B6B]/18">
+              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-5 sm:gap-7 py-6 lg:py-2">
+                <PhoneFrame
+                  size="md"
+                  className="max-w-[168px] sm:max-w-[196px]"
+                  glowClassName="bg-[#081B6B]/18"
+                >
                   <PhoneScreenImage
                     src="/assets/app-home-gustavo.webp"
                     alt="Tela inicial do app 2GO, com a próxima viagem para Roma"
                   />
                 </PhoneFrame>
-                <AppPhoneMockup variant="roma" size="md" className="max-w-[200px] sm:max-w-[230px]" />
+                <PhoneFrame
+                  size="md"
+                  className="max-w-[168px] sm:max-w-[196px] translate-y-3 sm:translate-y-5"
+                  glowClassName="bg-brand-orange/18"
+                >
+                  <PhoneScreenImage
+                    src="/assets/app-roteiro-roma.webp"
+                    alt="Dia 1 do roteiro de Roma no app 2GO, com countdown, datas e timeline"
+                  />
+                </PhoneFrame>
               </div>
             </div>
           </section>

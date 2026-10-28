@@ -137,107 +137,131 @@ const META = {
 };
 
 const SIZE_CLASS = {
-  sm: 'w-full max-w-[180px]',
-  md: 'w-full max-w-[240px] sm:max-w-[280px]',
-  lg: 'w-full max-w-[250px] sm:max-w-[300px] lg:max-w-[320px]'
+  sm: 'w-full max-w-[152px]',
+  md: 'w-full max-w-[190px] sm:max-w-[220px]',
+  lg: 'w-full max-w-[210px] sm:max-w-[250px] lg:max-w-[270px]'
 };
 
 /**
  * Realistic iPhone chassis — shared by AppPhoneMockup and image-based frames.
+ * Rounder corners, tighter scale, Dynamic Island + status-bar chrome.
  */
 export function PhoneFrame({
   children,
   size = 'md',
   className = '',
   glow = true,
-  glowClassName = 'bg-brand-orange/20'
+  glowClassName = 'bg-brand-orange/20',
+  showStatusBar = false
 }) {
   return (
     <div className={`relative mx-auto select-none ${SIZE_CLASS[size] || SIZE_CLASS.md} ${className}`}>
       {glow && (
         <div
           aria-hidden
-          className={`pointer-events-none absolute -bottom-7 left-1/2 h-14 w-[70%] -translate-x-1/2 rounded-full blur-2xl ${glowClassName}`}
+          className={`pointer-events-none absolute -bottom-6 left-1/2 h-12 w-[65%] -translate-x-1/2 rounded-full blur-2xl ${glowClassName}`}
         />
       )}
 
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-[10%] -bottom-2.5 h-5 rounded-[50%] bg-black/20 blur-lg"
+        className="pointer-events-none absolute inset-x-[12%] -bottom-2 h-4 rounded-[50%] bg-black/18 blur-lg"
       />
 
       {/* Side buttons */}
       <span
         aria-hidden
-        className="pointer-events-none absolute -left-[2px] top-[16.5%] z-20 h-[18px] w-[2.5px] rounded-l-full bg-gradient-to-b from-[#6b7078] via-[#3a3e46] to-[#1c1f24] shadow-[inset_0_1px_0_rgba(255,255,255,0.25)]"
+        className="pointer-events-none absolute -left-[2px] top-[15.5%] z-20 h-[16px] w-[2.5px] rounded-l-full bg-gradient-to-b from-[#7a8088] via-[#3a3e46] to-[#1c1f24] shadow-[inset_0_1px_0_rgba(255,255,255,0.28)]"
       />
       <span
         aria-hidden
-        className="pointer-events-none absolute -left-[2px] top-[23%] z-20 h-[34px] w-[2.5px] rounded-l-full bg-gradient-to-b from-[#6b7078] via-[#3a3e46] to-[#1c1f24] shadow-[inset_0_1px_0_rgba(255,255,255,0.25)]"
+        className="pointer-events-none absolute -left-[2px] top-[22%] z-20 h-[30px] w-[2.5px] rounded-l-full bg-gradient-to-b from-[#7a8088] via-[#3a3e46] to-[#1c1f24] shadow-[inset_0_1px_0_rgba(255,255,255,0.28)]"
       />
       <span
         aria-hidden
-        className="pointer-events-none absolute -left-[2px] top-[33%] z-20 h-[34px] w-[2.5px] rounded-l-full bg-gradient-to-b from-[#6b7078] via-[#3a3e46] to-[#1c1f24] shadow-[inset_0_1px_0_rgba(255,255,255,0.25)]"
+        className="pointer-events-none absolute -left-[2px] top-[31.5%] z-20 h-[30px] w-[2.5px] rounded-l-full bg-gradient-to-b from-[#7a8088] via-[#3a3e46] to-[#1c1f24] shadow-[inset_0_1px_0_rgba(255,255,255,0.28)]"
       />
       <span
         aria-hidden
-        className="pointer-events-none absolute -right-[2px] top-[27%] z-20 h-[52px] w-[2.5px] rounded-r-full bg-gradient-to-b from-[#7a808a] via-[#3a3e46] to-[#1c1f24] shadow-[inset_0_1px_0_rgba(255,255,255,0.22)]"
+        className="pointer-events-none absolute -right-[2px] top-[26%] z-20 h-[48px] w-[2.5px] rounded-r-full bg-gradient-to-b from-[#8a9098] via-[#3a3e46] to-[#1c1f24] shadow-[inset_0_1px_0_rgba(255,255,255,0.24)]"
       />
 
-      {/* Outer titanium rim */}
+      {/* Outer titanium rim — rounder, more natural iPhone silhouette */}
       <div
-        className="relative rounded-[2.65rem] p-[1px] transition-transform duration-500 ease-out hover:-translate-y-1"
+        className="relative rounded-[2.9rem] p-[1px] transition-transform duration-500 ease-out hover:-translate-y-1"
         style={{
           background:
-            'linear-gradient(145deg, #9aa0a8 0%, #3d424a 18%, #1a1d22 45%, #5c636e 72%, #1a1d22 100%)',
+            'linear-gradient(145deg, #a8aeb6 0%, #4a5058 18%, #1a1d22 45%, #6a717c 72%, #1a1d22 100%)',
           boxShadow:
-            '0 28px 48px -14px rgba(0,0,0,0.42), 0 12px 22px -10px rgba(8,27,107,0.16), inset 0 1px 0 rgba(255,255,255,0.28)'
+            '0 22px 40px -12px rgba(0,0,0,0.38), 0 10px 18px -8px rgba(8,27,107,0.14), inset 0 1px 0 rgba(255,255,255,0.32)'
         }}
       >
         <div
-          className="relative rounded-[2.58rem] p-[6px] sm:p-[7px]"
+          className="relative rounded-[2.82rem] p-[5px] sm:p-[6px]"
           style={{
             background: 'linear-gradient(180deg, #1c1f24 0%, #0a0b0d 55%, #121418 100%)',
-            boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.06)'
+            boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.07)'
           }}
         >
-          {/* Screen — single clipped surface, opaque fill, no soft fade artifacts */}
+          {/* Screen — single clipped surface, opaque fill */}
           <div
-            className="relative aspect-[9/19.5] overflow-hidden rounded-[2.05rem] bg-white isolate"
+            className="relative aspect-[9/19.5] overflow-hidden rounded-[2.35rem] bg-white isolate"
             style={{
               boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.1)'
             }}
           >
             {/* Dynamic Island */}
-            <div className="pointer-events-none absolute left-1/2 top-[10px] z-40 flex h-[22px] w-[90px] -translate-x-1/2 items-center justify-center rounded-full bg-black sm:h-[24px] sm:w-[96px]">
+            <div className="pointer-events-none absolute left-1/2 top-[9px] z-40 flex h-[21px] w-[82px] -translate-x-1/2 items-center justify-center rounded-full bg-black sm:h-[23px] sm:w-[90px]">
               <span
                 aria-hidden
-                className="absolute right-[13px] h-[7px] w-[7px] rounded-full bg-[#0f1520] shadow-[inset_0_0_0_1px_rgba(80,120,180,0.35)]"
+                className="absolute right-[12px] h-[6.5px] w-[6.5px] rounded-full bg-[#0f1520] shadow-[inset_0_0_0_1px_rgba(80,120,180,0.35)]"
               />
               <span
                 aria-hidden
-                className="absolute right-[15px] h-[2.5px] w-[2.5px] rounded-full bg-[#1e3a5f]/80"
+                className="absolute right-[14px] h-[2.5px] w-[2.5px] rounded-full bg-[#1e3a5f]/80"
               />
             </div>
 
+            {showStatusBar && (
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-x-0 top-0 z-30 flex h-[34px] items-center justify-between px-[18px] pt-[2px] text-[10px] font-semibold tracking-tight text-brand-navy/90"
+              >
+                <span className="min-w-[34px]">9:41</span>
+                <span className="flex items-center gap-[3px]">
+                  <svg viewBox="0 0 17 12" className="h-[9px] w-[13px] fill-current" aria-hidden>
+                    <rect x="0" y="7" width="3" height="5" rx="0.6" />
+                    <rect x="4.5" y="5" width="3" height="7" rx="0.6" />
+                    <rect x="9" y="2.5" width="3" height="9.5" rx="0.6" />
+                    <rect x="13.5" y="0" width="3" height="12" rx="0.6" opacity="0.35" />
+                  </svg>
+                  <svg viewBox="0 0 25 12" className="h-[9px] w-[20px] fill-current" aria-hidden>
+                    <rect x="0" y="1" width="21" height="10" rx="2" fill="none" stroke="currentColor" strokeWidth="1.2" />
+                    <rect x="1.6" y="2.6" width="14" height="6.8" rx="1.2" />
+                    <rect x="22" y="3.5" width="2.2" height="5" rx="0.6" opacity="0.45" />
+                  </svg>
+                </span>
+              </div>
+            )}
+
             {/* Screen content — clipped hard to screen radius */}
-            <div className="absolute inset-0 overflow-hidden rounded-[2.05rem] bg-white text-brand-navy [transform:translateZ(0)]">
+            <div className="absolute inset-0 overflow-hidden rounded-[2.35rem] bg-white text-brand-navy [transform:translateZ(0)]">
               {children}
             </div>
 
-            {/* Thin edge ring (no bottom gray wash) */}
+            {/* Thin edge ring */}
             <div
               aria-hidden
-              className="pointer-events-none absolute inset-0 z-30 rounded-[2.05rem]"
+              className="pointer-events-none absolute inset-0 z-30 rounded-[2.35rem]"
               style={{
-                boxShadow: 'inset 0 0 0 1px rgba(0,0,0,0.28)'
+                boxShadow: 'inset 0 0 0 1px rgba(0,0,0,0.26)'
               }}
             />
 
-            {/* Home indicator — solid, not a translucent bar wash */}
+            {/* Home indicator */}
             <div
               aria-hidden
-              className="pointer-events-none absolute bottom-[7px] left-1/2 z-40 h-[3.5px] w-[32%] -translate-x-1/2 rounded-full bg-[#1E293B]/55"
+              className="pointer-events-none absolute bottom-[6px] left-1/2 z-40 h-[3.5px] w-[30%] -translate-x-1/2 rounded-full bg-[#1E293B]/5"
             />
           </div>
         </div>
@@ -392,7 +416,7 @@ export default function AppPhoneMockup({
   const data = VARIANTS[variant] || VARIANTS.noronha;
 
   return (
-    <PhoneFrame size={size} className={className} glow={glow}>
+    <PhoneFrame size={size} className={className} glow={glow} showStatusBar>
       <AppScreen data={data} />
     </PhoneFrame>
   );
