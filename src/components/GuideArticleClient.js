@@ -2,7 +2,6 @@
 
 import React, { useEffect, useMemo, useState } from 'react';
 import {
-  ArrowRight,
   CalendarDays,
   Check,
   CheckCircle2,
@@ -21,7 +20,6 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
-import AppPhoneMockup from '@/components/AppPhoneMockup';
 import GuideThirtySeconds from '@/components/GuideThirtySeconds';
 import GuideEssentialInfo from '@/components/GuideEssentialInfo';
 import GuideAverageCosts from '@/components/GuideAverageCosts';
@@ -113,14 +111,6 @@ function framesFor(guide) {
     if (src && !unique.includes(src)) unique.push(src);
   }
   return unique;
-}
-
-function phoneVariantFor(guide) {
-  const city = (guide.city || '').toLowerCase();
-  if (city.includes('roma')) return 'roma';
-  if (city.includes('paris')) return 'paris';
-  if (city.includes('nova york') || city.includes('new york')) return 'nova-york';
-  return 'paris';
 }
 
 function shortFact(text, fallback) {
@@ -838,39 +828,6 @@ export default function GuideArticleClient({ guide }) {
                 })}
               </div>
             </section>
-          </ScrollReveal>
-
-          <ScrollReveal className="mt-16" delay={80}>
-            <div className="relative overflow-hidden rounded-[32px] bg-brand-navy px-6 py-10 text-white shadow-md sm:px-12 sm:py-12">
-              <div
-                aria-hidden
-                className="pointer-events-none absolute -right-10 top-0 h-64 w-64 rounded-full bg-brand-orange/20 blur-3xl"
-              />
-              <div className="relative z-10 grid grid-cols-1 items-center gap-10 lg:grid-cols-12">
-                <div className="text-left lg:col-span-7">
-                  <span className="font-headers mb-2 block text-[10px] font-extrabold uppercase tracking-widest text-brand-orange">
-                    Leve {guide.city} no app
-                  </span>
-                  <h3 className="font-headers text-2xl font-extrabold leading-tight sm:text-3xl">
-                    O dia a dia fica no aplicativo
-                  </h3>
-                  <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/80">
-                    Este guia é a prévia. Timeline, mapa e ajustes da viagem para {guide.city} você acompanha no app.
-                  </p>
-                  <button
-                    type="button"
-                    onClick={() => setIsDownloadOpen(true)}
-                    className="mt-6 inline-flex cursor-pointer items-center gap-2 rounded-2xl bg-brand-orange px-8 py-4 text-sm font-extrabold text-white shadow-sm transition-all hover:bg-brand-orange/90 hover:-translate-y-0.5"
-                  >
-                    <span>Baixar o App</span>
-                    <ArrowRight className="h-4 w-4" />
-                  </button>
-                </div>
-                <div className="flex justify-center lg:col-span-5 lg:justify-end min-w-0 px-2">
-                  <AppPhoneMockup variant={phoneVariantFor(guide)} size="lg" />
-                </div>
-              </div>
-            </div>
           </ScrollReveal>
 
           <div className="mt-16 w-full">
