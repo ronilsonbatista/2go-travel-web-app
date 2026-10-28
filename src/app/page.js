@@ -564,25 +564,27 @@ export default function Home() {
                 </ul>
               </div>
 
-              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-5 sm:gap-7 py-4 lg:py-2 min-w-0">
+              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-5 sm:gap-8 py-4 lg:py-2 min-w-0">
                 <PhoneFrame
                   size="md"
-                  className="max-w-[158px] sm:max-w-[186px] lg:max-w-[200px]"
+                  className="max-w-[168px] sm:max-w-[196px] lg:max-w-[214px]"
                   glowClassName="bg-[#081B6B]/18"
                 >
                   <PhoneScreenImage
                     src="/assets/app-home-gustavo.webp"
                     alt="Prévia real do app 2GO: tela inicial com a próxima viagem para Roma"
+                    objectPosition="top center"
                   />
                 </PhoneFrame>
                 <PhoneFrame
                   size="md"
-                  className="max-w-[158px] sm:max-w-[186px] lg:max-w-[200px] translate-y-3 sm:translate-y-5"
+                  className="max-w-[168px] sm:max-w-[196px] lg:max-w-[214px] translate-y-3 sm:translate-y-5"
                   glowClassName="bg-brand-orange/18"
                 >
                   <PhoneScreenImage
                     src="/assets/app-roteiro-roma.webp"
                     alt="Prévia real do app 2GO: dia 1 do roteiro de Roma com countdown, datas e timeline"
+                    objectPosition="top center"
                   />
                 </PhoneFrame>
               </div>

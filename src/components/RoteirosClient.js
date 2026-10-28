@@ -49,25 +49,27 @@ export default function RoteirosClient() {
                   A home mostra a viagem que vem. O roteiro abre o dia, o horário e o mapa. Você ajusta tudo no app.
                 </p>
               </div>
-              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-5 sm:gap-7 py-6 lg:py-2">
+              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-5 sm:gap-8 py-6 lg:py-2">
                 <PhoneFrame
                   size="md"
-                  className="max-w-[168px] sm:max-w-[196px]"
+                  className="max-w-[176px] sm:max-w-[206px]"
                   glowClassName="bg-[#081B6B]/18"
                 >
                   <PhoneScreenImage
                     src="/assets/app-home-gustavo.webp"
                     alt="Tela inicial do app 2GO, com a próxima viagem para Roma"
+                    objectPosition="top center"
                   />
                 </PhoneFrame>
                 <PhoneFrame
                   size="md"
-                  className="max-w-[168px] sm:max-w-[196px] translate-y-3 sm:translate-y-5"
+                  className="max-w-[176px] sm:max-w-[206px] translate-y-3 sm:translate-y-5"
                   glowClassName="bg-brand-orange/18"
                 >
                   <PhoneScreenImage
                     src="/assets/app-roteiro-roma.webp"
                     alt="Dia 1 do roteiro de Roma no app 2GO, com countdown, datas e timeline"
+                    objectPosition="top center"
                   />
                 </PhoneFrame>
               </div>
