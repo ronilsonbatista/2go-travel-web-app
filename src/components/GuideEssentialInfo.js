@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useId, useState } from 'react';
+import React, { useId, useMemo, useState } from 'react';
 import { Coins, FileCheck2, Globe, Plane } from 'lucide-react';
 import { firstSentences, guideFolderKey, guideFrameList, pickDiverseFrame } from '@/lib/guideInterior';
 
@@ -43,35 +43,35 @@ function cardBody(guide, fields) {
     .join(' ');
 }
 
-export default function GuideEssentialInfo({ guide, frames: framesProp, usedFrames }) {
+export default function GuideEssentialInfo({ guide, frames: framesProp, usedSeed = [] }) {
   const baseId = useId();
   const [openId, setOpenId] = useState(null);
   const frames = framesProp?.length ? framesProp : guideFrameList(guide);
-  const used = usedFrames || new Set();
 
-  if (!guide) return null;
+  const cards = useMemo(() => {
+    if (!guide) return [];
+    const folder = guideFolderKey(guide);
+    const pool = frames.length
+      ? frames
+      : [`/images/destinations/${folder}/${folder}-1.jpg`, guide?.heroImage].filter(Boolean);
+    const used = new Set(usedSeed);
+    return CARD_DEFS.map((def, idx) => {
+      const full = cardBody(guide, def.fields);
+      if (!full) return null;
+      return {
+        ...def,
+        full,
+        summary: firstSentences(full, 2, 130),
+        image: pickDiverseFrame(pool, {
+          hints: def.imageHints,
+          used,
+          fallbackIndex: idx + 1
+        })
+      };
+    }).filter(Boolean);
+  }, [guide, frames, usedSeed]);
 
-  const folder = guideFolderKey(guide);
-  const pool = frames.length
-    ? frames
-    : [`/images/destinations/${folder}/${folder}-1.jpg`, guide?.heroImage].filter(Boolean);
-
-  const cards = CARD_DEFS.map((def, idx) => {
-    const full = cardBody(guide, def.fields);
-    if (!full) return null;
-    return {
-      ...def,
-      full,
-      summary: firstSentences(full, 2, 130),
-      image: pickDiverseFrame(pool, {
-        hints: def.imageHints,
-        used,
-        fallbackIndex: idx + 1
-      })
-    };
-  }).filter(Boolean);
-
-  if (!cards.length) return null;
+  if (!guide || !cards.length) return null;
 
   return (
     <section id="praticos" className="scroll-mt-28 text-left">

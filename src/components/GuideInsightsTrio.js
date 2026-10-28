@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import {
   AlertTriangle,
   CheckCircle2,
@@ -21,31 +21,50 @@ function dayTripThumb(guide, frames, trip, idx, used) {
   return dayImage(guide, probe, frames, idx, used);
 }
 
-export default function GuideInsightsTrio({ guide, frames: framesProp, usedFrames }) {
-  if (!guide) return null;
-
+export default function GuideInsightsTrio({ guide, frames: framesProp, usedSeed = [] }) {
   const frames = framesProp?.length ? framesProp : guideFrameList(guide);
-  const used = usedFrames || new Set();
-  const mistakes = (guide.commonMistakes || []).map((item) => splitTitleDetail(item));
-  const tips = guide.importantTips || [];
-  const trips = (guide.dayTrips || []).map(parseDayTrip);
-  const usedThumbs = new Set(used);
 
-  const mistakesPhoto = pickDiverseFrame(frames, {
-    hints: ['louvre', 'notre', 'orsay', 'opera'],
-    used,
-    fallbackIndex: 1
-  });
-  const tipsPhoto = pickDiverseFrame(frames, {
-    hints: ['sacre', 'montmartre', 'seine-bridge', 'marais', 'latin'],
-    used,
-    fallbackIndex: 3
-  });
+  const { mistakes, tips, trips, mistakesPhoto, tipsPhoto, tripThumbs } = useMemo(() => {
+    if (!guide) {
+      return {
+        mistakes: [],
+        tips: [],
+        trips: [],
+        mistakesPhoto: '',
+        tipsPhoto: '',
+        tripThumbs: []
+      };
+    }
+    const used = new Set(usedSeed);
+    const nextMistakes = (guide.commonMistakes || []).map((item) => splitTitleDetail(item));
+    const nextTips = guide.importantTips || [];
+    const nextTrips = (guide.dayTrips || []).map(parseDayTrip);
+    const usedThumbs = new Set(used);
+    const photoMistakes = pickDiverseFrame(frames, {
+      hints: ['louvre', 'notre', 'orsay', 'opera'],
+      used,
+      fallbackIndex: 1
+    });
+    const photoTips = pickDiverseFrame(frames, {
+      hints: ['sacre', 'montmartre', 'seine-bridge', 'marais', 'latin'],
+      used,
+      fallbackIndex: 3
+    });
+    const thumbs = nextTrips.map((trip, idx) => dayTripThumb(guide, frames, trip, idx, usedThumbs));
+    return {
+      mistakes: nextMistakes,
+      tips: nextTips,
+      trips: nextTrips,
+      mistakesPhoto: photoMistakes,
+      tipsPhoto: photoTips,
+      tripThumbs: thumbs
+    };
+  }, [guide, frames, usedSeed]);
 
   const hasMistakes = mistakes.length > 0;
   const hasTips = tips.length > 0;
   const hasTrips = trips.length > 0;
-  if (!hasMistakes && !hasTips && !hasTrips) return null;
+  if (!guide || (!hasMistakes && !hasTips && !hasTrips)) return null;
 
   return (
     <section className="text-left">
@@ -123,7 +142,7 @@ export default function GuideInsightsTrio({ guide, frames: framesProp, usedFrame
             </h3>
             <ul className="mt-5 divide-y divide-border-gray/70">
               {trips.map((trip, idx) => {
-                const thumb = dayTripThumb(guide, frames, trip, idx, usedThumbs);
+                const thumb = tripThumbs[idx];
                 return (
                   <li key={trip.raw}>
                     <div className="flex min-h-14 items-center gap-3 py-3 first:pt-0 last:pb-0">

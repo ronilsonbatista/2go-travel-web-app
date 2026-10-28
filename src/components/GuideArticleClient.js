@@ -265,17 +265,21 @@ export default function GuideArticleClient({ guide }) {
     return '';
   }, [guide]);
 
-  /** Fresh each render so picks stay stable across sections without stale Set growth. */
-  const interiorUsedFrames = new Set();
-  const introImage =
-    pickDiverseFrame(frames, {
-      hints: ['louvre', 'orsay', 'marais', 'arc', 'opera', 'latin', '2', '3'],
-      used: interiorUsedFrames,
-      fallbackIndex: 1
-    }) ||
-    frames[1] ||
-    frames[0] ||
-    guide?.heroImage;
+  /** Stable image picks for SSR/CSR hydration — seed list is immutable between renders. */
+  const { introImage, interiorUsedSeed } = useMemo(() => {
+    const used = new Set();
+    const intro =
+      pickDiverseFrame(frames, {
+        hints: ['louvre', 'orsay', 'marais', 'arc', 'opera', 'latin', '2', '3'],
+        used,
+        fallbackIndex: 1
+      }) ||
+      frames[1] ||
+      frames[0] ||
+      guide?.heroImage ||
+      '';
+    return { introImage: intro, interiorUsedSeed: [...used] };
+  }, [frames, guide?.heroImage]);
 
   const itineraryTabs = useMemo(
     () => itineraryTabsFor(guide?.suggestedItinerary || []),
@@ -330,7 +334,7 @@ export default function GuideArticleClient({ guide }) {
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/20" />
           <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/60 to-transparent" />
           <div className="relative z-10 flex h-full flex-col">
-            <div className="container mx-auto w-full max-w-[1440px] px-4 pt-[calc(64px+1rem)] text-left sm:px-6 lg:pt-[calc(78px+1.25rem)]">
+            <div className="guide-shell pt-[calc(64px+1rem)] text-left lg:pt-[calc(78px+1.25rem)]">
               <Breadcrumbs
                 variant="onDark"
                 items={[
@@ -339,7 +343,7 @@ export default function GuideArticleClient({ guide }) {
                 ]}
               />
             </div>
-            <div className="container mx-auto mt-auto w-full max-w-[1440px] px-4 pb-10 text-left text-white sm:px-6 sm:pb-14">
+            <div className="guide-shell mt-auto pb-10 text-left text-white sm:pb-14">
               <p className="text-[11px] font-extrabold tracking-[0.18em] text-white/70 uppercase">Guia de Viagem</p>
               <h1 className="font-headers mt-3 max-w-4xl text-3xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-4xl md:text-5xl lg:text-[3.25rem]">
                 {guide.city}: Guia completo
@@ -358,7 +362,7 @@ export default function GuideArticleClient({ guide }) {
           </div>
         </section>
 
-        <ScrollReveal className="container mx-auto -mt-8 relative z-20 w-full max-w-[1440px] px-4 sm:px-6">
+        <ScrollReveal className="guide-shell relative z-20 -mt-8" variant="fade" delay={40}>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5">
             {quickFacts.map((fact) => {
               const Icon = fact.icon;
@@ -382,16 +386,16 @@ export default function GuideArticleClient({ guide }) {
           </div>
         </ScrollReveal>
 
-        <div className="container mx-auto mt-14 w-full max-w-[1440px] px-4 sm:px-6 lg:px-8">
-          <ScrollReveal>
+        <div className="guide-shell mt-12 sm:mt-14">
+          <ScrollReveal variant="color">
             <GuideThirtySeconds guide={guide} />
           </ScrollReveal>
 
-          <ScrollReveal className="mt-10" delay={40}>
+          <ScrollReveal className="mt-8 sm:mt-10" delay={40} variant="slide">
             <section id="introducao" className="scroll-mt-28 text-left">
-              <div className="overflow-hidden rounded-[28px] border border-border-gray/80 bg-gradient-to-br from-[#F7F8FA] via-white to-[#FFF7F0]">
+              <div className="overflow-hidden rounded-[22px] border border-border-gray/70 bg-gradient-to-br from-[#F7F8FA] via-white to-[#FFF7F0] sm:rounded-[26px]">
                 <div className="grid grid-cols-1 lg:grid-cols-12">
-                  <div className="relative min-h-[200px] overflow-hidden rounded-t-[28px] lg:col-span-5 lg:rounded-none lg:rounded-l-[28px]">
+                  <div className="relative min-h-[200px] overflow-hidden rounded-t-[22px] lg:col-span-5 lg:rounded-none lg:rounded-l-[26px] sm:rounded-t-[26px]">
                     <img
                       src={introImage}
                       alt=""
@@ -465,16 +469,16 @@ export default function GuideArticleClient({ guide }) {
             </section>
           </ScrollReveal>
 
-          <ScrollReveal className="mt-12" delay={40}>
+          <ScrollReveal className="mt-10 sm:mt-12" delay={40} variant="fade">
             <section className="grid grid-cols-1 gap-4 md:grid-cols-2 text-left">
-              <div id="quando-ir" className="scroll-mt-28 rounded-[24px] border border-border-gray/70 bg-white p-6">
+              <div id="quando-ir" className="scroll-mt-28 rounded-[22px] border border-border-gray/70 bg-white p-5 sm:rounded-[24px] sm:p-6">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Quando ir</p>
                 <h2 className="font-headers mt-2 text-xl font-extrabold text-brand-navy sm:text-[1.35rem]">
                   Melhor época em {guide.city}
                 </h2>
                 <p className="mt-3 text-sm leading-relaxed text-text-muted sm:text-base">{guide.whenToGo}</p>
               </div>
-              <div id="quantos-dias" className="scroll-mt-28 rounded-[24px] border border-border-gray/70 bg-white p-6">
+              <div id="quantos-dias" className="scroll-mt-28 rounded-[22px] border border-border-gray/70 bg-white p-5 sm:rounded-[24px] sm:p-6">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Duração</p>
                 <h2 className="font-headers mt-2 text-xl font-extrabold text-brand-navy sm:text-[1.35rem]">
                   Quantos dias ficar
@@ -484,7 +488,7 @@ export default function GuideArticleClient({ guide }) {
             </section>
           </ScrollReveal>
 
-          <ScrollReveal className="mt-16" delay={80}>
+          <ScrollReveal className="mt-14 sm:mt-16" delay={80} variant="slide">
             <section id="roteiro-sugerido" className="scroll-mt-28">
               <div className="mb-5 flex flex-col gap-3 text-left sm:mb-6 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
                 <div className="min-w-0">
@@ -740,16 +744,16 @@ export default function GuideArticleClient({ guide }) {
             </section>
           </ScrollReveal>
 
-          <ScrollReveal className="mt-16" delay={60}>
-            <GuideEssentialInfo guide={guide} frames={frames} usedFrames={interiorUsedFrames} />
+          <ScrollReveal className="mt-14 sm:mt-16" delay={60} variant="color">
+            <GuideEssentialInfo guide={guide} frames={frames} usedSeed={interiorUsedSeed} />
           </ScrollReveal>
 
-          <ScrollReveal className="mt-16" delay={60}>
-            <GuideAverageCosts guide={guide} frames={frames} usedFrames={interiorUsedFrames} />
+          <ScrollReveal className="mt-14 sm:mt-16" delay={60} variant="slide">
+            <GuideAverageCosts guide={guide} frames={frames} usedSeed={interiorUsedSeed} />
           </ScrollReveal>
 
-          <ScrollReveal className="mt-16" delay={60}>
-            <GuideInsightsTrio guide={guide} frames={frames} usedFrames={interiorUsedFrames} />
+          <ScrollReveal className="mt-14 sm:mt-16" delay={60} variant="fade">
+            <GuideInsightsTrio guide={guide} frames={frames} usedSeed={interiorUsedSeed} />
           </ScrollReveal>
 
           <ScrollReveal className="mt-12" delay={40}>
