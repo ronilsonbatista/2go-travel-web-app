@@ -56,8 +56,8 @@ export default function RoteirosClient() {
                   glowClassName="bg-[#081B6B]/18"
                 >
                   <PhoneScreenImage
-                    src="/assets/app-home-roma-paris.png"
-                    alt="Tela inicial do app 2GO, com a próxima viagem para Roma e Paris"
+                    src="/assets/app-home-gustavo.webp"
+                    alt="Tela inicial do app 2GO, com a próxima viagem para Roma"
                     objectPosition="top center"
                   />
                 </PhoneFrame>

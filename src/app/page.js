@@ -571,8 +571,8 @@ export default function Home() {
                   glowClassName="bg-[#081B6B]/18"
                 >
                   <PhoneScreenImage
-                    src="/assets/app-home-roma-paris.png"
-                    alt="Prévia real do app 2GO: tela inicial com a próxima viagem para Roma e Paris"
+                    src="/assets/app-home-gustavo.webp"
+                    alt="Prévia real do app 2GO: tela inicial com a próxima viagem para Roma"
                     objectPosition="top center"
                   />
                 </PhoneFrame>
