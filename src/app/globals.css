@@ -230,15 +230,20 @@ html {
   .guide-ken { animation: none; }
 }
 
-/* Modern light (Opção 2) — production default. Optical zoom enlarges baked street/arrondissement labels. */
+/*
+ * Vintage PNG wash (production default) — old-school paper map.
+ * Optical zoom enlarges baked street / neighborhood labels. No Place IDs.
+ */
 .guide-city-map {
   --guide-map-zoom: 1.48;
-  background: linear-gradient(160deg, #eef2f6 0%, #f7f9fb 100%);
+  background:
+    radial-gradient(circle at 22% 16%, rgba(253, 230, 200, 0.45), transparent 48%),
+    linear-gradient(160deg, #e7dfd2 0%, #f4efe7 50%, #d9e2ea 100%);
 }
 
 .guide-city-map__img {
-  /* Light Positron-like assets + zoom; contrast keeps tile typography readable. */
-  filter: contrast(1.14) brightness(1.02);
+  /* Keep vintage paper character; contrast bump for street / place labels. */
+  filter: sepia(0.18) saturate(0.88) contrast(1.28) brightness(1.04);
   transform: scale(var(--guide-map-zoom));
   transform-origin: center;
 }
@@ -246,49 +251,49 @@ html {
 .guide-city-map__wash {
   pointer-events: none;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, transparent 32%, rgba(15, 23, 42, 0.06) 100%),
-    linear-gradient(120deg, rgba(148, 163, 184, 0.08), transparent 50%);
-  mix-blend-mode: normal;
-  opacity: 0.42;
+    linear-gradient(180deg, rgba(62, 48, 32, 0.12) 0%, transparent 34%, rgba(15, 23, 42, 0.14) 100%),
+    linear-gradient(125deg, rgba(180, 140, 90, 0.12), transparent 46%, rgba(100, 140, 170, 0.1));
+  mix-blend-mode: multiply;
+  opacity: 0.48;
 }
 
 .guide-city-map__wash::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(248, 250, 252, 0.06), transparent 40%, rgba(15, 23, 42, 0.05));
+  background: linear-gradient(180deg, rgba(255, 250, 240, 0.12), transparent 42%, rgba(30, 41, 59, 0.08));
   mix-blend-mode: soft-light;
 }
 
 .guide-city-map__grid {
   pointer-events: none;
-  opacity: 0.08;
+  opacity: 0.12;
   background-image:
-    linear-gradient(rgba(15, 23, 42, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(15, 23, 42, 0.05) 1px, transparent 1px);
+    linear-gradient(rgba(62, 48, 32, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(62, 48, 32, 0.08) 1px, transparent 1px);
   background-size: 44px 44px;
   mask-image: radial-gradient(circle at center, black 38%, transparent 90%);
 }
 
-/* Preview themes for /mapa-opcoes (production default = modern-light / no data-map-theme). */
+/* Preview themes for /mapa-opcoes (production default = vintage wash / no data-map-theme). */
 .guide-city-map[data-map-theme='atual-slate'] {
   background:
-    radial-gradient(circle at 28% 18%, rgba(125, 211, 252, 0.28), transparent 46%),
-    linear-gradient(160deg, #c9d9ea 0%, #e8eef6 52%, #c5d4e4 100%);
+    radial-gradient(circle at 22% 16%, rgba(253, 230, 200, 0.45), transparent 48%),
+    linear-gradient(160deg, #e7dfd2 0%, #f4efe7 50%, #d9e2ea 100%);
 }
 .guide-city-map[data-map-theme='atual-slate'] .guide-city-map__img {
-  filter: sepia(0.08) saturate(0.3) contrast(1.52) brightness(1.12) hue-rotate(198deg);
+  filter: sepia(0.18) saturate(0.88) contrast(1.28) brightness(1.04);
   transform: scale(var(--guide-map-zoom));
 }
 .guide-city-map[data-map-theme='atual-slate'] .guide-city-map__wash {
   background:
-    linear-gradient(180deg, rgba(15, 23, 42, 0.18) 0%, transparent 30%, rgba(15, 23, 42, 0.2) 100%),
-    linear-gradient(120deg, rgba(14, 165, 233, 0.18), transparent 42%, rgba(99, 102, 241, 0.12));
-  mix-blend-mode: color;
-  opacity: 0.55;
+    linear-gradient(180deg, rgba(62, 48, 32, 0.12) 0%, transparent 34%, rgba(15, 23, 42, 0.14) 100%),
+    linear-gradient(125deg, rgba(180, 140, 90, 0.12), transparent 46%, rgba(100, 140, 170, 0.1));
+  mix-blend-mode: multiply;
+  opacity: 0.48;
 }
 .guide-city-map[data-map-theme='atual-slate'] .guide-city-map__grid {
-  opacity: 0.18;
+  opacity: 0.12;
 }
 
 .guide-city-map[data-map-theme='modern-light'] {
@@ -410,13 +415,95 @@ html {
   transform: translateY(18px);
   transition:
     opacity 800ms cubic-bezier(0.16, 1, 0.3, 1),
-    transform 800ms cubic-bezier(0.16, 1, 0.3, 1);
+    transform 800ms cubic-bezier(0.16, 1, 0.3, 1),
+    filter 900ms cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
 }
 
 .reveal-on-scroll.is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.reveal-on-scroll[data-reveal='fade'] {
+  transform: none;
+}
+
+.reveal-on-scroll[data-reveal='slide'] {
+  transform: translateY(22px);
+}
+
+.reveal-on-scroll[data-reveal='color'] {
+  filter: saturate(0.55) brightness(1.04);
+}
+
+.reveal-on-scroll[data-reveal='color'].is-visible {
+  filter: none;
+}
+
+/* Guide 30s — staggered entrance for facts / pins (respects reduced-motion below) */
+.guide-enter {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: guideEnter 620ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Opacity-only — safe on elements that already use transform/filter (map PNG). */
+.guide-enter-fade {
+  opacity: 0;
+  animation: guideEnterFade 720ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.guide-enter-color {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: guideEnterColor 780ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes guideEnter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes guideEnterFade {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes guideEnterColor {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Guide page shell — wider content, less boxed dead space */
+.guide-shell {
+  width: 100%;
+  max-width: 1760px;
+  margin-inline: auto;
+  padding-inline: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .guide-shell {
+    padding-inline: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .guide-shell {
+    padding-inline: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .guide-shell {
+    padding-inline: 1.25rem;
+  }
 }
 
 .faq-panel {
@@ -444,12 +531,17 @@ html {
 @media (prefers-reduced-motion: reduce) {
   .reveal-on-scroll,
   .reveal-on-scroll.is-visible,
+  .reveal-on-scroll[data-reveal],
   .faq-panel,
   .link-lift,
   .card-premium-hover,
-  .card-premium-hover:hover {
+  .card-premium-hover:hover,
+  .guide-enter,
+  .guide-enter-fade,
+  .guide-enter-color {
     opacity: 1;
     transform: none;
+    filter: none;
     transition: none;
     animation: none;
   }

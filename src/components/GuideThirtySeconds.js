@@ -103,21 +103,27 @@ function declutterPins(pins) {
   });
 }
 
-function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
+function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode, animate = true }) {
   const laidOut = useMemo(() => declutterPins(pins), [pins]);
 
   return (
-    <div className="guide-city-map relative h-full min-h-[300px] w-full overflow-hidden rounded-[22px] border border-slate-200/80 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)]">
+    <div className="guide-city-map relative h-full min-h-[300px] w-full overflow-hidden rounded-[20px] border border-slate-200/70 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)] sm:rounded-[22px] sm:min-h-[340px] lg:min-h-[380px]">
       <img
         src={mapSrc}
         alt=""
         className="guide-city-map__img absolute inset-0 h-full w-full object-cover"
       />
-      <div className="guide-city-map__wash absolute inset-0" />
+      <div
+        className={`guide-city-map__wash absolute inset-0 ${animate ? 'guide-enter-fade' : ''}`}
+        style={animate ? { animationDelay: '60ms' } : undefined}
+      />
       <div className="guide-city-map__grid absolute inset-0" />
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/15 via-transparent to-slate-900/8" />
+      <div
+        className={`absolute inset-0 bg-gradient-to-t from-slate-900/15 via-transparent to-slate-900/8 ${animate ? 'guide-enter-fade' : ''}`}
+        style={animate ? { animationDelay: '120ms' } : undefined}
+      />
 
-      {laidOut.map((pin) => {
+      {laidOut.map((pin, index) => {
         const active = pin.id === activeId;
         const subtitle =
           mode === 'hotels'
@@ -137,11 +143,12 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode }) {
         return (
           <div
             key={pin.id}
-            className={`absolute ${xClass} ${yClass}`}
+            className={`absolute ${xClass} ${yClass} ${animate ? 'guide-enter' : ''}`}
             style={{
               top: pin.pin?.top || '40%',
               left: pin.pin?.left || '40%',
-              zIndex: active ? 30 : 10
+              zIndex: active ? 30 : 10,
+              ...(animate ? { animationDelay: `${180 + index * 70}ms` } : {})
             }}
           >
             {active ? (
@@ -262,7 +269,7 @@ export default function GuideThirtySeconds({ guide }) {
   return (
     <section
       id="em-30-segundos"
-      className="scroll-mt-28 overflow-hidden rounded-[28px] border border-border-gray/80 bg-white p-5 pb-24 shadow-md sm:p-7 lg:pb-7"
+      className="scroll-mt-28 overflow-hidden rounded-[22px] border border-border-gray/70 bg-white p-4 pb-24 shadow-md sm:rounded-[26px] sm:p-5 sm:pb-24 lg:p-6 lg:pb-6"
     >
       <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
         <h2 className="font-headers text-left text-base font-bold tracking-tight text-brand-navy sm:text-lg">
@@ -299,14 +306,15 @@ export default function GuideThirtySeconds({ guide }) {
         </div>
       </div>
 
-      <div className="mt-6 grid grid-cols-1 gap-5 lg:grid-cols-12 lg:gap-6">
-        <div className="grid grid-cols-2 items-stretch gap-3 lg:col-span-3">
-          {data.facts.map((fact) => {
+      <div className="mt-5 grid grid-cols-1 gap-4 sm:mt-6 lg:grid-cols-12 lg:gap-5">
+        <div className="grid grid-cols-2 items-stretch gap-2.5 sm:gap-3 lg:col-span-3">
+          {data.facts.map((fact, index) => {
             const Icon = FACT_ICONS[fact.tone] || MapPinned;
             return (
               <div
                 key={fact.label}
-                className="flex min-h-[118px] flex-col rounded-[20px] border border-border-gray/70 bg-[#FAFBFC] p-3.5 text-left transition-transform duration-300 hover:-translate-y-0.5"
+                className="guide-enter flex min-h-[110px] flex-col rounded-[18px] border border-border-gray/70 bg-[#FAFBFC] p-3 text-left transition-transform duration-300 hover:-translate-y-0.5 sm:min-h-[118px] sm:rounded-[20px] sm:p-3.5"
+                style={{ animationDelay: `${60 + index * 55}ms` }}
               >
                 <span
                   className={`mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl ${FACT_TONE[fact.tone]}`}
@@ -322,7 +330,7 @@ export default function GuideThirtySeconds({ guide }) {
           })}
         </div>
 
-        <div className="lg:col-span-6">
+        <div className="min-w-0 lg:col-span-6">
           <CityMapCanvas
             mapSrc={mapSrc}
             pins={pins}
@@ -332,7 +340,7 @@ export default function GuideThirtySeconds({ guide }) {
           />
         </div>
 
-        <aside className="text-left lg:col-span-3">
+        <aside className="min-w-0 text-left lg:col-span-3">
           <div className="mb-3 flex items-center gap-2">
             {tab === 'hotels' ? (
               <Hotel className="h-4 w-4 text-brand-orange" />
@@ -344,12 +352,12 @@ export default function GuideThirtySeconds({ guide }) {
             </h3>
           </div>
           <ul className="space-y-2.5 pb-6 lg:pb-0">
-            {pins.map((pin) => {
+            {pins.map((pin, index) => {
               const active = pin.id === activeId;
               if (tab === 'hotels') {
                 const showIllustrative = pin.imageIllustrative !== false;
                 return (
-                  <li key={pin.id}>
+                  <li key={pin.id} className="guide-enter" style={{ animationDelay: `${220 + index * 55}ms` }}>
                     <button
                       type="button"
                       onClick={() => setActiveRegion(pin.id)}
@@ -394,7 +402,7 @@ export default function GuideThirtySeconds({ guide }) {
               }
 
               return (
-                <li key={pin.id}>
+                <li key={pin.id} className="guide-enter" style={{ animationDelay: `${220 + index * 55}ms` }}>
                   <button
                     type="button"
                     onClick={() => setActiveRegion(pin.id)}

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 
-export default function ScrollReveal({ children, className = '', delay = 0 }) {
+export default function ScrollReveal({ children, className = '', delay = 0, variant = 'slide' }) {
   const [isVisible, setIsVisible] = useState(false);
   const domRef = useRef(null);
 
@@ -35,6 +35,7 @@ export default function ScrollReveal({ children, className = '', delay = 0 }) {
     <div
       ref={domRef}
       className={`reveal-on-scroll ${isVisible ? 'is-visible' : ''} ${className}`}
+      data-reveal={variant}
       style={{ transitionDelay: `${delay}ms` }}
     >
       {children}

@@ -2,14 +2,15 @@
  * Visual helpers for guide pages: real city maps + keyword-matched photos.
  */
 
+/** Vintage PNG basemaps (old-school wash). Modern-light assets remain at /images/maps/*.png for /mapa-opcoes. */
 const CITY_MAPS = {
-  paris: '/images/maps/paris.png',
-  'nova-york': '/images/maps/nova-york.png',
-  toquio: '/images/maps/toquio.png',
-  londres: '/images/maps/londres.png',
-  roma: '/images/maps/roma.png',
-  istambul: '/images/maps/istambul.png',
-  dubai: '/images/maps/dubai.png'
+  paris: '/images/maps/vintage/paris.png',
+  'nova-york': '/images/maps/vintage/nova-york.png',
+  toquio: '/images/maps/vintage/toquio.png',
+  londres: '/images/maps/vintage/londres.png',
+  roma: '/images/maps/vintage/roma.png',
+  istambul: '/images/maps/vintage/istambul.png',
+  dubai: '/images/maps/vintage/dubai.png'
 };
 
 const CITY_ASSET_MATCHERS = {

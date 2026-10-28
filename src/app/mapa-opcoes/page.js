@@ -55,24 +55,24 @@ const GEO_PINS = [
 
 export const MAP_STYLE_OPTIONS = [
   {
-    id: 'modern-light',
-    name: 'Modern light (produção)',
-    short: 'modern-light',
-    description: 'Opção 2 escolhida — base clara Positron-like + wash leve (produção em todos os guias).',
-    mapSrc: '/images/maps/paris.png',
-    pins: ORIG_PINS,
-    productionLike: true,
-    cssTheme: 'modern-light'
-  },
-  {
     id: 'atual-slate',
-    name: 'Slate anterior',
+    name: 'Vintage wash (produção)',
     short: 'atual-slate',
-    description: 'CSS cool slate-blue sobre o PNG vintage — estilo anterior à escolha.',
+    description: 'PNG vintage + wash papel old-school — produção em todos os guias (revert do Modern light).',
     mapSrc: '/images/maps/vintage/paris.png',
     pins: ORIG_PINS,
-    productionLike: false,
+    productionLike: true,
     cssTheme: 'atual-slate'
+  },
+  {
+    id: 'modern-light',
+    name: 'Modern light',
+    short: 'modern-light',
+    description: 'Base clara Positron-like + wash leve — opção anterior (histórico).',
+    mapSrc: '/images/maps/paris.png',
+    pins: ORIG_PINS,
+    productionLike: false,
+    cssTheme: 'modern-light'
   },
   {
     id: 'dark-slate',
@@ -183,7 +183,7 @@ function MapPreview({ option, activeId = 'eiffel' }) {
 
 function PreviewInner() {
   const params = useSearchParams();
-  const styleId = params.get('style') || 'modern-light';
+  const styleId = params.get('style') || 'atual-slate';
   const shot = params.get('shot') === '1';
   const option =
     MAP_STYLE_OPTIONS.find((o) => o.id === styleId) || MAP_STYLE_OPTIONS[0];
@@ -223,8 +223,8 @@ function PreviewInner() {
             Opções de estilo do mapa — Paris
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-text-muted">
-            Produção = Modern light em todos os guias. Comparativo histórico das outras
-            opções; sem Place IDs.
+            Produção = Vintage wash (PNG vintage) em todos os guias. Comparativo histórico
+            das outras opções; sem Place IDs.
           </p>
         </header>
 

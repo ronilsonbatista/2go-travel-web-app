@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { BedDouble, Bus, Lightbulb, UtensilsCrossed, Wallet } from 'lucide-react';
 import { guideFolderKey, guideFrameList, pickDiverseFrame } from '@/lib/guideInterior';
 
@@ -35,17 +35,26 @@ function atmosphericCaption(guide) {
   return `Sabores de ${guide?.city || 'destino'}`;
 }
 
-export default function GuideAverageCosts({ guide, frames: framesProp, usedFrames }) {
+export default function GuideAverageCosts({ guide, frames: framesProp, usedSeed = [] }) {
+  const frames = framesProp?.length ? framesProp : guideFrameList(guide);
+  const folder = guideFolderKey(guide);
+  const image = useMemo(() => {
+    if (!guide?.costsTable) return '';
+    const used = new Set(usedSeed);
+    return (
+      pickDiverseFrame(frames, {
+        hints: ['marais', 'orsay', 'latin', 'saint', 'cafe', 'opera', '1', '2'],
+        used,
+        fallbackIndex: 2
+      }) ||
+      `/images/destinations/${folder}/${folder}-1.jpg` ||
+      guide?.heroImage ||
+      ''
+    );
+  }, [guide, frames, folder, usedSeed]);
+
   if (!guide?.costsTable) return null;
 
-  const frames = framesProp?.length ? framesProp : guideFrameList(guide);
-  const used = usedFrames || new Set();
-  const folder = guideFolderKey(guide);
-  const image = pickDiverseFrame(frames, {
-    hints: ['marais', 'orsay', 'latin', 'saint', 'cafe', 'opera', '1', '2'],
-    used,
-    fallbackIndex: 2
-  }) || `/images/destinations/${folder}/${folder}-1.jpg` || guide?.heroImage || '';
   const caption = atmosphericCaption(guide);
 
   const tiers = TIERS.map((tier) => {
