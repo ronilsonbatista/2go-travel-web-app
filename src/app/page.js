@@ -8,7 +8,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import NewsletterBox from '@/components/NewsletterBox';
-import AppPhoneMockup, { PhoneFrame, PhoneScreenImage } from '@/components/AppPhoneMockup';
+import { PhoneFrame, PhoneScreenImage } from '@/components/AppPhoneMockup';
 import ScrollReveal from '@/components/ScrollReveal';
 
 import { listDestinations } from '@/lib/cms';
@@ -571,7 +571,7 @@ export default function Home() {
                   glowClassName="bg-[#081B6B]/18"
                 >
                   <PhoneScreenImage
-                    src="/assets/app-home-roma-paris.webp"
+                    src="/assets/app-home-roma-paris.png"
                     alt="Prévia real do app 2GO: tela inicial com a próxima viagem para Roma e Paris"
                     objectPosition="top center"
                   />
@@ -767,11 +767,17 @@ export default function Home() {
               </div>
               
               <div className="lg:col-span-5 relative z-10 flex justify-center lg:justify-end items-end w-full min-w-0 pt-1 lg:pt-0 lg:-mb-2 lg:translate-y-1">
-                <AppPhoneMockup
-                  variant="paris"
+                <PhoneFrame
                   size="md"
                   className="max-w-[168px] sm:max-w-[188px] lg:max-w-[200px]"
-                />
+                  glowClassName="bg-brand-orange/18"
+                >
+                  <PhoneScreenImage
+                    src="/assets/app-home-roma-paris.png"
+                    alt="Prévia do app 2GO: próxima viagem Roma e Paris"
+                    objectPosition="top center"
+                  />
+                </PhoneFrame>
               </div>
             </div>
           </ScrollReveal>
