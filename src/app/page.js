@@ -722,40 +722,39 @@ export default function Home() {
           </ScrollReveal>
         </section>
 
-        {/* 8. FINAL CTA — compact card, phone ~70% of card height (Filipe ref) */}
+        {/* 8. FINAL CTA — text + buttons only (no phone, no photo) */}
         <section className="py-10 lg:py-20 bg-[#F7F8FA] relative overflow-hidden">
           <div className="absolute top-10 left-10 w-2.5 h-2.5 bg-brand-orange/40 rounded-full"></div>
           <div className="absolute bottom-20 left-1/3 w-3 h-3 bg-brand-green/30 rounded-full"></div>
 
-          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1100px] w-full">
-            <div className="bg-[#FAF9F6] text-brand-navy px-5 py-6 sm:px-8 sm:py-8 md:px-10 md:py-9 lg:pl-12 lg:pr-8 lg:py-8 rounded-[24px] lg:rounded-[28px] relative overflow-visible sm:overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-center gap-6 lg:gap-8 text-left shadow-lg border border-brand-navy/5">
-              {/* Subtle background glow */}
-              <div className="absolute -top-20 -right-20 w-72 h-72 bg-brand-orange/10 rounded-full blur-[90px] pointer-events-none select-none"></div>
-              <div className="absolute -bottom-20 -left-20 w-72 h-72 bg-[#96AB21]/10 rounded-full blur-[90px] pointer-events-none select-none"></div>
+          <ScrollReveal className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[920px] w-full">
+            <div className="relative overflow-hidden rounded-[24px] lg:rounded-[28px] border border-brand-navy/5 bg-[#FAF9F6] px-5 py-8 sm:px-10 sm:py-10 md:px-14 md:py-12 text-center shadow-lg">
+              <div className="absolute -top-24 -right-16 w-72 h-72 bg-brand-orange/10 rounded-full blur-[90px] pointer-events-none select-none"></div>
+              <div className="absolute -bottom-24 -left-16 w-72 h-72 bg-[#081B6B]/8 rounded-full blur-[90px] pointer-events-none select-none"></div>
 
-              <div className="lg:col-span-7 flex flex-col gap-3 sm:gap-4 relative z-10 w-full min-w-0">
+              <div className="relative z-10 flex flex-col items-center gap-3 sm:gap-4">
                 <span className="bg-brand-orange text-white text-[11px] font-extrabold tracking-widest px-2.5 py-1 rounded-full w-fit">
                   Roteiros personalizados
                 </span>
-                <h2 className="font-headers text-2xl sm:text-3xl md:text-[2.15rem] lg:text-[2.35rem] font-black leading-[1.12] tracking-tight text-brand-navy">
+                <h2 className="font-headers text-2xl sm:text-3xl md:text-[2.35rem] lg:text-[2.5rem] font-black leading-[1.12] tracking-tight text-brand-navy max-w-2xl">
                   Crie seu roteiro personalizado
                 </h2>
-                <p className="text-sm text-text-muted leading-relaxed max-w-md">
+                <p className="text-sm sm:text-base text-text-muted leading-relaxed max-w-lg">
                   Planeje sua próxima viagem do seu jeito, com muito mais praticidade.
                 </p>
-                
-                <div className="flex flex-col gap-1.5 mt-1 w-full sm:w-auto items-center sm:items-start">
-                  <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+
+                <div className="flex flex-col gap-2 mt-2 w-full sm:w-auto items-center">
+                  <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto justify-center">
                     <button
                       type="button"
                       onClick={() => setIsDownloadOpen(true)}
-                      className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 py-3 sm:px-7 sm:py-3.5 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 border-none text-sm"
+                      className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 border-none text-sm"
                     >
                       Criar meu roteiro
                     </button>
                     <Link
                       href="/roteiros"
-                      className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-6 py-3 sm:px-7 sm:py-3.5 rounded-xl transition-all flex items-center justify-center bg-transparent text-sm"
+                      className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl transition-all flex items-center justify-center bg-transparent text-sm"
                     >
                       Ver roteiros
                     </Link>
@@ -764,20 +763,6 @@ export default function Home() {
                     A prévia fica no site. O dia a dia, no aplicativo.
                   </p>
                 </div>
-              </div>
-              
-              <div className="lg:col-span-5 relative z-10 flex justify-center lg:justify-end items-end w-full min-w-0 pt-1 lg:pt-0 lg:-mb-2 lg:translate-y-1">
-                <PhoneFrame
-                  size="md"
-                  className="max-w-[168px] sm:max-w-[188px] lg:max-w-[200px]"
-                  glowClassName="bg-brand-orange/18"
-                >
-                  <PhoneScreenImage
-                    src="/assets/app-home-roma-paris.png"
-                    alt="Prévia do app 2GO: próxima viagem Roma e Paris"
-                    objectPosition="top center"
-                  />
-                </PhoneFrame>
               </div>
             </div>
           </ScrollReveal>
