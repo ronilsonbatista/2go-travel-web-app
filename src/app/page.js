@@ -564,18 +564,29 @@ export default function Home() {
                 </ul>
               </div>
 
-              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-6 sm:gap-8 py-4 lg:py-2 min-w-0">
-                <PhoneFrame size="md" className="max-w-[180px] sm:max-w-[210px] lg:max-w-[230px]" glowClassName="bg-[#081B6B]/18">
+              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-5 sm:gap-8 py-4 lg:py-2 min-w-0">
+                <PhoneFrame
+                  size="md"
+                  className="max-w-[168px] sm:max-w-[196px] lg:max-w-[214px]"
+                  glowClassName="bg-[#081B6B]/18"
+                >
                   <PhoneScreenImage
                     src="/assets/app-home-gustavo.webp"
                     alt="Prévia real do app 2GO: tela inicial com a próxima viagem para Roma"
+                    objectPosition="top center"
                   />
                 </PhoneFrame>
-                <AppPhoneMockup
-                  variant="roma"
+                <PhoneFrame
                   size="md"
-                  className="max-w-[180px] sm:max-w-[210px] lg:max-w-[230px]"
-                />
+                  className="max-w-[168px] sm:max-w-[196px] lg:max-w-[214px] translate-y-3 sm:translate-y-5"
+                  glowClassName="bg-brand-orange/18"
+                >
+                  <PhoneScreenImage
+                    src="/assets/app-roteiro-roma.webp"
+                    alt="Prévia real do app 2GO: dia 1 do roteiro de Roma com countdown, datas e timeline"
+                    objectPosition="top center"
+                  />
+                </PhoneFrame>
               </div>
             </div>
           </ScrollReveal>
@@ -727,10 +738,10 @@ export default function Home() {
                   Roteiros personalizados
                 </span>
                 <h2 className="font-headers text-3xl md:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-brand-navy">
-                  Seus roteiros ganham vida no app
+                  Crie seu roteiro personalizado
                 </h2>
-                <p className="text-sm md:text-base text-text-muted leading-relaxed">
-                  Veja destinos aqui. Timeline, mapa e ajustes ficam no aplicativo.
+                <p className="text-sm md:text-base text-text-muted leading-relaxed max-w-xl">
+                  Planeje sua próxima viagem do seu jeito, com muito mais praticidade.
                 </p>
                 
                 <div className="flex flex-col gap-2 mt-2 w-full sm:w-auto items-center sm:items-start">
@@ -740,7 +751,7 @@ export default function Home() {
                       onClick={() => setIsDownloadOpen(true)}
                       className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-8 py-4 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 border-none"
                     >
-                      Baixar o App
+                      Criar meu roteiro
                     </button>
                     <Link
                       href="/roteiros"
