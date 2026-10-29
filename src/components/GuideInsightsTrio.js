@@ -41,12 +41,12 @@ export default function GuideInsightsTrio({ guide, frames: framesProp, usedSeed 
     const nextTrips = (guide.dayTrips || []).map(parseDayTrip);
     const usedThumbs = new Set(used);
     const photoMistakes = pickDiverseFrame(frames, {
-      hints: ['louvre', 'notre', 'orsay', 'opera'],
+      hints: ['louvre', 'notre', 'orsay', 'opera', 'pantheon', 'navona', 'covent', 'shinjuku', 'galata', 'creek', 'chelsea', 'alley'],
       used,
       fallbackIndex: 1
     });
     const photoTips = pickDiverseFrame(frames, {
-      hints: ['sacre', 'montmartre', 'seine-bridge', 'marais', 'latin'],
+      hints: ['sacre', 'montmartre', 'seine-bridge', 'marais', 'latin', 'trastevere', 'meiji', 'high-line', 'shoreditch', 'kadikoy', 'desert', 'local-shop'],
       used,
       fallbackIndex: 3
     });

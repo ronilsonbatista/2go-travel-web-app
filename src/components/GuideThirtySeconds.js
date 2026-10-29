@@ -229,17 +229,35 @@ export default function GuideThirtySeconds({ guide }) {
   }, [tab]);
 
   const attractionPins = useMemo(() => {
-    const items = (guide?.attractions || []).slice(0, 4);
+    const items = (guide?.attractions || []).slice(0, 6);
     if (!items.length) return data.regions;
+    const used = new Set(
+      (data.regions || []).map((region) => region.image).filter(Boolean)
+    );
+    if (guide?.heroImage) used.add(guide.heroImage);
     return items.map((att, index) => {
       const region = data.regions[index % Math.max(data.regions.length, 1)];
+      const pinOffsets = [
+        { top: '32%', left: '28%' },
+        { top: '48%', left: '52%' },
+        { top: '62%', left: '38%' },
+        { top: '40%', left: '68%' },
+        { top: '70%', left: '58%' },
+        { top: '25%', left: '45%' }
+      ];
       return {
         id: `att-${index}`,
         name: att.name,
         blurb: att.duration || att.recommendedTime || '2–3 h',
         color: region?.color || '#5B8DEF',
-        image: attractionImage(guide, att, [region?.image, guide.heroImage], index),
-        pin: region?.pin || { top: `${30 + index * 12}%`, left: `${28 + index * 14}%` },
+        image: attractionImage(
+          guide,
+          att,
+          [region?.image, guide.heroImage].filter(Boolean),
+          index,
+          used
+        ),
+        pin: pinOffsets[index] || region?.pin || { top: `${28 + index * 10}%`, left: `${26 + index * 12}%` },
         hotel: region?.hotel
       };
     });

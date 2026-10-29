@@ -15,10 +15,12 @@ export const destinationGuides = {
     metaTitle: 'Paris: Guia completo',
     metaDescription: 'Guia completo e definitivo para planejar sua viagem para Paris. Saiba sobre vistos, seguro viagem, passagens de metrô, bairros e atrações.',
     heroImage: '/images/destinations/paris/paris-eiffel-seine.jpg',
-    images: [
-      { url: '/images/destinations/paris/paris-eiffel-seine.jpg', alt: 'Torre Eiffel e Rio Sena' },
-      { url: '/images/destinations/paris/paris-louvre.jpg', alt: 'Museu do Louvre e Pirâmide' },
-      { url: '/images/destinations/paris/paris-notre-dame.jpg', alt: 'Catedral de Notre-Dame e Rio Sena' }
+        images: [
+      { url: '/images/destinations/paris/paris-louvre.jpg', alt: 'Museu do Louvre' },
+      { url: '/images/destinations/paris/paris-notre-dame.jpg', alt: 'Notre-Dame' },
+      { url: '/images/destinations/paris/paris-sacre-coeur.jpg', alt: 'Sacré-Cœur' },
+      { url: '/images/destinations/paris/paris-marais.jpg', alt: 'Le Marais' },
+      { url: '/images/destinations/paris/paris-orsay.jpg', alt: 'Musée d\'Orsay' }
     ],
     summaryText: 'Paris é uma das capitais mais visitadas do planeta. Planejar a viagem exige entender a distribuição por arrondissements, a malha de metrô, as regras do Espaço Schengen e o agendamento de ingressos fura-fila.',
     intro: 'Paris é uma metrópole vibrante que combina monumentos históricos seculares, galerias de arte renomadas mundialmente e a mais prestigiada cultura gastronômica. Organizar uma viagem para a Cidade Luz exige estratégia para otimizar os dias, evitar filas extensas e circular com facilidade entre os distritos.',
@@ -191,10 +193,12 @@ export const destinationGuides = {
     metaTitle: 'Nova York: Guia completo',
     metaDescription: 'Guia completo para planejar sua viagem a Nova York. Saiba sobre vistos, metrô OMNY, hospedagem e atrações de Manhattan.',
     heroImage: '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg',
-    images: [
-      { url: '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg', alt: 'Estátua da Liberdade' },
+            images: [
+      { url: '/images/destinations/nova-york/nova-york-central-park.jpg', alt: 'Central Park' },
+      { url: '/images/destinations/nova-york/nova-york-times-square.jpg', alt: 'Times Square' },
+      { url: '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg', alt: 'Brooklyn Bridge' },
       { url: '/images/destinations/nova-york/nova-york-empire-state.jpg', alt: 'Empire State Building' },
-      { url: '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg', alt: 'Brooklyn Bridge com Manhattan' }
+      { url: '/images/destinations/nova-york/nova-york-high-line.jpg', alt: 'High Line' }
     ],
     summaryText: 'Nova York é a capital cultural dos Estados Unidos. Planejar exige vistos em dia, entender a divisão de Manhattan e usar o sistema de transporte OMNY.',
     intro: 'Nova York é uma metrópole vibrante, famosa por seus arranha-céus icônicos, espetáculos da Broadway e bairros cheios de personalidade. Uma viagem inesquecível para a Big Apple exige um bom planejamento de deslocamento e orçamento.',
@@ -249,12 +253,67 @@ export const destinationGuides = {
         price: 'Gratuito',
         reservation: 'Não é necessária',
         tip2GO: 'Alugue uma bicicleta perto de Columbus Circle para percorrer o circuito completo do parque.'
+      },
+      {
+        name: 'Times Square & Broadway',
+        priority: 'Alta',
+        desc: 'O cruzamento mais famoso do mundo, com painéis LED e teatros da Broadway.',
+        whyVisit: 'Energia noturna única e espetáculos de classe mundial.',
+        recommendedTime: '2 horas (+ show)',
+        bestTime: 'Anoitecer para as luzes e horário do show.',
+        duration: '2 horas',
+        transport: 'Metrô 42 St - Times Square',
+        price: 'Gratuito para circular; shows à parte',
+        reservation: 'Shows com antecedência',
+        tip2GO: 'Compre ingressos TKTS no dia para descontos de última hora em alguns musicais.'
+      },
+      {
+        name: 'Estátua da Liberdade & Battery',
+        priority: 'Alta',
+        desc: 'O ícone de Lower Manhattan e o porto de Nova York.',
+        whyVisit: 'Símbolo histórico com skyline de fundo e ferry até Liberty Island.',
+        recommendedTime: '3 a 4 horas',
+        bestTime: 'Primeira balsa da manhã.',
+        duration: '3,5 horas',
+        transport: 'Ferry em Battery Park (reserve com Statue City Cruises)',
+        price: 'A partir de $ 24,50 (ferry + pedestal)',
+        reservation: 'Obrigatória online',
+        tip2GO: 'Reserve a opção com acesso ao pedestal com semanas de antecedência.'
+      },
+      {
+        name: 'Brooklyn Bridge & DUMBO',
+        priority: 'Média',
+        desc: 'Caminhada clássica sobre o East River até as ruas de cobblestone de DUMBO.',
+        whyVisit: 'Vista icônica de Manhattan e cafés com skyline.',
+        recommendedTime: '2 a 3 horas',
+        bestTime: 'Manhã cedo para evitar multidões na ponte.',
+        duration: '2,5 horas',
+        transport: 'Metrô Brooklyn Bridge - City Hall ou High St',
+        price: 'Gratuito',
+        reservation: 'Não é necessária',
+        tip2GO: 'Fotografe a ponte a partir do Washington Street em DUMBO.'
+      },
+      {
+        name: 'High Line & Chelsea',
+        priority: 'Média',
+        desc: 'Parque elevado sobre antigos trilhos, com arte e vistas de Midtown West.',
+        whyVisit: 'Passeio urbano diferente, conectando Meatpacking a Hudson Yards.',
+        recommendedTime: '1,5 a 2 horas',
+        bestTime: 'Final de tarde.',
+        duration: '2 horas',
+        transport: 'Metrô 14 St - 8 Av ou 34 St - Hudson Yards',
+        price: 'Gratuito',
+        reservation: 'Não é necessária',
+        tip2GO: 'Desça no Chelsea Market no meio do percurso para um lanche rápido.'
       }
     ],
 
     suggestedItinerary: [
       { day: 'Dia 1', title: 'Midtown & Times Square', details: 'Times Square, Bryant Park, Grand Central Terminal e Empire State.' },
-      { day: 'Dia 2', title: 'Central Park & Museus', details: 'Central Park pela manhã, The Met ou MoMA à tarde.' }
+      { day: 'Dia 2', title: 'Central Park & Museus', details: 'Central Park pela manhã, The Met ou MoMA à tarde.' },
+      { day: 'Dia 3', title: 'Downtown & Liberdade', details: 'Battery Park, ferry da Estátua da Liberdade e One World Observatory.' },
+      { day: 'Dia 4', title: 'Brooklyn & DUMBO', details: 'Caminhada na Brooklyn Bridge, DUMBO e pôr do sol em Brooklyn Heights.' },
+      { day: 'Dia 5', title: 'High Line & Chelsea', details: 'High Line, Chelsea Market e Hudson Yards.' }
     ],
 
     dayTrips: ['Washington D.C. (3h de trem Acela)', 'Filadélfia (1h30 de trem)'],
@@ -304,10 +363,12 @@ export const destinationGuides = {
     metaTitle: 'Tóquio: Guia completo',
     metaDescription: 'Guia completo para viajar a Tóquio. Saiba sobre isenção de visto, transporte IC Suica, onde ficar e roteiro em Tóquio.',
     heroImage: '/images/destinations/toquio/toquio-tokyo-tower.jpg',
-    images: [
-      { url: '/images/destinations/toquio/toquio-tokyo-tower.jpg', alt: 'Tokyo Tower' },
+            images: [
       { url: '/images/destinations/toquio/toquio-sensoji.jpg', alt: 'Templo Senso-ji' },
-      { url: '/images/destinations/toquio/toquio-shibuya-crossing.jpg', alt: 'Shibuya Crossing' }
+      { url: '/images/destinations/toquio/toquio-shibuya-crossing.jpg', alt: 'Cruzamento de Shibuya' },
+      { url: '/images/destinations/toquio/toquio-shinjuku.jpg', alt: 'Shinjuku à noite' },
+      { url: '/images/destinations/toquio/toquio-meiji.jpg', alt: 'Santuário Meiji' },
+      { url: '/images/destinations/toquio/toquio-skytree.jpg', alt: 'Tokyo Skytree' }
     ],
     summaryText: 'Tóquio mescla tradição milenar e tecnologia de ponta com um sistema de transporte impecável.',
     intro: 'Tóquio é uma metrópole surpreendente pela organização, segurança absoluta e riqueza gastronômica. Viajar para o Japão ficou ainda mais fácil com a isenção de visto para brasileiros.',
@@ -348,11 +409,66 @@ export const destinationGuides = {
         price: 'Gratuito',
         reservation: 'Não é necessária',
         tip2GO: 'Chegue às 08h00 para fotografar o portão Kaminarimon sem multidões.'
+      },
+      {
+        name: 'Cruzamento de Shibuya',
+        priority: 'Alta',
+        desc: 'O scrambling crossing mais fotografado do Japão.',
+        whyVisit: 'Energia urbana pop e mirante do Magasa / Shibuya Sky.',
+        recommendedTime: '1,5 a 2 horas',
+        bestTime: 'Entardecer e noite.',
+        duration: '2 horas',
+        transport: 'Estação Shibuya (JR Yamanote / Linha Ginza)',
+        price: 'Gratuito na rua; mirantes à parte',
+        reservation: 'Shibuya Sky com antecedência',
+        tip2GO: 'Suba ao Shibuya Sky ao pôr do sol para ver o cruzamento do alto.'
+      },
+      {
+        name: 'Shinjuku & Golden Gai',
+        priority: 'Alta',
+        desc: 'Arranha-céus, neon e vielas de bares minúsculos.',
+        whyVisit: 'Vida noturna lendária e mirante gratuito do Governo Metropolitano.',
+        recommendedTime: '3 horas',
+        bestTime: 'Noite.',
+        duration: '3 horas',
+        transport: 'Estação Shinjuku',
+        price: 'Mirante gratuito; drinks à parte',
+        reservation: 'Não é necessária',
+        tip2GO: 'Reserve o estômago para um izakaya antes de explorar o Golden Gai.'
+      },
+      {
+        name: 'Santuário Meiji (Harajuku)',
+        priority: 'Média',
+        desc: 'Floresta sagrada no meio da cidade, com torii monumentais.',
+        whyVisit: 'Contraste sereno com Takeshita Street ao lado.',
+        recommendedTime: '1,5 a 2 horas',
+        bestTime: 'Manhã.',
+        duration: '2 horas',
+        transport: 'Estação Harajuku (JR Yamanote)',
+        price: 'Gratuito',
+        reservation: 'Não é necessária',
+        tip2GO: 'Combine com um café em Omotesando depois da visita.'
+      },
+      {
+        name: 'Tokyo Skytree',
+        priority: 'Média',
+        desc: 'A torre de observação mais alta do Japão, em Sumida.',
+        whyVisit: 'Vista de 360º da metrópole e do Monte Fuji em dias limpos.',
+        recommendedTime: '2 horas',
+        bestTime: 'Entardecer.',
+        duration: '2 horas',
+        transport: 'Estação Tokyo Skytree / Oshiage',
+        price: 'A partir de ¥ 2.100',
+        reservation: 'Recomendada online',
+        tip2GO: 'Compre o bilhete com horário marcado para evitar filas no deck principal.'
       }
     ],
 
     suggestedItinerary: [
-      { day: 'Dia 1', title: 'Asakusa & Ueno', details: 'Templo Senso-ji, parque de Ueno e Akihabara à noite.' }
+      { day: 'Dia 1', title: 'Asakusa & Ueno', details: 'Templo Senso-ji, parque de Ueno e Akihabara à noite.' },
+      { day: 'Dia 2', title: 'Shibuya & Harajuku', details: 'Cruzamento de Shibuya, Meiji Jingu e compras em Omotesando.' },
+      { day: 'Dia 3', title: 'Shinjuku noturno', details: 'Mirante do Governo Metropolitano, Omoide Yokocho e Golden Gai.' },
+      { day: 'Dia 4', title: 'Sumida & Skytree', details: 'Tokyo Skytree e passeio pelo rio Sumida.' }
     ],
 
     dayTrips: ['Monte Fuji & Hakone (2h de trem)', 'Nikko (2h de trem)'],
@@ -402,10 +518,12 @@ export const destinationGuides = {
     metaTitle: 'Londres: Guia completo',
     metaDescription: 'Guia completo para planejar sua viagem a Londres. Saiba sobre ETA, Oyster/contactless, museus gratuitos e bairros.',
     heroImage: '/images/destinations/londres/londres-big-ben.jpg',
-    images: [
-      { url: '/images/destinations/londres/londres-big-ben.jpg', alt: 'Big Ben e Parlamento' },
+            images: [
       { url: '/images/destinations/londres/londres-tower-bridge.jpg', alt: 'Tower Bridge' },
-      { url: '/images/destinations/londres/londres-buckingham-palace.jpg', alt: 'Palácio de Buckingham' }
+      { url: '/images/destinations/londres/londres-buckingham-palace.jpg', alt: 'Palácio de Buckingham' },
+      { url: '/images/destinations/londres/londres-covent-garden.jpg', alt: 'Covent Garden' },
+      { url: '/images/destinations/londres/londres-british-museum.jpg', alt: 'British Museum' },
+      { url: '/images/destinations/londres/londres-regent-street.jpg', alt: 'Regent Street' }
     ],
     summaryText: 'Londres combina realeza, museus de classe mundial e parques imensos com transporte excelente.',
     intro: 'Londres é uma metrópole multicultural com história em cada esquina. A cidade oferece uma vasta gama de museus públicos com entrada gratuita.',
@@ -444,12 +562,67 @@ export const destinationGuides = {
         transport: 'Estação Westminster',
         price: 'Gratuito por fora',
         reservation: 'Não necessária para fotos',
-        tip2GO: 'Atravesse a ponte de Westminster para a melhor foto com o Big Ben ao fundo.'
+        tip2GO: 'Atravesse a Westminster Bridge para a melhor foto com o Big Ben ao fundo.'
+      },
+      {
+        name: 'London Eye',
+        priority: 'Alta',
+        desc: 'A roda-gigante na South Bank com vista do Tâmisa e de Westminster.',
+        whyVisit: 'Panorama clássico de Londres em cabines fechadas.',
+        recommendedTime: '1,5 hora',
+        bestTime: 'Entardecer.',
+        duration: '1,5 hora',
+        transport: 'Estação Waterloo ou Westminster',
+        price: 'A partir de £ 32',
+        reservation: 'Recomendada online',
+        tip2GO: 'Combine com uma caminhada na South Bank até o Borough Market.'
+      },
+      {
+        name: 'Tower Bridge',
+        priority: 'Alta',
+        desc: 'A ponte neogótica mais fotografada de Londres.',
+        whyVisit: 'Passarelas superiores e vista do Tower of London.',
+        recommendedTime: '1,5 a 2 horas',
+        bestTime: 'Manhã ou blue hour.',
+        duration: '2 horas',
+        transport: 'Estação Tower Hill',
+        price: 'Exterior gratuito; exhibition à parte',
+        reservation: 'Exhibition online',
+        tip2GO: 'Fotografe a ponte a partir do Potters Fields Park, no lado sul.'
+      },
+      {
+        name: 'Palácio de Buckingham',
+        priority: 'Média',
+        desc: 'Residência oficial da monarquia, com Changing of the Guard.',
+        whyVisit: 'Cerimônia da guarda e St. James’s Park ao lado.',
+        recommendedTime: '1,5 hora',
+        bestTime: 'Horário da troca da guarda (verifique a agenda).',
+        duration: '1,5 hora',
+        transport: 'Estação Green Park ou Victoria',
+        price: 'Exterior gratuito',
+        reservation: 'Não necessária para o exterior',
+        tip2GO: 'Chegue 45 minutos antes da cerimônia para garantir um bom ângulo.'
+      },
+      {
+        name: 'British Museum',
+        priority: 'Alta',
+        desc: 'Um dos maiores museus do mundo, com entrada gratuita.',
+        whyVisit: 'Pedra de Roseta, mármores do Partenon e Grande Corte.',
+        recommendedTime: '3 horas',
+        bestTime: 'Abertura.',
+        duration: '3 horas',
+        transport: 'Estação Russell Square ou Tottenham Court Road',
+        price: 'Gratuito (doações opcionais)',
+        reservation: 'Timed entry recomendado',
+        tip2GO: 'Reserve o horário gratuito online e foque em 2 ou 3 alas.'
       }
     ],
 
     suggestedItinerary: [
-      { day: 'Dia 1', title: 'Westminster & London Eye', details: 'Big Ben, Westminster Abbey, St. James\'s Park e London Eye.' }
+      { day: 'Dia 1', title: 'Westminster & London Eye', details: 'Big Ben, Westminster Abbey, St. James’s Park e London Eye.' },
+      { day: 'Dia 2', title: 'Tower Bridge & City', details: 'Tower of London, Tower Bridge e caminhada na South Bank.' },
+      { day: 'Dia 3', title: 'Museus & West End', details: 'British Museum de manhã e musical no West End à noite.' },
+      { day: 'Dia 4', title: 'Buckingham & Parks', details: 'Palácio de Buckingham, Hyde Park e compras em Oxford Street.' }
     ],
 
     dayTrips: ['Castelo de Windsor (1h de trem)', 'Oxford ou Cambridge (1h de trem)'],
@@ -499,10 +672,12 @@ export const destinationGuides = {
     metaTitle: 'Roma: Guia completo',
     metaDescription: 'Guia completo para sua viagem a Roma. Descubra os segredos do Coliseu, Vaticano, bairros e transporte.',
     heroImage: '/images/destinations/roma/roma-coliseu.jpg',
-    images: [
-      { url: '/images/destinations/roma/roma-coliseu.jpg', alt: 'Coliseu de Roma' },
+            images: [
       { url: '/images/destinations/roma/roma-fontana-trevi.jpg', alt: 'Fontana di Trevi' },
-      { url: '/images/destinations/roma/roma-vaticano.jpg', alt: 'Praça de São Pedro e Vaticano' }
+      { url: '/images/destinations/roma/roma-vaticano.jpg', alt: 'Praça de São Pedro e Vaticano' },
+      { url: '/images/destinations/roma/roma-pantheon.jpg', alt: 'Pantheon' },
+      { url: '/images/destinations/roma/roma-trastevere.jpg', alt: 'Trastevere' },
+      { url: '/images/destinations/roma/roma-navona.jpg', alt: 'Piazza Navona' }
     ],
     summaryText: 'Roma é um museu a céu aberto com milênios de história, fontes barrocas e gastronomia inigualável.',
     intro: 'Roma encanta por preservar ruínas romanas ao lado de praças barrocas animadas e trattorias acolhedoras.',
@@ -542,11 +717,79 @@ export const destinationGuides = {
         price: '€ 18,00',
         reservation: 'Obrigatória antecipadamente online',
         tip2GO: 'Compre o ingresso combinado que inclui Coliseu, Fórum Romano e Palatino.'
+      },
+      {
+        name: 'Vaticano & Capela Sistina',
+        priority: 'Alta',
+        desc: 'Museus do Vaticano, Capela Sistina e Praça de São Pedro.',
+        whyVisit: 'Acervo renascentista e a cúpula de Michelangelo.',
+        recommendedTime: '4 horas',
+        bestTime: 'Primeiro horário da manhã.',
+        duration: '4 horas',
+        transport: 'Metrô Linha A (Ottaviano / Cipro)',
+        price: 'A partir de € 20',
+        reservation: 'Obrigatória online',
+        tip2GO: 'Reserve o horário mais cedo e vá direto à Capela Sistina antes das multidões.'
+      },
+      {
+        name: 'Fontana di Trevi',
+        priority: 'Alta',
+        desc: 'A fonte barroca mais famosa do mundo no Centro Storico.',
+        whyVisit: 'Cartão postal romano — chegue cedo para ver sem filas densas.',
+        recommendedTime: '45 minutos',
+        bestTime: 'Antes das 8h ou após as 22h.',
+        duration: '45 minutos',
+        transport: 'A pé a partir da Fontana di Trevi / Barberini',
+        price: 'Gratuito',
+        reservation: 'Não é necessária',
+        tip2GO: 'Combine com Pantheon e Piazza Navona no mesmo circuito a pé.'
+      },
+      {
+        name: 'Pantheon',
+        priority: 'Alta',
+        desc: 'Templo romano com a maior cúpula de concreto não reforçado do mundo.',
+        whyVisit: 'Arquitetura perfeita e óculus aberto ao céu.',
+        recommendedTime: '1 hora',
+        bestTime: 'Manhã.',
+        duration: '1 hora',
+        transport: 'A pé no Centro Storico',
+        price: 'Ingresso com reserva online',
+        reservation: 'Recomendada',
+        tip2GO: 'Observe o óculus por alguns minutos — a luz muda o espaço o tempo todo.'
+      },
+      {
+        name: 'Piazza Navona',
+        priority: 'Média',
+        desc: 'Praça barroca no formato do estádio de Domiziano, com a Fontana dei Quattro Fiumi.',
+        whyVisit: 'Ambiente vibrante, cafés e arte de rua.',
+        recommendedTime: '1 hora',
+        bestTime: 'Final de tarde.',
+        duration: '1 hora',
+        transport: 'A pé no Centro Storico',
+        price: 'Gratuito',
+        reservation: 'Não é necessária',
+        tip2GO: 'Sente-se num café lateral e observe a praça antes de seguir para Trastevere.'
+      },
+      {
+        name: 'Trastevere',
+        priority: 'Média',
+        desc: 'Bairro boêmio do outro lado do Tibre, com vielas e trattorias.',
+        whyVisit: 'Noite romana autêntica e Santa Maria in Trastevere.',
+        recommendedTime: '2 a 3 horas',
+        bestTime: 'Noite.',
+        duration: '2,5 horas',
+        transport: 'A pé pela Isola Tiberina ou bonde 8',
+        price: 'Gratuito para circular',
+        reservation: 'Jantar com reserva',
+        tip2GO: 'Reserve trattoria com antecedência — as melhores lotam rápido.'
       }
     ],
 
     suggestedItinerary: [
-      { day: 'Dia 1', title: 'Roma Antiga', details: 'Coliseu, Fórum Romano, Palatino e Piazza Venezia.' }
+      { day: 'Dia 1', title: 'Roma Antiga', details: 'Coliseu, Fórum Romano, Palatino e Piazza Venezia.' },
+      { day: 'Dia 2', title: 'Vaticano', details: 'Museus do Vaticano, Capela Sistina e Praça de São Pedro.' },
+      { day: 'Dia 3', title: 'Centro Storico', details: 'Fontana di Trevi, Pantheon, Piazza Navona e Piazza di Spagna.' },
+      { day: 'Dia 4', title: 'Trastevere & Tibre', details: 'Manhã no Janículo e noite gastronômica em Trastevere.' }
     ],
 
     dayTrips: ['Florença (1h30 de trem frecciarossa)', 'Tivoli (1h de ônibus/trem)'],
@@ -596,10 +839,12 @@ export const destinationGuides = {
     metaTitle: 'Istambul: Guia completo',
     metaDescription: 'Guia completo para viajar a Istambul. Saiba sobre mesquitas, transporte Istanbulkart, passeios no Bósforo e mercados.',
     heroImage: '/images/destinations/istambul/istambul-hagia-sophia.jpg',
-    images: [
-      { url: '/images/destinations/istambul/istambul-hagia-sophia.jpg', alt: 'Hagia Sophia' },
+            images: [
       { url: '/images/destinations/istambul/istambul-mesquita-azul.jpg', alt: 'Mesquita Azul' },
-      { url: '/images/destinations/istambul/istambul-bosforo.jpg', alt: 'Estreito do Bósforo' }
+      { url: '/images/destinations/istambul/istambul-galata.jpg', alt: 'Torre de Galata' },
+      { url: '/images/destinations/istambul/istambul-grande-bazar.jpg', alt: 'Grande Bazar' },
+      { url: '/images/destinations/istambul/istambul-bosforo.jpg', alt: 'Estreito do Bósforo' },
+      { url: '/images/destinations/istambul/istambul-kadikoy.jpg', alt: 'Kadıköy' }
     ],
     summaryText: 'Istambul é a única metrópole do mundo situada entre dois continentes (Europa e Ásia).',
     intro: 'Istambul fascina pela fusão da arquitetura otomana e bizantina com uma cena cultural vibrante.',
@@ -639,11 +884,79 @@ export const destinationGuides = {
         price: '€ 25,00 para visitantes estrangeiros',
         reservation: 'Ingresso no local',
         tip2GO: 'Mulheres devem cobrir os cabelos com lenço e todos devem tirar os sapatos para entrar.'
+      },
+      {
+        name: 'Mesquita Azul',
+        priority: 'Alta',
+        desc: 'Mesquita Sultan Ahmed com seis minaretes e azulejos de İznik.',
+        whyVisit: 'Interior deslumbrante frente à Hagia Sophia.',
+        recommendedTime: '1,5 hora',
+        bestTime: 'Fora dos horários de oração.',
+        duration: '1,5 hora',
+        transport: 'Bonde T1 (Sultanahmet)',
+        price: 'Gratuito',
+        reservation: 'Não é necessária',
+        tip2GO: 'Vista ombros e joelhos cobertos; lenços são emprestados na entrada.'
+      },
+      {
+        name: 'Grande Bazar',
+        priority: 'Alta',
+        desc: 'Um dos mercados cobertos mais antigos e extensos do mundo.',
+        whyVisit: 'Labirinto de lojas de tapetes, cerâmica e especiarias.',
+        recommendedTime: '2 horas',
+        bestTime: 'Manhã em dia de semana.',
+        duration: '2 horas',
+        transport: 'Bonde T1 (Beyazıt) ou metrô Vezneciler',
+        price: 'Gratuito para entrar',
+        reservation: 'Não é necessária',
+        tip2GO: 'Pechinche com bom humor — faz parte da experiência.'
+      },
+      {
+        name: 'Torre de Galata & Karaköy',
+        priority: 'Média',
+        desc: 'Torre medieval com vista do Chifre de Ouro e cafés em Karaköy.',
+        whyVisit: 'Skyline clássico de Istambul e vida jovem do lado europeu.',
+        recommendedTime: '2 horas',
+        bestTime: 'Final de tarde.',
+        duration: '2 horas',
+        transport: 'Metrô / funicular Tünel ou caminhada por Karaköy',
+        price: 'Mirante pago; entorno gratuito',
+        reservation: 'Mirante online em alta temporada',
+        tip2GO: 'Suba a torre e depois desça a pé até o porto de Karaköy.'
+      },
+      {
+        name: 'Passeio de balsa no Bósforo',
+        priority: 'Alta',
+        desc: 'Travessia pública entre Europa e Ásia com vista de palácios e mesquitas.',
+        whyVisit: 'A forma mais bonita (e barata) de entender a geografia da cidade.',
+        recommendedTime: '1,5 a 2 horas',
+        bestTime: 'Pôr do sol.',
+        duration: '2 horas',
+        transport: 'Embarque em Eminönü ou Karaköy com Istanbulkart',
+        price: 'Tarifa comum de balsa',
+        reservation: 'Não é necessária',
+        tip2GO: 'Pegue a balsa pública em vez do cruzeiro turístico caro.'
+      },
+      {
+        name: 'Kadıköy (lado asiático)',
+        priority: 'Média',
+        desc: 'Mercado gastronômico e rua Moda no lado asiático.',
+        whyVisit: 'Istambul local, sem o preço de Sultanahmet.',
+        recommendedTime: '3 horas',
+        bestTime: 'Tarde e início da noite.',
+        duration: '3 horas',
+        transport: 'Balsa para Kadıköy',
+        price: 'Tarifa de balsa',
+        reservation: 'Não é necessária',
+        tip2GO: 'Explore o mercado de rua e termine com chá à beira-mar em Moda.'
       }
     ],
 
     suggestedItinerary: [
-      { day: 'Dia 1', title: 'Sultanahmet Histórico', details: 'Hagia Sophia, Mesquita Azul e Cisterna da Basílica.' }
+      { day: 'Dia 1', title: 'Sultanahmet Histórico', details: 'Hagia Sophia, Mesquita Azul e Cisterna da Basílica.' },
+      { day: 'Dia 2', title: 'Bazares & Bósforo', details: 'Grande Bazar, Bazar de Especiarias e balsa no Bósforo.' },
+      { day: 'Dia 3', title: 'Galata & Karaköy', details: 'Torre de Galata, cafés em Karaköy e rooftops em Beyoğlu.' },
+      { day: 'Dia 4', title: 'Lado Asiático', details: 'Dia em Kadıköy e Moda, voltando de balsa ao pôr do sol.' }
     ],
 
     dayTrips: ['Ilhas dos Príncipes (1h30 de balsa)', 'Capadócia (voo interno de 1h)'],
@@ -693,10 +1006,12 @@ export const destinationGuides = {
     metaTitle: 'Dubai: Guia completo',
     metaDescription: 'Guia completo para planejar sua viagem a Dubai. Saiba sobre visto gratuito, Burj Khalifa, praias e safari no deserto.',
     heroImage: '/images/destinations/dubai/dubai-burj-khalifa.jpg',
-    images: [
-      { url: '/images/destinations/dubai/dubai-burj-khalifa.jpg', alt: 'Burj Khalifa' },
+            images: [
       { url: '/images/destinations/dubai/dubai-marina.jpg', alt: 'Dubai Marina' },
-      { url: '/images/destinations/dubai/dubai-burj-al-arab.jpg', alt: 'Burj Al Arab' }
+      { url: '/images/destinations/dubai/dubai-burj-al-arab.jpg', alt: 'Burj Al Arab' },
+      { url: '/images/destinations/dubai/dubai-desert-safari.jpg', alt: 'Safari no deserto' },
+      { url: '/images/destinations/dubai/dubai-fountain.jpg', alt: 'Fontes de Dubai' },
+      { url: '/images/destinations/dubai/dubai-frame.jpg', alt: 'Dubai Frame' }
     ],
     summaryText: 'Dubai é o centro mundial da arquitetura futurista, compras de luxo e atrações audaciosas.',
     intro: 'Dubai impressiona com seus arranha-céus arrojados, ilhas artificiais e infraestrutura impecável no deserto.',
@@ -736,11 +1051,79 @@ export const destinationGuides = {
         price: 'A partir de AED 179',
         reservation: 'Obrigatória antecipadamente online',
         tip2GO: 'Combine a visita com o espetáculo gratuito das Fontes de Dubai no lago do Dubai Mall.'
+      },
+      {
+        name: 'Fontes de Dubai & Dubai Mall',
+        priority: 'Alta',
+        desc: 'Espetáculo de água, luz e música aos pés do Burj Khalifa.',
+        whyVisit: 'Show gratuito e o shopping com aquário e vista do lago.',
+        recommendedTime: '2 a 3 horas',
+        bestTime: 'Após o pôr do sol.',
+        duration: '2,5 horas',
+        transport: 'Metrô Burj Khalifa / Dubai Mall',
+        price: 'Show gratuito',
+        reservation: 'Não é necessária',
+        tip2GO: 'Chegue 20 minutos antes e fique na margem sul do lago para o melhor ângulo.'
+      },
+      {
+        name: 'Dubai Marina & JBR',
+        priority: 'Alta',
+        desc: 'Canal com iates, calçadão e a praia de Jumeirah Beach Residence.',
+        whyVisit: 'Passeio à beira-mar e skyline iluminada à noite.',
+        recommendedTime: '3 horas',
+        bestTime: 'Final de tarde e noite.',
+        duration: '3 horas',
+        transport: 'Metrô DMCC / JLT + trânsito curto',
+        price: 'Gratuito para circular',
+        reservation: 'Não é necessária',
+        tip2GO: 'Faça o The Walk em JBR e termine com um abra no Marina Walk.'
+      },
+      {
+        name: 'Burj Al Arab & Jumeirah',
+        priority: 'Média',
+        desc: 'O hotel em forma de vela e a praia de Jumeirah.',
+        whyVisit: 'Cartão postal de Dubai — fotos a partir da praia pública ao lado.',
+        recommendedTime: '1,5 hora',
+        bestTime: 'Pôr do sol.',
+        duration: '1,5 hora',
+        transport: 'Táxi / Uber até Madinat Jumeirah ou praia de Umm Suqeim',
+        price: 'Exterior gratuito',
+        reservation: 'Afternoon tea no hotel é caro e exige dress code',
+        tip2GO: 'Fotografe da praia pública — não é preciso entrar no hotel.'
+      },
+      {
+        name: 'Safari no deserto',
+        priority: 'Alta',
+        desc: 'Dune bashing, pôr do sol nas dunas e jantar beduíno.',
+        whyVisit: 'Contraste perfeito com o skyline futurista.',
+        recommendedTime: '6 horas (meio período)',
+        bestTime: 'Saídas no fim da tarde.',
+        duration: '6 horas',
+        transport: 'Transfer do hotel incluso nos pacotes',
+        price: 'A partir de AED 200',
+        reservation: 'Obrigatória',
+        tip2GO: 'Escolha operador com seguro e evite os pacotes ultra-baratos sem reviews.'
+      },
+      {
+        name: 'Dubai Creek (Old Dubai)',
+        priority: 'Média',
+        desc: 'Creek histórico com abras, souks de ouro e especiarias.',
+        whyVisit: 'O Dubai anterior aos arranha-céus.',
+        recommendedTime: '2 a 3 horas',
+        bestTime: 'Final de tarde.',
+        duration: '2,5 horas',
+        transport: 'Metrô Al Ghubaiba / Al Ras',
+        price: 'Abra barato; souks gratuitos',
+        reservation: 'Não é necessária',
+        tip2GO: 'Cruze o Creek de abra e explore o Spice Souk a pé.'
       }
     ],
 
     suggestedItinerary: [
-      { day: 'Dia 1', title: 'Downtown Futurista', details: 'Dubai Mall, mirante do Burj Khalifa e show das fontes dançantes.' }
+      { day: 'Dia 1', title: 'Downtown Futurista', details: 'Dubai Mall, mirante do Burj Khalifa e show das fontes dançantes.' },
+      { day: 'Dia 2', title: 'Marina & JBR', details: 'Dubai Marina Walk, praia de JBR e pôr do sol na orla.' },
+      { day: 'Dia 3', title: 'Deserto', details: 'Safari com dune bashing e jantar beduíno ao pôr do sol.' },
+      { day: 'Dia 4', title: 'Old Dubai & Jumeirah', details: 'Dubai Creek de manhã e fotos do Burj Al Arab à tarde.' }
     ],
 
     dayTrips: ['Abu Dhabi (1h30 de carro / ônibus para ver a Grande Mesquita Sheikh Zayed)'],

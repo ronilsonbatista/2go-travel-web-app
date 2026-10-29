@@ -10,21 +10,21 @@ const CARD_DEFS = [
     title: 'Moeda & pagamentos',
     Icon: Coins,
     fields: ['currencyInfo'],
-    imageHints: ['opera', 'marais', 'latin', '1']
+    imageHints: ['opera', 'marais', 'latin', 'regent', 'chelsea', 'alley', 'spice', 'creek']
   },
   {
     id: 'idioma',
     title: 'Idioma',
     Icon: Globe,
     fields: ['languageInfo'],
-    imageHints: ['montmartre', 'latin', 'saint', '2']
+    imageHints: ['montmartre', 'latin', 'saint', 'local-shop', 'trastevere', 'kadikoy', 'shoreditch', 'manhattan']
   },
   {
     id: 'locomocao',
     title: 'Como chegar e se locomover',
     Icon: Plane,
     fields: ['howToGet', 'transportDetails'],
-    imageHints: ['arc', 'bridge', 'seine', '3'],
+    imageHints: ['arc', 'bridge', 'seine', 'galata-bridge', 'high-line', 'red-bus', 'skyline', 'marina'],
     sectionId: 'locomocao'
   },
   {
@@ -32,7 +32,7 @@ const CARD_DEFS = [
     title: 'Documentação & seguro',
     Icon: FileCheck2,
     fields: ['documentation', 'insurance'],
-    imageHints: ['notre', 'orsay', 'opera', 'saint']
+    imageHints: ['notre', 'orsay', 'opera', 'saint', 'pantheon', 'british-museum', 'castel', 'meiji']
   }
 ];
 
