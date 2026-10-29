@@ -1,5 +1,6 @@
 "use client";
 
+import { guideImage } from '@/lib/curatedGuideImages';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
@@ -103,10 +104,7 @@ export default function GuiasHeroHighlight({ destinations = [] }) {
         >
           {slides.map((slide, slideIndex) => {
             const src =
-              slide.guide?.heroImage ||
-              slide.guide?.images?.[0]?.url ||
-              slide.guide?.images?.[0] ||
-              '';
+              guideImage(slide.guide, 'guide-highlight');
             const isActive = slideIndex === ((index % count) + count) % count;
             return (
               <img

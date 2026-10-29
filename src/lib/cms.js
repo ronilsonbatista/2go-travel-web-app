@@ -419,7 +419,7 @@ const destinations = {
     emoji: '🇮🇹',
     description: 'A pátria da arte renascentista, vinhos da Toscana, canais de Veneza e ruínas milenares.',
     longDescription: 'A Itália abriga o maior número de Patrimônios Mundiais da UNESCO no mundo. Roteiros integrados pelo país conectam o romantismo flutuante de Veneza, as galerias de arte de Florença, vinhedos medievais na Toscana e o caos charmoso e histórico de Roma.',
-    image: '/assets/greece.png',
+    image: '/images/destinations/roma/curated-country-italia.jpg',
     bestTime: 'Abril a Junho e Setembro a Outubro',
     visaRequired: 'Isento por até 90 dias',
     currency: 'Euro (€)',

@@ -1,0 +1,84 @@
+
+> 2go-travel-next@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.9 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1907ms
+  Running TypeScript ...
+  Finished TypeScript in 58ms ...
+  Collecting page data using 9 workers ...
+  Generating static pages using 9 workers (0/109) ...
+  Generating static pages using 9 workers (27/109)
+  Generating static pages using 9 workers (54/109)
+  Generating static pages using 9 workers (81/109)
+✓ Generating static pages using 9 workers (109/109) in 386ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /admin/dashboard
+├ ○ /app
+├ ○ /checklist-viagem
+├ ○ /colecoes
+├ ƒ /colecoes/[slug]
+├ ○ /como-planejar-uma-viagem
+├ ○ /como-planejar-viagem-paris
+├ ○ /creditos-imagens
+├ ○ /destinos
+├ ƒ /destinos/[slug]
+├ ○ /documentos-portugal
+├ ○ /downloads
+├ ○ /guias
+├ ● /guias/[slug]
+│ ├ /guias/como-planejar-viagem-paris
+│ ├ /guias/como-planejar-viagem-nova-york
+│ ├ /guias/como-planejar-viagem-toquio
+│ └ [+8 more paths]
+├ ○ /icon.png
+├ ○ /login
+├ ○ /mapa-opcoes
+├ ● /melhor-epoca/[slug]
+│ ├ /melhor-epoca/paris
+│ ├ /melhor-epoca/roma
+│ ├ /melhor-epoca/lisboa
+│ └ [+9 more paths]
+├ ● /o-que-fazer/[slug]
+│ ├ /o-que-fazer/paris
+│ ├ /o-que-fazer/roma
+│ ├ /o-que-fazer/lisboa
+│ └ [+9 more paths]
+├ ○ /politica-de-privacidade
+├ ○ /quanto-custa
+├ ● /quanto-custa/[slug]
+│ ├ /quanto-custa/paris
+│ ├ /quanto-custa/roma
+│ ├ /quanto-custa/lisboa
+│ └ [+9 more paths]
+├ ○ /quem-somos
+├ ○ /robots.txt
+├ ● /roteiro/[slug]
+│ ├ /roteiro/paris-3-dias
+│ ├ /roteiro/paris-5-dias
+│ ├ /roteiro/paris-7-dias
+│ └ [+27 more paths]
+├ ○ /roteiros
+├ ● /roteiros/[slug]
+│ ├ /roteiros/paris-3-dias
+│ ├ /roteiros/roma-3-dias
+│ ├ /roteiros/lisboa-3-dias
+│ └ [+2 more paths]
+├ ○ /seguro-viagem
+├ ○ /sitemap.xml
+├ ○ /termos-de-uso
+├ ƒ /u/[username]/[slug]
+├ ƒ /viajantes/[username]
+└ ○ /viajantes/perfil
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand

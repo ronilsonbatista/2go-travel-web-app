@@ -310,12 +310,13 @@ export default function ItineraryClient({ itinerary, destination }) {
     } else {
       // Attraction-style card (With thumbnail and rating)
       const { rating, price } = getEventMeta(title);
-      const thumb = imgUrl || (destination ? destination.image : 'https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=150&q=80');
+      // An event without its own photo must not repeat a city cover as an attraction.
+      const thumb = imgUrl || null;
       
       return (
         <div className="flex-grow min-w-0 bg-white border border-border-gray/70 rounded-2xl overflow-hidden shadow-sm flex hover:border-brand-orange/30 transition-all duration-300">
           <div className="w-16 sm:w-28 h-24 sm:h-28 shrink-0 relative bg-bg-light border-r border-border-gray/30">
-            <img src={thumb} alt={title} className="w-full h-full object-cover" />
+            {thumb ? <img src={thumb} alt={title} className="w-full h-full object-cover" /> : <span className="flex h-full w-full items-center justify-center"><MapPin className="h-6 w-6 text-brand-navy/30" aria-hidden /></span>}
           </div>
           <div className="p-3 sm:p-4 flex flex-col justify-between flex-grow min-w-0 text-left relative">
             <div>

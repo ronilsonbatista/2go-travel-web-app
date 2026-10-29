@@ -1,5 +1,6 @@
 "use client";
 
+import { guideImage } from '@/lib/curatedGuideImages';
 import React, { useEffect, useMemo, useState } from 'react';
 import {
   CalendarDays,
@@ -25,120 +26,10 @@ import GuideEssentialInfo from '@/components/GuideEssentialInfo';
 import GuideAverageCosts from '@/components/GuideAverageCosts';
 import GuideInsightsTrio from '@/components/GuideInsightsTrio';
 import ScrollReveal from '@/components/ScrollReveal';
-import {
-  attractionImage,
-  dayImage,
-  itineraryTabsFor,
-  neighborhoodImage
-} from '@/lib/guideVisuals';
-import { pickDiverseFrame } from '@/lib/guideInterior';
+import { itineraryTabsFor } from '@/lib/guideVisuals';
 
-const LOCAL_FRAMES = {
-  paris: [
-    '/images/destinations/paris/paris-eiffel-seine.jpg',
-    '/images/destinations/paris/paris-louvre.jpg',
-    '/images/destinations/paris/paris-arc-triomphe.jpg',
-    '/images/destinations/paris/paris-sacre-coeur.jpg',
-    '/images/destinations/paris/paris-notre-dame.jpg',
-    '/images/destinations/paris/paris-versailles.jpg',
-    '/images/destinations/paris/paris-orsay.jpg',
-    '/images/destinations/paris/paris-marais.jpg',
-    '/images/destinations/paris/paris-opera.jpg',
-    '/images/destinations/paris/paris-latin.jpg',
-    '/images/destinations/paris/paris-montmartre.jpg',
-    '/images/destinations/paris/paris-saint-germain.jpg',
-    '/images/destinations/paris/paris-seine-bridge.jpg'
-  ],
-  'nova-york': [
-    '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg',
-    '/images/destinations/nova-york/nova-york-empire-state.jpg',
-    '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg',
-    '/images/destinations/nova-york/nova-york-central-park.jpg',
-    '/images/destinations/nova-york/nova-york-times-square.jpg',
-    '/images/destinations/nova-york/nova-york-high-line.jpg',
-    '/images/destinations/nova-york/nova-york-one-wtc.jpg',
-    '/images/destinations/nova-york/nova-york-chelsea.jpg',
-    '/images/destinations/nova-york/nova-york-skyline-dusk.jpg',
-    '/images/destinations/nova-york/nova-york-midtown-night.jpg',
-    '/images/destinations/nova-york/nova-york-manhattan-avenue.jpg',
-    '/images/destinations/nova-york/nova-york-times-crowd.jpg'
-  ],
-  toquio: [
-    '/images/destinations/toquio/toquio-tokyo-tower.jpg',
-    '/images/destinations/toquio/toquio-sensoji.jpg',
-    '/images/destinations/toquio/toquio-shibuya-crossing.jpg',
-    '/images/destinations/toquio/toquio-shinjuku.jpg',
-    '/images/destinations/toquio/toquio-meiji.jpg',
-    '/images/destinations/toquio/toquio-akihabara.jpg',
-    '/images/destinations/toquio/toquio-skytree.jpg',
-    '/images/destinations/toquio/toquio-night-neon.jpg',
-    '/images/destinations/toquio/toquio-alley.jpg',
-    '/images/destinations/toquio/toquio-local-shop.jpg',
-    '/images/destinations/toquio/toquio-chidorigafuchi.jpg',
-    '/images/destinations/toquio/toquio-skyline.jpg'
-  ],
-  londres: [
-    '/images/destinations/londres/londres-big-ben.jpg',
-    '/images/destinations/londres/londres-tower-bridge.jpg',
-    '/images/destinations/londres/londres-buckingham-palace.jpg',
-    '/images/destinations/londres/londres-london-eye.jpg',
-    '/images/destinations/londres/londres-westminster-bridge.jpg',
-    '/images/destinations/londres/londres-british-museum.jpg',
-    '/images/destinations/londres/londres-covent-garden.jpg',
-    '/images/destinations/londres/londres-shoreditch.jpg',
-    '/images/destinations/londres/londres-regent-street.jpg',
-    '/images/destinations/londres/londres-red-bus.jpg'
-  ],
-  roma: [
-    '/images/destinations/roma/roma-coliseu.jpg',
-    '/images/destinations/roma/roma-coliseu-interior.jpg',
-    '/images/destinations/roma/roma-fontana-trevi.jpg',
-    '/images/destinations/roma/roma-vaticano.jpg',
-    '/images/destinations/roma/roma-pantheon.jpg',
-    '/images/destinations/roma/roma-navona.jpg',
-    '/images/destinations/roma/roma-spanish-steps.jpg',
-    '/images/destinations/roma/roma-trastevere.jpg',
-    '/images/destinations/roma/roma-castel.jpg',
-    '/images/destinations/roma/roma-monti.jpg'
-  ],
-  istambul: [
-    '/images/destinations/istambul/istambul-hagia-sophia.jpg',
-    '/images/destinations/istambul/istambul-mesquita-azul.jpg',
-    '/images/destinations/istambul/istambul-bosforo.jpg',
-    '/images/destinations/istambul/istambul-galata.jpg',
-    '/images/destinations/istambul/istambul-grande-bazar.jpg',
-    '/images/destinations/istambul/istambul-bazar-especiarias.jpg',
-    '/images/destinations/istambul/istambul-galata-bridge.jpg',
-    '/images/destinations/istambul/istambul-kadikoy.jpg',
-    '/images/destinations/istambul/istambul-blue-dusk.jpg'
-  ],
-  dubai: [
-    '/images/destinations/dubai/dubai-burj-khalifa.jpg',
-    '/images/destinations/dubai/dubai-marina.jpg',
-    '/images/destinations/dubai/dubai-burj-al-arab.jpg',
-    '/images/destinations/dubai/dubai-fountain.jpg',
-    '/images/destinations/dubai/dubai-desert-safari.jpg',
-    '/images/destinations/dubai/dubai-creek.jpg',
-    '/images/destinations/dubai/dubai-downtown-skyline.jpg'
-  ]
-};
 
 const DAY_ACCENTS = ['bg-brand-orange', 'bg-[#2F6FED]', 'bg-brand-green', 'bg-[#B45309]', 'bg-[#7C3AED]', 'bg-[#0F766E]'];
-
-function framesFor(guide, { includeHero = true } = {}) {
-  const listed = (guide.images || [])
-    .map((image) => (typeof image === 'string' ? image : image?.url))
-    .filter(Boolean);
-  const folder = (guide.heroImage || '').split('/')[3];
-  const unique = [];
-  const seed = includeHero
-    ? [guide.heroImage, ...listed, ...(LOCAL_FRAMES[folder] || [])]
-    : [...listed, ...(LOCAL_FRAMES[folder] || [])].filter((src) => src && src !== guide.heroImage);
-  for (const src of seed) {
-    if (src && !unique.includes(src) && !String(src).includes('-hotel-')) unique.push(src);
-  }
-  return unique;
-}
 
 function shortFact(text, fallback) {
   if (!text) return fallback;
@@ -199,11 +90,10 @@ export default function GuideArticleClient({ guide }) {
   const [itineraryTab, setItineraryTab] = useState('all');
   const [activeNeighborhood, setActiveNeighborhood] = useState(0);
   const [introExpanded, setIntroExpanded] = useState(false);
-  // Content frames exclude the hero so the same photo never appears twice on the page.
-  const frames = framesFor(guide || {}, { includeHero: false });
+
   const heroFrames = useMemo(() => {
     const hero = guide?.heroImage;
-    if (!hero) return framesFor(guide || {}, { includeHero: true }).slice(0, 1);
+    if (!hero) return [];
     return [hero];
   }, [guide]);
 
@@ -288,38 +178,13 @@ export default function GuideArticleClient({ guide }) {
     return '';
   }, [guide]);
 
-  /** Stable image picks for SSR/CSR hydration — one shared uniqueness pool for the page body. */
-  const { introImage, interiorUsedSeed, dayImages, attractionImages, neighborhoodImages } = useMemo(() => {
-    const used = new Set();
-    if (guide?.heroImage) used.add(guide.heroImage);
-    // Allocate must-sees first so day/intro fuzzy matching cannot steal pinned paths
-    // (e.g. Empire State / Pantheon / Trevi).
-    const attractions = (guide?.attractions || []).map((att, idx) =>
-      attractionImage(guide, att, frames, idx, used)
-    );
-    const intro =
-      pickDiverseFrame(frames, {
-        hints: ['louvre', 'orsay', 'marais', 'arc', 'opera', 'latin', 'navona', 'covent', 'shinjuku', 'galata', 'creek', 'trastevere'],
-        used,
-        fallbackIndex: 1
-      }) ||
-      frames[1] ||
-      frames[0] ||
-      '';
-    const days = (guide?.suggestedItinerary || []).map((item, idx) =>
-      dayImage(guide, item, frames, idx, used)
-    );
-    const neighborhoods = (guide?.neighborhoods || []).map((n, idx) =>
-      neighborhoodImage(guide, n, frames, idx, used)
-    );
-    return {
-      introImage: intro,
-      interiorUsedSeed: [...used],
-      dayImages: days,
-      attractionImages: attractions,
-      neighborhoodImages: neighborhoods
-    };
-  }, [frames, guide]);
+  // Every visible position owns a distinct, explicitly curated photograph.
+  const { introImage, dayImages, attractionImages, neighborhoodImages } = useMemo(() => ({
+    introImage: guideImage(guide, 'intro'),
+    dayImages: (guide.suggestedItinerary || []).map((_, i) => guideImage(guide, `day-${i}`)),
+    attractionImages: (guide.attractions || []).map((att) => att.image),
+    neighborhoodImages: (guide.neighborhoods || []).map((_, i) => guideImage(guide, `neighborhood-${i}`))
+  }), [guide]);
 
   const itineraryTabs = useMemo(
     () => itineraryTabsFor(guide?.suggestedItinerary || []),
@@ -582,7 +447,7 @@ export default function GuideArticleClient({ guide }) {
                       }`}
                     >
                       <img
-                        src={visibleDayImages[idx] || frames[0] || guide.heroImage}
+                        src={visibleDayImages[idx]}
                         alt=""
                         className="absolute inset-0 h-full w-full object-cover"
                       />
@@ -643,7 +508,8 @@ export default function GuideArticleClient({ guide }) {
                       }`}
                     >
                       <img
-                        src={attractionImages[idx] || frames[0] || guide.heroImage}
+                        src={attractionImages[idx]}
+                        style={{ objectPosition: att.imagePosition || 'center' }}
                         alt={att.name}
                         className="absolute inset-0 h-full w-full object-cover"
                       />
@@ -721,7 +587,7 @@ export default function GuideArticleClient({ guide }) {
                       >
                         <span className="h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-bg-light">
                           <img
-                            src={neighborhoodImages[idx] || frames[0] || guide.heroImage}
+                            src={neighborhoodImages[idx]}
                             alt=""
                             className="h-full w-full object-cover"
                           />
@@ -743,9 +609,7 @@ export default function GuideArticleClient({ guide }) {
                     <div className="relative h-56 sm:h-64">
                       <img
                         src={
-                          neighborhoodImages[activeNeighborhood] ||
-                          frames[0] ||
-                          guide.heroImage
+                          guideImage(guide, `neighborhood-detail-${activeNeighborhood}`)
                         }
                         alt={guide.neighborhoods[activeNeighborhood].name}
                         className="h-full w-full object-cover"
@@ -785,15 +649,15 @@ export default function GuideArticleClient({ guide }) {
           </ScrollReveal>
 
           <ScrollReveal className="mt-14 sm:mt-16" delay={60} variant="color">
-            <GuideEssentialInfo guide={guide} frames={frames} usedSeed={interiorUsedSeed} />
+            <GuideEssentialInfo guide={guide}  />
           </ScrollReveal>
 
           <ScrollReveal className="mt-14 sm:mt-16" delay={60} variant="slide">
-            <GuideAverageCosts guide={guide} frames={frames} usedSeed={interiorUsedSeed} />
+            <GuideAverageCosts guide={guide}  />
           </ScrollReveal>
 
           <ScrollReveal className="mt-14 sm:mt-16" delay={60} variant="fade">
-            <GuideInsightsTrio guide={guide} frames={frames} usedSeed={interiorUsedSeed} />
+            <GuideInsightsTrio guide={guide}  />
           </ScrollReveal>
 
           <ScrollReveal className="mt-12" delay={40}>

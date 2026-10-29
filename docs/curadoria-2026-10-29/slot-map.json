@@ -1,0 +1,2780 @@
+[
+  {
+    "city": "paris",
+    "slot": "hero",
+    "topic": "Paris",
+    "src": "/images/destinations/paris/curated-hero.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "about-purpose",
+    "topic": "Inspiração para viajar",
+    "src": "/images/destinations/paris/curated-about-purpose.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "intro",
+    "topic": "Paris",
+    "src": "/images/destinations/paris/curated-intro.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "home",
+    "topic": "Paris",
+    "src": "/images/destinations/paris/curated-home.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "guide-card",
+    "topic": "Paris",
+    "src": "/images/destinations/paris/curated-guide-card.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "guide-highlight",
+    "topic": "Paris",
+    "src": "/images/destinations/paris/curated-guide-highlight.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "home-slide",
+    "topic": "Paris",
+    "src": "/images/destinations/paris/curated-home-slide.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "home-thumb",
+    "topic": "Paris: miniatura da home",
+    "src": "/images/destinations/paris/curated-home-thumb.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "about",
+    "topic": "Paris",
+    "src": "/images/destinations/paris/curated-about.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "phone",
+    "topic": "Paris",
+    "src": "/images/destinations/paris/curated-phone.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "src": "/images/destinations/paris/curated-essential-moeda.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "src": "/images/destinations/paris/curated-essential-idioma.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "src": "/images/destinations/paris/curated-essential-transporte.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "src": "/images/destinations/paris/curated-essential-docs.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "costs",
+    "topic": "Croissant e Pain au Chocolat em padarias artesanais",
+    "src": "/images/destinations/paris/curated-costs.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "src": "/images/destinations/paris/curated-mistakes.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "src": "/images/destinations/paris/curated-tips.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "attraction-0",
+    "topic": "Torre Eiffel",
+    "src": "/images/destinations/paris/curated-attraction-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-attraction-0",
+    "topic": "Torre Eiffel",
+    "src": "/images/destinations/paris/curated-map-attraction-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-list-0",
+    "topic": "Torre Eiffel",
+    "src": "/images/destinations/paris/curated-map-list-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "attraction-1",
+    "topic": "Museu do Louvre",
+    "src": "/images/destinations/paris/curated-attraction-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-attraction-1",
+    "topic": "Museu do Louvre",
+    "src": "/images/destinations/paris/curated-map-attraction-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-list-1",
+    "topic": "Museu do Louvre",
+    "src": "/images/destinations/paris/curated-map-list-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "attraction-2",
+    "topic": "Arco do Triunfo & Champs-Élysées",
+    "src": "/images/destinations/paris/curated-attraction-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-attraction-2",
+    "topic": "Arco do Triunfo & Champs-Élysées",
+    "src": "/images/destinations/paris/curated-map-attraction-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-list-2",
+    "topic": "Arco do Triunfo & Champs-Élysées",
+    "src": "/images/destinations/paris/curated-map-list-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "attraction-3",
+    "topic": "Basílica de Sacré-Cœur e Montmartre",
+    "src": "/images/destinations/paris/curated-attraction-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-attraction-3",
+    "topic": "Basílica de Sacré-Cœur e Montmartre",
+    "src": "/images/destinations/paris/curated-map-attraction-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-list-3",
+    "topic": "Basílica de Sacré-Cœur e Montmartre",
+    "src": "/images/destinations/paris/curated-map-list-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "attraction-4",
+    "topic": "Notre-Dame de Paris",
+    "src": "/images/destinations/paris/curated-attraction-4.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-attraction-4",
+    "topic": "Notre-Dame de Paris",
+    "src": "/images/destinations/paris/curated-map-attraction-4.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-list-4",
+    "topic": "Notre-Dame de Paris",
+    "src": "/images/destinations/paris/curated-map-list-4.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "attraction-5",
+    "topic": "Musée d’Orsay",
+    "src": "/images/destinations/paris/curated-attraction-5.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-attraction-5",
+    "topic": "Musée d’Orsay",
+    "src": "/images/destinations/paris/curated-map-attraction-5.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-list-5",
+    "topic": "Musée d’Orsay",
+    "src": "/images/destinations/paris/curated-map-list-5.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "day-0",
+    "topic": "Ícones de Paris",
+    "src": "/images/destinations/paris/curated-day-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "day-1",
+    "topic": "Arte e História",
+    "src": "/images/destinations/paris/curated-day-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "day-2",
+    "topic": "Boemia e Arte Impressionista",
+    "src": "/images/destinations/paris/curated-day-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "day-3",
+    "topic": "Bate-Volta Real",
+    "src": "/images/destinations/paris/curated-day-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "day-4",
+    "topic": "Cultura e Ilha da Cidade",
+    "src": "/images/destinations/paris/curated-day-4.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-0",
+    "topic": "Le Marais (3º e 4º arrondissements)",
+    "src": "/images/destinations/paris/curated-neighborhood-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-detail-0",
+    "topic": "Le Marais (3º e 4º arrondissements)",
+    "src": "/images/destinations/paris/curated-neighborhood-detail-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-1",
+    "topic": "Saint-Germain-des-Prés (6º arrondissement)",
+    "src": "/images/destinations/paris/curated-neighborhood-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-detail-1",
+    "topic": "Saint-Germain-des-Prés (6º arrondissement)",
+    "src": "/images/destinations/paris/curated-neighborhood-detail-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-2",
+    "topic": "Opéra / Grands Boulevards (9º arrondissement)",
+    "src": "/images/destinations/paris/curated-neighborhood-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-detail-2",
+    "topic": "Opéra / Grands Boulevards (9º arrondissement)",
+    "src": "/images/destinations/paris/curated-neighborhood-detail-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-3",
+    "topic": "Montparnasse (14º arrondissement)",
+    "src": "/images/destinations/paris/curated-neighborhood-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-detail-3",
+    "topic": "Montparnasse (14º arrondissement)",
+    "src": "/images/destinations/paris/curated-neighborhood-detail-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-4",
+    "topic": "Quartier Latin (5º arrondissement)",
+    "src": "/images/destinations/paris/curated-neighborhood-4.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "neighborhood-detail-4",
+    "topic": "Quartier Latin (5º arrondissement)",
+    "src": "/images/destinations/paris/curated-neighborhood-detail-4.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "trip-0",
+    "topic": "Palácio de Versalhes (40 min de RER C)",
+    "src": "/images/destinations/paris/curated-trip-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "trip-1",
+    "topic": "Disneyland Paris (45 min de RER A)",
+    "src": "/images/destinations/paris/curated-trip-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "trip-2",
+    "topic": "Jardins de Monet em Giverny (1h de trem + ônibus)",
+    "src": "/images/destinations/paris/curated-trip-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "trip-3",
+    "topic": "Castelos do Vale do Loire (1h a 2h de trem TGV)",
+    "src": "/images/destinations/paris/curated-trip-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "region-0",
+    "topic": "Torre Eiffel e Champs-Élysées",
+    "src": "/images/destinations/paris/curated-region-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "region-list-0",
+    "topic": "Torre Eiffel e Champs-Élysées",
+    "src": "/images/destinations/paris/curated-region-list-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "region-1",
+    "topic": "Centro Histórico e Louvre",
+    "src": "/images/destinations/paris/curated-region-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "region-list-1",
+    "topic": "Centro Histórico e Louvre",
+    "src": "/images/destinations/paris/curated-region-list-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "region-2",
+    "topic": "Le Marais",
+    "src": "/images/destinations/paris/curated-region-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "region-list-2",
+    "topic": "Le Marais",
+    "src": "/images/destinations/paris/curated-region-list-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "region-3",
+    "topic": "Montmartre",
+    "src": "/images/destinations/paris/curated-region-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "region-list-3",
+    "topic": "Montmartre",
+    "src": "/images/destinations/paris/curated-region-list-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "hotel-0",
+    "topic": "Hôtel du Champ de Mars",
+    "src": "/images/destinations/paris/curated-hotel-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "hotel-list-0",
+    "topic": "Hôtel du Champ de Mars",
+    "src": "/images/destinations/paris/curated-hotel-list-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "hotel-1",
+    "topic": "Hôtel Brighton",
+    "src": "/images/destinations/paris/curated-hotel-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "hotel-list-1",
+    "topic": "Hôtel Brighton",
+    "src": "/images/destinations/paris/curated-hotel-list-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "hotel-2",
+    "topic": "Hôtel Jeanne d’Arc",
+    "src": "/images/destinations/paris/curated-hotel-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "hotel-list-2",
+    "topic": "Hôtel Jeanne d’Arc",
+    "src": "/images/destinations/paris/curated-hotel-list-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "hotel-3",
+    "topic": "Timhotel Montmartre",
+    "src": "/images/destinations/paris/curated-hotel-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "hotel-list-3",
+    "topic": "Timhotel Montmartre",
+    "src": "/images/destinations/paris/curated-hotel-list-3.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-option-0",
+    "topic": "Torre Eiffel",
+    "src": "/images/destinations/paris/curated-map-option-0.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-option-1",
+    "topic": "Louvre",
+    "src": "/images/destinations/paris/curated-map-option-1.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-option-2",
+    "topic": "Le Marais",
+    "src": "/images/destinations/paris/curated-map-option-2.jpg"
+  },
+  {
+    "city": "paris",
+    "slot": "map-option-3",
+    "topic": "Montmartre",
+    "src": "/images/destinations/paris/curated-map-option-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "hero",
+    "topic": "Nova York",
+    "src": "/images/destinations/nova-york/curated-hero.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "intro",
+    "topic": "Nova York",
+    "src": "/images/destinations/nova-york/curated-intro.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "home",
+    "topic": "Nova York",
+    "src": "/images/destinations/nova-york/curated-home.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "guide-card",
+    "topic": "Nova York",
+    "src": "/images/destinations/nova-york/curated-guide-card.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "guide-highlight",
+    "topic": "Nova York",
+    "src": "/images/destinations/nova-york/curated-guide-highlight.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "home-slide",
+    "topic": "Nova York",
+    "src": "/images/destinations/nova-york/curated-home-slide.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "home-thumb",
+    "topic": "Nova York: miniatura da home",
+    "src": "/images/destinations/nova-york/curated-home-thumb.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "about",
+    "topic": "Nova York",
+    "src": "/images/destinations/nova-york/curated-about.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "phone",
+    "topic": "Nova York",
+    "src": "/images/destinations/nova-york/curated-phone.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "src": "/images/destinations/nova-york/curated-essential-moeda.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "src": "/images/destinations/nova-york/curated-essential-idioma.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "src": "/images/destinations/nova-york/curated-essential-transporte.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "src": "/images/destinations/nova-york/curated-essential-docs.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "costs",
+    "topic": "Pizza em fatias (Dollar Slice)",
+    "src": "/images/destinations/nova-york/curated-costs.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "src": "/images/destinations/nova-york/curated-mistakes.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "src": "/images/destinations/nova-york/curated-tips.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "attraction-0",
+    "topic": "Empire State Building",
+    "src": "/images/destinations/nova-york/curated-attraction-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-attraction-0",
+    "topic": "Empire State Building",
+    "src": "/images/destinations/nova-york/curated-map-attraction-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-list-0",
+    "topic": "Empire State Building",
+    "src": "/images/destinations/nova-york/curated-map-list-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "attraction-1",
+    "topic": "Central Park",
+    "src": "/images/destinations/nova-york/curated-attraction-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-attraction-1",
+    "topic": "Central Park",
+    "src": "/images/destinations/nova-york/curated-map-attraction-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-list-1",
+    "topic": "Central Park",
+    "src": "/images/destinations/nova-york/curated-map-list-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "attraction-2",
+    "topic": "Times Square & Broadway",
+    "src": "/images/destinations/nova-york/curated-attraction-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-attraction-2",
+    "topic": "Times Square & Broadway",
+    "src": "/images/destinations/nova-york/curated-map-attraction-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-list-2",
+    "topic": "Times Square & Broadway",
+    "src": "/images/destinations/nova-york/curated-map-list-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "attraction-3",
+    "topic": "Estátua da Liberdade & Battery",
+    "src": "/images/destinations/nova-york/curated-attraction-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-attraction-3",
+    "topic": "Estátua da Liberdade & Battery",
+    "src": "/images/destinations/nova-york/curated-map-attraction-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-list-3",
+    "topic": "Estátua da Liberdade & Battery",
+    "src": "/images/destinations/nova-york/curated-map-list-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "attraction-4",
+    "topic": "Brooklyn Bridge & DUMBO",
+    "src": "/images/destinations/nova-york/curated-attraction-4.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-attraction-4",
+    "topic": "Brooklyn Bridge & DUMBO",
+    "src": "/images/destinations/nova-york/curated-map-attraction-4.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-list-4",
+    "topic": "Brooklyn Bridge & DUMBO",
+    "src": "/images/destinations/nova-york/curated-map-list-4.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "attraction-5",
+    "topic": "High Line & Chelsea",
+    "src": "/images/destinations/nova-york/curated-attraction-5.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-attraction-5",
+    "topic": "High Line & Chelsea",
+    "src": "/images/destinations/nova-york/curated-map-attraction-5.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "map-list-5",
+    "topic": "High Line & Chelsea",
+    "src": "/images/destinations/nova-york/curated-map-list-5.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "day-0",
+    "topic": "Midtown & Times Square",
+    "src": "/images/destinations/nova-york/curated-day-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "day-1",
+    "topic": "Central Park & Museus",
+    "src": "/images/destinations/nova-york/curated-day-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "day-2",
+    "topic": "Downtown & Liberdade",
+    "src": "/images/destinations/nova-york/curated-day-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "day-3",
+    "topic": "Brooklyn & DUMBO",
+    "src": "/images/destinations/nova-york/curated-day-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "day-4",
+    "topic": "High Line & Chelsea",
+    "src": "/images/destinations/nova-york/curated-day-4.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-0",
+    "topic": "Midtown Manhattan",
+    "src": "/images/destinations/nova-york/curated-neighborhood-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-detail-0",
+    "topic": "Midtown Manhattan",
+    "src": "/images/destinations/nova-york/curated-neighborhood-detail-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-1",
+    "topic": "Lower Manhattan / Financial District",
+    "src": "/images/destinations/nova-york/curated-neighborhood-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-detail-1",
+    "topic": "Lower Manhattan / Financial District",
+    "src": "/images/destinations/nova-york/curated-neighborhood-detail-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-2",
+    "topic": "Chelsea & Meatpacking District",
+    "src": "/images/destinations/nova-york/curated-neighborhood-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-detail-2",
+    "topic": "Chelsea & Meatpacking District",
+    "src": "/images/destinations/nova-york/curated-neighborhood-detail-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-3",
+    "topic": "Upper West Side",
+    "src": "/images/destinations/nova-york/curated-neighborhood-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-detail-3",
+    "topic": "Upper West Side",
+    "src": "/images/destinations/nova-york/curated-neighborhood-detail-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-4",
+    "topic": "Williamsburg (Brooklyn)",
+    "src": "/images/destinations/nova-york/curated-neighborhood-4.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "neighborhood-detail-4",
+    "topic": "Williamsburg (Brooklyn)",
+    "src": "/images/destinations/nova-york/curated-neighborhood-detail-4.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "trip-0",
+    "topic": "Washington D.C. (3h de trem Acela)",
+    "src": "/images/destinations/nova-york/curated-trip-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "trip-1",
+    "topic": "Filadélfia (1h30 de trem)",
+    "src": "/images/destinations/nova-york/curated-trip-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "region-0",
+    "topic": "Midtown & Times Square",
+    "src": "/images/destinations/nova-york/curated-region-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "region-list-0",
+    "topic": "Midtown & Times Square",
+    "src": "/images/destinations/nova-york/curated-region-list-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "region-1",
+    "topic": "Lower Manhattan",
+    "src": "/images/destinations/nova-york/curated-region-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "region-list-1",
+    "topic": "Lower Manhattan",
+    "src": "/images/destinations/nova-york/curated-region-list-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "region-2",
+    "topic": "Central Park & UES",
+    "src": "/images/destinations/nova-york/curated-region-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "region-list-2",
+    "topic": "Central Park & UES",
+    "src": "/images/destinations/nova-york/curated-region-list-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "region-3",
+    "topic": "Brooklyn & DUMBO",
+    "src": "/images/destinations/nova-york/curated-region-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "region-list-3",
+    "topic": "Brooklyn & DUMBO",
+    "src": "/images/destinations/nova-york/curated-region-list-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "hotel-0",
+    "topic": "Pod Times Square",
+    "src": "/images/destinations/nova-york/curated-hotel-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "hotel-list-0",
+    "topic": "Pod Times Square",
+    "src": "/images/destinations/nova-york/curated-hotel-list-0.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "hotel-1",
+    "topic": "Conrad New York Downtown",
+    "src": "/images/destinations/nova-york/curated-hotel-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "hotel-list-1",
+    "topic": "Conrad New York Downtown",
+    "src": "/images/destinations/nova-york/curated-hotel-list-1.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "hotel-2",
+    "topic": "The Lucerne",
+    "src": "/images/destinations/nova-york/curated-hotel-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "hotel-list-2",
+    "topic": "The Lucerne",
+    "src": "/images/destinations/nova-york/curated-hotel-list-2.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "hotel-3",
+    "topic": "1 Hotel Brooklyn Bridge",
+    "src": "/images/destinations/nova-york/curated-hotel-3.jpg"
+  },
+  {
+    "city": "nova-york",
+    "slot": "hotel-list-3",
+    "topic": "1 Hotel Brooklyn Bridge",
+    "src": "/images/destinations/nova-york/curated-hotel-list-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "hero",
+    "topic": "Tóquio",
+    "src": "/images/destinations/toquio/curated-hero.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "intro",
+    "topic": "Tóquio",
+    "src": "/images/destinations/toquio/curated-intro.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "home",
+    "topic": "Tóquio",
+    "src": "/images/destinations/toquio/curated-home.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "guide-card",
+    "topic": "Tóquio",
+    "src": "/images/destinations/toquio/curated-guide-card.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "guide-highlight",
+    "topic": "Tóquio",
+    "src": "/images/destinations/toquio/curated-guide-highlight.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "home-slide",
+    "topic": "Tóquio",
+    "src": "/images/destinations/toquio/curated-home-slide.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "home-thumb",
+    "topic": "Tóquio: miniatura da home",
+    "src": "/images/destinations/toquio/curated-home-thumb.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "src": "/images/destinations/toquio/curated-essential-moeda.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "src": "/images/destinations/toquio/curated-essential-idioma.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "src": "/images/destinations/toquio/curated-essential-transporte.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "src": "/images/destinations/toquio/curated-essential-docs.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "costs",
+    "topic": "Ramen autêntico",
+    "src": "/images/destinations/toquio/curated-costs.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "src": "/images/destinations/toquio/curated-mistakes.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "src": "/images/destinations/toquio/curated-tips.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "attraction-0",
+    "topic": "Templo Senso-ji (Asakusa)",
+    "src": "/images/destinations/toquio/curated-attraction-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-attraction-0",
+    "topic": "Templo Senso-ji (Asakusa)",
+    "src": "/images/destinations/toquio/curated-map-attraction-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-list-0",
+    "topic": "Templo Senso-ji (Asakusa)",
+    "src": "/images/destinations/toquio/curated-map-list-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "attraction-1",
+    "topic": "Cruzamento de Shibuya",
+    "src": "/images/destinations/toquio/curated-attraction-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-attraction-1",
+    "topic": "Cruzamento de Shibuya",
+    "src": "/images/destinations/toquio/curated-map-attraction-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-list-1",
+    "topic": "Cruzamento de Shibuya",
+    "src": "/images/destinations/toquio/curated-map-list-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "attraction-2",
+    "topic": "Shinjuku & Golden Gai",
+    "src": "/images/destinations/toquio/curated-attraction-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-attraction-2",
+    "topic": "Shinjuku & Golden Gai",
+    "src": "/images/destinations/toquio/curated-map-attraction-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-list-2",
+    "topic": "Shinjuku & Golden Gai",
+    "src": "/images/destinations/toquio/curated-map-list-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "attraction-3",
+    "topic": "Santuário Meiji (Harajuku)",
+    "src": "/images/destinations/toquio/curated-attraction-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-attraction-3",
+    "topic": "Santuário Meiji (Harajuku)",
+    "src": "/images/destinations/toquio/curated-map-attraction-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-list-3",
+    "topic": "Santuário Meiji (Harajuku)",
+    "src": "/images/destinations/toquio/curated-map-list-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "attraction-4",
+    "topic": "Tokyo Skytree",
+    "src": "/images/destinations/toquio/curated-attraction-4.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-attraction-4",
+    "topic": "Tokyo Skytree",
+    "src": "/images/destinations/toquio/curated-map-attraction-4.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-list-4",
+    "topic": "Tokyo Skytree",
+    "src": "/images/destinations/toquio/curated-map-list-4.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "attraction-5",
+    "topic": "Tokyo Tower",
+    "src": "/images/destinations/toquio/curated-attraction-5.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-attraction-5",
+    "topic": "Tokyo Tower",
+    "src": "/images/destinations/toquio/curated-map-attraction-5.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "map-list-5",
+    "topic": "Tokyo Tower",
+    "src": "/images/destinations/toquio/curated-map-list-5.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "day-0",
+    "topic": "Asakusa & Ueno",
+    "src": "/images/destinations/toquio/curated-day-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "day-1",
+    "topic": "Shibuya & Harajuku",
+    "src": "/images/destinations/toquio/curated-day-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "day-2",
+    "topic": "Shinjuku noturno",
+    "src": "/images/destinations/toquio/curated-day-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "day-3",
+    "topic": "Sumida & Skytree",
+    "src": "/images/destinations/toquio/curated-day-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "neighborhood-0",
+    "topic": "Shinjuku",
+    "src": "/images/destinations/toquio/curated-neighborhood-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "neighborhood-detail-0",
+    "topic": "Shinjuku",
+    "src": "/images/destinations/toquio/curated-neighborhood-detail-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "neighborhood-1",
+    "topic": "Shibuya",
+    "src": "/images/destinations/toquio/curated-neighborhood-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "neighborhood-detail-1",
+    "topic": "Shibuya",
+    "src": "/images/destinations/toquio/curated-neighborhood-detail-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "neighborhood-2",
+    "topic": "Ginza",
+    "src": "/images/destinations/toquio/curated-neighborhood-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "neighborhood-detail-2",
+    "topic": "Ginza",
+    "src": "/images/destinations/toquio/curated-neighborhood-detail-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "neighborhood-3",
+    "topic": "Asakusa",
+    "src": "/images/destinations/toquio/curated-neighborhood-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "neighborhood-detail-3",
+    "topic": "Asakusa",
+    "src": "/images/destinations/toquio/curated-neighborhood-detail-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "trip-0",
+    "topic": "Monte Fuji & Hakone (2h de trem)",
+    "src": "/images/destinations/toquio/curated-trip-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "trip-1",
+    "topic": "Nikko (2h de trem)",
+    "src": "/images/destinations/toquio/curated-trip-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "region-0",
+    "topic": "Shinjuku",
+    "src": "/images/destinations/toquio/curated-region-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "region-list-0",
+    "topic": "Shinjuku",
+    "src": "/images/destinations/toquio/curated-region-list-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "region-1",
+    "topic": "Shibuya",
+    "src": "/images/destinations/toquio/curated-region-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "region-list-1",
+    "topic": "Shibuya",
+    "src": "/images/destinations/toquio/curated-region-list-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "region-2",
+    "topic": "Asakusa & Ueno",
+    "src": "/images/destinations/toquio/curated-region-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "region-list-2",
+    "topic": "Asakusa & Ueno",
+    "src": "/images/destinations/toquio/curated-region-list-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "region-3",
+    "topic": "Ginza & Tokyo Tower",
+    "src": "/images/destinations/toquio/curated-region-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "region-list-3",
+    "topic": "Ginza & Tokyo Tower",
+    "src": "/images/destinations/toquio/curated-region-list-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "hotel-0",
+    "topic": "Hotel Gracery Shinjuku",
+    "src": "/images/destinations/toquio/curated-hotel-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "hotel-list-0",
+    "topic": "Hotel Gracery Shinjuku",
+    "src": "/images/destinations/toquio/curated-hotel-list-0.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "hotel-1",
+    "topic": "Shibuya Stream Excel Hotel Tokyu",
+    "src": "/images/destinations/toquio/curated-hotel-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "hotel-list-1",
+    "topic": "Shibuya Stream Excel Hotel Tokyu",
+    "src": "/images/destinations/toquio/curated-hotel-list-1.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "hotel-2",
+    "topic": "Wired Hotel Asakusa",
+    "src": "/images/destinations/toquio/curated-hotel-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "hotel-list-2",
+    "topic": "Wired Hotel Asakusa",
+    "src": "/images/destinations/toquio/curated-hotel-list-2.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "hotel-3",
+    "topic": "Mitsui Garden Hotel Ginza",
+    "src": "/images/destinations/toquio/curated-hotel-3.jpg"
+  },
+  {
+    "city": "toquio",
+    "slot": "hotel-list-3",
+    "topic": "Mitsui Garden Hotel Ginza",
+    "src": "/images/destinations/toquio/curated-hotel-list-3.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "hero",
+    "topic": "Londres",
+    "src": "/images/destinations/londres/curated-hero.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "intro",
+    "topic": "Londres",
+    "src": "/images/destinations/londres/curated-intro.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "home",
+    "topic": "Londres",
+    "src": "/images/destinations/londres/curated-home.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "guide-card",
+    "topic": "Londres",
+    "src": "/images/destinations/londres/curated-guide-card.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "guide-highlight",
+    "topic": "Londres",
+    "src": "/images/destinations/londres/curated-guide-highlight.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "home-slide",
+    "topic": "Londres",
+    "src": "/images/destinations/londres/curated-home-slide.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "home-thumb",
+    "topic": "Londres: miniatura da home",
+    "src": "/images/destinations/londres/curated-home-thumb.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "src": "/images/destinations/londres/curated-essential-moeda.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "src": "/images/destinations/londres/curated-essential-idioma.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "src": "/images/destinations/londres/curated-essential-transporte.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "src": "/images/destinations/londres/curated-essential-docs.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "costs",
+    "topic": "Fish and Chips em pubs tradicionais",
+    "src": "/images/destinations/londres/curated-costs.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "src": "/images/destinations/londres/curated-mistakes.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "src": "/images/destinations/londres/curated-tips.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "attraction-0",
+    "topic": "Big Ben & Palácio de Westminster",
+    "src": "/images/destinations/londres/curated-attraction-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-attraction-0",
+    "topic": "Big Ben & Palácio de Westminster",
+    "src": "/images/destinations/londres/curated-map-attraction-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-list-0",
+    "topic": "Big Ben & Palácio de Westminster",
+    "src": "/images/destinations/londres/curated-map-list-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "attraction-1",
+    "topic": "London Eye",
+    "src": "/images/destinations/londres/curated-attraction-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-attraction-1",
+    "topic": "London Eye",
+    "src": "/images/destinations/londres/curated-map-attraction-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-list-1",
+    "topic": "London Eye",
+    "src": "/images/destinations/londres/curated-map-list-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "attraction-2",
+    "topic": "Tower Bridge",
+    "src": "/images/destinations/londres/curated-attraction-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-attraction-2",
+    "topic": "Tower Bridge",
+    "src": "/images/destinations/londres/curated-map-attraction-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-list-2",
+    "topic": "Tower Bridge",
+    "src": "/images/destinations/londres/curated-map-list-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "attraction-3",
+    "topic": "Palácio de Buckingham",
+    "src": "/images/destinations/londres/curated-attraction-3.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-attraction-3",
+    "topic": "Palácio de Buckingham",
+    "src": "/images/destinations/londres/curated-map-attraction-3.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-list-3",
+    "topic": "Palácio de Buckingham",
+    "src": "/images/destinations/londres/curated-map-list-3.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "attraction-4",
+    "topic": "British Museum",
+    "src": "/images/destinations/londres/curated-attraction-4.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-attraction-4",
+    "topic": "British Museum",
+    "src": "/images/destinations/londres/curated-map-attraction-4.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-list-4",
+    "topic": "British Museum",
+    "src": "/images/destinations/londres/curated-map-list-4.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "attraction-5",
+    "topic": "Covent Garden",
+    "src": "/images/destinations/londres/curated-attraction-5.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-attraction-5",
+    "topic": "Covent Garden",
+    "src": "/images/destinations/londres/curated-map-attraction-5.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "map-list-5",
+    "topic": "Covent Garden",
+    "src": "/images/destinations/londres/curated-map-list-5.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "day-0",
+    "topic": "Westminster & London Eye",
+    "src": "/images/destinations/londres/curated-day-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "day-1",
+    "topic": "Tower Bridge & City",
+    "src": "/images/destinations/londres/curated-day-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "day-2",
+    "topic": "Museus & West End",
+    "src": "/images/destinations/londres/curated-day-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "day-3",
+    "topic": "Buckingham & Parks",
+    "src": "/images/destinations/londres/curated-day-3.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "neighborhood-0",
+    "topic": "Covent Garden & Soho",
+    "src": "/images/destinations/londres/curated-neighborhood-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "neighborhood-detail-0",
+    "topic": "Covent Garden & Soho",
+    "src": "/images/destinations/londres/curated-neighborhood-detail-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "neighborhood-1",
+    "topic": "Kensington & Chelsea",
+    "src": "/images/destinations/londres/curated-neighborhood-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "neighborhood-detail-1",
+    "topic": "Kensington & Chelsea",
+    "src": "/images/destinations/londres/curated-neighborhood-detail-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "neighborhood-2",
+    "topic": "Southwark & Bankside",
+    "src": "/images/destinations/londres/curated-neighborhood-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "neighborhood-detail-2",
+    "topic": "Southwark & Bankside",
+    "src": "/images/destinations/londres/curated-neighborhood-detail-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "trip-0",
+    "topic": "Castelo de Windsor (1h de trem)",
+    "src": "/images/destinations/londres/curated-trip-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "trip-1",
+    "topic": "Oxford ou Cambridge (1h de trem)",
+    "src": "/images/destinations/londres/curated-trip-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "region-0",
+    "topic": "Westminster & Big Ben",
+    "src": "/images/destinations/londres/curated-region-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "region-list-0",
+    "topic": "Westminster & Big Ben",
+    "src": "/images/destinations/londres/curated-region-list-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "region-1",
+    "topic": "South Bank & Tower Bridge",
+    "src": "/images/destinations/londres/curated-region-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "region-list-1",
+    "topic": "South Bank & Tower Bridge",
+    "src": "/images/destinations/londres/curated-region-list-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "region-2",
+    "topic": "Buckingham & Parks",
+    "src": "/images/destinations/londres/curated-region-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "region-list-2",
+    "topic": "Buckingham & Parks",
+    "src": "/images/destinations/londres/curated-region-list-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "region-3",
+    "topic": "City & East End",
+    "src": "/images/destinations/londres/curated-region-3.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "region-list-3",
+    "topic": "City & East End",
+    "src": "/images/destinations/londres/curated-region-list-3.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "hotel-0",
+    "topic": "Park Plaza Westminster Bridge",
+    "src": "/images/destinations/londres/curated-hotel-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "hotel-list-0",
+    "topic": "Park Plaza Westminster Bridge",
+    "src": "/images/destinations/londres/curated-hotel-list-0.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "hotel-1",
+    "topic": "CitizenM Tower of London",
+    "src": "/images/destinations/londres/curated-hotel-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "hotel-list-1",
+    "topic": "CitizenM Tower of London",
+    "src": "/images/destinations/londres/curated-hotel-list-1.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "hotel-2",
+    "topic": "The Rubens at the Palace",
+    "src": "/images/destinations/londres/curated-hotel-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "hotel-list-2",
+    "topic": "The Rubens at the Palace",
+    "src": "/images/destinations/londres/curated-hotel-list-2.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "hotel-3",
+    "topic": "The Hoxton Shoreditch",
+    "src": "/images/destinations/londres/curated-hotel-3.jpg"
+  },
+  {
+    "city": "londres",
+    "slot": "hotel-list-3",
+    "topic": "The Hoxton Shoreditch",
+    "src": "/images/destinations/londres/curated-hotel-list-3.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hero",
+    "topic": "Roma",
+    "src": "/images/destinations/roma/curated-hero.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "country-italia",
+    "topic": "Itália: capa na home",
+    "src": "/images/destinations/roma/curated-country-italia.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "intro",
+    "topic": "Roma",
+    "src": "/images/destinations/roma/curated-intro.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "home",
+    "topic": "Roma",
+    "src": "/images/destinations/roma/curated-home.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "guide-card",
+    "topic": "Roma",
+    "src": "/images/destinations/roma/curated-guide-card.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "guide-highlight",
+    "topic": "Roma",
+    "src": "/images/destinations/roma/curated-guide-highlight.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "home-slide",
+    "topic": "Roma",
+    "src": "/images/destinations/roma/curated-home-slide.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "home-thumb",
+    "topic": "Roma: miniatura da home",
+    "src": "/images/destinations/roma/curated-home-thumb.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "about",
+    "topic": "Roma",
+    "src": "/images/destinations/roma/curated-about.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "phone",
+    "topic": "Roma",
+    "src": "/images/destinations/roma/curated-phone.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "src": "/images/destinations/roma/curated-essential-moeda.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "src": "/images/destinations/roma/curated-essential-idioma.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "src": "/images/destinations/roma/curated-essential-transporte.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "src": "/images/destinations/roma/curated-essential-docs.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "costs",
+    "topic": "Pasta Carbonara autêntica",
+    "src": "/images/destinations/roma/curated-costs.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "src": "/images/destinations/roma/curated-mistakes.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "src": "/images/destinations/roma/curated-tips.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "attraction-0",
+    "topic": "Coliseu & Fórum Romano",
+    "src": "/images/destinations/roma/curated-attraction-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-attraction-0",
+    "topic": "Coliseu & Fórum Romano",
+    "src": "/images/destinations/roma/curated-map-attraction-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-list-0",
+    "topic": "Coliseu & Fórum Romano",
+    "src": "/images/destinations/roma/curated-map-list-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "attraction-1",
+    "topic": "Vaticano & Capela Sistina",
+    "src": "/images/destinations/roma/curated-attraction-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-attraction-1",
+    "topic": "Vaticano & Capela Sistina",
+    "src": "/images/destinations/roma/curated-map-attraction-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-list-1",
+    "topic": "Vaticano & Capela Sistina",
+    "src": "/images/destinations/roma/curated-map-list-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "attraction-2",
+    "topic": "Fontana di Trevi",
+    "src": "/images/destinations/roma/curated-attraction-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-attraction-2",
+    "topic": "Fontana di Trevi",
+    "src": "/images/destinations/roma/curated-map-attraction-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-list-2",
+    "topic": "Fontana di Trevi",
+    "src": "/images/destinations/roma/curated-map-list-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "attraction-3",
+    "topic": "Pantheon",
+    "src": "/images/destinations/roma/curated-attraction-3.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-attraction-3",
+    "topic": "Pantheon",
+    "src": "/images/destinations/roma/curated-map-attraction-3.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-list-3",
+    "topic": "Pantheon",
+    "src": "/images/destinations/roma/curated-map-list-3.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "attraction-4",
+    "topic": "Piazza Navona",
+    "src": "/images/destinations/roma/curated-attraction-4.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-attraction-4",
+    "topic": "Piazza Navona",
+    "src": "/images/destinations/roma/curated-map-attraction-4.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-list-4",
+    "topic": "Piazza Navona",
+    "src": "/images/destinations/roma/curated-map-list-4.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "attraction-5",
+    "topic": "Trastevere",
+    "src": "/images/destinations/roma/curated-attraction-5.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-attraction-5",
+    "topic": "Trastevere",
+    "src": "/images/destinations/roma/curated-map-attraction-5.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "map-list-5",
+    "topic": "Trastevere",
+    "src": "/images/destinations/roma/curated-map-list-5.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "day-0",
+    "topic": "Roma Antiga",
+    "src": "/images/destinations/roma/curated-day-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "day-1",
+    "topic": "Vaticano",
+    "src": "/images/destinations/roma/curated-day-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "day-2",
+    "topic": "Centro Storico",
+    "src": "/images/destinations/roma/curated-day-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "day-3",
+    "topic": "Trastevere & Tibre",
+    "src": "/images/destinations/roma/curated-day-3.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "neighborhood-0",
+    "topic": "Centro Storico",
+    "src": "/images/destinations/roma/curated-neighborhood-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "neighborhood-detail-0",
+    "topic": "Centro Storico",
+    "src": "/images/destinations/roma/curated-neighborhood-detail-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "neighborhood-1",
+    "topic": "Trastevere",
+    "src": "/images/destinations/roma/curated-neighborhood-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "neighborhood-detail-1",
+    "topic": "Trastevere",
+    "src": "/images/destinations/roma/curated-neighborhood-detail-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "neighborhood-2",
+    "topic": "Monti",
+    "src": "/images/destinations/roma/curated-neighborhood-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "neighborhood-detail-2",
+    "topic": "Monti",
+    "src": "/images/destinations/roma/curated-neighborhood-detail-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "trip-0",
+    "topic": "Florença (1h30 de trem frecciarossa)",
+    "src": "/images/destinations/roma/curated-trip-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "trip-1",
+    "topic": "Tivoli (1h de ônibus/trem)",
+    "src": "/images/destinations/roma/curated-trip-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "region-0",
+    "topic": "Roma Antiga",
+    "src": "/images/destinations/roma/curated-region-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "region-list-0",
+    "topic": "Roma Antiga",
+    "src": "/images/destinations/roma/curated-region-list-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "region-1",
+    "topic": "Vaticano",
+    "src": "/images/destinations/roma/curated-region-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "region-list-1",
+    "topic": "Vaticano",
+    "src": "/images/destinations/roma/curated-region-list-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "region-2",
+    "topic": "Centro Storico",
+    "src": "/images/destinations/roma/curated-region-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "region-list-2",
+    "topic": "Centro Storico",
+    "src": "/images/destinations/roma/curated-region-list-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "region-3",
+    "topic": "Trastevere",
+    "src": "/images/destinations/roma/curated-region-3.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "region-list-3",
+    "topic": "Trastevere",
+    "src": "/images/destinations/roma/curated-region-list-3.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-0",
+    "topic": "Hotel Palazzo Dama",
+    "src": "/images/destinations/roma/curated-hotel-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-list-0",
+    "topic": "Hotel Palazzo Dama",
+    "src": "/images/destinations/roma/curated-hotel-list-0.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-1",
+    "topic": "Hotel Forum",
+    "src": "/images/destinations/roma/curated-hotel-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-list-1",
+    "topic": "Hotel Forum",
+    "src": "/images/destinations/roma/curated-hotel-list-1.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-2",
+    "topic": "Hotel dei Mellini",
+    "src": "/images/destinations/roma/curated-hotel-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-list-2",
+    "topic": "Hotel dei Mellini",
+    "src": "/images/destinations/roma/curated-hotel-list-2.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-3",
+    "topic": "Hotel Pantheon",
+    "src": "/images/destinations/roma/curated-hotel-3.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-list-3",
+    "topic": "Hotel Pantheon",
+    "src": "/images/destinations/roma/curated-hotel-list-3.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-4",
+    "topic": "Hotel Santa Maria",
+    "src": "/images/destinations/roma/curated-hotel-4.jpg"
+  },
+  {
+    "city": "roma",
+    "slot": "hotel-list-4",
+    "topic": "Hotel Santa Maria",
+    "src": "/images/destinations/roma/curated-hotel-list-4.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "hero",
+    "topic": "Istambul",
+    "src": "/images/destinations/istambul/curated-hero.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "intro",
+    "topic": "Istambul",
+    "src": "/images/destinations/istambul/curated-intro.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "home",
+    "topic": "Istambul",
+    "src": "/images/destinations/istambul/curated-home.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "guide-card",
+    "topic": "Istambul",
+    "src": "/images/destinations/istambul/curated-guide-card.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "guide-highlight",
+    "topic": "Istambul",
+    "src": "/images/destinations/istambul/curated-guide-highlight.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "home-slide",
+    "topic": "Istambul",
+    "src": "/images/destinations/istambul/curated-home-slide.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "home-thumb",
+    "topic": "Istambul: miniatura da home",
+    "src": "/images/destinations/istambul/curated-home-thumb.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "src": "/images/destinations/istambul/curated-essential-moeda.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "src": "/images/destinations/istambul/curated-essential-idioma.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "src": "/images/destinations/istambul/curated-essential-transporte.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "src": "/images/destinations/istambul/curated-essential-docs.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "costs",
+    "topic": "Kebab tradicional",
+    "src": "/images/destinations/istambul/curated-costs.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "src": "/images/destinations/istambul/curated-mistakes.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "src": "/images/destinations/istambul/curated-tips.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "attraction-0",
+    "topic": "Hagia Sophia",
+    "src": "/images/destinations/istambul/curated-attraction-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-attraction-0",
+    "topic": "Hagia Sophia",
+    "src": "/images/destinations/istambul/curated-map-attraction-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-list-0",
+    "topic": "Hagia Sophia",
+    "src": "/images/destinations/istambul/curated-map-list-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "attraction-1",
+    "topic": "Mesquita Azul",
+    "src": "/images/destinations/istambul/curated-attraction-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-attraction-1",
+    "topic": "Mesquita Azul",
+    "src": "/images/destinations/istambul/curated-map-attraction-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-list-1",
+    "topic": "Mesquita Azul",
+    "src": "/images/destinations/istambul/curated-map-list-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "attraction-2",
+    "topic": "Grande Bazar",
+    "src": "/images/destinations/istambul/curated-attraction-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-attraction-2",
+    "topic": "Grande Bazar",
+    "src": "/images/destinations/istambul/curated-map-attraction-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-list-2",
+    "topic": "Grande Bazar",
+    "src": "/images/destinations/istambul/curated-map-list-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "attraction-3",
+    "topic": "Torre de Galata & Karaköy",
+    "src": "/images/destinations/istambul/curated-attraction-3.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-attraction-3",
+    "topic": "Torre de Galata & Karaköy",
+    "src": "/images/destinations/istambul/curated-map-attraction-3.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-list-3",
+    "topic": "Torre de Galata & Karaköy",
+    "src": "/images/destinations/istambul/curated-map-list-3.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "attraction-4",
+    "topic": "Passeio de balsa no Bósforo",
+    "src": "/images/destinations/istambul/curated-attraction-4.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-attraction-4",
+    "topic": "Passeio de balsa no Bósforo",
+    "src": "/images/destinations/istambul/curated-map-attraction-4.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-list-4",
+    "topic": "Passeio de balsa no Bósforo",
+    "src": "/images/destinations/istambul/curated-map-list-4.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "attraction-5",
+    "topic": "Kadıköy (lado asiático)",
+    "src": "/images/destinations/istambul/curated-attraction-5.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-attraction-5",
+    "topic": "Kadıköy (lado asiático)",
+    "src": "/images/destinations/istambul/curated-map-attraction-5.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "map-list-5",
+    "topic": "Kadıköy (lado asiático)",
+    "src": "/images/destinations/istambul/curated-map-list-5.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "day-0",
+    "topic": "Sultanahmet Histórico",
+    "src": "/images/destinations/istambul/curated-day-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "day-1",
+    "topic": "Bazares & Bósforo",
+    "src": "/images/destinations/istambul/curated-day-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "day-2",
+    "topic": "Galata & Karaköy",
+    "src": "/images/destinations/istambul/curated-day-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "day-3",
+    "topic": "Lado Asiático",
+    "src": "/images/destinations/istambul/curated-day-3.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "neighborhood-0",
+    "topic": "Sultanahmet",
+    "src": "/images/destinations/istambul/curated-neighborhood-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "neighborhood-detail-0",
+    "topic": "Sultanahmet",
+    "src": "/images/destinations/istambul/curated-neighborhood-detail-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "neighborhood-1",
+    "topic": "Karaköy & Galata",
+    "src": "/images/destinations/istambul/curated-neighborhood-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "neighborhood-detail-1",
+    "topic": "Karaköy & Galata",
+    "src": "/images/destinations/istambul/curated-neighborhood-detail-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "neighborhood-2",
+    "topic": "Kadıköy (Lado Asiático)",
+    "src": "/images/destinations/istambul/curated-neighborhood-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "neighborhood-detail-2",
+    "topic": "Kadıköy (Lado Asiático)",
+    "src": "/images/destinations/istambul/curated-neighborhood-detail-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "trip-0",
+    "topic": "Ilhas dos Príncipes (1h30 de balsa)",
+    "src": "/images/destinations/istambul/curated-trip-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "trip-1",
+    "topic": "Capadócia (voo interno de 1h)",
+    "src": "/images/destinations/istambul/curated-trip-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "region-0",
+    "topic": "Sultanahmet",
+    "src": "/images/destinations/istambul/curated-region-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "region-list-0",
+    "topic": "Sultanahmet",
+    "src": "/images/destinations/istambul/curated-region-list-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "region-1",
+    "topic": "Mesquita Azul & Hipódromo",
+    "src": "/images/destinations/istambul/curated-region-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "region-list-1",
+    "topic": "Mesquita Azul & Hipódromo",
+    "src": "/images/destinations/istambul/curated-region-list-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "region-2",
+    "topic": "Bósforo & Karaköy",
+    "src": "/images/destinations/istambul/curated-region-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "region-list-2",
+    "topic": "Bósforo & Karaköy",
+    "src": "/images/destinations/istambul/curated-region-list-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "region-3",
+    "topic": "Grande Bazar",
+    "src": "/images/destinations/istambul/curated-region-3.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "region-list-3",
+    "topic": "Grande Bazar",
+    "src": "/images/destinations/istambul/curated-region-list-3.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "hotel-0",
+    "topic": "Hotel Ibrahim Pasha",
+    "src": "/images/destinations/istambul/curated-hotel-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "hotel-list-0",
+    "topic": "Hotel Ibrahim Pasha",
+    "src": "/images/destinations/istambul/curated-hotel-list-0.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "hotel-1",
+    "topic": "Sultanahmet Palace Hotel",
+    "src": "/images/destinations/istambul/curated-hotel-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "hotel-list-1",
+    "topic": "Sultanahmet Palace Hotel",
+    "src": "/images/destinations/istambul/curated-hotel-list-1.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "hotel-2",
+    "topic": "Tomtom Suites",
+    "src": "/images/destinations/istambul/curated-hotel-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "hotel-list-2",
+    "topic": "Tomtom Suites",
+    "src": "/images/destinations/istambul/curated-hotel-list-2.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "hotel-3",
+    "topic": "Sirkeci Mansion",
+    "src": "/images/destinations/istambul/curated-hotel-3.jpg"
+  },
+  {
+    "city": "istambul",
+    "slot": "hotel-list-3",
+    "topic": "Sirkeci Mansion",
+    "src": "/images/destinations/istambul/curated-hotel-list-3.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "hero",
+    "topic": "Dubai",
+    "src": "/images/destinations/dubai/curated-hero.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "intro",
+    "topic": "Dubai",
+    "src": "/images/destinations/dubai/curated-intro.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "home",
+    "topic": "Dubai",
+    "src": "/images/destinations/dubai/curated-home.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "guide-card",
+    "topic": "Dubai",
+    "src": "/images/destinations/dubai/curated-guide-card.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "guide-highlight",
+    "topic": "Dubai",
+    "src": "/images/destinations/dubai/curated-guide-highlight.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "src": "/images/destinations/dubai/curated-essential-moeda.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "src": "/images/destinations/dubai/curated-essential-idioma.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "src": "/images/destinations/dubai/curated-essential-transporte.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "src": "/images/destinations/dubai/curated-essential-docs.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "costs",
+    "topic": "Culinária libanesa e emiratense",
+    "src": "/images/destinations/dubai/curated-costs.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "src": "/images/destinations/dubai/curated-mistakes.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "src": "/images/destinations/dubai/curated-tips.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "attraction-0",
+    "topic": "Burj Khalifa",
+    "src": "/images/destinations/dubai/curated-attraction-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-attraction-0",
+    "topic": "Burj Khalifa",
+    "src": "/images/destinations/dubai/curated-map-attraction-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-list-0",
+    "topic": "Burj Khalifa",
+    "src": "/images/destinations/dubai/curated-map-list-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "attraction-1",
+    "topic": "Fontes de Dubai & Dubai Mall",
+    "src": "/images/destinations/dubai/curated-attraction-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-attraction-1",
+    "topic": "Fontes de Dubai & Dubai Mall",
+    "src": "/images/destinations/dubai/curated-map-attraction-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-list-1",
+    "topic": "Fontes de Dubai & Dubai Mall",
+    "src": "/images/destinations/dubai/curated-map-list-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "attraction-2",
+    "topic": "Dubai Marina & JBR",
+    "src": "/images/destinations/dubai/curated-attraction-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-attraction-2",
+    "topic": "Dubai Marina & JBR",
+    "src": "/images/destinations/dubai/curated-map-attraction-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-list-2",
+    "topic": "Dubai Marina & JBR",
+    "src": "/images/destinations/dubai/curated-map-list-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "attraction-3",
+    "topic": "Burj Al Arab & Jumeirah",
+    "src": "/images/destinations/dubai/curated-attraction-3.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-attraction-3",
+    "topic": "Burj Al Arab & Jumeirah",
+    "src": "/images/destinations/dubai/curated-map-attraction-3.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-list-3",
+    "topic": "Burj Al Arab & Jumeirah",
+    "src": "/images/destinations/dubai/curated-map-list-3.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "attraction-4",
+    "topic": "Safari no deserto",
+    "src": "/images/destinations/dubai/curated-attraction-4.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-attraction-4",
+    "topic": "Safari no deserto",
+    "src": "/images/destinations/dubai/curated-map-attraction-4.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-list-4",
+    "topic": "Safari no deserto",
+    "src": "/images/destinations/dubai/curated-map-list-4.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "attraction-5",
+    "topic": "Dubai Creek (Old Dubai)",
+    "src": "/images/destinations/dubai/curated-attraction-5.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-attraction-5",
+    "topic": "Dubai Creek (Old Dubai)",
+    "src": "/images/destinations/dubai/curated-map-attraction-5.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "map-list-5",
+    "topic": "Dubai Creek (Old Dubai)",
+    "src": "/images/destinations/dubai/curated-map-list-5.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "day-0",
+    "topic": "Downtown Futurista",
+    "src": "/images/destinations/dubai/curated-day-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "day-1",
+    "topic": "Marina & JBR",
+    "src": "/images/destinations/dubai/curated-day-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "day-2",
+    "topic": "Deserto",
+    "src": "/images/destinations/dubai/curated-day-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "day-3",
+    "topic": "Old Dubai & Jumeirah",
+    "src": "/images/destinations/dubai/curated-day-3.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "neighborhood-0",
+    "topic": "Downtown Dubai",
+    "src": "/images/destinations/dubai/curated-neighborhood-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "neighborhood-detail-0",
+    "topic": "Downtown Dubai",
+    "src": "/images/destinations/dubai/curated-neighborhood-detail-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "neighborhood-1",
+    "topic": "Dubai Marina & JBR",
+    "src": "/images/destinations/dubai/curated-neighborhood-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "neighborhood-detail-1",
+    "topic": "Dubai Marina & JBR",
+    "src": "/images/destinations/dubai/curated-neighborhood-detail-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "neighborhood-2",
+    "topic": "Deira & Bur Dubai",
+    "src": "/images/destinations/dubai/curated-neighborhood-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "neighborhood-detail-2",
+    "topic": "Deira & Bur Dubai",
+    "src": "/images/destinations/dubai/curated-neighborhood-detail-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "trip-0",
+    "topic": "Abu Dhabi (1h30 de carro / ônibus para ver a Grande Mesquita Sheikh Zayed)",
+    "src": "/images/destinations/dubai/curated-trip-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "region-0",
+    "topic": "Downtown & Burj Khalifa",
+    "src": "/images/destinations/dubai/curated-region-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "region-list-0",
+    "topic": "Downtown & Burj Khalifa",
+    "src": "/images/destinations/dubai/curated-region-list-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "region-1",
+    "topic": "Dubai Marina",
+    "src": "/images/destinations/dubai/curated-region-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "region-list-1",
+    "topic": "Dubai Marina",
+    "src": "/images/destinations/dubai/curated-region-list-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "region-2",
+    "topic": "Jumeirah & Burj Al Arab",
+    "src": "/images/destinations/dubai/curated-region-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "region-list-2",
+    "topic": "Jumeirah & Burj Al Arab",
+    "src": "/images/destinations/dubai/curated-region-list-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "region-3",
+    "topic": "Old Dubai",
+    "src": "/images/destinations/dubai/curated-region-3.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "region-list-3",
+    "topic": "Old Dubai",
+    "src": "/images/destinations/dubai/curated-region-list-3.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "hotel-0",
+    "topic": "Address Downtown",
+    "src": "/images/destinations/dubai/curated-hotel-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "hotel-list-0",
+    "topic": "Address Downtown",
+    "src": "/images/destinations/dubai/curated-hotel-list-0.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "hotel-1",
+    "topic": "Rove Dubai Marina",
+    "src": "/images/destinations/dubai/curated-hotel-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "hotel-list-1",
+    "topic": "Rove Dubai Marina",
+    "src": "/images/destinations/dubai/curated-hotel-list-1.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "hotel-2",
+    "topic": "Jumeirah Beach Hotel",
+    "src": "/images/destinations/dubai/curated-hotel-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "hotel-list-2",
+    "topic": "Jumeirah Beach Hotel",
+    "src": "/images/destinations/dubai/curated-hotel-list-2.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "hotel-3",
+    "topic": "XVA Art Hotel",
+    "src": "/images/destinations/dubai/curated-hotel-3.jpg"
+  },
+  {
+    "city": "dubai",
+    "slot": "hotel-list-3",
+    "topic": "XVA Art Hotel",
+    "src": "/images/destinations/dubai/curated-hotel-list-3.jpg"
+  },
+  {
+    "city": "rio-de-janeiro",
+    "slot": "home-thumb",
+    "topic": "Rio de Janeiro: miniatura da home",
+    "src": "/images/destinations/rio-de-janeiro/curated-home-thumb.jpg"
+  },
+  {
+    "city": "sydney",
+    "slot": "home-thumb",
+    "topic": "Sydney: miniatura da home",
+    "src": "/images/destinations/sydney/curated-home-thumb.jpg"
+  },
+  {
+    "city": "bangkok",
+    "slot": "home-thumb",
+    "topic": "Bangkok: miniatura da home",
+    "src": "/images/destinations/bangkok/curated-home-thumb.jpg"
+  },
+  {
+    "city": "amsterdam",
+    "slot": "home-thumb",
+    "topic": "Amsterdam: miniatura da home",
+    "src": "/images/destinations/amsterdam/curated-home-thumb.jpg"
+  },
+  {
+    "city": "site",
+    "slot": "home-destination-lisboa",
+    "topic": "Lisboa",
+    "src": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "city": "site",
+    "slot": "home-destination-santorini",
+    "topic": "Santorini",
+    "src": "/assets/greece.png"
+  },
+  {
+    "city": "site",
+    "slot": "home-destination-noruega",
+    "topic": "Noruega",
+    "src": "/assets/norway.png"
+  },
+  {
+    "city": "site",
+    "slot": "home-destination-capadocia",
+    "topic": "Capadócia",
+    "src": "/assets/turkey.png"
+  },
+  {
+    "city": "site",
+    "slot": "home-destination-gramado",
+    "topic": "Gramado",
+    "src": "/assets/gramado.png"
+  },
+  {
+    "city": "site",
+    "slot": "home-destination-fernando-de-noronha",
+    "topic": "Fernando de Noronha",
+    "src": "/assets/noronha.png"
+  },
+  {
+    "city": "site",
+    "slot": "home-destination-japao",
+    "topic": "Japão",
+    "src": "/assets/japan.png"
+  },
+  {
+    "city": "site",
+    "slot": "home-slide-external-0",
+    "topic": "Destino da home",
+    "src": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1400&q=85"
+  },
+  {
+    "city": "site",
+    "slot": "home-slide-external-1",
+    "topic": "Destino da home",
+    "src": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=85"
+  },
+  {
+    "city": "site",
+    "slot": "home-slide-external-2",
+    "topic": "Destino da home",
+    "src": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1400&q=85"
+  },
+  {
+    "city": "site",
+    "slot": "home-slide-external-3",
+    "topic": "Destino da home",
+    "src": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=85"
+  },
+  {
+    "city": "site",
+    "slot": "testimonial-0",
+    "topic": "Depoimento",
+    "src": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80"
+  },
+  {
+    "city": "site",
+    "slot": "testimonial-1",
+    "topic": "Depoimento",
+    "src": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80"
+  },
+  {
+    "city": "site",
+    "slot": "testimonial-2",
+    "topic": "Depoimento",
+    "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+  }
+]

@@ -1,113 +1,8 @@
+import { guideImage } from '../lib/curatedGuideImages.js';
 /**
  * City-specific “{City} em 30 segundos” content for the creative guide layout.
- * Falls back to sensible defaults derived from guide fields when a slug is missing.
+ * Every published slot is explicit; unknown guides return empty map content.
  */
-
-const REGION_COLORS = ['#5B8DEF', '#F47A20', '#8B7CF6', '#96AB21', '#0F766E', '#B45309'];
-
-const PARIS_IMG = {
-  eiffel: '/images/destinations/paris/paris-eiffel-seine.jpg',
-  louvre: '/images/destinations/paris/paris-louvre.jpg',
-  notre: '/images/destinations/paris/paris-notre-dame.jpg',
-  a: '/images/destinations/paris/paris-1.jpg',
-  b: '/images/destinations/paris/paris-2.jpg',
-  c: '/images/destinations/paris/paris-3.jpg'
-};
-
-const NY_IMG = {
-  liberty: '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg',
-  empire: '/images/destinations/nova-york/nova-york-empire-state.jpg',
-  brooklyn: '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg',
-  park: '/images/destinations/nova-york/nova-york-central-park.jpg',
-  times: '/images/destinations/nova-york/nova-york-times-square.jpg',
-  highline: '/images/destinations/nova-york/nova-york-high-line.jpg',
-  oneWtc: '/images/destinations/nova-york/nova-york-one-wtc.jpg',
-  night: '/images/destinations/nova-york/nova-york-midtown-night.jpg',
-  avenue: '/images/destinations/nova-york/nova-york-manhattan-avenue.jpg',
-  skyline: '/images/destinations/nova-york/nova-york-skyline-dusk.jpg',
-  hotelA: '/images/destinations/nova-york/nova-york-hotel-a.jpg',
-  hotelB: '/images/destinations/nova-york/nova-york-hotel-b.jpg',
-  hotelC: '/images/destinations/nova-york/nova-york-hotel-c.jpg',
-  hotelD: '/images/destinations/nova-york/nova-york-hotel-d.jpg'
-};
-
-const TOKYO_IMG = {
-  tower: '/images/destinations/toquio/toquio-tokyo-tower.jpg',
-  sensoji: '/images/destinations/toquio/toquio-sensoji.jpg',
-  shibuya: '/images/destinations/toquio/toquio-shibuya-crossing.jpg',
-  shinjuku: '/images/destinations/toquio/toquio-shinjuku.jpg',
-  meiji: '/images/destinations/toquio/toquio-meiji.jpg',
-  skytree: '/images/destinations/toquio/toquio-skytree.jpg',
-  neon: '/images/destinations/toquio/toquio-night-neon.jpg',
-  alley: '/images/destinations/toquio/toquio-alley.jpg',
-  shop: '/images/destinations/toquio/toquio-local-shop.jpg',
-  chidori: '/images/destinations/toquio/toquio-chidorigafuchi.jpg',
-  hotelA: '/images/destinations/toquio/toquio-hotel-a.jpg',
-  hotelB: '/images/destinations/toquio/toquio-hotel-b.jpg',
-  hotelC: '/images/destinations/toquio/toquio-hotel-c.jpg',
-  hotelD: '/images/destinations/toquio/toquio-hotel-d.jpg'
-};
-
-const LONDON_IMG = {
-  ben: '/images/destinations/londres/londres-westminster-bridge.jpg',
-  bridge: '/images/destinations/londres/londres-tower-bridge.jpg',
-  buck: '/images/destinations/londres/londres-buckingham-palace.jpg',
-  eye: '/images/destinations/londres/londres-london-eye.jpg',
-  shoreditch: '/images/destinations/londres/londres-shoreditch.jpg',
-  bus: '/images/destinations/londres/londres-red-bus.jpg',
-  hotelA: '/images/destinations/londres/londres-hotel-a.jpg',
-  hotelB: '/images/destinations/londres/londres-hotel-b.jpg',
-  hotelC: '/images/destinations/londres/londres-hotel-c.jpg',
-  hotelD: '/images/destinations/londres/londres-hotel-d.jpg'
-};
-
-const ROMA_IMG = {
-  coliseu: '/images/destinations/roma/roma-coliseu-interior.jpg',
-  trevi: '/images/destinations/roma/roma-fontana-trevi.jpg',
-  vaticano: '/images/destinations/roma/roma-vaticano.jpg',
-  trastevere: '/images/destinations/roma/roma-trastevere.jpg',
-  navona: '/images/destinations/roma/roma-navona.jpg',
-  castel: '/images/destinations/roma/roma-castel.jpg',
-  spanish: '/images/destinations/roma/roma-spanish-steps.jpg',
-  monti: '/images/destinations/roma/roma-monti.jpg',
-  hotelA: '/images/destinations/roma/roma-hotel-a.jpg',
-  hotelB: '/images/destinations/roma/roma-hotel-b.jpg',
-  hotelC: '/images/destinations/roma/roma-hotel-c.jpg',
-  hotelD: '/images/destinations/roma/roma-hotel-d.jpg',
-  hotelE: '/images/destinations/roma/roma-hotel-e.jpg'
-};
-
-const IST_IMG = {
-  hagia: '/images/destinations/istambul/istambul-hagia-sophia.jpg',
-  azul: '/images/destinations/istambul/istambul-mesquita-azul.jpg',
-  bosforo: '/images/destinations/istambul/istambul-bosforo.jpg',
-  bazaar: '/images/destinations/istambul/istambul-grande-bazar.jpg',
-  galata: '/images/destinations/istambul/istambul-galata.jpg',
-  dusk: '/images/destinations/istambul/istambul-blue-dusk.jpg',
-  spice: '/images/destinations/istambul/istambul-bazar-especiarias.jpg',
-  galataBridge: '/images/destinations/istambul/istambul-galata-bridge.jpg',
-  eminonu: '/images/destinations/istambul/istambul-eminonu.jpg',
-  hotelA: '/images/destinations/istambul/istambul-hotel-a.jpg',
-  hotelB: '/images/destinations/istambul/istambul-hotel-b.jpg',
-  hotelC: '/images/destinations/istambul/istambul-hotel-c.jpg',
-  hotelD: '/images/destinations/istambul/istambul-hotel-d.jpg'
-};
-
-const DUBAI_IMG = {
-  burj: '/images/destinations/dubai/dubai-burj-khalifa.jpg',
-  marina: '/images/destinations/dubai/dubai-marina.jpg',
-  arab: '/images/destinations/dubai/dubai-burj-al-arab.jpg',
-  creek: '/images/destinations/dubai/dubai-creek.jpg',
-  desert: '/images/destinations/dubai/dubai-desert-safari.jpg',
-  palm: '/images/destinations/dubai/dubai-palm.jpg',
-  metro: '/images/destinations/dubai/dubai-metro.jpg',
-  fountain: '/images/destinations/dubai/dubai-fountain.jpg',
-  downtownSky: '/images/destinations/dubai/dubai-downtown-skyline.jpg',
-  hotelA: '/images/destinations/dubai/dubai-hotel-a.jpg',
-  hotelB: '/images/destinations/dubai/dubai-hotel-b.jpg',
-  hotelC: '/images/destinations/dubai/dubai-hotel-c.jpg',
-  hotelD: '/images/destinations/dubai/dubai-hotel-d.jpg'
-};
 
 export const GUIDE_THIRTY_SECONDS = {
   'como-planejar-viagem-paris': {
@@ -123,7 +18,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Torre Eiffel e Champs-Élysées',
         blurb: 'Ícones de Paris',
         color: '#5B8DEF',
-        image: '/images/destinations/paris/paris-arc-triomphe.jpg',
+        image: '/images/destinations/paris/curated-region-0.jpg',
         pin: { top: '58%', left: '22%' },
         hotel: 'Hotéis boutique perto do Champ de Mars'
       },
@@ -132,7 +27,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Centro Histórico e Louvre',
         blurb: 'Cultura e história',
         color: '#F47A20',
-        image: '/images/destinations/paris/paris-opera.jpg',
+        image: '/images/destinations/paris/curated-region-1.jpg',
         pin: { top: '48%', left: '48%' },
         hotel: 'Hotéis clássicos em Saint-Germain e Opéra'
       },
@@ -141,7 +36,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Le Marais',
         blurb: 'Charme e vida local',
         color: '#8B7CF6',
-        image: '/images/destinations/paris/paris-saint-germain.jpg',
+        image: '/images/destinations/paris/curated-region-2.jpg',
         pin: { top: '42%', left: '62%' },
         hotel: 'Apartamentos charmosos no 3º e 4º'
       },
@@ -150,7 +45,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Montmartre',
         blurb: 'Arte e vista incrível',
         color: '#96AB21',
-        image: '/images/destinations/paris/paris-montmartre.jpg',
+        image: '/images/destinations/paris/curated-region-3.jpg',
         pin: { top: '22%', left: '55%' },
         hotel: 'Pousadas com vista no Sacré-Cœur'
       }
@@ -162,7 +57,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: '7º · Champ de Mars',
         address: '7 rue du Champ de Mars, 75007 Paris',
         note: '€€ · Boutique a pé da Torre Eiffel',
-        image: '/images/destinations/paris/paris-1.jpg',
+        image: '/images/destinations/paris/curated-hotel-0.jpg',
         imageIllustrative: true,
         color: '#5B8DEF',
         pin: { top: '60%', left: '20%' }
@@ -173,7 +68,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: '1º · Tuileries / Louvre',
         address: '218 rue de Rivoli, 75001 Paris',
         note: '€€€ · Clássico de frente aos Jardins',
-        image: '/images/destinations/paris/paris-2.jpg',
+        image: '/images/destinations/paris/curated-hotel-1.jpg',
         imageIllustrative: true,
         color: '#F47A20',
         pin: { top: '50%', left: '46%' }
@@ -184,7 +79,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: '4º · Le Marais',
         address: '3 rue de Jarente, 75004 Paris',
         note: '€€ · Charme no coração do Marais',
-        image: '/images/destinations/paris/paris-3.jpg',
+        image: '/images/destinations/paris/curated-hotel-2.jpg',
         imageIllustrative: true,
         color: '#8B7CF6',
         pin: { top: '44%', left: '64%' }
@@ -195,7 +90,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: '18º · Montmartre',
         address: '11 rue Ravignan, 75018 Paris',
         note: '€€ · Place Émile Goudeau, perto do Sacré-Cœur',
-        image: '/images/destinations/paris/paris-seine-bridge.jpg',
+        image: '/images/destinations/paris/curated-hotel-3.jpg',
         imageIllustrative: true,
         color: '#96AB21',
         pin: { top: '20%', left: '57%' }
@@ -216,7 +111,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Midtown & Times Square',
         blurb: 'Ícones e Broadway',
         color: '#5B8DEF',
-        image: NY_IMG.night,
+        image: '/images/destinations/nova-york/curated-region-0.jpg',
         pin: { top: '42%', left: '48%' },
         hotel: 'Hotéis práticos perto da Times Square'
       },
@@ -225,7 +120,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Lower Manhattan',
         blurb: 'Skyline e história',
         color: '#F47A20',
-        image: NY_IMG.oneWtc,
+        image: '/images/destinations/nova-york/curated-region-1.jpg',
         pin: { top: '68%', left: '40%' },
         hotel: 'Financial District com vista do porto'
       },
@@ -234,7 +129,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Central Park & UES',
         blurb: 'Verde e museus',
         color: '#96AB21',
-        image: NY_IMG.avenue,
+        image: '/images/destinations/nova-york/curated-region-2.jpg',
         pin: { top: '28%', left: '52%' },
         hotel: 'Upper West Side perto do parque'
       },
@@ -243,7 +138,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Brooklyn & DUMBO',
         blurb: 'Vistas e vibe local',
         color: '#8B7CF6',
-        image: NY_IMG.skyline,
+        image: '/images/destinations/nova-york/curated-region-3.jpg',
         pin: { top: '72%', left: '68%' },
         hotel: 'Williamsburg e DUMBO com skyline'
       }
@@ -255,7 +150,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Midtown · Times Square',
         address: '400 W 42nd St, New York, NY',
         note: '$ · Prático perto da Broadway',
-        image: NY_IMG.hotelA,
+        image: '/images/destinations/nova-york/curated-hotel-0.jpg',
         imageIllustrative: true,
         color: '#5B8DEF',
         pin: { top: '44%', left: '46%' }
@@ -266,7 +161,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Battery Park City',
         address: '102 N End Ave, New York, NY',
         note: '$$$ · Vista do porto e Battery',
-        image: NY_IMG.hotelB,
+        image: '/images/destinations/nova-york/curated-hotel-1.jpg',
         imageIllustrative: true,
         color: '#F47A20',
         pin: { top: '70%', left: '38%' }
@@ -277,7 +172,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Upper West Side',
         address: '201 W 79th St, New York, NY',
         note: '$$ · Clássico perto do Central Park',
-        image: NY_IMG.hotelC,
+        image: '/images/destinations/nova-york/curated-hotel-2.jpg',
         imageIllustrative: true,
         color: '#96AB21',
         pin: { top: '26%', left: '50%' }
@@ -288,7 +183,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'DUMBO',
         address: '60 Furman St, Brooklyn, NY',
         note: '$$$ · Skyline e promenade',
-        image: NY_IMG.hotelD,
+        image: '/images/destinations/nova-york/curated-hotel-3.jpg',
         imageIllustrative: true,
         color: '#8B7CF6',
         pin: { top: '74%', left: '70%' }
@@ -309,7 +204,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Shinjuku',
         blurb: 'Noite e conexões',
         color: '#5B8DEF',
-        image: TOKYO_IMG.neon,
+        image: '/images/destinations/toquio/curated-region-0.jpg',
         pin: { top: '40%', left: '30%' },
         hotel: 'Business hotels na estação Shinjuku'
       },
@@ -318,7 +213,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Shibuya',
         blurb: 'Cruzamento e pop',
         color: '#F47A20',
-        image: TOKYO_IMG.alley,
+        image: '/images/destinations/toquio/curated-region-1.jpg',
         pin: { top: '58%', left: '38%' },
         hotel: 'Hotéis modernos perto do scrambling'
       },
@@ -327,7 +222,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Asakusa & Ueno',
         blurb: 'Templos e tradição',
         color: '#96AB21',
-        image: TOKYO_IMG.chidori,
+        image: '/images/destinations/toquio/curated-region-2.jpg',
         pin: { top: '32%', left: '68%' },
         hotel: 'Ryokans e hotéis em Asakusa'
       },
@@ -336,7 +231,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Ginza & Tokyo Tower',
         blurb: 'Elegância e vista',
         color: '#8B7CF6',
-        image: TOKYO_IMG.shop,
+        image: '/images/destinations/toquio/curated-region-3.jpg',
         pin: { top: '52%', left: '55%' },
         hotel: 'Hotéis de luxo em Ginza'
       }
@@ -348,7 +243,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Shinjuku',
         address: '1-19-1 Kabukicho, Shinjuku, Tokyo',
         note: '¥¥ · Ícone Godzilla na estação',
-        image: TOKYO_IMG.hotelA,
+        image: '/images/destinations/toquio/curated-hotel-0.jpg',
         imageIllustrative: true,
         color: '#5B8DEF',
         pin: { top: '38%', left: '28%' }
@@ -359,7 +254,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Shibuya',
         address: '3-21-3 Shibuya, Tokyo',
         note: '¥¥¥ · Moderno no scrambling',
-        image: TOKYO_IMG.hotelB,
+        image: '/images/destinations/toquio/curated-hotel-1.jpg',
         imageIllustrative: true,
         color: '#F47A20',
         pin: { top: '60%', left: '36%' }
@@ -370,7 +265,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Asakusa',
         address: '2-16-2 Asakusa, Taito, Tokyo',
         note: '¥¥ · Design perto do Sensō-ji',
-        image: TOKYO_IMG.hotelC,
+        image: '/images/destinations/toquio/curated-hotel-2.jpg',
         imageIllustrative: true,
         color: '#96AB21',
         pin: { top: '30%', left: '70%' }
@@ -381,7 +276,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Ginza',
         address: '8-13-1 Ginza, Chuo, Tokyo',
         note: '¥¥¥ · Base elegante em Ginza',
-        image: TOKYO_IMG.hotelD,
+        image: '/images/destinations/toquio/curated-hotel-3.jpg',
         imageIllustrative: true,
         color: '#8B7CF6',
         pin: { top: '54%', left: '57%' }
@@ -402,7 +297,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Westminster & Big Ben',
         blurb: 'Ícones reais',
         color: '#5B8DEF',
-        image: LONDON_IMG.ben,
+        image: '/images/destinations/londres/curated-region-0.jpg',
         pin: { top: '55%', left: '42%' },
         hotel: 'Hotéis perto de Westminster'
       },
@@ -411,7 +306,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'South Bank & Tower Bridge',
         blurb: 'Rio e skyline',
         color: '#F47A20',
-        image: LONDON_IMG.eye,
+        image: '/images/destinations/londres/curated-region-1.jpg',
         pin: { top: '62%', left: '62%' },
         hotel: 'Hotéis com vista do Tâmisa'
       },
@@ -420,7 +315,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Buckingham & Parks',
         blurb: 'Palácio e verde',
         color: '#96AB21',
-        image: LONDON_IMG.bus,
+        image: '/images/destinations/londres/curated-region-2.jpg',
         pin: { top: '48%', left: '30%' },
         hotel: 'Belgravia e Hyde Park'
       },
@@ -429,7 +324,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'City & East End',
         blurb: 'História e street food',
         color: '#8B7CF6',
-        image: LONDON_IMG.shoreditch,
+        image: '/images/destinations/londres/curated-region-3.jpg',
         pin: { top: '38%', left: '58%' },
         hotel: 'Shoreditch e Clerkenwell'
       }
@@ -441,7 +336,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'South Bank · Westminster',
         address: '200 Westminster Bridge Rd, London',
         note: '££ · Vista do Big Ben',
-        image: LONDON_IMG.hotelA,
+        image: '/images/destinations/londres/curated-hotel-0.jpg',
         imageIllustrative: true,
         color: '#5B8DEF',
         pin: { top: '57%', left: '40%' }
@@ -452,7 +347,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Tower Hill',
         address: '40 Trinity Square, London',
         note: '££ · Design perto da Tower Bridge',
-        image: LONDON_IMG.hotelB,
+        image: '/images/destinations/londres/curated-hotel-1.jpg',
         imageIllustrative: true,
         color: '#F47A20',
         pin: { top: '64%', left: '64%' }
@@ -463,7 +358,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Victoria · Buckingham',
         address: '39 Buckingham Palace Rd, London',
         note: '£££ · Frente ao palácio',
-        image: LONDON_IMG.hotelC,
+        image: '/images/destinations/londres/curated-hotel-2.jpg',
         imageIllustrative: true,
         color: '#96AB21',
         pin: { top: '46%', left: '28%' }
@@ -474,7 +369,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Shoreditch',
         address: '81 Great Eastern St, London',
         note: '££ · Street food e nightlife',
-        image: LONDON_IMG.hotelD,
+        image: '/images/destinations/londres/curated-hotel-3.jpg',
         imageIllustrative: true,
         color: '#8B7CF6',
         pin: { top: '36%', left: '60%' }
@@ -495,7 +390,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Roma Antiga',
         blurb: 'Coliseu e Fórum',
         color: '#F47A20',
-        image: ROMA_IMG.coliseu,
+        image: '/images/destinations/roma/curated-region-0.jpg',
         pin: { top: '58%', left: '58%' },
         hotel: 'Monti, a poucos passos do Coliseu'
       },
@@ -504,7 +399,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Vaticano',
         blurb: 'Capela e praça',
         color: '#5B8DEF',
-        image: ROMA_IMG.castel,
+        image: '/images/destinations/roma/curated-region-1.jpg',
         pin: { top: '40%', left: '22%' },
         hotel: 'Prati, prático para o Vaticano'
       },
@@ -513,7 +408,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Centro Storico',
         blurb: 'Fontana e praças',
         color: '#8B7CF6',
-        image: ROMA_IMG.spanish,
+        image: '/images/destinations/roma/curated-region-2.jpg',
         pin: { top: '45%', left: '48%' },
         hotel: 'Piazza Navona e Pantheon'
       },
@@ -522,7 +417,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Trastevere',
         blurb: 'Noite e trattorias',
         color: '#96AB21',
-        image: ROMA_IMG.monti,
+        image: '/images/destinations/roma/curated-region-3.jpg',
         pin: { top: '68%', left: '38%' },
         hotel: 'Trastevere para jantares a pé'
       }
@@ -534,7 +429,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Flaminio · Piazza del Popolo',
         address: 'Lungotevere Arnaldo da Brescia 2, 00196 Roma',
         note: '€€€ · Boutique no Tibre, perto da Piazza del Popolo',
-        image: ROMA_IMG.hotelA,
+        image: '/images/destinations/roma/curated-hotel-0.jpg',
         imageIllustrative: true,
         color: '#B45309',
         pin: { top: '28%', left: '44%' }
@@ -545,7 +440,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Monti · Coliseu',
         address: 'Via Tor de’ Conti 25, 00184 Roma',
         note: '€€€ · Terraço com vista do Fórum e Coliseu',
-        image: ROMA_IMG.hotelB,
+        image: '/images/destinations/roma/curated-hotel-1.jpg',
         imageIllustrative: true,
         color: '#F47A20',
         pin: { top: '60%', left: '60%' }
@@ -556,7 +451,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Prati',
         address: 'Via Muzio Clementi 81, 00193 Roma',
         note: '€€ · Entre Piazza del Popolo e o Vaticano',
-        image: ROMA_IMG.hotelC,
+        image: '/images/destinations/roma/curated-hotel-2.jpg',
         imageIllustrative: true,
         color: '#5B8DEF',
         pin: { top: '36%', left: '24%' }
@@ -567,7 +462,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Centro Storico',
         address: 'Via dei Pastini 131, 00186 Roma',
         note: '€€€ · A passos do Pantheon e da Fontana di Trevi',
-        image: ROMA_IMG.hotelD,
+        image: '/images/destinations/roma/curated-hotel-3.jpg',
         imageIllustrative: true,
         color: '#8B7CF6',
         pin: { top: '47%', left: '50%' }
@@ -578,7 +473,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Trastevere',
         address: 'Vicolo del Piede 2, 00153 Roma',
         note: '€€ · Pátio e trattorias a pé da Santa Maria',
-        image: ROMA_IMG.hotelE,
+        image: '/images/destinations/roma/curated-hotel-4.jpg',
         imageIllustrative: true,
         color: '#96AB21',
         pin: { top: '70%', left: '36%' }
@@ -599,7 +494,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Sultanahmet',
         blurb: 'Hagia Sophia e Azul',
         color: '#5B8DEF',
-        image: IST_IMG.dusk,
+        image: '/images/destinations/istambul/curated-region-0.jpg',
         pin: { top: '55%', left: '55%' },
         hotel: 'Hotéis históricos em Sultanahmet'
       },
@@ -608,7 +503,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Mesquita Azul & Hipódromo',
         blurb: 'Ícones otomanos',
         color: '#F47A20',
-        image: IST_IMG.spice,
+        image: '/images/destinations/istambul/curated-region-1.jpg',
         pin: { top: '62%', left: '48%' },
         hotel: 'Pousadas com terraço perto da Azul'
       },
@@ -617,7 +512,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Bósforo & Karaköy',
         blurb: 'Travessia e vista',
         color: '#0F766E',
-        image: IST_IMG.galataBridge,
+        image: '/images/destinations/istambul/curated-region-2.jpg',
         pin: { top: '38%', left: '40%' },
         hotel: 'Karaköy e Galata com vista do estreito'
       },
@@ -626,7 +521,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Grande Bazar',
         blurb: 'Mercados e especiarias',
         color: '#8B7CF6',
-        image: IST_IMG.eminonu,
+        image: '/images/destinations/istambul/curated-region-3.jpg',
         pin: { top: '48%', left: '62%' },
         hotel: 'Beyazıt e Eminönü'
       }
@@ -638,7 +533,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Sultanahmet',
         address: 'Terzihane Sokak 7, Sultanahmet, Istanbul',
         note: '₺₺ · Boutique perto da Hagia Sophia',
-        image: IST_IMG.hotelA,
+        image: '/images/destinations/istambul/curated-hotel-0.jpg',
         imageIllustrative: true,
         color: '#5B8DEF',
         pin: { top: '52%', left: '58%' }
@@ -649,7 +544,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Mesquita Azul',
         address: 'Torun Sokak 19, Sultanahmet, Istanbul',
         note: '₺₺ · Terraço com vista otomana',
-        image: IST_IMG.hotelB,
+        image: '/images/destinations/istambul/curated-hotel-1.jpg',
         imageIllustrative: true,
         color: '#F47A20',
         pin: { top: '66%', left: '46%' }
@@ -660,7 +555,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Karaköy / Galata',
         address: 'Boğazkesen Cad. 18, Beyoğlu, Istanbul',
         note: '₺₺₺ · Vista do Bósforo',
-        image: IST_IMG.hotelC,
+        image: '/images/destinations/istambul/curated-hotel-2.jpg',
         imageIllustrative: true,
         color: '#0F766E',
         pin: { top: '36%', left: '38%' }
@@ -671,7 +566,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Sirkeci · Grande Bazar',
         address: 'Taya Hatun Cad. 5, Sirkeci, Istanbul',
         note: '₺₺ · Perto de Beyazıt e Eminönü',
-        image: IST_IMG.hotelD,
+        image: '/images/destinations/istambul/curated-hotel-3.jpg',
         imageIllustrative: true,
         color: '#8B7CF6',
         pin: { top: '48%', left: '66%' }
@@ -692,7 +587,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Downtown & Burj Khalifa',
         blurb: 'Ícone e Dubai Mall',
         color: '#5B8DEF',
-        image: DUBAI_IMG.downtownSky,
+        image: '/images/destinations/dubai/curated-region-0.jpg',
         pin: { top: '48%', left: '48%' },
         hotel: 'Downtown com vista do Burj'
       },
@@ -701,7 +596,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Dubai Marina',
         blurb: 'Skyline e promenade',
         color: '#0F766E',
-        image: DUBAI_IMG.metro,
+        image: '/images/destinations/dubai/curated-region-1.jpg',
         pin: { top: '62%', left: '28%' },
         hotel: 'Marina e JBR com praia'
       },
@@ -710,7 +605,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Jumeirah & Burj Al Arab',
         blurb: 'Praia e luxo',
         color: '#F47A20',
-        image: DUBAI_IMG.palm,
+        image: '/images/destinations/dubai/curated-region-2.jpg',
         pin: { top: '58%', left: '38%' },
         hotel: 'Resorts em Jumeirah Beach'
       },
@@ -719,7 +614,7 @@ export const GUIDE_THIRTY_SECONDS = {
         name: 'Old Dubai',
         blurb: 'Souks e abra',
         color: '#8B7CF6',
-        image: DUBAI_IMG.creek,
+        image: '/images/destinations/dubai/curated-region-3.jpg',
         pin: { top: '32%', left: '55%' },
         hotel: 'Al Fahidi e Creek'
       }
@@ -731,7 +626,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Downtown Dubai',
         address: 'Mohammed Bin Rashid Blvd, Downtown Dubai',
         note: 'AED $$$ · Vista do Burj Khalifa',
-        image: DUBAI_IMG.hotelA,
+        image: '/images/destinations/dubai/curated-hotel-0.jpg',
         imageIllustrative: true,
         color: '#5B8DEF',
         pin: { top: '46%', left: '50%' }
@@ -742,7 +637,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Dubai Marina',
         address: 'Al Seba Street, Dubai Marina',
         note: 'AED $$ · Promenade e JBR',
-        image: DUBAI_IMG.hotelB,
+        image: '/images/destinations/dubai/curated-hotel-1.jpg',
         imageIllustrative: true,
         color: '#0F766E',
         pin: { top: '64%', left: '26%' }
@@ -753,7 +648,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Jumeirah Beach',
         address: 'Jumeirah Beach Rd, Dubai',
         note: 'AED $$$ · Praia perto do Burj Al Arab',
-        image: DUBAI_IMG.hotelC,
+        image: '/images/destinations/dubai/curated-hotel-2.jpg',
         imageIllustrative: true,
         color: '#F47A20',
         pin: { top: '56%', left: '36%' }
@@ -764,7 +659,7 @@ export const GUIDE_THIRTY_SECONDS = {
         neighborhood: 'Al Fahidi · Old Dubai',
         address: 'Al Fahidi Historical Neighbourhood, Dubai',
         note: 'AED $$ · Al Fahidi e Creek',
-        image: DUBAI_IMG.hotelD,
+        image: '/images/destinations/dubai/curated-hotel-3.jpg',
         imageIllustrative: true,
         color: '#8B7CF6',
         pin: { top: '30%', left: '57%' }
@@ -773,130 +668,18 @@ export const GUIDE_THIRTY_SECONDS = {
   }
 };
 
-function shortIdealDays(text) {
-  if (!text) return '5 – 7 dias';
-  const match = String(text).match(/(\d+)\s*a\s*(\d+)\s*dias?/i);
-  if (match) return `${match[1]} – ${match[2]} dias`;
-  const single = String(text).match(/(\d+)\s*dias?/i);
-  if (single) return `${single[1]} dias`;
-  return String(text).slice(0, 18);
-}
-
-function shortDailyCost(guide) {
-  const raw = guide?.costsTable?.economy?.daily || guide?.costsTable?.comfort?.daily;
-  if (!raw) return 'Consulte o guia';
-  const compact = String(raw)
-    .replace(/\s+/g, ' ')
-    .replace(/por dia.*/i, '')
-    .trim();
-  return compact.length > 18 ? `${compact.slice(0, 16)}…` : compact;
-}
-
-function shortTransport(guide) {
-  const t = String(guide?.transportDetails || '').toLowerCase();
-  if (t.includes('metrô') || t.includes('metro')) return 'Metrô fácil';
-  if (t.includes('trem') || t.includes('jr') || t.includes('tube')) return 'Trem fácil';
-  if (t.includes('a pé')) return 'A pé + local';
-  return 'Transporte local';
-}
-
-function framesFromGuide(guide) {
-  const listed = (guide.images || [])
-    .map((image) => (typeof image === 'string' ? image : image?.url))
-    .filter(Boolean);
-  return [guide.heroImage, ...listed].filter(Boolean);
-}
-
-function buildFromGuide(guide) {
-  const frames = framesFromGuide(guide);
-  const neighborhoods = guide.neighborhoods || [];
-  const attractions = guide.attractions || [];
-
-  const regions = (neighborhoods.length ? neighborhoods : attractions)
-    .slice(0, 4)
-    .map((item, index) => {
-      const name = item.name || `Região ${index + 1}`;
-      const blurb =
-        item.pros?.split(',')[0]?.trim() ||
-        item.whyVisit ||
-        item.desc ||
-        'Destaque do destino';
-      return {
-        id: `region-${index}`,
-        name: name.length > 36 ? `${name.slice(0, 34)}…` : name,
-        blurb: blurb.length > 28 ? `${blurb.slice(0, 26)}…` : blurb,
-        color: REGION_COLORS[index % REGION_COLORS.length],
-        image: frames[index % Math.max(frames.length, 1)] || guide.heroImage,
-        pin: [
-          { top: '58%', left: '28%' },
-          { top: '42%', left: '52%' },
-          { top: '30%', left: '40%' },
-          { top: '65%', left: '62%' }
-        ][index],
-        hotel: `Hospedagem recomendada em ${name.split('(')[0].trim()}`
-      };
-    });
-
-  while (regions.length < 4 && frames.length) {
-    const index = regions.length;
-    regions.push({
-      id: `extra-${index}`,
-      name: guide.city,
-      blurb: 'Destaque do guia',
-      color: REGION_COLORS[index % REGION_COLORS.length],
-      image: frames[index % frames.length],
-      pin: { top: `${35 + index * 10}%`, left: `${30 + index * 12}%` },
-      hotel: `Melhores bairros de ${guide.city}`
-    });
-  }
-
-  const hotels = regions.map((region, index) => ({
-    id: `hotel-fallback-${index}`,
-    name: `Hospedagem em ${region.name.split('(')[0].trim()}`,
-    neighborhood: region.name,
-    note: region.hotel || `Sugestão de bairro em ${guide.city}`,
-    image: region.image,
-    imageIllustrative: true,
-    color: region.color,
-    pin: region.pin
-  }));
-
-  return {
-    facts: [
-      { value: shortIdealDays(guide.idealDays), label: 'Tempo ideal', tone: 'green' },
-      { value: shortDailyCost(guide), label: 'Por dia (média)', tone: 'yellow' },
-      { value: shortTransport(guide), label: 'Rápido e eficiente', tone: 'orange' },
-      {
-        value: 'Reservas antecipadas',
-        label: 'Para as principais atrações',
-        tone: 'blue'
-      }
-    ],
-    regions,
-    hotels
-  };
-}
-
-function withHotels(entry, guide) {
-  if (entry.hotels?.length) return entry;
-  const hotels = (entry.regions || []).map((region, index) => ({
-    id: `hotel-derived-${index}`,
-    name: region.hotel || `Hospedagem em ${region.name.split('(')[0].trim()}`,
-    neighborhood: region.name,
-    note: `Sugestão de bairro em ${guide?.city || 'destino'}`,
-    image: region.image,
-    imageIllustrative: true,
-    color: region.color,
-    pin: region.pin
-  }));
-  return { ...entry, hotels };
-}
-
 export function getThirtySeconds(guide) {
-  if (!guide) {
-    return { facts: [], regions: [], hotels: [] };
-  }
-  const curated = GUIDE_THIRTY_SECONDS[guide.slug];
-  if (curated) return withHotels(curated, guide);
-  return buildFromGuide(guide);
+  const entry = GUIDE_THIRTY_SECONDS[guide?.slug];
+  if (!entry) return { facts: [], regions: [], hotels: [] };
+  return {
+    ...entry,
+    regions: entry.regions.map((region, i) => ({ ...region,
+      image: guideImage(guide, `region-${i}`),
+      listImage: guideImage(guide, `region-list-${i}`)
+    })),
+    hotels: entry.hotels.map((hotel, i) => ({ ...hotel,
+      image: guideImage(guide, `hotel-${i}`),
+      listImage: guideImage(guide, `hotel-list-${i}`)
+    }))
+  };
 }

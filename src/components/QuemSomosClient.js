@@ -16,10 +16,10 @@ import AppDownloadModal from '@/components/AppDownloadModal';
 import ScrollReveal from '@/components/ScrollReveal';
 
 const PHOTOS = {
-  hero: '/images/destinations/paris/paris-eiffel-seine.jpg',
-  problem: '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg',
-  solution: '/images/destinations/roma/roma-coliseu.jpg',
-  purpose: '/assets/greece.png'
+  hero: '/images/destinations/paris/curated-about.jpg',
+  problem: '/images/destinations/nova-york/curated-about.jpg',
+  solution: '/images/destinations/roma/curated-about.jpg',
+  purpose: '/images/destinations/paris/curated-about-purpose.jpg'
 };
 
 const UNIQUE_POINTS = [

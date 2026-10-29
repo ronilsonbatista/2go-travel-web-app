@@ -130,7 +130,7 @@ export default function WhatToDoClient({ destination }) {
                 <div className="h-64 sm:h-72 w-full rounded-2xl overflow-hidden border border-border-gray bg-bg-light relative flex items-center justify-center">
                   <div 
                     className="absolute inset-0 bg-cover bg-center opacity-[0.25] filter grayscale"
-                    style={{ backgroundImage: `url(${destination.image})` }}
+                    style={{ backgroundImage: 'linear-gradient(0deg, transparent 23%, #94a3b8 24%, #94a3b8 25%, transparent 26%, transparent 73%, #94a3b8 74%, #94a3b8 75%, transparent 76%), linear-gradient(90deg, transparent 23%, #94a3b8 24%, #94a3b8 25%, transparent 26%, transparent 73%, #94a3b8 74%, #94a3b8 75%, transparent 76%)', backgroundSize: '48px 48px' }}
                   />
                   <div className="absolute inset-0 bg-brand-navy/5"></div>
                   

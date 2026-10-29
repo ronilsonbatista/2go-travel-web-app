@@ -1,5 +1,6 @@
 "use client";
 
+import { guideImage } from '@/lib/curatedGuideImages';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import {
@@ -25,7 +26,7 @@ import GuiasHeroHighlight from '@/components/GuiasHeroHighlight';
 import { destinationGuides } from '@/data/guidesData';
 
 function coverOf(guide) {
-  return guide.heroImage || guide.images?.[0]?.url || guide.images?.[0] || '';
+  return guideImage(guide, 'guide-card');
 }
 
 function normalize(value) {

@@ -15,14 +15,8 @@ export const destinationGuides = {
     metaTitle: 'Paris: Guia completo',
     metaDescription: 'Guia completo e definitivo para planejar sua viagem para Paris. Saiba sobre vistos, seguro viagem, passagens de metrô, bairros e atrações.',
     // Distinct from Torre Eiffel must-see pin (paris-eiffel-seine.jpg).
-    heroImage: '/images/destinations/paris/paris-latin.jpg',
-        images: [
-      { url: '/images/destinations/paris/paris-louvre.jpg', alt: 'Museu do Louvre' },
-      { url: '/images/destinations/paris/paris-notre-dame.jpg', alt: 'Notre-Dame' },
-      { url: '/images/destinations/paris/paris-sacre-coeur.jpg', alt: 'Sacré-Cœur' },
-      { url: '/images/destinations/paris/paris-marais.jpg', alt: 'Le Marais' },
-      { url: '/images/destinations/paris/paris-orsay.jpg', alt: 'Musée d\'Orsay' }
-    ],
+    heroImage: '/images/destinations/paris/curated-hero.jpg',
+        images: [],
     summaryText: 'Paris é uma das capitais mais visitadas do planeta. Planejar a viagem exige entender a distribuição por arrondissements, a malha de metrô, as regras do Espaço Schengen e o agendamento de ingressos fura-fila.',
     intro: 'Paris é uma metrópole vibrante que combina monumentos históricos seculares, galerias de arte renomadas mundialmente e a mais prestigiada cultura gastronômica. Organizar uma viagem para a Cidade Luz exige estratégia para otimizar os dias, evitar filas extensas e circular com facilidade entre os distritos.',
     whyVisit: 'Paris oferece uma densidade cultural incomparável: em poucas quadras você caminha dos jardins reais dos Tuileries até os bistrôs históricos de Saint-Germain, admirando a arquitetura haussmanniana e acervos artísticos da humanidade no Louvre e Musée d\'Orsay.',
@@ -53,7 +47,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Torre Eiffel',
-        image: '/images/destinations/paris/paris-eiffel-seine.jpg',
+        image: '/images/destinations/paris/curated-attraction-0.jpg',
         priority: 'Alta',
         desc: 'O monumento pago mais visitado do mundo, inaugurado em 1889 para a Exposição Universal com 330 metros de altura.',
         whyVisit: 'Símbolo máximo de Paris com vista panorâmica em 360 graus inesquecível de toda a cidade.',
@@ -67,7 +61,7 @@ export const destinationGuides = {
       },
       {
         name: 'Museu do Louvre',
-        image: '/images/destinations/paris/paris-louvre.jpg',
+        image: '/images/destinations/paris/curated-attraction-1.jpg',
         priority: 'Alta',
         desc: 'O maior museu de arte do planeta, abrigando mais de 35.000 obras incluindo a Mona Lisa, a Vênus de Milo e a Vitória de Samotrácia.',
         whyVisit: 'Acervo cultural incomparável reunindo artefatos do Egito antigo, Grécia, Roma e pintura renascentista.',
@@ -81,7 +75,7 @@ export const destinationGuides = {
       },
       {
         name: 'Arco do Triunfo & Champs-Élysées',
-        image: '/images/destinations/paris/paris-arc-triomphe.jpg',
+        image: '/images/destinations/paris/curated-attraction-2.jpg',
         priority: 'Média',
         desc: 'Monumento neoclássico encomendado por Napoleão Bonaparte em 1806 para celebrar as vitórias do exército francês.',
         whyVisit: 'O terraço no topo oferece a vista mais bonita da Torre Eiffel e do traçado das 12 avenidas que convergem na praça.',
@@ -95,7 +89,7 @@ export const destinationGuides = {
       },
       {
         name: 'Basílica de Sacré-Cœur e Montmartre',
-        image: '/images/destinations/paris/paris-sacre-coeur.jpg',
+        image: '/images/destinations/paris/curated-attraction-3.jpg',
         priority: 'Alta',
         desc: 'Templo de mármore branco situado no topo da colina de Montmartre, o histórico bairro dos pintores boêmios.',
         whyVisit: 'Combina vista espetacular da cidade com ruelas charmosas, a Place du Tertre e o Muro do Eu Te Amo.',
@@ -106,7 +100,9 @@ export const destinationGuides = {
         price: 'Gratuito para entrar na nave da basílica (€ 8 para subir à cúpula)',
         reservation: 'Não é necessária',
         tip2GO: 'Pegue o funicular de Montmartre usando um bilhete comum de metrô para evitar subir os 222 degraus a pé.'
-      }
+      },
+      {"name": "Notre-Dame de Paris", "image": "/images/destinations/paris/curated-attraction-4.jpg", "desc": "Catedral histórica na Île de la Cité.", "whyVisit": "Explore a arquitetura gótica e o centro histórico de Paris.", "duration": "1–2 horas", "recommendedTime": "1–2 horas", "priority": "Média", "price": "Consulte os ingressos oficiais", "bestTime": "Confira os horários de visita", "reservation": "Consulte a atração"},
+      {"name": "Musée d’Orsay", "image": "/images/destinations/paris/curated-attraction-5.jpg", "desc": "Museu de arte instalado na antiga estação de Orsay.", "whyVisit": "Veja obras impressionistas em um edifício histórico.", "duration": "1–2 horas", "recommendedTime": "1–2 horas", "priority": "Média", "price": "Consulte os ingressos oficiais", "bestTime": "Confira os horários de visita", "reservation": "Consulte a atração"}
     ],
 
     suggestedItinerary: [
@@ -198,15 +194,8 @@ export const destinationGuides = {
     metaTitle: 'Nova York: Guia completo',
     metaDescription: 'Guia completo para planejar sua viagem a Nova York. Saiba sobre vistos, metrô OMNY, hospedagem e atrações de Manhattan.',
     // Chelsea hero — skyline stays on the 30s map; Liberty keeps an exclusive must-see pin.
-    heroImage: '/images/destinations/nova-york/nova-york-chelsea.jpg',
-            images: [
-      { url: '/images/destinations/nova-york/nova-york-central-park.jpg', alt: 'Central Park' },
-      { url: '/images/destinations/nova-york/nova-york-times-square.jpg', alt: 'Times Square' },
-      { url: '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg', alt: 'Brooklyn Bridge' },
-      { url: '/images/destinations/nova-york/nova-york-empire-state.jpg', alt: 'Empire State Building' },
-      { url: '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg', alt: 'Estátua da Liberdade' },
-      { url: '/images/destinations/nova-york/nova-york-high-line.jpg', alt: 'High Line' }
-    ],
+    heroImage: '/images/destinations/nova-york/curated-hero.jpg',
+            images: [],
     summaryText: 'Nova York é a capital cultural dos Estados Unidos. Planejar exige vistos em dia, entender a divisão de Manhattan e usar o sistema de transporte OMNY.',
     intro: 'Nova York é uma metrópole vibrante, famosa por seus arranha-céus icônicos, espetáculos da Broadway e bairros cheios de personalidade. Uma viagem inesquecível para a Big Apple exige um bom planejamento de deslocamento e orçamento.',
     whyVisit: 'Diversidade cultural sem igual, gastronomia do mundo todo, museus globais (como MoMA e Met) e parques lendários como o Central Park. A cidade recompensa quem combina ícones de Midtown com caminhadas no Brooklyn e no Lower Manhattan.',
@@ -237,7 +226,8 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Empire State Building',
-        image: '/images/destinations/nova-york/nova-york-empire-state.jpg',
+        image: '/images/destinations/nova-york/curated-attraction-0.jpg',
+        imagePosition: '50% 10%',
         priority: 'Alta',
         desc: 'O arranha-céu mais famoso do mundo no coração de Midtown.',
         whyVisit: 'Mirante clássico do 86º andar com vista de 360 graus.',
@@ -251,7 +241,7 @@ export const destinationGuides = {
       },
       {
         name: 'Central Park',
-        image: '/images/destinations/nova-york/nova-york-central-park.jpg',
+        image: '/images/destinations/nova-york/curated-attraction-1.jpg',
         priority: 'Alta',
         desc: 'O pulmão verde no meio dos arranha-céus de Manhattan.',
         whyVisit: 'Área imensa para caminhadas, passeios de bicicleta e piqueniques.',
@@ -265,7 +255,7 @@ export const destinationGuides = {
       },
       {
         name: 'Times Square & Broadway',
-        image: '/images/destinations/nova-york/nova-york-times-square.jpg',
+        image: '/images/destinations/nova-york/curated-attraction-2.jpg',
         priority: 'Alta',
         desc: 'O cruzamento mais famoso do mundo, com painéis LED e teatros da Broadway.',
         whyVisit: 'Energia noturna única e espetáculos de classe mundial.',
@@ -279,7 +269,8 @@ export const destinationGuides = {
       },
       {
         name: 'Estátua da Liberdade & Battery',
-        image: '/images/destinations/nova-york/nova-york-estatua-liberdade.jpg',
+        image: '/images/destinations/nova-york/curated-attraction-3.jpg',
+        imagePosition: '50% 0%',
         priority: 'Alta',
         desc: 'O ícone de Lower Manhattan e o porto de Nova York.',
         whyVisit: 'Símbolo histórico com skyline de fundo e ferry até Liberty Island.',
@@ -293,7 +284,7 @@ export const destinationGuides = {
       },
       {
         name: 'Brooklyn Bridge & DUMBO',
-        image: '/images/destinations/nova-york/nova-york-brooklyn-bridge.jpg',
+        image: '/images/destinations/nova-york/curated-attraction-4.jpg',
         priority: 'Média',
         desc: 'Caminhada clássica sobre o East River até as ruas de cobblestone de DUMBO.',
         whyVisit: 'Vista icônica de Manhattan e cafés com skyline.',
@@ -307,7 +298,7 @@ export const destinationGuides = {
       },
       {
         name: 'High Line & Chelsea',
-        image: '/images/destinations/nova-york/nova-york-high-line.jpg',
+        image: '/images/destinations/nova-york/curated-attraction-5.jpg',
         priority: 'Média',
         desc: 'Parque elevado sobre antigos trilhos, com arte e vistas de Midtown West.',
         whyVisit: 'Passeio urbano diferente, conectando Meatpacking a Hudson Yards.',
@@ -375,14 +366,8 @@ export const destinationGuides = {
     categoryLabel: 'Guia de destino',
     metaTitle: 'Tóquio: Guia completo',
     metaDescription: 'Guia completo para viajar a Tóquio. Saiba sobre isenção de visto, transporte IC Suica, onde ficar e roteiro em Tóquio.',
-    heroImage: '/images/destinations/toquio/toquio-tokyo-tower.jpg',
-            images: [
-      { url: '/images/destinations/toquio/toquio-sensoji.jpg', alt: 'Templo Senso-ji' },
-      { url: '/images/destinations/toquio/toquio-shibuya-crossing.jpg', alt: 'Cruzamento de Shibuya' },
-      { url: '/images/destinations/toquio/toquio-shinjuku.jpg', alt: 'Shinjuku à noite' },
-      { url: '/images/destinations/toquio/toquio-meiji.jpg', alt: 'Santuário Meiji' },
-      { url: '/images/destinations/toquio/toquio-skytree.jpg', alt: 'Tokyo Skytree' }
-    ],
+    heroImage: '/images/destinations/toquio/curated-hero.jpg',
+            images: [],
     summaryText: 'Tóquio mescla tradição milenar e tecnologia de ponta com um sistema de transporte impecável.',
     intro: 'Tóquio é uma metrópole surpreendente pela organização, segurança absoluta e riqueza gastronômica. Viajar para o Japão ficou ainda mais fácil com a isenção de visto para brasileiros.',
     whyVisit: 'Gastronomia excepcional, templos históricos preservados e cultura pop única no mundo. Em poucos dias você mescla Shibuya, templos de Asakusa e mirantes da Tokyo Tower.',
@@ -412,7 +397,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Templo Senso-ji (Asakusa)',
-        image: '/images/destinations/toquio/toquio-sensoji.jpg',
+        image: '/images/destinations/toquio/curated-attraction-0.jpg',
         priority: 'Alta',
         desc: 'O templo budista mais antigo de Tóquio.',
         whyVisit: 'Atmosfera histórica incrível com a rua de comércio tradicional Nakamise.',
@@ -426,7 +411,7 @@ export const destinationGuides = {
       },
       {
         name: 'Cruzamento de Shibuya',
-        image: '/images/destinations/toquio/toquio-shibuya-crossing.jpg',
+        image: '/images/destinations/toquio/curated-attraction-1.jpg',
         priority: 'Alta',
         desc: 'O scrambling crossing mais fotografado do Japão.',
         whyVisit: 'Energia urbana pop e mirante do Magasa / Shibuya Sky.',
@@ -440,7 +425,7 @@ export const destinationGuides = {
       },
       {
         name: 'Shinjuku & Golden Gai',
-        image: '/images/destinations/toquio/toquio-shinjuku.jpg',
+        image: '/images/destinations/toquio/curated-attraction-2.jpg',
         priority: 'Alta',
         desc: 'Arranha-céus, neon e vielas de bares minúsculos.',
         whyVisit: 'Vida noturna lendária e mirante gratuito do Governo Metropolitano.',
@@ -454,7 +439,7 @@ export const destinationGuides = {
       },
       {
         name: 'Santuário Meiji (Harajuku)',
-        image: '/images/destinations/toquio/toquio-meiji.jpg',
+        image: '/images/destinations/toquio/curated-attraction-3.jpg',
         priority: 'Média',
         desc: 'Floresta sagrada no meio da cidade, com torii monumentais.',
         whyVisit: 'Contraste sereno com Takeshita Street ao lado.',
@@ -468,7 +453,7 @@ export const destinationGuides = {
       },
       {
         name: 'Tokyo Skytree',
-        image: '/images/destinations/toquio/toquio-skytree.jpg',
+        image: '/images/destinations/toquio/curated-attraction-4.jpg',
         priority: 'Média',
         desc: 'A torre de observação mais alta do Japão, em Sumida.',
         whyVisit: 'Vista de 360º da metrópole e do Monte Fuji em dias limpos.',
@@ -479,7 +464,8 @@ export const destinationGuides = {
         price: 'A partir de ¥ 2.100',
         reservation: 'Recomendada online',
         tip2GO: 'Compre o bilhete com horário marcado para evitar filas no deck principal.'
-      }
+      },
+      {"name": "Tokyo Tower", "image": "/images/destinations/toquio/curated-attraction-5.jpg", "desc": "Torre de observação em Minato.", "whyVisit": "Contemple a paisagem urbana de Tóquio.", "duration": "1–2 horas", "recommendedTime": "1–2 horas", "priority": "Média", "price": "Consulte os ingressos oficiais", "bestTime": "Confira os horários de visita", "reservation": "Consulte a atração"}
     ],
 
     suggestedItinerary: [
@@ -535,14 +521,8 @@ export const destinationGuides = {
     categoryLabel: 'Guia de destino',
     metaTitle: 'Londres: Guia completo',
     metaDescription: 'Guia completo para planejar sua viagem a Londres. Saiba sobre ETA, Oyster/contactless, museus gratuitos e bairros.',
-    heroImage: '/images/destinations/londres/londres-big-ben.jpg',
-            images: [
-      { url: '/images/destinations/londres/londres-tower-bridge.jpg', alt: 'Tower Bridge' },
-      { url: '/images/destinations/londres/londres-buckingham-palace.jpg', alt: 'Palácio de Buckingham' },
-      { url: '/images/destinations/londres/londres-covent-garden.jpg', alt: 'Covent Garden' },
-      { url: '/images/destinations/londres/londres-british-museum.jpg', alt: 'British Museum' },
-      { url: '/images/destinations/londres/londres-regent-street.jpg', alt: 'Regent Street' }
-    ],
+    heroImage: '/images/destinations/londres/curated-hero.jpg',
+            images: [],
     summaryText: 'Londres combina realeza, museus de classe mundial e parques imensos com transporte excelente.',
     intro: 'Londres é uma metrópole multicultural com história em cada esquina. A cidade oferece uma vasta gama de museus públicos com entrada gratuita.',
     whyVisit: 'Museus gratuitos incríveis (British Museum, Natural History), teatros do West End e parques reais. Em poucos dias você combina Westminster, South Bank e um bate-volta clássico.',
@@ -571,7 +551,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Big Ben & Palácio de Westminster',
-        image: '/images/destinations/londres/londres-westminster-bridge.jpg',
+        image: '/images/destinations/londres/curated-attraction-0.jpg',
         priority: 'Alta',
         desc: 'O ícone máximo britânico às margens do Rio Tâmisa.',
         whyVisit: 'Cartão postal mundial com arquitetura neogótica impressionante.',
@@ -585,7 +565,7 @@ export const destinationGuides = {
       },
       {
         name: 'London Eye',
-        image: '/images/destinations/londres/londres-london-eye.jpg',
+        image: '/images/destinations/londres/curated-attraction-1.jpg',
         priority: 'Alta',
         desc: 'A roda-gigante na South Bank com vista do Tâmisa e de Westminster.',
         whyVisit: 'Panorama clássico de Londres em cabines fechadas.',
@@ -599,7 +579,7 @@ export const destinationGuides = {
       },
       {
         name: 'Tower Bridge',
-        image: '/images/destinations/londres/londres-tower-bridge.jpg',
+        image: '/images/destinations/londres/curated-attraction-2.jpg',
         priority: 'Alta',
         desc: 'A ponte neogótica mais fotografada de Londres.',
         whyVisit: 'Passarelas superiores e vista do Tower of London.',
@@ -613,7 +593,7 @@ export const destinationGuides = {
       },
       {
         name: 'Palácio de Buckingham',
-        image: '/images/destinations/londres/londres-buckingham-palace.jpg',
+        image: '/images/destinations/londres/curated-attraction-3.jpg',
         priority: 'Média',
         desc: 'Residência oficial da monarquia, com Changing of the Guard.',
         whyVisit: 'Cerimônia da guarda e St. James’s Park ao lado.',
@@ -627,7 +607,7 @@ export const destinationGuides = {
       },
       {
         name: 'British Museum',
-        image: '/images/destinations/londres/londres-british-museum.jpg',
+        image: '/images/destinations/londres/curated-attraction-4.jpg',
         priority: 'Alta',
         desc: 'Um dos maiores museus do mundo, com entrada gratuita.',
         whyVisit: 'Pedra de Roseta, mármores do Partenon e Grande Corte.',
@@ -638,7 +618,8 @@ export const destinationGuides = {
         price: 'Gratuito (doações opcionais)',
         reservation: 'Timed entry recomendado',
         tip2GO: 'Reserve o horário gratuito online e foque em 2 ou 3 alas.'
-      }
+      },
+      {"name": "Covent Garden", "image": "/images/destinations/londres/curated-attraction-5.jpg", "desc": "Mercado histórico e bairro de teatros.", "whyVisit": "Caminhe pelo mercado e pelas ruas do West End.", "duration": "1–2 horas", "recommendedTime": "1–2 horas", "priority": "Média", "price": "Consulte os ingressos oficiais", "bestTime": "Confira os horários de visita", "reservation": "Consulte a atração"}
     ],
 
     suggestedItinerary: [
@@ -694,14 +675,8 @@ export const destinationGuides = {
     categoryLabel: 'Guia de destino',
     metaTitle: 'Roma: Guia completo',
     metaDescription: 'Guia completo para sua viagem a Roma. Descubra os segredos do Coliseu, Vaticano, bairros e transporte.',
-    heroImage: '/images/destinations/roma/roma-coliseu.jpg',
-            images: [
-      { url: '/images/destinations/roma/roma-fontana-trevi.jpg', alt: 'Fontana di Trevi' },
-      { url: '/images/destinations/roma/roma-vaticano.jpg', alt: 'Praça de São Pedro e Vaticano' },
-      { url: '/images/destinations/roma/roma-pantheon.jpg', alt: 'Pantheon' },
-      { url: '/images/destinations/roma/roma-trastevere.jpg', alt: 'Trastevere' },
-      { url: '/images/destinations/roma/roma-navona.jpg', alt: 'Piazza Navona' }
-    ],
+    heroImage: '/images/destinations/roma/curated-hero.jpg',
+            images: [],
     summaryText: 'Roma é um museu a céu aberto com milênios de história, fontes barrocas e gastronomia inigualável.',
     intro: 'Roma encanta por preservar ruínas romanas ao lado de praças barrocas animadas e trattorias acolhedoras.',
     whyVisit: 'Coliseu, Vaticano, Fontana di Trevi e as autênticas massas romanas (Carbonara, Cacio e Pepe). Reserve ingressos com hora marcada para evitar filas longas nos ícones principais.',
@@ -730,7 +705,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Coliseu & Fórum Romano',
-        image: '/images/destinations/roma/roma-coliseu-interior.jpg',
+        image: '/images/destinations/roma/curated-attraction-0.jpg',
         priority: 'Alta',
         desc: 'O anfiteatro romano lendário e o centro político da Roma antiga.',
         whyVisit: 'Uma viagem no tempo pela arquitetura do Império Romano.',
@@ -744,7 +719,7 @@ export const destinationGuides = {
       },
       {
         name: 'Vaticano & Capela Sistina',
-        image: '/images/destinations/roma/roma-vaticano.jpg',
+        image: '/images/destinations/roma/curated-attraction-1.jpg',
         priority: 'Alta',
         desc: 'Museus do Vaticano, Capela Sistina e Praça de São Pedro.',
         whyVisit: 'Acervo renascentista e a cúpula de Michelangelo.',
@@ -758,7 +733,7 @@ export const destinationGuides = {
       },
       {
         name: 'Fontana di Trevi',
-        image: '/images/destinations/roma/roma-fontana-trevi.jpg',
+        image: '/images/destinations/roma/curated-attraction-2.jpg',
         priority: 'Alta',
         desc: 'A fonte barroca mais famosa do mundo no Centro Storico.',
         whyVisit: 'Cartão postal romano — chegue cedo para ver sem filas densas.',
@@ -772,7 +747,7 @@ export const destinationGuides = {
       },
       {
         name: 'Pantheon',
-        image: '/images/destinations/roma/roma-pantheon.jpg',
+        image: '/images/destinations/roma/curated-attraction-3.jpg',
         priority: 'Alta',
         desc: 'Templo romano com a maior cúpula de concreto não reforçado do mundo.',
         whyVisit: 'Arquitetura perfeita e óculus aberto ao céu.',
@@ -786,7 +761,7 @@ export const destinationGuides = {
       },
       {
         name: 'Piazza Navona',
-        image: '/images/destinations/roma/roma-navona.jpg',
+        image: '/images/destinations/roma/curated-attraction-4.jpg',
         priority: 'Média',
         desc: 'Praça barroca no formato do estádio de Domiziano, com a Fontana dei Quattro Fiumi.',
         whyVisit: 'Ambiente vibrante, cafés e arte de rua.',
@@ -800,7 +775,7 @@ export const destinationGuides = {
       },
       {
         name: 'Trastevere',
-        image: '/images/destinations/roma/roma-trastevere.jpg',
+        image: '/images/destinations/roma/curated-attraction-5.jpg',
         priority: 'Média',
         desc: 'Bairro boêmio do outro lado do Tibre, com vielas e trattorias.',
         whyVisit: 'Noite romana autêntica e Santa Maria in Trastevere.',
@@ -868,14 +843,8 @@ export const destinationGuides = {
     metaTitle: 'Istambul: Guia completo',
     metaDescription: 'Guia completo para viajar a Istambul. Saiba sobre mesquitas, transporte Istanbulkart, passeios no Bósforo e mercados.',
     // Distinct from Hagia Sophia must-see pin.
-    heroImage: '/images/destinations/istambul/istambul-1.jpg',
-            images: [
-      { url: '/images/destinations/istambul/istambul-mesquita-azul.jpg', alt: 'Mesquita Azul' },
-      { url: '/images/destinations/istambul/istambul-galata.jpg', alt: 'Torre de Galata' },
-      { url: '/images/destinations/istambul/istambul-grande-bazar.jpg', alt: 'Grande Bazar' },
-      { url: '/images/destinations/istambul/istambul-bosforo.jpg', alt: 'Estreito do Bósforo' },
-      { url: '/images/destinations/istambul/istambul-kadikoy.jpg', alt: 'Kadıköy' }
-    ],
+    heroImage: '/images/destinations/istambul/curated-hero.jpg',
+            images: [],
     summaryText: 'Istambul é a única metrópole do mundo situada entre dois continentes (Europa e Ásia).',
     intro: 'Istambul fascina pela fusão da arquitetura otomana e bizantina com uma cena cultural vibrante.',
     whyVisit: 'Hagia Sophia, Mesquita Azul, passeio de balsa pelo Bósforo e os aromas do Grande Bazar. A cidade recompensa quem cruza Europa e Ásia no mesmo dia.',
@@ -904,7 +873,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Hagia Sophia',
-        image: '/images/destinations/istambul/istambul-hagia-sophia.jpg',
+        image: '/images/destinations/istambul/curated-attraction-0.jpg',
         priority: 'Alta',
         desc: 'Obra-prima arquitetônica construída como catedral no século VI e convertida em mesquita.',
         whyVisit: 'Cúpula monumental imensa e mosaicos históricos extraordinários.',
@@ -918,7 +887,7 @@ export const destinationGuides = {
       },
       {
         name: 'Mesquita Azul',
-        image: '/images/destinations/istambul/istambul-mesquita-azul.jpg',
+        image: '/images/destinations/istambul/curated-attraction-1.jpg',
         priority: 'Alta',
         desc: 'Mesquita Sultan Ahmed com seis minaretes e azulejos de İznik.',
         whyVisit: 'Interior deslumbrante frente à Hagia Sophia.',
@@ -932,7 +901,7 @@ export const destinationGuides = {
       },
       {
         name: 'Grande Bazar',
-        image: '/images/destinations/istambul/istambul-grande-bazar.jpg',
+        image: '/images/destinations/istambul/curated-attraction-2.jpg',
         priority: 'Alta',
         desc: 'Um dos mercados cobertos mais antigos e extensos do mundo.',
         whyVisit: 'Labirinto de lojas de tapetes, cerâmica e especiarias.',
@@ -946,7 +915,7 @@ export const destinationGuides = {
       },
       {
         name: 'Torre de Galata & Karaköy',
-        image: '/images/destinations/istambul/istambul-galata.jpg',
+        image: '/images/destinations/istambul/curated-attraction-3.jpg',
         priority: 'Média',
         desc: 'Torre medieval com vista do Chifre de Ouro e cafés em Karaköy.',
         whyVisit: 'Skyline clássico de Istambul e vida jovem do lado europeu.',
@@ -960,7 +929,7 @@ export const destinationGuides = {
       },
       {
         name: 'Passeio de balsa no Bósforo',
-        image: '/images/destinations/istambul/istambul-bosforo.jpg',
+        image: '/images/destinations/istambul/curated-attraction-4.jpg',
         priority: 'Alta',
         desc: 'Travessia pública entre Europa e Ásia com vista de palácios e mesquitas.',
         whyVisit: 'A forma mais bonita (e barata) de entender a geografia da cidade.',
@@ -974,7 +943,7 @@ export const destinationGuides = {
       },
       {
         name: 'Kadıköy (lado asiático)',
-        image: '/images/destinations/istambul/istambul-kadikoy.jpg',
+        image: '/images/destinations/istambul/curated-attraction-5.jpg',
         priority: 'Média',
         desc: 'Mercado gastronômico e rua Moda no lado asiático.',
         whyVisit: 'Istambul local, sem o preço de Sultanahmet.',
@@ -1042,14 +1011,8 @@ export const destinationGuides = {
     metaTitle: 'Dubai: Guia completo',
     metaDescription: 'Guia completo para planejar sua viagem a Dubai. Saiba sobre visto gratuito, Burj Khalifa, praias e safari no deserto.',
     // Distinct from Burj Khalifa must-see pin.
-    heroImage: '/images/destinations/dubai/dubai-1.jpg',
-            images: [
-      { url: '/images/destinations/dubai/dubai-marina.jpg', alt: 'Dubai Marina' },
-      { url: '/images/destinations/dubai/dubai-burj-al-arab.jpg', alt: 'Burj Al Arab' },
-      { url: '/images/destinations/dubai/dubai-desert-safari.jpg', alt: 'Safari no deserto' },
-      { url: '/images/destinations/dubai/dubai-fountain.jpg', alt: 'Fontes de Dubai' },
-      { url: '/images/destinations/dubai/dubai-frame.jpg', alt: 'Dubai Frame' }
-    ],
+    heroImage: '/images/destinations/dubai/curated-hero.jpg',
+            images: [],
     summaryText: 'Dubai é o centro mundial da arquitetura futurista, compras de luxo e atrações audaciosas.',
     intro: 'Dubai impressiona com seus arranha-céus arrojados, ilhas artificiais e infraestrutura impecável no deserto.',
     whyVisit: 'Burj Khalifa (o prédio mais alto do mundo), Dubai Mall, safari nas dunas e praias de água morna. Combine Downtown, Marina e um dia de deserto sem perder o ritmo.',
@@ -1078,7 +1041,7 @@ export const destinationGuides = {
     attractions: [
       {
         name: 'Burj Khalifa',
-        image: '/images/destinations/dubai/dubai-burj-khalifa.jpg',
+        image: '/images/destinations/dubai/curated-attraction-0.jpg',
         priority: 'Alta',
         desc: 'O arranha-céu mais alto do planeta com 828 metros de altura e 163 andares.',
         whyVisit: 'Mirantes nos andares 124, 125 e 148 com vista deslumbrante de todo o deserto e oceano.',
@@ -1092,7 +1055,7 @@ export const destinationGuides = {
       },
       {
         name: 'Fontes de Dubai & Dubai Mall',
-        image: '/images/destinations/dubai/dubai-fountain.jpg',
+        image: '/images/destinations/dubai/curated-attraction-1.jpg',
         priority: 'Alta',
         desc: 'Espetáculo de água, luz e música aos pés do Burj Khalifa.',
         whyVisit: 'Show gratuito e o shopping com aquário e vista do lago.',
@@ -1106,7 +1069,7 @@ export const destinationGuides = {
       },
       {
         name: 'Dubai Marina & JBR',
-        image: '/images/destinations/dubai/dubai-marina.jpg',
+        image: '/images/destinations/dubai/curated-attraction-2.jpg',
         priority: 'Alta',
         desc: 'Canal com iates, calçadão e a praia de Jumeirah Beach Residence.',
         whyVisit: 'Passeio à beira-mar e skyline iluminada à noite.',
@@ -1120,7 +1083,8 @@ export const destinationGuides = {
       },
       {
         name: 'Burj Al Arab & Jumeirah',
-        image: '/images/destinations/dubai/dubai-burj-al-arab.jpg',
+        image: '/images/destinations/dubai/curated-attraction-3.jpg',
+        imagePosition: '50% 20%',
         priority: 'Média',
         desc: 'O hotel em forma de vela e a praia de Jumeirah.',
         whyVisit: 'Cartão postal de Dubai — fotos a partir da praia pública ao lado.',
@@ -1134,7 +1098,7 @@ export const destinationGuides = {
       },
       {
         name: 'Safari no deserto',
-        image: '/images/destinations/dubai/dubai-desert-safari.jpg',
+        image: '/images/destinations/dubai/curated-attraction-4.jpg',
         priority: 'Alta',
         desc: 'Dune bashing, pôr do sol nas dunas e jantar beduíno.',
         whyVisit: 'Contraste perfeito com o skyline futurista.',
@@ -1148,7 +1112,7 @@ export const destinationGuides = {
       },
       {
         name: 'Dubai Creek (Old Dubai)',
-        image: '/images/destinations/dubai/dubai-creek.jpg',
+        image: '/images/destinations/dubai/curated-attraction-5.jpg',
         priority: 'Média',
         desc: 'Creek histórico com abras, souks de ouro e especiarias.',
         whyVisit: 'O Dubai anterior aos arranha-céus.',

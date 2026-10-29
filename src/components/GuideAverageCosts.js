@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useMemo } from 'react';
+import { guideImage } from '@/lib/curatedGuideImages';
+import React from 'react';
 import { BedDouble, Bus, Lightbulb, UtensilsCrossed, Wallet } from 'lucide-react';
-import { guideFolderKey, guideFrameList, pickDiverseFrame } from '@/lib/guideInterior';
 
 const TIERS = [
   {
@@ -35,23 +35,8 @@ function atmosphericCaption(guide) {
   return `Sabores de ${guide?.city || 'destino'}`;
 }
 
-export default function GuideAverageCosts({ guide, frames: framesProp, usedSeed = [] }) {
-  const frames = framesProp?.length ? framesProp : guideFrameList(guide);
-  const folder = guideFolderKey(guide);
-  const image = useMemo(() => {
-    if (!guide?.costsTable) return '';
-    const used = new Set(usedSeed);
-    return (
-      pickDiverseFrame(frames, {
-        hints: ['marais', 'orsay', 'latin', 'saint', 'cafe', 'opera', '1', '2'],
-        used,
-        fallbackIndex: 2
-      }) ||
-      `/images/destinations/${folder}/${folder}-1.jpg` ||
-      guide?.heroImage ||
-      ''
-    );
-  }, [guide, frames, folder, usedSeed]);
+export default function GuideAverageCosts({ guide }) {
+  const image = guideImage(guide, 'costs');
 
   if (!guide?.costsTable) return null;
 
