@@ -4,6 +4,22 @@ import React, { useId, useMemo, useState } from 'react';
 import { Coins, FileCheck2, Globe, Plane } from 'lucide-react';
 import { firstSentences, guideFolderKey, guideFrameList, pickDiverseFrame } from '@/lib/guideInterior';
 
+/** Dedicated topic cards — never recycle must-see / day frames when these exist. */
+const ESSENTIAL_SUFFIX = {
+  moeda: 'moeda',
+  idioma: 'idioma',
+  locomocao: 'transporte',
+  docs: 'docs'
+};
+
+/** Cities with curated essential-* assets on disk (others fall back to unused frames). */
+const ESSENTIAL_ASSET_FOLDERS = {
+  roma: new Set(['moeda', 'idioma', 'transporte', 'docs']),
+  'nova-york': new Set(['moeda', 'idioma', 'transporte', 'docs']),
+  londres: new Set(['moeda', 'idioma', 'transporte', 'docs']),
+  toquio: new Set(['moeda', 'idioma', 'transporte'])
+};
+
 const CARD_DEFS = [
   {
     id: 'moeda',
@@ -32,7 +48,7 @@ const CARD_DEFS = [
     title: 'Documentação & seguro',
     Icon: FileCheck2,
     fields: ['documentation', 'insurance'],
-    imageHints: ['notre', 'orsay', 'opera', 'saint', 'pantheon', 'british-museum', 'castel', 'meiji']
+    imageHints: ['notre', 'orsay', 'opera', 'saint', 'british-museum', 'castel', 'meiji', 'spanish']
   }
 ];
 
@@ -41,6 +57,14 @@ function cardBody(guide, fields) {
     .map((key) => guide?.[key])
     .filter(Boolean)
     .join(' ');
+}
+
+function dedicatedEssentialSrc(folder, cardId) {
+  const suffix = ESSENTIAL_SUFFIX[cardId];
+  if (!suffix) return '';
+  const available = ESSENTIAL_ASSET_FOLDERS[folder];
+  if (!available?.has(suffix)) return '';
+  return `/images/destinations/${folder}/${folder}-essential-${suffix}.jpg`;
 }
 
 export default function GuideEssentialInfo({ guide, frames: framesProp, usedSeed = [] }) {
@@ -58,15 +82,23 @@ export default function GuideEssentialInfo({ guide, frames: framesProp, usedSeed
     return CARD_DEFS.map((def, idx) => {
       const full = cardBody(guide, def.fields);
       if (!full) return null;
+      const dedicated = dedicatedEssentialSrc(folder, def.id);
+      let image = '';
+      if (dedicated && !used.has(dedicated)) {
+        used.add(dedicated);
+        image = dedicated;
+      } else {
+        image = pickDiverseFrame(pool, {
+          hints: def.imageHints,
+          used,
+          fallbackIndex: idx + 1
+        });
+      }
       return {
         ...def,
         full,
         summary: firstSentences(full, 2, 130),
-        image: pickDiverseFrame(pool, {
-          hints: def.imageHints,
-          used,
-          fallbackIndex: idx + 1
-        })
+        image
       };
     }).filter(Boolean);
   }, [guide, frames, usedSeed]);

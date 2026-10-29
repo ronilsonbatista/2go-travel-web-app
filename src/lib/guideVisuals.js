@@ -150,7 +150,7 @@ function takeFresh(src, used) {
   return src;
 }
 
-function nextUnusedFrame(frames = [], used = null, index = 0) {
+function nextUnusedFrame(frames = [], used = null, index = 0, guide = null) {
   const pool = (frames || []).filter(Boolean);
   for (const frame of pool) {
     if (!used?.has(frame)) {
@@ -158,10 +158,31 @@ function nextUnusedFrame(frames = [], used = null, index = 0) {
       return frame;
     }
   }
+  // Spill into unused city matcher assets before giving up (still unique).
+  if (guide && used) {
+    const extras = (CITY_ASSET_MATCHERS[folderKey(guide)] || []).map((m) => m.src);
+    for (const src of extras) {
+      if (!used.has(src)) {
+        used.add(src);
+        return src;
+      }
+    }
+    return '';
+  }
   return pool[index % Math.max(pool.length, 1)] || '';
 }
 
+function freshHeroOrEmpty(guide, used) {
+  return takeFresh(guide?.heroImage, used) || '';
+}
+
 export function attractionImage(guide, attraction, fallbackFrames = [], index = 0, used = null) {
+  // Must-sees: honor explicit per-attraction pins before any keyword fuzzy match.
+  const pinned = typeof attraction?.image === 'string' ? attraction.image.trim() : '';
+  if (pinned) {
+    const takenPinned = takeFresh(pinned, used);
+    if (takenPinned) return takenPinned;
+  }
   const matched = firstMatch(
     guide,
     [attraction?.name, attraction?.desc, attraction?.whyVisit].filter(Boolean).join(' '),
@@ -169,7 +190,7 @@ export function attractionImage(guide, attraction, fallbackFrames = [], index = 
   );
   const taken = takeFresh(matched, used);
   if (taken) return taken;
-  return nextUnusedFrame(fallbackFrames, used, index) || guide?.heroImage || '';
+  return nextUnusedFrame(fallbackFrames, used, index, guide) || freshHeroOrEmpty(guide, used);
 }
 
 export function dayImage(guide, dayItem, fallbackFrames = [], index = 0, used = new Set()) {
@@ -194,7 +215,8 @@ export function dayImage(guide, dayItem, fallbackFrames = [], index = 0, used = 
     used.add(matched);
     return matched;
   }
-  return nextUnusedFrame(fallbackFrames, used, index) || matched || guide?.heroImage || '';
+  // Never re-emit an already-used match — fall through to unused frames only.
+  return nextUnusedFrame(fallbackFrames, used, index, guide) || freshHeroOrEmpty(guide, used);
 }
 
 export function neighborhoodImage(guide, neighborhood, fallbackFrames = [], index = 0, used = null) {
@@ -205,7 +227,7 @@ export function neighborhoodImage(guide, neighborhood, fallbackFrames = [], inde
   );
   const taken = takeFresh(matched, used);
   if (taken) return taken;
-  return nextUnusedFrame(fallbackFrames, used, index) || guide?.heroImage || '';
+  return nextUnusedFrame(fallbackFrames, used, index, guide) || freshHeroOrEmpty(guide, used);
 }
 
 export function itineraryTabsFor(days = []) {

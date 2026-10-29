@@ -292,9 +292,14 @@ export default function GuideArticleClient({ guide }) {
   const { introImage, interiorUsedSeed, dayImages, attractionImages, neighborhoodImages } = useMemo(() => {
     const used = new Set();
     if (guide?.heroImage) used.add(guide.heroImage);
+    // Allocate must-sees first so day/intro fuzzy matching cannot steal pinned paths
+    // (e.g. Empire State / Pantheon / Trevi).
+    const attractions = (guide?.attractions || []).map((att, idx) =>
+      attractionImage(guide, att, frames, idx, used)
+    );
     const intro =
       pickDiverseFrame(frames, {
-        hints: ['louvre', 'orsay', 'marais', 'arc', 'opera', 'latin', 'pantheon', 'navona', 'central-park', 'covent', 'shinjuku', 'galata', 'creek'],
+        hints: ['louvre', 'orsay', 'marais', 'arc', 'opera', 'latin', 'navona', 'covent', 'shinjuku', 'galata', 'creek', 'trastevere'],
         used,
         fallbackIndex: 1
       }) ||
@@ -303,9 +308,6 @@ export default function GuideArticleClient({ guide }) {
       '';
     const days = (guide?.suggestedItinerary || []).map((item, idx) =>
       dayImage(guide, item, frames, idx, used)
-    );
-    const attractions = (guide?.attractions || []).map((att, idx) =>
-      attractionImage(guide, att, frames, idx, used)
     );
     const neighborhoods = (guide?.neighborhoods || []).map((n, idx) =>
       neighborhoodImage(guide, n, frames, idx, used)
