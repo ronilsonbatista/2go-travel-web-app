@@ -1,0 +1,704 @@
+[
+  {
+    "key": "salvador/guide-card",
+    "before": [
+      1280,
+      960
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Salvador%20city%20view.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "amsterdam/home-slide",
+    "before": [
+      1000,
+      750
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Prinsengracht%20Amsterdam%20at%20Dusk.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "cancun/home-slide",
+    "before": [
+      640,
+      480
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Skyline%20cancun.JPG",
+    "status": "original-too-small"
+  },
+  {
+    "key": "miami/home",
+    "before": [
+      600,
+      386
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Wolfie%20Cohen's%20Rascal%20House%20postcard%20late%201960s.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "gramado/home",
+    "before": [
+      1200,
+      900
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio%20dos%20Festivais.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "santiago/hero",
+    "before": [
+      500,
+      334
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Santiago%20Skyline.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "santiago/guide-card",
+    "before": [
+      1024,
+      773
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Santiago%20en%20invierno.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "maceio/guide-card",
+    "before": [
+      309,
+      401
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Rosalvo%20Ribeiro%20-%20O%20Fauno.JPG",
+    "status": "original-too-small"
+  },
+  {
+    "key": "florianopolis/home",
+    "before": [
+      627,
+      403
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Coronel%20Euclides%20Figueiredo%2C%20momento%20sua%20chegada%20ao%20Rio%2C%20out32%20revista%20da%20semana%20n45%202.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "florianopolis/home-slide",
+    "before": [
+      1165,
+      874
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:C%C3%A9u%20roxo%2C%20ao%20entardecer%20na%20praia%20da%20Arma%C3%A7%C3%A3o%20em%20Florian%C3%B3polis.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "bariloche/hero",
+    "before": [
+      1366,
+      599
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Vista%20a%C3%A9rea%20de%20Bariloche%20y%20la%20Catedral.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "bariloche/home",
+    "before": [
+      440,
+      176
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Primer%20Tren%20llega%20a%20Bariloche.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "bariloche/home-slide",
+    "before": [
+      794,
+      567
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Anochecer%20en%20Bariloche.JPG",
+    "status": "original-too-small"
+  },
+  {
+    "key": "paris/hero",
+    "before": [
+      960,
+      303
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_Night.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      758
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Night.jpg/3840px-Paris_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      11528,
+      3639
+    ]
+  },
+  {
+    "key": "paris/home",
+    "before": [
+      960,
+      329
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_view_of_Paris,_27_August_2019.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      822
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Panorama_view_of_Paris%2C_27_August_2019.jpg/3840px-Panorama_view_of_Paris%2C_27_August_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      10129,
+      3469
+    ]
+  },
+  {
+    "key": "paris/guide-card",
+    "before": [
+      960,
+      506
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:15th_Arrondissement_of_Paris_as_seen_from_Pont_de_Bir-Hakeim_140507_1.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1264
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/15th_Arrondissement_of_Paris_as_seen_from_Pont_de_Bir-Hakeim_140507_1.jpg/3840px-15th_Arrondissement_of_Paris_as_seen_from_Pont_de_Bir-Hakeim_140507_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      7578,
+      3991
+    ]
+  },
+  {
+    "key": "paris/guide-highlight",
+    "before": [
+      807,
+      1200
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Reflet-tour-Eiffel-Paris-Luc-Viatour.jpg",
+    "status": "upgraded",
+    "after": [
+      1613,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Reflet-tour-Eiffel-Paris-Luc-Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalDimensions": [
+      2608,
+      3880
+    ]
+  },
+  {
+    "key": "paris/home-slide",
+    "before": [
+      960,
+      250
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Les_toits_de_Paris,_panorama_-_ao%C3%BBt_2015.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      625
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Les_toits_de_Paris%2C_panorama_-_ao%C3%BBt_2015.jpg/3840px-Les_toits_de_Paris%2C_panorama_-_ao%C3%BBt_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      14787,
+      3846
+    ]
+  },
+  {
+    "key": "nova-york/hero",
+    "before": [
+      960,
+      747
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Central_Park_-_The_Pond_%2848377220157%29.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1866
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Central_Park_-_The_Pond_%2848377220157%29.jpg/3840px-Central_Park_-_The_Pond_%2848377220157%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      4547,
+      3536
+    ]
+  },
+  {
+    "key": "nova-york/home",
+    "before": [
+      960,
+      266
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Manhattan_from_Weehawken,_NJ.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      665
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Manhattan_from_Weehawken%2C_NJ.jpg/3840px-Manhattan_from_Weehawken%2C_NJ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      4335,
+      1200
+    ]
+  },
+  {
+    "key": "nova-york/guide-card",
+    "before": [
+      960,
+      480
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_from_Jersey_City_September_2020_panorama.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1200
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lower_Manhattan_from_Jersey_City_September_2020_panorama.jpg/3840px-Lower_Manhattan_from_Jersey_City_September_2020_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      11500,
+      5750
+    ]
+  },
+  {
+    "key": "nova-york/guide-highlight",
+    "before": [
+      800,
+      1200
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Midtown_Manhattan_from_Jersey_City_September_2020_HDR.jpg",
+    "status": "upgraded",
+    "after": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Midtown_Manhattan_from_Jersey_City_September_2020_HDR.jpg/3840px-Midtown_Manhattan_from_Jersey_City_September_2020_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      4000,
+      6000
+    ]
+  },
+  {
+    "key": "nova-york/home-slide",
+    "before": [
+      960,
+      384
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_from_Jersey_City_November_2014_panorama_2.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      960
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Lower_Manhattan_from_Jersey_City_November_2014_panorama_2.jpg/3840px-Lower_Manhattan_from_Jersey_City_November_2014_panorama_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      9000,
+      3600
+    ]
+  },
+  {
+    "key": "toquio/hero",
+    "before": [
+      960,
+      540
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower,_Minato_City.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Tokyo_Tower%2C_Minato_City.jpg/3840px-Tokyo_Tower%2C_Minato_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      5991,
+      3370
+    ]
+  },
+  {
+    "key": "toquio/home",
+    "before": [
+      960,
+      540
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Minato_City%2C_Tokyo%2C_Japan.jpg/3840px-Minato_City%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      5995,
+      3372
+    ]
+  },
+  {
+    "key": "toquio/guide-card",
+    "before": [
+      960,
+      540
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night).jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Minato_City%2C_Tokyo%2C_Japan_%28Night%29.jpg/3840px-Minato_City%2C_Tokyo%2C_Japan_%28Night%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      4622,
+      2600
+    ]
+  },
+  {
+    "key": "toquio/guide-highlight",
+    "before": [
+      960,
+      640
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_skyline_seen_from_Tokyo_Skytree.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tokyo_skyline_seen_from_Tokyo_Skytree.jpg/3840px-Tokyo_skyline_seen_from_Tokyo_Skytree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      4898,
+      3265
+    ]
+  },
+  {
+    "key": "toquio/home-slide",
+    "before": [
+      960,
+      640
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Skyline20210123.jpg",
+    "status": "upgraded",
+    "after": [
+      2048,
+      1366
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Tokyo_Skyline20210123.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalDimensions": [
+      2048,
+      1366
+    ]
+  },
+  {
+    "key": "londres/hero",
+    "before": [
+      960,
+      472
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:London_Skyline_from_Waterloo_Bridge,_London,_UK_-_Diliff.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1180
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/London_Skyline_from_Waterloo_Bridge%2C_London%2C_UK_-_Diliff.jpg/3840px-London_Skyline_from_Waterloo_Bridge%2C_London%2C_UK_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      4500,
+      2213
+    ]
+  },
+  {
+    "key": "londres/home",
+    "before": [
+      960,
+      531
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:City_of_London_skyline_from_London_City_Hall_-_Sept_2015_-_Crop_Aligned.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1327
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/City_of_London_skyline_from_London_City_Hall_-_Sept_2015_-_Crop_Aligned.jpg/3840px-City_of_London_skyline_from_London_City_Hall_-_Sept_2015_-_Crop_Aligned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      8442,
+      4668
+    ]
+  },
+  {
+    "key": "londres/guide-card",
+    "before": [
+      960,
+      531
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:City_of_London_skyline_from_London_City_Hall_-_Oct_2008_-_Aligned.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1327
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/City_of_London_skyline_from_London_City_Hall_-_Oct_2008_-_Aligned.jpg/3840px-City_of_London_skyline_from_London_City_Hall_-_Oct_2008_-_Aligned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      8442,
+      4668
+    ]
+  },
+  {
+    "key": "londres/guide-highlight",
+    "before": [
+      960,
+      550
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Thames_and_London_Eye_from_Westminster_Bridge.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1375
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Thames_and_London_Eye_from_Westminster_Bridge.jpg/3840px-Thames_and_London_Eye_from_Westminster_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      7376,
+      4224
+    ]
+  },
+  {
+    "key": "londres/home-slide",
+    "before": [
+      900,
+      1200
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Skyline,_Woodberry_Down,_London,_UK.jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "roma/hero",
+    "before": [
+      960,
+      709
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Pantheon_Rom_1_cropped.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1772
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pantheon_Rom_1_cropped.jpg/3840px-Pantheon_Rom_1_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      4109,
+      3034
+    ]
+  },
+  {
+    "key": "roma/home",
+    "before": [
+      960,
+      632
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Piazza_Venezia_-_Il_Vittoriano_%28cropped%29.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1580
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Piazza_Venezia_-_Il_Vittoriano_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalDimensions": [
+      2987,
+      1967
+    ]
+  },
+  {
+    "key": "roma/guide-card",
+    "before": [
+      960,
+      638
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1595
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalDimensions": [
+      3500,
+      2325
+    ]
+  },
+  {
+    "key": "roma/guide-highlight",
+    "before": [
+      960,
+      640
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Palatine_Hill_from_across_the_Circus_Maximus_April_2019.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Palatine_Hill_from_across_the_Circus_Maximus_April_2019.jpg/3840px-Palatine_Hill_from_across_the_Circus_Maximus_April_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      5472,
+      3648
+    ]
+  },
+  {
+    "key": "roma/home-slide",
+    "before": [
+      960,
+      638
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Rome_1.JPG",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1596
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Panorama_of_Rome_1.JPG/3840px-Panorama_of_Rome_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      6016,
+      4000
+    ]
+  },
+  {
+    "key": "istambul/hero",
+    "before": [
+      960,
+      428
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Istanbul-_Yeni_Cami_(The_New_Mosque),_Galata_Bridge._Turkey,_Southeastern_Europe.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1071
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Panoramic_view_of_Istanbul-_Yeni_Cami_%28The_New_Mosque%29%2C_Galata_Bridge._Turkey%2C_Southeastern_Europe.jpg/3840px-Panoramic_view_of_Istanbul-_Yeni_Cami_%28The_New_Mosque%29%2C_Galata_Bridge._Turkey%2C_Southeastern_Europe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      4000,
+      1784
+    ]
+  },
+  {
+    "key": "istambul/home",
+    "before": [
+      960,
+      675
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1688
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg/3840px-Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      7937,
+      5580
+    ]
+  },
+  {
+    "key": "istambul/guide-card",
+    "before": [
+      960,
+      720
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama-view-Istanbul-October-2012.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Panorama-view-Istanbul-October-2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalDimensions": [
+      3648,
+      2736
+    ]
+  },
+  {
+    "key": "istambul/guide-highlight",
+    "before": [
+      960,
+      437
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Istanbul_panorama_from_Galata_tower_-_1.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1094
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Istanbul_panorama_from_Galata_tower_-_1.jpg/3840px-Istanbul_panorama_from_Galata_tower_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      8334,
+      3798
+    ]
+  },
+  {
+    "key": "istambul/home-slide",
+    "before": [
+      960,
+      314
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_Dolmabah%C3%A7e_Palace,_Architectural_Panorama.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      785
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Entrance_to_Dolmabah%C3%A7e_Palace%2C_Architectural_Panorama.jpg/3840px-Entrance_to_Dolmabah%C3%A7e_Palace%2C_Architectural_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      5232,
+      1710
+    ]
+  },
+  {
+    "key": "dubai/hero",
+    "before": [
+      960,
+      640
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Dubai_skyline_unsplash.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Dubai_skyline_unsplash.jpg/3840px-Dubai_skyline_unsplash.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      5760,
+      3840
+    ]
+  },
+  {
+    "key": "dubai/home",
+    "before": [
+      960,
+      640
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_2016.jpg",
+    "status": "upgraded",
+    "after": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Dubai_Skyline_2016.jpg/3840px-Dubai_Skyline_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalDimensions": [
+      5616,
+      3744
+    ]
+  },
+  {
+    "key": "dubai/guide-card",
+    "before": [
+      960,
+      726
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Dubai_skyline_2015_(crop).jpg",
+    "status": "original-too-small"
+  },
+  {
+    "key": "dubai/guide-highlight",
+    "before": [
+      960,
+      665
+    ],
+    "source": "https://commons.wikimedia.org/wiki/File:Dubai_Skyline_on_10_January_2008.jpg",
+    "status": "original-too-small"
+  }
+]

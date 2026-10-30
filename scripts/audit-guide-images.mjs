@@ -64,13 +64,19 @@ for (const slot of slots) {
     const family = decodeURIComponent(source.title).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/_/g, ' ').toLowerCase().replace(/\b(cropped|crop|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b/g, '').replace(/[^\p{L}\p{N}]/gu, '');
     register(photoFamilies, family, 'REUSED derivative family');
     if (source.latitude != null && source.longitude != null && !/^(trip-|country-|costs|essential-(docs|moeda))/.test(slot.slot)) {
-      const [lat,lon,radius] = centers[slot.city];
-      const km = distanceKm(lat,lon,Number(source.latitude),Number(source.longitude));
-      if (km > radius) problems.push(`WRONG CITY coordinates: ${current} (${Math.round(km)} km from ${slot.city})`);
+      const center = centers[slot.city];
+      if (!center) {
+        problems.push(`MISSING geographic audit bounds: ${current}`);
+      } else {
+        const [lat,lon,radius] = center;
+        const km = distanceKm(lat,lon,Number(source.latitude),Number(source.longitude));
+        if (km > radius) problems.push(`WRONG CITY coordinates: ${current} (${Math.round(km)} km from ${slot.city})`);
+      }
     }
     if (/diner|food.?bank|taj.?mahal|apple.?watch|censored|blackout|jigsaw|puzzle/i.test(source.title)) problems.push(`BANNED photo subject: ${current} (${source.title})`);
     if (source.topic !== slot.topic) problems.push(`CHANGED topic requires new curation: ${current}`);
     if (source.visualReview !== 'accepted') problems.push(`PENDING visual review: ${current}`);
+    if (/placeholder/i.test(`${source.source} ${source.license}`)) problems.push(`PLACEHOLDER photo: ${current}`);
     if (!source.author || !source.license || /See original/i.test(source.license + source.author)) problems.push(`UNVERIFIED credits: ${current}`);
   }
 }
