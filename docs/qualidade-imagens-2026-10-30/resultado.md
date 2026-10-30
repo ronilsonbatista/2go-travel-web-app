@@ -6,7 +6,7 @@ Branch: `cursor/guia-imagens-qualidade-2026-10-30`.
 ## Situação de aceite
 
 - Inventário automatizado: 107 destinos, 6.845 slots de guias + 9 posições suplementares.
-- Placeholders identificados: **5.566 em 87 destinos**. **Substituídos nesta etapa: 0/5.566**.
+- Base desta continuação: **5.566 em 87 destinos**. **Atual: 452 substituídos; 5.114 restantes em 86 destinos**. Veja [checkpoint das Américas](lote-americas-parcial.md).
 - Não declarar 107/107 revisados visualmente. Nenhuma aprovação global de orientação ou de correspondência de tema foi concedida.
 - Audit global continua reprovado; não fazer merge desta etapa como conclusão da curadoria.
 
@@ -39,7 +39,7 @@ No primeiro inventário havia 49 destaques abaixo de 1600 px e oito heroes abaix
 
 ## Trabalho obrigatório ainda aberto
 
-1. Substituir os 5.566 placeholders por fotos distintas, licenciadas e adequadas a cada tema.
+1. Substituir os 5.114 placeholders restantes por fotos distintas, licenciadas e adequadas a cada tema.
 2. Inspecionar atrações, bairros, hotel/region pins, essenciais e dias de roteiro dos 107 guias. Dimensões e hash não comprovam o tema.
 3. Resolver duplicatas de fonte/família já denunciadas pela auditoria, sem reutilizar versões recortadas da mesma foto.
 4. Completar a cobertura geográfica da auditoria para as cidades novas.
@@ -89,10 +89,14 @@ No primeiro inventário havia 49 destaques abaixo de 1600 px e oito heroes abaix
 - `florianopolis/home-slide` — [2400, 1600]; File:Hercílio Luz Florianópolis.jpg
 - `londres/home-slide` — [2400, 1607]; File:Across the River Thames, London - geograph.org.uk - 2196474.jpg
 
-## Validação final desta etapa
+## Validação histórica dos 39 destaques (commit anterior)
 
 - `npm run build`: PASSOU (após todas as 39 alterações).
 - `npm run audit:guide-images`: REPROVADO; saída integral em `audit-after.txt`.
 - Destaques abaixo de 1600 px: 49 → 10. Heroes abaixo de 1200 px: 8 → 0. A dimensão não torna placeholders fotografias reais.
 - Placeholders substituídos: **0/5.566**.
 - Capturas locais verificadas de Paris e Tóquio; nenhuma publicação em produção.
+
+## Continuação regional atual
+
+452 placeholders substituídos nas Américas, 5.114 restantes no total. Detalhes, rejeições, contagens por destino e validação em [lote-americas-parcial.md](lote-americas-parcial.md). PR draft; DO NOT MERGE.

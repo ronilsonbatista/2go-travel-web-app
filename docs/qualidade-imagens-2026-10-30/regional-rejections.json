@@ -1,0 +1,477 @@
+[
+  {
+    "key": "montevideo/map-list-1",
+    "decision": "rejected",
+    "notes": "Enquadramento quase igual ao farol da posição anterior; buscar outra vista."
+  },
+  {
+    "key": "montevideo/map-attraction-3",
+    "decision": "rejected",
+    "notes": "Entrada de hostel não representa adequadamente Pocitos nesta posição."
+  },
+  {
+    "key": "montevideo/map-attraction-5",
+    "decision": "rejected",
+    "notes": "Imagem histórica de 1931, inadequada como foto atual do parque."
+  },
+  {
+    "key": "las-vegas/map-attraction-1",
+    "decision": "rejected",
+    "notes": "Vitrine de confeitaria, não corresponde às fontes do Bellagio."
+  },
+  {
+    "key": "las-vegas/attraction-4",
+    "decision": "rejected",
+    "notes": "Hotel Elara, assunto diferente da roda-gigante High Roller."
+  },
+  {
+    "key": "las-vegas/map-list-4",
+    "decision": "rejected",
+    "notes": "Detalhe inferior muito distorcido sem representação suficiente da roda-gigante."
+  },
+  {
+    "key": "lima/hero",
+    "decision": "rejected",
+    "notes": "Névoa densa e tonalidade opaca ocultam a paisagem no destaque principal."
+  },
+  {
+    "key": "lima/guide-highlight",
+    "decision": "rejected",
+    "notes": "Skyline distante com pouco contraste, inadequado para destaque."
+  },
+  {
+    "key": "orlando/home",
+    "decision": "rejected",
+    "notes": "Trânsito rodoviário domina o enquadramento e reduz a clareza do skyline."
+  },
+  {
+    "key": "orlando/home-slide",
+    "decision": "rejected",
+    "notes": "Via expressa e veículos dominam a composição do destaque."
+  },
+  {
+    "key": "bahamas/hero",
+    "decision": "rejected",
+    "notes": "Panorama com curvatura acentuada das fachadas, inadequado como destaque principal."
+  },
+  {
+    "key": "bogota/map-attraction-3",
+    "decision": "rejected",
+    "notes": "Pedreira/mineração no distrito: não representa a atração turística Usaquén."
+  },
+  {
+    "key": "bogota/map-list-5",
+    "decision": "rejected",
+    "notes": "Borboleta no braço de uma pessoa não identifica o jardim botânico."
+  },
+  {
+    "key": "punta-cana/map-list-0",
+    "decision": "rejected",
+    "notes": "Close de copa de coqueiro, sem contexto identificável da praia."
+  },
+  {
+    "key": "punta-cana/map-list-5",
+    "decision": "rejected",
+    "notes": "Pessoas atracando um barco dominam a foto; ilha sem contexto suficiente."
+  },
+  {
+    "key": "havai/map-attraction-0",
+    "decision": "rejected",
+    "notes": "Oficial em primeiro plano; praia não é o assunto principal."
+  },
+  {
+    "key": "havai/map-list-0",
+    "decision": "rejected",
+    "notes": "Registro histórico de 1899, inadequado como representação atual da praia."
+  },
+  {
+    "key": "havai/attraction-1",
+    "decision": "rejected",
+    "notes": "Registro do ataque de 1941, não representa a atração de visitação atual."
+  },
+  {
+    "key": "havai/map-attraction-1",
+    "decision": "rejected",
+    "notes": "Cena histórica do ataque, inadequada para o cartão turístico atual."
+  },
+  {
+    "key": "havai/map-attraction-2",
+    "decision": "rejected",
+    "notes": "Registro de incêndio no Diamond Head, enquadramento inadequado ao guia."
+  },
+  {
+    "key": "havai/attraction-5",
+    "decision": "rejected",
+    "notes": "Fazenda de camarões sem representação suficiente das praias de North Shore."
+  },
+  {
+    "key": "chicago/map-attraction-0",
+    "decision": "rejected",
+    "notes": "Recorte de prédio visto sob a escultura sem contexto suficiente do Millennium Park."
+  },
+  {
+    "key": "chicago/attraction-1",
+    "decision": "rejected",
+    "notes": "Reprodução plana de pintura, não fotografia do museu ou coleção em seu contexto."
+  },
+  {
+    "key": "chicago/map-list-3",
+    "decision": "rejected",
+    "notes": "Chinatown domina a composição; Willis Tower é apenas fundo distante."
+  },
+  {
+    "key": "chicago/map-attraction-4",
+    "decision": "rejected",
+    "notes": "Retrato de noiva domina a composição, não representa o Riverwalk."
+  },
+  {
+    "key": "orlando/map-list-3",
+    "decision": "rejected",
+    "notes": "Retrato de visita política domina a cena; não representa a experiência da atração."
+  },
+  {
+    "key": "orlando/map-list-4",
+    "decision": "rejected",
+    "notes": "Lake Eola Heights é um bairro vizinho; a casa não é o lago Lake Eola."
+  },
+  {
+    "key": "orlando/map-list-5",
+    "decision": "rejected",
+    "notes": "Enquadramento quase repetido do mesmo hotel em International Drive."
+  },
+  {
+    "key": "quito/attraction-0",
+    "decision": "rejected",
+    "notes": "Retrato de músico: falso match genérico de Quito para o Centro Histórico."
+  },
+  {
+    "key": "quito/map-attraction-2",
+    "decision": "rejected",
+    "notes": "Mirante encoberto, escuro e sem contexto suficiente do teleférico."
+  },
+  {
+    "key": "quito/map-list-3",
+    "decision": "rejected",
+    "notes": "Recorte de calçada/fachada não representa bem La Ronda."
+  },
+  {
+    "key": "quito/map-attraction-5",
+    "decision": "rejected",
+    "notes": "Versão monocromática do mesmo enquadramento do parque; evitar derivada/repetição."
+  },
+  {
+    "key": "cidade-do-panama/intro",
+    "decision": "rejected",
+    "notes": "Campo de golfe domina a composição; skyline quase ilegível ao fundo."
+  },
+  {
+    "key": "cidade-do-panama/home",
+    "decision": "rejected",
+    "notes": "Saturação e coloração artificiais prejudicam a reprodução natural da cidade."
+  },
+  {
+    "key": "cidade-do-panama/home-slide",
+    "decision": "rejected",
+    "notes": "Pouco contraste e horizonte escuro, inadequado para destaque."
+  },
+  {
+    "key": "cidade-do-panama/home-thumb",
+    "decision": "rejected",
+    "notes": "Primeiro plano escuro e desordenado compromete a miniatura."
+  },
+  {
+    "key": "montreal/home-thumb",
+    "decision": "rejected",
+    "notes": "Porto industrial domina a miniatura sem representação suficiente do destino turístico."
+  },
+  {
+    "key": "cidade-do-panama/attraction-0",
+    "decision": "rejected",
+    "notes": "Detalhe com trabalhador na eclusa: buscar vista mais representativa do Canal para o destaque."
+  },
+  {
+    "key": "bahamas/map-list-3",
+    "decision": "rejected",
+    "notes": "Fotografia histórica de 1988 com baixa qualidade visual."
+  },
+  {
+    "key": "bahamas/attraction-5",
+    "decision": "rejected",
+    "notes": "Foto antiga e granulada do hotel, insuficiente como destaque de Cable Beach."
+  },
+  {
+    "key": "bahamas/map-attraction-5",
+    "decision": "rejected",
+    "notes": "Foto antiga de piscina sem qualidade suficiente para representar a praia."
+  },
+  {
+    "key": "lima/map-attraction-0",
+    "decision": "rejected",
+    "notes": "Imagem histórica em preto e branco; buscar representação atual."
+  },
+  {
+    "key": "lima/map-attraction-1",
+    "decision": "rejected",
+    "notes": "Mesmo enquadramento do mural já usado; rejeitar possível recorte/redundância."
+  },
+  {
+    "key": "lima/attraction-2",
+    "decision": "rejected",
+    "notes": "Retrato de guarda domina a foto; não representa bem o Centro Histórico."
+  },
+  {
+    "key": "cidade-do-mexico/attraction-0",
+    "decision": "rejected",
+    "notes": "Fotografia histórica de 1950, inadequada como vista atual do Zócalo."
+  },
+  {
+    "key": "cidade-do-mexico/map-attraction-0",
+    "decision": "rejected",
+    "notes": "Gravura histórica, não é uma fotografia real do destino."
+  },
+  {
+    "key": "cidade-do-mexico/attraction-1",
+    "decision": "rejected",
+    "notes": "Souvenirs em primeiro plano, não representa as pirâmides de Teotihuacán."
+  },
+  {
+    "key": "cidade-do-mexico/map-list-2",
+    "decision": "rejected",
+    "notes": "Panorama 360 com deformação severa da Casa Azul."
+  },
+  {
+    "key": "cidade-do-mexico/attraction-3",
+    "decision": "rejected",
+    "notes": "Retrato de animal sem contexto visual do parque Chapultepec."
+  },
+  {
+    "key": "cidade-do-mexico/map-attraction-3",
+    "decision": "rejected",
+    "notes": "Obra de arte isolada sem contexto reconhecível do parque."
+  },
+  {
+    "key": "cidade-do-mexico/map-list-3",
+    "decision": "rejected",
+    "notes": "Pintura histórica do vale, não é fotografia real do parque."
+  },
+  {
+    "key": "cidade-do-mexico/attraction-4",
+    "decision": "rejected",
+    "notes": "Detalhe do memorial Trotsky sem representação suficiente do bairro."
+  },
+  {
+    "key": "cidade-do-mexico/map-list-4",
+    "decision": "rejected",
+    "notes": "Letras vistas por trás; leitura invertida e enquadramento inadequado."
+  },
+  {
+    "key": "boston/guide-card",
+    "decision": "rejected",
+    "notes": "Enquadramento quase igual ao hero, mesmo ensaio e mesma vista; rejeitado preventivamente para evitar repetição."
+  },
+  {
+    "key": "porto-rico/attraction-2",
+    "decision": "rejected",
+    "notes": "Barcos de resposta militar a desastre, não representa a baía bioluminescente."
+  },
+  {
+    "key": "porto-rico/map-attraction-2",
+    "decision": "rejected",
+    "notes": "Operação militar em primeiro plano, assunto inadequado ao slot turístico."
+  },
+  {
+    "key": "porto-rico/map-list-2",
+    "decision": "rejected",
+    "notes": "Barcos militares sem representação da experiência de bioluminescência."
+  },
+  {
+    "key": "porto-rico/attraction-5",
+    "decision": "rejected",
+    "notes": "Prédio administrativo sem representação suficiente da ilha de Culebra."
+  },
+  {
+    "key": "assuncao/attraction-0",
+    "decision": "rejected",
+    "notes": "Casa Clari-Mestre não é o Palacio de López: falso match de busca."
+  },
+  {
+    "key": "assuncao/attraction-4",
+    "decision": "rejected",
+    "notes": "Vista genérica de vegetação; não identifica o Cerro Lambaré."
+  },
+  {
+    "key": "assuncao/map-list-4",
+    "decision": "rejected",
+    "notes": "Shopping Paseo Cerro Alto não é o Cerro Lambaré."
+  },
+  {
+    "key": "toronto/home-slide",
+    "decision": "rejected",
+    "notes": "Panorama esférico distorcido; composição próxima de outro candidato do mesmo ensaio."
+  },
+  {
+    "key": "toronto/home-thumb",
+    "decision": "rejected",
+    "notes": "Panorama esférico distorcido e repetição de enquadramento do mesmo ensaio."
+  },
+  {
+    "key": "montreal/attraction-0",
+    "decision": "rejected",
+    "notes": "Interior da basílica, que já é outra atração do guia; buscar vista do distrito Vieux-Montréal."
+  },
+  {
+    "key": "montreal/map-attraction-0",
+    "decision": "rejected",
+    "notes": "Interior da basílica não contextualiza o distrito histórico nesta posição."
+  },
+  {
+    "key": "montreal/map-list-0",
+    "decision": "rejected",
+    "notes": "Outro enquadramento do mesmo interior; buscar cena urbana do distrito."
+  },
+  {
+    "key": "bogota/home",
+    "decision": "rejected",
+    "notes": "Composição escura e obstruída, skyline pouco legível para destaque."
+  },
+  {
+    "key": "chicago/intro",
+    "decision": "rejected",
+    "notes": "Composição quase igual ao hero do mesmo ensaio; rejeitada preventivamente por proximidade visual."
+  },
+  {
+    "key": "los-angeles/attraction-0",
+    "decision": "rejected",
+    "notes": "Névoa e baixa leitura do píer; buscar foto mais clara para destaque da atração."
+  },
+  {
+    "key": "los-angeles/map-attraction-3",
+    "decision": "rejected",
+    "notes": "Reprodução isolada de pintura, sem contexto físico do Getty Center."
+  },
+  {
+    "key": "porto-rico/intro",
+    "decision": "rejected",
+    "notes": "Panorama deformado e sol estourado comprometem a leitura da praia e cidade."
+  },
+  {
+    "key": "porto-rico/home",
+    "decision": "rejected",
+    "notes": "Interior de shopping sem representação suficiente do destaque regional."
+  },
+  {
+    "key": "porto-rico/home-thumb",
+    "decision": "rejected",
+    "notes": "Foto esférica de rua com deformação severa, inadequada à miniatura."
+  },
+  {
+    "key": "medellin/map-list-0",
+    "decision": "rejected",
+    "notes": "Vista quase repetida da Comuna 13; buscar outro enquadramento."
+  },
+  {
+    "key": "medellin/map-attraction-1",
+    "decision": "rejected",
+    "notes": "Reflexos e janela escura da gôndola prejudicam a leitura do parque."
+  },
+  {
+    "key": "medellin/map-list-1",
+    "decision": "rejected",
+    "notes": "Macro de orquídea não contextualiza o Parque Arví."
+  },
+  {
+    "key": "medellin/map-attraction-3",
+    "decision": "rejected",
+    "notes": "Fachada publicitária de escritório não representa adequadamente El Poblado."
+  },
+  {
+    "key": "fernando-de-noronha/guide-card",
+    "decision": "rejected",
+    "notes": "Exposição muito escura, paisagem quase ilegível para cartão."
+  },
+  {
+    "key": "vancouver/guide-highlight",
+    "decision": "rejected",
+    "notes": "Coloração amarela excessiva prejudica a reprodução natural da paisagem."
+  },
+  {
+    "key": "vancouver/home-slide",
+    "decision": "rejected",
+    "notes": "Coloração magenta artificial e marca dágua grande inadequadas ao destaque."
+  },
+  {
+    "key": "montevideo/hero",
+    "decision": "rejected",
+    "notes": "Poste central e composição lavada prejudicam o destaque principal."
+  },
+  {
+    "key": "montevideo/intro",
+    "decision": "rejected",
+    "notes": "Skyline com névoa e pouco contraste, inadequado para destaque."
+  },
+  {
+    "key": "montevideo/home",
+    "decision": "rejected",
+    "notes": "Vista distante e cinza com pouca legibilidade para o destaque da home."
+  },
+  {
+    "key": "las-vegas/home",
+    "decision": "rejected",
+    "notes": "Reflexos na janela e aspecto lavado prejudicam a leitura do panorama."
+  },
+  {
+    "key": "las-vegas/guide-highlight",
+    "decision": "rejected",
+    "notes": "Vista desértica muito distante, não representa com clareza o destaque da cidade."
+  },
+  {
+    "key": "las-vegas/home-slide",
+    "decision": "rejected",
+    "notes": "Coloração violeta excessiva prejudica a reprodução natural da cena."
+  },
+  {
+    "key": "boston/attraction-0",
+    "decision": "rejected",
+    "notes": "Placa fotografada em 1974, inadequada como destaque atual da Freedom Trail."
+  },
+  {
+    "key": "boston/map-list-2",
+    "decision": "rejected",
+    "notes": "Enquadramento quase repetido da foto de Harvard Yard do mesmo ensaio."
+  },
+  {
+    "key": "boston/map-list-4",
+    "decision": "rejected",
+    "notes": "Tratamento cromático escuro e artificial prejudica a apresentação de Quincy Market."
+  },
+  {
+    "key": "havana/attraction-5",
+    "decision": "rejected",
+    "notes": "Cena de rua colonial sem contexto suficiente para confirmar Vedado; rejeitar localização incerta."
+  },
+  {
+    "key": "vancouver/attraction-4",
+    "decision": "rejected",
+    "notes": "Piso com a palavra Banff: não representa o edifício Canada Place."
+  },
+  {
+    "key": "vancouver/map-list-4",
+    "decision": "rejected",
+    "notes": "Piso com a palavra Gimli: não representa o edifício Canada Place."
+  },
+  {
+    "key": "vancouver/map-attraction-5",
+    "decision": "rejected",
+    "notes": "Máquina de neve domina a foto; não representa a montanha."
+  },
+  {
+    "key": "vancouver/map-list-5",
+    "decision": "rejected",
+    "notes": "Ave no braço de falcoeiro não contextualiza Grouse Mountain."
+  },
+  {
+    "key": "los-angeles/home",
+    "decision": "rejected",
+    "notes": "Composição e iluminação muito próximas da foto do hero; rejeitada preventivamente por possível mesma família de original."
+  }
+]

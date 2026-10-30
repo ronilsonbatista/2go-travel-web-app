@@ -1,0 +1,101 @@
+{
+  "city": "las-vegas",
+  "region": "americas",
+  "center": [
+    36.1699,
+    -115.1398,
+    40
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Las Vegas Strip",
+      "required": [
+        "las vegas strip"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ]
+    },
+    "attraction-1": {
+      "query": "Bellagio Fountains Las Vegas",
+      "required": [
+        "bellagio"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ]
+    },
+    "attraction-2": {
+      "query": "Fremont Street Las Vegas",
+      "required": [
+        "fremont"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ]
+    },
+    "attraction-3": {
+      "query": "Red Rock Canyon Nevada",
+      "required": [
+        "red rock canyon"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ]
+    },
+    "attraction-4": {
+      "query": "High Roller Las Vegas",
+      "required": [
+        "high roller"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ]
+    },
+    "attraction-5": {
+      "query": "Hoover Dam",
+      "required": [
+        "hoover dam"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ]
+    }
+  }
+}

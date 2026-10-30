@@ -1,0 +1,51 @@
+[
+  {
+    "key": "quito/hero",
+    "slot": "hero",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "quito/intro",
+    "slot": "intro",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "quito/home",
+    "slot": "home",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "quito/guide-card",
+    "slot": "guide-card",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "quito/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "quito/home-slide",
+    "slot": "home-slide",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "quito/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Quito: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights"
+  }
+]
