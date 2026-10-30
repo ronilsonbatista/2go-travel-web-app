@@ -1,0 +1,34 @@
+{
+  "cidade-do-mexico/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Foto identificada como Colonia del Valle, não corresponde a Roma / Condesa."
+  },
+  "cidade-do-mexico/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Roma / Condesa: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "cidade-do-mexico/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Centro Histórico: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "cidade-do-mexico/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Retrato de pessoa domina a composição, não representa o Centro Histórico."
+  },
+  "cidade-do-mexico/neighborhood-2": {
+    "decision": "rejected",
+    "notes": "Prateleiras de departamento automotivo, assunto inadequado para representar Polanco."
+  },
+  "cidade-do-mexico/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Carrossel em loja de departamentos, sem contexto suficiente de Polanco."
+  },
+  "cidade-do-mexico/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Detalhe de memorial sem representação suficiente do bairro de Coyoacán."
+  },
+  "cidade-do-mexico/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Letras fotografadas por trás, leitura invertida e orientação inadequada para o cartão."
+  }
+}

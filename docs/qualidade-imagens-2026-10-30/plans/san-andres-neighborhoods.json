@@ -1,0 +1,67 @@
+{
+  "city": "san-andres",
+  "region": "americas",
+  "center": [
+    12.5847,
+    -81.7006,
+    30
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Spratt Bight San Andres",
+      "required": [
+        "spratt bight"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "San Luis San Andres",
+      "required": [
+        "san luis"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "El Cove San Andres",
+      "required": [
+        "el cove"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "La Loma San Andres",
+      "required": [
+        "la loma"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

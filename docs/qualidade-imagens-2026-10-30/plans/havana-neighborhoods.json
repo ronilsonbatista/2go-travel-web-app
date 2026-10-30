@@ -1,0 +1,67 @@
+{
+  "city": "havana",
+  "region": "americas",
+  "center": [
+    23.1136,
+    -82.3666,
+    30
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Habana Vieja",
+      "required": [
+        "habana vieja|old havana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Vedado Havana",
+      "required": [
+        "vedado"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Centro Habana",
+      "required": [
+        "centro habana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Miramar Havana",
+      "required": [
+        "miramar"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

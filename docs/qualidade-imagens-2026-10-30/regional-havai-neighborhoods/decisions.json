@@ -1,0 +1,34 @@
+{
+  "havai/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Registro histórico de 1899, inadequado como vista atual do bairro de Waikiki."
+  },
+  "havai/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Oficial em primeiro plano domina a composição, pouco contexto visual do bairro."
+  },
+  "havai/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Honolulu Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "havai/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Honolulu Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "havai/neighborhood-2": {
+    "decision": "rejected",
+    "notes": "Tanque de criação de camarão, contexto insuficiente para imagem principal de North Shore."
+  },
+  "havai/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro North Shore: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "havai/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Kailua: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "havai/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Kailua: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  }
+}

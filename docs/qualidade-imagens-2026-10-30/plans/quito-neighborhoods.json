@@ -1,0 +1,67 @@
+{
+  "city": "quito",
+  "region": "americas",
+  "center": [
+    -0.1807,
+    -78.4678,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Centro Historico Quito",
+      "required": [
+        "centro historico|historic center|historic centre"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "La Mariscal Quito",
+      "required": [
+        "mariscal"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "La Floresta Quito",
+      "required": [
+        "floresta"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Cumbaya Quito",
+      "required": [
+        "cumbaya"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

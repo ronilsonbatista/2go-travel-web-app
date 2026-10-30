@@ -4,8 +4,8 @@
     "cities": 107,
     "flagCounts": {
       "prominent-below-1600": 10,
-      "placeholder": 5071,
-      "not-visually-accepted": 5080
+      "placeholder": 4984,
+      "not-visually-accepted": 4993
     },
     "placeholderCities": 85,
     "note": "Existing accepted values are inherited, not a new visual review. EXIF cannot detect baked-in upside-down photos."
@@ -13200,16 +13200,13 @@
       "topic": "San Luis",
       "src": "/images/destinations/san-andres/curated-neighborhood-detail-1.jpg",
       "key": "san-andres/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:san-andres/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "20c4c4f9ad00984159f58bd4042a695d37f683b349f24b0662eef49f3df53f49",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:San_Luis_%288303852931%29.jpg",
+      "title": "File:San Luis (8303852931).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "12758e643849da3c107d8e9214c86d4ce9b4e1751f3ecfb814131637accfea8f",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -14238,16 +14235,13 @@
       "topic": "Miraflores",
       "src": "/images/destinations/lima/curated-neighborhood-0.jpg",
       "key": "lima/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:lima/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "2a5073ee8bc658a4ec68db20cf617188102b93a6f46c54e42b7f279f5c431b22",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Miraflores_2023_%282%29.jpg",
+      "title": "File:Miraflores 2023 (2).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fe73377ee37dc3707f9b1b22cf4299e131807bbefd82c24877039bca8b4acccc",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -14256,16 +14250,13 @@
       "topic": "Miraflores",
       "src": "/images/destinations/lima/curated-neighborhood-detail-0.jpg",
       "key": "lima/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:lima/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "cb708d996f4efd1580f2e116c01c0ac34a117bd00703dec2923cb9808a698ee0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Miraflores_2023.jpg",
+      "title": "File:Miraflores 2023.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ebf36a1657f453fc9febbe71e7f5023eb9c4a38f8fe0c0b35e53bfd2ad353ecb",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -14292,16 +14283,13 @@
       "topic": "Barranco",
       "src": "/images/destinations/lima/curated-neighborhood-detail-1.jpg",
       "key": "lima/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:lima/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7bd121c22384d2eb26d9b0829cf0c5ee19390a6d7d46f6c08b1ffc18851a8395",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Lima%2C_Peru_-_Library_of_Barranco.jpg",
+      "title": "File:Lima, Peru - Library of Barranco.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "32f9b47b1bb07ffd2ee7176e1b54471dcc245b1f325147317f1e846a5bd42398",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -14364,16 +14352,13 @@
       "topic": "Centro",
       "src": "/images/destinations/lima/curated-neighborhood-detail-3.jpg",
       "key": "lima/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:lima/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e611bd0d6bea98a8b7e69230637202a19dd4dc582fe1a910aa00a876b251dac0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Historic_centre_of_Lima%2C_Peru.jpg",
+      "title": "File:Historic centre of Lima, Peru.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8445e6633a1dd4ba6ba4fb1a8b104ecba8131b32d672364709a6f39bb8b059c4",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -15339,16 +15324,13 @@
       "topic": "Ciudad Vieja",
       "src": "/images/destinations/montevideo/curated-neighborhood-0.jpg",
       "key": "montevideo/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "88d14decfb82a9b2facc0755835eb5c3055fb02ba03e259e5c626b0e31a77722",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:El_Faro_en_Ciudad_Vieja%2C_Montevideo_%282%29.jpg",
+      "title": "File:El Faro en Ciudad Vieja, Montevideo (2).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "678c7ae0411d7a3681b632ae0915dab5d4c10b1a5501e8f3e660795b871c1812",
+      "width": 1536,
+      "height": 2048,
       "exifOrientation": 1
     },
     {
@@ -15357,16 +15339,13 @@
       "topic": "Ciudad Vieja",
       "src": "/images/destinations/montevideo/curated-neighborhood-detail-0.jpg",
       "key": "montevideo/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a9aaf1d175e03d6710435056bbf8e98670b3a1459cb4048a0338ca8d353a1a4e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Calle_sobre_la_Ciudad_Vieja_de_Montevideo.jpg",
+      "title": "File:Calle sobre la Ciudad Vieja de Montevideo.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8711f1235c7721a5f6e0b9461014df9481d1cedbdacafafbd7e2acb4a1e24eb4",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -15393,16 +15372,13 @@
       "topic": "Centro",
       "src": "/images/destinations/montevideo/curated-neighborhood-detail-1.jpg",
       "key": "montevideo/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "129f9d1c85f93d196da79116fb6c1327aba14caa60b8988f27576547fabb35f7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Centro_y_Ciudad_Vieja_Montevideo.jpg",
+      "title": "File:Centro y Ciudad Vieja Montevideo.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9f1a866618c0d2e3ccd2a9393cdd6b4006e8ed9ddeb102638fb889dd68b39fec",
+      "width": 2304,
+      "height": 1728,
       "exifOrientation": 1
     },
     {
@@ -15429,16 +15405,13 @@
       "topic": "Pocitos",
       "src": "/images/destinations/montevideo/curated-neighborhood-detail-2.jpg",
       "key": "montevideo/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "86ed5ab223c7d7a8e36b120e2f68ef1e611d607da7c5146089b5f58acb8e76cd",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Trouville_Pocitos_%28194225379%29.jpeg",
+      "title": "File:Trouville Pocitos (194225379).jpeg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0077e50c711815095e8c315b5417f494ca3c7035be5922a55032f20ece3b293e",
+      "width": 2048,
+      "height": 1150,
       "exifOrientation": 1
     },
     {
@@ -15447,16 +15420,13 @@
       "topic": "Carrasco",
       "src": "/images/destinations/montevideo/curated-neighborhood-3.jpg",
       "key": "montevideo/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "89ab0752794019a1d9d9ae8ce3f30ce54d289738c814430dd821bcc4a1e83a22",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:From_Hotel_Sofitel_Montevideo_Casino_Carrasco_and_Spa_-_130325-9023-jikatu_%288593697052%29.jpg",
+      "title": "File:From Hotel Sofitel Montevideo Casino Carrasco and Spa - 130325-9023-jikatu (8593697052).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "23bc41e712cee162ce41e16699eefb3172dd40befedd703904e20054d831cd83",
+      "width": 2048,
+      "height": 1365,
       "exifOrientation": 1
     },
     {
@@ -15465,16 +15435,13 @@
       "topic": "Carrasco",
       "src": "/images/destinations/montevideo/curated-neighborhood-detail-3.jpg",
       "key": "montevideo/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "98196082c7010d31600ec3427ef42cef7a2b636e5b6db06d6864a6034eec2791",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Carrasco_%2827844621549%29.jpg",
+      "title": "File:Carrasco (27844621549).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d802e16719666c447d8ee800068cdbcb1b1783c9b4d727ce10cc4dd9715c1863",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -16494,16 +16461,13 @@
       "topic": "Villa Morra",
       "src": "/images/destinations/assuncao/curated-neighborhood-1.jpg",
       "key": "assuncao/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4f93d8b45b864a1fa546d7934ab028d8e5323b57715769108511d3564f9c05e8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Villa_Morra_skyline_082223.jpg",
+      "title": "File:Villa Morra skyline 082223.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9673207e7e70f782d7db2f963946ab131a0711f59290ca18f5e387fd17ad573b",
+      "width": 2400,
+      "height": 1289,
       "exifOrientation": 1
     },
     {
@@ -16512,16 +16476,13 @@
       "topic": "Villa Morra",
       "src": "/images/destinations/assuncao/curated-neighborhood-detail-1.jpg",
       "key": "assuncao/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "202f2776c37f1e1875cbf4be65caabc40748c1fb3ee46416e989b186cc32d747",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Villa_Morra_100814.jpg",
+      "title": "File:Villa Morra 100814.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "95e467856b7a71d05308cbfbfb659521a026697ad98a8d62052873b7197cbb16",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -16548,16 +16509,13 @@
       "topic": "Carmelitas",
       "src": "/images/destinations/assuncao/curated-neighborhood-detail-2.jpg",
       "key": "assuncao/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "62d62ecc5dfc0d0872391f48b43a616bb004f501da2aae6f061efbead87af374",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Carmelitas_neighbourhood_193329_HDR.jpg",
+      "title": "File:Carmelitas neighbourhood 193329 HDR.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "96fcb0907bf7096be4b838d3d3b51e563e29adbffadc25bc35e20f0543c0c1db",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -16584,16 +16542,13 @@
       "topic": "Costanera",
       "src": "/images/destinations/assuncao/curated-neighborhood-detail-3.jpg",
       "key": "assuncao/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0f015074566a99488df8461ef202f14701409464e4bdfb432d646710db172633",
+      "source": "https://commons.wikimedia.org/wiki/File:Costanera_-_panoramio_%284%29.jpg",
+      "title": "File:Costanera - panoramio (4).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a371f67a8f3b402ff1078785d2ad4215dfbe8313afc01bf5c92907278bd3715f",
       "width": 1600,
-      "height": 900,
+      "height": 1069,
       "exifOrientation": 1
     },
     {
@@ -17556,16 +17511,13 @@
       "topic": "La Candelaria",
       "src": "/images/destinations/bogota/curated-neighborhood-0.jpg",
       "key": "bogota/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d734564043989e54930798599831402b43c0e58d8f127e729f9d815615ee41c0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria_en_Bogot%C3%A1_%282%29.jpg",
+      "title": "File:Iglesia de Nuestra Señora de la Candelaria en Bogotá (2).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7fc8b6d68d8a6c0c4df65d526f325d46959b391f4c822c8e3c1b2419e9feabe1",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -17628,16 +17580,13 @@
       "topic": "Zona T",
       "src": "/images/destinations/bogota/curated-neighborhood-2.jpg",
       "key": "bogota/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "dcb71bce2591e8b7f5f848f372b563af4f71a829424d62e3f02394a8c8262f4a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Zona_T_Bogota.jpg",
+      "title": "File:Zona T Bogota.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2b7082df97fce8b2203c268d23ba7293f32a4c0178df7a12cb9d602eba6de331",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -17646,16 +17595,13 @@
       "topic": "Zona T",
       "src": "/images/destinations/bogota/curated-neighborhood-detail-2.jpg",
       "key": "bogota/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ffef47277bcb81fa3f62805f9b9f50756814e67a32f148ec92a3cc983d63a4b4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Bogot%C3%A1_Zona_T.JPG",
+      "title": "File:Bogotá Zona T.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "10bef673e7e59d9b1417f94ac805280787c29a7f516298e2f5f656e491382a3d",
+      "width": 2400,
+      "height": 1801,
       "exifOrientation": 1
     },
     {
@@ -18684,16 +18630,13 @@
       "topic": "El Poblado",
       "src": "/images/destinations/medellin/curated-neighborhood-detail-0.jpg",
       "key": "medellin/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9aa7c6b15e70b5f06dd721a9426c9a059025ef98055c7eaebcb7dee0ed06f6c5",
+      "source": "https://commons.wikimedia.org/wiki/File:Barrio_El_Poblado._El_Poblado_neighborhood.jpg",
+      "title": "File:Barrio El Poblado. El Poblado neighborhood.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "38051018e48cd76b61548c0006979092c05c92f8081c32b8134f526f55b46ec0",
       "width": 1600,
-      "height": 900,
+      "height": 1200,
       "exifOrientation": 1
     },
     {
@@ -18702,16 +18645,13 @@
       "topic": "Laureles",
       "src": "/images/destinations/medellin/curated-neighborhood-1.jpg",
       "key": "medellin/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a5f550a6e9cb2a308ac24f8b6ebfce175848b33c932316498de97f41f42ba7c5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Laureles_-_Estadio%2C_Medell%C3%ADn%2C_Antioquia%2C_Colombia_-_panoramio_%286%29.jpg",
+      "title": "File:Laureles - Estadio, Medellín, Antioquia, Colombia - panoramio (6).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "95d1372e00b322dea91ea0e56959f74184a339cd750d7d57f73225bbeeb9b0b3",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -18720,16 +18660,13 @@
       "topic": "Laureles",
       "src": "/images/destinations/medellin/curated-neighborhood-detail-1.jpg",
       "key": "medellin/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "2d3651206f73c893f1da6cc02939305382f9540fba3b746b048f6893d794bb81",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Laureles_-_Estadio%2C_Medell%C3%ADn%2C_Antioquia%2C_Colombia_-_panoramio_%285%29.jpg",
+      "title": "File:Laureles - Estadio, Medellín, Antioquia, Colombia - panoramio (5).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fa3d5453f1a0df5c31c6820529d81f848f84c07eac75cdd81edec13f55dcb50b",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -18774,16 +18711,13 @@
       "topic": "Envigado",
       "src": "/images/destinations/medellin/curated-neighborhood-3.jpg",
       "key": "medellin/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "edf5a70bcc7d66ab1dad819e7246c5f8b81b1b1ac4b0bb9cb0349e5f8b82fc11",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_del_Ferrocarril_Envigado._Vista_frontal._Envigado%2C_Antioquia._Colombia.JPG",
+      "title": "File:Estación del Ferrocarril Envigado. Vista frontal. Envigado, Antioquia. Colombia.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f971e5641a4b1d327b80ac14cabc6d7fb366a264e57f4b90e859ccbf44290210",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -18792,16 +18726,13 @@
       "topic": "Envigado",
       "src": "/images/destinations/medellin/curated-neighborhood-detail-3.jpg",
       "key": "medellin/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "da09f79b4e362679a313870801ee0d0010257fa59d1e2b443efbdfaa300bbb56",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Vista_lateral_de_la_Estaci%C3%B3n_del_Ferrocarril_Envigado._Antioquia._Colombia.JPG",
+      "title": "File:Vista lateral de la Estación del Ferrocarril Envigado. Antioquia. Colombia.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "26b8fee4ab65abd4982a9f44fc5b9ee32adf548d8fda4c056378361c1a9a868b",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -19812,16 +19743,13 @@
       "topic": "La Mariscal",
       "src": "/images/destinations/quito/curated-neighborhood-1.jpg",
       "key": "quito/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "cacfc786101fa3252f8de48fdab7e9e1c8002b949a39a2eac3c21fdcc2f3ba71",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Avenida_Amazonas%2C_La_Mariscal_%28Quito%29.jpg",
+      "title": "File:Avenida Amazonas, La Mariscal (Quito).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b088d04b47bc0f625d8e3b08372ea792fce61a94633f1e0717f9e09e10a4f51e",
+      "width": 2000,
+      "height": 1333,
       "exifOrientation": 1
     },
     {
@@ -19830,16 +19758,13 @@
       "topic": "La Mariscal",
       "src": "/images/destinations/quito/curated-neighborhood-detail-1.jpg",
       "key": "quito/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b753c78aba5cc0d170fa351647fcb78245fd51b60d3ca452784406110ab8486f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Calle_de_Mariscal%2C_Quito_-_Equador_-_panoramio.jpg",
+      "title": "File:Calle de Mariscal, Quito - Equador - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fd56c9bd93e2aa83a5576ae88bb4132c769f9debf3f06fda5c6fff9fb26a0c45",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -19848,16 +19773,13 @@
       "topic": "La Floresta",
       "src": "/images/destinations/quito/curated-neighborhood-2.jpg",
       "key": "quito/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "8b49e12439101c2bd193d4d9cc2cc4f7d746853a6c54d3c5733d48d44f9f55aa",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Motorcycle_in_La_Floresta%2C_Quito.jpg",
+      "title": "File:Motorcycle in La Floresta, Quito.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "5c4e9ae87db1a17eb43cdd4bb8a7b3b924f0153fe7714dcfda563f3e5f38df35",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -19902,16 +19824,13 @@
       "topic": "Cumbayá",
       "src": "/images/destinations/quito/curated-neighborhood-detail-3.jpg",
       "key": "quito/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "8b9621211528938640155a989f1645e968664e4864ae35a0cea41920d1471f5c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Cumbay%C3%A1.jpg",
+      "title": "File:Cumbayá.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "49ec3e0a1770ae04288855aae700f1406865de61b3b36e5199215b0969da9342",
+      "width": 2400,
+      "height": 972,
       "exifOrientation": 1
     },
     {
@@ -20859,16 +20778,13 @@
       "topic": "Vila dos Remédios",
       "src": "/images/destinations/fernando-de-noronha/curated-neighborhood-0.jpg",
       "key": "fernando-de-noronha/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "99b60e762ece5bc99a5e4f7bdc33d7826a60b4ac2c87af613c4dbb2049b134df",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:BRUNO_LIMA_VILA_DOS_REMEDIOS_FERNANDO_DE_NORONHA_PE_%2840934072162%29.jpg",
+      "title": "File:BRUNO LIMA VILA DOS REMEDIOS FERNANDO DE NORONHA PE (40934072162).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "548faba22b6f8905bf18fbb1f4740143bf9f51b2b98a1e4fe448498b990044b9",
+      "width": 1697,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -20877,16 +20793,13 @@
       "topic": "Vila dos Remédios",
       "src": "/images/destinations/fernando-de-noronha/curated-neighborhood-detail-0.jpg",
       "key": "fernando-de-noronha/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ce4657a9c5c4ccf190d71332724eb186bf62cba2767caf2c1d90293fbb716eff",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Vila_dos_Rem%C3%A9dios.JPG",
+      "title": "File:Vila dos Remédios.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e8bf88dc2c36eb05711cb3bf22dd75c03fa1e1a9a1c9b26d2bc92bb88a304512",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -20931,16 +20844,13 @@
       "topic": "Boldró",
       "src": "/images/destinations/fernando-de-noronha/curated-neighborhood-2.jpg",
       "key": "fernando-de-noronha/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e62cdd7b0deb48a15347f4dce0026eeed17cf02a8932224e8b15b65fbfb59c40",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:BRUNO_LIMA_PRAIA_DO_BOLDRO_FERNANDO_DE_NORONHA_PE_%2840934080222%29.jpg",
+      "title": "File:BRUNO LIMA PRAIA DO BOLDRO FERNANDO DE NORONHA PE (40934080222).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b25399ff30ed0dbe7afd13f12cf222a237798269d1ab39c55952373c980402ee",
+      "width": 2400,
+      "height": 1697,
       "exifOrientation": 1
     },
     {
@@ -20949,16 +20859,13 @@
       "topic": "Boldró",
       "src": "/images/destinations/fernando-de-noronha/curated-neighborhood-detail-2.jpg",
       "key": "fernando-de-noronha/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ea1468e07143e6868fd53fa87f30b1a6aaab64862b844a7f5a854c44726c69d6",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:BRUNO_LIMA_PRAIA_DO_BOLDRO_FERNANDO_DE_NORONHA_PE_%2840934082502%29.jpg",
+      "title": "File:BRUNO LIMA PRAIA DO BOLDRO FERNANDO DE NORONHA PE (40934082502).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d471489154ccaf48b40e98128ebf5073aa6edba0efea695439ea5f3f53f61ea9",
+      "width": 2400,
+      "height": 1697,
       "exifOrientation": 1
     },
     {
@@ -20967,16 +20874,13 @@
       "topic": "Sueste",
       "src": "/images/destinations/fernando-de-noronha/curated-neighborhood-3.jpg",
       "key": "fernando-de-noronha/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5cd7b4b5c5948bf7af5b3263d040cc747e560ed131396c8949b00b03d3da27ae",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:BRUNO_LIMA_PRAIA_DO_SUESTE_FERNANDO_DE_NORONHA_PE_%2840934079172%29.jpg",
+      "title": "File:BRUNO LIMA PRAIA DO SUESTE FERNANDO DE NORONHA PE (40934079172).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3ce5cf6f51901c24f2f8cebfffef2057c8215494e42aea8c00c458106b0205b7",
+      "width": 2400,
+      "height": 1697,
       "exifOrientation": 1
     },
     {
@@ -20985,16 +20889,13 @@
       "topic": "Sueste",
       "src": "/images/destinations/fernando-de-noronha/curated-neighborhood-detail-3.jpg",
       "key": "fernando-de-noronha/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3dfa8224c9dbc9ef8f30aa52f35569344d4f05f23ae911260fd6c94304bc7fdd",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:BRUNO_LIMA_PRAIA_DO_SUESTE_FERNANDO_DE_NORONHA_PE_%2840934077582%29.jpg",
+      "title": "File:BRUNO LIMA PRAIA DO SUESTE FERNANDO DE NORONHA PE (40934077582).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "bcc967d6bba6c361aeaf224e8fc092150bcec8e23495e16bf0fdd179e18eeac8",
+      "width": 2400,
+      "height": 1697,
       "exifOrientation": 1
     },
     {
@@ -21969,16 +21870,13 @@
       "topic": "Disney Area",
       "src": "/images/destinations/orlando/curated-neighborhood-detail-0.jpg",
       "key": "orlando/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "05a630f66911520dea4fdb41fba0df45ed0c4d3b662ed8b3e0559030afc7be47",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Theme_Park_Tourist_-_Walt_Disney_One_Man%27s_Dream.jpg",
+      "title": "File:Theme Park Tourist - Walt Disney One Man's Dream.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2093e944850831cd5f565b436d13f7881de0ca94c9fa654ff68aec4e2ef4f0cc",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -21987,16 +21885,13 @@
       "topic": "International Drive",
       "src": "/images/destinations/orlando/curated-neighborhood-1.jpg",
       "key": "orlando/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6ded74ae26d81f9aeb27d7542cca453effb8d3b867707886a1ee7557d4a94c40",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Four_Points_By_Sheraton_Orlando_International_Drive_01.jpg",
+      "title": "File:Four Points By Sheraton Orlando International Drive 01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b5a8c1bb26db055fc3fe1184fd2c0359a24dd19b4f23c440eeca86fec7581fa1",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -22041,16 +21936,13 @@
       "topic": "Downtown Orlando",
       "src": "/images/destinations/orlando/curated-neighborhood-detail-2.jpg",
       "key": "orlando/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6ad1b85b3defc2ebfbd3b9da1da2ae2496c335c07780ef7a7f3f0565a2e3ccd8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Publix_Super_Market_at_The_Paramount_on_Lake_Eola%2C_Orlando%2C_Florida.jpg",
+      "title": "File:Publix Super Market at The Paramount on Lake Eola, Orlando, Florida.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "5aa51a5b7b3555a96f478328ba68f7cefb60f2eb145ca1ff7c6c0e2cb306e087",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -22059,16 +21951,13 @@
       "topic": "Winter Park",
       "src": "/images/destinations/orlando/curated-neighborhood-3.jpg",
       "key": "orlando/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "efe07a87cfe5a3843e4d5052ffa3e8df653c0f79ce9ed5e4c564dc53878eecb5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Winter_park_canal.jpg",
+      "title": "File:Winter park canal.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a30824bbe4905d31f783e9138393ee2b99d41513b0fcb08b4661b9e4d3b10520",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -22077,16 +21966,13 @@
       "topic": "Winter Park",
       "src": "/images/destinations/orlando/curated-neighborhood-detail-3.jpg",
       "key": "orlando/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5b983321a1b2ebc514ce35aaf95b4f13e171c4d73c2142b52c5a4f5754d0e76e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Winter_Park_FL_city_hall01.jpg",
+      "title": "File:Winter Park FL city hall01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "768c3562bc9d75eda2d6fee72249fb99b0b9d32f697f0192ba952d8671ecbd48",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -23067,16 +22953,13 @@
       "topic": "Bávaro",
       "src": "/images/destinations/punta-cana/curated-neighborhood-0.jpg",
       "key": "punta-cana/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "38396265bb19db3d9b201fa91d18941a2483115e3971576e02df4a2a13a20506",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28188%29.jpg",
+      "title": "File:Bávaro, 23000, Dominican Republic - panoramio (188).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2fff48fb9b11380c7d3b696d82bfab8b3facfcbd7f64405790dbb9ec4ecb8050",
+      "width": 2400,
+      "height": 1353,
       "exifOrientation": 1
     },
     {
@@ -23085,16 +22968,13 @@
       "topic": "Bávaro",
       "src": "/images/destinations/punta-cana/curated-neighborhood-detail-0.jpg",
       "key": "punta-cana/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "305faf6c3db8ba76f1127e08c360ea826c74db02c5a7b7d26a89f90f156cc398",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28309%29.jpg",
+      "title": "File:Bávaro, 23000, Dominican Republic - panoramio (309).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2ed4ba30828d09f8d3e1e04d83222e8059d50375bda05dd0f0b49bc16f2d2547",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -23121,16 +23001,13 @@
       "topic": "Cap Cana",
       "src": "/images/destinations/punta-cana/curated-neighborhood-detail-1.jpg",
       "key": "punta-cana/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b07cd199a0bd9edb71ac55e567bcdaee0045325212bd1cb0666d25de1a79f760",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Dominican_Republic_Houses_Punta_Cana.jpg",
+      "title": "File:Dominican Republic Houses Punta Cana.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f16ef844a5427f398f42f51d2ca7b8d55d8bd5bd36907d219706e6b147b74938",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -23157,16 +23034,13 @@
       "topic": "Cabeza de Toro",
       "src": "/images/destinations/punta-cana/curated-neighborhood-detail-2.jpg",
       "key": "punta-cana/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e8988de4b087c22f666d7fca816379e6f5cd589678b3d7159b8620b6433b87a5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Punta_Cana_Beach_Cabeza_De_Toro_1.jpg",
+      "title": "File:Punta Cana Beach Cabeza De Toro 1.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "593657c8c484f45f38f85f1913e04d153e3a54862ac749e39cdddd5127f6e155",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -24183,16 +24057,13 @@
       "topic": "Santa Monica",
       "src": "/images/destinations/los-angeles/curated-neighborhood-detail-0.jpg",
       "key": "los-angeles/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "df2edc2c08273deafccd4815f62a14a0debc45166f746edc557ffa152489f712",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Monica_%E2%80%93_Beach_%28a%29_%E2%80%93_pool.jpg",
+      "title": "File:Santa Monica – Beach (a) – pool.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "bb2e7bd347797308797081ab95ae329e6958f5e8d56272d3a557114987a3a34e",
+      "width": 2400,
+      "height": 866,
       "exifOrientation": 1
     },
     {
@@ -24201,16 +24072,13 @@
       "topic": "Hollywood",
       "src": "/images/destinations/los-angeles/curated-neighborhood-1.jpg",
       "key": "los-angeles/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5898f6534f898573277fe8a90c7a8f50ac3705b42414969d98dfdd334b7fe4b2",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Hollywood_Sign.jpg",
+      "title": "File:Hollywood Sign.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a2dd76c8316e7f7e3132a0123a0e38dd4479c6c6961188ab1c6d2e8f2682dcaa",
+      "width": 2400,
+      "height": 1633,
       "exifOrientation": 1
     },
     {
@@ -24237,16 +24105,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/los-angeles/curated-neighborhood-2.jpg",
       "key": "los-angeles/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7a5fe31555bc8114ca919488f89bb3a442dff3747b81a42fff4916c68ec1d7e6",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Los_Angeles_%28California%2C_USA%29%2C_South_Olive_Street_--_2012_--_5280.jpg",
+      "title": "File:Los Angeles (California, USA), South Olive Street -- 2012 -- 5280.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2012022d1eb00a9bf3924b49b1a7b5222c42e49ef0783a136eca165ecb96aae8",
+      "width": 2400,
+      "height": 2098,
       "exifOrientation": 1
     },
     {
@@ -24291,16 +24156,13 @@
       "topic": "West Hollywood",
       "src": "/images/destinations/los-angeles/curated-neighborhood-detail-3.jpg",
       "key": "los-angeles/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6105890c683f2c24ab278a8b009fae693f9a076c1d4b1d858d27ad2202f1fcb1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Colonial_House%2C_West_Hollywood.JPG",
+      "title": "File:Colonial House, West Hollywood.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ecca50afcd465b097d6427da0b5ddc1b731e9fc5b6044bdcf59282a3dc54174a",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -26220,16 +26082,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/vancouver/curated-neighborhood-0.jpg",
       "key": "vancouver/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "fb27920901f612a2522aebcad84728e229a93477ade423f08b1fd82c8952b6ea",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Vancouver_downtown.jpg",
+      "title": "File:Vancouver downtown.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f871363488d7b572764fd3326f1bd86303cb9379af44200419eca4bc26062067",
+      "width": 2400,
+      "height": 1177,
       "exifOrientation": 1
     },
     {
@@ -26256,16 +26115,13 @@
       "topic": "Kitsilano",
       "src": "/images/destinations/vancouver/curated-neighborhood-1.jpg",
       "key": "vancouver/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "65d06021406a3ead111364090bf195349c008381ef4ae6a69fa3becaf7efd607",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Vancouver-Panorama.jpg",
+      "title": "File:Vancouver-Panorama.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0dfac756c1087c74d777b47e9be3ef80b7236686998a45c0593e447265573544",
+      "width": 2400,
+      "height": 1424,
       "exifOrientation": 1
     },
     {
@@ -26274,16 +26130,13 @@
       "topic": "Kitsilano",
       "src": "/images/destinations/vancouver/curated-neighborhood-detail-1.jpg",
       "key": "vancouver/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "37735b1b8a32660ae33a5eaf9aa93c637922d1460cc7c5db8f60c7f4d588242e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Vancouver_Public_Library_-_Kitsilano_Branch.jpg",
+      "title": "File:Vancouver Public Library - Kitsilano Branch.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7139607d531705c51b060ae48ad65f893c7fa9c6794d3b040da6ca359e032a74",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -26328,16 +26181,13 @@
       "topic": "Gastown",
       "src": "/images/destinations/vancouver/curated-neighborhood-3.jpg",
       "key": "vancouver/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "046987679e9f04fa4a7754073525abd859470eed5db52812774aaec4bbf9afd8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Vancouver_%28BC%2C_Canada%29%2C_Gastown_Steam_Clock_--_2022_--_1836.jpg",
+      "title": "File:Vancouver (BC, Canada), Gastown Steam Clock -- 2022 -- 1836.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "aea93b62138f7928bec0f223ea9dbfd81476c5a3b3a45c9d913435a07e46bb2d",
+      "width": 2400,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -27303,16 +27153,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/toronto/curated-neighborhood-0.jpg",
       "key": "toronto/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ea2a76471c5f314b66a32c43c607ef66ad1639f55aa6ea4498a94eb3b731cec4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Toronto_Railway_August_2017_03.jpg",
+      "title": "File:Toronto Railway August 2017 03.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "88400f7efb6eb4874234bc0c557acb9b6d12e58c627c01c715cd460c81558a60",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -27321,16 +27168,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/toronto/curated-neighborhood-detail-0.jpg",
       "key": "toronto/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ce817ed7882ef7e891454fae8127ac69cc1b6ecfdb219e50532e29ffefcb52a9",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_of_Toronto%2C_side_view_from_a_kayak_%28September_2018%29.jpg",
+      "title": "File:Downtown of Toronto, side view from a kayak (September 2018).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "df8a0fd9659001c27da6f34a897d43db41d4e3d9c4cb4aeed7d370f06237cb07",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -27375,16 +27219,13 @@
       "topic": "Kensington",
       "src": "/images/destinations/toronto/curated-neighborhood-2.jpg",
       "key": "toronto/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "71099863a5018b4788464cf1d3faa50faf1934be9c39892bf54109443a71bba6",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Kensington_Market_Toronto_August_2017_02.jpg",
+      "title": "File:Kensington Market Toronto August 2017 02.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b94e2611c658ed7b3d9076b6574e662b46eb08a25ff5e842fdaa63e1636f0953",
+      "width": 2400,
+      "height": 1602,
       "exifOrientation": 1
     },
     {
@@ -27393,16 +27234,13 @@
       "topic": "Kensington",
       "src": "/images/destinations/toronto/curated-neighborhood-detail-2.jpg",
       "key": "toronto/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "00aef582ee6a7b47e8c84a7dfabd533ca454b21d744c406a8141f451cf709aac",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Buildings_in_Kensington_Market%2C_Toronto_2026.jpg",
+      "title": "File:Buildings in Kensington Market, Toronto 2026.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fa1122783d722c364625cea4e4c8e6fecdd1ff99e4f8f7a29aa65e9d0d26819b",
+      "width": 2400,
+      "height": 1636,
       "exifOrientation": 1
     },
     {
@@ -27411,16 +27249,13 @@
       "topic": "Yorkville",
       "src": "/images/destinations/toronto/curated-neighborhood-3.jpg",
       "key": "toronto/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c681faa1c9249e94b3dd2033aa540f256e30b2df7b822929cd666361c6855d49",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Yorkville_Ave_2022.jpg",
+      "title": "File:Yorkville Ave 2022.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "4ea8801b14d757fa394c3fb0e83ef92e95b43aa0e273c6594ac4a4bc89f12f16",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -28428,16 +28263,13 @@
       "topic": "Plateau",
       "src": "/images/destinations/montreal/curated-neighborhood-1.jpg",
       "key": "montreal/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "35db9e877a177a8f16885447221b7566051663213f730c7aacc9221f0c781d6f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Neige_Plateau_Mont_Royal_Montr%C3%A9al.jpg",
+      "title": "File:Neige Plateau Mont Royal Montréal.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ebe813281a982c5ccd8cd38b3c23859c583839eecd0e125de9512b025ee5b283",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -28464,16 +28296,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/montreal/curated-neighborhood-2.jpg",
       "key": "montreal/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "26a5edefb9679878990c2c6a644a7926d58bfcf5e03006044144025e62646492",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Montreal_downtown.jpg",
+      "title": "File:Montreal downtown.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "daf794cc7d035073fd7670a42d34b1f183c42617c1412db412f6f8588d2c1241",
+      "width": 2400,
+      "height": 1604,
       "exifOrientation": 1
     },
     {
@@ -28482,16 +28311,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/montreal/curated-neighborhood-detail-2.jpg",
       "key": "montreal/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ded145e39dcb4f30b251b8751f62758b7c75c6979105e4ac442d6d59b4d7f0c1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_MTL_20150331.jpg",
+      "title": "File:Downtown MTL 20150331.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2bb2a3498b20bc5e9ec2cbeb6d817582098f246b9b164706fe930232dda5aadf",
+      "width": 2400,
+      "height": 2305,
       "exifOrientation": 1
     },
     {
@@ -28518,16 +28344,13 @@
       "topic": "Mile End",
       "src": "/images/destinations/montreal/curated-neighborhood-detail-3.jpg",
       "key": "montreal/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "329b932744ba5b1c2e1cd995e2bf21ec53a6097c1f9bb6a5833b9a1f90e63781",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:20181013_-_13_-_Montreal_%28Mile_End%29.jpg",
+      "title": "File:20181013 - 13 - Montreal (Mile End).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a6f4932678f09437042561afaa32f6a462a44635b36a2d48a445dca8923b04fc",
+      "width": 1478,
+      "height": 1970,
       "exifOrientation": 1
     },
     {
@@ -29484,16 +29307,13 @@
       "topic": "Casco Viejo",
       "src": "/images/destinations/cidade-do-panama/curated-neighborhood-0.jpg",
       "key": "cidade-do-panama/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-panama/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "019e728edb6a5b4ae9179c9116bc3096a271ae3b08cecb6b6ca852fc5710d7a7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Calle_Casco_Viejo.jpg",
+      "title": "File:Calle Casco Viejo.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1e56269cceabbbfa60122c24aa2501ee12e1750307782402d99a095c31009de8",
+      "width": 1776,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -29502,16 +29322,13 @@
       "topic": "Casco Viejo",
       "src": "/images/destinations/cidade-do-panama/curated-neighborhood-detail-0.jpg",
       "key": "cidade-do-panama/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-panama/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0786d22b6dc94f62294a45382abb2f1920cfc30afed6413c9da6c5e5096f2ffc",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Fountain_in_Casco_Viejo_Panama_2013.JPG",
+      "title": "File:Fountain in Casco Viejo Panama 2013.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f194a1a20bdb45abe513cf1bea8d1311d33bd883b060b0ddd47db398c27880f5",
+      "width": 2400,
+      "height": 1793,
       "exifOrientation": 1
     },
     {
@@ -29520,16 +29337,13 @@
       "topic": "El Cangrejo",
       "src": "/images/destinations/cidade-do-panama/curated-neighborhood-1.jpg",
       "key": "cidade-do-panama/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-panama/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a863c13ac22cc9037fd48c0bf315a04fe9c92591304d4bcd0a923373691d9113",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:El_Cangrejo%2C_Panam%C3%A1%2C_Panama_-_panoramio.jpg",
+      "title": "File:El Cangrejo, Panamá, Panama - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a35ae34ea85621dee47b2c0af089f6e8a654558632021347be96092b75ca0331",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -29556,16 +29370,13 @@
       "topic": "Costa del Este",
       "src": "/images/destinations/cidade-do-panama/curated-neighborhood-2.jpg",
       "key": "cidade-do-panama/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-panama/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "75317e2d41870c8fda2773df5ed5f66478764a2515c9d9870985740a6153a053",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Skyline_Costa_Este.JPG",
+      "title": "File:Skyline Costa Este.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "82dcd8d6553eebac163e8410d1d1588f3000bf1c04847962a95ddcb71353d5ed",
+      "width": 2400,
+      "height": 1300,
       "exifOrientation": 1
     },
     {
@@ -29574,16 +29385,13 @@
       "topic": "Costa del Este",
       "src": "/images/destinations/cidade-do-panama/curated-neighborhood-detail-2.jpg",
       "key": "cidade-do-panama/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-panama/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "71de20d11a72ce886d65f74336d5e3d0b1247d8147ceebb57829dbcac9e4f3f1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Panama_-_Costa_del_Este_-_panoramio.jpg",
+      "title": "File:Panama - Costa del Este - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ccc94cae6c90b69224835dcd576ae9ade29be47314c19b71d02f84ab0e5d31f7",
+      "width": 2400,
+      "height": 1288,
       "exifOrientation": 1
     },
     {
@@ -30597,16 +30405,13 @@
       "topic": "Habana Vieja",
       "src": "/images/destinations/havana/curated-neighborhood-detail-0.jpg",
       "key": "havana/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4e2a0fb679f4ba79534361a147de4a7b9f91d7b6feb67f80d345eccdd23bc87f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Havana_vieja_hdsr_S5is_Cuba1_157.jpg",
+      "title": "File:Havana vieja hdsr S5is Cuba1 157.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ac6bb5b20ac2be502a7eabe3ff60340851cfc4fa62777b3441da1d7d86b11853",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -30651,16 +30456,13 @@
       "topic": "Centro Habana",
       "src": "/images/destinations/havana/curated-neighborhood-2.jpg",
       "key": "havana/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c94c30f5a4ede1b1d908d5b7bd0cadb12bdc65f9ef45adbb6bd5232103b2d456",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Centro_Habana_Calle_Hospital.JPG",
+      "title": "File:Centro Habana Calle Hospital.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a0f9fe8d03ac20694ceb302f410a95f37b406f5ddc37fda1fd8b7dc5b387a3bd",
+      "width": 1200,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -30669,16 +30471,13 @@
       "topic": "Centro Habana",
       "src": "/images/destinations/havana/curated-neighborhood-detail-2.jpg",
       "key": "havana/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f604f5fc5f5594a888131d46209010939dae091ac8863d7bdda41386a44bd058",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Centro_Habana_%26_Vedado.jpg",
+      "title": "File:Centro Habana & Vedado.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "64f6c0f4cec902796881106566b25942ad078835df210cbed3ddf65b21083708",
+      "width": 1737,
+      "height": 1150,
       "exifOrientation": 1
     },
     {
@@ -31722,16 +31521,13 @@
       "topic": "Roma / Condesa",
       "src": "/images/destinations/cidade-do-mexico/curated-neighborhood-detail-0.jpg",
       "key": "cidade-do-mexico/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9ecf9a7990db824884a344196986933084d08d695a29f5c98be4fecb4bcd01a8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Condesa_and_Roma_%286475389533%29.jpg",
+      "title": "File:Condesa and Roma (6475389533).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ae2e3135bdb0465851f9b2ec69ea3ad3a7496ce974518fb4d6b7e620cedb7247",
+      "width": 1920,
+      "height": 1040,
       "exifOrientation": 1
     },
     {
@@ -31740,16 +31536,13 @@
       "topic": "Centro Histórico",
       "src": "/images/destinations/cidade-do-mexico/curated-neighborhood-1.jpg",
       "key": "cidade-do-mexico/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "788253df66a79e325d317f933564e206f221ce233d6fb63171faae3784b50404",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Sears_Centro_Historico_-_Mexico_2024.jpg",
+      "title": "File:Sears Centro Historico - Mexico 2024.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "dcf6462d8264bd1c463aab7d80720a7a913175a709cbe2cf65398254c8eae6b9",
+      "width": 2400,
+      "height": 1136,
       "exifOrientation": 1
     },
     {
@@ -32802,16 +32595,13 @@
       "topic": "Old San Juan",
       "src": "/images/destinations/porto-rico/curated-neighborhood-0.jpg",
       "key": "porto-rico/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f80996a701d788843629b6f985997a12693af7ac122ce20ccd2ba13a3d82d04a",
+      "source": "https://commons.wikimedia.org/wiki/File:USA-2016-Puerto_Rico-San_Juan-Castillo_San_Felipe_del_Morro_07.jpg",
+      "title": "File:USA-2016-Puerto Rico-San Juan-Castillo San Felipe del Morro 07.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "40516afdae3da89681c5cc6dbcb0f51b55fa96e4e01d7847bcaad4a038b49faa",
       "width": 1600,
-      "height": 900,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -32820,16 +32610,13 @@
       "topic": "Old San Juan",
       "src": "/images/destinations/porto-rico/curated-neighborhood-detail-0.jpg",
       "key": "porto-rico/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a9efb07ba8381165c60126a6befed3863be56edcc31bb61b89bc488e0e13d0a3",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:USA-2016-Puerto_Rico-San_Juan-Castillo_San_Felipe_del_Morro_Lighthouse_03.jpg",
+      "title": "File:USA-2016-Puerto Rico-San Juan-Castillo San Felipe del Morro Lighthouse 03.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e1c14a5a71ef7bf1675c86b1448ef9cc33607518b1c2626c85f2f58e0f4ca5d1",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -32838,16 +32625,13 @@
       "topic": "Condado",
       "src": "/images/destinations/porto-rico/curated-neighborhood-1.jpg",
       "key": "porto-rico/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "2e50a622fc759379e3da92314a53787d91b406e79bff0326ad5c123a200264b5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Highrise_on_Ashford_Avenue%2C_Condado%2C_Santurce%2C_San_Juan%2C_Puerto_Rico.jpg",
+      "title": "File:Highrise on Ashford Avenue, Condado, Santurce, San Juan, Puerto Rico.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "14ab36759ddc0414ed727cdf66467979d5165344eeed23de35184286a45ce655",
+      "width": 1594,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -32874,16 +32658,13 @@
       "topic": "Santurce",
       "src": "/images/destinations/porto-rico/curated-neighborhood-2.jpg",
       "key": "porto-rico/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3f4c958b2d63f4e180e38eeb79e478fc963590b0d2c769d995b12a3c2381aca1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Puerto_Rico_Department_of_Agriculture_building_in_Santurce%2C_San_Juan.jpg",
+      "title": "File:Puerto Rico Department of Agriculture building in Santurce, San Juan.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "abdd746ff14239c4fa47ffdfc88a07ac1e366d88b6c2f4cb8ca8e311650a9584",
+      "width": 2400,
+      "height": 1353,
       "exifOrientation": 1
     },
     {
@@ -32928,16 +32709,13 @@
       "topic": "Isla Verde",
       "src": "/images/destinations/porto-rico/curated-neighborhood-detail-3.jpg",
       "key": "porto-rico/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "30e92243f5c432f60119b4770b4f7f9f0719e6f66559b4d675487329110e49a4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Isla_Verde_-_Beach_view.jpg",
+      "title": "File:Isla Verde - Beach view.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2e12921992f1b718a8c0e7274a6defc489dda31132329ab2ad6a29ee8a16255c",
+      "width": 2400,
+      "height": 1771,
       "exifOrientation": 1
     },
     {
@@ -33963,16 +33741,13 @@
       "topic": "Honolulu Downtown",
       "src": "/images/destinations/havai/curated-neighborhood-1.jpg",
       "key": "havai/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4042092741d3333d0130d6754062a6eac3d4edf070401486dc888f4c7075ecf8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2020_Downtown_Honolulu_04.jpg",
+      "title": "File:2020 Downtown Honolulu 04.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b62ac078a38697d2ab0112a79c8614f25eda06f53687ee91e0cdb23f90888743",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -33981,16 +33756,13 @@
       "topic": "Honolulu Downtown",
       "src": "/images/destinations/havai/curated-neighborhood-detail-1.jpg",
       "key": "havai/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "52b393e61df210735f102e547c4e76b67ce7e3b65fc91ea09c7d34b1cf4f9446",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2020_Downtown_Honolulu_01.jpg",
+      "title": "File:2020 Downtown Honolulu 01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "04002b59162d845601667e2c1d552bfc5c59de7c483c25e7ca876772ce026555",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -34017,16 +33789,13 @@
       "topic": "North Shore",
       "src": "/images/destinations/havai/curated-neighborhood-detail-2.jpg",
       "key": "havai/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0bab3c34b775039e861f4133cb083ed55fcebbf854bb8f2b4703f672244fa039",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Romy%27s_Shrimp%2C_North_Shore%2C_Oahu.jpg",
+      "title": "File:Romy's Shrimp, North Shore, Oahu.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "79d9faa8d3b1dcc8338ff1545c37bbc2be04a8dd9e5741333d980e5b48afddf9",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -34035,16 +33804,13 @@
       "topic": "Kailua",
       "src": "/images/destinations/havai/curated-neighborhood-3.jpg",
       "key": "havai/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "abd450a861e840776dc450266e63f19f53bed289a89c7b31dbe24a8a45374384",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Kailua_Beach_Park_-_Oahu_-_Hawaii.jpg",
+      "title": "File:Kailua Beach Park - Oahu - Hawaii.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "177257de82e4fa55d229b06b9e4acd8afab79fffc1f8470bc2a6dec4212e1717",
+      "width": 2400,
+      "height": 1749,
       "exifOrientation": 1
     },
     {
@@ -34053,16 +33819,13 @@
       "topic": "Kailua",
       "src": "/images/destinations/havai/curated-neighborhood-detail-3.jpg",
       "key": "havai/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5bfbfa8312a0b6e7e95a50779f3bdb3b908d95446ea0176ba25f75b5e769bb46",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Kailua%2C_Oahu%2C_Hawaii.jpg",
+      "title": "File:Kailua, Oahu, Hawaii.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "59bf25badcd0152896590f11bb2ce2359d8bfbc6d6a72affdfed5df19577bbea",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -35043,16 +34806,13 @@
       "topic": "Nassau Downtown",
       "src": "/images/destinations/bahamas/curated-neighborhood-0.jpg",
       "key": "bahamas/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "28bb9536842ac557de70af8cfff21eaa0346e3291b261ab372c98419eacfc66d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_Nassau_-_2025_-_Central_Bank_of_The_Bahamas.jpg",
+      "title": "File:Downtown Nassau - 2025 - Central Bank of The Bahamas.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1d58dbbe8f1fbd704656afb189593968e755be3633ff09f3fb26ab7980ba998a",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -35079,16 +34839,13 @@
       "topic": "Paradise Island",
       "src": "/images/destinations/bahamas/curated-neighborhood-1.jpg",
       "key": "bahamas/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "eb31d934f92c50cd254f3dafb26543f23a9cff374f020f0e9edb3714b68c437a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:The_Atlantis_Paradise_Island_complex.jpg",
+      "title": "File:The Atlantis Paradise Island complex.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3014d0fa731edca8315e70ba1f356f8b67907d906f7829da122aced1328fc835",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -35097,16 +34854,13 @@
       "topic": "Paradise Island",
       "src": "/images/destinations/bahamas/curated-neighborhood-detail-1.jpg",
       "key": "bahamas/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "54b226e2f53d5ae99f1cb6b755325be4c2518fec5bc0293aafbc3e9ed08b070a",
+      "source": "https://commons.wikimedia.org/wiki/File:Paradise_Island_Lighthouse%2C_NASSAU_BAHAMAS.jpg",
+      "title": "File:Paradise Island Lighthouse, NASSAU BAHAMAS.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "5fefbfe198bee6c7c2f843b61c740a08578a799e4fb5024acad5f0acb3f46a3f",
       "width": 1600,
-      "height": 900,
+      "height": 1200,
       "exifOrientation": 1
     },
     {
@@ -36243,16 +35997,13 @@
       "topic": "Wicker Park",
       "src": "/images/destinations/chicago/curated-neighborhood-3.jpg",
       "key": "chicago/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5b299b447b1010caa91ede8f4a9d562dc99858be864cfdcb00316b30aad4c926",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Chicago_North_Ave.jpg",
+      "title": "File:Chicago North Ave.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9c7c1b369218f9b055256162e6ad73893d4d8bc792a20a918fcf5551c5a273a1",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -36261,16 +36012,13 @@
       "topic": "Wicker Park",
       "src": "/images/destinations/chicago/curated-neighborhood-detail-3.jpg",
       "key": "chicago/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f19f88d48d3bd5549c66756b8b71cdadf0653c5036e968b80af0b4d1c783e167",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Wicker_Park_-_Chicago_-_Illinois_-_USA.jpg",
+      "title": "File:Wicker Park - Chicago - Illinois - USA.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "510397593bc27e3c65376120d2778305d6a88ce4e75382195eb28ddbffa341b1",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -37230,16 +36978,13 @@
       "topic": "Strip",
       "src": "/images/destinations/las-vegas/curated-neighborhood-0.jpg",
       "key": "las-vegas/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:las-vegas/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9d8c9580dffc81a33ce5047ed66f1959c70993db8c170c7c1b24092e83aab322",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:The_Strip_%282026%29-L1000592.jpg",
+      "title": "File:The Strip (2026)-L1000592.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "79ca985124e85573f150e93f7755f052d5d827c863494fa8a46706a18ff65086",
+      "width": 2400,
+      "height": 1920,
       "exifOrientation": 1
     },
     {
@@ -37284,16 +37029,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/las-vegas/curated-neighborhood-detail-1.jpg",
       "key": "las-vegas/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:las-vegas/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "083d0e72135247e75fd6564704f423104fdc3e9fd8c00e93f6006ec4734a6fc4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Las_Vegas_2016.-_Main_Street_Station.JPG",
+      "title": "File:Las Vegas 2016.- Main Street Station.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fa9f9aa7d0153ba8573cc96e8f583793d4fe2af83d5774124742e3232e1e02ec",
+      "width": 2400,
+      "height": 1086,
       "exifOrientation": 1
     },
     {
@@ -37302,16 +37044,13 @@
       "topic": "Summerlin",
       "src": "/images/destinations/las-vegas/curated-neighborhood-2.jpg",
       "key": "las-vegas/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:las-vegas/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f1c2246e0d0332deafc127e64655b235fc0656dfdbd657836e081718c041ea7c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_Summerlin_in_Summerlin_South%2C_Nevada_%282024%29_--_3198.jpg",
+      "title": "File:Downtown Summerlin in Summerlin South, Nevada (2024) -- 3198.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "08c30a5cc77407e5bde44d73e697e4b6430dc9d783caafacf1fa56a6973e593f",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {

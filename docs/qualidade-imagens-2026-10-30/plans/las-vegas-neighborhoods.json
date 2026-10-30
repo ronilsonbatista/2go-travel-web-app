@@ -1,0 +1,67 @@
+{
+  "city": "las-vegas",
+  "region": "americas",
+  "center": [
+    36.1699,
+    -115.1398,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Las Vegas Strip",
+      "required": [
+        "las vegas strip"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Downtown Las Vegas",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Summerlin Nevada",
+      "required": [
+        "summerlin"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Paradise Nevada",
+      "required": [
+        "paradise"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

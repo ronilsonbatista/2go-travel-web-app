@@ -1,0 +1,34 @@
+{
+  "lima/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Miraflores: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "lima/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Miraflores: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "lima/neighborhood-1": {
+    "decision": "rejected",
+    "notes": "Mural com enquadramento próximo de candidato já utilizado/rejeitado nas atrações; rejeitado preventivamente por possível variante."
+  },
+  "lima/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Barranco: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "lima/neighborhood-2": {
+    "decision": "rejected",
+    "notes": "Fachada residencial pouco legível e cheia de fios, contexto insuficiente para representar San Isidro."
+  },
+  "lima/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Mesmo prédio com enquadramento quase igual, possível variante e composição fraca."
+  },
+  "lima/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Mapa do distrito, proibido como fotografia do bairro."
+  },
+  "lima/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Centro: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  }
+}
