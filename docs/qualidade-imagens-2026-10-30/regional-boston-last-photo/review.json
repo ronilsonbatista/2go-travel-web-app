@@ -1,0 +1,112 @@
+[
+  {
+    "key": "boston/neighborhood-detail-2",
+    "slot": "neighborhood-detail-2",
+    "topic": "North End",
+    "path": "/images/destinations/boston/curated-neighborhood-detail-2.jpg",
+    "pool": "north-end",
+    "status": "pending-visual-review",
+    "title": "File:Facade - North End, Boston, MA - 03.jpg",
+    "imageinfo": {
+      "size": 3081685,
+      "width": 2224,
+      "height": 3254,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Facade_-_North_End%2C_Boston%2C_MA_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3512,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Facade_-_North_End%2C_Boston%2C_MA_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3512
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Facade_-_North_End%2C_Boston%2C_MA_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Facade_-_North_End,_Boston,_MA_-_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=177903301",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-11-05 23:21:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Facade - North End, Boston, MA - 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Uploaded with Mobile/Android|Buildings in North End, Boston|Photographs taken on 2025-11-05",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Facade - North End, Boston, Massachusetts, USA.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "5 November 2025 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daderot\" title=\"User:Daderot\">Daderot</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/neighborhood-detail-2.jpg",
+    "dimensions": [
+      1640,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Facade_-_North_End%2C_Boston%2C_MA_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "dd41626d544e850da11dfac084fe9d1e261e8f05e56c1f19b2817bcc4b72ecb8"
+  }
+]

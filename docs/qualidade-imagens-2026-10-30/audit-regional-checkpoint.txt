@@ -2,7 +2,7 @@
 > 2go-travel-next@0.1.0 audit:guide-images
 > node scripts/audit-guide-images.mjs
 
-(node:23092) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/2go-validation-remote/src/data/guidesData.js is not specified and it doesn't parse as CommonJS.
+(node:23957) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///private/tmp/2go-validation-remote/src/data/guidesData.js is not specified and it doesn't parse as CommonJS.
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 To eliminate this warning, add "type": "module" to /private/tmp/2go-validation-remote/package.json.
 (Use `node --trace-warnings ...` to show where the warning was created)
@@ -115,10 +115,10 @@ Istambul: 6 attractions; 60 independent photo slots
 Dubai: 6 attractions; 57 independent photo slots
 
 Scope: hero, home, guide listing/highlight, about, phone, attractions, explore pins/list, regions, hotels, itinerary, neighborhoods/detail, essentials, costs, insights, day trips, map preview.
-6845 curated slots + 9 supplemental editorial photos; 6854 unique paths; 6847 unique local SHA-256 hashes; 1607 distinct curated source photos; 7 unique remote source URLs.
+6845 curated slots + 9 supplemental editorial photos; 6854 unique paths; 6847 unique local SHA-256 hashes; 1650 distinct curated source photos; 7 unique remote source URLs.
 SEO metadata and the same position across responsive/interaction states are not separate editorial positions.
 
-Audit FAILED: 15536 problem(s).
+Audit FAILED: 15407 problem(s).
 - REUSED original photo: rio-de-janeiro/hero + rio-de-janeiro/intro
 - REUSED original photo: rio-de-janeiro/hero + rio-de-janeiro/home
 - REUSED original photo: rio-de-janeiro/hero + rio-de-janeiro/guide-card
@@ -3436,135 +3436,6 @@ Audit FAILED: 15536 problem(s).
 - REUSED original photo: san-andres/hero + las-vegas/hotel-list-3
 - PENDING visual review: las-vegas/hotel-list-3
 - PLACEHOLDER photo: las-vegas/hotel-list-3
-- REUSED original photo: san-andres/hero + boston/guide-card
-- PENDING visual review: boston/guide-card
-- PLACEHOLDER photo: boston/guide-card
-- REUSED original photo: san-andres/hero + boston/essential-moeda
-- PENDING visual review: boston/essential-moeda
-- PLACEHOLDER photo: boston/essential-moeda
-- REUSED original photo: san-andres/hero + boston/essential-idioma
-- PENDING visual review: boston/essential-idioma
-- PLACEHOLDER photo: boston/essential-idioma
-- REUSED original photo: san-andres/hero + boston/essential-transporte
-- PENDING visual review: boston/essential-transporte
-- PLACEHOLDER photo: boston/essential-transporte
-- REUSED original photo: san-andres/hero + boston/essential-docs
-- PENDING visual review: boston/essential-docs
-- PLACEHOLDER photo: boston/essential-docs
-- REUSED original photo: san-andres/hero + boston/costs
-- PENDING visual review: boston/costs
-- PLACEHOLDER photo: boston/costs
-- REUSED original photo: san-andres/hero + boston/mistakes
-- PENDING visual review: boston/mistakes
-- PLACEHOLDER photo: boston/mistakes
-- REUSED original photo: san-andres/hero + boston/tips
-- PENDING visual review: boston/tips
-- PLACEHOLDER photo: boston/tips
-- REUSED original photo: san-andres/hero + boston/attraction-0
-- PENDING visual review: boston/attraction-0
-- PLACEHOLDER photo: boston/attraction-0
-- REUSED original photo: san-andres/hero + boston/map-list-2
-- PENDING visual review: boston/map-list-2
-- PLACEHOLDER photo: boston/map-list-2
-- REUSED original photo: san-andres/hero + boston/map-list-4
-- PENDING visual review: boston/map-list-4
-- PLACEHOLDER photo: boston/map-list-4
-- REUSED original photo: san-andres/hero + boston/day-0
-- PENDING visual review: boston/day-0
-- PLACEHOLDER photo: boston/day-0
-- REUSED original photo: san-andres/hero + boston/day-1
-- PENDING visual review: boston/day-1
-- PLACEHOLDER photo: boston/day-1
-- REUSED original photo: san-andres/hero + boston/day-2
-- PENDING visual review: boston/day-2
-- PLACEHOLDER photo: boston/day-2
-- REUSED original photo: san-andres/hero + boston/day-3
-- PENDING visual review: boston/day-3
-- PLACEHOLDER photo: boston/day-3
-- REUSED original photo: san-andres/hero + boston/day-4
-- PENDING visual review: boston/day-4
-- PLACEHOLDER photo: boston/day-4
-- REUSED original photo: san-andres/hero + boston/neighborhood-0
-- PENDING visual review: boston/neighborhood-0
-- PLACEHOLDER photo: boston/neighborhood-0
-- REUSED original photo: san-andres/hero + boston/neighborhood-detail-0
-- PENDING visual review: boston/neighborhood-detail-0
-- PLACEHOLDER photo: boston/neighborhood-detail-0
-- REUSED original photo: san-andres/hero + boston/neighborhood-1
-- PENDING visual review: boston/neighborhood-1
-- PLACEHOLDER photo: boston/neighborhood-1
-- REUSED original photo: san-andres/hero + boston/neighborhood-detail-1
-- PENDING visual review: boston/neighborhood-detail-1
-- PLACEHOLDER photo: boston/neighborhood-detail-1
-- REUSED original photo: san-andres/hero + boston/neighborhood-2
-- PENDING visual review: boston/neighborhood-2
-- PLACEHOLDER photo: boston/neighborhood-2
-- REUSED original photo: san-andres/hero + boston/neighborhood-detail-2
-- PENDING visual review: boston/neighborhood-detail-2
-- PLACEHOLDER photo: boston/neighborhood-detail-2
-- REUSED original photo: san-andres/hero + boston/neighborhood-3
-- PENDING visual review: boston/neighborhood-3
-- PLACEHOLDER photo: boston/neighborhood-3
-- REUSED original photo: san-andres/hero + boston/neighborhood-detail-3
-- PENDING visual review: boston/neighborhood-detail-3
-- PLACEHOLDER photo: boston/neighborhood-detail-3
-- REUSED original photo: san-andres/hero + boston/trip-0
-- PENDING visual review: boston/trip-0
-- PLACEHOLDER photo: boston/trip-0
-- REUSED original photo: san-andres/hero + boston/trip-1
-- PENDING visual review: boston/trip-1
-- PLACEHOLDER photo: boston/trip-1
-- REUSED original photo: san-andres/hero + boston/trip-2
-- PENDING visual review: boston/trip-2
-- PLACEHOLDER photo: boston/trip-2
-- REUSED original photo: san-andres/hero + boston/region-0
-- PENDING visual review: boston/region-0
-- PLACEHOLDER photo: boston/region-0
-- REUSED original photo: san-andres/hero + boston/region-list-0
-- PENDING visual review: boston/region-list-0
-- PLACEHOLDER photo: boston/region-list-0
-- REUSED original photo: san-andres/hero + boston/region-1
-- PENDING visual review: boston/region-1
-- PLACEHOLDER photo: boston/region-1
-- REUSED original photo: san-andres/hero + boston/region-list-1
-- PENDING visual review: boston/region-list-1
-- PLACEHOLDER photo: boston/region-list-1
-- REUSED original photo: san-andres/hero + boston/region-2
-- PENDING visual review: boston/region-2
-- PLACEHOLDER photo: boston/region-2
-- REUSED original photo: san-andres/hero + boston/region-list-2
-- PENDING visual review: boston/region-list-2
-- PLACEHOLDER photo: boston/region-list-2
-- REUSED original photo: san-andres/hero + boston/region-3
-- PENDING visual review: boston/region-3
-- PLACEHOLDER photo: boston/region-3
-- REUSED original photo: san-andres/hero + boston/region-list-3
-- PENDING visual review: boston/region-list-3
-- PLACEHOLDER photo: boston/region-list-3
-- REUSED original photo: san-andres/hero + boston/hotel-0
-- PENDING visual review: boston/hotel-0
-- PLACEHOLDER photo: boston/hotel-0
-- REUSED original photo: san-andres/hero + boston/hotel-list-0
-- PENDING visual review: boston/hotel-list-0
-- PLACEHOLDER photo: boston/hotel-list-0
-- REUSED original photo: san-andres/hero + boston/hotel-1
-- PENDING visual review: boston/hotel-1
-- PLACEHOLDER photo: boston/hotel-1
-- REUSED original photo: san-andres/hero + boston/hotel-list-1
-- PENDING visual review: boston/hotel-list-1
-- PLACEHOLDER photo: boston/hotel-list-1
-- REUSED original photo: san-andres/hero + boston/hotel-2
-- PENDING visual review: boston/hotel-2
-- PLACEHOLDER photo: boston/hotel-2
-- REUSED original photo: san-andres/hero + boston/hotel-list-2
-- PENDING visual review: boston/hotel-list-2
-- PLACEHOLDER photo: boston/hotel-list-2
-- REUSED original photo: san-andres/hero + boston/hotel-3
-- PENDING visual review: boston/hotel-3
-- PLACEHOLDER photo: boston/hotel-3
-- REUSED original photo: san-andres/hero + boston/hotel-list-3
-- PENDING visual review: boston/hotel-list-3
-- PLACEHOLDER photo: boston/hotel-list-3
 - REUSED original photo: san-andres/hero + ibiza/hero
 - PENDING visual review: ibiza/hero
 - PLACEHOLDER photo: ibiza/hero

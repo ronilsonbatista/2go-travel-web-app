@@ -1,0 +1,18 @@
+{
+  "boston/day-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Bairros e gastronomia, localização compatível, orientação correta e composição legível. Vista distinta das imagens aceitas anteriores, sem mapa ou distorção esférica."
+  },
+  "boston/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Candidato histórico monocromático reapareceu; rejeitado e não aplicado."
+  },
+  "boston/map-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Harvard Yard, localização compatível, orientação correta e composição legível. Vista distinta das imagens aceitas anteriores, sem mapa ou distorção esférica."
+  },
+  "boston/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Hotel em Downtown, localização compatível, orientação correta e composição legível. Vista distinta das imagens aceitas anteriores, sem mapa ou distorção esférica."
+  }
+}

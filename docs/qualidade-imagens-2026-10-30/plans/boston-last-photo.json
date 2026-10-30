@@ -1,0 +1,24 @@
+{
+  "city": "boston",
+  "region": "americas",
+  "center": [
+    42.3601,
+    -71.0589,
+    50
+  ],
+  "pools": {
+    "north-end": {
+      "query": "North End Boston",
+      "required": [
+        "north end"
+      ],
+      "requiredTitle": "facade.*north end.*03",
+      "locationPatterns": [
+        "boston"
+      ],
+      "slots": [
+        "neighborhood-detail-2"
+      ]
+    }
+  }
+}

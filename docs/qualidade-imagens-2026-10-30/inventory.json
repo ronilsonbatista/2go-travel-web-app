@@ -4,10 +4,10 @@
     "cities": 107,
     "flagCounts": {
       "prominent-below-1600": 10,
-      "placeholder": 5114,
-      "not-visually-accepted": 5123
+      "placeholder": 5071,
+      "not-visually-accepted": 5080
     },
-    "placeholderCities": 86,
+    "placeholderCities": 85,
     "note": "Existing accepted values are inherited, not a new visual review. EXIF cannot detect baked-in upside-down photos."
   },
   "slots": [
@@ -37761,16 +37761,13 @@
       "topic": "Boston",
       "src": "/images/destinations/boston/curated-guide-card.jpg",
       "key": "boston/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c626c11ca2b8776e9a523feac87e96b110c6c033219ff1b2825542d5400365d4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Acorn_Street%2C_Beacon_Hill%2C_Boston.jpg",
+      "title": "File:Acorn Street, Beacon Hill, Boston.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "897b050160b90dd3f965b21bc7fa6e7bf5067569c6fed46fb942b366400fcb5b",
+      "width": 2400,
+      "height": 1588,
       "exifOrientation": 1
     },
     {
@@ -37824,16 +37821,13 @@
       "topic": "Moeda & pagamentos",
       "src": "/images/destinations/boston/curated-essential-moeda.jpg",
       "key": "boston/essential-moeda",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/essential-moeda",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c181b8c644ce8845be7590ea39bb1181791566c8690b011d922f0393e1422f31",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Series_2013_%24100_bill_front.jpg",
+      "title": "File:Series 2013 $100 bill front.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0e09427b37e8274616d96ad17a5c7cddf5eafc483b7668965b52f54185db9b39",
+      "width": 2400,
+      "height": 1036,
       "exifOrientation": 1
     },
     {
@@ -37842,16 +37836,13 @@
       "topic": "Idioma",
       "src": "/images/destinations/boston/curated-essential-idioma.jpg",
       "key": "boston/essential-idioma",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/essential-idioma",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "24db979c648a6e8c8d327cd814c7e0f305452714ab50267917b188c74b0de3d0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Boston_Place_street_signs%2C_old_and_new._%2816117306571%29.jpg",
+      "title": "File:Boston Place street signs, old and new. (16117306571).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "5b12642a3da1adf6103eb86f2c724acc13335643e1cf50da1b1c9abb1539988d",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -37860,16 +37851,13 @@
       "topic": "Transporte",
       "src": "/images/destinations/boston/curated-essential-transporte.jpg",
       "key": "boston/essential-transporte",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/essential-transporte",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c9a80e9ea98af04baacc197994edc90a2ddc9499fb99b87aba0bf33ec3a74d49",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:MBTA_Red_Line_1700-series_interior.jpg",
+      "title": "File:MBTA Red Line 1700-series interior.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "579ed63dcd6f35779d6862fbc3155d99e775c667a028b260896ed09145b59ea1",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -37878,16 +37866,13 @@
       "topic": "Documentação & seguro",
       "src": "/images/destinations/boston/curated-essential-docs.jpg",
       "key": "boston/essential-docs",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/essential-docs",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5a39783ed3e99a4f26cdbbefb4c676a36d88ccb83ecdd0bfa54fea8eb84c1206",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2024-07-27_15_06_52_Front_cover_of_a_standard_issue_2024_United_States_passport_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+      "title": "File:2024-07-27 15 06 52 Front cover of a standard issue 2024 United States passport in Ewing Township, Mercer County, New Jersey.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d3088ecc18ca65c9eb0dbeb57aacf10d7b8a6d75a3a4faed618791eb08871577",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -37896,16 +37881,13 @@
       "topic": "Pratos típicos de Boston",
       "src": "/images/destinations/boston/curated-costs.jpg",
       "key": "boston/costs",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/costs",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0e347cb7d8ce4e60210e14a9c9578c6173a0b6917d65b2083350be380ce79de8",
+      "source": "https://commons.wikimedia.org/wiki/File:Quincy_Market_-_Boston_Chowda_clam_chowder.jpg",
+      "title": "File:Quincy Market - Boston Chowda clam chowder.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "59554520b661df772af1224fd77b00eb1b32f2eaed871f22424a474f2e1d41da",
       "width": 1600,
-      "height": 900,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -37914,16 +37896,13 @@
       "topic": "Erros comuns",
       "src": "/images/destinations/boston/curated-mistakes.jpg",
       "key": "boston/mistakes",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/mistakes",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "24c870516e8b1c55007dd650e39418e45712f8b49dfe3f5766d4bebdc36f439f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Boston_Logan_International_Airport_-_Terminal_E_-_Gate_E16_-_Iberia_flight_to_Madrid.jpg",
+      "title": "File:Boston Logan International Airport - Terminal E - Gate E16 - Iberia flight to Madrid.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d9947a3f53bd7cd15ec6c63e81a7d08dfd4d9b41b0808ac530c9c8a67c9998d8",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -37932,16 +37911,13 @@
       "topic": "Dicas importantes",
       "src": "/images/destinations/boston/curated-tips.jpg",
       "key": "boston/tips",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/tips",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "87a6adebd7ed505e64ebbbfdc04ebf58cf23a0ee0045022b38e2706370d84d43",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Charlestown_Bridge_%287201186026%29.jpg",
+      "title": "File:Charlestown Bridge (7201186026).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8b16389b75b6c742f016b8ccb4efe07d4182dcc928975e5ec8edad926e3e4630",
+      "width": 1063,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -37950,16 +37926,13 @@
       "topic": "Freedom Trail",
       "src": "/images/destinations/boston/curated-attraction-0.jpg",
       "key": "boston/attraction-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/attraction-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f267d41dfb31607db9fbe48d4d0c84d6920ed5770df6c48f397c2e4474453fce",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Freedom_Trail_Marker%2C_Boston%2C_MA%2C_2023-02-21.jpg",
+      "title": "File:Freedom Trail Marker, Boston, MA, 2023-02-21.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3c077ed2107b1e181a0a55798a0197b967f0eacf6bc4ad0f0f57b357993e9da1",
+      "width": 2400,
+      "height": 2328,
       "exifOrientation": 1
     },
     {
@@ -38073,16 +38046,13 @@
       "topic": "Harvard Yard",
       "src": "/images/destinations/boston/curated-map-list-2.jpg",
       "key": "boston/map-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/map-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c4dfb522295587f822a3e3f60ad50a18fae19216b48a98899d012804114566b2",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Harvard_Yard_in_autumn%2C_Boston%2C_Massachusetts%2C_2015.jpg",
+      "title": "File:Harvard Yard in autumn, Boston, Massachusetts, 2015.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b3051b112cc645479d7ffcbf1adc8e5bbc287190bc6a9fd0a21276ac2450e0df",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38166,16 +38136,13 @@
       "topic": "Quincy Market",
       "src": "/images/destinations/boston/curated-map-list-4.jpg",
       "key": "boston/map-list-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/map-list-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e5de01927b59d1233c5fc9a68cbc6184331ce3b8fce9604e11b61e7c21395b27",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Triskelion_Fa%C3%A7ade_storefront_detail_South_Market_Building_Faneuil_Hall_Marketplace_Boston_Massachusetts.jpg",
+      "title": "File:Triskelion Façade storefront detail South Market Building Faneuil Hall Marketplace Boston Massachusetts.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c2b1cd99a5dcb3baf4ff091c53b5036032124214bed3c64df63f592e6bfdc3ac",
+      "width": 2048,
+      "height": 1536,
       "exifOrientation": 1
     },
     {
@@ -38229,16 +38196,13 @@
       "topic": "Chegada em Boston",
       "src": "/images/destinations/boston/curated-day-0.jpg",
       "key": "boston/day-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/day-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7c70122e43b7594ecb8e68ca6850585c60085977b5ac4c132c1002adf8716bf5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Logan_Airport_aerial_view.jpg",
+      "title": "File:Logan Airport aerial view.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2b06eacc32cd191ebe285133af61663c519cce0b1cea9b5f1e48eb42d52cf8c9",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -38247,16 +38211,13 @@
       "topic": "Ícones principais",
       "src": "/images/destinations/boston/curated-day-1.jpg",
       "key": "boston/day-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/day-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "de8180fd9857bc2e1ae671d63ef4932f6bca8330543ed74735ae4055dcd0b615",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Boston_Common_%287194230690%29.jpg",
+      "title": "File:Boston Common (7194230690).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "aa074979485922ae0b968029bbe381394872eeb2dea3ec745382983aab863e01",
+      "width": 1063,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38265,16 +38226,13 @@
       "topic": "Bairros e gastronomia",
       "src": "/images/destinations/boston/curated-day-2.jpg",
       "key": "boston/day-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/day-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "eed9de4fcb25bd6d61dcaecdad853b254d92bdc2ff430616026e233ca2e67f87",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:North_End_Boston.jpg",
+      "title": "File:North End Boston.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "5c5c10e60446a87657c6cda738477c93ae1d90fbad47adcbc61d03d5b5ed12a9",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38283,16 +38241,13 @@
       "topic": "Cultura e mirantes",
       "src": "/images/destinations/boston/curated-day-3.jpg",
       "key": "boston/day-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/day-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "babe9e67a57af1137d69babc96c1485d57c7cd1a8790a9559cf5b384d2560285",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg",
+      "title": "File:Isabella Stewart Gardner Museum Boston November 2016 001.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3904e7bbf946e46c8acc2e733fe752b191af2d01f9bcfa0a85b977e29d12b63c",
+      "width": 2400,
+      "height": 1602,
       "exifOrientation": 1
     },
     {
@@ -38301,16 +38256,13 @@
       "topic": "Bate-volta ou folga",
       "src": "/images/destinations/boston/curated-day-4.jpg",
       "key": "boston/day-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/day-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d81bc3587ed0192c9e862dc3ea8ae8683dacf17b70cc7605a36c0a2c6d41a639",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Waterfront_houses%2C_Juniper_Point%2C_Salem_MA_P1000610.jpg",
+      "title": "File:Waterfront houses, Juniper Point, Salem MA P1000610.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "581195a50a85b12addfbcd296357207cdd423b2c54c40c3f6f8df96d287de0a6",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38319,16 +38271,13 @@
       "topic": "Back Bay",
       "src": "/images/destinations/boston/curated-neighborhood-0.jpg",
       "key": "boston/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "63855e58a207df0617d9d7618d485dbbeb95f3e35750d44afadbc7154069beb2",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Boston%27s_Back_Bay_with_the_Massachusetts_State_House.jpg",
+      "title": "File:Boston's Back Bay with the Massachusetts State House.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "aeb20a069ed00c719e03a1b7eb09cf7e2695f2bc2342b0d7358f10968582be9d",
+      "width": 2400,
+      "height": 1807,
       "exifOrientation": 1
     },
     {
@@ -38337,16 +38286,13 @@
       "topic": "Back Bay",
       "src": "/images/destinations/boston/curated-neighborhood-detail-0.jpg",
       "key": "boston/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1e365cbae4ad0e70718209b9e45bf41d069726561fbaf90527d8cb0c18ca3428",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:MBTA_1018_at_Back_Bay_station%2C_August_2003.jpg",
+      "title": "File:MBTA 1018 at Back Bay station, August 2003.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1c08410189b2751b61768e844e05075185b0148307a1492af60528d08da47018",
+      "width": 2048,
+      "height": 1536,
       "exifOrientation": 1
     },
     {
@@ -38355,16 +38301,13 @@
       "topic": "Beacon Hill",
       "src": "/images/destinations/boston/curated-neighborhood-1.jpg",
       "key": "boston/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "146ceb43307ecdac328a2e5d6e5c2f4aa92a3eb7d92ea828995d24974178c2cf",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:114_Mount_Vernon_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg",
+      "title": "File:114 Mount Vernon Street, Beacon Hill, Boston, 2007.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "17880045a7cd1a9a21eb8fa31aecd2a70c6dd913b4cc2056e6e2a4766c0279a2",
+      "width": 2400,
+      "height": 1596,
       "exifOrientation": 1
     },
     {
@@ -38373,16 +38316,13 @@
       "topic": "Beacon Hill",
       "src": "/images/destinations/boston/curated-neighborhood-detail-1.jpg",
       "key": "boston/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ca5cced4e5cb331049b73aeaa09c2b5c167b5df0488fba7a0670dce432e716cc",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:59_Hancock_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg",
+      "title": "File:59 Hancock Street, Beacon Hill, Boston, 2007.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "72585bf4086861ed08e4b98f1aff25fb9ced4d4ea9c4feaed9597f903530958b",
+      "width": 2000,
+      "height": 2000,
       "exifOrientation": 1
     },
     {
@@ -38391,16 +38331,13 @@
       "topic": "North End",
       "src": "/images/destinations/boston/curated-neighborhood-2.jpg",
       "key": "boston/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "68f42ab6d56dbb678e020dd41b3f91c757a120657cfff5dbac495f01fd8830dd",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2009_HanoverSt_Boston.jpg",
+      "title": "File:2009 HanoverSt Boston.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "26c62e97b9e3b83d1a424e8f13df3065a5d43eb3e1c311117d7adcab6fa1c0e0",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38409,16 +38346,13 @@
       "topic": "North End",
       "src": "/images/destinations/boston/curated-neighborhood-detail-2.jpg",
       "key": "boston/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4f97a2c6caf9a8c18dddead9d927d77618c649a1761846269d6a9c49653f7bbe",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Facade_-_North_End%2C_Boston%2C_MA_-_03.jpg",
+      "title": "File:Facade - North End, Boston, MA - 03.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "dd41626d544e850da11dfac084fe9d1e261e8f05e56c1f19b2817bcc4b72ecb8",
+      "width": 1640,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -38427,16 +38361,13 @@
       "topic": "Cambridge",
       "src": "/images/destinations/boston/curated-neighborhood-3.jpg",
       "key": "boston/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4bcb561c58dfeed07d298840ce27245537a2dc5198691c92f0d23000a1c9cdd8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Burying_Ground_-_Cambridge%2C_Massachusetts_-_DSC09211.jpg",
+      "title": "File:Old Burying Ground - Cambridge, Massachusetts - DSC09211.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2e29c48a2342b468d6ee274a9979484592ade22fa3f917001b950140f3856b0a",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38445,16 +38376,13 @@
       "topic": "Cambridge",
       "src": "/images/destinations/boston/curated-neighborhood-detail-3.jpg",
       "key": "boston/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1ae29cb2668bbd2c1be54685b266957423c9996c624d99e4c39de5026cd373e5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Harvard_Square%2C_Cambridge_MA.jpg",
+      "title": "File:Harvard Square, Cambridge MA.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "38f24d14b79e30f256dc888456f40f6beb2475b313420e046111ff242f479353",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -38463,16 +38391,13 @@
       "topic": "Arredores de Boston",
       "src": "/images/destinations/boston/curated-trip-0.jpg",
       "key": "boston/trip-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/trip-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "149826a2effbf6693e39b84a489a601d1e8ed9b6f6387c5bd0014d983ed5bb71",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Turner_Street%2C_Salem%2C_MA.jpg",
+      "title": "File:Turner Street, Salem, MA.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c5a240ce12a3da4f2af584c58e35620f1bee25a41855206dd8c17b0c584611ac",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -38481,16 +38406,13 @@
       "topic": "Passeio regional de meio dia",
       "src": "/images/destinations/boston/curated-trip-1.jpg",
       "key": "boston/trip-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/trip-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b3b479beb573c22d3b1028b422133b1ebb8193493b43aeee119099850c683040",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Old_North_Bridge%2C_Concord%2C_Massachusetts%2C_July_2005.JPG",
+      "title": "File:Old North Bridge, Concord, Massachusetts, July 2005.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c820d679d0423de71597029569b77776af284b1b101325859abe52c7d0fd8b02",
+      "width": 2400,
+      "height": 1764,
       "exifOrientation": 1
     },
     {
@@ -38499,16 +38421,13 @@
       "topic": "Destino costeiro ou histórico próximo",
       "src": "/images/destinations/boston/curated-trip-2.jpg",
       "key": "boston/trip-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/trip-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1c705704323386d4d768f676519ddf848d99aaee024f5a3afc5d921ec71e176f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:USA_Cape_Cod_1_MA.jpg",
+      "title": "File:USA Cape Cod 1 MA.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "93804185f77147f08f95d3ce13cdd92e8039053af3bd55b3f6c568cbe1ae0258",
+      "width": 2272,
+      "height": 1704,
       "exifOrientation": 1
     },
     {
@@ -38517,16 +38436,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/boston/curated-region-0.jpg",
       "key": "boston/region-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/region-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "faa0e6fccd430586c3f879108983d1bb36e7d47a3cc86004d27adaab3c971a9e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:One_International_Place%2C_Boston_MA.jpg",
+      "title": "File:One International Place, Boston MA.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e5b610cc029b0f54224381fd5d4b389957bfb7c5ba9c2c40049b219c09edc7f9",
+      "width": 1602,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -38535,16 +38451,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/boston/curated-region-list-0.jpg",
       "key": "boston/region-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/region-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "acea3c8d9d5caec6ad46b46dbd6929448c554a1ef6b71c9d67696ad989a59a04",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Financial_District%2C_Boston%2C_MA.jpg",
+      "title": "File:Financial District, Boston, MA.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "16ec9e37dc9c8a31866960d9138ca71980d178597e1e3498b20fba44d659d62f",
+      "width": 2400,
+      "height": 1740,
       "exifOrientation": 1
     },
     {
@@ -38553,16 +38466,13 @@
       "topic": "Back Bay",
       "src": "/images/destinations/boston/curated-region-1.jpg",
       "key": "boston/region-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/region-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d6d80740194503692c4eb4d4fd8b331f5308c308478a02c67237b880047b9577",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Cityscape_Boylston_501_Clock_Tower_downtown_Back_Bay_Charles_River_Boston_MIT_campus_Cambridge.jpg",
+      "title": "File:Cityscape Boylston 501 Clock Tower downtown Back Bay Charles River Boston MIT campus Cambridge.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2610c86d35abb66d6eb7209d0077ac73ffcf30a8daa6489a5f481cd19c02d362",
+      "width": 2048,
+      "height": 1536,
       "exifOrientation": 1
     },
     {
@@ -38571,16 +38481,13 @@
       "topic": "Back Bay",
       "src": "/images/destinations/boston/curated-region-list-1.jpg",
       "key": "boston/region-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/region-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7cc74a3a3c39baa757b7fc90e9cdb8571e4eb1f00e0c26e77737dc5bbb454c20",
+      "source": "https://commons.wikimedia.org/wiki/File:Boston_%28MA%29%2C_Back_Bay_East_%2814511339963%29.jpg",
+      "title": "File:Boston (MA), Back Bay East (14511339963).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "5dc1823e12c691dcbf1dd0def781e13a14effd1210588c794c8e1733925c7771",
       "width": 1600,
-      "height": 900,
+      "height": 1067,
       "exifOrientation": 1
     },
     {
@@ -38589,16 +38496,13 @@
       "topic": "Cambridge",
       "src": "/images/destinations/boston/curated-region-2.jpg",
       "key": "boston/region-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/region-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "12d4e76cddee39ae6baf040da7c1b8fca6406e553e7a16d21e89905bf2128f08",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Harvard_square_2009j.JPG",
+      "title": "File:Harvard square 2009j.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "843c9ddc2afe81acc6503ac4cef06221bab70b0d3c442702c759d3d0d299fdd3",
+      "width": 2400,
+      "height": 1331,
       "exifOrientation": 1
     },
     {
@@ -38607,16 +38511,13 @@
       "topic": "Cambridge",
       "src": "/images/destinations/boston/curated-region-list-2.jpg",
       "key": "boston/region-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/region-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d92d9bbea5871a4be5dab2f4ce1fedb80a9ca63bf0f64f5325fcdc0c0a3bdd8f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Harvard_Square_Subway_Kiosk_from_the_southeast%2C_November_2020.jpg",
+      "title": "File:Harvard Square Subway Kiosk from the southeast, November 2020.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f25fe697b8eb89f82f76e97cd4ce8bbe714cb62a4cfc1afb93de5cd7a204a056",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -38625,16 +38526,13 @@
       "topic": "Waterfront",
       "src": "/images/destinations/boston/curated-region-3.jpg",
       "key": "boston/region-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/region-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1146fd9b5d2058672e80ce2ccfc1d23decbbea31e874f83e67c2a04787e0cc85",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:UnderCharlestownBridge.jpg",
+      "title": "File:UnderCharlestownBridge.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0a93bb110da178df443984421c8c6494807c53c7d8e4934b97536e70d4e15273",
+      "width": 2016,
+      "height": 1512,
       "exifOrientation": 1
     },
     {
@@ -38643,16 +38541,13 @@
       "topic": "Waterfront",
       "src": "/images/destinations/boston/curated-region-list-3.jpg",
       "key": "boston/region-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/region-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "83492f4f6fbf36ec0faa56d62b18932bbde7ebf6f71031b673486733cc2568f7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Boston_Harborwalk_on_Union_Wharf%2C_P1000059.JPG",
+      "title": "File:Boston Harborwalk on Union Wharf, P1000059.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fcb65bd3b52719fc1f69981d6d389f920c77a7f732984175fab1fd3328d64801",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38661,16 +38556,13 @@
       "topic": "Hotel em Downtown",
       "src": "/images/destinations/boston/curated-hotel-0.jpg",
       "key": "boston/hotel-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/hotel-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e59845f6809544fa041be9ce11d090990e23862631d266d398603e68f016bf65",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Boston_Financial_District_skyline.jpg",
+      "title": "File:Boston Financial District skyline.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9abc955c2cce57ad78daed51ee1a557ff59eeb167a2d1d7be84ca897d28da745",
+      "width": 2196,
+      "height": 1680,
       "exifOrientation": 1
     },
     {
@@ -38679,16 +38571,13 @@
       "topic": "Hotel em Downtown",
       "src": "/images/destinations/boston/curated-hotel-list-0.jpg",
       "key": "boston/hotel-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/hotel-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "86b2a3cf3f789e57b611813fddf18a7c12595bab4bdfad070dc3a2290127794b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Skyline_of_Downtown_Boston_20240702.jpg",
+      "title": "File:Skyline of Downtown Boston 20240702.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3d0a38aa03c2540369538e2479063243cfb65fb280fb96eebbdcfd53128ac939",
+      "width": 2400,
+      "height": 1306,
       "exifOrientation": 1
     },
     {
@@ -38697,16 +38586,13 @@
       "topic": "Hotel em Back Bay",
       "src": "/images/destinations/boston/curated-hotel-1.jpg",
       "key": "boston/hotel-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/hotel-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a9dc6deb27c6a943f8a04fb85da0ed8763ee68f7a054836cf21f2ebbfff42e39",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:One_Exeter_Plaza%2C_699_Boylston_Street%2C_Boston%2C_Massachusetts.jpg",
+      "title": "File:One Exeter Plaza, 699 Boylston Street, Boston, Massachusetts.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a763a3dfc80112f976a6ce82417099abd0f27f89886eb8f3b1d182018c1e05c3",
+      "width": 1879,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -38715,16 +38601,13 @@
       "topic": "Hotel em Back Bay",
       "src": "/images/destinations/boston/curated-hotel-list-1.jpg",
       "key": "boston/hotel-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/hotel-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d2c35d31622b6db8916facdc7b5479b4b9ad49ad8cbae0eeabc9fe78431943e7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Newbury_Street_Boston_May_2018.jpg",
+      "title": "File:Newbury Street Boston May 2018.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f10effed1b73d1f6af1c9983deda423d9d7c16c4a7b32864731c44435c23077b",
+      "width": 2400,
+      "height": 1500,
       "exifOrientation": 1
     },
     {
@@ -38733,16 +38616,13 @@
       "topic": "Hotel em Cambridge",
       "src": "/images/destinations/boston/curated-hotel-2.jpg",
       "key": "boston/hotel-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/hotel-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7d34263b3b86b4188d4180c96aaa8ccbfe05f730a949ab492f1ede425313710b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Harvard_Square%2C_February_2022.jpg",
+      "title": "File:Harvard Square, February 2022.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "962a642b0232193f0fe20309f244fbf7467c7c35fd8aadb8ef4815718139eb41",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -38751,16 +38631,13 @@
       "topic": "Hotel em Cambridge",
       "src": "/images/destinations/boston/curated-hotel-list-2.jpg",
       "key": "boston/hotel-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/hotel-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4e39bdb9907c523e570e198bc9eb9b645789885da0ca9ac7fbf8394a9888d904",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Harvard_Square%2C_Cambridge%2C_Massachusetts.jpg",
+      "title": "File:Harvard Square, Cambridge, Massachusetts.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2ab339d9c2bea3868481cd7a85bac6b7b3634f312fac0a834d4b98539ee98e94",
+      "width": 1920,
+      "height": 1920,
       "exifOrientation": 1
     },
     {
@@ -38769,16 +38646,13 @@
       "topic": "Hotel em Waterfront",
       "src": "/images/destinations/boston/curated-hotel-3.jpg",
       "key": "boston/hotel-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/hotel-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6af787166688a1e637d5fb9f189b1a4e0fd17ea2e29af4b6ad2e6b482562ec31",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Boston_Harborwalk_and_Tobin_Bridge.JPG",
+      "title": "File:Boston Harborwalk and Tobin Bridge.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7c183e5339f9c9069525e6da4a21c9566e92d7b8e338a6630cd339f7033c3946",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38787,16 +38661,13 @@
       "topic": "Hotel em Waterfront",
       "src": "/images/destinations/boston/curated-hotel-list-3.jpg",
       "key": "boston/hotel-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:boston/hotel-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3fb22ef54b550a000e26e165c212b4cd29d0e65685dad1f9993b359631e2c53c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Moakley_Courthouse_and_Boston_Harborwalk_02.JPG",
+      "title": "File:Moakley Courthouse and Boston Harborwalk 02.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "aef55195704bd735835441f975eece99fce7fa0e57a1576fc6fec6aa5ed27682",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
