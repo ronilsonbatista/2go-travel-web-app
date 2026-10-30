@@ -1,0 +1,62 @@
+{
+  "assuncao/day-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Chegada em Assunção, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "assuncao/mistakes": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Erros comuns, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "assuncao/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Transporte, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "assuncao/costs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "assuncao/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "assuncao/day-4": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "assuncao/day-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Ícones principais, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "assuncao/tips": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "assuncao/day-2": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "assuncao/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Fachada escura e fios dificultam a leitura do texto, qualidade insuficiente para ilustrar idioma."
+  },
+  "assuncao/essential-moeda": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "assuncao/essential-docs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "assuncao/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Arredores de Assunção, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "assuncao/trip-1": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "assuncao/trip-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Destino costeiro ou histórico próximo, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  }
+}

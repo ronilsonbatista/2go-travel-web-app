@@ -1,0 +1,233 @@
+{
+  "city": "bogota",
+  "region": "americas",
+  "center": [
+    4.711,
+    -74.0721,
+    50
+  ],
+  "pools": {
+    "arrival": {
+      "query": "El Dorado Airport Bogota",
+      "required": [
+        "dorado"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "TransMilenio Bogota",
+      "required": [
+        "transmilenio"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Ajiaco Bogota",
+      "required": [
+        "ajiaco"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Museo del Oro Bogota",
+      "required": [
+        "museo del oro|gold museum"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Simon Bolivar Park Bogota",
+      "required": [
+        "simon bolivar"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Monserrate Bogota",
+      "required": [
+        "monserrate"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "La Candelaria Bogota",
+      "required": [
+        "candelaria"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Bogota Colombia sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "Colombian peso banknotes",
+      "required": [
+        "colombian peso|pesos colombianos"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Colombian passport cover",
+      "required": [
+        "colombian passport|pasaporte colombiano"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Zipaquira Salt Cathedral",
+      "required": [
+        "zipaquira"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        5.02,
+        -74.0,
+        15
+      ]
+    },
+    "trip-1": {
+      "query": "Guatavita lagoon Colombia",
+      "required": [
+        "guatavita"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        4.98,
+        -73.78,
+        20
+      ]
+    },
+    "trip-2": {
+      "query": "La Calera Colombia",
+      "required": [
+        "calera"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        4.72,
+        -73.97,
+        15
+      ]
+    }
+  }
+}

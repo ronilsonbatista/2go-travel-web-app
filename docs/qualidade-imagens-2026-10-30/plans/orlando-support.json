@@ -1,0 +1,233 @@
+{
+  "city": "orlando",
+  "region": "americas",
+  "center": [
+    28.5383,
+    -81.3792,
+    50
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Orlando International Airport terminal",
+      "required": [
+        "orlando"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "SunRail Orlando",
+      "required": [
+        "sunrail"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Orlando Florida barbecue",
+      "required": [
+        "barbecue|barbeque|bbq"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "ICON Park Orlando",
+      "required": [
+        "icon park|orlando eye|wheel at icon"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Lake Eola Orlando",
+      "required": [
+        "lake eola"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Walt Disney World Florida",
+      "required": [
+        "disney"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Walt Disney World Florida",
+      "required": [
+        "disney"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Orlando Florida sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Kennedy Space Center",
+      "required": [
+        "kennedy"
+      ],
+      "locationPatterns": [
+        "florida|united states|usa"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        28.57,
+        -80.65,
+        25
+      ]
+    },
+    "trip-1": {
+      "query": "Winter Park Florida",
+      "required": [
+        "winter park"
+      ],
+      "locationPatterns": [
+        "florida|united states|usa"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        28.6,
+        -81.35,
+        20
+      ]
+    },
+    "trip-2": {
+      "query": "Winter Garden Florida",
+      "required": [
+        "winter garden"
+      ],
+      "locationPatterns": [
+        "florida|united states|usa"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        28.56,
+        -81.59,
+        20
+      ]
+    }
+  }
+}

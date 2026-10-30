@@ -10,6 +10,7 @@ import unicodedata
 import urllib.parse
 from pathlib import Path
 from PIL import Image
+from guide_photo_origins import origin_photo_id, live_origins, INDEX
 
 ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser()
@@ -21,6 +22,8 @@ rows=json.loads(review_path.read_text())
 decisions=json.loads(Path(args.decisions).read_text())
 mf=ROOT/'docs/curadoria-2026-10-29/sources.json'
 manifest=json.loads(mf.read_text())
+origin_index=json.loads(INDEX.read_text()) if INDEX.exists() else {}
+existing_origins=set(live_origins(manifest).values())
 def norm(value):
  return ''.join(c for c in unicodedata.normalize('NFKD',value).lower() if not unicodedata.combining(c)).replace('_',' ')
 def family(value):
@@ -48,6 +51,8 @@ for row in rows:
  title=norm(row['title']);fam=family(row['title'])
  if title in existing_titles or fam in existing_families:raise ValueError('Repeated source/family: '+row['title'])
  meta=row['imageinfo']['extmetadata'];license=meta.get('LicenseShortName',{}).get('value','').strip()
+ origin=origin_photo_id(row['imageinfo'])
+ if origin and origin in existing_origins:raise ValueError('Repeated external original: '+origin+' '+row['key'])
  if not re.fullmatch(r'CC BY(?:-SA)? (?:1.0|2.0|2.5|3.0|4.0)|CC0|Public domain',license,re.I):raise ValueError('Unapproved license: '+license)
  author=html.unescape(re.sub('<[^>]+>','',meta.get('Artist',{}).get('value',''))).strip()
  if not author:raise ValueError('Missing author')
@@ -55,7 +60,9 @@ for row in rows:
   im.verify()
  with Image.open(staged) as im:
   dimensions=list(im.size)
-  if max(dimensions)<1600:raise ValueError('Image is not HQ')
+  prominent=row['slot'] in {'hero','intro','home','home-slide','home-thumb','guide-card','guide-highlight'}
+  minimum=max(1600 if prominent else 1024,row.get('minimumLongEdge',1600))
+  if max(dimensions)<minimum:raise ValueError('Image below the role-specific quality floor')
  source='https://commons.wikimedia.org/wiki/'+urllib.parse.quote(row['title'].replace(' ','_'),safe=':')
  new={'city':old['city'],'slot':old['slot'],'path':old['path'],'topic':row['topic'],
   'source':source,'title':row['title'],'author':author,'license':license,
@@ -65,18 +72,21 @@ for row in rows:
   'date':html.unescape(re.sub('<[^>]+>','',meta.get('DateTimeOriginal',{}).get('value',''))),
   'downloadUrl':row['downloadUrl'],'originalUrl':row['imageinfo']['url'],
   'assetDimensions':dimensions,'originalDimensions':[row['imageinfo']['width'],row['imageinfo']['height']],
-  'visualReview':'accepted','reviewedAt':'2026-10-30','reviewNotes':decision['notes'],'assetSha256':digest}
+  'visualReview':'accepted','reviewedAt':'2026-10-30','reviewNotes':decision['notes'],'assetSha256':digest,'minimumLongEdge':minimum}
  for field,key in [('latitude','GPSLatitude'),('longitude','GPSLongitude')]:
   try:new[field]=float(meta[key]['value'])
   except (KeyError,ValueError,TypeError):pass
  prepared.append((row,staged,new))
+ if origin:existing_origins.add(origin)
  existing_hashes.add(digest);existing_titles.add(title);existing_families.add(fam)
 # All checks precede the first write. Existing editorial strings are untouched.
 for row,staged,new in prepared:
  target=ROOT/'public'/row['path'].lstrip('/')
  temp=target.with_suffix('.reviewed.tmp');shutil.copyfile(staged,temp);temp.replace(target)
  manifest[row['key']]=new
+ origin_index[row['key']]={'source':new['source'],'originPhotoId':origin_photo_id(row['imageinfo']),'metadataChecked':True}
 mf.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+INDEX.write_text(json.dumps(origin_index,ensure_ascii=False,indent=2)+'\n')
 remaining=sum('placeholder' in v.get('source','') for v in manifest.values())
 log_path=review_path.parent/'applied.json'
 previous=json.loads(log_path.read_text()) if log_path.exists() else {}

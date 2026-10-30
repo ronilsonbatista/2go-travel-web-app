@@ -1,0 +1,1396 @@
+[
+  {
+    "key": "fernando-de-noronha/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Fernando de Noronha",
+    "status": "no-candidate",
+    "pool": "arrival"
+  },
+  {
+    "key": "fernando-de-noronha/mistakes",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "status": "no-candidate",
+    "pool": "arrival"
+  },
+  {
+    "key": "fernando-de-noronha/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "path": "/images/destinations/fernando-de-noronha/curated-essential-transporte.jpg",
+    "pool": "transport",
+    "status": "pending-visual-review",
+    "title": "File:Fernando de Noronha Buggy (22225667871).jpg",
+    "imageinfo": {
+      "size": 2388647,
+      "width": 2244,
+      "height": 2992,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fernando_de_Noronha_Buggy_%2822225667871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fernando_de_Noronha_Buggy_%2822225667871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fernando_de_Noronha_Buggy_%2822225667871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fernando_de_Noronha_Buggy_(22225667871).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=58467890",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-05-03 18:39:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Fernando de Noronha Buggy (22225667871)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "BR-363|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Brazil photographs taken on 2014-07-24|Files from dronepicr Flickr stream|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-3.834725",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-32.400075",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Fernando de Noronha Buggy",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-07-24 09:31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/132646954@N02/22225667871/\">Fernando de Noronha Buggy</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/essential-transporte.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Fernando_de_Noronha_Buggy_%2822225667871%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "4653d69db7ca93a91aa1452513aacd78cf1dc102712aa5e814d47f0f2a1d8717"
+  },
+  {
+    "key": "fernando-de-noronha/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Fernando de Noronha",
+    "status": "no-candidate",
+    "pool": "food"
+  },
+  {
+    "key": "fernando-de-noronha/day-3",
+    "slot": "day-3",
+    "topic": "Cultura e mirantes",
+    "path": "/images/destinations/fernando-de-noronha/curated-day-3.jpg",
+    "pool": "culture",
+    "status": "pending-visual-review",
+    "title": "File:PE - Parque Nacional Marinho Fernando de Noronha - Mirante dos Golfinhos.jpg",
+    "imageinfo": {
+      "size": 4964850,
+      "width": 4000,
+      "height": 2248,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Mirante_dos_Golfinhos.jpg/3840px-PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Mirante_dos_Golfinhos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1349,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Mirante_dos_Golfinhos.jpg/3840px-PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Mirante_dos_Golfinhos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1349
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Mirante_dos_Golfinhos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Mirante_dos_Golfinhos.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40643590",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-06-01 00:13:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "PE - Parque Nacional Marinho Fernando de Noronha - Mirante dos Golfinhos",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Fernando de Noronha|Self-published work|Images from Wiki Loves Earth 2015 in Brazil|Images from Wiki Loves Earth 2015|Uploaded via Campaign:wle-br|Brazil photographs taken on 2010-09-05|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vista do Mirante dos Golfinhos, em Fernando de Noronha",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-09-05 07:09:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rafa_Tecchio&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rafa Tecchio (page does not exist)\">Rafa Tecchio</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/day-3.jpg",
+    "dimensions": [
+      2400,
+      1349
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Mirante_dos_Golfinhos.jpg/3840px-PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Mirante_dos_Golfinhos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "bacaec4b84d010d9f6b71504ba9c62bc86ad7c4b791deaf77a4d6a17d8957b66"
+  },
+  {
+    "key": "fernando-de-noronha/day-4",
+    "slot": "day-4",
+    "topic": "Bate-volta ou folga",
+    "path": "/images/destinations/fernando-de-noronha/curated-day-4.jpg",
+    "pool": "leisure",
+    "status": "pending-visual-review",
+    "title": "File:Fernando de Noronha - PE - Cacimba do Padre - 1.jpg",
+    "imageinfo": {
+      "size": 10327525,
+      "width": 5222,
+      "height": 3482,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Fernando_de_Noronha_-_PE_-_Cacimba_do_Padre_-_1.jpg/3840px-Fernando_de_Noronha_-_PE_-_Cacimba_do_Padre_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Fernando_de_Noronha_-_PE_-_Cacimba_do_Padre_-_1.jpg/3840px-Fernando_de_Noronha_-_PE_-_Cacimba_do_Padre_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Fernando_de_Noronha_-_PE_-_Cacimba_do_Padre_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fernando_de_Noronha_-_PE_-_Cacimba_do_Padre_-_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=32782967",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-05-15 01:35:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Fernando de Noronha - PE - Cacimba do Padre - 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D7100|Praia da Cacimba do Padre|Self-published work|Images from Wiki Loves Earth 2014 in Brazil|Images from Wiki Loves Earth 2014|Uploaded via Campaign:wle-br|Brazil photographs taken on 2013-10-10|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Minimalismos em Noronha",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-10-10 11:21:37",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:CCINTRA&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:CCINTRA (page does not exist)\">CCINTRA</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/day-4.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Fernando_de_Noronha_-_PE_-_Cacimba_do_Padre_-_1.jpg/3840px-Fernando_de_Noronha_-_PE_-_Cacimba_do_Padre_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "19eb7ec3d8d1b23970f623c201364a5e5213fae9d19a122ce61e86b89d86ee6a"
+  },
+  {
+    "key": "fernando-de-noronha/day-1",
+    "slot": "day-1",
+    "topic": "Ícones principais",
+    "path": "/images/destinations/fernando-de-noronha/curated-day-1.jpg",
+    "pool": "icon",
+    "status": "pending-visual-review",
+    "title": "File:Fernando de Noronha Strand Baia do Sancho (22027580168).jpg",
+    "imageinfo": {
+      "size": 3252297,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Fernando_de_Noronha_Strand_Baia_do_Sancho_%2822027580168%29.jpg/3840px-Fernando_de_Noronha_Strand_Baia_do_Sancho_%2822027580168%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Fernando_de_Noronha_Strand_Baia_do_Sancho_%2822027580168%29.jpg/3840px-Fernando_de_Noronha_Strand_Baia_do_Sancho_%2822027580168%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Fernando_de_Noronha_Strand_Baia_do_Sancho_%2822027580168%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fernando_de_Noronha_Strand_Baia_do_Sancho_(22027580168).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45110631",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-11-19 17:39:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Fernando de Noronha Strand Baia do Sancho (22027580168)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-FS10|Baía do Sancho|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Brazil photographs taken on 2014-07-24|Files from dronepicr Flickr stream|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-3.853612",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-32.442500",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Fernando de Noronha Strand Baia do Sancho",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-07-24 18:15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/132646954@N02/22027580168/\">Fernando de Noronha Strand Baia do Sancho</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132646954@N02\">dronepicr</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/day-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Fernando_de_Noronha_Strand_Baia_do_Sancho_%2822027580168%29.jpg/3840px-Fernando_de_Noronha_Strand_Baia_do_Sancho_%2822027580168%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "16208d6e2d3846609aaa726ad2a46c63f8a505bed90325c2e7b0239b6017a197"
+  },
+  {
+    "key": "fernando-de-noronha/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/fernando-de-noronha/curated-tips.jpg",
+    "pool": "icon",
+    "status": "pending-visual-review",
+    "title": "File:Baia do Sancho Fernando de Noronha.JPG",
+    "imageinfo": {
+      "size": 1878287,
+      "width": 2592,
+      "height": 1936,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Baia_do_Sancho_Fernando_de_Noronha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1793,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Baia_do_Sancho_Fernando_de_Noronha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1793
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Baia_do_Sancho_Fernando_de_Noronha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Baia_do_Sancho_Fernando_de_Noronha.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=39956110",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-05-04 00:47:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Baia do Sancho Fernando de Noronha",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Baía do Sancho|Self-published work|Images from Wiki Loves Earth 2015 in Brazil|Images from Wiki Loves Earth 2015|Uploaded via Campaign:wle-br|Files with coordinates missing SDC location of creation|Brazil photographs taken on 2013-06-08|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-3.850500",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-32.423500",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Linda vista da Baía do Sancho no arquipélago de Fernando de Noronha.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-06-08 09:51:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Roberta_monte&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Roberta monte (page does not exist)\">Roberta monte</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/tips.jpg",
+    "dimensions": [
+      2400,
+      1793
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Baia_do_Sancho_Fernando_de_Noronha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "e6009a15f37f9d3cd86b78d6f34c3e320174d6fa0cacfcdb558459e491fb3c90"
+  },
+  {
+    "key": "fernando-de-noronha/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "path": "/images/destinations/fernando-de-noronha/curated-day-2.jpg",
+    "pool": "quarter",
+    "status": "pending-visual-review",
+    "title": "File:Forte da Vila dos Remédios.jpg",
+    "imageinfo": {
+      "size": 249250,
+      "width": 1600,
+      "height": 1064,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Forte_da_Vila_dos_Rem%C3%A9dios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1596,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Forte_da_Vila_dos_Rem%C3%A9dios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1596
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Forte_da_Vila_dos_Rem%C3%A9dios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Forte_da_Vila_dos_Rem%C3%A9dios.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=70359428",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-06-30 00:11:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Forte da Vila dos Remédios",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Fernando de Noronha|Self-published work|Uploaded via Campaign:wle-br|Brazil photographs taken on 2016-10-20|Obviously ineligible submissions for Wiki Loves Earth 2018 in Brazil",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Por do sol visto do Forte da Vila dos Remédios",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-10-20 17:00:37",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Giovana.Bonini&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Giovana.Bonini (page does not exist)\">Giovana.Bonini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/day-2.jpg",
+    "dimensions": [
+      1600,
+      1064
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Forte_da_Vila_dos_Rem%C3%A9dios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "f3d6f1aff668ce6f21a32ee09c926ada2175d908635ac2967d9fad88f079a57b"
+  },
+  {
+    "key": "fernando-de-noronha/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/fernando-de-noronha/curated-essential-idioma.jpg",
+    "pool": "language",
+    "status": "pending-visual-review",
+    "title": "File:Sign indicating nature trails - Fernando de Noronha - Pernambuco - Brazil.jpg",
+    "imageinfo": {
+      "size": 703498,
+      "width": 2048,
+      "height": 1536,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sign_indicating_nature_trails_-_Fernando_de_Noronha_-_Pernambuco_-_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sign_indicating_nature_trails_-_Fernando_de_Noronha_-_Pernambuco_-_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sign_indicating_nature_trails_-_Fernando_de_Noronha_-_Pernambuco_-_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sign_indicating_nature_trails_-_Fernando_de_Noronha_-_Pernambuco_-_Brazil.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35032515",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-08-30 23:40:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Sign indicating nature trails - Fernando de Noronha - Pernambuco - Brazil",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Fernando de Noronha|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Files by Monica Kaneko",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-3.855041",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-32.439813",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Sign indicating nature trails - Fernando de Noronha - Pernambuco - Brazil",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-10-03 09:05:48",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/11155422@N00/8068814724\">Flickr</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/11155422@N00/\">Monica Kaneko</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/essential-idioma.jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sign_indicating_nature_trails_-_Fernando_de_Noronha_-_Pernambuco_-_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "74e75658e0dff99aa6db01714762c234c7b456a001ea76802c4b85fffe0abf31"
+  },
+  {
+    "key": "fernando-de-noronha/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "path": "/images/destinations/fernando-de-noronha/curated-essential-moeda.jpg",
+    "pool": "currency",
+    "status": "pending-visual-review",
+    "title": "File:100 mil reais bill of Brazil.jpg",
+    "imageinfo": {
+      "size": 6321889,
+      "width": 3741,
+      "height": 1920,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/100_mil_reais_bill_of_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1232,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/100_mil_reais_bill_of_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1232
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/100_mil_reais_bill_of_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:100_mil_reais_bill_of_Brazil.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55039734",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-01-15 15:58:50",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "100 mil reais bill of Brazil",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Alberto Santos-Dumont|Banknotes with a face value of 100000|Self-published work|Banknotes of Brazilian real (1790-1942)|Coins by Wilfredor|Studio photography by Wilfredor|Currency with images of real people|Banknotes by Wilfredor",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "100 mil reis bill of Brazil",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-01-14 17:28:46",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Wilfredor\" class=\"mw-redirect\" title=\"User:Wilfredor\">Wilfredor</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/essential-moeda.jpg",
+    "dimensions": [
+      2400,
+      1232
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/100_mil_reais_bill_of_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "7fe2732141ecb302f6b6520a1b4b678b56121c8357db2c1d00188966020cf9f7"
+  },
+  {
+    "key": "fernando-de-noronha/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "path": "/images/destinations/fernando-de-noronha/curated-essential-docs.jpg",
+    "pool": "documents",
+    "status": "pending-visual-review",
+    "title": "File:Passaportebrasileiro1970.jpg",
+    "imageinfo": {
+      "size": 5150934,
+      "width": 2145,
+      "height": 3070,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Passaportebrasileiro1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3435,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/Passaportebrasileiro1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3435
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Passaportebrasileiro1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Passaportebrasileiro1970.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1105846",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-05-05 14:24:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Passaportebrasileiro1970",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD Brazil Government|Self-published work|PD-self|Photographs taken by User:Dantadd|Passport covers of Brazil",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cover of a Brazilian passport issued in 1970.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2005",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Self-scanned",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dantadd\" title=\"User:Dantadd\">User:Dantadd</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>I, the copyright holder of this work, release this work into the <b><a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a></b>. This applies worldwide.<br><small>In some countries this may not be legally possible; if so:</small><br><i>I grant anyone the right to use this work <b>for any purpose</b>, without any conditions, unless such conditions are required by law.</i>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/essential-docs.jpg",
+    "dimensions": [
+      1677,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Passaportebrasileiro1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "6475d076b3bb19264043a42f69e1ba0196877494ec49f688638ff70cebb832d7"
+  },
+  {
+    "key": "fernando-de-noronha/trip-0",
+    "slot": "trip-0",
+    "topic": "Arredores de Fernando de Noronha",
+    "path": "/images/destinations/fernando-de-noronha/curated-trip-0.jpg",
+    "pool": "trip-0",
+    "status": "pending-visual-review",
+    "title": "File:111 Baia dos Porcos 04.jpg",
+    "imageinfo": {
+      "size": 11352320,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/111_Baia_dos_Porcos_04.jpg/3840px-111_Baia_dos_Porcos_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/111_Baia_dos_Porcos_04.jpg/3840px-111_Baia_dos_Porcos_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/111_Baia_dos_Porcos_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:111_Baia_dos_Porcos_04.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48980982",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-24 03:41:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "111 Baia dos Porcos 04",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Morro Dois Irmãos (Fernando de Noronha)|Baía dos Porcos|Photographs by Adelano Lázaro Ferreira",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bay of Pigs - Fernando de Noronha - Brazil",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-11",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adelano_L%C3%A1zaro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adelano Lázaro (page does not exist)\">Adelano Lázaro</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/trip-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/111_Baia_dos_Porcos_04.jpg/3840px-111_Baia_dos_Porcos_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "de7fc13abec0a3824370a644a138d395c3228b06054a85ac5c78fdf882a79eb3"
+  },
+  {
+    "key": "fernando-de-noronha/trip-1",
+    "slot": "trip-1",
+    "topic": "Passeio regional de meio dia",
+    "path": "/images/destinations/fernando-de-noronha/curated-trip-1.jpg",
+    "pool": "trip-1",
+    "status": "pending-visual-review",
+    "title": "File:Atalaia, Fernando de Noronha.jpg",
+    "imageinfo": {
+      "size": 10014678,
+      "width": 3456,
+      "height": 5184,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Atalaia%2C_Fernando_de_Noronha.jpg/1920px-Atalaia%2C_Fernando_de_Noronha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Atalaia%2C_Fernando_de_Noronha.jpg/1920px-Atalaia%2C_Fernando_de_Noronha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Atalaia%2C_Fernando_de_Noronha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Atalaia,_Fernando_de_Noronha.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=60535705",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-06-30 14:27:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Atalaia, Fernando de Noronha",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Uploaded via Campaign:wle-br|Images from Wiki Loves Earth 2017|Images from Wiki Loves Earth 2017 in Brazil|Brazil photographs taken on 2016-07-10|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation|Praia do Atalaia (Fernando de Noronha)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Paisagem a partir da Trilha do Atalaia em Fernando de Noronha - Brasil",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-07-10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:C.Allegrini&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:C.Allegrini (page does not exist)\">Carolina Sallouti Allegrini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/trip-1.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Atalaia%2C_Fernando_de_Noronha.jpg/1920px-Atalaia%2C_Fernando_de_Noronha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b142322a5943f190fcc9e243a83dd8b188e691d9de205c8666703c6ed1336f57"
+  },
+  {
+    "key": "fernando-de-noronha/trip-2",
+    "slot": "trip-2",
+    "topic": "Destino costeiro ou histórico próximo",
+    "path": "/images/destinations/fernando-de-noronha/curated-trip-2.jpg",
+    "pool": "trip-2",
+    "status": "pending-visual-review",
+    "title": "File:Igreja de Nossa Senhora dos Remédios, vista do Forte de Nossa Senhora dos Remédios.JPG",
+    "imageinfo": {
+      "size": 6782976,
+      "width": 4912,
+      "height": 3264,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios%2C_vista_do_Forte_de_Nossa_Senhora_dos_Rem%C3%A9dios.JPG/3840px-Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios%2C_vista_do_Forte_de_Nossa_Senhora_dos_Rem%C3%A9dios.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1595,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios%2C_vista_do_Forte_de_Nossa_Senhora_dos_Rem%C3%A9dios.JPG/3840px-Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios%2C_vista_do_Forte_de_Nossa_Senhora_dos_Rem%C3%A9dios.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1595
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios%2C_vista_do_Forte_de_Nossa_Senhora_dos_Rem%C3%A9dios.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios,_vista_do_Forte_de_Nossa_Senhora_dos_Rem%C3%A9dios.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43880006",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-10-01 01:11:44",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Igreja de Nossa Senhora dos Remédios, vista do Forte de Nossa Senhora dos Remédios",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Forte de Nossa Senhora dos Remédios|Igreja de Nossa Senhora dos Remédios (Fernando de Noronha)|Self-published work|Images from Wiki Loves Monuments 2015|Images from Wiki Loves Monuments 2015 in Brazil|Uploaded via Campaign:wlm-br|Images from Wiki Loves Monuments 2015 in Brazil - Pernambuco|Brazil photographs taken on 2015-09-13",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "This is a photo of a monument in Brazil identified by the ID",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-09-13 09:26:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ednei_Fialho_Lopes\" title=\"User:Ednei Fialho Lopes\">Ednei Fialho Lopes</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/trip-2.jpg",
+    "dimensions": [
+      2400,
+      1595
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios%2C_vista_do_Forte_de_Nossa_Senhora_dos_Rem%C3%A9dios.JPG/3840px-Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios%2C_vista_do_Forte_de_Nossa_Senhora_dos_Rem%C3%A9dios.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "8451d2fe6814da8137d75552e3bd89c0dab5442d718fe06f2662fe5513a3d87b"
+  }
+]

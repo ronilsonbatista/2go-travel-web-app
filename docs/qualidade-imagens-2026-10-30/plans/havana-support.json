@@ -1,0 +1,233 @@
+{
+  "city": "havana",
+  "region": "americas",
+  "center": [
+    23.1136,
+    -82.3666,
+    30
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Jose Marti Airport Havana",
+      "required": [
+        "marti"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Havana taxi",
+      "required": [
+        "taxi"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Havana ropa vieja",
+      "required": [
+        "ropa vieja"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Fabrica Arte Cubano",
+      "required": [
+        "fabrica de arte"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Playas del Este Havana",
+      "required": [
+        "playas del este|santa maria del mar"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Habana Vieja",
+      "required": [
+        "habana vieja|old havana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Habana Vieja",
+      "required": [
+        "habana vieja|old havana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Havana Cuba sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "Cuban peso CUP banknotes",
+      "required": [
+        "cuban peso|peso cubano|cup"
+      ],
+      "locationPatterns": [
+        "cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit|convertible|cuc",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Cuban passport cover",
+      "required": [
+        "cuban passport|pasaporte cubano"
+      ],
+      "locationPatterns": [
+        "cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Vinales Cuba",
+      "required": [
+        "vinales"
+      ],
+      "locationPatterns": [
+        "cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        22.62,
+        -83.72,
+        30
+      ]
+    },
+    "trip-1": {
+      "query": "Las Terrazas Cuba",
+      "required": [
+        "terrazas"
+      ],
+      "locationPatterns": [
+        "cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        22.85,
+        -82.94,
+        25
+      ]
+    },
+    "trip-2": {
+      "query": "Cojimar Cuba",
+      "required": [
+        "cojimar"
+      ],
+      "locationPatterns": [
+        "cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        23.16,
+        -82.29,
+        15
+      ]
+    }
+  }
+}
