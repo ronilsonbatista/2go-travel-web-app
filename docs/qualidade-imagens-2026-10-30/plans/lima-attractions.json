@@ -1,0 +1,101 @@
+{
+  "city": "lima",
+  "region": "americas",
+  "center": [
+    -12.0464,
+    -77.0428,
+    50
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Miraflores Malecon Lima",
+      "required": [
+        "miraflores|malecon"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ]
+    },
+    "attraction-1": {
+      "query": "Barranco Lima",
+      "required": [
+        "barranco"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ]
+    },
+    "attraction-2": {
+      "query": "Plaza Mayor Lima",
+      "required": [
+        "plaza mayor|plaza de armas"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ]
+    },
+    "attraction-3": {
+      "query": "Huaca Pucllana",
+      "required": [
+        "huaca pucllana"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ]
+    },
+    "attraction-4": {
+      "query": "Surquillo market Lima",
+      "required": [
+        "surquillo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ]
+    },
+    "attraction-5": {
+      "query": "Costa Verde Lima",
+      "required": [
+        "costa verde"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ]
+    }
+  }
+}

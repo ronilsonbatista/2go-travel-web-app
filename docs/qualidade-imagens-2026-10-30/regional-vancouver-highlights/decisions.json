@@ -1,0 +1,30 @@
+{
+  "vancouver/hero": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Vancouver, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "vancouver/intro": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Vancouver, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "vancouver/home": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Vancouver, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "vancouver/guide-card": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Vancouver, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "vancouver/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Coloração amarela excessiva prejudica a reprodução natural da paisagem."
+  },
+  "vancouver/home-slide": {
+    "decision": "rejected",
+    "notes": "Coloração magenta artificial e marca dágua grande inadequadas ao destaque."
+  },
+  "vancouver/home-thumb": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Vancouver: miniatura da home, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  }
+}

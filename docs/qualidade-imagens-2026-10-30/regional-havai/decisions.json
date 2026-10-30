@@ -1,0 +1,74 @@
+{
+  "havai/attraction-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Waikiki Beach, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "havai/map-attraction-0": {
+    "decision": "rejected",
+    "notes": "Oficial em primeiro plano; praia não é o assunto principal."
+  },
+  "havai/map-list-0": {
+    "decision": "rejected",
+    "notes": "Registro histórico de 1899, inadequado como representação atual da praia."
+  },
+  "havai/attraction-1": {
+    "decision": "rejected",
+    "notes": "Registro do ataque de 1941, não representa a atração de visitação atual."
+  },
+  "havai/map-attraction-1": {
+    "decision": "rejected",
+    "notes": "Cena histórica do ataque, inadequada para o cartão turístico atual."
+  },
+  "havai/map-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Pearl Harbor, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "havai/attraction-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Diamond Head, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "havai/map-attraction-2": {
+    "decision": "rejected",
+    "notes": "Registro de incêndio no Diamond Head, enquadramento inadequado ao guia."
+  },
+  "havai/map-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Diamond Head, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "havai/attraction-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável disponível; placeholder preservado para nova busca."
+  },
+  "havai/map-attraction-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável disponível; placeholder preservado para nova busca."
+  },
+  "havai/map-list-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável disponível; placeholder preservado para nova busca."
+  },
+  "havai/attraction-4": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Volcanoes National Park, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "havai/map-attraction-4": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Volcanoes National Park, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "havai/map-list-4": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Volcanoes National Park, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "havai/attraction-5": {
+    "decision": "rejected",
+    "notes": "Fazenda de camarões sem representação suficiente das praias de North Shore."
+  },
+  "havai/map-attraction-5": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de North Shore, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "havai/map-list-5": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de North Shore, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  }
+}

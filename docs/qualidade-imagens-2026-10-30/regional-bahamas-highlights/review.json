@@ -1,0 +1,167 @@
+[
+  {
+    "key": "bahamas/hero",
+    "slot": "hero",
+    "topic": "Bahamas",
+    "path": "/images/destinations/bahamas/curated-hero.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:BahamianParliamentPanorama.jpg",
+    "imageinfo": {
+      "size": 6317329,
+      "width": 7181,
+      "height": 2534,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/BahamianParliamentPanorama.jpg/3840px-BahamianParliamentPanorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 847,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/BahamianParliamentPanorama.jpg/3840px-BahamianParliamentPanorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 847
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/BahamianParliamentPanorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:BahamianParliamentPanorama.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5684688",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-01-10 18:26:51",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "BahamianParliamentPanorama",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Images by MattWade|Panoramas by MattWade|Files with coordinates missing SDC location of creation|House of Assembly, Nassau",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "25.077903",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-77.340517",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/Parliament_of_the_Bahamas\" class=\"extiw\" title=\"en:Parliament of the Bahamas\">Parliament of the Bahamas</a>, located in downtown <a href=\"https://en.wikipedia.org/wiki/Nassau,_Bahamas\" class=\"extiw\" title=\"en:Nassau, Bahamas\">Nassau</a>, is the meeting place of the two houses of the <a href=\"https://en.wikipedia.org/wiki/the_Bahamas\" class=\"extiw\" title=\"en:the Bahamas\">Bahamian</a> <a href=\"https://en.wikipedia.org/wiki/Parliament\" class=\"extiw\" title=\"en:Parliament\">Parliament</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-01-06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:UpstateNYer\" class=\"mw-redirect\" title=\"User:UpstateNYer\">UpstateNYer</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bahamas/hero.jpg",
+    "dimensions": [
+      2400,
+      847
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/BahamianParliamentPanorama.jpg/3840px-BahamianParliamentPanorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2c40cad3c422d733eba650941928cda8aebad253aaf697472871bb327da8c4cb"
+  },
+  {
+    "key": "bahamas/intro",
+    "slot": "intro",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "bahamas/home",
+    "slot": "home",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "bahamas/guide-card",
+    "slot": "guide-card",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "bahamas/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "bahamas/home-slide",
+    "slot": "home-slide",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "bahamas/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Bahamas: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights"
+  }
+]

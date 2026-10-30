@@ -1,0 +1,101 @@
+{
+  "city": "medellin",
+  "region": "americas",
+  "center": [
+    6.2476,
+    -75.5658,
+    40
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Comuna 13 Medellin",
+      "required": [
+        "comuna 13"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ]
+    },
+    "attraction-1": {
+      "query": "Parque Arvi",
+      "required": [
+        "arvi"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ]
+    },
+    "attraction-2": {
+      "query": "Plaza Botero",
+      "required": [
+        "plaza botero"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ]
+    },
+    "attraction-3": {
+      "query": "El Poblado Medellin",
+      "required": [
+        "poblado"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ]
+    },
+    "attraction-4": {
+      "query": "Guatape Colombia",
+      "required": [
+        "guatape"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ]
+    },
+    "attraction-5": {
+      "query": "Jardin Botanico Medellin",
+      "required": [
+        "jardin botanico|botanical garden"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ]
+    }
+  }
+}

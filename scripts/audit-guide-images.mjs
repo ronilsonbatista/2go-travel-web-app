@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { destinationGuides } from '../src/data/guidesData.js';
 import { guideImageSlots } from './guide-image-slots.mjs';
 import { listDestinations } from '../src/lib/cms.js';
+import { ALL_REMAINING } from './remaining-destinations-meta.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const slots = guideImageSlots();
@@ -22,6 +23,9 @@ function register(map, key, label) {
   else map.set(key, current);
 }
 const centers = {
+  ...Object.fromEntries(Object.values(ALL_REMAINING).map(destination => [destination.folder, destination.center])),
+  // The published Hawaii guide includes Oahu, Maui and Hawaii Island, not Honolulu alone.
+  havai: [20.8, -157, 550],
   'rio-de-janeiro': [-22.9068, -43.1729, 80],
   sydney: [-33.8688, 151.2093, 60],
   bangkok: [13.7563, 100.5018, 60],

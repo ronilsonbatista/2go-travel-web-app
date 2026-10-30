@@ -1,0 +1,30 @@
+{
+  "porto-rico/hero": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Porto Rico, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "porto-rico/intro": {
+    "decision": "rejected",
+    "notes": "Panorama deformado e sol estourado comprometem a leitura da praia e cidade."
+  },
+  "porto-rico/home": {
+    "decision": "rejected",
+    "notes": "Interior de shopping sem representação suficiente do destaque regional."
+  },
+  "porto-rico/guide-card": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Porto Rico, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "porto-rico/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Porto Rico, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "porto-rico/home-slide": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Porto Rico, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "porto-rico/home-thumb": {
+    "decision": "rejected",
+    "notes": "Foto esférica de rua com deformação severa, inadequada à miniatura."
+  }
+}

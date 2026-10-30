@@ -1,0 +1,30 @@
+{
+  "boston/hero": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Boston, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "boston/intro": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Boston, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "boston/home": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Boston, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "boston/guide-card": {
+    "decision": "rejected",
+    "notes": "Enquadramento quase igual ao hero, mesmo ensaio e mesma vista; rejeitado preventivamente para evitar repetição."
+  },
+  "boston/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Boston, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "boston/home-slide": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Boston, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "boston/home-thumb": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Boston: miniatura da home, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  }
+}

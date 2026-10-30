@@ -1,0 +1,30 @@
+{
+  "los-angeles/hero": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Los Angeles, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "los-angeles/intro": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Los Angeles, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "los-angeles/home": {
+    "decision": "rejected",
+    "notes": "Composição e iluminação muito próximas da foto do hero; rejeitada preventivamente por possível mesma família de original."
+  },
+  "los-angeles/guide-card": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  },
+  "los-angeles/guide-highlight": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  },
+  "los-angeles/home-slide": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  },
+  "los-angeles/home-thumb": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  }
+}

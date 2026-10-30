@@ -1,0 +1,30 @@
+{
+  "lima/hero": {
+    "decision": "rejected",
+    "notes": "Névoa densa e tonalidade opaca ocultam a paisagem no destaque principal."
+  },
+  "lima/intro": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Lima, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "lima/home": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Lima, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "lima/guide-card": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Lima, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "lima/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Skyline distante com pouco contraste, inadequado para destaque."
+  },
+  "lima/home-slide": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Lima, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "lima/home-thumb": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Lima: miniatura da home, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  }
+}

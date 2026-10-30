@@ -1,0 +1,101 @@
+{
+  "city": "quito",
+  "region": "americas",
+  "center": [
+    -0.1807,
+    -78.4678,
+    40
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Quito historic centre",
+      "required": [
+        "quito"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ]
+    },
+    "attraction-1": {
+      "query": "Mitad del Mundo",
+      "required": [
+        "mitad del mundo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ]
+    },
+    "attraction-2": {
+      "query": "Teleferico Cruz Loma Quito",
+      "required": [
+        "teleferico|cruz loma"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ]
+    },
+    "attraction-3": {
+      "query": "La Ronda Quito",
+      "required": [
+        "ronda"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ]
+    },
+    "attraction-4": {
+      "query": "Basilica del Voto Nacional",
+      "required": [
+        "voto nacional"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ]
+    },
+    "attraction-5": {
+      "query": "Parque La Carolina Quito",
+      "required": [
+        "carolina"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ]
+    }
+  }
+}

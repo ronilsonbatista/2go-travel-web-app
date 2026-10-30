@@ -1,0 +1,101 @@
+{
+  "city": "porto-rico",
+  "region": "americas",
+  "center": [
+    18.4655,
+    -66.1057,
+    50
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Old San Juan Puerto Rico",
+      "required": [
+        "old san juan|viejo san juan"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ]
+    },
+    "attraction-1": {
+      "query": "El Yunque Puerto Rico",
+      "required": [
+        "yunque"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ]
+    },
+    "attraction-2": {
+      "query": "Mosquito Bay Vieques bioluminescent",
+      "required": [
+        "mosquito bay|bioluminescen"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ]
+    },
+    "attraction-3": {
+      "query": "Castillo San Felipe del Morro Puerto Rico",
+      "required": [
+        "morro"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ]
+    },
+    "attraction-4": {
+      "query": "Condado Beach Puerto Rico",
+      "required": [
+        "condado"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ]
+    },
+    "attraction-5": {
+      "query": "Culebra Puerto Rico",
+      "required": [
+        "culebra"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ]
+    }
+  }
+}

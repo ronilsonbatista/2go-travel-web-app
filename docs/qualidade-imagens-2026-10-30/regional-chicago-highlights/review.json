@@ -1,0 +1,829 @@
+[
+  {
+    "key": "chicago/hero",
+    "slot": "hero",
+    "topic": "Chicago",
+    "path": "/images/destinations/chicago/curated-hero.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Chicago Skyline Sunrise March 15 2026 - 01.jpg",
+    "imageinfo": {
+      "size": 4172907,
+      "width": 4000,
+      "height": 1481,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Chicago_Skyline_Sunrise_March_15_2026_-_01.jpg/3840px-Chicago_Skyline_Sunrise_March_15_2026_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 889,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Chicago_Skyline_Sunrise_March_15_2026_-_01.jpg/3840px-Chicago_Skyline_Sunrise_March_15_2026_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 889
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Chicago_Skyline_Sunrise_March_15_2026_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chicago_Skyline_Sunrise_March_15_2026_-_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=186694213",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-03-22 14:26:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chicago Skyline Sunrise March 15 2026 - 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|HDR images|Chicago night skylines|Dawn in Illinois|Panoramics of Chicago|Files with coordinates missing SDC location of creation|Chicago skyline in the 2020s|Chicago skyline from Lake Michigan|Gain-mapped HDR images of cityscapes|Gain-mapped HDR panoramas",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.866651",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.607696",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chicago skyline during sunrise - March 15 2026. HDR image from 5 shots with 2 EV difference.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-15 05:07:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:NorbertNagel\" title=\"User:NorbertNagel\">NorbertNagel</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/hero.jpg",
+    "dimensions": [
+      2400,
+      889
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Chicago_Skyline_Sunrise_March_15_2026_-_01.jpg/3840px-Chicago_Skyline_Sunrise_March_15_2026_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f373fcb17174d1a8388fcdae0a7fa26e62ee1353c1802266c74e89a35e3345ed"
+  },
+  {
+    "key": "chicago/intro",
+    "slot": "intro",
+    "topic": "Chicago",
+    "path": "/images/destinations/chicago/curated-intro.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Chicago Skyline Sunrise March 15 2026 - 02.jpg",
+    "imageinfo": {
+      "size": 5577150,
+      "width": 4000,
+      "height": 1668,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Chicago_Skyline_Sunrise_March_15_2026_-_02.jpg/3840px-Chicago_Skyline_Sunrise_March_15_2026_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1001,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Chicago_Skyline_Sunrise_March_15_2026_-_02.jpg/3840px-Chicago_Skyline_Sunrise_March_15_2026_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1001
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Chicago_Skyline_Sunrise_March_15_2026_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chicago_Skyline_Sunrise_March_15_2026_-_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=186694214",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-03-22 14:26:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chicago Skyline Sunrise March 15 2026 - 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|HDR images|Chicago night skylines|Dawn in Illinois|Panoramics of Chicago|Files with coordinates missing SDC location of creation|Chicago skyline in the 2020s|Chicago skyline from Lake Michigan|Gain-mapped HDR images of cityscapes|Gain-mapped HDR panoramas",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.866758",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.607926",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chicago skyline during sunrise - March 15 2026. HDR image from 4 shots with 2 EV difference.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-15 05:09:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:NorbertNagel\" title=\"User:NorbertNagel\">NorbertNagel</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/intro.jpg",
+    "dimensions": [
+      2400,
+      1001
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Chicago_Skyline_Sunrise_March_15_2026_-_02.jpg/3840px-Chicago_Skyline_Sunrise_March_15_2026_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "55b9733e176da8952eef6699f0c5609b46d67be0527f4321ad8a4be8bd9988e7"
+  },
+  {
+    "key": "chicago/home",
+    "slot": "home",
+    "topic": "Chicago",
+    "path": "/images/destinations/chicago/curated-home.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Chicago sunrise 1.jpg",
+    "imageinfo": {
+      "size": 3251160,
+      "width": 7550,
+      "height": 2400,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Chicago_sunrise_1.jpg/3840px-Chicago_sunrise_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 763,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Chicago_sunrise_1.jpg/3840px-Chicago_sunrise_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 763
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Chicago_sunrise_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chicago_sunrise_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6617712",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-04-24 15:30:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chicago sunrise 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5D|Images with annotations|Self-published work|Featured pictures on Wikipedia, English|Created with Hugin|Featured pictures by User:Dschwen|Dawn in Illinois|Featured pictures of Chicago|Featured pictures on Wikipedia, Turkish|Sunrises of Chicago|April 2009 in Chicago|Panoramics of Chicago|Files with coordinates missing SDC location of creation|United States photographs taken on 2009-04-18|Featured pictures of skylines|Buildings during blue hour in the United States|Nautical twilights|Long exposure photographs of Chicago|Assessment tagged pages marked as POTY candidates|Files by User:Dschwen|Chicago skyline from Lake Michigan|Panoramic photographs of sunrises|Blue hour skylines|Featured pictures of twilights",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "featured|poty",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.866700",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.608600",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chicago skyline at sunrise",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-04-18",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dschwen\" title=\"User:Dschwen\">Daniel Schwen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/home.jpg",
+    "dimensions": [
+      2400,
+      763
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Chicago_sunrise_1.jpg/3840px-Chicago_sunrise_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "32bda0d2aa8094dcd4c8b33552514e51676d5fb0a116dd8d40366623d527662f"
+  },
+  {
+    "key": "chicago/guide-card",
+    "slot": "guide-card",
+    "topic": "Chicago",
+    "path": "/images/destinations/chicago/curated-guide-card.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Chicago Skyline Sunrise Panorama (2015).jpg",
+    "imageinfo": {
+      "size": 3071035,
+      "width": 5998,
+      "height": 2121,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Chicago_Skyline_Sunrise_Panorama_%282015%29.jpg/3840px-Chicago_Skyline_Sunrise_Panorama_%282015%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 849,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Chicago_Skyline_Sunrise_Panorama_%282015%29.jpg/3840px-Chicago_Skyline_Sunrise_Panorama_%282015%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 849
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Chicago_Skyline_Sunrise_Panorama_%282015%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chicago_Skyline_Sunrise_Panorama_(2015).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64982617",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-12-22 21:08:57",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chicago Skyline Sunrise Panorama (2015)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Chicago skyline in 2015|Flickr images reviewed by FlickreviewR 2|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chicago Sunrise",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-05-04 04:03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/respres/17516054959/\">Chicago Sunrise</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/40518938@N00\">Jeff Turner</a> from Santa Clarita, CA, United States",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/guide-card.jpg",
+    "dimensions": [
+      2400,
+      849
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Chicago_Skyline_Sunrise_Panorama_%282015%29.jpg/3840px-Chicago_Skyline_Sunrise_Panorama_%282015%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "6342fd7dcbc9d75723f3cce751c7474bd7bd7580a42abf4484d9408a307d0f00"
+  },
+  {
+    "key": "chicago/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Chicago",
+    "path": "/images/destinations/chicago/curated-guide-highlight.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Grant Park, Chicago, Illinois, Estados Unidos, 2012-10-20, DD 03.jpg",
+    "imageinfo": {
+      "size": 5473690,
+      "width": 4677,
+      "height": 2985,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Grant_Park%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_03.jpg/3840px-Grant_Park%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1532,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Grant_Park%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_03.jpg/3840px-Grant_Park%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1532
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Grant_Park%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Grant_Park,_Chicago,_Illinois,_Estados_Unidos,_2012-10-20,_DD_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=23084497",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-02-09 10:08:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Grant Park, Chicago, Illinois, Estados Unidos, 2012-10-20, DD 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5D Mark II|875 North Michigan Avenue|Grant Park (Chicago)|Mid-Continental Plaza|Blue Cross Blue Shield Tower|340 on the Park|Legacy at Millennium Park|Featured pictures on Wikipedia, English|Featured pictures of Chicago|Featured pictures by User:Poco a poco|Images by User:Poco a poco|Featured pictures of cityscapes|Featured pictures of the United States by User:Poco a poco|Images of the United States by User:Poco a poco|October 2012 in Chicago|Featured pictures on Commons by User:Poco a poco|Featured pictures of buildings by User:Poco a poco|Featured pictures in English language Wikipedia by User:Poco a poco|Images by User:Poco a poco taken in 2012|Remote views of the Aon Center (Chicago)|Remote views of Trump International Hotel and Tower (Chicago)|Remote views of Park Tower (Chicago)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality|featured|potd",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Grant Park, Chicago, Illinois, USA",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-10-21 15:41:43",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/guide-highlight.jpg",
+    "dimensions": [
+      2400,
+      1532
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Grant_Park%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_03.jpg/3840px-Grant_Park%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ddcc05da5b789dcc73a1e7b21014d15bd2fd7cd88d15d4b1ac8c38ec921de7d5"
+  },
+  {
+    "key": "chicago/home-slide",
+    "slot": "home-slide",
+    "topic": "Chicago",
+    "path": "/images/destinations/chicago/curated-home-slide.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Chicago from North Avenue Beach June 2015 panorama 1.jpg",
+    "imageinfo": {
+      "size": 13221190,
+      "width": 11500,
+      "height": 4600,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Chicago_from_North_Avenue_Beach_June_2015_panorama_1.jpg/3840px-Chicago_from_North_Avenue_Beach_June_2015_panorama_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 960,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Chicago_from_North_Avenue_Beach_June_2015_panorama_1.jpg/3840px-Chicago_from_North_Avenue_Beach_June_2015_panorama_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 960
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Chicago_from_North_Avenue_Beach_June_2015_panorama_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chicago_from_North_Avenue_Beach_June_2015_panorama_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45097181",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-11-19 03:44:18",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chicago from North Avenue Beach June 2015 panorama 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Taken with Nikon D7000|License migration redundant|Self-published work|Files with coordinates missing SDC location of creation|Chicago skyline from Lake Michigan",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.910731",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.624684",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Five-segment panorama of <a href=\"//commons.wikimedia.org/wiki/Chicago\" title=\"Chicago\">Chicago</a>, <a href=\"//commons.wikimedia.org/wiki/Illinois\" title=\"Illinois\">Illinois</a>, as viewed from <a href=\"https://en.wikipedia.org/wiki/North_Avenue_Beach\" class=\"extiw\" title=\"w:North Avenue Beach\">North Avenue Beach</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-06-27",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/home-slide.jpg",
+    "dimensions": [
+      2400,
+      960
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Chicago_from_North_Avenue_Beach_June_2015_panorama_1.jpg/3840px-Chicago_from_North_Avenue_Beach_June_2015_panorama_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "9466da837703c4dbd3c2a0358e8beaf070f24a53bf418822a0430ddd028cc75f"
+  },
+  {
+    "key": "chicago/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Chicago: miniatura da home",
+    "path": "/images/destinations/chicago/curated-home-thumb.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Chicago panorama at dusk.jpg",
+    "imageinfo": {
+      "size": 6420480,
+      "width": 4608,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Chicago_panorama_at_dusk.jpg/3840px-Chicago_panorama_at_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Chicago_panorama_at_dusk.jpg/3840px-Chicago_panorama_at_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Chicago_panorama_at_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chicago_panorama_at_dusk.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=67507722",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-03-19 19:59:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chicago panorama at dusk",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Chicago skyline in 2016",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Panaroma of the city of Chicago at dusk (bird's eye).",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-07-02 02:32:15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Czarek11&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Czarek11 (page does not exist)\">Czarek11</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/home-thumb.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Chicago_panorama_at_dusk.jpg/3840px-Chicago_panorama_at_dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "41eb40e9fe6d5d2a104d036e381f2bb767a871609c055f62ae8740535d41e833"
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "city": "montevideo",
+  "region": "americas",
+  "center": [
+    -34.9011,
+    -56.1645,
+    40
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Rambla Montevideo",
+      "required": [
+        "rambla"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ]
+    },
+    "attraction-1": {
+      "query": "Ciudad Vieja Montevideo",
+      "required": [
+        "ciudad vieja"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ]
+    },
+    "attraction-2": {
+      "query": "Mercado del Puerto Montevideo",
+      "required": [
+        "mercado del puerto"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ]
+    },
+    "attraction-3": {
+      "query": "Pocitos Montevideo",
+      "required": [
+        "pocitos"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ]
+    },
+    "attraction-4": {
+      "query": "Palacio Salvo",
+      "required": [
+        "palacio salvo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ]
+    },
+    "attraction-5": {
+      "query": "Parque Rodo Montevideo",
+      "required": [
+        "parque rodo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ]
+    }
+  }
+}
