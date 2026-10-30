@@ -1,0 +1,79 @@
+{
+  "city": "lima",
+  "region": "americas",
+  "center": [
+    -12.0464,
+    -77.0428,
+    50
+  ],
+  "pools": {
+    "region-0": {
+      "query": "Miraflores Lima",
+      "required": [
+        "miraflores"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "Barranco Lima",
+      "required": [
+        "barranco"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "Lima historic center",
+      "required": [
+        "centro historico|historic center|historic centre|plaza mayor|plaza de armas"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "region-3": {
+      "query": "Costa Verde Lima",
+      "required": [
+        "costa verde"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    }
+  }
+}

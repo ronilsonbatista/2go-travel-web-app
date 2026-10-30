@@ -1,0 +1,66 @@
+{
+  "havai/region-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Oahu South, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/region-list-0": {
+    "decision": "rejected",
+    "notes": "Imagem noturna muito subexposta, praia e cidade pouco legíveis."
+  },
+  "havai/hotel-0": {
+    "decision": "rejected",
+    "notes": "Participantes de evento de Halloween dominam a foto, assunto inadequado para hospedagem."
+  },
+  "havai/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Oahu South, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de North Shore, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de North Shore, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em North Shore, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em North Shore, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/region-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Maui, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Maui, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/hotel-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Maui, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático com legenda de arquivo, inadequado como imagem atual de hospedagem."
+  },
+  "havai/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Big Island, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/region-list-3": {
+    "decision": "rejected",
+    "notes": "Paisagem e enquadramento muito próximos do outro registro do mesmo campo vulcânico, rejeitado por repetição visual."
+  },
+  "havai/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Big Island, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havai/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Vista orbital de toda a ilha, abstrata e com aparência cartográfica, pouco representativa para hospedagem."
+  }
+}

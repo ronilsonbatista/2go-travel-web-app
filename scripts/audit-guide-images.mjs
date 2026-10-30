@@ -49,6 +49,20 @@ function distanceKm(a,b,c,d) {
   const x = Math.sin(rad(c-a)/2)**2 + Math.cos(rad(a))*Math.cos(rad(c))*Math.sin(rad(d-b)/2)**2;
   return 6371*2*Math.atan2(Math.sqrt(x),Math.sqrt(1-x));
 }
+function geographicBounds(slot) {
+  // These named excursions/islands already belong to the published guides.
+  // Keep city bounds for the other slots rather than widening every city photo.
+  if (slot.city === 'orlando' && /kennedy/i.test(slot.topic)) return [28.57, -80.65, 25];
+  if (slot.city === 'medellin' && /guatap[eé]/i.test(slot.topic)) return [6.23, -75.16, 25];
+  if (slot.city === 'punta-cana' && /saona/i.test(slot.topic)) return [18.15, -68.73, 30];
+  if (slot.city === 'porto-rico' && /culebra|ilhas/i.test(slot.topic)) return [18.3, -65.3, 45];
+  if (slot.city === 'porto-rico' && /mosquito|vieques/i.test(slot.topic)) return [18.1, -65.45, 30];
+  if (slot.city === 'bahamas' && /exuma|pig beach/i.test(slot.topic)) return [23.7, -76, 130];
+  if (slot.city === 'bahamas' && /out islands/i.test(slot.topic)) return [24.5, -76.5, 500];
+  if (slot.city === 'havai' && /maui|hana/i.test(slot.topic)) return [20.8, -156.3, 60];
+  if (slot.city === 'havai' && /big island|vulc|volcano/i.test(slot.topic)) return [19.6, -155.5, 130];
+  return centers[slot.city];
+}
 let current;
 for (const slot of slots) {
   current = `${slot.city}/${slot.slot}`;
@@ -68,13 +82,18 @@ for (const slot of slots) {
     const family = decodeURIComponent(source.title).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/_/g, ' ').toLowerCase().replace(/\b(cropped|crop|zuschnitt|beschnitten|recadre|recadrage|recortada|recortado|recorte|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b/g, '').replace(/[^\p{L}\p{N}]/gu, '');
     register(photoFamilies, family, 'REUSED derivative family');
     if (source.latitude != null && source.longitude != null && !/^(trip-|country-|costs|essential-(docs|moeda))/.test(slot.slot)) {
-      const center = centers[slot.city];
+      const center = geographicBounds(slot);
       if (!center) {
         problems.push(`MISSING geographic audit bounds: ${current}`);
       } else {
         const [lat,lon,radius] = center;
-        const km = distanceKm(lat,lon,Number(source.latitude),Number(source.longitude));
-        if (km > radius) problems.push(`WRONG CITY coordinates: ${current} (${Math.round(km)} km from ${slot.city})`);
+        const sourceLat = Number(source.latitude), sourceLon = Number(source.longitude);
+        if (!Number.isFinite(sourceLat) || !Number.isFinite(sourceLon) || Math.abs(sourceLat) > 90 || Math.abs(sourceLon) > 180) {
+          problems.push(`INVALID geographic coordinates: ${current}`);
+        } else {
+          const km = distanceKm(lat,lon,sourceLat,sourceLon);
+          if (km > radius) problems.push(`WRONG CITY coordinates: ${current} (${Math.round(km)} km outside guide area for ${slot.city})`);
+        }
       }
     }
     if (/diner|food.?bank|taj.?mahal|apple.?watch|censored|blackout|jigsaw|puzzle/i.test(source.title)) problems.push(`BANNED photo subject: ${current} (${source.title})`);

@@ -1,0 +1,66 @@
+{
+  "orlando/region-0": {
+    "decision": "rejected",
+    "notes": "Cones de trânsito dominam a foto, assunto inadequado para representar a região Disney."
+  },
+  "orlando/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Disney, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "orlando/hotel-0": {
+    "decision": "rejected",
+    "notes": "Placa de acesso fotografada em movimento, baixa nitidez e pouco contexto de hospedagem."
+  },
+  "orlando/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Disney, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "orlando/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Universal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "orlando/region-list-1": {
+    "decision": "rejected",
+    "notes": "Banner de boas-vindas isolado sem contexto suficiente da região Universal."
+  },
+  "orlando/hotel-1": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "orlando/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Universal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "orlando/region-2": {
+    "decision": "rejected",
+    "notes": "Fachada de restaurante de rede, pouco representativa da região International Drive."
+  },
+  "orlando/region-list-2": {
+    "decision": "rejected",
+    "notes": "Outro enquadramento do mesmo restaurante, pouco contexto regional."
+  },
+  "orlando/hotel-2": {
+    "decision": "rejected",
+    "notes": "Placa de restaurante, assunto inadequado para hospedagem ilustrativa."
+  },
+  "orlando/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em I-Drive, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "orlando/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Downtown, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "orlando/region-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Downtown, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "orlando/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Downtown, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "orlando/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Downtown, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  }
+}

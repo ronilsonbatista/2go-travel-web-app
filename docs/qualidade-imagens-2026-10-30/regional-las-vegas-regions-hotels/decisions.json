@@ -1,0 +1,66 @@
+{
+  "las-vegas/region-0": {
+    "decision": "rejected",
+    "notes": "Interior de quarto de hotel, sem representação visual da região Strip Norte."
+  },
+  "las-vegas/region-list-0": {
+    "decision": "rejected",
+    "notes": "Panorama próximo do HDR 1 já usado no mapa; rejeitado preventivamente como possível variante do mesmo original."
+  },
+  "las-vegas/hotel-0": {
+    "decision": "rejected",
+    "notes": "Registro de março de 2020 mostra fachada e entorno em obras, inadequado para representação atual de hospedagem."
+  },
+  "las-vegas/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Strip Norte, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "las-vegas/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Strip Sul, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "las-vegas/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Strip Sul, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "las-vegas/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Strip Sul, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "las-vegas/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Strip Sul, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "las-vegas/region-2": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, não fotografia atual do Downtown."
+  },
+  "las-vegas/region-list-2": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico de cerca de 1930, não fotografia atual."
+  },
+  "las-vegas/hotel-2": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico, incluindo possível variante do mesmo original, inadequado para hospedagem."
+  },
+  "las-vegas/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Downtown, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "las-vegas/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Deserto, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "las-vegas/region-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Deserto, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "las-vegas/hotel-3": {
+    "decision": "rejected",
+    "notes": "Retrato de pessoas em visita oficial domina a composição, não representa hospedagem."
+  },
+  "las-vegas/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Foto de grupo posado, assunto inadequado para hospedagem ilustrativa."
+  }
+}

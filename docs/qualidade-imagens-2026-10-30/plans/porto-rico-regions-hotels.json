@@ -1,0 +1,84 @@
+{
+  "city": "porto-rico",
+  "region": "americas",
+  "center": [
+    18.4655,
+    -66.1057,
+    50
+  ],
+  "pools": {
+    "region-0": {
+      "query": "Old San Juan Puerto Rico",
+      "required": [
+        "old san juan|viejo san juan"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "countryPattern": "puerto rico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "El Yunque Puerto Rico",
+      "required": [
+        "yunque"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "countryPattern": "puerto rico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "Fajardo Puerto Rico",
+      "required": [
+        "fajardo"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "countryPattern": "puerto rico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "region-3": {
+      "query": "Culebra Puerto Rico",
+      "required": [
+        "culebra"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "countryPattern": "puerto rico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "center": [
+        18.3,
+        -65.3,
+        45
+      ]
+    }
+  }
+}

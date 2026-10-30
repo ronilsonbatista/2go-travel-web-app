@@ -1,0 +1,89 @@
+{
+  "city": "havai",
+  "region": "americas",
+  "center": [
+    20.8,
+    -157,
+    550
+  ],
+  "pools": {
+    "region-0": {
+      "query": "Waikiki Hawaii",
+      "required": [
+        "waikiki"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "North Shore Oahu",
+      "required": [
+        "north shore"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "Maui Hawaii landscape",
+      "required": [
+        "maui"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ],
+      "center": [
+        20.8,
+        -156.3,
+        60
+      ]
+    },
+    "region-3": {
+      "query": "Hawaii Island landscape",
+      "required": [
+        "hawaii island|big island|hawai.i island"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "center": [
+        19.6,
+        -155.5,
+        130
+      ]
+    }
+  }
+}

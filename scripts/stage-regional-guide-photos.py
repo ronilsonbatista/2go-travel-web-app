@@ -43,6 +43,8 @@ used_titles={norm(urllib.parse.unquote(v.get('title',''))) for v in manifest.val
 used_families={family(urllib.parse.unquote(v.get('title',''))) for v in manifest.values()}
 used_hashes={r.get('sha256') for r in inventory}
 used_hashes.update(v['assetSha256'] for v in manifest.values() if v.get('assetSha256'))
+rejection_index = ROOT/'docs/qualidade-imagens-2026-10-30/regional-rejections.json'
+rejected_titles = {norm(urllib.parse.unquote(row['title'])) for row in json.loads(rejection_index.read_text()) if row.get('title')} if rejection_index.exists() else set()
 def get(url):
  for attempt in range(3):
   try:
@@ -77,7 +79,14 @@ for name,pool in plan['pools'].items():
   ratio=info.get('width',0)/max(info.get('height',1),1)
   if not pool.get('minRatio',0.65)<=ratio<=pool.get('maxRatio',3.6):continue
   if not all(re.search(pattern,text,re.I) for pattern in pool['required']):continue
+  # Scanned postcards can have large dimensions and modern upload dates.
+  # Inspect capture/publication metadata rather than treating pixel count as photographic quality.
+  if not pool.get('allowHistoricalSource'):
+   if re.search(r'\b(postcards?|stereographs?|stereoscopic|lithographs?|engravings?|cartes postales|ansichtskarten|photochrome prints)\b',text,re.I):continue
+   capture=norm(re.sub('<[^>]+>','',meta.get('DateTimeOriginal',{}).get('value','')))
+   if re.search(r'\b(?:1[0-8]\d{2}|19[0-8]\d)\b',capture):continue
   if pool.get('requiredTitle') and not re.search(pool['requiredTitle'],norm(p['title']),re.I):continue
+  if norm(p['title']) in rejected_titles and p['title'] not in pool.get('reconsiderRejectedTitles',[]):continue
   if plan.get('center'):
    lat=meta.get('GPSLatitude',{}).get('value');lon=meta.get('GPSLongitude',{}).get('value')
    if lat is not None and lon is not None:
@@ -87,8 +96,10 @@ for name,pool in plan['pools'].items():
      km=6371*2*math.atan2(math.sqrt(hav),math.sqrt(max(0,1-hav)))
      if km>radius:continue
     except (ValueError,TypeError):continue
-   elif pool.get('locationPatterns') and not any(re.search(pattern,text,re.I) for pattern in pool['locationPatterns']):continue
-  if re.search(r'\b(map|plan|drawing|illustration|painting|postcard|diagram|poster|engraving|logo|screenshot|montage|collage|strip.photo)\b|food.?bank|diner|apple.?watch|taj.?mahal',norm(p['title']),re.I):continue
+   else:
+    if pool.get('locationPatterns') and not any(re.search(pattern,text,re.I) for pattern in pool['locationPatterns']):continue
+    if pool.get('countryPattern') and not re.search(pool['countryPattern'],text,re.I):continue
+  if re.search(r'\b(map|mapa|mapas|karte|karten|carte|cartes|planimetria|plan|drawing|illustration|painting|postcard|diagram|poster|engraving|logo|screenshot|montage|collage|strip.photo)\b|food.?bank|diner|apple.?watch|taj.?mahal',norm(p['title']),re.I):continue
   if pool.get('reject') and re.search(pool['reject'],text,re.I):continue
   if not meta.get('Artist',{}).get('value'):continue
   if not re.fullmatch(r'CC BY(?:-SA)? (?:1.0|2.0|2.5|3.0|4.0)|CC0|Public domain',meta.get('LicenseShortName',{}).get('value','').strip(),re.I):continue

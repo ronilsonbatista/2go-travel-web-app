@@ -1,0 +1,66 @@
+{
+  "bogota/region-0": {
+    "decision": "rejected",
+    "notes": "Enquadramento muito próximo da igreja já escolhida para La Candelaria; possível variante do mesmo original."
+  },
+  "bogota/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Histórico, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bogota/hotel-0": {
+    "decision": "rejected",
+    "notes": "Detalhe de porta de igreja sem contexto amplo da região, inadequado para ilustrar hospedagem."
+  },
+  "bogota/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Fachada religiosa isolada e pouco contexto da região de hospedagem."
+  },
+  "bogota/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Norte, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bogota/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Norte, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bogota/hotel-1": {
+    "decision": "rejected",
+    "notes": "Mapa de Usaquén, proibido como fotografia de hospedagem ou região."
+  },
+  "bogota/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Edifício identificado como estação ferroviária, sem contexto amplo para hospedagem ilustrativa."
+  },
+  "bogota/region-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Chapinero, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bogota/region-list-2": {
+    "decision": "rejected",
+    "notes": "Jardim rochoso e postes sem representação suficiente da região urbana de Chapinero."
+  },
+  "bogota/hotel-2": {
+    "decision": "rejected",
+    "notes": "Panorama de cidade desfocado e obstruído por vegetação, qualidade insuficiente."
+  },
+  "bogota/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Troncos e galhos ocultam o panorama, pouca legibilidade para hospedagem."
+  },
+  "bogota/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Monserrate, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bogota/region-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Monserrate, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bogota/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Monserrate, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bogota/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Monserrate, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  }
+}

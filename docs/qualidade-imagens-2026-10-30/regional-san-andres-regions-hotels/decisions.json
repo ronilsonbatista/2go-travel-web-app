@@ -1,0 +1,66 @@
+{
+  "san-andres/region-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "san-andres/region-list-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "san-andres/hotel-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "san-andres/hotel-list-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "san-andres/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de San Luis, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "san-andres/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de San Luis, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "san-andres/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em San Luis, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "san-andres/hotel-list-1": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "san-andres/region-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Oeste, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "san-andres/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Oeste, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "san-andres/hotel-2": {
+    "decision": "rejected",
+    "notes": "Placa de restaurante e balneario isolada, pouco contexto para hospedagem."
+  },
+  "san-andres/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Oeste, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "san-andres/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Cays, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "san-andres/region-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Cays, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "san-andres/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Cays, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "san-andres/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Ilha muito distante e enquadramento pouco nitido, qualidade insuficiente."
+  }
+}

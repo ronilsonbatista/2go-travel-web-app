@@ -1,0 +1,66 @@
+{
+  "montevideo/region-0": {
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático, inadequado como imagem atual da região."
+  },
+  "montevideo/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Vieja, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montevideo/hotel-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Vieja, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montevideo/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Policiais e viatura dominam a composição, assunto inadequado para hospedagem."
+  },
+  "montevideo/region-1": {
+    "decision": "rejected",
+    "notes": "Recorte vertical de trânsito visto do alto, pouco representativo da região."
+  },
+  "montevideo/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Pocitos, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montevideo/hotel-1": {
+    "decision": "rejected",
+    "notes": "Laje em primeiro plano e enquadramento parcial, baixa legibilidade para hospedagem."
+  },
+  "montevideo/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Pequeno abrigo de praia domina a composição, contexto insuficiente para hospedagem."
+  },
+  "montevideo/region-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Rambla, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montevideo/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Rambla, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montevideo/hotel-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Rambla, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montevideo/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Marco quilométrico e via dominam a composição, pouco contexto da região de hospedagem."
+  },
+  "montevideo/region-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "montevideo/region-list-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "montevideo/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Carrasco, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montevideo/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Carrasco, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  }
+}

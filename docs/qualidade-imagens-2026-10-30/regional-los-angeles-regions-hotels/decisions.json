@@ -1,0 +1,66 @@
+{
+  "los-angeles/region-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Westside, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "los-angeles/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Westside, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "los-angeles/hotel-0": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico da UCLA, não fotografia atual de hospedagem."
+  },
+  "los-angeles/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Congestionamento e veículos dominam a composição, pouco contexto para hospedagem."
+  },
+  "los-angeles/region-1": {
+    "decision": "rejected",
+    "notes": "Outra estrela isolada da Calçada da Fama; composição repetitiva em relação às atrações, sem contexto amplo da região."
+  },
+  "los-angeles/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hollywood, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "los-angeles/hotel-1": {
+    "decision": "rejected",
+    "notes": "Estrela de artista isolada no chão, pouco representativa de hospedagem ilustrativa."
+  },
+  "los-angeles/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Van de passeio domina a composição, assunto inadequado para hospedagem."
+  },
+  "los-angeles/region-2": {
+    "decision": "rejected",
+    "notes": "Parede com desenho domina a foto, contexto insuficiente do Downtown."
+  },
+  "los-angeles/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de DTLA, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "los-angeles/hotel-2": {
+    "decision": "rejected",
+    "notes": "Hidrante em primeiro plano, assunto inadequado para hospedagem."
+  },
+  "los-angeles/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Registro monocromático de 1973, inadequado como imagem atual."
+  },
+  "los-angeles/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Valley, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "los-angeles/region-list-3": {
+    "decision": "rejected",
+    "notes": "Desenho histórico, não fotografia real da região."
+  },
+  "los-angeles/hotel-3": {
+    "decision": "rejected",
+    "notes": "Mapa histórico de 1880, proibido como foto de hospedagem ou região."
+  },
+  "los-angeles/hotel-list-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  }
+}
