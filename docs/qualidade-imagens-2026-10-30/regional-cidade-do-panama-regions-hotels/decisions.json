@@ -1,0 +1,66 @@
+{
+  "cidade-do-panama/region-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Casco, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-panama/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Casco, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-panama/hotel-0": {
+    "decision": "rejected",
+    "notes": "Ruína religiosa vista por porta, contexto insuficiente para hospedagem ilustrativa."
+  },
+  "cidade-do-panama/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Casco, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-panama/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Canal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-panama/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Canal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-panama/hotel-1": {
+    "decision": "rejected",
+    "notes": "Detalhe isolado de equipamento do canal, assunto inadequado para hospedagem ilustrativa."
+  },
+  "cidade-do-panama/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Canal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-panama/region-2": {
+    "decision": "rejected",
+    "notes": "Enquadramento fragmentado de trânsito e lojas, baixa legibilidade da região de Amador."
+  },
+  "cidade-do-panama/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Amador, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-panama/hotel-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Amador, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-panama/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Registro histórico de embarcação, assunto e época inadequados para ilustrar hospedagem atual em Amador."
+  },
+  "cidade-do-panama/region-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "cidade-do-panama/region-list-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "cidade-do-panama/hotel-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "cidade-do-panama/hotel-list-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  }
+}

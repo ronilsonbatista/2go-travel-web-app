@@ -1,0 +1,66 @@
+{
+  "porto-rico/region-0": {
+    "decision": "rejected",
+    "notes": "Enquadramento proximo do farol ja aprovado em Old San Juan; possivel variante."
+  },
+  "porto-rico/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de San Juan, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "porto-rico/hotel-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em San Juan, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "porto-rico/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em San Juan, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "porto-rico/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de El Yunque, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "porto-rico/region-list-1": {
+    "decision": "rejected",
+    "notes": "Detalhe fechado de pedras e agua, contexto regional insuficiente."
+  },
+  "porto-rico/hotel-1": {
+    "decision": "rejected",
+    "notes": "Mapa de trilhas, proibido como fotografia de hospedagem."
+  },
+  "porto-rico/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em El Yunque, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "porto-rico/region-2": {
+    "decision": "rejected",
+    "notes": "Rio escuro em enquadramento estreito, pouco contexto amplo da regiao."
+  },
+  "porto-rico/region-list-2": {
+    "decision": "rejected",
+    "notes": "Pessoa com placa de reparacao pos-furacao domina a composicao."
+  },
+  "porto-rico/hotel-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Este, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "porto-rico/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Este, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "porto-rico/region-3": {
+    "decision": "rejected",
+    "notes": "Vista aerea com nevoa e baixa nitidez, qualidade insuficiente."
+  },
+  "porto-rico/region-list-3": {
+    "decision": "rejected",
+    "notes": "Cacto em contraluz ocupa a imagem, sem representar as ilhas."
+  },
+  "porto-rico/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Ilhas, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "porto-rico/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Ilhas, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  }
+}

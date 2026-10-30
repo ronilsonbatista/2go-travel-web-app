@@ -1,0 +1,66 @@
+{
+  "toronto/region-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Harbour, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "toronto/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Harbour, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "toronto/hotel-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Harbour, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "toronto/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Harbour, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "toronto/region-1": {
+    "decision": "rejected",
+    "notes": "Familia de gansos domina o assunto, pouco contexto amplo do Downtown."
+  },
+  "toronto/region-list-1": {
+    "decision": "rejected",
+    "notes": "Outra foto da familia de gansos, pouco representativa da regiao."
+  },
+  "toronto/hotel-1": {
+    "decision": "rejected",
+    "notes": "Gansos atravessando a rua dominam o assunto, inadequado para hospedagem."
+  },
+  "toronto/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Nuvens e pouca nitidez ocultam grande parte do panorama aereo."
+  },
+  "toronto/region-2": {
+    "decision": "rejected",
+    "notes": "Fachada isolada de restaurante, contexto insuficiente da regiao West."
+  },
+  "toronto/region-list-2": {
+    "decision": "rejected",
+    "notes": "Outra fachada de restaurante isolada, pouco contexto regional."
+  },
+  "toronto/hotel-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em West, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "toronto/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Pavimento e bueiro dominam a foto, assunto inadequado para hospedagem."
+  },
+  "toronto/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de East, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "toronto/region-list-3": {
+    "decision": "rejected",
+    "notes": "Sepulturas isoladas sem contexto suficiente da regiao East."
+  },
+  "toronto/hotel-3": {
+    "decision": "rejected",
+    "notes": "Vista aerea monocromatica de 1942, inadequada como imagem atual."
+  },
+  "toronto/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Textura de parede de tijolos, sem representacao da regiao de hospedagem."
+  }
+}

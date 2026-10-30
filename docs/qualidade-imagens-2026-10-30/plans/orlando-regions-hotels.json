@@ -1,0 +1,79 @@
+{
+  "city": "orlando",
+  "region": "americas",
+  "center": [
+    28.5383,
+    -81.3792,
+    50
+  ],
+  "pools": {
+    "region-0": {
+      "query": "Walt Disney World Florida",
+      "required": [
+        "disney"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "Universal Orlando",
+      "required": [
+        "universal"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "International Drive Orlando",
+      "required": [
+        "international drive"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "region-3": {
+      "query": "Downtown Orlando",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    }
+  }
+}

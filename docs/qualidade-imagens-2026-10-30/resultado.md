@@ -6,7 +6,7 @@ Branch: `cursor/guia-imagens-qualidade-2026-10-30`.
 ## Situação de aceite
 
 - Inventário automatizado: 107 destinos, 6.845 slots de guias + 9 posições suplementares.
-- Base desta continuação: **5.566 em 87 destinos**. **Atual: 582 substituídos; 4.984 restantes em 85 destinos**. Veja [checkpoint das Américas](lote-americas-parcial.md).
+- Base desta continuação: **5.566 em 87 destinos**. **Atual: 770 substituídos; 4.796 restantes em 85 destinos**. Veja [checkpoint das Américas](lote-americas-parcial.md).
 - Não declarar 107/107 revisados visualmente. Nenhuma aprovação global de orientação ou de correspondência de tema foi concedida.
 - Audit global continua reprovado; não fazer merge desta etapa como conclusão da curadoria.
 
@@ -39,7 +39,7 @@ No primeiro inventário havia 49 destaques abaixo de 1600 px e oito heroes abaix
 
 ## Trabalho obrigatório ainda aberto
 
-1. Substituir os 4.984 placeholders restantes por fotos distintas, licenciadas e adequadas a cada tema.
+1. Substituir os 4.796 placeholders restantes por fotos distintas, licenciadas e adequadas a cada tema.
 2. Inspecionar atrações, bairros, hotel/region pins, essenciais e dias de roteiro dos 107 guias. Dimensões e hash não comprovam o tema.
 3. Resolver duplicatas de fonte/família já denunciadas pela auditoria, sem reutilizar versões recortadas da mesma foto.
 4. Completar a cobertura geográfica da auditoria para as cidades novas.
@@ -99,4 +99,4 @@ No primeiro inventário havia 49 destaques abaixo de 1600 px e oito heroes abaix
 
 ## Continuação regional atual
 
-582 placeholders substituídos nas Américas, 4.984 restantes no total. Detalhes, rejeições, contagens por destino e validação em [lote-americas-parcial.md](lote-americas-parcial.md). PR draft; DO NOT MERGE.
+770 placeholders substituídos nas Américas, 4.796 restantes no total. Detalhes, rejeições, contagens por destino e validação em [lote-americas-parcial.md](lote-americas-parcial.md). PR draft; DO NOT MERGE.

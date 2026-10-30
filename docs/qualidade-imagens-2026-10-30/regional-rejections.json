@@ -40,6 +40,54 @@
     "notes": "Fachada isolada de hostel com nome Costanera, sem representação suficiente da região."
   },
   {
+    "bundle": "regional-assuncao-regions-hotels",
+    "key": "assuncao/region-2",
+    "title": "File:Costanera Hostel 201703.jpg",
+    "sha256": "3178a547f1ebe51a1ff1c28a70abd998650dfc96f0ff62b4544e933732e147bf",
+    "decision": "rejected",
+    "notes": "Fachada de hostel chamado Costanera sem representação suficiente da região."
+  },
+  {
+    "bundle": "regional-assuncao-regions-hotels",
+    "key": "assuncao/hotel-2",
+    "title": "File:TIC Costanera.jpg",
+    "sha256": "c9d9b62e432583a1091482269c48be41bb01f6a5dab066112e91d55e47124e40",
+    "decision": "rejected",
+    "notes": "Centro de informação turística, não hospedagem; fachada isolada pode induzir identificação incorreta de hotel."
+  },
+  {
+    "bundle": "regional-assuncao-regions-hotels",
+    "key": "assuncao/hotel-list-2",
+    "title": "File:Inmjap py11.jpg",
+    "sha256": "78a99e7c887cd4f71f5b6237213135f52ab35f91a85887e5b93ae038bfd17bba",
+    "decision": "rejected",
+    "notes": "Escultura isolada e composição escura, contexto insuficiente para imagem ilustrativa de hospedagem na região."
+  },
+  {
+    "bundle": "regional-assuncao-regions-hotels",
+    "key": "assuncao/region-3",
+    "title": "File:Estadio Luciano Zacarias, Club Atlético Colegiales, Lambaré, Paraguay.jpg",
+    "sha256": "c02909f37a5ee2a1410cc468ea6a618aec16d9b35c546a8aa8b30c7fefad822c",
+    "decision": "rejected",
+    "notes": "Campo de futebol domina a composição, pouco representativo da região de Lambaré."
+  },
+  {
+    "bundle": "regional-assuncao-regions-hotels",
+    "key": "assuncao/hotel-3",
+    "title": "File:Estatua del Cacique Lambaré, ciudad de Lambaré, Central, Paraguay.jpg",
+    "sha256": "e38e9128184df89f2c936f611efd3dfda7f13209e007157a79294d0336d2743c",
+    "decision": "rejected",
+    "notes": "Detalhe de estátua junto a prédio cívico, pouco representativo da região de hospedagem."
+  },
+  {
+    "bundle": "regional-assuncao-regions-hotels",
+    "key": "assuncao/hotel-list-3",
+    "title": "File:Municipalidad de Lambaré, Paraguay.jpg",
+    "sha256": "afa1a0bb1f70bb93682ab5df8fb3ed855f1e16eb118cda8b96133d740dd6920c",
+    "decision": "rejected",
+    "notes": "Fachada identificada como Prefeitura de Lambaré, inadequada para ilustrar hospedagem."
+  },
+  {
     "bundle": "regional-bahamas",
     "key": "bahamas/map-list-3",
     "title": "File:Bahamas 1988 (222) New Providence Queen's Staircase, Nassau (23352376294).jpg",
@@ -94,6 +142,94 @@
     "sha256": "314e68d6840e29bb57f53ba42c81273d4f02d7988a1d6f3df120922bfd0b95ab",
     "decision": "rejected",
     "notes": "Registro antigo de 1970 e exposição escura, inadequado como vista atual do bairro."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/region-0",
+    "title": "File:Nassau Bahamas, view from cruise ship, May 1992 01.jpg",
+    "sha256": "7c23c984761fa675658b39cf0316847a096531d373a9cf2213e06d99df8c8585",
+    "decision": "rejected",
+    "notes": "Registro antigo de 1992 com qualidade visual fraca para vista atual da região."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/hotel-0",
+    "title": "File:Tourist locations Guide Post, Nassau, Bahamas (2019).jpg",
+    "sha256": "79107e41b2af9d2bed8bcb624617dfcbedbe5ade59ff9f8f89ddd4597c8ee268",
+    "decision": "rejected",
+    "notes": "Placas direcionais de várias ilhas, não representa hospedagem nem a paisagem de Nassau."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/hotel-list-0",
+    "title": "File:Nassau Bahamas, view from cruise ship, May 1992 03.jpg",
+    "sha256": "67e8d179d58988649fd86fe3f9bd45885b5c244845bbb962fd465e05d195ca26",
+    "decision": "rejected",
+    "notes": "Registro antigo de 1992, inadequado como imagem atual de hospedagem."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/region-list-1",
+    "title": "File:Nobu, Atlantis Paradise Island resort, Nassau, Bahamas (March 14, 2024).jpg",
+    "sha256": "b9e041e428530bf747f13972d5d64f4b166dbd5e7a865462ce28ae7d2f702202",
+    "decision": "rejected",
+    "notes": "Entrada de restaurante sem contexto suficiente para representar a região de Paradise."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/region-2",
+    "title": "File:A woman in bikini at a tropical beach at Great Exuma Island, the Bahamas.jpg",
+    "sha256": "50fe534854027e6d0651bd4c504a37e38b8b849484947c46e3ead99660394efd",
+    "decision": "rejected",
+    "notes": "Pessoa central domina a composição, inadequado como fotografia principal da região."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/region-list-2",
+    "title": "File:Bahamas 1989 (560) Great Exuma Stocking Island (25352853951).jpg",
+    "sha256": "55c3e765c7b904e8b31385086ed4325751045f652569c0eae3fa1c04b5b906f6",
+    "decision": "rejected",
+    "notes": "Registro de 1989 dominado pelo céu, pouca representação da região."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/hotel-2",
+    "title": "File:Bahamas 1989 (542) Exuma (25258969665).jpg",
+    "sha256": "b57effa6041feb4a36df34157ea0789891962c6a8110d51440189ffe8163296c",
+    "decision": "rejected",
+    "notes": "Registro de 1989 com pouca qualidade e sem contexto suficiente de hospedagem."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/hotel-list-2",
+    "title": "File:Bahamas 1989 (545) Exuma (25324540096).jpg",
+    "sha256": "3e00768b92a328c4d6d9c97cec34cc5133d92d985661c6e50f244eee5d1b011e",
+    "decision": "rejected",
+    "notes": "Registro antigo de 1989, reprodução cromática inadequada para imagem atual."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/region-list-3",
+    "title": "File:Bahamas 1989 (368) Eleuthera (24121912580).jpg",
+    "sha256": "2fd7147510ed99eb526393bbbb4ee90d34d5d718b3911ddbadcb19ea41a86aea",
+    "decision": "rejected",
+    "notes": "Estrada rural fotografada em 1989, contexto e qualidade insuficientes para o cartão da região."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/hotel-3",
+    "title": "File:Bahamas 1989 (373) Eleuthera (24355281121).jpg",
+    "sha256": "bc7ade5c0b5d7e4841623899689182b07ec1f55e3e7be9c0ac1f42cbf5f7b00c",
+    "decision": "rejected",
+    "notes": "Plantação fotografada em 1989, assunto inadequado para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-bahamas-regions-hotels",
+    "key": "bahamas/hotel-list-3",
+    "title": "File:Bahamas 1989 (363) Eleuthera (24412944645).jpg",
+    "sha256": "757abda909c5493165bf0036f8c67e7cc2a5602f5b116e09ca0d2dd68d47e016",
+    "decision": "rejected",
+    "notes": "Veículos e terreno em registro de 1989, contexto insuficiente para hospedagem."
   },
   {
     "bundle": "regional-bogota",
@@ -158,6 +294,70 @@
     "sha256": "fc4716a072cf97c2fe133349d1ed41ad25a1e8855c77e685cb47709cc4fb262b",
     "decision": "rejected",
     "notes": "Pedreira domina a foto, assunto inadequado para o bairro turístico de Usaquén."
+  },
+  {
+    "bundle": "regional-bogota-regions-hotels",
+    "key": "bogota/region-0",
+    "title": "File:Iglesia de Nuestra Señora de la Candelaria en Bogotá (3).jpg",
+    "sha256": "60f0f4e2bb08ea886d1686f51df7475104f8727cb65b6033b2246daee6c730b7",
+    "decision": "rejected",
+    "notes": "Enquadramento muito próximo da igreja já escolhida para La Candelaria; possível variante do mesmo original."
+  },
+  {
+    "bundle": "regional-bogota-regions-hotels",
+    "key": "bogota/hotel-0",
+    "title": "File:Iglesia y convento de La Candelaria (Bogotá) 04.JPG",
+    "sha256": "d0a47e818adaa2a21227814a366dd8bc3d3c425e72bdf8cac56a54efdb1b3678",
+    "decision": "rejected",
+    "notes": "Detalhe de porta de igreja sem contexto amplo da região, inadequado para ilustrar hospedagem."
+  },
+  {
+    "bundle": "regional-bogota-regions-hotels",
+    "key": "bogota/hotel-list-0",
+    "title": "File:Iglesia y convento de La Candelaria (Bogotá) 03.JPG",
+    "sha256": "3c98b8100950f0afd635c7cb14f1c0dc021c1acfece4002179eb80e3a902667b",
+    "decision": "rejected",
+    "notes": "Fachada religiosa isolada e pouco contexto da região de hospedagem."
+  },
+  {
+    "bundle": "regional-bogota-regions-hotels",
+    "key": "bogota/hotel-1",
+    "title": "File:Bogota Capital District - Usaquen.png",
+    "sha256": "d3842da496826cc8d48784ad004b3221bd241fa5c85ff220b0eb394ab39603c2",
+    "decision": "rejected",
+    "notes": "Mapa de Usaquén, proibido como fotografia de hospedagem ou região."
+  },
+  {
+    "bundle": "regional-bogota-regions-hotels",
+    "key": "bogota/hotel-list-1",
+    "title": "File:Usaquen station.JPG",
+    "sha256": "3c51ca40cd2d9903e3ddd37811e942da598ac0a6ddb27d6f6125978e5e1afbc3",
+    "decision": "rejected",
+    "notes": "Edifício identificado como estação ferroviária, sem contexto amplo para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-bogota-regions-hotels",
+    "key": "bogota/region-list-2",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (20).jpg",
+    "sha256": "80718fab6a79e78029931543c7a4266fa42cc87f3c806b72301819e83cfce31f",
+    "decision": "rejected",
+    "notes": "Jardim rochoso e postes sem representação suficiente da região urbana de Chapinero."
+  },
+  {
+    "bundle": "regional-bogota-regions-hotels",
+    "key": "bogota/hotel-2",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (48).jpg",
+    "sha256": "93db7f8fed7c8792cfa38975186347b44a152f4e25e4a20a73e744acf1ce702b",
+    "decision": "rejected",
+    "notes": "Panorama de cidade desfocado e obstruído por vegetação, qualidade insuficiente."
+  },
+  {
+    "bundle": "regional-bogota-regions-hotels",
+    "key": "bogota/hotel-list-2",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (61).jpg",
+    "sha256": "3122c4941f7411936c5276a18da2a2f02010719065dfb68228b3a9a7c6d13a5c",
+    "decision": "rejected",
+    "notes": "Troncos e galhos ocultam o panorama, pouca legibilidade para hospedagem."
   },
   {
     "bundle": "regional-boston",
@@ -464,6 +664,38 @@
     "notes": "Fachada isolada de rede de fast food, pouco representativa do bairro."
   },
   {
+    "bundle": "regional-chicago-regions-hotels",
+    "key": "chicago/region-list-0",
+    "title": "File:Chicago in Flames by Currier & Ives, 1871 (cropped).jpg",
+    "sha256": "7924289e5cb46ce03d5e592353e1067b224be0127d304e848763db98c779f623",
+    "decision": "rejected",
+    "notes": "Pintura histórica do incêndio de Chicago em 1871, não fotografia real da região."
+  },
+  {
+    "bundle": "regional-chicago-regions-hotels",
+    "key": "chicago/hotel-list-1",
+    "title": "File:Divvy bike along Lakefront Trail near Monahan Point, Chicago, 2025.jpg",
+    "sha256": "7f6e39cc4664ea7eb9c5cb3898ec59b2528987d6c8561fe26ba3e9b789f0a645",
+    "decision": "rejected",
+    "notes": "Bicicleta isolada no parque sem contexto suficiente da região de hospedagem."
+  },
+  {
+    "bundle": "regional-chicago-regions-hotels",
+    "key": "chicago/region-list-2",
+    "title": "File:Lincoln Park kz05.jpg",
+    "sha256": "5731cd28199004fa9619952779472a116919b424d6b15c896e2a7bd05aa15edb",
+    "decision": "rejected",
+    "notes": "Enquadramento próximo do outro registro do mesmo ensaio de Lincoln Park, rejeitado preventivamente por repetição visual."
+  },
+  {
+    "bundle": "regional-chicago-regions-hotels",
+    "key": "chicago/hotel-list-2",
+    "title": "File:Lincoln Park Passerelle.jpg",
+    "sha256": "fdefc30a9c59c7357f7724fdaf9dc90796ac688070e110d3ed4def62474d7ab8",
+    "decision": "rejected",
+    "notes": "Rodovia e passarela dominam a composição, pouco contexto para hospedagem ilustrativa."
+  },
+  {
     "bundle": "regional-cidade-do-mexico",
     "key": "cidade-do-mexico/attraction-0",
     "title": "File:Mexico City Zocalo and Cathedral c 1950s, MAF 007305-001.jpg",
@@ -584,6 +816,62 @@
     "notes": "Letras fotografadas por trás, leitura invertida e orientação inadequada para o cartão."
   },
   {
+    "bundle": "regional-cidade-do-mexico-regions-hotels",
+    "key": "cidade-do-mexico/region-0",
+    "title": "File:Girl dressed up as death in the parade in the Historic Center of Mexico City.jpg",
+    "sha256": "0e4107dfaaf3dca5766c102cd3f043a7109f9a16e673a8f29cc0607088933fb3",
+    "decision": "rejected",
+    "notes": "Retrato de pessoa com maquiagem domina a composição, não representa a região Centro."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-regions-hotels",
+    "key": "cidade-do-mexico/hotel-0",
+    "title": "File:Mexico City 2015 007.jpg",
+    "sha256": "52c80b1c6dc02300127e6214491a01736bed020d6e12c33d36b44795f4c6d5f4",
+    "decision": "rejected",
+    "notes": "Placa de notariado isolada, não representa hospedagem nem a região."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-regions-hotels",
+    "key": "cidade-do-mexico/hotel-list-0",
+    "title": "File:Former Temple of Corpus Christi, historic center of Mexico City.JPG",
+    "sha256": "183a2b01e1ef57576dec61148f802b136b98a0b14ca6389f396968723acfd8b6",
+    "decision": "rejected",
+    "notes": "Fachada religiosa isolada, contexto insuficiente para ilustrar hospedagem."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-regions-hotels",
+    "key": "cidade-do-mexico/region-list-1",
+    "title": "File:Metro Chapultepec 02.JPG",
+    "sha256": "dffd3b78822352f4aac474c12f2850abf53508f03ddab0384f3ca6fd552f6973",
+    "decision": "rejected",
+    "notes": "Placas e publicidade no acesso ao metrô dominam a composição, pouca representação de Chapultepec."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-regions-hotels",
+    "key": "cidade-do-mexico/hotel-1",
+    "title": "File:Nursallia gutturosum fossil - Dinosaurium - Chapultepec Zoo - Mexico 2024 (2).jpg",
+    "sha256": "64a279987131110d8c3e0ba40e9d20e6479d95157db74d8193a9a1ccf59941b1",
+    "decision": "rejected",
+    "notes": "Fóssil em vitrine, assunto inadequado para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-regions-hotels",
+    "key": "cidade-do-mexico/hotel-list-1",
+    "title": "File:Anfibium - Chapultepec Zoo - Mexico 2024.jpg",
+    "sha256": "b9c593081b460eac20fb35268a16d001dd60282f16e7bbfdd5f856ca391420aa",
+    "decision": "rejected",
+    "notes": "Entrada de recinto do zoológico, assunto inadequado para ilustrar hospedagem."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-regions-hotels",
+    "key": "cidade-do-mexico/hotel-list-3",
+    "title": "File:Teotihuacan - At the Fence 1976.jpg",
+    "sha256": "c95cccf17e718f4ffcd0548224673da285185385de3e1cd6368eb5a59b33a3d0",
+    "decision": "rejected",
+    "notes": "Registro antigo de 1976, baixa qualidade e pessoa dominante, inadequado para hospedagem."
+  },
+  {
     "bundle": "regional-cidade-do-panama",
     "key": "cidade-do-panama/attraction-0",
     "title": "File:WorkerAtMirafloresLocksPanamaCanal.jpg",
@@ -648,12 +936,68 @@
     "notes": "Cemitério com nome Amador, não corresponde à região turística solicitada."
   },
   {
+    "bundle": "regional-cidade-do-panama-regions-hotels",
+    "key": "cidade-do-panama/hotel-0",
+    "title": "File:Old Panama City - Casco Viejo - Panama - panoramio (13).jpg",
+    "sha256": "8d422272381258eda83709b8d9fc5ebad269a957caf00672f8eeea318a00c3cf",
+    "decision": "rejected",
+    "notes": "Ruína religiosa vista por porta, contexto insuficiente para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-regions-hotels",
+    "key": "cidade-do-panama/hotel-1",
+    "title": "File:Canal de Panama - Miraflores - Detalle de Remolcador - CJRD.jpg",
+    "sha256": "566e1d311dc0165527b0a8d89b2c7bfeb31e45f43b7cb43cc224f4dae101463c",
+    "decision": "rejected",
+    "notes": "Detalhe isolado de equipamento do canal, assunto inadequado para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-regions-hotels",
+    "key": "cidade-do-panama/region-2",
+    "title": "File:A Photo Of The Amador Causeway.jpg",
+    "sha256": "237fef5bdfdfd03619ba4dfedf612b12647758b3df6761f62d9d8d41f81d6ddd",
+    "decision": "rejected",
+    "notes": "Enquadramento fragmentado de trânsito e lojas, baixa legibilidade da região de Amador."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-regions-hotels",
+    "key": "cidade-do-panama/hotel-list-2",
+    "title": "File:Can the Panama Canal be Destroyed from the Air 09.png",
+    "sha256": "6c620e509a97de0cc588f1f71bdeb3d4f8a660ae11b0edcb6f1ea5d775ef87cd",
+    "decision": "rejected",
+    "notes": "Registro histórico de embarcação, assunto e época inadequados para ilustrar hospedagem atual em Amador."
+  },
+  {
     "bundle": "regional-fernando-de-noronha-highlights",
     "key": "fernando-de-noronha/guide-card",
     "title": "File:Parque Nacional Marinho de Fernando de Noronha - Humberto Sammarco (05).jpg",
     "sha256": "e2622e3ffec9676f6bff54c24a19a7cb0daf48aae8ca1e025e2a123f39a85633",
     "decision": "rejected",
     "notes": "Exposição muito escura, paisagem quase ilegível para cartão."
+  },
+  {
+    "bundle": "regional-fernando-de-noronha-regions-hotels",
+    "key": "fernando-de-noronha/hotel-list-0",
+    "title": "File:Fernando De Noronha Weg Zur Baia Do Sancho (125362951).jpeg",
+    "sha256": "981bc44ca9ca230ffeed2fd5bfb37729baf8e3661caad46fc0309eac9ccc2de2",
+    "decision": "rejected",
+    "notes": "Pessoa descendo por rochas em acesso estreito, pouco contexto para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-fernando-de-noronha-regions-hotels",
+    "key": "fernando-de-noronha/region-list-3",
+    "title": "File:Igreja Nossa Senhora dos Remédios - Fernando de Noronha (PE).JPG",
+    "sha256": "dd78183d09bec7322f2ad4ad970999438fb08dd6b0c9d219d3079be563e56c2c",
+    "decision": "rejected",
+    "notes": "Janela escura ocupa a maior parte da composição; vila distante pouco legível."
+  },
+  {
+    "bundle": "regional-fernando-de-noronha-regions-hotels",
+    "key": "fernando-de-noronha/hotel-3",
+    "title": "File:Arco da porta com visão a vila dos remédios.JPG",
+    "sha256": "e74183b0178ab91541ae92449152a59b1eb6de99416fd05cf78ea01c4d1269f8",
+    "decision": "rejected",
+    "notes": "Arco de ruína domina a composição, contexto insuficiente da região de hospedagem."
   },
   {
     "bundle": "regional-havai",
@@ -728,6 +1072,46 @@
     "notes": "Tanque de criação de camarão, contexto insuficiente para imagem principal de North Shore."
   },
   {
+    "bundle": "regional-havai-regions-hotels",
+    "key": "havai/region-list-0",
+    "title": "File:In and around Waikiki, Honolulu, Hawaii 01.jpg",
+    "sha256": "373cd9fd85462a235738b05101763d40cfc522fa6180a5e5256e2c79f09818da",
+    "decision": "rejected",
+    "notes": "Imagem noturna muito subexposta, praia e cidade pouco legíveis."
+  },
+  {
+    "bundle": "regional-havai-regions-hotels",
+    "key": "havai/hotel-0",
+    "title": "File:Participants in Waikiki, Hawaii Halloween 2021 10.jpg",
+    "sha256": "149a79d652a13ba370a473cea89ec80b1ae7b0b06a41111852638cd3e4cd57ab",
+    "decision": "rejected",
+    "notes": "Participantes de evento de Halloween dominam a foto, assunto inadequado para hospedagem."
+  },
+  {
+    "bundle": "regional-havai-regions-hotels",
+    "key": "havai/hotel-list-2",
+    "title": "File:Hawaii - Maui - NARA - 23938315.jpg",
+    "sha256": "38751516a21f28bc4093e3c4039959c22ac497bf0e68f8eea7fa24f3818ff198",
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático com legenda de arquivo, inadequado como imagem atual de hospedagem."
+  },
+  {
+    "bundle": "regional-havai-regions-hotels",
+    "key": "havai/region-list-3",
+    "title": "File:Big island lava landscape Hawaii (45364443265).jpg",
+    "sha256": "465a76ee9b538e058b8888de91ed49866b20820ffc10f405be060228031027c2",
+    "decision": "rejected",
+    "notes": "Paisagem e enquadramento muito próximos do outro registro do mesmo campo vulcânico, rejeitado por repetição visual."
+  },
+  {
+    "bundle": "regional-havai-regions-hotels",
+    "key": "havai/hotel-list-3",
+    "title": "File:Hawai'i.jpg",
+    "sha256": "13030ce854aa01e4dad26ab0d220630295c1bf2ab342c5c000173b208ba76e9e",
+    "decision": "rejected",
+    "notes": "Vista orbital de toda a ilha, abstrata e com aparência cartográfica, pouco representativa para hospedagem."
+  },
+  {
     "bundle": "regional-havana",
     "key": "havana/attraction-5",
     "title": "File:Street of Vedado, Havana, Cuba.JPG",
@@ -774,6 +1158,86 @@
     "sha256": "323f13dbfd61c0a7a3fb44a5610c764b9d7c2fc04aa91beef49e9d9b770b17d3",
     "decision": "rejected",
     "notes": "Retrato posado de pessoas, assunto inadequado para representar Miramar."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/region-0",
+    "title": "File:Havana vieja hdsr S5is Cuba1 158.jpg",
+    "sha256": "c7d2c632d712cfb90936bdab456cb99edd07da343b9fe618e94c5da5d06e5770",
+    "decision": "rejected",
+    "notes": "Escultura isolada em interior, sem representação suficiente da região de Habana Vieja."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/hotel-list-0",
+    "title": "File:Habana Vieja (36252388555).jpg",
+    "sha256": "1beba10bf40cdfa38a60d1375cce4baf9c27c1cc6304631eb3522829afd2c532",
+    "decision": "rejected",
+    "notes": "Interior escuro com objetos e pinturas, sem contexto suficiente para hospedagem."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/region-1",
+    "title": "File:Havana - \"El Malecon\" during carnival.jpg",
+    "sha256": "2baf21edd860079c20f51396cbf3f0ef5718c6e5a3ca508cfdd8de503ad05d6e",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, não fotografia atual do Malecón."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/region-list-1",
+    "title": "File:Havana - Malecon and El Morro.jpg",
+    "sha256": "dc9c849ce94f796ec2fa4061081f1aaf284143e383387f8a9792de5fd7f3532e",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, inadequado como vista atual da região."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/hotel-1",
+    "title": "File:Havana - The Malecon.jpg",
+    "sha256": "f61029e0e132a09c30e0a18770ab25a02558ca97685bcfef210e1afb8a486b80",
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático, inadequado para hospedagem atual."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/hotel-list-1",
+    "title": "File:Havana - Gulf Avenue (2).jpg",
+    "sha256": "713dc8d4eaa2ded7ef05a0c677692d94f4b6611934b37b2ad0826a91b95f32d9",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, inadequado para hospedagem atual."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/region-2",
+    "title": "File:Havana - Vedado Church.jpg",
+    "sha256": "81934bcc322df6f651c955c9ed7c3b823bb100e2cb5e0978333d7ac057e4e8f2",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado de igreja, não fotografia atual de Vedado."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/region-list-2",
+    "title": "File:Havana - The Vedado Tennis Club.jpg",
+    "sha256": "5fa577d29217e2fdfa9ae978d4352cb6e88eed5bba67e89f7fb89947077223f8",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado do tennis club, não vista atual da região."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/hotel-2",
+    "title": "File:Havana - Calzada del Vedado.jpg",
+    "sha256": "f5a752ae236c18abf8455dcd4188a2d64994493bd5dd9e5800233d0db9628be2",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, inadequado para hospedagem atual."
+  },
+  {
+    "bundle": "regional-havana-regions-hotels",
+    "key": "havana/hotel-list-2",
+    "title": "File:Havana - Avenida Wilson (Linea) en el Vedado.jpg",
+    "sha256": "5c9251c8c820ee66f9aa3b0a6bb8e694b974d568812ca80009442a1553c03eff",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, inadequado para hospedagem atual."
   },
   {
     "bundle": "regional-las-vegas",
@@ -864,6 +1328,70 @@
     "notes": "Golfinhos e cuidadores sem contexto suficiente da região de Paradise."
   },
   {
+    "bundle": "regional-las-vegas-regions-hotels",
+    "key": "las-vegas/region-0",
+    "title": "File:Conrad Las Vegas at Resorts World February 2023 HDR.jpg",
+    "sha256": "f5b864fdafe98fadd5a7b0c09d5619ab2296a613129a410a5409ef9dfb395ff6",
+    "decision": "rejected",
+    "notes": "Interior de quarto de hotel, sem representação visual da região Strip Norte."
+  },
+  {
+    "bundle": "regional-las-vegas-regions-hotels",
+    "key": "las-vegas/region-list-0",
+    "title": "File:Las Vegas Strip from Resorts World February 2023 HDR 2.jpg",
+    "sha256": "59bf64eb93d9574b979d451635888377c1fd2d8901093d21a69cf6e8db96c979",
+    "decision": "rejected",
+    "notes": "Panorama próximo do HDR 1 já usado no mapa; rejeitado preventivamente como possível variante do mesmo original."
+  },
+  {
+    "bundle": "regional-las-vegas-regions-hotels",
+    "key": "las-vegas/hotel-0",
+    "title": "File:Resorts World Las Vegas March 2020.jpg",
+    "sha256": "c981fdf24a4804eb7becd92f143b17edac3e7cb91dbc59dd3d9f2eef82e92adb",
+    "decision": "rejected",
+    "notes": "Registro de março de 2020 mostra fachada e entorno em obras, inadequado para representação atual de hospedagem."
+  },
+  {
+    "bundle": "regional-las-vegas-regions-hotels",
+    "key": "las-vegas/region-2",
+    "title": "File:Fremont Street, Las Vegas, Nevada (74664).jpg",
+    "sha256": "e186183348d9553860f260867ad122fa6bb5aa608f6f0dcf2d751078d619b230",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, não fotografia atual do Downtown."
+  },
+  {
+    "bundle": "regional-las-vegas-regions-hotels",
+    "key": "las-vegas/region-list-2",
+    "title": "File:Fremont Street looking east, Las Vegas, Nevada ca. 1930–1945 Tichnor Bros via Digital Commonwealth.jpg",
+    "sha256": "787429528d5c7dc3da513e7745074b26565fa23d3f01b99580d31e2f38becb00",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico de cerca de 1930, não fotografia atual."
+  },
+  {
+    "bundle": "regional-las-vegas-regions-hotels",
+    "key": "las-vegas/hotel-2",
+    "title": "File:Fremont Street looking east, Las Vegas, Nevada (74675).jpg",
+    "sha256": "94db54e8dc3fad109ecbcecac06ff816b46430d13a09f968c5e0e103ad416a3c",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico, incluindo possível variante do mesmo original, inadequado para hospedagem."
+  },
+  {
+    "bundle": "regional-las-vegas-regions-hotels",
+    "key": "las-vegas/hotel-3",
+    "title": "File:Visit to Red Rock Canyon in Nevada on April 7, 2026 - 8.jpg",
+    "sha256": "3bba277b0041c5132aeef14455ee90027050bc03fe0b6a777f374ed6b9e196fb",
+    "decision": "rejected",
+    "notes": "Retrato de pessoas em visita oficial domina a composição, não representa hospedagem."
+  },
+  {
+    "bundle": "regional-las-vegas-regions-hotels",
+    "key": "las-vegas/hotel-list-3",
+    "title": "File:Visit to Red Rock Canyon in Nevada on April 7, 2026 - 25.jpg",
+    "sha256": "e1b1077a635d5eb5958bdc417b4622314f9637f02e03e00e3104f82badd8433f",
+    "decision": "rejected",
+    "notes": "Foto de grupo posado, assunto inadequado para hospedagem ilustrativa."
+  },
+  {
     "bundle": "regional-lima",
     "key": "lima/map-attraction-0",
     "title": "File:Municipalidad de Miraflores - Malecón de Miraflores (1907) (7847275164).jpg",
@@ -936,6 +1464,38 @@
     "notes": "Mapa do distrito, proibido como fotografia do bairro."
   },
   {
+    "bundle": "regional-lima-regions-hotels",
+    "key": "lima/hotel-list-0",
+    "title": "File:Vista desde Huaca Pucllana, Miraflores, Lima.jpg",
+    "sha256": "d3d05e3ddb9f8ea1699a9460cb6e225910c823d6e5b835f212f4fc35711dd830",
+    "decision": "rejected",
+    "notes": "Escavação arqueológica ocupa toda a foto, contexto insuficiente para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-lima-regions-hotels",
+    "key": "lima/hotel-list-1",
+    "title": "File:Lima, Peru - Barranco monument.jpg",
+    "sha256": "f6718ad88834efdd9af98bfa9e415b7edf898fb969aa155fdca70e2a65b64eab",
+    "decision": "rejected",
+    "notes": "Busto isolado domina a composição, pouco contexto da região de hospedagem."
+  },
+  {
+    "bundle": "regional-lima-regions-hotels",
+    "key": "lima/hotel-list-2",
+    "title": "File:Historic Center of Lima - 54548439175.jpg",
+    "sha256": "6d5162047febb9eba21ca375488783e6d392dd48c40f10acfdf4ceeb887a8fd6",
+    "decision": "rejected",
+    "notes": "Enquadramento próximo do prédio municipal já aprovado para a região, rejeitado por repetição visual."
+  },
+  {
+    "bundle": "regional-lima-regions-hotels",
+    "key": "lima/region-list-3",
+    "title": "File:Costa Verde and Cliffs, Lima - 2004.jpg",
+    "sha256": "98f2eb3a86245a14089eeada6c0df4cdc390bbf05de9b3af1622a2af836fe341",
+    "decision": "rejected",
+    "notes": "Névoa e baixo contraste ocultam a paisagem, qualidade visual insuficiente."
+  },
+  {
     "bundle": "regional-los-angeles",
     "key": "los-angeles/attraction-0",
     "title": "File:USA Santa Monica Beach and pier CA.jpg",
@@ -992,6 +1552,86 @@
     "notes": "Pessoa com carrinho domina a composição, não representa o bairro."
   },
   {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/hotel-0",
+    "title": "File:University of California at Los Angeles, Westwood, California (63742).jpg",
+    "sha256": "6fc40b7ab25dc2cbf423a60075e1327a05698fa3f877b7ccfd65be0e72105ae8",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico da UCLA, não fotografia atual de hospedagem."
+  },
+  {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/hotel-list-0",
+    "title": "File:Westwood, Los Angeles, CA, USA - panoramio.jpg",
+    "sha256": "2cd501083cd83a9e6daf3e94bc7b0f1d4aaceb0a9544b539883daf41e848643a",
+    "decision": "rejected",
+    "notes": "Congestionamento e veículos dominam a composição, pouco contexto para hospedagem."
+  },
+  {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/region-1",
+    "title": "File:Los Angeles (California, USA), Hollywood Boulevard, The Doors -- 2012 -- 5040.jpg",
+    "sha256": "9801c3a4c58be378891445287c0161df71c4e882a3510e3c3e412fa405b50586",
+    "decision": "rejected",
+    "notes": "Outra estrela isolada da Calçada da Fama; composição repetitiva em relação às atrações, sem contexto amplo da região."
+  },
+  {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/hotel-1",
+    "title": "File:Los Angeles (California, USA), Hollywood Boulevard, Harry Belafonte -- 2012 -- 5007.jpg",
+    "sha256": "c0f78fedd6f7930f06d1597adfab8fad7c0cdbe04539f333df6a88be13af9be9",
+    "decision": "rejected",
+    "notes": "Estrela de artista isolada no chão, pouco representativa de hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/hotel-list-1",
+    "title": "File:Los Angeles (California, USA), Hollywood Boulevard -- 2012 -- 5100.jpg",
+    "sha256": "96e6cca6e5a3165d1a0028853b065066208981ae0295f81d63ad233bbcf864e8",
+    "decision": "rejected",
+    "notes": "Van de passeio domina a composição, assunto inadequado para hospedagem."
+  },
+  {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/region-2",
+    "title": "File:Downtown Los Angeles - February 2024 - Sarah Stierch 01.jpg",
+    "sha256": "93491503c336025eb5f8dbabd8035236f1352885effef180415aafc6d30115c3",
+    "decision": "rejected",
+    "notes": "Parede com desenho domina a foto, contexto insuficiente do Downtown."
+  },
+  {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/hotel-2",
+    "title": "File:Fire hydrant in downtown Los Angeles - February 2024 - Sarah Stierch.jpg",
+    "sha256": "00232b641af0adf56e5c5b9e8e8c3a33b9d17dce42b2d006a9ec076563b9e2be",
+    "decision": "rejected",
+    "notes": "Hidrante em primeiro plano, assunto inadequado para hospedagem."
+  },
+  {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/hotel-list-2",
+    "title": "File:Downtown Los Angeles from Pico-Union, 1973.jpg",
+    "sha256": "0192685eaaa1f64ab81731d5cff9ba5b8e9a801a01bd414b94da2f41e15b418c",
+    "decision": "rejected",
+    "notes": "Registro monocromático de 1973, inadequado como imagem atual."
+  },
+  {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/region-list-3",
+    "title": "File:Mission and Plain of San Fernando, USPRR Reports of explorations and surveys (cropped, edited).png",
+    "sha256": "c8ac2dceb6a470f2e03565e180d6c91b752f5161742eb65e7fdcda7206c99390",
+    "decision": "rejected",
+    "notes": "Desenho histórico, não fotografia real da região."
+  },
+  {
+    "bundle": "regional-los-angeles-regions-hotels",
+    "key": "los-angeles/hotel-3",
+    "title": "File:1880map San Fernando Valley SE.jpg",
+    "sha256": "3a786248230c25cbc6eae1d7748512fcd97991f78a70273c48c25c2f3e629462",
+    "decision": "rejected",
+    "notes": "Mapa histórico de 1880, proibido como foto de hospedagem ou região."
+  },
+  {
     "bundle": "regional-medellin",
     "key": "medellin/map-list-0",
     "title": "File:Comuna 13, Medellín 02.jpg",
@@ -1046,6 +1686,78 @@
     "sha256": "0f4b14c2c170fb70444e70885f77a361d299201125355bf974dae9faded36923",
     "decision": "rejected",
     "notes": "Interior do Centro Comercial Santa Fé, assunto e região diferentes do bairro Centro."
+  },
+  {
+    "bundle": "regional-medellin-regions-hotels",
+    "key": "medellin/region-0",
+    "title": "File:2018 Medellín casa en la calle 8 con carrera 43 D (EL Poblado).jpg",
+    "sha256": "17ce47cb76585a21e722748f6625cb69e80a742ecee3b4dc659b41337e8748b4",
+    "decision": "rejected",
+    "notes": "Garagem de imóvel isolado sem representação suficiente da região de Poblado."
+  },
+  {
+    "bundle": "regional-medellin-regions-hotels",
+    "key": "medellin/region-list-0",
+    "title": "File:Clinica Medellin-Sede Poblado.JPG",
+    "sha256": "d3e5fa0539369869f0d058f2524a58f16d12625bda2f3838a9043a137b0975c2",
+    "decision": "rejected",
+    "notes": "Fachada de clínica isolada, pouco representativa da região turística."
+  },
+  {
+    "bundle": "regional-medellin-regions-hotels",
+    "key": "medellin/hotel-0",
+    "title": "File:Escultura en la Avenida poblado- Medellin.JPG",
+    "sha256": "216e4c51deb5aa29e1eb776d2101610ef5ddf5da6c6da68df63287024aed2d2c",
+    "decision": "rejected",
+    "notes": "Escultura isolada sem contexto suficiente da região de hospedagem."
+  },
+  {
+    "bundle": "regional-medellin-regions-hotels",
+    "key": "medellin/region-2",
+    "title": "File:Parque Berrío. Medellín, 1923.jpg",
+    "sha256": "7a9e162495d42c493d9713c47e15e3eaf34720878686a4730c653eea8fb296d2",
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático de 1923, não fotografia atual da região."
+  },
+  {
+    "bundle": "regional-medellin-regions-hotels",
+    "key": "medellin/region-list-2",
+    "title": "File:Catedral y Parque Berrío. Medellín, 1922.jpg",
+    "sha256": "ddaafffb3d55fe34442d0061d53f1a65ab99d42543d73ff0f9244f32d1403776",
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático de 1922, não fotografia atual."
+  },
+  {
+    "bundle": "regional-medellin-regions-hotels",
+    "key": "medellin/region-3",
+    "title": "File:Scaphosepalum lima (Orquídea de pedúnculos ásperos) 02.jpg",
+    "sha256": "89a05ab0fd507afe231730041bbf7b6415a23892f2f7a435f19c926efb04e70f",
+    "decision": "rejected",
+    "notes": "Macro de flor isolada, sem contexto visual do Parque Arví."
+  },
+  {
+    "bundle": "regional-medellin-regions-hotels",
+    "key": "medellin/region-list-3",
+    "title": "File:Scaphosepalum lima (Orquídea de pedúnculos ásperos) 01.jpg",
+    "sha256": "dceaf651a312ed1230ade6e956b52c2b944e960966d9f075013b381e8be4e7af",
+    "decision": "rejected",
+    "notes": "Outra macro de flor isolada, sem representação suficiente da região."
+  },
+  {
+    "bundle": "regional-medellin-regions-hotels",
+    "key": "medellin/hotel-3",
+    "title": "File:Vino de jaboticaba.jpg",
+    "sha256": "0163ddbe43b531f4f186b203319799d8d3e172db1460d9d1592eb1d30d499fc1",
+    "decision": "rejected",
+    "notes": "Garrafa e copo de vinho, assunto inadequado para hospedagem."
+  },
+  {
+    "bundle": "regional-medellin-regions-hotels",
+    "key": "medellin/hotel-list-3",
+    "title": "File:Panorámica de Medellín desde metrocable.jpg",
+    "sha256": "ef6e8b286160f2ce12fbf8f33107c6e2ba463df98eeb41f49a7908859103270c",
+    "decision": "rejected",
+    "notes": "Panorama urbano visto do acesso de metrocable, não representa a região florestal de Arví."
   },
   {
     "bundle": "regional-montevideo",
@@ -1112,6 +1824,54 @@
     "notes": "Fachada isolada de hostel chamado Pocitos, pouco representativa do bairro."
   },
   {
+    "bundle": "regional-montevideo-regions-hotels",
+    "key": "montevideo/region-0",
+    "title": "File:Ciudad Vieja, 11000 Montevideo, Montevideo Department, Uruguay - panoramio (3).jpg",
+    "sha256": "8f3415d2ddc952cc461cf241bd0a075d77c325a9b346af3ecaef2defb8958c66",
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático, inadequado como imagem atual da região."
+  },
+  {
+    "bundle": "regional-montevideo-regions-hotels",
+    "key": "montevideo/hotel-list-0",
+    "title": "File:2016 Montevideo Policías en la Ciudad Vieja.jpg",
+    "sha256": "b444cfefa7ac5826645eab0bddc502e5a0e528ba061d18e1295363f41dac0080",
+    "decision": "rejected",
+    "notes": "Policiais e viatura dominam a composição, assunto inadequado para hospedagem."
+  },
+  {
+    "bundle": "regional-montevideo-regions-hotels",
+    "key": "montevideo/region-1",
+    "title": "File:Pocitos, 11300 Montevideo, Montevideo Department, Uruguay - panoramio (15).jpg",
+    "sha256": "13d04bd88228f2e7ec676abf893a4d988d68ecff1665f65a60b45e7f6beb0f0f",
+    "decision": "rejected",
+    "notes": "Recorte vertical de trânsito visto do alto, pouco representativo da região."
+  },
+  {
+    "bundle": "regional-montevideo-regions-hotels",
+    "key": "montevideo/hotel-1",
+    "title": "File:Pocitos, 11300 Montevideo, Montevideo Department, Uruguay - panoramio (46).jpg",
+    "sha256": "4dc75c95095c876d619db680010b1baaf264b3e15e126157d22e106fd42b95a8",
+    "decision": "rejected",
+    "notes": "Laje em primeiro plano e enquadramento parcial, baixa legibilidade para hospedagem."
+  },
+  {
+    "bundle": "regional-montevideo-regions-hotels",
+    "key": "montevideo/hotel-list-1",
+    "title": "File:2016 caseta en la playa de Pocitos Montevideo Uruguay.jpg",
+    "sha256": "6f24b274121a9dab2e7bf89a1e635b81c3c0df2b52928925e4c3d43237480098",
+    "decision": "rejected",
+    "notes": "Pequeno abrigo de praia domina a composição, contexto insuficiente para hospedagem."
+  },
+  {
+    "bundle": "regional-montevideo-regions-hotels",
+    "key": "montevideo/hotel-list-2",
+    "title": "File:Rambla de Montevideo, mojón del Km. 22.png",
+    "sha256": "fe10af4d8ca2ade46bef07addca805d67a9206dc34faa78fa5e9cd4b6efb43f6",
+    "decision": "rejected",
+    "notes": "Marco quilométrico e via dominam a composição, pouco contexto da região de hospedagem."
+  },
+  {
     "bundle": "regional-montreal",
     "key": "montreal/attraction-0",
     "title": "File:Basílica de Notre-Dame, Montreal, Canadá, 2017-08-12, DD 22-24 HDR.jpg",
@@ -1176,6 +1936,46 @@
     "notes": "Mapa histórico de 1911, proibido como fotografia do bairro."
   },
   {
+    "bundle": "regional-montreal-regions-hotels",
+    "key": "montreal/region-0",
+    "title": "File:Basílica de Notre-Dame, Montreal, Canadá, 2017-08-12, DD 10-12 HDR.jpg",
+    "sha256": "39a4542f330ff53943f655c6d0f001b061805bbdfa1e1949b95b63b5c1f861df",
+    "decision": "rejected",
+    "notes": "Detalhe do teto de basílica, sem representação suficiente da região Vieux."
+  },
+  {
+    "bundle": "regional-montreal-regions-hotels",
+    "key": "montreal/hotel-0",
+    "title": "File:Basílica de Notre-Dame, Montreal, Canadá, 2017-08-12, DD 01-03 HDR.jpg",
+    "sha256": "5230c4e7c86c5c8cd03f388cb6e9766a5e3f66e00795c9b59c502a1975ff5659",
+    "decision": "rejected",
+    "notes": "Interior de igreja, sem contexto regional suficiente para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-montreal-regions-hotels",
+    "key": "montreal/region-2",
+    "title": "File:Montreal from Mount Royal4.jpg",
+    "sha256": "7009e2f5bf84688177ed57e940f17ea24fb19c10008d0dd0c7804d52c89fcf16",
+    "decision": "rejected",
+    "notes": "Vista histórica colorizada com forte granulação e tecido urbano antigo, inadequada como representação atual da região."
+  },
+  {
+    "bundle": "regional-montreal-regions-hotels",
+    "key": "montreal/hotel-list-2",
+    "title": "File:1860s No 392 Montreal Mountain Kilburn Brothers 02.jpg",
+    "sha256": "198965894f127a38ba73921e8d7935c8a6d88565cfe05eb51f997d430396eeec",
+    "decision": "rejected",
+    "notes": "Registro histórico de 1860, inadequado como imagem atual de hospedagem."
+  },
+  {
+    "bundle": "regional-montreal-regions-hotels",
+    "key": "montreal/region-list-3",
+    "title": "File:Montreal city, downtown.jpg",
+    "sha256": "bba7c763ac05651dae25dc6d866e83af683ef1a55f85a160f01a579229dde6b0",
+    "decision": "rejected",
+    "notes": "Registro monocromático de obras urbanas antigas, inadequado como vista atual da região."
+  },
+  {
     "bundle": "regional-orlando",
     "key": "orlando/map-list-3",
     "title": "File:Obama leaves Kennedy Space Center - 201004150007HQ.jpg",
@@ -1238,6 +2038,54 @@
     "sha256": "f9a9330a0fb5b3e660d15580a8d50aafedfdeaf37d0fa1ee7b19487fcca0abe0",
     "decision": "rejected",
     "notes": "Via expressa e veículos dominam a composição; candidato já rejeitado na passagem de destaques."
+  },
+  {
+    "bundle": "regional-orlando-regions-hotels",
+    "key": "orlando/region-0",
+    "title": "File:Green and white stripe traffic cones Walt Disney World Resort (May 2023).jpg",
+    "sha256": "5e86153b75511f8cd4bf8751d299e6494e5da1a7dd159af92c9d365a5e843b4c",
+    "decision": "rejected",
+    "notes": "Cones de trânsito dominam a foto, assunto inadequado para representar a região Disney."
+  },
+  {
+    "bundle": "regional-orlando-regions-hotels",
+    "key": "orlando/hotel-0",
+    "title": "File:Walt Disney World Resort welcome sign.jpg",
+    "sha256": "86a2b9cce3b0fdf580c680c91103b2ea6a76c78515a725a89c79dfb3cb29ea89",
+    "decision": "rejected",
+    "notes": "Placa de acesso fotografada em movimento, baixa nitidez e pouco contexto de hospedagem."
+  },
+  {
+    "bundle": "regional-orlando-regions-hotels",
+    "key": "orlando/region-list-1",
+    "title": "File:Universal Orlando, Welcome (May 2023).jpg",
+    "sha256": "104c444fc36e92aa9b915114852ddf3a26574c75ce9b08c4aae9b56f0cc91b31",
+    "decision": "rejected",
+    "notes": "Banner de boas-vindas isolado sem contexto suficiente da região Universal."
+  },
+  {
+    "bundle": "regional-orlando-regions-hotels",
+    "key": "orlando/region-2",
+    "title": "File:Bahama Breeze International Drive Orlando, Florida - 1.jpg",
+    "sha256": "3e7086a60ba593e76414e29063dd82d8ecf28d4e02b38fe3ead8d61f371a3627",
+    "decision": "rejected",
+    "notes": "Fachada de restaurante de rede, pouco representativa da região International Drive."
+  },
+  {
+    "bundle": "regional-orlando-regions-hotels",
+    "key": "orlando/region-list-2",
+    "title": "File:Bahama Breeze International Drive Orlando, Florida - 3.jpg",
+    "sha256": "28c2e9b5eb6966994a1b8bf22ff64431536b5094b9bc503fda0b1e31249b1e9e",
+    "decision": "rejected",
+    "notes": "Outro enquadramento do mesmo restaurante, pouco contexto regional."
+  },
+  {
+    "bundle": "regional-orlando-regions-hotels",
+    "key": "orlando/hotel-2",
+    "title": "File:Bahama Breeze International Drive Orlando, Florida - 2.jpg",
+    "sha256": "f41014840551eea95ab6642497270cb36de9b27e9fceeb6bc52c9ce29a5053c9",
+    "decision": "rejected",
+    "notes": "Placa de restaurante, assunto inadequado para hospedagem ilustrativa."
   },
   {
     "bundle": "regional-porto-rico",
@@ -1320,6 +2168,62 @@
     "notes": "Forte tonalidade amarela e baixo contraste, qualidade visual inadequada para o cartão."
   },
   {
+    "bundle": "regional-porto-rico-regions-hotels",
+    "key": "porto-rico/region-0",
+    "title": "File:USA-2016-Puerto Rico-San Juan-Castillo San Felipe del Morro Lighthouse 02.jpg",
+    "sha256": "a688aa52eb1d1538af695a335d63d0313e178a55f8d3e33438ef79bd8845d04e",
+    "decision": "rejected",
+    "notes": "Enquadramento proximo do farol ja aprovado em Old San Juan; possivel variante."
+  },
+  {
+    "bundle": "regional-porto-rico-regions-hotels",
+    "key": "porto-rico/region-list-1",
+    "title": "File:Hike to La Mina Falls in El Yunque National Forest, Puerto Rico.jpg",
+    "sha256": "9728c7461679fa90c9f2da63f23cb8a2420a39b9d2ae57d4e1f3c5e8b46930ca",
+    "decision": "rejected",
+    "notes": "Detalhe fechado de pedras e agua, contexto regional insuficiente."
+  },
+  {
+    "bundle": "regional-porto-rico-regions-hotels",
+    "key": "porto-rico/hotel-1",
+    "title": "File:Trail system of El Yunque, rain forest in Puerto Rico.jpg",
+    "sha256": "726801e85c3b4e79f3b670cd2d8971c3596fb5f57db610b2b14baeac3434e8cd",
+    "decision": "rejected",
+    "notes": "Mapa de trilhas, proibido como fotografia de hospedagem."
+  },
+  {
+    "bundle": "regional-porto-rico-regions-hotels",
+    "key": "porto-rico/region-2",
+    "title": "File:Río Fajardo in Fajardo, Puerto Rico.jpg",
+    "sha256": "478b3a15307c480e164ae38dd73cbef40b5c5836eb1a8a85329985c2d64da07b",
+    "decision": "rejected",
+    "notes": "Rio escuro em enquadramento estreito, pouco contexto amplo da regiao."
+  },
+  {
+    "bundle": "regional-porto-rico-regions-hotels",
+    "key": "porto-rico/region-list-2",
+    "title": "File:La Estacion, Please Pardon our Post-Maria appearance, Fajardo Puerto Rico.jpg",
+    "sha256": "7377a912c9bf8d002cd358fe756527b304835a9c7d8b49665038d6d05812ea22",
+    "decision": "rejected",
+    "notes": "Pessoa com placa de reparacao pos-furacao domina a composicao."
+  },
+  {
+    "bundle": "regional-porto-rico-regions-hotels",
+    "key": "porto-rico/region-3",
+    "title": "File:Aerial view of Culebra, Puerto Rico.jpg",
+    "sha256": "0fa66452dee790fb280c39f92bb40450364b7412ec81c82557c165f3790a1d03",
+    "decision": "rejected",
+    "notes": "Vista aerea com nevoa e baixa nitidez, qualidade insuficiente."
+  },
+  {
+    "bundle": "regional-porto-rico-regions-hotels",
+    "key": "porto-rico/region-list-3",
+    "title": "File:Cacti growing on Culebrita, island off Culebra, Puerto Rico.jpg",
+    "sha256": "780d1e60c69204453cecc8e5ba8d3cd48e2a14e219d0fe9893bc1645692ed109",
+    "decision": "rejected",
+    "notes": "Cacto em contraluz ocupa a imagem, sem representar as ilhas."
+  },
+  {
     "bundle": "regional-punta-cana",
     "key": "punta-cana/map-list-0",
     "title": "File:2024 - Bávaro Beach - 45.jpg",
@@ -1350,6 +2254,30 @@
     "sha256": "d4ed2c33f338c779a1a0c5378dbca4fee627e846d81b4fe961ec02f4bd08e882",
     "decision": "rejected",
     "notes": "Estátua temática de dinossauro domina a composição sem representação suficiente do bairro."
+  },
+  {
+    "bundle": "regional-punta-cana-regions-hotels",
+    "key": "punta-cana/hotel-0",
+    "title": "File:Bavaro Dominican Republic.jpg",
+    "sha256": "5d6bd9f86173b240b8a761711e3a22ab0328a6fd1e66b01de8f05278ededc42d",
+    "decision": "rejected",
+    "notes": "Predio e terreno com pouco contexto da area turistica de hospedagem."
+  },
+  {
+    "bundle": "regional-punta-cana-regions-hotels",
+    "key": "punta-cana/hotel-3",
+    "title": "File:Dinosaur statue in Dominican Republic.jpg",
+    "sha256": "f7a3e9b6783c73aabd1b3ea1af88738e3f9340c057b1d7623102da4e7526072c",
+    "decision": "rejected",
+    "notes": "Estatua de dinossauro isolada, assunto inadequado para hospedagem."
+  },
+  {
+    "bundle": "regional-punta-cana-regions-hotels",
+    "key": "punta-cana/hotel-list-3",
+    "title": "File:Accidente en Higuey.jpg",
+    "sha256": "20f127bcf6bc011223b4306694e9043e26dd6e6f37553365e82dec1242d3d0ca",
+    "decision": "rejected",
+    "notes": "Registro de acidente de transito, assunto inadequado para turismo."
   },
   {
     "bundle": "regional-quito",
@@ -1408,6 +2336,62 @@
     "notes": "Fotografia histórica de ônibus de 1985, inadequada como vista atual de Cumbayá."
   },
   {
+    "bundle": "regional-quito-regions-hotels",
+    "key": "quito/region-0",
+    "title": "File:In the Historic Center of Quito a UNESCO World Heritage Site, pic.a7702.jpg",
+    "sha256": "5425c5508ba88cbcef28adebd966705b1be2834fe8104f51eba233a23c503231",
+    "decision": "rejected",
+    "notes": "Enquadramento proximo da vista do mesmo bairro ja selecionada; rejeitado preventivamente por repeticao visual."
+  },
+  {
+    "bundle": "regional-quito-regions-hotels",
+    "key": "quito/hotel-0",
+    "title": "File:In the Historic Center of Quito a UNESCO World Heritage Site, pic.a7707.jpg",
+    "sha256": "22d17fe8bb8f49167be7859c2effdddabfbf4bca4d158cbe0bc8ab8af89f1477",
+    "decision": "rejected",
+    "notes": "Vista e enquadramento proximos do mesmo centro historico ja selecionado."
+  },
+  {
+    "bundle": "regional-quito-regions-hotels",
+    "key": "quito/hotel-list-0",
+    "title": "File:In the Historic Center of Quito a UNESCO World Heritage Site, pic.a7709.jpg",
+    "sha256": "518d9c21f406d732ad6daa10f4f26ac6ae61b8ad6d7aae8992f0cd9b90fa1b49",
+    "decision": "rejected",
+    "notes": "Outro recorte da mesma vista do centro historico, composicao repetitiva."
+  },
+  {
+    "bundle": "regional-quito-regions-hotels",
+    "key": "quito/region-list-1",
+    "title": "File:Barrios de La Mariscal y Parroquias limítrofes.png",
+    "sha256": "5cd0b333ad6ee57c3caa8189a71551e26ca93ca8d3c0dc6c0f7e22d5e163b85a",
+    "decision": "rejected",
+    "notes": "Mapa de bairros, proibido como fotografia de regiao."
+  },
+  {
+    "bundle": "regional-quito-regions-hotels",
+    "key": "quito/hotel-2",
+    "title": "File:Capilla Hermita La Dolorosa - Quito, Equador - panoramio.jpg",
+    "sha256": "b9b6f22d318c820ae4059a7e10f7d5438a4ae20b81101b9e9782967a0f13895c",
+    "decision": "rejected",
+    "notes": "Capela isolada, contexto insuficiente para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-quito-regions-hotels",
+    "key": "quito/hotel-3",
+    "title": "File:Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 12.JPG",
+    "sha256": "2ffd511e140cd3008cacabfce25edf57761db819693b53919f571b078d787162",
+    "decision": "rejected",
+    "notes": "Vista frontal do monumento com composicao proxima do registro ja aprovado."
+  },
+  {
+    "bundle": "regional-quito-regions-hotels",
+    "key": "quito/hotel-list-3",
+    "title": "File:Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 15.JPG",
+    "sha256": "6acd2c4e26c1216238199ca8e79c13efbc0f5216e97f68cd3ecadc0b8144342b",
+    "decision": "rejected",
+    "notes": "Outro enquadramento frontal proximo do mesmo monumento, rejeitado por repeticao visual."
+  },
+  {
     "bundle": "regional-san-andres-neighborhoods",
     "key": "san-andres/neighborhood-1",
     "title": "File:San Luis Cemetery. San Andres, Colombia.jpg",
@@ -1430,6 +2414,22 @@
     "sha256": "c07edd95674f7b9af984809edf7a6e084a130f4fe8dab5f22c891f5e67cc1382",
     "decision": "rejected",
     "notes": "Torre de San Andrés em Valladolid, Espanha, não La Loma na ilha colombiana."
+  },
+  {
+    "bundle": "regional-san-andres-regions-hotels",
+    "key": "san-andres/hotel-2",
+    "title": "File:West View (8333577010).jpg",
+    "sha256": "07d4878384b24b353cf4848d979187785787d23a8f05862a02394807676f85d9",
+    "decision": "rejected",
+    "notes": "Placa de restaurante e balneario isolada, pouco contexto para hospedagem."
+  },
+  {
+    "bundle": "regional-san-andres-regions-hotels",
+    "key": "san-andres/hotel-list-3",
+    "title": "File:Islote Johnny Cay.JPG",
+    "sha256": "c393bb57bb0c2df731169c15c2dcbd9a5dfa4d4fc5150b986e8c06f787f4f01c",
+    "decision": "rejected",
+    "notes": "Ilha muito distante e enquadramento pouco nitido, qualidade insuficiente."
   },
   {
     "bundle": "regional-toronto-highlights",
@@ -1470,6 +2470,86 @@
     "sha256": "c1c621808b6b30087b69ddc54020f330d5b8169c108ad86c68750197a7a03499",
     "decision": "rejected",
     "notes": "Registro datado de 1974, inadequado como vista atual de Yorkville."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/region-1",
+    "title": "File:Geese family in Downtown Toronto (2).jpg",
+    "sha256": "2a75ffba4816dd0a533ce7e9cbb6d7f03ffeef72df049904e8dbb57c4fb812f5",
+    "decision": "rejected",
+    "notes": "Familia de gansos domina o assunto, pouco contexto amplo do Downtown."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/region-list-1",
+    "title": "File:Geese family in Downtown Toronto 01.jpg",
+    "sha256": "49e233fc860145ce8101a7ca9a245090f6a8e20c851fe40234bbd16a0b291792",
+    "decision": "rejected",
+    "notes": "Outra foto da familia de gansos, pouco representativa da regiao."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/hotel-1",
+    "title": "File:Geese family in Downtown Toronto 03.jpg",
+    "sha256": "51d809b335ff9f1de23be7b4802cd4c44d3d1849cbd214cfbedcaef92cdb4caa",
+    "decision": "rejected",
+    "notes": "Gansos atravessando a rua dominam o assunto, inadequado para hospedagem."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/hotel-list-1",
+    "title": "File:Toronto downtown aerial.JPG",
+    "sha256": "618f562545798497b0b3b9c28ad2628077385c3d0c00e43baca41034b38a0117",
+    "decision": "rejected",
+    "notes": "Nuvens e pouca nitidez ocultam grande parte do panorama aereo."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/region-2",
+    "title": "File:Alexander Falafel, Parkdale Toronto, 2025.jpg",
+    "sha256": "0b4c986725e65c88d5b0160bf0fb3351493958c44f28ef21f155bba26d114035",
+    "decision": "rejected",
+    "notes": "Fachada isolada de restaurante, contexto insuficiente da regiao West."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/region-list-2",
+    "title": "File:Al Jood Middle Eastern Cuisine, Parkdale Toronto 2025.jpg",
+    "sha256": "03b934b3192df30b0e1206683f3fed5622a63465fe20f67082fd884e089b9bf5",
+    "decision": "rejected",
+    "notes": "Outra fachada de restaurante isolada, pouco contexto regional."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/hotel-list-2",
+    "title": "File:Toronto laneway surface, Parkdale, 2024-12.jpg",
+    "sha256": "f94ddfc42d599a0e523fce9430ce15af360e29d6d525bf97acaa3b65193a6572",
+    "decision": "rejected",
+    "notes": "Pavimento e bueiro dominam a foto, assunto inadequado para hospedagem."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/region-list-3",
+    "title": "File:Pape Ave Cemetery.JPG",
+    "sha256": "e59779c78a81ce67251be200316a17c4c6759dea5c080386d1910285eb66f9db",
+    "decision": "rejected",
+    "notes": "Sepulturas isoladas sem contexto suficiente da regiao East."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/hotel-3",
+    "title": "File:TorontoLeslievilleAerial1942.jpg",
+    "sha256": "92f6a2825f0992bc7fde581144e7483171adffd55e77d2d979849dea8f8bd5d3",
+    "decision": "rejected",
+    "notes": "Vista aerea monocromatica de 1942, inadequada como imagem atual."
+  },
+  {
+    "bundle": "regional-toronto-regions-hotels",
+    "key": "toronto/hotel-list-3",
+    "title": "File:White and blue brick wall (Unsplash).jpg",
+    "sha256": "dd11c49e28b5ca99b7bdc25be7a3da304830ebd022a93b75c9b98d2042a8f9f8",
+    "decision": "rejected",
+    "notes": "Textura de parede de tijolos, sem representacao da regiao de hospedagem."
   },
   {
     "bundle": "regional-vancouver",
@@ -1534,5 +2614,37 @@
     "sha256": "14218232e59d79fb88d270c0938b1a988c3c37e7b3271b43488f8cfed9df6343",
     "decision": "rejected",
     "notes": "Placa textual do relógio, não representa visualmente o bairro de Gastown."
+  },
+  {
+    "bundle": "regional-vancouver-regions-hotels",
+    "key": "vancouver/region-0",
+    "title": "File:Vancouver (BC, Canada), Stanley Park -- 2022 -- 1957.jpg",
+    "sha256": "2ec807e9ce7d29c47399850c2eba47200debba88930064ecb8e4dd77dfc08b78",
+    "decision": "rejected",
+    "notes": "Enquadramento fechado de flores e gramado, pouco representativo do parque como regiao."
+  },
+  {
+    "bundle": "regional-vancouver-regions-hotels",
+    "key": "vancouver/hotel-list-0",
+    "title": "File:Vancouver (BC, Canada), Stanley Park, Ufer zum Hafen -- 2022 -- 2054.jpg",
+    "sha256": "32c5370c1e0405460e5df8cd50d2a50d28be3d81b0b771927c03d66ee7a37236",
+    "decision": "rejected",
+    "notes": "Rocha e ave isoladas na agua, contexto insuficiente da regiao de hospedagem."
+  },
+  {
+    "bundle": "regional-vancouver-regions-hotels",
+    "key": "vancouver/region-2",
+    "title": "File:Lonsdale Avenue north vancouver streetcars.jpg",
+    "sha256": "ed16c9088ebee2b2caa4a882a4e6dd756e5d529beb8d822d6861edc8933a6418",
+    "decision": "rejected",
+    "notes": "Registro historico monocromatico de bondes, inadequado como imagem atual."
+  },
+  {
+    "bundle": "regional-vancouver-regions-hotels",
+    "key": "vancouver/region-list-2",
+    "title": "File:BCER Streetcar on Lonsdale Av., North Vancouver, B.C.jpg",
+    "sha256": "8ff1cc032ab57a4c465125537502d7ef0213c2b5fecf8d56b181970ec29099af",
+    "decision": "rejected",
+    "notes": "Registro historico em sepia, inadequado como vista atual da regiao."
   }
 ]

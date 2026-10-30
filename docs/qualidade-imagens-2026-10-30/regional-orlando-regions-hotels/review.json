@@ -1,0 +1,1834 @@
+[
+  {
+    "key": "orlando/region-0",
+    "slot": "region-0",
+    "topic": "Disney",
+    "path": "/images/destinations/orlando/curated-region-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Green and white stripe traffic cones Walt Disney World Resort (May 2023).jpg",
+    "imageinfo": {
+      "size": 3357433,
+      "width": 3170,
+      "height": 2382,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Green_and_white_stripe_traffic_cones_Walt_Disney_World_Resort_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1803,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Green_and_white_stripe_traffic_cones_Walt_Disney_World_Resort_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1803
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Green_and_white_stripe_traffic_cones_Walt_Disney_World_Resort_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Green_and_white_stripe_traffic_cones_Walt_Disney_World_Resort_(May_2023).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132203533",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-05-22 12:58:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Green and white stripe traffic cones Walt Disney World Resort (May 2023)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Walt Disney World Resort|CC-Zero|Photographs by Benoît Prieur|May 2023 in Florida|Self-published work|2023 images by Benoît Prieur|Files with coordinates missing SDC location of creation|United States photographs taken on 2023-05-17|Walt Disney World Resort in 2023|Uploaded with PyCommonist|Green and white stripe traffic cones|Images of Orange County, Florida by Benoît Prieur|Street furniture in Orange County, Florida",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.361831",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.554183",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Green and white stripe traffic cones Walt Disney World Resort (May 2023).",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-05-17 10:25:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/region-0.jpg",
+    "dimensions": [
+      2400,
+      1803
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Green_and_white_stripe_traffic_cones_Walt_Disney_World_Resort_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "5e86153b75511f8cd4bf8751d299e6494e5da1a7dd159af92c9d365a5e843b4c"
+  },
+  {
+    "key": "orlando/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Disney",
+    "path": "/images/destinations/orlando/curated-region-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:The BoardWalk at Disney's BoardWalk Inn, Walt Disney World Resort, Orlando, Florida. (15634867112).jpg",
+    "imageinfo": {
+      "size": 2775184,
+      "width": 2816,
+      "height": 2112,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/The_BoardWalk_at_Disney%27s_BoardWalk_Inn%2C_Walt_Disney_World_Resort%2C_Orlando%2C_Florida._%2815634867112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/The_BoardWalk_at_Disney%27s_BoardWalk_Inn%2C_Walt_Disney_World_Resort%2C_Orlando%2C_Florida._%2815634867112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/The_BoardWalk_at_Disney%27s_BoardWalk_Inn%2C_Walt_Disney_World_Resort%2C_Orlando%2C_Florida._%2815634867112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_BoardWalk_at_Disney%27s_BoardWalk_Inn,_Walt_Disney_World_Resort,_Orlando,_Florida._(15634867112).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=97762706",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-12-18 15:37:30",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "The BoardWalk at Disney's BoardWalk Inn, Walt Disney World Resort, Orlando, Florida. (15634867112)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Disney's BoardWalk|Flickr images reviewed by FlickreviewR 2|Walt Disney World Resort in 2013",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<ul><li><ul><li><ul><li><ul><li>COPYRIGHT AND CC INFORMATION ****</li></ul></li></ul></li></ul></li></ul>\n<p>If you like and want to use our photos you're welcome to but we require that you give us the required attribution on each image you use. \n</p>\nAn example of the required attribution is: Image by &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"http://www.traveljunction.com\">http://www.traveljunction.com</a>\" rel=\"nofollow\"&gt;www.traveljunction.com&lt;/a&gt;",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-03-16 03:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/128012202@N05/15634867112/\">The BoardWalk at Disney's BoardWalk Inn, Walt Disney World Resort, Orlando, Florida.</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/128012202@N05\">traveljunction</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/region-list-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/The_BoardWalk_at_Disney%27s_BoardWalk_Inn%2C_Walt_Disney_World_Resort%2C_Orlando%2C_Florida._%2815634867112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "b90200f2a1abed4856e8b41cb4331f7d0a090b1b0944de315b280bcf3025fe9d"
+  },
+  {
+    "key": "orlando/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Disney",
+    "path": "/images/destinations/orlando/curated-hotel-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Walt Disney World Resort welcome sign.jpg",
+    "imageinfo": {
+      "size": 7530132,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Walt_Disney_World_Resort_welcome_sign.jpg/3840px-Walt_Disney_World_Resort_welcome_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Walt_Disney_World_Resort_welcome_sign.jpg/3840px-Walt_Disney_World_Resort_welcome_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Walt_Disney_World_Resort_welcome_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_World_Resort_welcome_sign.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57356718",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-03-24 10:51:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Walt Disney World Resort welcome sign",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Welcome signs in Florida|March 2017 in Florida|Self-published work|Signs in Orange County, Florida|United States photographs taken on 2017-03-17|Files with coordinates missing SDC location of creation|Walt Disney World Resort arches|Walt Disney World Resort in 2017|2017 Florida photos by Mjrmtg taken with Canon EOS 700D|Monument signs in the United States",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.381940",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.505592",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Walt Disney World Resort welcome sign, Orange County, Florida",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 17 March 2017, 16:10:36",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mjrmtg\" title=\"User:Mjrmtg\">Michael Rivera</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/hotel-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Walt_Disney_World_Resort_welcome_sign.jpg/3840px-Walt_Disney_World_Resort_welcome_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "86a2b9cce3b0fdf580c680c91103b2ea6a76c78515a725a89c79dfb3cb29ea89"
+  },
+  {
+    "key": "orlando/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Disney",
+    "path": "/images/destinations/orlando/curated-hotel-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Le lac de Walt Disney World Resort en janvier 2022.JPG",
+    "imageinfo": {
+      "size": 5055391,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Le_lac_de_Walt_Disney_World_Resort_en_janvier_2022.JPG/3840px-Le_lac_de_Walt_Disney_World_Resort_en_janvier_2022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Le_lac_de_Walt_Disney_World_Resort_en_janvier_2022.JPG/3840px-Le_lac_de_Walt_Disney_World_Resort_en_janvier_2022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Le_lac_de_Walt_Disney_World_Resort_en_janvier_2022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Le_lac_de_Walt_Disney_World_Resort_en_janvier_2022.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=115193327",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-02-12 09:12:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Le lac de Walt Disney World Resort en janvier 2022",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Walt Disney World Resort|CC-Zero|Epcot Resort Area|January 2022 in Florida|Photographs by Benoît Prieur|Self-published work|Files with coordinates missing SDC location of creation|2022 images by Benoît Prieur|United States photographs taken on 2022-01-31|Lakes of Orange County, Florida|Uploaded with PyCommonist|Images of Orange County, Florida by Benoît Prieur|Afternoon in Florida",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.369828",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.555458",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Le lac de Walt Disney World Resort en janvier 2022.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-01-31 15:00:20",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/hotel-list-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Le_lac_de_Walt_Disney_World_Resort_en_janvier_2022.JPG/3840px-Le_lac_de_Walt_Disney_World_Resort_en_janvier_2022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7c8e11e9abd1a37e07febcf530bcd5058f5389797a1b190cbdf4d23c74f426ef"
+  },
+  {
+    "key": "orlando/region-1",
+    "slot": "region-1",
+    "topic": "Universal",
+    "path": "/images/destinations/orlando/curated-region-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Universal Orlando (7323896726).jpg",
+    "imageinfo": {
+      "size": 2261031,
+      "width": 2816,
+      "height": 2112,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Universal_Orlando_%287323896726%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Universal_Orlando_%287323896726%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Universal_Orlando_%287323896726%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Universal_Orlando_(7323896726).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228781",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-26 19:44:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Universal Orlando (7323896726)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-W50|Universal CityWalk Orlando|Flickr images reviewed by File Upload Bot (Magnus Manske)|Flickr images missing SDC creator|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation|Afternoon in Florida",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.477830",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.471031",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Universal Orlando",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-05-27 16:10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/7323896726/\">Universal Orlando</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/region-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Universal_Orlando_%287323896726%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "253d25c6fc9e7d4081e6b058fb4e1eaa99cf0e917a35b87d06c9ba79e1be7ef8"
+  },
+  {
+    "key": "orlando/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Universal",
+    "path": "/images/destinations/orlando/curated-region-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Universal Orlando, Welcome (May 2023).jpg",
+    "imageinfo": {
+      "size": 2869401,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Universal_Orlando%2C_Welcome_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Universal_Orlando%2C_Welcome_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Universal_Orlando%2C_Welcome_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Universal_Orlando,_Welcome_(May_2023).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132010367",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-05-16 15:57:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Universal Orlando, Welcome (May 2023)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Universal Orlando|Location possible|Photographs by Benoît Prieur|May 2023 in Florida|Self-published work|2023 images by Benoît Prieur|2023 in Orlando, Florida|United States photographs taken on 2023-05-15|Uploaded with PyCommonist|Images of Orange County, Florida by Benoît Prieur|Universal Studios in 2023",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Universal Orlando, Welcome (May 2023).",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-05-15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/region-list-1.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Universal_Orlando%2C_Welcome_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "104c444fc36e92aa9b915114852ddf3a26574c75ce9b08c4aae9b56f0cc91b31"
+  },
+  {
+    "key": "orlando/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Universal",
+    "path": "/images/destinations/orlando/curated-hotel-1.jpg",
+    "pool": "region-1",
+    "status": "download-error",
+    "title": "File:Pharos Lighthouse Universal Orlando (May 2023).jpg",
+    "imageinfo": {
+      "size": 2815145,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Pharos_Lighthouse_Universal_Orlando_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Pharos_Lighthouse_Universal_Orlando_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Pharos_Lighthouse_Universal_Orlando_%28May_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pharos_Lighthouse_Universal_Orlando_(May_2023).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132009671",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-05-16 15:30:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Pharos Lighthouse Universal Orlando (May 2023)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Photographs by Benoît Prieur|May 2023 in Florida|Self-published work|2023 images by Benoît Prieur|2023 in Orlando, Florida|United States photographs taken on 2023-05-15|Uploaded with PyCommonist|Port of Entry (Islands of Adventure)|Images of Orange County, Florida by Benoît Prieur|Universal Studios in 2023",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Pharos Lighthouse Universal Orlando (May 2023).",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-05-15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "error": "HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+  },
+  {
+    "key": "orlando/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Universal",
+    "path": "/images/destinations/orlando/curated-hotel-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:A view of Universal Orlando Resort in May 2023.jpg",
+    "imageinfo": {
+      "size": 3174344,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/A_view_of_Universal_Orlando_Resort_in_May_2023.jpg/3840px-A_view_of_Universal_Orlando_Resort_in_May_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/A_view_of_Universal_Orlando_Resort_in_May_2023.jpg/3840px-A_view_of_Universal_Orlando_Resort_in_May_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/A_view_of_Universal_Orlando_Resort_in_May_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:A_view_of_Universal_Orlando_Resort_in_May_2023.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132068209",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-05-18 11:30:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "A view of Universal Orlando Resort in May 2023",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Islands Of Adventure|Photographs by Benoît Prieur|May 2023 in Florida|Self-published work|2023 images by Benoît Prieur|2023 in Orlando, Florida|United States photographs taken on 2023-05-15|Uploaded with PyCommonist|Images of Orange County, Florida by Benoît Prieur|Universal Studios in 2023",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A view of Universal Orlando Resort in May 2023.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-05-15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/hotel-list-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/A_view_of_Universal_Orlando_Resort_in_May_2023.jpg/3840px-A_view_of_Universal_Orlando_Resort_in_May_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "82cf532df546bf5b33f1fec6c1d8694e064441e1ebdfbf946863fca6c403f242"
+  },
+  {
+    "key": "orlando/region-2",
+    "slot": "region-2",
+    "topic": "I-Drive",
+    "path": "/images/destinations/orlando/curated-region-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Bahama Breeze International Drive Orlando, Florida - 1.jpg",
+    "imageinfo": {
+      "size": 5691456,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_1.jpg/3840px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_1.jpg/3840px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bahama_Breeze_International_Drive_Orlando,_Florida_-_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=185875580",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-03-10 21:28:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bahama Breeze International Drive Orlando, Florida - 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "International Drive|Bahama Breeze|Restaurants in Orlando, Florida|Self-published work|Restaurants in the United States photographed in 2026|United States photographs taken on 2026-03-08|March 2026 in Orlando, Florida",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Exterior of a Bahama Breeze restaurant location in Orlando, Florida.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-08 08:51:07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nielsoncaetanosalmeron&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nielsoncaetanosalmeron (page does not exist)\">Nielsoncaetanosalmeron</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/region-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_1.jpg/3840px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "3e7086a60ba593e76414e29063dd82d8ecf28d4e02b38fe3ead8d61f371a3627"
+  },
+  {
+    "key": "orlando/region-list-2",
+    "slot": "region-list-2",
+    "topic": "I-Drive",
+    "path": "/images/destinations/orlando/curated-region-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Bahama Breeze International Drive Orlando, Florida - 3.jpg",
+    "imageinfo": {
+      "size": 5969792,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_3.jpg/3840px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_3.jpg/3840px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bahama_Breeze_International_Drive_Orlando,_Florida_-_3.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=185875578",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-03-10 21:28:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bahama Breeze International Drive Orlando, Florida - 3",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "International Drive|Bahama Breeze|Restaurants in Orlando, Florida|Self-published work|Restaurants in the United States photographed in 2026|United States photographs taken on 2026-03-08|March 2026 in Orlando, Florida",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Exterior of a Bahama Breeze restaurant location in Orlando, Florida.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-08 08:50:42",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nielsoncaetanosalmeron&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nielsoncaetanosalmeron (page does not exist)\">Nielsoncaetanosalmeron</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/region-list-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_3.jpg/3840px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "28c2e9b5eb6966994a1b8bf22ff64431536b5094b9bc503fda0b1e31249b1e9e"
+  },
+  {
+    "key": "orlando/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em I-Drive",
+    "path": "/images/destinations/orlando/curated-hotel-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Bahama Breeze International Drive Orlando, Florida - 2.jpg",
+    "imageinfo": {
+      "size": 10112108,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_2.jpg/3840px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_2.jpg/3840px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bahama_Breeze_International_Drive_Orlando,_Florida_-_2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=185875579",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-03-10 21:28:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bahama Breeze International Drive Orlando, Florida - 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "International Drive|Bahama Breeze|Restaurants in Orlando, Florida|Self-published work|Restaurants in the United States photographed in 2026|United States photographs taken on 2026-03-08|March 2026 in Orlando, Florida",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Exterior signage of a Bahama Breeze restaurant location in Orlando, Florida.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-08 08:50:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nielsoncaetanosalmeron&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nielsoncaetanosalmeron (page does not exist)\">Nielsoncaetanosalmeron</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/hotel-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_2.jpg/3840px-Bahama_Breeze_International_Drive_Orlando%2C_Florida_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f41014840551eea95ab6642497270cb36de9b27e9fceeb6bc52c9ce29a5053c9"
+  },
+  {
+    "key": "orlando/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em I-Drive",
+    "path": "/images/destinations/orlando/curated-hotel-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Four Points by Sheraton Orlando International Drive - June 2018 (0237).jpg",
+    "imageinfo": {
+      "size": 902577,
+      "width": 1536,
+      "height": 2048,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Four_Points_by_Sheraton_Orlando_International_Drive_-_June_2018_%280237%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Four_Points_by_Sheraton_Orlando_International_Drive_-_June_2018_%280237%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Four_Points_by_Sheraton_Orlando_International_Drive_-_June_2018_%280237%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Four_Points_by_Sheraton_Orlando_International_Drive_-_June_2018_(0237).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=78138584",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-04-18 22:17:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Four Points by Sheraton Orlando International Drive - June 2018 (0237)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with iPhone X|Self-published work|Photographs by Gregory Varnum taken in 2018|Hotels in the United States photographed in 2018|Files with coordinates missing SDC location of creation|2018 in Orlando, Florida|Four Points by Sheraton Orlando International Drive",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.462369",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.460975",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of Four Points by Sheraton Orlando International Drive in June 2018",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-06-25 06:22:59",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Varnent\" title=\"User:Varnent\">Gregory Varnum</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/hotel-list-2.jpg",
+    "dimensions": [
+      1536,
+      2048
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Four_Points_by_Sheraton_Orlando_International_Drive_-_June_2018_%280237%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "b705a8f08653a0ce28a0b8e104daa412595888b6ba1b1dfd7d0a77e861852c63"
+  },
+  {
+    "key": "orlando/region-3",
+    "slot": "region-3",
+    "topic": "Downtown",
+    "path": "/images/destinations/orlando/curated-region-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Wall Street Plaza Downtown Orlando.jpg",
+    "imageinfo": {
+      "size": 4964012,
+      "width": 5801,
+      "height": 3867,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Wall_Street_Plaza_Downtown_Orlando.jpg/3840px-Wall_Street_Plaza_Downtown_Orlando.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Wall_Street_Plaza_Downtown_Orlando.jpg/3840px-Wall_Street_Plaza_Downtown_Orlando.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Wall_Street_Plaza_Downtown_Orlando.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wall_Street_Plaza_Downtown_Orlando.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=154911491",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-11-05 16:56:57",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Wall Street Plaza Downtown Orlando",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Flickr images reviewed by FlickreviewR 2|2024 in Orlando, Florida|Downtown Orlando, Florida",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Wall Street Plaza Downtown Orlando",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-11-04 01:17:21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/201524198@N03/54118164109/\">https://www.flickr.com/photos/201524198@N03/54118164109/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Connor J. Williams",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/region-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Wall_Street_Plaza_Downtown_Orlando.jpg/3840px-Wall_Street_Plaza_Downtown_Orlando.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "28775b9c8473e51731aa23c4c03ed917328392da547388f197f5d101c2ee4294"
+  },
+  {
+    "key": "orlando/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Downtown",
+    "path": "/images/destinations/orlando/curated-region-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Downtown Orlando, Business District.JPG",
+    "imageinfo": {
+      "size": 886299,
+      "width": 2048,
+      "height": 1536,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Downtown_Orlando%2C_Business_District.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Downtown_Orlando%2C_Business_District.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Downtown_Orlando%2C_Business_District.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Downtown_Orlando,_Business_District.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36552310",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-11-02 04:34:59",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Downtown Orlando, Business District",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-H200|Self-published work|Downtown Orlando, Florida",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "downtown",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-12-25 04:10:37",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Miosotis_jade&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Miosotis jade (page does not exist)\">Miosotis jade</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/region-list-3.jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Downtown_Orlando%2C_Business_District.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "c3f51d71c257c55da87f45af82188b0e84e3d212a3034e1ad8563fde60779cff"
+  },
+  {
+    "key": "orlando/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Downtown",
+    "path": "/images/destinations/orlando/curated-hotel-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Lake Eola -- Downtown Orlando (19932084106).png",
+    "imageinfo": {
+      "size": 11641329,
+      "width": 3872,
+      "height": 1949,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Lake_Eola_--_Downtown_Orlando_%2819932084106%29.png/3840px-Lake_Eola_--_Downtown_Orlando_%2819932084106%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1208,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Lake_Eola_--_Downtown_Orlando_%2819932084106%29.png/3840px-Lake_Eola_--_Downtown_Orlando_%2819932084106%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1208
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Lake_Eola_--_Downtown_Orlando_%2819932084106%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Eola_--_Downtown_Orlando_(19932084106).png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56290856",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-02-15 03:45:57",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lake Eola -- Downtown Orlando (19932084106)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Lake Eola|Orlando, Florida skylines|Flickr images reviewed by FlickreviewR|Views of Orlando, Florida|Downtown Orlando, Florida|Orlando, Florida skylines viewed from Lake Eola Park",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Lake Eola // Downtown Orlando",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-07-23 22:55",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/pandapples/19932084106/\">Lake Eola // Downtown Orlando</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27542759@N00\">Athena Iluz</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/png"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/hotel-3.jpg",
+    "dimensions": [
+      2400,
+      1208
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Lake_Eola_--_Downtown_Orlando_%2819932084106%29.png/3840px-Lake_Eola_--_Downtown_Orlando_%2819932084106%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e810d18da7a8a50835afde56649ecdc5381a38b07fc0a8c2b89e68ec1f60d82e"
+  },
+  {
+    "key": "orlando/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Downtown",
+    "path": "/images/destinations/orlando/curated-hotel-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Orlando - Downtown - Downtown Baptist Church & Orlando Lutheran Towers.jpg",
+    "imageinfo": {
+      "size": 2049324,
+      "width": 3233,
+      "height": 2406,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Orlando_-_Downtown_-_Downtown_Baptist_Church_%26_Orlando_Lutheran_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1786,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Orlando_-_Downtown_-_Downtown_Baptist_Church_%26_Orlando_Lutheran_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1786
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Orlando_-_Downtown_-_Downtown_Baptist_Church_%26_Orlando_Lutheran_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Orlando_-_Downtown_-_Downtown_Baptist_Church_%26_Orlando_Lutheran_Towers.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=183938542",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-02-13 19:59:44",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Orlando - Downtown - Downtown Baptist Church & Orlando Lutheran Towers",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "High-rise apartment buildings in Orlando, Florida|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Downtown Baptist Church (Orlando, Florida)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.541781",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.376717",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Downtown Baptist Church (right) and Orlando Lutheran Towers",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-03-08 16:23:07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/jared422/13912371425/\">https://www.flickr.com/photos/jared422/13912371425/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Jared",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      1786
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Orlando_-_Downtown_-_Downtown_Baptist_Church_%26_Orlando_Lutheran_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "0d09e1bedd233a93e2ce55ba104aecbc64ac1ccff6a2e14176944d833ba1fabb"
+  }
+]

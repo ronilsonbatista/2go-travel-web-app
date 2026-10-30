@@ -1,0 +1,66 @@
+{
+  "bahamas/region-0": {
+    "decision": "rejected",
+    "notes": "Registro antigo de 1992 com qualidade visual fraca para vista atual da região."
+  },
+  "bahamas/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Nassau, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bahamas/hotel-0": {
+    "decision": "rejected",
+    "notes": "Placas direcionais de várias ilhas, não representa hospedagem nem a paisagem de Nassau."
+  },
+  "bahamas/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Registro antigo de 1992, inadequado como imagem atual de hospedagem."
+  },
+  "bahamas/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Paradise, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bahamas/region-list-1": {
+    "decision": "rejected",
+    "notes": "Entrada de restaurante sem contexto suficiente para representar a região de Paradise."
+  },
+  "bahamas/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Paradise, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bahamas/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Paradise, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bahamas/region-2": {
+    "decision": "rejected",
+    "notes": "Pessoa central domina a composição, inadequado como fotografia principal da região."
+  },
+  "bahamas/region-list-2": {
+    "decision": "rejected",
+    "notes": "Registro de 1989 dominado pelo céu, pouca representação da região."
+  },
+  "bahamas/hotel-2": {
+    "decision": "rejected",
+    "notes": "Registro de 1989 com pouca qualidade e sem contexto suficiente de hospedagem."
+  },
+  "bahamas/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Registro antigo de 1989, reprodução cromática inadequada para imagem atual."
+  },
+  "bahamas/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Out Islands, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "bahamas/region-list-3": {
+    "decision": "rejected",
+    "notes": "Estrada rural fotografada em 1989, contexto e qualidade insuficientes para o cartão da região."
+  },
+  "bahamas/hotel-3": {
+    "decision": "rejected",
+    "notes": "Plantação fotografada em 1989, assunto inadequado para hospedagem ilustrativa."
+  },
+  "bahamas/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Veículos e terreno em registro de 1989, contexto insuficiente para hospedagem."
+  }
+}

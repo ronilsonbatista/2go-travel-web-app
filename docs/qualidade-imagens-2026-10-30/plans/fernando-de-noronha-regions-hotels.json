@@ -1,0 +1,79 @@
+{
+  "city": "fernando-de-noronha",
+  "region": "americas",
+  "center": [
+    -3.854,
+    -32.423,
+    20
+  ],
+  "pools": {
+    "region-0": {
+      "query": "Baia do Sancho",
+      "required": [
+        "sancho"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "Praia da Conceicao Noronha",
+      "required": [
+        "conceicao"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "Praia do Sueste Noronha",
+      "required": [
+        "sueste"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "region-3": {
+      "query": "Vila dos Remedios Noronha",
+      "required": [
+        "remedios"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    }
+  }
+}

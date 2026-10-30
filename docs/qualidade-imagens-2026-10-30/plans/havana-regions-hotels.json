@@ -1,0 +1,79 @@
+{
+  "city": "havana",
+  "region": "americas",
+  "center": [
+    23.1136,
+    -82.3666,
+    30
+  ],
+  "pools": {
+    "region-0": {
+      "query": "Habana Vieja",
+      "required": [
+        "habana vieja|old havana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "Malecon Havana",
+      "required": [
+        "malecon"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "Vedado Havana",
+      "required": [
+        "vedado"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "region-3": {
+      "query": "Centro Habana",
+      "required": [
+        "centro habana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    }
+  }
+}

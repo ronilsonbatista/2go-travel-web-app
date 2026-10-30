@@ -1,0 +1,1498 @@
+[
+  {
+    "key": "assuncao/region-0",
+    "slot": "region-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "region-0"
+  },
+  {
+    "key": "assuncao/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "region-0"
+  },
+  {
+    "key": "assuncao/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Centro",
+    "status": "no-candidate",
+    "pool": "region-0"
+  },
+  {
+    "key": "assuncao/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Centro",
+    "status": "no-candidate",
+    "pool": "region-0"
+  },
+  {
+    "key": "assuncao/region-1",
+    "slot": "region-1",
+    "topic": "Villa Morra",
+    "path": "/images/destinations/assuncao/curated-region-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Villa Morra 100806.jpg",
+    "imageinfo": {
+      "size": 3502639,
+      "width": 3572,
+      "height": 2127,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Villa_Morra_100806.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1429,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Villa_Morra_100806.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1429
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Villa_Morra_100806.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Villa_Morra_100806.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=121803054",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-08-15 22:58:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Villa Morra 100806",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Streets in Asunción|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.294611",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.581496",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Villa Morra",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-07-04 10:08:06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cmasi\" title=\"User:Cmasi\">Cmasi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/region-1.jpg",
+    "dimensions": [
+      2400,
+      1429
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Villa_Morra_100806.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "bca10d1d9a14c8234ee31d25a46d3a122312c57517d37255cad1a3fc39f85131"
+  },
+  {
+    "key": "assuncao/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Villa Morra",
+    "path": "/images/destinations/assuncao/curated-region-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Villa Morra 101121 HDR.jpg",
+    "imageinfo": {
+      "size": 3119062,
+      "width": 3732,
+      "height": 1979,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Villa_Morra_101121_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1273,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Villa_Morra_101121_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1273
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Villa_Morra_101121_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Villa_Morra_101121_HDR.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=121803061",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-08-15 22:58:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Villa Morra 101121 HDR",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Streets in Asunción|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.295214",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.579963",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Villa Morra",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-07-04 10:11:20",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cmasi\" title=\"User:Cmasi\">Cmasi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/region-list-1.jpg",
+    "dimensions": [
+      2400,
+      1273
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Villa_Morra_101121_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "33d3c049ca6b26bc1644377fc74b4c2869fc90bab7bdb4dc226af533778853e5"
+  },
+  {
+    "key": "assuncao/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Villa Morra",
+    "path": "/images/destinations/assuncao/curated-hotel-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Villa Morra 152906 HDR.jpg",
+    "imageinfo": {
+      "size": 1771190,
+      "width": 2336,
+      "height": 1628,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Villa_Morra_152906_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1673,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Villa_Morra_152906_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1673
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Villa_Morra_152906_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Villa_Morra_152906_HDR.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=123109502",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-09-18 11:20:23",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Villa Morra 152906 HDR",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Skyline of Asunción",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.294951",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.578224",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Villa Morra neighbourhood in Asunción, Paraguay.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-12-06 15:29:06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cmasi\" title=\"User:Cmasi\">Cmasi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/hotel-1.jpg",
+    "dimensions": [
+      2336,
+      1628
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Villa_Morra_152906_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "b2c82b356317a7a1f7433b3facfd8879f80c4f35245a64c45787a5886e4fa1e3"
+  },
+  {
+    "key": "assuncao/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Villa Morra",
+    "path": "/images/destinations/assuncao/curated-hotel-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Villa Morra 100918 HDR.jpg",
+    "imageinfo": {
+      "size": 3105287,
+      "width": 3840,
+      "height": 2160,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Villa_Morra_100918_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Villa_Morra_100918_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Villa_Morra_100918_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Villa_Morra_100918_HDR.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=121803057",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-08-15 22:58:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Villa Morra 100918 HDR",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Streets in Asunción|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.294754",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.580538",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Villa Morra",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-07-04 10:09:18",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cmasi\" title=\"User:Cmasi\">Cmasi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/hotel-list-1.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Villa_Morra_100918_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "a0af0518c87e0297e9631e82302bfe2578abdc33c2dfb3f2ad288bcd0b9e1cfe"
+  },
+  {
+    "key": "assuncao/region-2",
+    "slot": "region-2",
+    "topic": "Costanera",
+    "path": "/images/destinations/assuncao/curated-region-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Costanera Hostel 201703.jpg",
+    "imageinfo": {
+      "size": 1018534,
+      "width": 1073,
+      "height": 1600,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Costanera_Hostel_201703.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3579,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Costanera_Hostel_201703.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3579
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Costanera_Hostel_201703.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Costanera_Hostel_201703.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57215014",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-03-19 14:35:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Costanera Hostel 201703",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Balconies in Paraguay|Files with coordinates missing SDC location of creation|Pink houses in Paraguay|Hostels in Asunción",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.277937",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.645084",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Costanera Hostel in Asunción, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-18 12:02:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cmasi\" title=\"User:Cmasi\">Cmasi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/region-2.jpg",
+    "dimensions": [
+      1073,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Costanera_Hostel_201703.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "3178a547f1ebe51a1ff1c28a70abd998650dfc96f0ff62b4544e933732e147bf"
+  },
+  {
+    "key": "assuncao/region-list-2",
+    "slot": "region-list-2",
+    "topic": "Costanera",
+    "path": "/images/destinations/assuncao/curated-region-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Bahía De Asunción (43639068).jpeg",
+    "imageinfo": {
+      "size": 831473,
+      "width": 2048,
+      "height": 1365,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Bah%C3%ADa_De_Asunci%C3%B3n_%2843639068%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Bah%C3%ADa_De_Asunci%C3%B3n_%2843639068%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Bah%C3%ADa_De_Asunci%C3%B3n_%2843639068%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bah%C3%ADa_De_Asunci%C3%B3n_(43639068).jpeg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71353391",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-08-04 22:11:41",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\nBahía De Asunción</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Files with coordinates missing SDC location of creation|Photos imported with import-500px|Bay of Asunción",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.274814",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.625952",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/anibal211\">Anibal Ovelar</a></div>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "<div class=\"description\">\n500px provided description: Atardecer en la costanera de Asunci?n [#landscape ,#paisaje ,#atardecer ,#paraguay ,#asuncio]</div>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "before 19 August 2013, 14:20:01 (UTC)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Imported from <a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/photo/43639068/bah%C3%ADa-de-asunci%C3%B3n-by-anibal-ovelar\">500px</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/201807id_/https://drscdn.500px.org/photo/43639068/m%3D2048/v2?webp=true&amp;sig=56502fcd4fed6ca7c7fde13698fc09b7431dda83681cb3ce20a31e939557c954\">archived version</a>) by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.archiveteam.org/index.php?title=500px\">the Archive Team</a>. (<a href=\"https://iw.toolforge.org/import-500px/photo/43639068\" class=\"extiw\" title=\"toolforge:import-500px/photo/43639068\">detail page</a>)",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/region-list-2.jpg",
+    "dimensions": [
+      2048,
+      1365
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Bah%C3%ADa_De_Asunci%C3%B3n_%2843639068%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "eaf5a3f0cf94d2c008fbeec55d98da143bef1b907d8dd441afd17b05b34bab52"
+  },
+  {
+    "key": "assuncao/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Costanera",
+    "path": "/images/destinations/assuncao/curated-hotel-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:TIC Costanera.jpg",
+    "imageinfo": {
+      "size": 787217,
+      "width": 1600,
+      "height": 836,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/15/TIC_Costanera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1254,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/TIC_Costanera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1254
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/TIC_Costanera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:TIC_Costanera.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57029786",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-03-12 13:01:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "TIC Costanera",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Tourist information centres in Paraguay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.277403",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.631470",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Asunción Municipal Tourist Information Centre in the Costanera.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-11 12:39:54",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cmasi\" title=\"User:Cmasi\">Cmasi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/hotel-2.jpg",
+    "dimensions": [
+      1600,
+      836
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/TIC_Costanera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "c9d9b62e432583a1091482269c48be41bb01f6a5dab066112e91d55e47124e40"
+  },
+  {
+    "key": "assuncao/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Costanera",
+    "path": "/images/destinations/assuncao/curated-hotel-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Inmjap py11.jpg",
+    "imageinfo": {
+      "size": 2639055,
+      "width": 2448,
+      "height": 3264,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Inmjap_py11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Inmjap_py11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Inmjap_py11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Inmjap_py11.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=194025359",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-06-17 08:17:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Inmjap py11",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Self-published work|Self-published work missing SDC copyright license|Japanese diaspora in Paraguay|FoP-Paraguay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Monumento a los 100 años de Amistad entre Paraguay y Japón, en la costanera Norte de Asunción.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-08-15 16:25:11",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Arnaldoce&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Arnaldoce (page does not exist)\">Arnaldoce</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/hotel-list-2.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Inmjap_py11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "78a99e7c887cd4f71f5b6237213135f52ab35f91a85887e5b93ae038bfd17bba"
+  },
+  {
+    "key": "assuncao/region-3",
+    "slot": "region-3",
+    "topic": "Lambaré",
+    "path": "/images/destinations/assuncao/curated-region-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Estadio Luciano Zacarias, Club Atlético Colegiales, Lambaré, Paraguay.jpg",
+    "imageinfo": {
+      "size": 6062892,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Estadio_Luciano_Zacarias,_Club_Atl%C3%A9tico_Colegiales,_Lambar%C3%A9,_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=187745311",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-04-02 18:08:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Estadio Luciano Zacarias, Club Atlético Colegiales, Lambaré, Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Sports in Paraguay|Central Department|Lambaré|Self-published work|Files with coordinates missing SDC location of creation|Paraguay photographs taken on 2026-03-24",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.313962",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.587206",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Estadio Luciano Zacarias, Club Atlético Colegiales, Lambaré, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chipachyryry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chipachyryry (page does not exist)\">Chipachyryry</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/region-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c02909f37a5ee2a1410cc468ea6a618aec16d9b35c546a8aa8b30c7fefad822c"
+  },
+  {
+    "key": "assuncao/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Lambaré",
+    "path": "/images/destinations/assuncao/curated-region-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Plaza Central de Lambaré, Paraguay.jpg",
+    "imageinfo": {
+      "size": 6798717,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Plaza_Central_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Plaza_Central_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Plaza_Central_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Plaza_Central_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Plaza_Central_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Plaza_Central_de_Lambar%C3%A9,_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=197207175",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-08-11 02:28:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Plaza Central de Lambaré, Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Paraguay|CC-Zero|Parks in Paraguay|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Lambaré|Self-published work|Self-published work missing SDC copyright license|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.342578",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.626489",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Plaza Central de Lambaré, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chipachyryry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chipachyryry (page does not exist)\">Chipachyryry</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Plaza_Central_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Plaza_Central_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d5978a239bc6d2c55e618d9f77e870e2af32660954100189dd98e88c4dae04f8"
+  },
+  {
+    "key": "assuncao/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Lambaré",
+    "path": "/images/destinations/assuncao/curated-hotel-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Estatua del Cacique Lambaré, ciudad de Lambaré, Central, Paraguay.jpg",
+    "imageinfo": {
+      "size": 4993532,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Estatua_del_Cacique_Lambar%C3%A9%2C_ciudad_de_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg/3840px-Estatua_del_Cacique_Lambar%C3%A9%2C_ciudad_de_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Estatua_del_Cacique_Lambar%C3%A9%2C_ciudad_de_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg/3840px-Estatua_del_Cacique_Lambar%C3%A9%2C_ciudad_de_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Estatua_del_Cacique_Lambar%C3%A9%2C_ciudad_de_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Estatua_del_Cacique_Lambar%C3%A9,_ciudad_de_Lambar%C3%A9,_Central,_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=197207572",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-08-11 02:37:14",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Estatua del Cacique Lambaré, ciudad de Lambaré, Central, Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Lambaré|Self-published work|Statues in Paraguay|Self-published work missing SDC copyright license|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.342142",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.624905",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Estatua del Cacique Lambaré, frente a la municipalidad de la ciudad de Lambaré, Central, Paraguay. Realizado en homenaje a todos las tribus indígenas del Paraguay, utilizando como inspiración al mito del Cacique Lambaré.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chipachyryry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chipachyryry (page does not exist)\">Chipachyryry</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/hotel-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Estatua_del_Cacique_Lambar%C3%A9%2C_ciudad_de_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg/3840px-Estatua_del_Cacique_Lambar%C3%A9%2C_ciudad_de_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e38e9128184df89f2c936f611efd3dfda7f13209e007157a79294d0336d2743c"
+  },
+  {
+    "key": "assuncao/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Lambaré",
+    "path": "/images/destinations/assuncao/curated-hotel-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Municipalidad de Lambaré, Paraguay.jpg",
+    "imageinfo": {
+      "size": 3885714,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Municipalidad_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Municipalidad_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Municipalidad_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Municipalidad_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Municipalidad_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Municipalidad_de_Lambar%C3%A9,_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=197207873",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-08-11 02:43:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Municipalidad de Lambaré, Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Buildings in Paraguay|CC-Zero|Central Department|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Lambaré|Self-published work|Self-published work missing SDC copyright license|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.342226",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.624803",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Municipalidad de Lambaré, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chipachyryry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chipachyryry (page does not exist)\">Chipachyryry</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/assuncao/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Municipalidad_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Municipalidad_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "afa1a0bb1f70bb93682ab5df8fb3ed855f1e16eb118cda8b96133d740dd6920c"
+  }
+]
