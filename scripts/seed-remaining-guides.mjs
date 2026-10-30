@@ -11,7 +11,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { spawnSync } from 'node:child_process';
-import { ALL_REMAINING, listIdsForGroup, toExtra } from './remaining-destinations-meta.mjs';
+import { ALL_REMAINING, listIdsForGroup, REGION_GROUPS, toExtra } from './remaining-destinations-meta.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const UA = '2GOTravelGuideBot/1.0 (https://github.com/ronilsonbatista/2go-travel-web-app; editorial curation)';
@@ -593,16 +593,20 @@ function moduleName(folder) {
 
 function rewriteBatchModule(batchName, cities, thirtyMap, thirtyFileName) {
   const guidesDir = path.join(root, 'src/data/guides');
-  const ready = cities.filter((c) => fs.existsSync(path.join(guidesDir, `${c.folder}.js`)));
+  // Prefer the full regional group so partial --ids runs do not wipe sibling guides.
+  let groupFolders = cities.map((c) => c.folder);
+  if (group && REGION_GROUPS[group]) {
+    groupFolders = listIdsForGroup(group);
+  }
+  const ready = groupFolders.filter((folder) => fs.existsSync(path.join(guidesDir, `${folder}.js`)));
   const imports = ready
-    .map((c) => `import { guide as ${moduleName(c.folder)} } from './guides/${c.folder}.js';`)
+    .map((folder) => `import { guide as ${moduleName(folder)} } from './guides/${folder}.js';`)
     .join('\n');
-  const entries = ready.map((c) => `  [${moduleName(c.folder)}.slug]: ${moduleName(c.folder)}`).join(',\n');
+  const entries = ready.map((folder) => `  [${moduleName(folder)}.slug]: ${moduleName(folder)}`).join(',\n');
   fs.writeFileSync(
     path.join(root, `src/data/${batchName}.js`),
     `${imports}\n\nexport const ${batchName} = {\n${entries}\n};\n`
   );
-  const exportName = thirtyFileName.replace(/\.js$/, '').split('.').pop().toUpperCase() + '_THIRTY_SECONDS';
   // guideThirtySeconds.americas.js → AMERICAS_THIRTY_SECONDS
   const parts = thirtyFileName.replace(/^guideThirtySeconds\./, '').replace(/\.js$/, '');
   const constName = `${parts.toUpperCase()}_THIRTY_SECONDS`;
