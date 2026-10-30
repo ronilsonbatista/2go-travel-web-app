@@ -295,7 +295,13 @@
     "longitude": 12.483333,
     "topic": "Roma",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "assetDimensions": [
+      2400,
+      1595
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "roma/hero": {
     "city": "roma",
@@ -315,7 +321,13 @@
     "longitude": 12.476732,
     "topic": "Roma",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pantheon_Rom_1_cropped.jpg/3840px-Pantheon_Rom_1_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1772
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "roma/home": {
     "city": "roma",
@@ -335,7 +347,13 @@
     "longitude": 12.482533,
     "topic": "Roma",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Piazza_Venezia_-_Il_Vittoriano_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "assetDimensions": [
+      2400,
+      1580
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "roma/map-attraction-3": {
     "city": "roma",
@@ -733,7 +751,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "topic": "Roma",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Palatine_Hill_from_across_the_Circus_Maximus_April_2019.jpg/3840px-Palatine_Hill_from_across_the_Circus_Maximus_April_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "roma/intro": {
     "city": "roma",
@@ -923,7 +947,13 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "topic": "Nova York",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Central_Park_-_The_Pond_%2848377220157%29.jpg/3840px-Central_Park_-_The_Pond_%2848377220157%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1866
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "nova-york/intro": {
     "city": "nova-york",
@@ -1384,7 +1414,13 @@
     "date": "Taken on 9 February 2008, 19:56",
     "topic": "Paris",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Night.jpg/3840px-Paris_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      758
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "paris/guide-card": {
     "city": "paris",
@@ -1403,24 +1439,35 @@
     "date": "2014-05-07",
     "topic": "Paris",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/15th_Arrondissement_of_Paris_as_seen_from_Pont_de_Bir-Hakeim_140507_1.jpg/3840px-15th_Arrondissement_of_Paris_as_seen_from_Pont_de_Bir-Hakeim_140507_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1264
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "paris/guide-highlight": {
     "city": "paris",
     "slot": "guide-highlight",
     "query": "Paris panorama",
     "path": "/images/destinations/paris/curated-guide-highlight.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Reflet-tour-Eiffel-Paris-Luc-Viatour.jpg",
-    "title": "File:Reflet-tour-Eiffel-Paris-Luc-Viatour.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_Paris_Montparnasse.jpg",
+    "title": "File:Panorama Paris Montparnasse.jpg",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "author": "Lviatour",
-    "description": "Reflection of the Eiffel tower in a water puddle. Paris, France.",
-    "categories": "Taken with Nikon D80|Self-published work|NoFoP-France|Featured night photography|Featured pictures on Wikipedia, Persian|Featured pictures of the Eiffel Tower|Eiffel Tower in 2007|Water reflections of the Eiffel Tower|Reflections in puddles|Eiffel Tower illuminated yellow|Photographs by Luc Viatour|Pictures of the Year/2012 (finalist)",
-    "date": "2007-07-09",
+    "author": "Stefan Krause, Germany",
+    "description": "Panorama von Paris, aufgenommen von der Terrasse des Montparnasse-Turm.",
     "topic": "Paris",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-30",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Panorama_Paris_Montparnasse.jpg/3840px-Panorama_Paris_Montparnasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      800
+    ],
+    "resolutionUpdatedAt": "2026-10-30",
+    "reviewNotes": "Inspected full panorama: Paris skyline and Eiffel Tower upright; replaces inverted reflection image. No other slot reassigned."
   },
   "paris/home-slide": {
     "city": "paris",
@@ -1437,7 +1484,13 @@
     "date": "2015-08-16 13:24",
     "topic": "Paris",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Les_toits_de_Paris%2C_panorama_-_ao%C3%BBt_2015.jpg/3840px-Les_toits_de_Paris%2C_panorama_-_ao%C3%BBt_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      625
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "paris/intro": {
     "city": "paris",
@@ -2421,7 +2474,13 @@
     "date": "Taken on 5 July 2011",
     "topic": "Nova York",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Manhattan_from_Weehawken%2C_NJ.jpg/3840px-Manhattan_from_Weehawken%2C_NJ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      665
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "nova-york/guide-card": {
     "city": "nova-york",
@@ -2440,7 +2499,13 @@
     "date": "Taken on 11 September 2020, 19:38:17",
     "topic": "Nova York",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lower_Manhattan_from_Jersey_City_September_2020_panorama.jpg/3840px-Lower_Manhattan_from_Jersey_City_September_2020_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1200
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "nova-york/guide-highlight": {
     "city": "nova-york",
@@ -2459,7 +2524,13 @@
     "date": "Taken on 26 September 2020, 19:37:24",
     "topic": "Nova York",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Midtown_Manhattan_from_Jersey_City_September_2020_HDR.jpg/3840px-Midtown_Manhattan_from_Jersey_City_September_2020_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      1600,
+      2400
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "nova-york/home-slide": {
     "city": "nova-york",
@@ -2478,7 +2549,13 @@
     "date": "2014-11-28",
     "topic": "Nova York",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Lower_Manhattan_from_Jersey_City_November_2014_panorama_2.jpg/3840px-Lower_Manhattan_from_Jersey_City_November_2014_panorama_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      960
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "nova-york/essential-idioma": {
     "city": "nova-york",
@@ -2626,7 +2703,13 @@
     "longitude": 2.359532,
     "topic": "Paris",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Panorama_view_of_Paris%2C_27_August_2019.jpg/3840px-Panorama_view_of_Paris%2C_27_August_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      822
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "paris/about": {
     "city": "paris",
@@ -3263,7 +3346,13 @@
     "longitude": 139.703612,
     "topic": "Tóquio",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Tokyo_Tower%2C_Minato_City.jpg/3840px-Tokyo_Tower%2C_Minato_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1350
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "toquio/home": {
     "city": "toquio",
@@ -3282,7 +3371,13 @@
     "longitude": 139.703612,
     "topic": "Tóquio",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Minato_City%2C_Tokyo%2C_Japan.jpg/3840px-Minato_City%2C_Tokyo%2C_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1350
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "toquio/guide-card": {
     "city": "toquio",
@@ -3299,7 +3394,13 @@
     "date": "4 December 2023, 16:53:03",
     "topic": "Tóquio",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Minato_City%2C_Tokyo%2C_Japan_%28Night%29.jpg/3840px-Minato_City%2C_Tokyo%2C_Japan_%28Night%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1350
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "toquio/guide-highlight": {
     "city": "toquio",
@@ -3316,7 +3417,13 @@
     "date": "2016-06-17 16:29:23",
     "topic": "Tóquio",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tokyo_skyline_seen_from_Tokyo_Skytree.jpg/3840px-Tokyo_skyline_seen_from_Tokyo_Skytree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "toquio/home-slide": {
     "city": "toquio",
@@ -3333,7 +3440,13 @@
     "date": "2021-01-23",
     "topic": "Tóquio",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Tokyo_Skyline20210123.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2048,
+      1366
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "toquio/intro": {
     "city": "toquio",
@@ -4359,7 +4472,13 @@
     "longitude": -0.116923,
     "topic": "Londres",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/London_Skyline_from_Waterloo_Bridge%2C_London%2C_UK_-_Diliff.jpg/3840px-London_Skyline_from_Waterloo_Bridge%2C_London%2C_UK_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1180
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "londres/home": {
     "city": "londres",
@@ -4378,7 +4497,13 @@
     "longitude": -0.078605,
     "topic": "Londres",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/City_of_London_skyline_from_London_City_Hall_-_Sept_2015_-_Crop_Aligned.jpg/3840px-City_of_London_skyline_from_London_City_Hall_-_Sept_2015_-_Crop_Aligned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1327
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "londres/guide-card": {
     "city": "londres",
@@ -4395,7 +4520,13 @@
     "date": "Taken on 11 October 2008, 15:02:21",
     "topic": "Londres",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/City_of_London_skyline_from_London_City_Hall_-_Oct_2008_-_Aligned.jpg/3840px-City_of_London_skyline_from_London_City_Hall_-_Oct_2008_-_Aligned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1327
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "londres/guide-highlight": {
     "city": "londres",
@@ -4414,26 +4545,36 @@
     "date": "2025-05-22 09:01:01",
     "topic": "Londres",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Thames_and_London_Eye_from_Westminster_Bridge.jpg/3840px-Thames_and_London_Eye_from_Westminster_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1375
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "londres/home-slide": {
     "city": "londres",
     "slot": "home-slide",
     "query": "London skyline",
     "path": "/images/destinations/londres/curated-home-slide.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Skyline,_Woodberry_Down,_London,_UK.jpg",
-    "title": "File:Skyline, Woodberry Down, London, UK.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Across_the_River_Thames%2C_London_-_geograph.org.uk_-_2196474.jpg",
+    "title": "File:Across the River Thames, London - geograph.org.uk - 2196474.jpg",
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "author": "Stephen McKay",
-    "description": "Skyline Tower, a 31-storey apartment block in Woodberry Down, London, UK",
-    "categories": "Images from Geograph Britain and Ireland|Skyline (London)|Information field template with formatting|London photographs taken on 2015-09-25",
-    "date": "2015-09-25 13:32:54",
-    "latitude": 51.57144,
-    "longitude": -0.089653,
+    "author": "Peter Trimming ",
+    "description": "Across the River Thames, London ",
     "topic": "Londres",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-30",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Across_the_River_Thames%2C_London_-_geograph.org.uk_-_2196474.jpg/3840px-Across_the_River_Thames%2C_London_-_geograph.org.uk_-_2196474.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1607
+    ],
+    "reviewNotes": "Manually inspected staged contact sheet: upright, relevant city/landmark, real photograph; full-size asset decoded.",
+    "latitude": 51.506719,
+    "longitude": -0.085589
   },
   "londres/intro": {
     "city": "londres",
@@ -5412,7 +5553,13 @@
     "date": "Taken on 14 November 2014, 13:04:00",
     "topic": "Roma",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Panorama_of_Rome_1.JPG/3840px-Panorama_of_Rome_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1596
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "roma/essential-idioma": {
     "city": "roma",
@@ -5924,7 +6071,13 @@
     "date": "2013-03-15 14:52:02",
     "topic": "Istambul",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Panoramic_view_of_Istanbul-_Yeni_Cami_%28The_New_Mosque%29%2C_Galata_Bridge._Turkey%2C_Southeastern_Europe.jpg/3840px-Panoramic_view_of_Istanbul-_Yeni_Cami_%28The_New_Mosque%29%2C_Galata_Bridge._Turkey%2C_Southeastern_Europe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1071
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "istambul/home": {
     "city": "istambul",
@@ -5943,7 +6096,13 @@
     "longitude": 28.976275,
     "topic": "Istambul",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg/3840px-Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1688
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "istambul/guide-card": {
     "city": "istambul",
@@ -5960,7 +6119,13 @@
     "date": "2012-10-12 14:10:47",
     "topic": "Istambul",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Panorama-view-Istanbul-October-2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "istambul/guide-highlight": {
     "city": "istambul",
@@ -5979,7 +6144,13 @@
     "longitude": 28.974153,
     "topic": "Istambul",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Istanbul_panorama_from_Galata_tower_-_1.jpg/3840px-Istanbul_panorama_from_Galata_tower_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1094
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "istambul/home-slide": {
     "city": "istambul",
@@ -5998,7 +6169,13 @@
     "longitude": 28.997022,
     "topic": "Istambul",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Entrance_to_Dolmabah%C3%A7e_Palace%2C_Architectural_Panorama.jpg/3840px-Entrance_to_Dolmabah%C3%A7e_Palace%2C_Architectural_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      785
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "istambul/intro": {
     "city": "istambul",
@@ -6972,7 +7149,13 @@
     "date": "2016-04-30",
     "topic": "Dubai",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Dubai_skyline_unsplash.jpg/3840px-Dubai_skyline_unsplash.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "dubai/home": {
     "city": "dubai",
@@ -6989,7 +7172,13 @@
     "date": "2016-02-06 14:11:11",
     "topic": "Dubai",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-29"
+    "reviewedAt": "2026-10-29",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Dubai_Skyline_2016.jpg/3840px-Dubai_Skyline_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "resolutionUpdatedAt": "2026-10-30"
   },
   "dubai/guide-card": {
     "city": "dubai",
@@ -9413,18 +9602,23 @@
     "slot": "guide-highlight",
     "query": "Buenos Aires panorama",
     "path": "/images/destinations/buenos-aires/curated-guide-highlight.jpg",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath",
-    "title": "File:curated-guide-highlight.jpg",
-    "article": "",
-    "description": "Resumed local asset — replace provenance in Codex pass",
-    "license": "CC BY-SA 4.0",
-    "author": "Wikimedia Commons contributor",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg",
+    "title": "File:193 - Buenos Aires - Puerto Madero - Janvier 2010.jpg",
+    "description": "Panorama of Buenos Aires' Puerto Madero district at sunset, one of the most successful recent waterfront renewal projects in the world.",
+    "license": "CC BY-SA 3.0",
+    "author": "Martin St-Amant (S23678)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "topic": "Buenos Aires",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-30"
+    "reviewedAt": "2026-10-30",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg/3840px-193_-_Buenos_Aires_-_Puerto_Madero_-_Janvier_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      609
+    ],
+    "reviewNotes": "Manually inspected staged contact sheet: upright, relevant city/landmark, real photograph; full-size asset decoded.",
+    "latitude": -34.606656,
+    "longitude": -58.364369
   },
   "buenos-aires/home-slide": {
     "city": "buenos-aires",
@@ -14157,18 +14351,21 @@
     "slot": "home-slide",
     "query": "Amsterdam canals dusk",
     "path": "/images/destinations/amsterdam/curated-home-slide.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Prinsengracht%20Amsterdam%20at%20Dusk.jpg",
-    "title": "File:Prinsengracht Amsterdam at Dusk.jpg",
-    "article": "",
-    "description": "Prinsengracht Canal, Amsterdam, the Netherlands.Prinsengracht",
-    "license": "CC BY 2.0",
-    "author": "David from Amsterdam, Netherlands",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amsterdam%2C_n%C3%A1b%C5%99e%C5%BE%C3%AD_kan%C3%A1lu.jpg",
+    "title": "File:Amsterdam, nábřeží kanálu.jpg",
+    "description": "Panoramic view of one of the circular canals in Amsterdam, NL",
+    "license": "CC BY 3.0",
+    "author": "I would appreciate being notified if you use my work outside Wikimedia.\nMore of my work can be found in my personal gallery.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "topic": "Amsterdã",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-30"
+    "reviewedAt": "2026-10-30",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Amsterdam%2C_n%C3%A1b%C5%99e%C5%BE%C3%AD_kan%C3%A1lu.jpg/3840px-Amsterdam%2C_n%C3%A1b%C5%99e%C5%BE%C3%AD_kan%C3%A1lu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1181
+    ],
+    "reviewNotes": "Manually inspected staged contact sheet: upright, relevant city/landmark, real photograph; full-size asset decoded."
   },
   "amsterdam/essential-moeda": {
     "city": "amsterdam",
@@ -16459,18 +16656,21 @@
     "slot": "home",
     "query": "Miami Beach South Beach landmark",
     "path": "/images/destinations/miami/curated-home.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Wolfie%20Cohen's%20Rascal%20House%20postcard%20late%201960s.jpg",
-    "title": "File:Wolfie Cohen's Rascal House postcard late 1960s.jpg",
-    "article": "",
-    "description": "Postcard for former South Florida landmark deli restaurant, \"Wolfie Cohen's Rascal House\".\n\nCard is undated; this copy was mailed with a 1968 postmark; mailed with 5 cent postage stamp rate, which went up 7 January 1968 .",
-    "license": "Public domain",
-    "author": "Uncredited for Wolfie Cohen's Rascal House Restaurant.",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "https://creativecommons.org/licenses/",
+    "source": "https://commons.wikimedia.org/wiki/File:Downtown_Miami_Skyline_%28Southern_View%29.jpg",
+    "title": "File:Downtown Miami Skyline (Southern View).jpg",
+    "description": "View of Downtown Miami Florida - Southern View from the Venetia Condominiums.",
+    "license": "CC BY-SA 3.0",
+    "author": "LonnyPaul",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "topic": "Miami",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-30"
+    "reviewedAt": "2026-10-30",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Downtown_Miami_Skyline_%28Southern_View%29.jpg/3840px-Downtown_Miami_Skyline_%28Southern_View%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      938
+    ],
+    "reviewNotes": "Manually inspected staged contact sheet: upright, relevant city/landmark, real photograph; full-size asset decoded."
   },
   "miami/guide-card": {
     "city": "miami",
@@ -17651,18 +17851,23 @@
     "slot": "home",
     "query": "Gramado Brazil landmark",
     "path": "/images/destinations/gramado/curated-home.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Palacio%20dos%20Festivais.jpg",
-    "title": "File:Palacio dos Festivais.jpg",
-    "article": "",
-    "description": "Festival de Gramado (Rio Grande do Sul - Brazil)",
-    "license": "CC BY-SA 3.0",
-    "author": "EMP",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gramado-RS_2012_Nokia_N8_-_panoramio.jpg",
+    "title": "File:Gramado-RS 2012 Nokia N8 - panoramio.jpg",
+    "description": "Gramado-RS 2012 Nokia N8",
+    "license": "CC BY 3.0",
+    "author": "Marcelino Souza",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "topic": "Gramado",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-30"
+    "reviewedAt": "2026-10-30",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Gramado-RS_2012_Nokia_N8_-_panoramio.jpg/3840px-Gramado-RS_2012_Nokia_N8_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1349
+    ],
+    "reviewNotes": "Manually inspected staged contact sheet: upright, relevant city/landmark, real photograph; full-size asset decoded.",
+    "latitude": -29.420815,
+    "longitude": -50.86286
   },
   "gramado/guide-card": {
     "city": "gramado",
@@ -18821,18 +19026,23 @@
     "slot": "hero",
     "query": "Santiago Chile skyline",
     "path": "/images/destinations/santiago/curated-hero.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Santiago%20Skyline.jpg",
-    "title": "File:Santiago Skyline.jpg",
-    "article": "",
-    "description": "Skyline Santiago City, Chile.",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Santiago_skyline.jpg",
+    "title": "File:2013 Santiago skyline.jpg",
+    "description": "Skyline 2013; Santiago downtown seen from Santa Lucia Hill.",
     "license": "CC BY-SA 4.0",
-    "author": "Victorddt",
-    "categories": "",
-    "date": "",
+    "author": "WeHaKa",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "topic": "Santiago",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-30"
+    "reviewedAt": "2026-10-30",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/2013_Santiago_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "assetDimensions": [
+      2400,
+      906
+    ],
+    "reviewNotes": "Manually inspected staged contact sheet: upright, relevant city/landmark, real photograph; full-size asset decoded.",
+    "latitude": -33.440833,
+    "longitude": -70.644028
   },
   "santiago/intro": {
     "city": "santiago",
@@ -18879,18 +19089,21 @@
     "slot": "guide-card",
     "query": "Santiago Chile city",
     "path": "/images/destinations/santiago/curated-guide-card.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Santiago%20en%20invierno.jpg",
-    "title": "File:Santiago en invierno.jpg",
-    "article": "",
-    "description": "Santiago de Chile in winter",
-    "license": "CC BY-SA 2.0",
-    "author": "victor san martin",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Santiago_de_Chile_-_Barrio_de_San_Isidro_y_avenida_Alameda_desde_el_mirador_del_Cerro_de_Santa_Luc%C3%ADa.jpg",
+    "title": "File:2017 Santiago de Chile - Barrio de San Isidro y avenida Alameda desde el mirador del Cerro de Santa Lucía.jpg",
+    "description": "2017 in Santiago de Chile",
+    "license": "CC BY-SA 4.0",
+    "author": "Felipe Restrepo Acosta",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "topic": "Santiago",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-30"
+    "reviewedAt": "2026-10-30",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2017_Santiago_de_Chile_-_Barrio_de_San_Isidro_y_avenida_Alameda_desde_el_mirador_del_Cerro_de_Santa_Luc%C3%ADa.jpg/3840px-2017_Santiago_de_Chile_-_Barrio_de_San_Isidro_y_avenida_Alameda_desde_el_mirador_del_Cerro_de_Santa_Luc%C3%ADa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "reviewNotes": "Manually inspected staged contact sheet: upright, relevant city/landmark, real photograph; full-size asset decoded."
   },
   "santiago/guide-highlight": {
     "city": "santiago",
@@ -21293,18 +21506,23 @@
     "slot": "home-slide",
     "query": "Florianopolis Brazil beach dusk",
     "path": "/images/destinations/florianopolis/curated-home-slide.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:C%C3%A9u%20roxo%2C%20ao%20entardecer%20na%20praia%20da%20Arma%C3%A7%C3%A3o%20em%20Florian%C3%B3polis.jpg",
-    "title": "File:Céu roxo, ao entardecer na praia da Armação em Florianópolis.jpg",
-    "article": "",
-    "description": "Área de Proteção Ambiental da Baleia Franca de nível Federal, localizado (a) em Florianópolis (SC), Garopaba (SC), Içara (SC), Imbituba (SC), Jaguaruna (SC), Laguna (SC), Palhoça (SC), Paulo Lopes (SC), Tubarão (SC)",
+    "source": "https://commons.wikimedia.org/wiki/File:Herc%C3%ADlio_Luz_Florian%C3%B3polis.jpg",
+    "title": "File:Hercílio Luz Florianópolis.jpg",
+    "description": "Cultural propertyHercilio Luz Bridge,  Florianópolis, Santa Catarina, BrazilQ1500721,  VIAF cluster ID: 3549150325577810090003, Library of Congress Authorities ID: sh2019102377\n,  BabelNet ID: 01445283n, iPatrimônio ID: florianopolis-ponte-hercilio-luz, IPHAN ID: 1137",
     "license": "CC BY-SA 4.0",
-    "author": "Jack Chan Franz (Chanderson Franz)",
-    "categories": "",
-    "date": "",
+    "author": "Caroline",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "topic": "Florianópolis",
     "visualReview": "accepted",
-    "reviewedAt": "2026-10-30"
+    "reviewedAt": "2026-10-30",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Herc%C3%ADlio_Luz_Florian%C3%B3polis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "reviewNotes": "Manually inspected staged contact sheet: upright, relevant city/landmark, real photograph; full-size asset decoded.",
+    "latitude": -27.593889,
+    "longitude": -48.566111
   },
   "florianopolis/home-thumb": {
     "city": "florianopolis",
