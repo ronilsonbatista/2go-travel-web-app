@@ -1,6 +1,8 @@
 // Master Data for 2GO Travel Destination Guides with 100% Original, Deep Content
+import { guidesBatch1 } from './guidesBatch1.js';
 
 export const destinationGuides = {
+  ...guidesBatch1,
   'como-planejar-viagem-paris': {
     slug: 'como-planejar-viagem-paris',
     city: 'Paris',
