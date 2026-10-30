@@ -1,10 +1,12 @@
 import { guideImage } from '../lib/curatedGuideImages.js';
+import { BATCH1_THIRTY_SECONDS } from './guideThirtySeconds.batch1.js';
 /**
  * City-specific “{City} em 30 segundos” content for the creative guide layout.
  * Every published slot is explicit; unknown guides return empty map content.
  */
 
 export const GUIDE_THIRTY_SECONDS = {
+  ...BATCH1_THIRTY_SECONDS,
   'como-planejar-viagem-paris': {
     facts: [
       { value: '5 – 7 dias', label: 'Tempo ideal', tone: 'green' },

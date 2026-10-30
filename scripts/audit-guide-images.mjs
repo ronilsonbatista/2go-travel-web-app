@@ -21,7 +21,25 @@ function register(map, key, label) {
   if (map.has(key)) problems.push(`${label}: ${map.get(key)} + ${current}`);
   else map.set(key, current);
 }
-const centers = {'rio-de-janeiro':[-22.9068,-43.1729,60],sydney:[-33.8688,151.2093,60],bangkok:[13.7563,100.5018,60],amsterdam:[52.3676,4.9041,60],paris:[48.8566,2.3522,45], 'nova-york':[40.7128,-74.006,50], toquio:[35.6762,139.6503,60], londres:[51.5074,-0.1278,60], roma:[41.9028,12.4964,50], istambul:[41.0082,28.9784,70], dubai:[25.2048,55.2708,120]};
+const centers = {
+  'rio-de-janeiro': [-22.9068, -43.1729, 80],
+  sydney: [-33.8688, 151.2093, 60],
+  bangkok: [13.7563, 100.5018, 60],
+  amsterdam: [52.3676, 4.9041, 60],
+  'buenos-aires': [-34.6037, -58.3816, 70],
+  'sao-paulo': [-23.5505, -46.6333, 70],
+  salvador: [-12.9777, -38.5016, 70],
+  lisboa: [38.7223, -9.1393, 50],
+  cancun: [21.1619, -86.8515, 80],
+  miami: [25.7617, -80.1918, 70],
+  paris: [48.8566, 2.3522, 45],
+  'nova-york': [40.7128, -74.006, 50],
+  toquio: [35.6762, 139.6503, 60],
+  londres: [51.5074, -0.1278, 60],
+  roma: [41.9028, 12.4964, 50],
+  istambul: [41.0082, 28.9784, 70],
+  dubai: [25.2048, 55.2708, 120]
+};
 function distanceKm(a,b,c,d) {
   const rad = n => n*Math.PI/180;
   const x = Math.sin(rad(c-a)/2)**2 + Math.cos(rad(a))*Math.cos(rad(c))*Math.sin(rad(d-b)/2)**2;

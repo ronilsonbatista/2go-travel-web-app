@@ -36,13 +36,42 @@ const CONTINENT_BY_COUNTRY = {
   'Reino Unido': 'Europa',
   'Grécia': 'Europa',
   'Noruega': 'Europa',
-  'Turquia': 'Europa',
+  'Países Baixos': 'Europa',
+  'Espanha': 'Europa',
+  'Alemanha': 'Europa',
+  'Turquia': 'Oriente Médio',
   'Europa': 'Europa',
   'Japão': 'Ásia',
   'Ásia': 'Ásia',
-  'Emirados Árabes Unidos': 'Ásia',
+  'China': 'Ásia',
+  'Tailândia': 'Ásia',
+  'Singapura': 'Ásia',
+  'Malásia': 'Ásia',
+  'Coreia do Sul': 'Ásia',
+  'Emirados Árabes Unidos': 'Oriente Médio',
+  'Arábia Saudita': 'Oriente Médio',
+  'Israel': 'Oriente Médio',
   'Brasil': 'América do Sul',
-  'Estados Unidos': 'América do Norte'
+  'Argentina': 'América do Sul',
+  'Chile': 'América do Sul',
+  'Colômbia': 'América do Sul',
+  'Peru': 'América do Sul',
+  'Uruguai': 'América do Sul',
+  'Paraguai': 'América do Sul',
+  'Equador': 'América do Sul',
+  'Estados Unidos': 'América do Norte',
+  'México': 'América do Norte',
+  'Canadá': 'América do Norte',
+  'Cuba': 'América do Norte',
+  'República Dominicana': 'América do Norte',
+  'Panamá': 'América do Norte',
+  'Bahamas': 'América do Norte',
+  'Egito': 'África',
+  'África do Sul': 'África',
+  'Marrocos': 'África',
+  'Nigéria': 'África',
+  'Austrália': 'Oceania',
+  'Nova Zelândia': 'Oceania'
 };
 
 function continentOf(country) {
@@ -615,7 +644,7 @@ export default function Home() {
                 </p>
               </div>
               <Link
-                href="/guias"
+                href="/guias#todos-destinos"
                 className="inline-flex min-h-11 items-center gap-1 text-sm font-bold text-brand-orange hover:text-[#96AB21] transition-colors whitespace-nowrap cursor-pointer"
               >
                 Ver todos &rarr;

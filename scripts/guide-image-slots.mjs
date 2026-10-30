@@ -37,6 +37,16 @@ export function guideImageSlots() {
     }
     if (city === 'paris') ['Torre Eiffel', 'Louvre', 'Le Marais', 'Montmartre'].forEach((topic, i) => add(`map-option-${i}`, topic));
   }
-  for (const [city, topic] of [['rio-de-janeiro','Rio de Janeiro'],['sydney','Sydney'],['bangkok','Bangkok'],['amsterdam','Amsterdam']]) slots.push({city,slot:'home-thumb',topic:`${topic}: miniatura da home`,src:`/images/destinations/${city}/curated-home-thumb.jpg`});
+  // Supplemental home thumbs only for destinations that are NOT yet full guides.
+  const guidedFolders = new Set(Object.values(destinationGuides).map((g) => g.heroImage?.split('/')[3]));
+  for (const [city, topic] of [['sydney', 'Sydney'], ['bangkok', 'Bangkok']]) {
+    if (guidedFolders.has(city)) continue;
+    slots.push({
+      city,
+      slot: 'home-thumb',
+      topic: `${topic}: miniatura da home`,
+      src: `/images/destinations/${city}/curated-home-thumb.jpg`
+    });
+  }
   return slots;
 }
