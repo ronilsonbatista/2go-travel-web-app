@@ -24,7 +24,7 @@ manifest=json.loads(mf.read_text())
 def norm(value):
  return ''.join(c for c in unicodedata.normalize('NFKD',value).lower() if not unicodedata.combining(c)).replace('_',' ')
 def family(value):
- value=re.sub(r'\b(cropped|crop|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b','',norm(urllib.parse.unquote(value)))
+ value=re.sub(r'\b(cropped|crop|zuschnitt|beschnitten|recadre|recadrage|recortada|recortado|recorte|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b','',norm(urllib.parse.unquote(value)))
  return ''.join(c for c in value if c.isalnum())
 existing_titles={norm(urllib.parse.unquote(v.get('title',''))) for v in manifest.values() if 'placeholder' not in v.get('source','')}
 existing_families={family(v.get('title','')) for v in manifest.values() if 'placeholder' not in v.get('source','')}

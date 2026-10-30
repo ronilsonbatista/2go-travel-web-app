@@ -37,7 +37,7 @@ UA='2GOTravelGuideBot/1.0 (https://github.com/ronilsonbatista/2go-travel-web-app
 def norm(s):
  return ''.join(c for c in unicodedata.normalize('NFKD',s).lower() if not unicodedata.combining(c)).replace('_',' ')
 def family(s):
- s=re.sub(r'\b(cropped|crop|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b','',norm(s))
+ s=re.sub(r'\b(cropped|crop|zuschnitt|beschnitten|recadre|recadrage|recortada|recortado|recorte|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b','',norm(s))
  return ''.join(c for c in s if c.isalnum())
 used_titles={norm(urllib.parse.unquote(v.get('title',''))) for v in manifest.values()}
 used_families={family(urllib.parse.unquote(v.get('title',''))) for v in manifest.values()}

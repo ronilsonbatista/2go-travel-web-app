@@ -1,0 +1,67 @@
+{
+  "city": "havai",
+  "region": "americas",
+  "center": [
+    20.8,
+    -157,
+    550
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Waikiki Hawaii",
+      "required": [
+        "waikiki"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Downtown Honolulu",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "North Shore Oahu",
+      "required": [
+        "north shore"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Kailua Oahu",
+      "required": [
+        "kailua"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

@@ -24,6 +24,22 @@
     "notes": "Shopping Paseo Cerro Alto não é o Cerro Lambaré."
   },
   {
+    "bundle": "regional-assuncao-neighborhoods",
+    "key": "assuncao/neighborhood-2",
+    "title": "File:Carmelitas neighbourhood 193321 Burst01.jpg",
+    "sha256": "60220710e4961da1e774dbb66ed6dcca05c8a9aa946661400f24c6695c0fc0ae",
+    "decision": "rejected",
+    "notes": "Tronco e sombra ocultam a maior parte da rua; enquadramento próximo da outra foto de Carmelitas."
+  },
+  {
+    "bundle": "regional-assuncao-neighborhoods",
+    "key": "assuncao/neighborhood-3",
+    "title": "File:Costanera Hostel 20170318.jpg",
+    "sha256": "f476f6b656cdeccde6843c54371becf9abd220b5b91d38685227c02f28bb8472",
+    "decision": "rejected",
+    "notes": "Fachada isolada de hostel com nome Costanera, sem representação suficiente da região."
+  },
+  {
     "bundle": "regional-bahamas",
     "key": "bahamas/map-list-3",
     "title": "File:Bahamas 1988 (222) New Providence Queen's Staircase, Nassau (23352376294).jpg",
@@ -56,6 +72,30 @@
     "notes": "Panorama com curvatura acentuada das fachadas, inadequado como destaque principal."
   },
   {
+    "bundle": "regional-bahamas-neighborhoods",
+    "key": "bahamas/neighborhood-detail-0",
+    "title": "File:Downtown Nassau - 2025 - Heritage Museum Of The Bahamas (3).jpg",
+    "sha256": "4025039daea1b5d276da9990a5fc5cb78c8de4e8c7dcd325a958f9dfe9e04b0b",
+    "decision": "rejected",
+    "notes": "Texto em painel de museu, não é fotografia representativa do bairro."
+  },
+  {
+    "bundle": "regional-bahamas-neighborhoods",
+    "key": "bahamas/neighborhood-2",
+    "title": "File:Bahamas 1988 (059) New Providence Cable Beach (22762816374).jpg",
+    "sha256": "bf1f0545e7520c0219f4e80ab3fa6d3b1c290692616271844e2e79e7ff71895b",
+    "decision": "rejected",
+    "notes": "Registro antigo de 1988 com qualidade inadequada para cartão atual do bairro."
+  },
+  {
+    "bundle": "regional-bahamas-neighborhoods",
+    "key": "bahamas/neighborhood-detail-2",
+    "title": "File:Cable Beach Manor Apartments, Nassau (1970) - panoramio.jpg",
+    "sha256": "314e68d6840e29bb57f53ba42c81273d4f02d7988a1d6f3df120922bfd0b95ab",
+    "decision": "rejected",
+    "notes": "Registro antigo de 1970 e exposição escura, inadequado como vista atual do bairro."
+  },
+  {
     "bundle": "regional-bogota",
     "key": "bogota/map-attraction-3",
     "title": "File:Mining - Usaquén - Eastern Hills, Bogotá.jpg",
@@ -78,6 +118,46 @@
     "sha256": "5d72c4e0a86bebd059c2cb7634d20ae68560b9f1f359e0219efade428bec7016",
     "decision": "rejected",
     "notes": "Composição escura e obstruída, skyline pouco legível para destaque."
+  },
+  {
+    "bundle": "regional-bogota-neighborhoods",
+    "key": "bogota/neighborhood-detail-0",
+    "title": "File:Iglesia de Nuestra Señora de la Candelaria en Bogotá (1).jpg",
+    "sha256": "4087c76fe638d824938d397823e596e9a1bb5761b853d97559ab39d9977309cb",
+    "decision": "rejected",
+    "notes": "Mesmo enquadramento da igreja já escolhido para o bairro; possível variante do mesmo original."
+  },
+  {
+    "bundle": "regional-bogota-neighborhoods",
+    "key": "bogota/neighborhood-1",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag.jpg",
+    "sha256": "dff83d3192b1c104e5b72d0595f87174d0d7316b7ad1822bd924f89b9bc02382",
+    "decision": "rejected",
+    "notes": "Entrada em rocha sem contexto urbano suficiente para representar Chapinero."
+  },
+  {
+    "bundle": "regional-bogota-neighborhoods",
+    "key": "bogota/neighborhood-detail-1",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (24).jpg",
+    "sha256": "a90d502f5ae21a18e9caa063d51351efcd12fbd9ddefca0be28c3a8d4f0e7aa1",
+    "decision": "rejected",
+    "notes": "Paisagem de encosta pouco representativa do bairro urbano solicitado."
+  },
+  {
+    "bundle": "regional-bogota-neighborhoods",
+    "key": "bogota/neighborhood-3",
+    "title": "File:Mining - Usaquén - Eastern Hills, Bogotá.jpg",
+    "sha256": "b1580c46b15c7da18f30ab09f2c6c39143645635a0e3247fa4838c210c8c9e20",
+    "decision": "rejected",
+    "notes": "Mineração e pedreira, assunto inadequado para representar o bairro turístico de Usaquén."
+  },
+  {
+    "bundle": "regional-bogota-neighborhoods",
+    "key": "bogota/neighborhood-detail-3",
+    "title": "File:Gravel Quarry - Usaquén - Eastern Hills, Bogotá.jpg",
+    "sha256": "fc4716a072cf97c2fe133349d1ed41ad25a1e8855c77e685cb47709cc4fb262b",
+    "decision": "rejected",
+    "notes": "Pedreira domina a foto, assunto inadequado para o bairro turístico de Usaquén."
   },
   {
     "bundle": "regional-boston",
@@ -368,6 +448,22 @@
     "notes": "Composição quase igual ao hero do mesmo ensaio; rejeitada preventivamente por proximidade visual."
   },
   {
+    "bundle": "regional-chicago-neighborhoods",
+    "key": "chicago/neighborhood-2",
+    "title": "File:Lincoln park chicago chipotle.jpg",
+    "sha256": "5e1ad7d627c9849ef034e10ad690f1afaec8a88b5ff69b2ed8252e2872440987",
+    "decision": "rejected",
+    "notes": "Fachada isolada de rede de fast food; contexto insuficiente para representar Lincoln Park."
+  },
+  {
+    "bundle": "regional-chicago-neighborhoods",
+    "key": "chicago/neighborhood-detail-2",
+    "title": "File:Lincoln park chicago qdoba2.jpg",
+    "sha256": "0aebbfc7688e6ebcc528c2018b09cd3ad0cdd3414895bd3d77a5602a88b1fed4",
+    "decision": "rejected",
+    "notes": "Fachada isolada de rede de fast food, pouco representativa do bairro."
+  },
+  {
     "bundle": "regional-cidade-do-mexico",
     "key": "cidade-do-mexico/attraction-0",
     "title": "File:Mexico City Zocalo and Cathedral c 1950s, MAF 007305-001.jpg",
@@ -440,6 +536,54 @@
     "notes": "Letras vistas por trás; leitura invertida e enquadramento inadequado."
   },
   {
+    "bundle": "regional-cidade-do-mexico-neighborhoods",
+    "key": "cidade-do-mexico/neighborhood-0",
+    "title": "File:Colonia Del Valle aerial view.jpg",
+    "sha256": "bb0636d94f6292c4b039da13bdffcebb16ee5fd88c47ef165a8fa04592a6d77d",
+    "decision": "rejected",
+    "notes": "Foto identificada como Colonia del Valle, não corresponde a Roma / Condesa."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-neighborhoods",
+    "key": "cidade-do-mexico/neighborhood-detail-1",
+    "title": "File:Man in Street - Centro Historico - Mexico City - Mexico (15323010220).jpg",
+    "sha256": "23c2aba97157404890453a6304acfeebe144831ada4e97ff1c5c348a1c1f06e6",
+    "decision": "rejected",
+    "notes": "Retrato de pessoa domina a composição, não representa o Centro Histórico."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-neighborhoods",
+    "key": "cidade-do-mexico/neighborhood-2",
+    "title": "File:Liverpool Polanco, Mexico City automotive department.jpg",
+    "sha256": "d8cf453011bb103612883eb878a820e9d34ffeed4fcda894bde952a098a0a0a5",
+    "decision": "rejected",
+    "notes": "Prateleiras de departamento automotivo, assunto inadequado para representar Polanco."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-neighborhoods",
+    "key": "cidade-do-mexico/neighborhood-detail-2",
+    "title": "File:Liverpool Polanco, Mexico City merry-go-round.jpg",
+    "sha256": "6ac2e52645a7c58f7f275c1bdba732cc73c59cb0d07b674488c66a0de810b02a",
+    "decision": "rejected",
+    "notes": "Carrossel em loja de departamentos, sem contexto suficiente de Polanco."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-neighborhoods",
+    "key": "cidade-do-mexico/neighborhood-3",
+    "title": "File:Memorial - Leon Trotsky House Museum - Coyoacan - Mexico City - Mexico.jpg",
+    "sha256": "7d5e6f4893746dc305f141454fe61f7be4ba1356ba9f848c0fc209ba921daa21",
+    "decision": "rejected",
+    "notes": "Detalhe de memorial sem representação suficiente do bairro de Coyoacán."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-neighborhoods",
+    "key": "cidade-do-mexico/neighborhood-detail-3",
+    "title": "File:Coyoacán - Plaza Hidalgo, Coyoacan - Mexico 2024.jpg",
+    "sha256": "f4c53bf6645f48aa426c65860ac31ecfe0e3dbac34ed459f4d76707bc5424948",
+    "decision": "rejected",
+    "notes": "Letras fotografadas por trás, leitura invertida e orientação inadequada para o cartão."
+  },
+  {
     "bundle": "regional-cidade-do-panama",
     "key": "cidade-do-panama/attraction-0",
     "title": "File:WorkerAtMirafloresLocksPanamaCanal.jpg",
@@ -478,6 +622,30 @@
     "sha256": "adec617b61b25b6e6550925bcc5f5bbd6f33957b3c13c7fac8e3a516c81d5cf8",
     "decision": "rejected",
     "notes": "Primeiro plano escuro e desordenado compromete a miniatura."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-neighborhoods",
+    "key": "cidade-do-panama/neighborhood-detail-1",
+    "title": "File:Carretas de Montijo.jpg",
+    "sha256": "e14bc84713b61371691da817f2e646e8c43a1201924d2d2f5798f573c37f54d4",
+    "decision": "rejected",
+    "notes": "Carretas em Montijo, assunto e local diferentes do bairro El Cangrejo."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-neighborhoods",
+    "key": "cidade-do-panama/neighborhood-3",
+    "title": "File:Cementerio Amador, Panamá.jpg",
+    "sha256": "ddacb7254336d02f4665bd92bc85ac50ec81cfc91d4f166a141b9f2e4c965d36",
+    "decision": "rejected",
+    "notes": "Cemitério Amador, não a região turística da calçada de Amador."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-neighborhoods",
+    "key": "cidade-do-panama/neighborhood-detail-3",
+    "title": "File:Cementerio Amador en Panamá.jpg",
+    "sha256": "9307525ebca20c11018df148a1e74d8a159b1034957037c5fad4d6cbd1488a5f",
+    "decision": "rejected",
+    "notes": "Cemitério com nome Amador, não corresponde à região turística solicitada."
   },
   {
     "bundle": "regional-fernando-de-noronha-highlights",
@@ -536,12 +704,76 @@
     "notes": "Fazenda de camarões sem representação suficiente das praias de North Shore."
   },
   {
+    "bundle": "regional-havai-neighborhoods",
+    "key": "havai/neighborhood-0",
+    "title": "File:Waikiki beach (1899).jpg",
+    "sha256": "cba4bdf8fb93d36b1ae6e9d824de6a8f4ce6ad0b774829d424161b93e360e372",
+    "decision": "rejected",
+    "notes": "Registro histórico de 1899, inadequado como vista atual do bairro de Waikiki."
+  },
+  {
+    "bundle": "regional-havai-neighborhoods",
+    "key": "havai/neighborhood-detail-0",
+    "title": "File:HPD on Waikiki Beach, Honolulu, Hawaii.jpg",
+    "sha256": "896ee42ce6fe5056aba6dc1573c8106ae2670d75b43b12750f1c66330a8b0a16",
+    "decision": "rejected",
+    "notes": "Oficial em primeiro plano domina a composição, pouco contexto visual do bairro."
+  },
+  {
+    "bundle": "regional-havai-neighborhoods",
+    "key": "havai/neighborhood-2",
+    "title": "File:Shrimp farm in Kahuku on the North Shore of Oahu, Hawaii.jpg",
+    "sha256": "204b5a067e6a0342fc90e03d3228df1f7958a1ffa480515f05095e8fe05dddf1",
+    "decision": "rejected",
+    "notes": "Tanque de criação de camarão, contexto insuficiente para imagem principal de North Shore."
+  },
+  {
     "bundle": "regional-havana",
     "key": "havana/attraction-5",
     "title": "File:Street of Vedado, Havana, Cuba.JPG",
     "sha256": "e8f835bc317dcff044c796f8c7f9a4d1f14f5635e30de821d7165b94ee8f866c",
     "decision": "rejected",
     "notes": "Cena de rua colonial sem contexto suficiente para confirmar Vedado; rejeitar localização incerta."
+  },
+  {
+    "bundle": "regional-havana-neighborhoods",
+    "key": "havana/neighborhood-0",
+    "title": "File:Havana vieja hdsr S5is Cuba1 159.jpg",
+    "sha256": "b6f4f862f8f62fac3b70469ca72957702d82c54d53b0ef0e6b8bee120286dbf0",
+    "decision": "rejected",
+    "notes": "Placa isolada na parede, sem representação suficiente de Habana Vieja."
+  },
+  {
+    "bundle": "regional-havana-neighborhoods",
+    "key": "havana/neighborhood-1",
+    "title": "File:Habana - Iglesia del Vedado (1916).jpg",
+    "sha256": "de3a79345bdd912aea67417e0b7c773c8bba02e93e7c3a46a5e5ca14bfa7a5eb",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado de 1916, não foto atual do bairro."
+  },
+  {
+    "bundle": "regional-havana-neighborhoods",
+    "key": "havana/neighborhood-detail-1",
+    "title": "File:Havana - A street in Vedado.jpg",
+    "sha256": "c1d1e27e7a011d42a98c6a4063e90aa3adc19ee9294b70da68f4d4fd5bbf0e76",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, inadequado como vista atual de Vedado."
+  },
+  {
+    "bundle": "regional-havana-neighborhoods",
+    "key": "havana/neighborhood-3",
+    "title": "File:Havana - Miramar Yacht Club.jpg",
+    "sha256": "32ee48c8ce22b7658986074e692c8952af500da9e690d793a131280cfd82c272",
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico do yacht club, não fotografia atual de Miramar."
+  },
+  {
+    "bundle": "regional-havana-neighborhoods",
+    "key": "havana/neighborhood-detail-3",
+    "title": "File:Young People in Miramar - Havana - Cuba.jpg",
+    "sha256": "323f13dbfd61c0a7a3fb44a5610c764b9d7c2fc04aa91beef49e9d9b770b17d3",
+    "decision": "rejected",
+    "notes": "Retrato posado de pessoas, assunto inadequado para representar Miramar."
   },
   {
     "bundle": "regional-las-vegas",
@@ -592,6 +824,46 @@
     "notes": "Coloração violeta excessiva prejudica a reprodução natural da cena."
   },
   {
+    "bundle": "regional-las-vegas-neighborhoods",
+    "key": "las-vegas/neighborhood-detail-0",
+    "title": "File:Mirage Las Vegas December 2013.jpg",
+    "sha256": "7205f6d49e70e698f387aea8b09aaf04b14b4bd1a934e515ff16c4c84ae1fb06",
+    "decision": "rejected",
+    "notes": "Imagem noturna com baixo contraste, fraca para detalhe do bairro."
+  },
+  {
+    "bundle": "regional-las-vegas-neighborhoods",
+    "key": "las-vegas/neighborhood-1",
+    "title": "File:Letter box inside Main Street Station casino and hotel in downtown Las Vegas.jpg",
+    "sha256": "6ecdb74ef948ddc736aee02032019c1a004fe54446e617ab19ea2b6fc87e49bd",
+    "decision": "rejected",
+    "notes": "Caixa de correio isolada dentro de hotel, sem contexto do Downtown."
+  },
+  {
+    "bundle": "regional-las-vegas-neighborhoods",
+    "key": "las-vegas/neighborhood-detail-2",
+    "title": "File:Downtown Summerlin in Summerlin South, Nevada (2024) -- 3197.jpg",
+    "sha256": "96b47c09ac1b116d08a417a203e824dbd850490b8068630158c2490620bafce4",
+    "decision": "rejected",
+    "notes": "Enquadramento quase idêntico da fachada de Summerlin, possível variante do mesmo original."
+  },
+  {
+    "bundle": "regional-las-vegas-neighborhoods",
+    "key": "las-vegas/neighborhood-3",
+    "title": "File:Paradise, NV, USA - panoramio (81).jpg",
+    "sha256": "14693785992caedc6548050b8c0a099c5f47b924ce31dbe917ef50a94aa5dd65",
+    "decision": "rejected",
+    "notes": "Foto desfocada com data/hora grande sobreposta, inadequada para o cartão."
+  },
+  {
+    "bundle": "regional-las-vegas-neighborhoods",
+    "key": "las-vegas/neighborhood-detail-3",
+    "title": "File:Secret Garden Dolphins Being Fed After Performance.jpg",
+    "sha256": "6a11617f6a7d75cd350b9f11a916a77c5f59aefd55234c162fdf9a56749fabff",
+    "decision": "rejected",
+    "notes": "Golfinhos e cuidadores sem contexto suficiente da região de Paradise."
+  },
+  {
     "bundle": "regional-lima",
     "key": "lima/map-attraction-0",
     "title": "File:Municipalidad de Miraflores - Malecón de Miraflores (1907) (7847275164).jpg",
@@ -632,6 +904,38 @@
     "notes": "Skyline distante com pouco contraste, inadequado para destaque."
   },
   {
+    "bundle": "regional-lima-neighborhoods",
+    "key": "lima/neighborhood-1",
+    "title": "File:Barranco, Lima, Perú. - 48529696967.jpg",
+    "sha256": "7ca5a48c922ca6eb9415078e26bb951a2770c585b8d95b6c85b9ec7132f1406d",
+    "decision": "rejected",
+    "notes": "Mural com enquadramento próximo de candidato já utilizado/rejeitado nas atrações; rejeitado preventivamente por possível variante."
+  },
+  {
+    "bundle": "regional-lima-neighborhoods",
+    "key": "lima/neighborhood-2",
+    "title": "File:Av. Del Parque Nte. 605, San Isidro 1.jpg",
+    "sha256": "20bcdaa8dc09d18da46f051c1b27916f8361dd0e1f6a7a915524071de98bcc3e",
+    "decision": "rejected",
+    "notes": "Fachada residencial pouco legível e cheia de fios, contexto insuficiente para representar San Isidro."
+  },
+  {
+    "bundle": "regional-lima-neighborhoods",
+    "key": "lima/neighborhood-detail-2",
+    "title": "File:Av. Del Parque Nte. 605, San Isidro 2.jpg",
+    "sha256": "c51e56494970d7dc002fbd9f38171d89ed031a26de93b745ceb73cfefe7327f6",
+    "decision": "rejected",
+    "notes": "Mesmo prédio com enquadramento quase igual, possível variante e composição fraca."
+  },
+  {
+    "bundle": "regional-lima-neighborhoods",
+    "key": "lima/neighborhood-3",
+    "title": "File:Mapa distrito de Lima.png",
+    "sha256": "0fc62236e0c85bb2d22db6b7452e778c13f6b435a7ce0af575d329463c743269",
+    "decision": "rejected",
+    "notes": "Mapa do distrito, proibido como fotografia do bairro."
+  },
+  {
     "bundle": "regional-los-angeles",
     "key": "los-angeles/attraction-0",
     "title": "File:USA Santa Monica Beach and pier CA.jpg",
@@ -654,6 +958,38 @@
     "sha256": "50010dbf6dcfc6b425766fef82b2d1f8e1b99f9666f456b9b023bb52d389cfd5",
     "decision": "rejected",
     "notes": "Composição e iluminação muito próximas da foto do hero; rejeitada preventivamente por possível mesma família de original."
+  },
+  {
+    "bundle": "regional-los-angeles-neighborhoods",
+    "key": "los-angeles/neighborhood-0",
+    "title": "File:Los Angeles (California, USA), Santa Monica Beach -- 2012 -- 5308.jpg",
+    "sha256": "d69a6a6ad4c0dcf6aaddcb69a5b16e730d4afbb8ed873487cb4f93e5989d3bbd",
+    "decision": "rejected",
+    "notes": "Placa memorial domina a composição sem representação suficiente de Santa Monica."
+  },
+  {
+    "bundle": "regional-los-angeles-neighborhoods",
+    "key": "los-angeles/neighborhood-detail-1",
+    "title": "File:Hollywood Sign (Zuschnitt).jpg",
+    "sha256": "31926167b40de482298e851665c8c13d4a9e4100e739cbbe47189aeb374a9f8e",
+    "decision": "rejected",
+    "notes": "Versão recortada (Zuschnitt) da mesma foto Hollywood Sign, repetição de original."
+  },
+  {
+    "bundle": "regional-los-angeles-neighborhoods",
+    "key": "los-angeles/neighborhood-detail-2",
+    "title": "File:Downtown Los Angeles Through Pollution Haze 2023.jpg",
+    "sha256": "12c63a78458d70dec12915cdb2455f3737af9d7b3392ae5b688827c45c4a5a28",
+    "decision": "rejected",
+    "notes": "Névoa e árvores ocultam a maior parte do Downtown, enquadramento fraco."
+  },
+  {
+    "bundle": "regional-los-angeles-neighborhoods",
+    "key": "los-angeles/neighborhood-3",
+    "title": "File:West Hollywood, Los Angeles, California - man pushing pram on sidewalk, July 2024.jpg",
+    "sha256": "af0f3c41394ef669791658d1ba2009acd98399dc8afeca5a9efb62c50642e526",
+    "decision": "rejected",
+    "notes": "Pessoa com carrinho domina a composição, não representa o bairro."
   },
   {
     "bundle": "regional-medellin",
@@ -686,6 +1022,30 @@
     "sha256": "372bdb600bdc61bb9cedf6353bd5cb889cedfabed64d4fd4040282c24550dd30",
     "decision": "rejected",
     "notes": "Fachada publicitária de escritório não representa adequadamente El Poblado."
+  },
+  {
+    "bundle": "regional-medellin-neighborhoods",
+    "key": "medellin/neighborhood-0",
+    "title": "File:Colombia - Latin Top Jobs Medellin at El Poblado - panoramio.jpg",
+    "sha256": "372bdb600bdc61bb9cedf6353bd5cb889cedfabed64d4fd4040282c24550dd30",
+    "decision": "rejected",
+    "notes": "Fachada de escritório Latin Top Jobs, pouco representativa do bairro solicitado."
+  },
+  {
+    "bundle": "regional-medellin-neighborhoods",
+    "key": "medellin/neighborhood-2",
+    "title": "File:Centro Santafé Medellin c.jpg",
+    "sha256": "a414324fac732e92030ebc77b1a66b586ab5a51d11b060dc53ee1f18e332f6ea",
+    "decision": "rejected",
+    "notes": "Centro Comercial Santa Fé fica em El Poblado; palavra Centro não representa o bairro Centro."
+  },
+  {
+    "bundle": "regional-medellin-neighborhoods",
+    "key": "medellin/neighborhood-detail-2",
+    "title": "File:Centro Comeecial Santafé Medellin 0.jpg",
+    "sha256": "0f4b14c2c170fb70444e70885f77a361d299201125355bf974dae9faded36923",
+    "decision": "rejected",
+    "notes": "Interior do Centro Comercial Santa Fé, assunto e região diferentes do bairro Centro."
   },
   {
     "bundle": "regional-montevideo",
@@ -736,6 +1096,22 @@
     "notes": "Vista distante e cinza com pouca legibilidade para o destaque da home."
   },
   {
+    "bundle": "regional-montevideo-neighborhoods",
+    "key": "montevideo/neighborhood-1",
+    "title": "File:Centro Bar.jpg",
+    "sha256": "ca9b45e36d0e1bbe8c88a5e8045831a727da54ceda1abdab437b430100c51e5a",
+    "decision": "rejected",
+    "notes": "Interior de bar com nome Centro; correspondência nominal não comprova representação suficiente do bairro."
+  },
+  {
+    "bundle": "regional-montevideo-neighborhoods",
+    "key": "montevideo/neighborhood-2",
+    "title": "File:Pocitos Hostel, Montevideo.jpg",
+    "sha256": "fdbb20be640bd6235aeb4dab2ffb7be217b74d3604aa500c25a6784bed392e2f",
+    "decision": "rejected",
+    "notes": "Fachada isolada de hostel chamado Pocitos, pouco representativa do bairro."
+  },
+  {
     "bundle": "regional-montreal",
     "key": "montreal/attraction-0",
     "title": "File:Basílica de Notre-Dame, Montreal, Canadá, 2017-08-12, DD 22-24 HDR.jpg",
@@ -766,6 +1142,38 @@
     "sha256": "71e8e15f01f858035af067ac4dbb611e1dbd809f80f9efd269ef4c952b2612df",
     "decision": "rejected",
     "notes": "Porto industrial domina a miniatura sem representação suficiente do destino turístico."
+  },
+  {
+    "bundle": "regional-montreal-neighborhoods",
+    "key": "montreal/neighborhood-0",
+    "title": "File:Basílica de Notre-Dame, Montreal, Canadá, 2017-08-12, DD 22-24 HDR.jpg",
+    "sha256": "8427c01625be029f9f7a0f40346893ee3a801079cd1a9ea8c42413efcc01fd93",
+    "decision": "rejected",
+    "notes": "Interior da basílica, assunto já tratado nas atrações; não representa suficientemente o bairro Vieux-Montréal."
+  },
+  {
+    "bundle": "regional-montreal-neighborhoods",
+    "key": "montreal/neighborhood-detail-0",
+    "title": "File:Basílica de Notre-Dame, Montreal, Canadá, 2017-08-12, DD 28-30 HDR.jpg",
+    "sha256": "f2e0a340d7f20882ea85c552a570b0461b8270683fad192256615be8b2c8cfe4",
+    "decision": "rejected",
+    "notes": "Outro interior da mesma basílica e composição próxima; inadequado como detalhe do bairro."
+  },
+  {
+    "bundle": "regional-montreal-neighborhoods",
+    "key": "montreal/neighborhood-detail-1",
+    "title": "File:Le Plateau-Mont-Royal, Montreal, QC, Canada - panoramio (4).jpg",
+    "sha256": "855253a9f92894546b8bbe0a86a04ceef58e47669a9ba77c361ace58c90d81d6",
+    "decision": "rejected",
+    "notes": "Parede/garagem e galhos ocultam a cena; enquadramento fraco para representar Plateau."
+  },
+  {
+    "bundle": "regional-montreal-neighborhoods",
+    "key": "montreal/neighborhood-3",
+    "title": "File:Montréal 1911. Secteur Mile End. (6681332601).jpg",
+    "sha256": "8459dddee93729ea5a6490b0bb84abe13da87fcf93fcc37dcfb16856f9ec2ac4",
+    "decision": "rejected",
+    "notes": "Mapa histórico de 1911, proibido como fotografia do bairro."
   },
   {
     "bundle": "regional-orlando",
@@ -806,6 +1214,30 @@
     "sha256": "90f3dd9988f2c599e64d70c151ce1fedc1540d26baec2d2ba27b8f00a454f4b0",
     "decision": "rejected",
     "notes": "Via expressa e veículos dominam a composição do destaque."
+  },
+  {
+    "bundle": "regional-orlando-neighborhoods",
+    "key": "orlando/neighborhood-0",
+    "title": "File:Sweet Leota Disney World.jpg",
+    "sha256": "e7ef7c531eabb65b77cb2f6310adbc5d0661e819d11aefe4ed0d4eff78127ec2",
+    "decision": "rejected",
+    "notes": "Detalhe de lápide cenográfica, sem representação suficiente da região Disney."
+  },
+  {
+    "bundle": "regional-orlando-neighborhoods",
+    "key": "orlando/neighborhood-detail-1",
+    "title": "File:Four Points By Sheraton Orlando International Drive 04.jpg",
+    "sha256": "a4e54275e35888323eea445ddc10dc47be627936b51810159a74da2a3c9802dc",
+    "decision": "rejected",
+    "notes": "Cobertura de estacionamento/galpão domina o panorama, pouco representativo de International Drive."
+  },
+  {
+    "bundle": "regional-orlando-neighborhoods",
+    "key": "orlando/neighborhood-2",
+    "title": "File:Orlando, Florida - Downtown from I-4 East.jpg",
+    "sha256": "f9a9330a0fb5b3e660d15580a8d50aafedfdeaf37d0fa1ee7b19487fcca0abe0",
+    "decision": "rejected",
+    "notes": "Via expressa e veículos dominam a composição; candidato já rejeitado na passagem de destaques."
   },
   {
     "bundle": "regional-porto-rico",
@@ -864,6 +1296,30 @@
     "notes": "Foto esférica de rua com deformação severa, inadequada à miniatura."
   },
   {
+    "bundle": "regional-porto-rico-neighborhoods",
+    "key": "porto-rico/neighborhood-detail-1",
+    "title": "File:Condado-Beach-Hotel.jpg",
+    "sha256": "01fc65c5e3e03c55f58f223ad193654865200cd1ae65f887f107e3364af6eded",
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático do hotel, inadequado como vista atual do bairro."
+  },
+  {
+    "bundle": "regional-porto-rico-neighborhoods",
+    "key": "porto-rico/neighborhood-detail-2",
+    "title": "File:Centro Más Salud Dr. Gualberto Rabell, hospital en Santurce, Puerto Rico.jpg",
+    "sha256": "1487f2a35d1e92ffd0e560b49b578c09d15e410cede6954636a773eae80d40d4",
+    "decision": "rejected",
+    "notes": "Entrada de emergência hospitalar, pouco representativa do bairro turístico de Santurce."
+  },
+  {
+    "bundle": "regional-porto-rico-neighborhoods",
+    "key": "porto-rico/neighborhood-3",
+    "title": "File:Shoreline of Isla Verde, Carolina, Puerto Rico.jpg",
+    "sha256": "dd47fbe5bec356e8b698caa9e8773435ee58df9c1992583db125a820453e9f9e",
+    "decision": "rejected",
+    "notes": "Forte tonalidade amarela e baixo contraste, qualidade visual inadequada para o cartão."
+  },
+  {
     "bundle": "regional-punta-cana",
     "key": "punta-cana/map-list-0",
     "title": "File:2024 - Bávaro Beach - 45.jpg",
@@ -878,6 +1334,22 @@
     "sha256": "100fe5589e5b08d839e4b02dcb1134f29b940e7202d4c6eef10ba3fd89b7a75d",
     "decision": "rejected",
     "notes": "Pessoas atracando um barco dominam a foto; ilha sem contexto suficiente."
+  },
+  {
+    "bundle": "regional-punta-cana-neighborhoods",
+    "key": "punta-cana/neighborhood-1",
+    "title": "File:PUJ-MIA Cap Cana.jpg",
+    "sha256": "1c8088a4a3aa2feff0105fba6d3cbbdda194c4046ac70af50b08fee59ae4bfd5",
+    "decision": "rejected",
+    "notes": "Asa de avião e névoa ocultam a paisagem de Cap Cana, enquadramento pouco legível."
+  },
+  {
+    "bundle": "regional-punta-cana-neighborhoods",
+    "key": "punta-cana/neighborhood-2",
+    "title": "File:Cabeza de Toro sign.jpg",
+    "sha256": "d4ed2c33f338c779a1a0c5378dbca4fee627e846d81b4fe961ec02f4bd08e882",
+    "decision": "rejected",
+    "notes": "Estátua temática de dinossauro domina a composição sem representação suficiente do bairro."
   },
   {
     "bundle": "regional-quito",
@@ -912,6 +1384,54 @@
     "notes": "Versão monocromática do mesmo enquadramento do parque; evitar derivada/repetição."
   },
   {
+    "bundle": "regional-quito-neighborhoods",
+    "key": "quito/neighborhood-0",
+    "title": "File:Quito Accordion player.jpg",
+    "sha256": "5b5a98eb87f40876219a7572d72101e95dafd1198a874a1b3c154e7f50a5332a",
+    "decision": "rejected",
+    "notes": "Retrato de músico domina a imagem, não representa o Centro Histórico."
+  },
+  {
+    "bundle": "regional-quito-neighborhoods",
+    "key": "quito/neighborhood-detail-0",
+    "title": "File:La Loma Grande, Quito (Centro Histórico, Quito).jpg",
+    "sha256": "5769161ec75b1372d5feac0dbbdf24309f766c953b5ec6bd3a36603009a2efa2",
+    "decision": "rejected",
+    "notes": "Placa de identificação isolada, contexto insuficiente do bairro histórico."
+  },
+  {
+    "bundle": "regional-quito-neighborhoods",
+    "key": "quito/neighborhood-3",
+    "title": "File:B1 Ecuador 036 Road to Quito, Cumbaya, January 1985.jpg",
+    "sha256": "ffeca9e99857c33c38e920ad28cbd9142f86b097363f7ff995de2918f3e441bd",
+    "decision": "rejected",
+    "notes": "Fotografia histórica de ônibus de 1985, inadequada como vista atual de Cumbayá."
+  },
+  {
+    "bundle": "regional-san-andres-neighborhoods",
+    "key": "san-andres/neighborhood-1",
+    "title": "File:San Luis Cemetery. San Andres, Colombia.jpg",
+    "sha256": "e090bc4c0e1ffbaa385b474b68699c96634cf8b211d868cba1a07d034a62b035",
+    "decision": "rejected",
+    "notes": "Cemitério sem contexto suficiente para imagem principal do bairro turístico de San Luis."
+  },
+  {
+    "bundle": "regional-san-andres-neighborhoods",
+    "key": "san-andres/neighborhood-3",
+    "title": "File:Torre de San Andrés, Villalba de la Loma 01.jpg",
+    "sha256": "c1a231a72866a84abf6ca90022548b793f2b18856533e651d21b9f421181dd58",
+    "decision": "rejected",
+    "notes": "A descrição identifica Villalba de la Loma, Valladolid, Espanha; cidade e país errados."
+  },
+  {
+    "bundle": "regional-san-andres-neighborhoods",
+    "key": "san-andres/neighborhood-detail-3",
+    "title": "File:Torre de San Andrés, Villalba de la Loma 02.jpg",
+    "sha256": "c07edd95674f7b9af984809edf7a6e084a130f4fe8dab5f22c891f5e67cc1382",
+    "decision": "rejected",
+    "notes": "Torre de San Andrés em Valladolid, Espanha, não La Loma na ilha colombiana."
+  },
+  {
     "bundle": "regional-toronto-highlights",
     "key": "toronto/home-slide",
     "title": "File:Panorama of Toronto skyline, 2020-05-13 -a.jpeg",
@@ -926,6 +1446,30 @@
     "sha256": "1e810585380a5f08bc38bb75d8e7d52c2453cbdc4596ff87c34149ab6d011962",
     "decision": "rejected",
     "notes": "Panorama esférico distorcido e repetição de enquadramento do mesmo ensaio."
+  },
+  {
+    "bundle": "regional-toronto-neighborhoods",
+    "key": "toronto/neighborhood-1",
+    "title": "File:Entertainment District, Toronto, Ontario (29709431900).jpg",
+    "sha256": "f83cf7bfd98239d337ee3d026d17c565d7bf82f12fe78c7af2b32e1c962f9764",
+    "decision": "rejected",
+    "notes": "Detalhe isolado de relógio/sinal, sem representação suficiente de Entertainment District."
+  },
+  {
+    "bundle": "regional-toronto-neighborhoods",
+    "key": "toronto/neighborhood-detail-1",
+    "title": "File:Entertainment District, Toronto, Ontario (29889743672).jpg",
+    "sha256": "02a1b601f78e40e98530b9b3194c36ec4ada3e5cbd4c0b57d87600821d845d97",
+    "decision": "rejected",
+    "notes": "Fachadas escuras e céu dominam o enquadramento; pouco contexto do bairro."
+  },
+  {
+    "bundle": "regional-toronto-neighborhoods",
+    "key": "toronto/neighborhood-detail-3",
+    "title": "File:Yorkville in 1974.jpg",
+    "sha256": "c1c621808b6b30087b69ddc54020f330d5b8169c108ad86c68750197a7a03499",
+    "decision": "rejected",
+    "notes": "Registro datado de 1974, inadequado como vista atual de Yorkville."
   },
   {
     "bundle": "regional-vancouver",
@@ -974,5 +1518,21 @@
     "sha256": "dec93c80254132b542b9b275f1d915cf09d4dc6ba551f227cfa749920239b403",
     "decision": "rejected",
     "notes": "Coloração magenta artificial e marca dágua grande inadequadas ao destaque."
+  },
+  {
+    "bundle": "regional-vancouver-neighborhoods",
+    "key": "vancouver/neighborhood-detail-0",
+    "title": "File:Downtown Vancouver (5429681957).jpg",
+    "sha256": "4166dde0c500e08d0b5f1efb2210431dc5e9550c8affbc5dbf6a76b5bebad337",
+    "decision": "rejected",
+    "notes": "Rua muito subexposta, prédios e contexto urbano pouco legíveis."
+  },
+  {
+    "bundle": "regional-vancouver-neighborhoods",
+    "key": "vancouver/neighborhood-detail-3",
+    "title": "File:Vancouver (BC, Canada), Gastown Steam Clock -- 2022 -- 1827.jpg",
+    "sha256": "14218232e59d79fb88d270c0938b1a988c3c37e7b3271b43488f8cfed9df6343",
+    "decision": "rejected",
+    "notes": "Placa textual do relógio, não representa visualmente o bairro de Gastown."
   }
 ]

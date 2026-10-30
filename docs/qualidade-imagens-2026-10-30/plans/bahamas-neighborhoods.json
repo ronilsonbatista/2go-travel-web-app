@@ -1,0 +1,67 @@
+{
+  "city": "bahamas",
+  "region": "americas",
+  "center": [
+    25.0443,
+    -77.3504,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Downtown Nassau Bahamas",
+      "required": [
+        "downtown|bay street"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Paradise Island Bahamas",
+      "required": [
+        "paradise island"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Cable Beach Nassau",
+      "required": [
+        "cable beach"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Exuma Bahamas",
+      "required": [
+        "exuma"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

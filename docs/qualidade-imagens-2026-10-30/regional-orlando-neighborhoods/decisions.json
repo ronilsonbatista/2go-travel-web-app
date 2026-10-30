@@ -1,0 +1,34 @@
+{
+  "orlando/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Detalhe de lápide cenográfica, sem representação suficiente da região Disney."
+  },
+  "orlando/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Disney Area: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "orlando/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro International Drive: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "orlando/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Cobertura de estacionamento/galpão domina o panorama, pouco representativo de International Drive."
+  },
+  "orlando/neighborhood-2": {
+    "decision": "rejected",
+    "notes": "Via expressa e veículos dominam a composição; candidato já rejeitado na passagem de destaques."
+  },
+  "orlando/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Downtown Orlando: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "orlando/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Winter Park: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "orlando/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Winter Park: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  }
+}

@@ -1,0 +1,895 @@
+[
+  {
+    "key": "lima/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Miraflores",
+    "path": "/images/destinations/lima/curated-neighborhood-0.jpg",
+    "pool": "neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Miraflores 2023 (2).jpg",
+    "imageinfo": {
+      "size": 2926586,
+      "width": 4032,
+      "height": 2268,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Miraflores_2023_%282%29.jpg/3840px-Miraflores_2023_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Miraflores_2023_%282%29.jpg/3840px-Miraflores_2023_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Miraflores_2023_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Miraflores_2023_(2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146774368",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-03-25 21:47:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Miraflores 2023 (2)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Club Tennis Las Terrazas Miraflores|Quebrada Balta",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Miraflores, part of the Peruvian capital Lima, photographed in December 2023",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-12-15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mojnsen\" title=\"User:Mojnsen\">Mojnsen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/lima/neighborhood-0.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Miraflores_2023_%282%29.jpg/3840px-Miraflores_2023_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fe73377ee37dc3707f9b1b22cf4299e131807bbefd82c24877039bca8b4acccc"
+  },
+  {
+    "key": "lima/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Miraflores",
+    "path": "/images/destinations/lima/curated-neighborhood-detail-0.jpg",
+    "pool": "neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Miraflores 2023.jpg",
+    "imageinfo": {
+      "size": 3214042,
+      "width": 4032,
+      "height": 2268,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Miraflores_2023.jpg/3840px-Miraflores_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Miraflores_2023.jpg/3840px-Miraflores_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Miraflores_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Miraflores_2023.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146774367",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-03-25 21:47:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Miraflores 2023",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Club Tennis Las Terrazas Miraflores|Malecón Balta|Quebrada Balta",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Miraflores, part of the Peruvian capital Lima, photographed in December 2023",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-12-16",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mojnsen\" title=\"User:Mojnsen\">Mojnsen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/lima/neighborhood-detail-0.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Miraflores_2023.jpg/3840px-Miraflores_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ebf36a1657f453fc9febbe71e7f5023eb9c4a38f8fe0c0b35e53bfd2ad353ecb"
+  },
+  {
+    "key": "lima/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Barranco",
+    "path": "/images/destinations/lima/curated-neighborhood-1.jpg",
+    "pool": "neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Barranco, Lima, Perú. - 48529696967.jpg",
+    "imageinfo": {
+      "size": 6522330,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Barranco%2C_Lima%2C_Per%C3%BA._-_48529696967.jpg/3840px-Barranco%2C_Lima%2C_Per%C3%BA._-_48529696967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Barranco%2C_Lima%2C_Per%C3%BA._-_48529696967.jpg/3840px-Barranco%2C_Lima%2C_Per%C3%BA._-_48529696967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Barranco%2C_Lima%2C_Per%C3%BA._-_48529696967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barranco,_Lima,_Per%C3%BA._-_48529696967.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=82529884",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-09-25 15:08:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Barranco, Lima, Perú. - 48529696967",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Elliot Túpac|FoP-Peru|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Graffiti in Lima|Buildings in Barranco District|Murals in Barranco District|Jirón Oroya, Barranco",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-12.149908",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-77.023117",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Barranco, Lima, Perú. - 48529696967",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-08-11 13:13:12",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/cuidro/48529696967/\">https://www.flickr.com/photos/cuidro/48529696967/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Jaime Troncoso",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/lima/neighborhood-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Barranco%2C_Lima%2C_Per%C3%BA._-_48529696967.jpg/3840px-Barranco%2C_Lima%2C_Per%C3%BA._-_48529696967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7ca5a48c922ca6eb9415078e26bb951a2770c585b8d95b6c85b9ec7132f1406d"
+  },
+  {
+    "key": "lima/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "Barranco",
+    "path": "/images/destinations/lima/curated-neighborhood-detail-1.jpg",
+    "pool": "neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Lima, Peru - Library of Barranco.jpg",
+    "imageinfo": {
+      "size": 1325831,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lima%2C_Peru_-_Library_of_Barranco.jpg/3840px-Lima%2C_Peru_-_Library_of_Barranco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lima%2C_Peru_-_Library_of_Barranco.jpg/3840px-Lima%2C_Peru_-_Library_of_Barranco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lima%2C_Peru_-_Library_of_Barranco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lima,_Peru_-_Library_of_Barranco.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29150452",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-10-23 13:31:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lima, Peru - Library of Barranco",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Olympus E-PL3|Biblioteca Municipal Barranco|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Library in Barranco District.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-10-13 15:11:35",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Donairesunovi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Donairesunovi (page does not exist)\">Donairesunovi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/lima/neighborhood-detail-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lima%2C_Peru_-_Library_of_Barranco.jpg/3840px-Lima%2C_Peru_-_Library_of_Barranco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "32f9b47b1bb07ffd2ee7176e1b54471dcc245b1f325147317f1e846a5bd42398"
+  },
+  {
+    "key": "lima/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "San Isidro",
+    "path": "/images/destinations/lima/curated-neighborhood-2.jpg",
+    "pool": "neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Av. Del Parque Nte. 605, San Isidro 1.jpg",
+    "imageinfo": {
+      "size": 2384698,
+      "width": 4032,
+      "height": 2268,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Av._Del_Parque_Nte._605%2C_San_Isidro_1.jpg/3840px-Av._Del_Parque_Nte._605%2C_San_Isidro_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Av._Del_Parque_Nte._605%2C_San_Isidro_1.jpg/3840px-Av._Del_Parque_Nte._605%2C_San_Isidro_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Av._Del_Parque_Nte._605%2C_San_Isidro_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Av._Del_Parque_Nte._605,_San_Isidro_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132254233",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-05-23 19:39:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Av. Del Parque Nte. 605, San Isidro 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Buildings in San Isidro District|Norwegian Consulate, Lima",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Office building at Av. Del Parque Nte. 605, San Isidro. It formerly housed an honorary consulate of Norway.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-05-23 13:04:09",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Colección privada (archivo subido con permiso bajo la licencia CC-BY-SA-4.0)",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Privado (imagen donada al publicador)",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/lima/neighborhood-2.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Av._Del_Parque_Nte._605%2C_San_Isidro_1.jpg/3840px-Av._Del_Parque_Nte._605%2C_San_Isidro_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "20bcdaa8dc09d18da46f051c1b27916f8361dd0e1f6a7a915524071de98bcc3e"
+  },
+  {
+    "key": "lima/neighborhood-detail-2",
+    "slot": "neighborhood-detail-2",
+    "topic": "San Isidro",
+    "path": "/images/destinations/lima/curated-neighborhood-detail-2.jpg",
+    "pool": "neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Av. Del Parque Nte. 605, San Isidro 2.jpg",
+    "imageinfo": {
+      "size": 2590969,
+      "width": 4032,
+      "height": 2268,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Av._Del_Parque_Nte._605%2C_San_Isidro_2.jpg/3840px-Av._Del_Parque_Nte._605%2C_San_Isidro_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Av._Del_Parque_Nte._605%2C_San_Isidro_2.jpg/3840px-Av._Del_Parque_Nte._605%2C_San_Isidro_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Av._Del_Parque_Nte._605%2C_San_Isidro_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Av._Del_Parque_Nte._605,_San_Isidro_2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=132254236",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-05-23 19:39:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Av. Del Parque Nte. 605, San Isidro 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Buildings in San Isidro District|Norwegian Consulate, Lima",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Office building at Av. Del Parque Nte. 605, San Isidro. It formerly housed an honorary consulate of Norway.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-05-23 13:04:10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Colección privada (archivo subido con permiso bajo la licencia CC-BY-SA-4.0)",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Privado (imagen donada al publicador)",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/lima/neighborhood-detail-2.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Av._Del_Parque_Nte._605%2C_San_Isidro_2.jpg/3840px-Av._Del_Parque_Nte._605%2C_San_Isidro_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c51e56494970d7dc002fbd9f38171d89ed031a26de93b745ceb73cfefe7327f6"
+  },
+  {
+    "key": "lima/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Centro",
+    "path": "/images/destinations/lima/curated-neighborhood-3.jpg",
+    "pool": "neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Mapa distrito de Lima.png",
+    "imageinfo": {
+      "size": 339885,
+      "width": 1846,
+      "height": 1169,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Mapa_distrito_de_Lima.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1520,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/Mapa_distrito_de_Lima.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1520
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Mapa_distrito_de_Lima.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mapa_distrito_de_Lima.png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1812775",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-03-20 15:14:09",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mapa distrito de Lima",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration completed|21st-century maps of Lima|Maps of Lima District|Maps of the Historic Centre of Lima",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>Mapa del distrito de Lima La imagen:Distrito de Lima 1.png, ha sido elaborada por --<a href=\"https://es.wikipedia.org/wiki/Usuario:Edgardo_Reyes\" class=\"extiw\" title=\"es:Usuario:Edgardo Reyes\">Edgardo Reyes</a> 23:14 15 feb, 2005 (CET)\n</p>\n<a href=\"https://es.wikipedia.org/wiki/Categor%C3%ADa:Mapas_del_Per%C3%BA_(imagen)\" class=\"extiw\" title=\"es:Categoría:Mapas del Perú (imagen)\">es:Categoría:Mapas del Perú (imagen)</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "15 February 2005 (original upload date)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//es.wikipedia.org\" href=\"https://es.wikipedia.org\">es.wikipedia</a></span> to Commons.</bdi>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/es:User:Edgardo_Reyes\" class=\"extiw\" title=\"w:es:User:Edgardo Reyes\">Edgardo Reyes</a> at <a href=\"https://en.wikipedia.org/wiki/es:\" class=\"extiw\" title=\"w:es:\">Spanish Wikipedia</a>.",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/png"
+    },
+    "file": "/tmp/2go-regional-photo-review/lima/neighborhood-3.jpg",
+    "dimensions": [
+      1846,
+      1169
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Mapa_distrito_de_Lima.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "0fc62236e0c85bb2d22db6b7452e778c13f6b435a7ce0af575d329463c743269"
+  },
+  {
+    "key": "lima/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Centro",
+    "path": "/images/destinations/lima/curated-neighborhood-detail-3.jpg",
+    "pool": "neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Historic centre of Lima, Peru.jpg",
+    "imageinfo": {
+      "size": 2778697,
+      "width": 2304,
+      "height": 3072,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Historic_centre_of_Lima%2C_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Historic_centre_of_Lima%2C_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Historic_centre_of_Lima%2C_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Historic_centre_of_Lima,_Peru.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=95256783",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-10-20 14:06:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Historic centre of Lima, Peru",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Casa de Osambela|2008 in Lima|Flickr images reviewed by FlickreviewR 2|Jirón Conde de Superunda (cuadra 2), Lima|Jirón Conde de Superunda (cuadra 3), Lima",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Peru &amp; Bolivia trip by Randal Sheppard",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2008-01-20 13:50:14",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/25222005@N08/3227032590/\">https://www.flickr.com/photos/25222005@N08/3227032590/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "-Chupacabras-",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/lima/neighborhood-detail-3.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Historic_centre_of_Lima%2C_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "8445e6633a1dd4ba6ba4fb1a8b104ecba8131b32d672364709a6f39bb8b059c4"
+  }
+]

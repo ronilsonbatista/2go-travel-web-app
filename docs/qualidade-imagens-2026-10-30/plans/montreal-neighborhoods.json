@@ -1,0 +1,67 @@
+{
+  "city": "montreal",
+  "region": "americas",
+  "center": [
+    45.5017,
+    -73.5673,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Vieux Montreal",
+      "required": [
+        "vieux montreal|old montreal"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Plateau Mont Royal",
+      "required": [
+        "plateau"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Downtown Montreal",
+      "required": [
+        "downtown|centre.ville"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Mile End Montreal",
+      "required": [
+        "mile end"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

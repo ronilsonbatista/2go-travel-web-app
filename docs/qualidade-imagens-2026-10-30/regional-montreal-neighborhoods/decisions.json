@@ -1,0 +1,34 @@
+{
+  "montreal/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Interior da basílica, assunto já tratado nas atrações; não representa suficientemente o bairro Vieux-Montréal."
+  },
+  "montreal/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Outro interior da mesma basílica e composição próxima; inadequado como detalhe do bairro."
+  },
+  "montreal/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Plateau: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "montreal/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Parede/garagem e galhos ocultam a cena; enquadramento fraco para representar Plateau."
+  },
+  "montreal/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "montreal/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "montreal/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Mapa histórico de 1911, proibido como fotografia do bairro."
+  },
+  "montreal/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Mile End: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  }
+}

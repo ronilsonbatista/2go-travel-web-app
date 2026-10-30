@@ -1,0 +1,67 @@
+{
+  "city": "orlando",
+  "region": "americas",
+  "center": [
+    28.5383,
+    -81.3792,
+    50
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Walt Disney World Florida",
+      "required": [
+        "disney"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "International Drive Orlando",
+      "required": [
+        "international drive"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Downtown Orlando",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Winter Park Florida",
+      "required": [
+        "winter park"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

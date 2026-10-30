@@ -1,0 +1,67 @@
+{
+  "city": "cidade-do-mexico",
+  "region": "americas",
+  "center": [
+    19.4326,
+    -99.1332,
+    50
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Roma Condesa Mexico City",
+      "required": [
+        "roma|condesa"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Centro Historico Mexico City",
+      "required": [
+        "centro historico|historic center|historic centre"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Polanco Mexico City",
+      "required": [
+        "polanco"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Coyoacan Mexico City",
+      "required": [
+        "coyoacan"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

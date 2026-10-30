@@ -1,0 +1,34 @@
+{
+  "bogota/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro La Candelaria: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "bogota/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Mesmo enquadramento da igreja já escolhido para o bairro; possível variante do mesmo original."
+  },
+  "bogota/neighborhood-1": {
+    "decision": "rejected",
+    "notes": "Entrada em rocha sem contexto urbano suficiente para representar Chapinero."
+  },
+  "bogota/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Paisagem de encosta pouco representativa do bairro urbano solicitado."
+  },
+  "bogota/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Zona T: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "bogota/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Zona T: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "bogota/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Mineração e pedreira, assunto inadequado para representar o bairro turístico de Usaquén."
+  },
+  "bogota/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Pedreira domina a foto, assunto inadequado para o bairro turístico de Usaquén."
+  }
+}

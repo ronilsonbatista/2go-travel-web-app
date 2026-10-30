@@ -65,7 +65,7 @@ for (const slot of slots) {
   if (!source || source.path !== slot.src) problems.push(`MISSING provenance: ${current}`);
   else {
     register(sourceIds, decodeURIComponent(source.source).replace(/_/g, ' ').toLowerCase(), 'REUSED original photo');
-    const family = decodeURIComponent(source.title).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/_/g, ' ').toLowerCase().replace(/\b(cropped|crop|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b/g, '').replace(/[^\p{L}\p{N}]/gu, '');
+    const family = decodeURIComponent(source.title).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/_/g, ' ').toLowerCase().replace(/\b(cropped|crop|zuschnitt|beschnitten|recadre|recadrage|recortada|recortado|recorte|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b/g, '').replace(/[^\p{L}\p{N}]/gu, '');
     register(photoFamilies, family, 'REUSED derivative family');
     if (source.latitude != null && source.longitude != null && !/^(trip-|country-|costs|essential-(docs|moeda))/.test(slot.slot)) {
       const center = centers[slot.city];
