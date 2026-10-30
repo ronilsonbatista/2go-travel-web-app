@@ -1,5 +1,6 @@
 'use client';
 
+import { guideImage } from '@/lib/curatedGuideImages';
 import React, { useMemo } from 'react';
 import {
   AlertTriangle,
@@ -8,21 +9,12 @@ import {
   Lightbulb,
   MapPin
 } from 'lucide-react';
-import { dayImage } from '@/lib/guideVisuals';
 import {
-  guideFrameList,
   parseDayTrip,
-  pickDiverseFrame,
   splitTitleDetail
 } from '@/lib/guideInterior';
 
-function dayTripThumb(guide, frames, trip, idx, used) {
-  const probe = { day: '', title: trip.name, details: trip.meta || trip.raw };
-  return dayImage(guide, probe, frames, idx, used);
-}
-
-export default function GuideInsightsTrio({ guide, frames: framesProp, usedSeed = [] }) {
-  const frames = framesProp?.length ? framesProp : guideFrameList(guide);
+export default function GuideInsightsTrio({ guide }) {
 
   const { mistakes, tips, trips, mistakesPhoto, tipsPhoto, tripThumbs } = useMemo(() => {
     if (!guide) {
@@ -35,22 +27,12 @@ export default function GuideInsightsTrio({ guide, frames: framesProp, usedSeed 
         tripThumbs: []
       };
     }
-    const used = new Set(usedSeed);
     const nextMistakes = (guide.commonMistakes || []).map((item) => splitTitleDetail(item));
     const nextTips = guide.importantTips || [];
     const nextTrips = (guide.dayTrips || []).map(parseDayTrip);
-    const usedThumbs = new Set(used);
-    const photoMistakes = pickDiverseFrame(frames, {
-      hints: ['louvre', 'notre', 'orsay', 'opera'],
-      used,
-      fallbackIndex: 1
-    });
-    const photoTips = pickDiverseFrame(frames, {
-      hints: ['sacre', 'montmartre', 'seine-bridge', 'marais', 'latin'],
-      used,
-      fallbackIndex: 3
-    });
-    const thumbs = nextTrips.map((trip, idx) => dayTripThumb(guide, frames, trip, idx, usedThumbs));
+    const photoMistakes = guideImage(guide, 'mistakes');
+    const photoTips = guideImage(guide, 'tips');
+    const thumbs = nextTrips.map((_, i) => guideImage(guide, `trip-${i}`));
     return {
       mistakes: nextMistakes,
       tips: nextTips,
@@ -59,7 +41,7 @@ export default function GuideInsightsTrio({ guide, frames: framesProp, usedSeed 
       tipsPhoto: photoTips,
       tripThumbs: thumbs
     };
-  }, [guide, frames, usedSeed]);
+  }, [guide]);
 
   const hasMistakes = mistakes.length > 0;
   const hasTips = tips.length > 0;

@@ -1,5 +1,6 @@
 "use client";
 
+import { guideImage } from '@/lib/curatedGuideImages';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { CalendarDays, Clock3, Compass, MapPinned, Navigation, Sliders, ArrowRight } from 'lucide-react';
@@ -55,7 +56,7 @@ const featuredGuides = [
       name: destination.name,
       country: destination.country,
       continent: continentOf(destination.country),
-      img: guide?.heroImage || destination.image,
+      img: guide ? guideImage(guide, 'home') : destination.image,
       phrase: guide?.subtitle || destination.description,
       link: guide ? `/guias/${guide.slug}` : '/guias',
       hasGuide: Boolean(guide)
@@ -65,7 +66,7 @@ const featuredGuides = [
     name: guide.city,
     country: guide.country,
     continent: continentOf(guide.country),
-    img: guide.heroImage,
+    img: guideImage(guide, 'home'),
     phrase: guide.subtitle,
     link: `/guias/${guide.slug}`,
     hasGuide: true
@@ -91,7 +92,8 @@ const premiumSlides = [
     phrase: 'Arte, gastronomia e o charme do Rio Sena.',
     desc: 'Torre Eiffel ao entardecer com o reflexo das luzes no Rio Sena e o charme eterno da capital francesa.',
     tags: ['Cultura', 'Romance'],
-    img: '/images/destinations/paris/paris-eiffel-seine.jpg',
+    img: '/images/destinations/paris/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/paris/curated-home-thumb.jpg',
     ctaLink: '/roteiros/paris-3-dias'
   },
   {
@@ -102,7 +104,8 @@ const premiumSlides = [
     phrase: 'Energia, cultura e experiências em cada esquina.',
     desc: 'O Empire State Building e o skyline de Manhattan ao entardecer com luzes urbanas elegantes e atmosfera cinematográfica.',
     tags: ['Urbano', 'Cultura'],
-    img: '/images/destinations/nova-york/nova-york-1.jpg',
+    img: '/images/destinations/nova-york/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/nova-york/curated-home-thumb.jpg',
     ctaLink: '/guias/como-planejar-viagem-nova-york'
   },
   {
@@ -113,7 +116,8 @@ const premiumSlides = [
     phrase: 'Tradição, tecnologia e experiências únicas.',
     desc: 'A majestosa Tokyo Tower iluminada durante a blue hour em harmonia entre a tradição e a vanguarda tecnológica.',
     tags: ['Cultura', 'Tecnologia'],
-    img: '/images/destinations/toquio/toquio-1.jpg',
+    img: '/images/destinations/toquio/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/toquio/curated-home-thumb.jpg',
     ctaLink: '/roteiros/toquio-3-dias'
   },
   {
@@ -125,6 +129,7 @@ const premiumSlides = [
     desc: 'Pão de Açúcar ao pôr do sol em tons suaves de fim de tarde e natureza exuberante.',
     tags: ['Praias', 'Natureza'],
     img: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1400&q=85',
+    thumbImage: '/images/destinations/rio-de-janeiro/curated-home-thumb.jpg',
     ctaLink: '/roteiros?search=Rio de Janeiro'
   },
   {
@@ -135,7 +140,8 @@ const premiumSlides = [
     phrase: 'História, arte e monumentos a céu aberto.',
     desc: 'O Coliseu ao entardecer em luz quente moderada e atmosfera histórica incomparável.',
     tags: ['História', 'Gastronomia'],
-    img: '/images/destinations/roma/roma-coliseu.jpg',
+    img: '/images/destinations/roma/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/roma/curated-home-thumb.jpg',
     ctaLink: '/roteiros/roma-3-dias'
   },
   {
@@ -146,7 +152,8 @@ const premiumSlides = [
     phrase: 'História, cultura e ícones reconhecidos no mundo inteiro.',
     desc: 'Big Ben e o Palácio de Westminster durante a blue hour com tons frios e refinados.',
     tags: ['Cultura', 'História'],
-    img: '/images/destinations/londres/londres-1.jpg',
+    img: '/images/destinations/londres/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/londres/curated-home-thumb.jpg',
     ctaLink: '/roteiros/londres-3-dias'
   },
   {
@@ -157,7 +164,8 @@ const premiumSlides = [
     phrase: 'Onde Europa e Ásia se encontram.',
     desc: 'A vista do Bósforo e das mesquitas seculares ao pôr do sol em suaves tons terrosos.',
     tags: ['História', 'Cultura'],
-    img: '/images/destinations/istambul/istambul-1.jpg',
+    img: '/images/destinations/istambul/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/istambul/curated-home-thumb.jpg',
     ctaLink: '/guias/como-planejar-viagem-istambul'
   },
   {
@@ -169,6 +177,7 @@ const premiumSlides = [
     desc: 'A Opera House de Sydney em blue hour com o skyline noturno refletido nas águas da baía.',
     tags: ['Praias', 'Arquitetura'],
     img: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=85',
+    thumbImage: '/images/destinations/sydney/curated-home-thumb.jpg',
     ctaLink: '/roteiros?search=Sydney'
   },
   {
@@ -180,6 +189,7 @@ const premiumSlides = [
     desc: 'A silhueta inconfundível do templo Wat Arun no Rio Chao Phraya durante a luz serena do entardecer.',
     tags: ['Cultura', 'Gastronomia'],
     img: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1400&q=85',
+    thumbImage: '/images/destinations/bangkok/curated-home-thumb.jpg',
     ctaLink: '/roteiros?search=Bangkok'
   },
   {
@@ -191,6 +201,7 @@ const premiumSlides = [
     desc: 'Os canais seculares ao anoitecer com luzes acolhedoras refletidas na água e arquitetura histórica.',
     tags: ['Cultura', 'Canais'],
     img: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=85',
+    thumbImage: '/images/destinations/amsterdam/curated-home-thumb.jpg',
     ctaLink: '/roteiros?search=Amsterdã'
   }
 ];
@@ -447,7 +458,7 @@ export default function Home() {
                         }`}
                       >
                         <div className="w-9 h-9 lg:w-12 lg:h-12 rounded-lg overflow-hidden shrink-0 border border-brand-navy/10 relative">
-                          <img src={slide.img} alt={slide.name} className="w-full h-full object-cover transition-transform group-hover:scale-[1.03]" />
+                          <img src={slide.thumbImage} alt={slide.name} className="w-full h-full object-cover transition-transform group-hover:scale-[1.03]" />
                         </div>
                         <div className="min-w-0 flex-1 flex flex-col justify-center">
                           <h4 className={`text-xs lg:text-sm font-extrabold truncate ${isSelected ? 'text-brand-navy font-black' : 'text-brand-navy/80 group-hover:text-brand-navy'}`}>{slide.name}</h4>

@@ -16,7 +16,7 @@ const ORIG_PINS = [
     name: 'Torre Eiffel e Champs-Élysées',
     blurb: 'Ícones de Paris',
     color: '#5B8DEF',
-    image: '/images/destinations/paris/paris-eiffel-seine.jpg',
+    image: '/images/destinations/paris/curated-map-option-0.jpg',
     pin: { top: '58%', left: '22%' }
   },
   {
@@ -24,7 +24,7 @@ const ORIG_PINS = [
     name: 'Centro Histórico e Louvre',
     blurb: 'Cultura e história',
     color: '#F47A20',
-    image: '/images/destinations/paris/paris-louvre.jpg',
+    image: '/images/destinations/paris/curated-map-option-1.jpg',
     pin: { top: '48%', left: '48%' }
   },
   {
@@ -32,7 +32,7 @@ const ORIG_PINS = [
     name: 'Le Marais',
     blurb: 'Charme e vida local',
     color: '#8B7CF6',
-    image: '/images/destinations/paris/paris-marais.jpg',
+    image: '/images/destinations/paris/curated-map-option-2.jpg',
     pin: { top: '42%', left: '62%' }
   },
   {
@@ -40,7 +40,7 @@ const ORIG_PINS = [
     name: 'Montmartre',
     blurb: 'Arte e vista incrível',
     color: '#96AB21',
-    image: '/images/destinations/paris/paris-sacre-coeur.jpg',
+    image: '/images/destinations/paris/curated-map-option-3.jpg',
     pin: { top: '22%', left: '55%' }
   }
 ];

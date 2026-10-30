@@ -7,7 +7,8 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --test tests/sitemap.test.mjs"
+    "test": "node --test tests/sitemap.test.mjs",
+    "audit:guide-images": "node scripts/audit-guide-images.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.108.2",

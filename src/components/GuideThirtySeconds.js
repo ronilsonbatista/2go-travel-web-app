@@ -1,5 +1,6 @@
 "use client";
 
+import { guideImage } from '@/lib/curatedGuideImages';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
   CalendarDays,
@@ -11,7 +12,7 @@ import {
   TrainFront
 } from 'lucide-react';
 import { getThirtySeconds } from '@/data/guideThirtySeconds';
-import { attractionImage, mapImageFor } from '@/lib/guideVisuals';
+import { mapImageFor } from '@/lib/guideVisuals';
 
 const FACT_ICONS = {
   green: CalendarDays,
@@ -229,17 +230,26 @@ export default function GuideThirtySeconds({ guide }) {
   }, [tab]);
 
   const attractionPins = useMemo(() => {
-    const items = (guide?.attractions || []).slice(0, 4);
+    const items = (guide?.attractions || []).slice(0, 6);
     if (!items.length) return data.regions;
     return items.map((att, index) => {
       const region = data.regions[index % Math.max(data.regions.length, 1)];
+      const pinOffsets = [
+        { top: '32%', left: '28%' },
+        { top: '48%', left: '52%' },
+        { top: '62%', left: '38%' },
+        { top: '40%', left: '68%' },
+        { top: '70%', left: '58%' },
+        { top: '25%', left: '45%' }
+      ];
       return {
         id: `att-${index}`,
         name: att.name,
         blurb: att.duration || att.recommendedTime || '2–3 h',
         color: region?.color || '#5B8DEF',
-        image: attractionImage(guide, att, [region?.image, guide.heroImage], index),
-        pin: region?.pin || { top: `${30 + index * 12}%`, left: `${28 + index * 14}%` },
+        image: guideImage(guide, `map-attraction-${index}`),
+        listImage: guideImage(guide, `map-list-${index}`),
+        pin: pinOffsets[index] || region?.pin || { top: `${28 + index * 10}%`, left: `${26 + index * 12}%` },
         hotel: region?.hotel
       };
     });
@@ -369,7 +379,7 @@ export default function GuideThirtySeconds({ guide }) {
                       }`}
                     >
                       <span className="relative h-16 w-16 shrink-0 overflow-hidden rounded-xl bg-bg-light">
-                        <img src={pin.image} alt="" className="h-full w-full object-cover" />
+                        <img src={pin.listImage} alt="" className="h-full w-full object-cover" />
                         <span className="absolute left-1.5 top-1.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-brand-navy/90 text-white shadow-sm">
                           <Hotel className="h-3 w-3" />
                         </span>
@@ -418,7 +428,7 @@ export default function GuideThirtySeconds({ guide }) {
                       style={{ backgroundColor: pin.color }}
                     />
                     <span className="h-9 w-9 shrink-0 overflow-hidden rounded-lg bg-bg-light">
-                      <img src={pin.image} alt="" className="h-full w-full object-cover" />
+                      <img src={pin.listImage} alt="" className="h-full w-full object-cover" />
                     </span>
                     <span className="min-w-0 flex-1">
                       <span className="block text-[12px] font-extrabold leading-snug text-brand-navy [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] overflow-hidden">

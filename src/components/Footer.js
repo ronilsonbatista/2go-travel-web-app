@@ -104,6 +104,7 @@ export default function Footer({ onOpenDownload }) {
           </span>
         </div>
         <p className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 md:justify-end">
+          <Link href="/creditos-imagens" className="inline-flex min-h-11 items-center hover:text-brand-orange transition-colors">Créditos de imagens</Link>
           <Link href="/termos-de-uso" className="inline-flex min-h-11 items-center hover:text-brand-orange transition-colors">Termos de Uso</Link>
           <span aria-hidden className="hidden sm:inline">|</span>
           <Link href="/politica-de-privacidade" className="inline-flex min-h-11 items-center hover:text-brand-orange transition-colors">Política de Privacidade</Link>

@@ -37,7 +37,7 @@ const VARIANTS = {
     title: 'Roma Clássica',
     days: ['Dia 1', 'Dia 2', 'Dia 3'],
     activeDay: 0,
-    heroImage: '/images/destinations/roma/roma-coliseu.jpg',
+    heroImage: '/images/destinations/roma/curated-phone.jpg',
     events: [
       {
         time: '08:30',
@@ -67,7 +67,7 @@ const VARIANTS = {
     title: 'Paris em 5 dias',
     days: ['Dia 1', 'Dia 2', 'Dia 3'],
     activeDay: 0,
-    heroImage: '/images/destinations/paris/paris-eiffel-seine.jpg',
+    heroImage: '/images/destinations/paris/curated-phone.jpg',
     events: [
       {
         time: '09:00',
@@ -97,7 +97,7 @@ const VARIANTS = {
     title: 'NYC em 6 dias',
     days: ['Dia 1', 'Dia 2', 'Dia 3'],
     activeDay: 0,
-    heroImage: '/images/destinations/nova-york/nova-york-empire-state.jpg',
+    heroImage: '/images/destinations/nova-york/curated-phone.jpg',
     events: [
       {
         time: '09:00',

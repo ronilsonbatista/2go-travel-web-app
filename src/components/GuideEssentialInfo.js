@@ -1,8 +1,17 @@
 'use client';
 
+import { guideImage } from '@/lib/curatedGuideImages';
 import React, { useId, useMemo, useState } from 'react';
 import { Coins, FileCheck2, Globe, Plane } from 'lucide-react';
-import { firstSentences, guideFolderKey, guideFrameList, pickDiverseFrame } from '@/lib/guideInterior';
+import { firstSentences } from '@/lib/guideInterior';
+
+/** Dedicated topic cards — never recycle must-see / day frames when these exist. */
+const ESSENTIAL_SUFFIX = {
+  moeda: 'moeda',
+  idioma: 'idioma',
+  locomocao: 'transporte',
+  docs: 'docs'
+};
 
 const CARD_DEFS = [
   {
@@ -10,21 +19,18 @@ const CARD_DEFS = [
     title: 'Moeda & pagamentos',
     Icon: Coins,
     fields: ['currencyInfo'],
-    imageHints: ['opera', 'marais', 'latin', '1']
   },
   {
     id: 'idioma',
     title: 'Idioma',
     Icon: Globe,
     fields: ['languageInfo'],
-    imageHints: ['montmartre', 'latin', 'saint', '2']
   },
   {
     id: 'locomocao',
     title: 'Como chegar e se locomover',
     Icon: Plane,
     fields: ['howToGet', 'transportDetails'],
-    imageHints: ['arc', 'bridge', 'seine', '3'],
     sectionId: 'locomocao'
   },
   {
@@ -32,7 +38,6 @@ const CARD_DEFS = [
     title: 'Documentação & seguro',
     Icon: FileCheck2,
     fields: ['documentation', 'insurance'],
-    imageHints: ['notre', 'orsay', 'opera', 'saint']
   }
 ];
 
@@ -43,33 +48,24 @@ function cardBody(guide, fields) {
     .join(' ');
 }
 
-export default function GuideEssentialInfo({ guide, frames: framesProp, usedSeed = [] }) {
+export default function GuideEssentialInfo({ guide }) {
   const baseId = useId();
   const [openId, setOpenId] = useState(null);
-  const frames = framesProp?.length ? framesProp : guideFrameList(guide);
 
   const cards = useMemo(() => {
     if (!guide) return [];
-    const folder = guideFolderKey(guide);
-    const pool = frames.length
-      ? frames
-      : [`/images/destinations/${folder}/${folder}-1.jpg`, guide?.heroImage].filter(Boolean);
-    const used = new Set(usedSeed);
-    return CARD_DEFS.map((def, idx) => {
+    return CARD_DEFS.map((def) => {
       const full = cardBody(guide, def.fields);
       if (!full) return null;
+      const image = guideImage(guide, `essential-${ESSENTIAL_SUFFIX[def.id]}`);
       return {
         ...def,
         full,
         summary: firstSentences(full, 2, 130),
-        image: pickDiverseFrame(pool, {
-          hints: def.imageHints,
-          used,
-          fallbackIndex: idx + 1
-        })
+        image
       };
     }).filter(Boolean);
-  }, [guide, frames, usedSeed]);
+  }, [guide]);
 
   if (!guide || !cards.length) return null;
 

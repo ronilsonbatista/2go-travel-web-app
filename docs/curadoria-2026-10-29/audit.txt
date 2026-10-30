@@ -1,0 +1,21 @@
+
+> 2go-travel-next@0.1.0 audit:guide-images
+> node scripts/audit-guide-images.mjs
+
+(node:56240) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/ronilsonbatista/Documents/ChatGPT/AppRoteiros/2go-travel-web-app.nosync/src/data/guidesData.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/ronilsonbatista/Documents/ChatGPT/AppRoteiros/2go-travel-web-app.nosync/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Paris: 6 attractions; 74 independent photo slots
+Nova York: 6 attractions; 67 independent photo slots
+Tóquio: 6 attractions; 62 independent photo slots
+Londres: 6 attractions; 60 independent photo slots
+Roma: 6 attractions; 65 independent photo slots
+Istambul: 6 attractions; 60 independent photo slots
+Dubai: 6 attractions; 57 independent photo slots
+
+Scope: hero, home, guide listing/highlight, about, phone, attractions, explore pins/list, regions, hotels, itinerary, neighborhoods/detail, essentials, costs, insights, day trips, map preview.
+449 curated slots + 14 supplemental editorial photos; 463 unique paths; 455 unique local SHA-256 hashes; 449 distinct curated source photos; 8 unique remote source URLs.
+SEO metadata and the same position across responsive/interaction states are not separate editorial positions.
+
+Audit OK: zero reused paths, binaries, or source photos; all pins exist and have provenance.
