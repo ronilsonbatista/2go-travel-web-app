@@ -1,0 +1,90 @@
+{
+  "boston/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Back Bay, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Back Bay, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Back Bay, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Hotel em Back Bay, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Enquadramento próximo do Charles River Esplanade já usado no destaque; rejeitado preventivamente por repetição visual."
+  },
+  "boston/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de North End, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/neighborhood-detail-2": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; permanece pendente para nova busca."
+  },
+  "boston/day-2": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; permanece pendente para nova busca."
+  },
+  "boston/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Cambridge, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/region-list-2": {
+    "decision": "rejected",
+    "notes": "Céu vazio domina a imagem, região de Harvard Square muito escura."
+  },
+  "boston/region-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Downtown, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Downtown, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Helicóptero domina a composição, assunto inadequado para hospedagem no Downtown."
+  },
+  "boston/region-3": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; permanece pendente para nova busca."
+  },
+  "boston/hotel-3": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; permanece pendente para nova busca."
+  },
+  "boston/guide-card": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Boston, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/essential-moeda": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Moeda & pagamentos, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Trem pequeno demais no panorama, pouca legibilidade como representação de transporte."
+  },
+  "boston/day-0": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; permanece pendente para nova busca."
+  },
+  "boston/attraction-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Freedom Trail, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  },
+  "boston/map-list-2": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; permanece pendente para nova busca."
+  },
+  "boston/map-list-4": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Quincy Market, assunto e localização confirmados; enquadramento utilizável e orientação correta, sem mapas ou inversões. Para hotel, foto ilustrativa da região, conforme badge já existente."
+  }
+}

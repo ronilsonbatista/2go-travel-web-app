@@ -78,6 +78,9 @@ for row,staged,new in prepared:
  manifest[row['key']]=new
 mf.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 remaining=sum('placeholder' in v.get('source','') for v in manifest.values())
-log={'applied':len(prepared),'placeholdersRemaining':remaining,'keys':[row['key'] for row,_,_ in prepared]}
-(review_path.parent/'applied.json').write_text(json.dumps(log,ensure_ascii=False,indent=2)+'\n')
+log_path=review_path.parent/'applied.json'
+previous=json.loads(log_path.read_text()) if log_path.exists() else {}
+applied_keys=sorted(set(previous.get('keys',[])) | {row['key'] for row,_,_ in prepared})
+log={'applied':len(applied_keys),'appliedThisRun':len(prepared),'placeholdersRemaining':remaining,'keys':applied_keys}
+log_path.write_text(json.dumps(log,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(log,ensure_ascii=False,indent=2))

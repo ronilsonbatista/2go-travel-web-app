@@ -1,0 +1,118 @@
+{
+  "city": "boston",
+  "region": "americas",
+  "center": [
+    42.3601,
+    -71.0589,
+    50
+  ],
+  "pools": {
+    "north-end": {
+      "query": "North End Boston",
+      "required": [
+        "north end"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "engraving|illustration|stereograph|stereoscopic|confederate|portrait|musician|erhu|19[0-5][0-9]|18[0-9][0-9]",
+      "slots": [
+        "day-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "harvard": {
+      "query": "Harvard Yard",
+      "required": [
+        "harvard yard"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "engraving|illustration|stereograph|stereoscopic|confederate|portrait|musician|erhu|19[0-5][0-9]|18[0-9][0-9]",
+      "slots": [
+        "map-list-2"
+      ]
+    },
+    "square": {
+      "query": "Harvard Square",
+      "required": [
+        "harvard square"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "engraving|illustration|stereograph|stereoscopic|confederate|portrait|musician|erhu|19[0-5][0-9]|18[0-9][0-9]",
+      "slots": [
+        "region-list-2"
+      ]
+    },
+    "waterfront": {
+      "query": "Boston Harborwalk",
+      "required": [
+        "harborwalk"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "engraving|illustration|stereograph|stereoscopic|confederate|portrait|musician|erhu|19[0-5][0-9]|18[0-9][0-9]|map|plan|blue hills bank pavilion",
+      "slots": [
+        "region-3",
+        "hotel-3"
+      ]
+    },
+    "downtown": {
+      "query": "Boston skyline",
+      "required": [
+        "boston"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "engraving|illustration|stereograph|stereoscopic|confederate|portrait|musician|erhu|19[0-5][0-9]|18[0-9][0-9]",
+      "slots": [
+        "hotel-list-0"
+      ]
+    },
+    "back-bay": {
+      "query": "Newbury Street Boston",
+      "required": [
+        "newbury street"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "engraving|illustration|stereograph|stereoscopic|confederate|portrait|musician|erhu|19[0-5][0-9]|18[0-9][0-9]",
+      "slots": [
+        "hotel-list-1"
+      ]
+    },
+    "transport": {
+      "query": "MBTA Red Line",
+      "required": [
+        "mbta|red line"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "engraving|illustration|stereograph|stereoscopic|confederate|portrait|musician|erhu|19[0-5][0-9]|18[0-9][0-9]|fare|ticket|map|diagram|Longfellow Bridge",
+      "slots": [
+        "essential-transporte"
+      ],
+      "requiredTitle": "train|car|mbta|red line"
+    },
+    "airport": {
+      "query": "Logan Airport",
+      "required": [
+        "logan"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "engraving|illustration|stereograph|stereoscopic|confederate|portrait|musician|erhu|19[0-5][0-9]|18[0-9][0-9]|sculpture|rhodes|futility|plaque|portrait|statue|artwork|airplane|aeroplane",
+      "slots": [
+        "day-0"
+      ]
+    }
+  }
+}
