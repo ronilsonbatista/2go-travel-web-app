@@ -1,0 +1,67 @@
+{
+  "city": "punta-cana",
+  "region": "americas",
+  "center": [
+    18.5601,
+    -68.3725,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Bavaro Dominican Republic",
+      "required": [
+        "bavaro"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Cap Cana",
+      "required": [
+        "cap cana"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Cabeza de Toro Dominican Republic",
+      "required": [
+        "cabeza de toro"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Uvero Alto",
+      "required": [
+        "uvero alto"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

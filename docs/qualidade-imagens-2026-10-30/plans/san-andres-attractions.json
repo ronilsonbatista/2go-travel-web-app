@@ -1,0 +1,101 @@
+{
+  "city": "san-andres",
+  "region": "americas",
+  "center": [
+    12.5847,
+    -81.7006,
+    30
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Johnny Cay",
+      "required": [
+        "johnny cay"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ]
+    },
+    "attraction-1": {
+      "query": "Hoyo Soplador",
+      "required": [
+        "hoyo soplador"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ]
+    },
+    "attraction-2": {
+      "query": "La Piscinita San Andres",
+      "required": [
+        "piscinita"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ]
+    },
+    "attraction-3": {
+      "query": "Spratt Bight",
+      "required": [
+        "spratt bight"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ]
+    },
+    "attraction-4": {
+      "query": "West View San Andres",
+      "required": [
+        "west view"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ]
+    },
+    "attraction-5": {
+      "query": "Morgan Cave San Andres",
+      "required": [
+        "morgan"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ]
+    }
+  }
+}

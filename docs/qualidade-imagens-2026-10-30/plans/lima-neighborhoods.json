@@ -1,0 +1,67 @@
+{
+  "city": "lima",
+  "region": "americas",
+  "center": [
+    -12.0464,
+    -77.0428,
+    50
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Miraflores Lima",
+      "required": [
+        "miraflores"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Barranco Lima",
+      "required": [
+        "barranco"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "San Isidro Lima",
+      "required": [
+        "san isidro"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Historic Centre Lima",
+      "required": [
+        "centro historico|historic centre|historic center|plaza mayor|plaza de armas"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

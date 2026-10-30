@@ -1,0 +1,67 @@
+{
+  "city": "fernando-de-noronha",
+  "region": "americas",
+  "center": [
+    -3.854,
+    -32.423,
+    20
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Vila dos Remedios Noronha",
+      "required": [
+        "remedios"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Floresta Nova Noronha",
+      "required": [
+        "floresta nova"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Boldro Noronha",
+      "required": [
+        "boldro"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Sueste Noronha",
+      "required": [
+        "sueste"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

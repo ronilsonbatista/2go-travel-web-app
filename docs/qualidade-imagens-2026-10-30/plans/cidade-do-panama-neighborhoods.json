@@ -1,0 +1,67 @@
+{
+  "city": "cidade-do-panama",
+  "region": "americas",
+  "center": [
+    8.9824,
+    -79.5199,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Casco Viejo Panama",
+      "required": [
+        "casco viejo|casco antiguo"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "El Cangrejo Panama",
+      "required": [
+        "cangrejo"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Costa del Este Panama",
+      "required": [
+        "costa del este"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Amador Panama",
+      "required": [
+        "amador"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "city": "boston",
+  "region": "americas",
+  "center": [
+    42.3601,
+    -71.0589,
+    50
+  ],
+  "pools": {
+    "back-bay": {
+      "query": "Back Bay Boston street",
+      "required": [
+        "back bay"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0",
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "beacon-hill": {
+      "query": "Beacon Hill Boston street",
+      "required": [
+        "beacon hill"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1",
+        "guide-card"
+      ]
+    },
+    "north-end": {
+      "query": "North End Boston street",
+      "required": [
+        "north end"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2",
+        "day-2"
+      ]
+    },
+    "cambridge": {
+      "query": "Cambridge Massachusetts Harvard Square",
+      "required": [
+        "cambridge|harvard square"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3",
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "downtown": {
+      "query": "Downtown Boston streets",
+      "required": [
+        "downtown|financial district"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "waterfront": {
+      "query": "Boston waterfront harborwalk",
+      "required": [
+        "waterfront|harborwalk"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    },
+    "cash": {
+      "query": "United States dollar banknotes",
+      "required": [
+        "united states|united states dollar|us dollar"
+      ],
+      "locationPatterns": [
+        "united states|us dollar"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "docs": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport"
+      ],
+      "locationPatterns": [
+        "united states"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "english": {
+      "query": "Boston street signs",
+      "required": [
+        "boston"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "mbta": {
+      "query": "Boston MBTA subway train",
+      "required": [
+        "mbta|massachusetts bay transportation"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "chowder": {
+      "query": "Boston clam chowder",
+      "required": [
+        "chowder"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "costs"
+      ]
+    },
+    "logan": {
+      "query": "Boston Logan airport terminal",
+      "required": [
+        "logan"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "trail": {
+      "query": "Freedom Trail Boston red line",
+      "required": [
+        "freedom trail"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "attraction-0",
+        "tips",
+        "day-1"
+      ]
+    },
+    "harvard": {
+      "query": "Harvard Yard summer",
+      "required": [
+        "harvard yard"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "map-list-2"
+      ]
+    },
+    "quincy": {
+      "query": "Quincy Market Boston exterior",
+      "required": [
+        "quincy market"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "map-list-4"
+      ]
+    },
+    "gardner": {
+      "query": "Isabella Stewart Gardner Museum courtyard",
+      "required": [
+        "gardner museum"
+      ],
+      "locationPatterns": [
+        "boston|massachusetts|cambridge"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "salem": {
+      "query": "Salem Massachusetts waterfront",
+      "required": [
+        "salem"
+      ],
+      "locationPatterns": [
+        "salem|massachusetts"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "day-4",
+        "trip-0"
+      ],
+      "center": [
+        42.52,
+        -70.9,
+        20
+      ]
+    },
+    "concord": {
+      "query": "Old North Bridge Concord Massachusetts",
+      "required": [
+        "north bridge"
+      ],
+      "locationPatterns": [
+        "concord|massachusetts"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        42.468,
+        -71.35,
+        20
+      ]
+    },
+    "cape-cod": {
+      "query": "Provincetown Cape Cod beach",
+      "required": [
+        "provincetown|cape cod"
+      ],
+      "locationPatterns": [
+        "massachusetts|cape cod|provincetown"
+      ],
+      "reject": "illustration|engraving|painting|protest|portrait|disaster|war poster|military exercise",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        42,
+        -70.5,
+        160
+      ]
+    }
+  }
+}

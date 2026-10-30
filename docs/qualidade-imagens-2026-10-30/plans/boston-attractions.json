@@ -1,0 +1,101 @@
+{
+  "city": "boston",
+  "region": "americas",
+  "center": [
+    42.3601,
+    -71.0589,
+    30
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Freedom Trail Boston",
+      "required": [
+        "freedom trail"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|charlestown"
+      ]
+    },
+    "attraction-1": {
+      "query": "Fenway Park Boston",
+      "required": [
+        "fenway"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|charlestown"
+      ]
+    },
+    "attraction-2": {
+      "query": "Harvard Yard",
+      "required": [
+        "harvard yard"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|charlestown"
+      ]
+    },
+    "attraction-3": {
+      "query": "Boston Common",
+      "required": [
+        "boston common"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|charlestown"
+      ]
+    },
+    "attraction-4": {
+      "query": "Quincy Market Boston",
+      "required": [
+        "quincy market"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|charlestown"
+      ]
+    },
+    "attraction-5": {
+      "query": "USS Constitution Boston",
+      "required": [
+        "uss constitution"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|charlestown"
+      ]
+    }
+  }
+}

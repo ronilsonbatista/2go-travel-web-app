@@ -1,0 +1,30 @@
+{
+  "montevideo/hero": {
+    "decision": "rejected",
+    "notes": "Poste central e composição lavada prejudicam o destaque principal."
+  },
+  "montevideo/intro": {
+    "decision": "rejected",
+    "notes": "Skyline com névoa e pouco contraste, inadequado para destaque."
+  },
+  "montevideo/home": {
+    "decision": "rejected",
+    "notes": "Vista distante e cinza com pouca legibilidade para o destaque da home."
+  },
+  "montevideo/guide-card": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Montevidéu, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "montevideo/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Montevidéu, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "montevideo/home-slide": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  },
+  "montevideo/home-thumb": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  }
+}

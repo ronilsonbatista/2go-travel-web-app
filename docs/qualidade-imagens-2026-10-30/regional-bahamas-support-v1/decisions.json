@@ -1,0 +1,62 @@
+{
+  "bahamas/day-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Chegada em Bahamas, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "bahamas/mistakes": {
+    "decision": "rejected",
+    "notes": "Interior de aeroporto pouco nitido e datado de 2009, qualidade visual insuficiente."
+  },
+  "bahamas/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Onibus escolar domina a foto, nao representa transporte de visitantes."
+  },
+  "bahamas/costs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "bahamas/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "bahamas/day-4": {
+    "decision": "rejected",
+    "notes": "Fotografia antiga com forte tonalidade ciano de edificio, pouco contexto de lazer atual."
+  },
+  "bahamas/day-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Ícones principais, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "bahamas/tips": {
+    "decision": "rejected",
+    "notes": "Enquadramento proximo da vista de Atlantis escolhida para o dia de icones, rejeitado por repeticao visual."
+  },
+  "bahamas/day-2": {
+    "decision": "rejected",
+    "notes": "Cidade ocupa faixa pequena entre grandes areas muito escuras, baixa legibilidade."
+  },
+  "bahamas/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Idioma, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "bahamas/essential-moeda": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "bahamas/essential-docs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "bahamas/trip-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "bahamas/trip-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Passeio regional de meio dia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "bahamas/trip-2": {
+    "decision": "rejected",
+    "notes": "Fortificacao pouco visivel e data/hora sobreposta, qualidade insuficiente para o passeio."
+  }
+}

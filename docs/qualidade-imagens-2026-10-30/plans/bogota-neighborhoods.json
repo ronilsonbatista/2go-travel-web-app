@@ -1,0 +1,67 @@
+{
+  "city": "bogota",
+  "region": "americas",
+  "center": [
+    4.711,
+    -74.0721,
+    50
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "La Candelaria Bogota",
+      "required": [
+        "candelaria"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Chapinero Bogota",
+      "required": [
+        "chapinero"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Zona T Bogota",
+      "required": [
+        "zona t|zona rosa"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Usaquen Bogota",
+      "required": [
+        "usaquen"
+      ],
+      "locationPatterns": [
+        "bogota"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

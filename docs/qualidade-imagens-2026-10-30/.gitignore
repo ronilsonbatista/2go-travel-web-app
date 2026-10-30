@@ -1,0 +1,4 @@
+# Raw Commons search responses are local caches, not applied-photo evidence.
+regional-*/pool-*.json
+candidate-reservations.json
+origin-metadata-cache.json

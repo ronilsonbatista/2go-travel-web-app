@@ -1,0 +1,67 @@
+{
+  "city": "los-angeles",
+  "region": "americas",
+  "center": [
+    34.0522,
+    -118.2437,
+    70
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Santa Monica California",
+      "required": [
+        "santa monica"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Hollywood Los Angeles",
+      "required": [
+        "hollywood"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Downtown Los Angeles",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "West Hollywood California",
+      "required": [
+        "west hollywood"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

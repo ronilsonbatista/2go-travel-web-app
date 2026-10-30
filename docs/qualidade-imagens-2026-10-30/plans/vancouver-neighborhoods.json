@@ -1,0 +1,67 @@
+{
+  "city": "vancouver",
+  "region": "americas",
+  "center": [
+    49.2827,
+    -123.1207,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Downtown Vancouver",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Kitsilano Vancouver",
+      "required": [
+        "kitsilano"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Yaletown Vancouver",
+      "required": [
+        "yaletown"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Gastown Vancouver",
+      "required": [
+        "gastown"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

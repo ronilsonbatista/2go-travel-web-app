@@ -1,0 +1,233 @@
+{
+  "city": "vancouver",
+  "region": "americas",
+  "center": [
+    49.2827,
+    -123.1207,
+    40
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Vancouver International Airport",
+      "required": [
+        "vancouver"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Vancouver SkyTrain",
+      "required": [
+        "skytrain"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Japadog Vancouver",
+      "required": [
+        "japadog"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Museum Anthropology Vancouver",
+      "required": [
+        "anthropology"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Stanley Park Vancouver",
+      "required": [
+        "stanley park"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Stanley Park Vancouver",
+      "required": [
+        "stanley park"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Downtown Vancouver",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Vancouver Canada sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "Canadian polymer banknotes",
+      "required": [
+        "polymer|frontier series|2011|2012|2013|2018"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Canadian passport cover",
+      "required": [
+        "canadian passport|passeport canadien"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Whistler British Columbia",
+      "required": [
+        "whistler"
+      ],
+      "locationPatterns": [
+        "canada|british columbia"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        50.1,
+        -122.95,
+        35
+      ]
+    },
+    "trip-1": {
+      "query": "Squamish British Columbia",
+      "required": [
+        "squamish"
+      ],
+      "locationPatterns": [
+        "canada|british columbia"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        49.7,
+        -123.15,
+        25
+      ]
+    },
+    "trip-2": {
+      "query": "Victoria British Columbia harbour",
+      "required": [
+        "victoria"
+      ],
+      "locationPatterns": [
+        "canada|british columbia"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        48.43,
+        -123.37,
+        25
+      ]
+    }
+  }
+}

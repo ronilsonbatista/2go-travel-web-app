@@ -1,0 +1,42 @@
+{
+  "boston/day-2": {
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático, não representa bairros e gastronomia atuais."
+  },
+  "boston/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático de 1967, inadequado como vista atual do bairro."
+  },
+  "boston/map-list-2": {
+    "decision": "rejected",
+    "notes": "Mesmo enquadramento de Harvard Yard já rejeitado por repetição visual do ensaio de fevereiro de 2022."
+  },
+  "boston/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Cambridge, assunto/localização compatíveis; orientação correta e composição utilizável. Para hotel, imagem ilustrativa da região com badge já existente; não representa estabelecimento específico."
+  },
+  "boston/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Waterfront, assunto/localização compatíveis; orientação correta e composição utilizável. Para hotel, imagem ilustrativa da região com badge já existente; não representa estabelecimento específico."
+  },
+  "boston/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Hotel em Waterfront, assunto/localização compatíveis; orientação correta e composição utilizável. Para hotel, imagem ilustrativa da região com badge já existente; não representa estabelecimento específico."
+  },
+  "boston/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Skyline muito distante e desfocado, inadequado para cartão de hospedagem."
+  },
+  "boston/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Hotel em Back Bay, assunto/localização compatíveis; orientação correta e composição utilizável. Para hotel, imagem ilustrativa da região com badge já existente; não representa estabelecimento específico."
+  },
+  "boston/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Transporte, assunto/localização compatíveis; orientação correta e composição utilizável. Para hotel, imagem ilustrativa da região com badge já existente; não representa estabelecimento específico."
+  },
+  "boston/day-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Chegada em Boston, assunto/localização compatíveis; orientação correta e composição utilizável. Para hotel, imagem ilustrativa da região com badge já existente; não representa estabelecimento específico."
+  }
+}

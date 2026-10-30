@@ -1,0 +1,824 @@
+[
+  {
+    "key": "vancouver/hero",
+    "slot": "hero",
+    "topic": "Vancouver",
+    "path": "/images/destinations/vancouver/curated-hero.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Vancouver Skyline 04.jpg",
+    "imageinfo": {
+      "size": 14964991,
+      "width": 6016,
+      "height": 4016,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Vancouver_Skyline_04.jpg/3840px-Vancouver_Skyline_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1602,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Vancouver_Skyline_04.jpg/3840px-Vancouver_Skyline_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1602
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Vancouver_Skyline_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_04.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49503393",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-06-16 15:51:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vancouver Skyline 04",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D750|Granville Island|Self-published work|Skylines of Vancouver|2016 Photographs by user:Xicotencatl|Files with coordinates missing SDC location of creation|March 2016 in Vancouver",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "49.268978",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-123.131433",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vancouver Skyline from Ron Basford Park, Granville Island.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-03-20 18:19:42",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Xicotencatl\" title=\"User:Xicotencatl\">Xicotencatl</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/vancouver/hero.jpg",
+    "dimensions": [
+      2400,
+      1602
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Vancouver_Skyline_04.jpg/3840px-Vancouver_Skyline_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "9815be50a0703dc7ac4585723be2b6c1f8845a07015dcb04714694818b6ab985"
+  },
+  {
+    "key": "vancouver/intro",
+    "slot": "intro",
+    "topic": "Vancouver",
+    "path": "/images/destinations/vancouver/curated-intro.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Vancouver Skyline 01.jpg",
+    "imageinfo": {
+      "size": 15596142,
+      "width": 5821,
+      "height": 3886,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Vancouver_Skyline_01.jpg/3840px-Vancouver_Skyline_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1602,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Vancouver_Skyline_01.jpg/3840px-Vancouver_Skyline_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1602
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Vancouver_Skyline_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49441087",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-06-14 05:50:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vancouver Skyline 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Granville Island|Self-published work|Skylines of Vancouver|2016 Photographs by user:Xicotencatl|Files with coordinates missing SDC location of creation|Canada photographs taken on 2016-03-20",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "49.268862",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-123.131563",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vancouver Skyline from Ron Basford Park, Granville Island.\nVancouver, Canada",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-03-20 18:16:34",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Xicotencatl\" title=\"User:Xicotencatl\">Xicotencatl</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/vancouver/intro.jpg",
+    "dimensions": [
+      2400,
+      1603
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Vancouver_Skyline_01.jpg/3840px-Vancouver_Skyline_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "53c73f3feb83b797bfaa835f7700034d9060c286bea2f53d05ee4163e2b42b23"
+  },
+  {
+    "key": "vancouver/home",
+    "slot": "home",
+    "topic": "Vancouver",
+    "path": "/images/destinations/vancouver/curated-home.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Skyline of Vancouver, BC.jpg",
+    "imageinfo": {
+      "size": 6140538,
+      "width": 6662,
+      "height": 4442,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Skyline_of_Vancouver%2C_BC.jpg/3840px-Skyline_of_Vancouver%2C_BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Skyline_of_Vancouver%2C_BC.jpg/3840px-Skyline_of_Vancouver%2C_BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Skyline_of_Vancouver%2C_BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Vancouver,_BC.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192455535",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-05-20 05:42:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Skyline of Vancouver, BC",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Vancouver|Self-published work|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license|Files with coordinates missing SDC location of creation|Photographs by Quintin Soloviev",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "49.273047",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-123.101289",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Skyline view of downtown Vancouver, British Columbia, Canada’s third-largest metropolitan area and a major Pacific port city shaped by Asian immigration, mountain geography, and dense urban development.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-05-18 08:49:11",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Quintin_Soloviev\" title=\"User:Quintin Soloviev\">Quintin Soloviev</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/vancouver/home.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Skyline_of_Vancouver%2C_BC.jpg/3840px-Skyline_of_Vancouver%2C_BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "0d5d95180f37ace7f3e13b890f7939a14267b2f2f45f38323da715b82917d86b"
+  },
+  {
+    "key": "vancouver/guide-card",
+    "slot": "guide-card",
+    "topic": "Vancouver",
+    "path": "/images/destinations/vancouver/curated-guide-card.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Vancouver Skyline and Mountains.jpg",
+    "imageinfo": {
+      "size": 2219926,
+      "width": 4416,
+      "height": 2480,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Skyline_and_Mountains.jpg/3840px-Vancouver_Skyline_and_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1348,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Skyline_and_Mountains.jpg/3840px-Vancouver_Skyline_and_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1348
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Vancouver_Skyline_and_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_and_Mountains.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=86400743",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-01-29 01:29:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vancouver Skyline and Mountains",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "North Shore Mountains|Views of Vancouver from Queen Elizabeth Park|Flickr images reviewed by trusted users|Skylines of Vancouver|Canada photographs taken on 2009-03-10|March 2009 in Vancouver",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "I drove up to Queen Elizabeth Park after work to catch this shot of the North Shore Mountains dusted in snow.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 10 March 2009, 17:18:24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/keepitsurreal/3348972199/\">https://www.flickr.com/photos/keepitsurreal/3348972199/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/keepitsurreal/\">Kyle Pearce</a>/ <a rel=\"nofollow\" class=\"external text\" href=\"https://www.diygenius.com/\">DIY Genius</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/vancouver/guide-card.jpg",
+    "dimensions": [
+      2400,
+      1348
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Vancouver_Skyline_and_Mountains.jpg/3840px-Vancouver_Skyline_and_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2f7bfc326cba11480c76efeb353d1ac6b5eec3a4fe16c65420d4cba831258499"
+  },
+  {
+    "key": "vancouver/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Vancouver",
+    "path": "/images/destinations/vancouver/curated-guide-highlight.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Vancouver Skyline Under the Morning Sunshine1.jpg",
+    "imageinfo": {
+      "size": 12847055,
+      "width": 5852,
+      "height": 2818,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Vancouver_Skyline_Under_the_Morning_Sunshine1.jpg/3840px-Vancouver_Skyline_Under_the_Morning_Sunshine1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1156,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Vancouver_Skyline_Under_the_Morning_Sunshine1.jpg/3840px-Vancouver_Skyline_Under_the_Morning_Sunshine1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1156
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Vancouver_Skyline_Under_the_Morning_Sunshine1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_Under_the_Morning_Sunshine1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=175754833",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-09-28 17:39:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vancouver Skyline Under the Morning Sunshine1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Extracted images|Panoramics in Vancouver|Skylines of Vancouver|Canada photographs taken on 2022-09-26|September 2022 in Vancouver|Panoramics of mountains in British Columbia|Files from David Zhang Flickr stream|Clouds at sunrise in British Columbia|Panoramic photographs of sunrises|Sunrises of Vancouver|Sunrises in 2022|Brown sunrises of British Columbia|Taken with Sony ILCE-7RM4 and Sony FE 24-70mm F2.8 GM",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vancouver Skyline Under the Morning Sunshine",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 26 September 2022, 07:28:54",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/unidisk/53209516270/\">https://www.flickr.com/photos/unidisk/53209516270/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "David Zhang",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/vancouver/guide-highlight.jpg",
+    "dimensions": [
+      2400,
+      1156
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Vancouver_Skyline_Under_the_Morning_Sunshine1.jpg/3840px-Vancouver_Skyline_Under_the_Morning_Sunshine1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "4764d203943b84c40e1b54eaad8c31c03f07f0fb70523e730b815403ef742d1b"
+  },
+  {
+    "key": "vancouver/home-slide",
+    "slot": "home-slide",
+    "topic": "Vancouver",
+    "path": "/images/destinations/vancouver/curated-home-slide.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Vancouver Skyline - Flickr - Jaykhuang.jpg",
+    "imageinfo": {
+      "size": 2288181,
+      "width": 1920,
+      "height": 1080,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Vancouver_Skyline_-_Flickr_-_Jaykhuang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Vancouver_Skyline_-_Flickr_-_Jaykhuang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Vancouver_Skyline_-_Flickr_-_Jaykhuang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_-_Flickr_-_Jaykhuang.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93035275",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-08-11 02:26:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vancouver Skyline - Flickr - Jaykhuang",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D810|Vancouver|Images with watermarks|Lions Gate Bridge|Sunsets of Vancouver|Flickr images reviewed by FlickreviewR 2|Photographs taken on 2017-11-22|Flickr files uploaded by Red panda bot|Photos in Flickr Explore|November 2017 in Vancouver",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Downtown Vancouver colorful skyline from Cypress Mountain under cloudy day.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 22 November 2017, 07:27",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jayhuangphotos/24823668908/\">Vancouver Skyline</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/50663863@N02\">Jay Huang</a> from Pleasanton, USA",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/vancouver/home-slide.jpg",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Vancouver_Skyline_-_Flickr_-_Jaykhuang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "dec93c80254132b542b9b275f1d915cf09d4dc6ba551f227cfa749920239b403"
+  },
+  {
+    "key": "vancouver/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Vancouver: miniatura da home",
+    "path": "/images/destinations/vancouver/curated-home-thumb.jpg",
+    "pool": "highlights",
+    "status": "pending-visual-review",
+    "title": "File:Vancouver Skyline, Granville Island and Burrard St Bridge 20240831 1.jpg",
+    "imageinfo": {
+      "size": 12968121,
+      "width": 7982,
+      "height": 4989,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vancouver_Skyline%2C_Granville_Island_and_Burrard_St_Bridge_20240831_1.jpg/3840px-Vancouver_Skyline%2C_Granville_Island_and_Burrard_St_Bridge_20240831_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1500,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vancouver_Skyline%2C_Granville_Island_and_Burrard_St_Bridge_20240831_1.jpg/3840px-Vancouver_Skyline%2C_Granville_Island_and_Burrard_St_Bridge_20240831_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1500
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Vancouver_Skyline%2C_Granville_Island_and_Burrard_St_Bridge_20240831_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline,_Granville_Island_and_Burrard_St_Bridge_20240831_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=181160342",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-01-03 15:22:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vancouver Skyline, Granville Island and Burrard St Bridge 20240831 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Burrard Bridge|Granville Island|Skylines of Vancouver|Uploads by User:DXR|Uploaded with LrMediaWiki|Files with coordinates missing SDC location of creation|Uploads by User:DXR in 2024|Uploads by User:DXR in British Columbia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "49.270716",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-123.136252",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A view of Vancouver Skyline, Granville Island and Burrard St Bridge, as seen from Granville St Bridge at sunset",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-08-31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:DXR\" title=\"User:DXR\">DXR</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/vancouver/home-thumb.jpg",
+    "dimensions": [
+      2400,
+      1500
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vancouver_Skyline%2C_Granville_Island_and_Burrard_St_Bridge_20240831_1.jpg/3840px-Vancouver_Skyline%2C_Granville_Island_and_Burrard_St_Bridge_20240831_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "99e9aa75e69cd7718bc3bc4d6f652e2708307a2982faf441c8884a5aa0c4e404"
+  }
+]

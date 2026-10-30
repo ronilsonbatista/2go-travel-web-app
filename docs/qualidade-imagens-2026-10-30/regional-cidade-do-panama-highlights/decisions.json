@@ -1,0 +1,30 @@
+{
+  "cidade-do-panama/hero": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Cidade do Panamá, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "cidade-do-panama/intro": {
+    "decision": "rejected",
+    "notes": "Campo de golfe domina a composição; skyline quase ilegível ao fundo."
+  },
+  "cidade-do-panama/home": {
+    "decision": "rejected",
+    "notes": "Saturação e coloração artificiais prejudicam a reprodução natural da cidade."
+  },
+  "cidade-do-panama/guide-card": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Cidade do Panamá, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "cidade-do-panama/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Cidade do Panamá, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "cidade-do-panama/home-slide": {
+    "decision": "rejected",
+    "notes": "Pouco contraste e horizonte escuro, inadequado para destaque."
+  },
+  "cidade-do-panama/home-thumb": {
+    "decision": "rejected",
+    "notes": "Primeiro plano escuro e desordenado compromete a miniatura."
+  }
+}

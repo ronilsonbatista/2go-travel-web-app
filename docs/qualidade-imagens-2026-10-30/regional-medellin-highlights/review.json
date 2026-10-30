@@ -1,0 +1,51 @@
+[
+  {
+    "key": "medellin/hero",
+    "slot": "hero",
+    "topic": "Medellín",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "medellin/intro",
+    "slot": "intro",
+    "topic": "Medellín",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "medellin/home",
+    "slot": "home",
+    "topic": "Medellín",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "medellin/guide-card",
+    "slot": "guide-card",
+    "topic": "Medellín",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "medellin/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Medellín",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "medellin/home-slide",
+    "slot": "home-slide",
+    "topic": "Medellín",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "medellin/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Medellín: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights"
+  }
+]

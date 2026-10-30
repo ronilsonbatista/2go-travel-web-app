@@ -1,0 +1,66 @@
+{
+  "fernando-de-noronha/region-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Sancho, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Sancho, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/hotel-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Sancho, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Pessoa descendo por rochas em acesso estreito, pouco contexto para hospedagem ilustrativa."
+  },
+  "fernando-de-noronha/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Conceição, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Conceição, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Conceição, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Conceição, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/region-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Sueste, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Sueste, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/hotel-2": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "fernando-de-noronha/hotel-list-2": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "fernando-de-noronha/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Vila, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "fernando-de-noronha/region-list-3": {
+    "decision": "rejected",
+    "notes": "Janela escura ocupa a maior parte da composição; vila distante pouco legível."
+  },
+  "fernando-de-noronha/hotel-3": {
+    "decision": "rejected",
+    "notes": "Arco de ruína domina a composição, contexto insuficiente da região de hospedagem."
+  },
+  "fernando-de-noronha/hotel-list-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  }
+}

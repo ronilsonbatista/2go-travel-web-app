@@ -1,0 +1,483 @@
+[
+  {
+    "key": "chicago/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "The Loop",
+    "status": "no-candidate",
+    "pool": "neighborhood-0"
+  },
+  {
+    "key": "chicago/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "The Loop",
+    "status": "no-candidate",
+    "pool": "neighborhood-0"
+  },
+  {
+    "key": "chicago/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "River North",
+    "status": "no-candidate",
+    "pool": "neighborhood-1"
+  },
+  {
+    "key": "chicago/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "River North",
+    "status": "no-candidate",
+    "pool": "neighborhood-1"
+  },
+  {
+    "key": "chicago/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "Lincoln Park",
+    "path": "/images/destinations/chicago/curated-neighborhood-2.jpg",
+    "pool": "neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Lincoln park chicago chipotle.jpg",
+    "imageinfo": {
+      "size": 1847695,
+      "width": 2272,
+      "height": 1704,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lincoln_park_chicago_chipotle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lincoln_park_chicago_chipotle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lincoln_park_chicago_chipotle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lincoln_park_chicago_chipotle.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=664360",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2006-03-28 01:03:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lincoln park chicago chipotle",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon PowerShot A80|Lincoln Park, Chicago|Lincoln Avenue (Chicago)|Self-published work|March 2006 in Chicago|Chipotle Mexican Grill restaurants in Illinois",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chipotle Mexican Grill in Chicago's Lincoln Park neighborhood.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2006-03-12",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Aude\" title=\"User:Aude\">Aude</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/neighborhood-2.jpg",
+    "dimensions": [
+      2272,
+      1704
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lincoln_park_chicago_chipotle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "5e1ad7d627c9849ef034e10ad690f1afaec8a88b5ff69b2ed8252e2872440987"
+  },
+  {
+    "key": "chicago/neighborhood-detail-2",
+    "slot": "neighborhood-detail-2",
+    "topic": "Lincoln Park",
+    "path": "/images/destinations/chicago/curated-neighborhood-detail-2.jpg",
+    "pool": "neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Lincoln park chicago qdoba2.jpg",
+    "imageinfo": {
+      "size": 1236403,
+      "width": 2272,
+      "height": 1704,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Lincoln_park_chicago_qdoba2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Lincoln_park_chicago_qdoba2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Lincoln_park_chicago_qdoba2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lincoln_park_chicago_qdoba2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=664612",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2006-03-28 01:25:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lincoln park chicago qdoba2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon PowerShot A80|Lincoln Park, Chicago|Qdoba Mexican Grill|Lincoln Avenue (Chicago)|Cold Stone Creamery|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Qdoba Mexican Grill in Chicago's Lincoln Park neighborhood.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2006-03-12",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Aude\" title=\"User:Aude\">Aude</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/neighborhood-detail-2.jpg",
+    "dimensions": [
+      2272,
+      1704
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Lincoln_park_chicago_qdoba2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "0aebbfc7688e6ebcc528c2018b09cd3ad0cdd3414895bd3d77a5602a88b1fed4"
+  },
+  {
+    "key": "chicago/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Wicker Park",
+    "path": "/images/destinations/chicago/curated-neighborhood-3.jpg",
+    "pool": "neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Chicago North Ave.jpg",
+    "imageinfo": {
+      "size": 4652683,
+      "width": 4368,
+      "height": 2912,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chicago_North_Ave.jpg/3840px-Chicago_North_Ave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chicago_North_Ave.jpg/3840px-Chicago_North_Ave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Chicago_North_Ave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chicago_North_Ave.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6417162",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-04-04 17:31:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chicago North Ave",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5D|Wicker Park, Chicago|North Avenue (Chicago)|Milwaukee Avenue (Chicago)|Damen Avenue|Self-published work|March 2008 in Chicago|Files with coordinates missing SDC location of creation|United States photographs taken on 2008-03-29|Intersections in Chicago|Files by User:Dschwen",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.910454",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.678328",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "North Avenue in Chicago, looking east from CTA Damen",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2008-03-29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dschwen\" title=\"User:Dschwen\">Daniel Schwen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/neighborhood-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Chicago_North_Ave.jpg/3840px-Chicago_North_Ave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "9c7c1b369218f9b055256162e6ad73893d4d8bc792a20a918fcf5551c5a273a1"
+  },
+  {
+    "key": "chicago/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Wicker Park",
+    "path": "/images/destinations/chicago/curated-neighborhood-detail-3.jpg",
+    "pool": "neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Wicker Park - Chicago - Illinois - USA.jpg",
+    "imageinfo": {
+      "size": 4261512,
+      "width": 3456,
+      "height": 2304,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Wicker_Park_-_Chicago_-_Illinois_-_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Wicker_Park_-_Chicago_-_Illinois_-_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Wicker_Park_-_Chicago_-_Illinois_-_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wicker_Park_-_Chicago_-_Illinois_-_USA.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22182046",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-10-19 04:06:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Wicker Park - Chicago - Illinois - USA",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-HX1|Wicker Park, Chicago|Self-published work|Photographs by Adam Jones",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Wicker Park - Chicago - Illinois - USA",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-04-13 12:15:23",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Adam63\" title=\"User:Adam63\">Adam Jones, Ph.D.</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/neighborhood-detail-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Wicker_Park_-_Chicago_-_Illinois_-_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "510397593bc27e3c65376120d2778305d6a88ce4e75382195eb28ddbffa341b1"
+  }
+]

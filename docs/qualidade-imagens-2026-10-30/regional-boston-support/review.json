@@ -1,0 +1,4550 @@
+[
+  {
+    "key": "boston/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Back Bay",
+    "path": "/images/destinations/boston/curated-neighborhood-0.jpg",
+    "pool": "back-bay",
+    "status": "pending-visual-review",
+    "title": "File:Back Bay Fens Boston November 2016 003.jpg",
+    "imageinfo": {
+      "size": 11244407,
+      "width": 5880,
+      "height": 3920,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Back_Bay_Fens_Boston_November_2016_003.jpg/3840px-Back_Bay_Fens_Boston_November_2016_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Back_Bay_Fens_Boston_November_2016_003.jpg/3840px-Back_Bay_Fens_Boston_November_2016_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Back_Bay_Fens_Boston_November_2016_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Back_Bay_Fens_Boston_November_2016_003.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94850468",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-10-08 00:21:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Back Bay Fens Boston November 2016 003",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D750|Images from Wiki Loves Monuments 2020 in the United States|Back Bay Fens|Self-published work|National Register of Historic Places with known IDs|Uploaded via Campaign:wlm-us|Autumn 2016 in Boston|Images from Wiki Loves Monuments 2020|Images from Wiki Loves Monuments 2020 in Massachusetts|Boylston Street bridge over the Muddy River",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.346639",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.092178",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View from <a href=\"https://en.wikipedia.org/wiki/Boylston_Street\" class=\"extiw\" title=\"w:Boylston Street\">Boylston Street</a> bridge, <a href=\"https://en.wikipedia.org/wiki/Back_Bay_Fens\" class=\"extiw\" title=\"w:Back Bay Fens\">Back Bay Fens</a>, <a href=\"//commons.wikimedia.org/wiki/Boston\" class=\"mw-disambig\" title=\"Boston\">Boston</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-11-11 15:08:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/neighborhood-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Back_Bay_Fens_Boston_November_2016_003.jpg/3840px-Back_Bay_Fens_Boston_November_2016_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "eb894b92747df6cf8d85160ad199bbd1dd37231b2d40e0a1c11166b56a760a51"
+  },
+  {
+    "key": "boston/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Back Bay",
+    "path": "/images/destinations/boston/curated-neighborhood-detail-0.jpg",
+    "pool": "back-bay",
+    "status": "pending-visual-review",
+    "title": "File:Back Bay Fens Boston November 2016 004.jpg",
+    "imageinfo": {
+      "size": 10055439,
+      "width": 3800,
+      "height": 5700,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Back_Bay_Fens_Boston_November_2016_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Back_Bay_Fens_Boston_November_2016_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Back_Bay_Fens_Boston_November_2016_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Back_Bay_Fens_Boston_November_2016_004.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94850472",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-10-08 00:21:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Back Bay Fens Boston November 2016 004",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D750|Images from Wiki Loves Monuments 2020 in the United States|Back Bay Fens|Self-published work|National Register of Historic Places with known IDs|Uploaded via Campaign:wlm-us|Autumn 2016 in Boston|Images from Wiki Loves Monuments 2020|Images from Wiki Loves Monuments 2020 in Massachusetts|Prudential Tower (Boston)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.341286",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.093933",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of <a href=\"https://en.wikipedia.org/wiki/Back_Bay\" class=\"extiw\" title=\"w:Back Bay\">Back Bay</a> skyline, <a href=\"https://en.wikipedia.org/wiki/Back_Bay_Fens\" class=\"extiw\" title=\"w:Back Bay Fens\">Back Bay Fens</a>, <a href=\"//commons.wikimedia.org/wiki/Boston\" class=\"mw-disambig\" title=\"Boston\">Boston</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-11-11 15:45:40",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/neighborhood-detail-0.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Back_Bay_Fens_Boston_November_2016_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "6f21c63e401d1ceb9e765b42d310cb3d03015933f2419404d9812cb5af20ce4f"
+  },
+  {
+    "key": "boston/region-1",
+    "slot": "region-1",
+    "topic": "Back Bay",
+    "path": "/images/destinations/boston/curated-region-1.jpg",
+    "pool": "back-bay",
+    "status": "pending-visual-review",
+    "title": "File:Back Bay Fens Boston November 2016 001.jpg",
+    "imageinfo": {
+      "size": 11798621,
+      "width": 6016,
+      "height": 4016,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Back_Bay_Fens_Boston_November_2016_001.jpg/3840px-Back_Bay_Fens_Boston_November_2016_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1602,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Back_Bay_Fens_Boston_November_2016_001.jpg/3840px-Back_Bay_Fens_Boston_November_2016_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1602
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Back_Bay_Fens_Boston_November_2016_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Back_Bay_Fens_Boston_November_2016_001.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94850470",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-10-08 00:21:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Back Bay Fens Boston November 2016 001",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D750|Images from Wiki Loves Monuments 2020 in the United States|Back Bay Fens|Self-published work|National Register of Historic Places with known IDs|Uploaded via Campaign:wlm-us|Autumn 2016 in Boston|Images from Wiki Loves Monuments 2020|Images from Wiki Loves Monuments 2020 in Massachusetts|Prudential Tower (Boston)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.341477",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.095766",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of <a href=\"https://en.wikipedia.org/wiki/Back_Bay\" class=\"extiw\" title=\"w:Back Bay\">Back Bay</a> skyline, <a href=\"https://en.wikipedia.org/wiki/Back_Bay_Fens\" class=\"extiw\" title=\"w:Back Bay Fens\">Back Bay Fens</a>, <a href=\"//commons.wikimedia.org/wiki/Boston\" class=\"mw-disambig\" title=\"Boston\">Boston</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-11-11 14:41:35",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/region-1.jpg",
+    "dimensions": [
+      2400,
+      1602
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Back_Bay_Fens_Boston_November_2016_001.jpg/3840px-Back_Bay_Fens_Boston_November_2016_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "17835e335a61534e606d96d1d607c3b8541a562d791ac7d250bb6e83f86e17e3"
+  },
+  {
+    "key": "boston/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Back Bay",
+    "path": "/images/destinations/boston/curated-region-list-1.jpg",
+    "pool": "back-bay",
+    "status": "pending-visual-review",
+    "title": "File:Boston (MA), Back Bay East (14511339963).jpg",
+    "imageinfo": {
+      "size": 401332,
+      "width": 1600,
+      "height": 1067,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Boston_%28MA%29%2C_Back_Bay_East_%2814511339963%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1601,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Boston_%28MA%29%2C_Back_Bay_East_%2814511339963%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1601
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Boston_%28MA%29%2C_Back_Bay_East_%2814511339963%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boston_(MA),_Back_Bay_East_(14511339963).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37117373",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-12-03 15:46:12",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Boston (MA), Back Bay East (14511339963)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Buildings in Boston|Taken with Sony DSC-RX100 III|2014 in Boston|Charles River|Back Bay, Boston|Newbury Street|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Photographs of the United States by Christopher Michel",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.350580",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.079700",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Boston (MA), Back Bay East with Charles River in Background",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-06-23 05:38",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/cmichel67/14511339963/\">IDG</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Christopher_Michel\" class=\"extiw\" title=\"w:en:Christopher Michel\"><span title=\"American entrepreneur, photographer, and investor\">Christopher Michel</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/region-list-1.jpg",
+    "dimensions": [
+      1600,
+      1067
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Boston_%28MA%29%2C_Back_Bay_East_%2814511339963%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "5dc1823e12c691dcbf1dd0def781e13a14effd1210588c794c8e1733925c7771"
+  },
+  {
+    "key": "boston/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Back Bay",
+    "path": "/images/destinations/boston/curated-hotel-1.jpg",
+    "pool": "back-bay",
+    "status": "pending-visual-review",
+    "title": "File:Back Bay Fens Boston November 2016 002.jpg",
+    "imageinfo": {
+      "size": 16552876,
+      "width": 6016,
+      "height": 4016,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Back_Bay_Fens_Boston_November_2016_002.jpg/3840px-Back_Bay_Fens_Boston_November_2016_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1602,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Back_Bay_Fens_Boston_November_2016_002.jpg/3840px-Back_Bay_Fens_Boston_November_2016_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1602
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Back_Bay_Fens_Boston_November_2016_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Back_Bay_Fens_Boston_November_2016_002.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94850471",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-10-08 00:21:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Back Bay Fens Boston November 2016 002",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D750|Images from Wiki Loves Monuments 2020 in the United States|Back Bay Fens|Self-published work|National Register of Historic Places with known IDs|Uploaded via Campaign:wlm-us|Autumn 2016 in Boston|Images from Wiki Loves Monuments 2020|Images from Wiki Loves Monuments 2020 in Massachusetts",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.345502",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.092388",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/Back_Bay_Fens\" class=\"extiw\" title=\"w:Back Bay Fens\">Back Bay Fens</a>, <a href=\"//commons.wikimedia.org/wiki/Boston\" class=\"mw-disambig\" title=\"Boston\">Boston</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-11-11 15:00:50",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1602
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Back_Bay_Fens_Boston_November_2016_002.jpg/3840px-Back_Bay_Fens_Boston_November_2016_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "00fa9f50b79b0667ca09adfba0f0dd8ecfeb2bb06ddeba70f61ba0f7b2d1a437"
+  },
+  {
+    "key": "boston/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Back Bay",
+    "path": "/images/destinations/boston/curated-hotel-list-1.jpg",
+    "pool": "back-bay",
+    "status": "pending-visual-review",
+    "title": "File:Back Bay (6001416195).jpg",
+    "imageinfo": {
+      "size": 3513737,
+      "width": 3190,
+      "height": 3895,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Back_Bay_%286001416195%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2930,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Back_Bay_%286001416195%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2930
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Back_Bay_%286001416195%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Back_Bay_(6001416195).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=32182719",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-04-15 00:21:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Back Bay (6001416195)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon PowerShot G10|Back Bay, Boston|Flickr images reviewed by FlickreviewR|July 2011 in Boston|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.351313",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.086950",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Back Bay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-07-31 18:07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/fran001/6001416195/\">Back Bay</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10345599@N03\">Francisco Anzola</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/hotel-list-1.jpg",
+    "dimensions": [
+      1966,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Back_Bay_%286001416195%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "8bb29be736c51cf2013e892900b626b3ed334395a4bd8eaee94cfae473ef49d8"
+  },
+  {
+    "key": "boston/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Beacon Hill",
+    "path": "/images/destinations/boston/curated-neighborhood-1.jpg",
+    "pool": "beacon-hill",
+    "status": "pending-visual-review",
+    "title": "File:114 Mount Vernon Street, Beacon Hill, Boston, 2007.jpg",
+    "imageinfo": {
+      "size": 4712482,
+      "width": 3008,
+      "height": 2000,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/114_Mount_Vernon_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1596,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/114_Mount_Vernon_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1596
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/114_Mount_Vernon_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:114_Mount_Vernon_Street,_Beacon_Hill,_Boston,_2007.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=170323418",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-07-19 06:06:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "114 Mount Vernon Street, Beacon Hill, Boston, 2007",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D70s|CC-Zero|Self-published work|Gray doors|Windows in Boston|July 2007 in Boston|Lamp posts in Boston|Mount Vernon Street (Boston)|Files with coordinates missing SDC location of creation|United States photographs taken on 2007-07-30|2007 photos by User:DimiTalen|Houses in Beacon Hill, Boston|Doors in Beacon Hill, Boston",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.357890",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.069934",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "114 Mount Vernon Street, Beacon Hill, Boston, 2007",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-07-30 10:31:02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:DimiTalen\" title=\"User:DimiTalen\">DimiTalen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/neighborhood-1.jpg",
+    "dimensions": [
+      2400,
+      1596
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/114_Mount_Vernon_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "17880045a7cd1a9a21eb8fa31aecd2a70c6dd913b4cc2056e6e2a4766c0279a2"
+  },
+  {
+    "key": "boston/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "Beacon Hill",
+    "path": "/images/destinations/boston/curated-neighborhood-detail-1.jpg",
+    "pool": "beacon-hill",
+    "status": "pending-visual-review",
+    "title": "File:59 Hancock Street, Beacon Hill, Boston, 2007.jpg",
+    "imageinfo": {
+      "size": 2587007,
+      "width": 2000,
+      "height": 2000,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/59_Hancock_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2400,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/59_Hancock_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2400
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/59_Hancock_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:59_Hancock_Street,_Beacon_Hill,_Boston,_2007.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=170323412",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-07-19 06:06:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "59 Hancock Street, Beacon Hill, Boston, 2007",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D70s|CC-Zero|Self-published work|July 2007 in Boston|Files with coordinates missing SDC location of creation|United States photographs taken on 2007-07-30|2007 photos by User:DimiTalen|Houses in Beacon Hill, Boston|Hancock Street (Boston)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.359443",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.064328",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "59 Hancock Street, Beacon Hill, Boston, 2007",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-07-30 11:09:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:DimiTalen\" title=\"User:DimiTalen\">DimiTalen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/neighborhood-detail-1.jpg",
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/59_Hancock_Street%2C_Beacon_Hill%2C_Boston%2C_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "72585bf4086861ed08e4b98f1aff25fb9ced4d4ea9c4feaed9597f903530958b"
+  },
+  {
+    "key": "boston/guide-card",
+    "slot": "guide-card",
+    "topic": "Boston",
+    "path": "/images/destinations/boston/curated-guide-card.jpg",
+    "pool": "beacon-hill",
+    "status": "pending-visual-review",
+    "title": "File:Electric improvisation - Beacon Hill - Boston, MA - DSC02362.jpg",
+    "imageinfo": {
+      "size": 14227411,
+      "width": 5472,
+      "height": 3648,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Electric_improvisation_-_Beacon_Hill_-_Boston%2C_MA_-_DSC02362.jpg/3840px-Electric_improvisation_-_Beacon_Hill_-_Boston%2C_MA_-_DSC02362.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Electric_improvisation_-_Beacon_Hill_-_Boston%2C_MA_-_DSC02362.jpg/3840px-Electric_improvisation_-_Beacon_Hill_-_Boston%2C_MA_-_DSC02362.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Electric_improvisation_-_Beacon_Hill_-_Boston%2C_MA_-_DSC02362.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Electric_improvisation_-_Beacon_Hill_-_Boston,_MA_-_DSC02362.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=85544739",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-01-02 19:41:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Electric improvisation - Beacon Hill - Boston, MA - DSC02362",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Streethole covers in Beacon Hill, Boston",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Streethole cover in Beacon Hill, Boston, Massachusetts, USA. Note that as a useful object, this item is not subject to copyright laws. Instead, it may once have been protected by a design patent. However, if it ever was so protected, that patent has long ago expired.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-12-07 14:26:08",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daderot\" title=\"User:Daderot\">Daderot</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/guide-card.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Electric_improvisation_-_Beacon_Hill_-_Boston%2C_MA_-_DSC02362.jpg/3840px-Electric_improvisation_-_Beacon_Hill_-_Boston%2C_MA_-_DSC02362.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "8e80e603008966faef5f0ea8382130adefc14561b4e77c84290ee8da44846390"
+  },
+  {
+    "key": "boston/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "North End",
+    "status": "no-candidate",
+    "pool": "north-end"
+  },
+  {
+    "key": "boston/neighborhood-detail-2",
+    "slot": "neighborhood-detail-2",
+    "topic": "North End",
+    "status": "no-candidate",
+    "pool": "north-end"
+  },
+  {
+    "key": "boston/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "status": "no-candidate",
+    "pool": "north-end"
+  },
+  {
+    "key": "boston/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Cambridge",
+    "path": "/images/destinations/boston/curated-neighborhood-3.jpg",
+    "pool": "cambridge",
+    "status": "pending-visual-review",
+    "title": "File:Old Burying Ground - Cambridge, Massachusetts - DSC09211.jpg",
+    "imageinfo": {
+      "size": 13585754,
+      "width": 5472,
+      "height": 3648,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Old_Burying_Ground_-_Cambridge%2C_Massachusetts_-_DSC09211.jpg/3840px-Old_Burying_Ground_-_Cambridge%2C_Massachusetts_-_DSC09211.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Old_Burying_Ground_-_Cambridge%2C_Massachusetts_-_DSC09211.jpg/3840px-Old_Burying_Ground_-_Cambridge%2C_Massachusetts_-_DSC09211.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Old_Burying_Ground_-_Cambridge%2C_Massachusetts_-_DSC09211.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Old_Burying_Ground_-_Cambridge,_Massachusetts_-_DSC09211.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=78649695",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-05-03 10:28:57",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Old Burying Ground - Cambridge, Massachusetts - DSC09211",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Old Burying Ground (Cambridge, Massachusetts)|Self-published work|2018 in Cambridge, Massachusetts|December 2018 in Massachusetts|United States photographs taken on 2018-12-29|Files uploaded by Daderot",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Old Burying Ground - Cambridge, Massachusetts, USA.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-12-29 10:56:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daderot\" title=\"User:Daderot\">Daderot</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/neighborhood-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Old_Burying_Ground_-_Cambridge%2C_Massachusetts_-_DSC09211.jpg/3840px-Old_Burying_Ground_-_Cambridge%2C_Massachusetts_-_DSC09211.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2e29c48a2342b468d6ee274a9979484592ade22fa3f917001b950140f3856b0a"
+  },
+  {
+    "key": "boston/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Cambridge",
+    "path": "/images/destinations/boston/curated-neighborhood-detail-3.jpg",
+    "pool": "cambridge",
+    "status": "pending-visual-review",
+    "title": "File:The Painted Burro in Harvard Square at night in Cambridge, MA, USA April 2025.jpg",
+    "imageinfo": {
+      "size": 8988937,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/The_Painted_Burro_in_Harvard_Square_at_night_in_Cambridge%2C_MA%2C_USA_April_2025.jpg/3840px-The_Painted_Burro_in_Harvard_Square_at_night_in_Cambridge%2C_MA%2C_USA_April_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/The_Painted_Burro_in_Harvard_Square_at_night_in_Cambridge%2C_MA%2C_USA_April_2025.jpg/3840px-The_Painted_Burro_in_Harvard_Square_at_night_in_Cambridge%2C_MA%2C_USA_April_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/The_Painted_Burro_in_Harvard_Square_at_night_in_Cambridge%2C_MA%2C_USA_April_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Painted_Burro_in_Harvard_Square_at_night_in_Cambridge,_MA,_USA_April_2025.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163350153",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-04-09 04:25:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "The Painted Burro in Harvard Square at night in Cambridge, MA, USA April 2025",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Harvard Square|Restaurants in Cambridge, Massachusetts|Self-published work|Night in Massachusetts|Continental crosswalks in Massachusetts|Mexican style restaurants in Massachusetts|Files with coordinates missing SDC location of creation|Taken with Nikon Z 8|April 2025 in Massachusetts|Photographs by User:4300streetcar",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.374420",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.120170",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The Painted Burro in Harvard Square at night",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-04-08 20:23:07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:4300streetcar\" title=\"User:4300streetcar\">4300streetcar</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/neighborhood-detail-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/The_Painted_Burro_in_Harvard_Square_at_night_in_Cambridge%2C_MA%2C_USA_April_2025.jpg/3840px-The_Painted_Burro_in_Harvard_Square_at_night_in_Cambridge%2C_MA%2C_USA_April_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "442329c42d8f1a2dedaa831b6dca967c78ce5ac275d005b23557d42bfb08a704"
+  },
+  {
+    "key": "boston/region-2",
+    "slot": "region-2",
+    "topic": "Cambridge",
+    "path": "/images/destinations/boston/curated-region-2.jpg",
+    "pool": "cambridge",
+    "status": "pending-visual-review",
+    "title": "File:Harvard square 2009j.JPG",
+    "imageinfo": {
+      "size": 3421203,
+      "width": 3872,
+      "height": 2148,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Harvard_square_2009j.JPG/3840px-Harvard_square_2009j.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1331,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Harvard_square_2009j.JPG/3840px-Harvard_square_2009j.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1331
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Harvard_square_2009j.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harvard_square_2009j.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7653460",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-08-25 18:05:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Harvard square 2009j",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Harvard Square|License migration redundant|Brattle Street (Cambridge, Massachusetts)|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|John F. Kennedy Street (Cambridge, Massachusetts)|Self-published work|National Register of Historic Places with known IDs|2009 in Cambridge, Massachusetts|Cityscapes of Cambridge, Massachusetts|Torch-style street lights in Massachusetts|1 John F. Kennedy Street (Cambridge, Massachusetts)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.373611",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.119722",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Harvard Square Cambridge Massachusetts 2009",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "chensiyuan",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/region-2.jpg",
+    "dimensions": [
+      2400,
+      1331
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Harvard_square_2009j.JPG/3840px-Harvard_square_2009j.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "843c9ddc2afe81acc6503ac4cef06221bab70b0d3c442702c759d3d0d299fdd3"
+  },
+  {
+    "key": "boston/region-list-2",
+    "slot": "region-list-2",
+    "topic": "Cambridge",
+    "path": "/images/destinations/boston/curated-region-list-2.jpg",
+    "pool": "cambridge",
+    "status": "pending-visual-review",
+    "title": "File:Erhu player at Harvard Square, Cambridge, Massachusetts by Dan4th.jpg",
+    "imageinfo": {
+      "size": 451819,
+      "width": 1460,
+      "height": 1712,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Erhu_player_at_Harvard_Square%2C_Cambridge%2C_Massachusetts_by_Dan4th.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2814,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Erhu_player_at_Harvard_Square%2C_Cambridge%2C_Massachusetts_by_Dan4th.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2814
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Erhu_player_at_Harvard_Square%2C_Cambridge%2C_Massachusetts_by_Dan4th.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Erhu_player_at_Harvard_Square,_Cambridge,_Massachusetts_by_Dan4th.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1662499",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-02-11 12:31:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Erhu player at Harvard Square, Cambridge, Massachusetts by Dan4th",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Konica Revio KD-500Z|String instrumentalists|Harvard Square|Erhu players|Flickr images reviewed by FlickreviewR|Information field template with formatting|Street musicians in Massachusetts|2006 in Cambridge, Massachusetts",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Jinghu<br>060505busker3",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2006-05-05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dan4th/141105872/\">Flickr</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dan4th/\">Dan4th</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/region-list-2.jpg",
+    "dimensions": [
+      1460,
+      1712
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Erhu_player_at_Harvard_Square%2C_Cambridge%2C_Massachusetts_by_Dan4th.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "307ef8a2dcd9c6af7ca7ae3b48808923f34fd74419191bf5e03ff0260e5f5726"
+  },
+  {
+    "key": "boston/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Cambridge",
+    "path": "/images/destinations/boston/curated-hotel-2.jpg",
+    "pool": "cambridge",
+    "status": "pending-visual-review",
+    "title": "File:Harvard Square, February 2022.jpg",
+    "imageinfo": {
+      "size": 4545102,
+      "width": 4608,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Harvard_Square%2C_February_2022.jpg/3840px-Harvard_Square%2C_February_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Harvard_Square%2C_February_2022.jpg/3840px-Harvard_Square%2C_February_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Harvard_Square%2C_February_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harvard_Square,_February_2022.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=115417252",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-02-20 22:56:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Harvard Square, February 2022",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Harvard Square|Self-published work|Uploaded with Mobile/Android|Streets in the United States at night|Photographs taken on 2022-02-19|Images taken by Sdkb|Massachusetts Avenue (Cambridge, Massachusetts)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Harvard Square in Cambridge, Massachusetts, U.S., in February 2022",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "19 February 2022 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sdkb\" title=\"User:Sdkb\">Sdkb</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/hotel-2.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Harvard_Square%2C_February_2022.jpg/3840px-Harvard_Square%2C_February_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "962a642b0232193f0fe20309f244fbf7467c7c35fd8aadb8ef4815718139eb41"
+  },
+  {
+    "key": "boston/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Cambridge",
+    "path": "/images/destinations/boston/curated-hotel-list-2.jpg",
+    "pool": "cambridge",
+    "status": "pending-visual-review",
+    "title": "File:Harvard Square, Cambridge, Massachusetts.jpg",
+    "imageinfo": {
+      "size": 1587694,
+      "width": 2448,
+      "height": 2448,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Harvard_Square%2C_Cambridge%2C_Massachusetts.jpg/1920px-Harvard_Square%2C_Cambridge%2C_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 2400,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Harvard_Square%2C_Cambridge%2C_Massachusetts.jpg/1920px-Harvard_Square%2C_Cambridge%2C_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2400
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Harvard_Square%2C_Cambridge%2C_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harvard_Square,_Cambridge,_Massachusetts.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51180893",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-09-06 16:13:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Harvard Square, Cambridge, Massachusetts",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Harvard Square|Self-published work|Software as equipment in Exif|1 John F. Kennedy Street (Cambridge, Massachusetts)|Ambiguous location in EXIF",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Looking from the Harvard Square towards John F Kennedy Street and Brattle Street",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-09-04 18:25:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Swativ28&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Swativ28 (page does not exist)\">Swativ28</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/hotel-list-2.jpg",
+    "dimensions": [
+      1920,
+      1920
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Harvard_Square%2C_Cambridge%2C_Massachusetts.jpg/1920px-Harvard_Square%2C_Cambridge%2C_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2ab339d9c2bea3868481cd7a85bac6b7b3634f312fac0a834d4b98539ee98e94"
+  },
+  {
+    "key": "boston/region-0",
+    "slot": "region-0",
+    "topic": "Downtown",
+    "path": "/images/destinations/boston/curated-region-0.jpg",
+    "pool": "downtown",
+    "status": "pending-visual-review",
+    "title": "File:Downtown Covington Louisiana June 2013 - Boston Street.jpg",
+    "imageinfo": {
+      "size": 9066245,
+      "width": 5616,
+      "height": 3744,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Downtown_Covington_Louisiana_June_2013_-_Boston_Street.jpg/3840px-Downtown_Covington_Louisiana_June_2013_-_Boston_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Downtown_Covington_Louisiana_June_2013_-_Boston_Street.jpg/3840px-Downtown_Covington_Louisiana_June_2013_-_Boston_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Downtown_Covington_Louisiana_June_2013_-_Boston_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Downtown_Covington_Louisiana_June_2013_-_Boston_Street.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=175918943",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-10-01 19:30:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Downtown Covington Louisiana June 2013 - Boston Street",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "June 2013 in Louisiana|2013 in Saint Tammany Parish, Louisiana|Flickr images reviewed by FlickreviewR 2|Downtown Covington, Louisiana|Boston Street, Covington, Louisiana",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Downtown Covington Louisiana June 2013",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-06-25 20:36:53",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/sttammany/16793837321/\">https://www.flickr.com/photos/sttammany/16793837321/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Saint Tammany",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/region-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Downtown_Covington_Louisiana_June_2013_-_Boston_Street.jpg/3840px-Downtown_Covington_Louisiana_June_2013_-_Boston_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "dd917bec3b96e435628510da1cfce23c19c48b13d498ac56d7101e959cfa4ac1"
+  },
+  {
+    "key": "boston/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Downtown",
+    "path": "/images/destinations/boston/curated-region-list-0.jpg",
+    "pool": "downtown",
+    "status": "pending-visual-review",
+    "title": "File:Street scene centered on Cafeteria Albiani in downtown Boston, 1960s.jpg",
+    "imageinfo": {
+      "size": 2528224,
+      "width": 6031,
+      "height": 4877,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Street_scene_centered_on_Cafeteria_Albiani_in_downtown_Boston%2C_1960s.jpg/3840px-Street_scene_centered_on_Cafeteria_Albiani_in_downtown_Boston%2C_1960s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1941,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Street_scene_centered_on_Cafeteria_Albiani_in_downtown_Boston%2C_1960s.jpg/3840px-Street_scene_centered_on_Cafeteria_Albiani_in_downtown_Boston%2C_1960s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1941
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Street_scene_centered_on_Cafeteria_Albiani_in_downtown_Boston%2C_1960s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Street_scene_centered_on_Cafeteria_Albiani_in_downtown_Boston,_1960s.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66051447",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-02-02 06:48:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Street scene centered on Cafeteria Albiani in downtown Boston, 1960s",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Washington Street (Boston)|Boylston Street|Images with extracted images|Files from City of Boston Archives Flickr stream|Flickr images reviewed by FlickreviewR 2|Black and white photographs of Boston in the 1960s|Restaurants in Boston in the 20th century",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Street scene centered on Cafeteria Albiani in downtown Boston in the 1960s. This view looks down Boylston Street to Washington Street.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "circa 1960-1968",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/cityofbostonarchives/12777667844/\">Street scene centered on Cafeteria Albiani in downtown Boston</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/48039697@N05\">City of Boston Archives</a> from West Roxbury, United States",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/region-list-0.jpg",
+    "dimensions": [
+      2400,
+      1941
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Street_scene_centered_on_Cafeteria_Albiani_in_downtown_Boston%2C_1960s.jpg/3840px-Street_scene_centered_on_Cafeteria_Albiani_in_downtown_Boston%2C_1960s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d4beb2478f6b8e4b02b8fc31c5a52670da03eac9147b34ab352189800e6d9ca5"
+  },
+  {
+    "key": "boston/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Downtown",
+    "path": "/images/destinations/boston/curated-hotel-0.jpg",
+    "pool": "downtown",
+    "status": "pending-visual-review",
+    "title": "File:Boston Financial District skyline.jpg",
+    "imageinfo": {
+      "size": 1493603,
+      "width": 2196,
+      "height": 1680,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Boston_Financial_District_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1836,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Boston_Financial_District_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1836
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Boston_Financial_District_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boston_Financial_District_skyline.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1536222",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2010-03-30 18:51:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Boston Financial District skyline",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-LC43|PD-user|Federal Reserve Bank Building (Boston)|One Post Office Square (Boston, Massachusetts)|125 High Street|One Financial Center|Boston Harbor Hotel|Harbor Towers (Boston, Massachusetts)|International Place (Boston, Massachusetts)|Keystone Building (Boston, Massachusetts)|Exchange Place (Boston)|Custom House Tower, Boston|75 State Street (Boston, Massachusetts)|One Federal Street|Clouds in Massachusetts|225 Franklin Street|Boston Harbor skylines|260 Franklin Street|265 Franklin Street|Independence Wharf (Boston)|InterContinental Boston",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Skyline of Boston.  Picture was taken from a whale watching ferry that left from the aquarium dock.  It is the Eastern side of the Boston peninsula.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2006-06-27",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/User:Nelson48\" class=\"extiw\" title=\"wikipedia:User:Nelson48\">Nelson48</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/hotel-0.jpg",
+    "dimensions": [
+      2196,
+      1680
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Boston_Financial_District_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "9abc955c2cce57ad78daed51ee1a557ff59eeb167a2d1d7be84ca897d28da745"
+  },
+  {
+    "key": "boston/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Downtown",
+    "path": "/images/destinations/boston/curated-hotel-list-0.jpg",
+    "pool": "downtown",
+    "status": "pending-visual-review",
+    "title": "File:Street scene showing the New Yorker Lounge in downtown Boston, 1960s.jpg",
+    "imageinfo": {
+      "size": 2524933,
+      "width": 6046,
+      "height": 4908,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Street_scene_showing_the_New_Yorker_Lounge_in_downtown_Boston%2C_1960s.jpg/3840px-Street_scene_showing_the_New_Yorker_Lounge_in_downtown_Boston%2C_1960s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1948,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Street_scene_showing_the_New_Yorker_Lounge_in_downtown_Boston%2C_1960s.jpg/3840px-Street_scene_showing_the_New_Yorker_Lounge_in_downtown_Boston%2C_1960s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1948
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Street_scene_showing_the_New_Yorker_Lounge_in_downtown_Boston%2C_1960s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Street_scene_showing_the_New_Yorker_Lounge_in_downtown_Boston,_1960s.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66051442",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-02-02 06:48:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Street scene showing the New Yorker Lounge in downtown Boston, 1960s",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Washington Street (Boston)|Bars in Boston|Images with extracted images|Files from City of Boston Archives Flickr stream|Flickr images reviewed by FlickreviewR 2|Black and white photographs of Boston in the 1960s",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Street scene showing the New Yorker Lounge in downtown Boston in the 1960s. This view looks southwest on Washington Street to Boylston Street.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "circa 1960-1968",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/cityofbostonarchives/12777374523/\">Street scene showing the New Yorker Lounge in downtown Boston</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/48039697@N05\">City of Boston Archives</a> from West Roxbury, United States",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/hotel-list-0.jpg",
+    "dimensions": [
+      2400,
+      1948
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Street_scene_showing_the_New_Yorker_Lounge_in_downtown_Boston%2C_1960s.jpg/3840px-Street_scene_showing_the_New_Yorker_Lounge_in_downtown_Boston%2C_1960s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "979a401e9c12e3ae372c91dcee093062a7b25d02180e202468702cb2095448a4"
+  },
+  {
+    "key": "boston/region-3",
+    "slot": "region-3",
+    "topic": "Waterfront",
+    "path": "/images/destinations/boston/curated-region-3.jpg",
+    "pool": "waterfront",
+    "status": "pending-visual-review",
+    "title": "File:Boston Harborwalk Seaport District South Boston Waterfront.jpg",
+    "imageinfo": {
+      "size": 694353,
+      "width": 2048,
+      "height": 1536,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Boston_Harborwalk_Seaport_District_South_Boston_Waterfront.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Boston_Harborwalk_Seaport_District_South_Boston_Waterfront.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Boston_Harborwalk_Seaport_District_South_Boston_Waterfront.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boston_Harborwalk_Seaport_District_South_Boston_Waterfront.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147937959",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-05-01 15:45:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Boston Harborwalk Seaport District South Boston Waterfront",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Building exteriors in Boston|Art on buildings|Boston Harborwalk in the Seaport District",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Boston Harborwalk Seaport District South Boston Waterfront",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-10-20 15:42:33",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:EgorovaSvetlana\" title=\"User:EgorovaSvetlana\">EgorovaSvetlana</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/region-3.jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Boston_Harborwalk_Seaport_District_South_Boston_Waterfront.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "32f4541a4c4618e71b36ca10a1ba992082e5b418ab8e6cdec52adb118d15ac4e"
+  },
+  {
+    "key": "boston/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Waterfront",
+    "path": "/images/destinations/boston/curated-region-list-3.jpg",
+    "pool": "waterfront",
+    "status": "pending-visual-review",
+    "title": "File:Boston Harborwalk on Union Wharf, P1000059.JPG",
+    "imageinfo": {
+      "size": 11163648,
+      "width": 5472,
+      "height": 3648,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Boston_Harborwalk_on_Union_Wharf%2C_P1000059.JPG/3840px-Boston_Harborwalk_on_Union_Wharf%2C_P1000059.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Boston_Harborwalk_on_Union_Wharf%2C_P1000059.JPG/3840px-Boston_Harborwalk_on_Union_Wharf%2C_P1000059.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Boston_Harborwalk_on_Union_Wharf%2C_P1000059.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boston_Harborwalk_on_Union_Wharf,_P1000059.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48684782",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-10 12:37:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Boston Harborwalk on Union Wharf, P1000059",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-TZ100 / TZ110 / ZS100 / ZS110|Boston Harborwalk|Self-published work|Boston Harbor in the 21st century|March 2016 in Boston",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Union Wharf on the waterfront in the North End of Boston",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-03-31 13:17:50",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:NewtonCourt\" title=\"User:NewtonCourt\">NewtonCourt</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Boston_Harborwalk_on_Union_Wharf%2C_P1000059.JPG/3840px-Boston_Harborwalk_on_Union_Wharf%2C_P1000059.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fcb65bd3b52719fc1f69981d6d389f920c77a7f732984175fab1fd3328d64801"
+  },
+  {
+    "key": "boston/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Waterfront",
+    "path": "/images/destinations/boston/curated-hotel-3.jpg",
+    "pool": "waterfront",
+    "status": "pending-visual-review",
+    "title": "File:Harborwalk Boston at Blue Hills Bank Pavilion.JPG",
+    "imageinfo": {
+      "size": 6928384,
+      "width": 5472,
+      "height": 3648,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Harborwalk_Boston_at_Blue_Hills_Bank_Pavilion.JPG/3840px-Harborwalk_Boston_at_Blue_Hills_Bank_Pavilion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Harborwalk_Boston_at_Blue_Hills_Bank_Pavilion.JPG/3840px-Harborwalk_Boston_at_Blue_Hills_Bank_Pavilion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Harborwalk_Boston_at_Blue_Hills_Bank_Pavilion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harborwalk_Boston_at_Blue_Hills_Bank_Pavilion.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48641015",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-08 14:01:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Harborwalk Boston at Blue Hills Bank Pavilion",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-TZ100 / TZ110 / ZS100 / ZS110|2016 in Boston|Rockland Trust Bank Pavilion|Self-published work|Boston Harborwalk in the Seaport District",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Harborwalk Boston at Blue Hills Bank Pavilion on South Boston Waterfront <a rel=\"nofollow\" class=\"external free\" href=\"http://www.livenation.com/venues/14347/blue-hills-bank-pavilion\">http://www.livenation.com/venues/14347/blue-hills-bank-pavilion</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-06 12:57:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:NewtonCourt\" title=\"User:NewtonCourt\">NewtonCourt</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/hotel-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Harborwalk_Boston_at_Blue_Hills_Bank_Pavilion.JPG/3840px-Harborwalk_Boston_at_Blue_Hills_Bank_Pavilion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "cd0723361fc54dbb598ed95bcdc1730292eb09de76bd2070e27f4275c73a5fa7"
+  },
+  {
+    "key": "boston/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Waterfront",
+    "path": "/images/destinations/boston/curated-hotel-list-3.jpg",
+    "pool": "waterfront",
+    "status": "pending-visual-review",
+    "title": "File:Moakley Courthouse and Boston Harborwalk 02.JPG",
+    "imageinfo": {
+      "size": 10117120,
+      "width": 5472,
+      "height": 3648,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Moakley_Courthouse_and_Boston_Harborwalk_02.JPG/3840px-Moakley_Courthouse_and_Boston_Harborwalk_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Moakley_Courthouse_and_Boston_Harborwalk_02.JPG/3840px-Moakley_Courthouse_and_Boston_Harborwalk_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Moakley_Courthouse_and_Boston_Harborwalk_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Moakley_Courthouse_and_Boston_Harborwalk_02.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48640676",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-08 13:36:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Moakley Courthouse and Boston Harborwalk 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-TZ100 / TZ110 / ZS100 / ZS110|2016 in Boston|Moakley Courthouse (Boston)|Self-published work|Boston Harborwalk in the Seaport District",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Moakley Courthouse and Boston Harborwalk on the South Boston waterfront",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-06 12:25:10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:NewtonCourt\" title=\"User:NewtonCourt\">NewtonCourt</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Moakley_Courthouse_and_Boston_Harborwalk_02.JPG/3840px-Moakley_Courthouse_and_Boston_Harborwalk_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "aef55195704bd735835441f975eece99fce7fa0e57a1576fc6fec6aa5ed27682"
+  },
+  {
+    "key": "boston/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "path": "/images/destinations/boston/curated-essential-moeda.jpg",
+    "pool": "cash",
+    "status": "pending-visual-review",
+    "title": "File:Confederate 100 Dollars.jpg",
+    "imageinfo": {
+      "size": 5123982,
+      "width": 4476,
+      "height": 1908,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Confederate_100_Dollars.jpg/3840px-Confederate_100_Dollars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1023,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Confederate_100_Dollars.jpg/3840px-Confederate_100_Dollars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1023
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Confederate_100_Dollars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Confederate_100_Dollars.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4933115",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2008-11-25 04:15:44",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Confederate 100 Dollars",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD US|Images with annotations|Author died more than 100 years ago public domain images|Photographs by User:Swtpc6800|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Turkish|CC-PD-Mark|1862 banknotes|100 dollar Confederate banknotes|Featured pictures in the public domain|Plants on banknotes|Ceres on banknotes|Slaves on banknotes|Featured pictures of banknotes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "featured|poty|potd",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A One Hundred Dollar <a href=\"https://en.wikipedia.org/wiki/Confederate_States_of_America\" class=\"extiw\" title=\"en:Confederate States of America\">Confederate States of America</a> banknote dated December 22, 1862. Issued during the <a href=\"https://en.wikipedia.org/wiki/American_Civil_War\" class=\"extiw\" title=\"en:American Civil War\">American Civil War</a> (1861–1865).\n<p>Slave hoeing cotton in the center with John C. Calhoun on the left and Columbia on the right. Over 670,000 of these notes were issued from August, 1862 to January, 1863. <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.csanotes.com/index.htm\">[1]</a>\n</p><p>The bill is 7.375 by 3.125 inches (187 mm by 79 mm) and is thinner than a modern US dollar. \n</p><p>Annotations on the banknote.\n</p>\n<dl><dd>Serial number 131615</dd>\n<dd>Keatinge &amp; Ball, Columbia, S.C. (lower left)</dd>\n<dd>Receivable in Payment of All Dues Except Export Duties. (lower right)</dd>\n<dd>Issued by Maj. James Glover, q.m. 26th January 1863 (hand written on back)</dd>\n<dd>Interest Paid to 1st January 1864 at Richmond. (stamped on back) The ink from this stamp can be seen on the front right side.</dd></dl>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "22 December 1862<br>Scanned October 2008.",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "This banknote was scanned by <a href=\"//commons.wikimedia.org/wiki/User:Swtpc6800\" title=\"User:Swtpc6800\">User:Swtpc6800</a> (Michael Holley) on an Epson Perfection 1240U at 600 dpi and stored as TIFF. The image was cropped in Adobe Photo Elements 5.0 and saved as a 600 dpi Maximum Quality JPG",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Confederate States of America.",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/essential-moeda.jpg",
+    "dimensions": [
+      2400,
+      1023
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Confederate_100_Dollars.jpg/3840px-Confederate_100_Dollars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "9e1f4da7d0db8e76627fd9dcd7ef0bf6469570cecd6cac394d111724897fa804"
+  },
+  {
+    "key": "boston/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "path": "/images/destinations/boston/curated-essential-docs.jpg",
+    "pool": "docs",
+    "status": "pending-visual-review",
+    "title": "File:2024-07-27 15 06 52 Front cover of a standard issue 2024 United States passport in Ewing Township, Mercer County, New Jersey.jpg",
+    "imageinfo": {
+      "size": 3314733,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2024-07-27_15_06_52_Front_cover_of_a_standard_issue_2024_United_States_passport_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1920px-2024-07-27_15_06_52_Front_cover_of_a_standard_issue_2024_United_States_passport_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2024-07-27_15_06_52_Front_cover_of_a_standard_issue_2024_United_States_passport_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1920px-2024-07-27_15_06_52_Front_cover_of_a_standard_issue_2024_United_States_passport_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2024-07-27_15_06_52_Front_cover_of_a_standard_issue_2024_United_States_passport_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2024-07-27_15_06_52_Front_cover_of_a_standard_issue_2024_United_States_passport_in_Ewing_Township,_Mercer_County,_New_Jersey.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150924661",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-07-28 10:26:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2024-07-27 15 06 52 Front cover of a standard issue 2024 United States passport in Ewing Township, Mercer County, New Jersey",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Ewing Township, New Jersey|Self-published work|Files with coordinates missing SDC location of creation|Biometric passports of the United States|July 2024 in New Jersey|United States photographs taken on 2024-07-27|Famartin's 2024 photos|Famartin's July 2024 photos",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "40.285188",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.841505",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Front cover of a standard issue 2024 United States passport in Ewing Township, Mercer County, New Jersey",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-07-27 15:06:52",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Famartin\" title=\"User:Famartin\">Famartin</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/essential-docs.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2024-07-27_15_06_52_Front_cover_of_a_standard_issue_2024_United_States_passport_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/1920px-2024-07-27_15_06_52_Front_cover_of_a_standard_issue_2024_United_States_passport_in_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d3088ecc18ca65c9eb0dbeb57aacf10d7b8a6d75a3a4faed618791eb08871577"
+  },
+  {
+    "key": "boston/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/boston/curated-essential-idioma.jpg",
+    "pool": "english",
+    "status": "pending-visual-review",
+    "title": "File:Boston Place street signs, old and new. (16117306571).jpg",
+    "imageinfo": {
+      "size": 2425241,
+      "width": 2736,
+      "height": 3648,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Boston_Place_street_signs%2C_old_and_new._%2816117306571%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Boston_Place_street_signs%2C_old_and_new._%2816117306571%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Boston_Place_street_signs%2C_old_and_new._%2816117306571%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boston_Place_street_signs,_old_and_new._(16117306571).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128325167",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-02-02 01:26:57",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Boston Place street signs, old and new. (16117306571)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Boston Place, London|Street signs in the City of Westminster|Buildings in London photographed in 2014|Flickr images reviewed by FlickreviewR 2|PD-author-FlickrPDM|London photographs taken on 2014-12-15|Files from Maggie Jones Flickr stream",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Marylebone.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-12-15 11:33",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/maggiejones/16117306571/\">Boston Place street signs, old and new.</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24329363@N00\">Maggie Jones</a> from London, England",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/essential-idioma.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Boston_Place_street_signs%2C_old_and_new._%2816117306571%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "5b12642a3da1adf6103eb86f2c724acc13335643e1cf50da1b1c9abb1539988d"
+  },
+  {
+    "key": "boston/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "path": "/images/destinations/boston/curated-essential-transporte.jpg",
+    "pool": "mbta",
+    "status": "pending-visual-review",
+    "title": "File:Boston T train fares.jpg",
+    "imageinfo": {
+      "size": 3509788,
+      "width": 4080,
+      "height": 3060,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Boston_T_train_fares.jpg/3840px-Boston_T_train_fares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Boston_T_train_fares.jpg/3840px-Boston_T_train_fares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Boston_T_train_fares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boston_T_train_fares.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=169426169",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-07-07 19:41:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Boston T train fares",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "South Station (MBTA subway)|Self-published work|Uploaded with Mobile/Android|Files with coordinates missing SDC location of creation|MBTA in 2025|MBTA fare vending machines|Photographs taken on 2025-06-24",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.352377",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.055039",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Board showing the prices for ticket prices for the Boston T.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "24 June 2025 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Thunderblood101&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Thunderblood101 (page does not exist)\">Thunderblood101</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/essential-transporte.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Boston_T_train_fares.jpg/3840px-Boston_T_train_fares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "baa7882b7ef82926f28cf2904a3f81d4d13431163bd4891efaa5e1d339f7b852"
+  },
+  {
+    "key": "boston/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Boston",
+    "path": "/images/destinations/boston/curated-costs.jpg",
+    "pool": "chowder",
+    "status": "pending-visual-review",
+    "title": "File:Quincy Market - Boston Chowda clam chowder.jpg",
+    "imageinfo": {
+      "size": 9025586,
+      "width": 3456,
+      "height": 5184,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Quincy_Market_-_Boston_Chowda_clam_chowder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Quincy_Market_-_Boston_Chowda_clam_chowder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Quincy_Market_-_Boston_Chowda_clam_chowder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Quincy_Market_-_Boston_Chowda_clam_chowder.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=85329898",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-12-28 05:46:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Quincy Market - Boston Chowda clam chowder",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 1200D|Oyster crackers|Quincy Market|Taken with Canon EF 50mm F1.4 USM|Self-published work|Things named after Boston|Photographs taken by Hiàn|March 2019 in Boston|Images in raw image format available|Clam chowder in Massachusetts",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A bowl of clam chowder with oyster crackers from Boston Chowda at Quincy Market in Boston, Massachusetts.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-03-13 13:14:38",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hi%C3%A0n\" title=\"User:Hiàn\">Jason Zhang</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Jason Zhang",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/costs.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Quincy_Market_-_Boston_Chowda_clam_chowder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "59554520b661df772af1224fd77b00eb1b32f2eaed871f22424a474f2e1d41da"
+  },
+  {
+    "key": "boston/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Boston",
+    "path": "/images/destinations/boston/curated-day-0.jpg",
+    "pool": "logan",
+    "status": "pending-visual-review",
+    "title": "File:George Rhoads Exercise in Fugality Logan Airport Terminal A Boston Massachusetts.jpg",
+    "imageinfo": {
+      "size": 489724,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/George_Rhoads_Exercise_in_Fugality_Logan_Airport_Terminal_A_Boston_Massachusetts.jpg/3840px-George_Rhoads_Exercise_in_Fugality_Logan_Airport_Terminal_A_Boston_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/George_Rhoads_Exercise_in_Fugality_Logan_Airport_Terminal_A_Boston_Massachusetts.jpg/3840px-George_Rhoads_Exercise_in_Fugality_Logan_Airport_Terminal_A_Boston_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/George_Rhoads_Exercise_in_Fugality_Logan_Airport_Terminal_A_Boston_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:George_Rhoads_Exercise_in_Fugality_Logan_Airport_Terminal_A_Boston_Massachusetts.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=135966394",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-08-15 02:20:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "George Rhoads Exercise in Fugality Logan Airport Terminal A Boston Massachusetts",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Kinetic art|George Rhoads|Marble run|Self-published work|2008 at Logan International Airport|Kinetic art in the United States|Terminal A (Logan International Airport)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "George Rhoads Exercise in Fugality Logan Airport Terminal A Boston Massachusetts",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2008-06-07 15:02:45",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:EgorovaSvetlana\" title=\"User:EgorovaSvetlana\">EgorovaSvetlana</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/day-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/George_Rhoads_Exercise_in_Fugality_Logan_Airport_Terminal_A_Boston_Massachusetts.jpg/3840px-George_Rhoads_Exercise_in_Fugality_Logan_Airport_Terminal_A_Boston_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "4956e3f096062b8af460d941d59840fcd0b2bfe1cdb28f6c87977535eeebf0ff"
+  },
+  {
+    "key": "boston/mistakes",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "path": "/images/destinations/boston/curated-mistakes.jpg",
+    "pool": "logan",
+    "status": "pending-visual-review",
+    "title": "File:Boston Logan International Airport - Terminal E - Gate E16 - Iberia flight to Madrid.jpg",
+    "imageinfo": {
+      "size": 24024308,
+      "width": 5712,
+      "height": 4284,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Boston_Logan_International_Airport_-_Terminal_E_-_Gate_E16_-_Iberia_flight_to_Madrid.jpg/3840px-Boston_Logan_International_Airport_-_Terminal_E_-_Gate_E16_-_Iberia_flight_to_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Boston_Logan_International_Airport_-_Terminal_E_-_Gate_E16_-_Iberia_flight_to_Madrid.jpg/3840px-Boston_Logan_International_Airport_-_Terminal_E_-_Gate_E16_-_Iberia_flight_to_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Boston_Logan_International_Airport_-_Terminal_E_-_Gate_E16_-_Iberia_flight_to_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boston_Logan_International_Airport_-_Terminal_E_-_Gate_E16_-_Iberia_flight_to_Madrid.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=195912296",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-07-19 18:03:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Boston Logan International Airport - Terminal E - Gate E16 - Iberia flight to Madrid",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|2026 at Logan International Airport|Terminal E (Logan International Airport)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.371022",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.025139",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Boston Logan International Airport - Terminal E - Gate E16 - Iberia flight to Madrid",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-06-19 19:53:44",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Oleg_Yunakov&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Oleg Yunakov (page does not exist)\">Oleg Yunakov</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/mistakes.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Boston_Logan_International_Airport_-_Terminal_E_-_Gate_E16_-_Iberia_flight_to_Madrid.jpg/3840px-Boston_Logan_International_Airport_-_Terminal_E_-_Gate_E16_-_Iberia_flight_to_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d9947a3f53bd7cd15ec6c63e81a7d08dfd4d9b41b0808ac530c9c8a67c9998d8"
+  },
+  {
+    "key": "boston/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Freedom Trail",
+    "path": "/images/destinations/boston/curated-attraction-0.jpg",
+    "pool": "trail",
+    "status": "pending-visual-review",
+    "title": "File:A mosaic located along Boston's Freedom Trail commemorating the site of the first public school, the Latin School. (b6a5b6e4-2737-4810-9f27-8d1cec8a1e8e).JPG",
+    "imageinfo": {
+      "size": 8322772,
+      "width": 3948,
+      "height": 2624,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/A_mosaic_located_along_Boston%27s_Freedom_Trail_commemorating_the_site_of_the_first_public_school%2C_the_Latin_School._%28b6a5b6e4-2737-4810-9f27-8d1cec8a1e8e%29.JPG/3840px-A_mosaic_located_along_Boston%27s_Freedom_Trail_commemorating_the_site_of_the_first_public_school%2C_the_Latin_School._%28b6a5b6e4-2737-4810-9f27-8d1cec8a1e8e%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1595,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/A_mosaic_located_along_Boston%27s_Freedom_Trail_commemorating_the_site_of_the_first_public_school%2C_the_Latin_School._%28b6a5b6e4-2737-4810-9f27-8d1cec8a1e8e%29.JPG/3840px-A_mosaic_located_along_Boston%27s_Freedom_Trail_commemorating_the_site_of_the_first_public_school%2C_the_Latin_School._%28b6a5b6e4-2737-4810-9f27-8d1cec8a1e8e%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1595
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/A_mosaic_located_along_Boston%27s_Freedom_Trail_commemorating_the_site_of_the_first_public_school%2C_the_Latin_School._%28b6a5b6e4-2737-4810-9f27-8d1cec8a1e8e%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:A_mosaic_located_along_Boston%27s_Freedom_Trail_commemorating_the_site_of_the_first_public_school,_the_Latin_School._(b6a5b6e4-2737-4810-9f27-8d1cec8a1e8e).JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114337592",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-01-16 02:05:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "First School Mosaic",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD US NPS|Images from NPGallery to check|Media needing category review with 1 suggested category|Photographs taken on 2018-05-15|Images from NPGallery|Media needing category review as of 15 January 2022|Boston Latin School mosaic",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "NPS Photo",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "<p>This image is of a mosaic set into the ground to commemorate the site of the first public school, the Latin School. The mosaic is shaped like an arch. In the top circle, there is a depiction of the school in red and peach. The name Latin School is below that in gold. Under that are three paragraphs of text that are too small to read. Below that is a depiction of children playing old style games like hoops, kite flying, and jump rope. Around this along the border is an alphabet of the letters plus a tile showing an animal or item that starts with that letter. Around that is a splay of red bricks.</p>\n<p>A mosaic located along Boston's Freedom Trail commemorating the site of the first public school, the Latin School.</p>\n<ul><li>Keywords: freedom trail; boston latin school; boston</li></ul>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 15 May 2018",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://npgallery.nps.gov/\">NPGallery</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td><i>This image or media file contains material based on a work of a <a href=\"https://en.wikipedia.org/wiki/National_Park_Service\" class=\"extiw\" title=\"w:National Park Service\">National Park Service</a> employee, created as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"w:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"w:Federal Government of the United States\">U.S. federal government</a>, such work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in the United States. See the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nps.gov/\">NPS website</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nps.gov/aboutus/disclaimer.htm\">NPS copyright policy</a> for more information.</i>\n</td>\n<td><figure class=\"mw-halign-right\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_United_States_National_Park_Service.svg/60px-Logo_of_the_United_States_National_Park_Service.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"52\" height=\"68\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_United_States_National_Park_Service.svg/120px-Logo_of_the_United_States_National_Park_Service.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"553\" data-file-height=\"720\"></span><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/attraction-0.jpg",
+    "dimensions": [
+      2400,
+      1595
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/A_mosaic_located_along_Boston%27s_Freedom_Trail_commemorating_the_site_of_the_first_public_school%2C_the_Latin_School._%28b6a5b6e4-2737-4810-9f27-8d1cec8a1e8e%29.JPG/3840px-A_mosaic_located_along_Boston%27s_Freedom_Trail_commemorating_the_site_of_the_first_public_school%2C_the_Latin_School._%28b6a5b6e4-2737-4810-9f27-8d1cec8a1e8e%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "819c5e6c07aae761f474b67284420d75efa8844703c83ae15d14653da26d4c29"
+  },
+  {
+    "key": "boston/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/boston/curated-tips.jpg",
+    "pool": "trail",
+    "status": "pending-visual-review",
+    "title": "File:Charlestown Bridge (7201186026).jpg",
+    "imageinfo": {
+      "size": 381725,
+      "width": 1063,
+      "height": 1600,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Charlestown_Bridge_%287201186026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3612,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Charlestown_Bridge_%287201186026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3612
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Charlestown_Bridge_%287201186026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Charlestown_Bridge_(7201186026).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24270924",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-27 17:22:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Charlestown Bridge (7201186026)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D5000|Freedom Trail|2012 in Boston|Charlestown bridge, Boston|Flickr images reviewed by File Upload Bot (Magnus Manske)|Files from InSapphoWeTrust Flickr stream|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.368025",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.058926",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>Charlestown Bridge, spanning the Charles River, connects downtown Boston with Charlestown and Bunker Hill to the north.\n</p>\nThe red line marks the Freedom Trail which connects downtown Boston's historical landmarks with Bunker Hill and <i>USS Constitution</i>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-05-05 10:34",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/skinnylawyer/7201186026/\">Charlestown Bridge</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56619626@N05\">InSapphoWeTrust</a> from Los Angeles, California, USA",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/tips.jpg",
+    "dimensions": [
+      1063,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Charlestown_Bridge_%287201186026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "8b16389b75b6c742f016b8ccb4efe07d4182dcc928975e5ec8edad926e3e4630"
+  },
+  {
+    "key": "boston/day-1",
+    "slot": "day-1",
+    "topic": "Ícones principais",
+    "path": "/images/destinations/boston/curated-day-1.jpg",
+    "pool": "trail",
+    "status": "pending-visual-review",
+    "title": "File:Boston Common (7194230690).jpg",
+    "imageinfo": {
+      "size": 768336,
+      "width": 1063,
+      "height": 1600,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Boston_Common_%287194230690%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3612,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/Boston_Common_%287194230690%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3612
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Boston_Common_%287194230690%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boston_Common_(7194230690).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24266768",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-27 15:59:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Boston Common (7194230690)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D5000|State Street Bank|Flickr images reviewed by File Upload Bot (Magnus Manske)|May 2012 in Boston|Files from InSapphoWeTrust Flickr stream|Files with coordinates missing SDC location of creation|Boston Common in the 2010s",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.356609",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.063818",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>In the Boston area, urban planning often followed that of 17th Century England, where the settlers hailed from. Boston Common is one such feature; in English towns, a \"common\" is a common area of land that the residents could use on a communal basis for agricultural, grazing, and other uses. Boston Common has the distinction of being America's oldest urban park, dating back to 1634.\n</p>\nBoston Common is also the southern terminus of the Freedom Trail, which meanders through downtown to connect various historical points of interest. Its northern terminus is across the Charles River at Bunker Hill. The trail is marked with red bricks (as seen here) or with a red painted line.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-05-04 14:04",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/skinnylawyer/7194230690/\">Boston Common</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/56619626@N05\">InSapphoWeTrust</a> from Los Angeles, California, USA",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/day-1.jpg",
+    "dimensions": [
+      1063,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Boston_Common_%287194230690%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "aa074979485922ae0b968029bbe381394872eeb2dea3ec745382983aab863e01"
+  },
+  {
+    "key": "boston/map-list-2",
+    "slot": "map-list-2",
+    "topic": "Harvard Yard",
+    "status": "no-candidate",
+    "pool": "harvard"
+  },
+  {
+    "key": "boston/map-list-4",
+    "slot": "map-list-4",
+    "topic": "Quincy Market",
+    "path": "/images/destinations/boston/curated-map-list-4.jpg",
+    "pool": "quincy",
+    "status": "pending-visual-review",
+    "title": "File:Quincy Market and Faneuil Hall, Boston, Mass, by Soule, John P., 1827-1904.jpg",
+    "imageinfo": {
+      "size": 1497693,
+      "width": 2737,
+      "height": 1316,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Quincy_Market_and_Faneuil_Hall%2C_Boston%2C_Mass%2C_by_Soule%2C_John_P.%2C_1827-1904.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1154,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Quincy_Market_and_Faneuil_Hall%2C_Boston%2C_Mass%2C_by_Soule%2C_John_P.%2C_1827-1904.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1154
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Quincy_Market_and_Faneuil_Hall%2C_Boston%2C_Mass%2C_by_Soule%2C_John_P.%2C_1827-1904.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Quincy_Market_and_Faneuil_Hall,_Boston,_Mass,_by_Soule,_John_P.,_1827-1904.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7458534",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-08-02 22:48:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\n<i>Quincy Market and Faneuil Hall, Boston, Mass.</i><b><br>Alternate Title:</b>  American views.</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD US|Artworks without Wikidata item|Artworks with known accession number|PD-scan (PD-US)|Images from the New York Public Library|Robert N. Dennis collection of stereoscopic views|Stereo cards published by John P. Soule|Stereo cards misdescribed as postcards|Stereo cards of Quincy Market|Stereo cards of the exterior of Faneuil Hall",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:John_P._Soule\" class=\"extiw\" title=\"w:en:John P. Soule\"><span title=\"American photographer (1828–1904)\">John P. Soule</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "<p>Coverage: 1859?-1915?.\nSource Imprint: 1859?-1915?.\n</p>\nDigital item published 7-28-2005; updated 4-23-2009.",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "This image is available from the <a href=\"//commons.wikimedia.org/wiki/New_York_Public_Library\" title=\"New York Public Library\">New York Public Library</a>'s Digital Library under the digital ID G90F350_043F: <a rel=\"nofollow\" class=\"external text\" href=\"http://digitalgallery.nypl.org/nypldigital/id?G90F350_043F\">digitalgallery.nypl.org</a> → <a rel=\"nofollow\" class=\"external text\" href=\"https://digitalcollections.nypl.org/search/index?keywords=G90F350_043F\">digitalcollections.nypl.org</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/map-list-4.jpg",
+    "dimensions": [
+      2400,
+      1154
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Quincy_Market_and_Faneuil_Hall%2C_Boston%2C_Mass%2C_by_Soule%2C_John_P.%2C_1827-1904.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "055cdcfe1e77cf4d645a75df4dfbf086b5d3057de0ed1ea8ab3d047b5bc77cc2"
+  },
+  {
+    "key": "boston/day-3",
+    "slot": "day-3",
+    "topic": "Cultura e mirantes",
+    "path": "/images/destinations/boston/curated-day-3.jpg",
+    "pool": "gardner",
+    "status": "pending-visual-review",
+    "title": "File:Isabella Stewart Gardner Museum Boston November 2016 001.jpg",
+    "imageinfo": {
+      "size": 13661783,
+      "width": 6016,
+      "height": 4016,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg/3840px-Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1602,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg/3840px-Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1602
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94849358",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-10-07 23:00:26",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Isabella Stewart Gardner Museum Boston November 2016 001",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D750|Images from Wiki Loves Monuments 2020 in the United States|Self-published work|National Register of Historic Places with known IDs|Uploaded via Campaign:wlm-us|Museums in the United States photographed in 2016|Images from Wiki Loves Monuments 2020|Images from Wiki Loves Monuments 2020 in Massachusetts|Wiki Loves Monuments 2020 in the United States unreviewed|Isabella Stewart Gardner Museum - Courtyard",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.338700",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-71.098900",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Courtyard, <a href=\"https://en.wikipedia.org/wiki/Isabella_Stewart_Gardner_Museum\" class=\"extiw\" title=\"w:Isabella Stewart Gardner Museum\">Isabella Stewart Gardner Museum</a>, <a href=\"//commons.wikimedia.org/wiki/Boston\" class=\"mw-disambig\" title=\"Boston\">Boston</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-11-11 13:21:08",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/day-3.jpg",
+    "dimensions": [
+      2400,
+      1602
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg/3840px-Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "3904e7bbf946e46c8acc2e733fe752b191af2d01f9bcfa0a85b977e29d12b63c"
+  },
+  {
+    "key": "boston/day-4",
+    "slot": "day-4",
+    "topic": "Bate-volta ou folga",
+    "path": "/images/destinations/boston/curated-day-4.jpg",
+    "pool": "salem",
+    "status": "pending-visual-review",
+    "title": "File:Waterfront houses, Juniper Point, Salem MA P1000610.jpg",
+    "imageinfo": {
+      "size": 10318848,
+      "width": 5472,
+      "height": 3648,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Waterfront_houses%2C_Juniper_Point%2C_Salem_MA_P1000610.jpg/3840px-Waterfront_houses%2C_Juniper_Point%2C_Salem_MA_P1000610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Waterfront_houses%2C_Juniper_Point%2C_Salem_MA_P1000610.jpg/3840px-Waterfront_houses%2C_Juniper_Point%2C_Salem_MA_P1000610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Waterfront_houses%2C_Juniper_Point%2C_Salem_MA_P1000610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Waterfront_houses,_Juniper_Point,_Salem_MA_P1000610.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49193403",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-06-02 10:37:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Waterfront houses, Juniper Point, Salem MA P1000610",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Salem, Massachusetts in the 2010s|Juniper Point",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Waterfront houses, Juniper Point, Salem MA",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-06-01 17:00:54",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:NewtonCourt\" title=\"User:NewtonCourt\">NewtonCourt</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/day-4.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Waterfront_houses%2C_Juniper_Point%2C_Salem_MA_P1000610.jpg/3840px-Waterfront_houses%2C_Juniper_Point%2C_Salem_MA_P1000610.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "581195a50a85b12addfbcd296357207cdd423b2c54c40c3f6f8df96d287de0a6"
+  },
+  {
+    "key": "boston/trip-0",
+    "slot": "trip-0",
+    "topic": "Arredores de Boston",
+    "path": "/images/destinations/boston/curated-trip-0.jpg",
+    "pool": "salem",
+    "status": "pending-visual-review",
+    "title": "File:Turner Street, Salem, MA.jpg",
+    "imageinfo": {
+      "size": 8596864,
+      "width": 4284,
+      "height": 5712,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Turner_Street%2C_Salem%2C_MA.jpg/3840px-Turner_Street%2C_Salem%2C_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Turner_Street%2C_Salem%2C_MA.jpg/3840px-Turner_Street%2C_Salem%2C_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Turner_Street%2C_Salem%2C_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Turner_Street,_Salem,_MA.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161759623",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-03-11 18:19:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Turner Street, Salem, MA",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Files from Warren LeMay Flickr stream|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Salem, Massachusetts in the 2020s|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.521942",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-70.883544",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Built in 1791, this Federal-style house is characterized by its wooden clapboard exterior, hipped roof, six-over-six double-hung windows, decorative trim surround at the front entrance door, stone base, and short third-story windows.  The house is a contributing structure in the Derby Waterfront Historic District, listed on the National Register of Historic Places in 1976.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-07-18 15:50:08",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/59081381@N03/54365929058/\">https://www.flickr.com/photos/59081381@N03/54365929058/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "w_lemay",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/trip-0.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Turner_Street%2C_Salem%2C_MA.jpg/3840px-Turner_Street%2C_Salem%2C_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c5a240ce12a3da4f2af584c58e35620f1bee25a41855206dd8c17b0c584611ac"
+  },
+  {
+    "key": "boston/trip-1",
+    "slot": "trip-1",
+    "topic": "Passeio regional de meio dia",
+    "path": "/images/destinations/boston/curated-trip-1.jpg",
+    "pool": "concord",
+    "status": "pending-visual-review",
+    "title": "File:Old North Bridge, Concord, Massachusetts, July 2005.JPG",
+    "imageinfo": {
+      "size": 950321,
+      "width": 2534,
+      "height": 1863,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Old_North_Bridge%2C_Concord%2C_Massachusetts%2C_July_2005.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1764,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Old_North_Bridge%2C_Concord%2C_Massachusetts%2C_July_2005.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1764
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Old_North_Bridge%2C_Concord%2C_Massachusetts%2C_July_2005.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Old_North_Bridge,_Concord,_Massachusetts,_July_2005.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5942756",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-02-13 14:06:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Old North Bridge, Concord, Massachusetts, July 2005",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old North Bridge|License migration completed|GFDL-disclaimers|Self-published work|National Register of Historic Places with known IDs",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/Old_North_Bridge\" class=\"extiw\" title=\"en:Old North Bridge\">Old North Bridge</a> over the Concord River in Concord, Massachusetts. Photograph taken by me, July 4, 2005.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2005-07-04",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Transferred from <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/User:Daderot\" class=\"extiw\" title=\"en:User:Daderot\">Daderot</a> at <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "GFDL-WITH-DISCLAIMERS.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/User:Daderot\" class=\"extiw\" title=\"en:User:Daderot\">Daderot</a> at <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/trip-1.jpg",
+    "dimensions": [
+      2400,
+      1764
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Old_North_Bridge%2C_Concord%2C_Massachusetts%2C_July_2005.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "c820d679d0423de71597029569b77776af284b1b101325859abe52c7d0fd8b02"
+  },
+  {
+    "key": "boston/trip-2",
+    "slot": "trip-2",
+    "topic": "Destino costeiro ou histórico próximo",
+    "path": "/images/destinations/boston/curated-trip-2.jpg",
+    "pool": "cape-cod",
+    "status": "pending-visual-review",
+    "title": "File:USA Cape Cod 1 MA.jpg",
+    "imageinfo": {
+      "size": 1999829,
+      "width": 2272,
+      "height": 1704,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/49/USA_Cape_Cod_1_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/USA_Cape_Cod_1_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/USA_Cape_Cod_1_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:USA_Cape_Cod_1_MA.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1411201",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2006-11-27 23:08:36",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "USA Cape Cod 1 MA",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Beaches of Massachusetts|Taken with Canon PowerShot G3|Sand beaches|Cape Cod National Seashore|Dunes of Massachusetts|Files with coordinates missing SDC location of creation|Files by User:Dschwen",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "42.079512",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-70.220060",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Dune on Cape Cod near Provincetown",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2005-12-02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dschwen\" title=\"User:Dschwen\">Daniel Schwen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/boston/trip-2.jpg",
+    "dimensions": [
+      2272,
+      1704
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/USA_Cape_Cod_1_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "93804185f77147f08f95d3ce13cdd92e8039053af3bd55b3f6c568cbe1ae0258"
+  }
+]

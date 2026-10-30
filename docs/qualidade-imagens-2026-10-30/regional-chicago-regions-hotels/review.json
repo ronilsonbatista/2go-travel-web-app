@@ -1,0 +1,1648 @@
+[
+  {
+    "key": "chicago/region-0",
+    "slot": "region-0",
+    "topic": "Loop",
+    "path": "/images/destinations/chicago/curated-region-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:South Loop Chicago June 2015 001.jpg",
+    "imageinfo": {
+      "size": 4427251,
+      "width": 3000,
+      "height": 3750,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/South_Loop_Chicago_June_2015_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3000,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/South_Loop_Chicago_June_2015_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3000
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/South_Loop_Chicago_June_2015_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:South_Loop_Chicago_June_2015_001.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53467508",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-12-07 01:12:03",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "South Loop Chicago June 2015 001",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D7000|Grant Skate Park|Uploaded with VicuñaUploader|Self-published work|Featured pictures of Chicago|High-rises in Chicago|Rail tracks in Illinois|Featured pictures of cityscapes|June 2015 in Chicago|Files with coordinates missing SDC location of creation|United States photographs taken on 2015-06-28|June 2015 in rail transport in the United States|Railway photographs taken on 2015-06-28|Featured pictures by King of Hearts|Featured pictures of buildings in the United States",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality|featured",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.869307",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.622275",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of buildings in the <a href=\"https://en.wikipedia.org/wiki/Chicago_Loop#South_Loop\" class=\"extiw\" title=\"w:Chicago Loop\">South Loop</a>, from a pedestrian bridge over <a href=\"https://en.wikipedia.org/wiki/Museum_Campus/11th_Street_station\" class=\"extiw\" title=\"w:Museum Campus/11th Street station\">Museum Campus/11th Street station</a>, <a href=\"//commons.wikimedia.org/wiki/Chicago\" title=\"Chicago\">Chicago</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-06-28",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/region-0.jpg",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/South_Loop_Chicago_June_2015_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "10655ac460389a647a14d906c67f961edbcaa444e3c47b9490596c9872dd9bed"
+  },
+  {
+    "key": "chicago/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Loop",
+    "path": "/images/destinations/chicago/curated-region-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Chicago in Flames by Currier & Ives, 1871 (cropped).jpg",
+    "imageinfo": {
+      "size": 6078294,
+      "width": 4171,
+      "height": 2801,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chicago_in_Flames_by_Currier_%26_Ives%2C_1871_%28cropped%29.jpg/3840px-Chicago_in_Flames_by_Currier_%26_Ives%2C_1871_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1612,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chicago_in_Flames_by_Currier_%26_Ives%2C_1871_%28cropped%29.jpg/3840px-Chicago_in_Flames_by_Currier_%26_Ives%2C_1871_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1612
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chicago_in_Flames_by_Currier_%26_Ives%2C_1871_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chicago_in_Flames_by_Currier_%26_Ives,_1871_(cropped).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62278069",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-09-08 12:53:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chicago in Flames by Currier & Ives, 1871 (cropped)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Great Chicago Fire of 1871|Chicago Loop|Currier and Ives|PD-old-70-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-70-expired)|1871 lithographs|Extracted images|CC-PD-Mark|Files with Assessments template missing SDC Commons no value quality assessment|Randolph Street Bridge (Chicago, 1864)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The Currier &amp; Ives lithograph shows people fleeing across the Randolph Street Bridge. Thousands of people literally ran for their lives before the flames, unleashing remarkable scenes of terror and dislocation. \"The whole earth, or all we saw of it, was a lurid yellowish red,\" wrote one survivor. \"Everywhere dust, smoke, flames, heat, thunder of falling walls, crackle of fire, hissing of water, panting of engines, shouts, braying of trumpets, roar of wind, confusion, and uproar.\"",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "1871",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Chicago Historical Society (ICHi-23436)",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/Currier_and_Ives\" class=\"extiw\" title=\"en:Currier and Ives\">Currier and Ives</a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/region-list-0.jpg",
+    "dimensions": [
+      2400,
+      1612
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chicago_in_Flames_by_Currier_%26_Ives%2C_1871_%28cropped%29.jpg/3840px-Chicago_in_Flames_by_Currier_%26_Ives%2C_1871_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7924289e5cb46ce03d5e592353e1067b224be0127d304e848763db98c779f623"
+  },
+  {
+    "key": "chicago/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Loop",
+    "path": "/images/destinations/chicago/curated-hotel-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:20090524 Buildings along Chicago River line the south border of the Near North Side and Streeterville and the north border of Chicago Loop, Lakeshore East and Illinois Center.jpg",
+    "imageinfo": {
+      "size": 9735396,
+      "width": 8600,
+      "height": 3084,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/20090524_Buildings_along_Chicago_River_line_the_south_border_of_the_Near_North_Side_and_Streeterville_and_the_north_border_of_Chicago_Loop%2C_Lakeshore_East_and_Illinois_Center.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 861,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/20090524_Buildings_along_Chicago_River_line_the_south_border_of_the_Near_North_Side_and_Streeterville_and_the_north_border_of_Chicago_Loop%2C_Lakeshore_East_and_Illinois_Center.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 861
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/20090524_Buildings_along_Chicago_River_line_the_south_border_of_the_Near_North_Side_and_Streeterville_and_the_north_border_of_Chicago_Loop%2C_Lakeshore_East_and_Illinois_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:20090524_Buildings_along_Chicago_River_line_the_south_border_of_the_Near_North_Side_and_Streeterville_and_the_north_border_of_Chicago_Loop,_Lakeshore_East_and_Illinois_Center.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7509733",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2010-09-04 02:10:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "20090524 Buildings along Chicago River line the south border of the Near North Side and Streeterville and the north border of Chicago Loop, Lakeshore East and Illinois Center",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-LX3|Chicago River|Lake Shore Drive|Near North Side, Chicago|Onterie Center|Michigan Avenue Bridge|Link Bridge (Lake Shore Drive)|Hyatt Regency Chicago|Aqua (skyscraper)|Lakeshore East|Streeterville|The Lancaster|The Regatta|Chicago Riverwalk|474 North Lake Shore Drive|Swissôtel Chicago|Pugh Terminal building|The Buckingham (Chicago)|Featured pictures on Wikipedia, English|Images with extracted images|Flickr images reviewed by trusted users|Featured pictures on Wikipedia, Persian|High-rises in Chicago|Bicycles in Chicago|May 2009 in Chicago|Panoramics of Chicago|233 East Wacker|111 East Wacker|Chicago Loop in 2009|Files with Assessments template missing SDC Commons no value quality assessment|303 East Wacker|Riverview Condominiums|Chicago Spire site|River North (Chicago)|Remote views of Trump International Hotel and Tower (Chicago)|Remote views of 875 North Michigan Avenue",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The <a href=\"https://en.wikipedia.org/wiki/Chicago_River\" class=\"extiw\" title=\"w:Chicago River\">Chicago River</a> is the south border of the <a href=\"https://en.wikipedia.org/wiki/Near_North_Side,_Chicago\" class=\"extiw\" title=\"w:Near North Side, Chicago\">Near North Side</a> and <a href=\"https://en.wikipedia.org/wiki/Streeterville\" class=\"extiw\" title=\"w:Streeterville\">Streeterville</a> and the north border of the New Eastside (viewed from <a href=\"https://en.wikipedia.org/wiki/Lake_Shore_Drive\" class=\"extiw\" title=\"w:Lake Shore Drive\">Lake Shore Drive</a> with <a href=\"https://en.wikipedia.org/wiki/Trump_International_Hotel_and_Tower_(Chicago)\" class=\"extiw\" title=\"w:Trump International Hotel and Tower (Chicago)\">Trump International Hotel and Tower</a> at the jog in the river at the center.<br>This 6-part composite panorama shows the optical center of the main branch of the Chicago River looking west (upstream) as seen from the upper vehicle deck of the Lake Shore Drive Bridge. The  Trump Tower is at center (<a href=\"https://en.wikipedia.org/wiki/Skidmore,_Owings_and_Merrill\" class=\"extiw\" title=\"w:Skidmore, Owings and Merrill\">SOM</a>), with <a href=\"https://en.wikipedia.org/wiki/Ludwig_Mies_van_der_Rohe\" class=\"extiw\" title=\"w:Ludwig Mies van der Rohe\">Mies van der Rohe</a>'s 330 North Wabash slightly to the left of center. On the right bank is Streeterville, and the northern Loop is on the left.\nFrom left to right: <a href=\"https://en.wikipedia.org/wiki/The_Parkshore\" class=\"extiw\" title=\"w:The Parkshore\">The Parkshore</a>, <a href=\"https://en.wikipedia.org/wiki/North_Harbor_Tower\" class=\"extiw\" title=\"w:North Harbor Tower\">North Harbor Tower</a> (both set back), <a href=\"https://en.wikipedia.org/wiki/The_Chandler\" class=\"extiw\" title=\"w:The Chandler\">The Chandler</a>, <a href=\"https://en.wikipedia.org/wiki/The_Regatta\" class=\"extiw\" title=\"w:The Regatta\">The Regatta</a>, <a href=\"https://en.wikipedia.org/wiki/The_Tides\" class=\"extiw\" title=\"w:The Tides\">The Tides</a>, <a href=\"https://en.wikipedia.org/wiki/Aon_Center_(Chicago)\" class=\"extiw\" title=\"w:Aon Center (Chicago)\">Aon Center</a> (background), <a href=\"https://en.wikipedia.org/wiki/Aqua_(skyscraper)\" class=\"extiw\" title=\"w:Aqua (skyscraper)\">Aqua</a>, Swissotel Chicago, Columbus Plaza, <a href=\"https://en.wikipedia.org/wiki/Hyatt_Regency_Chicago\" class=\"extiw\" title=\"w:Hyatt Regency Chicago\">Hyatt Regency Chicago</a> (west tower), One Illinois Center, <a href=\"https://en.wikipedia.org/wiki/Marina_City\" class=\"extiw\" title=\"w:Marina City\">Marina City</a>, <a href=\"https://en.wikipedia.org/wiki/330_North_Wabash\" class=\"extiw\" title=\"w:330 North Wabash\">330 North Wabash</a>, <a href=\"https://en.wikipedia.org/wiki/Trump_International_Hotel_and_Tower_(Chicago)\" class=\"extiw\" title=\"w:Trump International Hotel and Tower (Chicago)\">Trump International Hotel &amp; Tower Chicago</a>, Sheraton Chicago Hotel &amp; Towers, Cityfront Place, River View (west &amp; east towers), Parkshore East, McClurg Court Center, <a href=\"https://en.wikipedia.org/wiki/John_Hancock_Center\" class=\"extiw\" title=\"w:John Hancock Center\">John Hancock Center</a>, <a href=\"https://en.wikipedia.org/wiki/400_East_Ohio_Street\" class=\"extiw\" title=\"w:400 East Ohio Street\">400 East Ohio</a>, the <a href=\"https://en.wikipedia.org/wiki/Chicago_Spire\" class=\"extiw\" title=\"w:Chicago Spire\">Chicago Spire</a> site, <a href=\"https://en.wikipedia.org/wiki/401_East_Ontario\" class=\"extiw\" title=\"w:401 East Ontario\">401 East Ontario</a>, Lake Shore Plaza, <a href=\"https://en.wikipedia.org/wiki/Onterie_Center\" class=\"extiw\" title=\"w:Onterie Center\">Onterie Center</a>, <a href=\"https://en.wikipedia.org/wiki/North_Pier_Apartments\" class=\"extiw\" title=\"w:North Pier Apartments\">North Pier Apartments</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-05-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/mindfrieze/3624597377/\">https://www.flickr.com/photos/mindfrieze/3624597377/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "flickr user <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/mindfrieze/\">mindfrieze</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/hotel-0.jpg",
+    "dimensions": [
+      2400,
+      861
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/20090524_Buildings_along_Chicago_River_line_the_south_border_of_the_Near_North_Side_and_Streeterville_and_the_north_border_of_Chicago_Loop%2C_Lakeshore_East_and_Illinois_Center.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fe53b4316ab23c084bb2f77ba1cc7f98e06a613951208829dc63ddb1579ba9b8"
+  },
+  {
+    "key": "chicago/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Loop",
+    "path": "/images/destinations/chicago/curated-hotel-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:The Loop, Chicago, Illinois, Estados Unidos, 2012-10-20, DD 01.jpg",
+    "imageinfo": {
+      "size": 11149843,
+      "width": 3326,
+      "height": 4823,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/The_Loop%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3480,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/The_Loop%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3480
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/The_Loop%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Loop,_Chicago,_Illinois,_Estados_Unidos,_2012-10-20,_DD_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=23126572",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-01-22 20:05:12",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "The Loop, Chicago, Illinois, Estados Unidos, 2012-10-20, DD 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Chicago Loop|Taken with Canon EOS 5D Mark II|Images by User:Poco a poco|Images of the United States by User:Poco a poco|October 2012 in Chicago|Images by User:Poco a poco taken in 2012|Remote views of Trump International Hotel and Tower (Chicago)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The Loop, Chicago, Illinois, USA",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-10-21 23:50:46",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/hotel-list-0.jpg",
+    "dimensions": [
+      1655,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/The_Loop%2C_Chicago%2C_Illinois%2C_Estados_Unidos%2C_2012-10-20%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "6f40028215fd6c85b33f9ecbd6c0dcc6080266066b27d616aa2d673a7789ec12"
+  },
+  {
+    "key": "chicago/region-1",
+    "slot": "region-1",
+    "topic": "Lakefront",
+    "path": "/images/destinations/chicago/curated-region-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Morning view of the downtown skyline from near Morgan Point along Lakefront Trail, Chicago, 2025.jpg",
+    "imageinfo": {
+      "size": 12385171,
+      "width": 5555,
+      "height": 3703,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Morning_view_of_the_downtown_skyline_from_near_Morgan_Point_along_Lakefront_Trail%2C_Chicago%2C_2025.jpg/3840px-Morning_view_of_the_downtown_skyline_from_near_Morgan_Point_along_Lakefront_Trail%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Morning_view_of_the_downtown_skyline_from_near_Morgan_Point_along_Lakefront_Trail%2C_Chicago%2C_2025.jpg/3840px-Morning_view_of_the_downtown_skyline_from_near_Morgan_Point_along_Lakefront_Trail%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Morning_view_of_the_downtown_skyline_from_near_Morgan_Point_along_Lakefront_Trail%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Morning_view_of_the_downtown_skyline_from_near_Morgan_Point_along_Lakefront_Trail,_Chicago,_2025.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=172284304",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-08-11 13:08:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Morning view of the downtown skyline from near Morgan Point along Lakefront Trail, Chicago, 2025",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Files with coordinates missing SDC location of creation|Views of Chicago from below|Chicago skyline in 2025|August 2025 in Chicago|Lakefront Trail (Chicago)|United States photographs taken on 2025-08-08|2025 photos by User:DimiTalen|Taken with Nikon Z 50 II|Chicago skyline from Lake Michigan|Burnham Park",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.811939",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.588132",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Morning view of the downtown skyline from near Morgan Point along Lakefront Trail, Chicago, 2025",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-08-08 07:15:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:DimiTalen\" title=\"User:DimiTalen\">DimiTalen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/region-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Morning_view_of_the_downtown_skyline_from_near_Morgan_Point_along_Lakefront_Trail%2C_Chicago%2C_2025.jpg/3840px-Morning_view_of_the_downtown_skyline_from_near_Morgan_Point_along_Lakefront_Trail%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f3fa982c999b38b5c54b821138144d601eefc7228fb3d74de2daa2e4c653e412"
+  },
+  {
+    "key": "chicago/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Lakefront",
+    "path": "/images/destinations/chicago/curated-region-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Lake front bike2.JPG",
+    "imageinfo": {
+      "size": 874814,
+      "width": 2537,
+      "height": 1615,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lake_front_bike2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1528,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lake_front_bike2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1528
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lake_front_bike2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_front_bike2.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12226673",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2010-12-05 18:15:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lake front bike2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Lincoln Park (Chicago)|License migration redundant|Self-published work|October 2010 in Chicago|Files with coordinates missing SDC location of creation|Lakefront Trail (Chicago)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.939733",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.636975",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chicago Lake front bike trail",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-10-16",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Alanscottwalker\" title=\"User:Alanscottwalker\">Alanscottwalker</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/region-list-1.jpg",
+    "dimensions": [
+      2400,
+      1528
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Lake_front_bike2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "a3f71881b20b64c4f94cac74a68e9a5a215eb8dc201f23c815acbbe680aae472"
+  },
+  {
+    "key": "chicago/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Lakefront",
+    "path": "/images/destinations/chicago/curated-hotel-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Cyclists on Lakefront Trail, in front of Indian Village, Chicago, 2025.jpg",
+    "imageinfo": {
+      "size": 12055473,
+      "width": 5410,
+      "height": 3606,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Cyclists_on_Lakefront_Trail%2C_in_front_of_Indian_Village%2C_Chicago%2C_2025.jpg/3840px-Cyclists_on_Lakefront_Trail%2C_in_front_of_Indian_Village%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Cyclists_on_Lakefront_Trail%2C_in_front_of_Indian_Village%2C_Chicago%2C_2025.jpg/3840px-Cyclists_on_Lakefront_Trail%2C_in_front_of_Indian_Village%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Cyclists_on_Lakefront_Trail%2C_in_front_of_Indian_Village%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cyclists_on_Lakefront_Trail,_in_front_of_Indian_Village,_Chicago,_2025.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=172284288",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-08-11 13:08:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cyclists on Lakefront Trail, in front of Indian Village, Chicago, 2025",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Lake Shore Drive|Cycling in Chicago|Kenwood, Chicago|Apartment buildings in Chicago|Self-published work|Files with coordinates missing SDC location of creation|August 2025 in Chicago|Lakefront Trail (Chicago)|United States photographs taken on 2025-08-08|2025 photos by User:DimiTalen|Taken with Nikon Z 50 II",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.806092",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.584133",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cyclists on Lakefront Trail, in front of Indian Village, Chicago, 2025",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-08-08 07:11:37",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:DimiTalen\" title=\"User:DimiTalen\">DimiTalen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Cyclists_on_Lakefront_Trail%2C_in_front_of_Indian_Village%2C_Chicago%2C_2025.jpg/3840px-Cyclists_on_Lakefront_Trail%2C_in_front_of_Indian_Village%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "0faeeace3b2ddafac3f9a26e4bd2a36046d75fc0c2d061e7ded886959a0bdf31"
+  },
+  {
+    "key": "chicago/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Lakefront",
+    "path": "/images/destinations/chicago/curated-hotel-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Divvy bike along Lakefront Trail near Monahan Point, Chicago, 2025.jpg",
+    "imageinfo": {
+      "size": 14063783,
+      "width": 5568,
+      "height": 3712,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Divvy_bike_along_Lakefront_Trail_near_Monahan_Point%2C_Chicago%2C_2025.jpg/3840px-Divvy_bike_along_Lakefront_Trail_near_Monahan_Point%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Divvy_bike_along_Lakefront_Trail_near_Monahan_Point%2C_Chicago%2C_2025.jpg/3840px-Divvy_bike_along_Lakefront_Trail_near_Monahan_Point%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Divvy_bike_along_Lakefront_Trail_near_Monahan_Point%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Divvy_bike_along_Lakefront_Trail_near_Monahan_Point,_Chicago,_2025.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=172284289",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-08-11 13:08:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Divvy bike along Lakefront Trail near Monahan Point, Chicago, 2025",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Divvy bikes|Self-published work|Files with coordinates missing SDC location of creation|August 2025 in Chicago|Lakefront Trail (Chicago)|United States photographs taken on 2025-08-08|2025 photos by User:DimiTalen|Taken with Nikon Z 50 II|Burnham Park|Trees in parks in Chicago",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.804245",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.581422",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Divvy bike along Lakefront Trail near Monahan Point, Chicago, 2025",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-08-08 07:09:38",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:DimiTalen\" title=\"User:DimiTalen\">DimiTalen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/hotel-list-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Divvy_bike_along_Lakefront_Trail_near_Monahan_Point%2C_Chicago%2C_2025.jpg/3840px-Divvy_bike_along_Lakefront_Trail_near_Monahan_Point%2C_Chicago%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7f6e39cc4664ea7eb9c5cb3898ec59b2528987d6c8561fe26ba3e9b789f0a645"
+  },
+  {
+    "key": "chicago/region-2",
+    "slot": "region-2",
+    "topic": "North Side",
+    "path": "/images/destinations/chicago/curated-region-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Lincoln Park kz04.jpg",
+    "imageinfo": {
+      "size": 2755682,
+      "width": 4491,
+      "height": 2995,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Lincoln_Park_kz04.jpg/3840px-Lincoln_Park_kz04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1601,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Lincoln_Park_kz04.jpg/3840px-Lincoln_Park_kz04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1601
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Lincoln_Park_kz04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lincoln_Park_kz04.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=98011614",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-12-24 09:28:30",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lincoln Park kz04",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Lincoln Park (Chicago)|Self-published work|USA 2016 by Kenraiz",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Lincoln Park in Chicago",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-09-28 02:09:53",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/region-2.jpg",
+    "dimensions": [
+      2400,
+      1601
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Lincoln_Park_kz04.jpg/3840px-Lincoln_Park_kz04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e1d6daec4f6b5d3a15c16111e0e927fc79967ebaa24972ca5b30de2618629f62"
+  },
+  {
+    "key": "chicago/region-list-2",
+    "slot": "region-list-2",
+    "topic": "North Side",
+    "path": "/images/destinations/chicago/curated-region-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Lincoln Park kz05.jpg",
+    "imageinfo": {
+      "size": 2843936,
+      "width": 4608,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Lincoln_Park_kz05.jpg/3840px-Lincoln_Park_kz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Lincoln_Park_kz05.jpg/3840px-Lincoln_Park_kz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Lincoln_Park_kz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lincoln_Park_kz05.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=98011613",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-12-24 09:28:29",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lincoln Park kz05",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Lincoln Park (Chicago)|Self-published work|USA 2016 by Kenraiz",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Lincoln Park in Chicago",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-09-28 02:10:13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kenraiz\" title=\"User:Kenraiz\">Krzysztof Ziarnek, Kenraiz</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/region-list-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Lincoln_Park_kz05.jpg/3840px-Lincoln_Park_kz05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "5731cd28199004fa9619952779472a116919b424d6b15c896e2a7bd05aa15edb"
+  },
+  {
+    "key": "chicago/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em North Side",
+    "path": "/images/destinations/chicago/curated-hotel-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Lincoln Park South (2) 4-1-22.jpg",
+    "imageinfo": {
+      "size": 871571,
+      "width": 4000,
+      "height": 2250,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Lincoln_Park_South_%282%29_4-1-22.jpg/3840px-Lincoln_Park_South_%282%29_4-1-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Lincoln_Park_South_%282%29_4-1-22.jpg/3840px-Lincoln_Park_South_%282%29_4-1-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lincoln_Park_South_%282%29_4-1-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lincoln_Park_South_(2)_4-1-22.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=116591924",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-04-02 03:49:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lincoln Park South (2) 4-1-22",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Lincoln Park, Chicago|Self-published work|Files with coordinates missing SDC location of creation|April 2022 in Chicago",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.917777",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.630060",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Lincoln park, facing downtown Chicago, IL.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-04-01 13:18:27",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sea_Cow\" title=\"User:Sea Cow\">Sea Cow</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/hotel-2.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Lincoln_Park_South_%282%29_4-1-22.jpg/3840px-Lincoln_Park_South_%282%29_4-1-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e7ac566a7d4852e228815c8d48a98fc8c5db52505bd8057e565defb125d568e1"
+  },
+  {
+    "key": "chicago/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em North Side",
+    "path": "/images/destinations/chicago/curated-hotel-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Lincoln Park Passerelle.jpg",
+    "imageinfo": {
+      "size": 2724951,
+      "width": 4608,
+      "height": 2100,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Lincoln_Park_Passerelle.jpg/3840px-Lincoln_Park_Passerelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1094,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Lincoln_Park_Passerelle.jpg/3840px-Lincoln_Park_Passerelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1094
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Lincoln_Park_Passerelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lincoln_Park_Passerelle.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=96206305",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-11-17 05:29:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lincoln Park Passerelle",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Passerelle in Lincoln Park, Chicago|Self-published work|Files with coordinates missing SDC location of creation|August 2017 in Chicago",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "41.915361",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-87.627528",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Lincoln Park Passerelle, taken in 2017",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-08-29 16:50:25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tdl1060&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tdl1060 (page does not exist)\">Tdl1060</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/hotel-list-2.jpg",
+    "dimensions": [
+      2400,
+      1094
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Lincoln_Park_Passerelle.jpg/3840px-Lincoln_Park_Passerelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fdefc30a9c59c7357f7724fdaf9dc90796ac688070e110d3ed4def62474d7ab8"
+  },
+  {
+    "key": "chicago/region-3",
+    "slot": "region-3",
+    "topic": "West Side",
+    "path": "/images/destinations/chicago/curated-region-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:West Town - Ukranian Village (15297927733).jpg",
+    "imageinfo": {
+      "size": 13613499,
+      "width": 5645,
+      "height": 3546,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/West_Town_-_Ukranian_Village_%2815297927733%29.jpg/3840px-West_Town_-_Ukranian_Village_%2815297927733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1508,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/West_Town_-_Ukranian_Village_%2815297927733%29.jpg/3840px-West_Town_-_Ukranian_Village_%2815297927733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1508
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/West_Town_-_Ukranian_Village_%2815297927733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:West_Town_-_Ukranian_Village_(15297927733).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=39881111",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-04-30 18:43:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "West Town - Ukranian Village (15297927733)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Ukrainian Village, Chicago|Flickr images reviewed by FlickreviewR|4th of July Celebration, 2014|Fireworks in Chicago|July 2014 in Chicago|Chicago skyline in 2014|United States photographs taken on 2014-07-03|Photographs by Tony Webster|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>Chicago skyline\n</p>\nLicensing: flickr@tonywebster.com",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 3 July 2014, 22:35",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/diversey/15297927733/\">West Town / Ukranian Village</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/87296837@N00\">Tony Webster</a> from Portland, Oregon, United States",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/region-3.jpg",
+    "dimensions": [
+      2400,
+      1508
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/West_Town_-_Ukranian_Village_%2815297927733%29.jpg/3840px-West_Town_-_Ukranian_Village_%2815297927733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "596bea2e21c69d572168249b8c710c8dcb36216644fe646728368c217c0bc276"
+  },
+  {
+    "key": "chicago/region-list-3",
+    "slot": "region-list-3",
+    "topic": "West Side",
+    "path": "/images/destinations/chicago/curated-region-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Blackhawk St at Paulina St - Chicago, IL - April 2023.jpg",
+    "imageinfo": {
+      "size": 977815,
+      "width": 3301,
+      "height": 2201,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Blackhawk_St_at_Paulina_St_-_Chicago%2C_IL_-_April_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Blackhawk_St_at_Paulina_St_-_Chicago%2C_IL_-_April_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Blackhawk_St_at_Paulina_St_-_Chicago%2C_IL_-_April_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Blackhawk_St_at_Paulina_St_-_Chicago,_IL_-_April_2023.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=185249089",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-03-01 03:40:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Blackhawk St at Paulina St - Chicago, IL - April 2023",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|April 2023 in Chicago|Concrete barriers in the United States|West Town, Chicago",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Blackhawk St at Paulina St; Blackhawk St has a 1-block-long barrier on the median",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-04-12 11:47:31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:AlphaBeta135\" title=\"User:AlphaBeta135\">AlphaBeta135</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/chicago/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Blackhawk_St_at_Paulina_St_-_Chicago%2C_IL_-_April_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "0dc70a9a3742903fc234ecbefb8c1144743e1b2b2196d940facaeaf01fa25b50"
+  },
+  {
+    "key": "chicago/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em West Side",
+    "status": "no-candidate",
+    "pool": "region-3"
+  },
+  {
+    "key": "chicago/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em West Side",
+    "status": "no-candidate",
+    "pool": "region-3"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "vancouver/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "vancouver/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Rua muito subexposta, prédios e contexto urbano pouco legíveis."
+  },
+  "vancouver/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Kitsilano: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "vancouver/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Kitsilano: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "vancouver/neighborhood-2": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+  },
+  "vancouver/neighborhood-detail-2": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+  },
+  "vancouver/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Gastown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "vancouver/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Placa textual do relógio, não representa visualmente o bairro de Gastown."
+  }
+}

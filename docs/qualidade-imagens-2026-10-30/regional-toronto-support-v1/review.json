@@ -1,0 +1,1537 @@
+[
+  {
+    "key": "toronto/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Toronto",
+    "path": "/images/destinations/toronto/curated-day-0.jpg",
+    "pool": "arrival",
+    "status": "pending-visual-review",
+    "title": "File:Interior of Toronto Pearson International Airport Terminal 1 wider view.jpg",
+    "imageinfo": {
+      "size": 14234997,
+      "width": 5382,
+      "height": 3606,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Interior_of_Toronto_Pearson_International_Airport_Terminal_1_wider_view.jpg/3840px-Interior_of_Toronto_Pearson_International_Airport_Terminal_1_wider_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1608,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Interior_of_Toronto_Pearson_International_Airport_Terminal_1_wider_view.jpg/3840px-Interior_of_Toronto_Pearson_International_Airport_Terminal_1_wider_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1608
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Interior_of_Toronto_Pearson_International_Airport_Terminal_1_wider_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interior_of_Toronto_Pearson_International_Airport_Terminal_1_wider_view.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41960633",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-07-30 03:24:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Interior of Toronto Pearson International Airport Terminal 1 wider view",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Interior of Toronto Pearson International Airport|Personality rights warning|A&W restaurants in Canada|License migration redundant|Terminal 1 (Toronto Pearson International Airport)|Self-published work|Without consent|2015 at Toronto Pearson International Airport|June 2015 in Toronto|Canada photographs taken on 2015-06-27|Walking people in Canada|Walking people seen from behind in Canada|June 2015 in Mississauga|Reflections on floors",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Looking down the gate areas at Terminal 1 of <a href=\"https://en.wikipedia.org/wiki/Toronto_Pearson_International_Airport\" class=\"extiw\" title=\"w:Toronto Pearson International Airport\">Toronto Pearson International Airport</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 27 June 2015",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "You may select the license of your choice.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "personality",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/day-0.jpg",
+    "dimensions": [
+      2400,
+      1608
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Interior_of_Toronto_Pearson_International_Airport_Terminal_1_wider_view.jpg/3840px-Interior_of_Toronto_Pearson_International_Airport_Terminal_1_wider_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d87269b12d7973cd8994df7bf5c502fab5b49d913c955bd04925a5431163a227"
+  },
+  {
+    "key": "toronto/mistakes",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "path": "/images/destinations/toronto/curated-mistakes.jpg",
+    "pool": "arrival",
+    "status": "pending-visual-review",
+    "title": "File:Interior of Toronto Pearson Airport Terminal 1.jpg",
+    "imageinfo": {
+      "size": 14484176,
+      "width": 4032,
+      "height": 4528,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_Toronto_Pearson_Airport_Terminal_1.jpg/3840px-Interior_of_Toronto_Pearson_Airport_Terminal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 2695,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_Toronto_Pearson_Airport_Terminal_1.jpg/3840px-Interior_of_Toronto_Pearson_Airport_Terminal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2695
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Interior_of_Toronto_Pearson_Airport_Terminal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interior_of_Toronto_Pearson_Airport_Terminal_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41960586",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-07-30 03:13:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Interior of Toronto Pearson Airport Terminal 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Interior of Toronto Pearson International Airport|Personality rights warning|A&W restaurants in Canada|License migration redundant|Terminal 1 (Toronto Pearson International Airport)|Self-published work|Without consent|2015 at Toronto Pearson International Airport|June 2015 in Toronto|Canada photographs taken on 2015-06-27|Walking people in Canada|June 2015 in Mississauga",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Interior of Terminal 1 at <a href=\"https://en.wikipedia.org/wiki/Toronto_Pearson_International_Airport\" class=\"extiw\" title=\"w:Toronto Pearson International Airport\">Toronto Pearson International Airport</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 27 June 2015",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "You may select the license of your choice.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "personality",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/mistakes.jpg",
+    "dimensions": [
+      2137,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Interior_of_Toronto_Pearson_Airport_Terminal_1.jpg/3840px-Interior_of_Toronto_Pearson_Airport_Terminal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "33409207d614a4ca45c2619d5408f5459ad28931d76211d1f711cc08aede3fd5"
+  },
+  {
+    "key": "toronto/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "path": "/images/destinations/toronto/curated-essential-transporte.jpg",
+    "pool": "transport",
+    "status": "pending-visual-review",
+    "title": "File:Disused TTC Streetcar Tracks at Adelaide and Peter.jpg",
+    "imageinfo": {
+      "size": 4872631,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Disused_TTC_Streetcar_Tracks_at_Adelaide_and_Peter.jpg/3840px-Disused_TTC_Streetcar_Tracks_at_Adelaide_and_Peter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Disused_TTC_Streetcar_Tracks_at_Adelaide_and_Peter.jpg/3840px-Disused_TTC_Streetcar_Tracks_at_Adelaide_and_Peter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Disused_TTC_Streetcar_Tracks_at_Adelaide_and_Peter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Disused_TTC_Streetcar_Tracks_at_Adelaide_and_Peter.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=81057735",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-08-05 15:47:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Disused TTC Streetcar Tracks at Adelaide and Peter",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Toronto streetcar system|Self-published work|Uploaded with Mobile/Android|2019 in road transport in Canada|July 2019 in Toronto|Photographs taken on 2019-07-13|Railway photographs taken on 2019-07-13|Adelaide Street, Toronto|Traffic lights at red state in Toronto",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Tracks with no caternary overhead and crumbling infill. Some sections have been paved over.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "13 July 2019 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Colin_Stepney&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Colin Stepney (page does not exist)\">Colin Stepney</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/essential-transporte.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Disused_TTC_Streetcar_Tracks_at_Adelaide_and_Peter.jpg/3840px-Disused_TTC_Streetcar_Tracks_at_Adelaide_and_Peter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "1cc85d7cbb67b90224f17b5d19f040e1d824eb9668a44eb07a0e62f43ccf9a44"
+  },
+  {
+    "key": "toronto/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Toronto",
+    "path": "/images/destinations/toronto/curated-costs.jpg",
+    "pool": "food",
+    "status": "pending-visual-review",
+    "title": "File:Peameal bacon sandwich.jpg",
+    "imageinfo": {
+      "size": 2830458,
+      "width": 3968,
+      "height": 2976,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Peameal_bacon_sandwich.jpg/3840px-Peameal_bacon_sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Peameal_bacon_sandwich.jpg/3840px-Peameal_bacon_sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Peameal_bacon_sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Peameal_bacon_sandwich.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=81526153",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-08-22 06:20:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Peameal bacon sandwich",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Peameal bacon|Self-published work|July 2019 in Toronto|Canada photographs taken on 2019-07-11|Canada Dry Ginger Ale",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Side view of a peameal bacon sandwich from Carousel Bakery in Toronto",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 11 July 2019, 16:16:15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Leventio&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Leventio (page does not exist)\">Leventio</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/costs.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Peameal_bacon_sandwich.jpg/3840px-Peameal_bacon_sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fdc728e1897e1ef512ab1f122a8836ab3c0d43b43fa5e817c0a3b270b913f75d"
+  },
+  {
+    "key": "toronto/day-3",
+    "slot": "day-3",
+    "topic": "Cultura e mirantes",
+    "path": "/images/destinations/toronto/curated-day-3.jpg",
+    "pool": "culture",
+    "status": "pending-visual-review",
+    "title": "File:Equus simplicidens detail, Hagerman, Idaho, USA, Early Pliocene - Royal Ontario Museum - DSC00150.JPG",
+    "imageinfo": {
+      "size": 5002041,
+      "width": 4320,
+      "height": 3240,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Equus_simplicidens_detail%2C_Hagerman%2C_Idaho%2C_USA%2C_Early_Pliocene_-_Royal_Ontario_Museum_-_DSC00150.JPG/3840px-Equus_simplicidens_detail%2C_Hagerman%2C_Idaho%2C_USA%2C_Early_Pliocene_-_Royal_Ontario_Museum_-_DSC00150.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Equus_simplicidens_detail%2C_Hagerman%2C_Idaho%2C_USA%2C_Early_Pliocene_-_Royal_Ontario_Museum_-_DSC00150.JPG/3840px-Equus_simplicidens_detail%2C_Hagerman%2C_Idaho%2C_USA%2C_Early_Pliocene_-_Royal_Ontario_Museum_-_DSC00150.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Equus_simplicidens_detail%2C_Hagerman%2C_Idaho%2C_USA%2C_Early_Pliocene_-_Royal_Ontario_Museum_-_DSC00150.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Equus_simplicidens_detail,_Hagerman,_Idaho,_USA,_Early_Pliocene_-_Royal_Ontario_Museum_-_DSC00150.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17853625",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-12-30 16:49:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Equus simplicidens detail, Hagerman, Idaho, USA, Early Pliocene - Royal Ontario Museum - DSC00150",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-H55|CC-Zero|Hagerman Fossil Beds National Monument Visitor Center|Files uploaded by Daderot|Fossils in the Royal Ontario Museum|Equus simplicidens skulls|Equus skulls with cervical vertebrae",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Exhibit in the Royal Ontario Museum, Toronto, Ontario, Canada. This exhibit is old enough so that it is in the public domain, and photography was permitted in the museum. I took this photograph and release it into the public domain.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-11-21 12:24:47",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daderot\" title=\"User:Daderot\">Daderot</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); border:var(--border-subtle, 2px solid #c8ccd1); padding: 0; border-spacing: 8px; color:var(--color-base, #202122);\" dir=\"ltr\" class=\"layouttemplate licensetpl\" lang=\"en\">\n<tbody><tr>\n<td style=\"width:90px;\" rowspan=\"2\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"Creative Commons\"><img alt=\"Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/40px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/60px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"CC-Zero\"><img alt=\"CC-Zero\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/40px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/60px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\n</td>\n<td>This file is made available under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/zero/1.0/deed.en\">CC0 1.0 Universal Public Domain Dedication</a>.\n</td></tr>\n<tr style=\"text-align:left;\">\n<td>The person who associated a work with this deed has dedicated the work to the <a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a> by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.\n<p><span class=\"licensetpl_link\" style=\"display:none;\">http://creativecommons.org/publicdomain/zero/1.0/deed.en</span><span class=\"licensetpl_short\" style=\"display:none;\">CC0</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Zero, Public Domain Dedication</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>\n</p>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/day-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Equus_simplicidens_detail%2C_Hagerman%2C_Idaho%2C_USA%2C_Early_Pliocene_-_Royal_Ontario_Museum_-_DSC00150.JPG/3840px-Equus_simplicidens_detail%2C_Hagerman%2C_Idaho%2C_USA%2C_Early_Pliocene_-_Royal_Ontario_Museum_-_DSC00150.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e7fd2ff00ab9488fa91134e553063e6c592c5b47bc126fce05ef187c0ed50194"
+  },
+  {
+    "key": "toronto/day-4",
+    "slot": "day-4",
+    "topic": "Bate-volta ou folga",
+    "path": "/images/destinations/toronto/curated-day-4.jpg",
+    "pool": "leisure",
+    "status": "pending-visual-review",
+    "title": "File:Island Riviera from back, Toronto Islands 2026.jpg",
+    "imageinfo": {
+      "size": 4841252,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Island_Riviera_from_back%2C_Toronto_Islands_2026.jpg/3840px-Island_Riviera_from_back%2C_Toronto_Islands_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Island_Riviera_from_back%2C_Toronto_Islands_2026.jpg/3840px-Island_Riviera_from_back%2C_Toronto_Islands_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Island_Riviera_from_back%2C_Toronto_Islands_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Island_Riviera_from_back,_Toronto_Islands_2026.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=200261159",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-09-26 01:22:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Island Riviera from back, Toronto Islands 2026",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Toronto Islands|Restaurants in Toronto|Self-published work|Files with coordinates missing SDC location of creation|August 2026 in Toronto|Pictures taken by Chicken4War in Toronto",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.627185",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-79.356169",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Island Riviera from back, Toronto Islands 2026",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-08-28 13:57:12",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Chicken4War\" title=\"User:Chicken4War\">Chicken4War</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/day-4.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Island_Riviera_from_back%2C_Toronto_Islands_2026.jpg/3840px-Island_Riviera_from_back%2C_Toronto_Islands_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "9d5431ca307ec3b36a382a56ab4b0a402f052301a3c1910ba79e271ddbfeaec6"
+  },
+  {
+    "key": "toronto/day-1",
+    "slot": "day-1",
+    "topic": "Ícones principais",
+    "path": "/images/destinations/toronto/curated-day-1.jpg",
+    "pool": "icon",
+    "status": "pending-visual-review",
+    "title": "File:CN Tower, Toronto, Canada9.jpg",
+    "imageinfo": {
+      "size": 2768105,
+      "width": 1880,
+      "height": 2533,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/CN_Tower%2C_Toronto%2C_Canada9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3234,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/CN_Tower%2C_Toronto%2C_Canada9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3234
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/CN_Tower%2C_Toronto%2C_Canada9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:CN_Tower,_Toronto,_Canada9.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17765763",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-01-24 09:20:18",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "CN Tower, Toronto, Canada9",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Images by User:Poco a poco|August 2007 in Toronto|Remote views of the CN Tower|Images of Canada by User:Poco a poco|Canada photographs taken on 2007-08-05|Images by User:Poco a poco taken in 2007",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "CN Tower, Toronto, Canada",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 5 August 2007",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/day-1.jpg",
+    "dimensions": [
+      1781,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/CN_Tower%2C_Toronto%2C_Canada9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "f826dc6a3aecd715e238972d76dc10b8cff382a09a768c6919b1f0984a19ff3f"
+  },
+  {
+    "key": "toronto/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/toronto/curated-tips.jpg",
+    "pool": "icon",
+    "status": "pending-visual-review",
+    "title": "File:CN Tower, Toronto, Ontario, 2025-08-25 02.jpg",
+    "imageinfo": {
+      "size": 9860915,
+      "width": 4000,
+      "height": 6000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/CN_Tower%2C_Toronto%2C_Ontario%2C_2025-08-25_02.jpg/3840px-CN_Tower%2C_Toronto%2C_Ontario%2C_2025-08-25_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/CN_Tower%2C_Toronto%2C_Ontario%2C_2025-08-25_02.jpg/3840px-CN_Tower%2C_Toronto%2C_Ontario%2C_2025-08-25_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/CN_Tower%2C_Toronto%2C_Ontario%2C_2025-08-25_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:CN_Tower,_Toronto,_Ontario,_2025-08-25_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=173835170",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-08-28 19:42:50",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "CN Tower, Toronto, Ontario, 2025-08-25 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|FoP-Canada|Files with coordinates missing SDC location of creation|Taken with Canon EOS R6 Mark II|August 2025 in Toronto|Photographs of buildings and structures by Chris Woodrich|Canada photographs taken on 2025-08-25|CN Tower in 2025",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.641578",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-79.398048",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "CN Tower, Toronto, Ontario, 2025-08-25; detail of peak",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-08-25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Crisco_1492\" title=\"User:Crisco 1492\">Chris Woodrich</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/tips.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/CN_Tower%2C_Toronto%2C_Ontario%2C_2025-08-25_02.jpg/3840px-CN_Tower%2C_Toronto%2C_Ontario%2C_2025-08-25_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7a5db069b534a78d1612be29817e08b826c6b9908ece5bbb16dbc16ec3472913"
+  },
+  {
+    "key": "toronto/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "path": "/images/destinations/toronto/curated-day-2.jpg",
+    "pool": "quarter",
+    "status": "pending-visual-review",
+    "title": "File:Downtown Toronto buildings, daytime.jpg",
+    "imageinfo": {
+      "size": 3693582,
+      "width": 4056,
+      "height": 2704,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Downtown_Toronto_buildings%2C_daytime.jpg/3840px-Downtown_Toronto_buildings%2C_daytime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Downtown_Toronto_buildings%2C_daytime.jpg/3840px-Downtown_Toronto_buildings%2C_daytime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Downtown_Toronto_buildings%2C_daytime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Downtown_Toronto_buildings,_daytime.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=113935192",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-01-03 04:29:44",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Downtown Toronto buildings, daytime",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Downtown Toronto|Self-published work|October 2021 in Toronto",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Some buildings in Downtown Toronto taken during the day near the Royal Ontario Museum",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-10-31 13:14:40",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:GKarastergios\" title=\"User:GKarastergios\">Gregory Karastergios</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/day-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Downtown_Toronto_buildings%2C_daytime.jpg/3840px-Downtown_Toronto_buildings%2C_daytime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "5e49d871d51d57e2f1b77f3c22d02ffc62bac011afe1f3dc88e472ada5538039"
+  },
+  {
+    "key": "toronto/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/toronto/curated-essential-idioma.jpg",
+    "pool": "language",
+    "status": "pending-visual-review",
+    "title": "File:Nathan Phillips Square 3D Toronto sign close-up.jpg",
+    "imageinfo": {
+      "size": 7702686,
+      "width": 4363,
+      "height": 2909,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Nathan_Phillips_Square_3D_Toronto_sign_close-up.jpg/3840px-Nathan_Phillips_Square_3D_Toronto_sign_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Nathan_Phillips_Square_3D_Toronto_sign_close-up.jpg/3840px-Nathan_Phillips_Square_3D_Toronto_sign_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Nathan_Phillips_Square_3D_Toronto_sign_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nathan_Phillips_Square_3D_Toronto_sign_close-up.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=85083545",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-12-20 22:24:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Nathan Phillips Square 3D Toronto sign close-up",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 1200D|3D TORONTO sign in Nathan Phillips Square|Taken with Canon EF 50mm F1.4 USM|Self-published work|November 2018 in Toronto|Photographs taken by Hiàn|Canada photographs taken on 2018-11-24|Hashtags in Canada|Images in raw image format available",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A close-up of the hashtag #xoTO on the base of the 3D TORONTO sign at Nathan Phillips Square. The sign was originally put up during the 2015 Pan Am Games and has remained there since.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 24 November 2018, 10:46:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Hi%C3%A0n\" title=\"User:Hiàn\">Jason Zhang</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Jason Zhang",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/essential-idioma.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Nathan_Phillips_Square_3D_Toronto_sign_close-up.jpg/3840px-Nathan_Phillips_Square_3D_Toronto_sign_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "4c977f33b86ed27c07d1b1233bed6da9c84d2c463f491b3207c8afaa95b66ec5"
+  },
+  {
+    "key": "toronto/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "currency"
+  },
+  {
+    "key": "toronto/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "documents"
+  },
+  {
+    "key": "toronto/trip-0",
+    "slot": "trip-0",
+    "topic": "Arredores de Toronto",
+    "path": "/images/destinations/toronto/curated-trip-0.jpg",
+    "pool": "trip-0",
+    "status": "pending-visual-review",
+    "title": "File:Maid of the Mist VII approaching the Horseshoe Falls, West view 20170418 1.jpg",
+    "imageinfo": {
+      "size": 6344796,
+      "width": 6262,
+      "height": 4473,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls%2C_West_view_20170418_1.jpg/3840px-Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls%2C_West_view_20170418_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1714,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls%2C_West_view_20170418_1.jpg/3840px-Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls%2C_West_view_20170418_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1714
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls%2C_West_view_20170418_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls,_West_view_20170418_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=58487651",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-05-04 15:48:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Maid of the Mist VII approaching the Horseshoe Falls, West view 20170418 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Views from bridges in New York (state)|Horseshoe Falls|April 2017 in New York (state)|Blue sky in New York (state)|Maid of the Mist VII (ship, 1997)|Featured Images by User:DXR|Uploads by User:DXR|Uploads by User:DXR in 2017|Uploads by User:DXR in Ontario|Uploaded with LrMediaWiki|Files with coordinates missing SDC location of creation|United States photographs taken on 2017-04-18|Bare trees in the United States|Canada photographs taken on 2017-04-18|Spring in Niagara County, New York|Blue sky in Ontario|Featured pictures of waterfalls|April 2017 in Ontario|Views from bridges in Ontario",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality|featured|potd",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.079474",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-79.078288",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A west view of the Horseshoe Falls, shown as Maid of the Mist VII is approaching. A rainbow is visible due to the large amount of mist caused by the waterfall",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 18 April 2017, 15:23:11",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:DXR\" title=\"User:DXR\">DXR</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/trip-0.jpg",
+    "dimensions": [
+      2400,
+      1714
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls%2C_West_view_20170418_1.jpg/3840px-Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls%2C_West_view_20170418_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a5b59a828484c69b5804382c35825b956ba28c24b44de19f9c80ed9916103a0c"
+  },
+  {
+    "key": "toronto/trip-1",
+    "slot": "trip-1",
+    "topic": "Passeio regional de meio dia",
+    "path": "/images/destinations/toronto/curated-trip-1.jpg",
+    "pool": "trip-1",
+    "status": "pending-visual-review",
+    "title": "File:Scarborough Bluffs, Toronto, Ontario 1224 (4620330554).jpg",
+    "imageinfo": {
+      "size": 3162980,
+      "width": 3063,
+      "height": 2043,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Scarborough_Bluffs%2C_Toronto%2C_Ontario_1224_%284620330554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1601,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Scarborough_Bluffs%2C_Toronto%2C_Ontario_1224_%284620330554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1601
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Scarborough_Bluffs%2C_Toronto%2C_Ontario_1224_%284620330554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Scarborough_Bluffs,_Toronto,_Ontario_1224_(4620330554).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=101105958",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-03-05 17:34:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Scarborough Bluffs, Toronto, Ontario 1224 (4620330554)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Scarborough Bluffs|Uploads by Matlin|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.706538",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-79.237604",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Scarborough Bluffs, Toronto, Ontario_1224",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-05-18 14:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/bobolink/4620330554/\">Scarborough Bluffs, Toronto, Ontario_1224</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24854893@N00\">Robert Taylor</a> from Stirling, ON, Canada",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/trip-1.jpg",
+    "dimensions": [
+      2400,
+      1601
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Scarborough_Bluffs%2C_Toronto%2C_Ontario_1224_%284620330554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "706cc4a632077ce4441a6c8a5865182c686f05f26221f646090e20bab667ec6a"
+  },
+  {
+    "key": "toronto/trip-2",
+    "slot": "trip-2",
+    "topic": "Destino costeiro ou histórico próximo",
+    "path": "/images/destinations/toronto/curated-trip-2.jpg",
+    "pool": "trip-2",
+    "status": "pending-visual-review",
+    "title": "File:DundurnCastleSummer.JPG",
+    "imageinfo": {
+      "size": 805524,
+      "width": 2816,
+      "height": 2112,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/DundurnCastleSummer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/DundurnCastleSummer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/DundurnCastleSummer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:DundurnCastleSummer.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3708679",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2008-03-14 11:31:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "DundurnCastleSummer",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon Digital IXUS 60|Dundurn Castle|Self-published work|PD-self|June 2007 in Hamilton, Ontario",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Dundurn Castle at Dundurn Park, <a href=\"https://en.wikipedia.org/wiki/Hamilton,_Ontario\" class=\"extiw\" title=\"en:Hamilton, Ontario\">Hamilton, Ontario</a>, Canada",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nhl4hamilton\" title=\"User:Nhl4hamilton\">Nhl4hamilton</a> (Rick Cordeiro)",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "see free license below",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/trip-2.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/DundurnCastleSummer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "0d29cb3d1d474b4cc6fa10209562b7d27a7d4013b9a99f838ac1fb610b84c80e"
+  }
+]

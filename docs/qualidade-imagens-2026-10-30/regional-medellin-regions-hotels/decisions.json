@@ -1,0 +1,66 @@
+{
+  "medellin/region-0": {
+    "decision": "rejected",
+    "notes": "Garagem de imóvel isolado sem representação suficiente da região de Poblado."
+  },
+  "medellin/region-list-0": {
+    "decision": "rejected",
+    "notes": "Fachada de clínica isolada, pouco representativa da região turística."
+  },
+  "medellin/hotel-0": {
+    "decision": "rejected",
+    "notes": "Escultura isolada sem contexto suficiente da região de hospedagem."
+  },
+  "medellin/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Poblado, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "medellin/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Comuna 13, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "medellin/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Comuna 13, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "medellin/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Comuna 13, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "medellin/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Comuna 13, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "medellin/region-2": {
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático de 1923, não fotografia atual da região."
+  },
+  "medellin/region-list-2": {
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático de 1922, não fotografia atual."
+  },
+  "medellin/hotel-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Centro, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "medellin/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Centro, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "medellin/region-3": {
+    "decision": "rejected",
+    "notes": "Macro de flor isolada, sem contexto visual do Parque Arví."
+  },
+  "medellin/region-list-3": {
+    "decision": "rejected",
+    "notes": "Outra macro de flor isolada, sem representação suficiente da região."
+  },
+  "medellin/hotel-3": {
+    "decision": "rejected",
+    "notes": "Garrafa e copo de vinho, assunto inadequado para hospedagem."
+  },
+  "medellin/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Panorama urbano visto do acesso de metrocable, não representa a região florestal de Arví."
+  }
+}

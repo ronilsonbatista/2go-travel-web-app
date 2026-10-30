@@ -1,0 +1,320 @@
+{
+  "city": "sao-francisco",
+  "region": "americas",
+  "pools": {
+    "city": {
+      "query": "\"San Francisco\" skyline",
+      "required": [
+        "san francisco"
+      ],
+      "slots": [
+        "hero",
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "minRatio": 1.35,
+      "reject": "historic|19[0-5][0-9]|black and white",
+      "requiredTitle": "san francisco",
+      "preferredTitles": [
+        "File:Golden Gate Bridge and San Francisco skyline from Hawk Hill at Blue Hour dllu.jpg",
+        "File:San Francisco at Sunset.jpg",
+        "File:Painted Ladies San Francisco January 2013 panorama 2.jpg",
+        "File:San Francisco skyline of April 2017 seen from Treasure Island.jpg",
+        "File:A view of the San Francisco Skyline from Mission Bay at Sunset.jpg",
+        "File:San Francisco Skyline 2024.jpg"
+      ]
+    },
+    "street": {
+      "query": "\"San Francisco\" street",
+      "required": [
+        "san francisco"
+      ],
+      "slots": [
+        "intro",
+        "mistakes",
+        "tips"
+      ],
+      "reject": "historic|19[0-5][0-9]|black and white|balconies|Divisadero|activist|homeless|protest|earthquake"
+    },
+    "currency": {
+      "query": "United States dollar banknotes",
+      "required": [
+        "dollar|united states currency"
+      ],
+      "slots": [
+        "essential-moeda"
+      ]
+    },
+    "language": {
+      "query": "\"San Francisco\" street sign",
+      "required": [
+        "san francisco",
+        "sign"
+      ],
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "transit": {
+      "query": "\"San Francisco\" cable car",
+      "required": [
+        "san francisco",
+        "cable car"
+      ],
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states|american",
+        "passport"
+      ],
+      "slots": [
+        "essential-docs"
+      ]
+    },
+    "food": {
+      "query": "\"San Francisco\" clam chowder",
+      "required": [
+        "san francisco",
+        "chowder"
+      ],
+      "slots": [
+        "costs"
+      ]
+    },
+    "golden": {
+      "query": "\"Golden Gate Bridge\"",
+      "required": [
+        "golden gate bridge"
+      ],
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0",
+        "day-1"
+      ],
+      "reject": "cavo|cross.section|cable cross|portrait|construction|drawing"
+    },
+    "alcatraz": {
+      "query": "Alcatraz island",
+      "required": [
+        "alcatraz"
+      ],
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ]
+    },
+    "wharf": {
+      "query": "\"Fisherman's Wharf\" \"San Francisco\"",
+      "required": [
+        "san francisco",
+        "wharf|pier 39"
+      ],
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2",
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "reject": "applebee|seagull|portrait|activist",
+      "preferredTitles": [
+        "File:Fisherman's Wharf San Francisco January 2013 002.jpg",
+        "File:San Francisco (CA, USA), Pioneer Park, Blick auf Fisherman's Wharf -- 2022 -- 3083.jpg",
+        "File:Aquatic Cove Cityscape San Francisco.jpg",
+        "File:Boats moored at fisherman's wharf, San Francisco against the backdrop of Alioto's.jpg",
+        "File:Fisherman's Wharf, San Francisco sign (TK2).JPG",
+        "File:San Francisco (CA, USA), Fisherman's Wharf Sign -- 2022 -- 202542.jpg"
+      ]
+    },
+    "chinatown": {
+      "query": "\"Chinatown\" \"San Francisco\"",
+      "required": [
+        "san francisco",
+        "chinatown"
+      ],
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ]
+    },
+    "painted": {
+      "query": "\"Painted Ladies\" \"San Francisco\"",
+      "required": [
+        "painted ladies",
+        "san francisco"
+      ],
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ]
+    },
+    "twin": {
+      "query": "\"Twin Peaks\" \"San Francisco\"",
+      "required": [
+        "twin peaks",
+        "san francisco"
+      ],
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5",
+        "day-3"
+      ]
+    },
+    "arrival": {
+      "query": "San Francisco International Airport terminal",
+      "required": [
+        "san francisco",
+        "airport|terminal"
+      ],
+      "slots": [
+        "day-0"
+      ]
+    },
+    "union": {
+      "query": "\"Union Square\" \"San Francisco\"",
+      "required": [
+        "union square",
+        "san francisco"
+      ],
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ],
+      "reject": "construction|tunnel|room|boarded|1937|1906|escalator|elevator|mezzanine|platform|faregate",
+      "preferredTitles": [
+        "File:Union Square, San Francisco 2023-07-14.jpg",
+        "File:Union square 22.jpg",
+        "File:Union Square SF 20250515.jpg",
+        "File:Maiden Lane, San Francisco from Union Square.jpg"
+      ]
+    },
+    "marina": {
+      "query": "\"Marina District\" \"San Francisco\"",
+      "required": [
+        "marina",
+        "san francisco"
+      ],
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1",
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ],
+      "reject": "pelican|surfer|cosmonaut|titov|1962|1989|damage|nara|black and white",
+      "preferredTitles": [
+        "File:Marina district houses, San Francisco, CA, USA (9479233515) (2).jpg",
+        "File:Sunset over the Marina District, August 2017.JPG",
+        "File:Crissy Field Center.jpg",
+        "File:Mariana San Francisco.JPG",
+        "File:Marina - Flickr - S. Rae.jpg",
+        "File:Blackstone Court Landmark District - Flickr - aymanshamma.jpg"
+      ]
+    },
+    "mission": {
+      "query": "\"Mission District\" \"San Francisco\"",
+      "required": [
+        "mission",
+        "san francisco"
+      ],
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2",
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2",
+        "day-2"
+      ],
+      "reject": "protest|frisco five|memorial|homeless|earthquake|camp fire|black and white|luchador|en la lona|carnaval",
+      "preferredTitles": [
+        "File:Mission Street at 24th Street.jpg",
+        "File:Summer evening at 16th and Mission in San Francisco, CA.jpg",
+        "File:DoloresParkSunnyDay.jpg",
+        "File:Mission and 17th.jpg",
+        "File:933–951 Valencia Street, San Francisco.jpg",
+        "File:Artists Television Access in Valencia Street, San Francisco.jpg",
+        "File:2501 25th Street, exterior, San Francisco (February 2024) 01.jpg"
+      ]
+    },
+    "haight": {
+      "query": "\"Haight Ashbury\" \"San Francisco\"",
+      "required": [
+        "haight",
+        "san francisco"
+      ],
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ],
+      "reject": "nudity|activist|police|street fair",
+      "preferredTitles": [
+        "File:Haight-Ashbury 3.jpg",
+        "File:Haight-Ashbury 2.jpg",
+        "File:Row of Victorian houses in San Francisco.JPG"
+      ]
+    },
+    "downtown": {
+      "query": "\"Downtown San Francisco\"",
+      "required": [
+        "san francisco",
+        "downtown|financial district|embarcadero"
+      ],
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ],
+      "preferredTitles": [
+        "File:Financial District, San Francisco.jpg",
+        "File:San Francisco (CA, USA), Pioneer Park, Blick auf den Business District -- 2022 -- 0885.jpg",
+        "File:Long Exposure of San Francisco Financial district.jpg",
+        "File:Skyscrapers of the Embarcadero from Harry Bridges Plaza, San Francisco.jpg"
+      ]
+    },
+    "marin": {
+      "query": "Marin Headlands Golden Gate",
+      "required": [
+        "marin headlands"
+      ],
+      "slots": [
+        "trip-0",
+        "day-4"
+      ]
+    },
+    "sausalito": {
+      "query": "Sausalito California waterfront",
+      "required": [
+        "sausalito"
+      ],
+      "slots": [
+        "trip-1"
+      ]
+    },
+    "coast": {
+      "query": "Half Moon Bay California coast",
+      "required": [
+        "half moon bay"
+      ],
+      "slots": [
+        "trip-2"
+      ]
+    }
+  }
+}

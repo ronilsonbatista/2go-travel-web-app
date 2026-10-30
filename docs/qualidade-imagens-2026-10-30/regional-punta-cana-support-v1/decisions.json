@@ -1,0 +1,62 @@
+{
+  "punta-cana/day-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Chegada em Punta Cana, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "punta-cana/mistakes": {
+    "decision": "rejected",
+    "notes": "Detalhe de mosaico no aeroporto, sem contexto de chegada reconhecivel."
+  },
+  "punta-cana/essential-transporte": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "punta-cana/costs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "punta-cana/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "punta-cana/day-4": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bate-volta ou folga, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "punta-cana/day-1": {
+    "decision": "rejected",
+    "notes": "Apenas faixa de mar sem praia ou marco legivel; procurar composicao representativa de Bavaro."
+  },
+  "punta-cana/tips": {
+    "decision": "rejected",
+    "notes": "Sequencia quase identica da mesma faixa de mar; evitar repeticao visual e buscar contexto de destino."
+  },
+  "punta-cana/day-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bairros e gastronomia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "punta-cana/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Idioma, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "punta-cana/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Nota de um peso de 1849, objeto historico inadequado para pagamentos atuais."
+  },
+  "punta-cana/essential-docs": {
+    "decision": "rejected",
+    "notes": "Capa de passaporte escura e pouco legivel; buscar documento atual com melhor qualidade."
+  },
+  "punta-cana/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Arredores de Punta Cana, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "punta-cana/trip-1": {
+    "decision": "rejected",
+    "notes": "Rua com fios, carros e pessoas em primeiro plano; procurar vista mais clara de Higuey."
+  },
+  "punta-cana/trip-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Destino costeiro ou histórico próximo, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  }
+}

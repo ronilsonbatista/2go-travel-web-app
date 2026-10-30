@@ -1,0 +1,67 @@
+{
+  "city": "toronto",
+  "region": "americas",
+  "center": [
+    43.6532,
+    -79.3832,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Downtown Toronto",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Entertainment District Toronto",
+      "required": [
+        "entertainment district"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Kensington Market Toronto",
+      "required": [
+        "kensington"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Yorkville Toronto",
+      "required": [
+        "yorkville"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "city": "bahamas",
+  "region": "americas",
+  "center": [
+    25.0443,
+    -77.3504,
+    40
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Atlantis Paradise Island Bahamas",
+      "required": [
+        "atlantis"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ]
+    },
+    "attraction-1": {
+      "query": "Pig Beach Exuma Bahamas",
+      "required": [
+        "pig beach|swimming pig|big major cay"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ]
+    },
+    "attraction-2": {
+      "query": "Junkanoo Beach Bahamas",
+      "required": [
+        "junkanoo beach"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ]
+    },
+    "attraction-3": {
+      "query": "Queens Staircase Nassau",
+      "required": [
+        "staircase"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ]
+    },
+    "attraction-4": {
+      "query": "Blue Lagoon Island Bahamas",
+      "required": [
+        "blue lagoon"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ]
+    },
+    "attraction-5": {
+      "query": "Cable Beach Nassau Bahamas",
+      "required": [
+        "cable beach"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ]
+    }
+  }
+}

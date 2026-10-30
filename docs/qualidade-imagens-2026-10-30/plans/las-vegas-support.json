@@ -1,0 +1,233 @@
+{
+  "city": "las-vegas",
+  "region": "americas",
+  "center": [
+    36.1699,
+    -115.1398,
+    40
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Harry Reid International Airport terminal",
+      "required": [
+        "harry reid|mccarran"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Las Vegas Monorail",
+      "required": [
+        "monorail"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Las Vegas shrimp cocktail",
+      "required": [
+        "shrimp cocktail"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Neon Museum Las Vegas",
+      "required": [
+        "neon museum"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Red Rock Canyon Nevada",
+      "required": [
+        "red rock canyon"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Las Vegas Strip",
+      "required": [
+        "las vegas strip"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Las Vegas Strip",
+      "required": [
+        "las vegas strip"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Las Vegas Nevada sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Hoover Dam Nevada",
+      "required": [
+        "hoover dam"
+      ],
+      "locationPatterns": [
+        "nevada|united states|usa"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        36.02,
+        -114.74,
+        25
+      ]
+    },
+    "trip-1": {
+      "query": "Boulder City Nevada",
+      "required": [
+        "boulder city"
+      ],
+      "locationPatterns": [
+        "nevada|united states|usa"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        35.98,
+        -114.83,
+        25
+      ]
+    },
+    "trip-2": {
+      "query": "Lake Mead Nevada",
+      "required": [
+        "lake mead"
+      ],
+      "locationPatterns": [
+        "nevada|united states|usa"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        36.0,
+        -114.8,
+        60
+      ]
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "boston/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Back Bay Fens fica na área de Fenway; nome semelhante não comprova o bairro Back Bay."
+  },
+  "boston/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Parque Back Bay Fens não representa o bairro Back Bay solicitado."
+  },
+  "boston/region-1": {
+    "decision": "rejected",
+    "notes": "Back Bay Fens é área de Fenway; correspondência nominal insuficiente para a região."
+  },
+  "boston/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Back Bay, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/hotel-1": {
+    "decision": "rejected",
+    "notes": "Paisagem de Back Bay Fens sem correspondência suficiente com a região de hospedagem Back Bay."
+  },
+  "boston/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Fachada muito escura e obstruída, pouco legível como imagem ilustrativa de hospedagem."
+  },
+  "boston/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Beacon Hill, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Beacon Hill, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/guide-card": {
+    "decision": "rejected",
+    "notes": "Tampa de rua isolada, sem representação visual suficiente da cidade de Boston."
+  },
+  "boston/neighborhood-2": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; placeholder permanece para nova busca."
+  },
+  "boston/neighborhood-detail-2": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; placeholder permanece para nova busca."
+  },
+  "boston/day-2": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; placeholder permanece para nova busca."
+  },
+  "boston/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Cambridge, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Restaurante muito escuro, enquadramento fraco para representação do bairro."
+  },
+  "boston/region-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Cambridge, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/region-list-2": {
+    "decision": "rejected",
+    "notes": "Retrato de músico domina a composição, não representa a região de Cambridge."
+  },
+  "boston/hotel-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Hotel em Cambridge, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Hotel em Cambridge, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/region-0": {
+    "decision": "rejected",
+    "notes": "Covington, Louisiana: rua chamada Boston não é a cidade de Boston. Assunto geográfico errado."
+  },
+  "boston/region-list-0": {
+    "decision": "rejected",
+    "notes": "Fotografia histórica monocromática, inadequada como vista atual da região."
+  },
+  "boston/hotel-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Hotel em Downtown, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Fotografia histórica monocromática, inadequada como foto ilustrativa atual de hospedagem."
+  },
+  "boston/region-3": {
+    "decision": "rejected",
+    "notes": "Mapa em painel de vidro, proibido como foto de região."
+  },
+  "boston/region-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Waterfront, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/hotel-3": {
+    "decision": "rejected",
+    "notes": "Tenda e pavimento dominam a imagem, contexto do waterfront insuficiente para hospedagem."
+  },
+  "boston/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Hotel em Waterfront, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Dólar confederado histórico, não é moeda atual dos Estados Unidos."
+  },
+  "boston/essential-docs": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Documentação & seguro, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Idioma, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Quadro tarifário datado e de baixa legibilidade; inadequado para representar transporte."
+  },
+  "boston/costs": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Pratos típicos de Boston, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/day-0": {
+    "decision": "rejected",
+    "notes": "Legenda de escultura domina a imagem, não representa chegada ou terminal do aeroporto."
+  },
+  "boston/mistakes": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Erros comuns, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/attraction-0": {
+    "decision": "rejected",
+    "notes": "Detalhe de mosaico muito fechado sem contexto suficiente da Freedom Trail como destaque."
+  },
+  "boston/tips": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Dicas importantes, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/day-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Ícones principais, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/map-list-2": {
+    "decision": "pending",
+    "notes": "Sem candidato utilizável; placeholder permanece para nova busca."
+  },
+  "boston/map-list-4": {
+    "decision": "rejected",
+    "notes": "Cartão estereoscópico histórico, não fotografia atual de Quincy Market."
+  },
+  "boston/day-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Cultura e mirantes, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/day-4": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Bate-volta ou folga, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Arredores de Boston, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/trip-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Passeio regional de meio dia, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  },
+  "boston/trip-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual das duas pranchas: fotografia real de Destino costeiro ou histórico próximo, localização e assunto compatíveis com o pool explícito, orientação correta e composição utilizável; sem mapa, retrato dominante ou inversão perceptível."
+  }
+}

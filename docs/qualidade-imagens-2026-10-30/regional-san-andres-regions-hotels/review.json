@@ -1,0 +1,1364 @@
+[
+  {
+    "key": "san-andres/region-0",
+    "slot": "region-0",
+    "topic": "Norte",
+    "status": "no-candidate",
+    "pool": "region-0"
+  },
+  {
+    "key": "san-andres/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Norte",
+    "status": "no-candidate",
+    "pool": "region-0"
+  },
+  {
+    "key": "san-andres/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Norte",
+    "status": "no-candidate",
+    "pool": "region-0"
+  },
+  {
+    "key": "san-andres/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Norte",
+    "status": "no-candidate",
+    "pool": "region-0"
+  },
+  {
+    "key": "san-andres/region-1",
+    "slot": "region-1",
+    "topic": "San Luis",
+    "path": "/images/destinations/san-andres/curated-region-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:San Luis (8322357388).jpg",
+    "imageinfo": {
+      "size": 9151737,
+      "width": 3877,
+      "height": 2585,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/San_Luis_%288322357388%29.jpg/3840px-San_Luis_%288322357388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/San_Luis_%288322357388%29.jpg/3840px-San_Luis_%288322357388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/San_Luis_%288322357388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:San_Luis_(8322357388).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228688",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-26 19:43:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "San Luis (8322357388)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 400D|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation|Playa San Luis, San Andrés",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.583140",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.690194",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "San Luis",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-19 14:38",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/8322357388/\">San Luis</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/region-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/San_Luis_%288322357388%29.jpg/3840px-San_Luis_%288322357388%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d82b9b24eb9e05eb04a76aeae86f50d5f8df4832575f962710a4499af1a4c281"
+  },
+  {
+    "key": "san-andres/region-list-1",
+    "slot": "region-list-1",
+    "topic": "San Luis",
+    "path": "/images/destinations/san-andres/curated-region-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:San Luis (8321267521).jpg",
+    "imageinfo": {
+      "size": 7107020,
+      "width": 3852,
+      "height": 2568,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/San_Luis_%288321267521%29.jpg/3840px-San_Luis_%288321267521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/San_Luis_%288321267521%29.jpg/3840px-San_Luis_%288321267521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/San_Luis_%288321267521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:San_Luis_(8321267521).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228696",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-26 19:43:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "San Luis (8321267521)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 400D|Flickr images reviewed by File Upload Bot (Magnus Manske)|Flickr images missing SDC creator|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation|Marine deposition in Colombia|Playa San Luis, San Andrés",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.583140",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.690194",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "San Luis",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-19 14:23",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/8321267521/\">San Luis</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/region-list-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/San_Luis_%288321267521%29.jpg/3840px-San_Luis_%288321267521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "950108d89d121929390ad47ce178b4314352b8d40e79d9c501b703873c7aab19"
+  },
+  {
+    "key": "san-andres/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em San Luis",
+    "path": "/images/destinations/san-andres/curated-hotel-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:San Luis (8321263617).jpg",
+    "imageinfo": {
+      "size": 8467367,
+      "width": 3785,
+      "height": 2522,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/San_Luis_%288321263617%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1599,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/San_Luis_%288321263617%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1599
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/San_Luis_%288321263617%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:San_Luis_(8321263617).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228689",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-26 19:43:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "San Luis (8321263617)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 400D|San Andrés, Colombia|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.583140",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.690194",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "San Luis",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-19 14:25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/8321263617/\">San Luis</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1599
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/San_Luis_%288321263617%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "d793770d21cccfbf8752fefcdbe7a463a73d080038f26baf2be4f7d714baef46"
+  },
+  {
+    "key": "san-andres/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em San Luis",
+    "status": "no-candidate",
+    "pool": "region-1"
+  },
+  {
+    "key": "san-andres/region-2",
+    "slot": "region-2",
+    "topic": "Oeste",
+    "path": "/images/destinations/san-andres/curated-region-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:West View (8333604966).jpg",
+    "imageinfo": {
+      "size": 10590578,
+      "width": 3827,
+      "height": 2552,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/15/West_View_%288333604966%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/West_View_%288333604966%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/West_View_%288333604966%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:West_View_(8333604966).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228631",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-26 19:41:59",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "West View (8333604966)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 400D|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation|Tourism in San Andrés",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.583140",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.690194",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "West View",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-17 14:20",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/8333604966/\">West View</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/region-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/West_View_%288333604966%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "3c83f9d26b9be3f562aa2074572f5c96253815577066f03e71bec3866386cdb9"
+  },
+  {
+    "key": "san-andres/region-list-2",
+    "slot": "region-list-2",
+    "topic": "Oeste",
+    "path": "/images/destinations/san-andres/curated-region-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:West View (8332535035).jpg",
+    "imageinfo": {
+      "size": 8962101,
+      "width": 3823,
+      "height": 2549,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/West_View_%288332535035%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/West_View_%288332535035%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/West_View_%288332535035%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:West_View_(8332535035).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228614",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-26 19:41:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "West View (8332535035)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 400D|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation|Tourism in San Andrés",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.583140",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.690194",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "West View",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-17 14:23",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/8332535035/\">West View</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/region-list-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/West_View_%288332535035%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "93f0371c8aa36ac810cba87bb82c11947135b3d9a4057ed01817f626a9af9061"
+  },
+  {
+    "key": "san-andres/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Oeste",
+    "path": "/images/destinations/san-andres/curated-hotel-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:West View (8333577010).jpg",
+    "imageinfo": {
+      "size": 11304509,
+      "width": 3811,
+      "height": 2540,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/West_View_%288333577010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/West_View_%288333577010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/West_View_%288333577010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:West_View_(8333577010).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228611",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-26 19:41:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "West View (8333577010)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 400D|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation|Tourism in San Andrés",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.583140",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.690194",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "West View",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-17 14:48",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/8333577010/\">West View</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/hotel-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/West_View_%288333577010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "07d4878384b24b353cf4848d979187785787d23a8f05862a02394807676f85d9"
+  },
+  {
+    "key": "san-andres/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Oeste",
+    "path": "/images/destinations/san-andres/curated-hotel-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Fishes at West View (8333599404).jpg",
+    "imageinfo": {
+      "size": 9380389,
+      "width": 3888,
+      "height": 2592,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Fishes_at_West_View_%288333599404%29.jpg/3840px-Fishes_at_West_View_%288333599404%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Fishes_at_West_View_%288333599404%29.jpg/3840px-Fishes_at_West_View_%288333599404%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Fishes_at_West_View_%288333599404%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Fishes_at_West_View_(8333599404).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228615",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-26 19:41:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Fishes at West View (8333599404)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 400D|Nature of the Caribbean|Beaches of Colombia|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation|Fish in turquoise water|Tourism in San Andrés",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.583140",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.690194",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Fishes at West View",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-17 14:21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/8333599404/\">Fishes at West View</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/hotel-list-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Fishes_at_West_View_%288333599404%29.jpg/3840px-Fishes_at_West_View_%288333599404%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "700ddd9adaf1f8e49de50e36a0a621f9bf59954dbd742a092a74cbb8d3f70561"
+  },
+  {
+    "key": "san-andres/region-3",
+    "slot": "region-3",
+    "topic": "Cays",
+    "path": "/images/destinations/san-andres/curated-region-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Johnny Cay (8305211722).jpg",
+    "imageinfo": {
+      "size": 8093288,
+      "width": 2551,
+      "height": 3826,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Johnny_Cay_%288305211722%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Johnny_Cay_%288305211722%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Johnny_Cay_%288305211722%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johnny_Cay_(8305211722).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228707",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-26 19:43:29",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Johnny Cay (8305211722)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 400D|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation|Johnny Cay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.579559",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.688821",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Johnny Cay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-18 17:21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/8305211722/\">Johnny Cay</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/region-3.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Johnny_Cay_%288305211722%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "33c25270b16a6dc7d9a81aca6c73e87253757014e7a3fd06deecbc8e7dff01a8"
+  },
+  {
+    "key": "san-andres/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Cays",
+    "path": "/images/destinations/san-andres/curated-region-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Johnny Cay (8304072347).jpg",
+    "imageinfo": {
+      "size": 6070152,
+      "width": 3888,
+      "height": 2592,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Johnny_Cay_%288304072347%29.jpg/3840px-Johnny_Cay_%288304072347%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Johnny_Cay_%288304072347%29.jpg/3840px-Johnny_Cay_%288304072347%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Johnny_Cay_%288304072347%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johnny_Cay_(8304072347).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24228704",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-06-02 02:51:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Johnny Cay (8304072347)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Flickr images reviewed by File Upload Bot (Magnus Manske)|Flickr images missing SDC creator|Photographs by João Carlos Medau|Files with coordinates missing SDC location of creation|Johnny Cay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.579559",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.688821",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Johnny Cay, Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-18 14:40",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/medau/8304072347/\">Johnny Cay</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Dura-Ace\" title=\"User:Dura-Ace\">Dura-Ace</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26657772@N02\">Joao Carlos Medau</a> from Campinas, Brazil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Johnny_Cay_%288304072347%29.jpg/3840px-Johnny_Cay_%288304072347%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7f18b6eed0b135bf25331aa9d015cf4c0460b9533e69cb608c13ac62cd17a761"
+  },
+  {
+    "key": "san-andres/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Cays",
+    "path": "/images/destinations/san-andres/curated-hotel-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Johnny Cay.jpg",
+    "imageinfo": {
+      "size": 442151,
+      "width": 1824,
+      "height": 1368,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Johnny_Cay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Johnny_Cay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Johnny_Cay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johnny_Cay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=32448537",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-04-29 02:39:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Johnny Cay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon PowerShot G12|Self-published work|Johnny Cay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Johnny Cay, islote a una milla al norte de San Andres, Isla, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-03-19 00:48:44",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jorge_Dos_Oceanos&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jorge Dos Oceanos (page does not exist)\">Jorge Dos Oceanos</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/hotel-3.jpg",
+    "dimensions": [
+      1824,
+      1368
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Johnny_Cay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "3ee353868000e72c781818c47a04581e19742980b175f810947c355c8e48989a"
+  },
+  {
+    "key": "san-andres/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Cays",
+    "path": "/images/destinations/san-andres/curated-hotel-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Islote Johnny Cay.JPG",
+    "imageinfo": {
+      "size": 3018905,
+      "width": 3456,
+      "height": 4608,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Islote_Johnny_Cay.JPG/1920px-Islote_Johnny_Cay.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Islote_Johnny_Cay.JPG/1920px-Islote_Johnny_Cay.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Islote_Johnny_Cay.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Islote_Johnny_Cay.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45531536",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-12-09 15:46:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Islote Johnny Cay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Wikivacaciones 2015|Johnny Cay|Uploaded via Campaign:wikivacaciones2015",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "El Islote Johnny Cay un lugar paradisíaco en donde el sol, la playa y la música son los protagonistas. Historias piratas y arrecifes coralinos acompañan estas playas del Caribe Colombiano.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-12-29 22:29:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dgomezvelas&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dgomezvelas (page does not exist)\">Dgomezvelas</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/san-andres/hotel-list-3.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Islote_Johnny_Cay.JPG/1920px-Islote_Johnny_Cay.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c393bb57bb0c2df731169c15c2dcbd9a5dfa4d4fc5150b986e8c06f787f4f01c"
+  }
+]

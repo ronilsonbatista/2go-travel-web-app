@@ -1,0 +1,233 @@
+{
+  "city": "los-angeles",
+  "region": "americas",
+  "center": [
+    34.0522,
+    -118.2437,
+    70
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Los Angeles LAX terminal",
+      "required": [
+        "lax|los angeles international"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Los Angeles Metro Rail",
+      "required": [
+        "metro"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Philippe French Dip Los Angeles",
+      "required": [
+        "philippe|french dip"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Griffith Observatory",
+      "required": [
+        "griffith"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Griffith Park Los Angeles",
+      "required": [
+        "griffith"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Santa Monica Pier",
+      "required": [
+        "santa monica pier"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Santa Monica California",
+      "required": [
+        "santa monica"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Los Angeles sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Santa Catalina Island California",
+      "required": [
+        "catalina"
+      ],
+      "locationPatterns": [
+        "california|united states|usa"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        33.38,
+        -118.41,
+        40
+      ]
+    },
+    "trip-1": {
+      "query": "Pasadena California Old Town",
+      "required": [
+        "pasadena"
+      ],
+      "locationPatterns": [
+        "california|united states|usa"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        34.15,
+        -118.14,
+        20
+      ]
+    },
+    "trip-2": {
+      "query": "Long Beach California coast",
+      "required": [
+        "long beach"
+      ],
+      "locationPatterns": [
+        "california|united states|usa"
+      ],
+      "countryPattern": "california|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        33.77,
+        -118.2,
+        25
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "las-vegas/hero": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Las Vegas, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "las-vegas/intro": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Las Vegas, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "las-vegas/home": {
+    "decision": "rejected",
+    "notes": "Reflexos na janela e aspecto lavado prejudicam a leitura do panorama."
+  },
+  "las-vegas/guide-card": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Las Vegas, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "las-vegas/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Vista desértica muito distante, não representa com clareza o destaque da cidade."
+  },
+  "las-vegas/home-slide": {
+    "decision": "rejected",
+    "notes": "Coloração violeta excessiva prejudica a reprodução natural da cena."
+  },
+  "las-vegas/home-thumb": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Las Vegas: miniatura da home, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  }
+}

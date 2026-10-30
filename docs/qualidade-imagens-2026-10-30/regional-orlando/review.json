@@ -1,0 +1,2045 @@
+[
+  {
+    "key": "orlando/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Walt Disney World",
+    "path": "/images/destinations/orlando/curated-attraction-0.jpg",
+    "pool": "attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Disney World, Orlando Florida.jpg",
+    "imageinfo": {
+      "size": 1833540,
+      "width": 2536,
+      "height": 1912,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Disney_World%2C_Orlando_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1809,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Disney_World%2C_Orlando_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1809
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Disney_World%2C_Orlando_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Disney_World,_Orlando_Florida.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6002154",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-05-20 12:36:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Disney World, Orlando Florida",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Kodak EasyShare CX7530|Self-published work|PD-self|PD US architecture|Walt Disney World Resort in 2007|Spaceship Earth with Mickey wand",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Disney World, Orlando, Florida",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Juliancolton\" title=\"User:Juliancolton\">Juliancolton</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/attraction-0.jpg",
+    "dimensions": [
+      2400,
+      1809
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Disney_World%2C_Orlando_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "22208368734a77509395fab46f843f5bcfdab631062867a395aab7825e31507e"
+  },
+  {
+    "key": "orlando/map-attraction-0",
+    "slot": "map-attraction-0",
+    "topic": "Walt Disney World",
+    "path": "/images/destinations/orlando/curated-map-attraction-0.jpg",
+    "pool": "attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Walt Disney World Epcot Spaceship Earth (50098996988).jpg",
+    "imageinfo": {
+      "size": 1556057,
+      "width": 5313,
+      "height": 3223,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Walt_Disney_World_Epcot_Spaceship_Earth_%2850098996988%29.jpg/3840px-Walt_Disney_World_Epcot_Spaceship_Earth_%2850098996988%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1456,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Walt_Disney_World_Epcot_Spaceship_Earth_%2850098996988%29.jpg/3840px-Walt_Disney_World_Epcot_Spaceship_Earth_%2850098996988%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1456
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Walt_Disney_World_Epcot_Spaceship_Earth_%2850098996988%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_World_Epcot_Spaceship_Earth_(50098996988).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93100229",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-08-13 07:47:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Walt Disney World Epcot Spaceship Earth (50098996988)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Spaceship Earth, Epcot|July 2019 in Florida|Flickr images reviewed by FlickreviewR 2|United States photographs taken on 2019-07-22|Photographs by Anthony Quintano|Walt Disney World Resort in 2019|Walt Disney World Monorail at Epcot",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Walt Disney World Epcot Spaceship Earth",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 22 July 2019, 14:56",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/quintanomedia/50098996988/\">Walt Disney World Epcot Spaceship Earth</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/22882274@N04\">Anthony Quintano</a> from Westminster, United States",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-attraction-0.jpg",
+    "dimensions": [
+      2400,
+      1456
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Walt_Disney_World_Epcot_Spaceship_Earth_%2850098996988%29.jpg/3840px-Walt_Disney_World_Epcot_Spaceship_Earth_%2850098996988%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "69d80f4ec328a6a5129edec766b980fb3565532215dcaf6dc7a7c4759472294e"
+  },
+  {
+    "key": "orlando/map-list-0",
+    "slot": "map-list-0",
+    "topic": "Walt Disney World",
+    "path": "/images/destinations/orlando/curated-map-list-0.jpg",
+    "pool": "attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Mini Golf at Walt Disney World Resort, Orlando, Florida, USA (15634037545).jpg",
+    "imageinfo": {
+      "size": 5501658,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Mini_Golf_at_Walt_Disney_World_Resort%2C_Orlando%2C_Florida%2C_USA_%2815634037545%29.jpg/3840px-Mini_Golf_at_Walt_Disney_World_Resort%2C_Orlando%2C_Florida%2C_USA_%2815634037545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Mini_Golf_at_Walt_Disney_World_Resort%2C_Orlando%2C_Florida%2C_USA_%2815634037545%29.jpg/3840px-Mini_Golf_at_Walt_Disney_World_Resort%2C_Orlando%2C_Florida%2C_USA_%2815634037545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mini_Golf_at_Walt_Disney_World_Resort%2C_Orlando%2C_Florida%2C_USA_%2815634037545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mini_Golf_at_Walt_Disney_World_Resort,_Orlando,_Florida,_USA_(15634037545).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=97762958",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-12-18 15:43:04",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mini Golf at Walt Disney World Resort, Orlando, Florida, USA (15634037545)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Walt Disney World Resort|Flickr images reviewed by FlickreviewR 2|Walt Disney World Resort in 2013|Golfers in art",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<ul><li><ul><li><ul><li><ul><li>COPYRIGHT AND CC INFORMATION ****</li></ul></li></ul></li></ul></li></ul>\n<p>If you like and want to use our photos you're welcome to but we require that you give us the required attribution on each image you use. \n</p>\nAn example of the required attribution is: Image by &lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"http://www.traveljunction.com\">http://www.traveljunction.com</a>\" rel=\"nofollow\"&gt;www.traveljunction.com&lt;/a&gt;",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-12-26 22:18",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/128012202@N05/15634037545/\">Mini Golf at Walt Disney World Resort, Orlando, Florida, USA</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/128012202@N05\">traveljunction</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-list-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Mini_Golf_at_Walt_Disney_World_Resort%2C_Orlando%2C_Florida%2C_USA_%2815634037545%29.jpg/3840px-Mini_Golf_at_Walt_Disney_World_Resort%2C_Orlando%2C_Florida%2C_USA_%2815634037545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "53b8d5c65e587ff82221472f4e5ec65b97fd8195d9b4c6326b2ddf05d16b73c6"
+  },
+  {
+    "key": "orlando/attraction-1",
+    "slot": "attraction-1",
+    "topic": "Universal Orlando",
+    "path": "/images/destinations/orlando/curated-attraction-1.jpg",
+    "pool": "attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:Universal01.jpg",
+    "imageinfo": {
+      "size": 1169271,
+      "width": 1640,
+      "height": 1036,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Universal01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1516,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Universal01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1516
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Universal01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Universal01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4294314",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2008-06-29 10:07:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Universal01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "1993 in Florida|Entrance of Universal Studios Florida|Arches in Florida|Self-published work|PD-self|Files by User:Priwo|July 1993 photographs|Amusement parks in 1993",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Entrance to Universal Orlando Resort",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken in July 1993",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "photo taken by <a href=\"https://de.wikipedia.org/wiki/Benutzer:Priwo\" class=\"extiw\" title=\"de:Benutzer:Priwo\">de:Benutzer:Priwo</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Priwo\" title=\"User:Priwo\">Priwo</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work has been released into the <b><a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a></b> by its author, <b><a href=\"//commons.wikimedia.org/wiki/User:Priwo\" title=\"User:Priwo\">Priwo</a></b>. This applies worldwide.<br><small>In some countries this may not be legally possible; if so:</small><br><i><a href=\"//commons.wikimedia.org/wiki/User:Priwo\" title=\"User:Priwo\">Priwo</a> grants anyone the right to use this work <b>for any purpose</b>, without any conditions, unless such conditions are required by law.</i>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/attraction-1.jpg",
+    "dimensions": [
+      1640,
+      1036
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Universal01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "0ec20666a634dd36799de40c64d1d9dfbf414d29d68a9d8e0950ca1ddd326fcf"
+  },
+  {
+    "key": "orlando/map-attraction-1",
+    "slot": "map-attraction-1",
+    "topic": "Universal Orlando",
+    "path": "/images/destinations/orlando/curated-map-attraction-1.jpg",
+    "pool": "attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:Dragon at Universal Studios Orlando, FL.jpg",
+    "imageinfo": {
+      "size": 555660,
+      "width": 1280,
+      "height": 1920,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Dragon_at_Universal_Studios_Orlando%2C_FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Dragon_at_Universal_Studios_Orlando%2C_FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Dragon_at_Universal_Studios_Orlando%2C_FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dragon_at_Universal_Studios_Orlando,_FL.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=136212432",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-08-19 21:50:23",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Dragon at Universal Studios Orlando, FL",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Dragons|The Wizarding World of Harry Potter Diagon Alley (Universal Studios Florida)|Self-published work|Afternoon in Florida",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Dragon that sits on top of a building that breathes fire every 15 minutes, located in Universal Studios in Orlando, FL",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-12-23 16:53:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Milksteak27&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Milksteak27 (page does not exist)\">Milksteak27</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-attraction-1.jpg",
+    "dimensions": [
+      1280,
+      1920
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Dragon_at_Universal_Studios_Orlando%2C_FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "839f3f2433d08ae2f11c67120e9ef19101243da71c8ba552b55d8159a5f2f7af"
+  },
+  {
+    "key": "orlando/map-list-1",
+    "slot": "map-list-1",
+    "topic": "Universal Orlando",
+    "path": "/images/destinations/orlando/curated-map-list-1.jpg",
+    "pool": "attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:Universal Studios South Street.jpg",
+    "imageinfo": {
+      "size": 11533105,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Universal_Studios_South_Street.jpg/3840px-Universal_Studios_South_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Universal_Studios_South_Street.jpg/3840px-Universal_Studios_South_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Universal_Studios_South_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Universal_Studios_South_Street.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=138073193",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-09-24 23:24:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Universal Studios South Street",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Universal Studios Florida|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.476762",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.468676",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A picture of San Francisco set at Universal Orlando",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-06-30 15:01:53",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Kirchel&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Kirchel (page does not exist)\">Thomas Kirchel</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-list-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Universal_Studios_South_Street.jpg/3840px-Universal_Studios_South_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b31a92f872549a56c0354d5d8bc2bd50868fbda74de19576498c7c05450dd646"
+  },
+  {
+    "key": "orlando/attraction-2",
+    "slot": "attraction-2",
+    "topic": "ICON Park",
+    "path": "/images/destinations/orlando/curated-attraction-2.jpg",
+    "pool": "attraction-2",
+    "status": "pending-visual-review",
+    "title": "File:ICON Park green overview.jpg",
+    "imageinfo": {
+      "size": 4187799,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/ICON_Park_green_overview.jpg/3840px-ICON_Park_green_overview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/ICON_Park_green_overview.jpg/3840px-ICON_Park_green_overview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/ICON_Park_green_overview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:ICON_Park_green_overview.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128882233",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-02-20 02:58:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "ICON Park green overview",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Orlando Eye|February 2023 in Florida|ICON Park|Self-published work|Amusement parks in 2023",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Located at: ICON Park, 8375 International Dr, Orlando, FL 32819",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-02-18 17:36:16",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kiran891\" title=\"User:Kiran891\">Kiran891</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/attraction-2.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/ICON_Park_green_overview.jpg/3840px-ICON_Park_green_overview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "3db2687199ef235343e77024ccfbde64f2952f7c3e863e91c6bb639102d8777d"
+  },
+  {
+    "key": "orlando/map-attraction-2",
+    "slot": "map-attraction-2",
+    "topic": "ICON Park",
+    "path": "/images/destinations/orlando/curated-map-attraction-2.jpg",
+    "pool": "attraction-2",
+    "status": "pending-visual-review",
+    "title": "File:The Wheel at ICON Park (purple).jpg",
+    "imageinfo": {
+      "size": 8779382,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/The_Wheel_at_ICON_Park_%28purple%29.jpg/1920px-The_Wheel_at_ICON_Park_%28purple%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/The_Wheel_at_ICON_Park_%28purple%29.jpg/1920px-The_Wheel_at_ICON_Park_%28purple%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/The_Wheel_at_ICON_Park_%28purple%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Wheel_at_ICON_Park_(purple).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128882333",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-02-20 03:07:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "The Wheel at ICON Park (purple)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Orlando Eye at night|December 2022 in Florida|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The Wheel at ICON Park (purple)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-12-28 18:11:14",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kiran891\" title=\"User:Kiran891\">Kiran891</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-attraction-2.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/The_Wheel_at_ICON_Park_%28purple%29.jpg/1920px-The_Wheel_at_ICON_Park_%28purple%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ad5ba6d102c001da44f754a8334fe94492cfe0bb0f8823a04fbc7ccf1829a1dc"
+  },
+  {
+    "key": "orlando/map-list-2",
+    "slot": "map-list-2",
+    "topic": "ICON Park",
+    "path": "/images/destinations/orlando/curated-map-list-2.jpg",
+    "pool": "attraction-2",
+    "status": "pending-visual-review",
+    "title": "File:The Wheel at ICON Park (yellow).jpg",
+    "imageinfo": {
+      "size": 8363263,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/The_Wheel_at_ICON_Park_%28yellow%29.jpg/1920px-The_Wheel_at_ICON_Park_%28yellow%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/The_Wheel_at_ICON_Park_%28yellow%29.jpg/1920px-The_Wheel_at_ICON_Park_%28yellow%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/The_Wheel_at_ICON_Park_%28yellow%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Wheel_at_ICON_Park_(yellow).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128882334",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-02-20 03:07:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "The Wheel at ICON Park (yellow)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Orlando Eye at night|December 2022 in Florida|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The Wheel at ICON Park (yellow)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-12-28 18:11:08",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kiran891\" title=\"User:Kiran891\">Kiran891</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-list-2.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/The_Wheel_at_ICON_Park_%28yellow%29.jpg/1920px-The_Wheel_at_ICON_Park_%28yellow%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ee2a52566d714e7fa6e9209a040477e584ba59187a27cc4550f14f11acb5afdd"
+  },
+  {
+    "key": "orlando/attraction-3",
+    "slot": "attraction-3",
+    "topic": "Kennedy Space Center (bate-volta)",
+    "path": "/images/destinations/orlando/curated-attraction-3.jpg",
+    "pool": "attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Space Shuttle Discovery under a full moon, 03-11-09.jpg",
+    "imageinfo": {
+      "size": 345959,
+      "width": 1875,
+      "height": 2339,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Space_Shuttle_Discovery_under_a_full_moon%2C_03-11-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2994,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Space_Shuttle_Discovery_under_a_full_moon%2C_03-11-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2994
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Space_Shuttle_Discovery_under_a_full_moon%2C_03-11-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Discovery_under_a_full_moon,_03-11-09.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6207875",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-03-11 19:40:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Space Shuttle Discovery under a full moon, 03-11-09",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD NASA|STS-119|Featured pictures from NASA|March 2009 in Florida|Featured night photography|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Tamil|Featured pictures on Wikipedia, Vietnamese|Moon with foreground objects|United States photographs taken on 2009-03-11|Kennedy Space Center in 2009|Featured pictures of Kennedy Space Center|Kennedy Space Center at night|Featured pictures of Space Shuttles|Featured photographs in the public domain|Files from NASA with known IDs|Space Shuttle Discovery at the Kennedy Space Center Launch Complex 39|Rotating Service Structures|Pictures of the Year/2011 (finalist)|LC-39A Fixed Service Structure (Space Shuttle)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "featured|potd|poty",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A nearly full Moon sets as the space shuttle Discovery sits atop Launch pad 39A at the Kennedy Space Center in Cape Canaveral, Florida, in the early morning hours of Wednesday, March 11, 2009.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 11 March 2009",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://www.nasa.gov/images/content/317864main_full-moon_full.JPG\" href=\"https://www.nasa.gov/images/content/317864main_full-moon_full.JPG\">http://www.nasa.gov/images/content/317864main_full-moon_full.JPG</a>\n</p>\n<ul><li><a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://mediaarchive.ksc.nasa.gov/detail.cfm?mediaid=40115\" href=\"https://mediaarchive.ksc.nasa.gov/detail.cfm?mediaid=40115\">http://mediaarchive.ksc.nasa.gov/detail.cfm?mediaid=40115</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "NASA/Bill Inglais",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/attraction-3.jpg",
+    "dimensions": [
+      1875,
+      2339
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Space_Shuttle_Discovery_under_a_full_moon%2C_03-11-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "4326213d2c69a11118aac8fc223d728a19ef4be415f03a7fc69b05404a6632f9"
+  },
+  {
+    "key": "orlando/map-attraction-3",
+    "slot": "map-attraction-3",
+    "topic": "Kennedy Space Center (bate-volta)",
+    "path": "/images/destinations/orlando/curated-map-attraction-3.jpg",
+    "pool": "attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Kennedy Space Center Visitor Complex (KSC-20170912-PH SWW01 0357).jpg",
+    "imageinfo": {
+      "size": 15259973,
+      "width": 5616,
+      "height": 3744,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Kennedy_Space_Center_Visitor_Complex_%28KSC-20170912-PH_SWW01_0357%29.jpg/3840px-Kennedy_Space_Center_Visitor_Complex_%28KSC-20170912-PH_SWW01_0357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Kennedy_Space_Center_Visitor_Complex_%28KSC-20170912-PH_SWW01_0357%29.jpg/3840px-Kennedy_Space_Center_Visitor_Complex_%28KSC-20170912-PH_SWW01_0357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kennedy_Space_Center_Visitor_Complex_%28KSC-20170912-PH_SWW01_0357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kennedy_Space_Center_Visitor_Complex_(KSC-20170912-PH_SWW01_0357).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66452018",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-01-31 08:13:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Kennedy Space Center Visitor Complex (KSC-20170912-PH SWW01 0357)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD NASA|Kennedy Space Center Visitor Complex in 2017|Aerial photographs of the Kennedy Space Center Visitor Complex|Photographs by Bill White",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The Kennedy Space Center Visitor Complex is seen during an aerial survey of NASA's Kennedy Space Center in Florida on September 12, 2017. The survey was performed to identify structures and facilities that may have sustained damage from Hurricane Irma as the storm passed Kennedy on September 10, 2017. NASA closed the center ahead of the storm's onset and only a small team of specialists known as the Rideout Team was on the center as the storm approached and passed.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-09-12 16:05:44",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://images.nasa.gov/details-KSC-20170912-PH_SWW01_0357\">https://images.nasa.gov/details-KSC-20170912-PH_SWW01_0357</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q117487120\" class=\"extiw\" title=\"d:Q117487120\"><span title=\"American photographer\">Bill White</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-attraction-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Kennedy_Space_Center_Visitor_Complex_%28KSC-20170912-PH_SWW01_0357%29.jpg/3840px-Kennedy_Space_Center_Visitor_Complex_%28KSC-20170912-PH_SWW01_0357%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7c104cc58bb3cd3dfb222bdddd40c61cfee440c7d9313e4bf22073f3b5ff531c"
+  },
+  {
+    "key": "orlando/map-list-3",
+    "slot": "map-list-3",
+    "topic": "Kennedy Space Center (bate-volta)",
+    "path": "/images/destinations/orlando/curated-map-list-3.jpg",
+    "pool": "attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Obama leaves Kennedy Space Center - 201004150007HQ.jpg",
+    "imageinfo": {
+      "size": 767834,
+      "width": 3483,
+      "height": 2554,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Obama_leaves_Kennedy_Space_Center_-_201004150007HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1760,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/Obama_leaves_Kennedy_Space_Center_-_201004150007HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1760
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Obama_leaves_Kennedy_Space_Center_-_201004150007HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Obama_leaves_Kennedy_Space_Center_-_201004150007HQ.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27330571",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-07-19 09:17:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Obama leaves Kennedy Space Center - 201004150007HQ",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD NASA|Personality rights warning|Photographs by Bill Ingalls|Barack Obama's visit to Kennedy Space Center (April 2010)|Interior of the Operations and Checkout Building|Files from NASA with known IDs|Uploaded by O'Dea",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "United States President Barack Obama waves farewell after speaking at the Operations and Checkout Building at Kennedy Space Center in Cape Canaveral, Florida on Thursday, 15 April 2010. Obama visited the Center to speak about the future of American human space flight.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-04-15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/444757main_201004150007HQ\">NASA Images (Archive.org)</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q71171454\" class=\"extiw\" title=\"d:Q71171454\"><span title=\"American photographer\">Bill Ingalls</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "personality",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-list-3.jpg",
+    "dimensions": [
+      2400,
+      1760
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Obama_leaves_Kennedy_Space_Center_-_201004150007HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "54b2af69520097882f9a7c4d1135fd284ca0c9a8211970dc2e7ee157ddc9ad6c"
+  },
+  {
+    "key": "orlando/attraction-4",
+    "slot": "attraction-4",
+    "topic": "Lake Eola",
+    "path": "/images/destinations/orlando/curated-attraction-4.jpg",
+    "pool": "attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Lake-eola-park-orlando-florida.jpg",
+    "imageinfo": {
+      "size": 4886065,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lake-eola-park-orlando-florida.jpg/3840px-Lake-eola-park-orlando-florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lake-eola-park-orlando-florida.jpg/3840px-Lake-eola-park-orlando-florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Lake-eola-park-orlando-florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake-eola-park-orlando-florida.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107578445",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-07-15 15:12:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lake-eola-park-orlando-florida",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Lake Eola|Self-published work|Orlando, Florida skylines|Downtown Orlando, Florida|Orlando, Florida skylines viewed from Lake Eola Park",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A beautiful sunny afternoon at <a rel=\"nofollow\" class=\"external text\" href=\"https://www.orlandothings.com/attractions/lake-eola-park/\">Lake Eola Park</a> in downtown <a rel=\"nofollow\" class=\"external text\" href=\"https://www.orlandothings.com/\">Orlando, Florida</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-01-23 13:04:35",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Citythings\" title=\"User:Citythings\">OrlandoThings.com</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/attraction-4.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lake-eola-park-orlando-florida.jpg/3840px-Lake-eola-park-orlando-florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "239175cc28ff1afe2259fc68fa61e61f3ce3b5318e0c20ee0ba1f383a60ddb08"
+  },
+  {
+    "key": "orlando/map-attraction-4",
+    "slot": "map-attraction-4",
+    "topic": "Lake Eola",
+    "path": "/images/destinations/orlando/curated-map-attraction-4.jpg",
+    "pool": "attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Lake Eola and Orlando Skyline seen in 2024.jpg",
+    "imageinfo": {
+      "size": 15323810,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg/3840px-Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg/3840px-Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153857427",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-10-13 02:09:03",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lake Eola and Orlando Skyline seen in 2024",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Lakes of Florida|Self-published work|Files with coordinates missing SDC location of creation|Downtown Orlando, Florida|Orlando, Florida skylines viewed from Lake Eola Park",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.543143",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.371850",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Lake Eola's fountain and Amphitheater seen in the foreground with the Orlando Skyline seen in The background.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-10-12 14:24:06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:JER3L1337\" title=\"User:JER3L1337\">JER3L1337</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-attraction-4.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg/3840px-Lake_Eola_and_Orlando_Skyline_seen_in_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a0ad2506724d1fcfaccd9f5cb05cf6942eabcead716dc53ad67972836fc37dfd"
+  },
+  {
+    "key": "orlando/map-list-4",
+    "slot": "map-list-4",
+    "topic": "Lake Eola",
+    "path": "/images/destinations/orlando/curated-map-list-4.jpg",
+    "pool": "attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Lake Eola Heights Historic District Bungalow.jpg",
+    "imageinfo": {
+      "size": 1711316,
+      "width": 5472,
+      "height": 3648,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lake_Eola_Heights_Historic_District_Bungalow.jpg/3840px-Lake_Eola_Heights_Historic_District_Bungalow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lake_Eola_Heights_Historic_District_Bungalow.jpg/3840px-Lake_Eola_Heights_Historic_District_Bungalow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Lake_Eola_Heights_Historic_District_Bungalow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lake_Eola_Heights_Historic_District_Bungalow.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=32100219",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-04-10 22:37:04",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lake Eola Heights Historic District Bungalow",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Samsung NX2000|Lake Eola Heights Historic District|Bungalows in Florida|March 2014 in Florida|Self-published work|Houses in Orlando, Florida|National Register of Historic Places with known IDs|United States photographs taken on 2014-03-28|Visitor7 2014",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.548527",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.371748",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A house in Lake Eola Heights Historic District in Orlando, Florida",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 28 March 2014, 07:49:14",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Visitor7&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Visitor7 (page does not exist)\">Visitor7</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-list-4.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lake_Eola_Heights_Historic_District_Bungalow.jpg/3840px-Lake_Eola_Heights_Historic_District_Bungalow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "5d032cf141a78cd2583e6120be9b5b406429bc2b271aa293890e8ad1ed0c6535"
+  },
+  {
+    "key": "orlando/attraction-5",
+    "slot": "attraction-5",
+    "topic": "International Drive",
+    "path": "/images/destinations/orlando/curated-attraction-5.jpg",
+    "pool": "attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Four Points By Sheraton Orlando International Drive 02.jpg",
+    "imageinfo": {
+      "size": 3073821,
+      "width": 3411,
+      "height": 4027,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Four_Points_By_Sheraton_Orlando_International_Drive_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2833,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Four_Points_By_Sheraton_Orlando_International_Drive_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2833
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Four_Points_By_Sheraton_Orlando_International_Drive_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Four_Points_By_Sheraton_Orlando_International_Drive_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157536673",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-01-04 19:21:31",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Four Points By Sheraton Orlando International Drive 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Hotels in the United States photographed in 2025|United States photographs taken on 2025-01-04|January 2025 in Orlando, Florida|Four Points by Sheraton Orlando International Drive|Photographs of Orlando, Florida by Farragutful",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.462789",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.462364",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Four Points By Sheraton Orlando International Drive in <a href=\"https://en.wikipedia.org/wiki/Orlando,_Florida\" class=\"extiw\" title=\"en:Orlando, Florida\">Orlando, Florida</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 4 January 2025 13:47:13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Farragutful\" title=\"User:Farragutful\">Farragutful</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/attraction-5.jpg",
+    "dimensions": [
+      2033,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Four_Points_By_Sheraton_Orlando_International_Drive_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "73091c745281c26360f0287e5723384f1efa51099e72879025f99bf5ce3ce2a7"
+  },
+  {
+    "key": "orlando/map-attraction-5",
+    "slot": "map-attraction-5",
+    "topic": "International Drive",
+    "path": "/images/destinations/orlando/curated-map-attraction-5.jpg",
+    "pool": "attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Four Points By Sheraton Orlando International Drive 03.jpg",
+    "imageinfo": {
+      "size": 1873308,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Four_Points_By_Sheraton_Orlando_International_Drive_03.jpg/3840px-Four_Points_By_Sheraton_Orlando_International_Drive_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Four_Points_By_Sheraton_Orlando_International_Drive_03.jpg/3840px-Four_Points_By_Sheraton_Orlando_International_Drive_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Four_Points_By_Sheraton_Orlando_International_Drive_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Four_Points_By_Sheraton_Orlando_International_Drive_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157536675",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-01-04 19:21:31",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Four Points By Sheraton Orlando International Drive 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Hotels in the United States photographed in 2025|United States photographs taken on 2025-01-01|January 2025 in Orlando, Florida|Four Points by Sheraton Orlando International Drive|Photographs of Orlando, Florida by Farragutful",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.465039",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.471253",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Four Points By Sheraton Orlando International Drive in <a href=\"https://en.wikipedia.org/wiki/Orlando,_Florida\" class=\"extiw\" title=\"en:Orlando, Florida\">Orlando, Florida</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 1 January 2025 16:39:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Farragutful\" title=\"User:Farragutful\">Farragutful</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-attraction-5.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Four_Points_By_Sheraton_Orlando_International_Drive_03.jpg/3840px-Four_Points_By_Sheraton_Orlando_International_Drive_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "dd3efbbcc8c1f97e5a09d4cc725a495127abd9c457cae0c403cffe1163016b4c"
+  },
+  {
+    "key": "orlando/map-list-5",
+    "slot": "map-list-5",
+    "topic": "International Drive",
+    "path": "/images/destinations/orlando/curated-map-list-5.jpg",
+    "pool": "attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Four Points By Sheraton Orlando International Drive 01.jpg",
+    "imageinfo": {
+      "size": 4021209,
+      "width": 4284,
+      "height": 5712,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Four_Points_By_Sheraton_Orlando_International_Drive_01.jpg/3840px-Four_Points_By_Sheraton_Orlando_International_Drive_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Four_Points_By_Sheraton_Orlando_International_Drive_01.jpg/3840px-Four_Points_By_Sheraton_Orlando_International_Drive_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Four_Points_By_Sheraton_Orlando_International_Drive_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Four_Points_By_Sheraton_Orlando_International_Drive_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157536676",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-01-04 19:21:31",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Four Points By Sheraton Orlando International Drive 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Hotels in the United States photographed in 2025|United States photographs taken on 2025-01-04|January 2025 in Orlando, Florida|Four Points by Sheraton Orlando International Drive|Photographs of Orlando, Florida by Farragutful",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "28.463300",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.462661",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Four Points By Sheraton Orlando International Drive in <a href=\"https://en.wikipedia.org/wiki/Orlando,_Florida\" class=\"extiw\" title=\"en:Orlando, Florida\">Orlando, Florida</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 4 January 2025 13:49:10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Farragutful\" title=\"User:Farragutful\">Farragutful</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/orlando/map-list-5.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Four_Points_By_Sheraton_Orlando_International_Drive_01.jpg/3840px-Four_Points_By_Sheraton_Orlando_International_Drive_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b5a8c1bb26db055fc3fe1184fd2c0359a24dd19b4f23c440eeca86fec7581fa1"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "toronto/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "toronto/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "toronto/neighborhood-1": {
+    "decision": "rejected",
+    "notes": "Detalhe isolado de relógio/sinal, sem representação suficiente de Entertainment District."
+  },
+  "toronto/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Fachadas escuras e céu dominam o enquadramento; pouco contexto do bairro."
+  },
+  "toronto/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Kensington: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "toronto/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Kensington: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "toronto/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Yorkville: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "toronto/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Registro datado de 1974, inadequado como vista atual de Yorkville."
+  }
+}

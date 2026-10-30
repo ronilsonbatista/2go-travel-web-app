@@ -1,0 +1,51 @@
+[
+  {
+    "key": "havai/hero",
+    "slot": "hero",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "havai/intro",
+    "slot": "intro",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "havai/home",
+    "slot": "home",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "havai/guide-card",
+    "slot": "guide-card",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "havai/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "havai/home-slide",
+    "slot": "home-slide",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "havai/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Havaí: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights"
+  }
+]
