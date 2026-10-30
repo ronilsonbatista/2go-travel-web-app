@@ -88,6 +88,14 @@
     "notes": "Fachada identificada como Prefeitura de Lambaré, inadequada para ilustrar hospedagem."
   },
   {
+    "bundle": "regional-assuncao-support-v1",
+    "key": "assuncao/essential-idioma",
+    "title": "File:Catedral, Asuncion, Paraguay - panoramio (155).jpg",
+    "sha256": "a70df6fa5355c2102394c95db2e37064c22c2d3afd3beb611972cc210f9c15c4",
+    "decision": "rejected",
+    "notes": "Fachada escura e fios dificultam a leitura do texto, qualidade insuficiente para ilustrar idioma."
+  },
+  {
     "bundle": "regional-bahamas",
     "key": "bahamas/map-list-3",
     "title": "File:Bahamas 1988 (222) New Providence Queen's Staircase, Nassau (23352376294).jpg",
@@ -232,6 +240,54 @@
     "notes": "Veículos e terreno em registro de 1989, contexto insuficiente para hospedagem."
   },
   {
+    "bundle": "regional-bahamas-support-v1",
+    "key": "bahamas/mistakes",
+    "title": "File:NAS - Nassau - 2009 (4).jpg",
+    "sha256": "47019e920cf87c767f33cd4d6bf3e2ae517da6b60c9aae7febe04ae47af65f1e",
+    "decision": "rejected",
+    "notes": "Interior de aeroporto pouco nitido e datado de 2009, qualidade visual insuficiente."
+  },
+  {
+    "bundle": "regional-bahamas-support-v1",
+    "key": "bahamas/essential-transporte",
+    "title": "File:Downtown Nassau - panoramio (5).jpg",
+    "sha256": "94ce4f170cd2dc2cec0945a0bb24731d6f2bd789171320cce1cf79c4c58d0ac7",
+    "decision": "rejected",
+    "notes": "Onibus escolar domina a foto, nao representa transporte de visitantes."
+  },
+  {
+    "bundle": "regional-bahamas-support-v1",
+    "key": "bahamas/day-4",
+    "title": "File:CANADIAN HOTEL AT CABLE BEACH, NASSAU.jpg",
+    "sha256": "211009f69d7a2e2326600d172715522c81a83490736c6201b48a391c0bf3478b",
+    "decision": "rejected",
+    "notes": "Fotografia antiga com forte tonalidade ciano de edificio, pouco contexto de lazer atual."
+  },
+  {
+    "bundle": "regional-bahamas-support-v1",
+    "key": "bahamas/tips",
+    "title": "File:Atlantis Paradise Island resort, as seen from Nassau Cruise Port, Bahamas (March 14, 2024) 01.jpg",
+    "sha256": "9404496defacdc71b05c65d80453ef5879726e04ffbf23fa446d48d275877b35",
+    "decision": "rejected",
+    "notes": "Enquadramento proximo da vista de Atlantis escolhida para o dia de icones, rejeitado por repeticao visual."
+  },
+  {
+    "bundle": "regional-bahamas-support-v1",
+    "key": "bahamas/day-2",
+    "title": "File:Downtown Nassau, Nassau, The Bahamas - panoramio (10).jpg",
+    "sha256": "e47202ccbde8dec2c9ca2b39780f88fff4e273059bed25389729eee321cf6161",
+    "decision": "rejected",
+    "notes": "Cidade ocupa faixa pequena entre grandes areas muito escuras, baixa legibilidade."
+  },
+  {
+    "bundle": "regional-bahamas-support-v1",
+    "key": "bahamas/trip-2",
+    "title": "File:Fort Charlotte Nassau Bahamas 2012 - panoramio.jpg",
+    "sha256": "96aafa79b43a764be5584556dc1979d1f21b1872f42112b5a2b0bf6b67cfa926",
+    "decision": "rejected",
+    "notes": "Fortificacao pouco visivel e data/hora sobreposta, qualidade insuficiente para o passeio."
+  },
+  {
     "bundle": "regional-bogota",
     "key": "bogota/map-attraction-3",
     "title": "File:Mining - Usaquén - Eastern Hills, Bogotá.jpg",
@@ -358,6 +414,30 @@
     "sha256": "3122c4941f7411936c5276a18da2a2f02010719065dfb68228b3a9a7c6d13a5c",
     "decision": "rejected",
     "notes": "Troncos e galhos ocultam o panorama, pouca legibilidade para hospedagem."
+  },
+  {
+    "bundle": "regional-bogota-support-v1",
+    "key": "bogota/day-1",
+    "title": "File:Bogota mercado de la pulgas, Monserrate al fondo - panoramio.jpg",
+    "sha256": "b7a711cb35d4cffb933a318a87eb1acf5b2249b55401a8f023cd6ae3716e105c",
+    "decision": "rejected",
+    "notes": "Mercado de pulgas domina a composicao; Monserrate aparece apenas ao fundo, correspondencia fraca com o icone escolhido."
+  },
+  {
+    "bundle": "regional-bogota-support-v1",
+    "key": "bogota/tips",
+    "title": "File:Cafetería Santa Clara Monserrate, Bogotá, Colombia 01.jpg",
+    "sha256": "13faf3be3aced64b0b33518096b74af42c53a0b0485470e53aad993b413dcf30",
+    "decision": "rejected",
+    "notes": "Imagem noturna muito escura, pessoas e estruturas pouco legiveis."
+  },
+  {
+    "bundle": "regional-bogota-support-v1",
+    "key": "bogota/essential-idioma",
+    "title": "File:Afiche de Jazz al Parque 1997 (Bogotá, Colombia).jpg",
+    "sha256": "73a4f11aa631b6facabd6c18207441f19c03bcc6617a7d980b35cac7c4d3f8ce",
+    "decision": "rejected",
+    "notes": "Cartaz de evento datado de 1997, pouco adequado para ilustrar idioma atual do destino."
   },
   {
     "bundle": "regional-boston",
@@ -696,6 +776,30 @@
     "notes": "Rodovia e passarela dominam a composição, pouco contexto para hospedagem ilustrativa."
   },
   {
+    "bundle": "regional-chicago-support-v1",
+    "key": "chicago/mistakes",
+    "title": "File:Brachiosaurus altithorax, United Airlines terminal, OHare Airport (6475405135).jpg",
+    "sha256": "c43c7143c66679cd1a7ce9fbd21056472c9209b86d77df913c75c15df31d5aa4",
+    "decision": "rejected",
+    "notes": "Esqueleto exposto no teto domina o assunto, pouco contexto para erros de viagem."
+  },
+  {
+    "bundle": "regional-chicago-support-v1",
+    "key": "chicago/tips",
+    "title": "File:Chicago (9694666470) (2).jpg",
+    "sha256": "b68ff564550841e83e55fc1d78aef51d43df69ed50fd9d41a23008ceaf5d9145",
+    "decision": "rejected",
+    "notes": "Variante da foto Flickr 9694666470 ja usada em Cloud Gate; repeticao do mesmo original."
+  },
+  {
+    "bundle": "regional-chicago-support-v1",
+    "key": "chicago/day-2",
+    "title": "File:0-0-Chicago.jpg",
+    "sha256": "82362f8601d6cb7928481a39dfde5690ac9b9702e5eecec9043357606baba560",
+    "decision": "rejected",
+    "notes": "Detalhe de tampa no pavimento, sem representacao suficiente de bairros e gastronomia."
+  },
+  {
     "bundle": "regional-cidade-do-mexico",
     "key": "cidade-do-mexico/attraction-0",
     "title": "File:Mexico City Zocalo and Cathedral c 1950s, MAF 007305-001.jpg",
@@ -872,6 +976,38 @@
     "notes": "Registro antigo de 1976, baixa qualidade e pessoa dominante, inadequado para hospedagem."
   },
   {
+    "bundle": "regional-cidade-do-mexico-support-v1",
+    "key": "cidade-do-mexico/day-0",
+    "title": "File:Aeropuerto Internacional Benito Juárez.jpg",
+    "sha256": "152a784fc09901399f1a6859e74593f49ec0e8d50590bb59c4ccc14627ec763c",
+    "decision": "rejected",
+    "notes": "Aeroporto distante sob forte nevoa, baixa nitidez e pouco contexto de chegada."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-support-v1",
+    "key": "cidade-do-mexico/essential-transporte",
+    "title": "File:Exterior del Metro Potrero tras colisión de trenes 2023 - 1.jpg",
+    "sha256": "fa613580b75d0979b6fec024f7d6ba46e583eff6a3e9b263a2b2e226ddc51a17",
+    "decision": "rejected",
+    "notes": "Placa de informacao a familiares apos colisao de trens, nao representa transporte cotidiano."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-support-v1",
+    "key": "cidade-do-mexico/day-1",
+    "title": "File:Christmas tree and Metropolitan Cathedral at Mexico's City zócalo.jpg",
+    "sha256": "b1626f36d197bf85c3500b894641329fc8f0ee748ba63abd82a345b5a23b3d7a",
+    "decision": "rejected",
+    "notes": "Arvore de Natal domina e oculta o monumento, enquadramento fraco para icones principais."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-support-v1",
+    "key": "cidade-do-mexico/trip-2",
+    "title": "File:Itacate de Tepoztlán 2022.jpg",
+    "sha256": "eef6457d4514b62e699f55c22a3588e137f638d8797be3e3fd8eef913dd2512f",
+    "decision": "rejected",
+    "notes": "Prato de comida isolado, sem representacao suficiente do destino historico proximo."
+  },
+  {
     "bundle": "regional-cidade-do-panama",
     "key": "cidade-do-panama/attraction-0",
     "title": "File:WorkerAtMirafloresLocksPanamaCanal.jpg",
@@ -968,6 +1104,30 @@
     "notes": "Registro histórico de embarcação, assunto e época inadequados para ilustrar hospedagem atual em Amador."
   },
   {
+    "bundle": "regional-cidade-do-panama-support-v1",
+    "key": "cidade-do-panama/mistakes",
+    "title": "File:HP-9925CMP Copa Airlines Boeing 737 MAX 9 at Tocumen International Airport 02.jpg",
+    "sha256": "f0fa950a8043a573f946e6525816112840ca1c86ec3f3f50cac04b394fa7aab2",
+    "decision": "rejected",
+    "notes": "Mesmo fotograma do aeroporto convertido em preto e branco, repeticao do original selecionado para chegada."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-support-v1",
+    "key": "cidade-do-panama/day-3",
+    "title": "File:Panama City skyline from Biomuseo with selfie spot.agr.jpg",
+    "sha256": "3e7bde9a18681978b02b40e1cc146f1f52f3f50143abbc4bbebd5426fee45cd0",
+    "decision": "rejected",
+    "notes": "Pavimento domina a foto e o museu nao aparece, correspondencia fraca com o dia cultural."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-support-v1",
+    "key": "cidade-do-panama/trip-2",
+    "title": "File:2026-03-17 Bus (Portobelo, Panama) 0224.JPG",
+    "sha256": "03899505d52cbb62638ba355e048579586996aad0f9d54191bd11489542ef3d6",
+    "decision": "rejected",
+    "notes": "Onibus isolado sem contexto do destino costeiro ou historico, correspondencia apenas nominal com Portobelo."
+  },
+  {
     "bundle": "regional-fernando-de-noronha-highlights",
     "key": "fernando-de-noronha/guide-card",
     "title": "File:Parque Nacional Marinho de Fernando de Noronha - Humberto Sammarco (05).jpg",
@@ -998,6 +1158,30 @@
     "sha256": "e74183b0178ab91541ae92449152a59b1eb6de99416fd05cf78ea01c4d1269f8",
     "decision": "rejected",
     "notes": "Arco de ruína domina a composição, contexto insuficiente da região de hospedagem."
+  },
+  {
+    "bundle": "regional-fernando-de-noronha-support-v1",
+    "key": "fernando-de-noronha/day-2",
+    "title": "File:Forte da Vila dos Remédios.jpg",
+    "sha256": "f3d6f1aff668ce6f21a32ee09c926ada2175d908635ac2967d9fad88f079a57b",
+    "decision": "rejected",
+    "notes": "Paisagem ao por do sol sem bairros ou gastronomia visiveis, correspondencia fraca com o dia proposto."
+  },
+  {
+    "bundle": "regional-fernando-de-noronha-support-v1",
+    "key": "fernando-de-noronha/essential-moeda",
+    "title": "File:100 mil reais bill of Brazil.jpg",
+    "sha256": "7fe2732141ecb302f6b6520a1b4b678b56121c8357db2c1d00188966020cf9f7",
+    "decision": "rejected",
+    "notes": "Cedula de cem mil-reis historica, nao representa o real brasileiro atual."
+  },
+  {
+    "bundle": "regional-fernando-de-noronha-support-v1",
+    "key": "fernando-de-noronha/essential-docs",
+    "title": "File:Passaportebrasileiro1970.jpg",
+    "sha256": "6475d076b3bb19264043a42f69e1ba0196877494ec49f688638ff70cebb832d7",
+    "decision": "rejected",
+    "notes": "Passaporte brasileiro de 1970, modelo historico inadequado para documentacao atual."
   },
   {
     "bundle": "regional-havai",
@@ -1110,6 +1294,46 @@
     "sha256": "13030ce854aa01e4dad26ab0d220630295c1bf2ab342c5c000173b208ba76e9e",
     "decision": "rejected",
     "notes": "Vista orbital de toda a ilha, abstrata e com aparência cartográfica, pouco representativa para hospedagem."
+  },
+  {
+    "bundle": "regional-havai-support-v1",
+    "key": "havai/mistakes",
+    "title": "File:Daniel K. Inouye International Airport Japanese Garden.jpg",
+    "sha256": "1c00f5a2450bda767628e6f8ecd4d6c1da503899355f54d3ff5788a841aa36db",
+    "decision": "rejected",
+    "notes": "Jardim do aeroporto sem contexto suficiente de procedimentos ou logistica de viagem."
+  },
+  {
+    "bundle": "regional-havai-support-v1",
+    "key": "havai/costs",
+    "title": "File:Shrimp poke bowl at Treffi Verkkosaari.jpg",
+    "sha256": "d1942812227d32a9d816e54e4d40bc044422a4a88fb715d627271ce8d62e48d5",
+    "decision": "rejected",
+    "notes": "Fonte identifica prato de restaurante Treffi Verkkosaari, sem comprovacao de culinaria fotografada no destino; preferir imagem local verificada."
+  },
+  {
+    "bundle": "regional-havai-support-v1",
+    "key": "havai/essential-idioma",
+    "title": "File:Face Covering Required sign on TheBus in Honolulu, Hawaii.jpg",
+    "sha256": "53ad4a711197267ca7a9954e0665c8866230c635697b35bfbf884b245511c9a6",
+    "decision": "rejected",
+    "notes": "Aviso sanitario datado de 2020, inadequado como ilustracao atual do destino."
+  },
+  {
+    "bundle": "regional-havai-support-v1",
+    "key": "havai/essential-moeda",
+    "title": "File:ONE DOLLAR NOTE Banknotes THE UNITED STATES OF AMERICA.jpg",
+    "sha256": "8c72e6b5a7a05cb2f23aa4e05fcdca641259bbd042c5ca7a781c6ad36e1464e2",
+    "decision": "rejected",
+    "notes": "Imagem monocromatica isolada do verso de cedula, sem clareza de fotografia de dinheiro real; preferir outra foto verificavel."
+  },
+  {
+    "bundle": "regional-havai-support-v1",
+    "key": "havai/essential-docs",
+    "title": "File:Passport1918 00 cover.jpg",
+    "sha256": "6fcdf184ad371755abf5ede66720737d544b32d0c8337b24c92b447a79496c5f",
+    "decision": "rejected",
+    "notes": "Capa de passaporte de 1918, documento historico inadequado para viagem atual."
   },
   {
     "bundle": "regional-havana",
@@ -1238,6 +1462,46 @@
     "sha256": "5c9251c8c820ee66f9aa3b0a6bb8e694b974d568812ca80009442a1553c03eff",
     "decision": "rejected",
     "notes": "Cartão-postal histórico colorizado, inadequado para hospedagem atual."
+  },
+  {
+    "bundle": "regional-havana-support-v1",
+    "key": "havana/day-0",
+    "title": "File:Aeropuerto Jose Marti.jpg",
+    "sha256": "a8d15e165c41e83d268c009abca614e9e3239d98644befa77770ce56ab203422",
+    "decision": "rejected",
+    "notes": "Legenda de video e marca sobrepostas, inadequado como foto limpa de chegada."
+  },
+  {
+    "bundle": "regional-havana-support-v1",
+    "key": "havana/costs",
+    "title": "File:Cafe Versailles - Ropa Vieja - Little Havana, Miami Florida.jpg",
+    "sha256": "e691fa8b34c6350bb2774b5c3687715c642ad3e55ded1cddcc076814d90f926f",
+    "decision": "rejected",
+    "notes": "Fonte identifica Cafe Versailles em Little Havana, Miami, nao Havana em Cuba."
+  },
+  {
+    "bundle": "regional-havana-support-v1",
+    "key": "havana/day-1",
+    "title": "File:Habana Vieja (35628249140).jpg",
+    "sha256": "63439a8ec8da36a30d377458529d001b0f83b53e09086144c6711b944f75ec70",
+    "decision": "rejected",
+    "notes": "Parede e caixa d-agua dominam o assunto, nao representa icones principais."
+  },
+  {
+    "bundle": "regional-havana-support-v1",
+    "key": "havana/tips",
+    "title": "File:Habana Vieja (29628209908).jpg",
+    "sha256": "d0d57433b4b1e3e5f0614e135d79d025a98046a968829a0f11df689af46e6134",
+    "decision": "rejected",
+    "notes": "Imagem noturna muito subexposta, detalhes urbanos pouco legiveis."
+  },
+  {
+    "bundle": "regional-havana-support-v1",
+    "key": "havana/day-2",
+    "title": "File:Habana Vieja (34103157471).jpg",
+    "sha256": "c5b3cc2d65a64ee18315346ab94caab2a949a2080bac394b5292bdda687435a9",
+    "decision": "rejected",
+    "notes": "Textura de parede e placa de seta isolada, sem representacao de bairros ou gastronomia."
   },
   {
     "bundle": "regional-las-vegas",
@@ -1392,6 +1656,62 @@
     "notes": "Foto de grupo posado, assunto inadequado para hospedagem ilustrativa."
   },
   {
+    "bundle": "regional-las-vegas-support-v1",
+    "key": "las-vegas/essential-transporte",
+    "title": "File:Las Vegas, pool near Bally's.jpg",
+    "sha256": "a6b604e5682b01c5ec089bfc6d1694d1fcf9a296d55d25e0a7e5f4ae1270e7a3",
+    "decision": "rejected",
+    "notes": "Piscina domina o assunto; trilhos distantes nao representam o transporte proposto."
+  },
+  {
+    "bundle": "regional-las-vegas-support-v1",
+    "key": "las-vegas/day-1",
+    "title": "File:Las Vegas (Nevada, USA), The Strip -- 2012 -- 6215.jpg",
+    "sha256": "c446a8ee843f165446606d6cb1951bb02febf2bf8917f06b613265a8dab7474d",
+    "decision": "rejected",
+    "notes": "Registro de 2012 mostra o Mirage, fechado em 2024 para transformacao em Hard Rock; inadequado como icone atual. Fontes primarias: https://www.hardrockvegas.com/ e comunicado Hard Rock de 15/05/2024 em https://www.prnewswire.com/news-releases/the-mirage-hotel--casino-to-begin-transformation-into-hard-rock-las-vegas-on-july-17-2024-302145629.html"
+  },
+  {
+    "bundle": "regional-las-vegas-support-v1",
+    "key": "las-vegas/tips",
+    "title": "File:Las Vegas (Nevada, USA), The Strip -- 2012 -- 6139.jpg",
+    "sha256": "2aa9fbd33b7367e3135a06dec2b064aee6837622d187d78bd1c1af266f11972d",
+    "decision": "rejected",
+    "notes": "Tela de maquina com aviso domina a foto, pouco contexto de dicas do destino."
+  },
+  {
+    "bundle": "regional-las-vegas-support-v1",
+    "key": "las-vegas/essential-idioma",
+    "title": "File:Balloon of the Paris-Las Vegas hotel & casino.jpg",
+    "sha256": "eb2e6c0ebfc9a8c28d5c222f83a36c39ed220ecbf1fbab7d9034edd18311616c",
+    "decision": "rejected",
+    "notes": "Logotipo Paris isolado nao ilustra o idioma ingles nem orientacao local."
+  },
+  {
+    "bundle": "regional-las-vegas-support-v1",
+    "key": "las-vegas/essential-moeda",
+    "title": "File:5 Dollars, United States, series 1928 - National Museum of American History - DSC00319.jpg",
+    "sha256": "a178f7861f9665037cceec71802a6db404e55f904f373088b432f1cb29c17882",
+    "decision": "rejected",
+    "notes": "Cedula de 1928 em vitrine de museu, pouco representativa do dinheiro de viagem atual."
+  },
+  {
+    "bundle": "regional-las-vegas-support-v1",
+    "key": "las-vegas/essential-docs",
+    "title": "File:ChurchillsUSPassport 2.jpg",
+    "sha256": "4d526d19ddfe480812d994c8ec2ea10acb0c2eaec5eb6b2cdd32d23985625880",
+    "decision": "rejected",
+    "notes": "Passaporte honorario historico de Winston Churchill, inadequado como documentacao atual."
+  },
+  {
+    "bundle": "regional-las-vegas-support-v1",
+    "key": "las-vegas/trip-2",
+    "title": "File:Lake Mead, Nevada (7981495537).jpg",
+    "sha256": "f37a713516cf6f5a7464506a957e68ca5c8adf84f2e623f0481bade1ccb4bf7a",
+    "decision": "rejected",
+    "notes": "Asa de aviao e nevoa prejudicam a vista do reservatorio, baixa legibilidade."
+  },
+  {
     "bundle": "regional-lima",
     "key": "lima/map-attraction-0",
     "title": "File:Municipalidad de Miraflores - Malecón de Miraflores (1907) (7847275164).jpg",
@@ -1494,6 +1814,54 @@
     "sha256": "98f2eb3a86245a14089eeada6c0df4cdc390bbf05de9b3af1622a2af836fe341",
     "decision": "rejected",
     "notes": "Névoa e baixo contraste ocultam a paisagem, qualidade visual insuficiente."
+  },
+  {
+    "bundle": "regional-lima-support-v1",
+    "key": "lima/day-0",
+    "title": "File:Aeropuerto Internacional Jorge Chávez en 2024.jpg",
+    "sha256": "7ad71dcce7156774c967f12bf5aed3700e825389eef6fc04f24c05dadc43e721",
+    "decision": "rejected",
+    "notes": "Terminal antigo de Jorge Chavez: fechado em 1/6/2025, conforme MTC: https://www.gob.pe/institucion/mtc/noticias/1179258-antiguo-aeropuerto-jorge-chavez-cerro-su-ciclo-tras-movilizar-cerca-de-400-millones-de-pasajeros"
+  },
+  {
+    "bundle": "regional-lima-support-v1",
+    "key": "lima/mistakes",
+    "title": "File:Jorge Chavez Internacional Airport (SPJC).jpg",
+    "sha256": "4a2626d9b6ed53434682d48a70d8e3b82233be2aebb2249be4d59f5c1af52f87",
+    "decision": "rejected",
+    "notes": "Acesso/estacionamento do terminal antigo, encerrado em 1/6/2025 conforme MTC: https://www.gob.pe/institucion/mtc/noticias/1179258-antiguo-aeropuerto-jorge-chavez-cerro-su-ciclo-tras-movilizar-cerca-de-400-millones-de-pasajeros"
+  },
+  {
+    "bundle": "regional-lima-support-v1",
+    "key": "lima/day-1",
+    "title": "File:Malecón de Miraflores frente al Parque Intihuatana.jpg",
+    "sha256": "e61ee263f5269003481a07d2b839df0333a19306571dba300b870a178cb63d15",
+    "decision": "rejected",
+    "notes": "Placa de rota pedestre e pessoas dominam a cena, sem icone principal reconhecivel."
+  },
+  {
+    "bundle": "regional-lima-support-v1",
+    "key": "lima/essential-idioma",
+    "title": "File:District sign Peru Lima Lima.jpg",
+    "sha256": "3c130cc3ce07dfdfbdb54f73b260091a04ea4e32dae39142b153fee449906a76",
+    "decision": "rejected",
+    "notes": "Apenas nome proprio LIMA e marca; nao oferece exemplo significativo de idioma."
+  },
+  {
+    "bundle": "regional-lima-support-v1",
+    "key": "lima/essential-moeda",
+    "title": "File:Peru 1 Centavo coin of 1944 reverse.jpg",
+    "sha256": "57b41b6031bdf625944c93f006eba728d3c0b680b2b615593f02b7473b10fe19",
+    "decision": "rejected",
+    "notes": "Moeda de 1 centavo de 1944, objeto historico inadequado para pagamentos atuais."
+  },
+  {
+    "bundle": "regional-lima-support-v1",
+    "key": "lima/trip-0",
+    "title": "File:Manchay Pachacamac Lima 2020.jpg",
+    "sha256": "13b3fc74700d9cbea7acdfe7baa19499757581b92d0725ae2dda47ac4f828a55",
+    "decision": "rejected",
+    "notes": "Mostra Manchay residencial em Pachacamac, nao o sitio arqueologico do passeio."
   },
   {
     "bundle": "regional-los-angeles",
@@ -1632,6 +2000,30 @@
     "notes": "Mapa histórico de 1880, proibido como foto de hospedagem ou região."
   },
   {
+    "bundle": "regional-los-angeles-support-v1",
+    "key": "los-angeles/essential-transporte",
+    "title": "File:LA MetroRail K N Ext Alts 22.jpg",
+    "sha256": "6e01f3b43e41128f3a0a13a3bbd9c3cbae3929b5f167508e912bd24b573aa2fa",
+    "decision": "rejected",
+    "notes": "Mapa de alternativas de expansao ferroviaria, nao fotografia real de transporte atual."
+  },
+  {
+    "bundle": "regional-los-angeles-support-v1",
+    "key": "los-angeles/essential-idioma",
+    "title": "File:Hollywood sign from Hobart.jpg",
+    "sha256": "f8df1c79d4596c8b9edda867d0324425886f50eda2a81e50542e18dba92d8f96",
+    "decision": "rejected",
+    "notes": "Letreiro Hollywood distante e pouco legivel, sem texto util para ilustrar idioma."
+  },
+  {
+    "bundle": "regional-los-angeles-support-v1",
+    "key": "los-angeles/essential-docs",
+    "title": "File:ChineseVisaForUSTourist.jpg",
+    "sha256": "817d4f9ff6a3853b68df53577d6bb9f897f032e747ad74226f39cd3848c6bd7e",
+    "decision": "rejected",
+    "notes": "Visto chines em passaporte de turista americano, documento do destino errado para Los Angeles."
+  },
+  {
     "bundle": "regional-medellin",
     "key": "medellin/map-list-0",
     "title": "File:Comuna 13, Medellín 02.jpg",
@@ -1760,6 +2152,22 @@
     "notes": "Panorama urbano visto do acesso de metrocable, não representa a região florestal de Arví."
   },
   {
+    "bundle": "regional-medellin-support-v1",
+    "key": "medellin/mistakes",
+    "title": "File:Aeropuerto JMC-Escultura El Sol de Edgar Negret.JPG",
+    "sha256": "83631d056bc0a8945686c4faa5a3c47c915d39bc8dcf8df49cf99213307e9b1c",
+    "decision": "rejected",
+    "notes": "Escultura domina a imagem e o aeroporto aparece apenas ao fundo; procurar contexto de chegada mais claro."
+  },
+  {
+    "bundle": "regional-medellin-support-v1",
+    "key": "medellin/day-3",
+    "title": "File:'Mala Raza' - Infierno - Temporary Exhibit - Museo de Antioquia - Medellín - Colombia 2024.jpg",
+    "sha256": "fb6381ff952ad9bf672f18809579803b0e74666c69eef3fe4f4e0e183a408222",
+    "decision": "rejected",
+    "notes": "Imagem de exposicao temporaria: nao apresenta de modo duravel o museu ou mirante do roteiro."
+  },
+  {
     "bundle": "regional-montevideo",
     "key": "montevideo/map-list-1",
     "title": "File:El Faro en Ciudad Vieja, Montevideo (2).jpg",
@@ -1872,6 +2280,46 @@
     "notes": "Marco quilométrico e via dominam a composição, pouco contexto da região de hospedagem."
   },
   {
+    "bundle": "regional-montevideo-support-v1",
+    "key": "montevideo/day-0",
+    "title": "File:Aeropuerto Internacional de Carrasco - panoramio (1).jpg",
+    "sha256": "2290de910606354644bd7b9f4cc39e90140859af6f8348b45178e39132b10f3a",
+    "decision": "rejected",
+    "notes": "Luminaria ocupa o primeiro plano e reduz a legibilidade do aeroporto."
+  },
+  {
+    "bundle": "regional-montevideo-support-v1",
+    "key": "montevideo/tips",
+    "title": "File:2016 Montevideo edificios en la rambla Gran Bretaña - Uruguay.jpg",
+    "sha256": "d1be8e0823d0a4c881cb54d53d635edc4549df190e9bc6259bc67409aead54ee",
+    "decision": "rejected",
+    "notes": "Carros estacionados dominam o enquadramento da rambla; buscar vista mais limpa."
+  },
+  {
+    "bundle": "regional-montevideo-support-v1",
+    "key": "montevideo/essential-idioma",
+    "title": "File:Bicycle locked to a no parking sign in Montevideo in 2024.jpg",
+    "sha256": "892ac66f8f58d61eece8c509261c55f28f98a106c1d562d8af4cadf3cdffac5b",
+    "decision": "rejected",
+    "notes": "Sinal de proibido estacionar sem palavras: nao ilustra o idioma espanhol."
+  },
+  {
+    "bundle": "regional-montevideo-support-v1",
+    "key": "montevideo/essential-moeda",
+    "title": "File:URU-S214b-Banco Italiano-100 Pesos (1887).jpg",
+    "sha256": "df6ea2ca4cd93839857d8589fbbe8810194c70ab065e34ddeb15ded3857ca126",
+    "decision": "rejected",
+    "notes": "Cedula de 1887, objeto historico inadequado para pagamentos atuais."
+  },
+  {
+    "bundle": "regional-montevideo-support-v1",
+    "key": "montevideo/trip-0",
+    "title": "File:19° International Jazz Festival of Punta del Este - 150111-1924-jikatu (16077494677).jpg",
+    "sha256": "03feb21c409a7687bd66fbfa05f8f90a5cf933dc261f0f28fb0d006521ff4abf",
+    "decision": "rejected",
+    "notes": "Retrato de saxofonista em festival: nao mostra o destino Punta del Este."
+  },
+  {
     "bundle": "regional-montreal",
     "key": "montreal/attraction-0",
     "title": "File:Basílica de Notre-Dame, Montreal, Canadá, 2017-08-12, DD 22-24 HDR.jpg",
@@ -1974,6 +2422,62 @@
     "sha256": "bba7c763ac05651dae25dc6d866e83af683ef1a55f85a160f01a579229dde6b0",
     "decision": "rejected",
     "notes": "Registro monocromático de obras urbanas antigas, inadequado como vista atual da região."
+  },
+  {
+    "bundle": "regional-montreal-support-v1",
+    "key": "montreal/day-0",
+    "title": "File:Man talking on the phone in Montréal-Pierre Elliott Trudeau International Airport 006.jpg",
+    "sha256": "68e1b0fdcc3fdf0026c3b9958c113d9af8314be007a31236a23b815f782de0b2",
+    "decision": "rejected",
+    "notes": "Retrato de homem ao telefone domina a cena; aeroporto nao fica reconhecivel."
+  },
+  {
+    "bundle": "regional-montreal-support-v1",
+    "key": "montreal/essential-transporte",
+    "title": "File:20161004 53 Montreal Metro (26694265058).jpg",
+    "sha256": "a4d1053594fe5d2f3203b28c0e1971d6e81a018045fb0135919a3228c6765d03",
+    "decision": "rejected",
+    "notes": "Passageiros em primeiro plano dominam o enquadramento e reduzem a utilidade editorial."
+  },
+  {
+    "bundle": "regional-montreal-support-v1",
+    "key": "montreal/costs",
+    "title": "File:Montreal Poutine, Vieux-Montréal, Montreal, Quebec (29954647922).jpg",
+    "sha256": "b17fd17026b162fb2c4bee79eac4600c64286b2bcee66069ee1d1bd54a4bc972",
+    "decision": "rejected",
+    "notes": "Mostra patio e arvore, sem o prato poutine solicitado."
+  },
+  {
+    "bundle": "regional-montreal-support-v1",
+    "key": "montreal/tips",
+    "title": "File:Caleche Vieux-Montreal 06a.jpg",
+    "sha256": "cd1fe32ef74cd4b413fa347314cd2f74977340319e572c50db28b85f4081e270",
+    "decision": "rejected",
+    "notes": "Carruagem isolada nao oferece contexto visual suficiente do destino."
+  },
+  {
+    "bundle": "regional-montreal-support-v1",
+    "key": "montreal/day-2",
+    "title": "File:Caleche Vieux-Montreal 05a.jpg",
+    "sha256": "5e42bdec2121b95e50ead92af5df181bf8f8e85d7afb766c3444904ecc5519de",
+    "decision": "rejected",
+    "notes": "Carruagem e pessoas dominam a cena; bairro pouco visivel."
+  },
+  {
+    "bundle": "regional-montreal-support-v1",
+    "key": "montreal/essential-idioma",
+    "title": "File:Man giving V-sign in Montreal, Quebec, Canada - 026.jpg",
+    "sha256": "703146a46a195d57aefdb1ed17a91594e3253c43c406c61dd8486b508ba8e05b",
+    "decision": "rejected",
+    "notes": "Retrato de homem fazendo gesto, sem idioma frances ou ingles visivel."
+  },
+  {
+    "bundle": "regional-montreal-support-v1",
+    "key": "montreal/trip-2",
+    "title": "File:Chambly (Québec)-Cimetière de Chambly-2022-08-29.jpg",
+    "sha256": "0e917a41824c6e9893070eae7d202a054a754e654047b8c93e5243aee2fb5148",
+    "decision": "rejected",
+    "notes": "Cemiterio nao corresponde ao passeio historico de Chambly proposto."
   },
   {
     "bundle": "regional-orlando",
@@ -2086,6 +2590,70 @@
     "sha256": "f41014840551eea95ab6642497270cb36de9b27e9fceeb6bc52c9ce29a5053c9",
     "decision": "rejected",
     "notes": "Placa de restaurante, assunto inadequado para hospedagem ilustrativa."
+  },
+  {
+    "bundle": "regional-orlando-support-v1",
+    "key": "orlando/day-0",
+    "title": "File:Auntie Anne's - Orlando International Airport - Terminal B.jpg",
+    "sha256": "610572f2c558490b124e4f3c7f237c61cc47ee4d8a28388a5a88a3f8d129fff2",
+    "decision": "rejected",
+    "notes": "Loja de pretzels em primeiro plano; falta contexto legivel de chegada ao aeroporto."
+  },
+  {
+    "bundle": "regional-orlando-support-v1",
+    "key": "orlando/mistakes",
+    "title": "File:Burger King - Orlando International Airport - Terminal B.jpg",
+    "sha256": "82ee3412c8d27800561b3c8a364c439c7ff43505822413cc868fff1ddd01c3b9",
+    "decision": "rejected",
+    "notes": "Fast food ocupa a cena; procurar terminal ou sinalizacao de aeroporto."
+  },
+  {
+    "bundle": "regional-orlando-support-v1",
+    "key": "orlando/costs",
+    "title": "File:PEO STRI Celebrates Army's 250th Birthday (9110584).jpg",
+    "sha256": "88b097c2965f6fac1b8a94d870fddb73bfd10dc433daecad3796295114d0a5d2",
+    "decision": "rejected",
+    "notes": "Cerimonia militar de aniversario com pessoas e bolo; nao e prato tipico."
+  },
+  {
+    "bundle": "regional-orlando-support-v1",
+    "key": "orlando/day-4",
+    "title": "File:Lake Eola Heights Historic District Plaque.jpg",
+    "sha256": "6b7035d019cab8146584881841516ef7b884c902cfb6399faec32c4bc4be8f54",
+    "decision": "rejected",
+    "notes": "Detalhe de placa historica em preto e branco nao mostra o parque Lake Eola."
+  },
+  {
+    "bundle": "regional-orlando-support-v1",
+    "key": "orlando/tips",
+    "title": "File:Common Buckeye Butterfly- EPCOT Flower & Garden Festival, Walt Disney World, Florida, USA.jpg",
+    "sha256": "c3e48cd06b366ea9a680c28c7b377f0220720ca753a9cfe4e273ae635cf24661",
+    "decision": "rejected",
+    "notes": "Macro de borboleta sem contexto reconhecivel do parque ou destino."
+  },
+  {
+    "bundle": "regional-orlando-support-v1",
+    "key": "orlando/essential-idioma",
+    "title": "File:Aloft Hotel (Orlando, Florida)-4.jpg",
+    "sha256": "bec7d2da2ec94810a896445069165a8dec53b2d1a2c7d6caf0bf107d6b1f1d5d",
+    "decision": "rejected",
+    "notes": "Marca de hotel e carro, sem exemplo significativo de idioma ingles."
+  },
+  {
+    "bundle": "regional-orlando-support-v1",
+    "key": "orlando/essential-moeda",
+    "title": "File:5 Dollars, United States, series 1914 - National Museum of American History - DSC00318.jpg",
+    "sha256": "885d818e9d2f017b0fea12c41e2cf545411b39d4765d2a174d912b3e0f87ae29",
+    "decision": "rejected",
+    "notes": "Cedula de 1914 em museu: objeto historico inadequado para pagamentos atuais."
+  },
+  {
+    "bundle": "regional-orlando-support-v1",
+    "key": "orlando/trip-1",
+    "title": "File:Snickerdoodle at Fleet Peeples Park in Winter Park, FL (GEDC0036).jpg",
+    "sha256": "a923ad042b17a3a59659900b3e2f19430c06b108dfb52bc80695d121c22af83f",
+    "decision": "rejected",
+    "notes": "Cachorro domina a praia; nao oferece vista clara do passeio Winter Park."
   },
   {
     "bundle": "regional-porto-rico",
@@ -2224,6 +2792,30 @@
     "notes": "Cacto em contraluz ocupa a imagem, sem representar as ilhas."
   },
   {
+    "bundle": "regional-porto-rico-support-v1",
+    "key": "porto-rico/mistakes",
+    "title": "File:Luis Muñoz Marin International Airport - Aeroparque - Puerto Rico (4583513892).jpg",
+    "sha256": "cbbf59a82e9343b55a0a2c106fccfe3ef35e360cbc0082bd201dab22f583a5a3",
+    "decision": "rejected",
+    "notes": "Pessoas e playground dominam a foto; falta contexto util de aeroporto."
+  },
+  {
+    "bundle": "regional-porto-rico-support-v1",
+    "key": "porto-rico/essential-moeda",
+    "title": "File:5,000 Dollars, United States, series 1918 - National Museum of American History - DSC00311.jpg",
+    "sha256": "6ac852d0714db3df510bd7f63d8e59060fe139fa12670856021870bc378eef66",
+    "decision": "rejected",
+    "notes": "Cedula de 5000 dolares de 1918 em museu; objeto historico inadequado para pagamentos atuais."
+  },
+  {
+    "bundle": "regional-porto-rico-support-v1",
+    "key": "porto-rico/trip-0",
+    "title": "File:Mangroves in Vieques, Puerto Rico after Hurricane Maria 2017.jpg",
+    "sha256": "b9e7317482ca50bf5494d0774bfcf59a292d2cbfc3dca6d59ef0e737cf2eb674",
+    "decision": "rejected",
+    "notes": "Manguezal documentado depois do furacao Maria; nao representa passeio atual em Vieques."
+  },
+  {
     "bundle": "regional-punta-cana",
     "key": "punta-cana/map-list-0",
     "title": "File:2024 - Bávaro Beach - 45.jpg",
@@ -2278,6 +2870,54 @@
     "sha256": "20f127bcf6bc011223b4306694e9043e26dd6e6f37553365e82dec1242d3d0ca",
     "decision": "rejected",
     "notes": "Registro de acidente de transito, assunto inadequado para turismo."
+  },
+  {
+    "bundle": "regional-punta-cana-support-v1",
+    "key": "punta-cana/mistakes",
+    "title": "File:Courtyard Wall at Punta Cana Airport (5369012908).jpg",
+    "sha256": "ff140907627a858e583c3d6929a807e0c2b21c4c8cf4547a2004370ff9938395",
+    "decision": "rejected",
+    "notes": "Detalhe de mosaico no aeroporto, sem contexto de chegada reconhecivel."
+  },
+  {
+    "bundle": "regional-punta-cana-support-v1",
+    "key": "punta-cana/day-1",
+    "title": "File:2024 - Bávaro Beach - 40.jpg",
+    "sha256": "a45f008d05177705958f60d5a7d45d42c1660998ca27aec08fe93b7a045dfe61",
+    "decision": "rejected",
+    "notes": "Apenas faixa de mar sem praia ou marco legivel; procurar composicao representativa de Bavaro."
+  },
+  {
+    "bundle": "regional-punta-cana-support-v1",
+    "key": "punta-cana/tips",
+    "title": "File:2024 - Bávaro Beach - 41.jpg",
+    "sha256": "129f7d41a7c74b697211460f0a60858c03b5d0ac283155b06b9f2cc3b5051dc2",
+    "decision": "rejected",
+    "notes": "Sequencia quase identica da mesma faixa de mar; evitar repeticao visual e buscar contexto de destino."
+  },
+  {
+    "bundle": "regional-punta-cana-support-v1",
+    "key": "punta-cana/essential-moeda",
+    "title": "File:DOM-9-Republica Dominica-1 peso (1849).jpg",
+    "sha256": "6cd1630d9cded4e23de1f07b1850a8f2a6b0f59fb7e01cacd08ce73068d41fa5",
+    "decision": "rejected",
+    "notes": "Nota de um peso de 1849, objeto historico inadequado para pagamentos atuais."
+  },
+  {
+    "bundle": "regional-punta-cana-support-v1",
+    "key": "punta-cana/essential-docs",
+    "title": "File:Dominican Republic passport.png",
+    "sha256": "ebd948a750645a53577b2414d5214a9c162792dea34024ff0ff5278238910761",
+    "decision": "rejected",
+    "notes": "Capa de passaporte escura e pouco legivel; buscar documento atual com melhor qualidade."
+  },
+  {
+    "bundle": "regional-punta-cana-support-v1",
+    "key": "punta-cana/trip-1",
+    "title": "File:Higuay.jpg",
+    "sha256": "3398f47619ab4494d88f568cf37c57930c30316ca5e2b35c02cca7a510cbd9f2",
+    "decision": "rejected",
+    "notes": "Rua com fios, carros e pessoas em primeiro plano; procurar vista mais clara de Higuey."
   },
   {
     "bundle": "regional-quito",
@@ -2392,6 +3032,54 @@
     "notes": "Outro enquadramento frontal proximo do mesmo monumento, rejeitado por repeticao visual."
   },
   {
+    "bundle": "regional-quito-support-v1",
+    "key": "quito/day-3",
+    "title": "File:Museo de la Ciudad, Quito (exterior) Bulevar 24 de Mayo, Quito, pic.a.jpg",
+    "sha256": "8c81d760eaa9606f268d589d10d1e1d36cefa979bde2462069f0e1316e8ad874",
+    "decision": "rejected",
+    "notes": "Mostra corrimao e canteiro; museu nao e legivel no enquadramento."
+  },
+  {
+    "bundle": "regional-quito-support-v1",
+    "key": "quito/day-1",
+    "title": "File:(Photography by David Adam Kess, El Centro Histórico de Quito) pic.asdf456, Historic Center at night, Quito.jpg",
+    "sha256": "afc973a489855ef119be479ee9267702e34177ae1e009cbdcb988b0a210fd275",
+    "decision": "rejected",
+    "notes": "Fachada noturna escura com grades dominantes; falta icone principal reconhecivel."
+  },
+  {
+    "bundle": "regional-quito-support-v1",
+    "key": "quito/day-2",
+    "title": "File:(Avenue Vicente Piedrahita, Quito) a city of Quito. street sign Centro histórico de Quito.jpg",
+    "sha256": "9494724cdce9197ce80ef735c8ac91794de863867f8698f7b9e0e93488802cbb",
+    "decision": "rejected",
+    "notes": "Somente placa de rua, nao mostra bairro ou gastronomia."
+  },
+  {
+    "bundle": "regional-quito-support-v1",
+    "key": "quito/essential-idioma",
+    "title": "File:Calle Guayaquil, Quito, street sign, Ecuador,.jpg",
+    "sha256": "8a4136f46cb596945faa25bf13d2d64756c021466d45f98e7c45869ca44c2918",
+    "decision": "rejected",
+    "notes": "Nome proprio de rua sem palavras significativas do idioma; buscar sinalizacao mais util."
+  },
+  {
+    "bundle": "regional-quito-support-v1",
+    "key": "quito/essential-moeda",
+    "title": "File:Fake one dollar with Santa Claus.jpg",
+    "sha256": "6119ea250a0b0ab9c6436f84cbd45b22a7335e19d1007efcd9f91cfff1c6cf89",
+    "decision": "rejected",
+    "notes": "Nota falsa com Papai Noel, nao e moeda utilizavel."
+  },
+  {
+    "bundle": "regional-quito-support-v1",
+    "key": "quito/trip-0",
+    "title": "File:Cow in Otavalo.jpg",
+    "sha256": "b1a3056f027eaf02a95f63028b1f700fe4821f434ed621b7f95d4b9d44af88fc",
+    "decision": "rejected",
+    "notes": "Retrato de vaca no mercado; nao mostra passeio de Otavalo."
+  },
+  {
     "bundle": "regional-san-andres-neighborhoods",
     "key": "san-andres/neighborhood-1",
     "title": "File:San Luis Cemetery. San Andres, Colombia.jpg",
@@ -2430,6 +3118,14 @@
     "sha256": "c393bb57bb0c2df731169c15c2dcbd9a5dfa4d4fc5150b986e8c06f787f4f01c",
     "decision": "rejected",
     "notes": "Ilha muito distante e enquadramento pouco nitido, qualidade insuficiente."
+  },
+  {
+    "bundle": "regional-san-andres-support-v1",
+    "key": "san-andres/essential-idioma",
+    "title": "File:San Pablo Corregimiento de Teorama.png",
+    "sha256": "5cab5f2999108547081519a909f9593f5a25946434cd89e2690411e72e92f5aa",
+    "decision": "rejected",
+    "notes": "Foto de San Pablo em Teorama, fora de San Andres; rejeitada por local errado."
   },
   {
     "bundle": "regional-toronto-highlights",
@@ -2552,6 +3248,38 @@
     "notes": "Textura de parede de tijolos, sem representacao da regiao de hospedagem."
   },
   {
+    "bundle": "regional-toronto-support-v1",
+    "key": "toronto/mistakes",
+    "title": "File:Interior of Toronto Pearson Airport Terminal 1.jpg",
+    "sha256": "33409207d614a4ca45c2619d5408f5459ad28931d76211d1f711cc08aede3fd5",
+    "decision": "rejected",
+    "notes": "Mesmo enquadramento da chegada em versao vertical/corte; evitar reutilizacao da mesma foto."
+  },
+  {
+    "bundle": "regional-toronto-support-v1",
+    "key": "toronto/essential-transporte",
+    "title": "File:Disused TTC Streetcar Tracks at Adelaide and Peter.jpg",
+    "sha256": "1cc85d7cbb67b90224f17b5d19f040e1d824eb9668a44eb07a0e62f43ccf9a44",
+    "decision": "rejected",
+    "notes": "Trilhos desativados em cruzamento vazio, nao representa transporte em operacao."
+  },
+  {
+    "bundle": "regional-toronto-support-v1",
+    "key": "toronto/day-4",
+    "title": "File:Island Riviera from back, Toronto Islands 2026.jpg",
+    "sha256": "9d5431ca307ec3b36a382a56ab4b0a402f052301a3c1910ba79e271ddbfeaec6",
+    "decision": "rejected",
+    "notes": "Quintal de restaurante obscurecido por vegetacao; buscar vista clara das Toronto Islands."
+  },
+  {
+    "bundle": "regional-toronto-support-v1",
+    "key": "toronto/essential-idioma",
+    "title": "File:Nathan Phillips Square 3D Toronto sign close-up.jpg",
+    "sha256": "4c977f33b86ed27c07d1b1233bed6da9c84d2c463f491b3207c8afaa95b66ec5",
+    "decision": "rejected",
+    "notes": "Hashtag xoTO sem palavras do idioma, insuficiente para esta secao."
+  },
+  {
     "bundle": "regional-vancouver",
     "key": "vancouver/attraction-4",
     "title": "File:Vancouver (BC, Canada), Canada Place -- 2022 -- 1871.jpg",
@@ -2646,5 +3374,61 @@
     "sha256": "8ff1cc032ab57a4c465125537502d7ef0213c2b5fecf8d56b181970ec29099af",
     "decision": "rejected",
     "notes": "Registro historico em sepia, inadequado como vista atual da regiao."
+  },
+  {
+    "bundle": "regional-vancouver-support-v1",
+    "key": "vancouver/day-0",
+    "title": "File:Vancouver-international-airport-sculpture.jpg",
+    "sha256": "cef507d3db0971fb0a826ee7f2d43c50a7c672e4e09560bd2af97f5de3d65d87",
+    "decision": "rejected",
+    "notes": "Interior muito escuro e esverdeado; aeroporto pouco legivel."
+  },
+  {
+    "bundle": "regional-vancouver-support-v1",
+    "key": "vancouver/mistakes",
+    "title": "File:Ladurée at Vancouver International Airport.jpg",
+    "sha256": "b8127cad4e0babd1a8523f7163b129e4147d43b9ae3ea724a50609702a10d7d9",
+    "decision": "rejected",
+    "notes": "Carrinho de doces sem contexto suficiente de terminal ou chegada."
+  },
+  {
+    "bundle": "regional-vancouver-support-v1",
+    "key": "vancouver/essential-transporte",
+    "title": "File:SkyTrain passing through Central Park.jpg",
+    "sha256": "df4a8a077e82f5b1ca7dfe3fd2bd0daf2365f5e8e47ca2e567316de1c48352f0",
+    "decision": "rejected",
+    "notes": "Trem quase inteiramente encoberto por arvores; transporte nao fica legivel."
+  },
+  {
+    "bundle": "regional-vancouver-support-v1",
+    "key": "vancouver/costs",
+    "title": "File:Food Vendors in Downtown Vancouver - Japadog.jpg",
+    "sha256": "df15404ac5dfaece148503886ce57586fcf73a4a5611c12727adcf19aed9993c",
+    "decision": "rejected",
+    "notes": "Carrinho de vendedor, sem prato visivel; procurar foto da comida local."
+  },
+  {
+    "bundle": "regional-vancouver-support-v1",
+    "key": "vancouver/essential-idioma",
+    "title": "File:Robson Street Sign - West End - Vancouver BC - Canada.jpg",
+    "sha256": "ec5072d61a247bdf1f2f4eef3133ce2acaaefa6f3cb4ab2bcaacdb0a7c1632bc",
+    "decision": "rejected",
+    "notes": "Nome proprio de rua e bandeiras, sem palavras significativas do idioma."
+  },
+  {
+    "bundle": "regional-vancouver-support-v1",
+    "key": "vancouver/trip-1",
+    "title": "File:Chordeiles minor -British Columbia -Canada-8c.jpg",
+    "sha256": "3daa7d161c5a0f687a09689dc11a79826bfe236b65b31c5db31de8d75f64ab26",
+    "decision": "rejected",
+    "notes": "Retrato de ave sem paisagem de North Vancouver."
+  },
+  {
+    "bundle": "regional-vancouver-support-v1",
+    "key": "vancouver/trip-2",
+    "title": "File:Greater Victoria Harbour Authority, Victoria, British Columbia, Canada 19.jpg",
+    "sha256": "eecb055577ea727d59550d93586ea0c4d1b043415c9a2450f5d43972c24a0c1c",
+    "decision": "rejected",
+    "notes": "Pequeno galpao isolado nao apresenta o passeio historico de Victoria."
   }
 ]

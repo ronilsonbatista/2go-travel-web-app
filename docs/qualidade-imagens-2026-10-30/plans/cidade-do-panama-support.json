@@ -1,0 +1,233 @@
+{
+  "city": "cidade-do-panama",
+  "region": "americas",
+  "center": [
+    8.9824,
+    -79.5199,
+    40
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Tocumen International Airport",
+      "required": [
+        "tocumen"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Panama Metro train",
+      "required": [
+        "metro"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Mercado Mariscos Panama ceviche",
+      "required": [
+        "ceviche"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Biomuseo Panama",
+      "required": [
+        "biomuseo"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Amador Causeway Panama",
+      "required": [
+        "amador|causeway"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Miraflores locks Panama Canal",
+      "required": [
+        "miraflores"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Casco Viejo Panama",
+      "required": [
+        "casco viejo|casco antiguo"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Panama City sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Panamanian passport cover",
+      "required": [
+        "panamanian passport|pasaporte panameno"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Taboga Panama",
+      "required": [
+        "taboga"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        8.8,
+        -79.56,
+        15
+      ]
+    },
+    "trip-1": {
+      "query": "Gamboa Panama rainforest",
+      "required": [
+        "gamboa"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        9.12,
+        -79.7,
+        25
+      ]
+    },
+    "trip-2": {
+      "query": "Portobelo Panama",
+      "required": [
+        "portobelo"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        9.55,
+        -79.66,
+        25
+      ]
+    }
+  }
+}

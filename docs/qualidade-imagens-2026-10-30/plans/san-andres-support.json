@@ -1,0 +1,233 @@
+{
+  "city": "san-andres",
+  "region": "americas",
+  "center": [
+    12.5847,
+    -81.7006,
+    30
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Gustavo Rojas Pinilla Airport",
+      "required": [
+        "rojas pinilla"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "San Andres Colombia bus",
+      "required": [
+        "bus|taxi|transport"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "San Andres Colombia seafood",
+      "required": [
+        "seafood|fish|pescado|rondon"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Baptist Church La Loma San Andres",
+      "required": [
+        "baptist|bautista"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Rocky Cay San Andres",
+      "required": [
+        "rocky cay"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Johnny Cay",
+      "required": [
+        "johnny cay"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Spratt Bight San Andres",
+      "required": [
+        "spratt bight"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "San Andres Colombia sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "Colombian peso banknotes",
+      "required": [
+        "colombian peso|pesos colombianos"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Colombian passport cover",
+      "required": [
+        "colombian passport|pasaporte colombiano"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Johnny Cay",
+      "required": [
+        "johnny cay"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        12.62,
+        -81.69,
+        10
+      ]
+    },
+    "trip-1": {
+      "query": "Haynes Cay San Andres",
+      "required": [
+        "haynes cay|acuario"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        12.55,
+        -81.69,
+        10
+      ]
+    },
+    "trip-2": {
+      "query": "Rocky Cay San Andres",
+      "required": [
+        "rocky cay"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        12.55,
+        -81.7,
+        10
+      ]
+    }
+  }
+}

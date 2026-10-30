@@ -1,0 +1,233 @@
+{
+  "city": "havai",
+  "region": "americas",
+  "center": [
+    20.8,
+    -157,
+    550
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Honolulu International Airport",
+      "required": [
+        "honolulu|daniel k. inouye"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "TheBus Honolulu",
+      "required": [
+        "thebus|honolulu"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Poke Hawaii restaurant",
+      "required": [
+        "poke"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Bishop Museum Honolulu",
+      "required": [
+        "bishop museum"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Waikiki Beach Hawaii",
+      "required": [
+        "waikiki"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Waikiki Beach Hawaii",
+      "required": [
+        "waikiki"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Waikiki Hawaii",
+      "required": [
+        "waikiki"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Honolulu Hawaii sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Kualoa Ranch Oahu",
+      "required": [
+        "kualoa"
+      ],
+      "locationPatterns": [
+        "hawaii|hawai.i|oahu|maui"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        21.52,
+        -157.84,
+        20
+      ]
+    },
+    "trip-1": {
+      "query": "Hanauma Bay Hawaii",
+      "required": [
+        "hanauma"
+      ],
+      "locationPatterns": [
+        "hawaii|hawai.i|oahu|maui"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        21.27,
+        -157.69,
+        15
+      ]
+    },
+    "trip-2": {
+      "query": "Iolani Palace Honolulu",
+      "required": [
+        "iolani"
+      ],
+      "locationPatterns": [
+        "hawaii|hawai.i|oahu|maui"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        21.3,
+        -157.86,
+        15
+      ]
+    }
+  }
+}

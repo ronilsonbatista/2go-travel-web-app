@@ -1,0 +1,233 @@
+{
+  "city": "cidade-do-mexico",
+  "region": "americas",
+  "center": [
+    19.4326,
+    -99.1332,
+    50
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Mexico City Benito Juarez airport",
+      "required": [
+        "benito juarez|mexico city international"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Mexico City Metro train",
+      "required": [
+        "metro"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Tacos al pastor Mexico City",
+      "required": [
+        "pastor"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Palacio Bellas Artes Mexico City",
+      "required": [
+        "bellas artes"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Chapultepec Mexico City",
+      "required": [
+        "chapultepec"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Zocalo Mexico City Cathedral",
+      "required": [
+        "zocalo|catedral|cathedral"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Roma Condesa Mexico City",
+      "required": [
+        "roma|condesa"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Mexico City sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "Mexican peso banknotes",
+      "required": [
+        "mexican peso|pesos mexicanos"
+      ],
+      "locationPatterns": [
+        "mexic"
+      ],
+      "countryPattern": "mexic",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Mexican passport cover",
+      "required": [
+        "mexican passport|pasaporte mexicano"
+      ],
+      "locationPatterns": [
+        "mexic"
+      ],
+      "countryPattern": "mexic",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Teotihuacan Mexico",
+      "required": [
+        "teotihuacan"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        19.69,
+        -98.84,
+        25
+      ]
+    },
+    "trip-1": {
+      "query": "Xochimilco Mexico City",
+      "required": [
+        "xochimilco"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        19.26,
+        -99.1,
+        25
+      ]
+    },
+    "trip-2": {
+      "query": "Tepoztlan Morelos Mexico",
+      "required": [
+        "tepoztlan"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        18.99,
+        -99.1,
+        25
+      ]
+    }
+  }
+}

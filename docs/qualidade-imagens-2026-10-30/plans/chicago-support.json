@@ -1,0 +1,233 @@
+{
+  "city": "chicago",
+  "region": "americas",
+  "center": [
+    41.8781,
+    -87.6298,
+    40
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Chicago OHare Airport terminal",
+      "required": [
+        "o.hare|ohare"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Chicago CTA train",
+      "required": [
+        "cta|chicago transit"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Chicago deep dish pizza",
+      "required": [
+        "deep.dish"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Art Institute Chicago",
+      "required": [
+        "art institute"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Lincoln Park Chicago",
+      "required": [
+        "lincoln park"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Cloud Gate Millennium Park Chicago",
+      "required": [
+        "cloud gate|millennium park"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Chicago Loop",
+      "required": [
+        "loop"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Chicago Illinois sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Indiana Dunes National Park",
+      "required": [
+        "indiana dunes"
+      ],
+      "locationPatterns": [
+        "illinois|united states|usa"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        41.65,
+        -87.05,
+        30
+      ]
+    },
+    "trip-1": {
+      "query": "Oak Park Illinois Wright",
+      "required": [
+        "oak park"
+      ],
+      "locationPatterns": [
+        "illinois|united states|usa"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        41.89,
+        -87.79,
+        20
+      ]
+    },
+    "trip-2": {
+      "query": "Evanston Illinois Grosse Point Lighthouse",
+      "required": [
+        "grosse point"
+      ],
+      "locationPatterns": [
+        "illinois|united states|usa"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        42.06,
+        -87.68,
+        15
+      ]
+    }
+  }
+}

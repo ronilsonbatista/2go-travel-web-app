@@ -1,0 +1,233 @@
+{
+  "city": "lima",
+  "region": "americas",
+  "center": [
+    -12.0464,
+    -77.0428,
+    50
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Jorge Chavez Airport Lima",
+      "required": [
+        "jorge chavez"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Metropolitano Lima bus",
+      "required": [
+        "metropolitano"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Ceviche Lima Peru",
+      "required": [
+        "ceviche"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Museo Larco Lima",
+      "required": [
+        "museo larco|larco museum"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Malecon Miraflores Lima",
+      "required": [
+        "malecon|miraflores"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Miraflores Malecon Lima",
+      "required": [
+        "miraflores|malecon"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Miraflores Lima",
+      "required": [
+        "miraflores"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Lima Peru sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "Peruvian sol banknotes",
+      "required": [
+        "soles|nuevo sol|peruvian sol"
+      ],
+      "locationPatterns": [
+        "peru"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Peruvian passport cover",
+      "required": [
+        "peruvian passport|pasaporte peruano"
+      ],
+      "locationPatterns": [
+        "peru"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Pachacamac Peru",
+      "required": [
+        "pachacamac"
+      ],
+      "locationPatterns": [
+        "peru"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        -12.26,
+        -76.9,
+        20
+      ]
+    },
+    "trip-1": {
+      "query": "La Punta Callao Peru",
+      "required": [
+        "la punta|callao"
+      ],
+      "locationPatterns": [
+        "peru"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        -12.07,
+        -77.17,
+        15
+      ]
+    },
+    "trip-2": {
+      "query": "Morro Solar Chorrillos",
+      "required": [
+        "morro solar|chorrillos"
+      ],
+      "locationPatterns": [
+        "peru"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        -12.18,
+        -77.02,
+        15
+      ]
+    }
+  }
+}

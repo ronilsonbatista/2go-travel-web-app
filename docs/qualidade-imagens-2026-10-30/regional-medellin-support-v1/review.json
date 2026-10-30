@@ -1,0 +1,1531 @@
+[
+  {
+    "key": "medellin/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Medellín",
+    "path": "/images/destinations/medellin/curated-day-0.jpg",
+    "pool": "arrival",
+    "status": "pending-visual-review",
+    "title": "File:2018 aeropuerto internacional José María Córdova, vista aérea.jpg",
+    "imageinfo": {
+      "size": 3892512,
+      "width": 5057,
+      "height": 3793,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/2018_aeropuerto_internacional_Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova%2C_vista_a%C3%A9rea.jpg/3840px-2018_aeropuerto_internacional_Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova%2C_vista_a%C3%A9rea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/2018_aeropuerto_internacional_Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova%2C_vista_a%C3%A9rea.jpg/3840px-2018_aeropuerto_internacional_Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova%2C_vista_a%C3%A9rea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/2018_aeropuerto_internacional_Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova%2C_vista_a%C3%A9rea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2018_aeropuerto_internacional_Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova,_vista_a%C3%A9rea.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69247292",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-05-18 21:07:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2018 aeropuerto internacional José María Córdova, vista aérea",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Aerial photographs of airports in Colombia|2018 at José María Córdova International Airport|April 2018 in Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vista aérea del aeropuerto internacional José María Córdova de Medellín.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-04-22 10:47:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pedro_Felipe\" title=\"User:Pedro Felipe\">Felipe Restrepo Acosta</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/day-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/2018_aeropuerto_internacional_Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova%2C_vista_a%C3%A9rea.jpg/3840px-2018_aeropuerto_internacional_Jos%C3%A9_Mar%C3%ADa_C%C3%B3rdova%2C_vista_a%C3%A9rea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7e48ca4c7afae8f9d25d621ac108f4cea8c934d689cfd5ceb6395722b01e58c0"
+  },
+  {
+    "key": "medellin/mistakes",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "path": "/images/destinations/medellin/curated-mistakes.jpg",
+    "pool": "arrival",
+    "status": "pending-visual-review",
+    "title": "File:Aeropuerto JMC-Escultura El Sol de Edgar Negret.JPG",
+    "imageinfo": {
+      "size": 356558,
+      "width": 1200,
+      "height": 1600,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aeropuerto_JMC-Escultura_El_Sol_de_Edgar_Negret.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aeropuerto_JMC-Escultura_El_Sol_de_Edgar_Negret.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aeropuerto_JMC-Escultura_El_Sol_de_Edgar_Negret.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aeropuerto_JMC-Escultura_El_Sol_de_Edgar_Negret.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1625784",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-02-02 09:02:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Aeropuerto JMC-Escultura El Sol de Edgar Negret",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon Coolpix 2100|José María Córdova International Airport|Self-published work|PD-self|Airport towers in Colombia|Sculptures by Edgar Negret in Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Aeropuerto Internacional José María Córdova y escultura \"El Sol\" de Edgar Negret",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-02-02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Trabajo propio, libero todos los derechos (dominio público)",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/mistakes.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aeropuerto_JMC-Escultura_El_Sol_de_Edgar_Negret.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "83631d056bc0a8945686c4faa5a3c47c915d39bc8dcf8df49cf99213307e9b1c"
+  },
+  {
+    "key": "medellin/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "path": "/images/destinations/medellin/curated-essential-transporte.jpg",
+    "pool": "transport",
+    "status": "pending-visual-review",
+    "title": "File:Metro de Medellín - Tren MAN Modernizado.jpg",
+    "imageinfo": {
+      "size": 3385326,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Metro_de_Medell%C3%ADn_-_Tren_MAN_Modernizado.jpg/3840px-Metro_de_Medell%C3%ADn_-_Tren_MAN_Modernizado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Metro_de_Medell%C3%ADn_-_Tren_MAN_Modernizado.jpg/3840px-Metro_de_Medell%C3%ADn_-_Tren_MAN_Modernizado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Metro_de_Medell%C3%ADn_-_Tren_MAN_Modernizado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Metro_de_Medell%C3%ADn_-_Tren_MAN_Modernizado.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=141587939",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-11-30 22:58:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Metro de Medellín - Tren MAN Modernizado",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Metro of Medellín|Estación Caribe|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Un tren modernizado del Metro de Medellín (Colombia) ingresa a plataforma de la Estación Caribe",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-11-29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AXF02&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AXF02 (page does not exist)\">AXF02</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/essential-transporte.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Metro_de_Medell%C3%ADn_-_Tren_MAN_Modernizado.jpg/3840px-Metro_de_Medell%C3%ADn_-_Tren_MAN_Modernizado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f4e2b1a38d680fb7ff371ee11c4d32df6cdb716b490c079b21299ca35288de4b"
+  },
+  {
+    "key": "medellin/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Medellín",
+    "path": "/images/destinations/medellin/curated-costs.jpg",
+    "pool": "food",
+    "status": "pending-visual-review",
+    "title": "File:Bandeja paisa del Chocolos 30062011.jpg",
+    "imageinfo": {
+      "size": 3519013,
+      "width": 4592,
+      "height": 2576,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Bandeja_paisa_del_Chocolos_30062011.jpg/3840px-Bandeja_paisa_del_Chocolos_30062011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1346,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Bandeja_paisa_del_Chocolos_30062011.jpg/3840px-Bandeja_paisa_del_Chocolos_30062011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1346
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Bandeja_paisa_del_Chocolos_30062011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bandeja_paisa_del_Chocolos_30062011.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15705204",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-07-04 22:28:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bandeja paisa del Chocolos 30062011",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSLR-A380|Bandeja paisa|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bandeja paisa. Restaurante Chócolos, Medellín - Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-06-30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dtarazona\" title=\"User:Dtarazona\">Dtarazona</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/costs.jpg",
+    "dimensions": [
+      2400,
+      1346
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Bandeja_paisa_del_Chocolos_30062011.jpg/3840px-Bandeja_paisa_del_Chocolos_30062011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d1d85d86ab78711a719264e082ec5c28b49574ee8933370cd08979f9b95737b1"
+  },
+  {
+    "key": "medellin/day-3",
+    "slot": "day-3",
+    "topic": "Cultura e mirantes",
+    "path": "/images/destinations/medellin/curated-day-3.jpg",
+    "pool": "culture",
+    "status": "pending-visual-review",
+    "title": "File:'Mala Raza' - Infierno - Temporary Exhibit - Museo de Antioquia - Medellín - Colombia 2024.jpg",
+    "imageinfo": {
+      "size": 3421475,
+      "width": 4536,
+      "height": 2040,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/%27Mala_Raza%27_-_Infierno_-_Temporary_Exhibit_-_Museo_de_Antioquia_-_Medell%C3%ADn_-_Colombia_2024.jpg/3840px-%27Mala_Raza%27_-_Infierno_-_Temporary_Exhibit_-_Museo_de_Antioquia_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1079,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/%27Mala_Raza%27_-_Infierno_-_Temporary_Exhibit_-_Museo_de_Antioquia_-_Medell%C3%ADn_-_Colombia_2024.jpg/3840px-%27Mala_Raza%27_-_Infierno_-_Temporary_Exhibit_-_Museo_de_Antioquia_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1079
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/%27Mala_Raza%27_-_Infierno_-_Temporary_Exhibit_-_Museo_de_Antioquia_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%27Mala_Raza%27_-_Infierno_-_Temporary_Exhibit_-_Museo_de_Antioquia_-_Medell%C3%ADn_-_Colombia_2024.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149018848",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-03 03:31:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "'Mala Raza' - Infierno - Temporary Exhibit - Museo de Antioquia - Medellín - Colombia 2024",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Masks of Africa|Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|2024 in Medellín|May 2024 Colombia photographs|Museo de Antioquia - Temporary Exhibitions",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.252245",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.569292",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Infierno - Temporary Exhibit - Museo de Antioquia - Medellín - Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-05-19 11:15:59",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/day-3.jpg",
+    "dimensions": [
+      2400,
+      1079
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/%27Mala_Raza%27_-_Infierno_-_Temporary_Exhibit_-_Museo_de_Antioquia_-_Medell%C3%ADn_-_Colombia_2024.jpg/3840px-%27Mala_Raza%27_-_Infierno_-_Temporary_Exhibit_-_Museo_de_Antioquia_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fb6381ff952ad9bf672f18809579803b0e74666c69eef3fe4f4e0e183a408222"
+  },
+  {
+    "key": "medellin/day-4",
+    "slot": "day-4",
+    "topic": "Bate-volta ou folga",
+    "path": "/images/destinations/medellin/curated-day-4.jpg",
+    "pool": "leisure",
+    "status": "pending-visual-review",
+    "title": "File:Parque Explora. from Metrostation Universidad, Medellín.jpg",
+    "imageinfo": {
+      "size": 3426936,
+      "width": 3648,
+      "height": 2736,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Parque_Explora._from_Metrostation_Universidad%2C_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Parque_Explora._from_Metrostation_Universidad%2C_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Parque_Explora._from_Metrostation_Universidad%2C_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Parque_Explora._from_Metrostation_Universidad,_Medell%C3%ADn.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22935056",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-11-30 20:50:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Parque Explora. from Metrostation Universidad, Medellín",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-W170|PD-author|Parque Explora|Files from Wikivoyage wts|Files moved from wts.oldwikivoyage to Commons requiring review|Files moved to Commons requiring review as of 30 November 2012|Files by Wikivoyage user CONOCER",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Parque Explora. from Metrostation Universidad, Medellín, Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "User: (WT-shared) CONOCER at  wts wikivoyage",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/day-4.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Parque_Explora._from_Metrostation_Universidad%2C_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "9c37c1c54b2df4ba160d3a89b690158b505e785f87cd5acccfdafc414ac7347b"
+  },
+  {
+    "key": "medellin/day-1",
+    "slot": "day-1",
+    "topic": "Ícones principais",
+    "path": "/images/destinations/medellin/curated-day-1.jpg",
+    "pool": "icon",
+    "status": "pending-visual-review",
+    "title": "File:Graffiti in Comuna 13, Medellín 06.jpg",
+    "imageinfo": {
+      "size": 4188271,
+      "width": 4788,
+      "height": 3094,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_06.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1551,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_06.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1551
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Graffiti_in_Comuna_13,_Medell%C3%ADn_06.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99422650",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-02-01 15:30:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Graffiti in Comuna 13, Medellín 06",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation|Graffiti of birds|Graffiti in Comuna 13, Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.257672",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.613625",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Graffiti in Comuna 13 San Javier, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/day-1.jpg",
+    "dimensions": [
+      2400,
+      1551
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_06.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b8dc3c5e354d6fcaa99bf3b2eb989fb60181bd157ae367413b8b3cc3502cce31"
+  },
+  {
+    "key": "medellin/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/medellin/curated-tips.jpg",
+    "pool": "icon",
+    "status": "pending-visual-review",
+    "title": "File:Graffiti in Comuna 13, Medellín 01.jpg",
+    "imageinfo": {
+      "size": 9571336,
+      "width": 5456,
+      "height": 3632,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_01.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1598,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_01.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1598
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Graffiti_in_Comuna_13,_Medell%C3%ADn_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99422407",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-01-30 19:22:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Graffiti in Comuna 13, Medellín 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation|Graffiti in Comuna 13, Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.257672",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.613625",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Graffiti in Comuna 13 San Javier, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/tips.jpg",
+    "dimensions": [
+      2400,
+      1598
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_01.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "42e9bf4c7ed6083b4e02b88ad0b21f327fc083b577ffe68c79decbf49624056c"
+  },
+  {
+    "key": "medellin/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "path": "/images/destinations/medellin/curated-day-2.jpg",
+    "pool": "quarter",
+    "status": "pending-visual-review",
+    "title": "File:El poblado ladrllo.jpg",
+    "imageinfo": {
+      "size": 5121380,
+      "width": 3000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/El_poblado_ladrllo.jpg/1920px-El_poblado_ladrllo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/El_poblado_ladrllo.jpg/1920px-El_poblado_ladrllo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/El_poblado_ladrllo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_poblado_ladrllo.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=172024102",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-08-08 22:59:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "El poblado ladrllo",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "BBVA Colombia|El Poblado|Self-published work|Uploaded with Mobile/Android|Files with coordinates missing SDC location of creation|Banks in Medellín|BBVA buildings|Colombia photographs taken on 2025-08-08",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.206173",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.571725",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "El Poblado",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "8 August 2025 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Xemenendura\" title=\"User:Xemenendura\">Xemenendura</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/day-2.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/El_poblado_ladrllo.jpg/1920px-El_poblado_ladrllo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "5be28e50135eac89196cddc3ae4e58d43cad8557916dfa15e6ed31c4ff4e2290"
+  },
+  {
+    "key": "medellin/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/medellin/curated-essential-idioma.jpg",
+    "pool": "language",
+    "status": "pending-visual-review",
+    "title": "File:Street sign in Medellín.jpg",
+    "imageinfo": {
+      "size": 2794446,
+      "width": 2576,
+      "height": 2576,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Street_sign_in_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2400,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Street_sign_in_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2400
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Street_sign_in_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Street_sign_in_Medell%C3%ADn.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99399934",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-02-01 15:31:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Street sign in Medellín",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Street signs in Colombia|Files with coordinates missing SDC location of creation|Streets in Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.252100",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.569736",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calle 52 and Carrera 52 in Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/essential-idioma.jpg",
+    "dimensions": [
+      2400,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Street_sign_in_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "05c66312382366f3b7a6890c80a669ed00c3715ebd615b851cae4e7ed444ea99"
+  },
+  {
+    "key": "medellin/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "currency"
+  },
+  {
+    "key": "medellin/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "documents"
+  },
+  {
+    "key": "medellin/trip-0",
+    "slot": "trip-0",
+    "topic": "Arredores de Medellín",
+    "path": "/images/destinations/medellin/curated-trip-0.jpg",
+    "pool": "trip-0",
+    "status": "pending-visual-review",
+    "title": "File:Guatape.jpg",
+    "imageinfo": {
+      "size": 2622513,
+      "width": 2592,
+      "height": 1944,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Guatape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Guatape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Guatape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Guatape.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=9865019",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2010-03-29 10:21:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Guatape",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Taken with Fujifilm FinePix A500|Guatapé|License migration redundant|Churches in Antioquia Department|Self-published work|Churches in the Roman Catholic Diocese of Sonsón–Rionegro",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Sealladh air a' Cheàrnaig ann an Guatape, Antioquia, Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-03-29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Allmhurach&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Allmhurach (page does not exist)\">Allmhurach</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/trip-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Guatape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "f4628d080b31deaa69777709d9ea982eb3e2800396bae9e5e4868cb9b348bc35"
+  },
+  {
+    "key": "medellin/trip-1",
+    "slot": "trip-1",
+    "topic": "Passeio regional de meio dia",
+    "path": "/images/destinations/medellin/curated-trip-1.jpg",
+    "pool": "trip-1",
+    "status": "pending-visual-review",
+    "title": "File:Callecita. Santa Fe de Antioquia (antioquia). Colombia.JPG",
+    "imageinfo": {
+      "size": 2240756,
+      "width": 2592,
+      "height": 1944,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Callecita._Santa_Fe_de_Antioquia_%28antioquia%29._Colombia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Callecita._Santa_Fe_de_Antioquia_%28antioquia%29._Colombia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Callecita._Santa_Fe_de_Antioquia_%28antioquia%29._Colombia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Callecita._Santa_Fe_de_Antioquia_(antioquia)._Colombia.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21526686",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-09-22 01:52:18",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Callecita. Santa Fe de Antioquia (antioquia). Colombia",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-H1|Sector Antiguo de la ciudad de Santa Fe de Antioquia|Self-published work|National monuments in Colombia with known IDs|Images from Wiki Loves Monuments 2012|Images from Wiki Loves Monuments 2012 in Colombia|Streets in Santa Fe de Antioquia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "This is a photo of a Colombian monument identified by the ID",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-05-22 02:52:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Kamilokardona&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Kamilokardona (page does not exist)\">Kamilokardona</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/trip-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Callecita._Santa_Fe_de_Antioquia_%28antioquia%29._Colombia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "6c5defbe90eba291ee0a8d8fe13fd5231fbca928ac89f9e3d37ce2d1b874e686"
+  },
+  {
+    "key": "medellin/trip-2",
+    "slot": "trip-2",
+    "topic": "Destino costeiro ou histórico próximo",
+    "path": "/images/destinations/medellin/curated-trip-2.jpg",
+    "pool": "trip-2",
+    "status": "pending-visual-review",
+    "title": "File:El Retiro-Antioquia.jpg",
+    "imageinfo": {
+      "size": 1050310,
+      "width": 2304,
+      "height": 1728,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/El_Retiro-Antioquia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/El_Retiro-Antioquia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/El_Retiro-Antioquia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_Retiro-Antioquia.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3253551",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-10-16 07:42:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "El Retiro-Antioquia",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "El Retiro|Flickr images uploaded by Flickr upload bot|Information field template with formatting|Panoramics in Antioquia Department",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Municipio el Retiro, Antioquia, Colombia.<br>El Retiro",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-03-20 06:07:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/9654432@N06/841908322\">Flickr</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/9654432@N06\">Andres EM</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table id=\"FlickrReview\" style=\"width:100%; margin:0.3em auto; text-align:start; background-color:var(--background-color-success-subtle,#d5fdf4); padding: 3px; border:1px solid var(--border-color-base,#a2a9b1); color:inherit;\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><a href=\"https://en.wikipedia.org/wiki/Flickr\" class=\"extiw\" title=\"en:Flickr\">Flickr</a></b>, was uploaded to Commons using <b><a href=\"//commons.wikimedia.org/wiki/User:Flickr_upload_bot\" title=\"User:Flickr upload bot\">Flickr upload bot</a></b> on 20 December 2007, 08:39 by <span id=\"flickr_upload_bot_reviewer\"><b><a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a></b></span>. On that date, it was confirmed to be licensed under the terms of the license indicated.\n</td>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/60px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/120px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\n</td></tr></tbody></table>\n<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/2.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/2.0/deed.en\">Attribution 2.0 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/2.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 2.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 2.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/trip-2.jpg",
+    "dimensions": [
+      2304,
+      1728
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/El_Retiro-Antioquia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "9a001ea02fb26722c9b176e989dc1845fd0039701f1e4db137780d7e4a7947b4"
+  }
+]

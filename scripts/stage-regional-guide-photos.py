@@ -17,6 +17,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageOps
+from guide_photo_origins import origin_photo_id, live_origins
 
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
@@ -27,6 +28,8 @@ plan = json.loads(Path(args.plan).read_text())
 city = plan['city']
 OUT = ROOT/'docs/qualidade-imagens-2026-10-30'/('regional-'+city+('-'+args.batch if args.batch else ''))
 OUT.mkdir(parents=True, exist_ok=True)
+if (OUT/'applied.json').exists() and json.loads((OUT/'applied.json').read_text()).get('applied',0):
+ raise SystemExit('This review bundle contains applied photos. Use a new --batch to preserve its evidence.')
 STAGE = Path('/tmp/2go-regional-photo-review')/city
 STAGE.mkdir(parents=True, exist_ok=True)
 manifest = json.loads((ROOT/'docs/curadoria-2026-10-29/sources.json').read_text())
@@ -41,10 +44,15 @@ def family(s):
  return ''.join(c for c in s if c.isalnum())
 used_titles={norm(urllib.parse.unquote(v.get('title',''))) for v in manifest.values()}
 used_families={family(urllib.parse.unquote(v.get('title',''))) for v in manifest.values()}
+used_origins=set(live_origins(manifest).values())
 used_hashes={r.get('sha256') for r in inventory}
 used_hashes.update(v['assetSha256'] for v in manifest.values() if v.get('assetSha256'))
 rejection_index = ROOT/'docs/qualidade-imagens-2026-10-30/regional-rejections.json'
 rejected_titles = {norm(urllib.parse.unquote(row['title'])) for row in json.loads(rejection_index.read_text()) if row.get('title')} if rejection_index.exists() else set()
+reservation_path = ROOT/'docs/qualidade-imagens-2026-10-30/candidate-reservations.json'
+reservations = json.loads(reservation_path.read_text()) if reservation_path.exists() else {}
+reserved_families = {family(value['title']):value['key'] for value in reservations.values()}
+reserved_origins = {value['originPhotoId']:value['key'] for value in reservations.values() if value.get('originPhotoId')}
 def get(url):
  for attempt in range(3):
   try:
@@ -58,8 +66,9 @@ def search(item):
  cache=OUT/('pool-'+name+'.json')
  if cache.exists():return name,json.loads(cache.read_text())
  params={'action':'query','generator':'search','gsrsearch':pool['query']+' filetype:bitmap',
-  'gsrnamespace':6,'gsrlimit':50,'prop':'imageinfo','iiprop':'url|size|mime|extmetadata','iiurlwidth':2400,'format':'json'}
+  'gsrnamespace':6,'gsrlimit':pool.get('limit',50),'prop':'imageinfo','iiprop':'url|size|mime|extmetadata','iiurlwidth':2400,'format':'json'}
  data=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params)))
+ if data.get('error'):raise ValueError(data['error'])
  cache.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
  return name,data
 with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
@@ -74,8 +83,12 @@ for name,pool in plan['pools'].items():
  for p in sorted(pages,key=rank):
   info=p.get('imageinfo',[{}])[0];meta=info.get('extmetadata',{})
   text=norm(p['title']+' '+re.sub('<[^>]+>','',meta.get('ImageDescription',{}).get('value',''))+' '+meta.get('Categories',{}).get('value',''))
+  creator=norm(re.sub('<[^>]+>','',meta.get('Artist',{}).get('value','')))
+  if re.search(r'ai.generated|generative.ai|midjourney|dall.?e|stable.diffusion|adobe.firefly|computer.generated|3d.render|ai.upscal',text+' '+creator,re.I):continue
   if info.get('mime') not in ['image/jpeg','image/png']:continue
-  if max(info.get('width',0),info.get('height',0))<1600:continue
+  minimum=pool.get('minimumLongEdge',1600)
+  if minimum<1024:raise ValueError('Explicit image quality floor cannot be below 1024px')
+  if max(info.get('width',0),info.get('height',0))<minimum:continue
   ratio=info.get('width',0)/max(info.get('height',1),1)
   if not pool.get('minRatio',0.65)<=ratio<=pool.get('maxRatio',3.6):continue
   if not all(re.search(pattern,text,re.I) for pattern in pool['required']):continue
@@ -110,12 +123,27 @@ for name,pool in plan['pools'].items():
   selected=None
   for p,info in candidates:
    if norm(p['title']) in used_titles or family(p['title']) in used_families:continue
+   origin=origin_photo_id(info)
+   if origin and (origin in used_origins or reserved_origins.get(origin,row['key'])!=row['key']):continue
+   owner=reservations.get(norm(p['title']),{}).get('key')
+   if owner and owner!=row['key']:continue
+   family_owner=reserved_families.get(family(p['title']))
+   if family_owner and family_owner!=row['key']:continue
    selected=(p,info);used_titles.add(norm(p['title']));used_families.add(family(p['title']));break
   if not selected:
    queue.append({'key':row['key'],'slot':slot,'topic':row['topic'],'status':'no-candidate','pool':name});continue
   p,info=selected
+  reservations[norm(p['title'])]={'title':p['title'],'key':row['key'],'batch':args.batch or 'default'}
+  origin=origin_photo_id(info)
+  if origin:
+   used_origins.add(origin);reserved_origins[origin]=row['key']
+   reservations[norm(p['title'])]['originPhotoId']=origin
+  reserved_families[family(p['title'])]=row['key']
   queue.append({'key':row['key'],'slot':slot,'topic':row['topic'],'path':row['src'],'pool':name,
-    'status':'selected-unreviewed','title':p['title'],'imageinfo':info})
+    'status':'selected-unreviewed','title':p['title'],'imageinfo':info,'minimumLongEdge':pool.get('minimumLongEdge',1600)})
+# Run staging processes sequentially. Reservations avoid cross-city collisions while
+# candidates await review; the applier still validates the live manifest authoritatively.
+reservation_path.write_text(json.dumps(reservations,ensure_ascii=False,indent=2)+'\n')
 def download(row):
  if row['status']!='selected-unreviewed':return row
  try:
@@ -124,7 +152,7 @@ def download(row):
   file=STAGE/(row['slot']+'.jpg')
   with Image.open(io.BytesIO(get(url))) as source:
    im=ImageOps.exif_transpose(source).convert('RGB');im.thumbnail((2400,2400),Image.Resampling.LANCZOS)
-   if max(im.size)<1600:raise ValueError('Downloaded asset below 1600px')
+   if max(im.size)<row['minimumLongEdge']:raise ValueError('Downloaded asset below explicit quality floor')
    im.save(file,'JPEG',quality=85,optimize=True)
    row.update(file=str(file),dimensions=list(im.size),downloadUrl=url)
   row.update(status='pending-visual-review',sha256=hashlib.sha256(file.read_bytes()).hexdigest())

@@ -1,0 +1,233 @@
+{
+  "city": "bahamas",
+  "region": "americas",
+  "center": [
+    25.0443,
+    -77.3504,
+    40
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Lynden Pindling Airport Nassau",
+      "required": [
+        "lynden pindling"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Nassau Bahamas bus",
+      "required": [
+        "bus|jitney|transport"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Nassau Bahamas conch salad",
+      "required": [
+        "conch"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Pirates Nassau Museum",
+      "required": [
+        "pirates of nassau|pirates museum"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Cable Beach Nassau Bahamas",
+      "required": [
+        "cable beach"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Atlantis Paradise Island Bahamas",
+      "required": [
+        "atlantis"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Downtown Nassau Bahamas",
+      "required": [
+        "downtown|bay street"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Nassau Bahamas sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "Bahamian dollar banknotes",
+      "required": [
+        "bahamian|bahamas"
+      ],
+      "locationPatterns": [
+        "baham"
+      ],
+      "countryPattern": "baham",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Bahamian passport cover",
+      "required": [
+        "bahamian passport|bahamas passport"
+      ],
+      "locationPatterns": [
+        "baham"
+      ],
+      "countryPattern": "baham",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Exuma Bahamas",
+      "required": [
+        "exuma"
+      ],
+      "locationPatterns": [
+        "bahamas"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        23.7,
+        -76,
+        130
+      ]
+    },
+    "trip-1": {
+      "query": "Rose Island Bahamas",
+      "required": [
+        "rose island"
+      ],
+      "locationPatterns": [
+        "bahamas"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        25.1,
+        -77.2,
+        30
+      ]
+    },
+    "trip-2": {
+      "query": "Fort Charlotte Nassau Bahamas",
+      "required": [
+        "fort charlotte"
+      ],
+      "locationPatterns": [
+        "bahamas"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        25.06,
+        -77.35,
+        15
+      ]
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "vancouver/day-0": {
+    "decision": "rejected",
+    "notes": "Interior muito escuro e esverdeado; aeroporto pouco legivel."
+  },
+  "vancouver/mistakes": {
+    "decision": "rejected",
+    "notes": "Carrinho de doces sem contexto suficiente de terminal ou chegada."
+  },
+  "vancouver/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Trem quase inteiramente encoberto por arvores; transporte nao fica legivel."
+  },
+  "vancouver/costs": {
+    "decision": "rejected",
+    "notes": "Carrinho de vendedor, sem prato visivel; procurar foto da comida local."
+  },
+  "vancouver/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "vancouver/day-4": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bate-volta ou folga, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "vancouver/day-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Ícones principais, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "vancouver/tips": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Dicas importantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "vancouver/day-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bairros e gastronomia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "vancouver/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Nome proprio de rua e bandeiras, sem palavras significativas do idioma."
+  },
+  "vancouver/essential-moeda": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "vancouver/essential-docs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "vancouver/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Arredores de Vancouver, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "vancouver/trip-1": {
+    "decision": "rejected",
+    "notes": "Retrato de ave sem paisagem de North Vancouver."
+  },
+  "vancouver/trip-2": {
+    "decision": "rejected",
+    "notes": "Pequeno galpao isolado nao apresenta o passeio historico de Victoria."
+  }
+}

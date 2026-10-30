@@ -1,0 +1,62 @@
+{
+  "las-vegas/day-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Chegada em Las Vegas, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "las-vegas/mistakes": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Erros comuns, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "las-vegas/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Piscina domina o assunto; trilhos distantes nao representam o transporte proposto."
+  },
+  "las-vegas/costs": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Pratos típicos de Las Vegas, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "las-vegas/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "las-vegas/day-4": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bate-volta ou folga, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "las-vegas/day-1": {
+    "decision": "rejected",
+    "notes": "Registro de 2012 mostra o Mirage, fechado em 2024 para transformacao em Hard Rock; inadequado como icone atual. Fontes primarias: https://www.hardrockvegas.com/ e comunicado Hard Rock de 15/05/2024 em https://www.prnewswire.com/news-releases/the-mirage-hotel--casino-to-begin-transformation-into-hard-rock-las-vegas-on-july-17-2024-302145629.html"
+  },
+  "las-vegas/tips": {
+    "decision": "rejected",
+    "notes": "Tela de maquina com aviso domina a foto, pouco contexto de dicas do destino."
+  },
+  "las-vegas/day-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bairros e gastronomia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "las-vegas/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Logotipo Paris isolado nao ilustra o idioma ingles nem orientacao local."
+  },
+  "las-vegas/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Cedula de 1928 em vitrine de museu, pouco representativa do dinheiro de viagem atual."
+  },
+  "las-vegas/essential-docs": {
+    "decision": "rejected",
+    "notes": "Passaporte honorario historico de Winston Churchill, inadequado como documentacao atual."
+  },
+  "las-vegas/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Arredores de Las Vegas, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "las-vegas/trip-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Passeio regional de meio dia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "las-vegas/trip-2": {
+    "decision": "rejected",
+    "notes": "Asa de aviao e nevoa prejudicam a vista do reservatorio, baixa legibilidade."
+  }
+}

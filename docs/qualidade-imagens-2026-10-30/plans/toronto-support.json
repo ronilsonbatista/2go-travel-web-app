@@ -1,0 +1,233 @@
+{
+  "city": "toronto",
+  "region": "americas",
+  "center": [
+    43.6532,
+    -79.3832,
+    40
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Toronto Pearson Airport terminal",
+      "required": [
+        "pearson"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "TTC streetcar Toronto",
+      "required": [
+        "ttc|streetcar"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Peameal bacon sandwich Toronto",
+      "required": [
+        "peameal"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Royal Ontario Museum",
+      "required": [
+        "royal ontario"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Toronto Islands",
+      "required": [
+        "toronto islands|centre island"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "CN Tower Toronto",
+      "required": [
+        "cn tower"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Downtown Toronto",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Toronto sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "Canadian polymer banknotes",
+      "required": [
+        "polymer|frontier series|2011|2012|2013|2018"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Canadian passport cover",
+      "required": [
+        "canadian passport|passeport canadien"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Canadian Horseshoe Falls Niagara",
+      "required": [
+        "horseshoe|canadian falls"
+      ],
+      "locationPatterns": [
+        "canada|ontario"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        43.08,
+        -79.07,
+        20
+      ]
+    },
+    "trip-1": {
+      "query": "Scarborough Bluffs Toronto",
+      "required": [
+        "scarborough bluffs"
+      ],
+      "locationPatterns": [
+        "canada|ontario"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        43.71,
+        -79.24,
+        20
+      ]
+    },
+    "trip-2": {
+      "query": "Dundurn Castle Hamilton Ontario",
+      "required": [
+        "dundurn"
+      ],
+      "locationPatterns": [
+        "canada|ontario"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        43.27,
+        -79.88,
+        20
+      ]
+    }
+  }
+}

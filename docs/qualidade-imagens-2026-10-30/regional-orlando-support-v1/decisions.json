@@ -1,0 +1,62 @@
+{
+  "orlando/day-0": {
+    "decision": "rejected",
+    "notes": "Loja de pretzels em primeiro plano; falta contexto legivel de chegada ao aeroporto."
+  },
+  "orlando/mistakes": {
+    "decision": "rejected",
+    "notes": "Fast food ocupa a cena; procurar terminal ou sinalizacao de aeroporto."
+  },
+  "orlando/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Transporte, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "orlando/costs": {
+    "decision": "rejected",
+    "notes": "Cerimonia militar de aniversario com pessoas e bolo; nao e prato tipico."
+  },
+  "orlando/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "orlando/day-4": {
+    "decision": "rejected",
+    "notes": "Detalhe de placa historica em preto e branco nao mostra o parque Lake Eola."
+  },
+  "orlando/day-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Ícones principais, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "orlando/tips": {
+    "decision": "rejected",
+    "notes": "Macro de borboleta sem contexto reconhecivel do parque ou destino."
+  },
+  "orlando/day-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bairros e gastronomia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "orlando/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Marca de hotel e carro, sem exemplo significativo de idioma ingles."
+  },
+  "orlando/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Cedula de 1914 em museu: objeto historico inadequado para pagamentos atuais."
+  },
+  "orlando/essential-docs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "orlando/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Arredores de Orlando, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "orlando/trip-1": {
+    "decision": "rejected",
+    "notes": "Cachorro domina a praia; nao oferece vista clara do passeio Winter Park."
+  },
+  "orlando/trip-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Destino costeiro ou histórico próximo, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  }
+}

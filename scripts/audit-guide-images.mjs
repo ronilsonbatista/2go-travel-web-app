@@ -17,6 +17,9 @@ const banned = new Set(['f84fe337a37405671fd18b6992636d4a', 'e5ace9e2fc066228194
 const manifest = path.join(root, 'docs/curadoria-2026-10-29/sources.json');
 const sources = fs.existsSync(manifest) ? JSON.parse(fs.readFileSync(manifest)) : {};
 const sourceIds = new Map();
+const originsPath = path.join(root, 'docs/qualidade-imagens-2026-10-30/source-origins.json');
+const sourceOrigins = fs.existsSync(originsPath) ? JSON.parse(fs.readFileSync(originsPath)) : {};
+const externalOriginals = new Map();
 const photoFamilies = new Map();
 function register(map, key, label) {
   if (map.has(key)) problems.push(`${label}: ${map.get(key)} + ${current}`);
@@ -79,6 +82,8 @@ for (const slot of slots) {
   if (!source || source.path !== slot.src) problems.push(`MISSING provenance: ${current}`);
   else {
     register(sourceIds, decodeURIComponent(source.source).replace(/_/g, ' ').toLowerCase(), 'REUSED original photo');
+    const origin = sourceOrigins[current];
+    if (origin?.source === source.source && origin.originPhotoId) register(externalOriginals, origin.originPhotoId, 'REUSED external original');
     const family = decodeURIComponent(source.title).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/_/g, ' ').toLowerCase().replace(/\b(cropped|crop|zuschnitt|beschnitten|recadre|recadrage|recortada|recortado|recorte|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b/g, '').replace(/[^\p{L}\p{N}]/gu, '');
     register(photoFamilies, family, 'REUSED derivative family');
     if (source.latitude != null && source.longitude != null && !/^(trip-|country-|costs|essential-(docs|moeda))/.test(slot.slot)) {
