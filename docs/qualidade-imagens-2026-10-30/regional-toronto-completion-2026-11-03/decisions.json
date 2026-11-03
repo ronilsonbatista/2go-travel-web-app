@@ -1,0 +1,78 @@
+{
+  "toronto/home-slide": {
+    "decision": "rejected",
+    "notes": "Panorama da mesma sequência e ponto de captura usado em outros candidatos; rejeitado para evitar repetição visual próxima."
+  },
+  "toronto/home-thumb": {
+    "decision": "rejected",
+    "notes": "Panorama da mesma sequência de captura do skyline; enquadramentos semelhantes, manter gap para alternativa distinta."
+  },
+  "toronto/neighborhood-1": {
+    "decision": "rejected",
+    "notes": "Close de escultura sem contexto suficiente do Entertainment District."
+  },
+  "toronto/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Cruzamento e edifícios do Entertainment District de Toronto; contexto urbano real do bairro e orientação correta."
+  },
+  "toronto/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Prédio histórico e comércio na Yorkville Avenue em 2023; contexto real do bairro Yorkville."
+  },
+  "toronto/region-1": {
+    "decision": "rejected",
+    "notes": "Vista aérea desbotada e pouco nítida do skyline; qualidade insuficiente para região Downtown."
+  },
+  "toronto/region-list-1": {
+    "decision": "rejected",
+    "notes": "Prédios em contraluz sob neblina com CN Tower apagada; baixa legibilidade e pouco contexto."
+  },
+  "toronto/hotel-1": {
+    "decision": "accepted",
+    "notes": "Praça e CN Tower ao anoitecer em Downtown Toronto; contexto real da região para hospedagem ilustrativa."
+  },
+  "toronto/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Rua de Downtown com edifícios e CN Tower ao fundo; contexto real de hospedagem ilustrativa da região."
+  },
+  "toronto/region-2": {
+    "decision": "accepted",
+    "notes": "Fachada da Holy Family Church e rua de Parkdale no West End; arquitetura local real e orientação correta."
+  },
+  "toronto/region-list-2": {
+    "decision": "accepted",
+    "notes": "Interior amplo da Holy Family Church de Parkdale; patrimônio arquitetônico real da região West, distinto da fachada."
+  },
+  "toronto/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Parkdale Hall e cruzamento com trilhos de bonde; contexto urbano real do West End para hospedagem ilustrativa."
+  },
+  "toronto/region-list-3": {
+    "decision": "rejected",
+    "notes": "Vista por janela de bonde com reflexos e enquadramento parcial; Leslieville pouco legível."
+  },
+  "toronto/hotel-3": {
+    "decision": "accepted",
+    "notes": "Rua e comércio de Greenwood-Coxwell em Toronto East; contexto real de hospedagem ilustrativa na região."
+  },
+  "toronto/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Caixa técnica com grafite domina a imagem; não representa contexto de hospedagem em East."
+  },
+  "toronto/mistakes": {
+    "decision": "accepted",
+    "notes": "Terminal 1 do aeroporto Toronto Pearson com saguão e serviços visíveis; contexto real de chegada e planejamento."
+  },
+  "toronto/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Bonde TTC fotografado em 1995, frota retirada de serviço; não representa transporte atual."
+  },
+  "toronto/day-4": {
+    "decision": "accepted",
+    "notes": "Caminho arborizado da Lakeshore Avenue nas Toronto Islands em 2026; passeio de folga real com lago ao fundo."
+  },
+  "toronto/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Letreiro contém apenas o nome Toronto; não apresenta texto do idioma ou sinalização útil."
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "city": "lima",
+  "region": "americas",
+  "center": [
+    -12.0464,
+    -77.0428,
+    50
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Lima Peru skyline Miraflores",
+      "required": [
+        "lima|miraflores"
+      ],
+      "locationPatterns": [
+        "lima|peru"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "guide-highlight"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-0": {
+      "query": "Miraflores Malecon Lima",
+      "required": [
+        "miraflores|malecon"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-0"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-1": {
+      "query": "Barranco Lima",
+      "required": [
+        "barranco"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-1"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-2": {
+      "query": "Plaza Mayor Lima",
+      "required": [
+        "plaza mayor|plaza de armas"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "Barranco Lima",
+      "required": [
+        "barranco"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "San Isidro Lima",
+      "required": [
+        "san isidro"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Historic Centre Lima",
+      "required": [
+        "centro historico|historic centre|historic center|plaza mayor|plaza de armas"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Miraflores Lima",
+      "required": [
+        "miraflores"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Barranco Lima",
+      "required": [
+        "barranco"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-1"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Lima historic center",
+      "required": [
+        "centro historico|historic center|historic centre|plaza mayor|plaza de armas"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Costa Verde Lima",
+      "required": [
+        "costa verde"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-3"
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "\"Jorge Chavez\" \"2025\" \"terminal\"",
+      "required": [
+        "jorge chavez",
+        "2025|2026",
+        "nuevo|new|terminal"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "support-icon": {
+      "query": "Miraflores Malecon Lima",
+      "required": [
+        "miraflores|malecon"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1"
+      ]
+    },
+    "support-language": {
+      "query": "Lima Peru sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "lima|huaca pucllana"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "support-currency": {
+      "query": "Peruvian sol banknotes",
+      "required": [
+        "soles|nuevo sol|peruvian sol"
+      ],
+      "locationPatterns": [
+        "peru"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "Peruvian passport cover",
+      "required": [
+        "peruvian passport|pasaporte peruano"
+      ],
+      "locationPatterns": [
+        "peru"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-trip-0": {
+      "query": "Pachacamac Peru",
+      "required": [
+        "pachacamac"
+      ],
+      "locationPatterns": [
+        "peru"
+      ],
+      "countryPattern": "peru",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        -12.26,
+        -76.9,
+        20
+      ]
+    }
+  }
+}

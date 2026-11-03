@@ -1,0 +1,182 @@
+{
+  "city": "havana",
+  "region": "americas",
+  "center": [
+    23.1136,
+    -82.3666,
+    30
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Havana",
+      "required": [
+        "havana|habana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cuba"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100,
+      "offset": 0
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "Vedado Havana",
+      "required": [
+        "vedado"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Miramar Havana",
+      "required": [
+        "miramar"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-3"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Habana Vieja",
+      "required": [
+        "habana vieja|old havana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "hotel-list-0"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Malecon Havana",
+      "required": [
+        "malecon"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-1",
+        "hotel-1"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "support-food": {
+      "query": "Havana ropa vieja",
+      "required": [
+        "ropa vieja"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ],
+      "offset": 100
+    },
+    "support-leisure": {
+      "query": "Playas del Este Havana",
+      "required": [
+        "playas del este|santa maria del mar"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ],
+      "offset": 100
+    },
+    "support-icon": {
+      "query": "Habana Vieja",
+      "required": [
+        "habana vieja|old havana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ],
+      "offset": 100
+    },
+    "support-quarter": {
+      "query": "Habana Vieja",
+      "required": [
+        "habana vieja|old havana"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ],
+      "offset": 100
+    },
+    "support-currency": {
+      "query": "Cuban peso CUP banknotes",
+      "required": [
+        "cuban peso|peso cubano|cup"
+      ],
+      "locationPatterns": [
+        "cuba"
+      ],
+      "countryPattern": "cuba",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit|convertible|cuc",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    }
+  }
+}

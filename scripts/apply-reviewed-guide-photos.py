@@ -8,6 +8,8 @@ import re
 import shutil
 import unicodedata
 import urllib.parse
+from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from PIL import Image
 from guide_photo_origins import origin_photo_id, live_origins, INDEX
@@ -72,7 +74,7 @@ for row in rows:
   'date':html.unescape(re.sub('<[^>]+>','',meta.get('DateTimeOriginal',{}).get('value',''))),
   'downloadUrl':row['downloadUrl'],'originalUrl':row['imageinfo']['url'],
   'assetDimensions':dimensions,'originalDimensions':[row['imageinfo']['width'],row['imageinfo']['height']],
-  'visualReview':'accepted','reviewedAt':'2026-10-30','reviewNotes':decision['notes'],'assetSha256':digest,'minimumLongEdge':minimum}
+  'visualReview':'accepted','reviewedAt':datetime.now(ZoneInfo('America/Sao_Paulo')).date().isoformat(),'reviewNotes':decision['notes'],'assetSha256':digest,'minimumLongEdge':minimum}
  for field,key in [('latitude','GPSLatitude'),('longitude','GPSLongitude')]:
   try:new[field]=float(meta[key]['value'])
   except (KeyError,ValueError,TypeError):pass

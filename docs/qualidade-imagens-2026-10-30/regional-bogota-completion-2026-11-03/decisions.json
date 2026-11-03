@@ -1,0 +1,74 @@
+{
+  "bogota/map-attraction-3": {
+    "decision": "rejected",
+    "notes": "Farmácia isolada e fachada comercial; não identifica o centro turístico de Usaquén."
+  },
+  "bogota/map-list-5": {
+    "decision": "rejected",
+    "notes": "Grupo de pessoas domina a cena da visita guiada; jardim botânico pouco reconhecível."
+  },
+  "bogota/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Imagem religiosa isolada dentro da igreja; não caracteriza La Candelaria como bairro."
+  },
+  "bogota/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Escadaria e casas da Carrera 1 com Calle 66 em Chapinero; rua residencial real do bairro, sem inversão."
+  },
+  "bogota/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Vegetação de encosta sem área urbana; contexto insuficiente para Chapinero."
+  },
+  "bogota/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Rua residencial da Calle 151 com Carrera 19 em Usaquén; contexto urbano real e orientação correta."
+  },
+  "bogota/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Vista do Cerro Picacho desde Usaquén com cidade e vegetação; paisagem real do bairro/região."
+  },
+  "bogota/region-0": {
+    "decision": "rejected",
+    "notes": "Confessionário isolado; não representa a região Histórica de Bogotá."
+  },
+  "bogota/hotel-0": {
+    "decision": "rejected",
+    "notes": "Close de ambão dentro da igreja; não representa contexto de hospedagem da região."
+  },
+  "bogota/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Fachada da igreja La Candelaria e praça no centro histórico de Bogotá; contexto real para hospedagem ilustrativa."
+  },
+  "bogota/hotel-1": {
+    "decision": "accepted",
+    "notes": "Casa de arquitetura local em Usaquén, com fachada e rua visíveis; contexto real de hospedagem ilustrativa na região Norte."
+  },
+  "bogota/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Terreno em obras com entulho; contexto inadequado para hospedagem no Norte."
+  },
+  "bogota/region-list-2": {
+    "decision": "rejected",
+    "notes": "Jardim/encosta genérico sem bairro identificável; tema de Chapinero não está comprovado visualmente."
+  },
+  "bogota/hotel-2": {
+    "decision": "rejected",
+    "notes": "Close de rochas na encosta sem área urbana; não representa contexto de hospedagem em Chapinero."
+  },
+  "bogota/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Vegetação e córrego superexpostos; baixa qualidade e sem contexto de hospedagem."
+  },
+  "bogota/day-1": {
+    "decision": "rejected",
+    "notes": "Interior de cafeteria sem vista de Monserrate; não representa ícones principais do roteiro."
+  },
+  "bogota/tips": {
+    "decision": "rejected",
+    "notes": "Interior de cafeteria com baixa definição e pouca relação com dicas importantes do destino."
+  },
+  "bogota/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Placa Calle de la Fatiga em Bogotá com texto em espanhol; sinalização local em fotografia real e orientada corretamente."
+  }
+}

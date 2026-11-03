@@ -1,0 +1,62 @@
+{
+  "medellin/map-list-0": {
+    "decision": "accepted",
+    "notes": "Mural colorido na Comuna 13, tema de arte urbana característico da atração; fotografia real e orientada corretamente."
+  },
+  "medellin/map-attraction-1": {
+    "decision": "rejected",
+    "notes": "Policial em primeiro plano; não representa Parque Arví como atração."
+  },
+  "medellin/map-list-1": {
+    "decision": "rejected",
+    "notes": "Estação Andalucía da linha urbana do Metrocable; não é a linha/estação do Parque Arví."
+  },
+  "medellin/map-attraction-3": {
+    "decision": "accepted",
+    "notes": "Alameda arborizada de El Poblado com edifícios, canteiros e calçada; atração/bairro reconhecível e contexto real."
+  },
+  "medellin/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Vista diurna do skyline residencial de El Poblado e montanhas; contexto real do bairro, horizonte correto."
+  },
+  "medellin/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Igreja e edifícios do centro de Medellín em enquadramento urbano amplo; assunto corresponde ao Centro."
+  },
+  "medellin/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Shopping Santafé fica em El Poblado; não é o Centro Histórico de Medellín, falso match pela palavra Centro."
+  },
+  "medellin/region-0": {
+    "decision": "accepted",
+    "notes": "Igreja San José de El Poblado e praça com palmeiras; marco real da região e orientação correta."
+  },
+  "medellin/region-list-0": {
+    "decision": "accepted",
+    "notes": "Edifícios e calçada arborizada de El Poblado em foto diurna; contexto urbano correspondente à região."
+  },
+  "medellin/hotel-0": {
+    "decision": "accepted",
+    "notes": "Rua e edifícios de El Poblado com entorno urbano legível; foto contextual de hospedagem ilustrativa sem identificar hotel específico."
+  },
+  "medellin/region-2": {
+    "decision": "accepted",
+    "notes": "Estação Parque Berrío com praça e pedestres no centro de Medellín; contexto urbano real da região."
+  },
+  "medellin/region-list-2": {
+    "decision": "accepted",
+    "notes": "Palácio da Cultura, rua e elevado do metrô junto ao Parque Berrío; centro de Medellín reconhecível e orientação correta."
+  },
+  "medellin/region-3": {
+    "decision": "rejected",
+    "notes": "Metrocable sobre bairro urbano sem Parque Arví; tema da região florestal não corresponde."
+  },
+  "medellin/region-list-3": {
+    "decision": "rejected",
+    "notes": "Linha urbana do Metrocable sobre casas; não representa Arví."
+  },
+  "medellin/day-3": {
+    "decision": "rejected",
+    "notes": "Pintura/retrato exposto no museu; objeto isolado não representa cultura e mirantes do roteiro."
+  }
+}

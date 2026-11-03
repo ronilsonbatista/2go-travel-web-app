@@ -1,0 +1,235 @@
+{
+  "city": "chicago",
+  "region": "americas",
+  "center": [
+    41.8781,
+    -87.6298,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Chicago skyline panorama",
+      "required": [
+        "chicago"
+      ],
+      "locationPatterns": [
+        "chicago|illinois"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "intro"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-0": {
+      "query": "Cloud Gate Millennium Park Chicago",
+      "required": [
+        "cloud gate|millennium park"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-0"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-1": {
+      "query": "Art Institute Chicago",
+      "required": [
+        "art institute"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-3": {
+      "query": "Willis Tower Chicago",
+      "required": [
+        "willis tower|sears tower"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-4": {
+      "query": "Chicago Riverwalk",
+      "required": [
+        "riverwalk"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-4"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Chicago Loop",
+      "required": [
+        "loop"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "River North Chicago",
+      "required": [
+        "river north"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "Lincoln Park Chicago neighborhood",
+      "required": [
+        "lincoln park"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Chicago Loop",
+      "required": [
+        "loop"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Chicago Lakefront",
+      "required": [
+        "lakefront|lake michigan"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-1"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Lincoln Park Chicago",
+      "required": [
+        "lincoln park"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-2",
+        "hotel-list-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "West Town Chicago",
+      "required": [
+        "west town"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "Chicago OHare Airport terminal",
+      "required": [
+        "o.hare|ohare"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "mistakes"
+      ]
+    },
+    "support-icon": {
+      "query": "Cloud Gate Millennium Park Chicago",
+      "required": [
+        "cloud gate|millennium park"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "tips"
+      ]
+    },
+    "support-quarter": {
+      "query": "Chicago Loop",
+      "required": [
+        "loop"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    }
+  }
+}

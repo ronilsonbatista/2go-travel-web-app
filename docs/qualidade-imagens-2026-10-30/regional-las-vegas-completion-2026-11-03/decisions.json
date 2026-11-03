@@ -1,0 +1,82 @@
+{
+  "las-vegas/home": {
+    "decision": "accepted",
+    "notes": "Excalibur Hotel & Casino em foto diurna nítida, com arquitetura temática e contexto da Strip; marco real de Las Vegas e orientação correta."
+  },
+  "las-vegas/map-attraction-1": {
+    "decision": "accepted",
+    "notes": "Fontes do Bellagio em funcionamento à noite com jatos iluminados e prédios ao fundo; atração identificável e sem rotação."
+  },
+  "las-vegas/attraction-4": {
+    "decision": "accepted",
+    "notes": "Cabine do High Roller e cidade iluminada vistos da roda; atração real e reconhecível em foto noturna."
+  },
+  "las-vegas/map-list-4": {
+    "decision": "rejected",
+    "notes": "Roda High Roller com baixa definição, tonalidade desbotada e céu opaco; qualidade insuficiente para miniatura."
+  },
+  "las-vegas/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Panorama noturno da Las Vegas Strip com hotéis e avenidas iluminadas; bairro/região identificável e horizonte correto."
+  },
+  "las-vegas/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Edifício de Clark County e rua no Downtown de Las Vegas; contexto urbano real e orientação correta."
+  },
+  "las-vegas/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Close de letreiro Downtown Summerlin; falta contexto urbano do bairro."
+  },
+  "las-vegas/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Vista aérea dos bairros de Paradise com malha urbana e montanhas ao fundo; contexto real da região, sem mapa ou desenho."
+  },
+  "las-vegas/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Rua sob contraluz e chuva, com pouco contexto de Paradise; qualidade e legibilidade insuficientes."
+  },
+  "las-vegas/region-2": {
+    "decision": "rejected",
+    "notes": "Close abstrato de tubos de neon; não identifica Downtown/Fremont Street como região."
+  },
+  "las-vegas/region-list-2": {
+    "decision": "accepted",
+    "notes": "Fremont Street com calçadão e fachadas comerciais em foto diurna; Downtown reconhecível e orientação correta."
+  },
+  "las-vegas/hotel-2": {
+    "decision": "accepted",
+    "notes": "Calçadão iluminado da Fremont Street e cassinos de Downtown; contexto real de hospedagem ilustrativa da região."
+  },
+  "las-vegas/hotel-3": {
+    "decision": "accepted",
+    "notes": "Paisagem aérea de Red Rock Canyon no deserto de Nevada; região real para hospedagem ilustrativa, sem identificar empreendimento."
+  },
+  "las-vegas/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Formações rochosas e montanhas de Red Rock Canyon em foto diurna; contexto desértico real da hospedagem ilustrativa."
+  },
+  "las-vegas/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Bilhete físico do Las Vegas Monorail fotografado com nome e instruções em inglês; item real do transporte local."
+  },
+  "las-vegas/day-1": {
+    "decision": "accepted",
+    "notes": "Avenida Las Vegas Strip com hotéis reconhecíveis e circulação em abril de 2025; ícones locais reais e orientação correta."
+  },
+  "las-vegas/tips": {
+    "decision": "accepted",
+    "notes": "Cena diurna ampla da Strip com hotéis, comércio e trânsito; contexto real de planejamento de deslocamentos e visita."
+  },
+  "las-vegas/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Letreiro apenas com marca Ballys, sem texto útil do idioma; contexto linguístico insuficiente."
+  },
+  "las-vegas/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Imagem digital de cédula série 1996 com aparência de reprodução/scan; não comprova foto atual de pagamentos."
+  },
+  "las-vegas/trip-2": {
+    "decision": "accepted",
+    "notes": "Lake Mead com água, margem desértica e montanhas em foto diurna; passeio regional real e horizonte correto."
+  }
+}

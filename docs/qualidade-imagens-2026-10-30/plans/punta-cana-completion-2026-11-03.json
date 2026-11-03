@@ -1,0 +1,303 @@
+{
+  "city": "punta-cana",
+  "region": "americas",
+  "center": [
+    18.5601,
+    -68.3725,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Punta Cana Bavaro beach panorama",
+      "required": [
+        "punta cana|bavaro"
+      ],
+      "locationPatterns": [
+        "punta cana|bavaro|dominican"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "intro",
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-0": {
+      "query": "Bavaro Beach",
+      "required": [
+        "bavaro"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-3": {
+      "query": "Hoyo Azul Punta Cana",
+      "required": [
+        "hoyo azul"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-4": {
+      "query": "Punta Cana craft market",
+      "required": [
+        "market|mercado|craft"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-5": {
+      "query": "Catalina Island Dominican Republic",
+      "required": [
+        "catalina"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "Cap Cana",
+      "required": [
+        "cap cana"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "Cabeza de Toro Dominican Republic",
+      "required": [
+        "cabeza de toro"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Uvero Alto",
+      "required": [
+        "uvero alto"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Bavaro Dominican Republic",
+      "required": [
+        "bavaro"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "countryPattern": "dominican|republica dominicana",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Cap Cana",
+      "required": [
+        "cap cana"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "countryPattern": "dominican|republica dominicana",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Higuey Dominican Republic",
+      "required": [
+        "higuey|higüey"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "countryPattern": "dominican|republica dominicana",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "Punta Cana International Airport",
+      "required": [
+        "punta cana"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "countryPattern": "dominican|republica dominicana",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "mistakes"
+      ]
+    },
+    "support-transport": {
+      "query": "Punta Cana taxi",
+      "required": [
+        "taxi|bus|transport"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "countryPattern": "dominican|republica dominicana",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "support-food": {
+      "query": "Punta Cana seafood",
+      "required": [
+        "seafood|fish|pescado"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "countryPattern": "dominican|republica dominicana",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "support-icon": {
+      "query": "Bavaro Beach",
+      "required": [
+        "bavaro"
+      ],
+      "locationPatterns": [
+        "punta cana|dominican|dominicana|bavaro|cap cana"
+      ],
+      "countryPattern": "dominican|republica dominicana",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "support-currency": {
+      "query": "Dominican peso banknotes",
+      "required": [
+        "peso|pesos"
+      ],
+      "locationPatterns": [
+        "dominican|dominicana"
+      ],
+      "countryPattern": "dominican|dominicana",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "Dominican passport cover",
+      "required": [
+        "dominican passport|pasaporte dominicano"
+      ],
+      "locationPatterns": [
+        "dominican|dominicana"
+      ],
+      "countryPattern": "dominican|dominicana",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-trip-1": {
+      "query": "Higuey Dominican Republic",
+      "required": [
+        "higuey"
+      ],
+      "locationPatterns": [
+        "dominican|republica dominicana"
+      ],
+      "countryPattern": "dominican|republica dominicana",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        18.61,
+        -68.71,
+        20
+      ]
+    }
+  }
+}

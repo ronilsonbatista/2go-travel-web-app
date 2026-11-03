@@ -1,0 +1,2352 @@
+[
+  {
+    "key": "quito/hero",
+    "slot": "hero",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "quito/intro",
+    "slot": "intro",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "quito/home",
+    "slot": "home",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "quito/guide-card",
+    "slot": "guide-card",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "quito/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "quito/home-slide",
+    "slot": "home-slide",
+    "topic": "Quito",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "quito/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Quito: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "quito/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Centro Histórico",
+    "path": "/images/destinations/quito/curated-attraction-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:(Centro Historico de Quito) antique building, historic center of quito.JPG",
+    "imageinfo": {
+      "size": 3931554,
+      "width": 4608,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/%28Centro_Historico_de_Quito%29_antique_building%2C_historic_center_of_quito.JPG/3840px-%28Centro_Historico_de_Quito%29_antique_building%2C_historic_center_of_quito.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/%28Centro_Historico_de_Quito%29_antique_building%2C_historic_center_of_quito.JPG/3840px-%28Centro_Historico_de_Quito%29_antique_building%2C_historic_center_of_quito.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/%28Centro_Historico_de_Quito%29_antique_building%2C_historic_center_of_quito.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Centro_Historico_de_Quito)_antique_building,_historic_center_of_quito.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=38034777",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-01-25 20:56:26",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "(Centro Historico de Quito) antique building, historic center of quito",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-WX70|Self-published work|Photography by David Adam Kess|Calle Mejía, Quito|Houses in the Historic Center of Quito",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "(Centro Historico de Quito)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-01-25 12:27:46",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/attraction-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/%28Centro_Historico_de_Quito%29_antique_building%2C_historic_center_of_quito.JPG/3840px-%28Centro_Historico_de_Quito%29_antique_building%2C_historic_center_of_quito.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e3729b8ce941194f365b2dfa92934901a405dc8f94eec2faf2e90c0658759727"
+  },
+  {
+    "key": "quito/map-attraction-2",
+    "slot": "map-attraction-2",
+    "topic": "Teleférico Cruz Loma",
+    "path": "/images/destinations/quito/curated-map-attraction-2.jpg",
+    "pool": "attractions-attraction-2",
+    "status": "pending-visual-review",
+    "title": "File:Teleferico-volcan.jpg",
+    "imageinfo": {
+      "size": 4350055,
+      "width": 3504,
+      "height": 2336,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Teleferico-volcan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Teleferico-volcan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Teleferico-volcan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Teleferico-volcan.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37834823",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-01-13 01:25:59",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Teleferico-volcan",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Pichincha Volcano|Taken with Canon EOS 20D|TeleferiQo|Self-published work|Outcrops in Ecuador|Rocks of Pichincha Volcano",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Llegada a la cumbre del teleférico de Quito (Ecuador) que asciende a la Cruz Loma muy cercana al volcán Pichincha. La altitud en este lugar es de 4050 msnm. El teleférico funciona desde el verano de 2005.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-11-03 19:02:15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Saldeplata\" title=\"User:Saldeplata\">Pedro M. Martínez Corada - www.martinezcorada.es</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/map-attraction-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Teleferico-volcan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "d4f26777e33191599973b505c330df25e63cd9403d7f7822ebdb8b6a4f4a7f31"
+  },
+  {
+    "key": "quito/map-list-3",
+    "slot": "map-list-3",
+    "topic": "La Ronda",
+    "path": "/images/destinations/quito/curated-map-list-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Calle La Ronda, Quito, pic,a.o1697.jpg",
+    "imageinfo": {
+      "size": 4424449,
+      "width": 4896,
+      "height": 3672,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Calle_La_Ronda%2C_Quito%2C_pic%2Ca.o1697.jpg/3840px-Calle_La_Ronda%2C_Quito%2C_pic%2Ca.o1697.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Calle_La_Ronda%2C_Quito%2C_pic%2Ca.o1697.jpg/3840px-Calle_La_Ronda%2C_Quito%2C_pic%2Ca.o1697.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Calle_La_Ronda%2C_Quito%2C_pic%2Ca.o1697.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_La_Ronda,_Quito,_pic,a.o1697.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63440094",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-10-18 05:52:22",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle La Ronda, Quito, pic,a.o1697",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Calle Morales, Quito|Street signs (Centro Histórico de Quito)|Calle La Ronda, Quito",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "UNESCO World Heritage Sites, Quito Colonial Center\n<p>(Calle La Ronda, Quito)\n</p><p>Historic Center of <a href=\"//commons.wikimedia.org/wiki/Quito\" title=\"Quito\">Quito</a>\n</p><p>Quito Colonial Center\n</p><p>Centro histórico de Quito Calle Guayaquil, Quito\n</p>\nPhotography by <a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-10-15 16:19:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/map-list-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Calle_La_Ronda%2C_Quito%2C_pic%2Ca.o1697.jpg/3840px-Calle_La_Ronda%2C_Quito%2C_pic%2Ca.o1697.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "496d7c271ea840b39fda8381b441dd31fdb9350d83dbf1abe320b4508e35200e"
+  },
+  {
+    "key": "quito/map-attraction-5",
+    "slot": "map-attraction-5",
+    "topic": "Parque La Carolina",
+    "path": "/images/destinations/quito/curated-map-attraction-5.jpg",
+    "pool": "attractions-attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:( in color, running path ) Parque La Carolina, Quito.JPG",
+    "imageinfo": {
+      "size": 3948212,
+      "width": 3456,
+      "height": 4608,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%28_in_color%2C_running_path_%29_Parque_La_Carolina%2C_Quito.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%28_in_color%2C_running_path_%29_Parque_La_Carolina%2C_Quito.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%28_in_color%2C_running_path_%29_Parque_La_Carolina%2C_Quito.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:(_in_color,_running_path_)_Parque_La_Carolina,_Quito.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45129591",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-11-20 14:46:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "( in color, running path ) Parque La Carolina, Quito",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-WX70|Parque La Carolina|Self-published work|Walking infrastructure in Ecuador|Photography by David Adam Kess|Jogging tracks in Quito",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Parque La Carolina, <a href=\"//commons.wikimedia.org/wiki/Quito\" title=\"Quito\">Quito</a> <a href=\"//commons.wikimedia.org/wiki/Ecuador\" title=\"Ecuador\">Ecuador</a>\n<p>A running path at Parque La Carolina in Quito, Ecuador.\n</p><p><br>\n</p><p><br>\n</p>\nPhotography by David Adam Kess",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-11-18 08:20:25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/map-attraction-5.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/%28_in_color%2C_running_path_%29_Parque_La_Carolina%2C_Quito.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "e27299781c15b56017b206092af7fd86dd7be365326c48e0f2330ca97288eefd"
+  },
+  {
+    "key": "quito/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Centro Histórico",
+    "path": "/images/destinations/quito/curated-neighborhood-0.jpg",
+    "pool": "neighborhoods-neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Calle Chile, Quito (El Centro Histórico de Quito) pic.a0102681.jpg",
+    "imageinfo": {
+      "size": 4916153,
+      "width": 4896,
+      "height": 3672,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Calle_Chile%2C_Quito_%28El_Centro_Hist%C3%B3rico_de_Quito%29_pic.a0102681.jpg/3840px-Calle_Chile%2C_Quito_%28El_Centro_Hist%C3%B3rico_de_Quito%29_pic.a0102681.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Calle_Chile%2C_Quito_%28El_Centro_Hist%C3%B3rico_de_Quito%29_pic.a0102681.jpg/3840px-Calle_Chile%2C_Quito_%28El_Centro_Hist%C3%B3rico_de_Quito%29_pic.a0102681.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Calle_Chile%2C_Quito_%28El_Centro_Hist%C3%B3rico_de_Quito%29_pic.a0102681.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_Chile,_Quito_(El_Centro_Hist%C3%B3rico_de_Quito)_pic.a0102681.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63320751",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-10-12 03:17:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle Chile, Quito (El Centro Histórico de Quito) pic.a0102681",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Street signs (Centro Histórico de Quito)|Calle Chile, Quito|Photography by David Adam Kess (El Centro Histórico de Quito)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "(El Centro Histórico de Quito) \n<p>Quito Colonial Center\n</p><p>Historic Center of Quito \n</p><p>UNESCO World Heritage Site\n</p><p><br>\n</p><p><br>\n(El Centro Histórico de Quito)\n</p><p><br>\n</p><p>Photography by David Adam Kess (El Centro Histórico de Quito)\n</p><p><br>\n</p><p><br>\n</p>\nPhotography by <a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-10-10 11:28:46",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/neighborhood-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Calle_Chile%2C_Quito_%28El_Centro_Hist%C3%B3rico_de_Quito%29_pic.a0102681.jpg/3840px-Calle_Chile%2C_Quito_%28El_Centro_Hist%C3%B3rico_de_Quito%29_pic.a0102681.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7b339c99116a0b2b68aafd52c52a3ac07bcdc5eb68243af1513365efa555bb41"
+  },
+  {
+    "key": "quito/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Centro Histórico",
+    "path": "/images/destinations/quito/curated-neighborhood-detail-0.jpg",
+    "pool": "neighborhoods-neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:\" El Centro Histórico de Quito pic. bb Photography by David Adam Kess.jpg",
+    "imageinfo": {
+      "size": 3100893,
+      "width": 3456,
+      "height": 4608,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._bb_Photography_by_David_Adam_Kess.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._bb_Photography_by_David_Adam_Kess.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._bb_Photography_by_David_Adam_Kess.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._bb_Photography_by_David_Adam_Kess.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49429256",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-06-13 17:20:28",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "\" El Centro Histórico de Quito pic. bb Photography by David Adam Kess",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-WX70|Centro Histórico, Quito|Self-published work|Calle Chile, Quito|Photography by David Adam Kess (El Centro Histórico de Quito)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "(Historic Center of Quito - World Heritage Site by UNESCO)\n<p><br>\nCalle Chile, Quito\n</p><p><br>\nEl Centro Histórico de <a href=\"//commons.wikimedia.org/wiki/Quito\" title=\"Quito\">Quito</a>\n</p>\nPhotography by <a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-06-10 11:58:28",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/neighborhood-detail-0.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._bb_Photography_by_David_Adam_Kess.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "f40d5e71dd56ac233049f64fbc10b6de984e17849dbb1cc2691cc1487ba3854d"
+  },
+  {
+    "key": "quito/neighborhood-detail-2",
+    "slot": "neighborhood-detail-2",
+    "topic": "La Floresta",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-2"
+  },
+  {
+    "key": "quito/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Cumbayá",
+    "path": "/images/destinations/quito/curated-neighborhood-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Votaciones Presidenciales en Cumbayá (8483932768).jpg",
+    "imageinfo": {
+      "size": 6767274,
+      "width": 3744,
+      "height": 5616,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Votaciones_Presidenciales_en_Cumbay%C3%A1_%288483932768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Votaciones_Presidenciales_en_Cumbay%C3%A1_%288483932768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Votaciones_Presidenciales_en_Cumbay%C3%A1_%288483932768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Votaciones_Presidenciales_en_Cumbay%C3%A1_(8483932768).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34740966",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-08-14 18:09:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Votaciones Presidenciales en Cumbayá (8483932768)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5D Mark II|Presidential elections in Ecuador|Ecuador photos from Flickr (check needed)|Flickr images reviewed by FlickreviewR|2013 elections in Ecuador|Photographs by the Ecuador Chancellery|Voting lines in South America",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Quito (Ecuador), 17 de Febrero 2013. Imágenes de las votaciones Presidenciales en el Recinto Electoral Escuela Carmen Amelia Hidalgo, en Cumbayá. Foto: Fernanda LeMarie - Cancillería del Ecuador.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-02-17 12:59:13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dgcomsoc/8483932768/\">Flickr</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Cancillería Ecuador",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/neighborhood-3.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Votaciones_Presidenciales_en_Cumbay%C3%A1_%288483932768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "e5d9cc1980210b4a0551799fe6f9a3cfb939ece5571fc5e03c778890a0e5e015"
+  },
+  {
+    "key": "quito/region-0",
+    "slot": "region-0",
+    "topic": "Histórico",
+    "path": "/images/destinations/quito/curated-region-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Calle Mejía, Quito Historic Center (street sign).jpg",
+    "imageinfo": {
+      "size": 4869007,
+      "width": 4608,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Calle_Mej%C3%ADa%2C_Quito_Historic_Center_%28street_sign%29.jpg/3840px-Calle_Mej%C3%ADa%2C_Quito_Historic_Center_%28street_sign%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Calle_Mej%C3%ADa%2C_Quito_Historic_Center_%28street_sign%29.jpg/3840px-Calle_Mej%C3%ADa%2C_Quito_Historic_Center_%28street_sign%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Calle_Mej%C3%ADa%2C_Quito_Historic_Center_%28street_sign%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_Mej%C3%ADa,_Quito_Historic_Center_(street_sign).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53614263",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-11-29 02:58:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle Mejía, Quito Historic Center (street sign)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-WX70|Self-published work|Street signs in Ecuador|Calle Mejía, Quito|Street signs (Centro Histórico de Quito)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calle Mejía, Quito Historic Center (street sign)\n<p>(Historic Center of Quito - World Heritage Site by UNESCO)\n</p>\nPhotography by <a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-11-28 18:33:48",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/region-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Calle_Mej%C3%ADa%2C_Quito_Historic_Center_%28street_sign%29.jpg/3840px-Calle_Mej%C3%ADa%2C_Quito_Historic_Center_%28street_sign%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "8c74289d40184204f5ab2b2ad174e829c8cce1b8d162f48440024b25610af7e0"
+  },
+  {
+    "key": "quito/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Histórico",
+    "path": "/images/destinations/quito/curated-hotel-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Calle Marañon, Quito Historic Center of Quito, street scene, detail of street sign.jpg",
+    "imageinfo": {
+      "size": 3097427,
+      "width": 2592,
+      "height": 1944,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Calle_Mara%C3%B1on%2C_Quito_Historic_Center_of_Quito%2C_street_scene%2C_detail_of_street_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Calle_Mara%C3%B1on%2C_Quito_Historic_Center_of_Quito%2C_street_scene%2C_detail_of_street_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Calle_Mara%C3%B1on%2C_Quito_Historic_Center_of_Quito%2C_street_scene%2C_detail_of_street_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_Mara%C3%B1on,_Quito_Historic_Center_of_Quito,_street_scene,_detail_of_street_sign.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77679119",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-31 00:52:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle Marañon, Quito Historic Center of Quito, street scene, detail of street sign",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Calle Bahía de Caráquez, Quito|Calle Marañon, Quito",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Centro histórico de Quito - <a href=\"//commons.wikimedia.org/wiki/Quito\" title=\"Quito\">Quito</a> <a href=\"//commons.wikimedia.org/wiki/Ecuador\" title=\"Ecuador\">Ecuador</a>\n<p>Historic Center of Quito\n</p><p>Calle Marañon, Quito Historic Center of Quito, street scene, detail of street sign.\n</p><p><a href=\"//commons.wikimedia.org/wiki/UNESCO\" class=\"mw-redirect\" title=\"UNESCO\">UNESCO</a> World Cultural Heritage Site\n</p><p>Centro Histórico, Quito\n</p>\nPhotography by <a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-03-29 13:06:48",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/hotel-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Calle_Mara%C3%B1on%2C_Quito_Historic_Center_of_Quito%2C_street_scene%2C_detail_of_street_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "9b7bb5b38750c2cf512a766436b5f497b474045b3939292984e4965f0307283e"
+  },
+  {
+    "key": "quito/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Histórico",
+    "path": "/images/destinations/quito/curated-hotel-list-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Historic Center of Quito (Calle Francia, Quito) pic.a021.jpg",
+    "imageinfo": {
+      "size": 2432146,
+      "width": 1944,
+      "height": 2592,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Historic_Center_of_Quito_%28Calle_Francia%2C_Quito%29_pic.a021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Historic_Center_of_Quito_%28Calle_Francia%2C_Quito%29_pic.a021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Historic_Center_of_Quito_%28Calle_Francia%2C_Quito%29_pic.a021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Historic_Center_of_Quito_(Calle_Francia,_Quito)_pic.a021.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80170787",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-07-05 03:20:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Historic Center of Quito (Calle Francia, Quito) pic.a021",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Calle Francia, Quito",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cool exterior door.\n<p><br>\nHistoric Center of <a href=\"//commons.wikimedia.org/wiki/Quito\" title=\"Quito\">Quito</a>, <a href=\"//commons.wikimedia.org/wiki/Ecuador\" title=\"Ecuador\">Ecuador</a>.\n</p><p><a href=\"//commons.wikimedia.org/wiki/UNESCO\" class=\"mw-redirect\" title=\"UNESCO\">UNESCO</a> World Cultural Heritage Site\nEl centro histórico de Quito se encuentra ubicado en el centro sur de la ciudad de Quito, en Ecuador, sobre una superficie de 375,2 hectáreas (3,75 km²)\n</p><p><br>\n<a href=\"//commons.wikimedia.org/wiki/Andes\" title=\"Andes\">Andes</a> Mountains <a href=\"//commons.wikimedia.org/wiki/South_America\" class=\"mw-redirect\" title=\"South America\">South America</a>\n</p><p><br>\n</p>\nPhotography by <a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-07-03 16:19:16",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/hotel-list-0.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Historic_Center_of_Quito_%28Calle_Francia%2C_Quito%29_pic.a021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "667d0e6705f1b09456af13d0baada725ac5804ec98ce11b55a9d98d62e8b277d"
+  },
+  {
+    "key": "quito/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Mariscal",
+    "path": "/images/destinations/quito/curated-region-list-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Aeropuerto Internacional Mariscal Sucre en 2025 03.jpg",
+    "imageinfo": {
+      "size": 4820065,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Aeropuerto_Internacional_Mariscal_Sucre_en_2025_03.jpg/3840px-Aeropuerto_Internacional_Mariscal_Sucre_en_2025_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Aeropuerto_Internacional_Mariscal_Sucre_en_2025_03.jpg/3840px-Aeropuerto_Internacional_Mariscal_Sucre_en_2025_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Aeropuerto_Internacional_Mariscal_Sucre_en_2025_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aeropuerto_Internacional_Mariscal_Sucre_en_2025_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=163080017",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-04-01 21:17:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Aeropuerto Internacional Mariscal Sucre en 2025 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Mariscal Sucre International Airport|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-0.124000",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-78.360814",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Mariscal Sucre International Airport in Quito, Ecuador, 2025",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-04-01 10:39:39",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:TomasVial\" title=\"User:TomasVial\">TomasVial</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/region-list-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Aeropuerto_Internacional_Mariscal_Sucre_en_2025_03.jpg/3840px-Aeropuerto_Internacional_Mariscal_Sucre_en_2025_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a1490fcf7ea07690674d47ea497dc2ff6dd78026a97ac8bec298fc886fd9a1f6"
+  },
+  {
+    "key": "quito/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Teleférico",
+    "path": "/images/destinations/quito/curated-hotel-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Iglesia Teleferiqo - panoramio.jpg",
+    "imageinfo": {
+      "size": 3744427,
+      "width": 3187,
+      "height": 1992,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Iglesia_Teleferiqo_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1500,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Iglesia_Teleferiqo_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1500
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Iglesia_Teleferiqo_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iglesia_Teleferiqo_-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=60050655",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-06-18 00:27:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Iglesia Teleferiqo - panoramio",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "2010 in Ecuador|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Ecuador photographs taken on 2010-12-25|Churches in Pichincha Province|Cruz Loma|Photos from Panoramio ID 921156",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-0.185807",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-78.538181",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Iglesia Teleferiqo",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "25 December 2010 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161031142759/http://www.panoramio.com/photo/126078287\">https://web.archive.org/web/20161031142759/http://www.panoramio.com/photo/126078287</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031142801/http://www.panoramio.com/user/921156?with_photo_id=126078287\">Ricardo Astrauskas</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Ricardo Astrauskas</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 18 June 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Ricardo Astrauskas",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/hotel-2.jpg",
+    "dimensions": [
+      2400,
+      1500
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Iglesia_Teleferiqo_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "6f8138ea52fec83a00b71211931a4af4963c0a27ff5f869b8feca450988bf7a9"
+  },
+  {
+    "key": "quito/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Mitad del Mundo",
+    "path": "/images/destinations/quito/curated-hotel-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 05.JPG",
+    "imageinfo": {
+      "size": 8373815,
+      "width": 5311,
+      "height": 7966,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_05.JPG/3840px-Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_05.JPG/3840px-Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mitad_del_Mundo,_Quito,_Ecuador,_2015-07-22,_DD_05.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=42189244",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-08-08 23:43:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 05",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS R|Monumento a la Mitad del Mundo|Taken with Canon EF 24-105mm F4L IS USM|Images by User:Poco a poco|Images of Ecuador by User:Poco a poco|2015 in Quito|Ecuador photographs taken on 2015-07-22|Images by User:Poco a poco taken in 2015",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Mitad del Mundo, Quito, Ecuador",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-07-22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/hotel-3.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_05.JPG/3840px-Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e875ff4c7f76c8f2c690802dca4bb4e56a5e7be882829d323074cdbefb009c4a"
+  },
+  {
+    "key": "quito/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Mitad del Mundo",
+    "path": "/images/destinations/quito/curated-hotel-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 10.JPG",
+    "imageinfo": {
+      "size": 11175071,
+      "width": 5419,
+      "height": 6067,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_10.JPG/3840px-Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 2687,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_10.JPG/3840px-Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2687
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mitad_del_Mundo,_Quito,_Ecuador,_2015-07-22,_DD_10.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=42189248",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-08-13 20:15:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 10",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS R|Monumento a la Mitad del Mundo|National coats of arms of Spain - (1931 - 1939)|Images by User:Poco a poco|Images of Ecuador by User:Poco a poco|2015 in Quito|Ecuador photographs taken on 2015-07-22|Images by User:Poco a poco taken in 2015",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Mitad del Mundo, Quito, Ecuador",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-07-22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/hotel-list-3.jpg",
+    "dimensions": [
+      2144,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_10.JPG/3840px-Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "29d311a4fa1de129a400271a1dadedca845f101f266d26b9ae039eb2404f0adb"
+  },
+  {
+    "key": "quito/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Quito",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "quito/day-3",
+    "slot": "day-3",
+    "topic": "Cultura e mirantes",
+    "path": "/images/destinations/quito/curated-day-3.jpg",
+    "pool": "support-culture",
+    "status": "pending-visual-review",
+    "title": "File:Museo de la Ciudad, Quito (exterior doors pic 1.JPG",
+    "imageinfo": {
+      "size": 5980614,
+      "width": 4608,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Museo_de_la_Ciudad%2C_Quito_%28exterior_doors_pic_1.JPG/3840px-Museo_de_la_Ciudad%2C_Quito_%28exterior_doors_pic_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Museo_de_la_Ciudad%2C_Quito_%28exterior_doors_pic_1.JPG/3840px-Museo_de_la_Ciudad%2C_Quito_%28exterior_doors_pic_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Museo_de_la_Ciudad%2C_Quito_%28exterior_doors_pic_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Museo_de_la_Ciudad,_Quito_(exterior_doors_pic_1.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=47159888",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-02-25 02:51:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Museo de la Ciudad, Quito (exterior doors pic 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-WX70|Self-published work|Museo de la Ciudad, Quito (church)|Reliefs in Quito|Hand Carved Exterior Doors (Museo de la Ciudad, Quito (church)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Museo de la Ciudad, Quito (church)\n<p><br>\nexterior\n</p><p><br>\n</p><p>stone area above the Hand Carved Exterior Doors (Museo de la Ciudad, Quito (church) El Centro Histórico de Quito Historic Center of Quito, Calle Rocafuerte, Quito.\n</p><p><b>Museo de la Ciudad, Quito (exterior) Calle Rocafuerte, Quito</b>\n<br><br>\n</p><p><b>The City Museum (Museo de la Ciudad)</b> is a museum in the colonial center of Quito, Ecuador. It is located on Garcia Moreno Street, between Morales and Rocafuerte. The concept for the museum was founded in 1982 by Dr. Eduardo Estrella Aguirre and in 1998 the once San Juan de Dios Hospital was transformed into the Museo de la Ciudad, Quito.\n<br><br>\n</p>\nThe <a href=\"//commons.wikimedia.org/wiki/Historic_Center_of_Quito\" title=\"Historic Center of Quito\">Historic Center of Quito</a> (Quito Colonial Center) is the best-preserved, least altered historic centre in <a href=\"//commons.wikimedia.org/wiki/Latin_America\" class=\"mw-redirect\" title=\"Latin America\">Latin America</a>. An area that stretches over 790 acres with 130 monumental buildings, over 5,000 smaller properties and numerous 450 year old Churches and Convents. The Historic Center of Quito is a <a href=\"//commons.wikimedia.org/wiki/UNESCO\" class=\"mw-redirect\" title=\"UNESCO\">UNESCO</a> <a href=\"//commons.wikimedia.org/wiki/World_Heritage_Site\" class=\"mw-redirect\" title=\"World Heritage Site\">World Heritage Site</a> that was constructed on what was once a 16th century <a href=\"//commons.wikimedia.org/wiki/Inca\" title=\"Inca\">Inca</a> city at an altitude of 2,850 Metres above sea level in the <a href=\"//commons.wikimedia.org/wiki/Andes\" title=\"Andes\">Andes</a> Mountains near the <a href=\"//commons.wikimedia.org/wiki/Equator\" title=\"Equator\">Equator</a> in <a href=\"//commons.wikimedia.org/wiki/Quito\" title=\"Quito\">Quito</a>, the capital of <a href=\"//commons.wikimedia.org/wiki/Ecuador\" title=\"Ecuador\">Ecuador</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-02-24 10:56:24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/day-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Museo_de_la_Ciudad%2C_Quito_%28exterior_doors_pic_1.JPG/3840px-Museo_de_la_Ciudad%2C_Quito_%28exterior_doors_pic_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "13dc150882243039aca067570c8809f389c32b7a8df2007908aba8ee77f1e1bf"
+  },
+  {
+    "key": "quito/day-1",
+    "slot": "day-1",
+    "topic": "Ícones principais",
+    "path": "/images/destinations/quito/curated-day-1.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:Centro histórico de Quito (Plaza Huerto San Agustin, Quito) pic.bbb.jpg",
+    "imageinfo": {
+      "size": 5283042,
+      "width": 4896,
+      "height": 3672,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Centro_hist%C3%B3rico_de_Quito_%28Plaza_Huerto_San_Agustin%2C_Quito%29_pic.bbb.jpg/3840px-Centro_hist%C3%B3rico_de_Quito_%28Plaza_Huerto_San_Agustin%2C_Quito%29_pic.bbb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Centro_hist%C3%B3rico_de_Quito_%28Plaza_Huerto_San_Agustin%2C_Quito%29_pic.bbb.jpg/3840px-Centro_hist%C3%B3rico_de_Quito_%28Plaza_Huerto_San_Agustin%2C_Quito%29_pic.bbb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Centro_hist%C3%B3rico_de_Quito_%28Plaza_Huerto_San_Agustin%2C_Quito%29_pic.bbb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Centro_hist%C3%B3rico_de_Quito_(Plaza_Huerto_San_Agustin,_Quito)_pic.bbb.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63033291",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-10-02 02:21:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Centro histórico de Quito (Plaza Huerto San Agustin, Quito) pic.bbb",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Plaza Huerto San Agustín, Quito (benches)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Plaza Huerto San Agustin, Quito\n<p>Calle Mejía, Quito\n</p><p>Historic Center of <a href=\"//commons.wikimedia.org/wiki/Quito\" title=\"Quito\">Quito</a>, <a href=\"//commons.wikimedia.org/wiki/Ecuador\" title=\"Ecuador\">Ecuador</a>.\n</p><p>Quito Colonial Center\n</p><p>Centro histórico de Quito\n</p>\nPhotography by <a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-10-01 15:23:22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/day-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Centro_hist%C3%B3rico_de_Quito_%28Plaza_Huerto_San_Agustin%2C_Quito%29_pic.bbb.jpg/3840px-Centro_hist%C3%B3rico_de_Quito_%28Plaza_Huerto_San_Agustin%2C_Quito%29_pic.bbb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b393c0b68773f48012519bf3a0d08fd3754b48e5d1ade2c3dd6942971fd1c1ba"
+  },
+  {
+    "key": "quito/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "path": "/images/destinations/quito/curated-day-2.jpg",
+    "pool": "support-quarter",
+    "status": "pending-visual-review",
+    "title": "File:\" El Centro Histórico de Quito pic. a Photography by David Adam Kess.jpg",
+    "imageinfo": {
+      "size": 3209549,
+      "width": 4608,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._a_Photography_by_David_Adam_Kess.jpg/3840px-%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._a_Photography_by_David_Adam_Kess.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._a_Photography_by_David_Adam_Kess.jpg/3840px-%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._a_Photography_by_David_Adam_Kess.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._a_Photography_by_David_Adam_Kess.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._a_Photography_by_David_Adam_Kess.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49429251",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-06-13 17:20:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "\" El Centro Histórico de Quito pic. a Photography by David Adam Kess",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-WX70|Self-published work|Street signs (Centro Histórico de Quito)|Calle Chile, Quito|Photography by David Adam Kess (El Centro Histórico de Quito)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Historic Center of Quito\n<p>el centro histórico de Quito\n</p><p>Calle Chile, Quito, street sign \n</p><p><br>\n<a href=\"//commons.wikimedia.org/wiki/Quito\" title=\"Quito\">Quito</a>, <a href=\"//commons.wikimedia.org/wiki/Ecuador\" title=\"Ecuador\">Ecuador</a>\n</p><p><br>\n<a href=\"//commons.wikimedia.org/wiki/Andes\" title=\"Andes\">Andes</a> Mountains <a href=\"//commons.wikimedia.org/wiki/South_America\" class=\"mw-redirect\" title=\"South America\">South America</a>\n</p><p><a href=\"//commons.wikimedia.org/wiki/UNESCO\" class=\"mw-redirect\" title=\"UNESCO\">UNESCO</a> World Cultural Heritage Site\n</p><p>Centro Histórico, Quito\n</p>\nPhotography by <a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-06-10 11:57:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/day-2.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._a_Photography_by_David_Adam_Kess.jpg/3840px-%22_El_Centro_Hist%C3%B3rico_de_Quito_pic._a_Photography_by_David_Adam_Kess.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d7462f07eb34c04d106fb5f2aef6af624d5f6aa8ec74f24ce7273fc287ced3dd"
+  },
+  {
+    "key": "quito/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/quito/curated-essential-idioma.jpg",
+    "pool": "support-language",
+    "status": "pending-visual-review",
+    "title": "File:Calle Manabí Quito street sign, Ecuador.jpg",
+    "imageinfo": {
+      "size": 3073156,
+      "width": 2592,
+      "height": 1944,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Calle_Manab%C3%AD_Quito_street_sign%2C_Ecuador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Calle_Manab%C3%AD_Quito_street_sign%2C_Ecuador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Calle_Manab%C3%AD_Quito_street_sign%2C_Ecuador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_Manab%C3%AD_Quito_street_sign,_Ecuador.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80814436",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-07-27 01:08:51",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle Manabí Quito street sign, Ecuador",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Calle Manabí, Quito|Street signs in Quito",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calle Manabí\n<p>In Spanish, (El Centro Histórico de <a href=\"//commons.wikimedia.org/wiki/Quito\" title=\"Quito\">Quito</a>) was constructed on what was once a 16th century <a href=\"//commons.wikimedia.org/wiki/Inca\" title=\"Inca\">Inca</a> city at  2,850 meters above sea level in the <a href=\"//commons.wikimedia.org/wiki/Andes\" title=\"Andes\">Andes</a> Mountains near the <a href=\"//commons.wikimedia.org/wiki/Equator\" title=\"Equator\">Equator</a>. \n</p><p>A <a href=\"//commons.wikimedia.org/wiki/UNESCO\" class=\"mw-redirect\" title=\"UNESCO\">UNESCO</a> <a href=\"//commons.wikimedia.org/wiki/World_Heritage_Site\" class=\"mw-redirect\" title=\"World Heritage Site\">World Heritage Site</a> that stretches over 790 acres and contains 130 monumental buildings, 8,000 smaller properties, \n</p>\nThe Colonial Center of Quito has numerous <a href=\"//commons.wikimedia.org/wiki/Churches\" class=\"mw-redirect\" title=\"Churches\">Churches</a> and <a href=\"//commons.wikimedia.org/wiki/Convents\" class=\"mw-redirect\" title=\"Convents\">Convents</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-07-13 10:07:20",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:David_Adam_Kess\" title=\"User:David Adam Kess\">David Adam Kess</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/essential-idioma.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Calle_Manab%C3%AD_Quito_street_sign%2C_Ecuador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "cb3e222c8d5d12a792b75ca7bd8579c3d10a388fac0e77f8f1cd298d6de71c26"
+  },
+  {
+    "key": "quito/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "path": "/images/destinations/quito/curated-essential-moeda.jpg",
+    "pool": "support-currency",
+    "status": "pending-visual-review",
+    "title": "File:DollarRios.jpg",
+    "imageinfo": {
+      "size": 2065397,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/DollarRios.jpg/1920px-DollarRios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/DollarRios.jpg/1920px-DollarRios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/DollarRios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:DollarRios.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146595235",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-03-20 14:57:14",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "DollarRios",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD US money|With currency|Files with coordinates missing SDC location of creation|10 dollar Federal Reserve Note|Files that may be protected by currency protection laws|Alexander Hamilton depicted on banknotes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "40.176833",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.316169",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A United States ten-dollar bill with the signature of Rosa Gumataotao Rios.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-03-20 09:59:03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Caravansera&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Caravansera (page does not exist)\">Caravansera</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "currency",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/essential-moeda.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/DollarRios.jpg/1920px-DollarRios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "6e0951b9b8ec7e3da23e59d437fe51d01bbd4b087be191917f9ae6380a259b9e"
+  },
+  {
+    "key": "quito/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  },
+  {
+    "key": "quito/trip-0",
+    "slot": "trip-0",
+    "topic": "Arredores de Quito",
+    "path": "/images/destinations/quito/curated-trip-0.jpg",
+    "pool": "support-trip-0",
+    "status": "pending-visual-review",
+    "title": "File:Hosteria Puertolago, Otavalo, Ecuador, 2015-07-21, DD 14.JPG",
+    "imageinfo": {
+      "size": 10775745,
+      "width": 8443,
+      "height": 4515,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Hosteria_Puertolago%2C_Otavalo%2C_Ecuador%2C_2015-07-21%2C_DD_14.JPG/3840px-Hosteria_Puertolago%2C_Otavalo%2C_Ecuador%2C_2015-07-21%2C_DD_14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1283,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Hosteria_Puertolago%2C_Otavalo%2C_Ecuador%2C_2015-07-21%2C_DD_14.JPG/3840px-Hosteria_Puertolago%2C_Otavalo%2C_Ecuador%2C_2015-07-21%2C_DD_14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1283
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Hosteria_Puertolago%2C_Otavalo%2C_Ecuador%2C_2015-07-21%2C_DD_14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hosteria_Puertolago,_Otavalo,_Ecuador,_2015-07-21,_DD_14.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=42540223",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-08-21 14:30:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Hosteria Puertolago, Otavalo, Ecuador, 2015-07-21, DD 14",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS R|Otavalo|Restaurants in Ecuador|Images by User:Poco a poco|Images of Ecuador by User:Poco a poco|July 2015 in Ecuador|Images by User:Poco a poco taken in 2015",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Puertolago Restaurant, Otavalo, Ecuador",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-07-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/trip-0.jpg",
+    "dimensions": [
+      2400,
+      1283
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Hosteria_Puertolago%2C_Otavalo%2C_Ecuador%2C_2015-07-21%2C_DD_14.JPG/3840px-Hosteria_Puertolago%2C_Otavalo%2C_Ecuador%2C_2015-07-21%2C_DD_14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "40af5a3d7977c8236e2cb0a247fc68f0de29ee0f9749311fac798d6d74c766b1"
+  }
+]

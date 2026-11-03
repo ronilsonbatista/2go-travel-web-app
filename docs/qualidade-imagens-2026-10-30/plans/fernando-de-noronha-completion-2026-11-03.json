@@ -1,0 +1,190 @@
+{
+  "city": "fernando-de-noronha",
+  "region": "americas",
+  "center": [
+    -3.854,
+    -32.423,
+    20
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Fernando de Noronha landscape",
+      "required": [
+        "noronha"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "guide-card"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-3": {
+      "query": "Projeto Tamar Noronha",
+      "required": [
+        "tamar"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "Floresta Nova Noronha",
+      "required": [
+        "floresta nova"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Baia do Sancho",
+      "required": [
+        "sancho"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Praia do Sueste Noronha",
+      "required": [
+        "sueste"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-2",
+        "hotel-list-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Vila dos Remedios Noronha",
+      "required": [
+        "remedios"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "Fernando de Noronha Airport",
+      "required": [
+        "noronha"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "support-food": {
+      "query": "Fernando de Noronha seafood",
+      "required": [
+        "seafood|fish|pescado|peixe"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "support-quarter": {
+      "query": "Vila dos Remedios Noronha",
+      "required": [
+        "remedios"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "support-currency": {
+      "query": "Brazilian real banknotes",
+      "required": [
+        "real|reais"
+      ],
+      "locationPatterns": [
+        "brazil|brasil"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "Brazilian passport cover",
+      "required": [
+        "brazilian passport|passaporte brasileiro"
+      ],
+      "locationPatterns": [
+        "brazil|brasil"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "montreal/home-thumb": {
+    "decision": "accepted",
+    "notes": "Panorama noturno do skyline de Montreal com prédios iluminados; foto real horizontal para miniatura e orientação correta."
+  },
+  "montreal/attraction-0": {
+    "decision": "rejected",
+    "notes": "Close de condutor e cavalo; serviço de calèches foi encerrado no Vieux-Montréal e não representa visita atual."
+  },
+  "montreal/map-attraction-0": {
+    "decision": "rejected",
+    "notes": "Carruagem e trânsito dominam a imagem; serviço turístico de calèches descontinuado."
+  },
+  "montreal/map-list-0": {
+    "decision": "rejected",
+    "notes": "Carruagem e pessoas em primeiro plano; serviço descontinuado e bairro pouco legível."
+  },
+  "montreal/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Carruagem e cavalo dominam o enquadramento; serviço descontinuado, inadequado para bairro atual."
+  },
+  "montreal/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Carruagens e pessoas ocupam o assunto; não usar serviço descontinuado como bairro atual."
+  },
+  "montreal/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Fachada da Bibliothèque du Plateau-Mont-Royal em 2022, com praça e rua; contexto real do bairro Plateau."
+  },
+  "montreal/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Esquina com prédio e comércio em Mile End; bairro urbano real em fotografia de 2018, orientação correta."
+  },
+  "montreal/region-0": {
+    "decision": "rejected",
+    "notes": "Close de carruagem, serviço descontinuado; não representa região Vieux-Montréal atual."
+  },
+  "montreal/hotel-0": {
+    "decision": "rejected",
+    "notes": "Carruagem e cavalo em primeiro plano; não é contexto atual adequado de hospedagem."
+  },
+  "montreal/region-2": {
+    "decision": "rejected",
+    "notes": "Telhado e poste sob neblina, sem parque reconhecível; não representa Mont Royal."
+  },
+  "montreal/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Fotografia dos anos 1930 de Montreal; arquivo pré-1990 sem override, rejeitado."
+  },
+  "montreal/region-list-3": {
+    "decision": "accepted",
+    "notes": "Panorama do Downtown Montreal visto do parque com skyline ao fundo; contexto real da região e horizonte correto."
+  },
+  "montreal/day-0": {
+    "decision": "accepted",
+    "notes": "Terminal e torre do aeroporto Montréal-Trudeau ao entardecer em 2010; fotografia real da infraestrutura de chegada."
+  },
+  "montreal/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Plataforma da estação Crémazie com trilhos e arte mural; metrô de Montreal real e orientado corretamente."
+  },
+  "montreal/costs": {
+    "decision": "rejected",
+    "notes": "Fachada de restaurante sem poutine visível; tema de pratos típicos não corresponde."
+  },
+  "montreal/tips": {
+    "decision": "rejected",
+    "notes": "Carruagem em serviço descontinuado; não usar como dica atual de visita."
+  },
+  "montreal/day-2": {
+    "decision": "rejected",
+    "notes": "Mesma sequência de carruagens descontinuadas; inadequada para roteiro atual e repetição visual próxima."
+  },
+  "montreal/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Sinalização física Métro em Montreal no inverno; contexto de idioma e sinalização local em fotografia real."
+  },
+  "montreal/trip-2": {
+    "decision": "accepted",
+    "notes": "Casa do guarda e marina do Canal de Chambly em 2022; passeio regional histórico/costeiro real e horizonte correto."
+  }
+}

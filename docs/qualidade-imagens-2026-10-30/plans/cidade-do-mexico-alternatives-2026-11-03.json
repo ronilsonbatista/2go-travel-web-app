@@ -1,0 +1,215 @@
+{
+  "city": "cidade-do-mexico",
+  "region": "americas",
+  "center": [
+    19.4326,
+    -99.1332,
+    50
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Mexico City",
+      "required": [
+        "mexico city|ciudad de mexico"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "intro",
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100,
+      "offset": 0
+    },
+    "attractions-attraction-0": {
+      "query": "Zocalo Mexico City Cathedral",
+      "required": [
+        "zocalo|catedral|cathedral"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-0"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-2": {
+      "query": "Frida Kahlo Museum",
+      "required": [
+        "frida kahlo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-3": {
+      "query": "Chapultepec Mexico City",
+      "required": [
+        "chapultepec"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-4": {
+      "query": "Coyoacan Mexico City",
+      "required": [
+        "coyoacan"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "Polanco Mexico City",
+      "required": [
+        "polanco"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Coyoacan Mexico City",
+      "required": [
+        "coyoacan"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Mexico City historic center",
+      "required": [
+        "centro historico|historic center|historic centre"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Chapultepec Mexico City",
+      "required": [
+        "chapultepec"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Teotihuacan Mexico",
+      "required": [
+        "teotihuacan"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-3"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "support-icon": {
+      "query": "Zocalo Mexico City Cathedral",
+      "required": [
+        "zocalo|catedral|cathedral"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1"
+      ],
+      "offset": 100
+    },
+    "support-currency": {
+      "query": "Mexican peso banknotes",
+      "required": [
+        "mexican peso|pesos mexicanos"
+      ],
+      "locationPatterns": [
+        "mexic"
+      ],
+      "countryPattern": "mexic",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    }
+  }
+}

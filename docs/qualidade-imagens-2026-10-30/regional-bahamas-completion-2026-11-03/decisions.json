@@ -1,0 +1,62 @@
+{
+  "bahamas/map-list-3": {
+    "decision": "rejected",
+    "notes": "Queen's Staircase aparece muito escura e pouco legível; não atende qualidade editorial para miniatura."
+  },
+  "bahamas/attraction-5": {
+    "decision": "accepted",
+    "notes": "Panorama da orla de Cable Beach com hotéis e mar, em luz diurna; local e horizonte coerentes com a atração."
+  },
+  "bahamas/map-attraction-5": {
+    "decision": "rejected",
+    "notes": "Entrada e fachada do resort Breezes dominam a imagem; a praia de Cable Beach não está visível."
+  },
+  "bahamas/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Close de placas de museu; falta contexto urbano para representar Nassau Downtown."
+  },
+  "bahamas/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Rua arborizada de Cable Beach com edifícios ao fundo e circulação local; contexto real do bairro, orientação correta."
+  },
+  "bahamas/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Mapa desenhado de Cable Beach, não fotografia; mapa-como-foto proibido."
+  },
+  "bahamas/region-0": {
+    "decision": "rejected",
+    "notes": "Atlantis e Paradise Island dominam a vista; slot da região Nassau exige foto de Nassau sem ambiguidade."
+  },
+  "bahamas/hotel-0": {
+    "decision": "accepted",
+    "notes": "Anfiteatro do porto de Nassau com céu azul e contexto turístico local; foto de bairro para hotel ilustrativo, sem atribuir o prédio à hospedagem."
+  },
+  "bahamas/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Addington House e rua em Nassau fotografadas de dia; contexto urbano real para hospedagem ilustrativa da região."
+  },
+  "bahamas/region-list-1": {
+    "decision": "accepted",
+    "notes": "Paradise Island e Atlantis ao pôr do sol vistos do porto; região identificável, horizonte e orientação corretos."
+  },
+  "bahamas/mistakes": {
+    "decision": "accepted",
+    "notes": "Área de partidas do aeroporto de Nassau com filas e passageiros; contexto real para planejamento de chegada e erros comuns."
+  },
+  "bahamas/day-4": {
+    "decision": "accepted",
+    "notes": "Baha Mar Resort em Nassau com edifícios, palmeiras e acesso ao complexo; opção local de lazer coerente com dia de folga."
+  },
+  "bahamas/tips": {
+    "decision": "accepted",
+    "notes": "Piscina, palmeiras e praia no Atlantis Paradise Island; ambiente real de lazer nas Bahamas com orientação correta."
+  },
+  "bahamas/day-2": {
+    "decision": "rejected",
+    "notes": "Porta do Heritage Museum sem cena de bairro ou gastronomia; enquadramento fechado e redundante com outro candidato do mesmo prédio."
+  },
+  "bahamas/trip-2": {
+    "decision": "accepted",
+    "notes": "Fort Charlotte e vista do porto de Nassau em fotografia ampla; passeio histórico local claramente reconhecível e sem rotação."
+  }
+}

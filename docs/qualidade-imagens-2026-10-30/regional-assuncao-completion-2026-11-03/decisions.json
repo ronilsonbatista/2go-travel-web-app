@@ -1,0 +1,34 @@
+{
+  "assuncao/attraction-4": {
+    "decision": "rejected",
+    "notes": "Entrada de shopping Paseo Cerro Alto; não mostra a atração natural Cerro Lambaré."
+  },
+  "assuncao/map-list-4": {
+    "decision": "rejected",
+    "notes": "Escultura de Stroessner em pequeno monumento; não identifica o Cerro Lambaré como atração."
+  },
+  "assuncao/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Orla da Bahia de Asunción com avenida, passeio e horizonte urbano; contexto real da Costanera e orientação correta."
+  },
+  "assuncao/region-3": {
+    "decision": "rejected",
+    "notes": "Close de entrada de estádio deteriorada; não representa adequadamente a região turística de Lambaré."
+  },
+  "assuncao/hotel-3": {
+    "decision": "accepted",
+    "notes": "Monumento à Burrerita e rua em Lambaré; contexto local real para hospedagem ilustrativa, sem atribuir monumento ao hotel."
+  },
+  "assuncao/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Casa de la Cultura de Lambaré com pátio e arquitetura local; contexto real de bairro para hospedagem ilustrativa."
+  },
+  "assuncao/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Fachada comercial em Assunção com letreiros em espanhol; sinalização local legível, foto atual e orientada corretamente."
+  },
+  "assuncao/trip-1": {
+    "decision": "accepted",
+    "notes": "Casa histórica e margem do lago em San Bernardino; passeio regional com arquitetura e paisagem reais, horizonte correto."
+  }
+}

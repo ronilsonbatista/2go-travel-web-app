@@ -1,0 +1,74 @@
+{
+  "montevideo/map-list-1": {
+    "decision": "accepted",
+    "notes": "Rua de paralelepípedos e fachadas da Ciudad Vieja em Montevidéu; centro histórico real e orientação correta."
+  },
+  "montevideo/map-attraction-3": {
+    "decision": "accepted",
+    "notes": "Rua arborizada de Pocitos com edifícios residenciais e circulação; contexto real do bairro que corresponde à atração."
+  },
+  "montevideo/map-attraction-5": {
+    "decision": "rejected",
+    "notes": "Parque Rodó quase invisível em foto noturna muito escura; qualidade insuficiente."
+  },
+  "montevideo/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Avenida 18 de Julio com arquitetura e ônibus no Centro de Montevidéu; bairro reconhecível em fotografia real."
+  },
+  "montevideo/neighborhood-2": {
+    "decision": "rejected",
+    "notes": "Contêiner de lixo domina a cena; não representa adequadamente o bairro Pocitos."
+  },
+  "montevideo/region-0": {
+    "decision": "accepted",
+    "notes": "Fachadas históricas e rua da Ciudad Vieja sob céu azul; contexto real da região e orientação correta."
+  },
+  "montevideo/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Edifício histórico de esquina na Ciudad Vieja com arquitetura local; contexto real para hospedagem ilustrativa."
+  },
+  "montevideo/region-1": {
+    "decision": "accepted",
+    "notes": "Passeio da Rambla junto à praia de Pocitos com prédios e palmeiras; região costeira identificável."
+  },
+  "montevideo/hotel-1": {
+    "decision": "accepted",
+    "notes": "Rambla de Pocitos com pedestres e ciclista diante da praia; contexto local real para hospedagem ilustrativa."
+  },
+  "montevideo/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Fundações de antigo hotel na praia; não mostra contexto atual apropriado para hospedagem."
+  },
+  "montevideo/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Rambla Franklin Roosevelt e zona do porto ao entardecer; contexto urbano costeiro real para hospedagem ilustrativa."
+  },
+  "montevideo/region-3": {
+    "decision": "accepted",
+    "notes": "Vista elevada da praça e bairro Carrasco, com casario e vias; contexto regional real e orientação correta."
+  },
+  "montevideo/region-list-3": {
+    "decision": "rejected",
+    "notes": "Trabalhadores de instalação de fibra e obra em primeiro plano; não representa Carrasco como região turística."
+  },
+  "montevideo/day-0": {
+    "decision": "accepted",
+    "notes": "Área externa do aeroporto de Carrasco com bandeira uruguaia e acesso ao terminal; chegada local real, sem terminal de outro país."
+  },
+  "montevideo/tips": {
+    "decision": "rejected",
+    "notes": "Imagem com tonalidade sépia e baixa legibilidade; não atende seleção atual de qualidade."
+  },
+  "montevideo/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Letreiro Hotel Florida usa apenas nome próprio e termo compartilhado com inglês; pouco contexto linguístico em espanhol."
+  },
+  "montevideo/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Cédula uruguaia de 1867, fora de circulação; documento monetário antigo proibido para pagamentos atuais."
+  },
+  "montevideo/trip-0": {
+    "decision": "rejected",
+    "notes": "Fachada com marca Conrad, substituída por Enjoy há anos; foto desatualizada do empreendimento."
+  }
+}

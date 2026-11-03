@@ -66,9 +66,16 @@ def search(item):
  cache=OUT/('pool-'+name+'.json')
  if cache.exists():return name,json.loads(cache.read_text())
  params={'action':'query','generator':'search','gsrsearch':pool['query']+' filetype:bitmap',
-  'gsrnamespace':6,'gsrlimit':pool.get('limit',50),'prop':'imageinfo','iiprop':'url|size|mime|extmetadata','iiurlwidth':2400,'format':'json'}
- data=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params)))
- if data.get('error'):raise ValueError(data['error'])
+  'gsrnamespace':6,'gsrlimit':pool.get('limit',50),'gsroffset':pool.get('offset',0),'prop':'imageinfo','iiprop':'url|size|mime|extmetadata','iiurlwidth':2400,'format':'json'}
+ for attempt in range(4):
+  data=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params)))
+  if not data.get('error'):break
+  if data['error'].get('code')=='urlparamnormal':
+   # Commons can fail the entire result batch while thumbnailing a TIFF that
+   # would be rejected below anyway. Exclude that unsupported format on retry.
+   params['gsrsearch']=pool['query']+' filetype:bitmap -filemime:image/tiff'
+  if attempt==3:raise ValueError(data['error'])
+  time.sleep(3*(attempt+1))
  cache.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
  return name,data
 with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:

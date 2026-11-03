@@ -1,0 +1,2320 @@
+[
+  {
+    "key": "havai/hero",
+    "slot": "hero",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havai/intro",
+    "slot": "intro",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havai/home",
+    "slot": "home",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havai/guide-card",
+    "slot": "guide-card",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havai/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havai/home-slide",
+    "slot": "home-slide",
+    "topic": "Havaí",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havai/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Havaí: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havai/map-attraction-0",
+    "slot": "map-attraction-0",
+    "topic": "Waikiki Beach",
+    "path": "/images/destinations/havai/curated-map-attraction-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Waikiki Beach, Hawaii.jpg",
+    "imageinfo": {
+      "size": 538289,
+      "width": 2049,
+      "height": 832,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Waikiki_Beach%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 975,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Waikiki_Beach%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 975
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Waikiki_Beach%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Waikiki_Beach,_Hawaii.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75123863",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-12-17 02:58:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Waikiki Beach, Hawaii",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Waikiki Beach|Self-published work|Panoramics in Hawaii",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A beach in Waikiki where the water is blue and the sky is clear.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-09-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Julianibarra\" title=\"User:Julianibarra\">Julianibarra</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/map-attraction-0.jpg",
+    "dimensions": [
+      2049,
+      832
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Waikiki_Beach%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "e5f8076a9e4576e382c20df739ad1ebbefde30f584b64928a185c7e1cb70cb39"
+  },
+  {
+    "key": "havai/map-list-0",
+    "slot": "map-list-0",
+    "topic": "Waikiki Beach",
+    "path": "/images/destinations/havai/curated-map-list-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Kapahulu neighborhood of Waikiki from the Hilton Waikiki Beach.jpg",
+    "imageinfo": {
+      "size": 1224104,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Kapahulu_neighborhood_of_Waikiki_from_the_Hilton_Waikiki_Beach.jpg/3840px-Kapahulu_neighborhood_of_Waikiki_from_the_Hilton_Waikiki_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Kapahulu_neighborhood_of_Waikiki_from_the_Hilton_Waikiki_Beach.jpg/3840px-Kapahulu_neighborhood_of_Waikiki_from_the_Hilton_Waikiki_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kapahulu_neighborhood_of_Waikiki_from_the_Hilton_Waikiki_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kapahulu_neighborhood_of_Waikiki_from_the_Hilton_Waikiki_Beach.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=112477255",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-11-17 19:19:20",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Kapahulu neighborhood of Waikiki from the Hilton Waikiki Beach",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Aerial views of St. Augustine by the Sea Church (Honolulu, Hawaii)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "21.275331",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-157.822083",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "St Augustine Catholic Church",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-11-07 14:50:40",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/194454581@N08/51676812583/\">https://www.flickr.com/photos/194454581@N08/51676812583/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Flip Flops Hawaii",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/map-list-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Kapahulu_neighborhood_of_Waikiki_from_the_Hilton_Waikiki_Beach.jpg/3840px-Kapahulu_neighborhood_of_Waikiki_from_the_Hilton_Waikiki_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c0d6d4072c73b6ee970b78d7608f34acb15b52ff9b621bb53a7571cf26f68a89"
+  },
+  {
+    "key": "havai/attraction-1",
+    "slot": "attraction-1",
+    "topic": "Pearl Harbor",
+    "path": "/images/destinations/havai/curated-attraction-1.jpg",
+    "pool": "attractions-attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:Entrance to Pearl Harbor.jpg",
+    "imageinfo": {
+      "size": 3815993,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Entrance_to_Pearl_Harbor.jpg/3840px-Entrance_to_Pearl_Harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Entrance_to_Pearl_Harbor.jpg/3840px-Entrance_to_Pearl_Harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Entrance_to_Pearl_Harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Entrance_to_Pearl_Harbor.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=158925214",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-02-01 17:21:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Entrance to Pearl Harbor",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Pearl Harbor|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The entrance to Pearl Harbor in Honolulu, Hawaii as seen from a jetliner on final approach to Daniel K. Inouye International Airport. Photographed by user Coolcaesar on January 14, 2023.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-01-14 11:07:34",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Coolcaesar\" title=\"User:Coolcaesar\">Coolcaesar</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/attraction-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Entrance_to_Pearl_Harbor.jpg/3840px-Entrance_to_Pearl_Harbor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "254ea8128e1f6eb61a884fb3b6b54d055ce49914cb134c5629963ed05694a45f"
+  },
+  {
+    "key": "havai/map-attraction-1",
+    "slot": "map-attraction-1",
+    "topic": "Pearl Harbor",
+    "path": "/images/destinations/havai/curated-map-attraction-1.jpg",
+    "pool": "attractions-attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:76th Anniversary of the Attack on Pearl Harbor (2).jpg",
+    "imageinfo": {
+      "size": 1903375,
+      "width": 3665,
+      "height": 5131,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/76th_Anniversary_of_the_Attack_on_Pearl_Harbor_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3360,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/76th_Anniversary_of_the_Attack_on_Pearl_Harbor_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3360
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/76th_Anniversary_of_the_Attack_on_Pearl_Harbor_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:76th_Anniversary_of_the_Attack_on_Pearl_Harbor_(2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147005889",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-04-02 05:39:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "76th Anniversary of the Attack on Pearl Harbor (2)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD US Navy|CC-PD-Mark|Lou Conter|96-year-old human males|Men wearing leis|76th anniversary of Pearl Harbor attacks",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "171207-N-ZK021-0005 PEARL HARBOR (Dec. 7, 2017) Pearl Harbor survivor Lou Conter smiles at the start of the ceremony honoring the 76th Anniversary of the attacks on Pearl Harbor and Oahu at Joint Base Pearl Harbor-Hickam. The 76th commemoration, co-hosted by the U.S. Military, the National Park Service and the State of Hawaii, provided veterans, family members, service members and the community a chance to honor the sacrifices made by those who were present Dec. 7, 1941, as well as throughout the Pacific theater. Since the attacks, the U.S. and Japan have endured more than 70 years of continued peace, a cornerstone of security and prosperity in the Indo-Asia-Pacific region. As a Pacific nation, the U.S. is committed to continue its responsibility of protecting the Pacific sea-lanes, advancing international ideals and relationships, well as delivering security, influence and responsiveness in the region. (U.S. Navy photo by Mass Communication Specialist 1st Nardel Gervacio)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-12-06 19:00:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dvidshub.net/image/4010438/76th-anniversary-attack-pearl-harbor\">https://www.dvidshub.net/image/4010438/76th-anniversary-attack-pearl-harbor</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Mass Communication Specialist 1st Nardel Gervacio",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/map-attraction-1.jpg",
+    "dimensions": [
+      1714,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/76th_Anniversary_of_the_Attack_on_Pearl_Harbor_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "219987b9eaa2cc285f118abb2efb0cf41d555ec60a71222a9e0e5501a29dd488"
+  },
+  {
+    "key": "havai/map-attraction-2",
+    "slot": "map-attraction-2",
+    "topic": "Diamond Head",
+    "path": "/images/destinations/havai/curated-map-attraction-2.jpg",
+    "pool": "attractions-attraction-2",
+    "status": "pending-visual-review",
+    "title": "File:Diamond Head - North View.jpg",
+    "imageinfo": {
+      "size": 2670627,
+      "width": 5017,
+      "height": 2478,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Diamond_Head_-_North_View.jpg/3840px-Diamond_Head_-_North_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1185,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Diamond_Head_-_North_View.jpg/3840px-Diamond_Head_-_North_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1185
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Diamond_Head_-_North_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Diamond_Head_-_North_View.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79843880",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-06-21 13:09:03",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Diamond Head - North View",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Diamond Head|Aerial photographs of Honolulu, Hawaii|Flickr images reviewed by FlickreviewR 2",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Diamond Head - View from the north",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-06-10 07:05:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/erictessmer/48041923067/\">https://www.flickr.com/photos/erictessmer/48041923067/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Eric Tessmer",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/map-attraction-2.jpg",
+    "dimensions": [
+      2400,
+      1186
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Diamond_Head_-_North_View.jpg/3840px-Diamond_Head_-_North_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7a93fa5072f4e77999112f3834912d68841ce7c189c42cfbc92c5b42f735fe1e"
+  },
+  {
+    "key": "havai/attraction-3",
+    "slot": "attraction-3",
+    "topic": "Road to Hana (Maui)",
+    "path": "/images/destinations/havai/curated-attraction-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Bridge Parapets of the Hana Belt Road - Hana Belt Road, Between Haiku and Kaipahulu, Hana, Maui County, HI HAER HI-75 (sheet 9 of 13).png",
+    "imageinfo": {
+      "size": 3021784,
+      "width": 9602,
+      "height": 14402,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bridge_Parapets_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_9_of_13%29.png/3840px-Bridge_Parapets_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_9_of_13%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bridge_Parapets_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_9_of_13%29.png/3840px-Bridge_Parapets_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_9_of_13%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bridge_Parapets_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_9_of_13%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bridge_Parapets_of_the_Hana_Belt_Road_-_Hana_Belt_Road,_Between_Haiku_and_Kaipahulu,_Hana,_Maui_County,_HI_HAER_HI-75_(sheet_9_of_13).png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34077007",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-07-19 00:17:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\nBridge Parapets of the Hana Belt Road - Hana Belt Road, Between Haiku and Kaipahulu, Hana, Maui County, HI</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Images uploaded by Fæ|PD US NPS|Files from the Historic American Buildings Survey|Large images|National Register of Historic Places with known IDs|Bridge construction drawings|GWToolset Batch Upload|Uploads by Fæ (over 50 MP)|Bridges of the Hana Belt Road (Maui)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "20.758060",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-155.990280",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\nCerpa, Elena Molina, creator</div>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2005",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/hi0808.sheet.00009a\">https://www.loc.gov/pictures/item/hi0808.sheet.00009a</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td><i>This image or media file contains material based on a work of a <a href=\"https://en.wikipedia.org/wiki/National_Park_Service\" class=\"extiw\" title=\"w:National Park Service\">National Park Service</a> employee, created as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"w:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"w:Federal Government of the United States\">U.S. federal government</a>, such work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in the United States. See the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nps.gov/\">NPS website</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nps.gov/aboutus/disclaimer.htm\">NPS copyright policy</a> for more information.</i>\n</td>\n<td><figure class=\"mw-halign-right\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_United_States_National_Park_Service.svg/60px-Logo_of_the_United_States_National_Park_Service.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"52\" height=\"68\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_United_States_National_Park_Service.svg/120px-Logo_of_the_United_States_National_Park_Service.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"553\" data-file-height=\"720\"></span><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/png"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/attraction-3.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Bridge_Parapets_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_9_of_13%29.png/3840px-Bridge_Parapets_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_9_of_13%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f44f4c1c43765f86353cbafeee2962d9825e5a54ba9065ce28e23e6a0a260c63"
+  },
+  {
+    "key": "havai/map-attraction-3",
+    "slot": "map-attraction-3",
+    "topic": "Road to Hana (Maui)",
+    "path": "/images/destinations/havai/curated-map-attraction-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Bridge Typologies of the Hana Belt Road - Hana Belt Road, Between Haiku and Kaipahulu, Hana, Maui County, HI HAER HI-75 (sheet 3 of 13).png",
+    "imageinfo": {
+      "size": 3930229,
+      "width": 9602,
+      "height": 14402,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bridge_Typologies_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_3_of_13%29.png/3840px-Bridge_Typologies_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_3_of_13%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bridge_Typologies_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_3_of_13%29.png/3840px-Bridge_Typologies_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_3_of_13%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Bridge_Typologies_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_3_of_13%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bridge_Typologies_of_the_Hana_Belt_Road_-_Hana_Belt_Road,_Between_Haiku_and_Kaipahulu,_Hana,_Maui_County,_HI_HAER_HI-75_(sheet_3_of_13).png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=34077034",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-07-19 00:19:23",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\nBridge Typologies of the Hana Belt Road - Hana Belt Road, Between Haiku and Kaipahulu, Hana, Maui County, HI</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Images uploaded by Fæ|PD US NPS|Files from the Historic American Buildings Survey|Large images|National Register of Historic Places with known IDs|GWToolset Batch Upload|Uploads by Fæ (over 50 MP)|Bridges of the Hana Belt Road (Maui)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "20.758060",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-155.990280",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\nSchaible, Daniel, creator</div>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2005",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/hi0808.sheet.00003a\">https://www.loc.gov/pictures/item/hi0808.sheet.00003a</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td><i>This image or media file contains material based on a work of a <a href=\"https://en.wikipedia.org/wiki/National_Park_Service\" class=\"extiw\" title=\"w:National Park Service\">National Park Service</a> employee, created as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"w:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"w:Federal Government of the United States\">U.S. federal government</a>, such work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in the United States. See the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nps.gov/\">NPS website</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://www.nps.gov/aboutus/disclaimer.htm\">NPS copyright policy</a> for more information.</i>\n</td>\n<td><figure class=\"mw-halign-right\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_United_States_National_Park_Service.svg/60px-Logo_of_the_United_States_National_Park_Service.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"52\" height=\"68\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_of_the_United_States_National_Park_Service.svg/120px-Logo_of_the_United_States_National_Park_Service.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"553\" data-file-height=\"720\"></span><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/png"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/map-attraction-3.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bridge_Typologies_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_3_of_13%29.png/3840px-Bridge_Typologies_of_the_Hana_Belt_Road_-_Hana_Belt_Road%2C_Between_Haiku_and_Kaipahulu%2C_Hana%2C_Maui_County%2C_HI_HAER_HI-75_%28sheet_3_of_13%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "dfb3f2f7a2185cc459abe86e696a7ca1705caee8d7a6f3daf692144289a5aa71"
+  },
+  {
+    "key": "havai/map-list-3",
+    "slot": "map-list-3",
+    "topic": "Road to Hana (Maui)",
+    "path": "/images/destinations/havai/curated-map-list-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Bridge on Hana Highway.jpg",
+    "imageinfo": {
+      "size": 18171518,
+      "width": 4592,
+      "height": 3056,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Bridge_on_Hana_Highway.jpg/3840px-Bridge_on_Hana_Highway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1597,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Bridge_on_Hana_Highway.jpg/3840px-Bridge_on_Hana_Highway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1597
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Bridge_on_Hana_Highway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bridge_on_Hana_Highway.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21723453",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-09-28 19:23:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bridge on Hana Highway",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "WLM 2012 United States nominated|Taken with Sony DSLR-A380|Self-published work|National Register of Historic Places with known IDs|Images from Wiki Loves Monuments 2012|Images from Wiki Loves Monuments 2012 in the United States|United States photographs taken on 2012-08-13|Bridges of the Hana Belt Road (Maui)|WLM 2012 United States reviewed",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "20.897778",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-156.222222",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "One of many bridges on the highway. <a href=\"https://en.wikipedia.org/wiki/Hana_Highway\" class=\"extiw\" title=\"en:Hana Highway\">Hana Belt Road</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 13 August 2012, 20:20:18",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jonathanking\" title=\"User:Jonathanking\">Jonathanking</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/map-list-3.jpg",
+    "dimensions": [
+      2400,
+      1598
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Bridge_on_Hana_Highway.jpg/3840px-Bridge_on_Hana_Highway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7e86de81cddcdc1165e35ba94dd6b1afbfa62f5f849dff3c5ae066fa46ee09c5"
+  },
+  {
+    "key": "havai/attraction-5",
+    "slot": "attraction-5",
+    "topic": "North Shore",
+    "path": "/images/destinations/havai/curated-attraction-5.jpg",
+    "pool": "attractions-attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Hawaii - North Shore- Hitchin' a Ride (6615827351).jpg",
+    "imageinfo": {
+      "size": 3175959,
+      "width": 3168,
+      "height": 4752,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hawaii_-_North_Shore-_Hitchin%27_a_Ride_%286615827351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hawaii_-_North_Shore-_Hitchin%27_a_Ride_%286615827351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hawaii_-_North_Shore-_Hitchin%27_a_Ride_%286615827351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hawaii_-_North_Shore-_Hitchin%27_a_Ride_(6615827351).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43657690",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-09-26 04:24:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Hawaii - North Shore- Hitchin' a Ride (6615827351)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "North Shore (Oahu)|Flickr images reviewed by FlickreviewR|December 2011 in Hawaii|Hitchhiking in the United States|Hitchhikers with thumbs up|Men standing on roadsides",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Hawaii / North Shore: Hitchin' a Ride",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-12-31 13:10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/elisfanclub/6615827351/\">Hawaii / North Shore: Hitchin' a Ride</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/80547277@N00\">Eli Duke</a> from Portland, OR, USA",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/attraction-5.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Hawaii_-_North_Shore-_Hitchin%27_a_Ride_%286615827351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "c001f3630bd4911c35e7bf6dc0079bcc87c13d4645a26044873a29963a1b3522"
+  },
+  {
+    "key": "havai/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Waikiki",
+    "path": "/images/destinations/havai/curated-neighborhood-0.jpg",
+    "pool": "neighborhoods-neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Gucci Store at Luxury Row, Waikiki, Hawaii.jpg",
+    "imageinfo": {
+      "size": 88489548,
+      "width": 11648,
+      "height": 8736,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Gucci_Store_at_Luxury_Row%2C_Waikiki%2C_Hawaii.jpg/3840px-Gucci_Store_at_Luxury_Row%2C_Waikiki%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Gucci_Store_at_Luxury_Row%2C_Waikiki%2C_Hawaii.jpg/3840px-Gucci_Store_at_Luxury_Row%2C_Waikiki%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Gucci_Store_at_Luxury_Row%2C_Waikiki%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gucci_Store_at_Luxury_Row,_Waikiki,_Hawaii.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=112519768",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-11-15 04:41:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Gucci Store at Luxury Row, Waikiki, Hawaii",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Gucci|Kalakaua Avenue|Taken with Fujifilm GFX100|Large images|Shops in Honolulu, Hawaii|Flickr images missing SDC inception|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|F-number f/2|Lens focal length 110 mm|Buildings in Waikiki|Flickr images missing SDC published in|Taken with Fujinon GF 110mm F2 R LM WR",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "21.281557",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-157.830554",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A Gucci store, an Italian luxury high-end brand boutique, at the Luxury Row shopping mall at 2118 Kalakaua Avenue in Waikiki, Honolulu, Oahu, Hawaii.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-02-01 18:58:07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/diversey/49495966527/\">https://www.flickr.com/photos/diversey/49495966527/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Tony Webster",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/neighborhood-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Gucci_Store_at_Luxury_Row%2C_Waikiki%2C_Hawaii.jpg/3840px-Gucci_Store_at_Luxury_Row%2C_Waikiki%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d9ab1958fba228bb38a06ec3bb04495b840b611044996dff52dec61b15e44a40"
+  },
+  {
+    "key": "havai/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Waikiki",
+    "path": "/images/destinations/havai/curated-neighborhood-detail-0.jpg",
+    "pool": "neighborhoods-neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:In a dinosaur costume on Halloween night 2021 in Waikiki, Hawaii.jpg",
+    "imageinfo": {
+      "size": 2826880,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/In_a_dinosaur_costume_on_Halloween_night_2021_in_Waikiki%2C_Hawaii.jpg/1920px-In_a_dinosaur_costume_on_Halloween_night_2021_in_Waikiki%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/In_a_dinosaur_costume_on_Halloween_night_2021_in_Waikiki%2C_Hawaii.jpg/1920px-In_a_dinosaur_costume_on_Halloween_night_2021_in_Waikiki%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/In_a_dinosaur_costume_on_Halloween_night_2021_in_Waikiki%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:In_a_dinosaur_costume_on_Halloween_night_2021_in_Waikiki,_Hawaii.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=125925688",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-11-25 15:11:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "In a dinosaur costume on Halloween night 2021 in Waikiki, Hawaii",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|October 2021 in Hawaii|Halloween 2021 in Hawaii|Cosplay of Jurassic Park|Jurassic Park Dinosaurs|Tyrannosaurus costumes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "21.275461",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-157.825119",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "In a dinosaur costume in Waikiki, Hawaii",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-10-31 22:53:45",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/194454581@N08/51687384809/\">https://www.flickr.com/photos/194454581@N08/51687384809/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Flip Flops Hawaii",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/neighborhood-detail-0.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/In_a_dinosaur_costume_on_Halloween_night_2021_in_Waikiki%2C_Hawaii.jpg/1920px-In_a_dinosaur_costume_on_Halloween_night_2021_in_Waikiki%2C_Hawaii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "36aa1d83e37641b6de1ad20e38ea7c2a0d49c2f2ac0f9b0d0324eaf980ed316f"
+  },
+  {
+    "key": "havai/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "North Shore",
+    "path": "/images/destinations/havai/curated-neighborhood-2.jpg",
+    "pool": "neighborhoods-neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:North Shore Sunset 1 (30522146362).jpg",
+    "imageinfo": {
+      "size": 6751621,
+      "width": 5079,
+      "height": 3103,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/North_Shore_Sunset_1_%2830522146362%29.jpg/3840px-North_Shore_Sunset_1_%2830522146362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1466,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/North_Shore_Sunset_1_%2830522146362%29.jpg/3840px-North_Shore_Sunset_1_%2830522146362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1466
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/North_Shore_Sunset_1_%2830522146362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:North_Shore_Sunset_1_(30522146362).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64145847",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-11-18 07:53:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "North Shore Sunset 1 (30522146362)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "North Shore (Oahu)|Beaches of Oahu|Sunsets of Oahu|Unidentified locations in Oahu|Flickr images reviewed by FlickreviewR 2|Photographs by Tony Hisgett|Pink sunsets of the United States",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "North Shore Sunset 1",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-10-23 19:16",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/hisgett/30522146362/\">North Shore Sunset 1</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37804979@N00\">Tony Hisgett</a> from Birmingham, UK",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/neighborhood-2.jpg",
+    "dimensions": [
+      2400,
+      1466
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/North_Shore_Sunset_1_%2830522146362%29.jpg/3840px-North_Shore_Sunset_1_%2830522146362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c3a7bc52603e9a648f62e27297763f6b89c0881d4f3eb5a12958e384ba77c08f"
+  },
+  {
+    "key": "havai/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Oahu South",
+    "path": "/images/destinations/havai/curated-region-list-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:First Hawaiian Bank, Waikiki, Honolulu.jpg",
+    "imageinfo": {
+      "size": 23280782,
+      "width": 6617,
+      "height": 4324,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/First_Hawaiian_Bank%2C_Waikiki%2C_Honolulu.jpg/3840px-First_Hawaiian_Bank%2C_Waikiki%2C_Honolulu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1568,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/First_Hawaiian_Bank%2C_Waikiki%2C_Honolulu.jpg/3840px-First_Hawaiian_Bank%2C_Waikiki%2C_Honolulu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1568
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/First_Hawaiian_Bank%2C_Waikiki%2C_Honolulu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:First_Hawaiian_Bank,_Waikiki,_Honolulu.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=112519814",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-11-15 04:45:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "First Hawaiian Bank, Waikiki, Honolulu",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Flickr images missing SDC creator|Flickr images missing SDC source of file|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Buildings in Waikiki|First Hawaiian Bank|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "21.280092",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-157.829713",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The First Hawaiian Bank Waikiki Branch at 2182 Kalakaua Avenue at the Waikiki Beach Walk in Honolulu, Oahu, Hawaii. (FHB)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-02-01 18:53:21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/diversey/49495746831/\">https://www.flickr.com/photos/diversey/49495746831/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Tony Webster",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/region-list-0.jpg",
+    "dimensions": [
+      2400,
+      1568
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/First_Hawaiian_Bank%2C_Waikiki%2C_Honolulu.jpg/3840px-First_Hawaiian_Bank%2C_Waikiki%2C_Honolulu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "038cd95d182da9d99e7cff9cb0f15f3eb4c7e110009b4a51a3b443f77c8c9b23"
+  },
+  {
+    "key": "havai/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Oahu South",
+    "path": "/images/destinations/havai/curated-hotel-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Participants in Waikiki, Hawaii Halloween 2021 04.jpg",
+    "imageinfo": {
+      "size": 2634877,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Participants_in_Waikiki%2C_Hawaii_Halloween_2021_04.jpg/1920px-Participants_in_Waikiki%2C_Hawaii_Halloween_2021_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Participants_in_Waikiki%2C_Hawaii_Halloween_2021_04.jpg/1920px-Participants_in_Waikiki%2C_Hawaii_Halloween_2021_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Participants_in_Waikiki%2C_Hawaii_Halloween_2021_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Participants_in_Waikiki,_Hawaii_Halloween_2021_04.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155756033",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-11-25 11:49:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Participants in Waikiki, Hawaii Halloween 2021 04",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Geisha|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Halloween 2021 in Hawaii",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "21.277253",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-157.826906",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Participants in Waikiki, Hawaii Halloween 2021",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-10-31 22:38:31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/194454581@N08/51685912892/\">https://www.flickr.com/photos/194454581@N08/51685912892/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Flip Flops Hawaii",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/hotel-0.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Participants_in_Waikiki%2C_Hawaii_Halloween_2021_04.jpg/1920px-Participants_in_Waikiki%2C_Hawaii_Halloween_2021_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2168c6c2f094c20bd1d5e2793b814eacd0f8b1243c26a368e3fc1519ef0fe9be"
+  },
+  {
+    "key": "havai/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Maui",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-2"
+  },
+  {
+    "key": "havai/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Big Island",
+    "path": "/images/destinations/havai/curated-region-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Big Island, Southeastern coast (near Kahakai Park).jpg",
+    "imageinfo": {
+      "size": 7790938,
+      "width": 3916,
+      "height": 2648,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Big_Island%2C_Southeastern_coast_%28near_Kahakai_Park%29.jpg/3840px-Big_Island%2C_Southeastern_coast_%28near_Kahakai_Park%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1623,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Big_Island%2C_Southeastern_coast_%28near_Kahakai_Park%29.jpg/3840px-Big_Island%2C_Southeastern_coast_%28near_Kahakai_Park%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1623
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Big_Island%2C_Southeastern_coast_%28near_Kahakai_Park%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Big_Island,_Southeastern_coast_(near_Kahakai_Park).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=18637475",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-03-09 19:49:00",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Big Island, Southeastern coast (near Kahakai Park)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Leica X1|Self-published work|Landscapes of Hawaii (island)|Coasts of Hawaii (island)|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.560953",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-154.888419",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/Category:Hawaii_(island)\" title=\"Category:Hawaii (island)\">Big island of Hawaiʻi</a> — Southeastern Coast (near Kahakai Park) on a stormy day.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-03-08",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Frank_Schulenburg\" title=\"User:Frank Schulenburg\">Frank Schulenburg</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1623
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Big_Island%2C_Southeastern_coast_%28near_Kahakai_Park%29.jpg/3840px-Big_Island%2C_Southeastern_coast_%28near_Kahakai_Park%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "20c5de4aab7b20b6909e4bf62fd2ac9b5edf71177367b7382d4f307240d0bc1d"
+  },
+  {
+    "key": "havai/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Big Island",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-3"
+  },
+  {
+    "key": "havai/mistakes",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "path": "/images/destinations/havai/curated-mistakes.jpg",
+    "pool": "support-arrival",
+    "status": "pending-visual-review",
+    "title": "File:Daniel K. Inouye International Airport Air Traffic Control Tower 2025.jpg",
+    "imageinfo": {
+      "size": 5279239,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Daniel_K._Inouye_International_Airport_Air_Traffic_Control_Tower_2025.jpg/3840px-Daniel_K._Inouye_International_Airport_Air_Traffic_Control_Tower_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Daniel_K._Inouye_International_Airport_Air_Traffic_Control_Tower_2025.jpg/3840px-Daniel_K._Inouye_International_Airport_Air_Traffic_Control_Tower_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Daniel_K._Inouye_International_Airport_Air_Traffic_Control_Tower_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Daniel_K._Inouye_International_Airport_Air_Traffic_Control_Tower_2025.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=166847475",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-06-05 00:45:24",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Daniel K. Inouye International Airport Air Traffic Control Tower 2025",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Aloha|Self-published work|Air traffic control towers|Airport towers in Hawaii|Files with coordinates missing SDC location of creation|2025 at Daniel K. Inouye International Airport",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "21.331068",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-157.919506",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The main air traffic control tower of the Daniel K. Inouye International Airport (HNL) in 2025. Photo taken from the eastern concourse leading to the E gates. The other side of the tower also bears the name of the airport, but without the \"Aloha\" sign (there was formerly a digital clock where the \"Aloha\" sign would have been).",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-05-29 14:20:27",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Legocity264\" title=\"User:Legocity264\">Michael Voss</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/mistakes.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Daniel_K._Inouye_International_Airport_Air_Traffic_Control_Tower_2025.jpg/3840px-Daniel_K._Inouye_International_Airport_Air_Traffic_Control_Tower_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a7b96222893d7cbd778a6a2d15ced7aef51c40b8edff791a364dc6e62feea831"
+  },
+  {
+    "key": "havai/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Havaí",
+    "path": "/images/destinations/havai/curated-costs.jpg",
+    "pool": "support-food",
+    "status": "pending-visual-review",
+    "title": "File:Wiki Wiki Poke, Vienna.jpg",
+    "imageinfo": {
+      "size": 4865622,
+      "width": 3069,
+      "height": 4278,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Wiki_Wiki_Poke%2C_Vienna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3345,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Wiki_Wiki_Poke%2C_Vienna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3345
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Wiki_Wiki_Poke%2C_Vienna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wiki_Wiki_Poke,_Vienna.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99722368",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-02-10 10:02:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Wiki Wiki Poke, Vienna",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Restaurants in Vienna|Wipplingerstraße 21, Vienna|Self-published work|Images by Herzi Pinki|Restaurant signs in Austria|Supported by Wikimedia Österreich in 2021",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<i>Wiki Wiki Poke</i>, ein Restaurant für Hawaiian Poke Bowls in der Wipplingerstraße 21 in der Inneren Stadt in Wien. <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.wikiwikipoke.at/\">[1]</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-06-08 18:51:54",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Herzi_Pinki\" title=\"User:Herzi Pinki\">Herzi Pinki</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/costs.jpg",
+    "dimensions": [
+      1722,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Wiki_Wiki_Poke%2C_Vienna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "12087cee3dd400adfe0047f8a948b7780bb08022df006b052139197bcd11ab45"
+  },
+  {
+    "key": "havai/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/havai/curated-essential-idioma.jpg",
+    "pool": "support-language",
+    "status": "pending-visual-review",
+    "title": "File:Hawaii Kai Sign Oahu Hawaii Photo Don Ramey Logan.jpg",
+    "imageinfo": {
+      "size": 6259274,
+      "width": 4288,
+      "height": 2848,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg/3840px-Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1594,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg/3840px-Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1594
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16432396",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-09-11 13:37:03",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Hawaii Kai Sign Oahu Hawaii Photo Don Ramey Logan",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Photographs by Don Ramey Logan|Taken with Nikon D90|Hawaii Kai|United States photographs taken on 2011-09-05|Signs in Honolulu",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-09-05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Don_Ramey_Logan\" title=\"Category:Photographs by Don Ramey Logan\">Don Ramey Logan</a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table style=\"width:100%; clear:both; margin:0.5em auto; border-spacing:8px; background-color:var(--background-color-neutral-subtle,#f7f8ff); border:2px solid #8888aa;color: inherit;\" lang=\"\" dir=\"ltr\" class=\"layouttemplate restrictiontemplate plainlinks\">\n<tbody><tr>\n<td><span aria-hidden=\"true\"><span class=\"mw-default-size skin-invert\" typeof=\"mw:File/Frameless\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"110\" height=\"44\" style=\"--mw-file-upright: 0.45\" class=\"mw-file-element mw-file-upright\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span></span><br>\n</td>\n<td>This image is <b>not in the <a href=\"https://en.wikipedia.org/wiki/Public_domain\" class=\"extiw\" title=\"w:Public domain\">public domain</a></b>. If you wish to use it anywhere other than on Wikipedia or <a href=\"https://meta.wikimedia.org/wiki/Wikimedia_projects\" class=\"extiw\" title=\"m:Wikimedia projects\">other Wikimedia projects</a> you are obligated to provide the following details along with it:<br>\n<ul><li>Author: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.imdb.com/name/nm10366764/\">Don Ramey Logan</a></li>\n<li><i><a class=\"mw-selflink-fragment\" href=\"##\">Hawaii Kai Sign Oahu Hawaii Photo Don Ramey Logan.jpg</a></i> from <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a><br></li>\n<li>License: <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.en\">Creative Commons Attribution-ShareAlike 3.0</a><br></li></ul>\n<p><b>Credit line example:</b> \"<a class=\"mw-selflink-fragment\" href=\"##\">Hawaii Kai Sign Oahu Hawaii Photo Don Ramey Logan.jpg</a> from <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a> by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.imdb.com/name/nm10366764/\">Don Ramey Logan</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.en\">CC-BY-SA 3.0</a>\"<br>\nA statement such as \"From Wikimedia Commons\" or similar is <i>not</i> by itself sufficient. If you do not provide clear attribution to the author and indicate the file name as shown here, you didn't comply with the terms of the file's license and may not use this file. If you are unable or unwilling to provide attribution and <b>release your own work</b> that <a href=\"//commons.wikimedia.org/wiki/Commons:Derivative_works\" title=\"Commons:Derivative works\">incorporates this work</a> with a Creative Commons Attribution-ShareAlike 3.0 license you should contact <a rel=\"nofollow\" class=\"external text\" href=\"https://www.imdb.com/name/nm10366764/\">Don Ramey Logan</a> to negotiate a different license.  More of my work can be found in <a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Don_Ramey_Logan\" title=\"Category:Photographs by Don Ramey Logan\">Category:Photographs by Don Ramey Logan</a>. There is <a href=\"//commons.wikimedia.org/wiki/User:WPPilot/Credits\" title=\"User:WPPilot/Credits\">more detailed information about licensing</a> available.\n\n</p>\n</td></tr>\n<tr>\n<td>\n</td>\n<td><div style=\"text-align:center\"><div style=\"margin-top:0.75em;\"><b>I. Licence</b></div>\n<div style=\"margin-top:0.5em;\">This photograph is protected by copyright law. However, it may be used for free by anyone, provided it is used in accordance with the license <b>Creative Commons License <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed\">“Attribution-ShareAlike 4.0 International”</a></b> (CC BY-SA 4.0). These include, among other things, the naming of the author and the license, as well as the setting of a link to the license text or its complete imprint. The attribution should be done as follows:</div>\n<div style=\"margin-top:0.5em; text-align:center;\"><b>Photograph by Don Ramey Logan</b><br><b>License: Creative Commons Attribution-ShareAlike 4.0 International</b><br></div>\n<div style=\"margin-top:0.5em;\">Please read the text of the license carefully before using the photograph. If you do not agree with the conditions of the license or if you do not understand these conditions, please refrain from using the photograph. If you have any questions regarding the license or the reuse of the image, please contact me before using it. If you do not comply with the terms of the license, you do not acquire any right to use the image. If you need another license to use, please contact the author <b>before</b> using.</div>\n<div style=\"margin-top:0.5em;\">For information about the license see section <a class=\"mw-selflink-fragment\" href=\"#ImgLic\">Licensing</a> or as <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">human-readable summary</a> or as <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">full licence text</a> at Creative Commons. In addition to the above, a link to the source - so this page with the descriptions and license terms - is appreciated. More information or examples of use can be found at <a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">re-use (with example file)</a>. The <a rel=\"nofollow\" class=\"external text\" href=\"https://lizenzhinweisgenerator.de/?lang=en&amp;url=https://commons.wikimedia.org/wiki/File:Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg\">Attribution Generator</a> is helpful in licensing matters.</div>\n<div style=\"margin:0.5em auto 1em;text-align:center;\" class=\"plainlinks\"><span class=\"plainlinks\"><a rel=\"nofollow\" class=\"external text\" href=\"https://lizenzhinweisgenerator.de/?lang=en&amp;url=https://commons.wikimedia.org/wiki/File:Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg\"><span class=\"submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-secondary ui-button-blue\" role=\"button\"><span class=\"ui-button-text\">Generate License <b>Attribution</b></span><span class=\"ui-button-icon-secondary ui-icon ui-icon-extlink\"> </span></span></a></span></div>\n<div style=\"margin-top:0.5em;\"></div>\n<div style=\"margin-top:0.75em;\"><b>II. Fairness</b></div>\n<div style=\"margin-top:0.5em;\">From printed materials and other tangible products that use that work, the user is requested but not obligated to send a copy to the author as a thank you. The mailing address can be requested via the contact options.</div>\n<div style=\"margin-top:0.5em;\">Please note that the author had quite considerable effort to draw up this file. Thus, it is only fair to comply with the conditions of <a href=\"https://en.wikipedia.org/wiki/Free_license\" class=\"extiw\" title=\"en:Free license\">free licenses</a> listed here. In the case of violation of the license conditions, the rights granted hereunder will expire automatically.</div>\n<div style=\"margin-top:0.75em; clear: both;\"><b>III. Disclaimer</b></div>\n<div style=\"margin-top:0.5em;\">Please note the licence does grant you any rights to change, alter, modify, crop or use this file in any manner then as it is depicted herein, unless those changes are described in the attribution, and that the license applies solely for the reuse of the photograph itself. The license doesn't grant you any right regarding the depicted object (eg, copyright or proprietary rights) or the personality rights of the person eventually shown. (See <a href=\"//commons.wikimedia.org/wiki/Commons:L\" class=\"mw-redirect\" title=\"Commons:L\">licences</a> and <a href=\"//commons.wikimedia.org/wiki/Commons:SOSUMI\" class=\"mw-redirect\" title=\"Commons:SOSUMI\">non-copyright restrictions</a>.) I do not grant any warranty that the subsequent use of the photograph is legally possible concerning the object or person shown in the photograph. You are responsible to check and respect these rights in the publication in the respective medium or country.</div>\n<div style=\"margin-top:0.5em;\">The author is not responsible for the accuracy of the information contained herein (description, title, etc.). Likewise, the author assumes no liability for further use. Please note the <a href=\"//commons.wikimedia.org/wiki/Commons:General_disclaimer\" title=\"Commons:General disclaimer\">general disclaimer</a> and please read <a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">reusing content outside Wikimedia</a> too.</div>\n<div style=\"margin-top:0.75em;\"><b>IV. Contact</b></div>\n<div style=\"margin-top:0.5em;\"><b><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"mailto:don@logan.com\">E-mail to the author</a></b> or the <a href=\"//commons.wikimedia.org/wiki/User_talk:WPPilot\" title=\"User talk:WPPilot\">author's talk page</a> <small>or the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.mediadev.net/\">author's website</a></small></div></div>\n</td></tr></tbody></table>\n<style data-mw-deduplicate=\"TemplateStyles:r1065912264\">.mw-parser-output .note{background-position:left 7px top 50%;padding:0.5em 0.5em 0.5em 40px;margin:0.5em 0;overflow:hidden;background-color:var(--background-color-base,#fff);color:var(--color-base,#202122);background-repeat:no-repeat;border:1px solid var(--border-color-base,#ddd)}.mw-parser-output .note-inline{display:inline-block;vertical-align:middle}.mw-parser-output .note-info{background-color:var(--background-color-base,#fff);color:var(--color-base,#202122);background-image:url(\"https://upload.wikimedia.org/wikipedia/commons/e/ec/OOjs_UI_icon_information-progressive.svg\");background-size:25px;border:1px solid var(--border-color-progressive,#6485d1);padding-left:40px;min-height:25px}.mw-parser-output .note-reminder{background-color:var(--background-color-warning-subtle,#fdf2d5);color:var(--color-base,#202122);background-image:url(\"https://upload.wikimedia.org/wikipedia/commons/a/a8/OOjs_UI_icon_lightbulb-yellow.svg\");background-size:25px;border:1px solid var(--border-color-content-removed,#ffe49c);min-height:25px}.mw-parser-output .note-warn{background-color:var(--background-color-warning-subtle,#fdf2d5);color:var(--color-base,#202122);background-image:url(\"https://upload.wikimedia.org/wikipedia/commons/3/3b/OOjs_UI_icon_alert-warning.svg\");background-size:25px;border:1px solid var(--border-color-content-removed,#ffe49c);min-height:25px}.mw-parser-output .note-error{background-color:var(--background-color-error-subtle,#ffe9e5);color:var(--color-base,#202122);background-image:url(\"https://upload.wikimedia.org/wikipedia/commons/b/bf/OOjs_UI_icon_notice-destructive.svg\");background-size:25px;border:1px solid var(--border-color-destructive,#f54739);min-height:25px}</style><div role=\"note\" class=\"note note-info\"><figure class=\"mw-halign-right\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:No_Facebook.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/No_Facebook.svg/250px-No_Facebook.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"135\" height=\"30\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/No_Facebook.svg/330px-No_Facebook.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"14\"></a><figcaption></figcaption></figure> Beware that some social media platforms require their users to give the platform a sub-licensable license for any file their users upload. Platforms like Facebook do not recognize Creative Commons licenses and don't adhere to their attribution requirements, so only the copyright holder can provide the permission as described in their terms of service.\n<div class=\"collapsibletemplate collapsed\" style=\"border: none; padding: 0;\">\n<div class=\"collapsibleheader header\" style=\"font-size: 105%; text-align: left;\"><span class=\"headertext\">References</span></div>\n<div class=\"body show-on-commons\"><ul style=\"list-style: none none; margin-left: 0; margin-left:2em; font-size: 105%; margin-top: 0; margin-bottom: 0; line-height: inherit;\"><li style=\"line-height: inherit; margin: 0\"> 1. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.facebook.com/legal/terms\">Facebook Terms of Service</a> (<span class=\"mw-formatted-date\" title=\"2024-01-12\">12 January 2024</span>). \"when you share, post, or upload content that is covered by intellectual property rights (like photos or videos) on or in connection with our Products, you grant us a non-exclusive, transferable, sub-licensable, and worldwide license\"\n </li><li style=\"line-height: inherit; margin: 0\"> 2. <a rel=\"nofollow\" class=\"external text\" href=\"https://help.instagram.com/581066165581870/\">\"Instagram Terms of Service</a> (<span class=\"mw-formatted-date\" title=\"2024-01-12\">12 January 2024</span>). \"When you share, post, or upload content that is covered by intellectual property rights (like photos or videos) on or in connection with our Service, you hereby grant to us a non-exclusive, royalty-free, transferable, sub-licensable, worldwide license\"\n </li><li style=\"line-height: inherit; margin: 0\"> 3. <a rel=\"nofollow\" class=\"external text\" href=\"https://www.tiktok.com/legal/page/eea/terms-of-service/en\">TikTok Terms of Service</a> (<span class=\"mw-formatted-date\" title=\"2024-01-10\">10 January 2024</span>). \"By creating, posting or otherwise making content available on the Platform, you grant to TikTok a: non-exclusive, royalty-free, transferable, sub-licensable and worldwide licence to use your content\"\n </li><li style=\"line-height: inherit; margin: 0\"> 4. <a rel=\"nofollow\" class=\"external text\" href=\"https://snap.com/en-US/terms\">Snapchat Terms of Service</a> (<span class=\"mw-formatted-date\" title=\"2024-01-10\">10 January 2024</span>). \"For all content you submit to the Services, you grant Snap and our affiliates a worldwide, royalty-free, sublicencable, and transferable licence\"\n </li><li style=\"line-height: inherit; margin: 0\"> 5. <a rel=\"nofollow\" class=\"external text\" href=\"https://x.com/en/tos\">X Terms of Service</a> (<span class=\"mw-formatted-date\" title=\"2026-10-09\">October 9, 2026</span>). \"You retain ownership and rights to any of your Content you post or share, and you provide us with a broad, royalty-free license to make your Content available to the rest of the world and to let others do the same.[...]In choosing to submit, input, create, generate, post, or display Content on or through the Services, you grant us a worldwide, non-exclusive, royalty-free license (with the right to sublicense) to use, copy, reproduce, process, adapt, modify, publish, transmit, display, upload, download, and distribute such Content, including anything referenced therein, in any and all media or distribution methods now known or later developed, for any purpose. For clarity, these rights include, for example, curating, transforming, and translating. This license authorizes us to make your Content available to the rest of the world and to let others do the same.\"\n</li></ul>\n</div></div></div><div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Photograph by Don Ramey Logan</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Photograph by Don Ramey Logan",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/essential-idioma.jpg",
+    "dimensions": [
+      2400,
+      1594
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg/3840px-Hawaii_Kai_Sign_Oahu_Hawaii_Photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "3b3a93408363feecc2ff5ff215b9a552d7f0dfe73701bbb62367945b5269c8f4"
+  },
+  {
+    "key": "havai/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "path": "/images/destinations/havai/curated-essential-moeda.jpg",
+    "pool": "support-currency",
+    "status": "pending-visual-review",
+    "title": "File:Lynn Malerba's signature on a 5$ bill.jpg",
+    "imageinfo": {
+      "size": 1108898,
+      "width": 3024,
+      "height": 2133,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Lynn_Malerba%27s_signature_on_a_5%24_bill.jpg/1920px-Lynn_Malerba%27s_signature_on_a_5%24_bill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1693,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Lynn_Malerba%27s_signature_on_a_5%24_bill.jpg/1920px-Lynn_Malerba%27s_signature_on_a_5%24_bill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1693
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Lynn_Malerba%27s_signature_on_a_5%24_bill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lynn_Malerba%27s_signature_on_a_5$_bill.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147260810",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-01-29 02:02:31",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lynn Malerba's signature on a 5$ bill",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD US money|With currency|Lynn Malerba|Files with coordinates missing SDC location of creation|5 dollar Federal Reserve Note|Files that may be protected by currency protection laws|Signatures on United States Banknotes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "40.176850",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.316156",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A closeup of a United States five-dollar bill featuring Lynn Malerba's signature.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-04-10 10:14:47",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Caravansera&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Caravansera (page does not exist)\">Caravansera</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "currency",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havai/essential-moeda.jpg",
+    "dimensions": [
+      1920,
+      1354
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Lynn_Malerba%27s_signature_on_a_5%24_bill.jpg/1920px-Lynn_Malerba%27s_signature_on_a_5%24_bill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "42a19c22cbe6b487737950946f175aeb3c0c54a79a658535f0da82ba7c657460"
+  },
+  {
+    "key": "havai/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  }
+]

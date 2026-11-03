@@ -1,0 +1,369 @@
+{
+  "city": "bahamas",
+  "region": "americas",
+  "center": [
+    25.0443,
+    -77.3504,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Nassau Bahamas panorama",
+      "required": [
+        "nassau"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "intro",
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-2": {
+      "query": "Junkanoo Beach Bahamas",
+      "required": [
+        "junkanoo beach"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-3": {
+      "query": "Queens Staircase Nassau",
+      "required": [
+        "staircase"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-5": {
+      "query": "Cable Beach Nassau Bahamas",
+      "required": [
+        "cable beach"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Downtown Nassau Bahamas",
+      "required": [
+        "downtown|bay street"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-0"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "Cable Beach Nassau",
+      "required": [
+        "cable beach"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Exuma Bahamas",
+      "required": [
+        "exuma"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Nassau Bahamas",
+      "required": [
+        "nassau"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "hotel-0",
+        "hotel-list-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Paradise Island Bahamas",
+      "required": [
+        "paradise island"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-1"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Exuma Bahamas",
+      "required": [
+        "exuma"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ],
+      "center": [
+        23.7,
+        -76,
+        130
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Eleuthera Bahamas",
+      "required": [
+        "eleuthera"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "center": [
+        24.5,
+        -76.5,
+        500
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "Lynden Pindling Airport Nassau",
+      "required": [
+        "lynden pindling"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "mistakes"
+      ]
+    },
+    "support-transport": {
+      "query": "Nassau Bahamas bus",
+      "required": [
+        "bus|jitney|transport"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "support-food": {
+      "query": "Nassau Bahamas conch salad",
+      "required": [
+        "conch"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "support-leisure": {
+      "query": "Cable Beach Nassau Bahamas",
+      "required": [
+        "cable beach"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "support-icon": {
+      "query": "Atlantis Paradise Island Bahamas",
+      "required": [
+        "atlantis"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "tips"
+      ]
+    },
+    "support-quarter": {
+      "query": "Downtown Nassau Bahamas",
+      "required": [
+        "downtown|bay street"
+      ],
+      "locationPatterns": [
+        "bahamas|nassau|exuma|paradise island"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "support-currency": {
+      "query": "Bahamian dollar banknotes",
+      "required": [
+        "bahamian|bahamas"
+      ],
+      "locationPatterns": [
+        "baham"
+      ],
+      "countryPattern": "baham",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "Bahamian passport cover",
+      "required": [
+        "bahamian passport|bahamas passport"
+      ],
+      "locationPatterns": [
+        "baham"
+      ],
+      "countryPattern": "baham",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-trip-0": {
+      "query": "Exuma Bahamas",
+      "required": [
+        "exuma"
+      ],
+      "locationPatterns": [
+        "bahamas"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        23.7,
+        -76,
+        130
+      ]
+    },
+    "support-trip-2": {
+      "query": "Fort Charlotte Nassau Bahamas",
+      "required": [
+        "fort charlotte"
+      ],
+      "locationPatterns": [
+        "bahamas"
+      ],
+      "countryPattern": "bahamas",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        25.06,
+        -77.35,
+        15
+      ]
+    }
+  }
+}

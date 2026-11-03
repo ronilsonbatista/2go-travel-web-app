@@ -1,0 +1,70 @@
+{
+  "chicago/intro": {
+    "decision": "accepted",
+    "notes": "Panorama horizontal do skyline de Chicago visto junto ao lago; cidade legível, horizonte correto e sem rotação."
+  },
+  "chicago/map-attraction-0": {
+    "decision": "rejected",
+    "notes": "Skyline noturno sob chuva; não mostra Cloud Gate ou Millennium Park como assunto identificável."
+  },
+  "chicago/attraction-1": {
+    "decision": "accepted",
+    "notes": "Fachada real do Art Institute of Chicago, com frontão e alas visíveis; enquadramento diurno e orientação correta."
+  },
+  "chicago/map-list-3": {
+    "decision": "rejected",
+    "notes": "A imagem mostra John Hancock Center/875 North Michigan, não Willis Tower; falso match pelo ponto de captura."
+  },
+  "chicago/map-attraction-4": {
+    "decision": "accepted",
+    "notes": "Riverwalk de Chicago com passeio junto ao rio, pontes e prédios iluminados; tema e orientação correspondem."
+  },
+  "chicago/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Silhueta isolada sobre escada, em preto e branco; bairro The Loop não é reconhecível no enquadramento."
+  },
+  "chicago/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Detalhe abstrato de cruzamento ferroviário elevado; não representa adequadamente o bairro The Loop."
+  },
+  "chicago/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Torres Marina City em River North fotografadas do nível da rua; arquitetura e contexto urbano identificáveis."
+  },
+  "chicago/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Close de estacionamento Marina City e data 1964 no título; inadequado como foto atual do bairro."
+  },
+  "chicago/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Casas de Fullerton Avenue no bairro Lincoln Park com fachada e vegetação visíveis; foto atual, tema e orientação coerentes."
+  },
+  "chicago/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Segundo enquadramento quase idêntico da mesma fachada de Fullerton Avenue; rejeitado para evitar repetição visual próxima."
+  },
+  "chicago/region-list-0": {
+    "decision": "rejected",
+    "notes": "Placa de Jones Hall domina a foto; não representa a região Loop como contexto urbano."
+  },
+  "chicago/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Caminho arborizado do Lakefront Trail em Lincoln Park; contexto do bairro do hotel ilustrativo, sem afirmar ser a hospedagem."
+  },
+  "chicago/region-list-2": {
+    "decision": "rejected",
+    "notes": "Mapa e sinalização do parque ocupam o assunto principal; proibido usar mapa como foto editorial da região."
+  },
+  "chicago/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Lakefront Trail com prédios residenciais de North Side, ciclovia e margem do parque; contexto real do hotel ilustrativo."
+  },
+  "chicago/mistakes": {
+    "decision": "accepted",
+    "notes": "Interior do aeroporto O'Hare com saguão e passageiros; contexto reconhecível de chegada e planejamento, sem orientação incorreta."
+  },
+  "chicago/day-2": {
+    "decision": "accepted",
+    "notes": "Cena urbana ampla do South Loop com edifícios e circulação ao nível da rua; contexto real para explorar bairros de Chicago."
+  }
+}

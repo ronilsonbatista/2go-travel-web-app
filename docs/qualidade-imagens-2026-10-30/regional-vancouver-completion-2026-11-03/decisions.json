@@ -1,0 +1,86 @@
+{
+  "vancouver/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Panorama de False Creek, Granville Island e skyline de Vancouver em luz de fim de tarde; destaque HQ horizontal com horizonte correto."
+  },
+  "vancouver/home-slide": {
+    "decision": "rejected",
+    "notes": "Panorama do mesmo ponto e sequência quase idêntica ao destaque aprovado; rejeitado para evitar repetição visual próxima."
+  },
+  "vancouver/attraction-4": {
+    "decision": "rejected",
+    "notes": "Close de passarela envidraçada sem as velas ou estrutura principal; Canada Place pouco identificável como atração."
+  },
+  "vancouver/map-list-4": {
+    "decision": "rejected",
+    "notes": "Símbolo de folha de bordo isolado; não representa Canada Place como atração."
+  },
+  "vancouver/map-attraction-5": {
+    "decision": "accepted",
+    "notes": "Encosta nevada de Grouse Mountain vista de Vancouver; montanha e trilhas reconhecíveis, foto real orientada corretamente."
+  },
+  "vancouver/map-list-5": {
+    "decision": "accepted",
+    "notes": "Cabos do teleférico e vista de lagos e montanhas desde Grouse Mountain; contexto real da atração e horizonte correto."
+  },
+  "vancouver/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Pedestres e coluna desfocada dominam a imagem; contexto de Downtown pouco legível."
+  },
+  "vancouver/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Skyline de Yaletown com água de False Creek e montanhas ao fundo; bairro real reconhecível e orientação correta."
+  },
+  "vancouver/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Orla de Yaletown com edifícios, passeio e praticante de SUP na água; contexto real distinto do panorama do bairro."
+  },
+  "vancouver/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Rua histórica de Gastown com fachadas comerciais e árvores; bairro identificável e foto real orientada corretamente."
+  },
+  "vancouver/region-0": {
+    "decision": "rejected",
+    "notes": "Close abstrato de mureta, sem contexto de Stanley Park."
+  },
+  "vancouver/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Vapor Constitution junto a Stanley Park, com água, floresta e montanhas; contexto regional real para hospedagem ilustrativa."
+  },
+  "vancouver/region-2": {
+    "decision": "accepted",
+    "notes": "Praça e fonte de Lonsdale Quay em North Shore ao entardecer; região reconhecível e horizonte correto."
+  },
+  "vancouver/region-list-2": {
+    "decision": "rejected",
+    "notes": "Cadeados isolados em grade; não representa North Shore como região."
+  },
+  "vancouver/day-0": {
+    "decision": "accepted",
+    "notes": "Terminal, pátio e torre do aeroporto de Vancouver em foto diurna; infraestrutura real de chegada local."
+  },
+  "vancouver/mistakes": {
+    "decision": "accepted",
+    "notes": "Torre de controle do Vancouver International Airport em foto nítida; contexto real de planejamento de chegada."
+  },
+  "vancouver/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Trem quase invisível sob forte brilho de faróis; imagem noturna de baixa legibilidade."
+  },
+  "vancouver/costs": {
+    "decision": "rejected",
+    "notes": "Fachada de restaurante sem prato típico ou preço; tema de custos/gastronomia não está visível."
+  },
+  "vancouver/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Placa Canada Place na esquina de Vancouver com texto em inglês; sinalização urbana local real e orientação correta."
+  },
+  "vancouver/trip-1": {
+    "decision": "accepted",
+    "notes": "Canyon Cheakamus com rio, floresta e ponte ferroviária; passeio regional de paisagem real, sem mapa ou render."
+  },
+  "vancouver/trip-2": {
+    "decision": "accepted",
+    "notes": "Casario colorido do Fishermans Wharf em Victoria e marina ao fundo; passeio costeiro/histórico regional real."
+  }
+}

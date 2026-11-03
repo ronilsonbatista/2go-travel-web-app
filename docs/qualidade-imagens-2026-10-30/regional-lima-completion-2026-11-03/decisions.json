@@ -1,0 +1,70 @@
+{
+  "lima/hero": {
+    "decision": "accepted",
+    "notes": "Costa Verde e skyline de Miraflores em panorama diurno nítido, com falésias, litoral e edifícios reconhecíveis; horizonte correto."
+  },
+  "lima/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Close genérico de torres comerciais; pouco contexto turístico para destaque HQ de Lima."
+  },
+  "lima/map-attraction-0": {
+    "decision": "accepted",
+    "notes": "Malecón de Miraflores e Costa Verde claramente visíveis ao longo das falésias; foto real e orientação correta."
+  },
+  "lima/map-attraction-1": {
+    "decision": "rejected",
+    "notes": "Maratona e corredores dominam a vista aérea; não caracteriza Barranco como atração turística."
+  },
+  "lima/attraction-2": {
+    "decision": "accepted",
+    "notes": "Plaza Mayor de Lima com fonte central e edifícios amarelos do centro histórico; tema inequívoco e orientação correta."
+  },
+  "lima/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Vista costeira do distrito Barranco com falésias e apartamentos; contexto urbano real distinto das demais fotos."
+  },
+  "lima/neighborhood-2": {
+    "decision": "rejected",
+    "notes": "Bandeira gráfica de San Isidro; não é fotografia real do bairro."
+  },
+  "lima/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Skyline de San Isidro com torres corporativas e céu azul; contexto real do distrito e sem rotação incorreta."
+  },
+  "lima/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Interior arquitetônico da igreja Santo Domingo no centro histórico de Lima; abóbada e decoração legíveis, orientação correta."
+  },
+  "lima/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Passarela de Punta Roquitas com mar ao fundo em Miraflores; contexto local da hospedagem ilustrativa, sem sugerir identidade do hotel."
+  },
+  "lima/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Evento esportivo e multidão dominam a cena; não representa bem o contexto de hospedagem em Barranco."
+  },
+  "lima/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Palácio e praça do centro histórico de Lima em enquadramento frontal nítido; contexto real da hospedagem ilustrativa no Centro."
+  },
+  "lima/region-list-3": {
+    "decision": "accepted",
+    "notes": "Falésias e oceano da Costa Verde com vegetação no primeiro plano; geografia corresponde à região, foto real orientada corretamente."
+  },
+  "lima/day-1": {
+    "decision": "accepted",
+    "notes": "Malecón e costa de Miraflores vistos do alto com parque e oceano; ícones de Lima identificáveis e sem inversão."
+  },
+  "lima/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Letreiro urbano do distrito Lince em Lima, com comércio e texto local; contexto de sinalização em espanhol e orientação correta."
+  },
+  "lima/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Moeda de 50 soles de oro de 1971, unidade antiga fora de circulação; não representa pagamentos atuais."
+  },
+  "lima/trip-0": {
+    "decision": "rejected",
+    "notes": "Maquete/planta arqueológica, não foto do sítio de Pachacámac; mapa-como-foto proibido."
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "city": "havai",
+  "region": "americas",
+  "center": [
+    20.8,
+    -157,
+    550
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Hawaii beach landscape",
+      "required": [
+        "hawaii|waikiki|oahu|kauai|maui"
+      ],
+      "locationPatterns": [
+        "hawaii|waikiki|oahu|kauai|maui"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "intro",
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100,
+      "offset": 0
+    },
+    "attractions-attraction-0": {
+      "query": "Waikiki Beach Hawaii",
+      "required": [
+        "waikiki"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-1": {
+      "query": "Pearl Harbor Hawaii",
+      "required": [
+        "pearl harbor"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-1"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-3": {
+      "query": "Road to Hana Maui",
+      "required": [
+        "hana"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-5": {
+      "query": "North Shore Oahu Hawaii",
+      "required": [
+        "north shore"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Waikiki Hawaii",
+      "required": [
+        "waikiki"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Waikiki Hawaii",
+      "required": [
+        "waikiki"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-0",
+        "hotel-0"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Maui Hawaii landscape",
+      "required": [
+        "maui"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-2"
+      ],
+      "center": [
+        20.8,
+        -156.3,
+        60
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Hawaii Island landscape",
+      "required": [
+        "hawaii island|big island|hawai.i island"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-3"
+      ],
+      "center": [
+        19.6,
+        -155.5,
+        130
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "support-food": {
+      "query": "Poke Hawaii restaurant",
+      "required": [
+        "poke"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ],
+      "countryPattern": "hawaii|hawai.i|oahu|maui",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ],
+      "offset": 100
+    },
+    "support-documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    }
+  }
+}

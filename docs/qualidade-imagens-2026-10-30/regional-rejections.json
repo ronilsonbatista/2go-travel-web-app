@@ -3430,5 +3430,1365 @@
     "sha256": "eecb055577ea727d59550d93586ea0c4d1b043415c9a2450f5d43972c24a0c1c",
     "decision": "rejected",
     "notes": "Pequeno galpao isolado nao apresenta o passeio historico de Victoria."
+  },
+  {
+    "bundle": "regional-chicago-completion-2026-11-03",
+    "key": "chicago/map-attraction-0",
+    "title": "File:Chicago skyscrapers on a rainy night (52037809603).jpg",
+    "sha256": "922c719637f9f33ac21359c4789195dc271cca215abb49ca22c76eab83eb88e6",
+    "decision": "rejected",
+    "notes": "Skyline noturno sob chuva; não mostra Cloud Gate ou Millennium Park como assunto identificável."
+  },
+  {
+    "bundle": "regional-chicago-completion-2026-11-03",
+    "key": "chicago/map-list-3",
+    "title": "File:Chicago in 2022 Top of the Willis Tower (52049406730).jpg",
+    "sha256": "bfe7a01017d0307e0619711c4b4f67fd4b9fdbed7851b6401f0af1f64387cf44",
+    "decision": "rejected",
+    "notes": "A imagem mostra John Hancock Center/875 North Michigan, não Willis Tower; falso match pelo ponto de captura."
+  },
+  {
+    "bundle": "regional-chicago-completion-2026-11-03",
+    "key": "chicago/neighborhood-0",
+    "title": "File:Adams Street vs. Wabash Street (Chicago Loop station).jpg",
+    "sha256": "a18b18820652604eea17297ef0bf19e6b8e08cdbf55ea15189429c2b451def44",
+    "decision": "rejected",
+    "notes": "Silhueta isolada sobre escada, em preto e branco; bairro The Loop não é reconhecível no enquadramento."
+  },
+  {
+    "bundle": "regional-chicago-completion-2026-11-03",
+    "key": "chicago/neighborhood-detail-0",
+    "title": "File:CTA Loop Junction Detail.jpg",
+    "sha256": "42634d6b1591f1dfc744fd5f77fa7b803d703da50dd837de9635d4a0d9697916",
+    "decision": "rejected",
+    "notes": "Detalhe abstrato de cruzamento ferroviário elevado; não representa adequadamente o bairro The Loop."
+  },
+  {
+    "bundle": "regional-chicago-completion-2026-11-03",
+    "key": "chicago/neighborhood-detail-1",
+    "title": "File:Chicago (ILL) River North, Marina city, 1964.jpg",
+    "sha256": "feaaeda38854119365bc52e8b1e0232117ad8855c676f7f3bcd849ae0de6d159",
+    "decision": "rejected",
+    "notes": "Close de estacionamento Marina City e data 1964 no título; inadequado como foto atual do bairro."
+  },
+  {
+    "bundle": "regional-chicago-completion-2026-11-03",
+    "key": "chicago/neighborhood-detail-2",
+    "title": "File:Fullerton Avenue, Lincoln Park, Chicago, IL (54887329439).jpg",
+    "sha256": "6fee166fc4eed62e624e90bfd727b6f558310c280edb6536edcfb2cea1be751d",
+    "decision": "rejected",
+    "notes": "Segundo enquadramento quase idêntico da mesma fachada de Fullerton Avenue; rejeitado para evitar repetição visual próxima."
+  },
+  {
+    "bundle": "regional-chicago-completion-2026-11-03",
+    "key": "chicago/region-list-0",
+    "title": "File:Chicago Building, Chicago Loop, Chicago, Illinois (9179419237).jpg",
+    "sha256": "c3b721dafa45b1b25b5e50e92a346c87a067d03f893ca45bc8f1cf1514bd71b3",
+    "decision": "rejected",
+    "notes": "Placa de Jones Hall domina a foto; não representa a região Loop como contexto urbano."
+  },
+  {
+    "bundle": "regional-chicago-completion-2026-11-03",
+    "key": "chicago/region-list-2",
+    "title": "File:Chicago Lakefront Trail, Lincoln Park, Chicago, Illinois (43344164122).jpg",
+    "sha256": "f55f84aa633dd7f07f01301ad1b20fbc27e668df9d9ed997d0568fc25bac3baf",
+    "decision": "rejected",
+    "notes": "Mapa e sinalização do parque ocupam o assunto principal; proibido usar mapa como foto editorial da região."
+  },
+  {
+    "bundle": "regional-lima-completion-2026-11-03",
+    "key": "lima/guide-highlight",
+    "title": "File:Miraflores-Larcomar Skyline Lima, Peru.jpg",
+    "sha256": "6d41818a6b747af1b53f6400eae71c287c5552d64f54cb6089a3aa2bed2bc151",
+    "decision": "rejected",
+    "notes": "Close genérico de torres comerciais; pouco contexto turístico para destaque HQ de Lima."
+  },
+  {
+    "bundle": "regional-lima-completion-2026-11-03",
+    "key": "lima/map-attraction-1",
+    "title": "File:Barranco Marathon 2012 - Lima, Peru 001.jpg",
+    "sha256": "d2ad54868d897c9c45e184e302ac33921799078983cb4b933636f2e3637ac17d",
+    "decision": "rejected",
+    "notes": "Maratona e corredores dominam a vista aérea; não caracteriza Barranco como atração turística."
+  },
+  {
+    "bundle": "regional-lima-completion-2026-11-03",
+    "key": "lima/neighborhood-2",
+    "title": "File:Bandera de San Isidro (Lima).jpg",
+    "sha256": "779510e834307ecf49f26358c8c228d918f7ff57713fa78929703addcca0c9f6",
+    "decision": "rejected",
+    "notes": "Bandeira gráfica de San Isidro; não é fotografia real do bairro."
+  },
+  {
+    "bundle": "regional-lima-completion-2026-11-03",
+    "key": "lima/hotel-list-1",
+    "title": "File:Barranco Marathon 2012 - Lima, Peru 002.jpg",
+    "sha256": "d781d9230c59bb548ebe2123929ab6f8b7d5205ae62cecbbe37d8dd5dd54c3d5",
+    "decision": "rejected",
+    "notes": "Evento esportivo e multidão dominam a cena; não representa bem o contexto de hospedagem em Barranco."
+  },
+  {
+    "bundle": "regional-lima-completion-2026-11-03",
+    "key": "lima/essential-moeda",
+    "title": "File:50 Soles de Oro 1971 Tupac Amaru Anverso.jpg",
+    "sha256": "b47c62b0c232c0cdf0535b587ba667946656f87aa1cf86e4f54d92805eeb9e65",
+    "decision": "rejected",
+    "notes": "Moeda de 50 soles de oro de 1971, unidade antiga fora de circulação; não representa pagamentos atuais."
+  },
+  {
+    "bundle": "regional-lima-completion-2026-11-03",
+    "key": "lima/trip-0",
+    "title": "File:Pachacamac---.jpg",
+    "sha256": "21ad64794f46f9d65fb869e10315e4700fe9dbd66edb41c994aaf438df4d66a4",
+    "decision": "rejected",
+    "notes": "Maquete/planta arqueológica, não foto do sítio de Pachacámac; mapa-como-foto proibido."
+  },
+  {
+    "bundle": "regional-bahamas-completion-2026-11-03",
+    "key": "bahamas/map-list-3",
+    "title": "File:The Queen Staircase - panoramio.jpg",
+    "sha256": "fb75ac7734d2fed93abc44765d703ecb221e69a99df29f0578daf90ee901a7fc",
+    "decision": "rejected",
+    "notes": "Queen's Staircase aparece muito escura e pouco legível; não atende qualidade editorial para miniatura."
+  },
+  {
+    "bundle": "regional-bahamas-completion-2026-11-03",
+    "key": "bahamas/map-attraction-5",
+    "title": "File:Breezes, Nassau Bahamas - panoramio.jpg",
+    "sha256": "6758ec492cdba3043a9654d045da841169af2d3eb1f4cfac35746ad27e34b16a",
+    "decision": "rejected",
+    "notes": "Entrada e fachada do resort Breezes dominam a imagem; a praia de Cable Beach não está visível."
+  },
+  {
+    "bundle": "regional-bahamas-completion-2026-11-03",
+    "key": "bahamas/neighborhood-detail-0",
+    "title": "File:Downtown Nassau - 2025 - Heritage Museum Of The Bahamas (2).jpg",
+    "sha256": "221936d85c14c9ae9cab0f11d7ea96095a7f7a8ea4ff2ce0c0973c00861d8d66",
+    "decision": "rejected",
+    "notes": "Close de placas de museu; falta contexto urbano para representar Nassau Downtown."
+  },
+  {
+    "bundle": "regional-bahamas-completion-2026-11-03",
+    "key": "bahamas/neighborhood-detail-2",
+    "title": "File:Cable beach.jpg",
+    "sha256": "27eec49a3631d14315e93a6ec53f3496c14dcb3b229877f2463b26c9625a6b92",
+    "decision": "rejected",
+    "notes": "Mapa desenhado de Cable Beach, não fotografia; mapa-como-foto proibido."
+  },
+  {
+    "bundle": "regional-bahamas-completion-2026-11-03",
+    "key": "bahamas/region-0",
+    "title": "File:BHA Nassau, Paradise Island, Atlantis Bridge 001.jpg",
+    "sha256": "8398a296f8cc8252edf07be7fff7a8b8427658f8e572f4b57c1e83eab99e8627",
+    "decision": "rejected",
+    "notes": "Atlantis e Paradise Island dominam a vista; slot da região Nassau exige foto de Nassau sem ambiguidade."
+  },
+  {
+    "bundle": "regional-bahamas-completion-2026-11-03",
+    "key": "bahamas/day-2",
+    "title": "File:Downtown Nassau - 2025 - Heritage Museum Of The Bahamas (1).jpg",
+    "sha256": "aef8679dd46fc9240c816859a3d04d7772c26bf640dc9a9417fab1444ab53a3a",
+    "decision": "rejected",
+    "notes": "Porta do Heritage Museum sem cena de bairro ou gastronomia; enquadramento fechado e redundante com outro candidato do mesmo prédio."
+  },
+  {
+    "bundle": "regional-assuncao-completion-2026-11-03",
+    "key": "assuncao/attraction-4",
+    "title": "File:Entrada a Paseo Cerro Alto, Lambaré, Central, Paraguay.jpg",
+    "sha256": "035054eb876547180e8afe516f62ff4abc2bbfc351acf4192f7f92b1e8fd4003",
+    "decision": "rejected",
+    "notes": "Entrada de shopping Paseo Cerro Alto; não mostra a atração natural Cerro Lambaré."
+  },
+  {
+    "bundle": "regional-assuncao-completion-2026-11-03",
+    "key": "assuncao/map-list-4",
+    "title": "File:LA ESCULTURA DE STROESSNER.jpg",
+    "sha256": "5e874f96d4215c91bd9699c3e7c7573a3b4842cd0d22bbfa1b1f76a903b49604",
+    "decision": "rejected",
+    "notes": "Escultura de Stroessner em pequeno monumento; não identifica o Cerro Lambaré como atração."
+  },
+  {
+    "bundle": "regional-assuncao-completion-2026-11-03",
+    "key": "assuncao/region-3",
+    "title": "File:Entrada al Estadio Luciano Zacarias, Club Atlético Colegiales, Lambaré, Paraguay.jpg",
+    "sha256": "63970575caccefdfc9d5ccf2e12b6b636e62ce7ffb8178482bd53f58ebbd4855",
+    "decision": "rejected",
+    "notes": "Close de entrada de estádio deteriorada; não representa adequadamente a região turística de Lambaré."
+  },
+  {
+    "bundle": "regional-san-andres-completion-2026-11-03",
+    "key": "san-andres/hotel-list-3",
+    "title": "File:San Andrés, Colombia 2.jpg",
+    "sha256": "8ea86da0d309e983893af3b7d61fae62f4dcf867af4fac56f64aeaa846dfaa12",
+    "decision": "rejected",
+    "notes": "Píer com banhistas sem ilha/cayo identificável; metadados e enquadramento não comprovam a região Cays."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/map-attraction-0",
+    "title": "File:Catedral Metropolitana Mexico City - Zocalo square - 1.jpg",
+    "sha256": "9e3adbf1ec8e0e318ac56144fe4f2b14c0fdff4590592ea3886617937fbdf572",
+    "decision": "rejected",
+    "notes": "Pessoa deitada domina o primeiro plano e catedral fica escura; inadequado para representar a atração no pin."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/map-list-2",
+    "title": "File:Bordado de Frida Kahlo.jpg",
+    "sha256": "39dc7fedf4767285066fe7a6cded57ce3569be284aa80c54b140344084ba9f89",
+    "decision": "rejected",
+    "notes": "Almofada bordada atribuída a Frida Kahlo; objeto isolado não identifica o Museo Frida Kahlo."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/attraction-3",
+    "title": "File:Herpetarium - Chapultepec Zoo - Mexico 2024.jpg",
+    "sha256": "cd1ac4f34e6df6991ac97740253cee5511457f190d2ada56a0d8bf01a86c4815",
+    "decision": "rejected",
+    "notes": "Entrada do Herpetarium no zoológico; sinalização e fila não representam Chapultepec de modo reconhecível."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/map-attraction-3",
+    "title": "File:Dinosaurium - Chapultepec Zoo - Mexico 2024.jpg",
+    "sha256": "482b64ea2d2087ad805b9777b559829b815ab37d09b6ecd4f3c7a93be6d22e95",
+    "decision": "rejected",
+    "notes": "Entrada do Dinosaurium e visitante em primeiro plano; falta contexto reconhecível de Chapultepec."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/map-list-3",
+    "title": "File:Aviarium - Chapultepec Zoo - Mexico 2024.jpg",
+    "sha256": "a3a8893dc9861e05214bac98a71afd92a7b8fdf27ef9333dd8a1ddd6051f0a68",
+    "decision": "rejected",
+    "notes": "Caminho interno do aviário sem marco identificável; não representa Chapultepec como atração."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/attraction-4",
+    "title": "File:Chimenea, Centro Cultural Reyes Heroles, Coyoacan Mexico City.jpg",
+    "sha256": "b222c8209ec8ee8e2881880137e1db1ec10b9c716b8c9b7d1b7ef081e1fd371c",
+    "decision": "rejected",
+    "notes": "Close de chaminé em centro cultural; enquadramento não caracteriza Coyoacán como atração."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/map-list-4",
+    "title": "File:Facade in Coyoacan - Mexico City - Mexico (15333668108).jpg",
+    "sha256": "2575500595713de4834452e74d5c0d37c60179e83065bbef96996fcc67d45d15",
+    "decision": "rejected",
+    "notes": "Close de parede numerada e tubulação; não representa o bairro Coyoacán."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/neighborhood-2",
+    "title": "File:Liverpool Polanco, Mexico City candy department-1.jpg",
+    "sha256": "2c925d2099262cb0f9d887223ce0aa52276ee0107c44e0d37b760896a28490dc",
+    "decision": "rejected",
+    "notes": "Close de doces em loja de departamentos; tema gastronômico genérico sem contexto do bairro Polanco."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/neighborhood-detail-2",
+    "title": "File:Glasses at Liverpool Polanco, Mexico City optical department.jpg",
+    "sha256": "0f8fa6ba08305ae8fbf136f00c376688ec5d6d260cee14e5e09f7929cd1b367d",
+    "decision": "rejected",
+    "notes": "Interior da seção de óculos de loja; não caracteriza o bairro Polanco."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/neighborhood-3",
+    "title": "File:Coyoacán nurseries wildlife.jpg",
+    "sha256": "d826f41136735abae72dc945bb44db539c29a5ac028dbdb013bd01e19f641b96",
+    "decision": "rejected",
+    "notes": "Esquilo isolado em viveiro; retrato animal sem contexto urbano de Coyoacán."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/region-0",
+    "title": "File:Calles Seminario y Moneda Centro Histórico Ciudad de México 01.jpg",
+    "sha256": "2ff1ce106d77f7318dec7eb1b35972d4ed502f5864c23daf8f0eb9456c39f425",
+    "decision": "rejected",
+    "notes": "Céu domina o enquadramento, com fachadas cortadas; qualidade insuficiente para região Centro."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/region-list-1",
+    "title": "File:Carriages - Chapultepec Castle - Mexico 2024.jpg",
+    "sha256": "2991e294c37b746e34197d1180f118ef1a76f8b0ffe559bb8ccb105eb9db9e92",
+    "decision": "rejected",
+    "notes": "Carruagem em exposição de museu; objeto isolado não representa a região Chapultepec."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/hotel-1",
+    "title": "File:Genealogical tree of Mexican Giant Pandas at the Chapultepec Zoo - Mexico 2024.jpg",
+    "sha256": "8d511e104a8ec6e212b821ffb059f38e729caa4e4cf675084a185d9799040700",
+    "decision": "rejected",
+    "notes": "Painel genealógico de pandas no zoológico; diagrama-como-foto proibido e sem contexto de hospedagem."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/hotel-list-1",
+    "title": "File:General view - Dinosaurium - Chapultepec Zoo - Mexico 2024 (2).jpg",
+    "sha256": "e7363a7a812859d1e67fe773a0175735e766017cdfe2ba62d610de2fe3cdcb29",
+    "decision": "rejected",
+    "notes": "Exposição de dinossauros no zoológico; assunto não corresponde a contexto de hotel no bairro."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/hotel-list-3",
+    "title": "File:June 2007 Teotihuacan 29.jpg",
+    "sha256": "085b8028952b904163a09209b05a19dec92f096db8f595e98ee71b12c47bbbfc",
+    "decision": "rejected",
+    "notes": "Close de utensílios à venda; não caracteriza Teotihuacán como região para hospedagem."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
+    "key": "cidade-do-mexico/day-1",
+    "title": "File:Mexico City National Cathedral, Zocalo (9792708985).jpg",
+    "sha256": "03693ac34ca928756be42329548f63716fb0e27c40d7c344900a654dfed1e7fa",
+    "decision": "rejected",
+    "notes": "Aparência de fotografia analógica antiga, carros e cores de arquivo sem data de captura atual comprovada; não aprovar como ícone atual."
+  },
+  {
+    "bundle": "regional-punta-cana-completion-2026-11-03",
+    "key": "punta-cana/map-list-5",
+    "title": "File:Catalina Island, La Romana, Dominican Republic. Flora, an organ pipe cactus.jpg",
+    "sha256": "5567f5af479956fd915b9b7d9401a52cb2c36034f61d1b343cd77221a20a7d77",
+    "decision": "rejected",
+    "notes": "Close de cacto isolado; não identifica Catalina Island como atração costeira."
+  },
+  {
+    "bundle": "regional-punta-cana-completion-2026-11-03",
+    "key": "punta-cana/hotel-0",
+    "title": "File:Bávaro, 23000, Dominican Republic - panoramio (131).jpg",
+    "sha256": "a9afff05929ceebdf07a2f6249c8824c649b61a7a31fdbb71f61b58cf0479b37",
+    "decision": "rejected",
+    "notes": "Lua isolada no céu noturno; não representa contexto de hospedagem em Bávaro."
+  },
+  {
+    "bundle": "regional-punta-cana-completion-2026-11-03",
+    "key": "punta-cana/hotel-3",
+    "title": "File:Beach Palapa Punta Cana Dominican Republic (25103659).jpeg",
+    "sha256": "5bf4c07919bbe9fad10661198935908b9d51173b0c09f88664c63701c51e2ddd",
+    "decision": "rejected",
+    "notes": "Close de estrutura de palha sem contexto regional; não representa hospedagem no interior."
+  },
+  {
+    "bundle": "regional-punta-cana-completion-2026-11-03",
+    "key": "punta-cana/mistakes",
+    "title": "File:Public men toilets at the Punta Cana airport.jpg",
+    "sha256": "f70a940d884b5da767509ea9c8027bbf84580d98fac17e7249723e52163adbd9",
+    "decision": "rejected",
+    "notes": "Banheiro público de aeroporto; assunto inadequado para orientar chegada/erros comuns do destino."
+  },
+  {
+    "bundle": "regional-punta-cana-completion-2026-11-03",
+    "key": "punta-cana/tips",
+    "title": "File:2024 - Bávaro Beach - 36.jpg",
+    "sha256": "ea237faf1bdcf723d2a2da9ea0d0b54d4224281cab01ca846c2a98658e23f202",
+    "decision": "rejected",
+    "notes": "Mesma praia e ângulo muito próximo de outra foto aprovada neste lote; evitar repetição visual da sequência."
+  },
+  {
+    "bundle": "regional-punta-cana-completion-2026-11-03",
+    "key": "punta-cana/essential-docs",
+    "title": "File:The front cover of a contemporary Dominican passport.jpg",
+    "sha256": "58bcbc3b3666e19ba439142836931984c86cffc9368200f8a10ed4a2b4bab0c3",
+    "decision": "rejected",
+    "notes": "Passaporte dominicano; documento de país errado para orientar documentação do visitante brasileiro."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/map-list-3",
+    "title": "File:Calle La Ronda, Quito, pic,a.o1697.jpg",
+    "sha256": "496d7c271ea840b39fda8381b441dd31fdb9350d83dbf1abe320b4508e35200e",
+    "decision": "rejected",
+    "notes": "Close de placas da Calle La Ronda; falta contexto da rua como atração turística."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/map-attraction-5",
+    "title": "File:( in color, running path ) Parque La Carolina, Quito.JPG",
+    "sha256": "e27299781c15b56017b206092af7fd86dd7be365326c48e0f2330ca97288eefd",
+    "decision": "rejected",
+    "notes": "Pista de corrida cortada sem marco reconhecível; enquadramento inadequado para Parque La Carolina."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/neighborhood-0",
+    "title": "File:Calle Chile, Quito (El Centro Histórico de Quito) pic.a0102681.jpg",
+    "sha256": "7b339c99116a0b2b68aafd52c52a3ac07bcdc5eb68243af1513365efa555bb41",
+    "decision": "rejected",
+    "notes": "Placa isolada de rua; não representa contexto de bairro Centro Histórico."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/neighborhood-detail-0",
+    "title": "File:\" El Centro Histórico de Quito pic. bb Photography by David Adam Kess.jpg",
+    "sha256": "f40d5e71dd56ac233049f64fbc10b6de984e17849dbb1cc2691cc1487ba3854d",
+    "decision": "rejected",
+    "notes": "Foto em preto e branco pouco informativa e fechada na torre; não atende a seleção atual do bairro."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/neighborhood-3",
+    "title": "File:Votaciones Presidenciales en Cumbayá (8483932768).jpg",
+    "sha256": "e5d9cc1980210b4a0551799fe6f9a3cfb939ece5571fc5e03c778890a0e5e015",
+    "decision": "rejected",
+    "notes": "Eleição com fila de pessoas domina a imagem; não representa Cumbayá como bairro turístico."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/region-0",
+    "title": "File:Calle Mejía, Quito Historic Center (street sign).jpg",
+    "sha256": "8c74289d40184204f5ab2b2ad174e829c8cce1b8d162f48440024b25610af7e0",
+    "decision": "rejected",
+    "notes": "Close de placas de rua; falta contexto da região Histórica."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/hotel-0",
+    "title": "File:Calle Marañon, Quito Historic Center of Quito, street scene, detail of street sign.jpg",
+    "sha256": "9b7bb5b38750c2cf512a766436b5f497b474045b3939292984e4965f0307283e",
+    "decision": "rejected",
+    "notes": "Placas de esquina e parede cortada; falta contexto de hospedagem no Centro Histórico."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/hotel-list-0",
+    "title": "File:Historic Center of Quito (Calle Francia, Quito) pic.a021.jpg",
+    "sha256": "667d0e6705f1b09456af13d0baada725ac5804ec98ce11b55a9d98d62e8b277d",
+    "decision": "rejected",
+    "notes": "Porta isolada sem contexto de rua; inadequada para hospedagem ilustrativa da região."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/region-list-1",
+    "title": "File:Aeropuerto Internacional Mariscal Sucre en 2025 03.jpg",
+    "sha256": "a1490fcf7ea07690674d47ea497dc2ff6dd78026a97ac8bec298fc886fd9a1f6",
+    "decision": "rejected",
+    "notes": "Aeroporto Mariscal Sucre fica em Tababela; não é o bairro Mariscal, falso match de nome."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/hotel-list-3",
+    "title": "File:Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 10.JPG",
+    "sha256": "29d311a4fa1de129a400271a1dadedca845f101f266d26b9ae039eb2404f0adb",
+    "decision": "rejected",
+    "notes": "Brasão isolado no monumento; não representa contexto regional de hospedagem em Mitad del Mundo."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/day-3",
+    "title": "File:Museo de la Ciudad, Quito (exterior doors pic 1.JPG",
+    "sha256": "13dc150882243039aca067570c8809f389c32b7a8df2007908aba8ee77f1e1bf",
+    "decision": "rejected",
+    "notes": "Close de ornamentos de porta do museu; falta contexto de cultura e mirantes do roteiro."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/day-1",
+    "title": "File:Centro histórico de Quito (Plaza Huerto San Agustin, Quito) pic.bbb.jpg",
+    "sha256": "b393c0b68773f48012519bf3a0d08fd3754b48e5d1ade2c3dd6942971fd1c1ba",
+    "decision": "rejected",
+    "notes": "Banco de praça isolado; não mostra os ícones principais de Quito."
+  },
+  {
+    "bundle": "regional-quito-completion-2026-11-03",
+    "key": "quito/day-2",
+    "title": "File:\" El Centro Histórico de Quito pic. a Photography by David Adam Kess.jpg",
+    "sha256": "d7462f07eb34c04d106fb5f2aef6af624d5f6aa8ec74f24ce7273fc287ced3dd",
+    "decision": "rejected",
+    "notes": "Placa de rua em preto e branco; não mostra cena de bairros ou gastronomia."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/map-list-0",
+    "title": "File:Kapahulu neighborhood of Waikiki from the Hilton Waikiki Beach.jpg",
+    "sha256": "c0d6d4072c73b6ee970b78d7608f34acb15b52ff9b621bb53a7571cf26f68a89",
+    "decision": "rejected",
+    "notes": "Prédio alto domina a vista e Waikiki Beach quase não aparece; tema da praia pouco legível."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/map-attraction-1",
+    "title": "File:76th Anniversary of the Attack on Pearl Harbor (2).jpg",
+    "sha256": "219987b9eaa2cc285f118abb2efb0cf41d555ec60a71222a9e0e5501a29dd488",
+    "decision": "rejected",
+    "notes": "Retrato de veterano em cerimônia; não representa Pearl Harbor como atração."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/attraction-3",
+    "title": "File:Bridge Parapets of the Hana Belt Road - Hana Belt Road, Between Haiku and Kaipahulu, Hana, Maui County, HI HAER HI-75 (sheet 9 of 13).png",
+    "sha256": "f44f4c1c43765f86353cbafeee2962d9825e5a54ba9065ce28e23e6a0a260c63",
+    "decision": "rejected",
+    "notes": "Prancha técnica de parapeitos de ponte; desenho/diagrama não é foto editorial."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/map-attraction-3",
+    "title": "File:Bridge Typologies of the Hana Belt Road - Hana Belt Road, Between Haiku and Kaipahulu, Hana, Maui County, HI HAER HI-75 (sheet 3 of 13).png",
+    "sha256": "dfb3f2f7a2185cc459abe86e696a7ca1705caee8d7a6f3daf692144289a5aa71",
+    "decision": "rejected",
+    "notes": "Prancha técnica de tipologias de ponte; desenho/diagrama proibido como foto da atração."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/attraction-5",
+    "title": "File:Hawaii - North Shore- Hitchin' a Ride (6615827351).jpg",
+    "sha256": "c001f3630bd4911c35e7bf6dc0079bcc87c13d4645a26044873a29963a1b3522",
+    "decision": "rejected",
+    "notes": "Pessoa pedindo carona domina a imagem; não caracteriza a North Shore."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/neighborhood-0",
+    "title": "File:Gucci Store at Luxury Row, Waikiki, Hawaii.jpg",
+    "sha256": "d9ab1958fba228bb38a06ec3bb04495b840b611044996dff52dec61b15e44a40",
+    "decision": "rejected",
+    "notes": "Close de fachada Gucci com pouco entorno; não caracteriza Waikiki como bairro."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/neighborhood-detail-0",
+    "title": "File:In a dinosaur costume on Halloween night 2021 in Waikiki, Hawaii.jpg",
+    "sha256": "36aa1d83e37641b6de1ad20e38ea7c2a0d49c2f2ac0f9b0d0324eaf980ed316f",
+    "decision": "rejected",
+    "notes": "Pessoas fantasiadas no Halloween; evento/retrato sem contexto suficiente do bairro."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/region-list-0",
+    "title": "File:First Hawaiian Bank, Waikiki, Honolulu.jpg",
+    "sha256": "038cd95d182da9d99e7cff9cb0f15f3eb4c7e110009b4a51a3b443f77c8c9b23",
+    "decision": "rejected",
+    "notes": "Fachada de agência bancária; assunto genérico não caracteriza Oahu South."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/hotel-0",
+    "title": "File:Participants in Waikiki, Hawaii Halloween 2021 04.jpg",
+    "sha256": "2168c6c2f094c20bd1d5e2793b814eacd0f8b1243c26a368e3fc1519ef0fe9be",
+    "decision": "rejected",
+    "notes": "Retrato de pessoas fantasiadas; não é contexto de hospedagem em Oahu South."
+  },
+  {
+    "bundle": "regional-havai-completion-2026-11-03",
+    "key": "havai/costs",
+    "title": "File:Wiki Wiki Poke, Vienna.jpg",
+    "sha256": "12087cee3dd400adfe0047f8a948b7780bb08022df006b052139197bcd11ab45",
+    "decision": "rejected",
+    "notes": "Restaurante de poke em Viena, Áustria; país errado para pratos típicos do Havaí."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/neighborhood-1",
+    "title": "File:Barrio Vedado (37133037424).jpg",
+    "sha256": "d5d9ca6bcd9e7d439014167f4a4927def73e8fc0bd0bea5d56e36d6f41577229",
+    "decision": "rejected",
+    "notes": "Close de oficina comercial escura; pouca legibilidade e contexto insuficiente para Vedado."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/neighborhood-detail-3",
+    "title": "File:Hotel Sierra Maestra and Rio Mar in Miramar Havana 1973 PD 10.jpg",
+    "sha256": "0c9fb7a33b828c7826107ac43abb3cba350473ef0a648bde26abb9d238dfff66",
+    "decision": "rejected",
+    "notes": "Fotografia de 1973 indicada no título; arquivo pré-1990 sem override, rejeitado."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/region-0",
+    "title": "File:Habana Vieja (36600495064).jpg",
+    "sha256": "5b0d4434854cee334afed4679590f2903ca9f1421bf42576356daf85625ffeb9",
+    "decision": "rejected",
+    "notes": "Folhas em silhueta e preto e branco; não identifica Habana Vieja."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/hotel-list-0",
+    "title": "File:Habana Vieja (35993617426).jpg",
+    "sha256": "ea1d358689a68e6babf06fb5adcaa2926e9ee8dc874560ca44092c629413d717",
+    "decision": "rejected",
+    "notes": "Pessoa em sombra sem contexto do bairro; retrato genérico inadequado para hotel ilustrativo."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/region-list-1",
+    "title": "File:Havana, Hotel Nacional De Cuba - View to Malecon. - panoramio.jpg",
+    "sha256": "e9aecbbbe55e9248cb3187ee373f7f759b200f54b8cb1ac40a12f60441140aca",
+    "decision": "rejected",
+    "notes": "Placa de perigo e gramado dominam a imagem; Malecón aparece apenas parcialmente."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/hotel-1",
+    "title": "File:Jumping off the Malecon in Havana Cuba.jpg",
+    "sha256": "f1264616ad6a8416c7df2c776c8b3400ebbf54389e27af8618a45e764cc5a5ce",
+    "decision": "rejected",
+    "notes": "Jovens pulando no mar dominam o enquadramento; não representa contexto de hospedagem."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/costs",
+    "title": "File:Ernest Hemingway en el muro exterior de La Bodeguita del Medio, La Habana, Cuba (47625515261).jpg",
+    "sha256": "f6ea226d6dfe5cbd78631e5d84010972611997de2d922dda51c398db72243397",
+    "decision": "rejected",
+    "notes": "Pintura de Hemingway na parede do bar, sem pratos ou preços; não corresponde ao tema gastronômico."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/day-1",
+    "title": "File:Habana Vieja (27622779639).jpg",
+    "sha256": "231991b4044b236ce4c7f6c16dbbab0490731ae3535c33a6b0590b0efc195e03",
+    "decision": "rejected",
+    "notes": "Close de esquina escura e fechada; não mostra ícones principais de Havana."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/tips",
+    "title": "File:Habana Vieja (34837663456).jpg",
+    "sha256": "f708a9f83cb2fc88b888cd4257ac423844d28fa369609e0cc4368d824ff70760",
+    "decision": "rejected",
+    "notes": "Fachada de quartel de bombeiros sem relação específica com dicas do guia."
+  },
+  {
+    "bundle": "regional-havana-completion-2026-11-03",
+    "key": "havana/day-2",
+    "title": "File:Habana Vieja (33821876734).jpg",
+    "sha256": "e47e2fb7037201f4a13ea440e1587093d538448867eae9774fb92e0df39562c4",
+    "decision": "rejected",
+    "notes": "Pessoa sentada no vão de janela; retrato de rua sem cena de bairro ou gastronomia."
+  },
+  {
+    "bundle": "regional-medellin-completion-2026-11-03",
+    "key": "medellin/map-attraction-1",
+    "title": "File:Colombian Police (6694667853).jpg",
+    "sha256": "81eaf3d981e4d2c964d3531ac7aadb1cbfad0ceab3a34e96b64ce78b25274059",
+    "decision": "rejected",
+    "notes": "Policial em primeiro plano; não representa Parque Arví como atração."
+  },
+  {
+    "bundle": "regional-medellin-completion-2026-11-03",
+    "key": "medellin/map-list-1",
+    "title": "File:Metrocable (5083090610).jpg",
+    "sha256": "9c275791afd1cf9db7359436a735ed2f15d4cd6d2d29d3994c4dd229c8db436a",
+    "decision": "rejected",
+    "notes": "Estação Andalucía da linha urbana do Metrocable; não é a linha/estação do Parque Arví."
+  },
+  {
+    "bundle": "regional-medellin-completion-2026-11-03",
+    "key": "medellin/neighborhood-detail-2",
+    "title": "File:Centro Santafé Medellín.jpg",
+    "sha256": "2ea0db42d8b96cad3be93989e3a33718802c38e37fe1c39390ace6b3f542e374",
+    "decision": "rejected",
+    "notes": "Shopping Santafé fica em El Poblado; não é o Centro Histórico de Medellín, falso match pela palavra Centro."
+  },
+  {
+    "bundle": "regional-medellin-completion-2026-11-03",
+    "key": "medellin/region-3",
+    "title": "File:Metrocable - Reaching the least developed suburban areas (5082499307).jpg",
+    "sha256": "5c857228a6e3b9b0a73850edb58f3b56f69a8544a4a71c3bc46b103716786d79",
+    "decision": "rejected",
+    "notes": "Metrocable sobre bairro urbano sem Parque Arví; tema da região florestal não corresponde."
+  },
+  {
+    "bundle": "regional-medellin-completion-2026-11-03",
+    "key": "medellin/region-list-3",
+    "title": "File:Metrocable - Reaching the least developed suburban areas of Medellín (5083096780).jpg",
+    "sha256": "9027272b6d15cb4e3a3ba1a06340b7d1000e919142e1f2569150fb85e7db496d",
+    "decision": "rejected",
+    "notes": "Linha urbana do Metrocable sobre casas; não representa Arví."
+  },
+  {
+    "bundle": "regional-medellin-completion-2026-11-03",
+    "key": "medellin/day-3",
+    "title": "File:'Hermanitas Calle' (2017) by Natalia Ávila Leubro - Museo de Antioquia - Medellín - Colombia 2024.jpg",
+    "sha256": "6cfb171a8978e0f835e375f4e6a056341a0168a21697e3b7615d652f0bacb595",
+    "decision": "rejected",
+    "notes": "Pintura/retrato exposto no museu; objeto isolado não representa cultura e mirantes do roteiro."
+  },
+  {
+    "bundle": "regional-las-vegas-completion-2026-11-03",
+    "key": "las-vegas/map-list-4",
+    "title": "File:High Roller Las Vegas.jpg",
+    "sha256": "f935b7b225fe95f9582c473943af1821d28c04270539e6bc6b575f0aa2be8021",
+    "decision": "rejected",
+    "notes": "Roda High Roller com baixa definição, tonalidade desbotada e céu opaco; qualidade insuficiente para miniatura."
+  },
+  {
+    "bundle": "regional-las-vegas-completion-2026-11-03",
+    "key": "las-vegas/neighborhood-detail-2",
+    "title": "File:Downtown Summerlin sign (2024) -- 3190.jpg",
+    "sha256": "4304c82aca2afd404a00c7511528f7fda3502a01769a719037a9444244ac7ffd",
+    "decision": "rejected",
+    "notes": "Close de letreiro Downtown Summerlin; falta contexto urbano do bairro."
+  },
+  {
+    "bundle": "regional-las-vegas-completion-2026-11-03",
+    "key": "las-vegas/neighborhood-detail-3",
+    "title": "File:2015-11-04 16 16 06 View west along Nevada State Route 594 (Russell Road) at Frank Sinatra Boulevard in Paradise, Nevada.jpg",
+    "sha256": "6f70b36813f3f37d6d9d4f8a8cbae4ee210d2864236a1a2cbc7575090d99b4f9",
+    "decision": "rejected",
+    "notes": "Rua sob contraluz e chuva, com pouco contexto de Paradise; qualidade e legibilidade insuficientes."
+  },
+  {
+    "bundle": "regional-las-vegas-completion-2026-11-03",
+    "key": "las-vegas/region-2",
+    "title": "File:Fremont Street, Las Vegas, United States (Unsplash).jpg",
+    "sha256": "db6147800978c665f37fc2ae74021575074ea124e55d97ddcd6861107d94a150",
+    "decision": "rejected",
+    "notes": "Close abstrato de tubos de neon; não identifica Downtown/Fremont Street como região."
+  },
+  {
+    "bundle": "regional-las-vegas-completion-2026-11-03",
+    "key": "las-vegas/essential-idioma",
+    "title": "File:Ballys Casino Neon Sign, Las Vegas, Nevada.jpg",
+    "sha256": "d5228368e89bafe14215b41be16e81b86a9428562cb2e1cc47b11826617893a9",
+    "decision": "rejected",
+    "notes": "Letreiro apenas com marca Ballys, sem texto útil do idioma; contexto linguístico insuficiente."
+  },
+  {
+    "bundle": "regional-las-vegas-completion-2026-11-03",
+    "key": "las-vegas/essential-moeda",
+    "title": "File:20$96obv.png",
+    "sha256": "3bdedba423d701abbffdfe7acd4b688890cdf0678a79a2db0e7687e216dc03c1",
+    "decision": "rejected",
+    "notes": "Imagem digital de cédula série 1996 com aparência de reprodução/scan; não comprova foto atual de pagamentos."
+  },
+  {
+    "bundle": "regional-montevideo-completion-2026-11-03",
+    "key": "montevideo/map-attraction-5",
+    "title": "File:Lago del Parque Rodó. Iluminiación nocturna..jpg",
+    "sha256": "db4a6bce23b99bd3835cd22beec54e41d4865419a9d01e3d12de79966ce8a67e",
+    "decision": "rejected",
+    "notes": "Parque Rodó quase invisível em foto noturna muito escura; qualidade insuficiente."
+  },
+  {
+    "bundle": "regional-montevideo-completion-2026-11-03",
+    "key": "montevideo/neighborhood-2",
+    "title": "File:Contenedores en Pocitos Montevideo 02.jpg",
+    "sha256": "7f7514e7cae05f0f70243b0fc07ccbb0d8773f2bdc024f045497dd8456dd7ec5",
+    "decision": "rejected",
+    "notes": "Contêiner de lixo domina a cena; não representa adequadamente o bairro Pocitos."
+  },
+  {
+    "bundle": "regional-montevideo-completion-2026-11-03",
+    "key": "montevideo/hotel-list-1",
+    "title": "File:Cimientos de terraza Gran Hotel Pocitos, playa Pocitos, Montevideo.jpg",
+    "sha256": "49a79375809fd8dcbed5d6837cb17317c647c14b1e34bcf5303faf166e612adc",
+    "decision": "rejected",
+    "notes": "Fundações de antigo hotel na praia; não mostra contexto atual apropriado para hospedagem."
+  },
+  {
+    "bundle": "regional-montevideo-completion-2026-11-03",
+    "key": "montevideo/region-list-3",
+    "title": "File:Empresa contratada por Antel trabajando para la instalación de Fibra Óptica al Hogar FTTH en Barrio Carrasco Montevideo Uruguay - panoramio.jpg",
+    "sha256": "c33f36a5eb065d768da8424a2459c7533befbc5cf50d3a0ac64fda455251f1b9",
+    "decision": "rejected",
+    "notes": "Trabalhadores de instalação de fibra e obra em primeiro plano; não representa Carrasco como região turística."
+  },
+  {
+    "bundle": "regional-montevideo-completion-2026-11-03",
+    "key": "montevideo/tips",
+    "title": "File:Montevideo pkindsvater 01.jpg",
+    "sha256": "9679161357f2afa1014027969231b0389d4cbc4634e293449793abb8ca44d34f",
+    "decision": "rejected",
+    "notes": "Imagem com tonalidade sépia e baixa legibilidade; não atende seleção atual de qualidade."
+  },
+  {
+    "bundle": "regional-montevideo-completion-2026-11-03",
+    "key": "montevideo/essential-idioma",
+    "title": "File:Centro, Montevideo, Montevideo Department, Uruguay - panoramio (2).jpg",
+    "sha256": "703e0414f7fc19cd75a8957f7c9d78c9001ee7d806db6c43e71753c55a257a3f",
+    "decision": "rejected",
+    "notes": "Letreiro Hotel Florida usa apenas nome próprio e termo compartilhado com inglês; pouco contexto linguístico em espanhol."
+  },
+  {
+    "bundle": "regional-montevideo-completion-2026-11-03",
+    "key": "montevideo/essential-moeda",
+    "title": "File:URU-S386-Banco Oriental-20 Pesos (1867, face only).jpg",
+    "sha256": "e5cd69444fb53b411af3767fdf36eb5db1d711a42fbf2d6e372b0777e4ea198c",
+    "decision": "rejected",
+    "notes": "Cédula uruguaia de 1867, fora de circulação; documento monetário antigo proibido para pagamentos atuais."
+  },
+  {
+    "bundle": "regional-montevideo-completion-2026-11-03",
+    "key": "montevideo/trip-0",
+    "title": "File:Cassino Conrad, Punta del Este - Uruguai - panoramio.jpg",
+    "sha256": "b181ff28bfca96508604076df4fe49df6cfc4d2b09f8a9f5f8c46bdddafced9f",
+    "decision": "rejected",
+    "notes": "Fachada com marca Conrad, substituída por Enjoy há anos; foto desatualizada do empreendimento."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/map-attraction-3",
+    "title": "File:Droguería cruz verde Usaquén Btá.jpg",
+    "sha256": "bbf2b323a9bea5b0645f54fb9e3a9bfa07aed7d7ff46d99f85c51ddc09fba25e",
+    "decision": "rejected",
+    "notes": "Farmácia isolada e fachada comercial; não identifica o centro turístico de Usaquén."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/map-list-5",
+    "title": "File:Caminata en el Jardín Botánico de Bogotá 134.jpg",
+    "sha256": "cac08b0ba8d87f5e1949f58af003f27ef082b0d8af2395f878d7d92597da9364",
+    "decision": "rejected",
+    "notes": "Grupo de pessoas domina a cena da visita guiada; jardim botânico pouco reconhecível."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/neighborhood-detail-0",
+    "title": "File:Iglesia de Ntra Sra de la Candelaria - Virgen de la Candelaria - Bogotá.jpg",
+    "sha256": "85e272b3971f84932d63e7767548bf485efbf193dca8b6dc625d3eeb2e7d6b09",
+    "decision": "rejected",
+    "notes": "Imagem religiosa isolada dentro da igreja; não caracteriza La Candelaria como bairro."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/neighborhood-detail-1",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (25).jpg",
+    "sha256": "68cd00881e091b905203e4095b39cd48bdb4bc81c0a83a78f20b330a37888572",
+    "decision": "rejected",
+    "notes": "Vegetação de encosta sem área urbana; contexto insuficiente para Chapinero."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/region-0",
+    "title": "File:Iglesia de Ntra Sra de la Candelaria - Confesionario -Bogotá.jpg",
+    "sha256": "0b8ff76dad504e507233427ac1c5f8853ef07ccf2988006fdd2bc6ecddbad2c0",
+    "decision": "rejected",
+    "notes": "Confessionário isolado; não representa a região Histórica de Bogotá."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/hotel-0",
+    "title": "File:Iglesia de Ntra Sra de la Candelaria - Ambón - Bogotá.jpg",
+    "sha256": "2f372ca0ad2ea31baca2a8f85f91a53531f33844e7701d23713dedf547f03e76",
+    "decision": "rejected",
+    "notes": "Close de ambão dentro da igreja; não representa contexto de hospedagem da região."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/hotel-list-1",
+    "title": "File:Bogotá calle 102 apertura de la carrera 11Escuela de Infantería.JPG",
+    "sha256": "4e5edf32847396a910c7b654ad2edb5229b3237150457baec8f0c4b29244158d",
+    "decision": "rejected",
+    "notes": "Terreno em obras com entulho; contexto inadequado para hospedagem no Norte."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/region-list-2",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (21).jpg",
+    "sha256": "e0a07207fd2f65d703ddeb9f8c11a4794de414086d1112b17177d19290480980",
+    "decision": "rejected",
+    "notes": "Jardim/encosta genérico sem bairro identificável; tema de Chapinero não está comprovado visualmente."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/hotel-2",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (17).jpg",
+    "sha256": "36eb623ce85cd1e0a7194268e87b31a708bb39415d17d0c4d375a1710bb87713",
+    "decision": "rejected",
+    "notes": "Close de rochas na encosta sem área urbana; não representa contexto de hospedagem em Chapinero."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/hotel-list-2",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio.jpg",
+    "sha256": "b54b333c9526258f0ea324e7da2ab0c183b1058324285d5b6504be1c00121af0",
+    "decision": "rejected",
+    "notes": "Vegetação e córrego superexpostos; baixa qualidade e sem contexto de hospedagem."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/day-1",
+    "title": "File:Cafetería Santa Clara Monserrate, Bogotá, Colombia 03.jpg",
+    "sha256": "e651729ecf2a2dd25d3650f45a934555b25d12b11b2c668622818b9daace0847",
+    "decision": "rejected",
+    "notes": "Interior de cafeteria sem vista de Monserrate; não representa ícones principais do roteiro."
+  },
+  {
+    "bundle": "regional-bogota-completion-2026-11-03",
+    "key": "bogota/tips",
+    "title": "File:Cafetería Santa Clara Monserrate, Bogotá, Colombia 02.jpg",
+    "sha256": "33e58b9f1367d3eee0d5ec6c8843c89732d7f47c5bbde7e4b51d13960e35984d",
+    "decision": "rejected",
+    "notes": "Interior de cafeteria com baixa definição e pouca relação com dicas importantes do destino."
+  },
+  {
+    "bundle": "regional-los-angeles-completion-2026-11-03",
+    "key": "los-angeles/neighborhood-detail-1",
+    "title": "File:Halsey @ Hollywood Forever 10 14 2025 (54925702473).jpg",
+    "sha256": "12634f655a07276f730dfb8f3b1a4d7dd855c74325abd0ce4f7a91978ba2a835",
+    "decision": "rejected",
+    "notes": "Retrato de cantora Halsey em show; não caracteriza o bairro Hollywood."
+  },
+  {
+    "bundle": "regional-los-angeles-completion-2026-11-03",
+    "key": "los-angeles/region-1",
+    "title": "File:Circus Liquor, North Hollywood, California.JPG",
+    "sha256": "339c471dec6b38413233dfa4bee321e76e315d33e9d6da9f2b20b4a6ae454fe9",
+    "decision": "rejected",
+    "notes": "Circus Liquor fica em North Hollywood/San Fernando Valley; bairro errado para Hollywood."
+  },
+  {
+    "bundle": "regional-los-angeles-completion-2026-11-03",
+    "key": "los-angeles/hotel-2",
+    "title": "File:Downtown Los Angeles - February 2024 - Sarah Stierch 03.jpg",
+    "sha256": "1cc342b4527b2105c65f063cdcf34357526ecac95cf26aeb6a761896d26e7ea4",
+    "decision": "rejected",
+    "notes": "Close de adesivos e estacionamento no Downtown; não representa contexto de hospedagem."
+  },
+  {
+    "bundle": "regional-los-angeles-completion-2026-11-03",
+    "key": "los-angeles/hotel-list-2",
+    "title": "File:Downtown Los Angeles - February 2024 - Sarah Stierch.jpg",
+    "sha256": "8549fc58047a3842f46c496370b7c9dbcf24132ca1fe2addd6a65881fea68f52",
+    "decision": "rejected",
+    "notes": "Saguão vazio de prédio sem contexto externo; não comprova relação temática com hotel ou bairro."
+  },
+  {
+    "bundle": "regional-los-angeles-completion-2026-11-03",
+    "key": "los-angeles/hotel-list-3",
+    "title": "File:Los Angeles CA 20181207 (173).jpg",
+    "sha256": "fd26bc33874eadcf0a29fa7c5651b4f5794384a668c48e0bbe141174968702df",
+    "decision": "rejected",
+    "notes": "Hospital Northridge em primeiro plano; assunto médico não corresponde ao contexto de hospedagem em Valley."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/map-list-3",
+    "title": "File:Kennedy Space Center Visitor Center (KSC-98PC-1041).jpg",
+    "sha256": "e64808d157db0c748806f67a1f17d6bb33f39bd98557cb90c6f70f04809513d2",
+    "decision": "rejected",
+    "notes": "Vista de complexo do Kennedy Space Center em 1998, anterior às expansões atuais; manter gap por desatualização."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/map-list-4",
+    "title": "File:Lake Eola Heights Historic District-5.jpg",
+    "sha256": "bd6c3be80d4f918f990d32f54356b4c45d459ee4aa8cddc377794dc12547e29f",
+    "decision": "rejected",
+    "notes": "Rua de Lake Eola Heights sem o lago; não representa a atração Lake Eola."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/map-list-5",
+    "title": "File:Embassy Suites by Hilton Orlando International Drive Convention Center - exterior view.jpg",
+    "sha256": "e433532591b66082426203ef8a6d838d638b72693c1e5fd9f6e89cb07b389818",
+    "decision": "rejected",
+    "notes": "Fachada isolada de hotel; não caracteriza International Drive como atração turística."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/neighborhood-detail-1",
+    "title": "File:Embassy Suites by Hilton Orlando International Drive Convention Center - entrance signage.jpg",
+    "sha256": "3ebad9af829c79bfd08174f0de10ff02d96c010b3b1b3b494e7ccf7679ea991a",
+    "decision": "rejected",
+    "notes": "Placa de entrada de hotel com pouco entorno; contexto insuficiente para International Drive como bairro."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/hotel-0",
+    "title": "File:Lululemon Disney Springs, Orlando, Florida.jpg",
+    "sha256": "94253f22e8be6ba6deba3c90b9b12358310ae72b9c62a89c04c2634a8e12c219",
+    "decision": "rejected",
+    "notes": "Fachada de loja Lululemon; tema comercial isolado não representa contexto de hospedagem Disney."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/region-2",
+    "title": "File:Embassy Suites by Hilton Orlando International Drive Convention Center - breakfast.jpg",
+    "sha256": "ccc722b9cab4507546de28422c3cec5231da9b3ec1a96ac354e6543868abb8cc",
+    "decision": "rejected",
+    "notes": "Buffet de café da manhã no interior de hotel; não representa a região I-Drive."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/region-list-2",
+    "title": "File:Embassy Suites by Hilton Orlando International Drive Convention Center - dining area.jpg",
+    "sha256": "7bbb2f853daf35e7aeabedcd5b84070759583dcb1e8928f8fff828a1ff26571a",
+    "decision": "rejected",
+    "notes": "Restaurante interno de hotel sem contexto da região; não representa International Drive."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/mistakes",
+    "title": "File:Bahama Breeze Island Grille - Orlando International Airport - Terminal B.jpg",
+    "sha256": "1b8497294d81e287467599d81618937bb057eab50ce0747f51dd362fb9d4d1c5",
+    "decision": "rejected",
+    "notes": "Restaurante no aeroporto sem área de chegada ou transporte; assunto não corresponde a erros comuns de chegada."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/costs",
+    "title": "File:PEO STRI Celebrates Army's 250th Birthday (9110588).jpg",
+    "sha256": "772a7e0f909f3ab1770735d5f09c1c8bcdeda6c411789f90dd6266a3e8864cd2",
+    "decision": "rejected",
+    "notes": "Militares cortando bolo em celebração do Exército; não representa pratos típicos de Orlando."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/tips",
+    "title": "File:-Walt Disney World-Orlando - panoramio.jpg",
+    "sha256": "7072aa5fc7fdf920decebf10393741ed5c8c90c8fe99bf20b956af02cb5b2a61",
+    "decision": "rejected",
+    "notes": "Portal da Disney em foto antiga com baixa definição e cores alteradas; insuficiente para seleção HQ."
+  },
+  {
+    "bundle": "regional-orlando-completion-2026-11-03",
+    "key": "orlando/trip-1",
+    "title": "File:Christmas 2014, Winter Park FL (22619203351).jpg",
+    "sha256": "c7cb2d4349aaa192ae04d9a12b80a7d0a58ce35d2c6527d51f22af4d957a5cde",
+    "decision": "rejected",
+    "notes": "Ônibus Downtown Disney em foto de desfile; não representa passeio regional em Winter Park."
+  },
+  {
+    "bundle": "regional-vancouver-completion-2026-11-03",
+    "key": "vancouver/home-slide",
+    "title": "File:Vancouver Skyline, Granville Island and Burrard St Bridge 20240831 4.jpg",
+    "sha256": "cab8f3054925715095e42fed75b741433ab3c4e8902d3d7842713a35fda9c5d6",
+    "decision": "rejected",
+    "notes": "Panorama do mesmo ponto e sequência quase idêntica ao destaque aprovado; rejeitado para evitar repetição visual próxima."
+  },
+  {
+    "bundle": "regional-vancouver-completion-2026-11-03",
+    "key": "vancouver/attraction-4",
+    "title": "File:Vancouver (BC, Canada), Canada Place -- 2022 -- 1876.jpg",
+    "sha256": "a09970daae5ab37bc85b634ee53adffae68e40c43253191a87634092794f2424",
+    "decision": "rejected",
+    "notes": "Close de passarela envidraçada sem as velas ou estrutura principal; Canada Place pouco identificável como atração."
+  },
+  {
+    "bundle": "regional-vancouver-completion-2026-11-03",
+    "key": "vancouver/map-list-4",
+    "title": "File:Vancouver (BC, Canada), Canada Place, Ahornblatt -- 2022 -- 1862.jpg",
+    "sha256": "f8883fd1b1468e83fa00042aa88890b532a224dbbf5d182a3bfa54bdffc1a9a7",
+    "decision": "rejected",
+    "notes": "Símbolo de folha de bordo isolado; não representa Canada Place como atração."
+  },
+  {
+    "bundle": "regional-vancouver-completion-2026-11-03",
+    "key": "vancouver/neighborhood-detail-0",
+    "title": "File:A Street Scene in Downtown, Vancouver (49642976282).jpg",
+    "sha256": "f6818f5033f97d8dbe277602a98a6d46af292164e47a0def43d70d492db13aaa",
+    "decision": "rejected",
+    "notes": "Pedestres e coluna desfocada dominam a imagem; contexto de Downtown pouco legível."
+  },
+  {
+    "bundle": "regional-vancouver-completion-2026-11-03",
+    "key": "vancouver/region-0",
+    "title": "File:Stanley Park Sea Wall.jpg",
+    "sha256": "bbde5a9733e5f48d274bafa453f935014a1e82f3493b7aa2c541d921b6724796",
+    "decision": "rejected",
+    "notes": "Close abstrato de mureta, sem contexto de Stanley Park."
+  },
+  {
+    "bundle": "regional-vancouver-completion-2026-11-03",
+    "key": "vancouver/region-list-2",
+    "title": "File:2018-09-01 Lonsdale Quay Love Locks.jpg",
+    "sha256": "7dccc87aa851e3ecd87c1b325092dcee61fb15a75d7b8d235a1965f10f07db42",
+    "decision": "rejected",
+    "notes": "Cadeados isolados em grade; não representa North Shore como região."
+  },
+  {
+    "bundle": "regional-vancouver-completion-2026-11-03",
+    "key": "vancouver/essential-transporte",
+    "title": "File:Skytrain Vancouver at night (33743045388).jpg",
+    "sha256": "51108259f20f1c280e1c80b418df9144dd21bd42321febc9898334432d6220ed",
+    "decision": "rejected",
+    "notes": "Trem quase invisível sob forte brilho de faróis; imagem noturna de baixa legibilidade."
+  },
+  {
+    "bundle": "regional-vancouver-completion-2026-11-03",
+    "key": "vancouver/costs",
+    "title": "File:Japadog (30376483875).jpg",
+    "sha256": "95223037aaf4c835de6d508b90cdfd2f72487f33fd77e5187cea97d8e8deda37",
+    "decision": "rejected",
+    "notes": "Fachada de restaurante sem prato típico ou preço; tema de custos/gastronomia não está visível."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/attraction-0",
+    "title": "File:Caleche Vieux-Montreal 02a.jpg",
+    "sha256": "4b8c980b3cae4b007d937903d5cb65149fd3d542747013f64520cff3b5909d05",
+    "decision": "rejected",
+    "notes": "Close de condutor e cavalo; serviço de calèches foi encerrado no Vieux-Montréal e não representa visita atual."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/map-attraction-0",
+    "title": "File:Caleche Vieux-Montreal 02.jpg",
+    "sha256": "79c37c16b5e373340df695c4a1552b6d0581c70f1b66efa27f25ae5e427d1baf",
+    "decision": "rejected",
+    "notes": "Carruagem e trânsito dominam a imagem; serviço turístico de calèches descontinuado."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/map-list-0",
+    "title": "File:Caleche Vieux-Montreal 10.jpg",
+    "sha256": "431d90fffccb09f47ba733d610d326be6ea8f828a90446fc5c9ed3dcfbb37181",
+    "decision": "rejected",
+    "notes": "Carruagem e pessoas em primeiro plano; serviço descontinuado e bairro pouco legível."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/neighborhood-0",
+    "title": "File:Caleche Vieux-Montreal 04.jpg",
+    "sha256": "61fa4db748a79bb82c9d099eb2f26254f4ae65ad389b097f5a72027393342e8e",
+    "decision": "rejected",
+    "notes": "Carruagem e cavalo dominam o enquadramento; serviço descontinuado, inadequado para bairro atual."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/neighborhood-detail-0",
+    "title": "File:Caleche Vieux-Montreal 08.jpg",
+    "sha256": "3f393167a73308695f0c48a8110874971a4c798ab75e9dbc2afcac722dcf6f55",
+    "decision": "rejected",
+    "notes": "Carruagens e pessoas ocupam o assunto; não usar serviço descontinuado como bairro atual."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/region-0",
+    "title": "File:Caleche Vieux-Montreal 03a.jpg",
+    "sha256": "a5aa77aa458282ca18d25475cbe19ebbbdbc8d37542ca9b6fc13005fc9917c7c",
+    "decision": "rejected",
+    "notes": "Close de carruagem, serviço descontinuado; não representa região Vieux-Montréal atual."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/hotel-0",
+    "title": "File:Caleche Vieux-Montreal 06.jpg",
+    "sha256": "65a632f256454ebd1f0c849649100753f15e810aab7991d5f65fa43915c687e7",
+    "decision": "rejected",
+    "notes": "Carruagem e cavalo em primeiro plano; não é contexto atual adequado de hospedagem."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/region-2",
+    "title": "File:Foggy morning over Mount Royal, Montreal.jpg",
+    "sha256": "6f5b713041de6c5509bdbea734ca49e8cbfbf8cd65f0a3b57129402e42a857b8",
+    "decision": "rejected",
+    "notes": "Telhado e poste sob neblina, sem parque reconhecível; não representa Mont Royal."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/hotel-list-2",
+    "title": "File:1930s, Montreal from Mount Royal 01.jpg",
+    "sha256": "7fcd841d1af144b99693e76a09133bbb08321abed331f28322189e0eb97d1e7a",
+    "decision": "rejected",
+    "notes": "Fotografia dos anos 1930 de Montreal; arquivo pré-1990 sem override, rejeitado."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/costs",
+    "title": "File:Montreal Poutine, Vieux-Montréal, Montreal, Quebec (29441102733).jpg",
+    "sha256": "943616f689b9802ec360e52590b6ec01e7d8eb5e7bec989beb5402099db9a174",
+    "decision": "rejected",
+    "notes": "Fachada de restaurante sem poutine visível; tema de pratos típicos não corresponde."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/tips",
+    "title": "File:Caleche Vieux-Montreal 05.jpg",
+    "sha256": "1d4babf98fbf27fcb8d13c710dd0411330b00d82fb1f39206e4a28de5777c70e",
+    "decision": "rejected",
+    "notes": "Carruagem em serviço descontinuado; não usar como dica atual de visita."
+  },
+  {
+    "bundle": "regional-montreal-completion-2026-11-03",
+    "key": "montreal/day-2",
+    "title": "File:Caleche Vieux-Montreal 11.jpg",
+    "sha256": "bd2e9342e15fb12b230e3fd6087ddc7329d2c385a92d8bcc46eceea28adeefa6",
+    "decision": "rejected",
+    "notes": "Mesma sequência de carruagens descontinuadas; inadequada para roteiro atual e repetição visual próxima."
+  },
+  {
+    "bundle": "regional-toronto-completion-2026-11-03",
+    "key": "toronto/home-slide",
+    "title": "File:Panorama of Toronto skyline, 2020-05-13 -b.jpg",
+    "sha256": "bb78624ce5fc62424d324c54fe4e3be8f1d55b818351d8871be21f3b40720f72",
+    "decision": "rejected",
+    "notes": "Panorama da mesma sequência e ponto de captura usado em outros candidatos; rejeitado para evitar repetição visual próxima."
+  },
+  {
+    "bundle": "regional-toronto-completion-2026-11-03",
+    "key": "toronto/home-thumb",
+    "title": "File:Panorama of Toronto skyline, 2020-05-13 -f.jpg",
+    "sha256": "b28db889b42fd888113c7d337ee814e4f4a758a0b9a66e754234d2d1b01b20e5",
+    "decision": "rejected",
+    "notes": "Panorama da mesma sequência de captura do skyline; enquadramentos semelhantes, manter gap para alternativa distinta."
+  },
+  {
+    "bundle": "regional-toronto-completion-2026-11-03",
+    "key": "toronto/neighborhood-1",
+    "title": "File:Entertainment District, Toronto, Ontario (29889743272).jpg",
+    "sha256": "45074f20b309c6287fef0773164ca370356713b09c7393fd3e9e3ceda1025828",
+    "decision": "rejected",
+    "notes": "Close de escultura sem contexto suficiente do Entertainment District."
+  },
+  {
+    "bundle": "regional-toronto-completion-2026-11-03",
+    "key": "toronto/region-1",
+    "title": "File:Downtown Toronto aerial.jpg",
+    "sha256": "d729c04b44910185cee0af94a258988dcc9c69e5eea64476a4fef8e54a2e159e",
+    "decision": "rejected",
+    "notes": "Vista aérea desbotada e pouco nítida do skyline; qualidade insuficiente para região Downtown."
+  },
+  {
+    "bundle": "regional-toronto-completion-2026-11-03",
+    "key": "toronto/region-list-1",
+    "title": "File:Construction at King and Peter.jpg",
+    "sha256": "096658ffe6fff3bdb6b9722bce1ba5f2f7065a322e2f387570392e8e5f108a43",
+    "decision": "rejected",
+    "notes": "Prédios em contraluz sob neblina com CN Tower apagada; baixa legibilidade e pouco contexto."
+  },
+  {
+    "bundle": "regional-toronto-completion-2026-11-03",
+    "key": "toronto/region-list-3",
+    "title": "File:Entrance to Leslieville, view from a streetcar (51202483775).jpg",
+    "sha256": "12b81e9f7b398228e4f0f0f8e7a82945c809865920f911c65ddf1d46b38acada",
+    "decision": "rejected",
+    "notes": "Vista por janela de bonde com reflexos e enquadramento parcial; Leslieville pouco legível."
+  },
+  {
+    "bundle": "regional-toronto-completion-2026-11-03",
+    "key": "toronto/hotel-list-3",
+    "title": "File:Greenwood - Coxwell, Toronto, ON, Canada - panoramio (6).jpg",
+    "sha256": "3a44ac0b2741e546bc78cad2b1a57627377b16c4a6d5b558a2c1777c60ebec7c",
+    "decision": "rejected",
+    "notes": "Caixa técnica com grafite domina a imagem; não representa contexto de hospedagem em East."
+  },
+  {
+    "bundle": "regional-toronto-completion-2026-11-03",
+    "key": "toronto/essential-transporte",
+    "title": "File:19950529 23 TTC Streetcar Queen St. @ Yonge St.jpg",
+    "sha256": "25549c49549a622438c6116b0dec87095bd000b48e70b0bbf5fac26fadd4da2c",
+    "decision": "rejected",
+    "notes": "Bonde TTC fotografado em 1995, frota retirada de serviço; não representa transporte atual."
+  },
+  {
+    "bundle": "regional-toronto-completion-2026-11-03",
+    "key": "toronto/essential-idioma",
+    "title": "File:3D TORONTO, large illuminated sign (23107925143).jpg",
+    "sha256": "3de20bf22e88308b5ecfaf6638117ef253297081fa3803de0e151c64a10b559a",
+    "decision": "rejected",
+    "notes": "Letreiro contém apenas o nome Toronto; não apresenta texto do idioma ou sinalização útil."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-completion-2026-11-03",
+    "key": "cidade-do-panama/home-slide",
+    "title": "File:Downtown Panama City.jpg",
+    "sha256": "ae471f537f1d2a6d2d6a3647f10b126546eb5ffec9936cc778ecac7e431c35d8",
+    "decision": "rejected",
+    "notes": "Cores e contraste excessivamente alterados, com cidade muito distante; qualidade insuficiente para destaque HQ."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-completion-2026-11-03",
+    "key": "cidade-do-panama/neighborhood-3",
+    "title": "File:Cementerio de Amador, Ciudad de Panamá.jpg",
+    "sha256": "b772eb1510ff14ec564a48d9f9289a6bcca2cf824d201daccd683bb4f1e98d99",
+    "decision": "rejected",
+    "notes": "Cemitério de Amador no continente, não Causeway/ilhas de Amador; falso match geográfico."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-completion-2026-11-03",
+    "key": "cidade-do-panama/neighborhood-detail-3",
+    "title": "File:CD Plaza Amador Shield.jpg",
+    "sha256": "f80176cd809e03dadb277feadfd7f8ad48ee3d49ee24e8acb4730006b553a926",
+    "decision": "rejected",
+    "notes": "Escudo de clube de futebol Plaza Amador; não representa o bairro turístico de Amador."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-completion-2026-11-03",
+    "key": "cidade-do-panama/hotel-0",
+    "title": "File:Casco Viejo (Old City) Trio - Panama City - Panama (11427376006).jpg",
+    "sha256": "edc12bac35bf1cb6b25e935b99345e7fd8e8b10f809b7936939a4a2451fdad9c",
+    "decision": "rejected",
+    "notes": "Retrato de três homens em primeiro plano; não representa contexto de hospedagem em Casco."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-completion-2026-11-03",
+    "key": "cidade-do-panama/region-2",
+    "title": "File:Flight from Quito, Ecuador to Miami - Panama City and the canal (16039396343).jpg",
+    "sha256": "d2340591895df45a682386903c2d58622af566f7f83f89ffe72b6d63fabab0b7",
+    "decision": "rejected",
+    "notes": "Vista aérea muito distante sob contraluz e janela; Amador pouco legível para região."
+  },
+  {
+    "bundle": "regional-porto-rico-completion-2026-11-03",
+    "key": "porto-rico/intro",
+    "title": "File:Mapillary (ier2m4B6wIyZN5YoXsxCgS) (jmoliver) 2024-02-11 07H43M11S581.jpg",
+    "sha256": "5e782ae8e498405bd45b580f3d62194a6ab26f8f1b1bb0bb8581088f386a6331",
+    "decision": "rejected",
+    "notes": "Panorama equiretangular 360 graus com carro e costura visíveis; distorção inadequada para foto editorial convencional."
+  },
+  {
+    "bundle": "regional-porto-rico-completion-2026-11-03",
+    "key": "porto-rico/home",
+    "title": "File:Mapillary (ier2m4B6wIyZN5YoXsxCgS) (jmoliver) 2024-02-11 07H43M25S462.jpg",
+    "sha256": "e0cd2d0b5b2cdd985cec36a421c6f4965ba5c19382bde7aec05b4a4e851dbd1c",
+    "decision": "rejected",
+    "notes": "Panorama 360 graus de rua com carro e distorção; não serve como destaque HQ convencional."
+  },
+  {
+    "bundle": "regional-porto-rico-completion-2026-11-03",
+    "key": "porto-rico/home-thumb",
+    "title": "File:Mapillary (ier2m4B6wIyZN5YoXsxCgS) (jmoliver) 2024-02-11 07H44M33S897.jpg",
+    "sha256": "22d5774e5748e388f17f592b756492bf9a16739430010a24bae470ef69f84e78",
+    "decision": "rejected",
+    "notes": "Panorama 360 graus com costura e veículo; enquadramento distorcido inadequado para miniatura."
+  },
+  {
+    "bundle": "regional-porto-rico-completion-2026-11-03",
+    "key": "porto-rico/attraction-2",
+    "title": "File:Guardsmen begin work at Mosquito Bay, Vieques 140120-A-SM948-822.jpg",
+    "sha256": "b63ba2cd2a3d757e3e2921f6e362943e61607c7fec54965594ecf2d1c5f9eafa",
+    "decision": "rejected",
+    "notes": "Escavadeira e operação militar em Mosquito Bay; não representa a bioluminescência."
+  },
+  {
+    "bundle": "regional-porto-rico-completion-2026-11-03",
+    "key": "porto-rico/map-attraction-2",
+    "title": "File:Guardsmen begin work at Mosquito Bay, Vieques 140120-A-SM948-840.jpg",
+    "sha256": "60d2b98f1702dcf49c65ad84f2358f23336ca6550c2e48676c7fdf6e1f32ac42",
+    "decision": "rejected",
+    "notes": "Militar trabalhando em embarcação; não representa baía bioluminescente como atração."
+  },
+  {
+    "bundle": "regional-porto-rico-completion-2026-11-03",
+    "key": "porto-rico/map-list-2",
+    "title": "File:Guardsmen begin work at Mosquito Bay, Vieques 140120-A-SM948-294.jpg",
+    "sha256": "c63c0295499b5b15b4893c3b850ecb509dadcb8f516714f039d2169ce42fd238",
+    "decision": "rejected",
+    "notes": "Embarcação militar transportando material; assunto não corresponde à bioluminescência."
+  },
+  {
+    "bundle": "regional-porto-rico-completion-2026-11-03",
+    "key": "porto-rico/region-3",
+    "title": "File:Culebra airport runway, Culebra, Puerto Rico.jpg",
+    "sha256": "d3143ba9c7c15a9cb86fe166f8777eb3f151c544362ba9fff1c0f2c37d42b39f",
+    "decision": "rejected",
+    "notes": "Pista de aeroporto sob céu cinzento sem contexto das ilhas; tema regional insuficiente."
+  },
+  {
+    "bundle": "regional-porto-rico-completion-2026-11-03",
+    "key": "porto-rico/region-list-3",
+    "title": "File:Culebra, Puerto Rico cementery.JPG",
+    "sha256": "51bed49967e9f3c55bd93827c28520587a8038bf7a51a7626c9253a06c3be23a",
+    "decision": "rejected",
+    "notes": "Cemitério de Culebra; não representa a região turística Ilhas."
+  },
+  {
+    "bundle": "regional-fernando-de-noronha-completion-2026-11-03",
+    "key": "fernando-de-noronha/essential-moeda",
+    "title": "File:100-reais-2013-anverso-uv.jpg",
+    "sha256": "ae22be6d3f5304abd1c5c64f0acd8ff595eda15eb3d18d282d773e17dbad6dbb",
+    "decision": "rejected",
+    "notes": "Cédula fotografada sob luz ultravioleta, cores e marcas de segurança; não representa pagamentos cotidianos atuais."
   }
 ]
