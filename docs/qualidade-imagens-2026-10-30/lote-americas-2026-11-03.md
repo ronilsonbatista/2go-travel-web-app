@@ -3,27 +3,27 @@
 **Parcial. PR #34 draft. DO NOT MERGE.**
 
 Base main: `c2e7504`. Continuação a partir de `b6cdd9c`. Sem rebase necessário: main não avançou.
-Fotos novas aplicadas neste ciclo: **358**; placeholders substituídos acumulados: **1316 / 5.566**; restantes absolutos: **4250**.
+Fotos novas aplicadas neste ciclo: **370**; placeholders substituídos acumulados: **1328 / 5.566**; restantes absolutos: **4238**.
 
 | Região | Novas neste ciclo | Restantes absolutos |
 | --- | ---: | ---: |
-| Américas | 358 | 220 |
+| Américas | 370 | 208 |
 | Europa | 0 | 2432 |
 | Mundo | 0 | 1598 |
 
 | Destino tocado | Novas | Restantes |
 | --- | ---: | ---: |
-| assuncao | 8 | 28 |
+| assuncao | 12 | 24 |
 | bahamas | 20 | 19 |
-| bogota | 19 | 6 |
-| chicago | 16 | 4 |
+| bogota | 20 | 5 |
+| chicago | 18 | 2 |
 | cidade-do-mexico | 25 | 9 |
 | cidade-do-panama | 11 | 10 |
 | fernando-de-noronha | 7 | 9 |
 | havai | 21 | 8 |
 | havana | 19 | 9 |
 | las-vegas | 20 | 6 |
-| lima | 14 | 6 |
+| lima | 16 | 4 |
 | los-angeles | 20 | 5 |
 | medellin | 14 | 13 |
 | montevideo | 17 | 8 |
@@ -32,7 +32,7 @@ Fotos novas aplicadas neste ciclo: **358**; placeholders substituídos acumulado
 | porto-rico | 17 | 4 |
 | punta-cana | 16 | 15 |
 | quito | 18 | 12 |
-| san-andres | 5 | 30 |
+| san-andres | 8 | 27 |
 | toronto | 16 | 5 |
 | vancouver | 19 | 4 |
 
@@ -46,15 +46,18 @@ Gaps especiais: Lima/chegada requer foto do terminal novo, sem reutilizar o anti
 
 Sem alteração de layout, CSS, catálogo, conteúdo editorial, Admin, Core ou Flutter. Europa e Mundo ainda não receberam fotos neste ciclo; a prioridade de concluir Américas permanece ativa.
 
-## Validação do checkpoint de retomada
+## Validação da retomada
 
-- `npm run build`: passou; `npm test`: passou; sete testes de IDs de origem passaram.
-- Teste real do aplicador: uma fotografia reencodada de Noronha foi bloqueada como variante da imagem herdada, sem alterar o manifesto.
-- Auditoria global: FAIL, 12.945 ocorrências; nenhuma envolve as 358 posições novas desde `b6cdd9c`. São 6.854 paths únicos e 6.847 hashes locais únicos, além de sete URLs remotas. Isso não é uma aprovação global das fontes.
-- Comparação de 2.595 fotos reais locais: nenhuma duplicata binária ou candidata perceptual envolvendo essas 358 posições. dHash é uma triagem conservadora, não prova ausência de todos os recortes possíveis.
-- Dezesseis imagens de papéis pequenos têm lado maior entre 1.024 e 1.599 px. Todos os destaques novos mantêm pelo menos 1.600 px; sem ampliação artificial.
-- Inventário: 4.250 placeholders em 85 destinos; 4.259 posições sem aprovação visual, incluindo nove suplementares herdadas.
+Build e teste existente passaram; sete testes de IDs de origem passaram. O teste real do aplicador bloqueou uma foto reencodada de Noronha sem alterar o manifesto.
 
-Desde `a16a498`, foram aprovadas 163 posições adicionais e retiradas três variantes duplicadas (dois thumbnails de Noronha e um do Panamá): saldo de 160 substituições. As fotos herdadas que davam origem às duplicatas foram preservadas. Os três espaços retirados permanecem pendentes de alternativas; evidência em `withdrawn-aliases-2026-11-03.json`.
+Auditoria global: **FAIL, 12.909 ocorrências**, nenhuma envolvendo as 370 posições novas desde `b6cdd9c`. Comparação de 2.607 fotos reais locais: zero duplicata binária ou candidata perceptual envolvendo essas posições novas. A triagem dHash não prova ausência de todos os recortes possíveis; não há aprovação global.
 
-As pranchas são evidências de curadoria, não screenshots finais de produção. Imagens de hospedagem são ilustrativas da região. A entrega final dos 107 destinos segue condicionada a placeholders=0, auditoria verde e aceite humano posterior; não fazer merge.
+18 fotos de papéis pequenos têm entre 1.024 e 1.599 px no lado maior. Todos os destaques novos têm pelo menos 1.600 px, sem ampliação artificial. Inventário: 4.238 placeholders em 85 destinos e 4.247 posições sem aprovação visual (inclui nove suplementares herdadas).
+
+Desde `a16a498`, 175 posições adicionais foram aprovadas e três duplicatas retiradas (dois thumbnails de Noronha e um do Panamá): saldo de 172. Os três espaços retirados continuam pendentes; suas origens herdadas foram preservadas. Evidência em `withdrawn-aliases-2026-11-03.json`.
+
+A retomada acrescentou 12 fotos, incluindo o panorama da ilha no hero de San Andrés. A mesma foto não foi repetida em bairro; a realocação de papel está documentada no bundle prioritário. Uma foto do palácio de Assunção foi rejeitada porque a descrição informa diapositivo original de 1970.
+
+O preparador agora completa metadados omitidos pelo limite de thumbnails do Commons antes da triagem; cobertura por consulta em `metadata-coverage-2026-11-03.json`. Exemplos com 100 arquivos passaram a ter os 100 metadados consultados. Isso não concede aprovação visual automática.
+
+Pranchas são evidência de curadoria, não screenshots finais de produção. Hospedagem usa imagens explicitamente ilustrativas da região. Screenshots finais e conclusão dos 107 destinos somente após placeholders=0 e auditoria verde. DO NOT MERGE.

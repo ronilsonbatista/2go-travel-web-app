@@ -1,0 +1,733 @@
+[
+  {
+    "key": "assuncao/intro",
+    "slot": "intro",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "cathedral"
+  },
+  {
+    "key": "assuncao/guide-card",
+    "slot": "guide-card",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "cathedral"
+  },
+  {
+    "key": "assuncao/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Assunção: miniatura da home",
+    "status": "no-candidate",
+    "pool": "cathedral"
+  },
+  {
+    "key": "assuncao/home",
+    "slot": "home",
+    "topic": "Assunção",
+    "path": "/images/destinations/assuncao/curated-home.jpg",
+    "pool": "panteon",
+    "status": "pending-visual-review",
+    "title": "File:National Pantheon of the Heroes, Asunción, Paraguay.jpg",
+    "imageinfo": {
+      "size": 1069863,
+      "width": 2560,
+      "height": 1920,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/76/National_Pantheon_of_the_Heroes%2C_Asunci%C3%B3n%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/National_Pantheon_of_the_Heroes%2C_Asunci%C3%B3n%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/National_Pantheon_of_the_Heroes%2C_Asunci%C3%B3n%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:National_Pantheon_of_the_Heroes,_Asunci%C3%B3n,_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75275285",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-12-23 12:47:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "National Pantheon of the Heroes, Asunción, Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Panteón Nacional de los Héroes|Self-published work|Paraguay photographs taken on 2012-06-16|2012 in Asunción",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "National Pantheon of the Heroes, Asunción, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-06-16 10:11:44",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:CivArmy&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:CivArmy (page does not exist)\">CivArmy</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/home.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/National_Pantheon_of_the_Heroes%2C_Asunci%C3%B3n%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "f79c1440f8d47d47ff773616e7750c86d18f738a020bed5bd3a838f9f3e961e6"
+  },
+  {
+    "key": "assuncao/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Assunção",
+    "path": "/images/destinations/assuncao/curated-guide-highlight.jpg",
+    "pool": "panteon",
+    "status": "pending-visual-review",
+    "title": "File:Panteón nacional de los Héroes - Paraguay.jpg",
+    "imageinfo": {
+      "size": 13743958,
+      "width": 5120,
+      "height": 3840,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg/3840px-Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg/3840px-Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=74962325",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-12-10 06:11:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Panteón nacional de los Héroes - Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Panteón Nacional de los Héroes|Self-published work|Colonnades in Paraguay|Uploaded with Mobile/Android|Uploaded with Mobile/Android (Nov 2017-Aug 2019)|Files with coordinates missing SDC location of creation|Photographs taken on 2018-10-29|Statues in Asunción|Government buildings in Asunción",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.282017",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.635010",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Panteón de los Héroes en centro histórico de Asunción.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "29 October 2018 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Garcia.dennis\" title=\"User:Garcia.dennis\">Garcia.dennis</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/guide-highlight.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg/3840px-Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "0ac4281c0ca57598e1841cd5495f64267dd38fc60d6c635e7c5253a1093fbb65"
+  },
+  {
+    "key": "assuncao/home-slide",
+    "slot": "home-slide",
+    "topic": "Assunção",
+    "path": "/images/destinations/assuncao/curated-home-slide.jpg",
+    "pool": "panteon",
+    "status": "pending-visual-review",
+    "title": "File:Nuestra Señora Santa María de la Asunción (8039925134).jpg",
+    "imageinfo": {
+      "size": 2696732,
+      "width": 2896,
+      "height": 1944,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Nuestra_Se%C3%B1ora_Santa_Mar%C3%ADa_de_la_Asunci%C3%B3n_%288039925134%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1611,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Nuestra_Se%C3%B1ora_Santa_Mar%C3%ADa_de_la_Asunci%C3%B3n_%288039925134%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1611
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Nuestra_Se%C3%B1ora_Santa_Mar%C3%ADa_de_la_Asunci%C3%B3n_%288039925134%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nuestra_Se%C3%B1ora_Santa_Mar%C3%ADa_de_la_Asunci%C3%B3n_(8039925134).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28377743",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-09-18 17:43:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Nuestra Señora Santa María de la Asunción (8039925134)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D3000|Flickr images reviewed by File Upload Bot (Magnus Manske)|Statues of Virgin Mary in Paraguay|Photographs by Leandro Ciuffo|Files with coordinates missing SDC location of creation|Paraguay photographs taken on 2012-09-28|Statues in Asunción|Wooden statues in Paraguay|Wooden Christian statues|2012 in Asunción|Panteón Nacional de los Héroes - Interior",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.282361",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.635094",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The National Pantheon of the Heroes, Paraguay.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-09-28 16:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/leandrociuffo/8039925134/\">Nuestra Señora Santa María de la Asunción</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/18115835@N00\">Leandro Neumann Ciuffo</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/home-slide.jpg",
+    "dimensions": [
+      2400,
+      1611
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Nuestra_Se%C3%B1ora_Santa_Mar%C3%ADa_de_la_Asunci%C3%B3n_%288039925134%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "08e259d07189875763f032e1a99f3ea1f475dfb44cf50eb75b05396071005df2"
+  },
+  {
+    "key": "assuncao/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Palacio de López",
+    "path": "/images/destinations/assuncao/curated-attraction-0.jpg",
+    "pool": "palacio",
+    "status": "pending-visual-review",
+    "title": "File:00 3819 Asunción - Paraguay (Südamerika).jpg",
+    "imageinfo": {
+      "size": 10049834,
+      "width": 4273,
+      "height": 2800,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/00_3819_Asunci%C3%B3n_-_Paraguay_%28S%C3%BCdamerika%29.jpg/3840px-00_3819_Asunci%C3%B3n_-_Paraguay_%28S%C3%BCdamerika%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1573,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/00_3819_Asunci%C3%B3n_-_Paraguay_%28S%C3%BCdamerika%29.jpg/3840px-00_3819_Asunci%C3%B3n_-_Paraguay_%28S%C3%BCdamerika%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1573
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/00_3819_Asunci%C3%B3n_-_Paraguay_%28S%C3%BCdamerika%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:00_3819_Asunci%C3%B3n_-_Paraguay_(S%C3%BCdamerika).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=105209519",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-05-12 13:39:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "00 3819 Asunción - Paraguay (Südamerika)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Palacio de los López|Self-published work|Arcades in Paraguay|Files with coordinates missing SDC location of creation|Files by User:W. Bulach",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.283428",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.630994",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Asunción is the capital of the state of Paraguay in South America. The picture shows the government palace. The original image as a slide dates from 1970.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-03-10 17:08:53",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:W._Bulach\" title=\"User:W. Bulach\">W. Bulach</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/assuncao/attraction-0.jpg",
+    "dimensions": [
+      2400,
+      1573
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/00_3819_Asunci%C3%B3n_-_Paraguay_%28S%C3%BCdamerika%29.jpg/3840px-00_3819_Asunci%C3%B3n_-_Paraguay_%28S%C3%BCdamerika%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c2ed3f9bbd7b2835d8d1e74573727d542ecc079eef17e46540f81b177dbde286"
+  },
+  {
+    "key": "assuncao/map-list-0",
+    "slot": "map-list-0",
+    "topic": "Palacio de López",
+    "path": "/images/destinations/assuncao/curated-map-list-0.jpg",
+    "pool": "palacio",
+    "status": "pending-visual-review",
+    "title": "File:PalacioLopez.jpg",
+    "imageinfo": {
+      "size": 248278,
+      "width": 1458,
+      "height": 1000,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/PalacioLopez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1646,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/PalacioLopez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1646
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/PalacioLopez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:PalacioLopez.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=23223807",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-12-16 20:01:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "PalacioLopez",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Palacio de los López|CC-BY-SA-3.0,2.5,2.0,1.0|Parks in Paraguay|License migration redundant|Self-published work|Files from Wikivoyage Shared|Files by Wikivoyage user (not yet sorted)|Files by Wikivoyage user Iwan",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Palacio López",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "18 April 2009 (original upload date)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">self-made</bdi></i></span>)",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.wikivoyage-old.org/shared/User%3AIwan\">Iwan</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "User: Iwan at  wikivoyage shared",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/assuncao/map-list-0.jpg",
+    "dimensions": [
+      1458,
+      1000
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/PalacioLopez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "aa91976d1ea3adc88a02c785123963ec87c6d10dcafb55176585f05d17b18fe8"
+  },
+  {
+    "key": "assuncao/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/assuncao/curated-tips.jpg",
+    "pool": "palacio",
+    "status": "pending-visual-review",
+    "title": "File:Palacio de López 2023.jpg",
+    "imageinfo": {
+      "size": 3747269,
+      "width": 5309,
+      "height": 3539,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Palacio_de_L%C3%B3pez_2023.jpg/3840px-Palacio_de_L%C3%B3pez_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Palacio_de_L%C3%B3pez_2023.jpg/3840px-Palacio_de_L%C3%B3pez_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Palacio_de_L%C3%B3pez_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Palacio_de_L%C3%B3pez_2023.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148296748",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-05-13 04:15:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Palacio de López 2023",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Palacio de los López|Flickr images reviewed by FlickreviewR 2|Photographs by Liu Shu fu|Images from the Taiwan Presidential Office Flickr stream",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vice President Lai attends the inauguration of President Santiago Peña Palacios of the Republic of Paraguay and other celebratory events. (2023/08/16)\n<p>Official Photo by Shufu Liu / Office of the President\n</p><p>授權方式及範圍：中華民國總統府│政府網站資料開放宣告\n</p><p>Authorization Method &amp; Scope: \n</p>\nOffice of the President, Republic of China (Taiwan) | Government Website Open Information Announcement",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-08-16 00:04:32",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/presidentialoffice/53119464071/\">https://www.flickr.com/photos/presidentialoffice/53119464071/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "總統府",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/assuncao/tips.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Palacio_de_L%C3%B3pez_2023.jpg/3840px-Palacio_de_L%C3%B3pez_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "645e5265fd49a5b0604d23b762ea9d3eea338094c95be3951ee8c544930e3ea8"
+  }
+]

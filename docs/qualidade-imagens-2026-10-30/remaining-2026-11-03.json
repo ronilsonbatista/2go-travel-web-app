@@ -1,50 +1,5 @@
 [
   {
-    "key": "san-andres/hero",
-    "city": "san-andres",
-    "slot": "hero",
-    "topic": "San Andrés",
-    "path": "/images/destinations/san-andres/curated-hero.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-san-andres-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Matrícula automovilística Colombia 2008 San Andrés Isla YAZ•714 Servicio Público o Especial.jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-hero",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-san-andres-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Placa de automóvel isolada; não representa San Andrés como destino turístico."
-      }
-    ]
-  },
-  {
     "key": "san-andres/home",
     "city": "san-andres",
     "slot": "home",
@@ -74,6 +29,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Setophaga aestiva Reinita dorada Yellow Warbler (34497907706).jpg",
+        "pool": "island",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -86,6 +48,11 @@
         "bundle": "regional-san-andres-alternatives-2026-11-03",
         "decision": "rejected",
         "notes": "Mar sob céu cinzento sem contexto distintivo; composição insuficiente para destaque HQ da home."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Retrato de ave em close, sem paisagem representativa do destino."
       }
     ]
   },
@@ -119,6 +86,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:La Palma - Barlovento + Laguna (LP-4 in San Andres y Sauces) 01 ies.jpg",
@@ -133,54 +107,14 @@
         "notes": "Mural de rua sem contexto suficiente do destino; inadequado para destaque geral do guia."
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "San Andrés y Sauces em La Palma, Espanha; país e destino errados para ilha colombiana."
-      }
-    ]
-  },
-  {
-    "key": "san-andres/guide-highlight",
-    "city": "san-andres",
-    "slot": "guide-highlight",
-    "topic": "San Andrés",
-    "path": "/images/destinations/san-andres/curated-guide-highlight.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-san-andres-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Insulo San Andrés ĉe Kolombio Wikivacaciones 2021 18.jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-guide-highlight",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-san-andres-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Orla em forte contraluz e baixa legibilidade; qualidade insuficiente para destaque HQ."
       }
     ]
   },
@@ -214,6 +148,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Calidris melanotos Playero Pectoral Pectoral Sandpiper (15563768012).jpg",
+        "pool": "island",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -226,6 +167,11 @@
         "bundle": "regional-san-andres-alternatives-2026-11-03",
         "decision": "rejected",
         "notes": "Mesma sequência da orla em contraluz e composição quase idêntica; evitar repetição visual e baixa legibilidade."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Retrato de ave em close, sem composicao de destino para miniatura."
       }
     ]
   },
@@ -494,6 +440,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "piscinita",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -506,6 +459,11 @@
         "bundle": "regional-san-andres",
         "decision": "pending",
         "notes": "Sem candidata válida; placeholder preservado."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -539,6 +497,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "piscinita",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -551,6 +516,11 @@
         "bundle": "regional-san-andres",
         "decision": "pending",
         "notes": "Sem candidata válida; placeholder preservado."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -584,6 +554,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -596,6 +573,11 @@
         "bundle": "regional-san-andres",
         "decision": "pending",
         "notes": "Sem candidata válida; placeholder preservado."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -629,6 +611,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -641,6 +630,11 @@
         "bundle": "regional-san-andres",
         "decision": "pending",
         "notes": "Sem candidata válida; placeholder preservado."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -674,6 +668,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -686,6 +687,11 @@
         "bundle": "regional-san-andres",
         "decision": "pending",
         "notes": "Sem candidata válida; placeholder preservado."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -854,6 +860,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -866,6 +879,11 @@
         "bundle": "regional-san-andres-neighborhoods",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -899,6 +917,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -911,6 +936,11 @@
         "bundle": "regional-san-andres-neighborhoods",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -944,6 +974,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "cove",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -956,6 +993,11 @@
         "bundle": "regional-san-andres-neighborhoods",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -989,6 +1031,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "cove",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -1001,51 +1050,11 @@
         "bundle": "regional-san-andres-neighborhoods",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
-      }
-    ]
-  },
-  {
-    "key": "san-andres/neighborhood-3",
-    "city": "san-andres",
-    "slot": "neighborhood-3",
-    "topic": "La Loma",
-    "path": "/images/destinations/san-andres/curated-neighborhood-3.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-san-andres-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "neighborhoods-neighborhood-3",
-        "error": null
       },
       {
-        "bundle": "regional-san-andres-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "neighborhoods-neighborhood-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-neighborhoods",
-        "status": "pending-visual-review",
-        "title": "File:Torre de San Andrés, Villalba de la Loma 01.jpg",
-        "pool": "neighborhood-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "neighborhoods-neighborhood-3",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-san-andres-neighborhoods",
-        "decision": "rejected",
-        "notes": "A descrição identifica Villalba de la Loma, Valladolid, Espanha; cidade e país errados."
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -1079,6 +1088,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Iglesia Bautista Emmanuel en San Andrés Islas.jpg",
+        "pool": "loma",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -1091,6 +1107,11 @@
         "bundle": "regional-san-andres-neighborhoods",
         "decision": "rejected",
         "notes": "Torre de San Andrés em Valladolid, Espanha, não La Loma na ilha colombiana."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Candidato realocado explicitamente no bundle de papeis prioritarios; nao aplicar nesta chave original."
       }
     ]
   },
@@ -1169,6 +1190,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -1181,6 +1209,11 @@
         "bundle": "regional-san-andres-regions-hotels",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -1214,6 +1247,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -1226,6 +1266,11 @@
         "bundle": "regional-san-andres-regions-hotels",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -1259,6 +1304,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -1271,6 +1323,11 @@
         "bundle": "regional-san-andres-regions-hotels",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -1304,6 +1361,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "spratt",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -1316,6 +1380,11 @@
         "bundle": "regional-san-andres-regions-hotels",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -1349,6 +1418,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "cove",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -1361,6 +1437,11 @@
         "bundle": "regional-san-andres-regions-hotels",
         "decision": "rejected",
         "notes": "Placa de restaurante e balneario isolada, pouco contexto para hospedagem."
+      },
+      {
+        "bundle": "regional-san-andres-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -1466,6 +1547,13 @@
         "error": null
       },
       {
+        "bundle": "regional-lima-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "arrival",
+        "error": null
+      },
+      {
         "bundle": "regional-lima-support-v1",
         "status": "pending-visual-review",
         "title": "File:Jorge Chavez Internacional Airport (SPJC).jpg",
@@ -1481,6 +1569,11 @@
       }
     ],
     "decisions": [
+      {
+        "bundle": "regional-lima-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
+      },
       {
         "bundle": "regional-lima-support-v1",
         "decision": "rejected",
@@ -1504,6 +1597,13 @@
         "error": null
       },
       {
+        "bundle": "regional-lima-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "arrival",
+        "error": null
+      },
+      {
         "bundle": "regional-lima-support-v1",
         "status": "pending-visual-review",
         "title": "File:Aeropuerto Internacional Jorge Chávez en 2024.jpg",
@@ -1520,105 +1620,14 @@
     ],
     "decisions": [
       {
+        "bundle": "regional-lima-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
+      },
+      {
         "bundle": "regional-lima-support-v1",
         "decision": "rejected",
         "notes": "Terminal antigo de Jorge Chavez: fechado em 1/6/2025, conforme MTC: https://www.gob.pe/institucion/mtc/noticias/1179258-antiguo-aeropuerto-jorge-chavez-cerro-su-ciclo-tras-movilizar-cerca-de-400-millones-de-pasajeros"
-      }
-    ]
-  },
-  {
-    "key": "lima/neighborhood-2",
-    "city": "lima",
-    "slot": "neighborhood-2",
-    "topic": "San Isidro",
-    "path": "/images/destinations/lima/curated-neighborhood-2.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-lima-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Bandera de San Isidro (Lima).jpg",
-        "pool": "neighborhoods-neighborhood-2",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-neighborhoods",
-        "status": "pending-visual-review",
-        "title": "File:Av. Del Parque Nte. 605, San Isidro 1.jpg",
-        "pool": "neighborhood-2",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Alerta San Isidro - San Isidro.jpg",
-        "pool": "neighborhoods-neighborhood-2",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-lima-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Bandeira gráfica de San Isidro; não é fotografia real do bairro."
-      },
-      {
-        "bundle": "regional-lima-neighborhoods",
-        "decision": "rejected",
-        "notes": "Fachada residencial pouco legível e cheia de fios, contexto insuficiente para representar San Isidro."
-      },
-      {
-        "bundle": "regional-lima-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Placa de alerta e guarita noturna dominam a foto; não representa San Isidro como bairro."
-      }
-    ]
-  },
-  {
-    "key": "lima/trip-0",
-    "city": "lima",
-    "slot": "trip-0",
-    "topic": "Arredores de Lima",
-    "path": "/images/destinations/lima/curated-trip-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-lima-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Pachacamac---.jpg",
-        "pool": "support-trip-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-support-v1",
-        "status": "pending-visual-review",
-        "title": "File:Manchay Pachacamac Lima 2020.jpg",
-        "pool": "trip-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Pachacamac (Peru) (14895480900).jpg",
-        "pool": "support-trip-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-lima-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Maquete/planta arqueológica, não foto do sítio de Pachacámac; mapa-como-foto proibido."
-      },
-      {
-        "bundle": "regional-lima-support-v1",
-        "decision": "rejected",
-        "notes": "Mostra Manchay residencial em Pachacamac, nao o sitio arqueologico do passeio."
-      },
-      {
-        "bundle": "regional-lima-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Placa interpretativa domina a imagem e ruínas quase não aparecem; não representa Pachacámac como passeio."
       }
     ]
   },
@@ -2072,6 +2081,13 @@
         "error": null
       },
       {
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "cathedral",
+        "error": null
+      },
+      {
         "bundle": "regional-assuncao-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Downtown Asuncion 091057.jpg",
@@ -2086,59 +2102,14 @@
         "notes": "Fachadas comerciais cortadas e asfalto dominam a composição; contexto turístico insuficiente para introdução."
       },
       {
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
+      },
+      {
         "bundle": "regional-assuncao-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Panorama urbano subexposto e pouco nítido sob nuvens; qualidade insuficiente para introdução HQ."
-      }
-    ]
-  },
-  {
-    "key": "assuncao/home",
-    "city": "assuncao",
-    "slot": "home",
-    "topic": "Assunção",
-    "path": "/images/destinations/assuncao/curated-home.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Catedral, Asuncion, Paraguay - panoramio (106).jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Asuncion - Crypt, National Pantheon of Heroes.jpg",
-        "pool": "highlight-home",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Carro e fachada fechada em primeiro plano; não atende foto de destaque da home."
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Cripta com caixões, sem paisagem ou contexto de destino; assunto inadequado para destaque da home."
       }
     ]
   },
@@ -2172,6 +2143,13 @@
         "error": null
       },
       {
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "cathedral",
+        "error": null
+      },
+      {
         "bundle": "regional-assuncao-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -2184,51 +2162,11 @@
         "bundle": "regional-assuncao-alternatives-2026-11-03",
         "decision": "rejected",
         "notes": "Letreiro de loja e muro em close; não representa Assunção em destaque HQ."
-      }
-    ]
-  },
-  {
-    "key": "assuncao/guide-highlight",
-    "city": "assuncao",
-    "slot": "guide-highlight",
-    "topic": "Assunção",
-    "path": "/images/destinations/assuncao/curated-guide-highlight.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Catedral, Asuncion, Paraguay - panoramio (131).jpg",
-        "pool": "highlights-highlights",
-        "error": null
       },
       {
-        "bundle": "regional-assuncao-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-guide-highlight",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Pizzaria e publicidade dominam a cena; não atende destaque turístico de Assunção."
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -2262,6 +2200,13 @@
         "error": null
       },
       {
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Nuestra Señora Santa María de la Asunción (8039925134).jpg",
+        "pool": "panteon",
+        "error": null
+      },
+      {
         "bundle": "regional-assuncao-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -2274,6 +2219,11 @@
         "bundle": "regional-assuncao-alternatives-2026-11-03",
         "decision": "rejected",
         "notes": "Esquina comum com pouco contexto do destino; composição insuficiente para carrossel HQ."
+      },
+      {
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Estatua religiosa em interior, sem paisagem reconhecivel do destino para o carrossel."
       }
     ]
   },
@@ -2307,6 +2257,13 @@
         "error": null
       },
       {
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "cathedral",
+        "error": null
+      },
+      {
         "bundle": "regional-assuncao-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -2319,6 +2276,11 @@
         "bundle": "regional-assuncao-alternatives-2026-11-03",
         "decision": "rejected",
         "notes": "Estacionamento e publicidade dominam a imagem; inadequado para miniatura do destino."
+      },
+      {
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       }
     ]
   },
@@ -2458,51 +2420,6 @@
     ]
   },
   {
-    "key": "assuncao/tips",
-    "city": "assuncao",
-    "slot": "tips",
-    "topic": "Dicas importantes",
-    "path": "/images/destinations/assuncao/curated-tips.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-icon",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-icon",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-support-v1",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "icon",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-icon",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-assuncao-support-v1",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
-      }
-    ]
-  },
-  {
     "key": "assuncao/attraction-0",
     "city": "assuncao",
     "slot": "attraction-0",
@@ -2532,6 +2449,13 @@
         "error": null
       },
       {
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:00 3819 Asunción - Paraguay (Südamerika).jpg",
+        "pool": "palacio",
+        "error": null
+      },
+      {
         "bundle": "regional-assuncao-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -2544,51 +2468,11 @@
         "bundle": "regional-assuncao",
         "decision": "rejected",
         "notes": "Casa Clari-Mestre não é o Palacio de López: falso match de busca."
-      }
-    ]
-  },
-  {
-    "key": "assuncao/map-list-0",
-    "city": "assuncao",
-    "slot": "map-list-0",
-    "topic": "Palacio de López",
-    "path": "/images/destinations/assuncao/curated-map-list-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-assuncao",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "attraction-0",
-        "error": null
       },
       {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "attractions-attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "attractions-attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "attractions-attraction-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-assuncao",
-        "decision": "pending",
-        "notes": "Sem candidata válida; placeholder preservado."
+        "bundle": "regional-assuncao-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Descricao da fonte informa expressamente diapositivo original de 1970; foto historica, rejeitada apesar dos pixels."
       }
     ]
   },
@@ -3362,6 +3246,13 @@
         "error": null
       },
       {
+        "bundle": "regional-bogota-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Horizonte bogotá.jpg",
+        "pool": "sky",
+        "error": null
+      },
+      {
         "bundle": "regional-bogota-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Construcción de la Nueva Cinemateca Distrital desde la Calle 19.jpg",
@@ -3379,6 +3270,11 @@
         "bundle": "regional-bogota-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
+      },
+      {
+        "bundle": "regional-bogota-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Cidade escura e pequena sob excesso de ceu, com data impressa; qualidade insuficiente para destaque."
       },
       {
         "bundle": "regional-bogota-targeted-2026-11-03",
@@ -3512,6 +3408,13 @@
         "error": null
       },
       {
+        "bundle": "regional-bogota-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:\"Mariposa\" barrio Usaquén.jpg",
+        "pool": "usaquen",
+        "error": null
+      },
+      {
         "bundle": "regional-bogota-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Bogotá - aerial view - Country Club.jpg",
@@ -3536,69 +3439,14 @@
         "notes": "Farmácia isolada e fachada comercial; não identifica o centro turístico de Usaquén."
       },
       {
-        "bundle": "regional-bogota-targeted-2026-11-03",
+        "bundle": "regional-bogota-resume-2026-11-03",
         "decision": "rejected",
-        "notes": "Vista aérea do Country Club e bairro moderno; não mostra o núcleo histórico/turístico de Usaquén da atração."
-      }
-    ]
-  },
-  {
-    "key": "bogota/map-list-5",
-    "city": "bogota",
-    "slot": "map-list-5",
-    "topic": "Jardín Botánico",
-    "path": "/images/destinations/bogota/curated-map-list-5.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-bogota",
-        "status": "pending-visual-review",
-        "title": "File:Caminata en el Jardín Botánico de Bogotá 49.jpg",
-        "pool": "attraction-5",
-        "error": null
-      },
-      {
-        "bundle": "regional-bogota-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Caminata en el Jardín Botánico de Bogotá 56.jpg",
-        "pool": "attractions-attraction-5",
-        "error": null
-      },
-      {
-        "bundle": "regional-bogota-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Caminata en el Jardín Botánico de Bogotá 134.jpg",
-        "pool": "attractions-attraction-5",
-        "error": null
-      },
-      {
-        "bundle": "regional-bogota-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Caminata en el Jardín Botánico de Bogotá 4.jpg",
-        "pool": "attractions-attraction-5",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-bogota",
-        "decision": "rejected",
-        "notes": "Borboleta no braço de uma pessoa não identifica o jardim botânico."
-      },
-      {
-        "bundle": "regional-bogota-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Mão e smartphone dominam a foto; jardim botânico pouco legível."
-      },
-      {
-        "bundle": "regional-bogota-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Grupo de pessoas domina a cena da visita guiada; jardim botânico pouco reconhecível."
+        "notes": "Bairro distante e pouco legivel atras de telhados, sem marco identificavel da atracao Usaquen."
       },
       {
         "bundle": "regional-bogota-targeted-2026-11-03",
         "decision": "rejected",
-        "notes": "Grupo de visitantes domina a cena; jardim botânico pouco reconhecível."
+        "notes": "Vista aérea do Country Club e bairro moderno; não mostra o núcleo histórico/turístico de Usaquén da atração."
       }
     ]
   },
@@ -3632,6 +3480,13 @@
         "error": null
       },
       {
+        "bundle": "regional-bogota-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Norte de Bogotá y la luna.jpeg",
+        "pool": "usaquen",
+        "error": null
+      },
+      {
         "bundle": "regional-bogota-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Bogota - panoramio - Alistair Cunningham (1).jpg",
@@ -3654,6 +3509,11 @@
         "bundle": "regional-bogota-regions-hotels",
         "decision": "rejected",
         "notes": "Edifício identificado como estação ferroviária, sem contexto amplo para hospedagem ilustrativa."
+      },
+      {
+        "bundle": "regional-bogota-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Excesso de ceu e paisagem urbana pequena no rodape; baixa legibilidade para miniatura regional."
       },
       {
         "bundle": "regional-bogota-targeted-2026-11-03",
@@ -5435,6 +5295,13 @@
         "error": null
       },
       {
+        "bundle": "regional-orlando-resume-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "food",
+        "error": null
+      },
+      {
         "bundle": "regional-orlando-support-v1",
         "status": "pending-visual-review",
         "title": "File:PEO STRI Celebrates Army's 250th Birthday (9110584).jpg",
@@ -5454,6 +5321,11 @@
         "bundle": "regional-orlando-completion-2026-11-03",
         "decision": "rejected",
         "notes": "Militares cortando bolo em celebração do Exército; não representa pratos típicos de Orlando."
+      },
+      {
+        "bundle": "regional-orlando-resume-2026-11-03",
+        "decision": "pending",
+        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
       },
       {
         "bundle": "regional-orlando-support-v1",
@@ -5490,6 +5362,13 @@
         "error": null
       },
       {
+        "bundle": "regional-orlando-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Rifle Paper Co.jpg",
+        "pool": "winter",
+        "error": null
+      },
+      {
         "bundle": "regional-orlando-support-v1",
         "status": "pending-visual-review",
         "title": "File:Snickerdoodle at Fleet Peeples Park in Winter Park, FL (GEDC0036).jpg",
@@ -5514,6 +5393,11 @@
         "bundle": "regional-orlando-completion-2026-11-03",
         "decision": "rejected",
         "notes": "Ônibus Downtown Disney em foto de desfile; não representa passeio regional em Winter Park."
+      },
+      {
+        "bundle": "regional-orlando-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Interior de papelaria/loja sem paisagem reconhecivel de Winter Park; contexto insuficiente do passeio."
       },
       {
         "bundle": "regional-orlando-support-v1",
@@ -6610,6 +6494,13 @@
         "error": null
       },
       {
+        "bundle": "regional-vancouver-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Japadog in Los Angeles (14395071410).jpg",
+        "pool": "food",
+        "error": null
+      },
+      {
         "bundle": "regional-vancouver-support-v1",
         "status": "pending-visual-review",
         "title": "File:Food Vendors in Downtown Vancouver - Japadog.jpg",
@@ -6629,6 +6520,11 @@
         "bundle": "regional-vancouver-completion-2026-11-03",
         "decision": "rejected",
         "notes": "Fachada de restaurante sem prato típico ou preço; tema de custos/gastronomia não está visível."
+      },
+      {
+        "bundle": "regional-vancouver-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Fonte identifica Japadog em Los Angeles, cidade errada para Vancouver, e nao mostra prato servido."
       },
       {
         "bundle": "regional-vancouver-support-v1",
@@ -6672,6 +6568,13 @@
         "error": null
       },
       {
+        "bundle": "regional-vancouver-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Vancouver (BC, Canada), Robson Street, Handabdrücke an einer Mauer -- 2022 -- 1929.jpg",
+        "pool": "downtown",
+        "error": null
+      },
+      {
         "bundle": "regional-vancouver-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:A Street Scene in Downtown, Vancouver (49642177768).jpg",
@@ -6694,6 +6597,11 @@
         "bundle": "regional-vancouver-neighborhoods",
         "decision": "rejected",
         "notes": "Rua muito subexposta, prédios e contexto urbano pouco legíveis."
+      },
+      {
+        "bundle": "regional-vancouver-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Close de parede com marcas de maos, sem paisagem ou marco identificavel de Downtown."
       },
       {
         "bundle": "regional-vancouver-targeted-2026-11-03",
@@ -10249,6 +10157,13 @@
         "error": null
       },
       {
+        "bundle": "regional-chicago-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Boys On Prom Night - 8688184767.jpg",
+        "pool": "cloud",
+        "error": null
+      },
+      {
         "bundle": "regional-chicago-support-v1",
         "status": "pending-visual-review",
         "title": "File:Chicago (9694666470) (2).jpg",
@@ -10265,64 +10180,14 @@
     ],
     "decisions": [
       {
+        "bundle": "regional-chicago-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Retratos de formandos e pessoas em primeiro plano, sem paisagem de destino adequada."
+      },
+      {
         "bundle": "regional-chicago-support-v1",
         "decision": "rejected",
         "notes": "Variante da foto Flickr 9694666470 ja usada em Cloud Gate; repeticao do mesmo original."
-      }
-    ]
-  },
-  {
-    "key": "chicago/map-attraction-0",
-    "city": "chicago",
-    "slot": "map-attraction-0",
-    "topic": "Millennium Park / Cloud Gate",
-    "path": "/images/destinations/chicago/curated-map-attraction-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-chicago",
-        "status": "pending-visual-review",
-        "title": "File:Chicago from under the Cloud Gate (9694665746).jpg",
-        "pool": "attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "attractions-attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Chicago skyscrapers on a rainy night (52037809603).jpg",
-        "pool": "attractions-attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Cloud Gate plaza - Flickr - darrellr (1).jpg",
-        "pool": "attractions-attraction-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-chicago",
-        "decision": "rejected",
-        "notes": "Recorte de prédio visto sob a escultura sem contexto suficiente do Millennium Park."
-      },
-      {
-        "bundle": "regional-chicago-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Skyline noturno sob chuva; não mostra Cloud Gate ou Millennium Park como assunto identificável."
-      },
-      {
-        "bundle": "regional-chicago-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Imagem com cores artificiais/infrared e Cloud Gate cortado na borda; atração pouco reconhecível para pin."
       }
     ]
   },
@@ -10356,48 +10221,10 @@
         "error": null
       },
       {
-        "bundle": "regional-chicago-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-3",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-chicago-regions-hotels",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
-      }
-    ]
-  },
-  {
-    "key": "chicago/hotel-list-3",
-    "city": "chicago",
-    "slot": "hotel-list-3",
-    "topic": "Hotel em West Side",
-    "path": "/images/destinations/chicago/curated-hotel-list-3.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-chicago-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-regions-hotels",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "region-3",
+        "bundle": "regional-chicago-resume-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Crumbl Cookie Shop At Wicker Park, Chicago, IL.jpg",
+        "pool": "west",
         "error": null
       },
       {
@@ -10413,6 +10240,11 @@
         "bundle": "regional-chicago-regions-hotels",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+      },
+      {
+        "bundle": "regional-chicago-resume-2026-11-03",
+        "decision": "rejected",
+        "notes": "Marca de loja de biscoitos domina a foto, com pouco contexto do bairro para hospedagem ilustrativa."
       }
     ]
   },

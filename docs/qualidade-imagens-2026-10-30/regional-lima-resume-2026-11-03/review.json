@@ -1,0 +1,251 @@
+[
+  {
+    "key": "lima/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Lima",
+    "status": "no-candidate",
+    "pool": "arrival"
+  },
+  {
+    "key": "lima/mistakes",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "status": "no-candidate",
+    "pool": "arrival"
+  },
+  {
+    "key": "lima/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "San Isidro",
+    "path": "/images/destinations/lima/curated-neighborhood-2.jpg",
+    "pool": "isidro",
+    "status": "pending-visual-review",
+    "title": "File:Parque Grecia, Lima 2.jpg",
+    "imageinfo": {
+      "size": 3077617,
+      "width": 4032,
+      "height": 2268,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Parque_Grecia%2C_Lima_2.jpg/3840px-Parque_Grecia%2C_Lima_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Parque_Grecia%2C_Lima_2.jpg/3840px-Parque_Grecia%2C_Lima_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Parque_Grecia%2C_Lima_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Parque_Grecia,_Lima_2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131258956",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-04-28 02:28:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Parque Grecia, Lima 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Parks in San Isidro District|Embassy of Greece, Lima",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Greece Park in San Isidro, Lima",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-04-25 11:52:41",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Colección privada (archivo subido con permiso bajo la licencia CC-BY-SA-4.0)",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Privado (imagen donada al publicador)",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/lima/neighborhood-2.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Parque_Grecia%2C_Lima_2.jpg/3840px-Parque_Grecia%2C_Lima_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f8e63e6b88ac51cba4c32b5fd65cc852cbbd33e5b4aa79833a0db3bebe989a05"
+  },
+  {
+    "key": "lima/trip-0",
+    "slot": "trip-0",
+    "topic": "Arredores de Lima",
+    "path": "/images/destinations/lima/curated-trip-0.jpg",
+    "pool": "pachacamac",
+    "status": "pending-visual-review",
+    "title": "File:Templo del sol frente principal con vista al mar.jpg",
+    "imageinfo": {
+      "size": 1946120,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Templo_del_sol_frente_principal_con_vista_al_mar.jpg/3840px-Templo_del_sol_frente_principal_con_vista_al_mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Templo_del_sol_frente_principal_con_vista_al_mar.jpg/3840px-Templo_del_sol_frente_principal_con_vista_al_mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Templo_del_sol_frente_principal_con_vista_al_mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Templo_del_sol_frente_principal_con_vista_al_mar.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179378857",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-12-04 04:50:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Templo del sol frente principal con vista al mar",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Files with coordinates missing SDC location of creation|Templo del Sol (Pachacamac)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-12.271799",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-76.897136",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Parte con vista al mar del templo del sol,   el cual se encuentra en el sitio Arqueológico de Pachacmac",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-11-02 15:23:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bicefalico&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bicefalico (page does not exist)\">Bicefalico</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/lima/trip-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Templo_del_sol_frente_principal_con_vista_al_mar.jpg/3840px-Templo_del_sol_frente_principal_con_vista_al_mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fbeb32bcfa2fc06ef3ac4293f081184a7e45ae9b1ea53f28fbc01db8b1fdc770"
+  }
+]

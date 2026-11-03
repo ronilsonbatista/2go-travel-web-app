@@ -64,18 +64,32 @@ def get(url):
 def search(item):
  name,pool=item
  cache=OUT/('pool-'+name+'.json')
- if cache.exists():return name,json.loads(cache.read_text())
- params={'action':'query','generator':'search','gsrsearch':pool['query']+' filetype:bitmap',
-  'gsrnamespace':6,'gsrlimit':pool.get('limit',50),'gsroffset':pool.get('offset',0),'prop':'imageinfo','iiprop':'url|size|mime|extmetadata','iiurlwidth':2400,'format':'json'}
- for attempt in range(4):
-  data=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params)))
-  if not data.get('error'):break
-  if data['error'].get('code')=='urlparamnormal':
-   # Commons can fail the entire result batch while thumbnailing a TIFF that
-   # would be rejected below anyway. Exclude that unsupported format on retry.
-   params['gsrsearch']=pool['query']+' filetype:bitmap -filemime:image/tiff'
-  if attempt==3:raise ValueError(data['error'])
-  time.sleep(3*(attempt+1))
+ if cache.exists():data=json.loads(cache.read_text())
+ else:
+  params={'action':'query','generator':'search','gsrsearch':pool['query']+' filetype:bitmap',
+   'gsrnamespace':6,'gsrlimit':pool.get('limit',50),'gsroffset':pool.get('offset',0),'prop':'imageinfo','iiprop':'url|size|mime|extmetadata','iiurlwidth':2400,'format':'json'}
+  for attempt in range(4):
+   data=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params)))
+   if not data.get('error'):break
+   if data['error'].get('code')=='urlparamnormal':
+    params['gsrsearch']=pool['query']+' filetype:bitmap -filemime:image/tiff'
+   if attempt==3:raise ValueError(data['error'])
+   time.sleep(3*(attempt+1))
+ if data.get('error'):raise ValueError(data['error'])
+ # Search can return 100 files while thumbnail imageinfo is limited to 50.
+ # Retrieve omitted records instead of treating them as unavailable candidates.
+ pages=data.get('query',{}).get('pages',{})
+ missing=[key for key,page in pages.items() if not page.get('imageinfo') and 'missing' not in page]
+ for offset in range(0,len(missing),40):
+  params={'action':'query','pageids':'|'.join(missing[offset:offset+40]),'prop':'imageinfo','iiprop':'url|size|mime|extmetadata','iiurlwidth':2400,'format':'json'}
+  extra=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params)))
+  if extra.get('error',{}).get('code')=='urlparamnormal':
+   params.pop('iiurlwidth');extra=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params)))
+  if extra.get('error'):raise ValueError(extra['error'])
+  for key,page in extra.get('query',{}).get('pages',{}).items():
+   if key in pages:pages[key].update(page)
+ unresolved=[key for key in missing if not pages[key].get('imageinfo') and 'missing' not in pages[key]]
+ if unresolved:raise ValueError('Missing Commons image metadata: '+','.join(unresolved))
  cache.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
  return name,data
 with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:

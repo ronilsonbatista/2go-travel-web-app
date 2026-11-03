@@ -1,0 +1,40 @@
+{
+  "city": "vancouver",
+  "region": "americas",
+  "center": [
+    49.2827,
+    -123.1207,
+    40
+  ],
+  "pools": {
+    "food": {
+      "query": "\"Japadog\" \"hot dog\"",
+      "required": [
+        "japadog",
+        "vancouver"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "costs"
+      ]
+    },
+    "downtown": {
+      "query": "\"Downtown Vancouver\" \"street\"",
+      "required": [
+        "vancouver"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "neighborhood-detail-0"
+      ]
+    }
+  }
+}

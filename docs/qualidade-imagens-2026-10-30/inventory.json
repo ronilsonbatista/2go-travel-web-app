@@ -4,8 +4,8 @@
     "cities": 107,
     "flagCounts": {
       "prominent-below-1600": 10,
-      "placeholder": 4250,
-      "not-visually-accepted": 4259
+      "placeholder": 4238,
+      "not-visually-accepted": 4247
     },
     "placeholderCities": 85,
     "note": "Existing accepted values are inherited, not a new visual review. EXIF cannot detect baked-in upside-down photos."
@@ -12513,16 +12513,13 @@
       "topic": "San Andrés",
       "src": "/images/destinations/san-andres/curated-hero.jpg",
       "key": "san-andres/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:san-andres/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "2efd71f8e7072852d8007622db1d10e80ea41727d5a6b7f2ccbfed57d65b71eb",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Panor%C3%A1mica_de_San_Andr%C3%A9s_Islas.jpg",
+      "title": "File:Panorámica de San Andrés Islas.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0ab5609a560bb6c8ae44b25aea8df05282d167acbe32801fd3c7918c83c16c46",
+      "width": 2400,
+      "height": 1597,
       "exifOrientation": 1
     },
     {
@@ -12582,16 +12579,13 @@
       "topic": "San Andrés",
       "src": "/images/destinations/san-andres/curated-guide-highlight.jpg",
       "key": "san-andres/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:san-andres/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "55e3acb89601aaa6a6e92fe56c2f995e3e8855d4aa61a045cd862d1eb96c85e6",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:San_Andr%C3%A9s_isla_00.jpg",
+      "title": "File:San Andrés isla 00.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "4a142b57d04d5b84fc0b07f9d0e1066239f88cb57917f0e98961c559ba170002",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -13224,16 +13218,13 @@
       "topic": "La Loma",
       "src": "/images/destinations/san-andres/curated-neighborhood-3.jpg",
       "key": "san-andres/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:san-andres/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "fa360b13f0d4d595e2e730230573c49992fae30f8146731b43f663b7e9001220",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Iglesia_Bautista_Emmanuel_en_San_Andr%C3%A9s_Islas.jpg",
+      "title": "File:Iglesia Bautista Emmanuel en San Andrés Islas.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6e566cd3bf884688861ebe02b7900ac1056a05a6eb19cfd73a0904b7e7185cb9",
+      "width": 1597,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -14190,16 +14181,13 @@
       "topic": "San Isidro",
       "src": "/images/destinations/lima/curated-neighborhood-2.jpg",
       "key": "lima/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:lima/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "17ad66434e04dfaa5a917c5716d05ff8b3d0fa1d491b064eb3af1831b93a5e89",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Parque_Grecia%2C_Lima_2.jpg",
+      "title": "File:Parque Grecia, Lima 2.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f8e63e6b88ac51cba4c32b5fd65cc852cbbd33e5b4aa79833a0db3bebe989a05",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -14253,16 +14241,13 @@
       "topic": "Arredores de Lima",
       "src": "/images/destinations/lima/curated-trip-0.jpg",
       "key": "lima/trip-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:lima/trip-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1356c3da8de67577fd3acaba0cd5cf7890fd337382ff63ccb27df7454e8b0f48",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Templo_del_sol_frente_principal_con_vista_al_mar.jpg",
+      "title": "File:Templo del sol frente principal con vista al mar.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fbeb32bcfa2fc06ef3ac4293f081184a7e45ae9b1ea53f28fbc01db8b1fdc770",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -15558,16 +15543,13 @@
       "topic": "Assunção",
       "src": "/images/destinations/assuncao/curated-home.jpg",
       "key": "assuncao/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "fb121170ca39558ba9683f042be5d22d5821d6c74556ee4ad25636238ff5a5ea",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:National_Pantheon_of_the_Heroes%2C_Asunci%C3%B3n%2C_Paraguay.jpg",
+      "title": "File:National Pantheon of the Heroes, Asunción, Paraguay.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f79c1440f8d47d47ff773616e7750c86d18f738a020bed5bd3a838f9f3e961e6",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -15594,16 +15576,13 @@
       "topic": "Assunção",
       "src": "/images/destinations/assuncao/curated-guide-highlight.jpg",
       "key": "assuncao/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "927b539ab244fe9752e43e0aad8f24c63dccf8adb72c67f701e60627e33e79ee",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg",
+      "title": "File:Panteón nacional de los Héroes - Paraguay.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0ac4281c0ca57598e1841cd5495f64267dd38fc60d6c635e7c5253a1093fbb65",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -15747,16 +15726,13 @@
       "topic": "Dicas importantes",
       "src": "/images/destinations/assuncao/curated-tips.jpg",
       "key": "assuncao/tips",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/tips",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9f61a683a7ee3d98335ba61762c30c87da3f5aa3ea7103eb93fc5a069c451a0b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_L%C3%B3pez_2023.jpg",
+      "title": "File:Palacio de López 2023.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "645e5265fd49a5b0604d23b762ea9d3eea338094c95be3951ee8c544930e3ea8",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -15798,16 +15774,13 @@
       "topic": "Palacio de López",
       "src": "/images/destinations/assuncao/curated-map-list-0.jpg",
       "key": "assuncao/map-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/map-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "da06782bebed54ab99c64c24c059e067e0cb4f56f69541abc2532412c86c590a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:PalacioLopez.jpg",
+      "title": "File:PalacioLopez.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "aa91976d1ea3adc88a02c785123963ec87c6d10dcafb55176585f05d17b18fe8",
+      "width": 1458,
+      "height": 1000,
       "exifOrientation": 1
     },
     {
@@ -17046,16 +17019,13 @@
       "topic": "Jardín Botánico",
       "src": "/images/destinations/bogota/curated-map-list-5.jpg",
       "key": "bogota/map-list-5",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/map-list-5",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b18524e134fa2fa8bf936d4dded1cf5dd2fcdbe9ca062ee70bf12eb18184a97c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Passiflora_violacea_en_JBB.jpg",
+      "title": "File:Passiflora violacea en JBB.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7b396fdca71352f9b2c8300ae10b8c77bf7afbb065bb0d18f958f1e609fe2bd8",
+      "width": 960,
+      "height": 1280,
       "exifOrientation": 1
     },
     {
@@ -33531,16 +33501,13 @@
       "topic": "Millennium Park / Cloud Gate",
       "src": "/images/destinations/chicago/curated-map-attraction-0.jpg",
       "key": "chicago/map-attraction-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/map-attraction-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "78f90e8b07474d0c2976cc41838edead0727447472f834412ae7aa06d497c4fd",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Millennium_park%2Cchicago.JPG",
+      "title": "File:Millennium park,chicago.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0efd3eae508ca2d693220a7e9a42a22347998eaa34f801d7c881e4a7207e5134",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -34257,16 +34224,13 @@
       "topic": "Hotel em West Side",
       "src": "/images/destinations/chicago/curated-hotel-list-3.jpg",
       "key": "chicago/hotel-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/hotel-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ad1d212bb668011f3b5493d66fe21ce6dea6d77379e39f3cf1308581c26eef1f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Wicker_Park_Historic_District_A_Chicago_IL.jpg",
+      "title": "File:Wicker Park Historic District A Chicago IL.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "220eec3aee618e04f2aef4c72b570c500d1b4279430f1513cfab5fc1b713ce9c",
+      "width": 2400,
+      "height": 1690,
       "exifOrientation": 1
     },
     {

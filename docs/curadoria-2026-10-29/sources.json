@@ -23811,20 +23811,31 @@
   "san-andres/hero": {
     "city": "san-andres",
     "slot": "hero",
-    "query": "San Andres Colombia beach skyline",
     "path": "/images/destinations/san-andres/curated-hero.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:san-andres/hero",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "San Andrés",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Panor%C3%A1mica_de_San_Andr%C3%A9s_Islas.jpg",
+    "title": "File:Panorámica de San Andrés Islas.jpg",
+    "author": "Mario Carvajal",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Fotografía tomada desde el barrio La Loma",
+    "categories": "Taken with Nikon D700|San Andrés Island|Self-published work",
+    "date": "2012-02-20",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Panor%C3%A1mica_de_San_Andr%C3%A9s_Islas.jpg/3840px-Panor%C3%A1mica_de_San_Andr%C3%A9s_Islas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Panor%C3%A1mica_de_San_Andr%C3%A9s_Islas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1597
+    ],
+    "originalDimensions": [
+      3918,
+      2607
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Panorama real da ilha de San Andres fotografado desde La Loma, conforme descricao da fonte. Mata, costa e mar legiveis; 2400x1597 px, horizonte normal. Priorizado para hero sem reutilizar a mesma foto em bairro.",
+    "assetSha256": "0ab5609a560bb6c8ae44b25aea8df05282d167acbe32801fd3c7918c83c16c46",
+    "minimumLongEdge": 1600
   },
   "san-andres/intro": {
     "city": "san-andres",
@@ -23894,20 +23905,33 @@
   "san-andres/guide-highlight": {
     "city": "san-andres",
     "slot": "guide-highlight",
-    "query": "San Andres Colombia beach panorama",
     "path": "/images/destinations/san-andres/curated-guide-highlight.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:san-andres/guide-highlight",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "San Andrés",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:San_Andr%C3%A9s_isla_00.jpg",
+    "title": "File:San Andrés isla 00.jpg",
+    "author": "Xemenendura",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Arquitectura tradicional en San Andrés, Colombia",
+    "categories": "San Andrés Island|Self-published work|Uploaded with Mobile/Android|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2024-07-19",
+    "date": "19 July 2024 (according to Exif data)",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/San_Andr%C3%A9s_isla_00.jpg/3840px-San_Andr%C3%A9s_isla_00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/San_Andr%C3%A9s_isla_00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      4000,
+      3000
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Arquitetura tradicional de San Andres, Colombia, com casas de madeira coloridas; fonte descreve explicitamente o assunto e captura de 2024. Foto real de contexto cultural do destino.",
+    "assetSha256": "4a142b57d04d5b84fc0b07f9d0e1066239f88cb57917f0e98961c559ba170002",
+    "minimumLongEdge": 1600,
+    "latitude": 12.577903,
+    "longitude": -81.699428
   },
   "san-andres/home-slide": {
     "city": "san-andres",
@@ -24838,20 +24862,33 @@
   "san-andres/neighborhood-3": {
     "city": "san-andres",
     "slot": "neighborhood-3",
-    "query": "La Loma San Andrés",
     "path": "/images/destinations/san-andres/curated-neighborhood-3.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:san-andres/neighborhood-3",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "La Loma",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Iglesia_Bautista_Emmanuel_en_San_Andr%C3%A9s_Islas.jpg",
+    "title": "File:Iglesia Bautista Emmanuel en San Andrés Islas.jpg",
+    "author": "Mario Carvajal",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Iglesia construida en 1947, en el barrio La Loma, en lo alto de San Andrés Islas.",
+    "categories": "Taken with Nikon D700|Iglesia Bautista Misión Hill|Self-published work|Files with coordinates missing SDC location of creation",
+    "date": "2012-02-20",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Iglesia_Bautista_Emmanuel_en_San_Andr%C3%A9s_Islas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Iglesia_Bautista_Emmanuel_en_San_Andr%C3%A9s_Islas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      1597,
+      2400
+    ],
+    "originalDimensions": [
+      2656,
+      3992
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Igreja Bautista Emmanuel/Mision Hill no bairro La Loma, explicitamente identificado na descricao da fonte. Fachada, torre e contexto verde reais, sem inverter a imagem.",
+    "assetSha256": "6e566cd3bf884688861ebe02b7900ac1056a05a6eb19cfd73a0904b7e7185cb9",
+    "minimumLongEdge": 1024,
+    "latitude": 12.561218,
+    "longitude": -81.717098
   },
   "san-andres/neighborhood-detail-3": {
     "city": "san-andres",
@@ -26510,20 +26547,31 @@
   "lima/neighborhood-2": {
     "city": "lima",
     "slot": "neighborhood-2",
-    "query": "San Isidro Lima",
     "path": "/images/destinations/lima/curated-neighborhood-2.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:lima/neighborhood-2",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "San Isidro",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Parque_Grecia%2C_Lima_2.jpg",
+    "title": "File:Parque Grecia, Lima 2.jpg",
+    "author": "Privado (imagen donada al publicador)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Greece Park in San Isidro, Lima",
+    "categories": "Self-published work|Parks in San Isidro District|Embassy of Greece, Lima",
+    "date": "2023-04-25 11:52:41",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Parque_Grecia%2C_Lima_2.jpg/3840px-Parque_Grecia%2C_Lima_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Parque_Grecia%2C_Lima_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1350
+    ],
+    "originalDimensions": [
+      4032,
+      2268
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Parque Grecia em San Isidro, Lima, confirmado pela descricao e categorias da fonte; monumento e parque reais do bairro, fotografia diurna nitida.",
+    "assetSha256": "f8e63e6b88ac51cba4c32b5fd65cc852cbbd33e5b4aa79833a0db3bebe989a05",
+    "minimumLongEdge": 1024
   },
   "lima/neighborhood-detail-2": {
     "city": "lima",
@@ -26614,20 +26662,33 @@
   "lima/trip-0": {
     "city": "lima",
     "slot": "trip-0",
-    "query": "Lima Peru Miraflores day trip 0",
     "path": "/images/destinations/lima/curated-trip-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:lima/trip-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Arredores de Lima",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Templo_del_sol_frente_principal_con_vista_al_mar.jpg",
+    "title": "File:Templo del sol frente principal con vista al mar.jpg",
+    "author": "Bicefalico",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Parte con vista al mar del templo del sol,   el cual se encuentra en el sitio Arqueológico de Pachacmac",
+    "categories": "CC-Zero|Self-published work|Files with coordinates missing SDC location of creation|Templo del Sol (Pachacamac)",
+    "date": "2025-11-02 15:23:19",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Templo_del_sol_frente_principal_con_vista_al_mar.jpg/3840px-Templo_del_sol_frente_principal_con_vista_al_mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Templo_del_sol_frente_principal_con_vista_al_mar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      4000,
+      3000
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Templo do Sol no sitio arqueologico de Pachacamac, com muralhas e alvenaria visiveis; fonte descreve a frente com vista ao mar. Atracao real do passeio regional.",
+    "assetSha256": "fbeb32bcfa2fc06ef3ac4293f081184a7e45ae9b1ea53f28fbc01db8b1fdc770",
+    "minimumLongEdge": 1024,
+    "latitude": -12.271799,
+    "longitude": -76.897136
   },
   "lima/trip-1": {
     "city": "lima",
@@ -28990,20 +29051,31 @@
   "assuncao/home": {
     "city": "assuncao",
     "slot": "home",
-    "query": "Asuncion Paraguay landmark",
     "path": "/images/destinations/assuncao/curated-home.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:assuncao/home",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Assunção",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:National_Pantheon_of_the_Heroes%2C_Asunci%C3%B3n%2C_Paraguay.jpg",
+    "title": "File:National Pantheon of the Heroes, Asunción, Paraguay.jpg",
+    "author": "CivArmy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "National Pantheon of the Heroes, Asunción, Paraguay",
+    "categories": "Panteón Nacional de los Héroes|Self-published work|Paraguay photographs taken on 2012-06-16|2012 in Asunción",
+    "date": "2012-06-16 10:11:44",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/National_Pantheon_of_the_Heroes%2C_Asunci%C3%B3n%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/National_Pantheon_of_the_Heroes%2C_Asunci%C3%B3n%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      2560,
+      1920
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Fachada completa do Panteon Nacional dos Herois em Assuncao com cupula, jardim e ceu azul; fotografia real de 2012 identificando o destino, orientacao normal.",
+    "assetSha256": "f79c1440f8d47d47ff773616e7750c86d18f738a020bed5bd3a838f9f3e961e6",
+    "minimumLongEdge": 1600
   },
   "assuncao/guide-card": {
     "city": "assuncao",
@@ -29026,20 +29098,33 @@
   "assuncao/guide-highlight": {
     "city": "assuncao",
     "slot": "guide-highlight",
-    "query": "Asuncion Paraguay panorama",
     "path": "/images/destinations/assuncao/curated-guide-highlight.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:assuncao/guide-highlight",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Assunção",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg",
+    "title": "File:Panteón nacional de los Héroes - Paraguay.jpg",
+    "author": "Garcia.dennis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Panteón de los Héroes en centro histórico de Asunción.",
+    "categories": "Panteón Nacional de los Héroes|Self-published work|Colonnades in Paraguay|Uploaded with Mobile/Android|Uploaded with Mobile/Android (Nov 2017-Aug 2019)|Files with coordinates missing SDC location of creation|Photographs taken on 2018-10-29|Statues in Asunción|Government buildings in Asunción",
+    "date": "29 October 2018 (according to Exif data)",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg/3840px-Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      5120,
+      3840
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Colunata e fachada do Panteon dos Herois no centro historico de Assuncao, fotografia real de 2018; destaque arquitetonico reconhecivel e orientacao correta.",
+    "assetSha256": "0ac4281c0ca57598e1841cd5495f64267dd38fc60d6c635e7c5253a1093fbb65",
+    "minimumLongEdge": 1600,
+    "latitude": -25.282017,
+    "longitude": -57.63501
   },
   "assuncao/home-slide": {
     "city": "assuncao",
@@ -29225,20 +29310,31 @@
   "assuncao/tips": {
     "city": "assuncao",
     "slot": "tips",
-    "query": "Asuncion Paraguay traveler tip",
     "path": "/images/destinations/assuncao/curated-tips.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:assuncao/tips",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Dicas importantes",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_L%C3%B3pez_2023.jpg",
+    "title": "File:Palacio de López 2023.jpg",
+    "author": "總統府",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Vice President Lai attends the inauguration of President Santiago Peña Palacios of the Republic of Paraguay and other celebratory events. (2023/08/16)\nOfficial Photo by Shufu Liu / Office of the President\n授權方式及範圍：中華民國總統府│政府網站資料開放宣告\nAuthorization Method & Scope: \n\nOffice of the President, Republic of China (Taiwan) | Government Website Open Information Announcement",
+    "categories": "Palacio de los López|Flickr images reviewed by FlickreviewR 2|Photographs by Liu Shu fu|Images from the Taiwan Presidential Office Flickr stream",
+    "date": "2023-08-16 00:04:32",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Palacio_de_L%C3%B3pez_2023.jpg/3840px-Palacio_de_L%C3%B3pez_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Palacio_de_L%C3%B3pez_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "originalDimensions": [
+      5309,
+      3539
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Palacio de Lopez fotografado em 2023, com fachada e bandeira paraguaia; a fonte oficial identifica a visita presidencial ao Paraguai. Foto real do destino, orientacao correta.",
+    "assetSha256": "645e5265fd49a5b0604d23b762ea9d3eea338094c95be3951ee8c544930e3ea8",
+    "minimumLongEdge": 1024
   },
   "assuncao/attraction-0": {
     "city": "assuncao",
@@ -29291,20 +29387,31 @@
   "assuncao/map-list-0": {
     "city": "assuncao",
     "slot": "map-list-0",
-    "query": "Assunção Palacio de López",
     "path": "/images/destinations/assuncao/curated-map-list-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:assuncao/map-list-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Palacio de López",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:PalacioLopez.jpg",
+    "title": "File:PalacioLopez.jpg",
+    "author": "Iwan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Palacio López",
+    "categories": "GFDL|Palacio de los López|CC-BY-SA-3.0,2.5,2.0,1.0|Parks in Paraguay|License migration redundant|Self-published work|Files from Wikivoyage Shared|Files by Wikivoyage user (not yet sorted)|Files by Wikivoyage user Iwan",
+    "date": "18 April 2009 (original upload date)",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/PalacioLopez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/PalacioLopez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      1458,
+      1000
+    ],
+    "originalDimensions": [
+      1458,
+      1000
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Palacio Lopez em vista frontal com jardins, torre e bandeira paraguaia; marco real da atracao, fonte licenciada, orientacao correta para miniatura de mapa.",
+    "assetSha256": "aa91976d1ea3adc88a02c785123963ec87c6d10dcafb55176585f05d17b18fe8",
+    "minimumLongEdge": 1024
   },
   "assuncao/attraction-1": {
     "city": "assuncao",
@@ -31379,20 +31486,31 @@
   "bogota/map-list-5": {
     "city": "bogota",
     "slot": "map-list-5",
-    "query": "Bogotá Jardín Botánico",
     "path": "/images/destinations/bogota/curated-map-list-5.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:bogota/map-list-5",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Jardín Botánico",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Passiflora_violacea_en_JBB.jpg",
+    "title": "File:Passiflora violacea en JBB.jpg",
+    "author": "Eumastacidae",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Passiflora violacea en el Jardín Botánico de Bogotá",
+    "categories": "Passifloraceae|Passiflora × violacea|Bogotá|Jardín Botánico de Bogotá|Self-published work|Images from Wiki Loves Earth missing SDC location of creation|Images from Wiki Loves Earth missing SDC source of file|Images from Wiki Loves Earth missing SDC creator|Images from Wiki Loves Earth missing SDC participant in|Uploaded via Campaign:wle-co|Images from Wiki Loves Earth 2026|Images from Wiki Loves Earth 2026 in Colombia",
+    "date": "2025-03-25",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Passiflora_violacea_en_JBB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Passiflora_violacea_en_JBB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      960,
+      1280
+    ],
+    "originalDimensions": [
+      960,
+      1280
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Passiflora violacea fotografada no Jardin Botanico de Bogota, comprovado na descricao e categorias da fonte. Representa a colecao botanica real da atracao, com flor nitida e orientacao normal.",
+    "assetSha256": "7b396fdca71352f9b2c8300ae10b8c77bf7afbb065bb0d18f958f1e609fe2bd8",
+    "minimumLongEdge": 1024
   },
   "bogota/day-0": {
     "city": "bogota",
@@ -61362,20 +61480,33 @@
   "chicago/map-attraction-0": {
     "city": "chicago",
     "slot": "map-attraction-0",
-    "query": "Millennium Park / Cloud Gate",
     "path": "/images/destinations/chicago/curated-map-attraction-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:chicago/map-attraction-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Millennium Park / Cloud Gate",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Millennium_park%2Cchicago.JPG",
+    "title": "File:Millennium park,chicago.JPG",
+    "author": "Behnazkhazai",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Grant Park",
+    "categories": "Taken with Sony DSC-W150|Jay Pritzker Pavilion|De minimis|Legacy at Millennium Park|Self-published work|National Register of Historic Places with known IDs|Images from Wiki Loves Monuments 2012|Images from Wiki Loves Monuments 2012 in the United States|March 2012 in Chicago|United States photographs taken on 2012-03-24|Incidental views of the Cloud Gate|WLM 2012 United States reviewed",
+    "date": "Taken on 24 March 2012, 22:50:11",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Millennium_park%2Cchicago.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Millennium_park%2Cchicago.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      3264,
+      2448
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Millennium Park com a estrutura do Pritzker Pavilion e skyline de Chicago, fotografia real do parque indicado no slot. Nao afirma mostrar Cloud Gate especificamente; orientacao correta.",
+    "assetSha256": "0efd3eae508ca2d693220a7e9a42a22347998eaa34f801d7c881e4a7207e5134",
+    "minimumLongEdge": 1024,
+    "latitude": 41.875278,
+    "longitude": -87.618056
   },
   "chicago/map-list-0": {
     "city": "chicago",
@@ -62755,20 +62886,33 @@
   "chicago/hotel-list-3": {
     "city": "chicago",
     "slot": "hotel-list-3",
-    "query": "Chicago accommodation 3",
     "path": "/images/destinations/chicago/curated-hotel-list-3.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:chicago/hotel-list-3",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Hotel em West Side",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Wicker_Park_Historic_District_A_Chicago_IL.jpg",
+    "title": "File:Wicker Park Historic District A Chicago IL.jpg",
+    "author": "Andrew Jameson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Wicker Park Historic District, Milwaukee south of North, Chicago IL",
+    "categories": "GFDL|Taken with Nikon D60|Wicker Park, Chicago|License migration redundant|National Register of Historic Places in Chicago|Milwaukee Avenue (Chicago)|Self-published work|National Register of Historic Places with known IDs",
+    "date": "2010-08-28",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Wicker_Park_Historic_District_A_Chicago_IL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Wicker_Park_Historic_District_A_Chicago_IL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1690
+    ],
+    "originalDimensions": [
+      2488,
+      1752
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Fachadas e comercio do Wicker Park Historic District, West Side de Chicago, em foto diurna nitida; paisagem regional para hospedagem ilustrativa.",
+    "assetSha256": "220eec3aee618e04f2aef4c72b570c500d1b4279430f1513cfab5fc1b713ce9c",
+    "minimumLongEdge": 1024,
+    "latitude": 41.907222,
+    "longitude": -87.672222
   },
   "las-vegas/hero": {
     "city": "las-vegas",

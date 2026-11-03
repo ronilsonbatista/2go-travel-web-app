@@ -1,0 +1,459 @@
+[
+  {
+    "key": "bogota/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Bogotá: miniatura da home",
+    "path": "/images/destinations/bogota/curated-home-thumb.jpg",
+    "pool": "sky",
+    "status": "pending-visual-review",
+    "title": "File:Horizonte bogotá.jpg",
+    "imageinfo": {
+      "size": 3819636,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Horizonte_bogot%C3%A1.jpg/3840px-Horizonte_bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Horizonte_bogot%C3%A1.jpg/3840px-Horizonte_bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Horizonte_bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Horizonte_bogot%C3%A1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149606572",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-21 21:43:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Horizonte bogotá",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "La Calera, Colombia|Self-published work|Landscapes of Colombia|Clouds in Colombia|Uploaded with Mobile/Android|Files with coordinates missing SDC location of creation|Photographs taken on 2024-06-07|Landscapes of Bogotá",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "4.675734",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.023812",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vista del horizonte bogotano desde el Mirador La Calera.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "7 June 2024 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:HaHa_Calabacita&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:HaHa Calabacita (page does not exist)\">HaHa Calabacita</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/bogota/home-thumb.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Horizonte_bogot%C3%A1.jpg/3840px-Horizonte_bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7409d7be16fb39644342c01eac7cca8eb50a11ab773ba91d8ac45610f70fc348"
+  },
+  {
+    "key": "bogota/map-attraction-3",
+    "slot": "map-attraction-3",
+    "topic": "Usaquén",
+    "path": "/images/destinations/bogota/curated-map-attraction-3.jpg",
+    "pool": "usaquen",
+    "status": "pending-visual-review",
+    "title": "File:\"Mariposa\" barrio Usaquén.jpg",
+    "imageinfo": {
+      "size": 116676,
+      "width": 1280,
+      "height": 963,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%22Mariposa%22_barrio_Usaqu%C3%A9n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1806,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%22Mariposa%22_barrio_Usaqu%C3%A9n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1806
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%22Mariposa%22_barrio_Usaqu%C3%A9n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%22Mariposa%22_barrio_Usaqu%C3%A9n.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146808772",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-03-27 02:31:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "\"Mariposa\" barrio Usaquén",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Landscapes of Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Hogares colombianos, pintados con el fin de poder crear una forma de mariposa , en una toma panorámica",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-03-26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Astronatas123&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Astronatas123 (page does not exist)\">Astronatas123</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/bogota/map-attraction-3.jpg",
+    "dimensions": [
+      1280,
+      963
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%22Mariposa%22_barrio_Usaqu%C3%A9n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "0c326035847dfdf8cd0c8313b643a070b94b27b016c981b30e9702e0e5169d76"
+  },
+  {
+    "key": "bogota/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Norte",
+    "path": "/images/destinations/bogota/curated-hotel-list-1.jpg",
+    "pool": "usaquen",
+    "status": "pending-visual-review",
+    "title": "File:Norte de Bogotá y la luna.jpeg",
+    "imageinfo": {
+      "size": 2453393,
+      "width": 3264,
+      "height": 2448,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Norte_de_Bogot%C3%A1_y_la_luna.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Norte_de_Bogot%C3%A1_y_la_luna.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Norte_de_Bogot%C3%A1_y_la_luna.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Norte_de_Bogot%C3%A1_y_la_luna.jpeg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=50698477",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-08-15 22:34:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Norte de Bogotá y la luna",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Usaquén|Self-published work|Uploaded with Mobile/Android|Uploaded with Mobile/Android (Jul 2016 - Jun 2017)|Photographs taken on 2016-08-15",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "nortezbxbd",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "15 August 2016 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:EEIM\" title=\"User:EEIM\">EEIM</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/bogota/hotel-list-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Norte_de_Bogot%C3%A1_y_la_luna.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "dd7c1eab19ba0a9c0aaa21f30dc8dec5badcc5fc210edea1792d552d31295426"
+  },
+  {
+    "key": "bogota/map-list-5",
+    "slot": "map-list-5",
+    "topic": "Jardín Botánico",
+    "path": "/images/destinations/bogota/curated-map-list-5.jpg",
+    "pool": "botanic",
+    "status": "pending-visual-review",
+    "title": "File:Passiflora violacea en JBB.jpg",
+    "imageinfo": {
+      "size": 143883,
+      "width": 960,
+      "height": 1280,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Passiflora_violacea_en_JBB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Passiflora_violacea_en_JBB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Passiflora_violacea_en_JBB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Passiflora_violacea_en_JBB.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192548911",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-05-21 18:03:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Passiflora violacea en JBB",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Passifloraceae|Passiflora × violacea|Bogotá|Jardín Botánico de Bogotá|Self-published work|Images from Wiki Loves Earth missing SDC location of creation|Images from Wiki Loves Earth missing SDC source of file|Images from Wiki Loves Earth missing SDC creator|Images from Wiki Loves Earth missing SDC participant in|Uploaded via Campaign:wle-co|Images from Wiki Loves Earth 2026|Images from Wiki Loves Earth 2026 in Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Passiflora violacea en el Jardín Botánico de Bogotá",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-03-25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Eumastacidae&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Eumastacidae (page does not exist)\">Eumastacidae</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/bogota/map-list-5.jpg",
+    "dimensions": [
+      960,
+      1280
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Passiflora_violacea_en_JBB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "7b396fdca71352f9b2c8300ae10b8c77bf7afbb065bb0d18f958f1e609fe2bd8"
+  }
+]
