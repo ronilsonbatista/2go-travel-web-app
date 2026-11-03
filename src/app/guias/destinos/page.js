@@ -88,11 +88,9 @@ function GuiasDestinosCatalog() {
   const activeCountry = searchParams.get('pais') || null;
   const activeTags = useMemo(() => parseTags(searchParams.get('tag')), [searchParams]);
   const statusFilter = searchParams.get('status') || 'all';
-  const [searchQuery, setSearchQuery] = useState(urlQuery);
-
-  useEffect(() => {
-    setSearchQuery(urlQuery);
-  }, [urlQuery]);
+  // Local draft while typing; null means "follow URL".
+  const [draftQuery, setDraftQuery] = useState(null);
+  const searchQuery = draftQuery ?? urlQuery;
 
   const updateParams = useCallback(
     (patch, { replace = true } = {}) => {
@@ -115,14 +113,14 @@ function GuiasDestinosCatalog() {
   );
 
   useEffect(() => {
-    const trimmed = searchQuery.trim();
-    const current = urlQuery.trim();
-    if (trimmed === current) return undefined;
+    if (draftQuery == null) return undefined;
+    const trimmed = draftQuery.trim();
+    if (trimmed === urlQuery.trim()) return undefined;
     const id = setTimeout(() => {
       updateParams({ q: trimmed || null });
     }, 250);
     return () => clearTimeout(id);
-  }, [searchQuery, urlQuery, updateParams]);
+  }, [draftQuery, urlQuery, updateParams]);
 
   const countriesInScope = useMemo(() => {
     const base = activeRegion
@@ -169,7 +167,7 @@ function GuiasDestinosCatalog() {
     statusFilter !== 'all';
 
   const clearFilters = () => {
-    setSearchQuery('');
+    setDraftQuery(null);
     updateParams({ q: null, regiao: null, pais: null, tag: null, status: null });
   };
 
@@ -182,17 +180,17 @@ function GuiasDestinosCatalog() {
 
   const tagLabel = (id) => TAG_OPTIONS.find((t) => t.id === id)?.label || id;
 
-  // Draft state for mobile sheet (apply on confirm)
-  const [draftCountry, setDraftCountry] = useState(activeCountry);
-  const [draftTags, setDraftTags] = useState(activeTags);
-  const [draftStatus, setDraftStatus] = useState(statusFilter);
+  // Draft state for mobile sheet (apply on confirm) — seeded when sheet opens
+  const [draftCountry, setDraftCountry] = useState(null);
+  const [draftTags, setDraftTags] = useState([]);
+  const [draftStatus, setDraftStatus] = useState('all');
 
-  useEffect(() => {
-    if (!sheetOpen) return;
+  const openSheet = () => {
     setDraftCountry(activeCountry);
     setDraftTags(activeTags);
     setDraftStatus(statusFilter);
-  }, [sheetOpen, activeCountry, activeTags, statusFilter]);
+    setSheetOpen(true);
+  };
 
   useEffect(() => {
     if (!sheetOpen) return undefined;
@@ -257,14 +255,14 @@ function GuiasDestinosCatalog() {
                   <input
                     type="search"
                     value={searchQuery}
-                    onChange={(event) => setSearchQuery(event.target.value)}
+                    onChange={(event) => setDraftQuery(event.target.value)}
                     placeholder="Buscar cidade, país ou tema…"
                     className="w-full rounded-full border border-border-gray/80 bg-[#F7F8FA] py-3 pl-11 pr-4 text-sm text-brand-navy placeholder:text-text-muted/70 focus:border-brand-navy focus:outline-none"
                   />
                 </div>
                 <button
                   type="button"
-                  onClick={() => setSheetOpen(true)}
+                  onClick={openSheet}
                   className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full border border-border-gray/80 bg-white px-4 text-sm font-extrabold text-brand-navy lg:hidden"
                 >
                   <SlidersHorizontal className="h-4 w-4" />
@@ -286,7 +284,11 @@ function GuiasDestinosCatalog() {
                     <button
                       key={item.label}
                       type="button"
-                      onClick={() => updateParams({ q: null, regiao: null, pais: null, tag: null, status: null, ...item.params })}
+                      onClick={() => {
+                        const nextQ = item.params.q ?? null;
+                        setDraftQuery(nextQ);
+                        updateParams({ q: null, regiao: null, pais: null, tag: null, status: null, ...item.params });
+                      }}
                       className="min-h-9 rounded-full border border-dashed border-border-gray/80 bg-white px-3 py-1.5 text-xs font-bold text-brand-navy/80 hover:border-brand-orange hover:text-brand-orange"
                     >
                       {item.label}
@@ -379,7 +381,7 @@ function GuiasDestinosCatalog() {
                 <ActiveChip
                   label={`Busca: ${searchQuery.trim()}`}
                   onRemove={() => {
-                    setSearchQuery('');
+                    setDraftQuery(null);
                     updateParams({ q: null });
                   }}
                 />

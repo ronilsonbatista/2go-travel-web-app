@@ -39,25 +39,26 @@ export default function CountryCombobox({
       if (!rootRef.current?.contains(event.target)) {
         setOpen(false);
         setQuery('');
+        setHighlight(0);
       }
     };
     document.addEventListener('mousedown', onPointer);
     return () => document.removeEventListener('mousedown', onPointer);
   }, [open]);
 
-  useEffect(() => {
-    setHighlight(0);
-  }, [query, open, countries]);
+  const activeHighlight = options.length === 0 ? 0 : Math.min(highlight, options.length - 1);
 
   const select = (next) => {
     onChange?.(next);
     setOpen(false);
     setQuery('');
+    setHighlight(0);
   };
 
   const onKeyDown = (event) => {
     if (!open && (event.key === 'ArrowDown' || event.key === 'Enter')) {
       event.preventDefault();
+      setHighlight(0);
       setOpen(true);
       return;
     }
@@ -67,6 +68,7 @@ export default function CountryCombobox({
       event.preventDefault();
       setOpen(false);
       setQuery('');
+      setHighlight(0);
       return;
     }
     if (event.key === 'ArrowDown') {
@@ -81,7 +83,7 @@ export default function CountryCombobox({
     }
     if (event.key === 'Enter') {
       event.preventDefault();
-      const option = options[highlight];
+      const option = options[activeHighlight];
       if (option) select(option.value);
     }
   };
@@ -106,9 +108,13 @@ export default function CountryCombobox({
           placeholder={value || placeholder}
           onChange={(event) => {
             setQuery(event.target.value);
+            setHighlight(0);
             if (!open) setOpen(true);
           }}
-          onFocus={() => setOpen(true)}
+          onFocus={() => {
+            setHighlight(0);
+            setOpen(true);
+          }}
           onKeyDown={onKeyDown}
           className="w-full rounded-full border border-border-gray/80 bg-white py-2.5 pl-10 pr-16 text-sm text-brand-navy placeholder:text-text-muted/70 focus:border-brand-navy focus:outline-none"
         />
@@ -148,7 +154,7 @@ export default function CountryCombobox({
           ) : (
             options.map((option, index) => {
               const selected = option.value === value || (!option.value && !value);
-              const active = index === highlight;
+              const active = index === activeHighlight;
               return (
                 <li key={option.value ?? '__all__'} role="option" aria-selected={selected}>
                   <button
