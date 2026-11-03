@@ -1,0 +1,27 @@
+{
+  "city": "fernando-de-noronha",
+  "region": "americas",
+  "center": [
+    -3.8547,
+    -32.4283,
+    8
+  ],
+  "pools": {
+    "airport": {
+      "query": "incategory:\"Fernando de Noronha Airport\"",
+      "required": [
+        "fernando de noronha|fen"
+      ],
+      "preferredTitles": [
+        "File:Fernando de Noronha Flughafen.jpg"
+      ],
+      "limit": 50,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "reject": "map|diagram|portrait|construction",
+      "slots": [
+        "mistakes"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "city": "san-andres",
+  "region": "americas",
+  "center": [
+    12.5847,
+    -81.7006,
+    30
+  ],
+  "pools": {
+    "local-food": {
+      "query": "incategory:\"San Andrés Island\"",
+      "required": [
+        "rondon"
+      ],
+      "requiredTitle": "rondon",
+      "preferredTitles": [
+        "File:Rondon Dish Preparation.jpg"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "slots": [
+        "costs"
+      ]
+    },
+    "island-views": {
+      "query": "incategory:\"San Andrés Island\"",
+      "required": [
+        "san andres"
+      ],
+      "requiredTitle": "panoram|view|zona hotelera|mar de los siete",
+      "preferredTitles": [
+        "File:Panorámica Zona Hotelera.JPG",
+        "File:Panorámica Zona Hotelera 1.JPG",
+        "File:SanAndres-Island-View.jpg"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "satellite|iss0|map|montage|portrait|postcard|engraving|painting|la palma|tenerife",
+      "slots": [
+        "home",
+        "guide-card",
+        "home-thumb"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "city": "porto-rico",
+  "region": "americas",
+  "center": [
+    18.0997,
+    -65.4476,
+    20
+  ],
+  "pools": {
+    "bioluminescent": {
+      "query": "\"Mosquito bay\" -intitle:Guardsmen",
+      "required": [
+        "vieques",
+        "biolumin|mosquito"
+      ],
+      "requiredTitle": "mosquito bay|biolum",
+      "preferredTitles": [
+        "File:Mosquito bay, Bioluminescent bay, Vieques - panoramio (1).jpg",
+        "File:Mosquito bay, Bioluminescent bay, Vieques - panoramio.jpg"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "reject": "guardsmen|military|construction|map|drawing|illustration|painting|diagram|postcard",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ]
+    }
+  }
+}

@@ -29,6 +29,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-island-category-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Panorámica Zona Hotelera.JPG",
+        "pool": "island-views",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-resume-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Setophaga aestiva Reinita dorada Yellow Warbler (34497907706).jpg",
@@ -50,128 +57,14 @@
         "notes": "Mar sob céu cinzento sem contexto distintivo; composição insuficiente para destaque HQ da home."
       },
       {
-        "bundle": "regional-san-andres-resume-2026-11-03",
+        "bundle": "regional-san-andres-island-category-2026-11-03",
         "decision": "rejected",
-        "notes": "Retrato de ave em close, sem paisagem representativa do destino."
-      }
-    ]
-  },
-  {
-    "key": "san-andres/guide-card",
-    "city": "san-andres",
-    "slot": "guide-card",
-    "topic": "San Andrés",
-    "path": "/images/destinations/san-andres/curated-guide-card.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-san-andres-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Insulo San Andrés ĉe Kolombio Wikivacaciones 2021 24.jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-resume-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "spratt",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:La Palma - Barlovento + Laguna (LP-4 in San Andres y Sauces) 01 ies.jpg",
-        "pool": "highlight-guide-card",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-san-andres-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Mural de rua sem contexto suficiente do destino; inadequado para destaque geral do guia."
-      },
-      {
-        "bundle": "regional-san-andres-resume-2026-11-03",
-        "decision": "pending",
-        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
-      },
-      {
-        "bundle": "regional-san-andres-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "San Andrés y Sauces em La Palma, Espanha; país e destino errados para ilha colombiana."
-      }
-    ]
-  },
-  {
-    "key": "san-andres/home-thumb",
-    "city": "san-andres",
-    "slot": "home-thumb",
-    "topic": "San Andrés: miniatura da home",
-    "path": "/images/destinations/san-andres/curated-home-thumb.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-san-andres-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Insulo San Andrés ĉe Kolombio Wikivacaciones 2021 17.jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-resume-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Calidris melanotos Playero Pectoral Pectoral Sandpiper (15563768012).jpg",
-        "pool": "island",
-        "error": null
-      },
-      {
-        "bundle": "regional-san-andres-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-thumb",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-san-andres-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Mesma sequência da orla em contraluz e composição quase idêntica; evitar repetição visual e baixa legibilidade."
+        "notes": "Mesmo ponto e sequência muito próximos ao guide-card, com excesso de céu; manter apenas o enquadramento mais legível e buscar outra foto para home."
       },
       {
         "bundle": "regional-san-andres-resume-2026-11-03",
         "decision": "rejected",
-        "notes": "Retrato de ave em close, sem composicao de destino para miniatura."
+        "notes": "Retrato de ave em close, sem paisagem representativa do destino."
       }
     ]
   },
@@ -198,6 +91,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-current-currency-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Alias el \"Puma\", cabecilla armado de \"los Paisas\", ahora aliado con \"Los urabeños\", fue capturado en el Bajo Cauca (8023240127).jpg",
+        "pool": "current-currency",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-support-v1",
         "status": "no-candidate",
         "title": null,
@@ -213,6 +113,11 @@
       }
     ],
     "decisions": [
+      {
+        "bundle": "regional-san-andres-current-currency-2026-11-03",
+        "decision": "rejected",
+        "notes": "Fonte descreve ocorrência policial ou retrato de suspeito; pesos aparecem apenas no texto sobre recompensa/arrecadação. A fotografia não representa moeda nem pagamentos de viagem."
+      },
       {
         "bundle": "regional-san-andres-support-v1",
         "decision": "pending",
@@ -400,6 +305,13 @@
         "error": null
       },
       {
+        "bundle": "regional-san-andres-island-category-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Rondon Dish Preparation.jpg",
+        "pool": "local-food",
+        "error": null
+      },
+      {
         "bundle": "regional-san-andres-support-v1",
         "status": "no-candidate",
         "title": null,
@@ -415,6 +327,11 @@
       }
     ],
     "decisions": [
+      {
+        "bundle": "regional-san-andres-island-category-2026-11-03",
+        "decision": "rejected",
+        "notes": "Preparo de rondón local é real, mas panela e comida aparecem pequenas e materiais no fundo dominam; prato pouco legível para o card de gastronomia."
+      },
       {
         "bundle": "regional-san-andres-support-v1",
         "decision": "pending",
@@ -1473,6 +1390,13 @@
         "error": null
       },
       {
+        "bundle": "regional-lima-current-currency-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "current-currency",
+        "error": null
+      },
+      {
         "bundle": "regional-lima-support-v1",
         "status": "pending-visual-review",
         "title": "File:Peru 1 Centavo coin of 1944 reverse.jpg",
@@ -1552,106 +1476,6 @@
         "bundle": "regional-lima-visitor-documents-simple-2026-11-03",
         "decision": "rejected",
         "notes": "Foto mistura modelos antigos, incluindo passaporte verde, sem modelo brasileiro atual identificável; manter gap em vez de orientar com documento antigo."
-      }
-    ]
-  },
-  {
-    "key": "lima/mistakes",
-    "city": "lima",
-    "slot": "mistakes",
-    "topic": "Erros comuns",
-    "path": "/images/destinations/lima/curated-mistakes.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-lima-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-resume-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-support-v1",
-        "status": "pending-visual-review",
-        "title": "File:Jorge Chavez Internacional Airport (SPJC).jpg",
-        "pool": "arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-lima-resume-2026-11-03",
-        "decision": "pending",
-        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
-      },
-      {
-        "bundle": "regional-lima-support-v1",
-        "decision": "rejected",
-        "notes": "Acesso/estacionamento do terminal antigo, encerrado em 1/6/2025 conforme MTC: https://www.gob.pe/institucion/mtc/noticias/1179258-antiguo-aeropuerto-jorge-chavez-cerro-su-ciclo-tras-movilizar-cerca-de-400-millones-de-pasajeros"
-      }
-    ]
-  },
-  {
-    "key": "lima/day-0",
-    "city": "lima",
-    "slot": "day-0",
-    "topic": "Chegada em Lima",
-    "path": "/images/destinations/lima/curated-day-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-lima-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-resume-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-support-v1",
-        "status": "pending-visual-review",
-        "title": "File:Aeropuerto Internacional Jorge Chávez en 2024.jpg",
-        "pool": "arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-lima-resume-2026-11-03",
-        "decision": "pending",
-        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
-      },
-      {
-        "bundle": "regional-lima-support-v1",
-        "decision": "rejected",
-        "notes": "Terminal antigo de Jorge Chavez: fechado em 1/6/2025, conforme MTC: https://www.gob.pe/institucion/mtc/noticias/1179258-antiguo-aeropuerto-jorge-chavez-cerro-su-ciclo-tras-movilizar-cerca-de-400-millones-de-pasajeros"
       }
     ]
   },
@@ -3185,6 +3009,13 @@
         "error": null
       },
       {
+        "bundle": "regional-bogota-current-currency-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Colombian Police (6904554441).jpg",
+        "pool": "current-currency",
+        "error": null
+      },
+      {
         "bundle": "regional-bogota-support-v1",
         "status": "no-candidate",
         "title": null,
@@ -3200,6 +3031,11 @@
       }
     ],
     "decisions": [
+      {
+        "bundle": "regional-bogota-current-currency-2026-11-03",
+        "decision": "rejected",
+        "notes": "Fonte descreve ocorrência policial ou retrato de suspeito; pesos aparecem apenas no texto sobre recompensa/arrecadação. A fotografia não representa moeda nem pagamentos de viagem."
+      },
       {
         "bundle": "regional-bogota-support-v1",
         "decision": "pending",
@@ -3586,6 +3422,13 @@
         "error": null
       },
       {
+        "bundle": "regional-medellin-current-currency-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Alias el \"Puma\", cabecilla armado de \"los Paisas\", ahora aliado con \"Los urabeños\", fue capturado en el Bajo Cauca (8023247145).jpg",
+        "pool": "current-currency",
+        "error": null
+      },
+      {
         "bundle": "regional-medellin-support-v1",
         "status": "no-candidate",
         "title": null,
@@ -3601,6 +3444,11 @@
       }
     ],
     "decisions": [
+      {
+        "bundle": "regional-medellin-current-currency-2026-11-03",
+        "decision": "rejected",
+        "notes": "Fonte descreve ocorrência policial ou retrato de suspeito; pesos aparecem apenas no texto sobre recompensa/arrecadação. A fotografia não representa moeda nem pagamentos de viagem."
+      },
       {
         "bundle": "regional-medellin-support-v1",
         "decision": "pending",
@@ -4771,96 +4619,6 @@
         "status": "no-candidate",
         "title": null,
         "pool": "support-food",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-fernando-de-noronha-support-v1",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
-      }
-    ]
-  },
-  {
-    "key": "fernando-de-noronha/mistakes",
-    "city": "fernando-de-noronha",
-    "slot": "mistakes",
-    "topic": "Erros comuns",
-    "path": "/images/destinations/fernando-de-noronha/curated-mistakes.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-fernando-de-noronha-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-fernando-de-noronha-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-fernando-de-noronha-support-v1",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-fernando-de-noronha-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-fernando-de-noronha-support-v1",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
-      }
-    ]
-  },
-  {
-    "key": "fernando-de-noronha/day-0",
-    "city": "fernando-de-noronha",
-    "slot": "day-0",
-    "topic": "Chegada em Fernando de Noronha",
-    "path": "/images/destinations/fernando-de-noronha/curated-day-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-fernando-de-noronha-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-fernando-de-noronha-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-fernando-de-noronha-support-v1",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "arrival",
-        "error": null
-      },
-      {
-        "bundle": "regional-fernando-de-noronha-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-arrival",
         "error": null
       }
     ],
@@ -8303,6 +8061,13 @@
         "error": null
       },
       {
+        "bundle": "regional-porto-rico-exact-category-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Mosquito bay, Bioluminescent bay, Vieques - panoramio (1).jpg",
+        "pool": "bioluminescent",
+        "error": null
+      },
+      {
         "bundle": "regional-porto-rico-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Guardsmen begin work at Mosquito Bay, Vieques 140120-A-SM948-685.jpg",
@@ -8320,6 +8085,11 @@
         "bundle": "regional-porto-rico-completion-2026-11-03",
         "decision": "rejected",
         "notes": "Escavadeira e operação militar em Mosquito Bay; não representa a bioluminescência."
+      },
+      {
+        "bundle": "regional-porto-rico-exact-category-2026-11-03",
+        "decision": "rejected",
+        "notes": "Foto real da Mosquito Bay, porém céu escuro e barco desfocado dominam; bioluminescência e contexto da baía não ficam legíveis no card."
       },
       {
         "bundle": "regional-porto-rico-targeted-2026-11-03",
@@ -8358,6 +8128,13 @@
         "error": null
       },
       {
+        "bundle": "regional-porto-rico-exact-category-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Mosquito bay, Bioluminescent bay, Vieques - panoramio.jpg",
+        "pool": "bioluminescent",
+        "error": null
+      },
+      {
         "bundle": "regional-porto-rico-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Guardsmen begin work at Mosquito Bay, Vieques 140120-A-SM948-607.jpg",
@@ -8375,6 +8152,11 @@
         "bundle": "regional-porto-rico-completion-2026-11-03",
         "decision": "rejected",
         "notes": "Militar trabalhando em embarcação; não representa baía bioluminescente como atração."
+      },
+      {
+        "bundle": "regional-porto-rico-exact-category-2026-11-03",
+        "decision": "rejected",
+        "notes": "Vegetação iluminada por flash ocupa o primeiro plano e quase não há baía visível; inadequada para pin da atração."
       },
       {
         "bundle": "regional-porto-rico-targeted-2026-11-03",
@@ -8413,6 +8195,13 @@
         "error": null
       },
       {
+        "bundle": "regional-porto-rico-exact-category-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Mosquito bay, Bioluminescent bay, Vieques - panoramio (3).jpg",
+        "pool": "bioluminescent",
+        "error": null
+      },
+      {
         "bundle": "regional-porto-rico-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Guardsmen begin work at Mosquito Bay, Vieques 140120-A-SM948-794.jpg",
@@ -8430,6 +8219,11 @@
         "bundle": "regional-porto-rico-completion-2026-11-03",
         "decision": "rejected",
         "notes": "Embarcação militar transportando material; assunto não corresponde à bioluminescência."
+      },
+      {
+        "bundle": "regional-porto-rico-exact-category-2026-11-03",
+        "decision": "rejected",
+        "notes": "Enquadramento noturno escuro e muito próximo ao outro candidato do mesmo barco; leitura insuficiente para miniatura da baía bioluminescente."
       },
       {
         "bundle": "regional-porto-rico-targeted-2026-11-03",
@@ -8574,61 +8368,6 @@
     ]
   },
   {
-    "key": "havai/costs",
-    "city": "havai",
-    "slot": "costs",
-    "topic": "Pratos típicos de Havaí",
-    "path": "/images/destinations/havai/curated-costs.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-food",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Wiki Wiki Poke, Vienna.jpg",
-        "pool": "support-food",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-support-v1",
-        "status": "pending-visual-review",
-        "title": "File:Shrimp poke bowl at Treffi Verkkosaari.jpg",
-        "pool": "food",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Oferta thf.jpg",
-        "pool": "support-food",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Restaurante de poke em Viena, Áustria; país errado para pratos típicos do Havaí."
-      },
-      {
-        "bundle": "regional-havai-support-v1",
-        "decision": "rejected",
-        "notes": "Fonte identifica prato de restaurante Treffi Verkkosaari, sem comprovacao de culinaria fotografada no destino; preferir imagem local verificada."
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Pratos do restaurante The Hip Fish em Barcelona; país errado para gastronomia do Havaí, apesar da categoria Cuisine of Hawaii."
-      }
-    ]
-  },
-  {
     "key": "havai/map-attraction-1",
     "city": "havai",
     "slot": "map-attraction-1",
@@ -8689,66 +8428,6 @@
     ]
   },
   {
-    "key": "havai/attraction-5",
-    "city": "havai",
-    "slot": "attraction-5",
-    "topic": "North Shore",
-    "path": "/images/destinations/havai/curated-attraction-5.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havai",
-        "status": "pending-visual-review",
-        "title": "File:Shrimp farm in Kahuku on the North Shore of Oahu, Hawaii.jpg",
-        "pool": "attraction-5",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Fire Water Burn! (34015333800).jpg",
-        "pool": "attractions-attraction-5",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Hawaii - North Shore- Hitchin' a Ride (6615827351).jpg",
-        "pool": "attractions-attraction-5",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:North Shore Haleiwa Hawaii (33632860176).jpg",
-        "pool": "attractions-attraction-5",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havai",
-        "decision": "rejected",
-        "notes": "Fazenda de camarões sem representação suficiente das praias de North Shore."
-      },
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Close de sol e silhueta sem North Shore reconhecível; falta contexto geográfico da atração."
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Pessoa pedindo carona domina a imagem; não caracteriza a North Shore."
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Pranchas de surfe isoladas em loja; North Shore não é reconhecível como atração."
-      }
-    ]
-  },
-  {
     "key": "havai/neighborhood-0",
     "city": "havai",
     "slot": "neighborhood-0",
@@ -8805,56 +8484,6 @@
         "bundle": "regional-havai-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Pessoas fantasiadas em Halloween; retrato/evento sem contexto de Waikiki como bairro."
-      }
-    ]
-  },
-  {
-    "key": "havai/hotel-list-3",
-    "city": "havai",
-    "slot": "hotel-list-3",
-    "topic": "Hotel em Big Island",
-    "path": "/images/destinations/havai/curated-hotel-list-3.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-regions-hotels",
-        "status": "pending-visual-review",
-        "title": "File:Hawai'i.jpg",
-        "pool": "region-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Big Island Summit Winter 1971 (2).jpg",
-        "pool": "regions-hotels-region-3",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havai-regions-hotels",
-        "decision": "rejected",
-        "notes": "Vista orbital de toda a ilha, abstrata e com aparência cartográfica, pouco representativa para hospedagem."
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Foto de cume da Big Island em 1971, pré-1990 sem override; rejeitada."
       }
     ]
   },

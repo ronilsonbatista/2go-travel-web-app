@@ -1,32 +1,27 @@
 {
-  "baselineRef": "52d04e1",
-  "newApplied": 14,
+  "baselineRef": "b3bc591",
+  "newApplied": 9,
   "newKeys": [
-    "assuncao/guide-card",
-    "assuncao/home-slide",
-    "assuncao/intro",
-    "chicago/hotel-3",
-    "chicago/tips",
-    "cidade-do-mexico/guide-card",
-    "cidade-do-mexico/guide-highlight",
-    "cidade-do-mexico/home",
-    "cidade-do-mexico/home-slide",
-    "cidade-do-mexico/home-thumb",
-    "havana/guide-card",
-    "havana/guide-highlight",
-    "havana/home-slide",
-    "havana/home-thumb"
+    "fernando-de-noronha/day-0",
+    "fernando-de-noronha/mistakes",
+    "havai/attraction-5",
+    "havai/costs",
+    "havai/hotel-list-3",
+    "lima/day-0",
+    "lima/mistakes",
+    "san-andres/guide-card",
+    "san-andres/home-thumb"
   ],
-  "preservedSourceRecords": 2687,
+  "preservedSourceRecords": 2701,
   "changedPreservedMetadata": [],
   "changedPreservedBinaries": [],
   "auditIssuesInvolvingNewKeys": [],
-  "remaining": 4144,
+  "remaining": 4135,
   "regions": {
     "americas": {
       "label": "Américas",
-      "replaced": 1342,
-      "remaining": 194,
+      "replaced": 1351,
+      "remaining": 185,
       "complete": false
     },
     "europa": {

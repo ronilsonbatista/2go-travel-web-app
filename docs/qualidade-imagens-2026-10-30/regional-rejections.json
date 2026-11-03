@@ -7154,5 +7154,77 @@
     "sha256": "cf8fab1fdde8f77c892bbdf553c3de4e0ef0fabde097b942e8b6f721e7e68eca",
     "decision": "rejected",
     "notes": "Passaporte neozelandês com páginas carimbadas; documento de país errado para o visitante brasileiro."
+  },
+  {
+    "bundle": "regional-fernando-de-noronha-exact-category-2026-11-03",
+    "key": "fernando-de-noronha/mistakes",
+    "title": "File:Pátio aeronaves FEN-SBFN.jpg",
+    "sha256": "d8275f93e0b111e19e013f4cc2f9e3b25ad833d18e4bca2d30ff64e55bd978dc",
+    "decision": "rejected",
+    "notes": "Pátio e aeronaves aparecem pequenos, com primeiro plano muito subexposto; buscar enquadramento mais legível para erros comuns de chegada."
+  },
+  {
+    "bundle": "regional-porto-rico-exact-category-2026-11-03",
+    "key": "porto-rico/attraction-2",
+    "title": "File:Mosquito bay, Bioluminescent bay, Vieques - panoramio (1).jpg",
+    "sha256": "3b9f39e258170740309abfecc5372174ec5367f81fd4b5aeed23a02ab89b5d83",
+    "decision": "rejected",
+    "notes": "Foto real da Mosquito Bay, porém céu escuro e barco desfocado dominam; bioluminescência e contexto da baía não ficam legíveis no card."
+  },
+  {
+    "bundle": "regional-porto-rico-exact-category-2026-11-03",
+    "key": "porto-rico/map-attraction-2",
+    "title": "File:Mosquito bay, Bioluminescent bay, Vieques - panoramio.jpg",
+    "sha256": "57b33fb449467083e722364eafc46f40aba43f77641f5cc696d0a92e774b38c7",
+    "decision": "rejected",
+    "notes": "Vegetação iluminada por flash ocupa o primeiro plano e quase não há baía visível; inadequada para pin da atração."
+  },
+  {
+    "bundle": "regional-porto-rico-exact-category-2026-11-03",
+    "key": "porto-rico/map-list-2",
+    "title": "File:Mosquito bay, Bioluminescent bay, Vieques - panoramio (3).jpg",
+    "sha256": "67603b8e00f14c4b268cb12aed75a9f5d7c7fc7a8eb089e4e133c66c7a4fd1ae",
+    "decision": "rejected",
+    "notes": "Enquadramento noturno escuro e muito próximo ao outro candidato do mesmo barco; leitura insuficiente para miniatura da baía bioluminescente."
+  },
+  {
+    "bundle": "regional-san-andres-island-category-2026-11-03",
+    "key": "san-andres/costs",
+    "title": "File:Rondon Dish Preparation.jpg",
+    "sha256": "cb6a09beb4ff19fc52d19b2e745d5eb7a9101c66a5576228822e256a8cc41043",
+    "decision": "rejected",
+    "notes": "Preparo de rondón local é real, mas panela e comida aparecem pequenas e materiais no fundo dominam; prato pouco legível para o card de gastronomia."
+  },
+  {
+    "bundle": "regional-san-andres-island-category-2026-11-03",
+    "key": "san-andres/home",
+    "title": "File:Panorámica Zona Hotelera.JPG",
+    "sha256": "fa77ee353147470697ce0ced8e8328e62407f662e18f0797afd34bf228ca2add",
+    "decision": "rejected",
+    "notes": "Mesmo ponto e sequência muito próximos ao guide-card, com excesso de céu; manter apenas o enquadramento mais legível e buscar outra foto para home."
+  },
+  {
+    "bundle": "regional-bogota-current-currency-2026-11-03",
+    "key": "bogota/essential-moeda",
+    "title": "File:Colombian Police (6904554441).jpg",
+    "sha256": "1380058eaf0f6339160978ec437b231174e88582cd1aaa0b7ac08b814b94a305",
+    "decision": "rejected",
+    "notes": "Fonte descreve ocorrência policial ou retrato de suspeito; pesos aparecem apenas no texto sobre recompensa/arrecadação. A fotografia não representa moeda nem pagamentos de viagem."
+  },
+  {
+    "bundle": "regional-medellin-current-currency-2026-11-03",
+    "key": "medellin/essential-moeda",
+    "title": "File:Alias el \"Puma\", cabecilla armado de \"los Paisas\", ahora aliado con \"Los urabeños\", fue capturado en el Bajo Cauca (8023247145).jpg",
+    "sha256": "78cf7d5fef3876502f842673da1769566754c2d9224242befe81397b35fa3718",
+    "decision": "rejected",
+    "notes": "Fonte descreve ocorrência policial ou retrato de suspeito; pesos aparecem apenas no texto sobre recompensa/arrecadação. A fotografia não representa moeda nem pagamentos de viagem."
+  },
+  {
+    "bundle": "regional-san-andres-current-currency-2026-11-03",
+    "key": "san-andres/essential-moeda",
+    "title": "File:Alias el \"Puma\", cabecilla armado de \"los Paisas\", ahora aliado con \"Los urabeños\", fue capturado en el Bajo Cauca (8023240127).jpg",
+    "sha256": "e2b9a765c2373bf324880caf9f885e1d3f93aa15650a5e183d7775855d0ed612",
+    "decision": "rejected",
+    "notes": "Fonte descreve ocorrência policial ou retrato de suspeito; pesos aparecem apenas no texto sobre recompensa/arrecadação. A fotografia não representa moeda nem pagamentos de viagem."
   }
 ]

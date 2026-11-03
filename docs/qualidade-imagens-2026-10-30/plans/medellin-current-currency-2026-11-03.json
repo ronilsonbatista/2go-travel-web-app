@@ -1,0 +1,26 @@
+{
+  "city": "medellin",
+  "region": "americas",
+  "center": [
+    0,
+    0,
+    20040
+  ],
+  "pools": {
+    "current-currency": {
+      "query": "\"Colombia\" \"pesos\" \"2012\"",
+      "required": [
+        "colombia",
+        "peso|moneda|coin"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.6,
+      "maxRatio": 3.6,
+      "reject": "bank cheque|bond certificate|stock certificate|counterfeit|specimen|186[0-9]|187[0-9]|188[0-9]|189[0-9]|190[0-9]|191[0-9]|192[0-9]|193[0-9]|194[0-9]|195[0-9]|196[0-9]|197[0-9]|198[0-9]",
+      "slots": [
+        "essential-moeda"
+      ]
+    }
+  }
+}
