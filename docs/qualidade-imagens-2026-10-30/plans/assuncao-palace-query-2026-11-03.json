@@ -1,0 +1,27 @@
+{
+  "city": "assuncao",
+  "region": "americas",
+  "center": [
+    -25.3,
+    -57.6,
+    40
+  ],
+  "pools": {
+    "palacio": {
+      "query": "\"Palacio\" \"Lopez\" \"Asuncion\"",
+      "required": [
+        "palacio",
+        "lopez"
+      ],
+      "requiredTitle": "palacio.*lopez",
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 2.8,
+      "reject": "logo|logotipo|logomarca|emblem|escudo|painting|engraving|postcard|drawing|diagram|interior|19[0-8][0-9]",
+      "slots": [
+        "attraction-0"
+      ]
+    }
+  }
+}

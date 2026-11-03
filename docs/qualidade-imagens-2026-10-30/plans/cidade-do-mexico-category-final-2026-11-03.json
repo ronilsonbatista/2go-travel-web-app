@@ -1,0 +1,46 @@
+{
+  "city": "cidade-do-mexico",
+  "region": "americas",
+  "center": [
+    19.4326,
+    -99.1332,
+    65
+  ],
+  "pools": {
+    "zocalo": {
+      "query": "\"Metropolitan Cathedral of Mexico City\"",
+      "required": [
+        "mexico|mexic"
+      ],
+      "requiredTitle": "catedral|cathedral",
+      "locationPatterns": [
+        "mexico|mexic"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1,
+      "maxRatio": 2.8,
+      "slots": [
+        "map-attraction-0"
+      ]
+    },
+    "chapultepec": {
+      "query": "\"Chapultepec\" \"park\"",
+      "required": [
+        "chapultepec"
+      ],
+      "requiredTitle": "chapultepec",
+      "locationPatterns": [
+        "mexico|mexic"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1,
+      "maxRatio": 2.8,
+      "slots": [
+        "map-attraction-3",
+        "hotel-1"
+      ]
+    }
+  }
+}

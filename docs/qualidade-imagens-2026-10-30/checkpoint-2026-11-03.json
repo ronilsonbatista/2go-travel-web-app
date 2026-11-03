@@ -1,27 +1,25 @@
 {
-  "baselineRef": "b3bc591",
-  "newApplied": 9,
+  "baselineRef": "e41d129",
+  "newApplied": 7,
   "newKeys": [
-    "fernando-de-noronha/day-0",
-    "fernando-de-noronha/mistakes",
-    "havai/attraction-5",
-    "havai/costs",
-    "havai/hotel-list-3",
-    "lima/day-0",
-    "lima/mistakes",
-    "san-andres/guide-card",
-    "san-andres/home-thumb"
+    "assuncao/attraction-0",
+    "bahamas/home-thumb",
+    "cidade-do-mexico/map-attraction-0",
+    "havai/home-slide",
+    "havai/home-thumb",
+    "havai/map-attraction-1",
+    "havai/neighborhood-0"
   ],
-  "preservedSourceRecords": 2701,
+  "preservedSourceRecords": 2710,
   "changedPreservedMetadata": [],
   "changedPreservedBinaries": [],
   "auditIssuesInvolvingNewKeys": [],
-  "remaining": 4135,
+  "remaining": 4128,
   "regions": {
     "americas": {
       "label": "Américas",
-      "replaced": 1351,
-      "remaining": 185,
+      "replaced": 1358,
+      "remaining": 178,
       "complete": false
     },
     "europa": {

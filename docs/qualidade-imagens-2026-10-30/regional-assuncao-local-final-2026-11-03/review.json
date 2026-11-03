@@ -1,0 +1,265 @@
+[
+  {
+    "key": "assuncao/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Palacio de López",
+    "path": "/images/destinations/assuncao/curated-attraction-0.jpg",
+    "pool": "lopez",
+    "status": "pending-visual-review",
+    "title": "File:Logotipo del Palacio de los López.png",
+    "imageinfo": {
+      "size": 121403,
+      "width": 1669,
+      "height": 906,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Logotipo_del_Palacio_de_los_L%C3%B3pez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1303,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Logotipo_del_Palacio_de_los_L%C3%B3pez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1303
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Logotipo_del_Palacio_de_los_L%C3%B3pez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Logotipo_del_Palacio_de_los_L%C3%B3pez.png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152914137",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-09-21 15:19:30",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Logotipo del Palacio de los López",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Text logos|Palacio de los López|PD textlogo|Other images that should use vector graphics|PNG that should use vector graphics|Logo of government palaces",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Logo Palacio de los López en PNG.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Palacio de los López",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Palacio de los López",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "This <i> </i> image could be re-created <b>using <a href=\"https://en.wikipedia.org/wiki/vector_graphics\" class=\"extiw\" title=\"w:vector graphics\">vector graphics</a> as a <a href=\"https://en.wikipedia.org/wiki/Scalable_Vector_Graphics\" class=\"extiw\" title=\"w:Scalable Vector Graphics\">SVG</a> file.</b> This has several advantages; see <a href=\"//commons.wikimedia.org/wiki/Commons:Media_for_cleanup#PNG_or_JPEG_images_that_should_be_SVG\" title=\"Commons:Media for cleanup\">Commons:Media for cleanup</a> for more information. If a SVG form of this image is available, please upload it and afterwards replace this template with <code>{{<a href=\"//commons.wikimedia.org/wiki/Template:Vector_version_available\" title=\"Template:Vector version available\">vector version available</a>|<i>new image name</i>}}</code>.<br>It is recommended to name the SVG file “Logotipo del Palacio de los López.svg”—then the template <a href=\"//commons.wikimedia.org/wiki/Template:Vector_version_available\" title=\"Template:Vector version available\">Vector version available</a> (or <a href=\"//commons.wikimedia.org/wiki/Template:Vva\" class=\"mw-redirect\" title=\"Template:Vva\">Vva</a>) does not need the <i>new image name</i> parameter.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/png"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/attraction-0.jpg",
+    "dimensions": [
+      1669,
+      906
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Logotipo_del_Palacio_de_los_L%C3%B3pez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "adbfaf9aa00664554bfed3515541debd612239e0960970fd5a9e96bdc77ac5f2"
+  },
+  {
+    "key": "assuncao/map-list-4",
+    "slot": "map-list-4",
+    "topic": "Cerro Lambaré",
+    "status": "no-candidate",
+    "pool": "lambare"
+  },
+  {
+    "key": "assuncao/region-3",
+    "slot": "region-3",
+    "topic": "Lambaré",
+    "status": "no-candidate",
+    "pool": "lambare"
+  },
+  {
+    "key": "assuncao/attraction-5",
+    "slot": "attraction-5",
+    "topic": "Barrio Loma San Jerónimo",
+    "status": "no-candidate",
+    "pool": "san-jeronimo"
+  },
+  {
+    "key": "assuncao/map-attraction-5",
+    "slot": "map-attraction-5",
+    "topic": "Barrio Loma San Jerónimo",
+    "status": "no-candidate",
+    "pool": "san-jeronimo"
+  },
+  {
+    "key": "assuncao/map-list-5",
+    "slot": "map-list-5",
+    "topic": "Barrio Loma San Jerónimo",
+    "status": "no-candidate",
+    "pool": "san-jeronimo"
+  },
+  {
+    "key": "assuncao/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Assunção",
+    "path": "/images/destinations/assuncao/curated-costs.jpg",
+    "pool": "food",
+    "status": "pending-visual-review",
+    "title": "File:Chipa Paraguay.jpg",
+    "imageinfo": {
+      "size": 1373982,
+      "width": 3072,
+      "height": 2304,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chipa_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chipa_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chipa_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chipa_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25318211",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-03-28 04:55:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chipa Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Taken with Kodak EasyShare C743|CC-BY-SA-2.5,2.0,1.0|Chipa|License migration completed|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Typical Paraguayan chipas",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "26 July 2007 (original upload date)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/User:Ekem\" class=\"extiw\" title=\"wikipedia:User:Ekem\">Ekem</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/User:Ekem\" class=\"extiw\" title=\"wikipedia:User:Ekem\">Ekem</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/costs.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chipa_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "1f32dfe04e0a3cf1a9f395b2b9e0bce38ba7e4b762d74ef99965b50b221b0364"
+  }
+]

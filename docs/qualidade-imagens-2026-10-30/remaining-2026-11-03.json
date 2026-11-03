@@ -2100,6 +2100,13 @@
         "error": null
       },
       {
+        "bundle": "regional-assuncao-local-final-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Chipa Paraguay.jpg",
+        "pool": "food",
+        "error": null
+      },
+      {
         "bundle": "regional-assuncao-support-v1",
         "status": "no-candidate",
         "title": null,
@@ -2116,66 +2123,14 @@
     ],
     "decisions": [
       {
+        "bundle": "regional-assuncao-local-final-2026-11-03",
+        "decision": "rejected",
+        "notes": "Chipa paraguaia correta, mas inspeção em resolução completa revela foco macio e ruído com perda de detalhes da comida; não atende ao padrão fotográfico HQ solicitado."
+      },
+      {
         "bundle": "regional-assuncao-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
-      }
-    ]
-  },
-  {
-    "key": "assuncao/attraction-0",
-    "city": "assuncao",
-    "slot": "attraction-0",
-    "topic": "Palacio de López",
-    "path": "/images/destinations/assuncao/curated-attraction-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-assuncao",
-        "status": "pending-visual-review",
-        "title": "File:Asuncion - Historic Casa Clari-Mestre.jpg",
-        "pool": "attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "attractions-attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "attractions-attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-resume-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:00 3819 Asunción - Paraguay (Südamerika).jpg",
-        "pool": "palacio",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "attractions-attraction-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-assuncao",
-        "decision": "rejected",
-        "notes": "Casa Clari-Mestre não é o Palacio de López: falso match de busca."
-      },
-      {
-        "bundle": "regional-assuncao-resume-2026-11-03",
-        "decision": "rejected",
-        "notes": "Descricao da fonte informa expressamente diapositivo original de 1970; foto historica, rejeitada apesar dos pixels."
       }
     ]
   },
@@ -2206,6 +2161,13 @@
         "status": "pending-visual-review",
         "title": "File:LA ESCULTURA DE STROESSNER.jpg",
         "pool": "attractions-attraction-4",
+        "error": null
+      },
+      {
+        "bundle": "regional-assuncao-local-final-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "lambare",
         "error": null
       },
       {
@@ -2264,6 +2226,13 @@
         "error": null
       },
       {
+        "bundle": "regional-assuncao-local-final-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "san-jeronimo",
+        "error": null
+      },
+      {
         "bundle": "regional-assuncao-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -2309,6 +2278,13 @@
         "error": null
       },
       {
+        "bundle": "regional-assuncao-local-final-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "san-jeronimo",
+        "error": null
+      },
+      {
         "bundle": "regional-assuncao-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -2351,6 +2327,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "attractions-attraction-5",
+        "error": null
+      },
+      {
+        "bundle": "regional-assuncao-local-final-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "san-jeronimo",
         "error": null
       },
       {
@@ -2704,6 +2687,13 @@
         "status": "pending-visual-review",
         "title": "File:Entrada al Estadio Luciano Zacarias, Club Atlético Colegiales, Lambaré, Paraguay.jpg",
         "pool": "regions-hotels-region-3",
+        "error": null
+      },
+      {
+        "bundle": "regional-assuncao-local-final-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "lambare",
         "error": null
       },
       {
@@ -7795,66 +7785,6 @@
     ]
   },
   {
-    "key": "cidade-do-mexico/map-attraction-0",
-    "city": "cidade-do-mexico",
-    "slot": "map-attraction-0",
-    "topic": "Zócalo e Catedral",
-    "path": "/images/destinations/cidade-do-mexico/curated-map-attraction-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-cidade-do-mexico",
-        "status": "pending-visual-review",
-        "title": "File:ASOM D010 Mexico city cathedral and zocalo circa 1880.jpg",
-        "pool": "attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Babasónicos Zócalo Ciudad de México .jpg",
-        "pool": "attractions-attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Catedral Metropolitana Mexico City - Zocalo square - 1.jpg",
-        "pool": "attractions-attraction-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Mexico City National Cathedral & Zocalo (9792750116).jpg",
-        "pool": "attractions-attraction-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-cidade-do-mexico",
-        "decision": "rejected",
-        "notes": "Gravura histórica, não é uma fotografia real do destino."
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Show e luz de palco dominam a cena; Catedral/Zócalo quase não são reconhecíveis."
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Pessoa deitada domina o primeiro plano e catedral fica escura; inadequado para representar a atração no pin."
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Foto antiga com baixa definição e subexposição, asfalto domina; qualidade insuficiente para pin da Catedral."
-      }
-    ]
-  },
-  {
     "key": "cidade-do-mexico/map-attraction-3",
     "city": "cidade-do-mexico",
     "slot": "map-attraction-3",
@@ -7877,10 +7807,24 @@
         "error": null
       },
       {
+        "bundle": "regional-cidade-do-mexico-category-final-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Escultura de abeja del jardín botánico de Chapultepec.jpg",
+        "pool": "chapultepec",
+        "error": null
+      },
+      {
         "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Dinosaurium - Chapultepec Zoo - Mexico 2024.jpg",
         "pool": "attractions-attraction-3",
+        "error": null
+      },
+      {
+        "bundle": "regional-cidade-do-mexico-park-lake-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Lago de Chapultepec vista lateral.jpg",
+        "pool": "chapultepec",
         "error": null
       },
       {
@@ -7903,9 +7847,19 @@
         "notes": "Pista e campo da terceira seção sem marco reconhecível; Chapultepec pouco legível para pin."
       },
       {
+        "bundle": "regional-cidade-do-mexico-category-final-2026-11-03",
+        "decision": "rejected",
+        "notes": "A foto se concentra numa escultura de abelha do jardim botânico e não representa com clareza o parque de Chapultepec como atração geral."
+      },
+      {
         "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
         "decision": "rejected",
         "notes": "Entrada do Dinosaurium e visitante em primeiro plano; falta contexto reconhecível de Chapultepec."
+      },
+      {
+        "bundle": "regional-cidade-do-mexico-park-lake-2026-11-03",
+        "decision": "rejected",
+        "notes": "Lago correto, mas margem, árvores e água ficam subexpostos e perdem legibilidade no tamanho do card; céu ocupa a maior parte da composição."
       },
       {
         "bundle": "regional-cidade-do-mexico-targeted-2026-11-03",
@@ -7930,10 +7884,24 @@
         "error": null
       },
       {
+        "bundle": "regional-cidade-do-mexico-category-final-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:CasaLagoChapultepec.JPG",
+        "pool": "chapultepec",
+        "error": null
+      },
+      {
         "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Genealogical tree of Mexican Giant Pandas at the Chapultepec Zoo - Mexico 2024.jpg",
         "pool": "regions-hotels-region-1",
+        "error": null
+      },
+      {
+        "bundle": "regional-cidade-do-mexico-park-lake-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Chapultepec Lake 501.JPG",
+        "pool": "chapultepec",
         "error": null
       },
       {
@@ -7958,9 +7926,19 @@
         "notes": "Anfíbio isolado em aquário; não corresponde ao contexto de hospedagem na região."
       },
       {
+        "bundle": "regional-cidade-do-mexico-category-final-2026-11-03",
+        "decision": "rejected",
+        "notes": "A Casa del Lago é uma instituição cultural identificável, não um hotel; o edifício não deve ilustrar hospedagem como se fosse propriedade hoteleira."
+      },
+      {
         "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
         "decision": "rejected",
         "notes": "Painel genealógico de pandas no zoológico; diagrama-como-foto proibido e sem contexto de hospedagem."
+      },
+      {
+        "bundle": "regional-cidade-do-mexico-park-lake-2026-11-03",
+        "decision": "rejected",
+        "notes": "O lago de Chapultepec é legível, porém a posição é de hospedagem e a fotografia não mostra hotel; manter o gap para uma imagem de hospedagem pertinente."
       },
       {
         "bundle": "regional-cidade-do-mexico-regions-hotels",
@@ -8233,84 +8211,6 @@
     ]
   },
   {
-    "key": "havai/home-slide",
-    "city": "havai",
-    "slot": "home-slide",
-    "topic": "Havaí",
-    "path": "/images/destinations/havai/curated-home-slide.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-slide",
-        "error": null
-      }
-    ],
-    "decisions": []
-  },
-  {
-    "key": "havai/home-thumb",
-    "city": "havai",
-    "slot": "home-thumb",
-    "topic": "Havaí: miniatura da home",
-    "path": "/images/destinations/havai/curated-home-thumb.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-thumb",
-        "error": null
-      }
-    ],
-    "decisions": []
-  },
-  {
     "key": "havai/essential-docs",
     "city": "havai",
     "slot": "essential-docs",
@@ -8368,126 +8268,6 @@
     ]
   },
   {
-    "key": "havai/map-attraction-1",
-    "city": "havai",
-    "slot": "map-attraction-1",
-    "topic": "Pearl Harbor",
-    "path": "/images/destinations/havai/curated-map-attraction-1.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havai",
-        "status": "pending-visual-review",
-        "title": "File:Japanese aircraft attacking Pearl Harbor, 1941.jpg",
-        "pool": "attraction-1",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Pearl Harbor survivor shares story with sailors 161202-M-IT777-125.jpg",
-        "pool": "attractions-attraction-1",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:76th Anniversary of the Attack on Pearl Harbor (2).jpg",
-        "pool": "attractions-attraction-1",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:76th Anniversary of the Attack on Pearl Harbor (14).jpg",
-        "pool": "attractions-attraction-1",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havai",
-        "decision": "rejected",
-        "notes": "Cena histórica do ataque, inadequada para o cartão turístico atual."
-      },
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Pessoa desenhando/assinando papel em cerimônia; não representa Pearl Harbor como atração."
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Retrato de veterano em cerimônia; não representa Pearl Harbor como atração."
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Retrato de veterano em cerimônia; não representa Pearl Harbor como atração."
-      }
-    ]
-  },
-  {
-    "key": "havai/neighborhood-0",
-    "city": "havai",
-    "slot": "neighborhood-0",
-    "topic": "Waikiki",
-    "path": "/images/destinations/havai/curated-neighborhood-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Waikiki Natatorium War Memorial, Kalakaua Avenue, Waikiki, Honolulu, HI - 52267244962.jpg",
-        "pool": "neighborhoods-neighborhood-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Gucci Store at Luxury Row, Waikiki, Hawaii.jpg",
-        "pool": "neighborhoods-neighborhood-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-neighborhoods",
-        "status": "pending-visual-review",
-        "title": "File:Waikiki beach (1899).jpg",
-        "pool": "neighborhood-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Participants in Waikiki, Hawaii Halloween 2021 08.jpg",
-        "pool": "neighborhoods-neighborhood-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havai-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Janela isolada de memorial; não representa Waikiki como bairro."
-      },
-      {
-        "bundle": "regional-havai-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Close de fachada Gucci com pouco entorno; não caracteriza Waikiki como bairro."
-      },
-      {
-        "bundle": "regional-havai-neighborhoods",
-        "decision": "rejected",
-        "notes": "Registro histórico de 1899, inadequado como vista atual do bairro de Waikiki."
-      },
-      {
-        "bundle": "regional-havai-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Pessoas fantasiadas em Halloween; retrato/evento sem contexto de Waikiki como bairro."
-      }
-    ]
-  },
-  {
     "key": "bahamas/home",
     "city": "bahamas",
     "slot": "home",
@@ -8500,6 +8280,13 @@
         "status": "pending-visual-review",
         "title": "File:Downtown Nassau - 2025 - Bay Street (1).jpg",
         "pool": "highlights-highlights",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-coastal-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Bahamas Cruise - beach - June 2018 (0274).jpg",
+        "pool": "nassau",
         "error": null
       },
       {
@@ -8538,6 +8325,11 @@
         "notes": "Esquina comercial com fachada e pouca paisagem; qualidade de composição insuficiente para destaque da home."
       },
       {
+        "bundle": "regional-bahamas-coastal-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "A fotografia mostra somente copas de coqueiros contra o céu; apesar da localização correta, é genérica e não identifica Bahamas como destaque de destino."
+      },
+      {
         "bundle": "regional-bahamas-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
@@ -8557,6 +8349,13 @@
         "status": "pending-visual-review",
         "title": "File:Downtown Nassau - 2025 - Bay Street (2).jpg",
         "pool": "highlights-highlights",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-coastal-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Wyndham Nassau beach 1.JPG",
+        "pool": "nassau",
         "error": null
       },
       {
@@ -8595,6 +8394,11 @@
         "notes": "Fachadas comerciais sob céu cinzento com composição pouco expressiva; não atende destaque HQ do destino."
       },
       {
+        "bundle": "regional-bahamas-coastal-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "A praia está vazia, com equipamentos em primeiro plano e céu encoberto dominante; falta a leitura costeira e qualidade visual necessárias para destaque do guia."
+      },
+      {
         "bundle": "regional-bahamas-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
@@ -8619,6 +8423,13 @@
         "status": "pending-visual-review",
         "title": "File:Deck of the Tug Amber Jack, Nassau Bahamas 9961.jpg",
         "pool": "highlights-highlights",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-coastal-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:South Beach, Nassau - panoramio.jpg",
+        "pool": "nassau",
         "error": null
       },
       {
@@ -8657,6 +8468,11 @@
         "notes": "Close de maquinaria de rebocador; não representa Bahamas como destaque turístico."
       },
       {
+        "bundle": "regional-bahamas-coastal-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "Galhos, troncos e vegetação obstruem a maior parte da enseada; composição confusa e insuficiente para um destaque principal de Bahamas."
+      },
+      {
         "bundle": "regional-bahamas-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
@@ -8665,63 +8481,6 @@
         "bundle": "regional-bahamas-landmarks-hq-2026-11-03",
         "decision": "rejected",
         "notes": "Espécime de mariposa Cautethia exuma em fundo neutro; falso match taxonômico, não representa Exuma/Bahamas como destino."
-      }
-    ]
-  },
-  {
-    "key": "bahamas/home-thumb",
-    "city": "bahamas",
-    "slot": "home-thumb",
-    "topic": "Bahamas: miniatura da home",
-    "path": "/images/destinations/bahamas/curated-home-thumb.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-bahamas-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Mail Boat in Nassau Bahamas.jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-bahamas-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-bahamas-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-bahamas-landmarks-hq-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "home-thumb",
-        "error": null
-      },
-      {
-        "bundle": "regional-bahamas-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-thumb",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-bahamas-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Barco de carga e área industrial dominam a cena; assunto inadequado para miniatura turística da home."
-      },
-      {
-        "bundle": "regional-bahamas-highlights",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizável; nova busca necessária."
       }
     ]
   },

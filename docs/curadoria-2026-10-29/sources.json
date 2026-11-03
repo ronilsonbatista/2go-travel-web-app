@@ -29418,20 +29418,31 @@
   "assuncao/attraction-0": {
     "city": "assuncao",
     "slot": "attraction-0",
-    "query": "Palacio de López Assunção",
     "path": "/images/destinations/assuncao/curated-attraction-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:assuncao/attraction-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Palacio de López",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_Lopez%2C_Asunci%C3%B3n_PAR%281%29.jpg",
+    "title": "File:Palacio de los Lopez, Asunción PAR(1).jpg",
+    "author": "Stefano Vigorelli",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Palacio de los Lopez, Asunción",
+    "categories": "CC-Zero|Palacio de los López|Self-published work|Palaces photographed in 2010|Paraguay photographs taken on 2010-10-26|2010 in Asunción",
+    "date": "2010-10-26 17:49:10",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Palacio_de_los_Lopez%2C_Asunci%C3%B3n_PAR%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Palacio_de_los_Lopez%2C_Asunci%C3%B3n_PAR%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      2592,
+      1944
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Fotografia real da fachada do Palacio de los López em Assunção, com torre, alas e jardim legíveis; pessoa pequena incidental no entorno, orientação correta, captura de 2010 e licença CC0, 2592px nativos.",
+    "assetSha256": "50d1e1a925204d56da94b7a703c833628138b21fe69784f5a25e4a613e6c52b9",
+    "minimumLongEdge": 1600
   },
   "assuncao/map-attraction-0": {
     "city": "assuncao",
@@ -54563,20 +54574,33 @@
   "cidade-do-mexico/map-attraction-0": {
     "city": "cidade-do-mexico",
     "slot": "map-attraction-0",
-    "query": "Zócalo e Catedral",
     "path": "/images/destinations/cidade-do-mexico/curated-map-attraction-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:cidade-do-mexico/map-attraction-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Zócalo e Catedral",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_de_la_Ciudad_de_M%C3%A9xico_1.jpg",
+    "title": "File:Catedral Metropolitana de la Ciudad de México 1.jpg",
+    "author": "ProtoplasmaKid",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Metropolitan Cathedral of Mexico City with its baroque facade, domes, and bell towers under a clear sky. The imposing stone structure dominates the urban landscape of the Zócalo.",
+    "categories": "Self-published work|Information field template with formatting|Files with coordinates missing SDC location of creation|Mexico photographs taken on 2024-06-07|Photos taken with WMMX drone|Main facade of the Sagrario Metropolitano (Metropolitan Cathedral of Mexico City)|Taken with DJI FC8482|2024 photographs by User:ProtoplasmaKid|Images of Historic Center of Mexico City by User:ProtoplasmaKid|Aerial drone photos by User:ProtoplasmaKid",
+    "date": "2024-06-07 11:31:10",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Catedral_Metropolitana_de_la_Ciudad_de_M%C3%A9xico_1.jpg/3840px-Catedral_Metropolitana_de_la_Ciudad_de_M%C3%A9xico_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Catedral_Metropolitana_de_la_Ciudad_de_M%C3%A9xico_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1350
+    ],
+    "originalDimensions": [
+      3921,
+      2206
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Vista frontal e elevada da Catedral Metropolitana junto ao Zócalo; fachada, torres e entorno legíveis, orientação correta, fotografia de 2024 com GPS local e licença CC BY-SA 4.0.",
+    "assetSha256": "6e20b0e2139074e844227a6d83743116eeb423e5f67cfae5a471328e6d2fef91",
+    "minimumLongEdge": 1600,
+    "latitude": 19.432907,
+    "longitude": -99.133108
   },
   "cidade-do-mexico/map-list-0": {
     "city": "cidade-do-mexico",
@@ -57938,38 +57962,60 @@
   "havai/home-slide": {
     "city": "havai",
     "slot": "home-slide",
-    "query": "Hawaii Waikiki beach dusk",
     "path": "/images/destinations/havai/curated-home-slide.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:havai/home-slide",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Havaí",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Napali_Coast_view.jpg",
+    "title": "File:Napali Coast view.jpg",
+    "author": "Jmblanco74",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Napali Coast view",
+    "categories": "Taken with Nikon D80|Nā Pali Coast State Park|Self-published work|National Register of Historic Places with known IDs|National Register of Historic Places missing SDC location of creation|National Register of Historic Places missing SDC depicts",
+    "date": "2008-08-10 23:36:35",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Napali_Coast_view.jpg/3840px-Napali_Coast_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Napali_Coast_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1607
+    ],
+    "originalDimensions": [
+      3872,
+      2592
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Paisagem real da costa de Na Pali em Kauai, com falésias, vale verde e oceano legíveis; fotografia licenciada CC BY-SA 3.0, 3872px nativos, orientação correta.",
+    "assetSha256": "4b9eec287dc73df73b92c6215fafe7b9e1e3cd419e86288d499db5657cd58a0b",
+    "minimumLongEdge": 1600
   },
   "havai/home-thumb": {
     "city": "havai",
     "slot": "home-thumb",
-    "query": "Hawaii Waikiki beach aerial",
     "path": "/images/destinations/havai/curated-home-thumb.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:havai/home-thumb",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Havaí: miniatura da home",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Na_Pali_Coast.jpg",
+    "title": "File:Na Pali Coast.jpg",
+    "author": "MEBurkhart",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This is a picture of the Na Pali Coastline from the perspective of a person standing on a boat.",
+    "categories": "Nā Pali Coast State Park|Self-published work",
+    "date": "2017-06-01 09:48:37",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Na_Pali_Coast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Na_Pali_Coast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      3264,
+      2448
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Vista marítima distinta das falésias da costa de Na Pali; fotografia de 2017, 3264px nativos, CC BY-SA 4.0, costa identificável e composição legível para miniatura.",
+    "assetSha256": "51c4000c996388c0bd18bbda579dc5a08d5171bb4968eeb024b5bc0d50cee2fa",
+    "minimumLongEdge": 1600
   },
   "havai/essential-moeda": {
     "city": "havai",
@@ -58291,20 +58337,33 @@
   "havai/map-attraction-1": {
     "city": "havai",
     "slot": "map-attraction-1",
-    "query": "Pearl Harbor",
     "path": "/images/destinations/havai/curated-map-attraction-1.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:havai/map-attraction-1",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Pearl Harbor",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:USS_Arizona_Memorial_%28aerial_view%29.jpg",
+    "title": "File:USS Arizona Memorial (aerial view).jpg",
+    "author": "DoD photo by: PH3(AW/SW) JAYME PASTORIC, USN",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "description": "An aerial view of the USS Arizona Memorial with a US Navy (USN) Tour Boat, USS Arizona Memorial Detachment, moored at the pier as visitors disembark to visit and pay their respects to the Sailors and Marines who lost their lives during the attack on Pearl Harbor on December 7, 1941.",
+    "categories": "PD US Navy|National Register of Historic Places with known IDs|Files created by the United States Navy with known IDs|CC-PD-Mark|May 2002 in Hawaii|Photographs taken on 2002-05-23|Aerial photographs of USS Arizona Memorial|ID-USMil missing SDC VIRIN|USS Arizona Memorial white boats",
+    "date": "2002-05-23",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/USS_Arizona_Memorial_%28aerial_view%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/USS_Arizona_Memorial_%28aerial_view%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1564
+    ],
+    "originalDimensions": [
+      3008,
+      1960
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Vista aérea real do USS Arizona Memorial em Pearl Harbor, com memorial, água e ruínas do navio legíveis; captura de 2002, domínio público, GPS local e 3008px nativos. A data de 1941 no texto refere-se ao ataque, não à fotografia.",
+    "assetSha256": "3d6273d77f361ac57b579d6bd2890d6d0470941515dbbcf803f59bf44cca954d",
+    "minimumLongEdge": 1600,
+    "latitude": 21.367778,
+    "longitude": -157.952778
   },
   "havai/map-list-1": {
     "city": "havai",
@@ -58839,20 +58898,31 @@
   "havai/neighborhood-0": {
     "city": "havai",
     "slot": "neighborhood-0",
-    "query": "Waikiki Havaí",
     "path": "/images/destinations/havai/curated-neighborhood-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:havai/neighborhood-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Waikiki",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Waikiki_Skyline_%287733357776%29.jpg",
+    "title": "File:Waikiki Skyline (7733357776).jpg",
+    "author": "Simon_sees from Australia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Waikiki Skyline",
+    "categories": "Taken with Nikon D3100|Views of Waikiki|Photographs by Simon Clancy|Flickr images reviewed by File Upload Bot (Magnus Manske)|Cityscapes of Honolulu, Hawaii|Hotels on Waikiki Beach",
+    "date": "2012-08-01 04:09",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Waikiki_Skyline_%287733357776%29.jpg/3840px-Waikiki_Skyline_%287733357776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Waikiki_Skyline_%287733357776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "originalDimensions": [
+      4608,
+      3072
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Vista costeira real de Waikiki com praia, oceano e skyline do bairro; fonte Flickr comprovada na atribuição, licença CC BY 2.0, 4608px nativos e orientação correta.",
+    "assetSha256": "dee8bdf4991098fd19db61fee4a91f3579913d03315785a37833cb5fd2fc73cc",
+    "minimumLongEdge": 1600
   },
   "havai/neighborhood-detail-0": {
     "city": "havai",
@@ -59772,20 +59842,31 @@
   "bahamas/home-thumb": {
     "city": "bahamas",
     "slot": "home-thumb",
-    "query": "Bahamas Nassau beach aerial",
     "path": "/images/destinations/bahamas/curated-home-thumb.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:bahamas/home-thumb",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Bahamas: miniatura da home",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:BHA_Nassau%2C_Paradise_Island%2C_Cove_Beach_001.jpg",
+    "title": "File:BHA Nassau, Paradise Island, Cove Beach 001.jpg",
+    "author": "Der-wuppertaler",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Paradise Beach at Paradise Island, Bahamas",
+    "categories": "Taken with iPhone 5|Paradise Island|Beaches of the Bahamas|Self-published work|Photos by User:-wuppertaler (Bahamas)|Photos by User:-wuppertaler (Nassau)|Photos by User -wuppertaler in use",
+    "date": "2013-08-08 15:59:00",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/BHA_Nassau%2C_Paradise_Island%2C_Cove_Beach_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/BHA_Nassau%2C_Paradise_Island%2C_Cove_Beach_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      3264,
+      2448
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Praia de Cove Beach em Paradise Island com faixa de areia, mar turquesa e horizonte legíveis; origem identifica Bahamas, fotografia real de 2013 com orientação correta e 3264px nativos.",
+    "assetSha256": "f98818bf09934a7fd206f49f6ab02922a44522f5f37120740b1904374a233359",
+    "minimumLongEdge": 1600
   },
   "bahamas/essential-moeda": {
     "city": "bahamas",

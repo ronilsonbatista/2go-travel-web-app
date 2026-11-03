@@ -7226,5 +7226,77 @@
     "sha256": "e2b9a765c2373bf324880caf9f885e1d3f93aa15650a5e183d7775855d0ed612",
     "decision": "rejected",
     "notes": "Fonte descreve ocorrência policial ou retrato de suspeito; pesos aparecem apenas no texto sobre recompensa/arrecadação. A fotografia não representa moeda nem pagamentos de viagem."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-category-final-2026-11-03",
+    "key": "cidade-do-mexico/map-attraction-3",
+    "title": "File:Escultura de abeja del jardín botánico de Chapultepec.jpg",
+    "sha256": "a1c9766e1dc64a531f0d7be84a18f26dbdfe4e2e289e89076008290768527889",
+    "decision": "rejected",
+    "notes": "A foto se concentra numa escultura de abelha do jardim botânico e não representa com clareza o parque de Chapultepec como atração geral."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-category-final-2026-11-03",
+    "key": "cidade-do-mexico/hotel-1",
+    "title": "File:CasaLagoChapultepec.JPG",
+    "sha256": "eacc75bcf5b33ea2727d4d2b4ce9f24b5d31715b32b0eac3bb5991e28f1f4ec7",
+    "decision": "rejected",
+    "notes": "A Casa del Lago é uma instituição cultural identificável, não um hotel; o edifício não deve ilustrar hospedagem como se fosse propriedade hoteleira."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-park-lake-2026-11-03",
+    "key": "cidade-do-mexico/map-attraction-3",
+    "title": "File:Lago de Chapultepec vista lateral.jpg",
+    "sha256": "0cdc0899705c2520536d7d17836f66ede2ad0437668e1a0ce1951940f6d85a49",
+    "decision": "rejected",
+    "notes": "Lago correto, mas margem, árvores e água ficam subexpostos e perdem legibilidade no tamanho do card; céu ocupa a maior parte da composição."
+  },
+  {
+    "bundle": "regional-cidade-do-mexico-park-lake-2026-11-03",
+    "key": "cidade-do-mexico/hotel-1",
+    "title": "File:Chapultepec Lake 501.JPG",
+    "sha256": "1ef29f16c3b104fcad247ba68c5ad1b556061b349f7aff6660c4bfc95dbf2ea9",
+    "decision": "rejected",
+    "notes": "O lago de Chapultepec é legível, porém a posição é de hospedagem e a fotografia não mostra hotel; manter o gap para uma imagem de hospedagem pertinente."
+  },
+  {
+    "bundle": "regional-bahamas-coastal-highlights-2026-11-03",
+    "key": "bahamas/home",
+    "title": "File:Bahamas Cruise - beach - June 2018 (0274).jpg",
+    "sha256": "316c8be4b591b3242ca5c8de1289da7e579ad865416756c730af4f5a61496fbd",
+    "decision": "rejected",
+    "notes": "A fotografia mostra somente copas de coqueiros contra o céu; apesar da localização correta, é genérica e não identifica Bahamas como destaque de destino."
+  },
+  {
+    "bundle": "regional-bahamas-coastal-highlights-2026-11-03",
+    "key": "bahamas/guide-card",
+    "title": "File:Wyndham Nassau beach 1.JPG",
+    "sha256": "a2d1a76493bd08a83fb2706f0f84a07e9599458058cd91f8c5aaa341fcea0b19",
+    "decision": "rejected",
+    "notes": "A praia está vazia, com equipamentos em primeiro plano e céu encoberto dominante; falta a leitura costeira e qualidade visual necessárias para destaque do guia."
+  },
+  {
+    "bundle": "regional-bahamas-coastal-highlights-2026-11-03",
+    "key": "bahamas/guide-highlight",
+    "title": "File:South Beach, Nassau - panoramio.jpg",
+    "sha256": "4fd83e34c5550a1907d7c53412b1a77413198bdb56cea6e6ab2750973023afc2",
+    "decision": "rejected",
+    "notes": "Galhos, troncos e vegetação obstruem a maior parte da enseada; composição confusa e insuficiente para um destaque principal de Bahamas."
+  },
+  {
+    "bundle": "regional-assuncao-local-final-2026-11-03",
+    "key": "assuncao/attraction-0",
+    "title": "File:Logotipo del Palacio de los López.png",
+    "sha256": "adbfaf9aa00664554bfed3515541debd612239e0960970fd5a9e96bdc77ac5f2",
+    "decision": "rejected",
+    "notes": "É um logotipo desenhado do Palacio de los López em PNG, não uma fotografia real do monumento. Rejeitado independentemente da resolução e licença."
+  },
+  {
+    "bundle": "regional-assuncao-local-final-2026-11-03",
+    "key": "assuncao/costs",
+    "title": "File:Chipa Paraguay.jpg",
+    "sha256": "1f32dfe04e0a3cf1a9f395b2b9e0bce38ba7e4b762d74ef99965b50b221b0364",
+    "decision": "rejected",
+    "notes": "Chipa paraguaia correta, mas inspeção em resolução completa revela foco macio e ruído com perda de detalhes da comida; não atende ao padrão fotográfico HQ solicitado."
   }
 ]

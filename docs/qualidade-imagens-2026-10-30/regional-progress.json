@@ -1,13 +1,13 @@
 {
   "status": "partial-do-not-merge",
   "baselinePlaceholders": 5566,
-  "replaced": 1431,
-  "remaining": 4135,
+  "replaced": 1438,
+  "remaining": 4128,
   "regions": {
     "americas": {
       "label": "Américas",
-      "replaced": 1351,
-      "remaining": 185,
+      "replaced": 1358,
+      "remaining": 178,
       "complete": false
     },
     "europa": {
@@ -24,17 +24,17 @@
     }
   },
   "touchedDestinations": {
-    "assuncao": 43,
-    "bahamas": 45,
+    "assuncao": 44,
+    "bahamas": 46,
     "barcelona": 34,
     "bogota": 59,
     "boston": 64,
     "chicago": 64,
-    "cidade-do-mexico": 60,
+    "cidade-do-mexico": 61,
     "cidade-do-panama": 54,
     "fernando-de-noronha": 57,
     "florenca": 22,
-    "havai": 59,
+    "havai": 63,
     "havana": 59,
     "las-vegas": 58,
     "lima": 62,
@@ -53,6 +53,7 @@
     "vancouver": 60
   },
   "appliedKeys": [
+    "assuncao/attraction-0",
     "assuncao/attraction-1",
     "assuncao/attraction-2",
     "assuncao/attraction-3",
@@ -109,6 +110,7 @@
     "bahamas/essential-idioma",
     "bahamas/hero",
     "bahamas/home-slide",
+    "bahamas/home-thumb",
     "bahamas/hotel-0",
     "bahamas/hotel-1",
     "bahamas/hotel-2",
@@ -391,6 +393,7 @@
     "cidade-do-mexico/hotel-list-2",
     "cidade-do-mexico/hotel-list-3",
     "cidade-do-mexico/intro",
+    "cidade-do-mexico/map-attraction-0",
     "cidade-do-mexico/map-attraction-1",
     "cidade-do-mexico/map-attraction-2",
     "cidade-do-mexico/map-attraction-4",
@@ -574,6 +577,8 @@
     "havai/guide-highlight",
     "havai/hero",
     "havai/home",
+    "havai/home-slide",
+    "havai/home-thumb",
     "havai/hotel-0",
     "havai/hotel-1",
     "havai/hotel-2",
@@ -584,6 +589,7 @@
     "havai/hotel-list-3",
     "havai/intro",
     "havai/map-attraction-0",
+    "havai/map-attraction-1",
     "havai/map-attraction-2",
     "havai/map-attraction-3",
     "havai/map-attraction-4",
@@ -595,6 +601,7 @@
     "havai/map-list-4",
     "havai/map-list-5",
     "havai/mistakes",
+    "havai/neighborhood-0",
     "havai/neighborhood-1",
     "havai/neighborhood-2",
     "havai/neighborhood-3",
@@ -1485,7 +1492,7 @@
     "vancouver/trip-1",
     "vancouver/trip-2"
   ],
-  "rejectedCandidates": 902,
+  "rejectedCandidates": 911,
   "note": "Only explicitly inspected candidates were applied. Unreviewed and rejected candidates stay placeholders. No claim of 107/107 visual acceptance.",
   "rejectionCountNote": "Decision records, not unique photos: a candidate may have been rejected in multiple search rounds."
 }
