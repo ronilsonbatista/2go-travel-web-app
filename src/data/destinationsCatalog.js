@@ -1,5 +1,5 @@
 /**
- * Master destinations catalog for /guias “Ver todos” + Home filters.
+ * Master destinations catalog for /guias hub featured + /guias/destinos filters.
  * Deduped (case/accents): Milano→Milão, Zurich→Zurique; Santiago & Punta Cana once.
  * `status: 'published'` when a full guide exists in guidesData.
  */
