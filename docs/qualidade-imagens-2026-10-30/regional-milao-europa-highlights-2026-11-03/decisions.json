@@ -1,0 +1,30 @@
+{
+  "milao/hero": {
+    "decision": "accepted",
+    "notes": "Skyline de Milao visto do terraco do Duomo, com edificios caracteristicos e panorama claro da cidade."
+  },
+  "milao/intro": {
+    "decision": "accepted",
+    "notes": "Panorama diurno de Milao e torres de Porta Nuova com vegetacao em primeiro plano; foto real de destino."
+  },
+  "milao/home-slide": {
+    "decision": "accepted",
+    "notes": "Skyline de Milao com torres de Porta Nuova, composicao panoramica e edificios legiveis, sem inversao."
+  },
+  "milao/home": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe escultorico isolado, fachada excessivamente obliqua ou vista do canal demasiado semelhante a outra selecionada; buscar enquadramento melhor."
+  },
+  "milao/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe escultorico isolado, fachada excessivamente obliqua ou vista do canal demasiado semelhante a outra selecionada; buscar enquadramento melhor."
+  },
+  "milao/guide-card": {
+    "decision": "accepted",
+    "notes": "Canal dos Navigli e fachadas ao entardecer, agua e arquitetura legiveis para acesso ao destino."
+  },
+  "milao/home-thumb": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe escultorico isolado, fachada excessivamente obliqua ou vista do canal demasiado semelhante a outra selecionada; buscar enquadramento melhor."
+  }
+}

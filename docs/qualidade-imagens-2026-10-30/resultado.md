@@ -6,7 +6,7 @@ Branch: `cursor/guia-imagens-qualidade-2026-10-30`.
 ## Situação de aceite
 
 - Inventário automatizado: 107 destinos, 6.845 slots de guias + 9 posições suplementares.
-- Base desta continuação: **5.566 em 87 destinos**. **Atual: 1.328 substituídos; 4.238 restantes em 85 destinos**. Veja [checkpoint atualizado das Américas em 03/11/2026](lote-americas-2026-11-03.md).
+- Base desta continuação: **5.566 em 87 destinos**. **Atual: 1.408 substituídos; 4.158 restantes em 85 destinos**. Veja [checkpoint europeu de 03/11/2026](lote-europa-2026-11-03.md).
 - Não declarar 107/107 revisados visualmente. Nenhuma aprovação global de orientação ou de correspondência de tema foi concedida.
 - Audit global continua reprovado; não fazer merge desta etapa como conclusão da curadoria.
 

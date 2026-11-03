@@ -1,0 +1,810 @@
+[
+  {
+    "key": "florenca/hero",
+    "slot": "hero",
+    "topic": "Florença",
+    "path": "/images/destinations/florenca/curated-hero.jpg",
+    "pool": "highlight-0",
+    "status": "pending-visual-review",
+    "title": "File:Florence Skyline Stitch - July 2006 - Perfect Panorama.jpg",
+    "imageinfo": {
+      "size": 1668867,
+      "width": 4560,
+      "height": 1477,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Florence_Skyline_Stitch_-_July_2006_-_Perfect_Panorama.jpg/3840px-Florence_Skyline_Stitch_-_July_2006_-_Perfect_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 777,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Florence_Skyline_Stitch_-_July_2006_-_Perfect_Panorama.jpg/3840px-Florence_Skyline_Stitch_-_July_2006_-_Perfect_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 777
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Florence_Skyline_Stitch_-_July_2006_-_Perfect_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Florence_Skyline_Stitch_-_July_2006_-_Perfect_Panorama.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=118226117",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-05-21 22:40:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Florence Skyline Stitch - July 2006 - Perfect Panorama",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|July 2006 in Florence",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.763702",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.264784",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Nice day for a panorama. This one was taken from the Car and Bus Park outside the town. Most people take the sightseeing bus into the city from here but that would have been too easy, of course, so we walked.... there and back.\nIt is another of those World Cities that if you get the chance to visit, you must.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "July 2006",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/gareth1953/3852429708/\">https://www.flickr.com/photos/gareth1953/3852429708/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Gareth Williams",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/florenca/hero.jpg",
+    "dimensions": [
+      2400,
+      778
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Florence_Skyline_Stitch_-_July_2006_-_Perfect_Panorama.jpg/3840px-Florence_Skyline_Stitch_-_July_2006_-_Perfect_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "0b716f79a6e6edbc8eafcd37fc1f9b39a7ed8093f5d1d00016ada4bbb2b6de3c"
+  },
+  {
+    "key": "florenca/intro",
+    "slot": "intro",
+    "topic": "Florença",
+    "path": "/images/destinations/florenca/curated-intro.jpg",
+    "pool": "highlight-0",
+    "status": "pending-visual-review",
+    "title": "File:Florence's skyline.jpg",
+    "imageinfo": {
+      "size": 11088895,
+      "width": 8240,
+      "height": 3680,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Florence%27s_skyline.jpg/3840px-Florence%27s_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1072,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Florence%27s_skyline.jpg/3840px-Florence%27s_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1072
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Florence%27s_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Florence%27s_skyline.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75001501",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-12-12 13:20:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Florence's skyline",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Panoramas of Florence",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.762778",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.265278",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Florence's skyline taken from Piazzale Michelangelo",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-03-21 16:24:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dimoegy1999&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dimoegy1999 (page does not exist)\">Dimoegy1999</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/florenca/intro.jpg",
+    "dimensions": [
+      2400,
+      1072
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Florence%27s_skyline.jpg/3840px-Florence%27s_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f569c833462795d0ee212f8cc75b4eaa3e82c4452789edfdf815b64ffab356a9"
+  },
+  {
+    "key": "florenca/home-slide",
+    "slot": "home-slide",
+    "topic": "Florença",
+    "path": "/images/destinations/florenca/curated-home-slide.jpg",
+    "pool": "highlight-0",
+    "status": "pending-visual-review",
+    "title": "File:Skyline of Florence from Piazzale Michelangelo. Feb. 2016.jpg",
+    "imageinfo": {
+      "size": 2637285,
+      "width": 3456,
+      "height": 2304,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Skyline_of_Florence_from_Piazzale_Michelangelo._Feb._2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Skyline_of_Florence_from_Piazzale_Michelangelo._Feb._2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Skyline_of_Florence_from_Piazzale_Michelangelo._Feb._2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Florence_from_Piazzale_Michelangelo._Feb._2016.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52832655",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-11-05 12:07:18",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Skyline of Florence from Piazzale Michelangelo. Feb. 2016",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Views from Piazzale Michelangelo|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Panorama della città da Piazzale Michelangelo, foto di ∆le",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-02-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Alessandro_Bello&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Alessandro Bello (page does not exist)\">Alessandro Bello</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/florenca/home-slide.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Skyline_of_Florence_from_Piazzale_Michelangelo._Feb._2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "87ba82300963fe0c6cbff0574fcc311321e12fbbf2b1edfd25e626d20d53afd8"
+  },
+  {
+    "key": "florenca/home",
+    "slot": "home",
+    "topic": "Florença",
+    "path": "/images/destinations/florenca/curated-home.jpg",
+    "pool": "highlight-1",
+    "status": "pending-visual-review",
+    "title": "File:Exterior of Santa Maria del Fiore- Florence.jpg",
+    "imageinfo": {
+      "size": 2331464,
+      "width": 4608,
+      "height": 2592,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Exterior_of_Santa_Maria_del_Fiore-_Florence.jpg/3840px-Exterior_of_Santa_Maria_del_Fiore-_Florence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Exterior_of_Santa_Maria_del_Fiore-_Florence.jpg/3840px-Exterior_of_Santa_Maria_del_Fiore-_Florence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Exterior_of_Santa_Maria_del_Fiore-_Florence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Exterior_of_Santa_Maria_del_Fiore-_Florence.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79415636",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-06-02 09:58:02",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Exterior of Santa Maria del Fiore- Florence",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Santa Maria del Fiore (Florence) - Dome|Santa Maria del Fiore (Florence) seen from the South",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Exterior of Santa Maria del Fiore,Filippo Brunelleschi's Dome (Florence)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-04-19 08:38:27",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Yair-haklai\" title=\"User:Yair-haklai\">Yair Haklai</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/florenca/home.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Exterior_of_Santa_Maria_del_Fiore-_Florence.jpg/3840px-Exterior_of_Santa_Maria_del_Fiore-_Florence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "9f063c09cd4a04974d4871d62c1397cdd9345b87d72c9b67200ce8dff478fa46"
+  },
+  {
+    "key": "florenca/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Florença",
+    "path": "/images/destinations/florenca/curated-guide-highlight.jpg",
+    "pool": "highlight-1",
+    "status": "pending-visual-review",
+    "title": "File:Exterior of Santa Maria del Fiore (Florence) 20150811.jpg",
+    "imageinfo": {
+      "size": 7678283,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Exterior_of_Santa_Maria_del_Fiore_%28Florence%29_20150811.jpg/3840px-Exterior_of_Santa_Maria_del_Fiore_%28Florence%29_20150811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Exterior_of_Santa_Maria_del_Fiore_%28Florence%29_20150811.jpg/3840px-Exterior_of_Santa_Maria_del_Fiore_%28Florence%29_20150811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exterior_of_Santa_Maria_del_Fiore_%28Florence%29_20150811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Exterior_of_Santa_Maria_del_Fiore_(Florence)_20150811.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91107306",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-06-10 14:20:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Exterior of Santa Maria del Fiore (Florence) 20150811",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Santa Maria del Fiore (Florence) - Facade partial views (upper part)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Exterior of Santa Maria del Fiore (Florence)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-08-11 17:14:22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Suicasmo\" title=\"User:Suicasmo\">Suicasmo</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/florenca/guide-highlight.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Exterior_of_Santa_Maria_del_Fiore_%28Florence%29_20150811.jpg/3840px-Exterior_of_Santa_Maria_del_Fiore_%28Florence%29_20150811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "1361768a12790655e778f8b159249ade82816e6df3a01dfc281323c5b4d0ed83"
+  },
+  {
+    "key": "florenca/guide-card",
+    "slot": "guide-card",
+    "topic": "Florença",
+    "path": "/images/destinations/florenca/curated-guide-card.jpg",
+    "pool": "highlight-2",
+    "status": "pending-visual-review",
+    "title": "File:Ponte Vecchio from Ponte Santa Trinita Blue hour.jpg",
+    "imageinfo": {
+      "size": 13822038,
+      "width": 4908,
+      "height": 3339,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg/3840px-Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1633,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg/3840px-Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1633
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=108262669",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-10-04 19:25:59",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Ponte Vecchio from Ponte Santa Trinita Blue hour",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Water reflections of lights in Italy|Reflections in rivers in Italy|Italy photographs taken on 2021-07-31|July 2021 in Florence|Ponte Vecchio from Ponte Santa Trinita|Buildings during blue hour in Florence",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Ponte Vecchio from Ponte Santa Trinita",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-07-31 19:47:11",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Commonists\" title=\"User:Commonists\">Commonists</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/florenca/guide-card.jpg",
+    "dimensions": [
+      2400,
+      1633
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg/3840px-Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "600fdf4800b302cc3c7a4968fb5b391c9b59367015b4394ce4d93f21c1b7e317"
+  },
+  {
+    "key": "florenca/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Florença: miniatura da home",
+    "path": "/images/destinations/florenca/curated-home-thumb.jpg",
+    "pool": "highlight-2",
+    "status": "pending-visual-review",
+    "title": "File:Ponte Vecchio sobre el río Arno, Florencia, Italia, 2022-09-19, DD 02.jpg",
+    "imageinfo": {
+      "size": 8486908,
+      "width": 8032,
+      "height": 5355,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg/3840px-Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg/3840px-Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_sobre_el_r%C3%ADo_Arno,_Florencia,_Italia,_2022-09-19,_DD_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=125639811",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-11-17 23:54:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Ponte Vecchio sobre el río Arno, Florencia, Italia, 2022-09-19, DD 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS R|Self-published work|Images of Italy by User:Poco a poco|Images by User:Poco a poco|Italy photographs taken on 2022-09-19|September 2022 in Florence|Ponte Vecchio from Lungarno Anna Maria Luisa de' Medici or Lungarno degli Archibusieri|Images by User:Poco a poco taken in 2022",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Ponte Vecchio, Florence, Italy",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-09-19 11:00:47",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/florenca/home-thumb.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg/3840px-Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "09319b7ea902326f0686e9b455bf11fea43a89c6a1e07f1f1b11ac3a5bda336d"
+  }
+]

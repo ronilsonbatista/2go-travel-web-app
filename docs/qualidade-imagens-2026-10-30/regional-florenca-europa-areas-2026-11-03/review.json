@@ -1,0 +1,2746 @@
+[
+  {
+    "key": "florenca/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Centro Storico",
+    "path": "/images/destinations/florenca/curated-neighborhood-0.jpg",
+    "pool": "neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Impressions from the historic center of Florence (15053).jpg",
+    "imageinfo": {
+      "size": 3359925,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Impressions_from_the_historic_center_of_Florence_%2815053%29.jpg/3840px-Impressions_from_the_historic_center_of_Florence_%2815053%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Impressions_from_the_historic_center_of_Florence_%2815053%29.jpg/3840px-Impressions_from_the_historic_center_of_Florence_%2815053%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Impressions_from_the_historic_center_of_Florence_%2815053%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Impressions_from_the_historic_center_of_Florence_(15053).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=167098812",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-06-08 08:43:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Impressions from the historic center of Florence (15053)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Arno River in Florence|Uploaded with Mobile/Android|Files with coordinates missing SDC location of creation|Photographs taken on 2025-06-04",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.764758",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.271178",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Impressions from the historic center of Florence",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "4 June 2025 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Mietchen\" title=\"User:Daniel Mietchen\">Daniel Mietchen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/neighborhood-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Impressions_from_the_historic_center_of_Florence_%2815053%29.jpg/3840px-Impressions_from_the_historic_center_of_Florence_%2815053%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "657159c040159e804640d33e1f7b059e1d407717d7e9e20ca1dab30b037f0638"
+  },
+  {
+    "key": "florenca/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Centro Storico",
+    "path": "/images/destinations/florenca/curated-neighborhood-detail-0.jpg",
+    "pool": "neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Impressions from the historic center of Florence (33294).jpg",
+    "imageinfo": {
+      "size": 2551618,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Impressions_from_the_historic_center_of_Florence_%2833294%29.jpg/3840px-Impressions_from_the_historic_center_of_Florence_%2833294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Impressions_from_the_historic_center_of_Florence_%2833294%29.jpg/3840px-Impressions_from_the_historic_center_of_Florence_%2833294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Impressions_from_the_historic_center_of_Florence_%2833294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Impressions_from_the_historic_center_of_Florence_(33294).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=167098760",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-06-08 08:42:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Impressions from the historic center of Florence (33294)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Uploaded with Mobile/Android|Files with coordinates missing SDC location of creation|Circolo dei Canottieri (Florence)|Photographs taken on 2025-06-04",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.766556",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.255842",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Impressions from the historic center of Florence",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "4 June 2025 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Mietchen\" title=\"User:Daniel Mietchen\">Daniel Mietchen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/neighborhood-detail-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Impressions_from_the_historic_center_of_Florence_%2833294%29.jpg/3840px-Impressions_from_the_historic_center_of_Florence_%2833294%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ac292c6320ed4ba1fdf24967e2115090d18515018b2d81a501841f6ef7557cd8"
+  },
+  {
+    "key": "florenca/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Oltrarno",
+    "path": "/images/destinations/florenca/curated-neighborhood-1.jpg",
+    "pool": "neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Firenze - Florence - Via di San Niccolò - View East on chiesa di San Niccolò Oltrarno.jpg",
+    "imageinfo": {
+      "size": 3877372,
+      "width": 2016,
+      "height": 3024,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Firenze_-_Florence_-_Via_di_San_Niccol%C3%B2_-_View_East_on_chiesa_di_San_Niccol%C3%B2_Oltrarno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Firenze_-_Florence_-_Via_di_San_Niccol%C3%B2_-_View_East_on_chiesa_di_San_Niccol%C3%B2_Oltrarno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Firenze_-_Florence_-_Via_di_San_Niccol%C3%B2_-_View_East_on_chiesa_di_San_Niccol%C3%B2_Oltrarno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Firenze_-_Florence_-_Via_di_San_Niccol%C3%B2_-_View_East_on_chiesa_di_San_Niccol%C3%B2_Oltrarno.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65000873",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-02-01 22:00:28",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Firenze - Florence - Via di San Niccolò - View East on chiesa di San Niccolò Oltrarno",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|San Niccolò Oltrarno (Florence)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.764439",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.260889",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Firenze / Florence - Via di San Niccolò - View East on chiesa di San Niccolò Oltrarno",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-04-22 12:24:52",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Txllxt_TxllxT\" title=\"User:Txllxt TxllxT\">Txllxt TxllxT</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/neighborhood-1.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Firenze_-_Florence_-_Via_di_San_Niccol%C3%B2_-_View_East_on_chiesa_di_San_Niccol%C3%B2_Oltrarno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "78db23bc40db52e00ec98d432389e941166d274e4114b3dab5416fea6f98e48f"
+  },
+  {
+    "key": "florenca/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "Oltrarno",
+    "path": "/images/destinations/florenca/curated-neighborhood-detail-1.jpg",
+    "pool": "neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Via romana 93, casa, stemma illeggibile.jpg",
+    "imageinfo": {
+      "size": 2157676,
+      "width": 1530,
+      "height": 1704,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Via_romana_93%2C_casa%2C_stemma_illeggibile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2673,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Via_romana_93%2C_casa%2C_stemma_illeggibile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2673
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Via_romana_93%2C_casa%2C_stemma_illeggibile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Via_romana_93,_casa,_stemma_illeggibile.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=156521475",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-12-10 15:07:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Via romana 93, casa, stemma illeggibile",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Via Romana (Florence)|Self-published work|Photographs by User:Sailko|Coats of arms in Florence|All media supported by Wikimedia CH|Images by Sailko - Supported by Wikimedia CH|Photographs of decorative arts by User:Sailko - Coats of arms - Sculpture",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Coats of arms in Florence - Oltrarno",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-04-14 16:03:03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Francesco Bini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/neighborhood-detail-1.jpg",
+    "dimensions": [
+      1530,
+      1704
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Via_romana_93%2C_casa%2C_stemma_illeggibile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "d6ff37d6c6b6d945bfddb9488e26bd47d47cc7001537ae65f61ccd062f68d790"
+  },
+  {
+    "key": "florenca/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "Santa Croce",
+    "path": "/images/destinations/florenca/curated-neighborhood-2.jpg",
+    "pool": "neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Statue Dante Alighieri Piazza Santa Croce - Florence (IT52) - 2022-08-31 - 3.jpg",
+    "imageinfo": {
+      "size": 2161205,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Statue_Dante_Alighieri_Piazza_Santa_Croce_-_Florence_%28IT52%29_-_2022-08-31_-_3.jpg/1920px-Statue_Dante_Alighieri_Piazza_Santa_Croce_-_Florence_%28IT52%29_-_2022-08-31_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Statue_Dante_Alighieri_Piazza_Santa_Croce_-_Florence_%28IT52%29_-_2022-08-31_-_3.jpg/1920px-Statue_Dante_Alighieri_Piazza_Santa_Croce_-_Florence_%28IT52%29_-_2022-08-31_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Statue_Dante_Alighieri_Piazza_Santa_Croce_-_Florence_%28IT52%29_-_2022-08-31_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Statue_Dante_Alighieri_Piazza_Santa_Croce_-_Florence_(IT52)_-_2022-08-31_-_3.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=122680973",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-09-05 14:15:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Statue Dante Alighieri Piazza Santa Croce - Florence (IT52) - 2022-08-31 - 3",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Monument to Dante Alighieri (Florence)|Self-published work|Italy photographs taken on 2022-08-31|Files with coordinates missing SDC location of creation|August 2022 in Florence|Images by Chabe01 taken with iPhone 13 Pro|Images of Florence by Chabe01|Objects with overcast background",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.768911",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.262156",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Monument to Dante Alighieri in Florence, Italy.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-08-31 14:39:42",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Chabe01\" title=\"User:Chabe01\">Chabe01</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/neighborhood-2.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Statue_Dante_Alighieri_Piazza_Santa_Croce_-_Florence_%28IT52%29_-_2022-08-31_-_3.jpg/1920px-Statue_Dante_Alighieri_Piazza_Santa_Croce_-_Florence_%28IT52%29_-_2022-08-31_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c8375f8bd2541947cb65672685e8fd5ddf65d3d68efef573f8f79aa26e7c52e0"
+  },
+  {
+    "key": "florenca/neighborhood-detail-2",
+    "slot": "neighborhood-detail-2",
+    "topic": "Santa Croce",
+    "path": "/images/destinations/florenca/curated-neighborhood-detail-2.jpg",
+    "pool": "neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:View of Piazza della Signoria and Basilica of Santa Croce from Giotto's Bell Tower. Florence, Italy.jpg",
+    "imageinfo": {
+      "size": 17103265,
+      "width": 5831,
+      "height": 3259,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/View_of_Piazza_della_Signoria_and_Basilica_of_Santa_Croce_from_Giotto%27s_Bell_Tower._Florence%2C_Italy.jpg/3840px-View_of_Piazza_della_Signoria_and_Basilica_of_Santa_Croce_from_Giotto%27s_Bell_Tower._Florence%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1341,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/View_of_Piazza_della_Signoria_and_Basilica_of_Santa_Croce_from_Giotto%27s_Bell_Tower._Florence%2C_Italy.jpg/3840px-View_of_Piazza_della_Signoria_and_Basilica_of_Santa_Croce_from_Giotto%27s_Bell_Tower._Florence%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1341
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/View_of_Piazza_della_Signoria_and_Basilica_of_Santa_Croce_from_Giotto%27s_Bell_Tower._Florence%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:View_of_Piazza_della_Signoria_and_Basilica_of_Santa_Croce_from_Giotto%27s_Bell_Tower._Florence,_Italy.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75654092",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-01-07 10:01:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "View of Piazza della Signoria and Basilica of Santa Croce from Giotto's Bell Tower. Florence, Italy",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Churches in Italy photographed in 2014|Santa Croce (Florence) - from Giotto's Bell Tower|Files with coordinates missing SDC location of creation|Italy photographs taken on 2014-05-06|May 2014 in Florence|Remote views of the Basilica of Santa Croce (Florence)|Photographs by Ввласенко/Volodymyr Vlasenko|Remote views of Piazza della Signoria",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.772786",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.255770",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of Piazza della Signoria and Basilica of Santa Croce from Giotto's Bell Tower. Florence, Italy",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-05-06 17:32:34",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:%D0%92%D0%B2%D0%BB%D0%B0%D1%81%D0%B5%D0%BD%D0%BA%D0%BE\" class=\"mw-redirect\" title=\"User:Ввласенко\">Ввласенко</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/neighborhood-detail-2.jpg",
+    "dimensions": [
+      2400,
+      1341
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/View_of_Piazza_della_Signoria_and_Basilica_of_Santa_Croce_from_Giotto%27s_Bell_Tower._Florence%2C_Italy.jpg/3840px-View_of_Piazza_della_Signoria_and_Basilica_of_Santa_Croce_from_Giotto%27s_Bell_Tower._Florence%2C_Italy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7953a79b392afb0bfa65488110350e84d047307952722437a27bb27464dc1f24"
+  },
+  {
+    "key": "florenca/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "San Lorenzo",
+    "path": "/images/destinations/florenca/curated-neighborhood-3.jpg",
+    "pool": "neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Firenze - Florence - Piazza di San Lorenzo - View SSW.jpg",
+    "imageinfo": {
+      "size": 3762585,
+      "width": 2016,
+      "height": 3024,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_SSW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_SSW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_SSW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_SSW.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65090188",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-01-30 21:20:00",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Firenze - Florence - Piazza di San Lorenzo - View SSW",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Piazza San Lorenzo (Florence)|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.774978",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.255108",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Firenze / Florence - Piazza di San Lorenzo - View SSW",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-04-21 10:47:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Txllxt_TxllxT\" title=\"User:Txllxt TxllxT\">Txllxt TxllxT</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/neighborhood-3.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_SSW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "301361d0ce8df1813bcabcf7d0ceb095bc797d6b2ff0704d16492a4f2ac62dc7"
+  },
+  {
+    "key": "florenca/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "San Lorenzo",
+    "path": "/images/destinations/florenca/curated-neighborhood-detail-3.jpg",
+    "pool": "neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Firenze - Florence - Piazza di San Lorenzo - View ESE.jpg",
+    "imageinfo": {
+      "size": 3478049,
+      "width": 2016,
+      "height": 3024,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_ESE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_ESE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_ESE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_ESE.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65090167",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-01-31 15:34:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Firenze - Florence - Piazza di San Lorenzo - View ESE",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Piazza San Lorenzo (Florence)|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.775497",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.253589",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Firenze / Florence - Piazza di San Lorenzo - View ESE",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-04-21 11:33:48",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Txllxt_TxllxT\" title=\"User:Txllxt TxllxT\">Txllxt TxllxT</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/neighborhood-detail-3.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Firenze_-_Florence_-_Piazza_di_San_Lorenzo_-_View_ESE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "9f0dc62a7f4cddc6213651cb9b11e710566c2f3c63ce2a89c92c563cdc7d6324"
+  },
+  {
+    "key": "florenca/region-0",
+    "slot": "region-0",
+    "topic": "Duomo",
+    "path": "/images/destinations/florenca/curated-region-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Piazza del duomo 8-9, museo dell'opera del duomo, 01.jpg",
+    "imageinfo": {
+      "size": 7414771,
+      "width": 4938,
+      "height": 3228,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Piazza_del_duomo_8-9%2C_museo_dell%27opera_del_duomo%2C_01.jpg/3840px-Piazza_del_duomo_8-9%2C_museo_dell%27opera_del_duomo%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1569,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Piazza_del_duomo_8-9%2C_museo_dell%27opera_del_duomo%2C_01.jpg/3840px-Piazza_del_duomo_8-9%2C_museo_dell%27opera_del_duomo%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1569
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Piazza_del_duomo_8-9%2C_museo_dell%27opera_del_duomo%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Piazza_del_duomo_8-9,_museo_dell%27opera_del_duomo,_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157722460",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-01-09 17:30:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Piazza del duomo 8-9, museo dell'opera del duomo, 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Museo dell'Opera del Duomo (Florence)|Piazza del Duomo (Florence)|Self-published work|Photographs by User:Sailko|All media supported by Wikimedia CH|Images by Sailko - Supported by Wikimedia CH",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Piazza del Duomo (Florence)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-03-14 10:42:56",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Francesco Bini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/region-0.jpg",
+    "dimensions": [
+      2400,
+      1569
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Piazza_del_duomo_8-9%2C_museo_dell%27opera_del_duomo%2C_01.jpg/3840px-Piazza_del_duomo_8-9%2C_museo_dell%27opera_del_duomo%2C_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a581f5529983884286ae5930ba2c39ec7ccd469f40e5f4fafb21303e9da8c97f"
+  },
+  {
+    "key": "florenca/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Duomo",
+    "path": "/images/destinations/florenca/curated-region-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Piazza del duomo 11, Casa Sermanni 00.jpg",
+    "imageinfo": {
+      "size": 7570485,
+      "width": 4548,
+      "height": 3384,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Piazza_del_duomo_11%2C_Casa_Sermanni_00.jpg/3840px-Piazza_del_duomo_11%2C_Casa_Sermanni_00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1786,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Piazza_del_duomo_11%2C_Casa_Sermanni_00.jpg/3840px-Piazza_del_duomo_11%2C_Casa_Sermanni_00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1786
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Piazza_del_duomo_11%2C_Casa_Sermanni_00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Piazza_del_duomo_11,_Casa_Sermanni_00.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157724054",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-01-09 18:01:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Piazza del duomo 11, Casa Sermanni 00",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Piazza del Duomo (Florence)|Self-published work|Photographs by User:Sailko|All media supported by Wikimedia CH|Images by Sailko - Supported by Wikimedia CH",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Piazza del Duomo (Florence)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-04-07 11:30:16",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Francesco Bini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/region-list-0.jpg",
+    "dimensions": [
+      2400,
+      1786
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Piazza_del_duomo_11%2C_Casa_Sermanni_00.jpg/3840px-Piazza_del_duomo_11%2C_Casa_Sermanni_00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "6cf6c2fbdc6a11beebb5e47464e14150f7764d899b839c529a8592abaa295340"
+  },
+  {
+    "key": "florenca/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Duomo",
+    "path": "/images/destinations/florenca/curated-hotel-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Piazza del duomo, mandala su impalcature.jpg",
+    "imageinfo": {
+      "size": 2256416,
+      "width": 1800,
+      "height": 2418,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Piazza_del_duomo%2C_mandala_su_impalcature.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3224,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Piazza_del_duomo%2C_mandala_su_impalcature.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3224
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Piazza_del_duomo%2C_mandala_su_impalcature.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Piazza_del_duomo,_mandala_su_impalcature.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157724061",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-01-09 18:01:36",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Piazza del duomo, mandala su impalcature",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Mandalas|Piazza del Duomo (Florence)|Self-published work|Photographs by User:Sailko|All media supported by Wikimedia CH|Files with coordinates missing SDC location of creation|Images by Sailko - Supported by Wikimedia CH|Photographs of graphics by User:Sailko|Street art in Florence",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.773428",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.254875",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Piazza del Duomo (Florence)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-11-30 19:34:33",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Francesco Bini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/hotel-0.jpg",
+    "dimensions": [
+      1787,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Piazza_del_duomo%2C_mandala_su_impalcature.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "e8dafbf0e50dca51a870d9a028c6a41356e021c8e8fc41a48b3d9d27cfff10a9"
+  },
+  {
+    "key": "florenca/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Duomo",
+    "path": "/images/destinations/florenca/curated-hotel-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Piazza del duomo 11, Casa Sermanni 01.jpg",
+    "imageinfo": {
+      "size": 7004089,
+      "width": 4600,
+      "height": 3344,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Piazza_del_duomo_11%2C_Casa_Sermanni_01.jpg/3840px-Piazza_del_duomo_11%2C_Casa_Sermanni_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1745,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Piazza_del_duomo_11%2C_Casa_Sermanni_01.jpg/3840px-Piazza_del_duomo_11%2C_Casa_Sermanni_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1745
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Piazza_del_duomo_11%2C_Casa_Sermanni_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Piazza_del_duomo_11,_Casa_Sermanni_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157724052",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-01-09 18:01:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Piazza del duomo 11, Casa Sermanni 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Piazza del Duomo (Florence)|Self-published work|Photographs by User:Sailko|All media supported by Wikimedia CH|Images by Sailko - Supported by Wikimedia CH",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Piazza del Duomo (Florence)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-03-14 10:43:35",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Francesco Bini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/hotel-list-0.jpg",
+    "dimensions": [
+      2400,
+      1745
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Piazza_del_duomo_11%2C_Casa_Sermanni_01.jpg/3840px-Piazza_del_duomo_11%2C_Casa_Sermanni_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "97301e1ed1239a4767b662b6a3b8f99a1eeeddde4035dd93507bbc1f084b4174"
+  },
+  {
+    "key": "florenca/region-1",
+    "slot": "region-1",
+    "topic": "Uffizi",
+    "path": "/images/destinations/florenca/curated-region-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Firenze - Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - View ENE on Palazzo Vecchio - Palazzo della Signoria - Torre di Arnolfo 1310.jpg",
+    "imageinfo": {
+      "size": 3604623,
+      "width": 3024,
+      "height": 2016,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_-_Torre_di_Arnolfo_1310.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_-_Torre_di_Arnolfo_1310.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_-_Torre_di_Arnolfo_1310.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_-_Torre_di_Arnolfo_1310.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64983761",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-02-01 20:25:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Firenze - Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - View ENE on Palazzo Vecchio - Palazzo della Signoria - Torre di Arnolfo 1310",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Torre di Arnolfo|Storms in Italy|Files with coordinates missing SDC location of creation|Italy photographs taken on 2010-04-22|April 2010 in Florence|Exterior of Palazzo Vecchio from Loggia dei Lanzi terrace",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.769139",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.255600",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Firenze / Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - View ENE on Palazzo Vecchio / Palazzo della Signoria - Torre di Arnolfo 1310",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-04-22 16:00:09",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Txllxt_TxllxT\" title=\"User:Txllxt TxllxT\">Txllxt TxllxT</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/region-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_-_Torre_di_Arnolfo_1310.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "d5f13c0a2d9bce1ddc70db5d150a19d97f8ce60ee78e9edfade9d4db55fe89f8"
+  },
+  {
+    "key": "florenca/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Uffizi",
+    "path": "/images/destinations/florenca/curated-region-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:View of Florence 27.jpg",
+    "imageinfo": {
+      "size": 2055210,
+      "width": 4272,
+      "height": 2848,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/View_of_Florence_27.jpg/3840px-View_of_Florence_27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/View_of_Florence_27.jpg/3840px-View_of_Florence_27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/View_of_Florence_27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:View_of_Florence_27.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=121408628",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-08-04 20:07:30",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "View of Florence 27",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Images by John Samuel|Exterior of Palazzo Vecchio from Piazzale degli Uffizi",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of Florence",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-09-01 18:30:04",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jsamwrites\" title=\"User:Jsamwrites\">John Samuel</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/region-list-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/View_of_Florence_27.jpg/3840px-View_of_Florence_27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e043a81b52dc669e01dce8a4c33519df5f0fcbced49dc7fd5f1560d0e3e1caa0"
+  },
+  {
+    "key": "florenca/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Uffizi",
+    "path": "/images/destinations/florenca/curated-hotel-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Firenze - Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - View ENE on Palazzo Vecchio - Palazzo della Signoria 1353.jpg",
+    "imageinfo": {
+      "size": 4215640,
+      "width": 3024,
+      "height": 2016,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_1353.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_1353.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_1353.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_1353.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64983762",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-02-01 20:26:24",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Firenze - Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - View ENE on Palazzo Vecchio - Palazzo della Signoria 1353",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Exterior of Palazzo Vecchio from Loggia dei Lanzi terrace",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.769161",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.255589",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Firenze / Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - View ENE on Palazzo Vecchio / Palazzo della Signoria 1353",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-04-22 16:00:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Txllxt_TxllxT\" title=\"User:Txllxt TxllxT\">Txllxt TxllxT</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_View_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria_1353.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "36da39167f5a0668b1ca3a9b53bd10d562f95479a7e7d1caf57cd250cf6c8aab"
+  },
+  {
+    "key": "florenca/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Uffizi",
+    "path": "/images/destinations/florenca/curated-hotel-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Firenze - Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - ICE Photocompilation Viewing ENE on Palazzo Vecchio - Palazzo della Signoria.jpg",
+    "imageinfo": {
+      "size": 7906010,
+      "width": 2837,
+      "height": 2985,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_ICE_Photocompilation_Viewing_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2525,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_ICE_Photocompilation_Viewing_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2525
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_ICE_Photocompilation_Viewing_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_ICE_Photocompilation_Viewing_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64983763",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-02-01 20:28:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Firenze - Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - ICE Photocompilation Viewing ENE on Palazzo Vecchio - Palazzo della Signoria",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Exterior of Palazzo Vecchio from Loggia dei Lanzi terrace",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.769153",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.255558",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Firenze / Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - ICE Photocompilation Viewing ENE on Palazzo Vecchio / Palazzo della Signoria",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-04-22 16:00:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Txllxt_TxllxT\" title=\"User:Txllxt TxllxT\">Txllxt TxllxT</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/hotel-list-1.jpg",
+    "dimensions": [
+      2281,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Firenze_-_Florence_-_Galleria_degli_Uffizi_-_Terrace_on_top_of_Loggia_dei_Lanzi_-_ICE_Photocompilation_Viewing_ENE_on_Palazzo_Vecchio_-_Palazzo_della_Signoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "14a587d4c0154258f0ccf763bfc1723a1d1e35fa6a571d93795b29d72a09d691"
+  },
+  {
+    "key": "florenca/region-2",
+    "slot": "region-2",
+    "topic": "Oltrarno",
+    "path": "/images/destinations/florenca/curated-region-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Via romana 51, casa, stemma illeggibile.jpg",
+    "imageinfo": {
+      "size": 5034270,
+      "width": 2082,
+      "height": 2568,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Via_romana_51%2C_casa%2C_stemma_illeggibile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2960,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Via_romana_51%2C_casa%2C_stemma_illeggibile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2960
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Via_romana_51%2C_casa%2C_stemma_illeggibile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Via_romana_51,_casa,_stemma_illeggibile.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=156521456",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-12-10 15:07:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Via romana 51, casa, stemma illeggibile",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Via Romana (Florence)|Self-published work|Photographs by User:Sailko|Coats of arms in Florence|All media supported by Wikimedia CH|Images by Sailko - Supported by Wikimedia CH|Photographs of decorative arts by User:Sailko - Coats of arms - Sculpture",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Coats of arms in Florence - Oltrarno",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-04-14 15:52:48",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Francesco Bini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/region-2.jpg",
+    "dimensions": [
+      1946,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Via_romana_51%2C_casa%2C_stemma_illeggibile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "89a83030586c699e6e82d5f9301617419ca300a384dbda12718b18bd468951ba"
+  },
+  {
+    "key": "florenca/region-list-2",
+    "slot": "region-list-2",
+    "topic": "Oltrarno",
+    "path": "/images/destinations/florenca/curated-region-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Via romana 35, casa, stemma bordoni.jpg",
+    "imageinfo": {
+      "size": 2451255,
+      "width": 1458,
+      "height": 2136,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Via_romana_35%2C_casa%2C_stemma_bordoni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3516,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Via_romana_35%2C_casa%2C_stemma_bordoni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3516
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Via_romana_35%2C_casa%2C_stemma_bordoni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Via_romana_35,_casa,_stemma_bordoni.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=156521443",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-12-10 15:06:51",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Via romana 35, casa, stemma bordoni",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Via Romana (Florence)|Self-published work|Photographs by User:Sailko|Coats of arms in Florence|All media supported by Wikimedia CH|Images by Sailko - Supported by Wikimedia CH|House of Bordoni|Photographs of decorative arts by User:Sailko - Coats of arms - Sculpture",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Coats of arms in Florence - Oltrarno",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-04-14 15:43:59",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Francesco Bini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/region-list-2.jpg",
+    "dimensions": [
+      1458,
+      2136
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Via_romana_35%2C_casa%2C_stemma_bordoni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "a29516f8d301591ed61289e5b22947c2094b5e3df5a3f2b54948f3bf8369a688"
+  },
+  {
+    "key": "florenca/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Oltrarno",
+    "path": "/images/destinations/florenca/curated-hotel-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Via romana 51, casa, stemma 01.jpg",
+    "imageinfo": {
+      "size": 3658680,
+      "width": 2088,
+      "height": 2070,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Via_romana_51%2C_casa%2C_stemma_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2379,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Via_romana_51%2C_casa%2C_stemma_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2379
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Via_romana_51%2C_casa%2C_stemma_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Via_romana_51,_casa,_stemma_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=156521452",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-12-10 15:06:59",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Via romana 51, casa, stemma 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Via Romana (Florence)|Self-published work|Photographs by User:Sailko|Coats of arms in Florence|All media supported by Wikimedia CH|Images by Sailko - Supported by Wikimedia CH|Photographs of decorative arts by User:Sailko - Coats of arms - Sculpture",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Coats of arms in Florence - Oltrarno",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-04-14 15:52:16",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Francesco Bini</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/hotel-2.jpg",
+    "dimensions": [
+      2088,
+      2070
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Via_romana_51%2C_casa%2C_stemma_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "ce0e07df62937c4f9f48cae58d60c122dac317b66c7d2472dcf835626274f0f3"
+  },
+  {
+    "key": "florenca/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Oltrarno",
+    "status": "no-candidate",
+    "pool": "region-2"
+  },
+  {
+    "key": "florenca/region-3",
+    "slot": "region-3",
+    "topic": "Michelangelo",
+    "path": "/images/destinations/florenca/curated-region-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Florence Duomo from Michelangelo hill.jpg",
+    "imageinfo": {
+      "size": 3272757,
+      "width": 3308,
+      "height": 2399,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Florence_Duomo_from_Michelangelo_hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1741,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Florence_Duomo_from_Michelangelo_hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1741
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Florence_Duomo_from_Michelangelo_hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Florence_Duomo_from_Michelangelo_hill.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=38860057",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-03-13 08:19:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Florence Duomo from Michelangelo hill",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Olympus E-PL5|Images with annotations|Self-published work|Featured photos of PetarM|Remote views of Santa Maria del Fiore (Florence) at night|Churches in Italy photographed in 2014|Santa Maria del Fiore (Florence) seen from Piazzale Michelangelo|October 2014 in Florence|Assessment tagged valued image pages missing scope|Featured pictures of churches in Florence",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "featured|valued",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.773231",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.255992",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Florence Duomo as seen from Michelangelo hill. Tuscany, Italy.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-10-25 18:50:37",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:PetarM\" title=\"User:PetarM\">Petar Milošević</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div style=\"clear:both; border: var(--border-style-base, 1px solid #999); margin: 1em; padding: 1em; background-color: var(--background-color-progressive-subtle, #F0F8FF); color: inherit;\">\n<p><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Right-pointing_hand_in_green_octagon.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Right-pointing_hand_in_green_octagon.svg/40px-Right-pointing_hand_in_green_octagon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"38\" height=\"38\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Right-pointing_hand_in_green_octagon.svg/120px-Right-pointing_hand_in_green_octagon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></a></span> You can use this picture according to license. For use outside of Wikipedia I would appreciate it if you let me know by sending e-mail to <b><a rel=\"nofollow\" class=\"external text\" href=\"mailto:petarmslo@gmail.com\">petarmslo@gmail.com</a></b> <span typeof=\"mw:File\"><a href=\"mailto:petarmslo@gmail.com\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Nuvola_apps_email.png/40px-Nuvola_apps_email.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Nuvola_apps_email.png/60px-Nuvola_apps_email.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span>.  Thank you in advance.\n</p>\n<div align=\"right\"><i><a href=\"//commons.wikimedia.org/wiki/User:PetarM\" title=\"User:PetarM\">Petar Milošević</a> <small> (author)</small></i></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/region-3.jpg",
+    "dimensions": [
+      2400,
+      1741
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Florence_Duomo_from_Michelangelo_hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "540072b24a98ed4e1f1c0a87bf765d44b0e1647b55b80131628e1b72554cf87b"
+  },
+  {
+    "key": "florenca/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Michelangelo",
+    "path": "/images/destinations/florenca/curated-region-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Florence Cathedral seen from Piazzale Michelangelo dllu.jpg",
+    "imageinfo": {
+      "size": 38007380,
+      "width": 11662,
+      "height": 8744,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg/3840px-Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1799,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg/3840px-Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1799
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148622824",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-05-22 20:11:23",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Florence Cathedral seen from Piazzale Michelangelo dllu",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Santa Maria del Fiore (Florence) seen from Piazzale Michelangelo|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.763209",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.264082",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The <a href=\"https://en.wikipedia.org/wiki/Florence_Cathedral\" class=\"extiw\" title=\"w:Florence Cathedral\">Florence Cathedral</a> seen from <a href=\"https://en.wikipedia.org/wiki/Piazzale_Michelangelo\" class=\"extiw\" title=\"w:Piazzale Michelangelo\">Piazzale Michelangelo</a> just before sunset.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-02-17 17:54:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dllu\" title=\"User:Dllu\">Dllu</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1799
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg/3840px-Florence_Cathedral_seen_from_Piazzale_Michelangelo_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c57d6b6b585d5506a21f5dc69ec2ac6647fd811082e758a4d5f54f35844b027b"
+  },
+  {
+    "key": "florenca/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Michelangelo",
+    "path": "/images/destinations/florenca/curated-hotel-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Vista de Florencia desde Piazzale Michelangelo, Italia, 2022-09-18, DD 218-220 HDR.jpg",
+    "imageinfo": {
+      "size": 10652240,
+      "width": 8636,
+      "height": 3775,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_218-220_HDR.jpg/3840px-Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_218-220_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1049,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_218-220_HDR.jpg/3840px-Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_218-220_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1049
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_218-220_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vista_de_Florencia_desde_Piazzale_Michelangelo,_Italia,_2022-09-18,_DD_218-220_HDR.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=125639892",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-11-17 23:58:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vista de Florencia desde Piazzale Michelangelo, Italia, 2022-09-18, DD 218-220 HDR",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS R|Views from Piazzale Michelangelo|Self-published work|Tone-mapped HDR images of Italy|Images of Italy by User:Poco a poco|Italy photographs taken on 2022-09-18|Images by User:Poco a poco|FP candidates by User:Poco a poco|September 2022 in Florence|Panoramas of Florence|Images by User:Poco a poco taken in 2022|Blue hour in Florence",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of Florence from Piazzale Michelangelo, Italy",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-09-18 19:16:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/hotel-3.jpg",
+    "dimensions": [
+      2400,
+      1049
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_218-220_HDR.jpg/3840px-Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_218-220_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "1b97cade499b643374d74b81a70555fc33e205ed3f179268afab36220618fd53"
+  },
+  {
+    "key": "florenca/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Michelangelo",
+    "path": "/images/destinations/florenca/curated-hotel-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Vista de Florencia desde Piazzale Michelangelo, Italia, 2022-09-18, DD 199.jpg",
+    "imageinfo": {
+      "size": 8351269,
+      "width": 5647,
+      "height": 2902,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_199.jpg/3840px-Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_199.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1233,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_199.jpg/3840px-Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_199.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1233
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_199.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vista_de_Florencia_desde_Piazzale_Michelangelo,_Italia,_2022-09-18,_DD_199.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=125639826",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-11-17 23:55:30",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vista de Florencia desde Piazzale Michelangelo, Italia, 2022-09-18, DD 199",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS R|Views from Piazzale Michelangelo|Self-published work|Tone-mapped HDR images of Italy|Images of Italy by User:Poco a poco|Italy photographs taken on 2022-09-18|Images by User:Poco a poco|Sunsets of Florence|FP candidates by User:Poco a poco|September 2022 in Florence|Panoramas of Florence|Panoramic photographs of sunsets|Sunsets in 2022|Images by User:Poco a poco taken in 2022|Tone-mapped HDR images of sunsets",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of Florence from Piazzale Michelangelo, Italy",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-09-18 18:35:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Diego Delso",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/florenca/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      1233
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_199.jpg/3840px-Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_199.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "cef2231356fc6d5a0a0e6136dcb594cb05a7cdaec2a58247e6af651a6623f480"
+  }
+]

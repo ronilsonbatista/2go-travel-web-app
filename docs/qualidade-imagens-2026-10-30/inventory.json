@@ -4,8 +4,8 @@
     "cities": 107,
     "flagCounts": {
       "prominent-below-1600": 10,
-      "placeholder": 4238,
-      "not-visually-accepted": 4247
+      "placeholder": 4158,
+      "not-visually-accepted": 4167
     },
     "placeholderCities": 85,
     "note": "Existing accepted values are inherited, not a new visual review. EXIF cannot detect baked-in upside-down photos."
@@ -37329,16 +37329,13 @@
       "topic": "Milão",
       "src": "/images/destinations/milao/curated-hero.jpg",
       "key": "milao/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c394fa2dcd6a8bedeeee2d5508ef3a75d4371af086d95ca4551c716ac11af255",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Full_Milan_skyline_from_Duomo_roof.jpg",
+      "title": "File:Full Milan skyline from Duomo roof.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d7265662e8e93ac282cbcc820caa7372093f7ebb1947c982544898206feee82c",
+      "width": 2400,
+      "height": 1295,
       "exifOrientation": 1
     },
     {
@@ -37347,16 +37344,13 @@
       "topic": "Milão",
       "src": "/images/destinations/milao/curated-intro.jpg",
       "key": "milao/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "8b1dbd660d01f54eb3925b280752a19743d0d440499e91b3d96a0ec7011aea92",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg",
+      "title": "File:Milan skyline skyscrapers of Porta Nuova business district.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a7572506bf3ef745d4d9ac92a201939a1b15d966470f7aeca28a5ed9b862092e",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -37383,16 +37377,13 @@
       "topic": "Milão",
       "src": "/images/destinations/milao/curated-guide-card.jpg",
       "key": "milao/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b8ffd67936c8dc88c4f3a4dbb58bd010f79af523c4790e90669c56c39c5097aa",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_4.jpg",
+      "title": "File:Canal Nord Navigli - Milan (IT25) - 2022-09-02 - 4.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "753bde3b63ba3a0b5190cf064004ee3ec300dd44ce2eae0b8ca2f1118094922a",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -37419,16 +37410,13 @@
       "topic": "Milão",
       "src": "/images/destinations/milao/curated-home-slide.jpg",
       "key": "milao/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "40fd14a7cd0dc2af22a85ab054f60ed7bb0e0da4e85408819d0fa4f22de04af8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:General_skyline_of_Milan_-_2017.jpg",
+      "title": "File:General skyline of Milan - 2017.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "54c34aa736fd1a2f177fb8ddfcde36add705711fbc810e83cfbed4ca1320e870",
+      "width": 2331,
+      "height": 815,
       "exifOrientation": 1
     },
     {
@@ -37635,16 +37623,13 @@
       "topic": "Galleria Vittorio Emanuele",
       "src": "/images/destinations/milao/curated-attraction-1.jpg",
       "key": "milao/attraction-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/attraction-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f4fb770874a91adb3d314b7342e0ce392c0b002c46b33b5d221bfbed65a5580c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:20110724_Galleria_Vittorio_Emanuele_II_Milan_5410.jpg",
+      "title": "File:20110724 Galleria Vittorio Emanuele II Milan 5410.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "77beec5830532db996a18d3613294b31c184a4da5b640046c182a0cd39d42efc",
+      "width": 1821,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -37653,16 +37638,13 @@
       "topic": "Galleria Vittorio Emanuele",
       "src": "/images/destinations/milao/curated-map-attraction-1.jpg",
       "key": "milao/map-attraction-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/map-attraction-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ea91a2eef707b438cf1b343fc5f8202f6f54e18968f0bd451a6fd8f6d395b6f8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Galleria_Vittorio_Emanuele_II_2382.jpg",
+      "title": "File:Galleria Vittorio Emanuele II 2382.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f1067ef1fad0e1de05a2d1e13c6e2c5263c7978b5946e0190daa0a4b60c2c04b",
+      "width": 1564,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -37671,16 +37653,13 @@
       "topic": "Galleria Vittorio Emanuele",
       "src": "/images/destinations/milao/curated-map-list-1.jpg",
       "key": "milao/map-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/map-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e0abe7c3156c2653aafe40e837678f9a5fa71610191884f02e3b43e248a1f053",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:The_glass_dome_-_Galleria_Vittorio_Emanuele_II_-_Milan.jpg",
+      "title": "File:The glass dome - Galleria Vittorio Emanuele II - Milan.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ba06eb4d67a0f70c4a53fc9649ede6ca04445d300c29245ee7347bf6938722ca",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -37815,16 +37794,13 @@
       "topic": "Castello Sforzesco",
       "src": "/images/destinations/milao/curated-map-attraction-4.jpg",
       "key": "milao/map-attraction-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/map-attraction-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f9e276d2a06ca62e30ec619ea6d48a39d75784cfa07566de698e33e1a25d39ed",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Castello_Sforzesco_%28Milano%29_-_Portico_dell_Elefante.jpg",
+      "title": "File:Castello Sforzesco (Milano) - Portico dell Elefante.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "03ada9da8a895270c721d792cfec5c9923c08858ebcb31b3fa3d601374bbfb4d",
+      "width": 2400,
+      "height": 1712,
       "exifOrientation": 1
     },
     {
@@ -37851,16 +37827,13 @@
       "topic": "Brera",
       "src": "/images/destinations/milao/curated-attraction-5.jpg",
       "key": "milao/attraction-5",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/attraction-5",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7b327e67679e75795937214e5ba1389be6b685c02d543c2fad1a0a90b80ce1f4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Bar_Brera_-_panoramio.jpg",
+      "title": "File:Bar Brera - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2ba050b43246b7c48c3cee3565316e42644b47e411933fe25cd26f70bd044397",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -37869,16 +37842,13 @@
       "topic": "Brera",
       "src": "/images/destinations/milao/curated-map-attraction-5.jpg",
       "key": "milao/map-attraction-5",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/map-attraction-5",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1a4190307884533d9de301c51bb42b19d9bdf78feb528314868e66981d653116",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Brera_-_panoramio.jpg",
+      "title": "File:Brera - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ee9ca038dae2e3505a2552e515c3f49154ff51fbc99699efbff657cc39834a98",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -37887,16 +37857,13 @@
       "topic": "Brera",
       "src": "/images/destinations/milao/curated-map-list-5.jpg",
       "key": "milao/map-list-5",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/map-list-5",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "eb561103fa25a10a91c9a6d12757e75f3cba9b45d8a651d9bd34030c495dea3c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Brera_auzoa_%28Milan%29_-_Brera_%28Milan%29_-_Tagzania_-_1789652594304.jpg",
+      "title": "File:Brera auzoa (Milan) - Brera (Milan) - Tagzania - 1789652594304.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c8e469c8ba9e8d24d07f0e345ebb5ca0a71eb6c64f87ab8d145e628f14b06c77",
+      "width": 1773,
+      "height": 2364,
       "exifOrientation": 1
     },
     {
@@ -38013,16 +37980,13 @@
       "topic": "Centro / Duomo",
       "src": "/images/destinations/milao/curated-neighborhood-detail-0.jpg",
       "key": "milao/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c1241536897a2e1b07c80caaf35c24ae43375c5db4db4471c72ba4f803c3df63",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Milano%2C_Duomo_with_Milan_Cathedral_and_Galleria_Vittorio_Emanuele_II%2C_2016.jpg",
+      "title": "File:Milano, Duomo with Milan Cathedral and Galleria Vittorio Emanuele II, 2016.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "5c5a8544921c5bdbe14b3ffc9224a6844c30bf77faa51ffacfbd3593a309675a",
+      "width": 2400,
+      "height": 1406,
       "exifOrientation": 1
     },
     {
@@ -38031,16 +37995,13 @@
       "topic": "Brera",
       "src": "/images/destinations/milao/curated-neighborhood-1.jpg",
       "key": "milao/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3bfe1e6ada466de6cc5d65eb66cea3e3786dcd095c67d8a6ed86041ed9202ed6",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Brera_auzoa_%28Milan%29_-_Brera_%28Milan%29_-_Tagzania_-_1789652594520.jpg",
+      "title": "File:Brera auzoa (Milan) - Brera (Milan) - Tagzania - 1789652594520.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c7778684cb4cf5bc7411e60f60be11d05509ac41682b2060d4ed62e50ecc4fbd",
+      "width": 1773,
+      "height": 2364,
       "exifOrientation": 1
     },
     {
@@ -38067,16 +38028,13 @@
       "topic": "Navigli",
       "src": "/images/destinations/milao/curated-neighborhood-2.jpg",
       "key": "milao/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c9630540f771fee415119195ffa886a06530493445146a0dac3ac9bfa59d8c5e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_3.jpg",
+      "title": "File:Canal Nord Navigli - Milan (IT25) - 2022-09-02 - 3.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3c99f5bd12467081a707c5c17a1644f5cc90524e17b89205a2c51bb6fb5a6ae1",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -38085,16 +38043,13 @@
       "topic": "Navigli",
       "src": "/images/destinations/milao/curated-neighborhood-detail-2.jpg",
       "key": "milao/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "2abc0cb936bdc47a07ee98f41f8622601144d8e21dbadfcfabcbf12afd891128",
+      "source": "https://commons.wikimedia.org/wiki/File:Milan_Navigli_scene.jpg",
+      "title": "File:Milan Navigli scene.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "bff3317eea79591d60243f9825bbe8c5dc79c7d90091598145861ebd7c5e75f7",
       "width": 1600,
-      "height": 900,
+      "height": 1200,
       "exifOrientation": 1
     },
     {
@@ -38103,16 +38058,13 @@
       "topic": "Porta Nuova",
       "src": "/images/destinations/milao/curated-neighborhood-3.jpg",
       "key": "milao/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "fc03f545c6e90dceab12c5fdf5b581736b0ab072e3522c901a0aa38c6ba4ee7d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Skyline_of_the_financial_center%2C_in_the_foreground%2C_the_Milano_Porta_Garibaldi_railway_station%2C_Milan%2C_Italy.jpg",
+      "title": "File:Skyline of the financial center, in the foreground, the Milano Porta Garibaldi railway station, Milan, Italy.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f0c361643194c4112dc2b30aa07a3063e5c7b6a387ed30e2c7ff430173c71c2e",
+      "width": 2400,
+      "height": 1462,
       "exifOrientation": 1
     },
     {
@@ -38211,16 +38163,13 @@
       "topic": "Duomo",
       "src": "/images/destinations/milao/curated-region-list-0.jpg",
       "key": "milao/region-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/region-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "22381106400cc461d16cae03cba14733e44038a15e148b40df2e2066f18d2cc1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Veduta_della_piazza_del_Duomo_di_Milano.jpg",
+      "title": "File:Veduta della piazza del Duomo di Milano.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a5c1b3bbc0634ba473b409c5769ad5a86a5b66d9cbbc96a5332929867201dab0",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38247,16 +38196,13 @@
       "topic": "Brera",
       "src": "/images/destinations/milao/curated-region-list-1.jpg",
       "key": "milao/region-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/region-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "add2f832121103ca028523a7a96534e3497c476aee9ad1e65a83391dacb579f1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:La_Brera%2C_Milan%2C_courtyard.jpg",
+      "title": "File:La Brera, Milan, courtyard.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "be2501326c85ddad4db46c8572a5db42ecda0cca1fd8bb29b6fbf7bf01c2f859",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -38319,16 +38265,13 @@
       "topic": "Porta Nuova",
       "src": "/images/destinations/milao/curated-region-list-3.jpg",
       "key": "milao/region-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/region-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "473e451abe31d18d47d0dbf3774a258b408cfff943c79ab5050d52b6074ccc8a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Milan_skyline_with_Unicredit_Tower_and_Bosco_Verticale.jpg",
+      "title": "File:Milan skyline with Unicredit Tower and Bosco Verticale.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "987984e08affac7233c14425f1f1df19540b30d616d335f5f390f7b2fe00db52",
+      "width": 2400,
+      "height": 1641,
       "exifOrientation": 1
     },
     {
@@ -38337,16 +38280,13 @@
       "topic": "Hotel em Duomo",
       "src": "/images/destinations/milao/curated-hotel-0.jpg",
       "key": "milao/hotel-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/hotel-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5a8172bf0599de1031b4f69ed89d014da6648f5abeb5e4a7b24f13be5156f315",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_del_Duomo_-_kuhnmi.jpg",
+      "title": "File:Piazza del Duomo - kuhnmi.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b453079eddcad3b1b633dd195d0ebf5632f620ced0f650d1d837033b45719c98",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38355,16 +38295,13 @@
       "topic": "Hotel em Duomo",
       "src": "/images/destinations/milao/curated-hotel-list-0.jpg",
       "key": "milao/hotel-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/hotel-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ca511283267740f4e09798df5a2119a7584f71a0297516ec8d98868083082499",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_-_piazza_del_Duomo_-_portici_settentrionali_2.jpg",
+      "title": "File:Milano - piazza del Duomo - portici settentrionali 2.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a80c5a2a381bed59332084ebbedf776e3edf2d754461566a139d21259fb6a4f1",
       "width": 1600,
-      "height": 900,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -38391,16 +38328,13 @@
       "topic": "Hotel em Brera",
       "src": "/images/destinations/milao/curated-hotel-list-1.jpg",
       "key": "milao/hotel-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/hotel-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "54d56b020775eecc771c83c63c9db5aaed0b6c6a530d39d0cae212d03bd15d3d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Milan_-_Pinacoth%C3%A8que_de_Brera_-_Cour_int%C3%A9rieure.jpg",
+      "title": "File:Milan - Pinacothèque de Brera - Cour intérieure.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1e6b40014771d154599660f87081ba1be07b815ff7bdda4e39bc6dbc7c772cca",
+      "width": 2400,
+      "height": 1598,
       "exifOrientation": 1
     },
     {
@@ -38409,16 +38343,13 @@
       "topic": "Hotel em Navigli",
       "src": "/images/destinations/milao/curated-hotel-2.jpg",
       "key": "milao/hotel-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/hotel-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "730f5be5636536eb1dcc5f9d593ce5012029b973d1c633864a07d21a7ed842ea",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Navigli_-_panoramio_%281%29.jpg",
+      "title": "File:Navigli - panoramio (1).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7ce1689569a1a194dcf05c750f60864262588be1c040e700274839d5848bbc51",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -38427,16 +38358,13 @@
       "topic": "Hotel em Navigli",
       "src": "/images/destinations/milao/curated-hotel-list-2.jpg",
       "key": "milao/hotel-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:milao/hotel-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "db4d9886e5b1179f460a78ff509df47305f2bd1c9f5c726448ab2b8fdb9523e8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Navigli_%286602577309%29.jpg",
+      "title": "File:Navigli (6602577309).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "5a84f25141d860d1d8f2d5e7ff68f102546d925011a7ec2ccbdd9453b40aba7e",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -38481,16 +38409,13 @@
       "topic": "Florença",
       "src": "/images/destinations/florenca/curated-hero.jpg",
       "key": "florenca/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1251c4746536678c88e4c5756a3b0223f5cbf2f2fa8a271cf782c2ec0bb7861a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Florence_Skyline_Stitch_-_July_2006_-_Perfect_Panorama.jpg",
+      "title": "File:Florence Skyline Stitch - July 2006 - Perfect Panorama.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0b716f79a6e6edbc8eafcd37fc1f9b39a7ed8093f5d1d00016ada4bbb2b6de3c",
+      "width": 2400,
+      "height": 778,
       "exifOrientation": 1
     },
     {
@@ -38517,16 +38442,13 @@
       "topic": "Florença",
       "src": "/images/destinations/florenca/curated-home.jpg",
       "key": "florenca/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "946a5fafa2c7fd8e36dbe0bfc36ee805fd3ccbf4681cbd44d814450919374447",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Exterior_of_Santa_Maria_del_Fiore-_Florence.jpg",
+      "title": "File:Exterior of Santa Maria del Fiore- Florence.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9f063c09cd4a04974d4871d62c1397cdd9345b87d72c9b67200ce8dff478fa46",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -38535,16 +38457,13 @@
       "topic": "Florença",
       "src": "/images/destinations/florenca/curated-guide-card.jpg",
       "key": "florenca/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9d71f2f6d6c3e11159fc4f25a08311b539a370d444abe95b118980ae022f19bf",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_from_Ponte_Santa_Trinita_Blue_hour.jpg",
+      "title": "File:Ponte Vecchio from Ponte Santa Trinita Blue hour.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "600fdf4800b302cc3c7a4968fb5b391c9b59367015b4394ce4d93f21c1b7e317",
+      "width": 2400,
+      "height": 1633,
       "exifOrientation": 1
     },
     {
@@ -38589,16 +38508,13 @@
       "topic": "Florença: miniatura da home",
       "src": "/images/destinations/florenca/curated-home-thumb.jpg",
       "key": "florenca/home-thumb",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/home-thumb",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "51d7bf0241416c1149d898ecc751e88989fc8e4b4d9ee52b19f3d5e06093194c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg",
+      "title": "File:Ponte Vecchio sobre el río Arno, Florencia, Italia, 2022-09-19, DD 02.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "09319b7ea902326f0686e9b455bf11fea43a89c6a1e07f1f1b11ac3a5bda336d",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -38733,16 +38649,13 @@
       "topic": "Duomo / Brunelleschi",
       "src": "/images/destinations/florenca/curated-attraction-0.jpg",
       "key": "florenca/attraction-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/attraction-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "70c227e1bc897b3ccf571a33239aa316bf2db01167380626924ba483ed90e867",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Fiore_Cathedral_Florence_04_2024_0779.jpg",
+      "title": "File:Santa Maria del Fiore Cathedral Florence 04 2024 0779.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d21e0a335266aab5ad4efd245603701a361b456a14edf797ad062d377f2cb08c",
+      "width": 1714,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -38751,16 +38664,13 @@
       "topic": "Duomo / Brunelleschi",
       "src": "/images/destinations/florenca/curated-map-attraction-0.jpg",
       "key": "florenca/map-attraction-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/map-attraction-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "747d12c3e36488edf335ef701aecfd62d930d0ee4270bcc49e04014a91e15537",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2024_04_Santa_Maria_del_Fiore_Cathedral_Florence_0907.jpg",
+      "title": "File:2024 04 Santa Maria del Fiore Cathedral Florence 0907.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2f6b5c76f266e320b38cf6270bd5859ee19bb2c3eae02ecf6050e2d4bb7b3087",
+      "width": 1714,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -38769,16 +38679,13 @@
       "topic": "Duomo / Brunelleschi",
       "src": "/images/destinations/florenca/curated-map-list-0.jpg",
       "key": "florenca/map-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/map-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7b971d5db8757063901604d7b68c5d4242085a8684fca62b547c28085bbc84af",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2024_04_Santa_Maria_del_Fiore_Cathedral_Florence_0793.jpg",
+      "title": "File:2024 04 Santa Maria del Fiore Cathedral Florence 0793.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1a811e9eb6ab664a5fba4067a53d4817e159eeac8e85d8377c3ee8c81a85999a",
+      "width": 1714,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -38787,16 +38694,13 @@
       "topic": "Galleria degli Uffizi",
       "src": "/images/destinations/florenca/curated-attraction-1.jpg",
       "key": "florenca/attraction-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/attraction-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d2307a18972836716d8ac11860ea7fc9c0663099c8351f8a612314c60cf2c4ec",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Piazzale_degli_Uffizi_perspective_view%2C_Florence%2C_Italy%2C_August_2025.jpg",
+      "title": "File:Piazzale degli Uffizi perspective view, Florence, Italy, August 2025.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f10ce253f547cf29b2bc1493c8f5b4e5186d538f285adfb52fd3bd3f987a0b1d",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -38823,16 +38727,13 @@
       "topic": "Galleria degli Uffizi",
       "src": "/images/destinations/florenca/curated-map-list-1.jpg",
       "key": "florenca/map-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/map-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b1ca6f576a69cf1f73052c85bd4ff9826073c873f642800b274962d49b17cd1f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Uffizi_Gallery%2C_Florence.jpg",
+      "title": "File:Uffizi Gallery, Florence.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "75c79514ae99b8ec33a8ac8d55905c4a638a2c9ff33eb62d98193e68399afa9d",
+      "width": 1037,
+      "height": 691,
       "exifOrientation": 1
     },
     {
@@ -38841,16 +38742,13 @@
       "topic": "Ponte Vecchio",
       "src": "/images/destinations/florenca/curated-attraction-2.jpg",
       "key": "florenca/attraction-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/attraction-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "83ff1ffa4bc7774f185b5e2133b100722211b00e3ab956d219dc6c1ff5900ae6",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_dusk_1.JPG",
+      "title": "File:Ponte Vecchio at dusk 1.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "55f9a5e776c88bc9e37e7e8627a444ec5f4c1d86e021ed8c5280af06c57a768c",
+      "width": 2400,
+      "height": 1836,
       "exifOrientation": 1
     },
     {
@@ -38859,16 +38757,13 @@
       "topic": "Ponte Vecchio",
       "src": "/images/destinations/florenca/curated-map-attraction-2.jpg",
       "key": "florenca/map-attraction-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/map-attraction-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6c879bafa68aebae70a7d49c8bbe94d71888167594f1c1005d5d41827ac7d1fc",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Fireworks_over_Ponte_Vecchio_2.JPG",
+      "title": "File:Fireworks over Ponte Vecchio 2.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "61547d803fad2c2191e9460628a9558a5ab267be24f4e4d097e8c386a41291aa",
+      "width": 2400,
+      "height": 1795,
       "exifOrientation": 1
     },
     {
@@ -38913,16 +38808,13 @@
       "topic": "Palazzo Pitti",
       "src": "/images/destinations/florenca/curated-map-attraction-3.jpg",
       "key": "florenca/map-attraction-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/map-attraction-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9e076f7f0a23cf2c0d52ec5bbfd22ca78b5e33d4cc17d76e4e0a6309f097a781",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_Pitti%2C_Florencia%2C_Italia%2C_2022-09-18%2C_DD_170-172_HDR.jpg",
+      "title": "File:Palacio Pitti, Florencia, Italia, 2022-09-18, DD 170-172 HDR.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "015e7fceb767bc308fd09065b3045608132dc52833c270b1ef8df26bf1bccc4e",
+      "width": 2027,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -38931,16 +38823,13 @@
       "topic": "Palazzo Pitti",
       "src": "/images/destinations/florenca/curated-map-list-3.jpg",
       "key": "florenca/map-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/map-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ce07cbb5a0c2d2b74f47b5431841d7cace13ada624bf4a7db0dd60bbca07db9a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_Pitti%2C_Florencia%2C_Italia%2C_2022-09-18%2C_DD_157-159_HDR.jpg",
+      "title": "File:Palacio Pitti, Florencia, Italia, 2022-09-18, DD 157-159 HDR.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "51fbfe4563dd6845201e48ab53b3f90f8d44b4db0cd68e792249b47d882d975b",
+      "width": 2400,
+      "height": 1769,
       "exifOrientation": 1
     },
     {
@@ -38949,16 +38838,13 @@
       "topic": "Piazzale Michelangelo",
       "src": "/images/destinations/florenca/curated-attraction-4.jpg",
       "key": "florenca/attraction-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/attraction-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c49b19c4c18070dae92ef5c3702f262c80a4bb1641be0effd45b02e0bda6f91a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_212-214_HDR.jpg",
+      "title": "File:Vista de Florencia desde Piazzale Michelangelo, Italia, 2022-09-18, DD 212-214 HDR.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1aec0c69cca15fb0f05fc59b0506cf666e5f9221a75c3ca0cec6a5cb714c474d",
+      "width": 2400,
+      "height": 1066,
       "exifOrientation": 1
     },
     {
@@ -38967,16 +38853,13 @@
       "topic": "Piazzale Michelangelo",
       "src": "/images/destinations/florenca/curated-map-attraction-4.jpg",
       "key": "florenca/map-attraction-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/map-attraction-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "46c768ac8c7c0271889945c63e1737f35755b08fe706d47fb533153bd545d6bd",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Florence_Cathedral_seen_from_Piazzale_Michelangelo_night_dllu.jpg",
+      "title": "File:Florence Cathedral seen from Piazzale Michelangelo night dllu.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ca07a7c75a93876f8b947a158daa7a64ca0dd26c769e4002b91b6efc93e4734e",
+      "width": 2400,
+      "height": 1799,
       "exifOrientation": 1
     },
     {
@@ -38985,16 +38868,13 @@
       "topic": "Piazzale Michelangelo",
       "src": "/images/destinations/florenca/curated-map-list-4.jpg",
       "key": "florenca/map-list-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/map-list-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ce421d4b744f2153f0f6a369dfae6e3906f8685c0d50edccd450cce82bb9ef69",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Ponte_Vecchio_at_sunset_from_Piazzale_Michelangelo_Florence_2023_dllu.jpg",
+      "title": "File:Ponte Vecchio at sunset from Piazzale Michelangelo Florence 2023 dllu.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8c9b8c3cb2b8a3e8001bf667d13b263b2c2bdfec67b42f31c1ff7af5bf130f5a",
+      "width": 2400,
+      "height": 1786,
       "exifOrientation": 1
     },
     {
@@ -39183,16 +39063,13 @@
       "topic": "Oltrarno",
       "src": "/images/destinations/florenca/curated-neighborhood-1.jpg",
       "key": "florenca/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4a4b5e54892646ed82dde66b0ddfac956b9ac0ae2e0d69448a0b236db07a06c6",
+      "source": "https://commons.wikimedia.org/wiki/File:Firenze_-_Florence_-_Via_di_San_Niccol%C3%B2_-_View_East_on_chiesa_di_San_Niccol%C3%B2_Oltrarno.jpg",
+      "title": "File:Firenze - Florence - Via di San Niccolò - View East on chiesa di San Niccolò Oltrarno.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "78db23bc40db52e00ec98d432389e941166d274e4114b3dab5416fea6f98e48f",
       "width": 1600,
-      "height": 900,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -39237,16 +39114,13 @@
       "topic": "Santa Croce",
       "src": "/images/destinations/florenca/curated-neighborhood-detail-2.jpg",
       "key": "florenca/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "de24a4fceddb391ff673589bd81be9b424f6be121040f46796acbdfe7b163c2e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_Piazza_della_Signoria_and_Basilica_of_Santa_Croce_from_Giotto%27s_Bell_Tower._Florence%2C_Italy.jpg",
+      "title": "File:View of Piazza della Signoria and Basilica of Santa Croce from Giotto's Bell Tower. Florence, Italy.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7953a79b392afb0bfa65488110350e84d047307952722437a27bb27464dc1f24",
+      "width": 2400,
+      "height": 1341,
       "exifOrientation": 1
     },
     {
@@ -39345,16 +39219,13 @@
       "topic": "Duomo",
       "src": "/images/destinations/florenca/curated-region-0.jpg",
       "key": "florenca/region-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/region-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e6919e75e7562e7309c0d5d2735437b729ca00f0df8f31be341c724aca87e7b6",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_del_duomo_8-9%2C_museo_dell%27opera_del_duomo%2C_01.jpg",
+      "title": "File:Piazza del duomo 8-9, museo dell'opera del duomo, 01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a581f5529983884286ae5930ba2c39ec7ccd469f40e5f4fafb21303e9da8c97f",
+      "width": 2400,
+      "height": 1569,
       "exifOrientation": 1
     },
     {
@@ -39363,16 +39234,13 @@
       "topic": "Duomo",
       "src": "/images/destinations/florenca/curated-region-list-0.jpg",
       "key": "florenca/region-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/region-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3a11bc6ae07df21bab65ffb2d076d82bc7acaf81e3d80e4ca5e379c48de66d13",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_del_duomo_11%2C_Casa_Sermanni_00.jpg",
+      "title": "File:Piazza del duomo 11, Casa Sermanni 00.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6cf6c2fbdc6a11beebb5e47464e14150f7764d899b839c529a8592abaa295340",
+      "width": 2400,
+      "height": 1786,
       "exifOrientation": 1
     },
     {
@@ -39453,16 +39321,13 @@
       "topic": "Michelangelo",
       "src": "/images/destinations/florenca/curated-region-3.jpg",
       "key": "florenca/region-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/region-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "86e3ca654bb452ee646a5f50e4e50ba55554f8083437f8ad9ff78feee240ce16",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Florence_Duomo_from_Michelangelo_hill.jpg",
+      "title": "File:Florence Duomo from Michelangelo hill.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "540072b24a98ed4e1f1c0a87bf765d44b0e1647b55b80131628e1b72554cf87b",
+      "width": 2400,
+      "height": 1741,
       "exifOrientation": 1
     },
     {
@@ -39615,16 +39480,13 @@
       "topic": "Hotel em Michelangelo",
       "src": "/images/destinations/florenca/curated-hotel-list-3.jpg",
       "key": "florenca/hotel-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:florenca/hotel-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4a8520e065749b764c64b56ba1bdc632f66ce50428d04e80803fc38fa9ad516d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Vista_de_Florencia_desde_Piazzale_Michelangelo%2C_Italia%2C_2022-09-18%2C_DD_199.jpg",
+      "title": "File:Vista de Florencia desde Piazzale Michelangelo, Italia, 2022-09-18, DD 199.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "cef2231356fc6d5a0a0e6136dcb594cb05a7cdaec2a58247e6af651a6623f480",
+      "width": 2400,
+      "height": 1233,
       "exifOrientation": 1
     },
     {
@@ -39633,16 +39495,13 @@
       "topic": "Barcelona",
       "src": "/images/destinations/barcelona/curated-hero.jpg",
       "key": "barcelona/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "8075325580ee0f2b4103f5f02c4603415f9591c16f8e650fee794cc4b6682e62",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_skyline_panorama_%286248341915%29.jpg",
+      "title": "File:Barcelona skyline panorama (6248341915).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9d6e15641a6c18a285f29f4a22fb2e19ddca28af8730a6e7d41e1a9c13e30880",
+      "width": 2400,
+      "height": 675,
       "exifOrientation": 1
     },
     {
@@ -39651,16 +39510,13 @@
       "topic": "Barcelona",
       "src": "/images/destinations/barcelona/curated-intro.jpg",
       "key": "barcelona/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "89e9d18f25ed3971cd5f6482c4a447d904e729dcc3b0d0152145755943ddac66",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Port_Vell%2C_Barcelona%2C_Spain_-_Jan_2007.jpg",
+      "title": "File:Port Vell, Barcelona, Spain - Jan 2007.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "00db2fb8abf6c59f782ddf20c49a11cb5795b68d895149b327307ce6c84c8ca7",
+      "width": 2400,
+      "height": 709,
       "exifOrientation": 1
     },
     {
@@ -39705,16 +39561,13 @@
       "topic": "Barcelona",
       "src": "/images/destinations/barcelona/curated-guide-highlight.jpg",
       "key": "barcelona/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e3c59fb4a98ab00987c0e4a5c68998fbab81f3cf0dcf25bb3f377584ac4d1624",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_Sagrada_Familia%2C_%C3%81bside.JPG",
+      "title": "File:Barcelona Sagrada Familia, Ábside.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3f2a4f3fce543e0a7fc46a4ecd423b7aaabba945d6e4b142cb71cd101f471141",
+      "width": 2400,
+      "height": 1594,
       "exifOrientation": 1
     },
     {
@@ -39723,16 +39576,13 @@
       "topic": "Barcelona",
       "src": "/images/destinations/barcelona/curated-home-slide.jpg",
       "key": "barcelona/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f13cf0a3617e6ca914895a2a786438f7d2745484e5b614d280dd28fd82711f48",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_city_view.jpg",
+      "title": "File:Barcelona city view.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7679208c93556ffc902d5c96819c68c621666e679c2705793be41eda6707c0bc",
+      "width": 2400,
+      "height": 1020,
       "exifOrientation": 1
     },
     {
@@ -39741,16 +39591,13 @@
       "topic": "Barcelona: miniatura da home",
       "src": "/images/destinations/barcelona/curated-home-thumb.jpg",
       "key": "barcelona/home-thumb",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/home-thumb",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "32bf34972210fef2832e2fcf5d21b925fa3469714843ce4d152265659946e391",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_parc_G%C3%BCell_la_placa_2013_04.jpg",
+      "title": "File:Barcelona parc Güell la placa 2013 04.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "eabc9225ab0065b631ad581be4435b146848734392792fa9944fcb647ec166c2",
+      "width": 2400,
+      "height": 1594,
       "exifOrientation": 1
     },
     {
@@ -39885,16 +39732,13 @@
       "topic": "Sagrada Família",
       "src": "/images/destinations/barcelona/curated-attraction-0.jpg",
       "key": "barcelona/attraction-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/attraction-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "462875d699ea4aa9dfcf5272a971c0e14bfd2c8df607e91cb27dd3804577e9b4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_March_2015-10a.jpg",
+      "title": "File:Sagrada Familia March 2015-10a.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0132e500ba60c0c652d6ed4a23b3ba6a098a667875757ad7de2fad0b315648c9",
+      "width": 2400,
+      "height": 1804,
       "exifOrientation": 1
     },
     {
@@ -39903,16 +39747,13 @@
       "topic": "Sagrada Família",
       "src": "/images/destinations/barcelona/curated-map-attraction-0.jpg",
       "key": "barcelona/map-attraction-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/map-attraction-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "cd5cb724ad2e3a3a9f1f7693051cdbb4569a77386d41b6ba9837d04632d0c544",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Exterior_of_the_Apse_of_the_Sagrada_Fam%C3%ADlia_-_Western_exposure.jpg",
+      "title": "File:Barcelona - Exterior of the Apse of the Sagrada Família - Western exposure.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0d601df5b9d573928629778976f21f1c8b6071c940dae89e37831289ba584380",
+      "width": 1837,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -39939,16 +39780,13 @@
       "topic": "Park Güell",
       "src": "/images/destinations/barcelona/curated-attraction-1.jpg",
       "key": "barcelona/attraction-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/attraction-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "987e6bf72c1be70a46cda2430fc5bed382b1cffae21665e37514c5e08272347d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_02.jpg",
+      "title": "File:Park Güell 02.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "169590f44d8a084be9a9878916714104fc7d6b4eb17dccf24ebe8735ba922b01",
+      "width": 2400,
+      "height": 1810,
       "exifOrientation": 1
     },
     {
@@ -39975,16 +39813,13 @@
       "topic": "Park Güell",
       "src": "/images/destinations/barcelona/curated-map-list-1.jpg",
       "key": "barcelona/map-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/map-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9824a4290042000b4fb4abcd358b967cc1d4266d093b4914fd239a63ed18994d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_Parc_G%C3%BCell_el_drac.jpg",
+      "title": "File:Barcelona Parc Güell el drac.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "07e21585a051628a4ba347447a421b8787999bb38f35fdec457fa4535fd84d92",
+      "width": 2400,
+      "height": 1594,
       "exifOrientation": 1
     },
     {
@@ -40011,16 +39846,13 @@
       "topic": "Barri Gòtic",
       "src": "/images/destinations/barcelona/curated-map-attraction-2.jpg",
       "key": "barcelona/map-attraction-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/map-attraction-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "56564aea85cb623f25038fc877517ddd3446d289b8885e2722808704b1864aa9",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Gothic_Quarter%2C_Barcelona_-_panoramio.jpg",
+      "title": "File:Gothic Quarter, Barcelona - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "aee185ea60418a75f44645d11d4a36620bd1913d30a57da3dfd3fb06447f1385",
+      "width": 2126,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -40029,16 +39861,13 @@
       "topic": "Barri Gòtic",
       "src": "/images/destinations/barcelona/curated-map-list-2.jpg",
       "key": "barcelona/map-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/map-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1eef478462518d8b2e5af4cba76986d67de6338e0da63d1579eeb059ab220cae",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Gothic_Quarter%2C_Barcelona_%2815%29_%2830442722553%29.jpg",
+      "title": "File:Gothic Quarter, Barcelona (15) (30442722553).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8465dcf5b79a8f4aecec3b2cd789d4aa27315dbb6d2cb0d68b0e4fd6b25bba91",
+      "width": 2400,
+      "height": 1501,
       "exifOrientation": 1
     },
     {
@@ -40047,16 +39876,13 @@
       "topic": "La Rambla / Boqueria",
       "src": "/images/destinations/barcelona/curated-attraction-3.jpg",
       "key": "barcelona/attraction-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/attraction-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "8d22d70029112b23ac0222e33d428b54274c50c2409fb59f6767e4bd3244d511",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:La_Boqueria%2C_Barcelona.jpg",
+      "title": "File:La Boqueria, Barcelona.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7f1bce8ad4bd494bddf7911d1c02a74da5f89c65fc09237e8720a30be0e777eb",
+      "width": 2400,
+      "height": 1694,
       "exifOrientation": 1
     },
     {
@@ -40065,16 +39891,13 @@
       "topic": "La Rambla / Boqueria",
       "src": "/images/destinations/barcelona/curated-map-attraction-3.jpg",
       "key": "barcelona/map-attraction-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/map-attraction-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "04e41d84356b73bb604a36ba70eaeb5e32a80a2a394e622a8d8e8ade9f1622d5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:La_Boqueria.JPG",
+      "title": "File:La Boqueria.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "cf5761886c5583f6b713702049ac29856e8bbbe956de092f60e6f67f2c057216",
+      "width": 1280,
+      "height": 960,
       "exifOrientation": 1
     },
     {
@@ -40083,16 +39906,13 @@
       "topic": "La Rambla / Boqueria",
       "src": "/images/destinations/barcelona/curated-map-list-3.jpg",
       "key": "barcelona/map-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/map-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9c786fa6ff43b1e260a8df56f0accfb95dc9a82221e0c8ec611f7a7e403f7aa7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Boqueria%2C_Barcelona_%28P1170747%29.jpg",
+      "title": "File:Boqueria, Barcelona (P1170747).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "87c4694ad82f9c4ae16dde2255ce4af7222455cedc838f02e8ac2782c856d362",
+      "width": 2400,
+      "height": 1920,
       "exifOrientation": 1
     },
     {
@@ -40101,16 +39921,13 @@
       "topic": "Casa Batlló",
       "src": "/images/destinations/barcelona/curated-attraction-4.jpg",
       "key": "barcelona/attraction-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/attraction-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "20c001a7365646ce1b5bb9f3e6014f1e7c24d9f7554d300dbf31fc5c17d3c645",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Chimneys_of_Casa_Batll%C3%B3_-_Barcelona_2014.jpg",
+      "title": "File:Chimneys of Casa Batlló - Barcelona 2014.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "38f56deea34db2a4dbe60dc185c1ecabdef7fbbd8de8d6c27f9b4021b163054b",
+      "width": 2400,
+      "height": 1605,
       "exifOrientation": 1
     },
     {
@@ -40119,16 +39936,13 @@
       "topic": "Casa Batlló",
       "src": "/images/destinations/barcelona/curated-map-attraction-4.jpg",
       "key": "barcelona/map-attraction-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/map-attraction-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f02cdedc00d4e4c6fb95fb25bed64b59093d7ebb6ae17ae364547fedb46a0420",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_01.jpg",
+      "title": "File:Casa Batlló 01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d421aef76937c8e38d1ddce3ade0941de93daf6a67f8b85d0fb7797b9845bc42",
+      "width": 2400,
+      "height": 1779,
       "exifOrientation": 1
     },
     {
@@ -40155,16 +39969,13 @@
       "topic": "Praia da Barceloneta",
       "src": "/images/destinations/barcelona/curated-attraction-5.jpg",
       "key": "barcelona/attraction-5",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/attraction-5",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e0b589d317550eb94fefa6e3fbe968cadae6f30f3ae414c242ab8f769d7dc825",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Beach%2C_Barcelona_%28P1170713%29.jpg",
+      "title": "File:Beach, Barcelona (P1170713).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9c718bcb7e0955c2fe7bc44d58b0dc3c29a6f65a708411737094e4f9cf22fc73",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -40191,16 +40002,13 @@
       "topic": "Praia da Barceloneta",
       "src": "/images/destinations/barcelona/curated-map-list-5.jpg",
       "key": "barcelona/map-list-5",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/map-list-5",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "027522e0ddb7d64ab489b092fca1889005fd0004a07f1eef5a0aa861d4403a5f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Beach%2C_Barcelona_%28P1170712%29.jpg",
+      "title": "File:Beach, Barcelona (P1170712).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8121f3f02ba282cf339696748302d8fa7078fe1fc2159ccb37c25bf64d14e1f5",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -40299,16 +40107,13 @@
       "topic": "Eixample",
       "src": "/images/destinations/barcelona/curated-neighborhood-0.jpg",
       "key": "barcelona/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "030a3092c270a9f8614d34599be087686068130f2cccedb50d94ea7c08837376",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Dreta_de_l_Eixample%2C_Barcelona_%28P1170608%29.jpg",
+      "title": "File:Dreta de l Eixample, Barcelona (P1170608).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8f6d01a508162e0ae7b409b256a3467ad1859ad841c3505aa4910fafdfee9094",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -40371,16 +40176,13 @@
       "topic": "El Born",
       "src": "/images/destinations/barcelona/curated-neighborhood-2.jpg",
       "key": "barcelona/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d6d36c6143f41500304270171d27c8c6ed229668a97b667236db591e79b876eb",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Born_auzoa_-_Bartzelona_-_El_Born_%28Barcelona%29_-_Tagzania_-_1773057075911.jpg",
+      "title": "File:Born auzoa - Bartzelona - El Born (Barcelona) - Tagzania - 1773057075911.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "5a8af58b7fff73a7bbd38d77b32e852224a27ae7e013be37f394d12130b8c95a",
+      "width": 1777,
+      "height": 2360,
       "exifOrientation": 1
     },
     {
@@ -40389,16 +40191,13 @@
       "topic": "El Born",
       "src": "/images/destinations/barcelona/curated-neighborhood-detail-2.jpg",
       "key": "barcelona/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5765e86e6bf5a91ae3f2f51fc998cf90492ab054a093bb2522abc86555bc0a3b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Born_auzoa_-_Bartzelona_-_El_Born_%28Barcelona%29_-_Tagzania_-_1773057076154.jpg",
+      "title": "File:Born auzoa - Bartzelona - El Born (Barcelona) - Tagzania - 1773057076154.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "264eaff303346305a35b41747876d76483c120a7e605a6213a4eb0ab7e05ba3c",
+      "width": 1777,
+      "height": 2360,
       "exifOrientation": 1
     },
     {
@@ -40515,16 +40314,13 @@
       "topic": "Eixample",
       "src": "/images/destinations/barcelona/curated-region-list-0.jpg",
       "key": "barcelona/region-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/region-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "625acd46162898b0a309cbec3601e5e32e1dc6e1caa498c3aa6bc31b450ad073",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Barcelona_Eixample_%26_Gr%C3%A0cia_cityscape_from_Montju%C3%AFc_2026-08-14.jpg",
+      "title": "File:Barcelona Eixample & Gràcia cityscape from Montjuïc 2026-08-14.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "402f5a239b9fbee8bbe9cf1563d986b517993ad63351febba100ec5c42d6d47c",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -40533,16 +40329,13 @@
       "topic": "Gótico",
       "src": "/images/destinations/barcelona/curated-region-1.jpg",
       "key": "barcelona/region-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/region-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "97b92b9b36a8c874c5f2ee0cdeb3403f9ea0892fa5645fa51b883c088057baab",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Gothic_Quarter%2C_Barcelona_%2861%29_%2831141168861%29.jpg",
+      "title": "File:Gothic Quarter, Barcelona (61) (31141168861).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0887b3d6b96b2dbebfb1b5b19c5a04abd306dd25e72c5351ef212534362fad09",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -40551,16 +40344,13 @@
       "topic": "Gótico",
       "src": "/images/destinations/barcelona/curated-region-list-1.jpg",
       "key": "barcelona/region-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/region-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "45b2d01e55c5893a155ccaaa6b8eb32b611c121cc5d7c37d3beb5fe1eae2f862",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Gothic_Quarter%2C_Barcelona_%2842%29_%2830447514613%29.jpg",
+      "title": "File:Gothic Quarter, Barcelona (42) (30447514613).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "85b2ffa566e4823c437baa164eb7d883ae7bb8be9d9ddc16c8c837d72b51253b",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -40569,16 +40359,13 @@
       "topic": "Montjuïc",
       "src": "/images/destinations/barcelona/curated-region-2.jpg",
       "key": "barcelona/region-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/region-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ae1c60acca4f1772aa8fcabeb58d61b2ae380957fde17a3a93d9ba00a35cc0c7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Castell_Montjuic%2C_Barcelona_%28P1170651%29.jpg",
+      "title": "File:Castell Montjuic, Barcelona (P1170651).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "38b40afa8b18b6a3849adfe06027f5af8e845aa6d8bffbd366d223fe45eeb6cb",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -40587,16 +40374,13 @@
       "topic": "Montjuïc",
       "src": "/images/destinations/barcelona/curated-region-list-2.jpg",
       "key": "barcelona/region-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/region-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9a12d1f48d3305565dc7e2bd6820db5d8a85759c31986fd3f66526b24e0fc950",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Sants-Montjuic%2C_Barcelona_%28P1170720-RR%29.jpg",
+      "title": "File:Sants-Montjuic, Barcelona (P1170720-RR).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c4c3b98217ea51f95ede14c3619362c038b9707756a7676f068fa23ce16a15ef",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -40623,16 +40407,13 @@
       "topic": "Praia",
       "src": "/images/destinations/barcelona/curated-region-list-3.jpg",
       "key": "barcelona/region-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/region-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "02f92fbc2ab6dd842f5c089ae9f45c9e2b94e68790f1d95d3434b766ac99c5dc",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Promenade_and_beach%2C_Platja_de_la_Barceloneta%2C_Barcelona%2C_2015.jpg",
+      "title": "File:Promenade and beach, Platja de la Barceloneta, Barcelona, 2015.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d8e9cde48c96065b9c7bd3ad81786a920d3735a93e1ffe095fe9958dd84ba937",
+      "width": 2400,
+      "height": 1596,
       "exifOrientation": 1
     },
     {
@@ -40641,16 +40422,13 @@
       "topic": "Hotel em Eixample",
       "src": "/images/destinations/barcelona/curated-hotel-0.jpg",
       "key": "barcelona/hotel-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/hotel-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "19694398d0c0768935b57c7378ec2be7d85ad412c5db66e7c6c26e1ad6f2b09d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:The_top_floor_of_a_small_apartment_building_in_the_Eixample%2C_Barcelona_%2849731113776%29.jpg",
+      "title": "File:The top floor of a small apartment building in the Eixample, Barcelona (49731113776).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "34fff6471a39961916c9adc6e0662ae69ea65dac90b70ffcf2ef98b3b80e5622",
+      "width": 2068,
+      "height": 1208,
       "exifOrientation": 1
     },
     {
@@ -40659,16 +40437,13 @@
       "topic": "Hotel em Eixample",
       "src": "/images/destinations/barcelona/curated-hotel-list-0.jpg",
       "key": "barcelona/hotel-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/hotel-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "88ad95dfdeac69602594fe14fa9926d18e8ff515f745b1945eed91a65391e9c9",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Dreta_de_l_Eixample%2C_Barcelona_%28P1170611%29.jpg",
+      "title": "File:Dreta de l Eixample, Barcelona (P1170611).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fab372908e1d35c35d0ebaf35b0f35b19cb28233b11b57eccd53ac7dc143385b",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -40677,16 +40452,13 @@
       "topic": "Hotel em Gótico",
       "src": "/images/destinations/barcelona/curated-hotel-1.jpg",
       "key": "barcelona/hotel-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/hotel-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c7f81bc1174035d57164d923be9d168a164bf00e962bd98332dbe7bd1bfdd5e8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Gothic_Quarter%2C_Barcelona_%2855%29_%2831255984345%29.jpg",
+      "title": "File:Gothic Quarter, Barcelona (55) (31255984345).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "04853a774a002b92787ec7e06f07fdcdb661b58e39ecb37eeb08edd201af29b0",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -40695,16 +40467,13 @@
       "topic": "Hotel em Gótico",
       "src": "/images/destinations/barcelona/curated-hotel-list-1.jpg",
       "key": "barcelona/hotel-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/hotel-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0881ccf7237025369eca3d0dc88b1df95933903141820eeee483a04f8f3bd38d",
+      "source": "https://commons.wikimedia.org/wiki/File:Gothic_Quarter%2C_Barcelona_%288%29_%2830429741394%29.jpg",
+      "title": "File:Gothic Quarter, Barcelona (8) (30429741394).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "69ccd33ef1e39f4708225f6a784b60d9e0941fd214819259a3ae964315d9dd84",
       "width": 1600,
-      "height": 900,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -40731,16 +40500,13 @@
       "topic": "Hotel em Montjuïc",
       "src": "/images/destinations/barcelona/curated-hotel-list-2.jpg",
       "key": "barcelona/hotel-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/hotel-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7f5cffe067c90c720aeb429987a7aa64de5980ce6542089d5c1b3432fe6588e9",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Castell_Montjuic%2C_Barcelona_%28P1170653%29.jpg",
+      "title": "File:Castell Montjuic, Barcelona (P1170653).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "36cec59b7dc20f85f77809bd72a79d89c4d78d14437c306b08f2cf4d474d830f",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -40749,16 +40515,13 @@
       "topic": "Hotel em Praia",
       "src": "/images/destinations/barcelona/curated-hotel-3.jpg",
       "key": "barcelona/hotel-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/hotel-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c4aa5a6c3fd79145c327198aa9cccfeb8c940b2d3e0a2a39137da860a6e97d92",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Platja_de_la_Barceloneta_03.jpg",
+      "title": "File:Platja de la Barceloneta 03.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7c0cffec3d2a52f78f2e54da7d6e330adbee81a91b429763a580cc9d3760624b",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -40767,16 +40530,13 @@
       "topic": "Hotel em Praia",
       "src": "/images/destinations/barcelona/curated-hotel-list-3.jpg",
       "key": "barcelona/hotel-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:barcelona/hotel-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "163a3f50a0638645a7c51fbeb18964edd619d1defe9a096163a79859e6840bc0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Platja_de_la_Barceloneta_2018.jpg",
+      "title": "File:Platja de la Barceloneta 2018.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "781592a504ab0e64ff0ae33e7c9ba03221a5775aba4a991caaae779691dd1d34",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {

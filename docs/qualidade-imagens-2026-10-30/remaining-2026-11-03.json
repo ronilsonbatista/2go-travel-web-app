@@ -11179,44 +11179,28 @@
     "decisions": []
   },
   {
-    "key": "milao/hero",
-    "city": "milao",
-    "slot": "hero",
-    "topic": "Milão",
-    "path": "/images/destinations/milao/curated-hero.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/intro",
-    "city": "milao",
-    "slot": "intro",
-    "topic": "Milão",
-    "path": "/images/destinations/milao/curated-intro.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
     "key": "milao/home",
     "city": "milao",
     "slot": "home",
     "topic": "Milão",
     "path": "/images/destinations/milao/curated-home.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/guide-card",
-    "city": "milao",
-    "slot": "guide-card",
-    "topic": "Milão",
-    "path": "/images/destinations/milao/curated-guide-card.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milano - Duomo 0433.JPG",
+        "pool": "highlight-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe escultorico isolado, fachada excessivamente obliqua ou vista do canal demasiado semelhante a outra selecionada; buscar enquadramento melhor."
+      }
+    ]
   },
   {
     "key": "milao/guide-highlight",
@@ -11225,18 +11209,22 @@
     "topic": "Milão",
     "path": "/images/destinations/milao/curated-guide-highlight.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/home-slide",
-    "city": "milao",
-    "slot": "home-slide",
-    "topic": "Milão",
-    "path": "/images/destinations/milao/curated-home-slide.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Duomo di Milano 4.jpg",
+        "pool": "highlight-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe escultorico isolado, fachada excessivamente obliqua ou vista do canal demasiado semelhante a outra selecionada; buscar enquadramento melhor."
+      }
+    ]
   },
   {
     "key": "milao/home-thumb",
@@ -11245,8 +11233,22 @@
     "topic": "Milão: miniatura da home",
     "path": "/images/destinations/milao/curated-home-thumb.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Canal Nord Navigli - Milan (IT25) - 2022-09-02 - 1.jpg",
+        "pool": "highlight-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe escultorico isolado, fachada excessivamente obliqua ou vista do canal demasiado semelhante a outra selecionada; buscar enquadramento melhor."
+      }
+    ]
   },
   {
     "key": "milao/essential-moeda",
@@ -11325,8 +11327,22 @@
     "topic": "Duomo di Milano",
     "path": "/images/destinations/milao/curated-attraction-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milano - Duomo 0569.jpg",
+        "pool": "attraction-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/map-attraction-0",
@@ -11335,8 +11351,22 @@
     "topic": "Duomo di Milano",
     "path": "/images/destinations/milao/curated-map-attraction-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milano - Duomo 0499.jpg",
+        "pool": "attraction-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/map-list-0",
@@ -11345,38 +11375,22 @@
     "topic": "Duomo di Milano",
     "path": "/images/destinations/milao/curated-map-list-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/attraction-1",
-    "city": "milao",
-    "slot": "attraction-1",
-    "topic": "Galleria Vittorio Emanuele",
-    "path": "/images/destinations/milao/curated-attraction-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/map-attraction-1",
-    "city": "milao",
-    "slot": "map-attraction-1",
-    "topic": "Galleria Vittorio Emanuele",
-    "path": "/images/destinations/milao/curated-map-attraction-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/map-list-1",
-    "city": "milao",
-    "slot": "map-list-1",
-    "topic": "Galleria Vittorio Emanuele",
-    "path": "/images/destinations/milao/curated-map-list-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milano - Duomo 0443.jpg",
+        "pool": "attraction-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/attraction-2",
@@ -11385,8 +11399,22 @@
     "topic": "Last Supper (Cenacolo)",
     "path": "/images/destinations/milao/curated-attraction-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Coat of arms - Santa Maria delle Grazie - Milan 2014.jpg",
+        "pool": "attraction-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/map-attraction-2",
@@ -11395,8 +11423,22 @@
     "topic": "Last Supper (Cenacolo)",
     "path": "/images/destinations/milao/curated-map-attraction-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Santa Maria delle Grazie (Milan) - Apse exterior.jpg",
+        "pool": "attraction-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/map-list-2",
@@ -11405,8 +11447,22 @@
     "topic": "Last Supper (Cenacolo)",
     "path": "/images/destinations/milao/curated-map-list-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Santa Maria delle Grazie (Milan) Apse exterior 07.JPG",
+        "pool": "attraction-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/attraction-3",
@@ -11415,8 +11471,22 @@
     "topic": "Navigli",
     "path": "/images/destinations/milao/curated-attraction-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Navigli (27105017476).jpg",
+        "pool": "attraction-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/map-attraction-3",
@@ -11425,8 +11495,22 @@
     "topic": "Navigli",
     "path": "/images/destinations/milao/curated-map-attraction-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Canal Nord Navigli - Milan (IT25) - 2022-09-02 - 2.jpg",
+        "pool": "attraction-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/map-list-3",
@@ -11435,8 +11519,22 @@
     "topic": "Navigli",
     "path": "/images/destinations/milao/curated-map-list-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Canal Nord Navigli - Milan (IT25) - 2022-09-02 - 5.jpg",
+        "pool": "attraction-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/attraction-4",
@@ -11445,18 +11543,22 @@
     "topic": "Castello Sforzesco",
     "path": "/images/destinations/milao/curated-attraction-4.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/map-attraction-4",
-    "city": "milao",
-    "slot": "map-attraction-4",
-    "topic": "Castello Sforzesco",
-    "path": "/images/destinations/milao/curated-map-attraction-4.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Stained Glass Coat of Arms dated 1674, Sforza Castle, Milan.jpg",
+        "pool": "attraction-4",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/map-list-4",
@@ -11465,38 +11567,22 @@
     "topic": "Castello Sforzesco",
     "path": "/images/destinations/milao/curated-map-list-4.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/attraction-5",
-    "city": "milao",
-    "slot": "attraction-5",
-    "topic": "Brera",
-    "path": "/images/destinations/milao/curated-attraction-5.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/map-attraction-5",
-    "city": "milao",
-    "slot": "map-attraction-5",
-    "topic": "Brera",
-    "path": "/images/destinations/milao/curated-map-attraction-5.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/map-list-5",
-    "city": "milao",
-    "slot": "map-list-5",
-    "topic": "Brera",
-    "path": "/images/destinations/milao/curated-map-list-5.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Pigeon Château Sforzesco - Milan (IT25) - 2022-09-03 - 2.jpg",
+        "pool": "attraction-4",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: escultura ou detalhe isolado sem contexto, pessoas em primeiro plano, pombo, vitral isolado ou exterior da igreja sem mostrar a Ultima Ceia solicitada; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/day-0",
@@ -11555,28 +11641,22 @@
     "topic": "Centro / Duomo",
     "path": "/images/destinations/milao/curated-neighborhood-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/neighborhood-detail-0",
-    "city": "milao",
-    "slot": "neighborhood-detail-0",
-    "topic": "Centro / Duomo",
-    "path": "/images/destinations/milao/curated-neighborhood-detail-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/neighborhood-1",
-    "city": "milao",
-    "slot": "neighborhood-1",
-    "topic": "Brera",
-    "path": "/images/destinations/milao/curated-neighborhood-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milano - Duomo di Milano - Guglie, composizione - 2026-09-08 20-59-21 001.jpg",
+        "pool": "neighborhood-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/neighborhood-detail-1",
@@ -11585,38 +11665,22 @@
     "topic": "Brera",
     "path": "/images/destinations/milao/curated-neighborhood-detail-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/neighborhood-2",
-    "city": "milao",
-    "slot": "neighborhood-2",
-    "topic": "Navigli",
-    "path": "/images/destinations/milao/curated-neighborhood-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/neighborhood-detail-2",
-    "city": "milao",
-    "slot": "neighborhood-detail-2",
-    "topic": "Navigli",
-    "path": "/images/destinations/milao/curated-neighborhood-detail-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/neighborhood-3",
-    "city": "milao",
-    "slot": "neighborhood-3",
-    "topic": "Porta Nuova",
-    "path": "/images/destinations/milao/curated-neighborhood-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Brera auzoa (Milan) - Brera (Milan) - Tagzania - 1789652594410.jpg",
+        "pool": "neighborhood-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/neighborhood-detail-3",
@@ -11625,8 +11689,22 @@
     "topic": "Porta Nuova",
     "path": "/images/destinations/milao/curated-neighborhood-detail-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milan Skyline at Sunset.JPG",
+        "pool": "neighborhood-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/trip-0",
@@ -11665,18 +11743,22 @@
     "topic": "Duomo",
     "path": "/images/destinations/milao/curated-region-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/region-list-0",
-    "city": "milao",
-    "slot": "region-list-0",
-    "topic": "Duomo",
-    "path": "/images/destinations/milao/curated-region-list-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milano - Duomo di Milano - Guglie viste da Piazza del Duomo (vers. 2) - 2025-09-29 20-38-57 001.jpg",
+        "pool": "region-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/region-1",
@@ -11685,18 +11767,22 @@
     "topic": "Brera",
     "path": "/images/destinations/milao/curated-region-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/region-list-1",
-    "city": "milao",
-    "slot": "region-list-1",
-    "topic": "Brera",
-    "path": "/images/destinations/milao/curated-region-list-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Palazzo di Brera (Milan) - Courtyard-2.jpg",
+        "pool": "region-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/region-2",
@@ -11705,8 +11791,22 @@
     "topic": "Navigli",
     "path": "/images/destinations/milao/curated-region-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milan Navigli houseboat.jpg",
+        "pool": "region-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/region-list-2",
@@ -11715,8 +11815,22 @@
     "topic": "Navigli",
     "path": "/images/destinations/milao/curated-region-list-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:The Navigli - Ice cream and crepes, Milanojpg.jpg",
+        "pool": "region-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/region-3",
@@ -11725,38 +11839,22 @@
     "topic": "Porta Nuova",
     "path": "/images/destinations/milao/curated-region-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/region-list-3",
-    "city": "milao",
-    "slot": "region-list-3",
-    "topic": "Porta Nuova",
-    "path": "/images/destinations/milao/curated-region-list-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/hotel-0",
-    "city": "milao",
-    "slot": "hotel-0",
-    "topic": "Hotel em Duomo",
-    "path": "/images/destinations/milao/curated-hotel-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/hotel-list-0",
-    "city": "milao",
-    "slot": "hotel-list-0",
-    "topic": "Hotel em Duomo",
-    "path": "/images/destinations/milao/curated-hotel-list-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milan skyline during the day.JPG",
+        "pool": "region-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/hotel-1",
@@ -11765,38 +11863,22 @@
     "topic": "Hotel em Brera",
     "path": "/images/destinations/milao/curated-hotel-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/hotel-list-1",
-    "city": "milao",
-    "slot": "hotel-list-1",
-    "topic": "Hotel em Brera",
-    "path": "/images/destinations/milao/curated-hotel-list-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/hotel-2",
-    "city": "milao",
-    "slot": "hotel-2",
-    "topic": "Hotel em Navigli",
-    "path": "/images/destinations/milao/curated-hotel-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "milao/hotel-list-2",
-    "city": "milao",
-    "slot": "hotel-list-2",
-    "topic": "Hotel em Navigli",
-    "path": "/images/destinations/milao/curated-hotel-list-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Palazzo di Brera (Milan) - Courtyard.jpg",
+        "pool": "region-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/hotel-3",
@@ -11805,8 +11887,22 @@
     "topic": "Hotel em Porta Nuova",
     "path": "/images/destinations/milao/curated-hotel-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milan skyline around Unicredit Tower from Duomo.jpg",
+        "pool": "region-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "milao/hotel-list-3",
@@ -11815,18 +11911,22 @@
     "topic": "Hotel em Porta Nuova",
     "path": "/images/destinations/milao/curated-hotel-list-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/hero",
-    "city": "florenca",
-    "slot": "hero",
-    "topic": "Florença",
-    "path": "/images/destinations/florenca/curated-hero.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Milan (Milano) Skyline seen from Southeast.JPG",
+        "pool": "region-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-milao-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe de pinaculos, obra/andaime dominante, patio escuro, porto/canal encoberto por neblina, loja interior ou skyline fraco/semelhante a outro; manter pendente."
+      }
+    ]
   },
   {
     "key": "florenca/intro",
@@ -11835,28 +11935,22 @@
     "topic": "Florença",
     "path": "/images/destinations/florenca/curated-intro.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/home",
-    "city": "florenca",
-    "slot": "home",
-    "topic": "Florença",
-    "path": "/images/destinations/florenca/curated-home.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/guide-card",
-    "city": "florenca",
-    "slot": "guide-card",
-    "topic": "Florença",
-    "path": "/images/destinations/florenca/curated-guide-card.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Florence's skyline.jpg",
+        "pool": "highlight-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: panorama com via curvada dominante, cidade escura sob nuvens ou fachada muito semelhante a outra ja selecionada; buscar alternativa para o destaque."
+      }
+    ]
   },
   {
     "key": "florenca/guide-highlight",
@@ -11865,8 +11959,22 @@
     "topic": "Florença",
     "path": "/images/destinations/florenca/curated-guide-highlight.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Exterior of Santa Maria del Fiore (Florence) 20150811.jpg",
+        "pool": "highlight-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: panorama com via curvada dominante, cidade escura sob nuvens ou fachada muito semelhante a outra ja selecionada; buscar alternativa para o destaque."
+      }
+    ]
   },
   {
     "key": "florenca/home-slide",
@@ -11875,18 +11983,22 @@
     "topic": "Florença",
     "path": "/images/destinations/florenca/curated-home-slide.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/home-thumb",
-    "city": "florenca",
-    "slot": "home-thumb",
-    "topic": "Florença: miniatura da home",
-    "path": "/images/destinations/florenca/curated-home-thumb.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Skyline of Florence from Piazzale Michelangelo. Feb. 2016.jpg",
+        "pool": "highlight-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: panorama com via curvada dominante, cidade escura sob nuvens ou fachada muito semelhante a outra ja selecionada; buscar alternativa para o destaque."
+      }
+    ]
   },
   {
     "key": "florenca/essential-moeda",
@@ -11959,84 +12071,28 @@
     "decisions": []
   },
   {
-    "key": "florenca/attraction-0",
-    "city": "florenca",
-    "slot": "attraction-0",
-    "topic": "Duomo / Brunelleschi",
-    "path": "/images/destinations/florenca/curated-attraction-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/map-attraction-0",
-    "city": "florenca",
-    "slot": "map-attraction-0",
-    "topic": "Duomo / Brunelleschi",
-    "path": "/images/destinations/florenca/curated-map-attraction-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/map-list-0",
-    "city": "florenca",
-    "slot": "map-list-0",
-    "topic": "Duomo / Brunelleschi",
-    "path": "/images/destinations/florenca/curated-map-list-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/attraction-1",
-    "city": "florenca",
-    "slot": "attraction-1",
-    "topic": "Galleria degli Uffizi",
-    "path": "/images/destinations/florenca/curated-attraction-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
     "key": "florenca/map-attraction-1",
     "city": "florenca",
     "slot": "map-attraction-1",
     "topic": "Galleria degli Uffizi",
     "path": "/images/destinations/florenca/curated-map-attraction-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/map-list-1",
-    "city": "florenca",
-    "slot": "map-list-1",
-    "topic": "Galleria degli Uffizi",
-    "path": "/images/destinations/florenca/curated-map-list-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/attraction-2",
-    "city": "florenca",
-    "slot": "attraction-2",
-    "topic": "Ponte Vecchio",
-    "path": "/images/destinations/florenca/curated-attraction-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/map-attraction-2",
-    "city": "florenca",
-    "slot": "map-attraction-2",
-    "topic": "Ponte Vecchio",
-    "path": "/images/destinations/florenca/curated-map-attraction-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Firenze - Florence - Galleria degli Uffizi - Vasari Corridor 1566 - View NNE through the Uffizi Courtyard towards Palazzo Vecchio.jpg",
+        "pool": "attraction-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+      }
+    ]
   },
   {
     "key": "florenca/map-list-2",
@@ -12045,8 +12101,22 @@
     "topic": "Ponte Vecchio",
     "path": "/images/destinations/florenca/curated-map-list-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Fireworks over Ponte Vecchio.JPG",
+        "pool": "attraction-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+      }
+    ]
   },
   {
     "key": "florenca/attraction-3",
@@ -12055,58 +12125,22 @@
     "topic": "Palazzo Pitti",
     "path": "/images/destinations/florenca/curated-attraction-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/map-attraction-3",
-    "city": "florenca",
-    "slot": "map-attraction-3",
-    "topic": "Palazzo Pitti",
-    "path": "/images/destinations/florenca/curated-map-attraction-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/map-list-3",
-    "city": "florenca",
-    "slot": "map-list-3",
-    "topic": "Palazzo Pitti",
-    "path": "/images/destinations/florenca/curated-map-list-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/attraction-4",
-    "city": "florenca",
-    "slot": "attraction-4",
-    "topic": "Piazzale Michelangelo",
-    "path": "/images/destinations/florenca/curated-attraction-4.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/map-attraction-4",
-    "city": "florenca",
-    "slot": "map-attraction-4",
-    "topic": "Piazzale Michelangelo",
-    "path": "/images/destinations/florenca/curated-map-attraction-4.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/map-list-4",
-    "city": "florenca",
-    "slot": "map-list-4",
-    "topic": "Piazzale Michelangelo",
-    "path": "/images/destinations/florenca/curated-map-list-4.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Palacio Pitti, Florencia, Italia, 2022-09-18, DD 163-165 HDR.jpg",
+        "pool": "attraction-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+      }
+    ]
   },
   {
     "key": "florenca/attraction-5",
@@ -12115,8 +12149,22 @@
     "topic": "Accademia (David)",
     "path": "/images/destinations/florenca/curated-attraction-5.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Sislej xhafa, workshop all'Accademia di Firenze, 13-04-2015, 05.JPG",
+        "pool": "attraction-5",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+      }
+    ]
   },
   {
     "key": "florenca/map-attraction-5",
@@ -12125,8 +12173,22 @@
     "topic": "Accademia (David)",
     "path": "/images/destinations/florenca/curated-map-attraction-5.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Sislej xhafa, workshop all'Accademia di Firenze, 13-04-2015, 06.JPG",
+        "pool": "attraction-5",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+      }
+    ]
   },
   {
     "key": "florenca/map-list-5",
@@ -12135,8 +12197,22 @@
     "topic": "Accademia (David)",
     "path": "/images/destinations/florenca/curated-map-list-5.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "attraction-5",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+      }
+    ]
   },
   {
     "key": "florenca/day-0",
@@ -12195,8 +12271,22 @@
     "topic": "Centro Storico",
     "path": "/images/destinations/florenca/curated-neighborhood-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Impressions from the historic center of Florence (15053).jpg",
+        "pool": "neighborhood-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/neighborhood-detail-0",
@@ -12205,18 +12295,22 @@
     "topic": "Centro Storico",
     "path": "/images/destinations/florenca/curated-neighborhood-detail-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/neighborhood-1",
-    "city": "florenca",
-    "slot": "neighborhood-1",
-    "topic": "Oltrarno",
-    "path": "/images/destinations/florenca/curated-neighborhood-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Impressions from the historic center of Florence (33294).jpg",
+        "pool": "neighborhood-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/neighborhood-detail-1",
@@ -12225,8 +12319,22 @@
     "topic": "Oltrarno",
     "path": "/images/destinations/florenca/curated-neighborhood-detail-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Via romana 93, casa, stemma illeggibile.jpg",
+        "pool": "neighborhood-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/neighborhood-2",
@@ -12235,18 +12343,22 @@
     "topic": "Santa Croce",
     "path": "/images/destinations/florenca/curated-neighborhood-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/neighborhood-detail-2",
-    "city": "florenca",
-    "slot": "neighborhood-detail-2",
-    "topic": "Santa Croce",
-    "path": "/images/destinations/florenca/curated-neighborhood-detail-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Statue Dante Alighieri Piazza Santa Croce - Florence (IT52) - 2022-08-31 - 3.jpg",
+        "pool": "neighborhood-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/neighborhood-3",
@@ -12255,8 +12367,22 @@
     "topic": "San Lorenzo",
     "path": "/images/destinations/florenca/curated-neighborhood-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Firenze - Florence - Piazza di San Lorenzo - View SSW.jpg",
+        "pool": "neighborhood-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/neighborhood-detail-3",
@@ -12265,8 +12391,22 @@
     "topic": "San Lorenzo",
     "path": "/images/destinations/florenca/curated-neighborhood-detail-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Firenze - Florence - Piazza di San Lorenzo - View ESE.jpg",
+        "pool": "neighborhood-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/trip-0",
@@ -12299,34 +12439,28 @@
     "decisions": []
   },
   {
-    "key": "florenca/region-0",
-    "city": "florenca",
-    "slot": "region-0",
-    "topic": "Duomo",
-    "path": "/images/destinations/florenca/curated-region-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/region-list-0",
-    "city": "florenca",
-    "slot": "region-list-0",
-    "topic": "Duomo",
-    "path": "/images/destinations/florenca/curated-region-list-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
     "key": "florenca/region-1",
     "city": "florenca",
     "slot": "region-1",
     "topic": "Uffizi",
     "path": "/images/destinations/florenca/curated-region-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Firenze - Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - View ENE on Palazzo Vecchio - Palazzo della Signoria - Torre di Arnolfo 1310.jpg",
+        "pool": "region-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/region-list-1",
@@ -12335,8 +12469,22 @@
     "topic": "Uffizi",
     "path": "/images/destinations/florenca/curated-region-list-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:View of Florence 27.jpg",
+        "pool": "region-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/region-2",
@@ -12345,8 +12493,22 @@
     "topic": "Oltrarno",
     "path": "/images/destinations/florenca/curated-region-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Via romana 51, casa, stemma illeggibile.jpg",
+        "pool": "region-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/region-list-2",
@@ -12355,18 +12517,22 @@
     "topic": "Oltrarno",
     "path": "/images/destinations/florenca/curated-region-list-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/region-3",
-    "city": "florenca",
-    "slot": "region-3",
-    "topic": "Michelangelo",
-    "path": "/images/destinations/florenca/curated-region-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Via romana 35, casa, stemma bordoni.jpg",
+        "pool": "region-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/region-list-3",
@@ -12375,8 +12541,22 @@
     "topic": "Michelangelo",
     "path": "/images/destinations/florenca/curated-region-list-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Florence Cathedral seen from Piazzale Michelangelo dllu.jpg",
+        "pool": "region-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/hotel-0",
@@ -12385,8 +12565,22 @@
     "topic": "Hotel em Duomo",
     "path": "/images/destinations/florenca/curated-hotel-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Piazza del duomo, mandala su impalcature.jpg",
+        "pool": "region-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/hotel-list-0",
@@ -12395,8 +12589,22 @@
     "topic": "Hotel em Duomo",
     "path": "/images/destinations/florenca/curated-hotel-list-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Piazza del duomo 11, Casa Sermanni 01.jpg",
+        "pool": "region-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/hotel-1",
@@ -12405,8 +12613,22 @@
     "topic": "Hotel em Uffizi",
     "path": "/images/destinations/florenca/curated-hotel-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Firenze - Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - View ENE on Palazzo Vecchio - Palazzo della Signoria 1353.jpg",
+        "pool": "region-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/hotel-list-1",
@@ -12415,8 +12637,22 @@
     "topic": "Hotel em Uffizi",
     "path": "/images/destinations/florenca/curated-hotel-list-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Firenze - Florence - Galleria degli Uffizi - Terrace on top of Loggia dei Lanzi - ICE Photocompilation Viewing ENE on Palazzo Vecchio - Palazzo della Signoria.jpg",
+        "pool": "region-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/hotel-2",
@@ -12425,8 +12661,22 @@
     "topic": "Hotel em Oltrarno",
     "path": "/images/destinations/florenca/curated-hotel-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Via romana 51, casa, stemma 01.jpg",
+        "pool": "region-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/hotel-list-2",
@@ -12435,8 +12685,22 @@
     "topic": "Hotel em Oltrarno",
     "path": "/images/destinations/florenca/curated-hotel-list-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "region-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "florenca/hotel-3",
@@ -12445,38 +12709,22 @@
     "topic": "Hotel em Michelangelo",
     "path": "/images/destinations/florenca/curated-hotel-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "florenca/hotel-list-3",
-    "city": "florenca",
-    "slot": "hotel-list-3",
-    "topic": "Hotel em Michelangelo",
-    "path": "/images/destinations/florenca/curated-hotel-list-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/hero",
-    "city": "barcelona",
-    "slot": "hero",
-    "topic": "Barcelona",
-    "path": "/images/destinations/barcelona/curated-hero.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/intro",
-    "city": "barcelona",
-    "slot": "intro",
-    "topic": "Barcelona",
-    "path": "/images/destinations/barcelona/curated-intro.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Vista de Florencia desde Piazzale Michelangelo, Italia, 2022-09-18, DD 218-220 HDR.jpg",
+        "pool": "region-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-florenca-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: brasao isolado, barco sem contexto urbano, estatua isolada, ruas subexpostas, andaime ou Palazzo Vecchio sem contexto dos Uffizi; evitar fachada/panorama repetitivo."
+      }
+    ]
   },
   {
     "key": "barcelona/home",
@@ -12485,8 +12733,22 @@
     "topic": "Barcelona",
     "path": "/images/destinations/barcelona/curated-home.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Sagrada Familia, Barcelona (P1170683).jpg",
+        "pool": "highlight-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe isolado de banco/grade ou guindaste e corda contra o ceu, sem paisagem reconhecivel suficiente para destaque do destino."
+      }
+    ]
   },
   {
     "key": "barcelona/guide-card",
@@ -12495,38 +12757,22 @@
     "topic": "Barcelona",
     "path": "/images/destinations/barcelona/curated-guide-card.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/guide-highlight",
-    "city": "barcelona",
-    "slot": "guide-highlight",
-    "topic": "Barcelona",
-    "path": "/images/destinations/barcelona/curated-guide-highlight.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/home-slide",
-    "city": "barcelona",
-    "slot": "home-slide",
-    "topic": "Barcelona",
-    "path": "/images/destinations/barcelona/curated-home-slide.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/home-thumb",
-    "city": "barcelona",
-    "slot": "home-thumb",
-    "topic": "Barcelona: miniatura da home",
-    "path": "/images/destinations/barcelona/curated-home-thumb.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-highlights-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Barcelona - Park Güell - Antonio Gaudí - ICE Fisheye.jpg",
+        "pool": "highlight-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-highlights-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe isolado de banco/grade ou guindaste e corda contra o ceu, sem paisagem reconhecivel suficiente para destaque do destino."
+      }
+    ]
   },
   {
     "key": "barcelona/essential-moeda",
@@ -12599,44 +12845,28 @@
     "decisions": []
   },
   {
-    "key": "barcelona/attraction-0",
-    "city": "barcelona",
-    "slot": "attraction-0",
-    "topic": "Sagrada Família",
-    "path": "/images/destinations/barcelona/curated-attraction-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/map-attraction-0",
-    "city": "barcelona",
-    "slot": "map-attraction-0",
-    "topic": "Sagrada Família",
-    "path": "/images/destinations/barcelona/curated-map-attraction-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
     "key": "barcelona/map-list-0",
     "city": "barcelona",
     "slot": "map-list-0",
     "topic": "Sagrada Família",
     "path": "/images/destinations/barcelona/curated-map-list-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/attraction-1",
-    "city": "barcelona",
-    "slot": "attraction-1",
-    "topic": "Park Güell",
-    "path": "/images/destinations/barcelona/curated-attraction-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:(Barcelona) Sagrada Família Orgel - Posterior part in the ambulatory.jpg",
+        "pool": "attraction-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+      }
+    ]
   },
   {
     "key": "barcelona/map-attraction-1",
@@ -12645,18 +12875,22 @@
     "topic": "Park Güell",
     "path": "/images/destinations/barcelona/curated-map-attraction-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/map-list-1",
-    "city": "barcelona",
-    "slot": "map-list-1",
-    "topic": "Park Güell",
-    "path": "/images/destinations/barcelona/curated-map-list-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Parc Guell Barcelona May 2026-10.jpg",
+        "pool": "attraction-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+      }
+    ]
   },
   {
     "key": "barcelona/attraction-2",
@@ -12665,78 +12899,22 @@
     "topic": "Barri Gòtic",
     "path": "/images/destinations/barcelona/curated-attraction-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/map-attraction-2",
-    "city": "barcelona",
-    "slot": "map-attraction-2",
-    "topic": "Barri Gòtic",
-    "path": "/images/destinations/barcelona/curated-map-attraction-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/map-list-2",
-    "city": "barcelona",
-    "slot": "map-list-2",
-    "topic": "Barri Gòtic",
-    "path": "/images/destinations/barcelona/curated-map-list-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/attraction-3",
-    "city": "barcelona",
-    "slot": "attraction-3",
-    "topic": "La Rambla / Boqueria",
-    "path": "/images/destinations/barcelona/curated-attraction-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/map-attraction-3",
-    "city": "barcelona",
-    "slot": "map-attraction-3",
-    "topic": "La Rambla / Boqueria",
-    "path": "/images/destinations/barcelona/curated-map-attraction-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/map-list-3",
-    "city": "barcelona",
-    "slot": "map-list-3",
-    "topic": "La Rambla / Boqueria",
-    "path": "/images/destinations/barcelona/curated-map-list-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/attraction-4",
-    "city": "barcelona",
-    "slot": "attraction-4",
-    "topic": "Casa Batlló",
-    "path": "/images/destinations/barcelona/curated-attraction-4.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/map-attraction-4",
-    "city": "barcelona",
-    "slot": "map-attraction-4",
-    "topic": "Casa Batlló",
-    "path": "/images/destinations/barcelona/curated-map-attraction-4.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Monument a Colom - Barcelona - Spain - panoramio.jpg",
+        "pool": "attraction-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+      }
+    ]
   },
   {
     "key": "barcelona/map-list-4",
@@ -12745,18 +12923,22 @@
     "topic": "Casa Batlló",
     "path": "/images/destinations/barcelona/curated-map-list-4.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/attraction-5",
-    "city": "barcelona",
-    "slot": "attraction-5",
-    "topic": "Praia da Barceloneta",
-    "path": "/images/destinations/barcelona/curated-attraction-5.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Barcelona Spain Interior-view-in-Casa Batlló-01.jpg",
+        "pool": "attraction-4",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+      }
+    ]
   },
   {
     "key": "barcelona/map-attraction-5",
@@ -12765,18 +12947,22 @@
     "topic": "Praia da Barceloneta",
     "path": "/images/destinations/barcelona/curated-map-attraction-5.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/map-list-5",
-    "city": "barcelona",
-    "slot": "map-list-5",
-    "topic": "Praia da Barceloneta",
-    "path": "/images/destinations/barcelona/curated-map-list-5.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Large sign with beach rules and information at Barceloneta beach in Barcelona, Spain (2022).jpg",
+        "pool": "attraction-5",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-attractions-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+      }
+    ]
   },
   {
     "key": "barcelona/day-0",
@@ -12829,24 +13015,28 @@
     "decisions": []
   },
   {
-    "key": "barcelona/neighborhood-0",
-    "city": "barcelona",
-    "slot": "neighborhood-0",
-    "topic": "Eixample",
-    "path": "/images/destinations/barcelona/curated-neighborhood-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
     "key": "barcelona/neighborhood-detail-0",
     "city": "barcelona",
     "slot": "neighborhood-detail-0",
     "topic": "Eixample",
     "path": "/images/destinations/barcelona/curated-neighborhood-detail-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Barcelona Eixample 2023.jpeg",
+        "pool": "neighborhood-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+      }
+    ]
   },
   {
     "key": "barcelona/neighborhood-1",
@@ -12855,8 +13045,22 @@
     "topic": "Gothic Quarter",
     "path": "/images/destinations/barcelona/curated-neighborhood-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Street Art in Gothic Quarter, Barcelona (Spain). (51593602675).jpg",
+        "pool": "neighborhood-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+      }
+    ]
   },
   {
     "key": "barcelona/neighborhood-detail-1",
@@ -12865,28 +13069,22 @@
     "topic": "Gothic Quarter",
     "path": "/images/destinations/barcelona/curated-neighborhood-detail-1.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/neighborhood-2",
-    "city": "barcelona",
-    "slot": "neighborhood-2",
-    "topic": "El Born",
-    "path": "/images/destinations/barcelona/curated-neighborhood-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/neighborhood-detail-2",
-    "city": "barcelona",
-    "slot": "neighborhood-detail-2",
-    "topic": "El Born",
-    "path": "/images/destinations/barcelona/curated-neighborhood-detail-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Street Art in Gothic Quarter, Barcelona (Spain). (51604116403).jpg",
+        "pool": "neighborhood-1",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+      }
+    ]
   },
   {
     "key": "barcelona/neighborhood-3",
@@ -12895,8 +13093,22 @@
     "topic": "Gràcia",
     "path": "/images/destinations/barcelona/curated-neighborhood-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Plaça de la Vila de Gràcia - Trabucaires.JPG",
+        "pool": "neighborhood-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+      }
+    ]
   },
   {
     "key": "barcelona/neighborhood-detail-3",
@@ -12905,8 +13117,22 @@
     "topic": "Gràcia",
     "path": "/images/destinations/barcelona/curated-neighborhood-detail-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Plaça de la Vila de Gràcia - gegant.JPG",
+        "pool": "neighborhood-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+      }
+    ]
   },
   {
     "key": "barcelona/trip-0",
@@ -12945,58 +13171,22 @@
     "topic": "Eixample",
     "path": "/images/destinations/barcelona/curated-region-0.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/region-list-0",
-    "city": "barcelona",
-    "slot": "region-list-0",
-    "topic": "Eixample",
-    "path": "/images/destinations/barcelona/curated-region-list-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/region-1",
-    "city": "barcelona",
-    "slot": "region-1",
-    "topic": "Gótico",
-    "path": "/images/destinations/barcelona/curated-region-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/region-list-1",
-    "city": "barcelona",
-    "slot": "region-list-1",
-    "topic": "Gótico",
-    "path": "/images/destinations/barcelona/curated-region-list-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/region-2",
-    "city": "barcelona",
-    "slot": "region-2",
-    "topic": "Montjuïc",
-    "path": "/images/destinations/barcelona/curated-region-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/region-list-2",
-    "city": "barcelona",
-    "slot": "region-list-2",
-    "topic": "Montjuïc",
-    "path": "/images/destinations/barcelona/curated-region-list-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Barcelona bombing (1938).jpg",
+        "pool": "region-0",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+      }
+    ]
   },
   {
     "key": "barcelona/region-3",
@@ -13005,58 +13195,22 @@
     "topic": "Praia",
     "path": "/images/destinations/barcelona/curated-region-3.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/region-list-3",
-    "city": "barcelona",
-    "slot": "region-list-3",
-    "topic": "Praia",
-    "path": "/images/destinations/barcelona/curated-region-list-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/hotel-0",
-    "city": "barcelona",
-    "slot": "hotel-0",
-    "topic": "Hotel em Eixample",
-    "path": "/images/destinations/barcelona/curated-hotel-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/hotel-list-0",
-    "city": "barcelona",
-    "slot": "hotel-list-0",
-    "topic": "Hotel em Eixample",
-    "path": "/images/destinations/barcelona/curated-hotel-list-0.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/hotel-1",
-    "city": "barcelona",
-    "slot": "hotel-1",
-    "topic": "Hotel em Gótico",
-    "path": "/images/destinations/barcelona/curated-hotel-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/hotel-list-1",
-    "city": "barcelona",
-    "slot": "hotel-list-1",
-    "topic": "Hotel em Gótico",
-    "path": "/images/destinations/barcelona/curated-hotel-list-1.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Bike rack in the form of massive steel cable rings at Barceloneta beach in Barcelona, Spain.jpg",
+        "pool": "region-3",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+      }
+    ]
   },
   {
     "key": "barcelona/hotel-2",
@@ -13065,38 +13219,22 @@
     "topic": "Hotel em Montjuïc",
     "path": "/images/destinations/barcelona/curated-hotel-2.jpg",
     "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/hotel-list-2",
-    "city": "barcelona",
-    "slot": "hotel-list-2",
-    "topic": "Hotel em Montjuïc",
-    "path": "/images/destinations/barcelona/curated-hotel-list-2.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/hotel-3",
-    "city": "barcelona",
-    "slot": "hotel-3",
-    "topic": "Hotel em Praia",
-    "path": "/images/destinations/barcelona/curated-hotel-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
-  },
-  {
-    "key": "barcelona/hotel-list-3",
-    "city": "barcelona",
-    "slot": "hotel-list-3",
-    "topic": "Hotel em Praia",
-    "path": "/images/destinations/barcelona/curated-hotel-list-3.jpg",
-    "region": "europa",
-    "searchEvidence": [],
-    "decisions": []
+    "searchEvidence": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Castell Montjuic, Barcelona (P1170657).jpg",
+        "pool": "region-2",
+        "error": null
+      }
+    ],
+    "decisions": [
+      {
+        "bundle": "regional-barcelona-europa-areas-2026-11-03",
+        "decision": "rejected",
+        "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+      }
+    ]
   },
   {
     "key": "munique/hero",

@@ -1,0 +1,69 @@
+{
+  "city": "milao",
+  "region": "europa",
+  "center": [
+    45.4642,
+    9.19,
+    30
+  ],
+  "pools": {
+    "highlight-0": {
+      "query": "Milan skyline panorama",
+      "required": [
+        "milan|milano",
+        "skyline|panorama|milan"
+      ],
+      "locationPatterns": [
+        "milan|milano"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.25,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "hero",
+        "intro",
+        "home-slide"
+      ]
+    },
+    "highlight-1": {
+      "query": "Duomo di Milano exterior",
+      "required": [
+        "milan|milano",
+        "duomo"
+      ],
+      "locationPatterns": [
+        "milan|milano"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.25,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "home",
+        "guide-highlight"
+      ]
+    },
+    "highlight-2": {
+      "query": "Navigli Milan canal",
+      "required": [
+        "milan|milano",
+        "navigli|naviglio"
+      ],
+      "locationPatterns": [
+        "milan|milano"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.25,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "guide-card",
+        "home-thumb"
+      ]
+    }
+  }
+}

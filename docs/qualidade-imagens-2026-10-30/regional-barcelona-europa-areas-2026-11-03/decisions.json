@@ -1,0 +1,98 @@
+{
+  "barcelona/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Monumento urbano em bronze e fachadas da Dreta de Eixample; contexto civico do bairro confirmado pela fonte."
+  },
+  "barcelona/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+  },
+  "barcelona/neighborhood-1": {
+    "decision": "rejected",
+    "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+  },
+  "barcelona/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+  },
+  "barcelona/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Rua historica de El Born com fachadas e contexto urbano; sinalizacao incidental, sem retrato dominante."
+  },
+  "barcelona/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Cruzamento ensolarado e fachadas de El Born, paisagem urbana clara do bairro indicado."
+  },
+  "barcelona/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+  },
+  "barcelona/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+  },
+  "barcelona/region-0": {
+    "decision": "rejected",
+    "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+  },
+  "barcelona/region-list-0": {
+    "decision": "accepted",
+    "notes": "Vista urbana de Barcelona desde Montjuic com malha do Eixample visivel, contextual para a regiao indicada."
+  },
+  "barcelona/hotel-0": {
+    "decision": "accepted",
+    "notes": "Fachada e ornamentacao de edificio modernista no Eixample; foto regional ilustrativa, sem afirmar mostrar o hotel."
+  },
+  "barcelona/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Avenida e fachadas da Dreta de Eixample; contexto regional de hospedagem, imagem ilustrativa do bairro."
+  },
+  "barcelona/region-1": {
+    "decision": "accepted",
+    "notes": "Edificio historico de pedra no Bairro Gotico, arquitetura e entorno legiveis, fonte correspondente ao bairro."
+  },
+  "barcelona/region-list-1": {
+    "decision": "accepted",
+    "notes": "Fachada de palacio historico do Bairro Gotico com bandeira catalã; contexto arquitetonico real."
+  },
+  "barcelona/hotel-1": {
+    "decision": "accepted",
+    "notes": "Arquitetura de palacio de pedra do Bairro Gotico; foto regional ilustrativa, sem atribuir fachada ao hotel."
+  },
+  "barcelona/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Torre e arco de edificio historico do Bairro Gotico vistos para cima; contexto regional, sem inversao."
+  },
+  "barcelona/region-2": {
+    "decision": "accepted",
+    "notes": "Canhao historico exposto no Castell de Montjuic; patrimonio do forte indicado na regiao, foto real orientada corretamente."
+  },
+  "barcelona/region-list-2": {
+    "decision": "accepted",
+    "notes": "Paisagem urbana de Sants-Montjuic ao entardecer com vegetacao e edificios legiveis, contexto regional."
+  },
+  "barcelona/hotel-2": {
+    "decision": "rejected",
+    "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+  },
+  "barcelona/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Patio e torre do Castell de Montjuic, arquitetura regional nitida para imagem ilustrativa de hospedagem."
+  },
+  "barcelona/region-3": {
+    "decision": "rejected",
+    "notes": "Revisao visual: foto historica de bombardeio de 1938, porta pintada, musico/fantoche de festa, rua subexposta, porto industrial ou bicicleta isolada; contexto inadequado ao slot regional."
+  },
+  "barcelona/region-list-3": {
+    "decision": "accepted",
+    "notes": "Passeio maritimo, palmeiras e praia da Barceloneta; paisagem costeira contextual, horizonte correto."
+  },
+  "barcelona/hotel-3": {
+    "decision": "accepted",
+    "notes": "Praia da Barceloneta com mar e banhistas incidentais; contexto costeiro real, imagem regional ilustrativa."
+  },
+  "barcelona/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Praia urbana e hotel W distante na costa de Barcelona; contexto regional de praia, pessoas incidentais."
+  }
+}

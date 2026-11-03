@@ -1,0 +1,74 @@
+{
+  "barcelona/attraction-0": {
+    "decision": "accepted",
+    "notes": "Interior reconhecivel da Sagrada Familia, com colunas e teto vistos para cima; enquadramento arquitetonico intencional, sem inversao."
+  },
+  "barcelona/map-attraction-0": {
+    "decision": "accepted",
+    "notes": "Exterior da Sagrada Familia com torres e abside legiveis; guindaste incidental, edificio correto e orientacao normal."
+  },
+  "barcelona/map-list-0": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+  },
+  "barcelona/attraction-1": {
+    "decision": "accepted",
+    "notes": "Pavilhoes caracteristicos da entrada do Park Guell com a cidade ao fundo; paisagem real e tema correto."
+  },
+  "barcelona/map-attraction-1": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+  },
+  "barcelona/map-list-1": {
+    "decision": "accepted",
+    "notes": "El Drac, lagarto de mosaico nas escadarias do Park Guell, elemento caracteristico e reconhecivel."
+  },
+  "barcelona/attraction-2": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+  },
+  "barcelona/map-attraction-2": {
+    "decision": "accepted",
+    "notes": "Arquitetura de pedra e rua do Bairro Gotico, contexto urbano historico legivel e orientacao correta."
+  },
+  "barcelona/map-list-2": {
+    "decision": "accepted",
+    "notes": "Rua estreita e ponte gotica do Bairro Gotico; fotografia contextual do bairro, sem mapa ou inversao."
+  },
+  "barcelona/attraction-3": {
+    "decision": "accepted",
+    "notes": "Banca colorida do mercado La Boqueria; produtos e estrutura do mercado identificaveis, foto real."
+  },
+  "barcelona/map-attraction-3": {
+    "decision": "accepted",
+    "notes": "Banca de frutas da Boqueria em enquadramento proprio, tema de mercado local e boa legibilidade."
+  },
+  "barcelona/map-list-3": {
+    "decision": "accepted",
+    "notes": "Vista de vendedor e banca de frutas e verduras da Boqueria, distinta das outras fotos selecionadas."
+  },
+  "barcelona/attraction-4": {
+    "decision": "accepted",
+    "notes": "Chamines e ornamentacao colorida da cobertura da Casa Batllo, arquitetura real do edificio indicado."
+  },
+  "barcelona/map-attraction-4": {
+    "decision": "accepted",
+    "notes": "Fachada superior e cobertura reconheciveis da Casa Batllo; fotografia arquitetonica clara do local correto."
+  },
+  "barcelona/map-list-4": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+  },
+  "barcelona/attraction-5": {
+    "decision": "accepted",
+    "notes": "Praia e rede esportiva com mar ao fundo; categoria da fonte confirma Beaches of La Barceloneta, foto de 2024."
+  },
+  "barcelona/map-attraction-5": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe isolado de orgao, mobiliario interior, monumento fora do tema, interior abstrato ou placa de regras; nao representa suficientemente a atracao indicada."
+  },
+  "barcelona/map-list-5": {
+    "decision": "accepted",
+    "notes": "Faixa de areia e palmeiras na Barceloneta, confirmada explicitamente pela descricao da fonte; miniatura contextual."
+  }
+}

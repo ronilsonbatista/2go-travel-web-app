@@ -1,0 +1,30 @@
+{
+  "florenca/hero": {
+    "decision": "accepted",
+    "notes": "Panorama amplo de Florenca com jardins, cidade e Duomo ao fundo; foto diurna real, sem inversao."
+  },
+  "florenca/intro": {
+    "decision": "rejected",
+    "notes": "Revisao visual: panorama com via curvada dominante, cidade escura sob nuvens ou fachada muito semelhante a outra ja selecionada; buscar alternativa para o destaque."
+  },
+  "florenca/home-slide": {
+    "decision": "rejected",
+    "notes": "Revisao visual: panorama com via curvada dominante, cidade escura sob nuvens ou fachada muito semelhante a outra ja selecionada; buscar alternativa para o destaque."
+  },
+  "florenca/home": {
+    "decision": "accepted",
+    "notes": "Exterior de Santa Maria del Fiore com cupula e marmores caracteristicos; vista para cima arquitetonica intencional."
+  },
+  "florenca/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Revisao visual: panorama com via curvada dominante, cidade escura sob nuvens ou fachada muito semelhante a outra ja selecionada; buscar alternativa para o destaque."
+  },
+  "florenca/guide-card": {
+    "decision": "accepted",
+    "notes": "Ponte Vecchio vista da Ponte Santa Trinita na hora azul; agua, ponte e fachadas legiveis."
+  },
+  "florenca/home-thumb": {
+    "decision": "accepted",
+    "notes": "Ponte Vecchio sobre o Arno em foto diurna com margens e reflexo; local reconhecivel para miniatura."
+  }
+}
