@@ -659,7 +659,7 @@ export default function Home() {
                 </p>
               </div>
               <Link
-                href="/guias#todos-destinos"
+                href="/guias/destinos"
                 className="inline-flex min-h-11 items-center gap-1 text-sm font-bold text-brand-orange hover:text-[#96AB21] transition-colors whitespace-nowrap cursor-pointer"
               >
                 Ver todos &rarr;

@@ -31,6 +31,7 @@ export function buildSitemapEntries({
     '/roteiros',
     '/quanto-custa',
     '/guias',
+    '/guias/destinos',
     '/quem-somos',
     '/checklist-viagem',
     '/documentos-portugal',
