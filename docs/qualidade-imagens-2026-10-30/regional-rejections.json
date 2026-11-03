@@ -6970,5 +6970,189 @@
     "sha256": "1361768a12790655e778f8b159249ade82816e6df3a01dfc281323c5b4d0ed83",
     "decision": "rejected",
     "notes": "Revisao visual: panorama com via curvada dominante, cidade escura sob nuvens ou fachada muito semelhante a outra ja selecionada; buscar alternativa para o destaque."
+  },
+  {
+    "bundle": "regional-chicago-finish-2026-11-03",
+    "key": "chicago/tips",
+    "title": "File:Plaza by the Cloud Gate on a rainy night (52036718497).jpg",
+    "sha256": "f3599305dc7288bc6be6da0f063b1d037fbc86d7eb50ea3ff95455b5b4379c59",
+    "decision": "rejected",
+    "notes": "Skyline sob chuva com piso e luzes pouco legíveis; buscar composição mais clara para dicas de visita."
+  },
+  {
+    "bundle": "regional-chicago-finish-2026-11-03",
+    "key": "chicago/hotel-3",
+    "title": "File:Garfield park conservatory Chicago marker.jpg",
+    "sha256": "c61cad1e3edc75cf4018ebe0deb8e1a5fc7c8323277354dd8bdad38b63de8831",
+    "decision": "rejected",
+    "notes": "Placa do conservatório isolada, sem parque ou bairro visível; não representa contexto de hospedagem no West Side."
+  },
+  {
+    "bundle": "regional-chicago-finish2-2026-11-03",
+    "key": "chicago/tips",
+    "title": "File:CME Center riverwalk in 2016 IMG 6575.jpg",
+    "sha256": "c857bc6454aff51e3b81d9f169e8b0c4db7c7c9ae604a554aa8adb21c297fa81",
+    "decision": "rejected",
+    "notes": "Enquadramento vertical estreito de canal e parede do CME Center; pouco contexto legível e crop inadequado para card de dicas."
+  },
+  {
+    "bundle": "regional-havana-landmarks-hq-2026-11-03",
+    "key": "havana/home",
+    "title": "File:Old Buick car near Capitol building in Havanna Cuba.jpg",
+    "sha256": "d7279b0338ee5d184c2abcb44a6f4cb15aad33b61f03cd36b73eec280574c6da",
+    "decision": "rejected",
+    "notes": "Movimento deixa o Capitólio e a maior parte do carro borrados; composição insuficiente para destaque HQ da home."
+  },
+  {
+    "bundle": "regional-bahamas-landmarks-hq-2026-11-03",
+    "key": "bahamas/guide-highlight",
+    "title": "File:Cautethia exuma BMNHE273056 male un.jpg",
+    "sha256": "0aede7a32154a35652d9b7f3c9df54cf4a9bbddb9c6ea25aa096a9e8d88bedad",
+    "decision": "rejected",
+    "notes": "Espécime de mariposa Cautethia exuma em fundo neutro; falso match taxonômico, não representa Exuma/Bahamas como destino."
+  },
+  {
+    "bundle": "regional-assuncao-visitor-documents-simple-2026-11-03",
+    "key": "assuncao/essential-docs",
+    "title": "File:Brazil passport data page.jpg",
+    "sha256": "7869a50580099fc5c40eb398f93135a940171135d3c1c9e400406b147c756c7c",
+    "decision": "rejected",
+    "notes": "Página de dados de passaporte com validade encerrada em 2015; não representa documento atual para orientar a viagem."
+  },
+  {
+    "bundle": "regional-bahamas-visitor-documents-simple-2026-11-03",
+    "key": "bahamas/essential-docs",
+    "title": "File:Brazil, Iceland, UK, US passport stamps.jpg",
+    "sha256": "cae31d5a5787697aa3604e5e54482a25df4ede65d44ae590bb0eb17c9e02173c",
+    "decision": "rejected",
+    "notes": "Página com vistos e carimbos de vários países, incluindo visto brasileiro para estrangeiro; não mostra documento correto do visitante brasileiro às Bahamas."
+  },
+  {
+    "bundle": "regional-bogota-visitor-documents-simple-2026-11-03",
+    "key": "bogota/essential-docs",
+    "title": "File:Brazilian passport requirements.png",
+    "sha256": "174d918ac1884a1dde640f235ae8d9da62d18f1eeb7539c7abe76bb2467a9709",
+    "decision": "rejected",
+    "notes": "Mapa de requisitos de passaporte/visas; mapa-como-foto proibido e não é fotografia de documento."
+  },
+  {
+    "bundle": "regional-cidade-do-panama-visitor-documents-simple-2026-11-03",
+    "key": "cidade-do-panama/essential-docs",
+    "title": "File:Swiss passport, model Pass 03, inside.jpg",
+    "sha256": "ec83035f70d5a129d6573ec2e3ccc6d41684e5a0b73f0b4521079a1adc39ae31",
+    "decision": "rejected",
+    "notes": "Interior de passaporte suíço; documento de país errado para o visitante brasileiro."
+  },
+  {
+    "bundle": "regional-havai-visitor-documents-simple-2026-11-03",
+    "key": "havai/essential-docs",
+    "title": "File:ArgentinaCroatiaGermanySloveniapassportstamps.jpg",
+    "sha256": "d979dae64aa5cadceef1034941a0939be60154046a6744a10d05a597dcda8a75",
+    "decision": "rejected",
+    "notes": "Página de carimbos de outros países, sem passaporte brasileiro atual identificável; não representa documentação para Havaí/EUA."
+  },
+  {
+    "bundle": "regional-las-vegas-visitor-documents-simple-2026-11-03",
+    "key": "las-vegas/essential-docs",
+    "title": "File:Portugal Visto-2017 001.jpg",
+    "sha256": "ed8b00f886594125b6749a1eaca1a8b10bd71d94bbd023c7191f839b79b4acfe",
+    "decision": "rejected",
+    "notes": "Visto português de residência, não documentação de viagem do brasileiro aos EUA; tema e país de destino errados."
+  },
+  {
+    "bundle": "regional-lima-visitor-documents-simple-2026-11-03",
+    "key": "lima/essential-docs",
+    "title": "File:Fotos produzidas pelo Senado (39787884074).jpg",
+    "sha256": "df885f3274ba7705d4401d3674e801efe2caf6296fab8e25f75efb44a8d1941c",
+    "decision": "rejected",
+    "notes": "Foto mistura modelos antigos, incluindo passaporte verde, sem modelo brasileiro atual identificável; manter gap em vez de orientar com documento antigo."
+  },
+  {
+    "bundle": "regional-los-angeles-visitor-documents-simple-2026-11-03",
+    "key": "los-angeles/essential-docs",
+    "title": "File:Brazil visa and stamps.png",
+    "sha256": "00713c7a9ed4d085f53e3a466886c3eb045902ccf683f64cad8af471e2636587",
+    "decision": "rejected",
+    "notes": "Visto brasileiro e carimbos em documento de estrangeiro entrando no Brasil; não representa documentação do brasileiro viajando aos EUA."
+  },
+  {
+    "bundle": "regional-medellin-visitor-documents-simple-2026-11-03",
+    "key": "medellin/essential-docs",
+    "title": "File:BrazilianPassportVisaFree.png",
+    "sha256": "0f8a3a599d71d89e8f7c6399d6eefcd08330eaf37b6e7557deffc9c8c4f4dea9",
+    "decision": "rejected",
+    "notes": "Mapa de isenção de vistos do passaporte brasileiro; não é foto de documento e a informação pode estar desatualizada."
+  },
+  {
+    "bundle": "regional-montevideo-visitor-documents-simple-2026-11-03",
+    "key": "montevideo/essential-docs",
+    "title": "File:Brazil Entry Stamp Hensley.png",
+    "sha256": "186a37a18289919e4e0a216d71b87988af58a1b628e0a0300c9312d246c9b854",
+    "decision": "rejected",
+    "notes": "Carimbo de entrada no Brasil em passaporte estrangeiro; contexto de viagem inverso ao do visitante brasileiro no Uruguai."
+  },
+  {
+    "bundle": "regional-montreal-visitor-documents-simple-2026-11-03",
+    "key": "montreal/essential-docs",
+    "title": "File:Brazil Exit Stamp Hensley.png",
+    "sha256": "97729a0c84dbafb874f99d328195f4eea06a6c4e52d783fa0c92def5a17b3d53",
+    "decision": "rejected",
+    "notes": "Carimbo de saída do Brasil em documento estrangeiro; não representa passaporte/documentação correta do brasileiro para o Canadá."
+  },
+  {
+    "bundle": "regional-orlando-visitor-documents-simple-2026-11-03",
+    "key": "orlando/essential-docs",
+    "title": "File:Entry stamp to Brazil (26139121927).jpg",
+    "sha256": "c7186d6738e72fc354a46e34fd12ac8d70772ca7a0c55fc7a99547879cba1e21",
+    "decision": "rejected",
+    "notes": "Carimbos de entrada no Brasil, sem documento brasileiro atual; contexto de viagem inverso ao do guia para EUA."
+  },
+  {
+    "bundle": "regional-porto-rico-visitor-documents-simple-2026-11-03",
+    "key": "porto-rico/essential-docs",
+    "title": "File:Passaporte português de 1927.jpg",
+    "sha256": "3e75b3340c8b5b2cbacedb6624dbe3699e4f75f9f1621338de597ff0cf91a863",
+    "decision": "rejected",
+    "notes": "Passaporte português de 1927; documento de país errado e histórico pré-1990 sem override."
+  },
+  {
+    "bundle": "regional-punta-cana-visitor-documents-simple-2026-11-03",
+    "key": "punta-cana/essential-docs",
+    "title": "File:Olympics Stamp.jpg",
+    "sha256": "7e522a14d5e3cf371c6cfa5edd298a8f895e997fd3867ba7bbf6484b3980de66",
+    "decision": "rejected",
+    "notes": "Carimbo dos Jogos Olímpicos Rio 2016 em passaporte colombiano; documento e destino errados para o guia."
+  },
+  {
+    "bundle": "regional-quito-visitor-documents-simple-2026-11-03",
+    "key": "quito/essential-docs",
+    "title": "File:Bangladesh Ambassador Sadia Faizunnesa Keynote Address E-Passport Program Inauguration Bangladesh Embassy Brasilia Brazil 2025-01-15 (PID-0004094).jpg",
+    "sha256": "53a756cbc4cdc604cd9ccab1184b1c47cfdc30599ce61220903ea8829c6aa233",
+    "decision": "rejected",
+    "notes": "Retrato de embaixadora de Bangladesh em cerimônia; não é fotografia do documento do visitante brasileiro."
+  },
+  {
+    "bundle": "regional-san-andres-visitor-documents-simple-2026-11-03",
+    "key": "san-andres/essential-docs",
+    "title": "File:BRAX HENSLEY.JPG",
+    "sha256": "09672269f2db60e9a07a9d53eccbb6b8debaa420f470dcac94446b9dfc87bada",
+    "decision": "rejected",
+    "notes": "Close de carimbo de saída do Brasil em passaporte estrangeiro; não representa documento correto do visitante brasileiro."
+  },
+  {
+    "bundle": "regional-toronto-visitor-documents-simple-2026-11-03",
+    "key": "toronto/essential-docs",
+    "title": "File:BRAE HENSLEY.JPG",
+    "sha256": "f2ff86814e4c403d4ace1ebe5de512bdbcb0828a5d28e86793e0cb79cd1f04ed",
+    "decision": "rejected",
+    "notes": "Carimbo de entrada no Brasil em passaporte estrangeiro; não representa documentação do brasileiro para o Canadá."
+  },
+  {
+    "bundle": "regional-vancouver-visitor-documents-simple-2026-11-03",
+    "key": "vancouver/essential-docs",
+    "title": "File:Out of Pages - Flickr - Dennis S. Hurd.jpg",
+    "sha256": "cf8fab1fdde8f77c892bbdf553c3de4e0ef0fabde097b942e8b6f721e7e68eca",
+    "decision": "rejected",
+    "notes": "Passaporte neozelandês com páginas carimbadas; documento de país errado para o visitante brasileiro."
   }
 ]

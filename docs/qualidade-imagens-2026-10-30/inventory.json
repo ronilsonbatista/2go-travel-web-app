@@ -4,10 +4,10 @@
     "cities": 107,
     "flagCounts": {
       "prominent-below-1600": 10,
-      "placeholder": 4158,
-      "not-visually-accepted": 4167
+      "placeholder": 4144,
+      "not-visually-accepted": 4153
     },
-    "placeholderCities": 85,
+    "placeholderCities": 84,
     "note": "Existing accepted values are inherited, not a new visual review. EXIF cannot detect baked-in upside-down photos."
   },
   "slots": [
@@ -15525,16 +15525,13 @@
       "topic": "Assunção",
       "src": "/images/destinations/assuncao/curated-intro.jpg",
       "key": "assuncao/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7bfe9b48277d6b80551dcf76eb5051c94231a786ab2dd3bf2cea738c3074dc84",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_Asuncion_091118.jpg",
+      "title": "File:Downtown Asuncion 091118.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0a0aab328f3c0cd185ebd35971d4db4abe9df7d7aba445d31f7fc8f92e842e75",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -15558,16 +15555,13 @@
       "topic": "Assunção",
       "src": "/images/destinations/assuncao/curated-guide-card.jpg",
       "key": "assuncao/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "cadd3f746f36e814d13f2ab4085ba1474c1cc842ac14f69dd7503be417932e4c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_Lopez_from_above.jpg",
+      "title": "File:Palacio de Lopez from above.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e52a781000e13ec96814e287d544f3471e57ee2da17d31136ce05012ce76dc13",
+      "width": 1985,
+      "height": 1217,
       "exifOrientation": 1
     },
     {
@@ -15591,16 +15585,13 @@
       "topic": "Assunção",
       "src": "/images/destinations/assuncao/curated-home-slide.jpg",
       "key": "assuncao/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e9c36d9e03b8bf01b7197e34802da184fa3709e1dc6cac569bb6ba600b837d71",
+      "source": "https://commons.wikimedia.org/wiki/File:Panteon_Nocturno.JPG",
+      "title": "File:Panteon Nocturno.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c121cdcfb6a2077c2896431a2955b3b012f5f817f15bee6cc1bbfbb956d5debe",
       "width": 1600,
-      "height": 900,
+      "height": 1200,
       "exifOrientation": 1
     },
     {
@@ -28374,16 +28365,13 @@
       "topic": "Havana",
       "src": "/images/destinations/havana/curated-guide-card.jpg",
       "key": "havana/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "638724f8b357e4db593167158f42e5061bcefeb0993c6ee1a63990427cce7bd4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Nov2023._Dawn_at_the_Malec%C3%B3n%2C_Havana%2C_Cuba_02.jpg",
+      "title": "File:Nov2023. Dawn at the Malecón, Havana, Cuba 02.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "faa62faf9519a796bea5b352b6dc2e7b86f07f2faeb50be2a78ef3e60371fcd4",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -28392,16 +28380,13 @@
       "topic": "Havana",
       "src": "/images/destinations/havana/curated-guide-highlight.jpg",
       "key": "havana/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "8482aded8dd8b709d73248479bdffcd0e4e0ea6c7babfc23eb5639fcde02d4b3",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:EL_MORRO_HABANA_EMILITO_-_panoramio.jpg",
+      "title": "File:EL MORRO HABANA EMILITO - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ae53b2680e207f9894d73a3a126a59e196939a4de96ac84a888478aa638d0479",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -28410,16 +28395,13 @@
       "topic": "Havana",
       "src": "/images/destinations/havana/curated-home-slide.jpg",
       "key": "havana/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "95fb4045f7caa07dcae7af7617c3e0acf138ca7073d510e43496480449ae3cfc",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Plaza_Vieja_in_Havana.jpg",
+      "title": "File:Plaza Vieja in Havana.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "72bc852b91809c69c15953ea9c0d80ece6a888be1caa3309358f17d35849abef",
+      "width": 2400,
+      "height": 1351,
       "exifOrientation": 1
     },
     {
@@ -28428,16 +28410,13 @@
       "topic": "Havana: miniatura da home",
       "src": "/images/destinations/havana/curated-home-thumb.jpg",
       "key": "havana/home-thumb",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/home-thumb",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "31b94cc179288512aba7668873b3919da6253bcebd7854b3f437007dd0a8c72e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Havana_Skyline_%2849020779491%29.jpg",
+      "title": "File:Havana Skyline (49020779491).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6613cec92472dce4602d5f73c1f677ce8c438ec2fe62362b7c131187713f6fc0",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -29343,16 +29322,13 @@
       "topic": "Cidade do México",
       "src": "/images/destinations/cidade-do-mexico/curated-home.jpg",
       "key": "cidade-do-mexico/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "50079fc056a4cc5d5c8dd5c8da4eaee5f4f10264c83dcd172ba21eeab5aac5f0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_Bellas_Artes%2C_CDMX.jpg",
+      "title": "File:Palacio de Bellas Artes, CDMX.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "24cca86488c0fc49f950ba240e9b0c24484815c5d63a759af085a523ed6c40b5",
+      "width": 2400,
+      "height": 1840,
       "exifOrientation": 1
     },
     {
@@ -29361,16 +29337,13 @@
       "topic": "Cidade do México",
       "src": "/images/destinations/cidade-do-mexico/curated-guide-card.jpg",
       "key": "cidade-do-mexico/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "8304a0359dffd500e2de5658d7bc58aa594a326d00fa55f1ec7a2915957f6586",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Constituci%C3%B3n_-_Z%C3%B3calo_de_la_Ciudad_de_M%C3%A9xico_-_6.jpg",
+      "title": "File:Plaza de la Constitución - Zócalo de la Ciudad de México - 6.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a7746d2810a41f1a9733324e1e5a68acdc17859902b8aaeb7545d8bde9c4786a",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -29379,16 +29352,13 @@
       "topic": "Cidade do México",
       "src": "/images/destinations/cidade-do-mexico/curated-guide-highlight.jpg",
       "key": "cidade-do-mexico/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "46371ac269a7490ebf4793fd8b1d8cedefa8ba66e604f670afff7e4296f15cd8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Angel_de_la_independencia170409.jpg",
+      "title": "File:Angel de la independencia170409.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "42f1cdb262d698c284794c58a7b2811d0046d4b35b10e31e169e8d3d576c870a",
+      "width": 2400,
+      "height": 1634,
       "exifOrientation": 1
     },
     {
@@ -29397,16 +29367,13 @@
       "topic": "Cidade do México",
       "src": "/images/destinations/cidade-do-mexico/curated-home-slide.jpg",
       "key": "cidade-do-mexico/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4bf50b5e3c65959acb119bc9fd50786add4fc91bcff9dfe4b7d6a01e12609646",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Trajinera_de_Xochimilco_-_Ciudad_de_M%C3%A9xico.jpg",
+      "title": "File:Trajinera de Xochimilco - Ciudad de México.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1d76942c61c8584ee180a2277678be6ac345a60336358654faedd1ec4220a523",
+      "width": 2400,
+      "height": 1758,
       "exifOrientation": 1
     },
     {
@@ -29415,16 +29382,13 @@
       "topic": "Cidade do México: miniatura da home",
       "src": "/images/destinations/cidade-do-mexico/curated-home-thumb.jpg",
       "key": "cidade-do-mexico/home-thumb",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/home-thumb",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "79ecf8656bbef29a3b7fb7f2aff6b9865c249b0c061219550942763a43607bc8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_del_Castillo_de_Chapultepec_7.jpg",
+      "title": "File:Vista aérea del Castillo de Chapultepec 7.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "138cd665ac680933db8a534d1156e1c4495a4e9331147b04b9cdbfa58b18e9b5",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -33468,16 +33432,13 @@
       "topic": "Dicas importantes",
       "src": "/images/destinations/chicago/curated-tips.jpg",
       "key": "chicago/tips",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/tips",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7710b1b098958673fc3979fdadf7bd442491031055d8597baea8a1649cfe49e7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:%27River_Theater%27_segment_of_Chicago_Riverwalk_in_May_2016_%28A%29.jpg",
+      "title": "File:'River Theater' segment of Chicago Riverwalk in May 2016 (A).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8ec9351450c44dff91a4eb50dfb0a8c476396ca9743289cf4c43020705572cb5",
+      "width": 2400,
+      "height": 1094,
       "exifOrientation": 1
     },
     {
@@ -34206,16 +34167,13 @@
       "topic": "Hotel em West Side",
       "src": "/images/destinations/chicago/curated-hotel-3.jpg",
       "key": "chicago/hotel-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/hotel-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "37cf56759b3f6f477857ddb2847de001c03a6e89f7ea170532715d2ef87b9c91",
+      "source": "https://commons.wikimedia.org/wiki/File:Garfield_Park_Conservatory_Structure.jpg",
+      "title": "File:Garfield Park Conservatory Structure.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "004befeacff44fa614a4ec6e0e9638726632218321dd21c1fa40475fd9f7f8d3",
       "width": 1600,
-      "height": 900,
+      "height": 1200,
       "exifOrientation": 1
     },
     {

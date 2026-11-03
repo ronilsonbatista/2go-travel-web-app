@@ -1,0 +1,83 @@
+{
+  "city": "bahamas",
+  "region": "americas",
+  "center": [
+    24.5,
+    -76.5,
+    600
+  ],
+  "pools": {
+    "home": {
+      "query": "\"Paradise Island\" \"Bahamas\" \"aerial\"",
+      "required": [
+        "paradise|atlantis"
+      ],
+      "requiredTitle": "paradise|atlantis",
+      "locationPatterns": [
+        "bahamas|nassau|exuma"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home"
+      ]
+    },
+    "guide-card": {
+      "query": "\"Cable Beach\" \"Nassau\"",
+      "required": [
+        "cable"
+      ],
+      "requiredTitle": "cable",
+      "locationPatterns": [
+        "bahamas|nassau|exuma"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "guide-card"
+      ]
+    },
+    "guide-highlight": {
+      "query": "\"Exuma\" \"Bahamas\"",
+      "required": [
+        "exuma"
+      ],
+      "requiredTitle": "exuma",
+      "locationPatterns": [
+        "bahamas|nassau|exuma"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "guide-highlight"
+      ]
+    },
+    "home-thumb": {
+      "query": "\"Queen Staircase\" \"Nassau\"",
+      "required": [
+        "queen"
+      ],
+      "requiredTitle": "queen",
+      "locationPatterns": [
+        "bahamas|nassau|exuma"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home-thumb"
+      ]
+    }
+  }
+}

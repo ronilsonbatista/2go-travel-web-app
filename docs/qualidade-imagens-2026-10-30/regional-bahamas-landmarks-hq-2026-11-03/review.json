@@ -1,0 +1,139 @@
+[
+  {
+    "key": "bahamas/home",
+    "slot": "home",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "home"
+  },
+  {
+    "key": "bahamas/guide-card",
+    "slot": "guide-card",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "guide-card"
+  },
+  {
+    "key": "bahamas/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Bahamas",
+    "path": "/images/destinations/bahamas/curated-guide-highlight.jpg",
+    "pool": "guide-highlight",
+    "status": "pending-visual-review",
+    "title": "File:Cautethia exuma BMNHE273056 male un.jpg",
+    "imageinfo": {
+      "size": 135025,
+      "width": 1600,
+      "height": 1200,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Cautethia_exuma_BMNHE273056_male_un.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Cautethia_exuma_BMNHE273056_male_un.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Cautethia_exuma_BMNHE273056_male_un.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cautethia_exuma_BMNHE273056_male_un.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62314479",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-09-09 22:36:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cautethia exuma BMNHE273056 male un",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Cautethia exuma|Files from external sources with reviewed licenses|Unknown date|Images from sphingidae.myspecies.info|Cautethia specimens",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cautethia exuma, male, underside. Bahamas, Great Exuma, Simons",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Unknown date",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://sphingidae.myspecies.info/file-colorboxed/1964\">http://sphingidae.myspecies.info/file-colorboxed/1964</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "The Trustees of the Natural History Museum, London",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "This file, which was originally posted to\n<a rel=\"nofollow\" class=\"external free\" href=\"http://sphingidae.myspecies.info/file-colorboxed/1964\">http://sphingidae.myspecies.info/file-colorboxed/1964</a>, was reviewed on 7 October 2017 by <a href=\"//commons.wikimedia.org/wiki/Commons:License_review#Reviewers\" title=\"Commons:License review\">reviewer</a> <b><a href=\"//commons.wikimedia.org/wiki/User:Lymantria\" title=\"User:Lymantria\">Lymantria</a></b>, who confirmed that it was available there under the stated license on that date.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/bahamas/guide-highlight.jpg",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Cautethia_exuma_BMNHE273056_male_un.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "0aede7a32154a35652d9b7f3c9df54cf4a9bbddb9c6ea25aa096a9e8d88bedad"
+  },
+  {
+    "key": "bahamas/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Bahamas: miniatura da home",
+    "status": "no-candidate",
+    "pool": "home-thumb"
+  }
+]

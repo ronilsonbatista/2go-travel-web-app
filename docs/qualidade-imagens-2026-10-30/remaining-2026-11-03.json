@@ -350,6 +350,13 @@
         "title": "File:ColombianPassport.jpg",
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-san-andres-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:BRAX HENSLEY.JPG",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -362,6 +369,11 @@
         "bundle": "regional-san-andres-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Passaporte colombiano; documento do país de destino, errado para orientar documentação do visitante brasileiro."
+      },
+      {
+        "bundle": "regional-san-andres-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Close de carimbo de saída do Brasil em passaporte estrangeiro; não representa documento correto do visitante brasileiro."
       }
     ]
   },
@@ -1521,6 +1533,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-lima-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Fotos produzidas pelo Senado (39787884074).jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -1528,6 +1547,11 @@
         "bundle": "regional-lima-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-lima-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Foto mistura modelos antigos, incluindo passaporte verde, sem modelo brasileiro atual identificável; manter gap em vez de orientar com documento antigo."
       }
     ]
   },
@@ -1871,6 +1895,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-montevideo-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Brazil Entry Stamp Hensley.png",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -1878,6 +1909,11 @@
         "bundle": "regional-montevideo-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-montevideo-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Carimbo de entrada no Brasil em passaporte estrangeiro; contexto de viagem inverso ao do visitante brasileiro no Uruguai."
       }
     ]
   },
@@ -2052,182 +2088,6 @@
     ]
   },
   {
-    "key": "assuncao/intro",
-    "city": "assuncao",
-    "slot": "intro",
-    "topic": "Assunção",
-    "path": "/images/destinations/assuncao/curated-intro.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Catedral, Asuncion, Paraguay - panoramio (12).jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-resume-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "cathedral",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Downtown Asuncion 091057.jpg",
-        "pool": "highlight-intro",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Fachadas comerciais cortadas e asfalto dominam a composição; contexto turístico insuficiente para introdução."
-      },
-      {
-        "bundle": "regional-assuncao-resume-2026-11-03",
-        "decision": "pending",
-        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Panorama urbano subexposto e pouco nítido sob nuvens; qualidade insuficiente para introdução HQ."
-      }
-    ]
-  },
-  {
-    "key": "assuncao/guide-card",
-    "city": "assuncao",
-    "slot": "guide-card",
-    "topic": "Assunção",
-    "path": "/images/destinations/assuncao/curated-guide-card.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Catedral, Asuncion, Paraguay - panoramio (129).jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-resume-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "cathedral",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-guide-card",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Letreiro de loja e muro em close; não representa Assunção em destaque HQ."
-      },
-      {
-        "bundle": "regional-assuncao-resume-2026-11-03",
-        "decision": "pending",
-        "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
-      }
-    ]
-  },
-  {
-    "key": "assuncao/home-slide",
-    "city": "assuncao",
-    "slot": "home-slide",
-    "topic": "Assunção",
-    "path": "/images/destinations/assuncao/curated-home-slide.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Catedral, Asuncion, Paraguay - panoramio (104).jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-resume-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Nuestra Señora Santa María de la Asunción (8039925134).jpg",
-        "pool": "panteon",
-        "error": null
-      },
-      {
-        "bundle": "regional-assuncao-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-slide",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-assuncao-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Esquina comum com pouco contexto do destino; composição insuficiente para carrossel HQ."
-      },
-      {
-        "bundle": "regional-assuncao-resume-2026-11-03",
-        "decision": "rejected",
-        "notes": "Estatua religiosa em interior, sem paisagem reconhecivel do destino para o carrossel."
-      }
-    ]
-  },
-  {
     "key": "assuncao/home-thumb",
     "city": "assuncao",
     "slot": "home-thumb",
@@ -2254,6 +2114,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "highlights",
+        "error": null
+      },
+      {
+        "bundle": "regional-assuncao-landmarks-hq-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "home-thumb",
         "error": null
       },
       {
@@ -2364,6 +2231,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-assuncao-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Brazil passport data page.jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -2371,6 +2245,11 @@
         "bundle": "regional-assuncao-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-assuncao-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Página de dados de passaporte com validade encerrada em 2015; não representa documento atual para orientar a viagem."
       }
     ]
   },
@@ -3363,6 +3242,13 @@
         "title": "File:Pasaporte Colombia 1989-empty pages.JPG",
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-bogota-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Brazilian passport requirements.png",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -3375,6 +3261,11 @@
         "bundle": "regional-bogota-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Páginas vazias de passaporte colombiano de 1989; documento e país errados para orientar o visitante brasileiro."
+      },
+      {
+        "bundle": "regional-bogota-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Mapa de requisitos de passaporte/visas; mapa-como-foto proibido e não é fotografia de documento."
       }
     ]
   },
@@ -3752,6 +3643,13 @@
         "title": "File:Pasaporte Colombia 1989-main.JPG",
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-medellin-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:BrazilianPassportVisaFree.png",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -3764,6 +3662,11 @@
         "bundle": "regional-medellin-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Passaporte colombiano de 1989; país e documento errados para o visitante brasileiro, além de antigo."
+      },
+      {
+        "bundle": "regional-medellin-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Mapa de isenção de vistos do passaporte brasileiro; não é foto de documento e a informação pode estar desatualizada."
       }
     ]
   },
@@ -4307,6 +4210,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-quito-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Bangladesh Ambassador Sadia Faizunnesa Keynote Address E-Passport Program Inauguration Bangladesh Embassy Brasilia Brazil 2025-01-15 (PID-0004094).jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -4314,6 +4224,11 @@
         "bundle": "regional-quito-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-quito-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Retrato de embaixadora de Bangladesh em cerimônia; não é fotografia do documento do visitante brasileiro."
       }
     ]
   },
@@ -5262,6 +5177,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-orlando-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Entry stamp to Brazil (26139121927).jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -5269,6 +5191,11 @@
         "bundle": "regional-orlando-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-orlando-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Carimbos de entrada no Brasil, sem documento brasileiro atual; contexto de viagem inverso ao do guia para EUA."
       }
     ]
   },
@@ -5541,6 +5468,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-punta-cana-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Olympics Stamp.jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -5553,6 +5487,11 @@
         "bundle": "regional-punta-cana-support-v1",
         "decision": "rejected",
         "notes": "Capa de passaporte escura e pouco legivel; buscar documento atual com melhor qualidade."
+      },
+      {
+        "bundle": "regional-punta-cana-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Carimbo dos Jogos Olímpicos Rio 2016 em passaporte colombiano; documento e destino errados para o guia."
       }
     ]
   },
@@ -6251,6 +6190,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-los-angeles-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Brazil visa and stamps.png",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -6258,6 +6204,11 @@
         "bundle": "regional-los-angeles-support-v1",
         "decision": "rejected",
         "notes": "Visto chines em passaporte de turista americano, documento do destino errado para Los Angeles."
+      },
+      {
+        "bundle": "regional-los-angeles-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Visto brasileiro e carimbos em documento de estrangeiro entrando no Brasil; não representa documentação do brasileiro viajando aos EUA."
       }
     ]
   },
@@ -6456,6 +6407,13 @@
         "title": "File:Canada Visa Free.png",
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-vancouver-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Out of Pages - Flickr - Dennis S. Hurd.jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -6468,6 +6426,11 @@
         "bundle": "regional-vancouver-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Mapa de isenção de vistos do Canadá; mapa-como-foto proibido e não é documento do visitante brasileiro."
+      },
+      {
+        "bundle": "regional-vancouver-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Passaporte neozelandês com páginas carimbadas; documento de país errado para o visitante brasileiro."
       }
     ]
   },
@@ -6870,6 +6833,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-toronto-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:BRAE HENSLEY.JPG",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -6877,6 +6847,11 @@
         "bundle": "regional-toronto-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-toronto-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Carimbo de entrada no Brasil em passaporte estrangeiro; não representa documentação do brasileiro para o Canadá."
       }
     ]
   },
@@ -6960,6 +6935,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-montreal-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Brazil Exit Stamp Hensley.png",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -6967,6 +6949,11 @@
         "bundle": "regional-montreal-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-montreal-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Carimbo de saída do Brasil em documento estrangeiro; não representa passaporte/documentação correta do brasileiro para o Canadá."
       }
     ]
   },
@@ -7340,6 +7327,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-cidade-do-panama-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Swiss passport, model Pass 03, inside.jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -7347,6 +7341,11 @@
         "bundle": "regional-cidade-do-panama-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-cidade-do-panama-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Interior de passaporte suíço; documento de país errado para o visitante brasileiro."
       }
     ]
   },
@@ -7765,6 +7764,13 @@
         "error": null
       },
       {
+        "bundle": "regional-havana-landmarks-hq-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Old Buick car near Capitol building in Havanna Cuba.jpg",
+        "pool": "home",
+        "error": null
+      },
+      {
         "bundle": "regional-havana-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -7777,186 +7783,11 @@
         "bundle": "regional-havana-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
-      }
-    ]
-  },
-  {
-    "key": "havana/guide-card",
-    "city": "havana",
-    "slot": "guide-card",
-    "topic": "Havana",
-    "path": "/images/destinations/havana/curated-guide-card.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havana-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
       },
       {
-        "bundle": "regional-havana-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-guide-card",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havana-highlights",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizável; nova busca necessária."
-      }
-    ]
-  },
-  {
-    "key": "havana/guide-highlight",
-    "city": "havana",
-    "slot": "guide-highlight",
-    "topic": "Havana",
-    "path": "/images/destinations/havana/curated-guide-highlight.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havana-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-guide-highlight",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havana-highlights",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizável; nova busca necessária."
-      }
-    ]
-  },
-  {
-    "key": "havana/home-slide",
-    "city": "havana",
-    "slot": "home-slide",
-    "topic": "Havana",
-    "path": "/images/destinations/havana/curated-home-slide.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havana-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-slide",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havana-highlights",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizável; nova busca necessária."
-      }
-    ]
-  },
-  {
-    "key": "havana/home-thumb",
-    "city": "havana",
-    "slot": "home-thumb",
-    "topic": "Havana: miniatura da home",
-    "path": "/images/destinations/havana/curated-home-thumb.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havana-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-thumb",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havana-highlights",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizável; nova busca necessária."
+        "bundle": "regional-havana-landmarks-hq-2026-11-03",
+        "decision": "rejected",
+        "notes": "Movimento deixa o Capitólio e a maior parte do carro borrados; composição insuficiente para destaque HQ da home."
       }
     ]
   },
@@ -8159,212 +7990,6 @@
         "notes": "Close de armário dentro de quarto; não representa o bairro Vedado."
       }
     ]
-  },
-  {
-    "key": "cidade-do-mexico/home",
-    "city": "cidade-do-mexico",
-    "slot": "home",
-    "topic": "Cidade do México",
-    "path": "/images/destinations/cidade-do-mexico/curated-home.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-cidade-do-mexico-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Eje8Sur202104.jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:CDMX Pride 2019 09.jpg",
-        "pool": "highlight-home",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-cidade-do-mexico-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Avenida vazia com pouco marco turístico; composição insuficiente para destaque da home."
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Multidão e participantes de evento Pride dominam a foto; pouco destino visível para destaque da home."
-      }
-    ]
-  },
-  {
-    "key": "cidade-do-mexico/guide-card",
-    "city": "cidade-do-mexico",
-    "slot": "guide-card",
-    "topic": "Cidade do México",
-    "path": "/images/destinations/cidade-do-mexico/curated-guide-card.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-cidade-do-mexico-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-guide-card",
-        "error": null
-      }
-    ],
-    "decisions": []
-  },
-  {
-    "key": "cidade-do-mexico/guide-highlight",
-    "city": "cidade-do-mexico",
-    "slot": "guide-highlight",
-    "topic": "Cidade do México",
-    "path": "/images/destinations/cidade-do-mexico/curated-guide-highlight.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-cidade-do-mexico-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-guide-highlight",
-        "error": null
-      }
-    ],
-    "decisions": []
-  },
-  {
-    "key": "cidade-do-mexico/home-slide",
-    "city": "cidade-do-mexico",
-    "slot": "home-slide",
-    "topic": "Cidade do México",
-    "path": "/images/destinations/cidade-do-mexico/curated-home-slide.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-cidade-do-mexico-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-slide",
-        "error": null
-      }
-    ],
-    "decisions": []
-  },
-  {
-    "key": "cidade-do-mexico/home-thumb",
-    "city": "cidade-do-mexico",
-    "slot": "home-thumb",
-    "topic": "Cidade do México: miniatura da home",
-    "path": "/images/destinations/cidade-do-mexico/curated-home-thumb.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-cidade-do-mexico-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-cidade-do-mexico-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-thumb",
-        "error": null
-      }
-    ],
-    "decisions": []
   },
   {
     "key": "cidade-do-mexico/essential-moeda",
@@ -8626,6 +8251,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-porto-rico-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Passaporte português de 1927.jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -8633,6 +8265,11 @@
         "bundle": "regional-porto-rico-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-porto-rico-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Passaporte português de 1927; documento de país errado e histórico pré-1990 sem override."
       }
     ]
   },
@@ -8914,6 +8551,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-havai-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:ArgentinaCroatiaGermanySloveniapassportstamps.jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -8921,6 +8565,11 @@
         "bundle": "regional-havai-support-v1",
         "decision": "rejected",
         "notes": "Capa de passaporte de 1918, documento historico inadequado para viagem atual."
+      },
+      {
+        "bundle": "regional-havai-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Página de carimbos de outros países, sem passaporte brasileiro atual identificável; não representa documentação para Havaí/EUA."
       }
     ]
   },
@@ -9239,6 +8888,13 @@
         "error": null
       },
       {
+        "bundle": "regional-bahamas-landmarks-hq-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "home",
+        "error": null
+      },
+      {
         "bundle": "regional-bahamas-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -9286,6 +8942,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "highlights",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-landmarks-hq-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "guide-card",
         "error": null
       },
       {
@@ -9344,6 +9007,13 @@
         "error": null
       },
       {
+        "bundle": "regional-bahamas-landmarks-hq-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Cautethia exuma BMNHE273056 male un.jpg",
+        "pool": "guide-highlight",
+        "error": null
+      },
+      {
         "bundle": "regional-bahamas-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -9361,6 +9031,11 @@
         "bundle": "regional-bahamas-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
+      },
+      {
+        "bundle": "regional-bahamas-landmarks-hq-2026-11-03",
+        "decision": "rejected",
+        "notes": "Espécime de mariposa Cautethia exuma em fundo neutro; falso match taxonômico, não representa Exuma/Bahamas como destino."
       }
     ]
   },
@@ -9391,6 +9066,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "highlights",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-landmarks-hq-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "home-thumb",
         "error": null
       },
       {
@@ -9539,6 +9221,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-bahamas-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Brazil, Iceland, UK, US passport stamps.jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -9546,6 +9235,11 @@
         "bundle": "regional-bahamas-support-v1",
         "decision": "pending",
         "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+      },
+      {
+        "bundle": "regional-bahamas-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Página com vistos e carimbos de vários países, incluindo visto brasileiro para estrangeiro; não mostra documento correto do visitante brasileiro às Bahamas."
       }
     ]
   },
@@ -10135,120 +9829,6 @@
     ]
   },
   {
-    "key": "chicago/tips",
-    "city": "chicago",
-    "slot": "tips",
-    "topic": "Dicas importantes",
-    "path": "/images/destinations/chicago/curated-tips.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-chicago-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-icon",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-icon",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-resume-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Boys On Prom Night - 8688184767.jpg",
-        "pool": "cloud",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-support-v1",
-        "status": "pending-visual-review",
-        "title": "File:Chicago (9694666470) (2).jpg",
-        "pool": "icon",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-icon",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-chicago-resume-2026-11-03",
-        "decision": "rejected",
-        "notes": "Retratos de formandos e pessoas em primeiro plano, sem paisagem de destino adequada."
-      },
-      {
-        "bundle": "regional-chicago-support-v1",
-        "decision": "rejected",
-        "notes": "Variante da foto Flickr 9694666470 ja usada em Cloud Gate; repeticao do mesmo original."
-      }
-    ]
-  },
-  {
-    "key": "chicago/hotel-3",
-    "city": "chicago",
-    "slot": "hotel-3",
-    "topic": "Hotel em West Side",
-    "path": "/images/destinations/chicago/curated-hotel-3.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-chicago-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-regions-hotels",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "region-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-resume-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Crumbl Cookie Shop At Wicker Park, Chicago, IL.jpg",
-        "pool": "west",
-        "error": null
-      },
-      {
-        "bundle": "regional-chicago-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-3",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-chicago-regions-hotels",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
-      },
-      {
-        "bundle": "regional-chicago-resume-2026-11-03",
-        "decision": "rejected",
-        "notes": "Marca de loja de biscoitos domina a foto, com pouco contexto do bairro para hospedagem ilustrativa."
-      }
-    ]
-  },
-  {
     "key": "las-vegas/home-slide",
     "city": "las-vegas",
     "slot": "home-slide",
@@ -10333,6 +9913,13 @@
         "title": null,
         "pool": "support-documents",
         "error": null
+      },
+      {
+        "bundle": "regional-las-vegas-visitor-documents-simple-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Portugal Visto-2017 001.jpg",
+        "pool": "documents",
+        "error": null
       }
     ],
     "decisions": [
@@ -10340,6 +9927,11 @@
         "bundle": "regional-las-vegas-support-v1",
         "decision": "rejected",
         "notes": "Passaporte honorario historico de Winston Churchill, inadequado como documentacao atual."
+      },
+      {
+        "bundle": "regional-las-vegas-visitor-documents-simple-2026-11-03",
+        "decision": "rejected",
+        "notes": "Visto português de residência, não documentação de viagem do brasileiro aos EUA; tema e país de destino errados."
       }
     ]
   },

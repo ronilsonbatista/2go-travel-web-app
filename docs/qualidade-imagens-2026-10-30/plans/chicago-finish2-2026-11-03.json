@@ -1,0 +1,45 @@
+{
+  "city": "chicago",
+  "region": "americas",
+  "center": [
+    41.8781,
+    -87.6298,
+    40
+  ],
+  "pools": {
+    "tips": {
+      "query": "\"Chicago\" \"Riverwalk\"",
+      "required": [
+        "chicago",
+        "riverwalk"
+      ],
+      "requiredTitle": "riverwalk",
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "reject": "portrait|archival|postcard|engraving|painting|render|military|negative|infrared|drawing|construction",
+      "slots": [
+        "tips"
+      ]
+    },
+    "west": {
+      "query": "\"Garfield Park Conservatory\" \"Chicago\" -intitle:marker",
+      "required": [
+        "garfield park",
+        "chicago"
+      ],
+      "requiredTitle": "garfield.*conservatory",
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "reject": "portrait|archival|postcard|engraving|painting|render|military|negative|infrared|drawing|marker|plaque|signboard",
+      "slots": [
+        "hotel-3"
+      ]
+    }
+  }
+}

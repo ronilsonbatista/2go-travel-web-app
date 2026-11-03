@@ -1,0 +1,29 @@
+{
+  "city": "chicago",
+  "region": "americas",
+  "center": [
+    41.8781,
+    -87.6298,
+    40
+  ],
+  "pools": {
+    "tips": {
+      "query": "\"Chicago\" \"Riverwalk\"",
+      "required": [
+        "chicago",
+        "riverwalk"
+      ],
+      "requiredTitle": "riverwalk",
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "reject": "portrait|archival|postcard|engraving|painting|render|military|negative|infrared|drawing|construction|cme center",
+      "slots": [
+        "tips"
+      ],
+      "minRatio": 1.2
+    }
+  }
+}

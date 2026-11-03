@@ -1,0 +1,113 @@
+[
+  {
+    "key": "chicago/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/chicago/curated-tips.jpg",
+    "pool": "tips",
+    "status": "pending-visual-review",
+    "title": "File:'River Theater' segment of Chicago Riverwalk in May 2016 (A).jpg",
+    "imageinfo": {
+      "size": 4809956,
+      "width": 3779,
+      "height": 1723,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/94/%27River_Theater%27_segment_of_Chicago_Riverwalk_in_May_2016_%28A%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1094,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/%27River_Theater%27_segment_of_Chicago_Riverwalk_in_May_2016_%28A%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1094
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/%27River_Theater%27_segment_of_Chicago_Riverwalk_in_May_2016_%28A%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:%27River_Theater%27_segment_of_Chicago_Riverwalk_in_May_2016_(A).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51679271",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-09-23 21:04:36",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "'River Theater' segment of Chicago Riverwalk in May 2016 (A)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Extracted images|May 2016 in Chicago|River Theater (Chicago Riverwalk segment)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/LaSalle-Wacker_Building\" class=\"extiw\" title=\"w:LaSalle-Wacker Building\">LaSalle-Wacker Building</a>, <a href=\"https://en.wikipedia.org/wiki/Chicago\" class=\"extiw\" title=\"w:Chicago\">Chicago</a> in May 2016",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-22 17:20:46",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:MusikAnimal\" title=\"User:MusikAnimal\">MusikAnimal</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/chicago/tips.jpg",
+    "dimensions": [
+      2400,
+      1094
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/%27River_Theater%27_segment_of_Chicago_Riverwalk_in_May_2016_%28A%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "8ec9351450c44dff91a4eb50dfb0a8c476396ca9743289cf4c43020705572cb5"
+  }
+]

@@ -1,4 +1,8 @@
-(node:27643) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/ronilsonbatista/Documents/ChatGPT/AppRoteiros/2go-travel-web-app.nosync/src/data/guidesData.js is not specified and it doesn't parse as CommonJS.
+
+> 2go-travel-next@0.1.0 audit:guide-images
+> node scripts/audit-guide-images.mjs
+
+(node:3742) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/ronilsonbatista/Documents/ChatGPT/AppRoteiros/2go-travel-web-app.nosync/src/data/guidesData.js is not specified and it doesn't parse as CommonJS.
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 To eliminate this warning, add "type": "module" to /Users/ronilsonbatista/Documents/ChatGPT/AppRoteiros/2go-travel-web-app.nosync/package.json.
 (Use `node --trace-warnings ...` to show where the warning was created)
@@ -111,10 +115,10 @@ Istambul: 6 attractions; 60 independent photo slots
 Dubai: 6 attractions; 57 independent photo slots
 
 Scope: hero, home, guide listing/highlight, about, phone, attractions, explore pins/list, regions, hotels, itinerary, neighborhoods/detail, essentials, costs, insights, day trips, map preview.
-6845 curated slots + 9 supplemental editorial photos; 6854 unique paths; 6847 unique local SHA-256 hashes; 2563 distinct curated source photos; 7 unique remote source URLs.
+6845 curated slots + 9 supplemental editorial photos; 6854 unique paths; 6847 unique local SHA-256 hashes; 2577 distinct curated source photos; 7 unique remote source URLs.
 SEO metadata and the same position across responsive/interaction states are not separate editorial positions.
 
-Audit FAILED: 12669 problem(s).
+Audit FAILED: 12627 problem(s).
 - REUSED original photo: rio-de-janeiro/hero + rio-de-janeiro/intro
 - REUSED original photo: rio-de-janeiro/hero + rio-de-janeiro/home
 - REUSED original photo: rio-de-janeiro/hero + rio-de-janeiro/guide-card
@@ -427,15 +431,6 @@ Audit FAILED: 12669 problem(s).
 - REUSED original photo: san-andres/home + montevideo/hotel-list-1
 - PENDING visual review: montevideo/hotel-list-1
 - PLACEHOLDER photo: montevideo/hotel-list-1
-- REUSED original photo: san-andres/home + assuncao/intro
-- PENDING visual review: assuncao/intro
-- PLACEHOLDER photo: assuncao/intro
-- REUSED original photo: san-andres/home + assuncao/guide-card
-- PENDING visual review: assuncao/guide-card
-- PLACEHOLDER photo: assuncao/guide-card
-- REUSED original photo: san-andres/home + assuncao/home-slide
-- PENDING visual review: assuncao/home-slide
-- PLACEHOLDER photo: assuncao/home-slide
 - REUSED original photo: san-andres/home + assuncao/home-thumb
 - PENDING visual review: assuncao/home-thumb
 - PLACEHOLDER photo: assuncao/home-thumb
@@ -766,18 +761,6 @@ Audit FAILED: 12669 problem(s).
 - REUSED original photo: san-andres/home + havana/home
 - PENDING visual review: havana/home
 - PLACEHOLDER photo: havana/home
-- REUSED original photo: san-andres/home + havana/guide-card
-- PENDING visual review: havana/guide-card
-- PLACEHOLDER photo: havana/guide-card
-- REUSED original photo: san-andres/home + havana/guide-highlight
-- PENDING visual review: havana/guide-highlight
-- PLACEHOLDER photo: havana/guide-highlight
-- REUSED original photo: san-andres/home + havana/home-slide
-- PENDING visual review: havana/home-slide
-- PLACEHOLDER photo: havana/home-slide
-- REUSED original photo: san-andres/home + havana/home-thumb
-- PENDING visual review: havana/home-thumb
-- PLACEHOLDER photo: havana/home-thumb
 - REUSED original photo: san-andres/home + havana/essential-moeda
 - PENDING visual review: havana/essential-moeda
 - PLACEHOLDER photo: havana/essential-moeda
@@ -790,21 +773,6 @@ Audit FAILED: 12669 problem(s).
 - REUSED original photo: san-andres/home + havana/neighborhood-1
 - PENDING visual review: havana/neighborhood-1
 - PLACEHOLDER photo: havana/neighborhood-1
-- REUSED original photo: san-andres/home + cidade-do-mexico/home
-- PENDING visual review: cidade-do-mexico/home
-- PLACEHOLDER photo: cidade-do-mexico/home
-- REUSED original photo: san-andres/home + cidade-do-mexico/guide-card
-- PENDING visual review: cidade-do-mexico/guide-card
-- PLACEHOLDER photo: cidade-do-mexico/guide-card
-- REUSED original photo: san-andres/home + cidade-do-mexico/guide-highlight
-- PENDING visual review: cidade-do-mexico/guide-highlight
-- PLACEHOLDER photo: cidade-do-mexico/guide-highlight
-- REUSED original photo: san-andres/home + cidade-do-mexico/home-slide
-- PENDING visual review: cidade-do-mexico/home-slide
-- PLACEHOLDER photo: cidade-do-mexico/home-slide
-- REUSED original photo: san-andres/home + cidade-do-mexico/home-thumb
-- PENDING visual review: cidade-do-mexico/home-thumb
-- PLACEHOLDER photo: cidade-do-mexico/home-thumb
 - REUSED original photo: san-andres/home + cidade-do-mexico/essential-moeda
 - PENDING visual review: cidade-do-mexico/essential-moeda
 - PLACEHOLDER photo: cidade-do-mexico/essential-moeda
@@ -910,12 +878,6 @@ Audit FAILED: 12669 problem(s).
 - REUSED original photo: san-andres/home + bahamas/hotel-list-3
 - PENDING visual review: bahamas/hotel-list-3
 - PLACEHOLDER photo: bahamas/hotel-list-3
-- REUSED original photo: san-andres/home + chicago/tips
-- PENDING visual review: chicago/tips
-- PLACEHOLDER photo: chicago/tips
-- REUSED original photo: san-andres/home + chicago/hotel-3
-- PENDING visual review: chicago/hotel-3
-- PLACEHOLDER photo: chicago/hotel-3
 - REUSED original photo: san-andres/home + las-vegas/home-slide
 - PENDING visual review: las-vegas/home-slide
 - PLACEHOLDER photo: las-vegas/home-slide

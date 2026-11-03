@@ -1,0 +1,10 @@
+{
+  "invalidQuery": "(\"Brazilian passport\" OR \"passaporte brasileiro\" OR \"Brazilian identity card\" OR \"carteira de identidade\")",
+  "returnedFiles": 0,
+  "note": "The combined search returned no files and was not evidence of photo unavailability. Replaced by the verified simple query below.",
+  "correctedQuery": "Brazilian passport filetype:bitmap",
+  "correctedSearchFilesInspected": 100,
+  "correctedBundles": "regional-*-visitor-documents-simple-2026-11-03",
+  "applied": 0,
+  "rejected": 18
+}

@@ -1,0 +1,44 @@
+{
+  "city": "chicago",
+  "region": "americas",
+  "center": [
+    41.8781,
+    -87.6298,
+    40
+  ],
+  "pools": {
+    "tips": {
+      "query": "\"Cloud Gate\" \"Chicago\"",
+      "required": [
+        "cloud gate"
+      ],
+      "requiredTitle": "cloud gate",
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "reject": "portrait|archival|postcard|engraving|painting|render|military|negative|infrared|drawing",
+      "slots": [
+        "tips"
+      ]
+    },
+    "west": {
+      "query": "\"Garfield Park\" \"Chicago\"",
+      "required": [
+        "garfield park",
+        "chicago"
+      ],
+      "requiredTitle": "garfield",
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "reject": "portrait|archival|postcard|engraving|painting|render|military|negative|infrared|drawing",
+      "slots": [
+        "hotel-3"
+      ]
+    }
+  }
+}

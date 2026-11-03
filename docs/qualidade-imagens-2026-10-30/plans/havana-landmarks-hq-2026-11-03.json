@@ -1,0 +1,101 @@
+{
+  "city": "havana",
+  "region": "americas",
+  "center": [
+    23.1136,
+    -82.3666,
+    45
+  ],
+  "pools": {
+    "home": {
+      "query": "\"Havana\" \"Capitolio\"",
+      "required": [
+        "capitol"
+      ],
+      "requiredTitle": "capitol",
+      "locationPatterns": [
+        "havana|habana|cuba"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home"
+      ]
+    },
+    "guide-card": {
+      "query": "\"Havana\" \"Malecon\"",
+      "required": [
+        "malecon"
+      ],
+      "requiredTitle": "malecon",
+      "locationPatterns": [
+        "havana|habana|cuba"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "guide-card"
+      ]
+    },
+    "guide-highlight": {
+      "query": "\"Havana\" \"Morro\"",
+      "required": [
+        "morro"
+      ],
+      "requiredTitle": "morro",
+      "locationPatterns": [
+        "havana|habana|cuba"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "guide-highlight"
+      ]
+    },
+    "home-slide": {
+      "query": "\"Havana\" \"Plaza Vieja\"",
+      "required": [
+        "plaza vieja"
+      ],
+      "requiredTitle": "plaza vieja",
+      "locationPatterns": [
+        "havana|habana|cuba"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home-slide"
+      ]
+    },
+    "home-thumb": {
+      "query": "\"Havana\" \"skyline\"",
+      "required": [
+        "havana|habana"
+      ],
+      "requiredTitle": "havana|habana",
+      "locationPatterns": [
+        "havana|habana|cuba"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home-thumb"
+      ]
+    }
+  }
+}
