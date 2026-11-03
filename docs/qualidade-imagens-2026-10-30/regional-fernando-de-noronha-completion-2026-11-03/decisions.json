@@ -4,16 +4,24 @@
     "notes": "Paisagem costeira de Noronha com rochas, água transparente e horizonte; foto real panorâmica de destaque e orientação correta."
   },
   "fernando-de-noronha/hotel-list-0": {
-    "decision": "accepted",
-    "notes": "Baía do Sancho com praia, falésias verdes e mar; contexto regional real de hospedagem ilustrativa, coordenadas conferidas."
+    "decision": "rejected",
+    "notes": "Retirada após comparação perceptual e visual: mesma fotografia de fernando-de-noronha/map-list-0, reencodada/com nome diferente. Preservada a foto herdada; slot volta a placeholder para buscar alternativa.",
+    "initialDecision": {
+      "decision": "accepted",
+      "notes": "Baía do Sancho com praia, falésias verdes e mar; contexto regional real de hospedagem ilustrativa, coordenadas conferidas."
+    }
   },
   "fernando-de-noronha/hotel-2": {
     "decision": "accepted",
     "notes": "Praia do Sueste com faixa de areia, mar e banhistas, origem e coordenadas locais; contexto real para hospedagem ilustrativa."
   },
   "fernando-de-noronha/hotel-list-2": {
-    "decision": "accepted",
-    "notes": "Canto rochoso da Praia do Sueste e mar azul, coordenadas locais; enquadramento distinto e contexto real da hospedagem ilustrativa."
+    "decision": "rejected",
+    "notes": "Retirada após comparação perceptual e visual: mesma fotografia de fernando-de-noronha/region-list-2, reencodada/com nome diferente. Preservada a foto herdada; slot volta a placeholder para buscar alternativa.",
+    "initialDecision": {
+      "decision": "accepted",
+      "notes": "Canto rochoso da Praia do Sueste e mar azul, coordenadas locais; enquadramento distinto e contexto real da hospedagem ilustrativa."
+    }
   },
   "fernando-de-noronha/region-list-3": {
     "decision": "accepted",

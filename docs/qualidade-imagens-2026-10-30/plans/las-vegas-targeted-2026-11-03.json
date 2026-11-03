@@ -1,0 +1,102 @@
+{
+  "city": "las-vegas",
+  "region": "americas",
+  "center": [
+    36.1699,
+    -115.1398,
+    40
+  ],
+  "pools": {
+    "highlight-home-slide": {
+      "query": "\"Las Vegas\" \"Strip\" \"panorama\" -intitle:captions",
+      "required": [
+        "las vegas"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home-slide"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "attractions-attraction-4": {
+      "query": "High Roller Las Vegas",
+      "required": [
+        "high roller"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Paradise Nevada",
+      "required": [
+        "paradise"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-3"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "regions-hotels-region-0": {
+      "query": "Resorts World Las Vegas",
+      "required": [
+        "resorts world"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    }
+  }
+}

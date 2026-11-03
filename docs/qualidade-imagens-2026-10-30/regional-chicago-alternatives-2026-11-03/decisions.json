@@ -1,0 +1,30 @@
+{
+  "chicago/map-list-3": {
+    "decision": "rejected",
+    "notes": "Saguão de elevadores sem contexto externo da Willis Tower; atração pouco identificável no enquadramento."
+  },
+  "chicago/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Vista aérea do Loop e skyline de Chicago com lago ao fundo; bairro real identificável e horizonte correto."
+  },
+  "chicago/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Escultura Flamingo e praça cercada de edifícios do Loop; contexto urbano real do bairro, orientação correta."
+  },
+  "chicago/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Driehaus Museum e edifícios de River North em rua arborizada; arquitetura real do bairro e foto diurna."
+  },
+  "chicago/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Estátua de Abraham Lincoln e vegetação no Lincoln Park de Chicago; marco local real e orientação correta."
+  },
+  "chicago/region-list-0": {
+    "decision": "accepted",
+    "notes": "Adams Street entre arranha-céus do Chicago Loop; contexto urbano real da região, sem inversão."
+  },
+  "chicago/region-list-2": {
+    "decision": "accepted",
+    "notes": "Esquina da Lincoln Avenue com Lincoln Park West em 2023; North Side real em contexto de rua e arquitetura."
+  }
+}

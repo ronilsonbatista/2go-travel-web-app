@@ -1,0 +1,34 @@
+{
+  "havai/hero": {
+    "decision": "accepted",
+    "notes": "Falésias de Hanakoa na costa Nā Pali vistas do mar, com vegetação e nuvens; paisagem havaiana real, horizontal e horizonte correto."
+  },
+  "havai/home": {
+    "decision": "accepted",
+    "notes": "Vista aérea do Waimea Canyon com formações vermelhas e vegetação; paisagem real do Havaí em foto horizontal nítida."
+  },
+  "havai/map-list-0": {
+    "decision": "accepted",
+    "notes": "Vista aérea de Waikiki Beach, Diamond Head e Honolulu; praia e geografia local reconhecíveis em fotografia real."
+  },
+  "havai/map-attraction-1": {
+    "decision": "rejected",
+    "notes": "Retrato de veterano em cerimônia; não representa Pearl Harbor como atração."
+  },
+  "havai/attraction-5": {
+    "decision": "rejected",
+    "notes": "Pranchas de surfe isoladas em loja; North Shore não é reconhecível como atração."
+  },
+  "havai/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Pessoas fantasiadas em Halloween; retrato/evento sem contexto de Waikiki como bairro."
+  },
+  "havai/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Foto de cume da Big Island em 1971, pré-1990 sem override; rejeitada."
+  },
+  "havai/costs": {
+    "decision": "rejected",
+    "notes": "Pratos do restaurante The Hip Fish em Barcelona; país errado para gastronomia do Havaí, apesar da categoria Cuisine of Hawaii."
+  }
+}

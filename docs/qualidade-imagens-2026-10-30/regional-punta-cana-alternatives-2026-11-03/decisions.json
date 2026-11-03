@@ -1,0 +1,46 @@
+{
+  "punta-cana/hero": {
+    "decision": "rejected",
+    "notes": "Flamingo decorativo e lago de resort dominam a cena; pouco contexto para hero do destino."
+  },
+  "punta-cana/intro": {
+    "decision": "accepted",
+    "notes": "Praia de Punta Cana com coqueiros, areia e mar em fotografia diurna; paisagem costeira real e horizonte correto."
+  },
+  "punta-cana/home": {
+    "decision": "accepted",
+    "notes": "Orla de Bávaro junto ao Barceló com areia, coqueiros e mar raso; destino real em enquadramento horizontal."
+  },
+  "punta-cana/guide-card": {
+    "decision": "accepted",
+    "notes": "Panorama de resort Majestic em Punta Cana com piscina, palmeiras e praia; contexto turístico real e horizonte correto."
+  },
+  "punta-cana/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Praia de Punta Cana com areia clara, coqueiros e banhistas sob céu nublado; foto real do destino com orientação correta."
+  },
+  "punta-cana/home-slide": {
+    "decision": "rejected",
+    "notes": "Mesmo trecho de praia e sequência do intro, apenas com aproximação da palmeira; evitar repetição visual próxima."
+  },
+  "punta-cana/home-thumb": {
+    "decision": "accepted",
+    "notes": "Pôr do sol na praia de Punta Cana com coqueiros em silhueta; paisagem real horizontal e horizonte correto."
+  },
+  "punta-cana/hotel-0": {
+    "decision": "accepted",
+    "notes": "Área de restaurante e convivência em resort de Bávaro; hospedagem ilustrativa com origem local real e orientação correta."
+  },
+  "punta-cana/hotel-3": {
+    "decision": "accepted",
+    "notes": "Fachada da Basílica Nuestra Señora de la Altagracia em Higüey; contexto real do interior regional para hospedagem ilustrativa."
+  },
+  "punta-cana/mistakes": {
+    "decision": "accepted",
+    "notes": "Sala de embarque do Terminal One de Punta Cana com passageiros e estrutura do aeroporto; contexto real de planejamento e chegada."
+  },
+  "punta-cana/tips": {
+    "decision": "accepted",
+    "notes": "Praia de Bávaro ao entardecer com coqueiros e estrutura de lazer; contexto real de visita e planejamento, sem inversão."
+  }
+}

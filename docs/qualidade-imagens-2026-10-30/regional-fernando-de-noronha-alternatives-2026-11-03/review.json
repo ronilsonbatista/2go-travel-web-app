@@ -1,0 +1,522 @@
+[
+  {
+    "key": "fernando-de-noronha/map-list-3",
+    "slot": "map-list-3",
+    "topic": "Projeto Tamar",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-3"
+  },
+  {
+    "key": "fernando-de-noronha/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Floresta Nova",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-1"
+  },
+  {
+    "key": "fernando-de-noronha/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "Floresta Nova",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-1"
+  },
+  {
+    "key": "fernando-de-noronha/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Vila",
+    "path": "/images/destinations/fernando-de-noronha/curated-hotel-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Sparisoma axillare, Vila dos Remédios, Fernando de Noronha - PE, 53990-000, Brasil imported from iNaturalist photo 170668294.jpg",
+    "imageinfo": {
+      "size": 3110618,
+      "width": 2048,
+      "height": 1365,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sparisoma_axillare%2C_Vila_dos_Rem%C3%A9dios%2C_Fernando_de_Noronha_-_PE%2C_53990-000%2C_Brasil_imported_from_iNaturalist_photo_170668294.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sparisoma_axillare%2C_Vila_dos_Rem%C3%A9dios%2C_Fernando_de_Noronha_-_PE%2C_53990-000%2C_Brasil_imported_from_iNaturalist_photo_170668294.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sparisoma_axillare%2C_Vila_dos_Rem%C3%A9dios%2C_Fernando_de_Noronha_-_PE%2C_53990-000%2C_Brasil_imported_from_iNaturalist_photo_170668294.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sparisoma_axillare,_Vila_dos_Rem%C3%A9dios,_Fernando_de_Noronha_-_PE,_53990-000,_Brasil_imported_from_iNaturalist_photo_170668294.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161342468",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-03-07 03:58:36",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Sparisoma axillare, Vila dos Remédios, Fernando de Noronha - PE, 53990-000, Brasil imported from iNaturalist photo 170668294",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Media from iNaturalist|Sparisoma axillare|INaturalist images reviewed by iNaturalistReviewBot|Files with coordinates missing SDC location of creation|Media from GBIF|Media uploaded with WikiLovesINat",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-3.808265",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-32.378485",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Photo of Redeye Parrotfish (undefined) uploaded from <a rel=\"nofollow\" class=\"external text\" href=\"https://inaturalist.org\">iNaturalist</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-09-22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.inaturalist.org/photos/170668294\">https://www.inaturalist.org/photos/170668294</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "(c) João D'Andretta, some rights reserved (CC BY)",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/hotel-3.jpg",
+    "dimensions": [
+      2048,
+      1365
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sparisoma_axillare%2C_Vila_dos_Rem%C3%A9dios%2C_Fernando_de_Noronha_-_PE%2C_53990-000%2C_Brasil_imported_from_iNaturalist_photo_170668294.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "2dbc381dea4cd7166238fdbcbce20d1d6057a30763a5f8c31b5ddad4af9539ba"
+  },
+  {
+    "key": "fernando-de-noronha/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Vila",
+    "path": "/images/destinations/fernando-de-noronha/curated-hotel-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:111 Igreja de Nossa Senhora dos Remédios.jpg",
+    "imageinfo": {
+      "size": 6305057,
+      "width": 3840,
+      "height": 2160,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/111_Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/111_Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/111_Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:111_Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48988865",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-24 13:33:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "111 Igreja de Nossa Senhora dos Remédios",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Igreja de Nossa Senhora dos Remédios (Fernando de Noronha)|Self-published work|Files with coordinates missing SDC location of creation|Photographs by Adelano Lázaro Ferreira",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-3.840717",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-32.411076",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Church of Our Lady of Remedies - Fernando de Noronha - Brazil",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-11-06 09:05:44",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adelano_L%C3%A1zaro&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adelano Lázaro (page does not exist)\">Adelano Lázaro</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/111_Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "8f6bd6a67d284c0bf8134ac701f941c22d087aa1438135e3163cd961b8a16dda"
+  },
+  {
+    "key": "fernando-de-noronha/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Fernando de Noronha",
+    "status": "no-candidate",
+    "pool": "support-arrival"
+  },
+  {
+    "key": "fernando-de-noronha/mistakes",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "status": "no-candidate",
+    "pool": "support-arrival"
+  },
+  {
+    "key": "fernando-de-noronha/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Fernando de Noronha",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "fernando-de-noronha/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "path": "/images/destinations/fernando-de-noronha/curated-day-2.jpg",
+    "pool": "support-quarter",
+    "status": "pending-visual-review",
+    "title": "File:PE - Parque Nacional Marinho Fernando de Noronha - Praia do Cachorro e Pedra do Pico.jpg",
+    "imageinfo": {
+      "size": 1785517,
+      "width": 3838,
+      "height": 2157,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/44/PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Praia_do_Cachorro_e_Pedra_do_Pico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1349,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Praia_do_Cachorro_e_Pedra_do_Pico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1349
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Praia_do_Cachorro_e_Pedra_do_Pico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Praia_do_Cachorro_e_Pedra_do_Pico.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40643586",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-06-01 00:13:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "PE - Parque Nacional Marinho Fernando de Noronha - Praia do Cachorro e Pedra do Pico",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Morro do Pico|Self-published work|Images from Wiki Loves Earth 2015 in Brazil|Images from Wiki Loves Earth 2015|Uploaded via Campaign:wle-br|Brazil photographs taken on 2010-09-03|Images from Wiki Loves Earth missing SDC depicts|Images from Wiki Loves Earth missing SDC location of creation|Praia do Cachorro",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Praia do Cachorro e Pedra do Pico vistos da Vila dos Remédios",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-09-03 17:32:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rafa_Tecchio&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rafa Tecchio (page does not exist)\">Rafa Tecchio</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/day-2.jpg",
+    "dimensions": [
+      2400,
+      1349
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/PE_-_Parque_Nacional_Marinho_Fernando_de_Noronha_-_Praia_do_Cachorro_e_Pedra_do_Pico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "f85dc1443a1c2704270d45152ac763334941ea5dbbbaa71eae075d52283e9010"
+  },
+  {
+    "key": "fernando-de-noronha/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "path": "/images/destinations/fernando-de-noronha/curated-essential-moeda.jpg",
+    "pool": "support-currency",
+    "status": "pending-visual-review",
+    "title": "File:1 Conto de Réis caixa de conversão.jpg",
+    "imageinfo": {
+      "size": 282551,
+      "width": 1719,
+      "height": 1184,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/1_Conto_de_R%C3%A9is_caixa_de_convers%C3%A3o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1653,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/1_Conto_de_R%C3%A9is_caixa_de_convers%C3%A3o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1653
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/1_Conto_de_R%C3%A9is_caixa_de_convers%C3%A3o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:1_Conto_de_R%C3%A9is_caixa_de_convers%C3%A3o.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37775533",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-01-09 20:12:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "1 Conto de Réis caixa de conversão",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD Brazil Government|Cifrão sign|Banknotes of Brazilian real (1790-1942)|Afonso Pena on money",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cédula de um conto de réis da caixa de conversão.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "s/d",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Governo do Brasil",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<i>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in Brazil for one of the following reasons:</i>\n<ul><li>It is a work published or commissioned by a Brazilian government (federal, state, or municipal) prior to 1983. (<a rel=\"nofollow\" class=\"external text\" href=\"http://www.planalto.gov.br/ccivil_03/leis/L3071.htm#art662\">Law 3071/1916, art. 662</a>; <a rel=\"nofollow\" class=\"external text\" href=\"http://www.planalto.gov.br/ccivil_03/leis/L5988.htm#art46\">Law 5988/1973, art. 46</a>; <a rel=\"nofollow\" class=\"external text\" href=\"http://www.planalto.gov.br/ccivil_03/leis/L9610.htm#art115\">Law 9610/1998, art. 115</a>)</li>\n<li>It is the text of a treaty, convention, law, decree, regulation, judicial decision, or other official enactment. (<a rel=\"nofollow\" class=\"external text\" href=\"http://www.planalto.gov.br/ccivil_03/leis/L9610.htm#art8\">Law 9610/1998, art. 8</a>)</li>\n<li>It is a work whose authors' rights belong to the Brazilian government (federal, state, or municipal), for which the economic rights shall be protected for a period of 70 years from the first of January of the year following that of their disclosure or that of the author's demise, whichever is later. (<a rel=\"nofollow\" class=\"external autonumber\" href=\"https://jus.com.br/artigos/14982\">[1]</a>)</li></ul>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/essential-moeda.jpg",
+    "dimensions": [
+      1719,
+      1184
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/1_Conto_de_R%C3%A9is_caixa_de_convers%C3%A3o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "c67c4719c43312d65dba1b25b585daf9bac935c3e14e64d14a65a370861da2a7"
+  },
+  {
+    "key": "fernando-de-noronha/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  }
+]

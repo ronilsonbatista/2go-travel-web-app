@@ -1,0 +1,58 @@
+{
+  "quito/intro": {
+    "decision": "accepted",
+    "notes": "El Panecillo com monumento e casario nas encostas de Quito; cidade e marco real identificáveis, orientação correta."
+  },
+  "quito/guide-card": {
+    "decision": "rejected",
+    "notes": "Estátua em primeiro plano e basílica cortada sob céu cinza; composição insuficiente para destaque HQ."
+  },
+  "quito/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Cerimônia comemorativa com pessoas e placa de vítimas do Holocausto; não representa Quito como destaque turístico."
+  },
+  "quito/map-list-3": {
+    "decision": "rejected",
+    "notes": "Placa isolada da Calle La Ronda; falta contexto da rua como atração."
+  },
+  "quito/map-attraction-5": {
+    "decision": "accepted",
+    "notes": "Pistas de BMX e áreas verdes do Parque La Carolina em Quito; parque real em fotografia diurna e orientação correta."
+  },
+  "quito/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Placa da Avenida Tarqui em close; não representa o Centro Histórico como bairro."
+  },
+  "quito/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Porta e calçada isoladas; não representa o Centro Histórico como bairro."
+  },
+  "quito/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Torre de Cumbayá muito escura sob árvore; baixa legibilidade e qualidade insuficiente."
+  },
+  "quito/hotel-0": {
+    "decision": "rejected",
+    "notes": "Tampa de bueiro em calçada; não corresponde ao contexto de hospedagem no Centro Histórico."
+  },
+  "quito/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Calle Cotopaxi no centro histórico de Quito com casario e rua inclinada; contexto real para hospedagem ilustrativa."
+  },
+  "quito/region-list-1": {
+    "decision": "rejected",
+    "notes": "Aeroporto Mariscal Sucre em Tababela, não bairro Mariscal; falso match de nome."
+  },
+  "quito/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Monumento atual Mitad del Mundo com globo e montanhas ao fundo; contexto regional real de hospedagem ilustrativa."
+  },
+  "quito/day-1": {
+    "decision": "rejected",
+    "notes": "Saída de garagem isolada; não representa os ícones principais de Quito."
+  },
+  "quito/day-2": {
+    "decision": "accepted",
+    "notes": "Terraço do Palacio Gangotena com vista de telhados e igrejas do Centro Histórico de Quito; cena urbana real para passeio pelo bairro."
+  }
+}

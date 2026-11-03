@@ -1,0 +1,29 @@
+[
+  {
+    "bundle": "regional-fernando-de-noronha-completion-2026-11-03",
+    "key": "fernando-de-noronha/hotel-list-0",
+    "title": "File:Fernando de Noronha Strand Baia do Sancho (22027305770).jpg",
+    "sha256": "50aa33c27377e9c4ef620fff7a259dba9353f6d9f920187b82054b811ec5b90c",
+    "decision": "rejected",
+    "notes": "Retirada após comparação perceptual e visual: mesma fotografia de fernando-de-noronha/map-list-0, reencodada/com nome diferente. Preservada a foto herdada; slot volta a placeholder para buscar alternativa.",
+    "duplicateOf": "fernando-de-noronha/map-list-0"
+  },
+  {
+    "bundle": "regional-fernando-de-noronha-completion-2026-11-03",
+    "key": "fernando-de-noronha/hotel-list-2",
+    "title": "File:Fernando de Noronha schnorcheln (21592672614) (2).jpg",
+    "sha256": "b46b862c14824784d746553cc7751c808e89a0d5457c053c655572d67b6f1283",
+    "decision": "rejected",
+    "notes": "Retirada após comparação perceptual e visual: mesma fotografia de fernando-de-noronha/region-list-2, reencodada/com nome diferente. Preservada a foto herdada; slot volta a placeholder para buscar alternativa.",
+    "duplicateOf": "fernando-de-noronha/region-list-2"
+  },
+  {
+    "bundle": "regional-cidade-do-panama-completion-2026-11-03",
+    "key": "cidade-do-panama/home-thumb",
+    "title": "File:Panama City (148830795).jpeg",
+    "sha256": "5bb7876ceb636f19580b3f9e53c75d42011326fed6f95410bc74774997616988",
+    "decision": "rejected",
+    "notes": "Retirada após comparação perceptual e visual: mesma fotografia de cidade-do-panama/guide-highlight, reencodada/com nome diferente. Preservada a foto herdada; slot volta a placeholder para buscar alternativa.",
+    "duplicateOf": "cidade-do-panama/guide-highlight"
+  }
+]

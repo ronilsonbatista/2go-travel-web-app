@@ -4,8 +4,8 @@
     "cities": 107,
     "flagCounts": {
       "prominent-below-1600": 10,
-      "placeholder": 4410,
-      "not-visually-accepted": 4419
+      "placeholder": 4250,
+      "not-visually-accepted": 4259
     },
     "placeholderCities": 85,
     "note": "Existing accepted values are inherited, not a new visual review. EXIF cannot detect baked-in upside-down photos."
@@ -12531,16 +12531,13 @@
       "topic": "San Andrés",
       "src": "/images/destinations/san-andres/curated-intro.jpg",
       "key": "san-andres/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:san-andres/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3f1831ca01479645f31e4886f03c448ef4824b9b400d31f114ad398aad4ad5ae",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Club_de_Pescadores_San_Andres%2C_Islas.jpg",
+      "title": "File:Club de Pescadores San Andres, Islas.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e4a387864acfd8a0ca96bd26a26114df560f10ae99a0033cf7efd480cd6ed5c8",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -12603,16 +12600,13 @@
       "topic": "San Andrés",
       "src": "/images/destinations/san-andres/curated-home-slide.jpg",
       "key": "san-andres/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:san-andres/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "50a8755cbccd9371985767a6771ac5b4c4bb252210d799e28c28e5d3a433caaa",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Insulo_San_Andr%C3%A9s_%C4%89e_Kolombio_Wikivacaciones_2021_13.jpg",
+      "title": "File:Insulo San Andrés ĉe Kolombio Wikivacaciones 2021 13.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "faef3d1677bb0040c4aeede45158b9b133cefc193878a9137fc729c497f26a64",
+      "width": 2400,
+      "height": 1108,
       "exifOrientation": 1
     },
     {
@@ -13554,16 +13548,13 @@
       "topic": "Hotel em Cays",
       "src": "/images/destinations/san-andres/curated-hotel-list-3.jpg",
       "key": "san-andres/hotel-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:san-andres/hotel-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6d318f040df5421a754d663fd61c65c0a040428cad508fcd695b25ba715be339",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Johnny_Cay_%28view_from_west%29.JPG",
+      "title": "File:Johnny Cay (view from west).JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8443bc72814da72019a4c06b6c6a0c9e7285cb4ab723c32c03a1ba171b577457",
+      "width": 1133,
+      "height": 579,
       "exifOrientation": 1
     },
     {
@@ -13632,16 +13623,13 @@
       "topic": "Lima",
       "src": "/images/destinations/lima/curated-guide-highlight.jpg",
       "key": "lima/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:lima/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c78c8de443d8c5cda8fbf32903cafbfd1faf7f0ee222d3a0a8b1743125396e91",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Atardecer_en_playa_Punta_Roquitas_04%2C_Costa_Verde.jpg",
+      "title": "File:Atardecer en playa Punta Roquitas 04, Costa Verde.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "830631669a9ef22fbf7513c392a3a28b48e632fdad1a6e1504fcc87b13c41f80",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -13854,16 +13842,13 @@
       "topic": "Barranco",
       "src": "/images/destinations/lima/curated-map-attraction-1.jpg",
       "key": "lima/map-attraction-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:lima/map-attraction-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b87f7d22a949ec8fb13558dcd0b501ecac6445e12b6c0e44f32d188aa77ef8e9",
+      "source": "https://commons.wikimedia.org/wiki/File:House_in_barranco%2C_lima%2C_peru_%28865733809%29.jpg",
+      "title": "File:House in barranco, lima, peru (865733809).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "688b7547ff455cc1a26af59c15ad770fe2bc6804ceb76ceec7ce4e98cffcd909",
       "width": 1600,
-      "height": 900,
+      "height": 1200,
       "exifOrientation": 1
     },
     {
@@ -14481,16 +14466,13 @@
       "topic": "Hotel em Barranco",
       "src": "/images/destinations/lima/curated-hotel-list-1.jpg",
       "key": "lima/hotel-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:lima/hotel-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f9b0160b002009e9002d392141720d8e79df053347ffc762451e7663ec2b81ac",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Barranco_Sunset.jpg",
+      "title": "File:Barranco Sunset.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "81271e83416ed7d983265c0fb0380fadecfb103821168f5059719fe96adc7f39",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -14559,16 +14541,13 @@
       "topic": "Montevidéu",
       "src": "/images/destinations/montevideo/curated-hero.jpg",
       "key": "montevideo/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a984c409c00ddef8bd77c7497eede6e23107820affd0591be7f9f0f0453d9d75",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_Salta_e_Plaza_de_Independ%C3%AAncia_2023.jpg",
+      "title": "File:Palacio Salta e Plaza de Independência 2023.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "373110bddc49734d7d63aa468e0155f769f7107809f15126da947892da020653",
+      "width": 2400,
+      "height": 1588,
       "exifOrientation": 1
     },
     {
@@ -14577,16 +14556,13 @@
       "topic": "Montevidéu",
       "src": "/images/destinations/montevideo/curated-intro.jpg",
       "key": "montevideo/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "990f9677529ec5bdbe198af8fdabcfceb6b892a080c4d521c795ec0dc0de1a31",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Montevideo%2CUruguay-00.jpg",
+      "title": "File:Montevideo,Uruguay-00.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1e56deebc804c39563be78e3b8e09acda4a7d18cead0932d116cc10c2e649d48",
+      "width": 2400,
+      "height": 1465,
       "exifOrientation": 1
     },
     {
@@ -14595,16 +14571,13 @@
       "topic": "Montevidéu",
       "src": "/images/destinations/montevideo/curated-home.jpg",
       "key": "montevideo/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a241c521b061c1fd74828c9e90d10a868a57b8d15125fb828c0fa626774b1a62",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Cartel_de_Montevideo_-_Kib%C3%B3n_-_Diversidad.jpg",
+      "title": "File:Cartel de Montevideo - Kibón - Diversidad.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6fdc5aba1092907654430732f57c1d0f9c8e84cb985f16444d65ace382ef31f8",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -14781,16 +14754,13 @@
       "topic": "Dicas importantes",
       "src": "/images/destinations/montevideo/curated-tips.jpg",
       "key": "montevideo/tips",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/tips",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4b0bb5a1e69abc81bcd1fec1aa85653d504cd59a868efaceba5152cb55286d75",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Dusk_at_Rambla_de_Playa_Honda_in_Montevideo_in_2022.jpg",
+      "title": "File:Dusk at Rambla de Playa Honda in Montevideo in 2022.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d8c250d561456c1bca5a435930391073f1bd1bedda62101373b029c100f14b1a",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -15039,16 +15009,13 @@
       "topic": "Parque Rodó",
       "src": "/images/destinations/montevideo/curated-map-attraction-5.jpg",
       "key": "montevideo/map-attraction-5",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/map-attraction-5",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7b292c3930a37a349fa872a37523600c6d1a92f4988a380e51feceadb0373426",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2016_Parque_Rod%C3%B3_Montevideo_%28Uruguay%29.jpg",
+      "title": "File:2016 Parque Rodó Montevideo (Uruguay).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ca13cd806379d900f9a12e95485299ef4cf6ec397f9d481b762e22d3f4058799",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -15207,16 +15174,13 @@
       "topic": "Pocitos",
       "src": "/images/destinations/montevideo/curated-neighborhood-2.jpg",
       "key": "montevideo/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7192dc3e3e3d51349a754e9d50cb7d928edf9b6b1d24a4fff2cfcfea78087f22",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Edificio_De_Los_Pocitos_%2801%29.jpg",
+      "title": "File:Edificio De Los Pocitos (01).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "81a38015acd3934a4f759609d93001afb0d177a11da72ed36ca359fbd22c48cf",
+      "width": 1423,
+      "height": 1905,
       "exifOrientation": 1
     },
     {
@@ -15423,16 +15387,13 @@
       "topic": "Carrasco",
       "src": "/images/destinations/montevideo/curated-region-list-3.jpg",
       "key": "montevideo/region-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montevideo/region-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "41481a7fcf73952a957bd4467183ace436e3b80423d8e0c6b6544c22d9c7fc9c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Hotel_Carrasco%2C_Montevideo_-_20130114_%28003%29.jpg",
+      "title": "File:Hotel Carrasco, Montevideo - 20130114 (003).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1e3787346fb9166845f5f881bacde0e180f3a2a6119099e1e7d594e0f20f3c30",
+      "width": 2400,
+      "height": 1535,
       "exifOrientation": 1
     },
     {
@@ -15564,16 +15525,13 @@
       "topic": "Assunção",
       "src": "/images/destinations/assuncao/curated-hero.jpg",
       "key": "assuncao/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3edab5f962ef45b2b22efdc2273302a1f8c074dbf51ab824cf1fcdd048154f9f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Gran_Palacio_Nacional_de_Paraguay.jpg",
+      "title": "File:Gran Palacio Nacional de Paraguay.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "89eae91fc6149917fe48aad75beb8f4c89e0575cfef887c5d5db386e35719b2c",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -15993,16 +15951,13 @@
       "topic": "Cerro Lambaré",
       "src": "/images/destinations/assuncao/curated-attraction-4.jpg",
       "key": "assuncao/attraction-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/attraction-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "48ac766f09a66b7d86b6a6d374d836b6271603f802d784b853adb6fea6901f80",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:CerroLambare.JPG",
+      "title": "File:CerroLambare.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "367d55a2dcf8a6ceb047d9e32c67ca51fbf86fe9b48be7412fa5c22b7a7d4a0a",
+      "width": 967,
+      "height": 1185,
       "exifOrientation": 1
     },
     {
@@ -16419,16 +16374,13 @@
       "topic": "Costanera",
       "src": "/images/destinations/assuncao/curated-region-2.jpg",
       "key": "assuncao/region-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:assuncao/region-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "2fd3c2f6d65a86a79f02eaa0023c0e77d3331a6cc79a7a9567f65a9b62de6d2b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:El_Arpa_de_la_Costanera_de_Asunci%C3%B3n_-_Flickr_-_abel.maestro.jpg",
+      "title": "File:El Arpa de la Costanera de Asunción - Flickr - abel.maestro.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e382a06c427103221cc02438eef08481bfaeea5ccbe563505891aa45714957d1",
+      "width": 960,
+      "height": 1280,
       "exifOrientation": 1
     },
     {
@@ -16647,16 +16599,13 @@
       "topic": "Bogotá",
       "src": "/images/destinations/bogota/curated-home.jpg",
       "key": "bogota/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "db5928352c8e4b4474cb23776f0c85b3406372b819e13768b227df82e1e5ad83",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Capitalio_National_de_Colombia%2C_Bogot%C3%A1.jpg",
+      "title": "File:Capitalio National de Colombia, Bogotá.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3b1b864ff9881129761016cebbb5e58e0233b2de41b1887215b07abe0bf7ad5c",
+      "width": 2400,
+      "height": 1242,
       "exifOrientation": 1
     },
     {
@@ -16665,16 +16614,13 @@
       "topic": "Bogotá",
       "src": "/images/destinations/bogota/curated-guide-card.jpg",
       "key": "bogota/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f9f3ec42f40d32556785401d4c8fe523c95f8fb353c3259142afa9bee42ef252",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:BOGOTA_CITY.jpg",
+      "title": "File:BOGOTA CITY.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "97ce65e134285772a72116af71b4b4ff6d8129befea81ebce4af02605beb4c6e",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -16683,16 +16629,13 @@
       "topic": "Bogotá",
       "src": "/images/destinations/bogota/curated-guide-highlight.jpg",
       "key": "bogota/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6c45cc4fb81a472ba8e1a9db44566677816df32ac4cb241e6726e2993f7ac08d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Bogota%2C_Colombia_%2836943117551%29.jpg",
+      "title": "File:Bogota, Colombia (36943117551).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0345f2f206641e1f35eb31f456304ff1ae5936047b5554412caa9fedcdd9e629",
+      "width": 2400,
+      "height": 1601,
       "exifOrientation": 1
     },
     {
@@ -16701,16 +16644,13 @@
       "topic": "Bogotá",
       "src": "/images/destinations/bogota/curated-home-slide.jpg",
       "key": "bogota/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "db5794463c5e0973a952bcbda1f46e701206a1b825efa4c0da3dd61408acc2db",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Bogota_%28Colombia%29_2.jpg",
+      "title": "File:Bogota (Colombia) 2.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "49c0c9b6d00110b8750e6cdfd5edb8dde60548b0b57984fc4bc0daf61f9a8fc6",
+      "width": 2400,
+      "height": 1596,
       "exifOrientation": 1
     },
     {
@@ -16833,16 +16773,13 @@
       "topic": "Dicas importantes",
       "src": "/images/destinations/bogota/curated-tips.jpg",
       "key": "bogota/tips",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/tips",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "54254bcd611c506a56d846dfd5a88e77512d84181486740779e0abe6f963b543",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Cerro_Monserrate_03.jpg",
+      "title": "File:Cerro Monserrate 03.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8808ef63432bed70e3a96cc056c6121aaa27aa796d25d071d357b333b7b02c9e",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -17142,16 +17079,13 @@
       "topic": "Ícones principais",
       "src": "/images/destinations/bogota/curated-day-1.jpg",
       "key": "bogota/day-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/day-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f8d019b10a12f12c865f6ba5728d37f81be1f033b130ccda45f5cbeababff76f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Bogot%C3%A1%2C_Cerros_Monserrate_y_Guadalupe_-_panoramio.jpg",
+      "title": "File:Bogotá, Cerros Monserrate y Guadalupe - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d5cef3db5202a704c25fa52e71f7db7e9d79a0ed71a967f9a2fa6b813e21f8eb",
+      "width": 2097,
+      "height": 796,
       "exifOrientation": 1
     },
     {
@@ -17220,16 +17154,13 @@
       "topic": "La Candelaria",
       "src": "/images/destinations/bogota/curated-neighborhood-detail-0.jpg",
       "key": "bogota/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3379a1438cc110d8af9537849420a8d498da8286b8d078c10c1d35e7af3a7f2b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2019_Bogot%C3%A1_-_La_Candelaria_-_Casa_en_la_carrera_1_este_con_calle_10.jpg",
+      "title": "File:2019 Bogotá - La Candelaria - Casa en la carrera 1 este con calle 10.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3b96ec1f1ba0df7c28d36280f77a19ea9e13957689c31ad5b6b0a6e73e3c81b3",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -17253,16 +17184,13 @@
       "topic": "Chapinero",
       "src": "/images/destinations/bogota/curated-neighborhood-detail-1.jpg",
       "key": "bogota/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e4b76b86b6ad1801819ec0cad2cb4a608a9acb7f71a4f16990d211ce282db328",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2019_Bogot%C3%A1_-_Edificio_Beaux-Arts_en_Chapinero%2C_avenida_Caracas_con_calle_59_A.jpg",
+      "title": "File:2019 Bogotá - Edificio Beaux-Arts en Chapinero, avenida Caracas con calle 59 A.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e7e897eb1dd0e613bff4496015460792e65bc8356d2a37d986b8134c33fb9640",
+      "width": 2400,
+      "height": 1801,
       "exifOrientation": 1
     },
     {
@@ -17376,16 +17304,13 @@
       "topic": "Histórico",
       "src": "/images/destinations/bogota/curated-region-0.jpg",
       "key": "bogota/region-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/region-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "55493b0f1516ee80fd36d63a39f4c88378d6afbd276642f092695307c32714ca",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2019_Bogot%C3%A1_-_Edificio_en_la_calle_10_con_carreras_2_-_La_Candelaria.jpg",
+      "title": "File:2019 Bogotá - Edificio en la calle 10 con carreras 2 - La Candelaria.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "cc5eaa5140d563569c840a2429b0141bc338e52aab6c46df1601271ecc9718e1",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -17454,16 +17379,13 @@
       "topic": "Chapinero",
       "src": "/images/destinations/bogota/curated-region-list-2.jpg",
       "key": "bogota/region-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/region-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "11787052afcd909dc3ad96df6f996a0057192697050933dfb1853d8e21eda45e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2830%29.jpg",
+      "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (30).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e22cde1af8ef0d2d15e5ccb1fd44e1996480de77f21db71ad59e473bbee968b9",
+      "width": 1260,
+      "height": 627,
       "exifOrientation": 1
     },
     {
@@ -17502,16 +17424,13 @@
       "topic": "Hotel em Histórico",
       "src": "/images/destinations/bogota/curated-hotel-0.jpg",
       "key": "bogota/hotel-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/hotel-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d420524791f7cefeeed00dec442f87ed137c7badf7ac08c13c43e3b9a81d52e3",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Bogota%2C_Colombia_%2836215536453%29.jpg",
+      "title": "File:Bogota, Colombia (36215536453).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "770fd163cb510e50bdf14f199866b272f2cc4a44aba82a4d45d40ecd6c726b86",
+      "width": 2335,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -17568,16 +17487,13 @@
       "topic": "Hotel em Chapinero",
       "src": "/images/destinations/bogota/curated-hotel-2.jpg",
       "key": "bogota/hotel-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/hotel-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6248150a53b69037326d9a2c63883fb32873ac64585c8a1881c80ac286efbfa4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Bancafe_Building_Bogota_Colombia.jpg",
+      "title": "File:Bancafe Building Bogota Colombia.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b7f9164e0031e46aaa5563945f0cf3ca76d93e448ac5707b82e9a57fa2f4de45",
+      "width": 1601,
+      "height": 2137,
       "exifOrientation": 1
     },
     {
@@ -17586,16 +17502,13 @@
       "topic": "Hotel em Chapinero",
       "src": "/images/destinations/bogota/curated-hotel-list-2.jpg",
       "key": "bogota/hotel-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bogota/hotel-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ae15eea6139e23a360112df95cafe5f2087c34072ff7d9cb3a6d0023d33a027b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Bogota_carrera_11_calle_74_iglesia.JPG",
+      "title": "File:Bogota carrera 11 calle 74 iglesia.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0a25918180fa6cfb4b7c1855491fd1a3659629dcb40899d568cf71ad8b529402",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -17634,16 +17547,13 @@
       "topic": "Medellín",
       "src": "/images/destinations/medellin/curated-hero.jpg",
       "key": "medellin/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d3e12ab0e9f836519ed7f9a10623e8d960741750fd5438a64118d0cff98ad84e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Wa_%28226423335%29.jpeg",
+      "title": "File:Wa (226423335).jpeg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "32f71f740e647b33cead14504bc65a0379a19a609537310a1774e9f780329c26",
+      "width": 2048,
+      "height": 862,
       "exifOrientation": 1
     },
     {
@@ -17652,16 +17562,13 @@
       "topic": "Medellín",
       "src": "/images/destinations/medellin/curated-intro.jpg",
       "key": "medellin/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "899d16a8967cacde0cfca3121bb3dc1192a1a35c3b12ded4102a83b64ed525f4",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Mujer_Reclinada_by_Fernando_Botero_-_Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024.jpg",
+      "title": "File:Mujer Reclinada by Fernando Botero - Plaza Botero - Medellín - Colombia 2024.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6bbd5c05253ab9030fdb07f50ecdd50bb12ad86d2abd3f5665e8029688e8b15a",
+      "width": 2400,
+      "height": 1136,
       "exifOrientation": 1
     },
     {
@@ -17706,16 +17613,13 @@
       "topic": "Medellín",
       "src": "/images/destinations/medellin/curated-guide-highlight.jpg",
       "key": "medellin/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b0ab59198d3e71b3e0b764e1efa9c2b0cd8b8b81a18c30c64f94c9f4ba50b806",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Metrocable_and_Comuna_1_in_Medell%C3%ADn_02.jpg",
+      "title": "File:Metrocable and Comuna 1 in Medellín 02.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a4d9e505aef615f5b531d7317fa22e10747ba5354c96ff7810fa238a8c74bf80",
+      "width": 2400,
+      "height": 1597,
       "exifOrientation": 1
     },
     {
@@ -17724,16 +17628,13 @@
       "topic": "Medellín",
       "src": "/images/destinations/medellin/curated-home-slide.jpg",
       "key": "medellin/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "443f55350190284eef888d2ceb7f9f91b171047a3ec24f63b788df5c897d9971",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Metrocable_and_Comuna_1_in_Medell%C3%ADn_01.jpg",
+      "title": "File:Metrocable and Comuna 1 in Medellín 01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "92ab7da7fa078111b5e05e23ffc555dbfe2062345f34952f45e330d92d0a8f71",
+      "width": 2400,
+      "height": 1597,
       "exifOrientation": 1
     },
     {
@@ -18303,16 +18204,13 @@
       "topic": "Centro",
       "src": "/images/destinations/medellin/curated-neighborhood-detail-2.jpg",
       "key": "medellin/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:medellin/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3e011982a998b580c2b137ee2233ff34df65f8752b5340e2ae423ddcbaea67cd",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2018_interior_del_centro_comercial_Palacio_Nacional_-_Medell%C3%ADn.jpg",
+      "title": "File:2018 interior del centro comercial Palacio Nacional - Medellín.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b73d3ad4a4220767104d4628fe999368d71c9ad868cefa5e64a9692ca627590b",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -18648,16 +18546,13 @@
       "topic": "Quito",
       "src": "/images/destinations/quito/curated-hero.jpg",
       "key": "quito/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "84e50fbb227ebeef182b82e884e40cf356a8981a3e5378cad6e8308c18857497",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_La_Compa%C3%B1%C3%ADa%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_149-151_HDR.JPG",
+      "title": "File:Iglesia de La Compañía, Quito, Ecuador, 2015-07-22, DD 149-151 HDR.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "be24680fa460e5d9a7080ee65c2e017d2f53e5d08b09a0d7893e2ef007d74440",
+      "width": 2400,
+      "height": 1543,
       "exifOrientation": 1
     },
     {
@@ -18666,16 +18561,13 @@
       "topic": "Quito",
       "src": "/images/destinations/quito/curated-intro.jpg",
       "key": "quito/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "04feed84da7c4da12a9716ac35da5c2ffb4a20686559a583592e81514baf916e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:El_Panecillo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_183.JPG",
+      "title": "File:El Panecillo, Quito, Ecuador, 2015-07-22, DD 183.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a5c7c19aa86df3848e65591505c7bff62b9b485160218b2456b096d1c6f7063c",
+      "width": 2400,
+      "height": 1498,
       "exifOrientation": 1
     },
     {
@@ -18684,16 +18576,13 @@
       "topic": "Quito",
       "src": "/images/destinations/quito/curated-home.jpg",
       "key": "quito/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "47ba68d81fc19c5463a30928bdb3d10192a3fa87b03a39e7ae6778e5e1364cbb",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Francisco%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_217-219_HDR.JPG",
+      "title": "File:Iglesia de San Francisco, Quito, Ecuador, 2015-07-22, DD 217-219 HDR.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3b69feec9bd8396bc92d831a2500df008a24844014181712fa5b2c78b7b47ed3",
+      "width": 2400,
+      "height": 1544,
       "exifOrientation": 1
     },
     {
@@ -18738,16 +18627,13 @@
       "topic": "Quito",
       "src": "/images/destinations/quito/curated-home-slide.jpg",
       "key": "quito/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d25aba361591f02b10c4bb363be236d0f6d5e7e13af08dbe873dfc133cd4e107",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Santo_Domingo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_202-204_HDR.JPG",
+      "title": "File:Iglesia de Santo Domingo, Quito, Ecuador, 2015-07-22, DD 202-204 HDR.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c12c3ef6bbd823a77426bbdf407e16cea7324ac941b985bf313aadc5e3b01fe9",
+      "width": 2400,
+      "height": 1659,
       "exifOrientation": 1
     },
     {
@@ -18756,16 +18642,13 @@
       "topic": "Quito: miniatura da home",
       "src": "/images/destinations/quito/curated-home-thumb.jpg",
       "key": "quito/home-thumb",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/home-thumb",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "44e2c483487bd1e65254addfac2056437296250c520fe7054f896b2feaa4950a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Catedral_de_Quito%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_78.JPG",
+      "title": "File:Catedral de Quito, Quito, Ecuador, 2015-07-22, DD 78.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a472acf816f9e3ad31cb006dd2ad3a451db870729f8feabadd78f85d673ee231",
+      "width": 2400,
+      "height": 1225,
       "exifOrientation": 1
     },
     {
@@ -19128,16 +19011,13 @@
       "topic": "Parque La Carolina",
       "src": "/images/destinations/quito/curated-map-attraction-5.jpg",
       "key": "quito/map-attraction-5",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/map-attraction-5",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "666c06c82e0a3b541776ca0f76dd4ef762a3c2f406666e0c23180739e3486559",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:BMX_tracks_%28Parque_La_Carolina%2C_Quito%29.jpg",
+      "title": "File:BMX tracks (Parque La Carolina, Quito).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "309907c45d5ca3117423056c9f6ff937b48d6a1549cff5120a94e0deb5161dfe",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -19194,16 +19074,13 @@
       "topic": "Bairros e gastronomia",
       "src": "/images/destinations/quito/curated-day-2.jpg",
       "key": "quito/day-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/day-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "39dc79a0389dcdfc1b0b59928127d6a4df7ea491f58cf92db94142667a5b4d73",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:%28roof_deck%29_Centro_Hist%C3%B3rico_de_Quito_%28Palacio_Gangotena%2C_Quito%29.JPG",
+      "title": "File:(roof deck) Centro Histórico de Quito (Palacio Gangotena, Quito).JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "bc565db5d3372c62b7435a0f2ae9bb5d6384e137290abf73b0a7946f828269f1",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -19212,16 +19089,13 @@
       "topic": "Cultura e mirantes",
       "src": "/images/destinations/quito/curated-day-3.jpg",
       "key": "quito/day-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/day-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a5d186af11c76b020a8f3c68b222f641833b64eecc2246a58128de373a2c786c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Museo_de_la_Ciudad%2C_Quito_%28church%29_dome.JPG",
+      "title": "File:Museo de la Ciudad, Quito (church) dome.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "02b2a70bbae75159ffdbf29ab11bd61706d972f878b89c6a3432f99a6f5046a9",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -19422,16 +19296,13 @@
       "topic": "Histórico",
       "src": "/images/destinations/quito/curated-region-0.jpg",
       "key": "quito/region-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/region-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d3178a4bdce5096090c7f3852260a1c26f9a1316dc6a2cfcb1401a031592ff11",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Historic_Center_at_night%2C_Quito_La_Plaza_de_de_la_Independencia_%28Ecuador%29_pic.ao11_Plaza_de_la_Independencia_%28Quito%29.jpg",
+      "title": "File:Historic Center at night, Quito La Plaza de de la Independencia (Ecuador) pic.ao11 Plaza de la Independencia (Quito).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6b202de3efc529193600077a869dfcf94542070660d02fa88f7410f7a327cc61",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -19566,16 +19437,13 @@
       "topic": "Hotel em Histórico",
       "src": "/images/destinations/quito/curated-hotel-list-0.jpg",
       "key": "quito/hotel-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/hotel-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e71ee7bab9d5024b3e9c2b07233b1d81a8020bbacec20f008162ce8b7d434922",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Calle_Cotopaxi%2C_Quito_street_view_Historic_Center_of_Quito%2C_Ecuador.jpg",
+      "title": "File:Calle Cotopaxi, Quito street view Historic Center of Quito, Ecuador.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a0e269931290daa0a8de2cb3494b1dfd293b0c6fcd6e80156feb0cec81de5860",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -19659,16 +19527,13 @@
       "topic": "Hotel em Mitad del Mundo",
       "src": "/images/destinations/quito/curated-hotel-list-3.jpg",
       "key": "quito/hotel-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:quito/hotel-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0f78b4993fbe94f111188fc4ce45afecf49fff7f07a50b5510cd4efdb9567b09",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_22.JPG",
+      "title": "File:Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 22.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "992dae4075694c1a36d959d492dfc6410b1b06c1fad3faf615bbd03b65470543",
+      "width": 1696,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -19782,16 +19647,13 @@
       "topic": "Moeda & pagamentos",
       "src": "/images/destinations/fernando-de-noronha/curated-essential-moeda.jpg",
       "key": "fernando-de-noronha/essential-moeda",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/essential-moeda",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "17dc7ae3bdc2dbbb3543a01da2465adca5a0e35f19c12e06c8bf7ce0249d5e45",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:1-real-2019-25-anos.png",
+      "title": "File:1-real-2019-25-anos.png",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a87071ec1372cf9f0f636321379ae4c817c00fd275c4a6544a8dc6d338645ee5",
+      "width": 1302,
+      "height": 656,
       "exifOrientation": 1
     },
     {
@@ -19830,16 +19692,13 @@
       "topic": "Documentação & seguro",
       "src": "/images/destinations/fernando-de-noronha/curated-essential-docs.jpg",
       "key": "fernando-de-noronha/essential-docs",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/essential-docs",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "8e0b5794590f9485b06bea969c9cc45a044459b9003571c3fc5729f462ef26df",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Brazilian_passport.png",
+      "title": "File:Brazilian passport.png",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "58cfc4fe4d669e96493cb641fef4a2cfc7534e5898874d5804bfb9b20f78dd8c",
+      "width": 940,
+      "height": 1242,
       "exifOrientation": 1
     },
     {
@@ -20064,16 +19923,13 @@
       "topic": "Projeto Tamar",
       "src": "/images/destinations/fernando-de-noronha/curated-map-list-3.jpg",
       "key": "fernando-de-noronha/map-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/map-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "07eaadd93e309bb0aa8d42c128062699d56cd85ef0f87f815c26d85f9315c5c7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Noronha-16.jpg",
+      "title": "File:Noronha-16.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "bb798844f70fe7546a2215087521daf270b4a578a952b370aab5e5abdb670f63",
+      "width": 1406,
+      "height": 937,
       "exifOrientation": 1
     },
     {
@@ -20559,13 +20415,16 @@
       "topic": "Hotel em Sancho",
       "src": "/images/destinations/fernando-de-noronha/curated-hotel-list-0.jpg",
       "key": "fernando-de-noronha/hotel-list-0",
-      "source": "https://commons.wikimedia.org/wiki/File:Fernando_de_Noronha_Strand_Baia_do_Sancho_%2822027305770%29.jpg",
-      "title": "File:Fernando de Noronha Strand Baia do Sancho (22027305770).jpg",
-      "visualReview": "accepted",
-      "flags": [],
-      "sha256": "50aa33c27377e9c4ef620fff7a259dba9353f6d9f920187b82054b811ec5b90c",
-      "width": 2400,
-      "height": 1800,
+      "source": "placeholder-pending-commons",
+      "title": "Placeholder:fernando-de-noronha/hotel-list-0",
+      "visualReview": "pending",
+      "flags": [
+        "placeholder",
+        "not-visually-accepted"
+      ],
+      "sha256": "82d6619b34f70c78bc778b22e58173cf9e7befd1bb94e6b6e7e5c7fa39ed1272",
+      "width": 1600,
+      "height": 900,
       "exifOrientation": 1
     },
     {
@@ -20619,13 +20478,16 @@
       "topic": "Hotel em Sueste",
       "src": "/images/destinations/fernando-de-noronha/curated-hotel-list-2.jpg",
       "key": "fernando-de-noronha/hotel-list-2",
-      "source": "https://commons.wikimedia.org/wiki/File:Fernando_de_Noronha_schnorcheln_%2821592672614%29_%282%29.jpg",
-      "title": "File:Fernando de Noronha schnorcheln (21592672614) (2).jpg",
-      "visualReview": "accepted",
-      "flags": [],
-      "sha256": "b46b862c14824784d746553cc7751c808e89a0d5457c053c655572d67b6f1283",
-      "width": 2400,
-      "height": 1800,
+      "source": "placeholder-pending-commons",
+      "title": "Placeholder:fernando-de-noronha/hotel-list-2",
+      "visualReview": "pending",
+      "flags": [
+        "placeholder",
+        "not-visually-accepted"
+      ],
+      "sha256": "a052b7b42db6b22b52107ab69df4e341e01b3ec3bedf02084d7477d3055ce87f",
+      "width": 1600,
+      "height": 900,
       "exifOrientation": 1
     },
     {
@@ -20652,16 +20514,13 @@
       "topic": "Hotel em Vila",
       "src": "/images/destinations/fernando-de-noronha/curated-hotel-list-3.jpg",
       "key": "fernando-de-noronha/hotel-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:fernando-de-noronha/hotel-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "75bc255bff354fd08df533741d91f1b0822e5cc1e984957450e4fd88c22676f1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:111_Igreja_de_Nossa_Senhora_dos_Rem%C3%A9dios.jpg",
+      "title": "File:111 Igreja de Nossa Senhora dos Remédios.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8f6bd6a67d284c0bf8134ac701f941c22d087aa1438135e3163cd961b8a16dda",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -20775,16 +20634,13 @@
       "topic": "Moeda & pagamentos",
       "src": "/images/destinations/orlando/curated-essential-moeda.jpg",
       "key": "orlando/essential-moeda",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/essential-moeda",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "67fd318bfe8256968ae1f07677afa602ea70932046e0f7d63142a7b83382d795",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Obverse_of_the_series_2009_%24100_Federal_Reserve_Note.jpg",
+      "title": "File:Obverse of the series 2009 $100 Federal Reserve Note.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0b11e02233faf5ff09c516e411c633521ae7a033dc8c4840f0d6ec460b64a123",
+      "width": 1200,
+      "height": 505,
       "exifOrientation": 1
     },
     {
@@ -20859,16 +20715,13 @@
       "topic": "Erros comuns",
       "src": "/images/destinations/orlando/curated-mistakes.jpg",
       "key": "orlando/mistakes",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/mistakes",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5f3e359430e49b0dae7abed8707ed71cf07f15ba9ce683aa6d13e3e5c0bfd129",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Brightline_114_at_Orlando_International_Airport_Intermodal_Terminal_%2852372526275%29.jpg",
+      "title": "File:Brightline 114 at Orlando International Airport Intermodal Terminal (52372526275).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "74483b5db3a86a39a56741f89a30e492f764f282fe490c0ee92ccad8823ba659",
+      "width": 2400,
+      "height": 1807,
       "exifOrientation": 1
     },
     {
@@ -20877,16 +20730,13 @@
       "topic": "Dicas importantes",
       "src": "/images/destinations/orlando/curated-tips.jpg",
       "key": "orlando/tips",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/tips",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1d786d3802eb09eb51cfa20efef275531939b830a8a3efb98ec90bba2ac26a4c",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Disney_bus_in_Walt_Disney_World%2C_Florida.jpg",
+      "title": "File:Disney bus in Walt Disney World, Florida.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b54a0b210ca45320e15e77fdbee699e6fea4f2d95fae41ca423b2b9c21741f38",
+      "width": 2400,
+      "height": 1611,
       "exifOrientation": 1
     },
     {
@@ -21060,16 +20910,13 @@
       "topic": "Kennedy Space Center (bate-volta)",
       "src": "/images/destinations/orlando/curated-map-list-3.jpg",
       "key": "orlando/map-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/map-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7253d577dc341e38a49997c644087eb7eb1b5a7e8fc3eb6c90e8e8891685b253",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Kennedy_Space_Center_%2811654850054%29.jpg",
+      "title": "File:Kennedy Space Center (11654850054).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6ae634fda791525582313ff4ed64a054057a1017059257b5eee6591d9f39d5e2",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -21108,16 +20955,13 @@
       "topic": "Lake Eola",
       "src": "/images/destinations/orlando/curated-map-list-4.jpg",
       "key": "orlando/map-list-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/map-list-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4d35796dd2f45df16025d663a79651f2787cbb18b3d1a8dbb41128fe5a4186ae",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Lake_Eola-2.jpg",
+      "title": "File:Lake Eola-2.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fc8bbf9e852f969ea129e1b1a227a2861d01a9b164df8708a7dda802bec55599",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -21156,16 +21000,13 @@
       "topic": "International Drive",
       "src": "/images/destinations/orlando/curated-map-list-5.jpg",
       "key": "orlando/map-list-5",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/map-list-5",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "fd1dc61874b2cf20dfc150fe5c2f4b846b39ed8350d1488d5e35be3feb5dacb0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:IDrive_Street_View.JPG",
+      "title": "File:IDrive Street View.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6f41f4a61ab1c847c585243b3070528b7c6d7c489dd0dfc3d745744c4fe13a09",
+      "width": 1024,
+      "height": 682,
       "exifOrientation": 1
     },
     {
@@ -21294,16 +21135,13 @@
       "topic": "International Drive",
       "src": "/images/destinations/orlando/curated-neighborhood-detail-1.jpg",
       "key": "orlando/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3e8f5b858b4c324d5eb0c150ab8c8fac25df160f7edc66590d4ece511c65248e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:International_Drive_-_panoramio.jpg",
+      "title": "File:International Drive - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "445dacfded94aca53e953be39a51311c8d48351399371584084ce5e944935b5a",
+      "width": 1150,
+      "height": 696,
       "exifOrientation": 1
     },
     {
@@ -21480,16 +21318,13 @@
       "topic": "I-Drive",
       "src": "/images/destinations/orlando/curated-region-2.jpg",
       "key": "orlando/region-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/region-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ddc6670f16622b7e6dc931f2082ac9c6cebbe44ddedbf7572817a174461863d1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Around_Orlando%2C_Florida_%28440185%29_%289474694407%29.jpg",
+      "title": "File:Around Orlando, Florida (440185) (9474694407).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6b6b5b8ddcd884b078df0e442e43681b12a3e30154a64b4347b81824ab648548",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -21498,16 +21333,13 @@
       "topic": "I-Drive",
       "src": "/images/destinations/orlando/curated-region-list-2.jpg",
       "key": "orlando/region-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/region-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "fda669bca03e0412462a7bd127598ab7df64ffa765201758a616a57a603da0e5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Orlando_hotel_%28Orlando%2C_Florida%29_001.jpg",
+      "title": "File:Hyatt Regency Orlando hotel (Orlando, Florida) 001.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "69df5814e5c8df754c82418892473242c418df546e3ccc76fd40d11c205f828f",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -21546,16 +21378,13 @@
       "topic": "Hotel em Disney",
       "src": "/images/destinations/orlando/curated-hotel-0.jpg",
       "key": "orlando/hotel-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:orlando/hotel-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "495c13f1f7b7134768d1e0eba1f3685a68c06e59512b23ff7579f2b6878a8db0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Florida_-_Orlando_EPCOT_Center%2C_Walt_Disney_World_-_World_Showcase_-_China_Bamboo_framed_river_%2848520721491%29.jpg",
+      "title": "File:Florida - Orlando EPCOT Center, Walt Disney World - World Showcase - China Bamboo framed river (48520721491).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9c6ed70bd834f1b24cfd95ba079b00abbce79a2807ddad813c8169c75d7da4b9",
+      "width": 2048,
+      "height": 1152,
       "exifOrientation": 1
     },
     {
@@ -21669,16 +21498,13 @@
       "topic": "Punta Cana",
       "src": "/images/destinations/punta-cana/curated-hero.jpg",
       "key": "punta-cana/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "49891e90ad2639c4504ded3cec1062425d618bb6d9705e13bf10f48f4418adc9",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Punta_Cana_Beach_Cabeza_De_Toro_3.jpg",
+      "title": "File:Punta Cana Beach Cabeza De Toro 3.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ac5647f58bec896a218fd058f0e08d839002339ed2f6ebcd4975529f572fb6a4",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -21687,16 +21513,13 @@
       "topic": "Punta Cana",
       "src": "/images/destinations/punta-cana/curated-intro.jpg",
       "key": "punta-cana/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b0d30b5066a8f884f155b68b1377caea0e879da32b088433557a9a2f05001176",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:REPUBLICA_DOMINICANA_-_PUNTA_CANA_-_panoramio_%2812%29.jpg",
+      "title": "File:REPUBLICA DOMINICANA - PUNTA CANA - panoramio (12).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9b7499760140c1bd89c7e1a91b2a7324a7ae48f9beff7b4a531e4351ae62fde1",
+      "width": 2400,
+      "height": 1349,
       "exifOrientation": 1
     },
     {
@@ -21705,16 +21528,13 @@
       "topic": "Punta Cana",
       "src": "/images/destinations/punta-cana/curated-home.jpg",
       "key": "punta-cana/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1a7c227b3c45399e0741120d16211819939510fdbf02826db530d5ad62c18695",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Sea_cerca_del_Barcelo_Bavaro_Palace_Deluxe_-_panoramio.jpg",
+      "title": "File:Sea cerca del Barcelo Bavaro Palace Deluxe - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ac1571d6bbce49190daf6d701e0e78d619c70a9d307f19e365251ccb1239a47e",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -21723,16 +21543,13 @@
       "topic": "Punta Cana",
       "src": "/images/destinations/punta-cana/curated-guide-card.jpg",
       "key": "punta-cana/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "150d200ddc27c8e50ceb1f4e32e0c199d7439c843968284d54f9e0d09f265f90",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Panoramic_View_Hotel_Majestic_Resorts_Punta_Cana_Elegance_Club_%283266420760%29.jpg",
+      "title": "File:Panoramic View Hotel Majestic Resorts Punta Cana Elegance Club (3266420760).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d5dd377f095f885f44ba9189bb317c2488dd0d07b2c0201be2f0fc6e74ac1f2f",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -21741,16 +21558,13 @@
       "topic": "Punta Cana",
       "src": "/images/destinations/punta-cana/curated-guide-highlight.jpg",
       "key": "punta-cana/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "99efb02551bb8af3d2bc06ce955a888d6037f476668fed9c870d000b50285359",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Punta_Cana%2C_Rep%C3%BAblica_Dominicana_-_panoramio.jpg",
+      "title": "File:Punta Cana, República Dominicana - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "34ab45dcf3504a3cb00df06544da78991341d454738b20eca4d599b7b97c3168",
+      "width": 2400,
+      "height": 1709,
       "exifOrientation": 1
     },
     {
@@ -21759,16 +21573,13 @@
       "topic": "Punta Cana",
       "src": "/images/destinations/punta-cana/curated-home-slide.jpg",
       "key": "punta-cana/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "67121821fd07d794e52e96416bec3a8c4f15f5e573d08e0b82645060882c94e9",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Dominican_Republic_Beach_Bavaro_Tropics.jpg",
+      "title": "File:Dominican Republic Beach Bavaro Tropics.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a239e8c21aac59c56cae4ea30006559b1c0e430eebad739b500f83aeaebd15f6",
+      "width": 2400,
+      "height": 1637,
       "exifOrientation": 1
     },
     {
@@ -21777,16 +21588,13 @@
       "topic": "Punta Cana: miniatura da home",
       "src": "/images/destinations/punta-cana/curated-home-thumb.jpg",
       "key": "punta-cana/home-thumb",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/home-thumb",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d9411bef8c613a6d6f5efa9da05f90f80cafe44e4a0f035fa7f2cc6dca28590a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Sunset_on_the_beach_%2814709704699%29.jpg",
+      "title": "File:Sunset on the beach (14709704699).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b299a5b6becf93243b2ee2bdc788cc988932d006f8ca1f3779ca61ae8dc38b5a",
+      "width": 2400,
+      "height": 1349,
       "exifOrientation": 1
     },
     {
@@ -21882,16 +21690,13 @@
       "topic": "Erros comuns",
       "src": "/images/destinations/punta-cana/curated-mistakes.jpg",
       "key": "punta-cana/mistakes",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/mistakes",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "dfd24a74fb7f1045aac44b6d2e5f4e129695c4947c77ecc516f7251dd96b4cb2",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Departure_lounge_of_Terminal_One_at_Punta_Cana.jpg",
+      "title": "File:Departure lounge of Terminal One at Punta Cana.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0922bdf1b9689110c40e8bcd3319c229584587030f42501a7717db499aed2e1c",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -21900,16 +21705,13 @@
       "topic": "Dicas importantes",
       "src": "/images/destinations/punta-cana/curated-tips.jpg",
       "key": "punta-cana/tips",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/tips",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c0300a8b28fc43a10eacf0d4c7c554ae7da62bee8de86614404f9125c4bf3a7e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28121%29.jpg",
+      "title": "File:Bávaro, 23000, Dominican Republic - panoramio (121).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "77b6fcf26a2a740b568cc4995596b99a9dc4135efa974c136826c1596e17af53",
+      "width": 2400,
+      "height": 1353,
       "exifOrientation": 1
     },
     {
@@ -22575,16 +22377,13 @@
       "topic": "Hotel em Bávaro",
       "src": "/images/destinations/punta-cana/curated-hotel-0.jpg",
       "key": "punta-cana/hotel-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/hotel-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5f2e4c2d03623393218640da46b2f0a72e5101d5821639601697e7d764f522ad",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28103%29.jpg",
+      "title": "File:Bávaro, 23000, Dominican Republic - panoramio (103).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c9dbde21a6fd00943bcd89803f9793d866b355b4bc2d0e6b1434c7974dd02564",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -22674,16 +22473,13 @@
       "topic": "Hotel em Interior",
       "src": "/images/destinations/punta-cana/curated-hotel-3.jpg",
       "key": "punta-cana/hotel-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:punta-cana/hotel-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f87090fbf0f8ff12478ba3cba114e9c9bba2fc6129b4f420cbe1da31d39d3f3f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_Nuestra_Se%C3%B1ora_de_la_Altagracia.jpg",
+      "title": "File:Basilica Nuestra Señora de la Altagracia.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a22e4fea93af505aeac4003f865889835224984345f10645e8fdb19f66b9cd5f",
+      "width": 1224,
+      "height": 1632,
       "exifOrientation": 1
     },
     {
@@ -22737,16 +22533,13 @@
       "topic": "Los Angeles",
       "src": "/images/destinations/los-angeles/curated-home.jpg",
       "key": "los-angeles/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "cb9ae71f131787737d4bfe348d67e9db8092f882828eb459b31f057091cb93b9",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:LA_Skyline_Mountains2.jpg",
+      "title": "File:LA Skyline Mountains2.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "cc4bf28f50f304085802ca568988966a2d9737527edd0b344d4c6fb5c75ddf60",
+      "width": 2400,
+      "height": 1602,
       "exifOrientation": 1
     },
     {
@@ -22755,16 +22548,13 @@
       "topic": "Los Angeles",
       "src": "/images/destinations/los-angeles/curated-guide-card.jpg",
       "key": "los-angeles/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "54e6ba03a82ef9eebc2246a8be1e153aa98810b3ebea0d3d35910369efb99533",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Griffith_Observatory%2C_Los_Angeles_2011.jpg",
+      "title": "File:Griffith Observatory, Los Angeles 2011.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2d455386c5f7c6b6337896d6412226fc6cb8f6f7247c9bff6c49de7b3e7090fe",
+      "width": 1763,
+      "height": 1169,
       "exifOrientation": 1
     },
     {
@@ -22791,16 +22581,13 @@
       "topic": "Los Angeles",
       "src": "/images/destinations/los-angeles/curated-home-slide.jpg",
       "key": "los-angeles/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c442cabbd2fa6b4c22373e2706c4e9d6c23ffeb0ff5c49da3d5b6efb556f230b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Route_66_sign_-_Santa_Monica%2C_Los_Angeles.jpg",
+      "title": "File:Route 66 sign - Santa Monica, Los Angeles.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "00bf90c5477a903442b0f0b5f234cee5aa710ab9798ff29764a349567dbc10da",
+      "width": 2048,
+      "height": 1152,
       "exifOrientation": 1
     },
     {
@@ -23478,16 +23265,13 @@
       "topic": "Hollywood",
       "src": "/images/destinations/los-angeles/curated-region-1.jpg",
       "key": "los-angeles/region-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/region-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "86a7d1f3810bfc52180d6d8fa86c1a8764f6ed56ca4c33c448fd5d2affb45120",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Hollywood_Sign%2C_Los_Angeles%2C_California.jpg",
+      "title": "File:Hollywood Sign, Los Angeles, California.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ee242823d370ccbb8f86e1ae0bb4e0d964ea51fbf3bc20c826495767b2c40f9d",
+      "width": 1800,
+      "height": 1200,
       "exifOrientation": 1
     },
     {
@@ -23631,16 +23415,13 @@
       "topic": "Hotel em DTLA",
       "src": "/images/destinations/los-angeles/curated-hotel-2.jpg",
       "key": "los-angeles/hotel-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/hotel-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "410493319c91e9e8b77665684e992dc192dc0d53b781a5b1d9b43cf5ff3f9197",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_Los_Angeles-02.jpg",
+      "title": "File:Downtown Los Angeles-02.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "80db45915cbadfb847812a111789fc6e5ae69a6277290bb882a357065db9e415",
+      "width": 1408,
+      "height": 1056,
       "exifOrientation": 1
     },
     {
@@ -23649,16 +23430,13 @@
       "topic": "Hotel em DTLA",
       "src": "/images/destinations/los-angeles/curated-hotel-list-2.jpg",
       "key": "los-angeles/hotel-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:los-angeles/hotel-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6ba1ef216ff3e756d9e08e7ecf8ae903aaaa2d2ef5ff65133eceb1fa8a17ea12",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:6th_Street_Bridge_Los_Angeles_Sunscape_2.jpg",
+      "title": "File:6th Street Bridge Los Angeles Sunscape 2.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f875cf95191fe7326e0fb559a422a0439782375833612f3fc8472e129ff214a2",
+      "width": 2400,
+      "height": 899,
       "exifOrientation": 1
     },
     {
@@ -24735,16 +24513,13 @@
       "topic": "Vancouver",
       "src": "/images/destinations/vancouver/curated-home-slide.jpg",
       "key": "vancouver/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "69889d81335f2888eab579163e295ed5ebe7a26114fa550b0aaf7ca5993ba50f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Canada_Place_from_Stanley_Park.jpg",
+      "title": "File:Canada Place from Stanley Park.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1984b3c1f05119978a2ea880fa081a16177884ca13b56da7640ab7d1d5eda40b",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -24801,16 +24576,13 @@
       "topic": "Transporte",
       "src": "/images/destinations/vancouver/curated-essential-transporte.jpg",
       "key": "vancouver/essential-transporte",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/essential-transporte",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "173cff656ce0302726fa1928f9cf4ee4c2baed1e901512f5d92ac58997ea3f6b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Canada_Line_SkyTrain_pulling_into_station.JPG",
+      "title": "File:Canada Line SkyTrain pulling into station.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d979214cbc6f67377fe1754ae5c0824e88a626c2de1dcfdcb0697661e81025a0",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -25065,16 +24837,13 @@
       "topic": "Canada Place",
       "src": "/images/destinations/vancouver/curated-attraction-4.jpg",
       "key": "vancouver/attraction-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/attraction-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c919cd7d8093057907d353bb227b1e4a7611e8de75a444d0731d041a1bb76744",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Canada_Place_%26_Cruise_Ships_-_Vancouver_%282651698648%29.jpg",
+      "title": "File:Canada Place & Cruise Ships - Vancouver (2651698648).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f1a22be102286d25c36cf2fa4bd5250937e2245d275ac311318916dd60a2039e",
+      "width": 2400,
+      "height": 1203,
       "exifOrientation": 1
     },
     {
@@ -25098,16 +24867,13 @@
       "topic": "Canada Place",
       "src": "/images/destinations/vancouver/curated-map-list-4.jpg",
       "key": "vancouver/map-list-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/map-list-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4bf2179b8021fca222c4e6bb501e2f12b44fa63c5ac43d5834c0fda1a79f1daf",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Canada_Place%2C_Vancouver_-_panoramio.jpg",
+      "title": "File:Canada Place, Vancouver - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "74a79489b9a506f9f899b03c297ad3c11159fd6b22e41346f17944be7110b696",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -25404,16 +25170,13 @@
       "topic": "Stanley Park",
       "src": "/images/destinations/vancouver/curated-region-0.jpg",
       "key": "vancouver/region-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/region-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a8a6e08861833ea4b6c66a79fe663b88d8c232313ed9581452b41dfc5535013d",
+      "source": "https://commons.wikimedia.org/wiki/File:Stanley_Park%2C_Vancouver_%287889961258%29.jpg",
+      "title": "File:Stanley Park, Vancouver (7889961258).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "58a8c81ce989e49e6e2e5f9d872631a47095040ae49806f329007e131736fd96",
       "width": 1600,
-      "height": 900,
+      "height": 1165,
       "exifOrientation": 1
     },
     {
@@ -25482,16 +25245,13 @@
       "topic": "North Shore",
       "src": "/images/destinations/vancouver/curated-region-list-2.jpg",
       "key": "vancouver/region-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:vancouver/region-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "bfe496801ee221d0fa9c1b4a984b4f34a99d880803f84d9fe7b85096ed926609",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Lonsdale_%40_13th_North_Vancouver_BC.JPG",
+      "title": "File:Lonsdale @ 13th North Vancouver BC.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c042358dd8b560aa8771c5ba50b061800a2765380e0a983f415e314082f77a0f",
+      "width": 1100,
+      "height": 825,
       "exifOrientation": 1
     },
     {
@@ -25725,16 +25485,13 @@
       "topic": "Toronto",
       "src": "/images/destinations/toronto/curated-home-slide.jpg",
       "key": "toronto/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9336f098c1844c80dec22dc2a4bf6fc7b622461df02f36438117b97efb95d79f",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Another_look_at_the_classic_Toronto_skyline-_I_didn%27t_want_to_leave%21_%2827864705186%29.jpg",
+      "title": "File:Another look at the classic Toronto skyline- I didn't want to leave! (27864705186).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1d4b5473d8d2c88474989737b5b731980345326f9a53f84b672f6f4b23b0d819",
+      "width": 2400,
+      "height": 1589,
       "exifOrientation": 1
     },
     {
@@ -26253,16 +26010,13 @@
       "topic": "Entertainment District",
       "src": "/images/destinations/toronto/curated-neighborhood-1.jpg",
       "key": "toronto/neighborhood-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/neighborhood-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3f3d6c8305353ff82afc0bce8561c6c824c224d4fb93a4986b15a570bd5935d9",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:King_Street_Toronto.jpg",
+      "title": "File:King Street Toronto.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ac5873c2e733cda523152923b76a1b8534f7f7b4575ea632c3beadcbd8512808",
+      "width": 1200,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -26421,16 +26175,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/toronto/curated-region-1.jpg",
       "key": "toronto/region-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/region-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b7246ebb18ed21219f8ff24734cc2c0c3990baa25a797a7461db06ce3fe46683",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:444_Yonge_St.%2C_Toronto%2C_ON.JPG",
+      "title": "File:444 Yonge St., Toronto, ON.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d575feccd9fdf302b83ef0756670a727cdbf837f63cc91407cecda4ea6b071f0",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -26439,16 +26190,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/toronto/curated-region-list-1.jpg",
       "key": "toronto/region-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/region-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "920315e6b9dcf8bfa30f21efc8b5544a605b2e038dded93b5ab6f38dc46e18a1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_Toronto_%2839803549984%29.jpg",
+      "title": "File:Downtown Toronto (39803549984).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "58689b5b2fec243c39897bb6ac9e42ccd3a659955267cae273fef232615e30ce",
+      "width": 2400,
+      "height": 1544,
       "exifOrientation": 1
     },
     {
@@ -26502,16 +26250,13 @@
       "topic": "East",
       "src": "/images/destinations/toronto/curated-region-list-3.jpg",
       "key": "toronto/region-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/region-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "8f6cd05db77de16e255f670f4b03c0a5cd14026a305578c62dc8687555936523",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Greenwood_-_Coxwell%2C_Toronto%2C_ON%2C_Canada_-_panoramio_%281%29.jpg",
+      "title": "File:Greenwood - Coxwell, Toronto, ON, Canada - panoramio (1).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f6c508afd9985d150337abb5d7be04b140d1074ccf63cbbcb2ad3d01c2c4f50b",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -26625,16 +26370,13 @@
       "topic": "Hotel em East",
       "src": "/images/destinations/toronto/curated-hotel-list-3.jpg",
       "key": "toronto/hotel-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:toronto/hotel-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "f074c47e875deb05fbb3e61b971d505538a9c8f402b73aabd858fc7deaa4f866",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Greenwood_-_Coxwell%2C_Toronto%2C_ON%2C_Canada_-_panoramio.jpg",
+      "title": "File:Greenwood - Coxwell, Toronto, ON, Canada - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0a73b37e98d77e52d9e90affc1b428a821ec3f4679883ce101a576c1026f4a67",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -26865,16 +26607,13 @@
       "topic": "Vieux-Montréal",
       "src": "/images/destinations/montreal/curated-attraction-0.jpg",
       "key": "montreal/attraction-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/attraction-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "2a3919948d85ac79a31f8a8664ce6c219031cb34793928793d3fcbd72df24383",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Place_d%27Armes%2C_Vieux-Montreal%2C_Montreal%2C_Quebec_%2830068288195%29.jpg",
+      "title": "File:Place d'Armes, Vieux-Montreal, Montreal, Quebec (30068288195).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ca6d226731a50af22cfa49b897e0b74341105a077eb849523e994cf1b42d035b",
+      "width": 1766,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -26901,16 +26640,13 @@
       "topic": "Vieux-Montréal",
       "src": "/images/destinations/montreal/curated-map-list-0.jpg",
       "key": "montreal/map-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/map-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "e80e0b8c9e01adbacb0bb61651a25fb1c085a30cca44f4a2c5de71213866e284",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Place_d%27Armes%2C_Vieux-Montreal%2C_Montreal%2C_Quebec_%2829441275733%29.jpg",
+      "title": "File:Place d'Armes, Vieux-Montreal, Montreal, Quebec (29441275733).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "73f3d8a606c0cf38119d63fbe4d1d4ba97bbc3fc02fdd6cef5cd143927057f19",
+      "width": 1757,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -27240,16 +26976,13 @@
       "topic": "Vieux-Montréal",
       "src": "/images/destinations/montreal/curated-neighborhood-detail-0.jpg",
       "key": "montreal/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d0a7ec09edc1e52f54ed2ebe93df9777035d052e46ef56a5cfb7ec80d1d9743e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Basilique_Notre-Dame_de_Montr%C3%A9al%2C_Vieux-Montreal%2C_Montreal%2C_Quebec_%2829954826332%29.jpg",
+      "title": "File:Basilique Notre-Dame de Montréal, Vieux-Montreal, Montreal, Quebec (29954826332).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "1838bda2182e363f0084aae413ef08a9e0fde3b10f10eed4590ca10b87c81425",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -27393,16 +27126,13 @@
       "topic": "Vieux",
       "src": "/images/destinations/montreal/curated-region-0.jpg",
       "key": "montreal/region-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/region-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7e964ef28815e4ba4bd4f4b15d000c29d3cc92e68dfc9e8ebf402046906120c8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Chapelle_Notre-Dame-de-Bon-Secours_-_Mus%C3%A9e_Marguerite-Bourgeoys.jpg",
+      "title": "File:Chapelle Notre-Dame-de-Bon-Secours - Musée Marguerite-Bourgeoys.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "bc7344091cdb6a7ae600b93aa092ef72b0ba2f29c2bb20beccf783ed73a5d39e",
+      "width": 2400,
+      "height": 2049,
       "exifOrientation": 1
     },
     {
@@ -27456,16 +27186,13 @@
       "topic": "Mont Royal",
       "src": "/images/destinations/montreal/curated-region-2.jpg",
       "key": "montreal/region-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/region-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "edb5de4ca5595ae975df280dcfd6c3bf394d77b110064fd96e0fe71034469e27",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Montreal_from_above_Mont_Royal.jpg",
+      "title": "File:Montreal from above Mont Royal.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "23dc7d5902eb109614cf100708e5cb1f3864816a74606762aa5c673bea313fa6",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -27519,16 +27246,13 @@
       "topic": "Hotel em Vieux",
       "src": "/images/destinations/montreal/curated-hotel-0.jpg",
       "key": "montreal/hotel-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/hotel-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "24ec26f8811fcd381069c99a389420e06dc6fb95df76837ec87011013e03324e",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilique_Notre-Dame_de_Montr%C3%A9al%2C_Vieux-Montreal%2C_Montreal%2C_Quebec_%2830068169545%29.jpg",
+      "title": "File:Basilique Notre-Dame de Montréal, Vieux-Montreal, Montreal, Quebec (30068169545).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "68e90532e2758513526c361ecfa9f0231639d3faf3dedf687d4f8f635dbdffc4",
       "width": 1600,
-      "height": 900,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -27597,16 +27321,13 @@
       "topic": "Hotel em Mont Royal",
       "src": "/images/destinations/montreal/curated-hotel-list-2.jpg",
       "key": "montreal/hotel-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:montreal/hotel-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0fe1c8405662a901cc4f03fbd72d48ed0393a8eac5db45200409a90ed2e03a59",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Mount_Royal_%40_Montreal_%2829786116864%29.jpg",
+      "title": "File:Mount Royal @ Montreal (29786116864).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "05dcbd97780d6b89add6dd93a0467738efd90b5ad51f591955a25a59a9f11117",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -27720,16 +27441,13 @@
       "topic": "Cidade do Panamá",
       "src": "/images/destinations/cidade-do-panama/curated-home-slide.jpg",
       "key": "cidade-do-panama/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-panama/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "75e4c4479edebcc427d0a05c42cb7a2a19acfb249bdf160c3b36ea1a8c3de795",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Cristo_Rey_en_Ciudad_de_Panam%C3%A1_2025.jpg",
+      "title": "File:Iglesia de Cristo Rey en Ciudad de Panamá 2025.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0e7ec6c6b49d05ea6eef2a09f536495ce810bd8a1f998faeb729a9b1a8d46668",
+      "width": 2400,
+      "height": 1351,
       "exifOrientation": 1
     },
     {
@@ -27738,13 +27456,16 @@
       "topic": "Cidade do Panamá: miniatura da home",
       "src": "/images/destinations/cidade-do-panama/curated-home-thumb.jpg",
       "key": "cidade-do-panama/home-thumb",
-      "source": "https://commons.wikimedia.org/wiki/File:Panama_City_%28148830795%29.jpeg",
-      "title": "File:Panama City (148830795).jpeg",
-      "visualReview": "accepted",
-      "flags": [],
-      "sha256": "5bb7876ceb636f19580b3f9e53c75d42011326fed6f95410bc74774997616988",
-      "width": 2048,
-      "height": 1150,
+      "source": "placeholder-pending-commons",
+      "title": "Placeholder:cidade-do-panama/home-thumb",
+      "visualReview": "pending",
+      "flags": [
+        "placeholder",
+        "not-visually-accepted"
+      ],
+      "sha256": "aaeb167319d6dcb534b24e1e61df3da54b5c12ad4a5bfb8f7b9e8bce83e6e0b0",
+      "width": 1600,
+      "height": 900,
       "exifOrientation": 1
     },
     {
@@ -28443,16 +28164,13 @@
       "topic": "Amador",
       "src": "/images/destinations/cidade-do-panama/curated-region-2.jpg",
       "key": "cidade-do-panama/region-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-panama/region-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ce7e914dd0b2c448bb93ec337f9c31e9efa633a5b926e2e173270f9c30533ae1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Causeway_de_Amador.jpg",
+      "title": "File:Causeway de Amador.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e4ad13802661458d5d63acb9162166ba0482c5d4447c065efca8b6244ed59447",
+      "width": 1024,
+      "height": 768,
       "exifOrientation": 1
     },
     {
@@ -28512,16 +28230,13 @@
       "topic": "Hotel em Casco",
       "src": "/images/destinations/cidade-do-panama/curated-hotel-0.jpg",
       "key": "cidade-do-panama/hotel-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-panama/hotel-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9da9b6800977d280e4336c6391c60bd3981d316cc37b27ffd167923d7148e511",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Casco_viejo%2C_Panam%C3%A1.jpg",
+      "title": "File:Casco viejo, Panamá.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "43e624b52132508fdeee38d0cb3c523b44daf3890b9b8d07159b32d952b6c9bd",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -28857,16 +28572,13 @@
       "topic": "Dicas importantes",
       "src": "/images/destinations/havana/curated-tips.jpg",
       "key": "havana/tips",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/tips",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "57746e1344d65b5126141797d9c43e566bed50202f1e387bdd38b6ad1090d59e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_04.jpg",
+      "title": "File:Calle Obispo. Habana Vieja, La Habana, Cuba. Agosto de 2016 04.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d97f06c186bf52beb17a896700161c1c34fc5f8ee9c8f3c3087844e196686e8f",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -29160,16 +28872,13 @@
       "topic": "Ícones principais",
       "src": "/images/destinations/havana/curated-day-1.jpg",
       "key": "havana/day-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/day-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "5398f9644b01134b19db861b05f15237cb26f548b1c28698c644b2ff8b0e9105",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_01.jpg",
+      "title": "File:Calle Obispo. Habana Vieja, La Habana, Cuba. Agosto de 2016 01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "dabe647bf9e4620aae7d15ff65e4eadfb5d3324d86eae193fc73faa951166449",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -29178,16 +28887,13 @@
       "topic": "Bairros e gastronomia",
       "src": "/images/destinations/havana/curated-day-2.jpg",
       "key": "havana/day-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/day-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a31d4f265dee9f9385499ba60975b7857ad39e8367e3b99e39e00a2e876d91ad",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_%2828294177117%29.jpg",
+      "title": "File:Habana Vieja (28294177117).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "db39ff822e2220c154ebce0668d718aeffedcd4716773ccdf01c98e5144586b9",
+      "width": 1619,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -29337,16 +29043,13 @@
       "topic": "Miramar",
       "src": "/images/destinations/havana/curated-neighborhood-detail-3.jpg",
       "key": "havana/neighborhood-detail-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/neighborhood-detail-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0580d5215f1c4fc951cdc1323089f451bc32f7af56ecf1afb187dc0dd869f1fb",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Mansiones_de_Miramar_-_panoramio.jpg",
+      "title": "File:Mansiones de Miramar - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d022ba0ec1098f790764875991dbf57b4aa7543e40ad9fb0da46553381b88962",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -29400,16 +29103,13 @@
       "topic": "Vieja",
       "src": "/images/destinations/havana/curated-region-0.jpg",
       "key": "havana/region-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/region-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ef51ade8d6660c6b09509094fcd4b51553eecff9e9775e6d0341f10aba73e8b0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_%2827955284599%29.jpg",
+      "title": "File:Habana Vieja (27955284599).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c3c365d189f7ecce0bed71f578f3b0a26c9e62cda963a9f1e5a826f8d7394222",
+      "width": 2400,
+      "height": 1619,
       "exifOrientation": 1
     },
     {
@@ -29448,16 +29148,13 @@
       "topic": "Malecón",
       "src": "/images/destinations/havana/curated-region-list-1.jpg",
       "key": "havana/region-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/region-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "6483fd1777234b4ec8966ffd3bd6220a50bd4446c781fbedebb655d48c5569fd",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Buildings_on_the_Malecon_%283216618454%29.jpg",
+      "title": "File:Buildings on the Malecon (3216618454).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7d98c95e1d8d09b3fea12abd20419ed0fa2238b75c3690d05c9d1b99bed76395",
+      "width": 1906,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -29541,16 +29238,13 @@
       "topic": "Hotel em Vieja",
       "src": "/images/destinations/havana/curated-hotel-list-0.jpg",
       "key": "havana/hotel-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/hotel-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "373ade562135465088efa07ee0c9dab0cff7dce312e8ed758659da8f2834a847",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Calle_Brasil._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_03.jpg",
+      "title": "File:Calle Brasil. Habana Vieja, La Habana, Cuba. Agosto de 2016 03.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "04897046f6a3dd5e757c1113e7b22a065883769f697bf90f4760e29b1528e868",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -29559,16 +29253,13 @@
       "topic": "Hotel em Malecón",
       "src": "/images/destinations/havana/curated-hotel-1.jpg",
       "key": "havana/hotel-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havana/hotel-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a6589b8c893f36256dff767e4e8600622c91dcd8d19e949ff8634e7ef56e2f54",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Car_on_the_Malecon_%2848981733782%29.jpg",
+      "title": "File:Blue Car on the Malecon (48981733782).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "4b98e223731cc653db3a81b7059b4a986856e21d3ebe481c3a661056b102914a",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -29652,16 +29343,13 @@
       "topic": "Cidade do México",
       "src": "/images/destinations/cidade-do-mexico/curated-hero.jpg",
       "key": "cidade-do-mexico/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "44be3b5340e6b6ce4f91e8d93c449715ff63726a62f33ba02180d1d04efe41c1",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Av._de_la_Republica%2C_Mexico_City_2020.jpg",
+      "title": "File:Av. de la Republica, Mexico City 2020.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0218305f7aab985d1fa464e830b022243e0aaf9b50a8429fac1ab8b6b32e10d0",
+      "width": 2400,
+      "height": 1596,
       "exifOrientation": 1
     },
     {
@@ -29670,16 +29358,13 @@
       "topic": "Cidade do México",
       "src": "/images/destinations/cidade-do-mexico/curated-intro.jpg",
       "key": "cidade-do-mexico/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7fa075916273f5534e56fc09aa59f21c7f51f541d7dcd0fcc49de26d0d38c50e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Avenida_5_de_Mayo_con_Eje_Central_L%C3%A1zaro_C%C3%A1rdenas%2C_Ciudad_de_M%C3%A9xico.jpg",
+      "title": "File:Avenida 5 de Mayo con Eje Central Lázaro Cárdenas, Ciudad de México.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "4c205f9d9af5a167741b0150ff32935bc0874e7eeaf17435a9d5c0fac2238600",
+      "width": 2400,
+      "height": 1706,
       "exifOrientation": 1
     },
     {
@@ -30009,16 +29694,13 @@
       "topic": "Museo Frida Kahlo",
       "src": "/images/destinations/cidade-do-mexico/curated-map-list-2.jpg",
       "key": "cidade-do-mexico/map-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/map-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ff40de7f5093a2034467e150e7c56429a5d69c069a556435f34109c4a1f7f70d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo_Museum_Coyoacan.jpg",
+      "title": "File:Frida Kahlo Museum Coyoacan.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "4e581f66ed05dde0c3a247fcc0a8cb2ee683d3a231fa267173a1390457caec0f",
+      "width": 1280,
+      "height": 960,
       "exifOrientation": 1
     },
     {
@@ -30027,16 +29709,13 @@
       "topic": "Chapultepec",
       "src": "/images/destinations/cidade-do-mexico/curated-attraction-3.jpg",
       "key": "cidade-do-mexico/attraction-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/attraction-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "63f1c17d651fe961bf8273195753c2f59e3590fe7ddffc654e23e98b1e7628e2",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_Lateral_-_Chapultepec_Castle_-_Mexico_2024.jpg",
+      "title": "File:Jardín Lateral - Chapultepec Castle - Mexico 2024.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "08e247cd6392e8e939063d7e0ece88291f796086d4896e2f0d7332c7afe372b0",
+      "width": 2400,
+      "height": 1138,
       "exifOrientation": 1
     },
     {
@@ -30063,16 +29742,13 @@
       "topic": "Chapultepec",
       "src": "/images/destinations/cidade-do-mexico/curated-map-list-3.jpg",
       "key": "cidade-do-mexico/map-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/map-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1c9c15d843863c82081e4f825d736fe87c60255e28b280fde572428523de9c1a",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Main_Building_-_Chapultepec_Castle_-_Mexico_2024.jpg",
+      "title": "File:Main Building - Chapultepec Castle - Mexico 2024.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f6d5df4c17cf3008f5ea16d7df944d07c69446ad8e9702fac674877f10ce598e",
+      "width": 2400,
+      "height": 1372,
       "exifOrientation": 1
     },
     {
@@ -30081,16 +29757,13 @@
       "topic": "Coyoacán",
       "src": "/images/destinations/cidade-do-mexico/curated-attraction-4.jpg",
       "key": "cidade-do-mexico/attraction-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/attraction-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "40dad8f03164dd267d3a05e777971b44166abf83cefbf57af3abafff708758cc",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_de_Cultura_Jes%C3%BAs_Reyes_H%C3%A9roles_-_Coyoac%C3%A1n_-_Mexico_2024.jpg",
+      "title": "File:Casa de Cultura Jesús Reyes Héroles - Coyoacán - Mexico 2024.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "be7452926046124e84296ede942bcc95d596f96eda08590fbc15a24ca2681d38",
+      "width": 2400,
+      "height": 1215,
       "exifOrientation": 1
     },
     {
@@ -30114,16 +29787,13 @@
       "topic": "Coyoacán",
       "src": "/images/destinations/cidade-do-mexico/curated-map-list-4.jpg",
       "key": "cidade-do-mexico/map-list-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/map-list-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ac6d4da50bab22eafc85e97b3edb8048474709acb7c36493b7848d277727096b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Coyoacan_02.jpg",
+      "title": "File:Coyoacan 02.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "58f2357a57b77fa624c76e2ac8e76776beeb410a1987f364179c1e489405f004",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -30192,16 +29862,13 @@
       "topic": "Ícones principais",
       "src": "/images/destinations/cidade-do-mexico/curated-day-1.jpg",
       "key": "cidade-do-mexico/day-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/day-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "224963376e278ac19f08d411897d0e16c6485d1f33b7028a687b979836703e55",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:CathedralCrowdGrito2010.JPG",
+      "title": "File:CathedralCrowdGrito2010.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f9906ae93c9eb96b75ebeb356db06e236c3e2367773acc839e8aa5bb8400cab6",
+      "width": 2400,
+      "height": 1607,
       "exifOrientation": 1
     },
     {
@@ -30315,16 +29982,13 @@
       "topic": "Polanco",
       "src": "/images/destinations/cidade-do-mexico/curated-neighborhood-2.jpg",
       "key": "cidade-do-mexico/neighborhood-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/neighborhood-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ecc676ec5d235fc7406bf5b6c979020065328ae6a477b3d61cce147c5258a946",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Mexico_-_Mexico_City%2C_Lincoln_Park_at_Polanco_2015_-_panoramio.jpg",
+      "title": "File:Mexico - Mexico City, Lincoln Park at Polanco 2015 - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2d204b77b96477882c65ed3c51bb9435e05837916ed6f78231b26fb207c0cfa1",
+      "width": 2400,
+      "height": 1350,
       "exifOrientation": 1
     },
     {
@@ -30333,16 +29997,13 @@
       "topic": "Polanco",
       "src": "/images/destinations/cidade-do-mexico/curated-neighborhood-detail-2.jpg",
       "key": "cidade-do-mexico/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0d31a9d903fe3e10e221919984c3629221c873115d8b9a2742a2662ac1538b75",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Antara_Polanco-exterior.jpg",
+      "title": "File:Antara Polanco-exterior.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fd41c9158ee9a0eb46c0e70c490add6c8b4ac0c9ebe693c2d110d05fb7c2a2b2",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -30351,16 +30012,13 @@
       "topic": "Coyoacán",
       "src": "/images/destinations/cidade-do-mexico/curated-neighborhood-3.jpg",
       "key": "cidade-do-mexico/neighborhood-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/neighborhood-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "20a36e2e23da3d1b6277a29e5bf8b43f0c1c25be04567b4824f682d5f865bd8e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Casa_de_Cultura_Jes%C3%BAs_Reyes_H%C3%A9roles_-_Coyoac%C3%A1n_-_Mexico_2024_%282%29.jpg",
+      "title": "File:Casa de Cultura Jesús Reyes Héroles - Coyoacán - Mexico 2024 (2).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2b143d67767260905920e60e4d868db05a4aa0993982a70eb4109c8e60ef15cf",
+      "width": 2400,
+      "height": 1138,
       "exifOrientation": 1
     },
     {
@@ -30429,16 +30087,13 @@
       "topic": "Centro",
       "src": "/images/destinations/cidade-do-mexico/curated-region-0.jpg",
       "key": "cidade-do-mexico/region-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/region-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b1ea559067b09dd7f8dc318b46e54dbaa7b2f4713c32203be4293e945f92d026",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Casino_Espa%C3%B1ol_en_Mexico_-_Calle_Isabel_la_Cat%C3%B3lica_-_Mexico_2024_%282%29.jpg",
+      "title": "File:Casino Español en Mexico - Calle Isabel la Católica - Mexico 2024 (2).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b6121e93921c98272927191041e24216f6f0c2629c786e8d772bb3220b121b31",
+      "width": 2400,
+      "height": 1138,
       "exifOrientation": 1
     },
     {
@@ -30477,16 +30132,13 @@
       "topic": "Chapultepec",
       "src": "/images/destinations/cidade-do-mexico/curated-region-list-1.jpg",
       "key": "cidade-do-mexico/region-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/region-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ea2a3556f1117f72615faa4abe92ffa6268320a12755f02dcef04b3363442a19",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_Lateral_-_Chapultepec_Castle_-_Mexico_2024_%282%29.jpg",
+      "title": "File:Jardín Lateral - Chapultepec Castle - Mexico 2024 (2).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e312b7222b38e2f0f79bd7fe4d03f7cf467a00486f1bb7dff8bd5da9ae9178c0",
+      "width": 2400,
+      "height": 1138,
       "exifOrientation": 1
     },
     {
@@ -30603,16 +30255,13 @@
       "topic": "Hotel em Chapultepec",
       "src": "/images/destinations/cidade-do-mexico/curated-hotel-list-1.jpg",
       "key": "cidade-do-mexico/hotel-list-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/hotel-list-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1940cc0e29b13a32f7261d0458e4fcf3142a9713d875d9decc711afb413f6012",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Jard%C3%ADn_Lateral_-_Chapultepec_Castle_-_Mexico_2024_%283%29.jpg",
+      "title": "File:Jardín Lateral - Chapultepec Castle - Mexico 2024 (3).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "66ae2b2ebda61ea0ae40392fc9d55dc7480189a90a368c674db121155fbcefda",
+      "width": 2400,
+      "height": 1138,
       "exifOrientation": 1
     },
     {
@@ -30666,16 +30315,13 @@
       "topic": "Hotel em Teotihuacán",
       "src": "/images/destinations/cidade-do-mexico/curated-hotel-list-3.jpg",
       "key": "cidade-do-mexico/hotel-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:cidade-do-mexico/hotel-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b26e381dc781ce01a826a4500e9dc27908a0517f8b489085c9dbec878a2f4cb7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:June_2007_Teotihuacan_26.jpg",
+      "title": "File:June 2007 Teotihuacan 26.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "216453dc8603696693b6e53ca6c0d92a1714147e33d302587449e9912927e508",
+      "width": 2048,
+      "height": 1536,
       "exifOrientation": 1
     },
     {
@@ -30699,16 +30345,13 @@
       "topic": "Porto Rico",
       "src": "/images/destinations/porto-rico/curated-intro.jpg",
       "key": "porto-rico/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b56b156cf521785d6b808fcd0a80a57e7ce0cc26722ddb376a239c2c26be9184",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Bus_in_San_Juan%2C_Puerto_Rico.jpg",
+      "title": "File:Bus in San Juan, Puerto Rico.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ef9f9ba14044750c07a4182fd953a8b793dbea4076d8ba60c87ada891ca709e7",
+      "width": 2400,
+      "height": 1384,
       "exifOrientation": 1
     },
     {
@@ -30717,16 +30360,13 @@
       "topic": "Porto Rico",
       "src": "/images/destinations/porto-rico/curated-home.jpg",
       "key": "porto-rico/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "937f825042a8435dce7a21586c7e7135ebaef74f4b7da2b0b169164f80183ea0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Flying_into_San_Juan-Puerto_Rico.jpg",
+      "title": "File:Flying into San Juan-Puerto Rico.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "cfcde69d0ce9843b93a9a625c3ed2de817eb7f9e1cbbee8f4d4f4a93d319e923",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -30780,16 +30420,13 @@
       "topic": "Porto Rico: miniatura da home",
       "src": "/images/destinations/porto-rico/curated-home-thumb.jpg",
       "key": "porto-rico/home-thumb",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/home-thumb",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "295fe96fe8bfae05804403ba7119f11ffc489d76b9895b0dba00a7976b16f155",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:El_Morro_at_sunset.jpg",
+      "title": "File:El Morro at sunset.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "b487c1a4a0f6b80233f1cf25857106169031b6a8d5dba8c103f802956be8466e",
+      "width": 2400,
+      "height": 1594,
       "exifOrientation": 1
     },
     {
@@ -30798,16 +30435,13 @@
       "topic": "Moeda & pagamentos",
       "src": "/images/destinations/porto-rico/curated-essential-moeda.jpg",
       "key": "porto-rico/essential-moeda",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/essential-moeda",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b51a858b2e855ac83deefd0b636a4c3bacaf2f8a491027ab1e692a11278edd02",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:New100back.jpg",
+      "title": "File:New100back.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "036873b1d3670ac8ecd5ddf922ef6ede11d1196d9cf9b6725f5fa9aa4f61f785",
+      "width": 1200,
+      "height": 502,
       "exifOrientation": 1
     },
     {
@@ -31518,16 +31152,13 @@
       "topic": "Ilhas",
       "src": "/images/destinations/porto-rico/curated-region-3.jpg",
       "key": "porto-rico/region-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/region-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "7eac05c9eb952026e8f36200a3941ac6b84cf76157b9d739db429353c68c71ad",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Aerial_of_Dewey%2C_Culebra._Looking_south_west_at_the_ferry_landing.jpg",
+      "title": "File:Aerial of Dewey, Culebra. Looking south west at the ferry landing.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "acac68a79592797addbd4b8e8d97ea0b2e116e7873e22d37dd8445eb519fdb51",
+      "width": 2400,
+      "height": 1594,
       "exifOrientation": 1
     },
     {
@@ -31536,16 +31167,13 @@
       "topic": "Ilhas",
       "src": "/images/destinations/porto-rico/curated-region-list-3.jpg",
       "key": "porto-rico/region-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:porto-rico/region-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d664bdc90b472d49b519f8c3f442854bcd1811779bcc717be31b848b6d5a06e7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Flamenco_Beach_%28right%29_in_Culebra_Island%2C_Puerto_Rico.jpg",
+      "title": "File:Flamenco Beach (right) in Culebra Island, Puerto Rico.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "18881e00366c3b7b83a0a56951108711c41f2225745c811b3b323b1fa65f068a",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -31674,16 +31302,13 @@
       "topic": "Havaí",
       "src": "/images/destinations/havai/curated-hero.jpg",
       "key": "havai/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "43ae1c3772b975121da647369f9e7d8fbbcf1d4c3b2987a64fde07cbe50f0c78",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Hanakoa_From_The_Sea_%28209049201%29.jpeg",
+      "title": "File:Hanakoa From The Sea (209049201).jpeg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c1ecac0bdeae949f6036af991337ae5afcb2716f43c556f5abf6d5b9d6a42c54",
+      "width": 2048,
+      "height": 1365,
       "exifOrientation": 1
     },
     {
@@ -31692,16 +31317,13 @@
       "topic": "Havaí",
       "src": "/images/destinations/havai/curated-intro.jpg",
       "key": "havai/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d87164fbf02c1250413109c23994595711248fc271ffb56e61d775d8118fbd96",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Hawaii_Big_Isalnd_-_Flickr_-_szeke.jpg",
+      "title": "File:Hawaii Big Isalnd - Flickr - szeke.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9c74a4c479e66f6b7d5880cd2185039685ff1ad8048a22b9b6a23914486462ed",
+      "width": 2400,
+      "height": 1601,
       "exifOrientation": 1
     },
     {
@@ -31710,16 +31332,13 @@
       "topic": "Havaí",
       "src": "/images/destinations/havai/curated-home.jpg",
       "key": "havai/home",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/home",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "2070c4cb1859dc3f917dcd1ced89efb7c24f39f19cbf569d234e5c75f7ecc455",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Aerial_Waimea_Canyon_Vantage.jpg",
+      "title": "File:Aerial Waimea Canyon Vantage.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "089cd848a93ad3b1041ca41abedecfa989e29f7da97e1ed3ce823515c840eb51",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -31728,16 +31347,13 @@
       "topic": "Havaí",
       "src": "/images/destinations/havai/curated-guide-card.jpg",
       "key": "havai/guide-card",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/guide-card",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "9cedffbe5671b35e8cd129b7d37beaa54e20d35d7bd3a18a3838e1749781eb75",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Lapahoehoe%2C_Hawai%27i.jpg",
+      "title": "File:Lapahoehoe, Hawai'i.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "f45f06989555e4532dc2d6298295b313ec832fed55a481f7c188747db12207ce",
+      "width": 2000,
+      "height": 1280,
       "exifOrientation": 1
     },
     {
@@ -31746,16 +31362,13 @@
       "topic": "Havaí",
       "src": "/images/destinations/havai/curated-guide-highlight.jpg",
       "key": "havai/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "aa1058c4adea3469252906ba2eb0684365f7ebc221c65577d70f272a4d4fa19d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Kamaole_Beach_Park_III_%28%5E384_explore_09-16-20%29_-_Flickr_-_Kirt_Edblom.jpg",
+      "title": "File:Kamaole Beach Park III (^384 explore 09-16-20) - Flickr - Kirt Edblom.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "6ef19459f4591d68a5d4a2ff8b1379e0107cf5eb0f306116ec13b12c11ef67a2",
+      "width": 2400,
+      "height": 1602,
       "exifOrientation": 1
     },
     {
@@ -31941,16 +31554,13 @@
       "topic": "Waikiki Beach",
       "src": "/images/destinations/havai/curated-map-list-0.jpg",
       "key": "havai/map-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/map-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d241f0136ef2b83ff9024b2b6eceb22fad34c5f21857b5ffd523d34aa0263685",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Waikiki_Beach_and_Honolulu%2C_Hawaii%2C_Highsmith.jpg",
+      "title": "File:Aerial view of Waikiki Beach and Honolulu, Hawaii, Highsmith.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7ae8fa1d5920c057e7fd97a0d2e095493bc5073794baeacdea0eca78a369fb42",
+      "width": 1024,
+      "height": 683,
       "exifOrientation": 1
     },
     {
@@ -32052,16 +31662,13 @@
       "topic": "Road to Hana (Maui)",
       "src": "/images/destinations/havai/curated-attraction-3.jpg",
       "key": "havai/attraction-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/attraction-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4991ead043b961e6c3da5615f5cb02954e33c3186238bc6545b3d6ae88cf93f0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Hawaii_Maui_Road_to_Hana_%2822461743880%29.jpg",
+      "title": "File:Hawaii Maui Road to Hana (22461743880).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "8282555eff2b39a9b11d48816bf58951185bd26ef738f96d2138fe55ef870539",
+      "width": 2400,
+      "height": 1248,
       "exifOrientation": 1
     },
     {
@@ -32070,16 +31677,13 @@
       "topic": "Road to Hana (Maui)",
       "src": "/images/destinations/havai/curated-map-attraction-3.jpg",
       "key": "havai/map-attraction-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/map-attraction-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "cf9bcd13e86342592f4a19e901b82fa0e9d626d408447ed12da5392f612f1f02",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Hana_Lava_tube_Maui_Hawaii_Road_to_Hana_%2830800769357%29.jpg",
+      "title": "File:Hana Lava tube Maui Hawaii Road to Hana (30800769357).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "22fba4b98d3bc72c9fc0be4648e7c5215583b6e1ad73d297d5c24135c80a53c6",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -32289,16 +31893,13 @@
       "topic": "Waikiki",
       "src": "/images/destinations/havai/curated-neighborhood-detail-0.jpg",
       "key": "havai/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "af831043d20193a5c66569bd82b896dd79d835131db84931c4adb8494e57e33d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Waikiki_Beach%2C_Oahu%2C_Hawaii%2C_USA10.jpg",
+      "title": "File:Waikiki Beach, Oahu, Hawaii, USA10.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "716ce620b3c57d3c360f9d03bc19f5b1e9bcdc706644f82e69ee7948df9da56d",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -32457,16 +32058,13 @@
       "topic": "Oahu South",
       "src": "/images/destinations/havai/curated-region-list-0.jpg",
       "key": "havai/region-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/region-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "97ca998553a8dc345f273ddadc4ed3410b7bb5399b0f6065a6e2277b108977f7",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Waikiki_Beach%2C_Oahu%2C_Hawaii%2C_USA2.jpg",
+      "title": "File:Waikiki Beach, Oahu, Hawaii, USA2.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ac8a8e49f855ea143ab5f19a8f0521f85e7418f3a03b1d349d38c7d6bb3b221c",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -32565,16 +32163,13 @@
       "topic": "Hotel em Oahu South",
       "src": "/images/destinations/havai/curated-hotel-0.jpg",
       "key": "havai/hotel-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/hotel-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "08f8c1d22229961f702a0e0891ac07aad8e3d9851b0d7c44d26833311c840ecd",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Christmas_in_Waikiki_%285292686338%29.jpg",
+      "title": "File:Christmas in Waikiki (5292686338).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ffca8e3d161728586c5be30e679001591371d7e443b2adb5daea6d089bad2dd8",
+      "width": 2400,
+      "height": 1607,
       "exifOrientation": 1
     },
     {
@@ -32643,16 +32238,13 @@
       "topic": "Hotel em Maui",
       "src": "/images/destinations/havai/curated-hotel-list-2.jpg",
       "key": "havai/hotel-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:havai/hotel-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "dcf58d33102a9f5ecfd4925b9a4cedfd75c4663fec5900ef1df3573f605c3610",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Clouds_Maui_landscape.jpg",
+      "title": "File:Clouds Maui landscape.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0665ef70498676a39b211a854b2a0f1bbd5f8f320bcd7c44b00a37d2874b7efc",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -32694,16 +32286,13 @@
       "topic": "Bahamas",
       "src": "/images/destinations/bahamas/curated-hero.jpg",
       "key": "bahamas/hero",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/hero",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1e010260d57559651fccb03c18ed85e24ee35d4cf80cff88f90e5d6c2fb2db0d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Nassau%2C_The_Bahamas_%28Unsplash_6ieXV38E3h8%29.jpg",
+      "title": "File:Nassau, The Bahamas (Unsplash 6ieXV38E3h8).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "9312b148a920fa17f471965ca6e40a30d4d09572b917e9119b6cd3feb009628d",
+      "width": 2400,
+      "height": 1601,
       "exifOrientation": 1
     },
     {
@@ -32712,16 +32301,13 @@
       "topic": "Bahamas",
       "src": "/images/destinations/bahamas/curated-intro.jpg",
       "key": "bahamas/intro",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/intro",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "1f1e737a3d8f84e00e1353dcaaae2ca32febf4f5fe6398eb1931321fe6e0de69",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Fort_Fincastle%2C_Nassau%2C_Bahamas.jpg",
+      "title": "File:Fort Fincastle, Nassau, Bahamas.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "662f5d4354c325bfc0003cf7104c296dbc08208df188fd95ae0aeb5423bc5e6f",
+      "width": 2400,
+      "height": 1613,
       "exifOrientation": 1
     },
     {
@@ -32784,16 +32370,13 @@
       "topic": "Bahamas",
       "src": "/images/destinations/bahamas/curated-home-slide.jpg",
       "key": "bahamas/home-slide",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/home-slide",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c597d421d5bc62887ef4085b9521c9796f96b2661815a45682cf4b9605d847fb",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Allure_of_the_Seas_Nassau_Bahamas_2024.jpg",
+      "title": "File:Allure of the Seas Nassau Bahamas 2024.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e5a5671257d196f8c4b58cd56b6939f9f4360d782c92315d143f65998b1c011c",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -33111,16 +32694,13 @@
       "topic": "Queen's Staircase",
       "src": "/images/destinations/bahamas/curated-map-list-3.jpg",
       "key": "bahamas/map-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/map-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "379ea3ca4fa61a5cdf9d733db45cf30be42844f359182975d41d2292e8b85a63",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:QUEEN%27S_STAIRCASE_VIEW_FROM_THE_TOP%3B_NASSAU.jpg",
+      "title": "File:QUEEN'S STAIRCASE VIEW FROM THE TOP; NASSAU.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2ad8de69706689827829248608477b507d8c6b99f71b2771c883c26c2eb950e7",
+      "width": 1586,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -33252,16 +32832,13 @@
       "topic": "Bairros e gastronomia",
       "src": "/images/destinations/bahamas/curated-day-2.jpg",
       "key": "bahamas/day-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/day-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "d50e61fba593d8f868c8ca06829cf12079211837d299da82778c4c3a7b77adb5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_Nassau%2C_Nassau%2C_The_Bahamas_-_panoramio_%283%29.jpg",
+      "title": "File:Downtown Nassau, Nassau, The Bahamas - panoramio (3).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "a21050e8b51f66a3416e8a454c75003c2829afe36d99abf6cc0305f665181de1",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -33315,16 +32892,13 @@
       "topic": "Nassau Downtown",
       "src": "/images/destinations/bahamas/curated-neighborhood-detail-0.jpg",
       "key": "bahamas/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "a716631df931b6d940a3c9fcf369585bf9e7d0208f77e9eecbe4d188017a4153",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Downtown_Nassau_-_2025_-_Balcony_House_%284%29.jpg",
+      "title": "File:Downtown Nassau - 2025 - Balcony House (4).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "316e4b12dd70cf709012f178c2bd4692f4d4d41ab038bfa646f3d8a355619607",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -33480,16 +33054,13 @@
       "topic": "Nassau",
       "src": "/images/destinations/bahamas/curated-region-0.jpg",
       "key": "bahamas/region-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/region-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "b6386a454a2bd0e7a4127092ae83881de943808995b0a000181e33a298370d7e",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Carnival_Dream%2C_docked_at_Nassau_Cruise_Port%2C_Bahamas_%28March_14%2C_2024%29_01.jpg",
+      "title": "File:Carnival Dream, docked at Nassau Cruise Port, Bahamas (March 14, 2024) 01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "0024ff1e29238f43ff8056d007d9931500c04594ff0378d92f2ae5c6e4b8bb59",
+      "width": 2371,
+      "height": 1779,
       "exifOrientation": 1
     },
     {
@@ -33543,16 +33114,13 @@
       "topic": "Exuma",
       "src": "/images/destinations/bahamas/curated-region-2.jpg",
       "key": "bahamas/region-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/region-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "4921f5d855a3e0bc9175995a271bdff2e138f152869e857b554c7e2eb7b2c7d3",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Goat_Cay%2C_Exuma%2C_The_Bahamas_%28cropped%29.jpg",
+      "title": "File:Goat Cay, Exuma, The Bahamas (cropped).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "43df8ef53e3577df96bc441947732cc4481e0897423da8dd8f777182d452f60b",
+      "width": 2078,
+      "height": 1890,
       "exifOrientation": 1
     },
     {
@@ -33561,16 +33129,13 @@
       "topic": "Exuma",
       "src": "/images/destinations/bahamas/curated-region-list-2.jpg",
       "key": "bahamas/region-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/region-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "562681584d48e2e9f80ea088b7d1a0a899181bb41fc2f54bff6688d93b3da29b",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Great_Exuma_Island%2C_The_Bahamas_%28Unsplash%29.jpg",
+      "title": "File:Great Exuma Island, The Bahamas (Unsplash).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "753151d602667aa770fc4f08bea4bd7f621a1b2e45e78bb0037d00cfa53b3c3e",
+      "width": 2400,
+      "height": 1598,
       "exifOrientation": 1
     },
     {
@@ -33672,16 +33237,13 @@
       "topic": "Hotel em Exuma",
       "src": "/images/destinations/bahamas/curated-hotel-2.jpg",
       "key": "bahamas/hotel-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/hotel-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "ba948a52c825571e29f522765095a16eb23a5bab5045c8c006559beddb41396d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Hawksbill_Cay_%28Exuma_Islands%2C_Bahamas%29.jpg",
+      "title": "File:Hawksbill Cay (Exuma Islands, Bahamas).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "edf2a0bc3213bd957fd997baea7dd1661975cc03c03ab8d1766db0e53908254b",
+      "width": 2400,
+      "height": 1594,
       "exifOrientation": 1
     },
     {
@@ -33690,16 +33252,13 @@
       "topic": "Hotel em Exuma",
       "src": "/images/destinations/bahamas/curated-hotel-list-2.jpg",
       "key": "bahamas/hotel-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:bahamas/hotel-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "dbb89730fe7336a76a11881ea2591fdccd840116bb83438487bed7a0abab3646",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Highborne_Cay_%28Exuma_Islands%2C_Bahamas%29_1.jpg",
+      "title": "File:Highborne Cay (Exuma Islands, Bahamas) 1.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "d39b6da1584063311a0636759de7e89bc460864d8641832fa4fd0c8517223fd7",
+      "width": 2400,
+      "height": 1594,
       "exifOrientation": 1
     },
     {
@@ -34125,16 +33684,13 @@
       "topic": "Willis Tower",
       "src": "/images/destinations/chicago/curated-map-list-3.jpg",
       "key": "chicago/map-list-3",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/map-list-3",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "3d17506f974fa328d5cf9e73db50152aa7655f93da443c8842770784ac1618c0",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Atrium%2C_Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189584206.jpg",
+      "title": "File:Atrium, Sears Tower, Wacker Drive and Jackson Boulevard, Chicago, IL - 54189584206.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "e7265567d7a778985d1dfda031024acfd190a351da7dabe6c3be52f69176e0a7",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -34308,16 +33864,13 @@
       "topic": "The Loop",
       "src": "/images/destinations/chicago/curated-neighborhood-0.jpg",
       "key": "chicago/neighborhood-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/neighborhood-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "129bfdd647117b163f32e1002bf6439fe216fd381a059360ca873bce5cc403c2",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2014_Chicago_Loop_aerial_01.jpg",
+      "title": "File:2014 Chicago Loop aerial 01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "fabbc5350837ed5315cedb320c3133cce6a4679bfb3aa5e417d568d33cc42816",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -34326,16 +33879,13 @@
       "topic": "The Loop",
       "src": "/images/destinations/chicago/curated-neighborhood-detail-0.jpg",
       "key": "chicago/neighborhood-detail-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/neighborhood-detail-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "2b8142a21ef4c9f213a56f617fc106b37f3315b7f60f9dd27b0ea5fbba3509a5",
+      "source": "https://commons.wikimedia.org/wiki/File:Chicago_Loop%2C_Chicago%2C_IL%2C_USA_-_panoramio.jpg",
+      "title": "File:Chicago Loop, Chicago, IL, USA - panoramio.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "200dee82ca5221fa7866fb992ea5da5b89188044f91ded639649ae9cfdb47306",
       "width": 1600,
-      "height": 900,
+      "height": 1064,
       "exifOrientation": 1
     },
     {
@@ -34359,16 +33909,13 @@
       "topic": "River North",
       "src": "/images/destinations/chicago/curated-neighborhood-detail-1.jpg",
       "key": "chicago/neighborhood-detail-1",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/neighborhood-detail-1",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "bebc6fc6878228dccb4d477417a6eded7176115e299465b09fdfad1294054227",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Driehaus_Museum%2C_Erie_Street_and_Wabash_Avenue%2C_River_North%2C_Chicago%2C_IL.jpg",
+      "title": "File:Driehaus Museum, Erie Street and Wabash Avenue, River North, Chicago, IL.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "7c0b48778a34e56b94474071487dbedc14bed711f7809861db7bf5d0cdd34a72",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -34392,16 +33939,13 @@
       "topic": "Lincoln Park",
       "src": "/images/destinations/chicago/curated-neighborhood-detail-2.jpg",
       "key": "chicago/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "60747c030ff752b2dc056db51c65cbec5e680883fe6184c8ab3ea8f681dfddb5",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:20020727_09_Abraham_Lincoln_statue%2C_Lincoln_Park_%288557907141%29.jpg",
+      "title": "File:20020727 09 Abraham Lincoln statue, Lincoln Park (8557907141).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "ea56ed8d527f18f49e534a0649f21996deaa8a2e17e58646085fdd901f7d6306",
+      "width": 1230,
+      "height": 1799,
       "exifOrientation": 1
     },
     {
@@ -34500,16 +34044,13 @@
       "topic": "Loop",
       "src": "/images/destinations/chicago/curated-region-list-0.jpg",
       "key": "chicago/region-list-0",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/region-list-0",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "760e80aaa07d2de827be4ee2094dcba88f3b39a479e87e53fe75bbc94bbee88d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Adams_Street%2C_Chicago_Loop%2C_Chicago%2C_Illinois_%289179397803%29.jpg",
+      "title": "File:Adams Street, Chicago Loop, Chicago, Illinois (9179397803).jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "82cfde90716eac1406047a2aaacf8f2dace1ef687ead9824565e1b6c9a370cc6",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -34563,16 +34104,13 @@
       "topic": "North Side",
       "src": "/images/destinations/chicago/curated-region-list-2.jpg",
       "key": "chicago/region-list-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:chicago/region-list-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "12369adc55a7d3c88d6bcb1392c3328a9ac8058239ffb91044c02636cf4cd9e8",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Lincoln_Ave_at_Lincoln_Park_West_and_Wisconsin_St_-_Chicago%2C_IL_-_June_2023.jpg",
+      "title": "File:Lincoln Ave at Lincoln Park West and Wisconsin St - Chicago, IL - June 2023.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "c309ec8a1399a8936508e7c238609d1972b5cbbccf29566e3172f4bdcca64198",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -34797,16 +34335,13 @@
       "topic": "Las Vegas",
       "src": "/images/destinations/las-vegas/curated-guide-highlight.jpg",
       "key": "las-vegas/guide-highlight",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:las-vegas/guide-highlight",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0ff2da5b15206ddd8affd2aacf8cef8a4ced45423ed4aab66028e78e95bce3fb",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Las_Vegas_Strip_Hotels_at_night_02.jpg",
+      "title": "File:Las Vegas Strip Hotels at night 02.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "4bf0f57d614f589aa4ca6c3d7bf64d4fc5f9e53a4be6c26c4c8d7e5dbafbf57b",
+      "width": 2078,
+      "height": 594,
       "exifOrientation": 1
     },
     {
@@ -34848,16 +34383,13 @@
       "topic": "Moeda & pagamentos",
       "src": "/images/destinations/las-vegas/curated-essential-moeda.jpg",
       "key": "las-vegas/essential-moeda",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:las-vegas/essential-moeda",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "222042fe5c10dc2e464d0f452589d0f22fce4c9101dc0fdf8a2c6ab1eee3d813",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:2010-04-10_Three_ratty_two-dollar_bills.jpg",
+      "title": "File:2010-04-10 Three ratty two-dollar bills.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "bd722458d34ba9971c853de298691e60ba30d58a9b217a9c5f843504c5be5f7c",
+      "width": 2400,
+      "height": 1600,
       "exifOrientation": 1
     },
     {
@@ -34866,16 +34398,13 @@
       "topic": "Idioma",
       "src": "/images/destinations/las-vegas/curated-essential-idioma.jpg",
       "key": "las-vegas/essential-idioma",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:las-vegas/essential-idioma",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c737534a08e0b34e627deafd2ad99752ebdfe35eb9fb25e3cca4c9ab765d4296",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Heart_Attack_Grill%2C_Fremont_Street%2C_Las_Vegas%2C_Nevada.jpg",
+      "title": "File:Heart Attack Grill, Fremont Street, Las Vegas, Nevada.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "94daf4b196b6f48cadc1f3b86bbbf71ce294fef424f41702d6a128a3d5848791",
+      "width": 1800,
+      "height": 2400,
       "exifOrientation": 1
     },
     {
@@ -35172,16 +34701,13 @@
       "topic": "High Roller",
       "src": "/images/destinations/las-vegas/curated-map-list-4.jpg",
       "key": "las-vegas/map-list-4",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:las-vegas/map-list-4",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "c7ea4d92506a2f2f02e30cd24562a1f228d8abcfe53decb35eb7ee561a536057",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Las_Vegas_-_The_High_Roller-03.JPG",
+      "title": "File:Las Vegas - The High Roller-03.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "cba76aa5e7b9fa99fc8a7d89915d7fb3d40b239e71041cdfce61b1d6ea1805a6",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {
@@ -35385,16 +34911,13 @@
       "topic": "Summerlin",
       "src": "/images/destinations/las-vegas/curated-neighborhood-detail-2.jpg",
       "key": "las-vegas/neighborhood-detail-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:las-vegas/neighborhood-detail-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "0d0f72efe0414e7380c18d7aa1e1cdaf8b44891fd49f50042790c3563406128d",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:City_National_Arena_exterior_01.jpg",
+      "title": "File:City National Arena exterior 01.jpg",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "2a863afabbc16b43419d48b4fb8f5050e024fefddcfd9b7ba97d6f34db10379b",
+      "width": 2400,
+      "height": 1259,
       "exifOrientation": 1
     },
     {
@@ -35547,16 +35070,13 @@
       "topic": "Downtown",
       "src": "/images/destinations/las-vegas/curated-region-2.jpg",
       "key": "las-vegas/region-2",
-      "source": "placeholder-pending-commons",
-      "title": "Placeholder:las-vegas/region-2",
-      "visualReview": "pending",
-      "flags": [
-        "placeholder",
-        "not-visually-accepted"
-      ],
-      "sha256": "11a4320e12a5206fdbb78a3d8e5b33ebc9ac7936fcc7fc84eb1bcc9ef2fae8db",
-      "width": 1600,
-      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Fremont_Street_%28Las_Vegas%29_Golden_Nugget.JPG",
+      "title": "File:Fremont Street (Las Vegas) Golden Nugget.JPG",
+      "visualReview": "accepted",
+      "flags": [],
+      "sha256": "3a9c25ec5adddc12304034711b133845225db5d9f0bdb26246fa9314ccd2b141",
+      "width": 2400,
+      "height": 1800,
       "exifOrientation": 1
     },
     {

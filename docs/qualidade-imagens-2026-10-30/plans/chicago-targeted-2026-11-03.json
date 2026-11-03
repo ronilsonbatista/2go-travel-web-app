@@ -1,0 +1,78 @@
+{
+  "city": "chicago",
+  "region": "americas",
+  "center": [
+    41.8781,
+    -87.6298,
+    40
+  ],
+  "pools": {
+    "attractions-attraction-0": {
+      "query": "Cloud Gate Millennium Park Chicago",
+      "required": [
+        "cloud gate|millennium park"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-0"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "attractions-attraction-3": {
+      "query": "Willis Tower Chicago",
+      "required": [
+        "willis tower|sears tower"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "regions-hotels-region-3": {
+      "query": "West Town Chicago",
+      "required": [
+        "west town"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-icon": {
+      "query": "Cloud Gate Millennium Park Chicago",
+      "required": [
+        "cloud gate|millennium park"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ],
+      "countryPattern": "illinois|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "tips"
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    }
+  }
+}

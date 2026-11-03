@@ -1,0 +1,14 @@
+{
+  "havana/neighborhood-1": {
+    "decision": "rejected",
+    "notes": "Close de armário dentro de quarto; não representa o bairro Vedado."
+  },
+  "havana/region-0": {
+    "decision": "accepted",
+    "notes": "Arcada e rua de Habana Vieja com táxi-bicicleta e fachadas históricas; contexto real da região e orientação correta."
+  },
+  "havana/day-2": {
+    "decision": "accepted",
+    "notes": "Fachadas com varandas e vegetação em Habana Vieja; arquitetura e contexto de bairro reais em enquadramento vertical."
+  }
+}

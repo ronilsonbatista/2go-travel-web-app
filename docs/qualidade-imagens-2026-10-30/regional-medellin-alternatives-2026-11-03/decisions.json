@@ -1,0 +1,38 @@
+{
+  "medellin/hero": {
+    "decision": "rejected",
+    "notes": "Tempestade e raio dominam a imagem com contraste muito elevado; não atende hero turístico geral da cidade."
+  },
+  "medellin/intro": {
+    "decision": "rejected",
+    "notes": "Multidão de maratona ocupa toda a imagem; não caracteriza o destino como introdução."
+  },
+  "medellin/home": {
+    "decision": "rejected",
+    "notes": "Medellín na Espanha com castelo e casario; país errado para Medellín, Colômbia."
+  },
+  "medellin/guide-card": {
+    "decision": "rejected",
+    "notes": "Letreiro em loja e cabeças em primeiro plano; contexto insuficiente para destaque HQ do destino."
+  },
+  "medellin/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Mapa de Don Benito/Medellín na Espanha; mapa-como-foto e país errado, rejeitado."
+  },
+  "medellin/home-slide": {
+    "decision": "accepted",
+    "notes": "Metrocable e Comuna 1 de Medellín com panorama urbano; fotografia real da cidade colombiana e horizonte correto."
+  },
+  "medellin/home-thumb": {
+    "decision": "rejected",
+    "notes": "Sol e nuvens dominam a composição, cidade muito escura; qualidade insuficiente para miniatura turística."
+  },
+  "medellin/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Arcadas e pátio interno do Palacio Nacional no centro de Medellín; arquitetura patrimonial real e orientação correta."
+  },
+  "medellin/day-3": {
+    "decision": "rejected",
+    "notes": "Close de parede e caminho com castelo quase ausente; marco cultural pouco reconhecível no enquadramento."
+  }
+}

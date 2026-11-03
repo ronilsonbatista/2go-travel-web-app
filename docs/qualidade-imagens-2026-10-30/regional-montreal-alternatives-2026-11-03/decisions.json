@@ -1,0 +1,46 @@
+{
+  "montreal/attraction-0": {
+    "decision": "accepted",
+    "notes": "Rua histórica e edifícios junto à Place dArmes no Vieux-Montréal; atração urbana real e orientação correta."
+  },
+  "montreal/map-attraction-0": {
+    "decision": "rejected",
+    "notes": "Rua em contraluz e subexposição, sem marco legível; qualidade insuficiente para pin."
+  },
+  "montreal/map-list-0": {
+    "decision": "accepted",
+    "notes": "Edifício histórico de esquina na Place dArmes em Vieux-Montréal; patrimônio local real, sem inversão."
+  },
+  "montreal/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Carruagem em frente à basílica; serviço de calèches descontinuado domina a foto."
+  },
+  "montreal/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Fachada e praça da Basilique Notre-Dame de Montréal; marco real do bairro Vieux-Montréal."
+  },
+  "montreal/region-0": {
+    "decision": "accepted",
+    "notes": "Chapelle Notre-Dame-de-Bon-Secours e rua nevada à noite; patrimônio real da região Vieux, orientação correta."
+  },
+  "montreal/hotel-0": {
+    "decision": "accepted",
+    "notes": "Fachada lateral da Basilique Notre-Dame com praça e pedestres; contexto real de hospedagem ilustrativa no Vieux."
+  },
+  "montreal/region-2": {
+    "decision": "accepted",
+    "notes": "Panorama de Montreal desde Mont Royal com parque e cidade; vista regional real e horizonte correto."
+  },
+  "montreal/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Vegetação de outono em Mount Royal com árvores coloridas; contexto natural real da região para hospedagem ilustrativa."
+  },
+  "montreal/tips": {
+    "decision": "rejected",
+    "notes": "Mesma sequência e eixo da rua Place dArmes já aprovada na atração; evitar repetição visual próxima."
+  },
+  "montreal/day-2": {
+    "decision": "rejected",
+    "notes": "Fachada da basílica quase idêntica à foto do detalhe de bairro; rejeitado para evitar repetição visual próxima."
+  }
+}

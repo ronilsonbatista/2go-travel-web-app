@@ -1,0 +1,42 @@
+{
+  "medellin/hero": {
+    "decision": "accepted",
+    "notes": "Skyline de Medellín com edifício Coltejer e montanhas; cidade colombiana real em fotografia horizontal e orientação correta."
+  },
+  "medellin/intro": {
+    "decision": "accepted",
+    "notes": "Escultura Mujer Reclinada de Botero na Plaza Botero, com praça e vegetação; marco cultural real de Medellín."
+  },
+  "medellin/home": {
+    "decision": "rejected",
+    "notes": "Fachada universitária e gramado sem marco turístico legível; composição insuficiente para destaque geral da home."
+  },
+  "medellin/guide-card": {
+    "decision": "rejected",
+    "notes": "Retrato de policiais e criança; não caracteriza Medellín como destino."
+  },
+  "medellin/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Cabines do Metrocable diante do panorama urbano de Medellín; foto real horizontal em enquadramento distinto da home-slide."
+  },
+  "medellin/home-thumb": {
+    "decision": "rejected",
+    "notes": "Retrato de homem com peruca e algodão-doce; não representa o destino em miniatura turística."
+  },
+  "medellin/map-attraction-1": {
+    "decision": "rejected",
+    "notes": "Borboleta isolada em macro; Parque Arví não é reconhecível como atração."
+  },
+  "medellin/map-list-1": {
+    "decision": "rejected",
+    "notes": "Borboleta isolada em close; não representa a paisagem do Parque Arví."
+  },
+  "medellin/day-3": {
+    "decision": "rejected",
+    "notes": "Retrato pintado de personagem histórico; objeto isolado não representa cultura e mirantes do roteiro."
+  },
+  "medellin/essential-docs": {
+    "decision": "rejected",
+    "notes": "Passaporte colombiano de 1989; país e documento errados para o visitante brasileiro, além de antigo."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "las-vegas/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Panorama noturno amplo da Las Vegas Strip e hotéis iluminados, sem legendas; foto real horizontal e horizonte correto."
+  },
+  "las-vegas/home-slide": {
+    "decision": "rejected",
+    "notes": "Mesma fotografia do panorama de hotéis, com legendas acrescentadas; derivada repetida proibida."
+  },
+  "las-vegas/map-list-4": {
+    "decision": "rejected",
+    "notes": "Estação do Monorail não é a roda High Roller; falso match da atração."
+  },
+  "las-vegas/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Fachada da City National Arena em Summerlin com praça e via; contexto urbano real do bairro em foto diurna."
+  },
+  "las-vegas/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Timestamp vermelho e composição de rua pouco expressiva; qualidade insuficiente para detalhe de bairro."
+  },
+  "las-vegas/region-2": {
+    "decision": "accepted",
+    "notes": "Calçadão da Fremont Street e fachada Golden Nugget sob cobertura; Downtown real e orientação correta."
+  },
+  "las-vegas/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Letreiro do Heart Attack Grill em Fremont Street com texto e instruções em inglês; sinalização local real do idioma."
+  },
+  "las-vegas/essential-moeda": {
+    "decision": "accepted",
+    "notes": "Fotografia de três cédulas reais de dois dólares americanos em circulação, sobre mesa; USD legal atual, sem moeda antiga extinta."
+  }
+}

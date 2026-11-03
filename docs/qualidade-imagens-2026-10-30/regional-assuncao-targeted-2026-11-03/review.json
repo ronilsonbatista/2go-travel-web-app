@@ -1,0 +1,970 @@
+[
+  {
+    "key": "assuncao/hero",
+    "slot": "hero",
+    "topic": "Assunção",
+    "path": "/images/destinations/assuncao/curated-hero.jpg",
+    "pool": "highlight-hero",
+    "status": "pending-visual-review",
+    "title": "File:Gran Palacio Nacional de Paraguay.jpg",
+    "imageinfo": {
+      "size": 1115899,
+      "width": 2722,
+      "height": 1815,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gran_Palacio_Nacional_de_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gran_Palacio_Nacional_de_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gran_Palacio_Nacional_de_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gran_Palacio_Nacional_de_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=9383921",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-04-11 19:49:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Gran Palacio Nacional de Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Taken with Canon EOS 400D|Palacio de los López|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Arcades in Paraguay|Photographs of flags of Paraguay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Palacio de los López en el centro histórico de Asunción del Paraguay.",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:FF_MM\" title=\"User:FF MM\">FF MM</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/hero.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gran_Palacio_Nacional_de_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "89eae91fc6149917fe48aad75beb8f4c89e0575cfef887c5d5db386e35719b2c"
+  },
+  {
+    "key": "assuncao/intro",
+    "slot": "intro",
+    "topic": "Assunção",
+    "path": "/images/destinations/assuncao/curated-intro.jpg",
+    "pool": "highlight-intro",
+    "status": "pending-visual-review",
+    "title": "File:Downtown Asuncion 091057.jpg",
+    "imageinfo": {
+      "size": 2592395,
+      "width": 3049,
+      "height": 2196,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Downtown_Asuncion_091057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1729,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Downtown_Asuncion_091057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1729
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Downtown_Asuncion_091057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Downtown_Asuncion_091057.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=121722142",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-08-14 04:30:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Downtown Asuncion 091057",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Skyline of Asunción",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.286333",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.635914",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Downtown Asuncion",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-06-10 09:10:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cmasi\" title=\"User:Cmasi\">Cmasi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/intro.jpg",
+    "dimensions": [
+      2400,
+      1729
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Downtown_Asuncion_091057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "6f5691e6859b2d3c408bc80c990eea0b1b149d844d2f271bdd961d96a9112378"
+  },
+  {
+    "key": "assuncao/home",
+    "slot": "home",
+    "topic": "Assunção",
+    "path": "/images/destinations/assuncao/curated-home.jpg",
+    "pool": "highlight-home",
+    "status": "pending-visual-review",
+    "title": "File:Asuncion - Crypt, National Pantheon of Heroes.jpg",
+    "imageinfo": {
+      "size": 4984381,
+      "width": 6048,
+      "height": 4024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Asuncion_-_Crypt%2C_National_Pantheon_of_Heroes.jpg/3840px-Asuncion_-_Crypt%2C_National_Pantheon_of_Heroes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1597,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Asuncion_-_Crypt%2C_National_Pantheon_of_Heroes.jpg/3840px-Asuncion_-_Crypt%2C_National_Pantheon_of_Heroes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1597
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Asuncion_-_Crypt%2C_National_Pantheon_of_Heroes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Asuncion_-_Crypt,_National_Pantheon_of_Heroes.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=197534444",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-08-15 14:05:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Asuncion - Crypt, National Pantheon of Heroes",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license|Panteón Nacional de los Héroes - Interior",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Crypt, National Pantheon of Heroes, Asuncion, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Indies1\" title=\"User:Indies1\">P. Hughes</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/home.jpg",
+    "dimensions": [
+      2400,
+      1597
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Asuncion_-_Crypt%2C_National_Pantheon_of_Heroes.jpg/3840px-Asuncion_-_Crypt%2C_National_Pantheon_of_Heroes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b5a0da6a5ac4bfa8fe3a1fb4b234878c2e4d8f8b805a6ec7efee940b01758c25"
+  },
+  {
+    "key": "assuncao/guide-card",
+    "slot": "guide-card",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "highlight-guide-card"
+  },
+  {
+    "key": "assuncao/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "highlight-guide-highlight"
+  },
+  {
+    "key": "assuncao/home-slide",
+    "slot": "home-slide",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "highlight-home-slide"
+  },
+  {
+    "key": "assuncao/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Assunção: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlight-home-thumb"
+  },
+  {
+    "key": "assuncao/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Palacio de López",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-0"
+  },
+  {
+    "key": "assuncao/map-list-0",
+    "slot": "map-list-0",
+    "topic": "Palacio de López",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-0"
+  },
+  {
+    "key": "assuncao/attraction-4",
+    "slot": "attraction-4",
+    "topic": "Cerro Lambaré",
+    "path": "/images/destinations/assuncao/curated-attraction-4.jpg",
+    "pool": "attractions-attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:CerroLambare.JPG",
+    "imageinfo": {
+      "size": 257301,
+      "width": 967,
+      "height": 1185,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/CerroLambare.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2941,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/CerroLambare.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2941
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/CerroLambare.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:CerroLambare.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=23222981",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-12-16 19:02:51",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "CerroLambare",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Self-published work|Files from Wikivoyage Shared|Files by Wikivoyage user (not yet sorted)|Statues in Asunción|Files by Wikivoyage user Iwan",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cerro Lambaré",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-08-30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.wikivoyage-old.org/shared/User%3AIwan\">Iwan</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "User: Iwan at  wikivoyage shared",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/assuncao/attraction-4.jpg",
+    "dimensions": [
+      967,
+      1185
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/CerroLambare.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "367d55a2dcf8a6ceb047d9e32c67ca51fbf86fe9b48be7412fa5c22b7a7d4a0a"
+  },
+  {
+    "key": "assuncao/map-list-4",
+    "slot": "map-list-4",
+    "topic": "Cerro Lambaré",
+    "path": "/images/destinations/assuncao/curated-map-list-4.jpg",
+    "pool": "attractions-attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Costanera Sur Cerro Lambaré.png",
+    "imageinfo": {
+      "size": 1143976,
+      "width": 1355,
+      "height": 1011,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Costanera_Sur_Cerro_Lambar%C3%A9.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1791,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Costanera_Sur_Cerro_Lambar%C3%A9.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1791
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Costanera_Sur_Cerro_Lambar%C3%A9.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Costanera_Sur_Cerro_Lambar%C3%A9.png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=152633294",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-09-14 19:52:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Costanera Sur Cerro Lambaré",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Avenues (tree-lined roads)|Roads in Asunción",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Costanera Sur, Asunción",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-08-19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Overkill53&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Overkill53 (page does not exist)\">Overkill53</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/png"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/assuncao/map-list-4.jpg",
+    "dimensions": [
+      1355,
+      1011
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Costanera_Sur_Cerro_Lambar%C3%A9.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "987e99f986aa23f798ba22ec924c2e434eb10bc7ce22d67afd11eb691fc61e73"
+  },
+  {
+    "key": "assuncao/attraction-5",
+    "slot": "attraction-5",
+    "topic": "Barrio Loma San Jerónimo",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-5"
+  },
+  {
+    "key": "assuncao/map-attraction-5",
+    "slot": "map-attraction-5",
+    "topic": "Barrio Loma San Jerónimo",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-5"
+  },
+  {
+    "key": "assuncao/map-list-5",
+    "slot": "map-list-5",
+    "topic": "Barrio Loma San Jerónimo",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-5"
+  },
+  {
+    "key": "assuncao/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-0"
+  },
+  {
+    "key": "assuncao/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-0"
+  },
+  {
+    "key": "assuncao/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "Carmelitas",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-2"
+  },
+  {
+    "key": "assuncao/region-0",
+    "slot": "region-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "assuncao/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "assuncao/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Centro",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "assuncao/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Centro",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "assuncao/region-2",
+    "slot": "region-2",
+    "topic": "Costanera",
+    "path": "/images/destinations/assuncao/curated-region-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:El Arpa de la Costanera de Asunción - Flickr - abel.maestro.jpg",
+    "imageinfo": {
+      "size": 220794,
+      "width": 960,
+      "height": 1280,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/El_Arpa_de_la_Costanera_de_Asunci%C3%B3n_-_Flickr_-_abel.maestro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/El_Arpa_de_la_Costanera_de_Asunci%C3%B3n_-_Flickr_-_abel.maestro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/El_Arpa_de_la_Costanera_de_Asunci%C3%B3n_-_Flickr_-_abel.maestro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_Arpa_de_la_Costanera_de_Asunci%C3%B3n_-_Flickr_-_abel.maestro.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=137362915",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-09-11 02:34:14",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "El Arpa de la Costanera de Asunción - Flickr - abel.maestro",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Sunsets of Paraguay|Paraguay photographs taken on 2023-09-05|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Flickr files uploaded by Red panda bot|Photos in Flickr Explore|PD-author-FlickrPDM|Files from Abel Maestro Garcia Flickr stream",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.270661",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.614203",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Probando la nueva Cámara de Silvi, la Nikon P1000",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 5 September 2023, 20:33",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/98156561@N02/53167589722/\">El Arpa de la Costanera de Asunción</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/98156561@N02\">Abel Maestro Garcia</a> from Asunción, España",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/assuncao/region-2.jpg",
+    "dimensions": [
+      960,
+      1280
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/El_Arpa_de_la_Costanera_de_Asunci%C3%B3n_-_Flickr_-_abel.maestro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "e382a06c427103221cc02438eef08481bfaeea5ccbe563505891aa45714957d1"
+  },
+  {
+    "key": "assuncao/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Costanera",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-2"
+  },
+  {
+    "key": "assuncao/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Costanera",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-2"
+  },
+  {
+    "key": "assuncao/region-3",
+    "slot": "region-3",
+    "topic": "Lambaré",
+    "path": "/images/destinations/assuncao/curated-region-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Matrícula automovilística Paraguay 1998 Lambaré K-495954 camión articulado Flickr - woody1778a.jpg",
+    "imageinfo": {
+      "size": 143879,
+      "width": 1280,
+      "height": 457,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Matr%C3%ADcula_automovil%C3%ADstica_Paraguay_1998_Lambar%C3%A9_K-495954_cami%C3%B3n_articulado_Flickr_-_woody1778a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 857,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Matr%C3%ADcula_automovil%C3%ADstica_Paraguay_1998_Lambar%C3%A9_K-495954_cami%C3%B3n_articulado_Flickr_-_woody1778a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 857
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Matr%C3%ADcula_automovil%C3%ADstica_Paraguay_1998_Lambar%C3%A9_K-495954_cami%C3%B3n_articulado_Flickr_-_woody1778a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Matr%C3%ADcula_automovil%C3%ADstica_Paraguay_1998_Lambar%C3%A9_K-495954_cami%C3%B3n_articulado_Flickr_-_woody1778a.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17641846",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-12-11 10:12:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Matrícula automovilística Paraguay 1998 Lambaré K-495954 camión articulado Flickr - woody1778a",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Fujifilm FinePix F30|License plates of Paraguay|Flickr images reviewed by FlickreviewR|Files uploaded by Kobac|Files from woody1778a Flickr stream",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Black on green transport vehicle plate from Lambare.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-12-08 00:27",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/woodysworld1778/2096442837/\">PARAGUAY Lambare 1998 Transport vehicle</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/9816248@N03\">Jerry \"Woody\"</a> from Edmonton, Canada",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/assuncao/region-3.jpg",
+    "dimensions": [
+      1280,
+      457
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Matr%C3%ADcula_automovil%C3%ADstica_Paraguay_1998_Lambar%C3%A9_K-495954_cami%C3%B3n_articulado_Flickr_-_woody1778a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "df80d77c2ecd5d53d9321e6b15a45a92b6f2f8a38e2117e384bfa78aac5ebac9"
+  },
+  {
+    "key": "assuncao/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Assunção",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "assuncao/day-4",
+    "slot": "day-4",
+    "topic": "Bate-volta ou folga",
+    "status": "no-candidate",
+    "pool": "support-leisure"
+  },
+  {
+    "key": "assuncao/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "status": "no-candidate",
+    "pool": "support-icon"
+  },
+  {
+    "key": "assuncao/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "status": "no-candidate",
+    "pool": "support-quarter"
+  },
+  {
+    "key": "assuncao/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "support-currency"
+  },
+  {
+    "key": "assuncao/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  }
+]

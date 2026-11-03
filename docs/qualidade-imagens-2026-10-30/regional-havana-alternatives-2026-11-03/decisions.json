@@ -1,0 +1,38 @@
+{
+  "havana/neighborhood-1": {
+    "decision": "rejected",
+    "notes": "Close de grade e muro; não representa contexto urbano de Vedado."
+  },
+  "havana/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Mansão e jardim em Miramar, Havana; arquitetura residencial real do bairro em foto diurna e orientação correta."
+  },
+  "havana/region-0": {
+    "decision": "rejected",
+    "notes": "Parede colorida e hidrante isolados; não representa Habana Vieja como região."
+  },
+  "havana/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Calle Brasil em Habana Vieja com fachadas e varandas; contexto urbano real de hospedagem ilustrativa na região."
+  },
+  "havana/region-list-1": {
+    "decision": "accepted",
+    "notes": "Fachada histórica iluminada na área do Malecón; arquitetura local real da região, sem rotação incorreta."
+  },
+  "havana/hotel-1": {
+    "decision": "accepted",
+    "notes": "Avenida do Malecón com carro clássico, mar e cidade ao pôr do sol; contexto regional real de hospedagem ilustrativa."
+  },
+  "havana/day-1": {
+    "decision": "accepted",
+    "notes": "Calle Obispo em Habana Vieja com arquitetura colonial, comércio e visitantes; ícone urbano real do roteiro."
+  },
+  "havana/tips": {
+    "decision": "accepted",
+    "notes": "Calle Obispo com pavimento molhado, edifícios e pedestres; contexto real de passeio no centro histórico."
+  },
+  "havana/day-2": {
+    "decision": "rejected",
+    "notes": "Pessoas em primeiro plano dominam a cena; pouco contexto de bairro ou gastronomia e sequência próxima a outro candidato."
+  }
+}

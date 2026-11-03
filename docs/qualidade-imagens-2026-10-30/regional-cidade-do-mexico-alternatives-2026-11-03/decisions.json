@@ -1,0 +1,78 @@
+{
+  "cidade-do-mexico/hero": {
+    "decision": "accepted",
+    "notes": "Skyline moderno da Avenida de la República na Cidade do México em 2020; foto urbana real, horizontal e orientada corretamente."
+  },
+  "cidade-do-mexico/intro": {
+    "decision": "rejected",
+    "notes": "Interior de tubulação industrial; não representa a Cidade do México como destino."
+  },
+  "cidade-do-mexico/home": {
+    "decision": "rejected",
+    "notes": "Avenida vazia com pouco marco turístico; composição insuficiente para destaque da home."
+  },
+  "cidade-do-mexico/map-attraction-0": {
+    "decision": "rejected",
+    "notes": "Show e luz de palco dominam a cena; Catedral/Zócalo quase não são reconhecíveis."
+  },
+  "cidade-do-mexico/map-list-2": {
+    "decision": "rejected",
+    "notes": "Pintura religiosa isolada no museu; não identifica Museo Frida Kahlo como atração."
+  },
+  "cidade-do-mexico/attraction-3": {
+    "decision": "rejected",
+    "notes": "Panda isolado em recinto; retrato animal não representa Chapultepec como atração."
+  },
+  "cidade-do-mexico/map-attraction-3": {
+    "decision": "rejected",
+    "notes": "Pista e campo da terceira seção sem marco reconhecível; Chapultepec pouco legível para pin."
+  },
+  "cidade-do-mexico/map-list-3": {
+    "decision": "rejected",
+    "notes": "Aranha isolada em recinto; retrato animal sem contexto da atração Chapultepec."
+  },
+  "cidade-do-mexico/attraction-4": {
+    "decision": "accepted",
+    "notes": "Pátio e arquitetura da Casa de Cultura Jesús Reyes Heroles em Coyoacán; atração/bairro real reconhecível e sem rotação."
+  },
+  "cidade-do-mexico/map-list-4": {
+    "decision": "accepted",
+    "notes": "Rua e edifícios de Coyoacán em foto diurna; contexto urbano real da atração/bairro e orientação correta."
+  },
+  "cidade-do-mexico/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Estátua de Lincoln e parque arborizado em Polanco; marco real do bairro em foto diurna, sem inversão."
+  },
+  "cidade-do-mexico/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Área externa do complexo Antara Polanco com rua e edifícios; contexto urbano real do bairro."
+  },
+  "cidade-do-mexico/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Pátio arborizado e arcadas da Casa de Cultura em Coyoacán; contexto patrimonial real do bairro, distinto da fachada."
+  },
+  "cidade-do-mexico/region-0": {
+    "decision": "accepted",
+    "notes": "Fachada histórica do Casino Español na Calle Isabel la Católica; arquitetura real da região Centro."
+  },
+  "cidade-do-mexico/region-list-1": {
+    "decision": "rejected",
+    "notes": "Trecho terminal do aqueduto no centro urbano, distante do parque; não comprova região Chapultepec como planejada."
+  },
+  "cidade-do-mexico/hotel-1": {
+    "decision": "rejected",
+    "notes": "Anfíbio isolado em aquário; não corresponde ao contexto de hospedagem na região."
+  },
+  "cidade-do-mexico/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Mesmo trecho do aqueduto em sequência próxima, sem contexto de hospedagem na região do parque."
+  },
+  "cidade-do-mexico/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Esquilo isolado na grama; retrato animal sem contexto de hospedagem em Teotihuacán."
+  },
+  "cidade-do-mexico/day-1": {
+    "decision": "accepted",
+    "notes": "Catedral Metropolitana do Zócalo ao anoitecer em celebração de 2010; monumento real reconhecível, orientação correta, sem afirmar evento atual."
+  }
+}

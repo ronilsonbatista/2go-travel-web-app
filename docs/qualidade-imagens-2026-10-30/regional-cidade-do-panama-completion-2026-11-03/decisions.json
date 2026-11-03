@@ -12,8 +12,12 @@
     "notes": "Cores e contraste excessivamente alterados, com cidade muito distante; qualidade insuficiente para destaque HQ."
   },
   "cidade-do-panama/home-thumb": {
-    "decision": "accepted",
-    "notes": "Vista aérea do skyline e marina da Cidade do Panamá; destaque horizontal real, com região costeira identificável."
+    "decision": "rejected",
+    "notes": "Retirada após comparação perceptual e visual: mesma fotografia de cidade-do-panama/guide-highlight, reencodada/com nome diferente. Preservada a foto herdada; slot volta a placeholder para buscar alternativa.",
+    "initialDecision": {
+      "decision": "accepted",
+      "notes": "Vista aérea do skyline e marina da Cidade do Panamá; destaque horizontal real, com região costeira identificável."
+    }
   },
   "cidade-do-panama/attraction-0": {
     "decision": "accepted",

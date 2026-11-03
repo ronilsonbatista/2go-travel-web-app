@@ -19,10 +19,25 @@ INDEX = DIRECTORY / 'source-origins.json'
 
 def origin_photo_id(info):
     metadata = info.get('extmetadata', {})
-    credit = html.unescape(metadata.get('Credit', {}).get('value', ''))
+    credit = urllib.parse.unquote(html.unescape(metadata.get('Credit', {}).get('value', '')))
     ids = set(re.findall(r'(?:https?:)?//(?:www\.)?flickr\.com/photos/[^/\s"<>]+/(\d+)', credit, re.I))
     ids.update(re.findall(r'(?:https?:)?//(?:www\.)?flickr\.com/photo\.gne\?[^"<>\s]*\bid=(\d+)', credit, re.I))
-    return 'flickr:' + next(iter(ids)) if len(ids) == 1 else None
+    proven = {'flickr:' + value for value in ids}
+    # Use credited source links, never a filename or a generic numeric suffix.
+    # Unsplash's modern descriptive slugs retain the same final 11-character ID.
+    for segment in re.findall(r'(?:https?:)?//(?:www\.)?unsplash\.com/photos/([^/\s"<>?#]+)', credit, re.I):
+        match = re.search(r'(?:^|-)([A-Za-z0-9_-]{11})$', segment)
+        if match: proven.add('unsplash:' + match.group(1))
+    for provider, pattern in [
+        ('500px', r'(?:https?:)?//(?:www\.)?500px\.com/(?:photo|p)/(\d+)(?:[/\s"<>?#]|$)'),
+        ('pexels', r'(?:https?:)?//(?:www\.)?pexels\.com/photo/(?:[^/\s"<>]*-)?(\d+)(?:[/\s"<>?#]|$)'),
+        ('pixabay', r'(?:https?:)?//(?:www\.)?pixabay\.com/(?:photos|images)/(?:[^/\s"<>]*-)?(\d+)(?:[/\s"<>?#]|$)'),
+        ('panoramio', r'(?:https?:)?//(?:www\.)?panoramio\.com/photo/(\d+)(?:[/\s"<>?#]|$)'),
+        ('inaturalist', r'(?:https?:)?//(?:www\.)?inaturalist\.org/photos/(\d+)(?:[/\s"<>?#]|$)'),
+        ('dvids', r'(?:https?:)?//(?:www\.)?dvidshub\.net/image/(\d+)(?:[/\s"<>?#]|$)'),
+    ]:
+        proven.update(provider + ':' + value for value in re.findall(pattern, credit, re.I))
+    return next(iter(proven)) if len(proven) == 1 else None
 
 def live_origins(manifest):
     index = json.loads(INDEX.read_text()) if INDEX.exists() else {}

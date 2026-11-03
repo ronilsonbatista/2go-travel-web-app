@@ -1,0 +1,46 @@
+{
+  "cidade-do-mexico/intro": {
+    "decision": "accepted",
+    "notes": "Avenida 5 de Mayo e esquina do Eje Central com Palacio de Bellas Artes visível; contexto urbano e marco real da Cidade do México."
+  },
+  "cidade-do-mexico/home": {
+    "decision": "rejected",
+    "notes": "Multidão e participantes de evento Pride dominam a foto; pouco destino visível para destaque da home."
+  },
+  "cidade-do-mexico/map-attraction-0": {
+    "decision": "rejected",
+    "notes": "Foto antiga com baixa definição e subexposição, asfalto domina; qualidade insuficiente para pin da Catedral."
+  },
+  "cidade-do-mexico/map-list-2": {
+    "decision": "accepted",
+    "notes": "Fachada azul do Museo Frida Kahlo em Coyoacán com visitantes e acesso; atração real identificável e orientação correta."
+  },
+  "cidade-do-mexico/attraction-3": {
+    "decision": "accepted",
+    "notes": "Jardim lateral e fonte do Castillo de Chapultepec com árvores e terraço; atração real e orientação correta."
+  },
+  "cidade-do-mexico/map-attraction-3": {
+    "decision": "rejected",
+    "notes": "Fila de pessoas e entrada do Anfibium; marco Chapultepec pouco reconhecível no pin."
+  },
+  "cidade-do-mexico/map-list-3": {
+    "decision": "accepted",
+    "notes": "Fachada principal e praça do Castillo de Chapultepec em 2024; marco real claramente identificável."
+  },
+  "cidade-do-mexico/region-list-1": {
+    "decision": "accepted",
+    "notes": "Vista lateral da fonte e terraço dos jardins do Castillo de Chapultepec; região real em ângulo distinto da foto da atração."
+  },
+  "cidade-do-mexico/hotel-1": {
+    "decision": "rejected",
+    "notes": "Bisões isolados no zoológico; retrato animal sem contexto de hospedagem em Chapultepec."
+  },
+  "cidade-do-mexico/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Jardim do Castillo de Chapultepec visto do lado do portão e alameda; contexto regional real de hospedagem ilustrativa, enquadramento distinto."
+  },
+  "cidade-do-mexico/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Ruínas de plataforma em Teotihuacán com estruturas de pedra e paisagem arqueológica; contexto regional real para hospedagem ilustrativa."
+  }
+}

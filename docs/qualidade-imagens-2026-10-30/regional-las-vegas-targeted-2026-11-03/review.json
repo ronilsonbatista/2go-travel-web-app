@@ -1,0 +1,273 @@
+[
+  {
+    "key": "las-vegas/home-slide",
+    "slot": "home-slide",
+    "topic": "Las Vegas",
+    "status": "no-candidate",
+    "pool": "highlight-home-slide"
+  },
+  {
+    "key": "las-vegas/map-list-4",
+    "slot": "map-list-4",
+    "topic": "High Roller",
+    "path": "/images/destinations/las-vegas/curated-map-list-4.jpg",
+    "pool": "attractions-attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Las Vegas - The High Roller-03.JPG",
+    "imageinfo": {
+      "size": 2468843,
+      "width": 2816,
+      "height": 2112,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Las_Vegas_-_The_High_Roller-03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Las_Vegas_-_The_High_Roller-03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Las_Vegas_-_The_High_Roller-03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Las_Vegas_-_The_High_Roller-03.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=59608975",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-06-05 07:58:44",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Las Vegas - The High Roller-03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "High Roller (Ferris wheel)|Self-published work|PD-self|Files by User:Priwo|Photographs taken on 2017-05-03",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The High Roller in Las Vegas",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 3 May 2017",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "photo taken by <a href=\"https://de.wikipedia.org/wiki/Benutzer:Priwo\" class=\"extiw\" title=\"de:Benutzer:Priwo\">de:Benutzer:Priwo</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Priwo\" title=\"User:Priwo\">Priwo</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work has been released into the <b><a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a></b> by its author, <b><a href=\"//commons.wikimedia.org/wiki/User:Priwo\" title=\"User:Priwo\">Priwo</a></b>. This applies worldwide.<br><small>In some countries this may not be legally possible; if so:</small><br><i><a href=\"//commons.wikimedia.org/wiki/User:Priwo\" title=\"User:Priwo\">Priwo</a> grants anyone the right to use this work <b>for any purpose</b>, without any conditions, unless such conditions are required by law.</i>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/las-vegas/map-list-4.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Las_Vegas_-_The_High_Roller-03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "cba76aa5e7b9fa99fc8a7d89915d7fb3d40b239e71041cdfce61b1d6ea1805a6"
+  },
+  {
+    "key": "las-vegas/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Paradise",
+    "path": "/images/destinations/las-vegas/curated-neighborhood-detail-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:2015-11-04 16 15 51 View west along Nevada State Route 594 (Russell Road) at Las Vegas Boulevard in Paradise, Nevada.jpg",
+    "imageinfo": {
+      "size": 3029799,
+      "width": 3177,
+      "height": 2323,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/31/2015-11-04_16_15_51_View_west_along_Nevada_State_Route_594_%28Russell_Road%29_at_Las_Vegas_Boulevard_in_Paradise%2C_Nevada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1755,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/2015-11-04_16_15_51_View_west_along_Nevada_State_Route_594_%28Russell_Road%29_at_Las_Vegas_Boulevard_in_Paradise%2C_Nevada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1755
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/2015-11-04_16_15_51_View_west_along_Nevada_State_Route_594_%28Russell_Road%29_at_Las_Vegas_Boulevard_in_Paradise%2C_Nevada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2015-11-04_16_15_51_View_west_along_Nevada_State_Route_594_(Russell_Road)_at_Las_Vegas_Boulevard_in_Paradise,_Nevada.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45955901",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-12-29 12:21:03",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2015-11-04 16 15 51 View west along Nevada State Route 594 (Russell Road) at Las Vegas Boulevard in Paradise, Nevada",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Paradise, Nevada|Nevada State Route 594|Self-published work|Rain in Nevada|November 2015 in Nevada|Files with coordinates missing SDC location of creation|United States photographs taken on 2015-11-04|Famartin's 2015 photos|Famartin's November 2015 photos",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "36.086269",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-115.174117",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View west along Nevada State Route 594 (Russell Road) at Las Vegas Boulevard in Paradise, Nevada",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-11-04 16:15:51",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Famartin\" title=\"User:Famartin\">Famartin</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/las-vegas/neighborhood-detail-3.jpg",
+    "dimensions": [
+      2400,
+      1755
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/2015-11-04_16_15_51_View_west_along_Nevada_State_Route_594_%28Russell_Road%29_at_Las_Vegas_Boulevard_in_Paradise%2C_Nevada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "670159762f171a7f6536866450186b2b8298c66e4f5e4e55b292f3fdae9caea5"
+  },
+  {
+    "key": "las-vegas/region-0",
+    "slot": "region-0",
+    "topic": "Strip Norte",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "las-vegas/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Strip Norte",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "las-vegas/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Strip Norte",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "las-vegas/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  }
+]

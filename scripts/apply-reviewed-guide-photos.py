@@ -13,6 +13,7 @@ from zoneinfo import ZoneInfo
 from pathlib import Path
 from PIL import Image
 from guide_photo_origins import origin_photo_id, live_origins, INDEX
+from guide_photo_fingerprints import fingerprint, live_fingerprints, possible_alias
 
 ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser()
@@ -34,9 +35,11 @@ def family(value):
 existing_titles={norm(urllib.parse.unquote(v.get('title',''))) for v in manifest.values() if 'placeholder' not in v.get('source','')}
 existing_families={family(v.get('title','')) for v in manifest.values() if 'placeholder' not in v.get('source','')}
 inventory=json.loads((ROOT/'docs/qualidade-imagens-2026-10-30/inventory.json').read_text())['slots']
-existing_hashes={r.get('sha256') for r in inventory if 'placeholder' not in r.get('flags',[])}
+existing_hashes={r.get('sha256') for r in inventory if 'placeholder' not in r.get('flags',[])
+ and 'placeholder' not in manifest.get(r.get('key'),{}).get('source','')}
 existing_hashes.update(v['assetSha256'] for v in manifest.values() if v.get('assetSha256'))
 prepared=[]
+visual_fingerprints=live_fingerprints(manifest)
 for row in rows:
  decision=decisions.get(row['key'],{})
  if decision.get('decision')!='accepted':continue
@@ -50,6 +53,10 @@ for row in rows:
  staged=Path(row['file']);digest=hashlib.sha256(staged.read_bytes()).hexdigest()
  if digest!=row['sha256']:raise ValueError('Photo changed since review: '+row['key'])
  if digest in existing_hashes:raise ValueError('Duplicate binary: '+row['key'])
+ visual=fingerprint(staged)
+ for other,existing in visual_fingerprints.items():
+  if possible_alias(visual,existing):
+   raise ValueError('Possible re-encoded photo alias: '+row['key']+' + '+other+'; reject or find a different photograph before applying')
  title=norm(row['title']);fam=family(row['title'])
  if title in existing_titles or fam in existing_families:raise ValueError('Repeated source/family: '+row['title'])
  meta=row['imageinfo']['extmetadata'];license=meta.get('LicenseShortName',{}).get('value','').strip()
@@ -79,6 +86,7 @@ for row in rows:
   try:new[field]=float(meta[key]['value'])
   except (KeyError,ValueError,TypeError):pass
  prepared.append((row,staged,new))
+ visual_fingerprints[row['key']]=visual
  if origin:existing_origins.add(origin)
  existing_hashes.add(digest);existing_titles.add(title);existing_families.add(fam)
 # All checks precede the first write. Existing editorial strings are untouched.
