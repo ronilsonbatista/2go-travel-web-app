@@ -55,24 +55,24 @@ const GEO_PINS = [
 
 export const MAP_STYLE_OPTIONS = [
   {
-    id: 'atual-slate',
-    name: 'Vintage wash (produção)',
-    short: 'atual-slate',
-    description: 'PNG vintage + wash papel old-school — produção em todos os guias (revert do Modern light).',
-    mapSrc: '/images/maps/vintage/paris.png',
-    pins: ORIG_PINS,
-    productionLike: true,
-    cssTheme: 'atual-slate'
-  },
-  {
     id: 'modern-light',
-    name: 'Modern light',
+    name: 'Modern light (produção)',
     short: 'modern-light',
-    description: 'Base clara Positron-like + wash leve — opção anterior (histórico).',
+    description: 'Base clara Positron-like + wash leve — produção em todos os guias.',
     mapSrc: '/images/maps/paris.png',
     pins: ORIG_PINS,
-    productionLike: false,
+    productionLike: true,
     cssTheme: 'modern-light'
+  },
+  {
+    id: 'atual-slate',
+    name: 'Vintage wash',
+    short: 'atual-slate',
+    description: 'PNG vintage + wash papel old-school — histórico (pré-Modern light).',
+    mapSrc: '/images/maps/vintage/paris.png',
+    pins: ORIG_PINS,
+    productionLike: false,
+    cssTheme: 'atual-slate'
   },
   {
     id: 'dark-slate',
@@ -183,7 +183,7 @@ function MapPreview({ option, activeId = 'eiffel' }) {
 
 function PreviewInner() {
   const params = useSearchParams();
-  const styleId = params.get('style') || 'atual-slate';
+  const styleId = params.get('style') || 'modern-light';
   const shot = params.get('shot') === '1';
   const option =
     MAP_STYLE_OPTIONS.find((o) => o.id === styleId) || MAP_STYLE_OPTIONS[0];
@@ -223,8 +223,8 @@ function PreviewInner() {
             Opções de estilo do mapa — Paris
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-text-muted">
-            Produção = Vintage wash (PNG vintage) em todos os guias. Comparativo histórico
-            das outras opções; sem Place IDs.
+            Produção = Modern light (PNG claro Positron-like) em todos os guias. Comparativo
+            histórico das outras opções; sem Place IDs.
           </p>
         </header>
 

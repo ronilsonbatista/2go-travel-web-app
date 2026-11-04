@@ -231,19 +231,18 @@ html {
 }
 
 /*
- * Vintage PNG wash (production default) — old-school paper map.
+ * Modern light (Opção 2) — production default for all city-guide 30s maps.
  * Optical zoom enlarges baked street / neighborhood labels. No Place IDs.
+ * Pins keep 2GO navy/orange brand chrome (not map CSS).
  */
 .guide-city-map {
   --guide-map-zoom: 1.48;
-  background:
-    radial-gradient(circle at 22% 16%, rgba(253, 230, 200, 0.45), transparent 48%),
-    linear-gradient(160deg, #e7dfd2 0%, #f4efe7 50%, #d9e2ea 100%);
+  background: linear-gradient(160deg, #eef2f6 0%, #f7f9fb 100%);
 }
 
 .guide-city-map__img {
-  /* Keep vintage paper character; contrast bump for street / place labels. */
-  filter: sepia(0.18) saturate(0.88) contrast(1.28) brightness(1.04);
+  /* Light Positron-like assets + zoom; contrast keeps tile typography readable. */
+  filter: contrast(1.14) brightness(1.02);
   transform: scale(var(--guide-map-zoom));
   transform-origin: center;
 }
@@ -251,31 +250,31 @@ html {
 .guide-city-map__wash {
   pointer-events: none;
   background:
-    linear-gradient(180deg, rgba(62, 48, 32, 0.12) 0%, transparent 34%, rgba(15, 23, 42, 0.14) 100%),
-    linear-gradient(125deg, rgba(180, 140, 90, 0.12), transparent 46%, rgba(100, 140, 170, 0.1));
-  mix-blend-mode: multiply;
-  opacity: 0.48;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, transparent 32%, rgba(15, 23, 42, 0.06) 100%),
+    linear-gradient(120deg, rgba(148, 163, 184, 0.08), transparent 50%);
+  mix-blend-mode: normal;
+  opacity: 0.42;
 }
 
 .guide-city-map__wash::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255, 250, 240, 0.12), transparent 42%, rgba(30, 41, 59, 0.08));
+  background: linear-gradient(180deg, rgba(248, 250, 252, 0.06), transparent 40%, rgba(15, 23, 42, 0.05));
   mix-blend-mode: soft-light;
 }
 
 .guide-city-map__grid {
   pointer-events: none;
-  opacity: 0.12;
+  opacity: 0.08;
   background-image:
-    linear-gradient(rgba(62, 48, 32, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(62, 48, 32, 0.08) 1px, transparent 1px);
+    linear-gradient(rgba(15, 23, 42, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.05) 1px, transparent 1px);
   background-size: 44px 44px;
   mask-image: radial-gradient(circle at center, black 38%, transparent 90%);
 }
 
-/* Preview themes for /mapa-opcoes (production default = vintage wash / no data-map-theme). */
+/* Preview themes for /mapa-opcoes (production default = modern-light / no data-map-theme). */
 .guide-city-map[data-map-theme='atual-slate'] {
   background:
     radial-gradient(circle at 22% 16%, rgba(253, 230, 200, 0.45), transparent 48%),
@@ -294,6 +293,9 @@ html {
 }
 .guide-city-map[data-map-theme='atual-slate'] .guide-city-map__grid {
   opacity: 0.12;
+  background-image:
+    linear-gradient(rgba(62, 48, 32, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(62, 48, 32, 0.08) 1px, transparent 1px);
 }
 
 .guide-city-map[data-map-theme='modern-light'] {

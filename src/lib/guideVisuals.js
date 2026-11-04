@@ -1,15 +1,19 @@
+/** Modern light Positron-like basemaps (production). Vintage PNGs remain at /images/maps/vintage/* for /mapa-opcoes. */
 const CITY_MAPS = {
-  paris: '/images/maps/vintage/paris.png',
-  'nova-york': '/images/maps/vintage/nova-york.png',
-  toquio: '/images/maps/vintage/toquio.png',
-  londres: '/images/maps/vintage/londres.png',
-  roma: '/images/maps/vintage/roma.png',
-  istambul: '/images/maps/vintage/istambul.png',
-  dubai: '/images/maps/vintage/dubai.png'
+  paris: '/images/maps/paris.png',
+  'nova-york': '/images/maps/nova-york.png',
+  toquio: '/images/maps/toquio.png',
+  londres: '/images/maps/londres.png',
+  roma: '/images/maps/roma.png',
+  istambul: '/images/maps/istambul.png',
+  dubai: '/images/maps/dubai.png'
 };
 
 export function mapImageFor(guide) {
-  return CITY_MAPS[guide?.heroImage?.split('/')[3]] || '';
+  const fromHero = guide?.heroImage?.split('/')[3];
+  if (fromHero && CITY_MAPS[fromHero]) return CITY_MAPS[fromHero];
+  const slugCity = String(guide?.slug || '').replace(/^como-planejar-viagem-/, '');
+  return CITY_MAPS[slugCity] || '';
 }
 
 export function itineraryTabsFor(days = []) {
