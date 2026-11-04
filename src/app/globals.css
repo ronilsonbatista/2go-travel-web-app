@@ -241,8 +241,8 @@ html {
 }
 
 .guide-city-map__img {
-  /* Light Positron-like assets + zoom; contrast keeps tile typography readable. */
-  filter: contrast(1.14) brightness(1.02);
+  /* ESRI Light Gray / Positron-like assets + zoom; light contrast for street labels. */
+  filter: contrast(1.08) brightness(1.03);
   transform: scale(var(--guide-map-zoom));
   transform-origin: center;
 }
@@ -250,10 +250,10 @@ html {
 .guide-city-map__wash {
   pointer-events: none;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, transparent 32%, rgba(15, 23, 42, 0.06) 100%),
-    linear-gradient(120deg, rgba(148, 163, 184, 0.08), transparent 50%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.22) 0%, transparent 34%, rgba(15, 23, 42, 0.05) 100%),
+    linear-gradient(120deg, rgba(148, 163, 184, 0.06), transparent 52%);
   mix-blend-mode: normal;
-  opacity: 0.42;
+  opacity: 0.36;
 }
 
 .guide-city-map__wash::after {
@@ -302,15 +302,15 @@ html {
   background: linear-gradient(160deg, #eef2f6 0%, #f7f9fb 100%);
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__img {
-  filter: contrast(1.14) brightness(1.02);
+  filter: contrast(1.08) brightness(1.03);
   transform: scale(var(--guide-map-zoom));
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__wash {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.18) 0%, transparent 32%, rgba(15, 23, 42, 0.06) 100%),
-    linear-gradient(120deg, rgba(148, 163, 184, 0.08), transparent 50%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.22) 0%, transparent 34%, rgba(15, 23, 42, 0.05) 100%),
+    linear-gradient(120deg, rgba(148, 163, 184, 0.06), transparent 52%);
   mix-blend-mode: normal;
-  opacity: 0.42;
+  opacity: 0.36;
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__grid {
   opacity: 0.08;

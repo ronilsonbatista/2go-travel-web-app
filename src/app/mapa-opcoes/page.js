@@ -45,12 +45,12 @@ const ORIG_PINS = [
   }
 ];
 
-/** Geographic % for stitched free-tile basemaps (same Paris bbox). */
+/** Geographic % for stitched ESRI Light Gray basemap (Paris z13 frame). */
 const GEO_PINS = [
-  { ...ORIG_PINS[0], pin: { top: '68.1%', left: '26.5%' } },
-  { ...ORIG_PINS[1], pin: { top: '64.7%', left: '59.7%' } },
-  { ...ORIG_PINS[2], pin: { top: '69.5%', left: '78.6%' } },
-  { ...ORIG_PINS[3], pin: { top: '23.9%', left: '63.9%' } }
+  { ...ORIG_PINS[0], pin: { top: '60.6%', left: '30.3%' } },
+  { ...ORIG_PINS[1], pin: { top: '58.2%', left: '51.3%' } },
+  { ...ORIG_PINS[2], pin: { top: '63.7%', left: '64.9%' } },
+  { ...ORIG_PINS[3], pin: { top: '29.3%', left: '53.9%' } }
 ];
 
 export const MAP_STYLE_OPTIONS = [
@@ -58,9 +58,9 @@ export const MAP_STYLE_OPTIONS = [
     id: 'modern-light',
     name: 'Modern light (produção)',
     short: 'modern-light',
-    description: 'Base clara Positron-like + wash leve — produção em todos os guias.',
+    description: 'ESRI Light Gray / Positron-like + wash leve — produção em todos os guias.',
     mapSrc: '/images/maps/paris.png',
-    pins: ORIG_PINS,
+    pins: GEO_PINS,
     productionLike: true,
     cssTheme: 'modern-light'
   },

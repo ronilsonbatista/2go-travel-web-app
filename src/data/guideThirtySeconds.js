@@ -27,7 +27,7 @@ export const GUIDE_THIRTY_SECONDS = {
         blurb: 'Ícones de Paris',
         color: '#5B8DEF',
         image: '/images/destinations/paris/curated-region-0.jpg',
-        pin: { top: '58%', left: '22%' },
+        pin: { top: '60.6%', left: '30.3%' },
         hotel: 'Hotéis boutique perto do Champ de Mars'
       },
       {
@@ -36,7 +36,7 @@ export const GUIDE_THIRTY_SECONDS = {
         blurb: 'Cultura e história',
         color: '#F47A20',
         image: '/images/destinations/paris/curated-region-1.jpg',
-        pin: { top: '48%', left: '48%' },
+        pin: { top: '58.2%', left: '51.3%' },
         hotel: 'Hotéis clássicos em Saint-Germain e Opéra'
       },
       {
@@ -45,7 +45,7 @@ export const GUIDE_THIRTY_SECONDS = {
         blurb: 'Charme e vida local',
         color: '#8B7CF6',
         image: '/images/destinations/paris/curated-region-2.jpg',
-        pin: { top: '42%', left: '62%' },
+        pin: { top: '63.7%', left: '64.9%' },
         hotel: 'Apartamentos charmosos no 3º e 4º'
       },
       {
@@ -54,7 +54,7 @@ export const GUIDE_THIRTY_SECONDS = {
         blurb: 'Arte e vista incrível',
         color: '#96AB21',
         image: '/images/destinations/paris/curated-region-3.jpg',
-        pin: { top: '22%', left: '55%' },
+        pin: { top: '29.3%', left: '53.9%' },
         hotel: 'Pousadas com vista no Sacré-Cœur'
       }
     ],
@@ -68,7 +68,7 @@ export const GUIDE_THIRTY_SECONDS = {
         image: '/images/destinations/paris/curated-hotel-0.jpg',
         imageIllustrative: true,
         color: '#5B8DEF',
-        pin: { top: '60%', left: '20%' }
+        pin: { top: '62.7%', left: '33.5%' }
       },
       {
         id: 'paris-hotel-louvre',
@@ -79,7 +79,7 @@ export const GUIDE_THIRTY_SECONDS = {
         image: '/images/destinations/paris/curated-hotel-1.jpg',
         imageIllustrative: true,
         color: '#F47A20',
-        pin: { top: '50%', left: '46%' }
+        pin: { top: '54.9%', left: '47.6%' }
       },
       {
         id: 'paris-hotel-marais',
@@ -90,7 +90,7 @@ export const GUIDE_THIRTY_SECONDS = {
         image: '/images/destinations/paris/curated-hotel-2.jpg',
         imageIllustrative: true,
         color: '#8B7CF6',
-        pin: { top: '44%', left: '64%' }
+        pin: { top: '64.4%', left: '63.1%' }
       },
       {
         id: 'paris-hotel-montmartre',
@@ -101,7 +101,7 @@ export const GUIDE_THIRTY_SECONDS = {
         image: '/images/destinations/paris/curated-hotel-3.jpg',
         imageIllustrative: true,
         color: '#96AB21',
-        pin: { top: '20%', left: '57%' }
+        pin: { top: '31.7%', left: '51%' }
       }
     ]
   },
