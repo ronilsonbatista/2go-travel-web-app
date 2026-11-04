@@ -1,0 +1,57 @@
+{
+  "city": "havai",
+  "region": "americas",
+  "center": [
+    21,
+    -157,
+    600
+  ],
+  "pools": {
+    "napali": {
+      "query": "\"Na Pali Coast\"",
+      "required": [
+        "pali"
+      ],
+      "requiredTitle": "pali",
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|map|hurricane|storm damage|military exercise|interior|turtle|bird|flower|fish|beaver",
+      "slots": [
+        "home-slide",
+        "home-thumb"
+      ]
+    },
+    "pearl-harbor": {
+      "query": "\"USS Arizona Memorial\"",
+      "required": [
+        "arizona.*memorial|memorial.*arizona"
+      ],
+      "requiredTitle": "arizona.*memorial|memorial.*arizona",
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|map|hurricane|storm damage|military exercise|interior|turtle|bird|flower|fish|beaver",
+      "slots": [
+        "map-attraction-1"
+      ]
+    },
+    "waikiki": {
+      "query": "\"Waikiki\" \"skyline\"",
+      "required": [
+        "waikiki"
+      ],
+      "requiredTitle": "waikiki",
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|map|hurricane|storm damage|military exercise|interior|turtle|bird|flower|fish|beaver",
+      "slots": [
+        "neighborhood-0"
+      ]
+    }
+  }
+}

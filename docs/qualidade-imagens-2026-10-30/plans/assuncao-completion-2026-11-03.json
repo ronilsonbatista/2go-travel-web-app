@@ -1,0 +1,309 @@
+{
+  "city": "assuncao",
+  "region": "americas",
+  "center": [
+    -25.2637,
+    -57.5759,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Asuncion Paraguay panorama",
+      "required": [
+        "asuncion|asuncion"
+      ],
+      "locationPatterns": [
+        "asuncion|paraguay"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "intro",
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-0": {
+      "query": "Palacio de Lopez Asuncion",
+      "required": [
+        "palacio de lopez"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-4": {
+      "query": "Cerro Lambare",
+      "required": [
+        "lambare"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-5": {
+      "query": "Loma San Jeronimo Asuncion",
+      "required": [
+        "san jeronimo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Asuncion historic center",
+      "required": [
+        "centro|historic|downtown"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "Carmelitas Asuncion",
+      "required": [
+        "carmelitas"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Costanera Asuncion",
+      "required": [
+        "costanera"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Asuncion historic center",
+      "required": [
+        "centro|historic|downtown"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Costanera Asuncion",
+      "required": [
+        "costanera"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "hotel-2",
+        "hotel-list-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Lambare Paraguay",
+      "required": [
+        "lambare"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "limit": 100
+    },
+    "support-food": {
+      "query": "Sopa paraguaya Asuncion",
+      "required": [
+        "sopa paraguaya"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "support-leisure": {
+      "query": "Costanera Asuncion",
+      "required": [
+        "costanera"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "support-icon": {
+      "query": "Palacio de Lopez Asuncion",
+      "required": [
+        "palacio de lopez"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "tips"
+      ]
+    },
+    "support-quarter": {
+      "query": "Asuncion historic center",
+      "required": [
+        "centro|historic|downtown"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "support-language": {
+      "query": "Asuncion Paraguay sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "support-currency": {
+      "query": "Paraguayan guarani banknotes",
+      "required": [
+        "guarani|guaranies"
+      ],
+      "locationPatterns": [
+        "paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "Paraguayan passport cover",
+      "required": [
+        "paraguayan passport|pasaporte paraguayo"
+      ],
+      "locationPatterns": [
+        "paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-trip-1": {
+      "query": "San Bernardino Paraguay",
+      "required": [
+        "san bernardino"
+      ],
+      "locationPatterns": [
+        "paraguay"
+      ],
+      "countryPattern": "paraguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        -25.31,
+        -57.3,
+        15
+      ]
+    }
+  }
+}

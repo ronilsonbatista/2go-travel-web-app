@@ -1,0 +1,72 @@
+{
+  "city": "assuncao",
+  "region": "americas",
+  "center": [
+    -25.3,
+    -57.6,
+    40
+  ],
+  "pools": {
+    "lopez": {
+      "query": "\"Palacio de Lopez\"",
+      "required": [
+        "palacio.*lopez"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|map|historical photograph|construction|interior|19[0-8][0-9]",
+      "slots": [
+        "attraction-0"
+      ]
+    },
+    "lambare": {
+      "query": "\"Cerro Lambare\"",
+      "required": [
+        "cerro.*lambare"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|map|historical photograph|construction|interior|19[0-8][0-9]",
+      "slots": [
+        "map-list-4",
+        "region-3"
+      ]
+    },
+    "san-jeronimo": {
+      "query": "\"San Jeronimo\" \"Asuncion\"",
+      "required": [
+        "san jeronimo",
+        "asuncion|paraguay"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|map|historical photograph|construction|interior|19[0-8][0-9]",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ]
+    },
+    "food": {
+      "query": "\"chipa\" \"Paraguay\"",
+      "required": [
+        "chipa",
+        "paraguay"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|map|historical photograph|construction|interior|19[0-8][0-9]",
+      "slots": [
+        "costs"
+      ]
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "city": "havana",
+  "region": "americas",
+  "center": [
+    23.1136,
+    -82.3666,
+    30
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Habana Vieja",
+      "required": [
+        "habana vieja|old havana"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ]
+    },
+    "attraction-1": {
+      "query": "Malecon Havana",
+      "required": [
+        "malecon"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ]
+    },
+    "attraction-2": {
+      "query": "El Capitolio Havana",
+      "required": [
+        "capitolio"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ]
+    },
+    "attraction-3": {
+      "query": "Plaza de la Revolucion Havana",
+      "required": [
+        "plaza de la revolucion"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ]
+    },
+    "attraction-4": {
+      "query": "Fabrica de Arte Cubano",
+      "required": [
+        "fabrica de arte"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ]
+    },
+    "attraction-5": {
+      "query": "Vedado Havana",
+      "required": [
+        "vedado"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "havana|habana|cubano|cuba"
+      ]
+    }
+  }
+}

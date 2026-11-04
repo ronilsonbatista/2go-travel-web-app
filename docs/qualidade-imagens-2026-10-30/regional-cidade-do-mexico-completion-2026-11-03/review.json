@@ -1,0 +1,3205 @@
+[
+  {
+    "key": "cidade-do-mexico/hero",
+    "slot": "hero",
+    "topic": "Cidade do México",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "cidade-do-mexico/intro",
+    "slot": "intro",
+    "topic": "Cidade do México",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "cidade-do-mexico/home",
+    "slot": "home",
+    "topic": "Cidade do México",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "cidade-do-mexico/guide-card",
+    "slot": "guide-card",
+    "topic": "Cidade do México",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "cidade-do-mexico/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Cidade do México",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "cidade-do-mexico/home-slide",
+    "slot": "home-slide",
+    "topic": "Cidade do México",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "cidade-do-mexico/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Cidade do México: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "cidade-do-mexico/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Zócalo e Catedral",
+    "path": "/images/destinations/cidade-do-mexico/curated-attraction-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Mexico City Zocalo Panorama (49275255128).jpg",
+    "imageinfo": {
+      "size": 26455576,
+      "width": 13555,
+      "height": 3958,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Mexico_City_Zocalo_Panorama_%2849275255128%29.jpg/3840px-Mexico_City_Zocalo_Panorama_%2849275255128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 701,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Mexico_City_Zocalo_Panorama_%2849275255128%29.jpg/3840px-Mexico_City_Zocalo_Panorama_%2849275255128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 701
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mexico_City_Zocalo_Panorama_%2849275255128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mexico_City_Zocalo_Panorama_(49275255128).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133511302",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-06-24 01:32:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mexico City Zocalo Panorama (49275255128)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Plaza de la Constitución (Mexico City)|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|August 2019 in Mexico City|Panoramics in the historical center of Mexico City|Metropolitan Cathedral of Mexico City - Main facade|Metropolitan Cathedral of Mexico City - West facade",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.434469",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.133887",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Mexico City Zocalo Panorama",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-08-10 12:02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/nanpalmero/49275255128/\">Mexico City Zocalo Panorama</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/97402086@N00\">Nan Palmero</a> from San Antonio, TX, USA",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/attraction-0.jpg",
+    "dimensions": [
+      2400,
+      701
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Mexico_City_Zocalo_Panorama_%2849275255128%29.jpg/3840px-Mexico_City_Zocalo_Panorama_%2849275255128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b2befd535230b298fc26b0a9a85272e83a9e0b279797b7ceb265446f505aaba8"
+  },
+  {
+    "key": "cidade-do-mexico/map-attraction-0",
+    "slot": "map-attraction-0",
+    "topic": "Zócalo e Catedral",
+    "path": "/images/destinations/cidade-do-mexico/curated-map-attraction-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Catedral Metropolitana Mexico City - Zocalo square - 1.jpg",
+    "imageinfo": {
+      "size": 3745211,
+      "width": 3264,
+      "height": 2176,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Catedral_Metropolitana_Mexico_City_-_Zocalo_square_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Catedral_Metropolitana_Mexico_City_-_Zocalo_square_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Catedral_Metropolitana_Mexico_City_-_Zocalo_square_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_Mexico_City_-_Zocalo_square_-_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15500568",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-06-13 16:11:18",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Catedral Metropolitana Mexico City - Zocalo square - 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|March 2009 in Mexico City|Metropolitan Cathedral of Mexico City - Main facade",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Hombre durmiendo en el Zócalo de la Ciudad de México.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-03-07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:ProtoplasmaKid\" title=\"User:ProtoplasmaKid\">ProtoplasmaKid</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table style=\"background-color:#e0e0e0; border:dotted 1px #dfded3; padding:1px; font-size:14px; color:#000000;\" cellspacing=\"10\">\n\n\n<tbody><tr>\n<td align=\"left\">\n</td>\n<td>\n<p><br>\n</p>\n<figure class=\"mw-halign-center\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:WP20Symbols_Coatlicue.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/WP20Symbols_Coatlicue.svg/250px-WP20Symbols_Coatlicue.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"117\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/WP20Symbols_Coatlicue.svg/330px-WP20Symbols_Coatlicue.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"401\"></a><figcaption></figcaption></figure>\n<p><a href=\"https://upload.wikimedia.org/wikipedia/commons/5/54/Catedral_Metropolitana_Mexico_City_-_Zocalo_square_-_1.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=api&amp;utm_content=original\" class=\"internal\" title=\"Catedral Metropolitana Mexico City - Zocalo square - 1.jpg\"><b>This creative work</b></a> was created by <a href=\"//commons.wikimedia.org/wiki/User:ProtoplasmaKid\" title=\"User:ProtoplasmaKid\">ProtoplasmaKid</a> It is licensed under a Creative Commons License. You are free to use and distribute it as you wish.\n</p>\n<div class=\"center\">\n<dl><dd><b>On the condition that you always place my attribution next to the material or in the credits of your derivative work in a visible, prominently, and intentional manner, as follows:</b></dd>\n<dd><big><b>ProtoplasmaKid / Wikimedia Commons / CC-BY-SA 4.0</b></big></dd></dl>\n</div>\n<p>Although this work, or modified versions of it, may appear on many websites, this is the original material, and using it for free ONLY requires adhering to the license.<br><small>Also, it would be greatly appreciated if you notify me of the use of my photo, or if you want a different shot or version or a license for full commercial use, contact me by email or on my <a href=\"//commons.wikimedia.org/wiki/User_talk:ProtoplasmaKid\" title=\"User talk:ProtoplasmaKid\">discussion page</a>.</small>\n</p>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/map-attraction-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Catedral_Metropolitana_Mexico_City_-_Zocalo_square_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "9e3adbf1ec8e0e318ac56144fe4f2b14c0fdff4590592ea3886617937fbdf572"
+  },
+  {
+    "key": "cidade-do-mexico/attraction-1",
+    "slot": "attraction-1",
+    "topic": "Teotihuacán",
+    "path": "/images/destinations/cidade-do-mexico/curated-attraction-1.jpg",
+    "pool": "attractions-attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:June 2007 Teotihuacan 22.jpg",
+    "imageinfo": {
+      "size": 1086717,
+      "width": 1536,
+      "height": 2048,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/June_2007_Teotihuacan_22.jpg/1280px-June_2007_Teotihuacan_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/June_2007_Teotihuacan_22.jpg/1280px-June_2007_Teotihuacan_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/June_2007_Teotihuacan_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:June_2007_Teotihuacan_22.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139490368",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-10-25 00:53:04",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "June 2007 Teotihuacan 22",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Uploaded with Mobile/Android|Mexico photographs taken on 2007-06-19|Pyramids in Teotihuacán|2007 in Teotihuacán",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "June 2007 Teotihuacan <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:June_2007_Teotihuacan_22.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "19 June 2007 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Syced\" title=\"User:Syced\">Syced</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/attraction-1.jpg",
+    "dimensions": [
+      1536,
+      2048
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/June_2007_Teotihuacan_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "c25fcfb38f88e228197ec13b4431df0429021d55e007545db5c1e5c67feb659d"
+  },
+  {
+    "key": "cidade-do-mexico/map-list-2",
+    "slot": "map-list-2",
+    "topic": "Museo Frida Kahlo",
+    "path": "/images/destinations/cidade-do-mexico/curated-map-list-2.jpg",
+    "pool": "attractions-attraction-2",
+    "status": "pending-visual-review",
+    "title": "File:Bordado de Frida Kahlo.jpg",
+    "imageinfo": {
+      "size": 6473431,
+      "width": 3600,
+      "height": 2937,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bordado_de_Frida_Kahlo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1958,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bordado_de_Frida_Kahlo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1958
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bordado_de_Frida_Kahlo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bordado_de_Frida_Kahlo.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=81221168",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-08-11 01:30:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bordado de Frida Kahlo",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Pillows|Flowers in art|Museo Frida Kahlo|Angels in art|Self-published work|Hearts in art|Works by Frida Kahlo|Embroidery of Mexico",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Embroidery made by Frida Kahlo. La Casa Azul (Frida Kahlo Museum), Coyoacan, Mexico City.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-08-10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Juan_Carlos_Fonseca_Mata\" title=\"User:Juan Carlos Fonseca Mata\">Juan Carlos Fonseca Mata</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/map-list-2.jpg",
+    "dimensions": [
+      2400,
+      1958
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bordado_de_Frida_Kahlo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "39dc7fedf4767285066fe7a6cded57ce3569be284aa80c54b140344084ba9f89"
+  },
+  {
+    "key": "cidade-do-mexico/attraction-3",
+    "slot": "attraction-3",
+    "topic": "Chapultepec",
+    "path": "/images/destinations/cidade-do-mexico/curated-attraction-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Herpetarium - Chapultepec Zoo - Mexico 2024.jpg",
+    "imageinfo": {
+      "size": 6025222,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Herpetarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Herpetarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Herpetarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Herpetarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Herpetarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Herpetarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149433608",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-16 05:18:59",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Herpetarium - Chapultepec Zoo - Mexico 2024",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|June 2024 in Mexico City|Herpetario, Chapultepec Zoo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.424733",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.188388",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chapultepec Zoo - Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-06-08 12:28:25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/attraction-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Herpetarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Herpetarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "cd1ac4f34e6df6991ac97740253cee5511457f190d2ada56a0d8bf01a86c4815"
+  },
+  {
+    "key": "cidade-do-mexico/map-attraction-3",
+    "slot": "map-attraction-3",
+    "topic": "Chapultepec",
+    "path": "/images/destinations/cidade-do-mexico/curated-map-attraction-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Dinosaurium - Chapultepec Zoo - Mexico 2024.jpg",
+    "imageinfo": {
+      "size": 5351189,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149432658",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-16 04:00:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Dinosaurium - Chapultepec Zoo - Mexico 2024",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|June 2024 in Mexico City|Dinosaurium, Chapultepec Zoo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.424553",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.188463",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Dinosaurium - Chapultepec Zoo - Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-06-08 12:02:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/map-attraction-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "482b64ea2d2087ad805b9777b559829b815ab37d09b6ecd4f3c7a93be6d22e95"
+  },
+  {
+    "key": "cidade-do-mexico/map-list-3",
+    "slot": "map-list-3",
+    "topic": "Chapultepec",
+    "path": "/images/destinations/cidade-do-mexico/curated-map-list-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Aviarium - Chapultepec Zoo - Mexico 2024.jpg",
+    "imageinfo": {
+      "size": 6377925,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Aviarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Aviarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Aviarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Aviarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Aviarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aviarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149456158",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-16 22:55:02",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Aviarium - Chapultepec Zoo - Mexico 2024",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Chapultepec Zoo|Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|June 2024 in Mexico City",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.421878",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.191415",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Aviarium - Chapultepec Zoo - Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-06-08 13:38:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/map-list-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Aviarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Aviarium_-_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a3a8893dc9861e05214bac98a71afd92a7b8fdf27ef9333dd8a1ddd6051f0a68"
+  },
+  {
+    "key": "cidade-do-mexico/attraction-4",
+    "slot": "attraction-4",
+    "topic": "Coyoacán",
+    "path": "/images/destinations/cidade-do-mexico/curated-attraction-4.jpg",
+    "pool": "attractions-attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Chimenea, Centro Cultural Reyes Heroles, Coyoacan Mexico City.jpg",
+    "imageinfo": {
+      "size": 4514031,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Chimenea%2C_Centro_Cultural_Reyes_Heroles%2C_Coyoacan_Mexico_City.jpg/1920px-Chimenea%2C_Centro_Cultural_Reyes_Heroles%2C_Coyoacan_Mexico_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Chimenea%2C_Centro_Cultural_Reyes_Heroles%2C_Coyoacan_Mexico_City.jpg/1920px-Chimenea%2C_Centro_Cultural_Reyes_Heroles%2C_Coyoacan_Mexico_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Chimenea%2C_Centro_Cultural_Reyes_Heroles%2C_Coyoacan_Mexico_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chimenea,_Centro_Cultural_Reyes_Heroles,_Coyoacan_Mexico_City.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=172312524",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-08-11 19:40:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chimenea, Centro Cultural Reyes Heroles, Coyoacan Mexico City",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Chimneys in Mexico|Files with coordinates missing SDC location of creation|Casa de Cultura Jesús Reyes Héroles, Coyoacán|August 2025 in Mexico City",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.349061",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.170944",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chimney, Horno Centro Cultural Reyes Heroles, Coyoacan Mexico City",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-08-03 14:04:44",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Calypso9X&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Calypso9X (page does not exist)\">Calypso9X</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/attraction-4.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Chimenea%2C_Centro_Cultural_Reyes_Heroles%2C_Coyoacan_Mexico_City.jpg/1920px-Chimenea%2C_Centro_Cultural_Reyes_Heroles%2C_Coyoacan_Mexico_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b222c8209ec8ee8e2881880137e1db1ec10b9c716b8c9b7d1b7ef081e1fd371c"
+  },
+  {
+    "key": "cidade-do-mexico/map-list-4",
+    "slot": "map-list-4",
+    "topic": "Coyoacán",
+    "path": "/images/destinations/cidade-do-mexico/curated-map-list-4.jpg",
+    "pool": "attractions-attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Facade in Coyoacan - Mexico City - Mexico (15333668108).jpg",
+    "imageinfo": {
+      "size": 4667456,
+      "width": 3648,
+      "height": 2736,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Facade_in_Coyoacan_-_Mexico_City_-_Mexico_%2815333668108%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Facade_in_Coyoacan_-_Mexico_City_-_Mexico_%2815333668108%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Facade_in_Coyoacan_-_Mexico_City_-_Mexico_%2815333668108%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Facade_in_Coyoacan_-_Mexico_City_-_Mexico_(15333668108).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64119978",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-11-17 07:20:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Facade in Coyoacan - Mexico City - Mexico (15333668108)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "October 2014 in Mexico City|Photographs by Adam Jones|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Architectural elements in Coyoacán",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.350613",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.170050",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Facade in Coyoacan - Mexico City - Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-10-12 13:03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/adam_jones/15333668108/\">Facade in Coyoacan - Mexico City - Mexico</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41000732@N04\">Adam Jones</a> from Kelowna, BC, Canada",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/map-list-4.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Facade_in_Coyoacan_-_Mexico_City_-_Mexico_%2815333668108%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "2575500595713de4834452e74d5c0d37c60179e83065bbef96996fcc67d45d15"
+  },
+  {
+    "key": "cidade-do-mexico/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Roma / Condesa",
+    "path": "/images/destinations/cidade-do-mexico/curated-neighborhood-0.jpg",
+    "pool": "neighborhoods-neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Chocolate stand in Mercado Roma en la Colonia Condesa.jpg",
+    "imageinfo": {
+      "size": 7448132,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Chocolate_stand_in_Mercado_Roma_en_la_Colonia_Condesa.jpg/3840px-Chocolate_stand_in_Mercado_Roma_en_la_Colonia_Condesa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Chocolate_stand_in_Mercado_Roma_en_la_Colonia_Condesa.jpg/3840px-Chocolate_stand_in_Mercado_Roma_en_la_Colonia_Condesa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Chocolate_stand_in_Mercado_Roma_en_la_Colonia_Condesa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chocolate_stand_in_Mercado_Roma_en_la_Colonia_Condesa.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51889784",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-09-29 17:22:26",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chocolate stand in Mercado Roma en la Colonia Condesa",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Mercado Roma photos taken during Semana i 2016",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chocolate, churro and milk shake stand in Mercado Roma (Rome market), in Colonia Condesa, Mexico City.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-09-27 02:14:13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Stellarc\" title=\"User:Stellarc\">Stellarc</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/neighborhood-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Chocolate_stand_in_Mercado_Roma_en_la_Colonia_Condesa.jpg/3840px-Chocolate_stand_in_Mercado_Roma_en_la_Colonia_Condesa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b8ffd1e28e745b96acf6d71be6ac897ba669bb79c1693fb9bc6648c2d302a994"
+  },
+  {
+    "key": "cidade-do-mexico/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "Centro Histórico",
+    "path": "/images/destinations/cidade-do-mexico/curated-neighborhood-detail-1.jpg",
+    "pool": "neighborhoods-neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Exit from National Palace - Centro Historico - Mexico City - Mexico (15486638796).jpg",
+    "imageinfo": {
+      "size": 3711631,
+      "width": 3648,
+      "height": 2736,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Exit_from_National_Palace_-_Centro_Historico_-_Mexico_City_-_Mexico_%2815486638796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Exit_from_National_Palace_-_Centro_Historico_-_Mexico_City_-_Mexico_%2815486638796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Exit_from_National_Palace_-_Centro_Historico_-_Mexico_City_-_Mexico_%2815486638796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Exit_from_National_Palace_-_Centro_Historico_-_Mexico_City_-_Mexico_(15486638796).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64119947",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-11-17 07:18:54",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Exit from National Palace - Centro Historico - Mexico City - Mexico (15486638796)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Interior of the National Palace (Mexico)|October 2014 in Mexico City|Photographs by Adam Jones|Flickr images reviewed by FlickreviewR 2|Doors in Mexico City",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Exit from National Palace - Centro Historico - Mexico City - Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-10-11 15:30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/adam_jones/15486638796/\">Exit from National Palace - Centro Historico - Mexico City - Mexico</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41000732@N04\">Adam Jones</a> from Kelowna, BC, Canada",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/neighborhood-detail-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Exit_from_National_Palace_-_Centro_Historico_-_Mexico_City_-_Mexico_%2815486638796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "c9b8a3497983e003c071cfcbf91f3b392d56211460ca02fdafec33bdc053ac8b"
+  },
+  {
+    "key": "cidade-do-mexico/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "Polanco",
+    "path": "/images/destinations/cidade-do-mexico/curated-neighborhood-2.jpg",
+    "pool": "neighborhoods-neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Liverpool Polanco, Mexico City candy department-1.jpg",
+    "imageinfo": {
+      "size": 689340,
+      "width": 2107,
+      "height": 1788,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Liverpool_Polanco%2C_Mexico_City_candy_department-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2037,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Liverpool_Polanco%2C_Mexico_City_candy_department-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2037
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Liverpool_Polanco%2C_Mexico_City_candy_department-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Liverpool_Polanco,_Mexico_City_candy_department-1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=141864741",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-12-07 15:44:30",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Liverpool Polanco, Mexico City candy department-1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Liverpool Polanco candy department",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.434361",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.182608",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Liverpool Polanco, Mexico City candy department",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-03-12 13:30:10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Keizers\" title=\"User:Keizers\">Keizers</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/neighborhood-2.jpg",
+    "dimensions": [
+      2107,
+      1788
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Liverpool_Polanco%2C_Mexico_City_candy_department-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "2c925d2099262cb0f9d887223ce0aa52276ee0107c44e0d37b760896a28490dc"
+  },
+  {
+    "key": "cidade-do-mexico/neighborhood-detail-2",
+    "slot": "neighborhood-detail-2",
+    "topic": "Polanco",
+    "path": "/images/destinations/cidade-do-mexico/curated-neighborhood-detail-2.jpg",
+    "pool": "neighborhoods-neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Glasses at Liverpool Polanco, Mexico City optical department.jpg",
+    "imageinfo": {
+      "size": 2696388,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Glasses_at_Liverpool_Polanco%2C_Mexico_City_optical_department.jpg/3840px-Glasses_at_Liverpool_Polanco%2C_Mexico_City_optical_department.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Glasses_at_Liverpool_Polanco%2C_Mexico_City_optical_department.jpg/3840px-Glasses_at_Liverpool_Polanco%2C_Mexico_City_optical_department.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Glasses_at_Liverpool_Polanco%2C_Mexico_City_optical_department.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Glasses_at_Liverpool_Polanco,_Mexico_City_optical_department.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=141864760",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-12-07 15:44:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Glasses at Liverpool Polanco, Mexico City optical department",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Liverpool Polanco home furnishings departments",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.433744",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.182831",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Glasses at Liverpool Polanco, Mexico City optical department",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-07-09 14:37:24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Keizers\" title=\"User:Keizers\">Keizers</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/neighborhood-detail-2.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Glasses_at_Liverpool_Polanco%2C_Mexico_City_optical_department.jpg/3840px-Glasses_at_Liverpool_Polanco%2C_Mexico_City_optical_department.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "0f8fa6ba08305ae8fbf136f00c376688ec5d6d260cee14e5e09f7929cd1b367d"
+  },
+  {
+    "key": "cidade-do-mexico/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Coyoacán",
+    "path": "/images/destinations/cidade-do-mexico/curated-neighborhood-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Coyoacán nurseries wildlife.jpg",
+    "imageinfo": {
+      "size": 3541575,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Coyoac%C3%A1n_nurseries_wildlife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Coyoac%C3%A1n_nurseries_wildlife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Coyoac%C3%A1n_nurseries_wildlife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Coyoac%C3%A1n_nurseries_wildlife.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=83545171",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-10-31 21:27:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Coyoacán nurseries wildlife",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Sciurus aureogaster|Viveros de Coyoacan|Self-published work|Mammals of Mexico City|Files with coordinates missing SDC location of creation|Squirrels in Mexico|Reto Wikimedia Coyoacán Semana i Wiki Learning Tec de Monterrey Fall 2019",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.355431",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.171014",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "One of the main animals founded in nurseries are the squirrels and people can appreciate them through its pathways . Also the nurseries have an auditory, seedbeds, an arid zone and a huge running track where many athletes go everyday.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-10-30 12:12:38",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:C%C3%A9sar_Su%C3%A1rez_Hern%C3%A1ndez&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:César Suárez Hernández (page does not exist)\">César Suárez Hernández</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/neighborhood-3.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Coyoac%C3%A1n_nurseries_wildlife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "d826f41136735abae72dc945bb44db539c29a5ac028dbdb013bd01e19f641b96"
+  },
+  {
+    "key": "cidade-do-mexico/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Coyoacán",
+    "path": "/images/destinations/cidade-do-mexico/curated-neighborhood-detail-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:1. Coyoacán Ciudad de México.jpg",
+    "imageinfo": {
+      "size": 1513800,
+      "width": 3072,
+      "height": 2304,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/38/1._Coyoac%C3%A1n_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/1._Coyoac%C3%A1n_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/1._Coyoac%C3%A1n_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:1._Coyoac%C3%A1n_Ciudad_de_M%C3%A9xico.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=106559901",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-06-14 04:45:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "1. Coyoacán Ciudad de México",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|June 2009 in Mexico City|Plaza Hidalgo, Coyoacan",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Coyoacán or “Land of the Coyotes” is a picturesque neighborhood with colonial style buildings, gardens, colorful facades, museums and restaurants.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-06-16 04:39:07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Machristen&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Machristen (page does not exist)\">Machristen</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/neighborhood-detail-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/1._Coyoac%C3%A1n_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "df8b5c46635b456b254e64662679c2765b0f2ed1fd85e48d1dde41da32c69769"
+  },
+  {
+    "key": "cidade-do-mexico/region-0",
+    "slot": "region-0",
+    "topic": "Centro",
+    "path": "/images/destinations/cidade-do-mexico/curated-region-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Calles Seminario y Moneda Centro Histórico Ciudad de México 01.jpg",
+    "imageinfo": {
+      "size": 2177511,
+      "width": 4160,
+      "height": 2336,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Calles_Seminario_y_Moneda_Centro_Hist%C3%B3rico_Ciudad_de_M%C3%A9xico_01.jpg/3840px-Calles_Seminario_y_Moneda_Centro_Hist%C3%B3rico_Ciudad_de_M%C3%A9xico_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1348,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Calles_Seminario_y_Moneda_Centro_Hist%C3%B3rico_Ciudad_de_M%C3%A9xico_01.jpg/3840px-Calles_Seminario_y_Moneda_Centro_Hist%C3%B3rico_Ciudad_de_M%C3%A9xico_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1348
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Calles_Seminario_y_Moneda_Centro_Hist%C3%B3rico_Ciudad_de_M%C3%A9xico_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calles_Seminario_y_Moneda_Centro_Hist%C3%B3rico_Ciudad_de_M%C3%A9xico_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=83241756",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-10-21 00:49:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calles Seminario y Moneda Centro Histórico Ciudad de México 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Images by Correogsk|Calle Moneda, Mexico City|Calle Seminario (Mexico City)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.433717",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.132623",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Seminario St. and Moneda St., at the Historic Center of Mexico City. The corner can be seen of Herdez Foundation and UNAM Hoy Museum, as well as the entrance to the Greater Temple Museum and, in the distance, the National Palace.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-10-20 15:26:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Correogsk\" title=\"User:Correogsk\">Correogsk</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/region-0.jpg",
+    "dimensions": [
+      2400,
+      1348
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Calles_Seminario_y_Moneda_Centro_Hist%C3%B3rico_Ciudad_de_M%C3%A9xico_01.jpg/3840px-Calles_Seminario_y_Moneda_Centro_Hist%C3%B3rico_Ciudad_de_M%C3%A9xico_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2ff1ce106d77f7318dec7eb1b35972d4ed502f5864c23daf8f0eb9456c39f425"
+  },
+  {
+    "key": "cidade-do-mexico/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Centro",
+    "path": "/images/destinations/cidade-do-mexico/curated-hotel-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Church of Jesús Nazareno e Inmaculada Concepción - Mexico 2024 (2).jpg",
+    "imageinfo": {
+      "size": 2908585,
+      "width": 4032,
+      "height": 1908,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Church_of_Jes%C3%BAs_Nazareno_e_Inmaculada_Concepci%C3%B3n_-_Mexico_2024_%282%29.jpg/3840px-Church_of_Jes%C3%BAs_Nazareno_e_Inmaculada_Concepci%C3%B3n_-_Mexico_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1136,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Church_of_Jes%C3%BAs_Nazareno_e_Inmaculada_Concepci%C3%B3n_-_Mexico_2024_%282%29.jpg/3840px-Church_of_Jes%C3%BAs_Nazareno_e_Inmaculada_Concepci%C3%B3n_-_Mexico_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1136
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Church_of_Jes%C3%BAs_Nazareno_e_Inmaculada_Concepci%C3%B3n_-_Mexico_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Church_of_Jes%C3%BAs_Nazareno_e_Inmaculada_Concepci%C3%B3n_-_Mexico_2024_(2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148217399",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-05-10 03:28:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Church of Jesús Nazareno e Inmaculada Concepción - Mexico 2024 (2)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Jesus Nazareno Church, historic center of Mexico City|Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|May 2024 in Mexico City",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.428994",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.132848",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Church of Jesús Nazareno e Inmaculada Concepción - Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-05-04 13:43:06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/hotel-0.jpg",
+    "dimensions": [
+      2400,
+      1136
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Church_of_Jes%C3%BAs_Nazareno_e_Inmaculada_Concepci%C3%B3n_-_Mexico_2024_%282%29.jpg/3840px-Church_of_Jes%C3%BAs_Nazareno_e_Inmaculada_Concepci%C3%B3n_-_Mexico_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "55dc5ce128b2e6cdcb4bd139bbb76ac831b5a90ccb381b53f2435e0e2310159c"
+  },
+  {
+    "key": "cidade-do-mexico/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Centro",
+    "path": "/images/destinations/cidade-do-mexico/curated-hotel-list-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:In the Historic centre of Mexico City 2019-09-03.jpg",
+    "imageinfo": {
+      "size": 6847241,
+      "width": 5344,
+      "height": 3562,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/In_the_Historic_centre_of_Mexico_City_2019-09-03.jpg/3840px-In_the_Historic_centre_of_Mexico_City_2019-09-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/In_the_Historic_centre_of_Mexico_City_2019-09-03.jpg/3840px-In_the_Historic_centre_of_Mexico_City_2019-09-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/In_the_Historic_centre_of_Mexico_City_2019-09-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:In_the_Historic_centre_of_Mexico_City_2019-09-03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=84321821",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-11-24 15:53:41",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "In the Historic centre of Mexico City 2019-09-03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony ILCE-6000 and Sony E 16-50mm F3.5-5.6 OSS PZ|Self-published work|Files with coordinates missing SDC location of creation|October 2019 in Mexico City|Mexico photographs taken on 2019-10-03|Buildings in Mexico photographed in 2019|Buildings in the historic center of Mexico City|Calle Seminario (Mexico City)|Buildings by user:Alexkom000|Taken with Sony E 16-50mm F3.5-5.6 OSS PZ by user:Alexkom000|Mexico City by user:Alexkom000|October 2019 by user:Alexkom000",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.434380",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.132051",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "In the Historic centre of Mexico City",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 3 October 2019, 15:24:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Alexkom000\" title=\"User:Alexkom000\">Alexey Komarov</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/hotel-list-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/In_the_Historic_centre_of_Mexico_City_2019-09-03.jpg/3840px-In_the_Historic_centre_of_Mexico_City_2019-09-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f345d00595167dec1c680043f0f538032e3a05932898abe85ae0be18bdd4475f"
+  },
+  {
+    "key": "cidade-do-mexico/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Chapultepec",
+    "path": "/images/destinations/cidade-do-mexico/curated-region-list-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Carriages - Chapultepec Castle - Mexico 2024.jpg",
+    "imageinfo": {
+      "size": 2188429,
+      "width": 4608,
+      "height": 2184,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Carriages_-_Chapultepec_Castle_-_Mexico_2024.jpg/3840px-Carriages_-_Chapultepec_Castle_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1138,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Carriages_-_Chapultepec_Castle_-_Mexico_2024.jpg/3840px-Carriages_-_Chapultepec_Castle_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1138
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Carriages_-_Chapultepec_Castle_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Carriages_-_Chapultepec_Castle_-_Mexico_2024.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147677713",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-04-24 03:35:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Carriages - Chapultepec Castle - Mexico 2024",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|April 2024 in Mexico City|Museums in Mexico photographed in 2024|Salón de Carruajes (Castillo de Chapultepec)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.420534",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.181649",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Carriages - Chapultepec Castle - Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-04-07 12:56:51",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/region-list-1.jpg",
+    "dimensions": [
+      2400,
+      1138
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Carriages_-_Chapultepec_Castle_-_Mexico_2024.jpg/3840px-Carriages_-_Chapultepec_Castle_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2991e294c37b746e34197d1180f118ef1a76f8b0ffe559bb8ccb105eb9db9e92"
+  },
+  {
+    "key": "cidade-do-mexico/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Chapultepec",
+    "path": "/images/destinations/cidade-do-mexico/curated-hotel-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Genealogical tree of Mexican Giant Pandas at the Chapultepec Zoo - Mexico 2024.jpg",
+    "imageinfo": {
+      "size": 9388590,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Genealogical_tree_of_Mexican_Giant_Pandas_at_the_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Genealogical_tree_of_Mexican_Giant_Pandas_at_the_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Genealogical_tree_of_Mexican_Giant_Pandas_at_the_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Genealogical_tree_of_Mexican_Giant_Pandas_at_the_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Genealogical_tree_of_Mexican_Giant_Pandas_at_the_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Genealogical_tree_of_Mexican_Giant_Pandas_at_the_Chapultepec_Zoo_-_Mexico_2024.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149456258",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-16 23:07:51",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Genealogical tree of Mexican Giant Pandas at the Chapultepec Zoo - Mexico 2024",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Chapultepec Zoo|Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|June 2024 in Mexico City|Ailuropoda melanoleuca in Chapultepec Zoo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.422422",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.189485",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Genealogical tree of Mexican Giant Pandas at the Chapultepec Zoo - Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-06-08 14:06:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Genealogical_tree_of_Mexican_Giant_Pandas_at_the_Chapultepec_Zoo_-_Mexico_2024.jpg/3840px-Genealogical_tree_of_Mexican_Giant_Pandas_at_the_Chapultepec_Zoo_-_Mexico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "8d511e104a8ec6e212b821ffb059f38e729caa4e4cf675084a185d9799040700"
+  },
+  {
+    "key": "cidade-do-mexico/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Chapultepec",
+    "path": "/images/destinations/cidade-do-mexico/curated-hotel-list-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:General view - Dinosaurium - Chapultepec Zoo - Mexico 2024 (2).jpg",
+    "imageinfo": {
+      "size": 2629823,
+      "width": 3264,
+      "height": 2448,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/General_view_-_Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/General_view_-_Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/General_view_-_Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:General_view_-_Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024_(2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=149432652",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-16 04:00:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "General view - Dinosaurium - Chapultepec Zoo - Mexico 2024 (2)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|June 2024 in Mexico City|Dinosaurium, Chapultepec Zoo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.424807",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.188232",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Dinosaurium - Chapultepec Zoo - Mexico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-06-08 12:08:39",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/hotel-list-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f6/General_view_-_Dinosaurium_-_Chapultepec_Zoo_-_Mexico_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "e7363a7a812859d1e67fe773a0175735e766017cdfe2ba62d610de2fe3cdcb29"
+  },
+  {
+    "key": "cidade-do-mexico/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Teotihuacán",
+    "path": "/images/destinations/cidade-do-mexico/curated-hotel-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:June 2007 Teotihuacan 29.jpg",
+    "imageinfo": {
+      "size": 1212311,
+      "width": 2048,
+      "height": 1536,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/June_2007_Teotihuacan_29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/June_2007_Teotihuacan_29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/June_2007_Teotihuacan_29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:June_2007_Teotihuacan_29.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139492585",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-10-25 02:15:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "June 2007 Teotihuacan 29",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Shops in Mexico (state)|Uploaded with Mobile/Android|Photographs taken on 2007-06-19|Shops in Mexico photographed in 2015|Tourism in Teotihuacán|2007 in Teotihuacán",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "June 2007 Teotihuacan <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:June_2007_Teotihuacan_29.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "19 June 2007 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Syced\" title=\"User:Syced\">Syced</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/hotel-list-3.jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/June_2007_Teotihuacan_29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "085b8028952b904163a09209b05a19dec92f096db8f595e98ee71b12c47bbbfc"
+  },
+  {
+    "key": "cidade-do-mexico/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Cidade do México",
+    "path": "/images/destinations/cidade-do-mexico/curated-day-0.jpg",
+    "pool": "support-arrival",
+    "status": "pending-visual-review",
+    "title": "File:Aeropuerto Internacional Benito Juárez de la Ciudad de México - by ovedc 07.jpg",
+    "imageinfo": {
+      "size": 1610467,
+      "width": 3552,
+      "height": 2000,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Aeropuerto_Internacional_Benito_Ju%C3%A1rez_de_la_Ciudad_de_M%C3%A9xico_-_by_ovedc_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1351,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Aeropuerto_Internacional_Benito_Ju%C3%A1rez_de_la_Ciudad_de_M%C3%A9xico_-_by_ovedc_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1351
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Aeropuerto_Internacional_Benito_Ju%C3%A1rez_de_la_Ciudad_de_M%C3%A9xico_-_by_ovedc_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aeropuerto_Internacional_Benito_Ju%C3%A1rez_de_la_Ciudad_de_M%C3%A9xico_-_by_ovedc_07.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=42739646",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-08-29 07:28:01",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Aeropuerto Internacional Benito Juárez de la Ciudad de México - by ovedc 07",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|2015 at Mexico City International Airport|Files with coordinates missing SDC location of creation|Taken with Nokia Lumia 820|Wikimania 2015 by Ovedc",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.432622",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.088599",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Mexico City International Airport",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-08-02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ovedc\" title=\"User:Ovedc\">Ovedc</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/day-0.jpg",
+    "dimensions": [
+      2400,
+      1351
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Aeropuerto_Internacional_Benito_Ju%C3%A1rez_de_la_Ciudad_de_M%C3%A9xico_-_by_ovedc_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "7a98d843afb618f896385d28c56d2240edf2b104aa953bc0add39dcdebf324c4"
+  },
+  {
+    "key": "cidade-do-mexico/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "path": "/images/destinations/cidade-do-mexico/curated-essential-transporte.jpg",
+    "pool": "support-transport",
+    "status": "pending-visual-review",
+    "title": "File:Estación Observatorio de la Línea 1 del Metro de la Ciudad de México 23.jpg",
+    "imageinfo": {
+      "size": 14412113,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Estaci%C3%B3n_Observatorio_de_la_L%C3%ADnea_1_del_Metro_de_la_Ciudad_de_M%C3%A9xico_23.jpg/3840px-Estaci%C3%B3n_Observatorio_de_la_L%C3%ADnea_1_del_Metro_de_la_Ciudad_de_M%C3%A9xico_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Estaci%C3%B3n_Observatorio_de_la_L%C3%ADnea_1_del_Metro_de_la_Ciudad_de_M%C3%A9xico_23.jpg/3840px-Estaci%C3%B3n_Observatorio_de_la_L%C3%ADnea_1_del_Metro_de_la_Ciudad_de_M%C3%A9xico_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Estaci%C3%B3n_Observatorio_de_la_L%C3%ADnea_1_del_Metro_de_la_Ciudad_de_M%C3%A9xico_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Observatorio_de_la_L%C3%ADnea_1_del_Metro_de_la_Ciudad_de_M%C3%A9xico_23.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=179002584",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-11-27 00:25:50",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Estación Observatorio de la Línea 1 del Metro de la Ciudad de México 23",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "NM-22|Self-published work|Estación Observatorio (Metro de México)|Interior of Mexico City Subway cars|2025 photographs by User:ProtoplasmaKid|Photographs of public transportation by User:ProtoplasmaKid|Mexico City photographs taken on 2025-11-23",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Inside an NM-22 train at the Observatorio station on Line 1 of the Mexico City Metro.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-11-23 10:30:58",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:ProtoplasmaKid\" title=\"User:ProtoplasmaKid\">ProtoplasmaKid</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/essential-transporte.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Estaci%C3%B3n_Observatorio_de_la_L%C3%ADnea_1_del_Metro_de_la_Ciudad_de_M%C3%A9xico_23.jpg/3840px-Estaci%C3%B3n_Observatorio_de_la_L%C3%ADnea_1_del_Metro_de_la_Ciudad_de_M%C3%A9xico_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "9da2a593126cde71f64f310f471a15a533fc245a36dcf21a23976c4c094ee6fb"
+  },
+  {
+    "key": "cidade-do-mexico/day-1",
+    "slot": "day-1",
+    "topic": "Ícones principais",
+    "path": "/images/destinations/cidade-do-mexico/curated-day-1.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:Mexico City National Cathedral, Zocalo (9792708985).jpg",
+    "imageinfo": {
+      "size": 333088,
+      "width": 1600,
+      "height": 1162,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mexico_City_National_Cathedral%2C_Zocalo_%289792708985%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1743,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mexico_City_National_Cathedral%2C_Zocalo_%289792708985%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1743
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mexico_City_National_Cathedral%2C_Zocalo_%289792708985%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mexico_City_National_Cathedral,_Zocalo_(9792708985).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=108811541",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-08-18 00:28:50",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mexico City National Cathedral, Zocalo (9792708985)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Central America|Taken with Minolta Dimage S414|CC-Zero|Photographs by Gary Lee Todd|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Files uploaded by Orizan",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "19.433719",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-99.133136",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Digital copy of slide taken April, 2001. Complete indexed photo collection at WorldHistoryPics.com.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2001-04-09 00:04",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/101561334@N08/9792708985/\">Mexico City National Cathedral, Zocalo</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/101561334@N08\">Gary Todd</a> from Xinzheng, China",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/day-1.jpg",
+    "dimensions": [
+      1600,
+      1162
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mexico_City_National_Cathedral%2C_Zocalo_%289792708985%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "03693ac34ca928756be42329548f63716fb0e27c40d7c344900a654dfed1e7fa"
+  },
+  {
+    "key": "cidade-do-mexico/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "support-currency"
+  },
+  {
+    "key": "cidade-do-mexico/trip-2",
+    "slot": "trip-2",
+    "topic": "Destino costeiro ou histórico próximo",
+    "path": "/images/destinations/cidade-do-mexico/curated-trip-2.jpg",
+    "pool": "support-trip-2",
+    "status": "pending-visual-review",
+    "title": "File:Kiosco en el centro de Tepoztlán..JPG",
+    "imageinfo": {
+      "size": 3180384,
+      "width": 4288,
+      "height": 2848,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Kiosco_en_el_centro_de_Tepoztl%C3%A1n..JPG/3840px-Kiosco_en_el_centro_de_Tepoztl%C3%A1n..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1594,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Kiosco_en_el_centro_de_Tepoztl%C3%A1n..JPG/3840px-Kiosco_en_el_centro_de_Tepoztl%C3%A1n..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1594
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Kiosco_en_el_centro_de_Tepoztl%C3%A1n..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Kiosco_en_el_centro_de_Tepoztl%C3%A1n..JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=38743528",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-03-05 16:28:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Kiosco en el centro de Tepoztlán.",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Tepoztlán|Self-published work|Bandstands in Morelos|Tepoztlán en la Mirada project|Octagonal bandstands in Mexico",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "In the photo we can see the kiosk located in the center of the tourist town Tepoztlan, Morelos, Mexico. The kiosk is white with red and black rail. It has a red octagonal roof, on top of it as a movable arrow indicating the wind direction. At the bottom of the kiosk there are posters pasted with photos of the 43 missing in Ayotzinapa in Iguala, Guerrero on November 2014.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-03-05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Giovanna_Goya\" title=\"User:Giovanna Goya\">Giovanna Goya</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-mexico/trip-2.jpg",
+    "dimensions": [
+      2400,
+      1594
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Kiosco_en_el_centro_de_Tepoztl%C3%A1n..JPG/3840px-Kiosco_en_el_centro_de_Tepoztl%C3%A1n..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "347e04ed8286867d2d443d62bc6f1dd02dd18515d86c1cc64da56c9ee19b1603"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "los-angeles/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Placa memorial domina a composição sem representação suficiente de Santa Monica."
+  },
+  "los-angeles/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Santa Monica: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "los-angeles/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Hollywood: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "los-angeles/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Versão recortada (Zuschnitt) da mesma foto Hollywood Sign, repetição de original."
+  },
+  "los-angeles/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "los-angeles/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Névoa e árvores ocultam a maior parte do Downtown, enquadramento fraco."
+  },
+  "los-angeles/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Pessoa com carrinho domina a composição, não representa o bairro."
+  },
+  "los-angeles/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro West Hollywood: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  }
+}

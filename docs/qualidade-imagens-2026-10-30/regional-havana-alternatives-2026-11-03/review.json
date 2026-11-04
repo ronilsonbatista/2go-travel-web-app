@@ -1,0 +1,1119 @@
+[
+  {
+    "key": "havana/home",
+    "slot": "home",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/guide-card",
+    "slot": "guide-card",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/home-slide",
+    "slot": "home-slide",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Havana: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Vedado",
+    "path": "/images/destinations/havana/curated-neighborhood-1.jpg",
+    "pool": "neighborhoods-neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Barrio Vedado (35932342594).jpg",
+    "imageinfo": {
+      "size": 25467209,
+      "width": 5993,
+      "height": 3993,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Barrio_Vedado_%2835932342594%29.jpg/3840px-Barrio_Vedado_%2835932342594%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1599,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Barrio_Vedado_%2835932342594%29.jpg/3840px-Barrio_Vedado_%2835932342594%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1599
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Barrio_Vedado_%2835932342594%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barrio_Vedado_(35932342594).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77137427",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-06-27 13:10:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Barrio Vedado (35932342594)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Vedado|Flickr images missing SDC creator|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Wrought iron in Havana|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.140083",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.390467",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Barrio Vedado",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-09 12:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/35932342594/\">Barrio Vedado</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/neighborhood-1.jpg",
+    "dimensions": [
+      2400,
+      1599
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Barrio_Vedado_%2835932342594%29.jpg/3840px-Barrio_Vedado_%2835932342594%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "5849b1b9e8e4ad096d3c54d14270ee1e2d1b3d05c1ff258e1dda20250a01aa23"
+  },
+  {
+    "key": "havana/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Miramar",
+    "path": "/images/destinations/havana/curated-neighborhood-detail-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Mansiones de Miramar - panoramio.jpg",
+    "imageinfo": {
+      "size": 5745322,
+      "width": 4752,
+      "height": 3168,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Mansiones_de_Miramar_-_panoramio.jpg/3840px-Mansiones_de_Miramar_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Mansiones_de_Miramar_-_panoramio.jpg/3840px-Mansiones_de_Miramar_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Mansiones_de_Miramar_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mansiones_de_Miramar_-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56493840",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-02-21 23:59:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Mansiones de Miramar - panoramio",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Playa, Havana|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Cuba photographs taken on 2011-02-13",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.119835",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.422322",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Mansiones de Miramar",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 13 February 2011",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161024153251/http://www.panoramio.com/photo/88954215\">https://web.archive.org/web/20161024153251/http://www.panoramio.com/photo/88954215</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161024153252/http://www.panoramio.com/user/7586453?with_photo_id=88954215\">enrique1363</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">enrique1363</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 21 February 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "enrique1363",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/neighborhood-detail-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Mansiones_de_Miramar_-_panoramio.jpg/3840px-Mansiones_de_Miramar_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d022ba0ec1098f790764875991dbf57b4aa7543e40ad9fb0da46553381b88962"
+  },
+  {
+    "key": "havana/region-0",
+    "slot": "region-0",
+    "topic": "Vieja",
+    "path": "/images/destinations/havana/curated-region-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Habana Vieja (34947350780).jpg",
+    "imageinfo": {
+      "size": 20424887,
+      "width": 6140,
+      "height": 3515,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Habana_Vieja_%2834947350780%29.jpg/3840px-Habana_Vieja_%2834947350780%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1374,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Habana_Vieja_%2834947350780%29.jpg/3840px-Habana_Vieja_%2834947350780%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1374
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Habana_Vieja_%2834947350780%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(34947350780).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77134906",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-06 15:43:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Habana Vieja (34947350780)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "2017 in Havana|Traffic bollards in Cuba|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Streets in Havana Vieja|Street furniture in Havana|Traffic bollards made from cannons|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.135655",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.349639",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Habana Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-13 13:15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/34947350780/\">Habana Vieja</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/region-0.jpg",
+    "dimensions": [
+      2400,
+      1374
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Habana_Vieja_%2834947350780%29.jpg/3840px-Habana_Vieja_%2834947350780%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "0aafb74cfb442e424124d6dacec7979579b952917fe1758c8d58d245631c256e"
+  },
+  {
+    "key": "havana/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Vieja",
+    "path": "/images/destinations/havana/curated-hotel-list-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Calle Brasil. Habana Vieja, La Habana, Cuba. Agosto de 2016 03.jpg",
+    "imageinfo": {
+      "size": 6631428,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Calle_Brasil._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_03.jpg/3840px-Calle_Brasil._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Calle_Brasil._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_03.jpg/3840px-Calle_Brasil._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Calle_Brasil._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_Brasil._Habana_Vieja,_La_Habana,_Cuba._Agosto_de_2016_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51274834",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-09-09 16:11:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle Brasil. Habana Vieja, La Habana, Cuba. Agosto de 2016 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Calle Brasil (La Habana)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calle Brasil (conocida como Teniente Rey). Calle de la capital de Cuba en La Habana Vieja, la zona más antigua de la ciudad. Es recta, estrecha, sombreada y conserva el aire del periodo colonial español.\nRecorre de este a oeste por la parte más central de La Habana Vieja. Desde Oficios, justo frente al segundo claustro del antiguo Convento Iglesia de San Francisco de Asís, hasta Prado (Paseo de Martí) frente a la escalinata del Capitolio de La Habana. Es atravesada por las calles. Mercaderes, San Ignacio, Cuba, Aguiar, Habana, Compostela, Aguacate, Villegas, Bernaza, Egido y Zulueta.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-08-08 18:16:41",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yoeztudioz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yoeztudioz (page does not exist)\">Yoeztudioz</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/hotel-list-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Calle_Brasil._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_03.jpg/3840px-Calle_Brasil._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "04897046f6a3dd5e757c1113e7b22a065883769f697bf90f4760e29b1528e868"
+  },
+  {
+    "key": "havana/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Malecón",
+    "path": "/images/destinations/havana/curated-region-list-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Buildings on the Malecon (3216618454).jpg",
+    "imageinfo": {
+      "size": 5307326,
+      "width": 2602,
+      "height": 3276,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Buildings_on_the_Malecon_%283216618454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3022,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Buildings_on_the_Malecon_%283216618454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3022
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Buildings_on_the_Malecon_%283216618454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Buildings_on_the_Malecon_(3216618454).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27835176",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-08-22 17:39:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Buildings on the Malecon (3216618454)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 50D|El Malecón|Buildings in Havana|Flickr images reviewed by File Upload Bot (Magnus Manske)|Facades in Cuba|2009 in Havana|Night in Havana|Files with coordinates missing SDC location of creation|Photographs by Tony Hisgett|Cuba photographs taken on 2009-01-09",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.142676",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.363150",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Buildings on the Malecon",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-01-09 20:07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/hisgett/3216618454/\">Buildings on the Malecon</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Tm\" title=\"User:Tm\">tm</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37804979@N00\">Tony Hisgett</a> from Birmingham, UK",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/region-list-1.jpg",
+    "dimensions": [
+      1906,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Buildings_on_the_Malecon_%283216618454%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "7d98c95e1d8d09b3fea12abd20419ed0fa2238b75c3690d05c9d1b99bed76395"
+  },
+  {
+    "key": "havana/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Malecón",
+    "path": "/images/destinations/havana/curated-hotel-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Blue Car on the Malecon (48981733782).jpg",
+    "imageinfo": {
+      "size": 3872750,
+      "width": 5138,
+      "height": 2890,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Blue_Car_on_the_Malecon_%2848981733782%29.jpg/3840px-Blue_Car_on_the_Malecon_%2848981733782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Blue_Car_on_the_Malecon_%2848981733782%29.jpg/3840px-Blue_Car_on_the_Malecon_%2848981733782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Blue_Car_on_the_Malecon_%2848981733782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Blue_Car_on_the_Malecon_(48981733782).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=112913511",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-11-29 09:01:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Blue Car on the Malecon (48981733782)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "El Malecón|Classic cars in Havana|Flickr images reviewed by FlickreviewR 2|Files uploaded by Ltn12345/Flickr|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Blue classic car driving along the Malecon in Havana (Cuba) shortly before sunset.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-05-10 01:25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/31176607@N05/48981733782/\">Blue Car on the Malecon</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31176607@N05\">kuhnmi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Blue_Car_on_the_Malecon_%2848981733782%29.jpg/3840px-Blue_Car_on_the_Malecon_%2848981733782%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "4b98e223731cc653db3a81b7059b4a986856e21d3ebe481c3a661056b102914a"
+  },
+  {
+    "key": "havana/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Havana",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "havana/day-4",
+    "slot": "day-4",
+    "topic": "Bate-volta ou folga",
+    "status": "no-candidate",
+    "pool": "support-leisure"
+  },
+  {
+    "key": "havana/day-1",
+    "slot": "day-1",
+    "topic": "Ícones principais",
+    "path": "/images/destinations/havana/curated-day-1.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:Calle Obispo. Habana Vieja, La Habana, Cuba. Agosto de 2016 01.jpg",
+    "imageinfo": {
+      "size": 4014598,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_01.jpg/3840px-Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_01.jpg/3840px-Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_Obispo._Habana_Vieja,_La_Habana,_Cuba._Agosto_de_2016_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=50823010",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-08-22 15:52:26",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle Obispo. Habana Vieja, La Habana, Cuba. Agosto de 2016 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Boulevards|Calle del Obispo (La Habana)|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Ubicada al sur de la Plaza de Armas y a un costado del Palacio de los Capitanes Generales, corre desde las riberas de la bahía hasta la calle de Monserrate. Es atravesada por las calles Baratillo, Oficios, Mercaderes, San Ignacio, Cuba, Aguiar, Habana, Compostela, Aguacate, Villegas y Bernaza.\nEs la calle mas transitada y mas turistica del casco histórico de La Habana.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-08-03 11:44:41",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yoeztudioz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yoeztudioz (page does not exist)\">Yoeztudioz</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/day-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_01.jpg/3840px-Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "dabe647bf9e4620aae7d15ff65e4eadfb5d3324d86eae193fc73faa951166449"
+  },
+  {
+    "key": "havana/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/havana/curated-tips.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:Calle Obispo. Habana Vieja, La Habana, Cuba. Agosto de 2016 04.jpg",
+    "imageinfo": {
+      "size": 4138519,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_04.jpg/3840px-Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_04.jpg/3840px-Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_Obispo._Habana_Vieja,_La_Habana,_Cuba._Agosto_de_2016_04.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=50823012",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-08-22 15:52:29",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle Obispo. Habana Vieja, La Habana, Cuba. Agosto de 2016 04",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Boulevards|Calle del Obispo (La Habana)|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Ubicada al sur de la Plaza de Armas y a un costado del Palacio de los Capitanes Generales, corre desde las riberas de la bahía hasta la calle de Monserrate. Es atravesada por las calles Baratillo, Oficios, Mercaderes, San Ignacio, Cuba, Aguiar, Habana, Compostela, Aguacate, Villegas y Bernaza.\nEs la calle mas transitada y mas turistica del casco histórico de La Habana.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-08-08 15:12:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yoeztudioz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yoeztudioz (page does not exist)\">Yoeztudioz</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/tips.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_04.jpg/3840px-Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d97f06c186bf52beb17a896700161c1c34fc5f8ee9c8f3c3087844e196686e8f"
+  },
+  {
+    "key": "havana/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "path": "/images/destinations/havana/curated-day-2.jpg",
+    "pool": "support-quarter",
+    "status": "pending-visual-review",
+    "title": "File:Calle Obispo. Habana Vieja, La Habana, Cuba. Agosto de 2016 02.jpg",
+    "imageinfo": {
+      "size": 4089482,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_02.jpg/3840px-Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_02.jpg/3840px-Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_Obispo._Habana_Vieja,_La_Habana,_Cuba._Agosto_de_2016_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=50823009",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-08-22 15:52:26",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle Obispo. Habana Vieja, La Habana, Cuba. Agosto de 2016 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Boulevards|Calle del Obispo (La Habana)|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Ubicada al sur de la Plaza de Armas y a un costado del Palacio de los Capitanes Generales, corre desde las riberas de la bahía hasta la calle de Monserrate. Es atravesada por las calles Baratillo, Oficios, Mercaderes, San Ignacio, Cuba, Aguiar, Habana, Compostela, Aguacate, Villegas y Bernaza.\nEs la calle mas transitada y mas turistica del casco histórico de La Habana.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-08-08 13:09:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yoeztudioz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yoeztudioz (page does not exist)\">Yoeztudioz</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/day-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_02.jpg/3840px-Calle_Obispo._Habana_Vieja%2C_La_Habana%2C_Cuba._Agosto_de_2016_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "601d1036b248fbc3e20c2ec0459c4023ea1c7ea9365375170f04004fe8c3cb9c"
+  },
+  {
+    "key": "havana/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "support-currency"
+  }
+]

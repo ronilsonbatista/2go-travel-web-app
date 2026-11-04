@@ -1,0 +1,64 @@
+{
+  "city": "toronto",
+  "region": "americas",
+  "center": [
+    43.65,
+    -79.38,
+    70
+  ],
+  "pools": {
+    "thumbnail": {
+      "query": "\"Toronto\" incategory:\"Quality images\"",
+      "required": [
+        "toronto",
+        "skyline|panoram|cn tower"
+      ],
+      "slots": [
+        "home-thumb"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 3.6,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|museum|abandoned|retired|destroyed",
+      "requiredTitle": "toronto",
+      "preferredTitles": [
+        "File:Toronto - ON - Toronto Skyline8.jpg"
+      ]
+    },
+    "transport": {
+      "query": "\"Toronto\" \"Flexity\"",
+      "required": [
+        "toronto|ttc",
+        "flexity"
+      ],
+      "slots": [
+        "essential-transporte"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 3.6,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|museum|abandoned|retired|destroyed",
+      "requiredTitle": "toronto|ttc|flexity",
+      "minimumCaptureYear": 2018
+    },
+    "language": {
+      "query": "\"Toronto\" \"sign\"",
+      "required": [
+        "toronto",
+        "bilingual|english|exit|entrance|street|parking|welcome|pedestrian"
+      ],
+      "slots": [
+        "essential-idioma"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|museum|abandoned|retired|destroyed",
+      "requiredTitle": "sign",
+      "minimumCaptureYear": 2019
+    }
+  }
+}

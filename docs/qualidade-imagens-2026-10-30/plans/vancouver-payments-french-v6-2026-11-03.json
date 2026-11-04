@@ -1,0 +1,33 @@
+{
+  "city": "vancouver",
+  "region": "americas",
+  "center": [
+    56,
+    -106,
+    5000
+  ],
+  "pools": {
+    "payments": {
+      "query": "incategory:\"Automatic teller machines in Canada\"",
+      "required": [
+        "guichet|atm|automatic teller|currency exchange"
+      ],
+      "requiredTitle": "guichet|atm|currency exchange",
+      "countryPattern": "canada|canadian",
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 2.8,
+      "reject": "bitcoin atm|bitcoin automatic|crypto.*atm|burned|destroyed|rioter|museum|historical|painting|diagram|logo|logotipo",
+      "slots": [
+        "essential-moeda"
+      ],
+      "preferredTitles": [
+        "File:Guichets automatiques Desjardins - 2022-10-22.jpg"
+      ]
+    }
+  }
+}

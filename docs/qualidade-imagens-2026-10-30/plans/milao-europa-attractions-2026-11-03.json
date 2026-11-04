@@ -1,0 +1,131 @@
+{
+  "city": "milao",
+  "region": "europa",
+  "center": [
+    45.4642,
+    9.19,
+    30
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Duomo di Milano exterior",
+      "required": [
+        "milan|milano",
+        "duomo"
+      ],
+      "locationPatterns": [
+        "milan|milano"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ]
+    },
+    "attraction-1": {
+      "query": "Galleria Vittorio Emanuele II Milan",
+      "required": [
+        "milan|milano",
+        "vittorio emanuele"
+      ],
+      "locationPatterns": [
+        "milan|milano"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ]
+    },
+    "attraction-2": {
+      "query": "Santa Maria delle Grazie Milan exterior",
+      "required": [
+        "milan|milano",
+        "santa maria.*grazie"
+      ],
+      "locationPatterns": [
+        "milan|milano"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ]
+    },
+    "attraction-3": {
+      "query": "Navigli Milan canal",
+      "required": [
+        "milan|milano",
+        "navigli|naviglio"
+      ],
+      "locationPatterns": [
+        "milan|milano"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ]
+    },
+    "attraction-4": {
+      "query": "Castello Sforzesco Milan",
+      "required": [
+        "milan|milano",
+        "sforzesco"
+      ],
+      "locationPatterns": [
+        "milan|milano"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ]
+    },
+    "attraction-5": {
+      "query": "Brera Milan street",
+      "required": [
+        "milan|milano",
+        "brera"
+      ],
+      "locationPatterns": [
+        "milan|milano"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ]
+    }
+  }
+}

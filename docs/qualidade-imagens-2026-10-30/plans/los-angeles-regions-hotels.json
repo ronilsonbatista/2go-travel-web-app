@@ -1,0 +1,79 @@
+{
+  "city": "los-angeles",
+  "region": "americas",
+  "center": [
+    34.0522,
+    -118.2437,
+    70
+  ],
+  "pools": {
+    "region-0": {
+      "query": "Westwood Los Angeles",
+      "required": [
+        "westwood"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "Hollywood Los Angeles",
+      "required": [
+        "hollywood"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "Downtown Los Angeles",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "region-3": {
+      "query": "San Fernando Valley Los Angeles",
+      "required": [
+        "san fernando valley"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    }
+  }
+}

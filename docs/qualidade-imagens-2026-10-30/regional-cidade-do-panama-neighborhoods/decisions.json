@@ -1,0 +1,34 @@
+{
+  "cidade-do-panama/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Casco Viejo: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "cidade-do-panama/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Casco Viejo: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "cidade-do-panama/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro El Cangrejo: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "cidade-do-panama/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Carretas em Montijo, assunto e local diferentes do bairro El Cangrejo."
+  },
+  "cidade-do-panama/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Costa del Este: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "cidade-do-panama/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Costa del Este: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "cidade-do-panama/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Cemitério Amador, não a região turística da calçada de Amador."
+  },
+  "cidade-do-panama/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Cemitério com nome Amador, não corresponde à região turística solicitada."
+  }
+}

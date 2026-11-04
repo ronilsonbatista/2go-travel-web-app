@@ -1,0 +1,66 @@
+{
+  "cidade-do-mexico/region-0": {
+    "decision": "rejected",
+    "notes": "Retrato de pessoa com maquiagem domina a composição, não representa a região Centro."
+  },
+  "cidade-do-mexico/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Centro, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-mexico/hotel-0": {
+    "decision": "rejected",
+    "notes": "Placa de notariado isolada, não representa hospedagem nem a região."
+  },
+  "cidade-do-mexico/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Fachada religiosa isolada, contexto insuficiente para ilustrar hospedagem."
+  },
+  "cidade-do-mexico/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Chapultepec, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-mexico/region-list-1": {
+    "decision": "rejected",
+    "notes": "Placas e publicidade no acesso ao metrô dominam a composição, pouca representação de Chapultepec."
+  },
+  "cidade-do-mexico/hotel-1": {
+    "decision": "rejected",
+    "notes": "Fóssil em vitrine, assunto inadequado para hospedagem ilustrativa."
+  },
+  "cidade-do-mexico/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Entrada de recinto do zoológico, assunto inadequado para ilustrar hospedagem."
+  },
+  "cidade-do-mexico/region-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Coyoacán, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-mexico/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Coyoacán, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-mexico/hotel-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Coyoacán, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-mexico/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Coyoacán, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-mexico/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Teotihuacán, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-mexico/region-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Teotihuacán, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-mexico/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Teotihuacán, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "cidade-do-mexico/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Registro antigo de 1976, baixa qualidade e pessoa dominante, inadequado para hospedagem."
+  }
+}

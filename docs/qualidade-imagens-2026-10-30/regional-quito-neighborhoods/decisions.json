@@ -1,0 +1,34 @@
+{
+  "quito/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Retrato de músico domina a imagem, não representa o Centro Histórico."
+  },
+  "quito/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Placa de identificação isolada, contexto insuficiente do bairro histórico."
+  },
+  "quito/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro La Mariscal: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "quito/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro La Mariscal: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "quito/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro La Floresta: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "quito/neighborhood-detail-2": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+  },
+  "quito/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Fotografia histórica de ônibus de 1985, inadequada como vista atual de Cumbayá."
+  },
+  "quito/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Cumbayá: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  }
+}

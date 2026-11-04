@@ -1,0 +1,83 @@
+{
+  "city": "assuncao",
+  "region": "americas",
+  "center": [
+    -25.2637,
+    -57.5759,
+    50
+  ],
+  "pools": {
+    "intro": {
+      "query": "\"Asuncion\" \"skyline\" -intitle:panoramio",
+      "required": [
+        "asuncion"
+      ],
+      "requiredTitle": "asuncion",
+      "locationPatterns": [
+        "asuncion|paraguay"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "intro"
+      ]
+    },
+    "guide-card": {
+      "query": "\"Palacio de Lopez\"",
+      "required": [
+        "palacio"
+      ],
+      "requiredTitle": "palacio",
+      "locationPatterns": [
+        "asuncion|paraguay"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "guide-card"
+      ]
+    },
+    "home-slide": {
+      "query": "\"Panteon Nacional\" \"Asuncion\"",
+      "required": [
+        "panteon|pantheon"
+      ],
+      "requiredTitle": "panteon|pantheon",
+      "locationPatterns": [
+        "asuncion|paraguay"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home-slide"
+      ]
+    },
+    "home-thumb": {
+      "query": "\"Asuncion\" \"Costanera\"",
+      "required": [
+        "costanera"
+      ],
+      "requiredTitle": "costanera",
+      "locationPatterns": [
+        "asuncion|paraguay"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home-thumb"
+      ]
+    }
+  }
+}

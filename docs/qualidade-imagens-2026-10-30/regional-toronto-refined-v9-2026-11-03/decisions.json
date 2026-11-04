@@ -1,0 +1,14 @@
+{
+  "toronto/home-thumb": {
+    "decision": "rejected",
+    "notes": "A vista tem a torre muito próxima da borda superior e pouca margem para recorte da miniatura; buscar composição com hito completo e espaço de enquadramento."
+  },
+  "toronto/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Bonde Flexity Outlook da TTC em operação na rua de Toronto, com veículo, trilhos e contexto urbano legíveis; GPS local, captura de setembro de 2019, origem Flickr comprovada, CC0 e 4902px nativos."
+  },
+  "toronto/essential-idioma": {
+    "decision": "rejected",
+    "notes": "A imagem é dominada por trânsito, placa de proibição e campanha eleitoral de 2022; o texto não é adequado nem legível para ilustrar idioma de um guia de viagem."
+  }
+}

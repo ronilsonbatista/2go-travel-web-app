@@ -1,0 +1,38 @@
+{
+  "orlando/map-list-5": {
+    "decision": "accepted",
+    "notes": "International Drive com sinalização, comércio e circulação em foto diurna; via turística real e orientação correta."
+  },
+  "orlando/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Vista elevada da área International Drive com lago, vias e hotéis; contexto real do bairro/região."
+  },
+  "orlando/region-2": {
+    "decision": "accepted",
+    "notes": "Torre do Four Points em International Drive com globo e arquitetura; marco urbano real da região I-Drive."
+  },
+  "orlando/region-list-2": {
+    "decision": "accepted",
+    "notes": "Edifício e acesso do Hyatt Regency Orlando em International Drive; contexto urbano real da região I-Drive."
+  },
+  "orlando/mistakes": {
+    "decision": "accepted",
+    "notes": "Trem Brightline no terminal intermodal do aeroporto de Orlando; infraestrutura real de chegada e conexão, ângulo distinto do day-0."
+  },
+  "orlando/costs": {
+    "decision": "rejected",
+    "notes": "Bolo comemorativo do Exército com bandeiras militares; não representa pratos típicos de Orlando."
+  },
+  "orlando/tips": {
+    "decision": "accepted",
+    "notes": "Ônibus Disney Transport em parada do Walt Disney World; serviço real de deslocamento para planejamento da visita."
+  },
+  "orlando/essential-moeda": {
+    "decision": "accepted",
+    "notes": "Cédula real de cem dólares americanos série 2009 com faixa azul, em circulação atual; fotografia de moeda correta para Orlando."
+  },
+  "orlando/trip-1": {
+    "decision": "rejected",
+    "notes": "Retrato de automóvel em Winter Park sem destino reconhecível; não corresponde a passeio regional."
+  }
+}

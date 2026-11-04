@@ -1,0 +1,32 @@
+{
+  "city": "lima",
+  "region": "americas",
+  "center": [
+    -12.0298,
+    -77.1163,
+    10
+  ],
+  "pools": {
+    "new-terminal": {
+      "query": "incategory:\"New terminal at Jorge Chávez International Airport\"",
+      "required": [
+        "jorge chavez"
+      ],
+      "preferredTitles": [
+        "File:Aeropuerto Jorge Chavez 2025a.jpg",
+        "File:Aeropuerto Jorge Chavez 2025b.jpg",
+        "File:Aeropuerto Jorge Chavez 2025c.jpg"
+      ],
+      "requiredTitle": "2025|nueva terminal",
+      "limit": 50,
+      "minimumLongEdge": 1600,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "render|construction|construccion|2023|map|diagram|portrait",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    }
+  }
+}

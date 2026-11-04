@@ -1,0 +1,78 @@
+{
+  "quito/hero": {
+    "decision": "accepted",
+    "notes": "Nave da Iglesia de La Compañía em Quito com arquitetura dourada e perspectiva central nítida; marco cultural real, orientação correta."
+  },
+  "quito/intro": {
+    "decision": "rejected",
+    "notes": "Close abstrato de abóbada dourada; não caracteriza suficientemente Quito como introdução do destino."
+  },
+  "quito/home": {
+    "decision": "accepted",
+    "notes": "Fachada da Iglesia de San Francisco e praça de Quito à noite; marco histórico real e enquadramento horizontal nítido."
+  },
+  "quito/guide-card": {
+    "decision": "rejected",
+    "notes": "Teto decorativo em enquadramento abstrato; não caracteriza o destino em miniatura do guia."
+  },
+  "quito/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Close de teto decorativo pouco reconhecível; composição insuficiente para destaque geral de Quito."
+  },
+  "quito/home-slide": {
+    "decision": "accepted",
+    "notes": "Interior da Iglesia de Santo Domingo em Quito com altar e nave dourada; patrimônio real do destino, orientação arquitetônica correta."
+  },
+  "quito/home-thumb": {
+    "decision": "accepted",
+    "notes": "Vista dos telhados e centro de Quito desde a catedral; contexto urbano real e horizonte correto."
+  },
+  "quito/map-list-3": {
+    "decision": "rejected",
+    "notes": "Porta isolada de Calle La Ronda; falta contexto da rua como atração."
+  },
+  "quito/map-attraction-5": {
+    "decision": "rejected",
+    "notes": "Guidão de bicicleta e pista cortada; não identifica Parque La Carolina."
+  },
+  "quito/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Porta e degraus isolados; não representa o Centro Histórico como bairro."
+  },
+  "quito/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Placa de rua em preto e branco; não caracteriza o bairro."
+  },
+  "quito/region-0": {
+    "decision": "accepted",
+    "notes": "Monumento e praça da Independencia no Centro Histórico à noite; marco regional real e orientação correta."
+  },
+  "quito/hotel-0": {
+    "decision": "rejected",
+    "notes": "Mesma sequência e composição quase idêntica ao monumento da região; rejeitado para evitar repetição visual próxima."
+  },
+  "quito/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Mesmo monumento e sequência de captura; evitar repetição visual próxima entre região e hotel."
+  },
+  "quito/region-list-1": {
+    "decision": "rejected",
+    "notes": "Foto de ocorrência policial/explosão em estação de bombeiros; não representa bairro Mariscal."
+  },
+  "quito/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Monumento pouco contextualizado e diferente do marco principal atual; não comprova contexto de hospedagem em Mitad del Mundo."
+  },
+  "quito/day-3": {
+    "decision": "accepted",
+    "notes": "Cúpula da igreja no Museo de la Ciudad de Quito; arquitetura cultural real, tomada para cima e sem inversão artificial."
+  },
+  "quito/day-1": {
+    "decision": "rejected",
+    "notes": "Flores isoladas de jardim; não representa ícones principais de Quito."
+  },
+  "quito/day-2": {
+    "decision": "rejected",
+    "notes": "Porta isolada; não representa cena de bairros ou gastronomia."
+  }
+}

@@ -1,0 +1,2233 @@
+[
+  {
+    "key": "montevideo/hero",
+    "slot": "hero",
+    "topic": "Montevidéu",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "montevideo/intro",
+    "slot": "intro",
+    "topic": "Montevidéu",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "montevideo/home",
+    "slot": "home",
+    "topic": "Montevidéu",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "montevideo/home-slide",
+    "slot": "home-slide",
+    "topic": "Montevidéu",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "montevideo/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Montevidéu: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "montevideo/map-list-1",
+    "slot": "map-list-1",
+    "topic": "Ciudad Vieja",
+    "path": "/images/destinations/montevideo/curated-map-list-1.jpg",
+    "pool": "attractions-attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:Calle de la Ciudad Vieja - panoramio.jpg",
+    "imageinfo": {
+      "size": 2387738,
+      "width": 2816,
+      "height": 1880,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Calle_de_la_Ciudad_Vieja_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1602,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Calle_de_la_Ciudad_Vieja_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1602
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Calle_de_la_Ciudad_Vieja_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Calle_de_la_Ciudad_Vieja_-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53027971",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-11-10 17:26:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Calle de la Ciudad Vieja - panoramio",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Uruguay photographs taken on 2011-02-06|Files with coordinates missing SDC location of creation (35° S, 57° W)|Ciudad Vieja, Montevideo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-34.907833",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-56.208778",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calle de la Ciudad Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 6 February 2011",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161016222920/http://www.panoramio.com/photo/47803804\">https://web.archive.org/web/20161016222920/http://www.panoramio.com/photo/47803804</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161016222853/http://www.panoramio.com/user/4640135?with_photo_id=47803804\">Andrés Franchi Ugart…</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Andrés Franchi Ugart…</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 10 November 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Andrés Franchi Ugart…",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/map-list-1.jpg",
+    "dimensions": [
+      2400,
+      1602
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Calle_de_la_Ciudad_Vieja_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "c66c92ea2ea9795ee728213e50379038a5f16a5c78235b00ac8637bb829cc30d"
+  },
+  {
+    "key": "montevideo/map-attraction-3",
+    "slot": "map-attraction-3",
+    "topic": "Pocitos",
+    "path": "/images/destinations/montevideo/curated-map-attraction-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:A street in Pocitos, Montevideo.JPG",
+    "imageinfo": {
+      "size": 6160384,
+      "width": 4592,
+      "height": 3056,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/A_street_in_Pocitos%2C_Montevideo.JPG/3840px-A_street_in_Pocitos%2C_Montevideo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1597,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/A_street_in_Pocitos%2C_Montevideo.JPG/3840px-A_street_in_Pocitos%2C_Montevideo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1597
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/A_street_in_Pocitos%2C_Montevideo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:A_street_in_Pocitos,_Montevideo.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33538062",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-06-23 05:13:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "A street in Pocitos, Montevideo",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSLR-A390|Streets in Montevideo|Pocitos|Self-published work|Winter in Uruguay|June 2014 in Uruguay|Uruguay photographs taken on 2014-06-22",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "On the first wintry day of the year.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 22 June 2014, 01:30:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rosina_Peixoto\" title=\"User:Rosina Peixoto\">Rosina Peixoto</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/map-attraction-3.jpg",
+    "dimensions": [
+      2400,
+      1598
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/A_street_in_Pocitos%2C_Montevideo.JPG/3840px-A_street_in_Pocitos%2C_Montevideo.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2fe6246d158b378bd99e9625e7a83136a9e71f525889ee890b96358814f32afd"
+  },
+  {
+    "key": "montevideo/map-attraction-5",
+    "slot": "map-attraction-5",
+    "topic": "Parque Rodó",
+    "path": "/images/destinations/montevideo/curated-map-attraction-5.jpg",
+    "pool": "attractions-attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Lago del Parque Rodó. Iluminiación nocturna..jpg",
+    "imageinfo": {
+      "size": 831922,
+      "width": 3072,
+      "height": 2304,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lago_del_Parque_Rod%C3%B3._Iluminiaci%C3%B3n_nocturna..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lago_del_Parque_Rod%C3%B3._Iluminiaci%C3%B3n_nocturna..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lago_del_Parque_Rod%C3%B3._Iluminiaci%C3%B3n_nocturna..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lago_del_Parque_Rod%C3%B3._Iluminiaci%C3%B3n_nocturna..jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28289503",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-09-14 20:41:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Lago del Parque Rodó. Iluminiación nocturna.",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon PowerShot A470|Parque Rodó|Self-published work|Images from Wiki Loves Monuments 2013 in Uruguay|Images from Wiki Loves Monuments 2013|Cultural heritage monuments in Uruguay with known IDs|Uploaded via Campaign:wlm-uy|Night in Montevideo|Uruguay photographs taken on 2012-04-05|Lago del Parque Rodó, Montevideo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "This is a photo of a <a href=\"https://es.wikipedia.org/wiki/Categor%C3%ADa:Anexo:Monumentos_de_Uruguay\" class=\"extiw\" title=\"es:Categoría:Anexo:Monumentos de Uruguay\">Uruguayan monument</a> identified by the ID",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 5 April 2012, 19:40:25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:KoPower&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:KoPower (page does not exist)\">KoPower</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/map-attraction-5.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lago_del_Parque_Rod%C3%B3._Iluminiaci%C3%B3n_nocturna..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "db4a6bce23b99bd3835cd22beec54e41d4865419a9d01e3d12de79966ce8a67e"
+  },
+  {
+    "key": "montevideo/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Centro",
+    "path": "/images/destinations/montevideo/curated-neighborhood-1.jpg",
+    "pool": "neighborhoods-neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Avenida 18 de Julio - Montevideo, Uruguay.jpg",
+    "imageinfo": {
+      "size": 1550445,
+      "width": 3256,
+      "height": 2506,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Avenida_18_de_Julio_-_Montevideo%2C_Uruguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1847,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Avenida_18_de_Julio_-_Montevideo%2C_Uruguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1847
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Avenida_18_de_Julio_-_Montevideo%2C_Uruguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Avenida_18_de_Julio_-_Montevideo,_Uruguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=9634024",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2010-03-03 04:12:44",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Avenida 18 de Julio - Montevideo, Uruguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Avenida 18 de Julio, Montevideo|Centro, Montevideo|Self-published work|PD-self",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Avenida 18 de Julio vista desde da praça da Independencia, Montevideo, Uruguay.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-11-18",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dioliveira\" title=\"User:Dioliveira\">Dioliveira</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/neighborhood-1.jpg",
+    "dimensions": [
+      2400,
+      1847
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Avenida_18_de_Julio_-_Montevideo%2C_Uruguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "96a7bafe17f57154857899b3e1527e1a1d671c8b6a2ba439a6b098dc76820d0f"
+  },
+  {
+    "key": "montevideo/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "Pocitos",
+    "path": "/images/destinations/montevideo/curated-neighborhood-2.jpg",
+    "pool": "neighborhoods-neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Contenedores en Pocitos Montevideo 02.jpg",
+    "imageinfo": {
+      "size": 3631126,
+      "width": 3000,
+      "height": 2002,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Contenedores_en_Pocitos_Montevideo_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1602,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Contenedores_en_Pocitos_Montevideo_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1602
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Contenedores_en_Pocitos_Montevideo_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Contenedores_en_Pocitos_Montevideo_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146248908",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-03-10 16:06:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Contenedores en Pocitos Montevideo 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Uploaded with OpenRefine|Files provided by Sala de Medios Intendencia de Montevideo|Dumpsters in Montevideo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\nSala de Medios / IM</div>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "Reubicación de contenedores en el barrio Pocitos.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://montevideo.gub.uy/institucional/sala-de-medios\">Sala de Medios - Intendencia de Montevideo</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/neighborhood-2.jpg",
+    "dimensions": [
+      2400,
+      1602
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Contenedores_en_Pocitos_Montevideo_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "7f7514e7cae05f0f70243b0fc07ccbb0d8773f2bdc024f045497dd8456dd7ec5"
+  },
+  {
+    "key": "montevideo/region-0",
+    "slot": "region-0",
+    "topic": "Vieja",
+    "path": "/images/destinations/montevideo/curated-region-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Ciudad Vieja, 11000 Montevideo, Montevideo Department, Uruguay - panoramio.jpg",
+    "imageinfo": {
+      "size": 2420131,
+      "width": 2560,
+      "height": 1920,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ciudad_Vieja%2C_11000_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ciudad_Vieja%2C_11000_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ciudad_Vieja%2C_11000_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ciudad_Vieja,_11000_Montevideo,_Montevideo_Department,_Uruguay_-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53395463",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-11-21 23:47:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Ciudad Vieja, 11000 Montevideo, Montevideo Department, Uruguay - panoramio",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation (35° S, 57° W)|Buildings in Ciudad Vieja, Montevideo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-34.905801",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-56.211097",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Ciudad Vieja, 11000 Montevideo, Montevideo Department, Uruguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "28 April 2011 (original upload date)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161023211157/http://www.panoramio.com/photo/51799331\">https://web.archive.org/web/20161023211157/http://www.panoramio.com/photo/51799331</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161023211158/http://www.panoramio.com/user/2505936?with_photo_id=51799331\">Gerardo Silveira</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Gerardo Silveira</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 21 November 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Gerardo Silveira",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/region-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ciudad_Vieja%2C_11000_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "33b4a81979b5ec2e21bf9990ae0c249fca4663054ebca59d02916c8df28784ed"
+  },
+  {
+    "key": "montevideo/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Vieja",
+    "path": "/images/destinations/montevideo/curated-hotel-list-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Ciudad Vieja, 11000 Montevideo, Montevideo Department, Uruguay - panoramio (1).jpg",
+    "imageinfo": {
+      "size": 2279467,
+      "width": 1920,
+      "height": 2560,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ciudad_Vieja%2C_11000_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ciudad_Vieja%2C_11000_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ciudad_Vieja%2C_11000_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ciudad_Vieja,_11000_Montevideo,_Montevideo_Department,_Uruguay_-_panoramio_(1).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53398000",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-11-22 01:49:59",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Ciudad Vieja, 11000 Montevideo, Montevideo Department, Uruguay - panoramio (1)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Calle Buenos Aires, Montevideo|Files with coordinates missing SDC location of creation (35° S, 57° W)|Calle Bartolomé Mitre, Montevideo|Calle Bacacay, Montevideo|Buildings in Ciudad Vieja, Montevideo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-34.907560",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-56.201473",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Ciudad Vieja, 11000 Montevideo, Montevideo Department, Uruguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "28 April 2011 (original upload date)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161020220847/http://www.panoramio.com/photo/51823109\">https://web.archive.org/web/20161020220847/http://www.panoramio.com/photo/51823109</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020220848/http://www.panoramio.com/user/2505936?with_photo_id=51823109\">Gerardo Silveira</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Gerardo Silveira</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 22 November 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Gerardo Silveira",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/hotel-list-0.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ciudad_Vieja%2C_11000_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "d6d97721794266303895517526b243db1207967349600801f0dcbf79d2f9d517"
+  },
+  {
+    "key": "montevideo/region-1",
+    "slot": "region-1",
+    "topic": "Pocitos",
+    "path": "/images/destinations/montevideo/curated-region-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:2016 Uruguay - Montevideo Playa de los Pocitos - Punta Carretas.jpg",
+    "imageinfo": {
+      "size": 4456656,
+      "width": 3888,
+      "height": 5184,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2016_Uruguay_-_Montevideo_Playa_de_los_Pocitos_-_Punta_Carretas.jpg/3840px-2016_Uruguay_-_Montevideo_Playa_de_los_Pocitos_-_Punta_Carretas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2016_Uruguay_-_Montevideo_Playa_de_los_Pocitos_-_Punta_Carretas.jpg/3840px-2016_Uruguay_-_Montevideo_Playa_de_los_Pocitos_-_Punta_Carretas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/2016_Uruguay_-_Montevideo_Playa_de_los_Pocitos_-_Punta_Carretas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2016_Uruguay_-_Montevideo_Playa_de_los_Pocitos_-_Punta_Carretas.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56621234",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-05-18 18:35:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2016 Uruguay - Montevideo Playa de los Pocitos - Punta Carretas",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Walking|Pocitos Beach|Self-published work|2016 in Montevideo|Uruguay photographs taken on 2016-12-27",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Montevideo",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 27 December 2016, 13:16:36",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pedro_Felipe\" title=\"User:Pedro Felipe\">Felipe Restrepo Acosta</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/region-1.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2016_Uruguay_-_Montevideo_Playa_de_los_Pocitos_-_Punta_Carretas.jpg/3840px-2016_Uruguay_-_Montevideo_Playa_de_los_Pocitos_-_Punta_Carretas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ffa6fbd266f0deefb8555c3cda4e6c274a2fdab0337f0bf86b2010863a200c28"
+  },
+  {
+    "key": "montevideo/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Pocitos",
+    "path": "/images/destinations/montevideo/curated-hotel-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:2016 Rambla de Pocitos Montevideo.jpg",
+    "imageinfo": {
+      "size": 5594761,
+      "width": 5184,
+      "height": 3888,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2016_Rambla_de_Pocitos_Montevideo.jpg/3840px-2016_Rambla_de_Pocitos_Montevideo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2016_Rambla_de_Pocitos_Montevideo.jpg/3840px-2016_Rambla_de_Pocitos_Montevideo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/2016_Rambla_de_Pocitos_Montevideo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2016_Rambla_de_Pocitos_Montevideo.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55469971",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-01-28 02:59:58",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2016 Rambla de Pocitos Montevideo",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Cycling in Uruguay|Men of Uruguay|Pocitos Beach|Female cyclists from Uruguay|Self-published work|2016 in Montevideo|Old women of Uruguay|Rambla República del Perú|Uruguay photographs taken on 2016-12-27|Young women of Uruguay|Street photography in Uruguay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Montevideo",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 27 December 2016, 13:16:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pedro_Felipe\" title=\"User:Pedro Felipe\">Felipe Restrepo Acosta</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2016_Rambla_de_Pocitos_Montevideo.jpg/3840px-2016_Rambla_de_Pocitos_Montevideo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "80c9fe9fe5efe1d0411e9651a8d40f50287e1f68967488c62b799eb79bfeae51"
+  },
+  {
+    "key": "montevideo/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Pocitos",
+    "path": "/images/destinations/montevideo/curated-hotel-list-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Cimientos de terraza Gran Hotel Pocitos, playa Pocitos, Montevideo.jpg",
+    "imageinfo": {
+      "size": 3034312,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Cimientos_de_terraza_Gran_Hotel_Pocitos%2C_playa_Pocitos%2C_Montevideo.jpg/1920px-Cimientos_de_terraza_Gran_Hotel_Pocitos%2C_playa_Pocitos%2C_Montevideo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Cimientos_de_terraza_Gran_Hotel_Pocitos%2C_playa_Pocitos%2C_Montevideo.jpg/1920px-Cimientos_de_terraza_Gran_Hotel_Pocitos%2C_playa_Pocitos%2C_Montevideo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cimientos_de_terraza_Gran_Hotel_Pocitos%2C_playa_Pocitos%2C_Montevideo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cimientos_de_terraza_Gran_Hotel_Pocitos,_playa_Pocitos,_Montevideo.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=100663520",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-03-01 16:13:28",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cimientos de terraza Gran Hotel Pocitos, playa Pocitos, Montevideo",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Hotel de los Pocitos|Pocitos Beach|Self-published work|August 2020 in Uruguay|Uruguay photographs taken on 2020-08-04|Files with coordinates missing SDC location of creation (35° S, 57° W)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-34.914159",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-56.148056",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "La bajante del Río de la Plata deja ver los cimientos de la terraza de madera del Gran Hotel Pocitos, destruida en 1923 por un temporal.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 4 August 2020, 08:25:37",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Baldense&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Baldense (page does not exist)\">Baldense</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/hotel-list-1.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Cimientos_de_terraza_Gran_Hotel_Pocitos%2C_playa_Pocitos%2C_Montevideo.jpg/1920px-Cimientos_de_terraza_Gran_Hotel_Pocitos%2C_playa_Pocitos%2C_Montevideo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "49a79375809fd8dcbed5d6837cb17317c647c14b1e34bcf5303faf166e612adc"
+  },
+  {
+    "key": "montevideo/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Rambla",
+    "path": "/images/destinations/montevideo/curated-hotel-list-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Rambla Franklin Roosevelt y Puerto.jpg",
+    "imageinfo": {
+      "size": 492982,
+      "width": 1536,
+      "height": 2048,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Rambla_Franklin_Roosevelt_y_Puerto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Rambla_Franklin_Roosevelt_y_Puerto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Rambla_Franklin_Roosevelt_y_Puerto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rambla_Franklin_Roosevelt_y_Puerto.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129038484",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-02-25 11:37:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Rambla Franklin Roosevelt y Puerto",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Rambla Franklin D. Roosevelt|Mini trucks in Uruguay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Rambla Franklin D. Roosevelt y Puerto de Montevideo",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-12-27 18:05:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:JacobinoWunsh\" title=\"User:JacobinoWunsh\">JacobinoWunsh</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/hotel-list-2.jpg",
+    "dimensions": [
+      1536,
+      2048
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Rambla_Franklin_Roosevelt_y_Puerto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "0b80c2f69a49055219dd965f22eef5f77950b2b450f114d5af861600039cbf22"
+  },
+  {
+    "key": "montevideo/region-3",
+    "slot": "region-3",
+    "topic": "Carrasco",
+    "path": "/images/destinations/montevideo/curated-region-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:From Hotel Sofitel Montevideo Casino Carrasco and Spa - 130325-3452-jikatu (8592561691).jpg",
+    "imageinfo": {
+      "size": 1259460,
+      "width": 2048,
+      "height": 1367,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/From_Hotel_Sofitel_Montevideo_Casino_Carrasco_and_Spa_-_130325-3452-jikatu_%288592561691%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1602,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/From_Hotel_Sofitel_Montevideo_Casino_Carrasco_and_Spa_-_130325-3452-jikatu_%288592561691%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1602
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/From_Hotel_Sofitel_Montevideo_Casino_Carrasco_and_Spa_-_130325-3452-jikatu_%288592561691%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:From_Hotel_Sofitel_Montevideo_Casino_Carrasco_and_Spa_-_130325-3452-jikatu_(8592561691).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48251686",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-04-18 15:14:31",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "From Hotel Sofitel Montevideo Casino Carrasco and Spa - 130325-3452-jikatu (8592561691)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Carrasco, Montevideo|Flickr images reviewed by FlickreviewR|Uruguay photographs taken on 2013-03-25|Files with coordinates missing SDC location of creation (35° S, 57° W)|Views of Montevideo|Files from Jimmy Baikovicius Flickr stream",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-34.890260",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-56.055550",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Panorama de Carrasco desde el Hotel Carrasco",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-03-25 16:34",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jikatu/8592561691/\">From Hotel Sofitel Montevideo Casino Carrasco and Spa | 130325-3452-jikatu</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7221539@N06\">Jimmy Baikovicius</a> from Montevideo, Uruguay",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/region-3.jpg",
+    "dimensions": [
+      2048,
+      1367
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/From_Hotel_Sofitel_Montevideo_Casino_Carrasco_and_Spa_-_130325-3452-jikatu_%288592561691%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "9e5fbfcc8dcaa5be031e53e2002a22fdd5473e2639b4e611aed036c574eebe40"
+  },
+  {
+    "key": "montevideo/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Carrasco",
+    "path": "/images/destinations/montevideo/curated-region-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Empresa contratada por Antel trabajando para la instalación de Fibra Óptica al Hogar FTTH en Barrio Carrasco Montevideo Uruguay - panoramio.jpg",
+    "imageinfo": {
+      "size": 2998333,
+      "width": 2858,
+      "height": 1830,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Empresa_contratada_por_Antel_trabajando_para_la_instalaci%C3%B3n_de_Fibra_%C3%93ptica_al_Hogar_FTTH_en_Barrio_Carrasco_Montevideo_Uruguay_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1537,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Empresa_contratada_por_Antel_trabajando_para_la_instalaci%C3%B3n_de_Fibra_%C3%93ptica_al_Hogar_FTTH_en_Barrio_Carrasco_Montevideo_Uruguay_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1537
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Empresa_contratada_por_Antel_trabajando_para_la_instalaci%C3%B3n_de_Fibra_%C3%93ptica_al_Hogar_FTTH_en_Barrio_Carrasco_Montevideo_Uruguay_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Empresa_contratada_por_Antel_trabajando_para_la_instalaci%C3%B3n_de_Fibra_%C3%93ptica_al_Hogar_FTTH_en_Barrio_Carrasco_Montevideo_Uruguay_-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54366940",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-12-22 15:18:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Empresa contratada por Antel trabajando para la instalación de Fibra Óptica al Hogar FTTH en Barrio Carrasco Montevideo Uruguay - panoramio",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Carrasco, Montevideo|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|People at work in Uruguay|Uruguay photographs taken on 2011-10-28|Files with coordinates missing SDC location of creation (35° S, 57° W)|Workers in Uruguay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-34.879921",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-56.058964",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Empresa contratada por Antel trabajando para la instalación de Fibra Óptica al Hogar FTTH en Barrio Carrasco Montevideo Uruguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 28 October 2011",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161020024148/http://www.panoramio.com/photo/61406833\">https://web.archive.org/web/20161020024148/http://www.panoramio.com/photo/61406833</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161020024152/http://www.panoramio.com/user/4640135?with_photo_id=61406833\">Andrés Franchi Ugart…</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Andrés Franchi Ugart…</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 22 December 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Andrés Franchi Ugart…",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1537
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Empresa_contratada_por_Antel_trabajando_para_la_instalaci%C3%B3n_de_Fibra_%C3%93ptica_al_Hogar_FTTH_en_Barrio_Carrasco_Montevideo_Uruguay_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "c33f36a5eb065d768da8424a2459c7533befbc5cf50d3a0ac64fda455251f1b9"
+  },
+  {
+    "key": "montevideo/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Montevidéu",
+    "path": "/images/destinations/montevideo/curated-day-0.jpg",
+    "pool": "support-arrival",
+    "status": "pending-visual-review",
+    "title": "File:Aeropuerto Internacional de Carrasco - panoramio (31).jpg",
+    "imageinfo": {
+      "size": 2768933,
+      "width": 3008,
+      "height": 2000,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Aeropuerto_Internacional_de_Carrasco_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1596,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Aeropuerto_Internacional_de_Carrasco_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1596
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Aeropuerto_Internacional_de_Carrasco_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aeropuerto_Internacional_de_Carrasco_-_panoramio_(31).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54327342",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-12-21 09:24:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Aeropuerto Internacional de Carrasco - panoramio (31)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Carrasco International Airport|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Uruguay photographs taken on 2011-10-28|2011 at Carrasco International Airport|Files with coordinates missing SDC location of creation (35° S, 57° W)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-34.838596",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-56.014614",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Aeropuerto Internacional de Carrasco",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 28 October 2011",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161021015515/http://www.panoramio.com/photo/61283426\">https://web.archive.org/web/20161021015515/http://www.panoramio.com/photo/61283426</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161021015446/http://www.panoramio.com/user/4640135?with_photo_id=61283426\">Andrés Franchi Ugart…</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Andrés Franchi Ugart…</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 21 December 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Andrés Franchi Ugart…",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/day-0.jpg",
+    "dimensions": [
+      2400,
+      1596
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Aeropuerto_Internacional_de_Carrasco_-_panoramio_%2831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "6dbccc86f10840d53ee46870c6aac0ec9af078a4b4a0a28b3ec013a22e28d6bb"
+  },
+  {
+    "key": "montevideo/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Montevidéu",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "montevideo/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/montevideo/curated-tips.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:Montevideo pkindsvater 01.jpg",
+    "imageinfo": {
+      "size": 2618034,
+      "width": 3440,
+      "height": 2293,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Montevideo_pkindsvater_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Montevideo_pkindsvater_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Montevideo_pkindsvater_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Montevideo_pkindsvater_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77344725",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-14 22:47:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Montevideo pkindsvater 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Montevideo|Rambla of Montevideo|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Atardecer en La Rambla. Ciudad de Montevideo, República Oriental del Uruguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-03-30 16:25:59",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Paulakindsvater\" title=\"User:Paulakindsvater\">Paulakindsvater</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/tips.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Montevideo_pkindsvater_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "9679161357f2afa1014027969231b0389d4cbc4634e293449793abb8ca44d34f"
+  },
+  {
+    "key": "montevideo/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/montevideo/curated-essential-idioma.jpg",
+    "pool": "support-language",
+    "status": "pending-visual-review",
+    "title": "File:Centro, Montevideo, Montevideo Department, Uruguay - panoramio (2).jpg",
+    "imageinfo": {
+      "size": 2424414,
+      "width": 2560,
+      "height": 1920,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Centro%2C_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Centro%2C_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Centro%2C_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Centro,_Montevideo,_Montevideo_Department,_Uruguay_-_panoramio_(2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53395444",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-11-21 23:46:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Centro, Montevideo, Montevideo Department, Uruguay - panoramio (2)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Avenida 18 de Julio, Montevideo|Panoramio files uploaded by Panoramio upload bot|Shop signs in Uruguay|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation (35° S, 57° W)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-34.905796",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-56.189723",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Centro, Montevideo, Montevideo Department, Uruguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "28 April 2011 (original upload date)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161022004701/http://www.panoramio.com/photo/51799249\">https://web.archive.org/web/20161022004701/http://www.panoramio.com/photo/51799249</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161022004703/http://www.panoramio.com/user/2505936?with_photo_id=51799249\">Gerardo Silveira</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Gerardo Silveira</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 21 November 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Gerardo Silveira",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/essential-idioma.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Centro%2C_Montevideo%2C_Montevideo_Department%2C_Uruguay_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "703e0414f7fc19cd75a8957f7c9d78c9001ee7d806db6c43e71753c55a257a3f"
+  },
+  {
+    "key": "montevideo/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "path": "/images/destinations/montevideo/curated-essential-moeda.jpg",
+    "pool": "support-currency",
+    "status": "pending-visual-review",
+    "title": "File:URU-S386-Banco Oriental-20 Pesos (1867, face only).jpg",
+    "imageinfo": {
+      "size": 24187018,
+      "width": 6172,
+      "height": 2718,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/URU-S386-Banco_Oriental-20_Pesos_%281867%2C_face_only%29.jpg/3840px-URU-S386-Banco_Oriental-20_Pesos_%281867%2C_face_only%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1057,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/URU-S386-Banco_Oriental-20_Pesos_%281867%2C_face_only%29.jpg/3840px-URU-S386-Banco_Oriental-20_Pesos_%281867%2C_face_only%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1057
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/URU-S386-Banco_Oriental-20_Pesos_%281867%2C_face_only%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:URU-S386-Banco_Oriental-20_Pesos_(1867,_face_only).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=32430612",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-04-27 22:28:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "URU-S386-Banco Oriental-20 Pesos (1867, face only)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "1867 in Uruguay|With currency|Banknotes with a face value of 20|Self-published work|PD-Art (PD-anon-expired)|Items with VRTS permission confirmed|PD-Uruguay|Banknotes of Uruguay|PD-Art (PD-Uruguay-anon)|1867 banknotes|All Images by User:Godot13|Files that may be protected by currency protection laws|Coats of arms of Uruguay on banknotes|NNC Banknotes scanned by User:Godot13|2014 User:Godot13|NNC Banknotes of Uruguay",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "20 <a href=\"https://en.wikipedia.org/wiki/Currency_of_Uruguay#1863.E2.80.931875_Peso_and_Dobl.C3.B3n\" class=\"extiw\" title=\"w:Currency of Uruguay\">Peso</a> banknote issued by Banco Oriental in <a href=\"https://en.wikipedia.org/wiki/Montevideo\" class=\"extiw\" title=\"w:Montevideo\">Montevideo</a>. Series date 1 August 1867.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-03-09 17:23:36",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Image by <a href=\"//commons.wikimedia.org/wiki/User:Godot13\" title=\"User:Godot13\">Godot13</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:National_Museum_of_American_History\" class=\"extiw\" title=\"w:en:National Museum of American History\"><span title=\"history museum in Washington, D.C., a division of the Smithsonian Institution\">National Museum of American History</span></a>\n</bdi>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Use of this image should give credit to the <b>National Numismatic Collection at the Smithsonian Institution</b>.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "currency",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/essential-moeda.jpg",
+    "dimensions": [
+      2400,
+      1057
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/URU-S386-Banco_Oriental-20_Pesos_%281867%2C_face_only%29.jpg/3840px-URU-S386-Banco_Oriental-20_Pesos_%281867%2C_face_only%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e5cd69444fb53b411af3767fdf36eb5db1d711a42fbf2d6e372b0777e4ea198c"
+  },
+  {
+    "key": "montevideo/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  },
+  {
+    "key": "montevideo/trip-0",
+    "slot": "trip-0",
+    "topic": "Arredores de Montevidéu",
+    "path": "/images/destinations/montevideo/curated-trip-0.jpg",
+    "pool": "support-trip-0",
+    "status": "pending-visual-review",
+    "title": "File:Cassino Conrad, Punta del Este - Uruguai - panoramio.jpg",
+    "imageinfo": {
+      "size": 2362456,
+      "width": 3264,
+      "height": 2448,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cassino_Conrad%2C_Punta_del_Este_-_Uruguai_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cassino_Conrad%2C_Punta_del_Este_-_Uruguai_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cassino_Conrad%2C_Punta_del_Este_-_Uruguai_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cassino_Conrad,_Punta_del_Este_-_Uruguai_-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=54960577",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-01-11 21:24:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cassino Conrad, Punta del Este - Uruguai - panoramio",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Enjoy Punta del Este Resort y Casino|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Uruguay photographs taken on 2012-08-04|Photos from Panoramio ID 2445474",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-34.950500",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-54.939833",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cassino Conrad, Punta del Este - Uruguai",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 4 August 2012",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161025223255/http://www.panoramio.com/photo/76796693\">https://web.archive.org/web/20161025223255/http://www.panoramio.com/photo/76796693</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161025223257/http://www.panoramio.com/user/2445474?with_photo_id=76796693\">Paulo JC Nogueira</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Paulo JC Nogueira</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 11 January 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Paulo JC Nogueira",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montevideo/trip-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cassino_Conrad%2C_Punta_del_Este_-_Uruguai_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "b181ff28bfca96508604076df4fe49df6cfc4d2b09f8a9f5f8c46bdddafced9f"
+  }
+]

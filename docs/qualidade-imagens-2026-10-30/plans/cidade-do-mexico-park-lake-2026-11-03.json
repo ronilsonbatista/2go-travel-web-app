@@ -1,0 +1,31 @@
+{
+  "city": "cidade-do-mexico",
+  "region": "americas",
+  "center": [
+    19.4326,
+    -99.1332,
+    65
+  ],
+  "pools": {
+    "chapultepec": {
+      "query": "\"Chapultepec\" \"lake\"",
+      "required": [
+        "chapultepec",
+        "lake|lago|park|bosque"
+      ],
+      "requiredTitle": "chapultepec",
+      "locationPatterns": [
+        "mexico|mexic"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "sculpture|escultura|abeja|castle|castillo|casa del lago|casa.*lago|painting|pintura|portrait|retrato|museum|museo|zoo",
+      "slots": [
+        "map-attraction-3",
+        "hotel-1"
+      ]
+    }
+  }
+}

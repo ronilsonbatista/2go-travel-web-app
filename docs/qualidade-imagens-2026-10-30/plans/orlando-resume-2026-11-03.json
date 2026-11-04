@@ -1,0 +1,46 @@
+{
+  "city": "orlando",
+  "region": "americas",
+  "center": [
+    28.5383,
+    -81.3792,
+    50
+  ],
+  "pools": {
+    "food": {
+      "query": "\"turkey leg\" \"Walt Disney World\"",
+      "required": [
+        "turkey|food|meal",
+        "disney"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "costs"
+      ]
+    },
+    "winter": {
+      "query": "\"Winter Park\" \"Florida\"",
+      "required": [
+        "winter park",
+        "florida"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        28.6,
+        -81.35,
+        12
+      ]
+    }
+  }
+}

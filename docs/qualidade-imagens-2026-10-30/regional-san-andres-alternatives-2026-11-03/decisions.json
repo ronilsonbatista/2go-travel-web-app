@@ -1,0 +1,30 @@
+{
+  "san-andres/hero": {
+    "decision": "rejected",
+    "notes": "Placa de automóvel isolada; não representa San Andrés como destino turístico."
+  },
+  "san-andres/intro": {
+    "decision": "accepted",
+    "notes": "Barcos de pescadores e praia de San Andrés com palmeiras e mar; cena costeira real representativa do destino e orientação correta."
+  },
+  "san-andres/home": {
+    "decision": "rejected",
+    "notes": "Mar sob céu cinzento sem contexto distintivo; composição insuficiente para destaque HQ da home."
+  },
+  "san-andres/guide-card": {
+    "decision": "rejected",
+    "notes": "Mural de rua sem contexto suficiente do destino; inadequado para destaque geral do guia."
+  },
+  "san-andres/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Orla em forte contraluz e baixa legibilidade; qualidade insuficiente para destaque HQ."
+  },
+  "san-andres/home-slide": {
+    "decision": "accepted",
+    "notes": "Fachada colorida do Creole Culture em San Andrés com arquitetura e palmeiras; marco cultural local real e foto horizontal."
+  },
+  "san-andres/home-thumb": {
+    "decision": "rejected",
+    "notes": "Mesma sequência da orla em contraluz e composição quase idêntica; evitar repetição visual e baixa legibilidade."
+  }
+}

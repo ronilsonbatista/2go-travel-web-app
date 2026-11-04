@@ -1,0 +1,28 @@
+{
+  "city": "montreal",
+  "region": "americas",
+  "center": [
+    45.5,
+    -73.57,
+    100
+  ],
+  "pools": {
+    "food": {
+      "query": "\"Poutine\" \"Montreal\"",
+      "required": [
+        "poutine",
+        "montreal"
+      ],
+      "slots": [
+        "costs",
+        "day-2"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|sculpture|escultura|bust|busto|food bank|food donation|airport museum|transport museum|transportation museum",
+      "requiredTitle": "poutine"
+    }
+  }
+}

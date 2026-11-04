@@ -1,0 +1,46 @@
+{
+  "punta-cana/map-list-0": {
+    "decision": "accepted",
+    "notes": "Areia e mar turquesa de Bávaro Beach em foto real diurna, com horizonte nivelado; assunto corresponde à praia."
+  },
+  "punta-cana/map-list-5": {
+    "decision": "rejected",
+    "notes": "Close de cacto isolado; não identifica Catalina Island como atração costeira."
+  },
+  "punta-cana/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Praia Cabeza de Toro com mar raso e faixa de areia visíveis; contexto costeiro do bairro real e sem rotação."
+  },
+  "punta-cana/hotel-0": {
+    "decision": "rejected",
+    "notes": "Lua isolada no céu noturno; não representa contexto de hospedagem em Bávaro."
+  },
+  "punta-cana/hotel-3": {
+    "decision": "rejected",
+    "notes": "Close de estrutura de palha sem contexto regional; não representa hospedagem no interior."
+  },
+  "punta-cana/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Catedral de Higüey com arco e fachada em foto diurna; contexto do interior regional para hospedagem ilustrativa, sem atribuir a igreja ao hotel."
+  },
+  "punta-cana/mistakes": {
+    "decision": "rejected",
+    "notes": "Banheiro público de aeroporto; assunto inadequado para orientar chegada/erros comuns do destino."
+  },
+  "punta-cana/day-1": {
+    "decision": "accepted",
+    "notes": "Praia de Bávaro com mar turquesa e atividades de barco; ícone costeiro local em enquadramento real e horizontal."
+  },
+  "punta-cana/tips": {
+    "decision": "rejected",
+    "notes": "Mesma praia e ângulo muito próximo de outra foto aprovada neste lote; evitar repetição visual da sequência."
+  },
+  "punta-cana/essential-docs": {
+    "decision": "rejected",
+    "notes": "Passaporte dominicano; documento de país errado para orientar documentação do visitante brasileiro."
+  },
+  "punta-cana/trip-1": {
+    "decision": "accepted",
+    "notes": "Basílica de Higüey com arquitetura triangular e praça visíveis; destino regional reconhecível e orientação correta."
+  }
+}

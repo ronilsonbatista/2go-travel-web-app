@@ -1,0 +1,14 @@
+{
+  "las-vegas/region-0": {
+    "decision": "rejected",
+    "notes": "Sahara é o nome do modelo Jeep fotografado em Lone Mountain Road, não o hotel nem a região Strip Norte. Rejeitado como falso match de nome."
+  },
+  "las-vegas/region-list-0": {
+    "decision": "accepted",
+    "notes": "Interseção real de Las Vegas Boulevard com Sahara Avenue, no norte da Strip, com contexto urbano e skyline legíveis; GPS local, captura de novembro de 2019, licença CC BY 2.0 e 2800px nativos, orientação correta."
+  },
+  "las-vegas/hotel-0": {
+    "decision": "rejected",
+    "notes": "A imagem mostra um ônibus da linha Sahara Express, não uma hospedagem; o nome da rota provocou falso match com o hotel Sahara."
+  }
+}

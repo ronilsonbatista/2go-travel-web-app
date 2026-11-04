@@ -1,0 +1,1480 @@
+[
+  {
+    "key": "punta-cana/hero",
+    "slot": "hero",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "punta-cana/intro",
+    "slot": "intro",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "punta-cana/home",
+    "slot": "home",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "punta-cana/guide-card",
+    "slot": "guide-card",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "punta-cana/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "punta-cana/home-slide",
+    "slot": "home-slide",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "punta-cana/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Punta Cana: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "punta-cana/map-list-0",
+    "slot": "map-list-0",
+    "topic": "Bávaro Beach",
+    "path": "/images/destinations/punta-cana/curated-map-list-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:2024 - Bávaro Beach - 42.jpg",
+    "imageinfo": {
+      "size": 9670122,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2024_-_B%C3%A1varo_Beach_-_42.jpg/3840px-2024_-_B%C3%A1varo_Beach_-_42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2024_-_B%C3%A1varo_Beach_-_42.jpg/3840px-2024_-_B%C3%A1varo_Beach_-_42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/2024_-_B%C3%A1varo_Beach_-_42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2024_-_B%C3%A1varo_Beach_-_42.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161022884",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-03-03 01:02:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2024 - Bávaro Beach - 42",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Bávaro beach",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "18.719264",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-68.451683",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bávaro Beach",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-12-28 13:12:25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Oleg_Yunakov&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Oleg Yunakov (page does not exist)\">Oleg Yunakov</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/map-list-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/2024_-_B%C3%A1varo_Beach_-_42.jpg/3840px-2024_-_B%C3%A1varo_Beach_-_42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "75b3a88644a86c86d26d1da87f7d706d3343e6e688a0de0e91e33b6d2e435f33"
+  },
+  {
+    "key": "punta-cana/map-list-3",
+    "slot": "map-list-3",
+    "topic": "Hoyo Azul",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-3"
+  },
+  {
+    "key": "punta-cana/attraction-4",
+    "slot": "attraction-4",
+    "topic": "Mercado de artesanato",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-4"
+  },
+  {
+    "key": "punta-cana/map-attraction-4",
+    "slot": "map-attraction-4",
+    "topic": "Mercado de artesanato",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-4"
+  },
+  {
+    "key": "punta-cana/map-list-4",
+    "slot": "map-list-4",
+    "topic": "Mercado de artesanato",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-4"
+  },
+  {
+    "key": "punta-cana/map-list-5",
+    "slot": "map-list-5",
+    "topic": "Catalina Island",
+    "path": "/images/destinations/punta-cana/curated-map-list-5.jpg",
+    "pool": "attractions-attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Catalina Island, La Romana, Dominican Republic. Flora, an organ pipe cactus.jpg",
+    "imageinfo": {
+      "size": 674275,
+      "width": 1996,
+      "height": 3000,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Catalina_Island%2C_La_Romana%2C_Dominican_Republic._Flora%2C_an_organ_pipe_cactus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3607,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Catalina_Island%2C_La_Romana%2C_Dominican_Republic._Flora%2C_an_organ_pipe_cactus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3607
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Catalina_Island%2C_La_Romana%2C_Dominican_Republic._Flora%2C_an_organ_pipe_cactus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Catalina_Island,_La_Romana,_Dominican_Republic._Flora,_an_organ_pipe_cactus.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25665104",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-04-19 12:06:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Catalina Island, La Romana, Dominican Republic. Flora, an organ pipe cactus",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Catalina Island, Dominican Republic|Items with VRTS permission confirmed|Photographs by Mstyslav Chernov",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p><i>Keywords: Caribbean; catalina island; domenican republic;</i>\n</p>\nCatalina Island, La Romana, Dominican Republic. Flora, an organ pipe cactus.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-01-11 01:11:38",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "E-mail",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Mstyslav Chernov",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<p><span class=\"layouttemplateargs\" style=\"display:none;speak:none;\" title=\"template=PermissionTicket 1%3Dhttps%3A%2F%2Fticket.wikimedia.org%2Fotrs%2Findex.pl%3FAction%3DAgentTicketZoom%26TicketNumber%3D2013021110004214 2%3D2013021110004214\"> </span>\n</p>\n<style data-mw-deduplicate=\"TemplateStyles:r1254222110\">.mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important}</style><table class=\"plainlinks messagebox mbox-notice layouttemplate\" role=\"presentation\" style=\"margin:0.3em 0;width:100%;\"><tbody><tr><td class=\"mbox-image\"><span typeof=\"mw:File\"><span title=\"VRT Wikimedia\"><img alt=\"VRT Wikimedia\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Permission_logo_2021.svg/120px-Permission_logo_2021.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"75\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Permission_logo_2021.svg/250px-Permission_logo_2021.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"935\" data-file-height=\"600\"></span></span></td><td class=\"mbox-text\">This work is <a href=\"https://freedomdefined.org/Definition\" class=\"extiw\" title=\"freedomdefined:Definition\">free</a> and may be used by anyone for any purpose. If you wish to <b><a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">use this content</a></b>, you do not need to request permission as long as you follow any licensing requirements mentioned on this page.\n<p>The Wikimedia Foundation has received an e-mail confirming that the copyright holder has approved publication under the terms mentioned on this page. This correspondence has been <b><span style=\"background:transparent;color:#0f7f1f;font-weight:400;\" title=\"transparent\">reviewed</span></b> by a <a href=\"//commons.wikimedia.org/wiki/Template:PermissionTicket/Users\" title=\"Template:PermissionTicket/Users\">Volunteer Response Team (VRT) member</a> and stored in our <a href=\"//commons.wikimedia.org/wiki/Commons:Volunteer_Response_Team\" title=\"Commons:Volunteer Response Team\">permission archive</a>. The correspondence is available to trusted volunteers as <b><a href=\"https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2013021110004214\" class=\"extiw\" title=\"ticket:2013021110004214\">ticket #2013021110004214</a></b>.\n</p><p><small>If you have questions about the archived correspondence, please use the <a href=\"//commons.wikimedia.org/wiki/Commons:Volunteer_Response_Team/Noticeboard\" title=\"Commons:Volunteer Response Team/Noticeboard\">VRT noticeboard</a>.</small>\n<small>Ticket link: <a class=\"external free\" href=\"https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2013021110004214\">https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2013021110004214</a></small>\n<br><small>Find other files from the same ticket:</small> <span typeof=\"mw:File\"><a href=\"https://wcqs-beta.wmflabs.org/#%23defaultView%3AImageGrid%09%0ASELECT%20%3Fimage%20%20%20%7B%0A%20%20%3Ffile%20wdt%3AP6305%20%222013021110004214%22%20.%0A%20%20%3Ffile%20schema%3Aurl%20%3Fimage.%0A%7D%20%0A\" title=\"SDC query (SPARQL)\" rel=\"nofollow\"><img alt=\"SDC query (SPARQL)\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wikimedia_Commons_Query_Service_Logo.svg/20px-Wikimedia_Commons_Query_Service_Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"15\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wikimedia_Commons_Query_Service_Logo.svg/40px-Wikimedia_Commons_Query_Service_Logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"688\"></a></span>\n</p>\n<span id=\"field-otrs\" title=\"https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&amp;TicketNumber=2013021110004214\"></span></td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/map-list-5.jpg",
+    "dimensions": [
+      1597,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Catalina_Island%2C_La_Romana%2C_Dominican_Republic._Flora%2C_an_organ_pipe_cactus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "5567f5af479956fd915b9b7d9401a52cb2c36034f61d1b343cd77221a20a7d77"
+  },
+  {
+    "key": "punta-cana/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Cap Cana",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-1"
+  },
+  {
+    "key": "punta-cana/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "Cabeza de Toro",
+    "path": "/images/destinations/punta-cana/curated-neighborhood-2.jpg",
+    "pool": "neighborhoods-neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Punta Cana Beach Cabeza De Toro 2.jpg",
+    "imageinfo": {
+      "size": 4092030,
+      "width": 3456,
+      "height": 2304,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Punta_Cana_Beach_Cabeza_De_Toro_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Punta_Cana_Beach_Cabeza_De_Toro_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Punta_Cana_Beach_Cabeza_De_Toro_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Punta_Cana_Beach_Cabeza_De_Toro_2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=104139294",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-04-22 17:24:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Punta Cana Beach Cabeza De Toro 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Bodies of water in the Dominican Republic|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cabeza de Toro, Punta Cana, the Dominican Republic",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-12-13 17:38:44",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Danu_Widjajanto\" title=\"User:Danu Widjajanto\">Danu Widjajanto</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/neighborhood-2.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Punta_Cana_Beach_Cabeza_De_Toro_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "b7e1015c731810f8879d74959dd5bc2ab75a01110a0f6d227dd78bef074113fb"
+  },
+  {
+    "key": "punta-cana/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Uvero Alto",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-3"
+  },
+  {
+    "key": "punta-cana/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Uvero Alto",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-3"
+  },
+  {
+    "key": "punta-cana/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Bávaro",
+    "path": "/images/destinations/punta-cana/curated-hotel-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Bávaro, 23000, Dominican Republic - panoramio (131).jpg",
+    "imageinfo": {
+      "size": 2228864,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28131%29.jpg/3840px-B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28131%29.jpg/3840px-B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:B%C3%A1varo,_23000,_Dominican_Republic_-_panoramio_(131).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57595218",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-03-31 23:08:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bávaro, 23000, Dominican Republic - panoramio (131)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Bávaro|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Media needing category review as of 31 March 2017|Files with coordinates missing SDC location of creation|Dominican Republic photographs taken on 2013-10-16|Photos from Panoramio ID 7121193",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "18.722000",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-68.464258",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bávaro, 23000, Dominican Republic",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 16 October 2013",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161028091648/http://www.panoramio.com/photo/99489931\">https://web.archive.org/web/20161028091648/http://www.panoramio.com/photo/99489931</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161028091549/http://www.panoramio.com/user/7121193?with_photo_id=99489931\">Максим Улитин</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Максим Улитин</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 31 March 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Максим Улитин",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/hotel-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28131%29.jpg/3840px-B%C3%A1varo%2C_23000%2C_Dominican_Republic_-_panoramio_%28131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a9afff05929ceebdf07a2f6249c8824c649b61a7a31fdbb71f61b58cf0479b37"
+  },
+  {
+    "key": "punta-cana/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Cap Cana",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-1"
+  },
+  {
+    "key": "punta-cana/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Cap Cana",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-1"
+  },
+  {
+    "key": "punta-cana/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Cap Cana",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-1"
+  },
+  {
+    "key": "punta-cana/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Interior",
+    "path": "/images/destinations/punta-cana/curated-hotel-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Beach Palapa Punta Cana Dominican Republic (25103659).jpeg",
+    "imageinfo": {
+      "size": 931270,
+      "width": 2048,
+      "height": 1534,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Beach_Palapa_Punta_Cana_Dominican_Republic_%2825103659%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1798,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Beach_Palapa_Punta_Cana_Dominican_Republic_%2825103659%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1798
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Beach_Palapa_Punta_Cana_Dominican_Republic_%2825103659%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Beach_Palapa_Punta_Cana_Dominican_Republic_(25103659).jpeg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71304182",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-08-03 12:41:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\nBeach Palapa Punta Cana Dominican Republic</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Higüey|Files with coordinates missing SDC location of creation|Photos imported with import-500px",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "18.818161",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-68.590050",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/ErwinStuhr\">Erwin Stuhr</a></div>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "<div class=\"description\">\n500px provided description: Looking up from my lounge chair at the beach palapa [#beach ,#palapa ,#Dominican Republic ,#Punta Cana]</div>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "17 January 2013, 17:00:00 (UTC)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Imported from <a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/photo/25103659/beach-palapa-punta-cana-dominican-republic-by-erwin-stuhr\">500px</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/201807id_/https://drscdn.500px.org/photo/25103659/m%3D2048/v2?webp=true&amp;sig=9122cc0eb94127e1b8cb6045d8ce703e16ace89cc920aa608b48421046ac1947\">archived version</a>) by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.archiveteam.org/index.php?title=500px\">the Archive Team</a>. (<a href=\"https://iw.toolforge.org/import-500px/photo/25103659\" class=\"extiw\" title=\"toolforge:import-500px/photo/25103659\">detail page</a>)",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/hotel-3.jpg",
+    "dimensions": [
+      2048,
+      1534
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Beach_Palapa_Punta_Cana_Dominican_Republic_%2825103659%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "5bf4c07919bbe9fad10661198935908b9d51173b0c09f88664c63701c51e2ddd"
+  },
+  {
+    "key": "punta-cana/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Interior",
+    "path": "/images/destinations/punta-cana/curated-hotel-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Cathedral Higüey.jpg",
+    "imageinfo": {
+      "size": 1677897,
+      "width": 1704,
+      "height": 2272,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Cathedral_Hig%C3%BCey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Cathedral_Hig%C3%BCey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Cathedral_Hig%C3%BCey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_Hig%C3%BCey.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=639673",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-12-19 15:37:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cathedral Higüey",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon PowerShot A80|Catedral de Nuestra Señora de la Altagracia en Higüey|Files with no machine-readable source|Self-published work|User:Twice25|Assumed own work|Dominican Republic photographs taken on 2004-01-26|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "18.615556",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-68.716944",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Missione <a href=\"//commons.wikimedia.org/wiki/Genova\" title=\"Genova\">genovese</a> del <a href=\"//commons.wikimedia.org/w/index.php?title=Guaricano&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Guaricano (page does not exist)\">Guaricano</a> - <a href=\"//commons.wikimedia.org/wiki/Category:Santo_Domingo_de_Guzman\" title=\"Category:Santo Domingo de Guzman\">Santo Domingo de Guzman</a> (<a href=\"//commons.wikimedia.org/wiki/Category:Dominican_Republic\" title=\"Category:Dominican Republic\">Dominican Republic</a>)), chiesa - Foto di <a href=\"https://en.wikipedia.org/wiki/it:utente:Donpaolo\" class=\"extiw\" title=\"w:it:utente:Donpaolo\">Donpaolo</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "26 January 2004 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Twice25\" title=\"User:Twice25\">Twice25</a> assumed (based on copyright claims).",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "This image was uploaded on Wikimedia Commons before the abolition of Freedom of Panorama in the Dominican Republic on 1 March 2007, see <a href=\"//commons.wikimedia.org/wiki/Commons:FOP_Dominican_Republic\" class=\"mw-redirect\" title=\"Commons:FOP Dominican Republic\">COM:FOP Dominican Republic</a> for more information.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/hotel-list-3.jpg",
+    "dimensions": [
+      1704,
+      2272
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Cathedral_Hig%C3%BCey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "ce455147495528a1cee63aff6fc2fdf8a1fd753a67a4a9d57111406ca5b34fd3"
+  },
+  {
+    "key": "punta-cana/mistakes",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "path": "/images/destinations/punta-cana/curated-mistakes.jpg",
+    "pool": "support-arrival",
+    "status": "pending-visual-review",
+    "title": "File:Public men toilets at the Punta Cana airport.jpg",
+    "imageinfo": {
+      "size": 424643,
+      "width": 1600,
+      "height": 1200,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Public_men_toilets_at_the_Punta_Cana_airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Public_men_toilets_at_the_Punta_Cana_airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Public_men_toilets_at_the_Punta_Cana_airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Public_men_toilets_at_the_Punta_Cana_airport.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66515014",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-02-17 10:21:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Public men toilets at the Punta Cana airport",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Punta Cana International Airport|Self-published work|PD-self|Public toilets in the Dominican Republic",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Public toilets at the <a href=\"https://en.wikipedia.org/wiki/Punta_Cana\" class=\"extiw\" title=\"w:Punta Cana\">Punta Cana</a> airport",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-01-14",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "User:<a href=\"//commons.wikimedia.org/wiki/User_talk:Sarang\" title=\"User talk:Sarang\">Sarang</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/mistakes.jpg",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Public_men_toilets_at_the_Punta_Cana_airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "f70a940d884b5da767509ea9c8027bbf84580d98fac17e7249723e52163adbd9"
+  },
+  {
+    "key": "punta-cana/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "status": "no-candidate",
+    "pool": "support-transport"
+  },
+  {
+    "key": "punta-cana/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Punta Cana",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "punta-cana/day-1",
+    "slot": "day-1",
+    "topic": "Ícones principais",
+    "path": "/images/destinations/punta-cana/curated-day-1.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:2024 - Bávaro Beach - 39.jpg",
+    "imageinfo": {
+      "size": 3241018,
+      "width": 2798,
+      "height": 2099,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/21/2024_-_B%C3%A1varo_Beach_-_39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/2024_-_B%C3%A1varo_Beach_-_39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/2024_-_B%C3%A1varo_Beach_-_39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2024_-_B%C3%A1varo_Beach_-_39.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161022875",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-03-03 01:02:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2024 - Bávaro Beach - 39",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Bávaro beach",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "18.719322",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-68.451683",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bávaro Beach",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-12-28 11:22:06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Oleg_Yunakov&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Oleg Yunakov (page does not exist)\">Oleg Yunakov</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/day-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/2024_-_B%C3%A1varo_Beach_-_39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "921a71146c8a66edcadfa6e4f100bdc718b1209cbe3bc1e1a5d7b90a20ce0fe2"
+  },
+  {
+    "key": "punta-cana/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/punta-cana/curated-tips.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:2024 - Bávaro Beach - 36.jpg",
+    "imageinfo": {
+      "size": 5041921,
+      "width": 2858,
+      "height": 2144,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/2024_-_B%C3%A1varo_Beach_-_36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/2024_-_B%C3%A1varo_Beach_-_36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/2024_-_B%C3%A1varo_Beach_-_36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2024_-_B%C3%A1varo_Beach_-_36.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=161022869",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-03-03 01:02:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2024 - Bávaro Beach - 36",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Files with coordinates missing SDC location of creation|Bávaro beach",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "18.718658",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-68.451036",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bávaro Beach",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-12-25 16:05:22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Oleg_Yunakov&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Oleg Yunakov (page does not exist)\">Oleg Yunakov</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/tips.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/2024_-_B%C3%A1varo_Beach_-_36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "ea237faf1bdcf723d2a2da9ea0d0b54d4224281cab01ca846c2a98658e23f202"
+  },
+  {
+    "key": "punta-cana/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "support-currency"
+  },
+  {
+    "key": "punta-cana/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "path": "/images/destinations/punta-cana/curated-essential-docs.jpg",
+    "pool": "support-documents",
+    "status": "pending-visual-review",
+    "title": "File:The front cover of a contemporary Dominican passport.jpg",
+    "imageinfo": {
+      "size": 2366740,
+      "width": 2169,
+      "height": 3057,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_front_cover_of_a_contemporary_Dominican_passport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3383,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_front_cover_of_a_contemporary_Dominican_passport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3383
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_front_cover_of_a_contemporary_Dominican_passport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_front_cover_of_a_contemporary_Dominican_passport.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=89633678",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-04-30 18:59:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "The front cover of a contemporary Dominican passport",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Passports of the Dominican Republic",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Identification",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-04-30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:OhanaBA&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:OhanaBA (page does not exist)\">OhanaBA</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/essential-docs.jpg",
+    "dimensions": [
+      1703,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/The_front_cover_of_a_contemporary_Dominican_passport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "58bcbc3b3666e19ba439142836931984c86cffc9368200f8a10ed4a2b4bab0c3"
+  },
+  {
+    "key": "punta-cana/trip-1",
+    "slot": "trip-1",
+    "topic": "Passeio regional de meio dia",
+    "path": "/images/destinations/punta-cana/curated-trip-1.jpg",
+    "pool": "support-trip-1",
+    "status": "pending-visual-review",
+    "title": "File:Basilique Notre Dame de la Alta Gracia Higüey - Côté.jpg",
+    "imageinfo": {
+      "size": 1877060,
+      "width": 1944,
+      "height": 2592,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Basilique_Notre_Dame_de_la_Alta_Gracia_Hig%C3%BCey_-_C%C3%B4t%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Basilique_Notre_Dame_de_la_Alta_Gracia_Hig%C3%BCey_-_C%C3%B4t%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Basilique_Notre_Dame_de_la_Alta_Gracia_Hig%C3%BCey_-_C%C3%B4t%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Basilique_Notre_Dame_de_la_Alta_Gracia_Hig%C3%BCey_-_C%C3%B4t%C3%A9.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1511182",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2006-12-31 18:34:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Basilique Notre Dame de la Alta Gracia Higüey - Côté",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-H1|Catedral de Nuestra Señora de la Altagracia en Higüey|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "18.615556",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-68.716944",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Notre dame de la Alta Gracia à Higüey",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2006-12",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Me",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "This image was uploaded on Wikimedia Commons before the abolition of Freedom of Panorama in the Dominican Republic on 1 March 2007, see <a href=\"//commons.wikimedia.org/wiki/Commons:FOP_Dominican_Republic\" class=\"mw-redirect\" title=\"Commons:FOP Dominican Republic\">COM:FOP Dominican Republic</a> for more information.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/punta-cana/trip-1.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Basilique_Notre_Dame_de_la_Alta_Gracia_Hig%C3%BCey_-_C%C3%B4t%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "333a48b9f743d65ecdcb90a7d2cb4a7238495938ab007dacf09ef2651cdbaae1"
+  }
+]

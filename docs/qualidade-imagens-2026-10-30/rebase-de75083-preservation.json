@@ -1,0 +1,23 @@
+{
+  "originalTip": "df3bc97b436c6a36efb0145c6c2c2cbf5d34bf49",
+  "rebasedTip": "49c5b95c379a139ae4c6168622587ba704cb86dc",
+  "mainBase": "de75083aa168a7e745b32a4c2ba01f0dfcc2ec5a",
+  "imageAndEvidenceTreeUnchanged": true,
+  "realRecordsPreserved": 2717,
+  "previousPlaceholdersPreserved": 1438,
+  "remaining": 4128,
+  "mainFilesIdentical": [
+    "src/app/guias/destinos/page.js",
+    "src/app/guias/page.js",
+    "src/app/page.js",
+    "src/components/CountryCombobox.js",
+    "src/data/destinationsCatalog.js",
+    "src/lib/guiasDestinations.js",
+    "src/lib/sitemapEntries.js"
+  ],
+  "draftPr": 34,
+  "mergeAuthorized": false,
+  "buildPassed": true,
+  "sitemapTestPassed": true,
+  "buildInitialNetworkFailure": "Google Fonts unavailable in restricted attempt; full build passed with network access"
+}

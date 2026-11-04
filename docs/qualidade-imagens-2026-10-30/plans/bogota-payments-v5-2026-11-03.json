@@ -1,0 +1,33 @@
+{
+  "city": "bogota",
+  "region": "americas",
+  "center": [
+    4,
+    -73,
+    2000
+  ],
+  "pools": {
+    "payments": {
+      "query": "incategory:\"Automatic teller machines in Colombia\"",
+      "required": [
+        "atm|cajero|automatic teller"
+      ],
+      "requiredTitle": "atm|cajero|automatic teller",
+      "countryPattern": "colombia|cucuta",
+      "locationPatterns": [
+        "colombia|cucuta"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 2.8,
+      "reject": "bitcoin atm|bitcoin automatic|crypto.*atm|burned|destroyed|rioter|museum|historical|painting|diagram|logo|logotipo",
+      "slots": [
+        "essential-moeda"
+      ],
+      "preferredTitles": [
+        "File:Cajero Davivienda La Rivera C\u00facuta de noche.jpeg"
+      ]
+    }
+  }
+}

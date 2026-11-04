@@ -1,0 +1,380 @@
+[
+  {
+    "key": "fernando-de-noronha/map-list-3",
+    "slot": "map-list-3",
+    "topic": "Projeto Tamar",
+    "path": "/images/destinations/fernando-de-noronha/curated-map-list-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Noronha-16.jpg",
+    "imageinfo": {
+      "size": 894152,
+      "width": 1406,
+      "height": 937,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Noronha-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1599,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Noronha-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1599
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Noronha-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Noronha-16.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69984864",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-06-16 20:06:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Noronha-16",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Praia do Boldró|Self-published work|Uploaded via Campaign:wle-br|Brazil photographs taken on 2017-11-06|Projeto Tamar (Fernando de Noronha)|Obviously ineligible submissions for Wiki Loves Earth 2018 in Brazil",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Captura de tartaruga marinha na praia do Boldró, em Fernando de Noronha - PE",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-11-06 16:08:45",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Claudia_Baptista_de_Souza&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Claudia Baptista de Souza (page does not exist)\">Claudia Baptista de Souza</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/map-list-3.jpg",
+    "dimensions": [
+      1406,
+      937
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Noronha-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "bb798844f70fe7546a2215087521daf270b4a578a952b370aab5e5abdb670f63"
+  },
+  {
+    "key": "fernando-de-noronha/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Floresta Nova",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-1"
+  },
+  {
+    "key": "fernando-de-noronha/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "Floresta Nova",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-1"
+  },
+  {
+    "key": "fernando-de-noronha/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Vila",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-3"
+  },
+  {
+    "key": "fernando-de-noronha/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Fernando de Noronha",
+    "status": "no-candidate",
+    "pool": "support-arrival"
+  },
+  {
+    "key": "fernando-de-noronha/mistakes",
+    "slot": "mistakes",
+    "topic": "Erros comuns",
+    "status": "no-candidate",
+    "pool": "support-arrival"
+  },
+  {
+    "key": "fernando-de-noronha/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Fernando de Noronha",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "fernando-de-noronha/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "status": "no-candidate",
+    "pool": "support-quarter"
+  },
+  {
+    "key": "fernando-de-noronha/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "path": "/images/destinations/fernando-de-noronha/curated-essential-moeda.jpg",
+    "pool": "support-currency",
+    "status": "pending-visual-review",
+    "title": "File:1-real-2019-25-anos.png",
+    "imageinfo": {
+      "size": 1778497,
+      "width": 1302,
+      "height": 656,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/1-real-2019-25-anos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1209,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/1-real-2019-25-anos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1209
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/1-real-2019-25-anos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:1-real-2019-25-anos.png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=94014489",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-06-19 15:47:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "1-real-2019-25-anos",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "PD Brazil Government|2019 coins|Commemorative Brazilian real coins (1 real)|Brazilian real coins commemorating the Plano Real",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Brazilian real's 1 real coin commemorating the 25th anniversary of the real (2019).",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-06-19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Photograph: <a href=\"//commons.wikimedia.org/wiki/User:Avelludo\" title=\"User:Avelludo\">User:Avelludo</a>. Design: Central Bank of Brazil.",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/png"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/essential-moeda.jpg",
+    "dimensions": [
+      1302,
+      656
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/1-real-2019-25-anos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "a87071ec1372cf9f0f636321379ae4c817c00fd275c4a6544a8dc6d338645ee5"
+  },
+  {
+    "key": "fernando-de-noronha/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "path": "/images/destinations/fernando-de-noronha/curated-essential-docs.jpg",
+    "pool": "support-documents",
+    "status": "pending-visual-review",
+    "title": "File:Brazilian passport.png",
+    "imageinfo": {
+      "size": 1293439,
+      "width": 940,
+      "height": 1242,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Brazilian_passport.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3171,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Brazilian_passport.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3171
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Brazilian_passport.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Brazilian_passport.png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46956362",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-02-13 20:47:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Brazilian passport",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Passport covers of Brazil",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "new Brazilian passport",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-02-13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mr-lempel&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mr-lempel (page does not exist)\">Mr-lempel</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/png"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/fernando-de-noronha/essential-docs.jpg",
+    "dimensions": [
+      940,
+      1242
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Brazilian_passport.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "58cfc4fe4d669e96493cb641fef4a2cfc7534e5898874d5804bfb9b20f78dd8c"
+  }
+]

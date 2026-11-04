@@ -1,0 +1,2154 @@
+[
+  {
+    "key": "medellin/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Comuna 13",
+    "path": "/images/destinations/medellin/curated-attraction-0.jpg",
+    "pool": "attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Comuna 13, Medellín 06.jpg",
+    "imageinfo": {
+      "size": 5043468,
+      "width": 3335,
+      "height": 5002,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Comuna_13%2C_Medell%C3%ADn_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Comuna_13%2C_Medell%C3%ADn_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Comuna_13%2C_Medell%C3%ADn_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Comuna_13,_Medell%C3%ADn_06.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99422195",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-01-30 19:17:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Comuna 13, Medellín 06",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|San Javier, Medellín|Self-published work|Files with coordinates missing SDC location of creation|Streets in Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.257672",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.613625",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Comuna 13 San Javier, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/attraction-0.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Comuna_13%2C_Medell%C3%ADn_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "531d7d16b36116b953bf9eef375c3de8d59584980d3d1e72883a543e3d1534a8"
+  },
+  {
+    "key": "medellin/map-attraction-0",
+    "slot": "map-attraction-0",
+    "topic": "Comuna 13",
+    "path": "/images/destinations/medellin/curated-map-attraction-0.jpg",
+    "pool": "attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Comuna 13, Medellín 05.jpg",
+    "imageinfo": {
+      "size": 6164542,
+      "width": 4607,
+      "height": 3071,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Comuna_13%2C_Medell%C3%ADn_05.jpg/3840px-Comuna_13%2C_Medell%C3%ADn_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Comuna_13%2C_Medell%C3%ADn_05.jpg/3840px-Comuna_13%2C_Medell%C3%ADn_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Comuna_13%2C_Medell%C3%ADn_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Comuna_13,_Medell%C3%ADn_05.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99422147",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-01-30 19:16:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Comuna 13, Medellín 05",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Buildings in Medellín|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|San Javier, Medellín|Self-published work|Files with coordinates missing SDC location of creation|Views of Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.257672",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.613625",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Comuna 13 San Javier, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-attraction-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Comuna_13%2C_Medell%C3%ADn_05.jpg/3840px-Comuna_13%2C_Medell%C3%ADn_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "995eaaac22535efa2e3281da7789caee2a31005d963a197150ea578807638c9b"
+  },
+  {
+    "key": "medellin/map-list-0",
+    "slot": "map-list-0",
+    "topic": "Comuna 13",
+    "path": "/images/destinations/medellin/curated-map-list-0.jpg",
+    "pool": "attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Comuna 13, Medellín 02.jpg",
+    "imageinfo": {
+      "size": 6137535,
+      "width": 5225,
+      "height": 3479,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Comuna_13%2C_Medell%C3%ADn_02.jpg/3840px-Comuna_13%2C_Medell%C3%ADn_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1598,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Comuna_13%2C_Medell%C3%ADn_02.jpg/3840px-Comuna_13%2C_Medell%C3%ADn_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1598
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Comuna_13%2C_Medell%C3%ADn_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Comuna_13,_Medell%C3%ADn_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99421969",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-01-30 19:12:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Comuna 13, Medellín 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|San Javier, Medellín|Self-published work|Files with coordinates missing SDC location of creation|Cityscapes of Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.257672",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.613625",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Comuna 13 San Javier, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-list-0.jpg",
+    "dimensions": [
+      2400,
+      1598
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Comuna_13%2C_Medell%C3%ADn_02.jpg/3840px-Comuna_13%2C_Medell%C3%ADn_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f2d7759113a67051c0625af5c836e32ba07a3446934f5a6d831f72ad8f4c6d0a"
+  },
+  {
+    "key": "medellin/attraction-1",
+    "slot": "attraction-1",
+    "topic": "Parque Arví",
+    "path": "/images/destinations/medellin/curated-attraction-1.jpg",
+    "pool": "attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:Metrocable del Parque Arví - Medellín.jpg",
+    "imageinfo": {
+      "size": 3731735,
+      "width": 5664,
+      "height": 3184,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg/3840px-Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1349,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg/3840px-Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1349
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127473877",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-01-07 00:42:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Metrocable del Parque Arví - Medellín",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Arví Park|Self-published work|Wikivacaciones 2022|Uploaded via Campaign:Wikivacaciones 2022",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vista del parque Arví desde el metrocable turístico que lleva a dicho parque. Medellín. Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-09-12 16:19:46",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">Alejandro Rojas (SajoR)</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/attraction-1.jpg",
+    "dimensions": [
+      2400,
+      1349
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg/3840px-Metrocable_del_Parque_Arv%C3%AD_-_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "bcc748afb70118ecb1cc694acf3b547b067544985f22b46d8b38f81ee2e8adf7"
+  },
+  {
+    "key": "medellin/map-attraction-1",
+    "slot": "map-attraction-1",
+    "topic": "Parque Arví",
+    "path": "/images/destinations/medellin/curated-map-attraction-1.jpg",
+    "pool": "attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:Metro Cable Parque Arvi - panoramio.jpg",
+    "imageinfo": {
+      "size": 977289,
+      "width": 2560,
+      "height": 1920,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Metro_Cable_Parque_Arvi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Metro_Cable_Parque_Arvi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Metro_Cable_Parque_Arvi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Metro_Cable_Parque_Arvi_-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55820503",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-02-03 15:50:24",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Metro Cable Parque Arvi - panoramio",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with BlackBerry 9930|Metrocable|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2012-11-28|Photos from Panoramio ID 6768709",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.287483",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.523383",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Metro Cable Parque Arvi",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 28 November 2012",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161026144620/http://www.panoramio.com/photo/82862990\">https://web.archive.org/web/20161026144620/http://www.panoramio.com/photo/82862990</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161026144725/http://www.panoramio.com/user/6768709?with_photo_id=82862990\">Joel Diplan</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Joel Diplan</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 3 February 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Joel Diplan",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-attraction-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Metro_Cable_Parque_Arvi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "e6bb45efc8ae4519730c9738af8ae62cb5c6771f95761c6e22f4166d1e733b2c"
+  },
+  {
+    "key": "medellin/map-list-1",
+    "slot": "map-list-1",
+    "topic": "Parque Arví",
+    "path": "/images/destinations/medellin/curated-map-list-1.jpg",
+    "pool": "attraction-1",
+    "status": "pending-visual-review",
+    "title": "File:Scaphosepalum lima (Orquídea de pedúnculos ásperos) 03.jpg",
+    "imageinfo": {
+      "size": 2648935,
+      "width": 3000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_03.jpg/1920px-Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_03.jpg/1920px-Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Scaphosepalum_lima_(Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros)_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192570469",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-05-22 02:05:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Scaphosepalum lima (Orquídea de pedúnculos ásperos) 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Flora of Colombia|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Endemic flora by country|Self-published work|Self-published work missing SDC copyright license|Images from Wiki Loves Earth missing SDC location of creation|Images from Wiki Loves Earth missing SDC source of file|Images from Wiki Loves Earth missing SDC copyright status|Images from Wiki Loves Earth missing SDC copyright license|Images from Wiki Loves Earth missing SDC creator|Images from Wiki Loves Earth missing SDC participant in|Uploaded via Campaign:wle-co|Images from Wiki Loves Earth 2026|Images from Wiki Loves Earth 2026 in Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The scaphosepalum lima is an orchidea endemic of the Antioquia region, in Colombia. This one in particular was found in the Parque Arví, in Medellín",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-05-18 14:45:02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Federico2599&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Federico2599 (page does not exist)\">Federico2599</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-list-1.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_03.jpg/1920px-Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "530908c5f0d370a4a1b969752eb8898148a4cbe117df9fef75bcac15a407a25f"
+  },
+  {
+    "key": "medellin/attraction-2",
+    "slot": "attraction-2",
+    "topic": "Plaza Botero",
+    "path": "/images/destinations/medellin/curated-attraction-2.jpg",
+    "pool": "attraction-2",
+    "status": "pending-visual-review",
+    "title": "File:Medellín, Plaza Botero, 2023-07 CN-01.jpg",
+    "imageinfo": {
+      "size": 8316322,
+      "width": 4181,
+      "height": 2318,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Medell%C3%ADn%2C_Plaza_Botero%2C_2023-07_CN-01.jpg/3840px-Medell%C3%ADn%2C_Plaza_Botero%2C_2023-07_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1331,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Medell%C3%ADn%2C_Plaza_Botero%2C_2023-07_CN-01.jpg/3840px-Medell%C3%ADn%2C_Plaza_Botero%2C_2023-07_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1331
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Medell%C3%ADn%2C_Plaza_Botero%2C_2023-07_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Medell%C3%ADn,_Plaza_Botero,_2023-07_CN-01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=143688028",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-01-08 17:47:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Medellín, Plaza Botero, 2023-07 CN-01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Botero Square|Taken with Nikon D7000|Self-published work|National monuments in Colombia with known IDs|Information field template with formatting|Photographs by Carschten|Uploaded with LrMediaWiki|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.252045",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.567992",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "This is a photo of a Colombian monument identified by the ID",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-07-05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carschten\" title=\"User:Carschten\">Steffen Schmitz</a> <small>(<a href=\"//commons.wikimedia.org/wiki/Category:Photographs_by_Carschten\" title=\"Category:Photographs by Carschten\">more photos</a>)</small>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": " <big>© Steffen Schmitz (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Carschten\" class=\"extiw\" title=\"de:Benutzer:Carschten\">Carschten</a>) / <a href=\"//commons.wikimedia.org/wiki/Wikimedia_Commons\" title=\"Wikimedia Commons\">Wikimedia Commons</a> / <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">CC BY-SA 4.0</a></big>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/attraction-2.jpg",
+    "dimensions": [
+      2400,
+      1331
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Medell%C3%ADn%2C_Plaza_Botero%2C_2023-07_CN-01.jpg/3840px-Medell%C3%ADn%2C_Plaza_Botero%2C_2023-07_CN-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ced3622084991e4332cee273fca22324ba21a5c2b1bc85eadfbe00a70631ba7b"
+  },
+  {
+    "key": "medellin/map-attraction-2",
+    "slot": "map-attraction-2",
+    "topic": "Plaza Botero",
+    "path": "/images/destinations/medellin/curated-map-attraction-2.jpg",
+    "pool": "attraction-2",
+    "status": "pending-visual-review",
+    "title": "File:Plaza Botero - Medellín - Colombia 2024.jpg",
+    "imageinfo": {
+      "size": 3552923,
+      "width": 4032,
+      "height": 1908,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024.jpg/3840px-Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1136,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024.jpg/3840px-Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1136
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148862900",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-05-29 23:37:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Plaza Botero - Medellín - Colombia 2024",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Botero Square|Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|2024 in Medellín|May 2024 Colombia photographs|Mujer Vestida by Fernando Botero|Hombre Vestido by Fernando Botero|Mujer Reclinada by Fernando Botero",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.207517",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.565834",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Plaza Botero - Medellín - Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-05-19 09:48:52",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-attraction-2.jpg",
+    "dimensions": [
+      2400,
+      1136
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024.jpg/3840px-Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "76d0f1150caed426d531728e0fa6fe6608dde4aeafd6732676643705e54971e4"
+  },
+  {
+    "key": "medellin/map-list-2",
+    "slot": "map-list-2",
+    "topic": "Plaza Botero",
+    "path": "/images/destinations/medellin/curated-map-list-2.jpg",
+    "pool": "attraction-2",
+    "status": "pending-visual-review",
+    "title": "File:Plaza Botero - Medellín - Colombia 2024 (2).jpg",
+    "imageinfo": {
+      "size": 3196652,
+      "width": 4032,
+      "height": 1908,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024_%282%29.jpg/3840px-Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1136,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024_%282%29.jpg/3840px-Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1136
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024_(2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=148862899",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-05-29 23:37:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Plaza Botero - Medellín - Colombia 2024 (2)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Botero Square|Self-published work|Information field template with formatting|José Luiz uploads|Files with coordinates missing SDC location of creation|2024 in Medellín|May 2024 Colombia photographs|Caballo by Fernando Botero|Perro by Fernando Botero",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.207517",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.565834",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Plaza Botero - Medellín - Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-05-19 09:50:10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><big>José Luiz</big></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Attribution": {
+          "value": "© José Luiz Bernardes Ribeiro",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-list-2.jpg",
+    "dimensions": [
+      2400,
+      1136
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024_%282%29.jpg/3840px-Plaza_Botero_-_Medell%C3%ADn_-_Colombia_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "871f0bcc5782be2ec1b52bb9f610359d9086450cf9a55409007b165934bbcbcb"
+  },
+  {
+    "key": "medellin/attraction-3",
+    "slot": "attraction-3",
+    "topic": "El Poblado",
+    "path": "/images/destinations/medellin/curated-attraction-3.jpg",
+    "pool": "attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Edificio Bancafé, Avenida El Poblado-Medellín.jpg",
+    "imageinfo": {
+      "size": 1776955,
+      "width": 1704,
+      "height": 2272,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Edificio_Bancaf%C3%A9%2C_Avenida_El_Poblado-Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Edificio_Bancaf%C3%A9%2C_Avenida_El_Poblado-Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Edificio_Bancaf%C3%A9%2C_Avenida_El_Poblado-Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Edificio_Bancaf%C3%A9,_Avenida_El_Poblado-Medell%C3%ADn.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2531367",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-08-07 23:25:16",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Edificio Bancafé, Avenida El Poblado-Medellín",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "El Poblado|Self-published work|Banks in Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Edificio de Bancafe en la Avenida Poblado, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "7 August 2007 (upload date)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Trabajo propio, reconocimiento requerido, mantener licencia:(Creative Commons CC-BY-SA-2.5). Citar a la Wikipedia como fuente si la imagen es utilizada en otros medios que no sean de los proyectos de Wikipedia.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/attraction-3.jpg",
+    "dimensions": [
+      1704,
+      2272
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Edificio_Bancaf%C3%A9%2C_Avenida_El_Poblado-Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "e3d3cdb0e9c184d34da7a87a956badcbea130d07eed012fdb21bd048545b374f"
+  },
+  {
+    "key": "medellin/map-attraction-3",
+    "slot": "map-attraction-3",
+    "topic": "El Poblado",
+    "path": "/images/destinations/medellin/curated-map-attraction-3.jpg",
+    "pool": "attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Colombia - Latin Top Jobs Medellin at El Poblado - panoramio.jpg",
+    "imageinfo": {
+      "size": 1582281,
+      "width": 3648,
+      "height": 2056,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Colombia_-_Latin_Top_Jobs_Medellin_at_El_Poblado_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1353,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Colombia_-_Latin_Top_Jobs_Medellin_at_El_Poblado_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1353
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Colombia_-_Latin_Top_Jobs_Medellin_at_El_Poblado_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Colombia_-_Latin_Top_Jobs_Medellin_at_El_Poblado_-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56409410",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-02-19 06:54:31",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Colombia - Latin Top Jobs Medellin at El Poblado - panoramio",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "El Poblado|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2012-07-02|Brick buildings in Medellín|Photos from Panoramio ID 4936794",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.201158",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.575166",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Colombia - Latin Top Jobs Medellin at El Poblado",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 2 July 2012",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161024205019/http://www.panoramio.com/photo/88706594\">https://web.archive.org/web/20161024205019/http://www.panoramio.com/photo/88706594</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161024205020/http://www.panoramio.com/user/4936794?with_photo_id=88706594\">randreu</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">randreu</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 19 February 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "randreu",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-attraction-3.jpg",
+    "dimensions": [
+      2400,
+      1353
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Colombia_-_Latin_Top_Jobs_Medellin_at_El_Poblado_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "372bdb600bdc61bb9cedf6353bd5cb889cedfabed64d4fd4040282c24550dd30"
+  },
+  {
+    "key": "medellin/map-list-3",
+    "slot": "map-list-3",
+    "topic": "El Poblado",
+    "path": "/images/destinations/medellin/curated-map-list-3.jpg",
+    "pool": "attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:El poblado, Medellín.jpg",
+    "imageinfo": {
+      "size": 6272113,
+      "width": 3485,
+      "height": 2323,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/93/El_poblado%2C_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/El_poblado%2C_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/El_poblado%2C_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_poblado,_Medell%C3%ADn.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21392148",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-09-16 22:25:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "El poblado, Medellín",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 30D|2007 in Colombia|El Poblado|Flickr images uploaded by Flickr upload bot|Cityscapes of Medellín|Night in Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "El poblado, Medellín",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-08-23 19:06:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/Flickr\" class=\"mw-redirect\" title=\"Flickr\">Flickr</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/37083012@N00/1354729251\">el poblado, medellin</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37083012@N00\">william gil</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table id=\"FlickrReview\" style=\"width:100%; margin:0.3em auto; text-align:start; background-color:var(--background-color-success-subtle,#d5fdf4); padding: 3px; border:1px solid var(--border-color-base,#a2a9b1); color:inherit;\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><a href=\"https://en.wikipedia.org/wiki/Flickr\" class=\"extiw\" title=\"en:Flickr\">Flickr</a></b>, was uploaded to Commons using <b><a href=\"//commons.wikimedia.org/wiki/User:Flickr_upload_bot\" title=\"User:Flickr upload bot\">Flickr upload bot</a></b> on 16 September 2012, 22:25 by <span id=\"flickr_upload_bot_reviewer\"><b><a href=\"//commons.wikimedia.org/wiki/User:George_Miquilena\" title=\"User:George Miquilena\">George Miquilena</a></b></span>. On that date, it was confirmed to be licensed under the terms of the license indicated.\n</td>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/60px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/120px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\n</td></tr></tbody></table>\n<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/2.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/2.0/deed.en\">Attribution 2.0 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/2.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 2.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 2.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-list-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/El_poblado%2C_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "dbaa3671eac9832ce6772074c58f91c2fb18cca18f7e352f8ae653fd58c87fda"
+  },
+  {
+    "key": "medellin/attraction-4",
+    "slot": "attraction-4",
+    "topic": "Guatapé (bate-volta)",
+    "path": "/images/destinations/medellin/curated-attraction-4.jpg",
+    "pool": "attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Colombia-Guatape-Fachadas 01.jpg",
+    "imageinfo": {
+      "size": 6933664,
+      "width": 5760,
+      "height": 3840,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Colombia-Guatape-Fachadas_01.jpg/3840px-Colombia-Guatape-Fachadas_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Colombia-Guatape-Fachadas_01.jpg/3840px-Colombia-Guatape-Fachadas_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Colombia-Guatape-Fachadas_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Colombia-Guatape-Fachadas_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127386777",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-01-04 19:28:14",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Colombia-Guatape-Fachadas 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS|Guatapé|Self-published work|Images by Nerve net|Photographs taken with Voigtländer 20 mm F3.5 Color Skopar SL II",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Typical facade of a house of Guatapé, Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-01-06 23:21:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nerve_net\" title=\"User:Nerve net\">Javier Perez Montes</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/attraction-4.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Colombia-Guatape-Fachadas_01.jpg/3840px-Colombia-Guatape-Fachadas_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e895d8e29a9502f7cd3a9cb582417ecefdbea6f59763b933eabfb0b38ba8b189"
+  },
+  {
+    "key": "medellin/map-attraction-4",
+    "slot": "map-attraction-4",
+    "topic": "Guatapé (bate-volta)",
+    "path": "/images/destinations/medellin/curated-map-attraction-4.jpg",
+    "pool": "attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Colombia-Guatape-Fachadas 03.jpg",
+    "imageinfo": {
+      "size": 7325128,
+      "width": 5760,
+      "height": 3840,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Colombia-Guatape-Fachadas_03.jpg/3840px-Colombia-Guatape-Fachadas_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Colombia-Guatape-Fachadas_03.jpg/3840px-Colombia-Guatape-Fachadas_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Colombia-Guatape-Fachadas_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Colombia-Guatape-Fachadas_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127386776",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-01-04 19:28:14",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Colombia-Guatape-Fachadas 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS|Guatapé|Self-published work|Images by Nerve net|Photographs taken with Voigtländer 20 mm F3.5 Color Skopar SL II",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Typical facade of a house of Guatapé, Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-01-06 23:22:27",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nerve_net\" title=\"User:Nerve net\">Javier Perez Montes</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-attraction-4.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Colombia-Guatape-Fachadas_03.jpg/3840px-Colombia-Guatape-Fachadas_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "88ea5887e82954c5eb4e3e9387b1f403aa865c475167802fbddca2e2c5b79106"
+  },
+  {
+    "key": "medellin/map-list-4",
+    "slot": "map-list-4",
+    "topic": "Guatapé (bate-volta)",
+    "path": "/images/destinations/medellin/curated-map-list-4.jpg",
+    "pool": "attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Colombia-Guatape-Fachadas 02.jpg",
+    "imageinfo": {
+      "size": 7446390,
+      "width": 5760,
+      "height": 3840,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Colombia-Guatape-Fachadas_02.jpg/3840px-Colombia-Guatape-Fachadas_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Colombia-Guatape-Fachadas_02.jpg/3840px-Colombia-Guatape-Fachadas_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Colombia-Guatape-Fachadas_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Colombia-Guatape-Fachadas_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127386775",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-01-04 19:28:14",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Colombia-Guatape-Fachadas 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS 5DS|Guatapé|Self-published work|Images by Nerve net|Photographs taken with Voigtländer 20 mm F3.5 Color Skopar SL II",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Typical facade of a house of Guatapé, Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-01-06 23:21:54",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nerve_net\" title=\"User:Nerve net\">Javier Perez Montes</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-list-4.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Colombia-Guatape-Fachadas_02.jpg/3840px-Colombia-Guatape-Fachadas_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c547958d9edf3c8bca6f64ea8ab9547a4012e80c03ad050b8b1d93afc6510724"
+  },
+  {
+    "key": "medellin/attraction-5",
+    "slot": "attraction-5",
+    "topic": "Jardín Botánico",
+    "path": "/images/destinations/medellin/curated-attraction-5.jpg",
+    "pool": "attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Jardin Botanico Medellin-Orquideorama.jpg",
+    "imageinfo": {
+      "size": 2765672,
+      "width": 1944,
+      "height": 2592,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jardin_Botanico_Medellin-Orquideorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jardin_Botanico_Medellin-Orquideorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jardin_Botanico_Medellin-Orquideorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jardin_Botanico_Medellin-Orquideorama.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3446207",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-10-16 08:08:28",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Jardin Botanico Medellin-Orquideorama",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Jardín botánico de Medellín|Flickr images uploaded by Flickr upload bot|Information field template with formatting",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Orquideorama del Jardín Botánico de Medellín, Colombia<br>Jardin Botanico",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2008-01-06 12:46:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/53893090@N00/2206357327\">Flickr</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/53893090@N00\">Jose Fresneda</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table id=\"FlickrReview\" style=\"width:100%; margin:0.3em auto; text-align:start; background-color:var(--background-color-success-subtle,#d5fdf4); padding: 3px; border:1px solid var(--border-color-base,#a2a9b1); color:inherit;\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><a href=\"https://en.wikipedia.org/wiki/Flickr\" class=\"extiw\" title=\"en:Flickr\">Flickr</a></b>, was uploaded to Commons using <b><a href=\"//commons.wikimedia.org/wiki/User:Flickr_upload_bot\" title=\"User:Flickr upload bot\">Flickr upload bot</a></b> on 24 January 2008, 07:25 by <span id=\"flickr_upload_bot_reviewer\"><b><a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a></b></span>. On that date, it was confirmed to be licensed under the terms of the license indicated.\n</td>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/60px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/120px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\n</td></tr></tbody></table>\n<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/2.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/2.0/deed.en\">Attribution-Share Alike 2.0 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/2.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 2.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 2.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/attraction-5.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jardin_Botanico_Medellin-Orquideorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "8f6f1e027e2b0b11cc6651b291f714d818ed3cd2f18b26d7e76175aef0fd9b2d"
+  },
+  {
+    "key": "medellin/map-attraction-5",
+    "slot": "map-attraction-5",
+    "topic": "Jardín Botánico",
+    "path": "/images/destinations/medellin/curated-map-attraction-5.jpg",
+    "pool": "attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Jardin botanico medellin 1.JPG",
+    "imageinfo": {
+      "size": 1195151,
+      "width": 2080,
+      "height": 1544,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Jardin_botanico_medellin_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1782,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Jardin_botanico_medellin_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1782
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Jardin_botanico_medellin_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jardin_botanico_medellin_1.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27324101",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-07-18 22:24:08",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Jardin botanico medellin 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Trees in Colombia|Taken with Kodak EasyShare CX4310|Jardín botánico de Medellín|Self-published work|Dappled light and shadow in Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Jardin botanico medellin",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2002-01-07 13:34:56",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Staticshakedown\" title=\"User:Staticshakedown\">Staticshakedown</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-attraction-5.jpg",
+    "dimensions": [
+      2080,
+      1544
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Jardin_botanico_medellin_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "2b62fd0062ba6902a6158930ff5e1f59a824728c1d7836629c80752aa7bec584"
+  },
+  {
+    "key": "medellin/map-list-5",
+    "slot": "map-list-5",
+    "topic": "Jardín Botánico",
+    "path": "/images/destinations/medellin/curated-map-list-5.jpg",
+    "pool": "attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Jardin Botanico, Medellin (5590333521).jpg",
+    "imageinfo": {
+      "size": 2347918,
+      "width": 5184,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Jardin_Botanico%2C_Medellin_%285590333521%29.jpg/3840px-Jardin_Botanico%2C_Medellin_%285590333521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Jardin_Botanico%2C_Medellin_%285590333521%29.jpg/3840px-Jardin_Botanico%2C_Medellin_%285590333521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Jardin_Botanico%2C_Medellin_%285590333521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jardin_Botanico,_Medellin_(5590333521).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=40531223",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-05-28 12:55:09",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Jardin Botanico, Medellin (5590333521)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Jardín botánico de Medellín|Unidentified Hibiscus|Flickr images reviewed by FlickreviewR|Flowers of Colombia|Apricot Hibiscus flowers|Malvales in Colombia|Files uploaded by The Photographer from Flickr|Files uploaded by The Photographer needing category checks|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2011-02-18|Hibiscus pistils",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.307108",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.558471",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Hibiscus flower in the Botanical Garden of Medellín‎, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-02-18 04:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/wneuheisel/5590333521/\">Jardin Botanico, Medellin</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7678722@N07\">William Neuheisel</a> from DC, US",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/map-list-5.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Jardin_Botanico%2C_Medellin_%285590333521%29.jpg/3840px-Jardin_Botanico%2C_Medellin_%285590333521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "947a533b157b665a568cb8377745c409ff05464d67dfa62a899a958ea342de34"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "baselineRef": "ddc66b2",
+  "newApplied": 9,
+  "newKeys": [
+    "las-vegas/neighborhood-detail-3",
+    "las-vegas/region-list-0",
+    "medellin/map-attraction-1",
+    "montevideo/costs",
+    "montreal/costs",
+    "montreal/day-2",
+    "quito/costs",
+    "toronto/essential-transporte",
+    "vancouver/neighborhood-detail-0"
+  ],
+  "preservedSourceRecords": 2731,
+  "changedPreservedMetadata": [],
+  "changedPreservedBinaries": [],
+  "auditIssuesInvolvingNewKeys": [],
+  "remaining": 4105,
+  "regions": {
+    "americas": {
+      "label": "Américas",
+      "replaced": 1381,
+      "remaining": 155,
+      "complete": false
+    },
+    "europa": {
+      "label": "Europa",
+      "replaced": 80,
+      "remaining": 2352,
+      "complete": false
+    },
+    "mundo": {
+      "label": "Ásia / Oriente Médio / África / Oceania",
+      "replaced": 0,
+      "remaining": 1598,
+      "complete": false
+    }
+  }
+}

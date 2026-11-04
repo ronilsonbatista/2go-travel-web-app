@@ -1,0 +1,572 @@
+[
+  {
+    "key": "san-andres/hero",
+    "slot": "hero",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "san-andres/intro",
+    "slot": "intro",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "san-andres/home",
+    "slot": "home",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "san-andres/guide-card",
+    "slot": "guide-card",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "san-andres/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "san-andres/home-slide",
+    "slot": "home-slide",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "san-andres/home-thumb",
+    "slot": "home-thumb",
+    "topic": "San Andrés: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "san-andres/map-attraction-2",
+    "slot": "map-attraction-2",
+    "topic": "La Piscinita",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-2"
+  },
+  {
+    "key": "san-andres/map-list-2",
+    "slot": "map-list-2",
+    "topic": "La Piscinita",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-2"
+  },
+  {
+    "key": "san-andres/attraction-3",
+    "slot": "attraction-3",
+    "topic": "Spratt Bight",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-3"
+  },
+  {
+    "key": "san-andres/map-attraction-3",
+    "slot": "map-attraction-3",
+    "topic": "Spratt Bight",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-3"
+  },
+  {
+    "key": "san-andres/map-list-3",
+    "slot": "map-list-3",
+    "topic": "Spratt Bight",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-3"
+  },
+  {
+    "key": "san-andres/map-attraction-5",
+    "slot": "map-attraction-5",
+    "topic": "Cueva de Morgan",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-5"
+  },
+  {
+    "key": "san-andres/map-list-5",
+    "slot": "map-list-5",
+    "topic": "Cueva de Morgan",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-5"
+  },
+  {
+    "key": "san-andres/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Centro / Spratt Bight",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-0"
+  },
+  {
+    "key": "san-andres/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Centro / Spratt Bight",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-0"
+  },
+  {
+    "key": "san-andres/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "San Luis",
+    "path": "/images/destinations/san-andres/curated-neighborhood-1.jpg",
+    "pool": "neighborhoods-neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Playa de San Luis, San Andrés.JPG",
+    "imageinfo": {
+      "size": 3295258,
+      "width": 4608,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Playa_de_San_Luis%2C_San_Andr%C3%A9s.JPG/3840px-Playa_de_San_Luis%2C_San_Andr%C3%A9s.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Playa_de_San_Luis%2C_San_Andr%C3%A9s.JPG/3840px-Playa_de_San_Luis%2C_San_Andr%C3%A9s.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Playa_de_San_Luis%2C_San_Andr%C3%A9s.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Playa_de_San_Luis,_San_Andr%C3%A9s.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35676883",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-09-26 19:48:02",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Playa de San Luis, San Andrés",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Tourism in Colombia|Taken with Sony DSC-HX100V|Monuments and memorials in Colombia|Self-published work|Images from Wiki Loves Monuments 2014|Images from Wiki Loves Monuments 2014 in Colombia|Monuments in Colombia with known location IDs|Uploaded via Campaign:wlm-co|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2011-12-12|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "12.513255",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-81.714738",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "This is a photo of a Colombian monument with location ID",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-12-12 15:04:30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Karolynaroca&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Karolynaroca (page does not exist)\">Karolynaroca</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/san-andres/neighborhood-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Playa_de_San_Luis%2C_San_Andr%C3%A9s.JPG/3840px-Playa_de_San_Luis%2C_San_Andr%C3%A9s.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "26c8e37367c149d069441bf40a7133944e8638dc2a626edeff76cc1dbc101cf0"
+  },
+  {
+    "key": "san-andres/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "El Cove",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-2"
+  },
+  {
+    "key": "san-andres/neighborhood-detail-2",
+    "slot": "neighborhood-detail-2",
+    "topic": "El Cove",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-2"
+  },
+  {
+    "key": "san-andres/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "La Loma",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-3"
+  },
+  {
+    "key": "san-andres/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "La Loma",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-3"
+  },
+  {
+    "key": "san-andres/region-0",
+    "slot": "region-0",
+    "topic": "Norte",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "san-andres/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Norte",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "san-andres/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Norte",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "san-andres/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Norte",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "san-andres/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em San Luis",
+    "path": "/images/destinations/san-andres/curated-hotel-list-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:San Andrés, Colombia.jpg",
+    "imageinfo": {
+      "size": 1585332,
+      "width": 4160,
+      "height": 3120,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/San_Andr%C3%A9s%2C_Colombia.jpg/3840px-San_Andr%C3%A9s%2C_Colombia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/San_Andr%C3%A9s%2C_Colombia.jpg/3840px-San_Andr%C3%A9s%2C_Colombia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/San_Andr%C3%A9s%2C_Colombia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:San_Andr%C3%A9s,_Colombia.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75443887",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-12-30 17:54:02",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "San Andrés, Colombia",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Uploaded with Mobile/Android|Uploaded with Mobile/Android (Nov 2017-Aug 2019)|Photographs taken on 2018-12-18|Beaches in San Andrés",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Playa en San Luis",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "18 December 2018 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:C3r098\" title=\"User:C3r098\">C3r098</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/san-andres/hotel-list-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/San_Andr%C3%A9s%2C_Colombia.jpg/3840px-San_Andr%C3%A9s%2C_Colombia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fbbceb0a818f9fed12824221ae98fe30f32b3ad7841150ed5ebfabb5d0d9e1bf"
+  },
+  {
+    "key": "san-andres/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Oeste",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-2"
+  },
+  {
+    "key": "san-andres/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Cays",
+    "path": "/images/destinations/san-andres/curated-hotel-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:San Andrés, Colombia 2.jpg",
+    "imageinfo": {
+      "size": 2510920,
+      "width": 4160,
+      "height": 3120,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/San_Andr%C3%A9s%2C_Colombia_2.jpg/3840px-San_Andr%C3%A9s%2C_Colombia_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/San_Andr%C3%A9s%2C_Colombia_2.jpg/3840px-San_Andr%C3%A9s%2C_Colombia_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/San_Andr%C3%A9s%2C_Colombia_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:San_Andr%C3%A9s,_Colombia_2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75451022",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-12-30 22:13:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "San Andrés, Colombia 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "San Andrés, Colombia|Self-published work|Uploaded with Mobile/Android|Uploaded with Mobile/Android (Nov 2017-Aug 2019)|Photographs taken on 2018-12-16",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Playa Norte de San Andrés, al fondo Johnny cay.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "16 December 2018 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:C3r098\" title=\"User:C3r098\">C3r098</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/san-andres/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/San_Andr%C3%A9s%2C_Colombia_2.jpg/3840px-San_Andr%C3%A9s%2C_Colombia_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "8ea86da0d309e983893af3b7d61fae62f4dcf867af4fac56f64aeaa846dfaa12"
+  },
+  {
+    "key": "san-andres/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "status": "no-candidate",
+    "pool": "support-transport"
+  },
+  {
+    "key": "san-andres/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de San Andrés",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "san-andres/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "status": "no-candidate",
+    "pool": "support-quarter"
+  },
+  {
+    "key": "san-andres/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "status": "no-candidate",
+    "pool": "support-language"
+  },
+  {
+    "key": "san-andres/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "support-currency"
+  },
+  {
+    "key": "san-andres/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  },
+  {
+    "key": "san-andres/trip-1",
+    "slot": "trip-1",
+    "topic": "Passeio regional de meio dia",
+    "status": "no-candidate",
+    "pool": "support-trip-1"
+  }
+]

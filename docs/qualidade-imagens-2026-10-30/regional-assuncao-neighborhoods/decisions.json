@@ -1,0 +1,34 @@
+{
+  "assuncao/neighborhood-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+  },
+  "assuncao/neighborhood-detail-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+  },
+  "assuncao/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Villa Morra: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "assuncao/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Villa Morra: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "assuncao/neighborhood-2": {
+    "decision": "rejected",
+    "notes": "Tronco e sombra ocultam a maior parte da rua; enquadramento próximo da outra foto de Carmelitas."
+  },
+  "assuncao/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Carmelitas: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "assuncao/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Fachada isolada de hostel com nome Costanera, sem representação suficiente da região."
+  },
+  "assuncao/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Costanera: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "montreal/region-0": {
+    "decision": "rejected",
+    "notes": "Detalhe do teto de basílica, sem representação suficiente da região Vieux."
+  },
+  "montreal/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Vieux, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/hotel-0": {
+    "decision": "rejected",
+    "notes": "Interior de igreja, sem contexto regional suficiente para hospedagem ilustrativa."
+  },
+  "montreal/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Vieux, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Plateau, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Plateau, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Plateau, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Plateau, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/region-2": {
+    "decision": "rejected",
+    "notes": "Vista histórica colorizada com forte granulação e tecido urbano antigo, inadequada como representação atual da região."
+  },
+  "montreal/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Mont Royal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/hotel-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Mont Royal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Registro histórico de 1860, inadequado como imagem atual de hospedagem."
+  },
+  "montreal/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Downtown, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/region-list-3": {
+    "decision": "rejected",
+    "notes": "Registro monocromático de obras urbanas antigas, inadequado como vista atual da região."
+  },
+  "montreal/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Downtown, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "montreal/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Downtown, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  }
+}

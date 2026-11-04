@@ -1,0 +1,62 @@
+{
+  "havai/hero": {
+    "decision": "rejected",
+    "notes": "Praia de Kehena com banhistas em contexto de praia de nudismo e área sombreada; inadequada como hero geral do destino."
+  },
+  "havai/intro": {
+    "decision": "accepted",
+    "notes": "Praia e falésia verde da Big Island com mar e pedras ao entardecer; paisagem havaiana real e horizonte correto."
+  },
+  "havai/home": {
+    "decision": "rejected",
+    "notes": "Vegetação e rochas em close sem paisagem costeira legível; não atende destaque HQ do Havaí."
+  },
+  "havai/guide-card": {
+    "decision": "accepted",
+    "notes": "Ondas quebrando sobre costa vulcânica de Laupāhoehoe no Havaí; paisagem real em fotografia horizontal, sem inversão."
+  },
+  "havai/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Kamaole Beach Park III em Maui com palmeiras e litoral; paisagem havaiana real em foto horizontal nítida."
+  },
+  "havai/map-list-0": {
+    "decision": "rejected",
+    "notes": "Balanço de branco excessivamente alaranjado e pouca legibilidade da praia; qualidade insuficiente."
+  },
+  "havai/map-attraction-1": {
+    "decision": "rejected",
+    "notes": "Pessoa desenhando/assinando papel em cerimônia; não representa Pearl Harbor como atração."
+  },
+  "havai/attraction-3": {
+    "decision": "accepted",
+    "notes": "Cachoeira e vegetação em parada da Road to Hana em Maui; atração real do trajeto e orientação correta."
+  },
+  "havai/map-attraction-3": {
+    "decision": "accepted",
+    "notes": "Interior de tubo de lava na Road to Hana em Maui; parada real do roteiro, fotografia de caverna sem render."
+  },
+  "havai/attraction-5": {
+    "decision": "rejected",
+    "notes": "Close de sol e silhueta sem North Shore reconhecível; falta contexto geográfico da atração."
+  },
+  "havai/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Janela isolada de memorial; não representa Waikiki como bairro."
+  },
+  "havai/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Praia de Waikiki com palmeiras, banhistas e edifícios ao fundo; bairro costeiro real e orientação correta."
+  },
+  "havai/region-list-0": {
+    "decision": "accepted",
+    "notes": "Orla noturna de Waikiki com edifícios iluminados e praia; contexto real da região Oahu South."
+  },
+  "havai/hotel-0": {
+    "decision": "accepted",
+    "notes": "Faixa de praia de Waikiki com hotéis, coqueiros e visitantes; contexto real de hospedagem ilustrativa em Oahu South."
+  },
+  "havai/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Montanhas e litoral de Maui sob nuvens com água no primeiro plano; contexto regional real para hospedagem ilustrativa."
+  }
+}

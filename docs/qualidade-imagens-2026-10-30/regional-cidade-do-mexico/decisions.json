@@ -1,0 +1,74 @@
+{
+  "cidade-do-mexico/attraction-0": {
+    "decision": "rejected",
+    "notes": "Fotografia histórica de 1950, inadequada como vista atual do Zócalo."
+  },
+  "cidade-do-mexico/map-attraction-0": {
+    "decision": "rejected",
+    "notes": "Gravura histórica, não é uma fotografia real do destino."
+  },
+  "cidade-do-mexico/map-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Zócalo e Catedral, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "cidade-do-mexico/attraction-1": {
+    "decision": "rejected",
+    "notes": "Souvenirs em primeiro plano, não representa as pirâmides de Teotihuacán."
+  },
+  "cidade-do-mexico/map-attraction-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Teotihuacán, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "cidade-do-mexico/map-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Teotihuacán, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "cidade-do-mexico/attraction-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Museo Frida Kahlo, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "cidade-do-mexico/map-attraction-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Museo Frida Kahlo, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "cidade-do-mexico/map-list-2": {
+    "decision": "rejected",
+    "notes": "Panorama 360 com deformação severa da Casa Azul."
+  },
+  "cidade-do-mexico/attraction-3": {
+    "decision": "rejected",
+    "notes": "Retrato de animal sem contexto visual do parque Chapultepec."
+  },
+  "cidade-do-mexico/map-attraction-3": {
+    "decision": "rejected",
+    "notes": "Obra de arte isolada sem contexto reconhecível do parque."
+  },
+  "cidade-do-mexico/map-list-3": {
+    "decision": "rejected",
+    "notes": "Pintura histórica do vale, não é fotografia real do parque."
+  },
+  "cidade-do-mexico/attraction-4": {
+    "decision": "rejected",
+    "notes": "Detalhe do memorial Trotsky sem representação suficiente do bairro."
+  },
+  "cidade-do-mexico/map-attraction-4": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Coyoacán, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "cidade-do-mexico/map-list-4": {
+    "decision": "rejected",
+    "notes": "Letras vistas por trás; leitura invertida e enquadramento inadequado."
+  },
+  "cidade-do-mexico/attraction-5": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Palacio de Bellas Artes, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "cidade-do-mexico/map-attraction-5": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Palacio de Bellas Artes, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  },
+  "cidade-do-mexico/map-list-5": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: fotografia real de Palacio de Bellas Artes, assunto e orientação compatíveis; composição legível, sem mapa ou inversão perceptível. Fonte individual e licença verificadas no manifesto de revisão."
+  }
+}

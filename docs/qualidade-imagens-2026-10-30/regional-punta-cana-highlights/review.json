@@ -1,0 +1,51 @@
+[
+  {
+    "key": "punta-cana/hero",
+    "slot": "hero",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "punta-cana/intro",
+    "slot": "intro",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "punta-cana/home",
+    "slot": "home",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "punta-cana/guide-card",
+    "slot": "guide-card",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "punta-cana/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "punta-cana/home-slide",
+    "slot": "home-slide",
+    "topic": "Punta Cana",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "punta-cana/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Punta Cana: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights"
+  }
+]

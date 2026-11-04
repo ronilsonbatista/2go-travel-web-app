@@ -1,0 +1,62 @@
+{
+  "san-andres/day-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Chegada em San Andrés, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "san-andres/mistakes": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Erros comuns, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "san-andres/essential-transporte": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "san-andres/costs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "san-andres/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "san-andres/day-4": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bate-volta ou folga, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "san-andres/day-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Ícones principais, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "san-andres/tips": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Dicas importantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "san-andres/day-2": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "san-andres/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Foto de San Pablo em Teorama, fora de San Andres; rejeitada por local errado."
+  },
+  "san-andres/essential-moeda": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "san-andres/essential-docs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "san-andres/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Arredores de San Andrés, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "san-andres/trip-1": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "san-andres/trip-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Destino costeiro ou histórico próximo, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  }
+}

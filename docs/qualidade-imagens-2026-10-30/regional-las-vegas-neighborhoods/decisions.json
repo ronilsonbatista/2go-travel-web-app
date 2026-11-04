@@ -1,0 +1,34 @@
+{
+  "las-vegas/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Strip: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "las-vegas/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Imagem noturna com baixo contraste, fraca para detalhe do bairro."
+  },
+  "las-vegas/neighborhood-1": {
+    "decision": "rejected",
+    "notes": "Caixa de correio isolada dentro de hotel, sem contexto do Downtown."
+  },
+  "las-vegas/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "las-vegas/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Summerlin: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "las-vegas/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Enquadramento quase idêntico da fachada de Summerlin, possível variante do mesmo original."
+  },
+  "las-vegas/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Foto desfocada com data/hora grande sobreposta, inadequada para o cartão."
+  },
+  "las-vegas/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Golfinhos e cuidadores sem contexto suficiente da região de Paradise."
+  }
+}

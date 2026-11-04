@@ -1,0 +1,29 @@
+{
+  "city": "lima",
+  "region": "americas",
+  "center": [
+    0,
+    0,
+    20040
+  ],
+  "pools": {
+    "specific": {
+      "query": "incategory:\"Coins of Peru\"",
+      "required": [
+        "peru|peruvian"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 0.65,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|interior|indoors|sculpture|escultura|bust|busto|turtle|bird|flower|fish|lizard|monkey|insect|butterfly|tayrona|tenerife|la palma|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "essential-moeda"
+      ],
+      "requiredTitle": "S1 2013 Sol Anverso",
+      "preferredTitles": [
+        "File:S1 2013 Sol Anverso.jpg"
+      ]
+    }
+  }
+}

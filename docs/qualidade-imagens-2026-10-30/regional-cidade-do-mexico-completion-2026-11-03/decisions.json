@@ -1,0 +1,106 @@
+{
+  "cidade-do-mexico/attraction-0": {
+    "decision": "accepted",
+    "notes": "Panorama do Zócalo com Catedral Metropolitana e bandeira mexicana; monumentos identificáveis, enquadramento horizontal e orientação correta."
+  },
+  "cidade-do-mexico/map-attraction-0": {
+    "decision": "rejected",
+    "notes": "Pessoa deitada domina o primeiro plano e catedral fica escura; inadequado para representar a atração no pin."
+  },
+  "cidade-do-mexico/attraction-1": {
+    "decision": "accepted",
+    "notes": "Ruínas e pirâmide do complexo de Teotihuacán visíveis em fotografia real diurna; tema corresponde à atração e sem inversão."
+  },
+  "cidade-do-mexico/map-list-2": {
+    "decision": "rejected",
+    "notes": "Almofada bordada atribuída a Frida Kahlo; objeto isolado não identifica o Museo Frida Kahlo."
+  },
+  "cidade-do-mexico/attraction-3": {
+    "decision": "rejected",
+    "notes": "Entrada do Herpetarium no zoológico; sinalização e fila não representam Chapultepec de modo reconhecível."
+  },
+  "cidade-do-mexico/map-attraction-3": {
+    "decision": "rejected",
+    "notes": "Entrada do Dinosaurium e visitante em primeiro plano; falta contexto reconhecível de Chapultepec."
+  },
+  "cidade-do-mexico/map-list-3": {
+    "decision": "rejected",
+    "notes": "Caminho interno do aviário sem marco identificável; não representa Chapultepec como atração."
+  },
+  "cidade-do-mexico/attraction-4": {
+    "decision": "rejected",
+    "notes": "Close de chaminé em centro cultural; enquadramento não caracteriza Coyoacán como atração."
+  },
+  "cidade-do-mexico/map-list-4": {
+    "decision": "rejected",
+    "notes": "Close de parede numerada e tubulação; não representa o bairro Coyoacán."
+  },
+  "cidade-do-mexico/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Banca de chocolates no Mercado Roma em Condesa; comércio gastronômico real e contexto adequado para o bairro Roma/Condesa."
+  },
+  "cidade-do-mexico/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Vista da rua do Centro Histórico pela arcada do Palácio Nacional; arquitetura e espaço urbano reais, orientação correta."
+  },
+  "cidade-do-mexico/neighborhood-2": {
+    "decision": "rejected",
+    "notes": "Close de doces em loja de departamentos; tema gastronômico genérico sem contexto do bairro Polanco."
+  },
+  "cidade-do-mexico/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Interior da seção de óculos de loja; não caracteriza o bairro Polanco."
+  },
+  "cidade-do-mexico/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Esquilo isolado em viveiro; retrato animal sem contexto urbano de Coyoacán."
+  },
+  "cidade-do-mexico/neighborhood-detail-3": {
+    "decision": "accepted",
+    "notes": "Jardim com inscrição Coyoacán diante de arquitetura colonial; lugar reconhecível e contexto de bairro real."
+  },
+  "cidade-do-mexico/region-0": {
+    "decision": "rejected",
+    "notes": "Céu domina o enquadramento, com fachadas cortadas; qualidade insuficiente para região Centro."
+  },
+  "cidade-do-mexico/hotel-0": {
+    "decision": "accepted",
+    "notes": "Igreja e rua movimentada do centro histórico da Cidade do México; contexto real para hospedagem ilustrativa no Centro."
+  },
+  "cidade-do-mexico/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Fachada histórica e rua do Centro da Cidade do México em foto diurna; contexto de hospedagem ilustrativa, sem atribuir o prédio ao hotel."
+  },
+  "cidade-do-mexico/region-list-1": {
+    "decision": "rejected",
+    "notes": "Carruagem em exposição de museu; objeto isolado não representa a região Chapultepec."
+  },
+  "cidade-do-mexico/hotel-1": {
+    "decision": "rejected",
+    "notes": "Painel genealógico de pandas no zoológico; diagrama-como-foto proibido e sem contexto de hospedagem."
+  },
+  "cidade-do-mexico/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Exposição de dinossauros no zoológico; assunto não corresponde a contexto de hotel no bairro."
+  },
+  "cidade-do-mexico/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Close de utensílios à venda; não caracteriza Teotihuacán como região para hospedagem."
+  },
+  "cidade-do-mexico/day-0": {
+    "decision": "accepted",
+    "notes": "Pátio e pista do Aeroporto Internacional Benito Juárez vistos do terminal; cena real de chegada à Cidade do México, orientação correta."
+  },
+  "cidade-do-mexico/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Interior do metrô da Cidade do México com portas e sinalização da Linha 1; transporte local identificável e foto real."
+  },
+  "cidade-do-mexico/day-1": {
+    "decision": "rejected",
+    "notes": "Aparência de fotografia analógica antiga, carros e cores de arquivo sem data de captura atual comprovada; não aprovar como ícone atual."
+  },
+  "cidade-do-mexico/trip-2": {
+    "decision": "accepted",
+    "notes": "Coreto e praça central de Tepoztlán com árvores e arquitetura local; passeio regional histórico real e orientação correta."
+  }
+}

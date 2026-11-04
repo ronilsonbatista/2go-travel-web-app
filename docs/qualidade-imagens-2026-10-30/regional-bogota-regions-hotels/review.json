@@ -1,0 +1,1918 @@
+[
+  {
+    "key": "bogota/region-0",
+    "slot": "region-0",
+    "topic": "Histórico",
+    "path": "/images/destinations/bogota/curated-region-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Iglesia de Nuestra Señora de la Candelaria en Bogotá (3).jpg",
+    "imageinfo": {
+      "size": 4236254,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria_en_Bogot%C3%A1_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria_en_Bogot%C3%A1_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria_en_Bogot%C3%A1_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria_en_Bogot%C3%A1_(3).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129252680",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-03-04 02:43:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Iglesia de Nuestra Señora de la Candelaria en Bogotá (3)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Exterior of the Iglesia de Nuestra Señora de la Candelaria, Bogotá|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "4.596637",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.072816",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Iglesia de Nuestra Señora de la Candelaria en Bogotá",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-02-26 13:37:58",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ovruni\" class=\"mw-redirect\" title=\"User:Ovruni\">Ovruni</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/region-0.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria_en_Bogot%C3%A1_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "60f0f4e2bb08ea886d1686f51df7475104f8727cb65b6033b2246daee6c730b7"
+  },
+  {
+    "key": "bogota/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Histórico",
+    "path": "/images/destinations/bogota/curated-region-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Iglesia de Nuestra Señora de la Candelaria, Bogota.jpg",
+    "imageinfo": {
+      "size": 1361404,
+      "width": 1752,
+      "height": 1168,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria%2C_Bogota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria%2C_Bogota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria%2C_Bogota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria,_Bogota.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12601841",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-01-07 00:58:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Iglesia de Nuestra Señora de la Candelaria, Bogota",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Exterior of the Iglesia de Nuestra Señora de la Candelaria, Bogotá|Flickr images uploaded by Flickr upload bot|Files from Pedro Szekely Flickr stream",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Very nice church in downtown Bogota, Colombia. This old neighborhood is known as La Candelaria.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-07-21 14:05:29",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/Flickr\" class=\"mw-redirect\" title=\"Flickr\">Flickr</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/43355249@N00/5295137689\">Iglesia de Nuestra Señora de la Candelaria, Bogota</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43355249@N00\">Pedro Szekely</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table id=\"FlickrReview\" style=\"width:100%; margin:0.3em auto; text-align:start; background-color:var(--background-color-success-subtle,#d5fdf4); padding: 3px; border:1px solid var(--border-color-base,#a2a9b1); color:inherit;\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><a href=\"https://en.wikipedia.org/wiki/Flickr\" class=\"extiw\" title=\"en:Flickr\">Flickr</a></b>, was uploaded to Commons using <b><a href=\"//commons.wikimedia.org/wiki/User:Flickr_upload_bot\" title=\"User:Flickr upload bot\">Flickr upload bot</a></b> on 5 January 2011, 17:16 by <span id=\"flickr_upload_bot_reviewer\"><b><a href=\"//commons.wikimedia.org/wiki/User:Edwod2001\" title=\"User:Edwod2001\">Edwod2001</a></b></span>. On that date, it was confirmed to be licensed under the terms of the license indicated.\n</td>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/60px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/120px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\n</td></tr></tbody></table>\n<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/2.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/2.0/deed.en\">Attribution 2.0 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/2.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 2.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 2.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/region-list-0.jpg",
+    "dimensions": [
+      1752,
+      1168
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Candelaria%2C_Bogota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "a9f9ec2012c5f9f31b8b5ee03c6811d4d18b7328d218369522adcc5aeda6f411"
+  },
+  {
+    "key": "bogota/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Histórico",
+    "path": "/images/destinations/bogota/curated-hotel-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Iglesia y convento de La Candelaria (Bogotá) 04.JPG",
+    "imageinfo": {
+      "size": 3385264,
+      "width": 2736,
+      "height": 3648,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Iglesia_y_convento_de_La_Candelaria_%28Bogot%C3%A1%29_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Iglesia_y_convento_de_La_Candelaria_%28Bogot%C3%A1%29_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Iglesia_y_convento_de_La_Candelaria_%28Bogot%C3%A1%29_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iglesia_y_convento_de_La_Candelaria_(Bogot%C3%A1)_04.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21242165",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-09-10 20:42:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Iglesia y convento de La Candelaria (Bogotá) 04",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-H20|Exterior of the Iglesia de Nuestra Señora de la Candelaria, Bogotá|Self-published work|National monuments in Colombia with known IDs|Images from Wiki Loves Monuments 2012|Images from Wiki Loves Monuments 2012 in Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "This is a photo of a Colombian monument identified by the ID",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-09-08 12:53:41",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Racso\" title=\"User:Racso\">Racso (Oscar Fernando Gómez)</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/hotel-0.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Iglesia_y_convento_de_La_Candelaria_%28Bogot%C3%A1%29_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "d0a47e818adaa2a21227814a366dd8bc3d3c425e72bdf8cac56a54efdb1b3678"
+  },
+  {
+    "key": "bogota/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Histórico",
+    "path": "/images/destinations/bogota/curated-hotel-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Iglesia y convento de La Candelaria (Bogotá) 03.JPG",
+    "imageinfo": {
+      "size": 3982317,
+      "width": 3648,
+      "height": 2736,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Iglesia_y_convento_de_La_Candelaria_%28Bogot%C3%A1%29_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Iglesia_y_convento_de_La_Candelaria_%28Bogot%C3%A1%29_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Iglesia_y_convento_de_La_Candelaria_%28Bogot%C3%A1%29_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iglesia_y_convento_de_La_Candelaria_(Bogot%C3%A1)_03.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21242166",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-09-10 20:42:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Iglesia y convento de La Candelaria (Bogotá) 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-H20|Exterior of the Iglesia de Nuestra Señora de la Candelaria, Bogotá|Self-published work|National monuments in Colombia with known IDs|Images from Wiki Loves Monuments 2012|Images from Wiki Loves Monuments 2012 in Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "This is a photo of a Colombian monument identified by the ID",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-09-08 12:52:16",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Racso\" title=\"User:Racso\">Racso (Oscar Fernando Gómez)</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/hotel-list-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Iglesia_y_convento_de_La_Candelaria_%28Bogot%C3%A1%29_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "3c98b8100950f0afd635c7cb14f1c0dc021c1acfece4002179eb80e3a902667b"
+  },
+  {
+    "key": "bogota/region-1",
+    "slot": "region-1",
+    "topic": "Norte",
+    "path": "/images/destinations/bogota/curated-region-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Bogotá barrio Usaquén plaza.JPG",
+    "imageinfo": {
+      "size": 2424564,
+      "width": 4182,
+      "height": 3021,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Bogot%C3%A1_barrio_Usaqu%C3%A9n_plaza.JPG/3840px-Bogot%C3%A1_barrio_Usaqu%C3%A9n_plaza.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1734,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Bogot%C3%A1_barrio_Usaqu%C3%A9n_plaza.JPG/3840px-Bogot%C3%A1_barrio_Usaqu%C3%A9n_plaza.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1734
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bogot%C3%A1_barrio_Usaqu%C3%A9n_plaza.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bogot%C3%A1_barrio_Usaqu%C3%A9n_plaza.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=46755230",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-02-03 08:27:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bogotá barrio Usaquén plaza",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Beige houses in Colombia|Houses in Usaquén|Usaquén (barrio)|House facades in Bogotá",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bogotá",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-11-11 15:19:37",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pedro_Felipe\" title=\"User:Pedro Felipe\">Felipe Restrepo Acosta</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/region-1.jpg",
+    "dimensions": [
+      2400,
+      1734
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Bogot%C3%A1_barrio_Usaqu%C3%A9n_plaza.JPG/3840px-Bogot%C3%A1_barrio_Usaqu%C3%A9n_plaza.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a5278fad7d87e9cd5393c2e4cbd73f940a8772e2f8e2eaf552e3fcd026290965"
+  },
+  {
+    "key": "bogota/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Norte",
+    "path": "/images/destinations/bogota/curated-region-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Iglesia en Usaquen en Bogotá.jpg",
+    "imageinfo": {
+      "size": 2784456,
+      "width": 3264,
+      "height": 2448,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Iglesia_en_Usaquen_en_Bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Iglesia_en_Usaquen_en_Bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Iglesia_en_Usaquen_en_Bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Iglesia_en_Usaquen_en_Bogot%C3%A1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51626883",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-09-22 01:25:24",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Iglesia en Usaquen en Bogotá",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Uploaded with Mobile/Android|Uploaded with Mobile/Android (Jul 2016 - Jun 2017)|2016 in Bogotá|Photographs taken on 2016-09-21|Churches in Colombia photographed in 2016|Churches in Usaquén",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "dndndndnnfnfnfnfnfnx",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "21 September 2016 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:EEIM\" title=\"User:EEIM\">EEIM</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/region-list-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Iglesia_en_Usaquen_en_Bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "4df6d85e4100376ffdfc3a45f35c05414c35b5af623a2cdffee424a0ee2b01a2"
+  },
+  {
+    "key": "bogota/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Norte",
+    "path": "/images/destinations/bogota/curated-hotel-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Bogota Capital District - Usaquen.png",
+    "imageinfo": {
+      "size": 949636,
+      "width": 1460,
+      "height": 2210,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Bogota_Capital_District_-_Usaquen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3633,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Bogota_Capital_District_-_Usaquen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3633
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Bogota_Capital_District_-_Usaquen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bogota_Capital_District_-_Usaquen.png",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2307907",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-06-26 07:00:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bogota Capital District - Usaquen",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Maps of Usaquén|License migration redundant|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Image of Map of the locality of Usaquen, Capital District of Bogota, Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-06-26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:F3rn4nd0\" title=\"User:F3rn4nd0\">F3rn4nd0</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "I, <a href=\"//commons.wikimedia.org/wiki/User:F3rn4nd0\" title=\"User:F3rn4nd0\">F3rn4nd0</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/png"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/hotel-1.jpg",
+    "dimensions": [
+      1460,
+      2210
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Bogota_Capital_District_-_Usaquen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "d3842da496826cc8d48784ad004b3221bd241fa5c85ff220b0eb394ab39603c2"
+  },
+  {
+    "key": "bogota/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Norte",
+    "path": "/images/destinations/bogota/curated-hotel-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Usaquen station.JPG",
+    "imageinfo": {
+      "size": 1139474,
+      "width": 2592,
+      "height": 1944,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Usaquen_station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Usaquen_station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Usaquen_station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Usaquen_station.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4952312",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2008-10-08 20:40:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Usaquen station",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Taken with Pentax Optio 550|License migration redundant|Self-published work|Train station signs in Colombia|Usaquén train station",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Usaquén train station in north-east part of Bogota, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-02-04",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Klockarnils\" title=\"User:Klockarnils\">Nils Öberg</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Released under the GNU Free Documentation License",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/hotel-list-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Usaquen_station.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "3c51ca40cd2d9903e3ddd37811e942da598ac0a6ddb27d6f6125978e5e1afbc3"
+  },
+  {
+    "key": "bogota/region-2",
+    "slot": "region-2",
+    "topic": "Chapinero",
+    "path": "/images/destinations/bogota/curated-region-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (41).jpg",
+    "imageinfo": {
+      "size": 975458,
+      "width": 2688,
+      "height": 1520,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1357,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1357
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chapinero,_Bogot%C3%A1,_Bogota,_Colombia_-_panoramio_-_aalozadag_(41).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52556102",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-10-27 14:15:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (41)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Chapinero|Panoramio files uploaded by Panoramio upload bot|Cityscapes of Bogotá|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2016-08-20",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "4.657988",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.044746",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chapinero, Bogotá, Bogota, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 20 August 2016",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161103145816/http://www.panoramio.com/photo/133011276\">https://web.archive.org/web/20161103145816/http://www.panoramio.com/photo/133011276</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161103145714/http://www.panoramio.com/user/9210071?with_photo_id=133011276\">aalozadag</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">aalozadag</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 27 October 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "aalozadag",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/region-2.jpg",
+    "dimensions": [
+      2400,
+      1357
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "6ec79f014a082573b101ab0e0d96e174049f68099e3bd43d7dcfe67b13fa64b9"
+  },
+  {
+    "key": "bogota/region-list-2",
+    "slot": "region-list-2",
+    "topic": "Chapinero",
+    "path": "/images/destinations/bogota/curated-region-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (20).jpg",
+    "imageinfo": {
+      "size": 2659619,
+      "width": 2688,
+      "height": 1520,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1357,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1357
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chapinero,_Bogot%C3%A1,_Bogota,_Colombia_-_panoramio_-_aalozadag_(20).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52555733",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-10-27 14:02:24",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (20)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Chapinero|Panoramio files uploaded by Panoramio upload bot|Nature of Bogotá|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2016-08-20",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "4.653061",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.028679",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chapinero, Bogotá, Bogota, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 20 August 2016",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161103123130/http://www.panoramio.com/photo/133011328\">https://web.archive.org/web/20161103123130/http://www.panoramio.com/photo/133011328</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161103123047/http://www.panoramio.com/user/9210071?with_photo_id=133011328\">aalozadag</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">aalozadag</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 27 October 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "aalozadag",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/region-list-2.jpg",
+    "dimensions": [
+      2400,
+      1357
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "80718fab6a79e78029931543c7a4266fa42cc87f3c806b72301819e83cfce31f"
+  },
+  {
+    "key": "bogota/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Chapinero",
+    "path": "/images/destinations/bogota/curated-hotel-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (48).jpg",
+    "imageinfo": {
+      "size": 714110,
+      "width": 2688,
+      "height": 1520,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1357,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1357
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chapinero,_Bogot%C3%A1,_Bogota,_Colombia_-_panoramio_-_aalozadag_(48).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52556177",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-10-27 14:18:00",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (48)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Chapinero|Panoramio files uploaded by Panoramio upload bot|Cityscapes of Bogotá|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2016-08-20",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "4.658331",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.045258",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chapinero, Bogotá, Bogota, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 20 August 2016",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161103094347/http://www.panoramio.com/photo/133011267\">https://web.archive.org/web/20161103094347/http://www.panoramio.com/photo/133011267</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161103094302/http://www.panoramio.com/user/9210071?with_photo_id=133011267\">aalozadag</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">aalozadag</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 27 October 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "aalozadag",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/hotel-2.jpg",
+    "dimensions": [
+      2400,
+      1357
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "93db7f8fed7c8792cfa38975186347b44a152f4e25e4a20a73e744acf1ce702b"
+  },
+  {
+    "key": "bogota/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Chapinero",
+    "path": "/images/destinations/bogota/curated-hotel-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (61).jpg",
+    "imageinfo": {
+      "size": 1256492,
+      "width": 2688,
+      "height": 1520,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2861%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1357,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2861%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1357
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2861%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chapinero,_Bogot%C3%A1,_Bogota,_Colombia_-_panoramio_-_aalozadag_(61).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52556344",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-10-27 14:25:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chapinero, Bogotá, Bogota, Colombia - panoramio - aalozadag (61)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Chapinero|Panoramio files uploaded by Panoramio upload bot|Cityscapes of Bogotá|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2016-08-20",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "4.657971",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.046349",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Chapinero, Bogotá, Bogota, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 20 August 2016",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161103061131/http://www.panoramio.com/photo/133011244\">https://web.archive.org/web/20161103061131/http://www.panoramio.com/photo/133011244</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161103061034/http://www.panoramio.com/user/9210071?with_photo_id=133011244\">aalozadag</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">aalozadag</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 27 October 2016 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "aalozadag",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/hotel-list-2.jpg",
+    "dimensions": [
+      2400,
+      1357
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Chapinero%2C_Bogot%C3%A1%2C_Bogota%2C_Colombia_-_panoramio_-_aalozadag_%2861%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "3122c4941f7411936c5276a18da2a2f02010719065dfb68228b3a9a7c6d13a5c"
+  },
+  {
+    "key": "bogota/region-3",
+    "slot": "region-3",
+    "topic": "Monserrate",
+    "path": "/images/destinations/bogota/curated-region-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Monserrate y centro de Bogota.jpg",
+    "imageinfo": {
+      "size": 6388036,
+      "width": 3791,
+      "height": 2527,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Monserrate_y_centro_de_Bogota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Monserrate_y_centro_de_Bogota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Monserrate_y_centro_de_Bogota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Monserrate_y_centro_de_Bogota.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=76153323",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-01-28 03:18:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Monserrate y centro de Bogota",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Views of Monserrate|Museo Parque Central|Torre Colpatria|Torres Atrio|Self-published work|Cityscapes of Bogotá|Cerro de Monserrate|Torre Allianz, Bogotá",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Panorámica de Monserrate y el centro de la ciudad de Bogotá, Colombia. Fotografía tomada desde el Hospital Universitario Méderi",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-01-26 11:05:50",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jos_Cuevasc&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jos Cuevasc (page does not exist)\">Jos Cuevasc</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/region-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Monserrate_y_centro_de_Bogota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "a83794792ce6a6546d77bd8702069d1553cbb7bfa361f28aae42bc029c984c54"
+  },
+  {
+    "key": "bogota/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Monserrate",
+    "path": "/images/destinations/bogota/curated-region-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Cerro de Monserrate (56500).jpg",
+    "imageinfo": {
+      "size": 2256139,
+      "width": 8160,
+      "height": 4173,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Cerro_de_Monserrate_%2856500%29.jpg/3840px-Cerro_de_Monserrate_%2856500%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1227,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Cerro_de_Monserrate_%2856500%29.jpg/3840px-Cerro_de_Monserrate_%2856500%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1227
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Cerro_de_Monserrate_%2856500%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cerro_de_Monserrate_(56500).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192746672",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-05-24 19:12:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cerro de Monserrate (56500)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Monserrate|Bogotá|Self-published work|Uploaded with Mobile/Android|Files with coordinates missing SDC location of creation|Photographs taken on 2025-07-19|Images from Wiki Loves Earth 2026 in Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "4.614518",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.066319",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Cerro de Monserrate <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Cerro_de_Monserrate_(56500).jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "19 July 2025 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:AmiGueko\" title=\"User:AmiGueko\">AmiGueko</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1228
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Cerro_de_Monserrate_%2856500%29.jpg/3840px-Cerro_de_Monserrate_%2856500%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "431db6698e2bf752f0042fa3cae40f4e9b172744606f785500816e6e2715e16b"
+  },
+  {
+    "key": "bogota/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Monserrate",
+    "path": "/images/destinations/bogota/curated-hotel-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Monserrate Bogota - panoramio (2).jpg",
+    "imageinfo": {
+      "size": 4396530,
+      "width": 4592,
+      "height": 2576,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Monserrate_Bogota_-_panoramio_%282%29.jpg/3840px-Monserrate_Bogota_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1346,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Monserrate_Bogota_-_panoramio_%282%29.jpg/3840px-Monserrate_Bogota_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1346
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Monserrate_Bogota_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Monserrate_Bogota_-_panoramio_(2).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55088314",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-01-17 13:33:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Monserrate Bogota - panoramio (2)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Monserrate|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Colombia photographs taken on 2012-08-15|Photos from Panoramio ID 6130023",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "4.603840",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.055460",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Monserrate Bogota",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "15 August 2012 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161025214424/http://www.panoramio.com/photo/77376534\">https://web.archive.org/web/20161025214424/http://www.panoramio.com/photo/77376534</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161025214425/http://www.panoramio.com/user/6130023?with_photo_id=77376534\">Jimmy Gómez N</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Jimmy Gómez N</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 17 January 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Jimmy Gómez N",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/hotel-3.jpg",
+    "dimensions": [
+      2400,
+      1346
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Monserrate_Bogota_-_panoramio_%282%29.jpg/3840px-Monserrate_Bogota_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "23529f7249487e372e42c1e5eb54c8e8911b75ba9d0d61751692b7a50eec6d84"
+  },
+  {
+    "key": "bogota/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Monserrate",
+    "path": "/images/destinations/bogota/curated-hotel-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Monserrate - Bogotá.jpg",
+    "imageinfo": {
+      "size": 2427121,
+      "width": 2448,
+      "height": 2448,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Monserrate_-_Bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2400,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Monserrate_-_Bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2400
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Monserrate_-_Bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Monserrate_-_Bogot%C3%A1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=74220579",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-11-07 20:49:05",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Monserrate - Bogotá",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Monserrate|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of the Colombian flag from Monserrate, a mountain part of the Andes Mountain Range, in Bogotá, Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-08-03 14:36:42",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Seaberrymoo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Seaberrymoo (page does not exist)\">Seaberrymoo</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/bogota/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Monserrate_-_Bogot%C3%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "ce25dd0e33e4b57dfa60b58f6c32cd4eb792b335fd3d4ee024d5958c87f51138"
+  }
+]

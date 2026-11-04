@@ -1,0 +1,38 @@
+{
+  "los-angeles/home": {
+    "decision": "accepted",
+    "notes": "Skyline de Los Angeles diante das montanhas San Gabriel com neve; panorama real horizontal, nítido e orientado corretamente."
+  },
+  "los-angeles/guide-card": {
+    "decision": "rejected",
+    "notes": "Panorama com composição muito próxima ao home aprovado, mesmo ponto de vista e montanhas; evitar repetição visual próxima."
+  },
+  "los-angeles/guide-highlight": {
+    "decision": "rejected",
+    "notes": "Placa rodoviária isolada; não representa Los Angeles em destaque HQ."
+  },
+  "los-angeles/home-slide": {
+    "decision": "rejected",
+    "notes": "Lanternas isoladas de Little Tokyo sem bairro ou cidade visíveis; contexto insuficiente para destaque geral."
+  },
+  "los-angeles/home-thumb": {
+    "decision": "rejected",
+    "notes": "Jardim noturno escuro com pouca cidade visível; qualidade insuficiente para miniatura turística."
+  },
+  "los-angeles/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Timestamp amarelo visível e composição comum de rua; qualidade insuficiente para seleção atual."
+  },
+  "los-angeles/region-1": {
+    "decision": "rejected",
+    "notes": "Timestamp e fachada escura em close; Hollywood pouco legível como região."
+  },
+  "los-angeles/hotel-2": {
+    "decision": "rejected",
+    "notes": "Acampamento de pessoas sem moradia, sem hotel ou contexto de hospedagem; tema errado para o slot."
+  },
+  "los-angeles/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Acampamento de pessoas sem moradia em sequência próxima; não corresponde a hospedagem ilustrativa."
+  }
+}

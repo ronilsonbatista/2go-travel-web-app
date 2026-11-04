@@ -1,0 +1,226 @@
+{
+  "city": "medellin",
+  "region": "americas",
+  "center": [
+    6.2476,
+    -75.5658,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Medellin skyline panorama",
+      "required": [
+        "medellin"
+      ],
+      "locationPatterns": [
+        "medellin|colombia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "intro",
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-0": {
+      "query": "Comuna 13 Medellin",
+      "required": [
+        "comuna 13"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-1": {
+      "query": "Parque Arvi",
+      "required": [
+        "arvi"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-3": {
+      "query": "El Poblado Medellin",
+      "required": [
+        "poblado"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-3"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "El Poblado Medellin",
+      "required": [
+        "poblado"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "Centro Medellin",
+      "required": [
+        "centro|downtown|la candelaria"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "El Poblado Medellin",
+      "required": [
+        "poblado"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Parque Berrio Medellin",
+      "required": [
+        "berrio"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Parque Arvi",
+      "required": [
+        "arvi"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "Jose Maria Cordova Airport",
+      "required": [
+        "cordova|cordoba"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "mistakes"
+      ]
+    },
+    "support-culture": {
+      "query": "Museo Antioquia Medellin",
+      "required": [
+        "antioquia"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "support-currency": {
+      "query": "Colombian peso banknotes",
+      "required": [
+        "colombian peso|pesos colombianos"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "Colombian passport cover",
+      "required": [
+        "colombian passport|pasaporte colombiano"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "porto-rico/intro": {
+    "decision": "accepted",
+    "notes": "Ônibus San Juan Transit e fachadas coloridas na rua de Old San Juan; contexto urbano real do destino e orientação correta."
+  },
+  "porto-rico/home": {
+    "decision": "accepted",
+    "notes": "Vista aérea da praia e bairros de San Juan com mar turquesa; foto real horizontal, nítida e orientada corretamente."
+  },
+  "porto-rico/home-thumb": {
+    "decision": "rejected",
+    "notes": "Arquibancada e terreno em primeiro plano com pouco contexto turístico; composição insuficiente para miniatura HQ."
+  },
+  "porto-rico/region-3": {
+    "decision": "accepted",
+    "notes": "Vista aérea de Dewey e marina em Culebra com água e casario; região Ilhas real e horizonte correto."
+  },
+  "porto-rico/region-list-3": {
+    "decision": "rejected",
+    "notes": "Close subaquático com baixa definição e pouco contexto das ilhas; qualidade insuficiente."
+  },
+  "porto-rico/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Close de cédula série 1950, exemplar histórico; não representa dinheiro cotidiano atual para pagamentos."
+  }
+}

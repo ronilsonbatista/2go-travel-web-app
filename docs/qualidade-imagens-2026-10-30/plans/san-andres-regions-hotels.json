@@ -1,0 +1,79 @@
+{
+  "city": "san-andres",
+  "region": "americas",
+  "center": [
+    12.5847,
+    -81.7006,
+    30
+  ],
+  "pools": {
+    "region-0": {
+      "query": "Spratt Bight San Andres",
+      "required": [
+        "spratt bight"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "San Luis San Andres",
+      "required": [
+        "san luis"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "West View San Andres",
+      "required": [
+        "west view"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "region-3": {
+      "query": "Johnny Cay",
+      "required": [
+        "johnny cay"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    }
+  }
+}

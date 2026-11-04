@@ -1,0 +1,171 @@
+{
+  "city": "florenca",
+  "region": "europa",
+  "center": [
+    43.7696,
+    11.2558,
+    20
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Florence historic center street",
+      "required": [
+        "florence|firenze",
+        "storico|historic|florence|firenze"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Oltrarno Florence street",
+      "required": [
+        "florence|firenze",
+        "oltrarno"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Santa Croce Florence piazza",
+      "required": [
+        "florence|firenze",
+        "santa croce"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "San Lorenzo Florence street",
+      "required": [
+        "florence|firenze",
+        "san lorenzo"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    },
+    "region-0": {
+      "query": "Florence Duomo piazza",
+      "required": [
+        "florence|firenze",
+        "duomo|fiore"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "Uffizi Florence exterior",
+      "required": [
+        "florence|firenze",
+        "uffizi"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "Oltrarno Florence street",
+      "required": [
+        "florence|firenze",
+        "oltrarno"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "region-3": {
+      "query": "Piazzale Michelangelo Florence view",
+      "required": [
+        "florence|firenze",
+        "michelangelo"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    }
+  }
+}

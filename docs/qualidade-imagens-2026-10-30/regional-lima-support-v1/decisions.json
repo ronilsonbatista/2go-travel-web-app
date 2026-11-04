@@ -1,0 +1,62 @@
+{
+  "lima/day-0": {
+    "decision": "rejected",
+    "notes": "Terminal antigo de Jorge Chavez: fechado em 1/6/2025, conforme MTC: https://www.gob.pe/institucion/mtc/noticias/1179258-antiguo-aeropuerto-jorge-chavez-cerro-su-ciclo-tras-movilizar-cerca-de-400-millones-de-pasajeros"
+  },
+  "lima/mistakes": {
+    "decision": "rejected",
+    "notes": "Acesso/estacionamento do terminal antigo, encerrado em 1/6/2025 conforme MTC: https://www.gob.pe/institucion/mtc/noticias/1179258-antiguo-aeropuerto-jorge-chavez-cerro-su-ciclo-tras-movilizar-cerca-de-400-millones-de-pasajeros"
+  },
+  "lima/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Transporte, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "lima/costs": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Pratos típicos de Lima, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "lima/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "lima/day-4": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bate-volta ou folga, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "lima/day-1": {
+    "decision": "rejected",
+    "notes": "Placa de rota pedestre e pessoas dominam a cena, sem icone principal reconhecivel."
+  },
+  "lima/tips": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Dicas importantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "lima/day-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bairros e gastronomia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "lima/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Apenas nome proprio LIMA e marca; nao oferece exemplo significativo de idioma."
+  },
+  "lima/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Moeda de 1 centavo de 1944, objeto historico inadequado para pagamentos atuais."
+  },
+  "lima/essential-docs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "lima/trip-0": {
+    "decision": "rejected",
+    "notes": "Mostra Manchay residencial em Pachacamac, nao o sitio arqueologico do passeio."
+  },
+  "lima/trip-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Passeio regional de meio dia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "lima/trip-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Destino costeiro ou histórico próximo, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  }
+}

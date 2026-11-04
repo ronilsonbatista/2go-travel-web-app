@@ -1,0 +1,30 @@
+{
+  "orlando/hero": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Orlando, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "orlando/intro": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Orlando, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "orlando/home": {
+    "decision": "rejected",
+    "notes": "Trânsito rodoviário domina o enquadramento e reduz a clareza do skyline."
+  },
+  "orlando/guide-card": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Orlando, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "orlando/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Orlando, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "orlando/home-slide": {
+    "decision": "rejected",
+    "notes": "Via expressa e veículos dominam a composição do destaque."
+  },
+  "orlando/home-thumb": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Orlando: miniatura da home, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  }
+}

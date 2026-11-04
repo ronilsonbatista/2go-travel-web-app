@@ -1,0 +1,51 @@
+[
+  {
+    "key": "san-andres/hero",
+    "slot": "hero",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "san-andres/intro",
+    "slot": "intro",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "san-andres/home",
+    "slot": "home",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "san-andres/guide-card",
+    "slot": "guide-card",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "san-andres/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "san-andres/home-slide",
+    "slot": "home-slide",
+    "topic": "San Andrés",
+    "status": "no-candidate",
+    "pool": "highlights"
+  },
+  {
+    "key": "san-andres/home-thumb",
+    "slot": "home-thumb",
+    "topic": "San Andrés: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights"
+  }
+]

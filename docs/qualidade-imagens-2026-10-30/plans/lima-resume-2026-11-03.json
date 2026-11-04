@@ -1,0 +1,66 @@
+{
+  "city": "lima",
+  "region": "americas",
+  "center": [
+    -12.0464,
+    -77.0428,
+    50
+  ],
+  "pools": {
+    "arrival": {
+      "query": "\"nuevo terminal\" \"Jorge Chavez\"",
+      "required": [
+        "jorge chavez",
+        "nuevo|new|2025|2026"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ],
+      "center": [
+        -12.02,
+        -77.12,
+        20
+      ]
+    },
+    "isidro": {
+      "query": "\"San Isidro\" \"Lima\" \"park\"",
+      "required": [
+        "san isidro",
+        "lima|peru"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "neighborhood-2"
+      ]
+    },
+    "pachacamac": {
+      "query": "\"Pachacamac\" \"temple\"",
+      "required": [
+        "pachacamac"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        -12.257,
+        -76.9,
+        10
+      ]
+    }
+  }
+}

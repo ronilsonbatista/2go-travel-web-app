@@ -1,0 +1,274 @@
+{
+  "city": "vancouver",
+  "region": "americas",
+  "center": [
+    49.2827,
+    -123.1207,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Vancouver skyline",
+      "required": [
+        "vancouver"
+      ],
+      "locationPatterns": [
+        "vancouver|british columbia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "guide-highlight",
+        "home-slide"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-4": {
+      "query": "Canada Place Vancouver",
+      "required": [
+        "canada place"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-5": {
+      "query": "Grouse Mountain",
+      "required": [
+        "grouse mountain"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Downtown Vancouver",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-0"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "Yaletown Vancouver",
+      "required": [
+        "yaletown"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Gastown Vancouver",
+      "required": [
+        "gastown"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-3"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Stanley Park Vancouver",
+      "required": [
+        "stanley park"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "hotel-list-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "North Vancouver Lonsdale",
+      "required": [
+        "lonsdale|north vancouver"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2"
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "Vancouver International Airport",
+      "required": [
+        "vancouver"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "support-transport": {
+      "query": "Vancouver SkyTrain",
+      "required": [
+        "skytrain"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "support-food": {
+      "query": "Japadog Vancouver",
+      "required": [
+        "japadog"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "support-language": {
+      "query": "Vancouver Canada sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "support-currency": {
+      "query": "Canadian polymer banknotes",
+      "required": [
+        "polymer|frontier series|2011|2012|2013|2018"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "Canadian passport cover",
+      "required": [
+        "canadian passport|passeport canadien"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-trip-1": {
+      "query": "Squamish British Columbia",
+      "required": [
+        "squamish"
+      ],
+      "locationPatterns": [
+        "canada|british columbia"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        49.7,
+        -123.15,
+        25
+      ]
+    },
+    "support-trip-2": {
+      "query": "Victoria British Columbia harbour",
+      "required": [
+        "victoria"
+      ],
+      "locationPatterns": [
+        "canada|british columbia"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        48.43,
+        -123.37,
+        25
+      ]
+    }
+  }
+}

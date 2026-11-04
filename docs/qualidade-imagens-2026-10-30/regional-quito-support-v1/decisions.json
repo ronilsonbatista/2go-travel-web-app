@@ -1,0 +1,62 @@
+{
+  "quito/day-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Chegada em Quito, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "quito/mistakes": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Erros comuns, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "quito/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Transporte, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "quito/costs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "quito/day-3": {
+    "decision": "rejected",
+    "notes": "Mostra corrimao e canteiro; museu nao e legivel no enquadramento."
+  },
+  "quito/day-4": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bate-volta ou folga, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "quito/day-1": {
+    "decision": "rejected",
+    "notes": "Fachada noturna escura com grades dominantes; falta icone principal reconhecivel."
+  },
+  "quito/tips": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Dicas importantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "quito/day-2": {
+    "decision": "rejected",
+    "notes": "Somente placa de rua, nao mostra bairro ou gastronomia."
+  },
+  "quito/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Nome proprio de rua sem palavras significativas do idioma; buscar sinalizacao mais util."
+  },
+  "quito/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Nota falsa com Papai Noel, nao e moeda utilizavel."
+  },
+  "quito/essential-docs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "quito/trip-0": {
+    "decision": "rejected",
+    "notes": "Retrato de vaca no mercado; nao mostra passeio de Otavalo."
+  },
+  "quito/trip-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Passeio regional de meio dia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "quito/trip-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Destino costeiro ou histórico próximo, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "city": "bogota",
+  "region": "americas",
+  "center": [
+    0,
+    0,
+    20040
+  ],
+  "pools": {
+    "documents": {
+      "query": "Brazilian passport",
+      "required": [
+        "brazil|brasil",
+        "passport|passaporte|identidade|identity"
+      ],
+      "locationPatterns": [
+        "brazil|brasil"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.4,
+      "reject": "diplomatic|diplomatico|official passport|service passport|specimen|counterfeit|propaganda|poster|diagram|197[0-9]|198[0-9]",
+      "slots": [
+        "essential-docs"
+      ]
+    }
+  }
+}

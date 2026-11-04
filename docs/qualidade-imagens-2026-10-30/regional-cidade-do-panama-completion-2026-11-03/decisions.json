@@ -1,0 +1,62 @@
+{
+  "cidade-do-panama/intro": {
+    "decision": "accepted",
+    "notes": "Skyline da Cidade do Panamá com edifícios modernos e vegetação em foto diurna; cidade identificável e orientação correta."
+  },
+  "cidade-do-panama/home": {
+    "decision": "accepted",
+    "notes": "Skyline costeiro da Cidade do Panamá com barcos e edifícios; fotografia real horizontal e horizonte correto."
+  },
+  "cidade-do-panama/home-slide": {
+    "decision": "rejected",
+    "notes": "Cores e contraste excessivamente alterados, com cidade muito distante; qualidade insuficiente para destaque HQ."
+  },
+  "cidade-do-panama/home-thumb": {
+    "decision": "rejected",
+    "notes": "Retirada após comparação perceptual e visual: mesma fotografia de cidade-do-panama/guide-highlight, reencodada/com nome diferente. Preservada a foto herdada; slot volta a placeholder para buscar alternativa.",
+    "initialDecision": {
+      "decision": "accepted",
+      "notes": "Vista aérea do skyline e marina da Cidade do Panamá; destaque horizontal real, com região costeira identificável."
+    }
+  },
+  "cidade-do-panama/attraction-0": {
+    "decision": "accepted",
+    "notes": "Eclusas de Miraflores com canal, estruturas e embarcações visíveis; atração do Canal do Panamá reconhecível."
+  },
+  "cidade-do-panama/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Cemitério de Amador no continente, não Causeway/ilhas de Amador; falso match geográfico."
+  },
+  "cidade-do-panama/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Escudo de clube de futebol Plaza Amador; não representa o bairro turístico de Amador."
+  },
+  "cidade-do-panama/hotel-0": {
+    "decision": "rejected",
+    "notes": "Retrato de três homens em primeiro plano; não representa contexto de hospedagem em Casco."
+  },
+  "cidade-do-panama/hotel-1": {
+    "decision": "accepted",
+    "notes": "Eclusas e edifícios de Miraflores em foto diurna; contexto real da região Canal para hospedagem ilustrativa."
+  },
+  "cidade-do-panama/region-2": {
+    "decision": "rejected",
+    "notes": "Vista aérea muito distante sob contraluz e janela; Amador pouco legível para região."
+  },
+  "cidade-do-panama/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Marina de Isla Perico em Amador com barcos e ilha ao fundo; contexto regional real da hospedagem ilustrativa."
+  },
+  "cidade-do-panama/mistakes": {
+    "decision": "accepted",
+    "notes": "Saguão do aeroporto Tocumen com painel e circulação de passageiros; contexto real para planejamento de chegada."
+  },
+  "cidade-do-panama/day-3": {
+    "decision": "accepted",
+    "notes": "Biomuseo com arquitetura colorida e margem costeira; marco cultural real do Panamá e orientação correta."
+  },
+  "cidade-do-panama/trip-2": {
+    "decision": "accepted",
+    "notes": "Edifício histórico da Aduana de Portobelo com arcadas e rua; passeio regional patrimonial real e orientação correta."
+  }
+}

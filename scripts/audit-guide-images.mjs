@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { destinationGuides } from '../src/data/guidesData.js';
 import { guideImageSlots } from './guide-image-slots.mjs';
 import { listDestinations } from '../src/lib/cms.js';
+import { ALL_REMAINING } from './remaining-destinations-meta.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const slots = guideImageSlots();
@@ -16,12 +17,18 @@ const banned = new Set(['f84fe337a37405671fd18b6992636d4a', 'e5ace9e2fc066228194
 const manifest = path.join(root, 'docs/curadoria-2026-10-29/sources.json');
 const sources = fs.existsSync(manifest) ? JSON.parse(fs.readFileSync(manifest)) : {};
 const sourceIds = new Map();
+const originsPath = path.join(root, 'docs/qualidade-imagens-2026-10-30/source-origins.json');
+const sourceOrigins = fs.existsSync(originsPath) ? JSON.parse(fs.readFileSync(originsPath)) : {};
+const externalOriginals = new Map();
 const photoFamilies = new Map();
 function register(map, key, label) {
   if (map.has(key)) problems.push(`${label}: ${map.get(key)} + ${current}`);
   else map.set(key, current);
 }
 const centers = {
+  ...Object.fromEntries(Object.values(ALL_REMAINING).map(destination => [destination.folder, destination.center])),
+  // The published Hawaii guide includes Oahu, Maui and Hawaii Island, not Honolulu alone.
+  havai: [20.8, -157, 550],
   'rio-de-janeiro': [-22.9068, -43.1729, 80],
   sydney: [-33.8688, 151.2093, 60],
   bangkok: [13.7563, 100.5018, 60],
@@ -45,6 +52,20 @@ function distanceKm(a,b,c,d) {
   const x = Math.sin(rad(c-a)/2)**2 + Math.cos(rad(a))*Math.cos(rad(c))*Math.sin(rad(d-b)/2)**2;
   return 6371*2*Math.atan2(Math.sqrt(x),Math.sqrt(1-x));
 }
+function geographicBounds(slot) {
+  // These named excursions/islands already belong to the published guides.
+  // Keep city bounds for the other slots rather than widening every city photo.
+  if (slot.city === 'orlando' && /kennedy/i.test(slot.topic)) return [28.57, -80.65, 25];
+  if (slot.city === 'medellin' && /guatap[eé]/i.test(slot.topic)) return [6.23, -75.16, 25];
+  if (slot.city === 'punta-cana' && /saona/i.test(slot.topic)) return [18.15, -68.73, 30];
+  if (slot.city === 'porto-rico' && /culebra|ilhas/i.test(slot.topic)) return [18.3, -65.3, 45];
+  if (slot.city === 'porto-rico' && /mosquito|vieques/i.test(slot.topic)) return [18.1, -65.45, 30];
+  if (slot.city === 'bahamas' && /exuma|pig beach/i.test(slot.topic)) return [23.7, -76, 130];
+  if (slot.city === 'bahamas' && /out islands/i.test(slot.topic)) return [24.5, -76.5, 500];
+  if (slot.city === 'havai' && /maui|hana/i.test(slot.topic)) return [20.8, -156.3, 60];
+  if (slot.city === 'havai' && /big island|vulc|volcano/i.test(slot.topic)) return [19.6, -155.5, 130];
+  return centers[slot.city];
+}
 let current;
 for (const slot of slots) {
   current = `${slot.city}/${slot.slot}`;
@@ -61,16 +82,29 @@ for (const slot of slots) {
   if (!source || source.path !== slot.src) problems.push(`MISSING provenance: ${current}`);
   else {
     register(sourceIds, decodeURIComponent(source.source).replace(/_/g, ' ').toLowerCase(), 'REUSED original photo');
-    const family = decodeURIComponent(source.title).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/_/g, ' ').toLowerCase().replace(/\b(cropped|crop|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b/g, '').replace(/[^\p{L}\p{N}]/gu, '');
+    const origin = sourceOrigins[current];
+    if (origin?.source === source.source && origin.originPhotoId) register(externalOriginals, origin.originPhotoId, 'REUSED external original');
+    const family = decodeURIComponent(source.title).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/_/g, ' ').toLowerCase().replace(/\b(cropped|crop|zuschnitt|beschnitten|recadre|recadrage|recortada|recortado|recorte|aligned|edit\d*|copie\s*\d*[a-z]*|copy)\b/g, '').replace(/[^\p{L}\p{N}]/gu, '');
     register(photoFamilies, family, 'REUSED derivative family');
     if (source.latitude != null && source.longitude != null && !/^(trip-|country-|costs|essential-(docs|moeda))/.test(slot.slot)) {
-      const [lat,lon,radius] = centers[slot.city];
-      const km = distanceKm(lat,lon,Number(source.latitude),Number(source.longitude));
-      if (km > radius) problems.push(`WRONG CITY coordinates: ${current} (${Math.round(km)} km from ${slot.city})`);
+      const center = geographicBounds(slot);
+      if (!center) {
+        problems.push(`MISSING geographic audit bounds: ${current}`);
+      } else {
+        const [lat,lon,radius] = center;
+        const sourceLat = Number(source.latitude), sourceLon = Number(source.longitude);
+        if (!Number.isFinite(sourceLat) || !Number.isFinite(sourceLon) || Math.abs(sourceLat) > 90 || Math.abs(sourceLon) > 180) {
+          problems.push(`INVALID geographic coordinates: ${current}`);
+        } else {
+          const km = distanceKm(lat,lon,sourceLat,sourceLon);
+          if (km > radius) problems.push(`WRONG CITY coordinates: ${current} (${Math.round(km)} km outside guide area for ${slot.city})`);
+        }
+      }
     }
     if (/diner|food.?bank|taj.?mahal|apple.?watch|censored|blackout|jigsaw|puzzle/i.test(source.title)) problems.push(`BANNED photo subject: ${current} (${source.title})`);
     if (source.topic !== slot.topic) problems.push(`CHANGED topic requires new curation: ${current}`);
     if (source.visualReview !== 'accepted') problems.push(`PENDING visual review: ${current}`);
+    if (/placeholder/i.test(`${source.source} ${source.license}`)) problems.push(`PLACEHOLDER photo: ${current}`);
     if (!source.author || !source.license || /See original/i.test(source.license + source.author)) problems.push(`UNVERIFIED credits: ${current}`);
   }
 }

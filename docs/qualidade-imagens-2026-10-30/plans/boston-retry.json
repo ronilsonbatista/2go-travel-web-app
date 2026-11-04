@@ -1,0 +1,183 @@
+{
+  "city": "boston",
+  "region": "americas",
+  "center": [
+    42.3601,
+    -71.0589,
+    50
+  ],
+  "pools": {
+    "back-bay": {
+      "query": "Back Bay Boston architecture -Fens",
+      "required": [
+        "back bay|newbury|commonwealth avenue"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|fens|fenway",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0",
+        "region-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "north-end": {
+      "query": "North End Boston streets",
+      "required": [
+        "north end"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|portrait|performer",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2",
+        "day-2"
+      ]
+    },
+    "cambridge": {
+      "query": "Harvard Square Cambridge streets",
+      "required": [
+        "harvard square"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|painted burro|erhu",
+      "slots": [
+        "neighborhood-detail-3",
+        "region-list-2"
+      ]
+    },
+    "downtown": {
+      "query": "Boston Financial District street",
+      "required": [
+        "boston"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|historic|louisiana",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-list-0"
+      ]
+    },
+    "waterfront": {
+      "query": "Boston Harborwalk waterfront skyline",
+      "required": [
+        "harborwalk|waterfront"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|map|plan",
+      "slots": [
+        "region-3",
+        "hotel-3"
+      ]
+    },
+    "card": {
+      "query": "Acorn Street Beacon Hill Boston",
+      "required": [
+        "acorn street"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white",
+      "slots": [
+        "guide-card"
+      ],
+      "minRatio": 1.25
+    },
+    "cash": {
+      "query": "United States dollar bill Federal Reserve 2013",
+      "required": [
+        "federal reserve|2013|2017|2021"
+      ],
+      "locationPatterns": [
+        "united states|dollar|federal reserve"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|confederate|counterfeit|historical",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "transport": {
+      "query": "MBTA Red Line train Boston",
+      "required": [
+        "mbta|red line"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|fare|ticket|chart",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "arrival": {
+      "query": "Logan Airport terminal exterior",
+      "required": [
+        "logan"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|sculpture|rhodes|futility|sign|plaque",
+      "slots": [
+        "day-0"
+      ]
+    },
+    "trail": {
+      "query": "Freedom Trail Boston marker",
+      "required": [
+        "freedom trail"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|mosaic|latin school|1974",
+      "slots": [
+        "attraction-0"
+      ]
+    },
+    "harvard": {
+      "query": "Harvard Yard Massachusetts lawn",
+      "required": [
+        "harvard yard"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|february 2022",
+      "slots": [
+        "map-list-2"
+      ]
+    },
+    "quincy": {
+      "query": "Quincy Market Boston facade",
+      "required": [
+        "quincy market"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "reject": "historic photograph|engraving|painting|stereograph|stereoscopic|portrait|musician|confederate|louisiana|erhu|fens|19[0-5][0-9]|18[0-9][0-9]|fugality|futility|map on|map of|war poster|black and white|stereo|soule|historic",
+      "slots": [
+        "map-list-4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2359 @@
+[
+  {
+    "key": "montreal/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Montreal: miniatura da home",
+    "path": "/images/destinations/montreal/curated-home-thumb.jpg",
+    "pool": "highlights-highlights",
+    "status": "pending-visual-review",
+    "title": "File:Montreal s-w downtown 2.jpg",
+    "imageinfo": {
+      "size": 6537171,
+      "width": 5000,
+      "height": 1609,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Montreal_s-w_downtown_2.jpg/3840px-Montreal_s-w_downtown_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 772,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Montreal_s-w_downtown_2.jpg/3840px-Montreal_s-w_downtown_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 772
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Montreal_s-w_downtown_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Montreal_s-w_downtown_2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3089071",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-11-14 02:45:24",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Montreal s-w downtown 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Taken with Nikon D80|License migration redundant|Self-published work|Unassessed QI candidates|Night skylines of Montreal|Files with coordinates missing SDC location of creation|Panoramas of cities in Canada|User:Acarpentier",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.484822",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.562739",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A panoramic view of Montreal S-W Downtown",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-11-13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Acarpentier\" title=\"User:Acarpentier\">Acarpentier</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "You may select the license of your choice.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "I, <a href=\"//commons.wikimedia.org/wiki/User:Acarpentier\" title=\"User:Acarpentier\">Acarpentier</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/home-thumb.jpg",
+    "dimensions": [
+      2400,
+      773
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Montreal_s-w_downtown_2.jpg/3840px-Montreal_s-w_downtown_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "60088720d4f27f01459d3068d2c9fee593a7877b71016616a3bd24b47adaf554"
+  },
+  {
+    "key": "montreal/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Vieux-Montréal",
+    "path": "/images/destinations/montreal/curated-attraction-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Caleche Vieux-Montreal 02a.jpg",
+    "imageinfo": {
+      "size": 549742,
+      "width": 1600,
+      "height": 1200,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Caleche_Vieux-Montreal_02a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Caleche_Vieux-Montreal_02a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Caleche_Vieux-Montreal_02a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caleche_Vieux-Montreal_02a.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49550851",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-06-18 16:54:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Caleche Vieux-Montreal 02a",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old Montreal|Notre-Dame Street, Montreal|Self-published work|Horse-drawn taxis in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calèche du Vieux-Montréal<br>\nRistorante Quattro, 17, rue Notre-Dame Ouest",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jeangagnon\" title=\"User:Jeangagnon\">Jeangagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/attraction-0.jpg",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Caleche_Vieux-Montreal_02a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "4b8c980b3cae4b007d937903d5cb65149fd3d542747013f64520cff3b5909d05"
+  },
+  {
+    "key": "montreal/map-attraction-0",
+    "slot": "map-attraction-0",
+    "topic": "Vieux-Montréal",
+    "path": "/images/destinations/montreal/curated-map-attraction-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Caleche Vieux-Montreal 02.jpg",
+    "imageinfo": {
+      "size": 4583398,
+      "width": 5152,
+      "height": 3864,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Caleche_Vieux-Montreal_02.jpg/3840px-Caleche_Vieux-Montreal_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Caleche_Vieux-Montreal_02.jpg/3840px-Caleche_Vieux-Montreal_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Caleche_Vieux-Montreal_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caleche_Vieux-Montreal_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48995868",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-24 21:10:36",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Caleche Vieux-Montreal 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old Montreal|Notre-Dame Street, Montreal|Self-published work|Horse-drawn taxis in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calèche du Vieux-Montréal<br>\nRistorante Quattro, 17, rue Notre-Dame Ouest",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jeangagnon\" title=\"User:Jeangagnon\">Jeangagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/map-attraction-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Caleche_Vieux-Montreal_02.jpg/3840px-Caleche_Vieux-Montreal_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "79c37c16b5e373340df695c4a1552b6d0581c70f1b66efa27f25ae5e427d1baf"
+  },
+  {
+    "key": "montreal/map-list-0",
+    "slot": "map-list-0",
+    "topic": "Vieux-Montréal",
+    "path": "/images/destinations/montreal/curated-map-list-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Caleche Vieux-Montreal 10.jpg",
+    "imageinfo": {
+      "size": 4338834,
+      "width": 5152,
+      "height": 3864,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Caleche_Vieux-Montreal_10.jpg/3840px-Caleche_Vieux-Montreal_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Caleche_Vieux-Montreal_10.jpg/3840px-Caleche_Vieux-Montreal_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Caleche_Vieux-Montreal_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caleche_Vieux-Montreal_10.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48996057",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-24 21:34:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Caleche Vieux-Montreal 10",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old Montreal|Self-published work|Notre-Dame de Montréal Presbytery|Horse-drawn taxis in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calèche du Vieux-Montréal<br>\n<p>Presbytère de la paroisse Notre-Dame de Montréal (autres appellations : Presbytère de Notre-Dame, Séminaire de Saint-Sulpice de Montréal, Vieux séminaire de Saint-Sulpice), 116, rue Notre-Dame Ouest, Montréal\n</p>\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.vieux.montreal.qc.ca/inventaire/fiches/fiche_bat.php?sec=p&amp;num=4\">vieux.montreal.qc.ca</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jeangagnon\" title=\"User:Jeangagnon\">Jeangagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/map-list-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Caleche_Vieux-Montreal_10.jpg/3840px-Caleche_Vieux-Montreal_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "431d90fffccb09f47ba733d610d326be6ea8f828a90446fc5c9ed3dcfbb37181"
+  },
+  {
+    "key": "montreal/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Vieux-Montréal",
+    "path": "/images/destinations/montreal/curated-neighborhood-0.jpg",
+    "pool": "neighborhoods-neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Caleche Vieux-Montreal 04.jpg",
+    "imageinfo": {
+      "size": 4289238,
+      "width": 5152,
+      "height": 3864,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Caleche_Vieux-Montreal_04.jpg/3840px-Caleche_Vieux-Montreal_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Caleche_Vieux-Montreal_04.jpg/3840px-Caleche_Vieux-Montreal_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Caleche_Vieux-Montreal_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caleche_Vieux-Montreal_04.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48995953",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-24 21:21:20",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Caleche Vieux-Montreal 04",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old Montreal|Self-published work|Notre-Dame de Montréal Presbytery|Horse-drawn taxis in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calèche du Vieux-Montréal<br>\n<p>Presbytère de la paroisse Notre-Dame de Montréal (autres appellations : Presbytère de Notre-Dame, Séminaire de Saint-Sulpice de Montréal, Vieux séminaire de Saint-Sulpice), 116, rue Notre-Dame Ouest, Montréal\n</p>\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.vieux.montreal.qc.ca/inventaire/fiches/fiche_bat.php?sec=p&amp;num=4\">vieux.montreal.qc.ca</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jeangagnon\" title=\"User:Jeangagnon\">Jeangagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/neighborhood-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Caleche_Vieux-Montreal_04.jpg/3840px-Caleche_Vieux-Montreal_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "61fa4db748a79bb82c9d099eb2f26254f4ae65ad389b097f5a72027393342e8e"
+  },
+  {
+    "key": "montreal/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Vieux-Montréal",
+    "path": "/images/destinations/montreal/curated-neighborhood-detail-0.jpg",
+    "pool": "neighborhoods-neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Caleche Vieux-Montreal 08.jpg",
+    "imageinfo": {
+      "size": 4339785,
+      "width": 5152,
+      "height": 3864,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Caleche_Vieux-Montreal_08.jpg/3840px-Caleche_Vieux-Montreal_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Caleche_Vieux-Montreal_08.jpg/3840px-Caleche_Vieux-Montreal_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Caleche_Vieux-Montreal_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caleche_Vieux-Montreal_08.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48996012",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-24 21:28:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Caleche Vieux-Montreal 08",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old Montreal|Self-published work|White carriages|Notre-Dame de Montréal Presbytery|Horse-drawn taxis in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calèche du Vieux-Montréal<br>\n<p>Presbytère de la paroisse Notre-Dame de Montréal (autres appellations : Presbytère de Notre-Dame, Séminaire de Saint-Sulpice de Montréal, Vieux séminaire de Saint-Sulpice), 116, rue Notre-Dame Ouest, Montréal\n</p>\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.vieux.montreal.qc.ca/inventaire/fiches/fiche_bat.php?sec=p&amp;num=4\">vieux.montreal.qc.ca</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jeangagnon\" title=\"User:Jeangagnon\">Jeangagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/neighborhood-detail-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Caleche_Vieux-Montreal_08.jpg/3840px-Caleche_Vieux-Montreal_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "3f393167a73308695f0c48a8110874971a4c798ab75e9dbc2afcac722dcf6f55"
+  },
+  {
+    "key": "montreal/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "Plateau",
+    "path": "/images/destinations/montreal/curated-neighborhood-detail-1.jpg",
+    "pool": "neighborhoods-neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Bibliothèque du Plateau-Mont-Royal, April 5, 2022.jpg",
+    "imageinfo": {
+      "size": 20804475,
+      "width": 5430,
+      "height": 4072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Biblioth%C3%A8que_du_Plateau-Mont-Royal%2C_April_5%2C_2022.jpg/3840px-Biblioth%C3%A8que_du_Plateau-Mont-Royal%2C_April_5%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Biblioth%C3%A8que_du_Plateau-Mont-Royal%2C_April_5%2C_2022.jpg/3840px-Biblioth%C3%A8que_du_Plateau-Mont-Royal%2C_April_5%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Biblioth%C3%A8que_du_Plateau-Mont-Royal%2C_April_5%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_du_Plateau-Mont-Royal,_April_5,_2022.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=165067240",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-05-11 17:21:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bibliothèque du Plateau-Mont-Royal, April 5, 2022",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Canon EOS R5|CC-Zero|Taken with Sigma 14-24mm F2.8 DG HSM|Self-published work|Photographs by D. Benjamin Miller|Canada photographs taken on 2022-04-05|April 2022 in Montreal|Pensionnat Saint-Basile",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bibliothèque du Plateau-Mont-Royal",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 5 April 2022, 18:40:35",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi>D. Benjamin Miller</bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/neighborhood-detail-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Biblioth%C3%A8que_du_Plateau-Mont-Royal%2C_April_5%2C_2022.jpg/3840px-Biblioth%C3%A8que_du_Plateau-Mont-Royal%2C_April_5%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fb40cd85e51364dc700053bec4138b4531050e2cdbd844c9869fd4937739cc24"
+  },
+  {
+    "key": "montreal/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Mile End",
+    "path": "/images/destinations/montreal/curated-neighborhood-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:20181013 - 16 - Montreal (Mile End).jpg",
+    "imageinfo": {
+      "size": 359497,
+      "width": 1299,
+      "height": 1760,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/20181013_-_16_-_Montreal_%28Mile_End%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3252,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/20181013_-_16_-_Montreal_%28Mile_End%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3252
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/20181013_-_16_-_Montreal_%28Mile_End%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:20181013_-_16_-_Montreal_(Mile_End).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80449268",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-07-16 14:23:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "20181013 - 16 - Montreal (Mile End)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Mile End, Montreal|Self-published work|Cafés in Montreal|Montreal, 11-14 October 2018|October 2018 in Montreal|Public art in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Looking south at the corner of avenue Laurier and rue Rivard in the Mile End.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-10-13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Andre_Carrotflower\" title=\"User:Andre Carrotflower\">Andre Carrotflower</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/neighborhood-3.jpg",
+    "dimensions": [
+      1299,
+      1760
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/20181013_-_16_-_Montreal_%28Mile_End%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "b40e09ca957eafb8dabcbc888ee26a1d2875d3092d46ab130a8a230014eb61e1"
+  },
+  {
+    "key": "montreal/region-0",
+    "slot": "region-0",
+    "topic": "Vieux",
+    "path": "/images/destinations/montreal/curated-region-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Caleche Vieux-Montreal 03a.jpg",
+    "imageinfo": {
+      "size": 1031254,
+      "width": 2272,
+      "height": 1704,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Caleche_Vieux-Montreal_03a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Caleche_Vieux-Montreal_03a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Caleche_Vieux-Montreal_03a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caleche_Vieux-Montreal_03a.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49550507",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-06-18 16:41:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Caleche Vieux-Montreal 03a",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old Montreal|Mussen Building|Self-published work|2016 in road transport in Canada|Files with coordinates missing SDC location of creation|May 2016 in Montreal|Horse-drawn taxis in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.506234",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.555685",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calèche du Vieux-Montréal<br>\n<p>Immeuble Mussen (autre appellation : Leeming Miles Building), 1, rue Notre-Dame Ouest / 500-510, boulevard Saint-Laurent (façade latérale), Montréal\n</p>\n<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.vieux.montreal.qc.ca/inventaire/fiches/fiche_bat.php?sec=r&amp;num=15\">vieux.montreal.qc.ca</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jeangagnon\" title=\"User:Jeangagnon\">Jeangagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/region-0.jpg",
+    "dimensions": [
+      2272,
+      1704
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Caleche_Vieux-Montreal_03a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "a5aa77aa458282ca18d25475cbe19ebbbdbc8d37542ca9b6fc13005fc9917c7c"
+  },
+  {
+    "key": "montreal/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Vieux",
+    "path": "/images/destinations/montreal/curated-hotel-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Caleche Vieux-Montreal 06.jpg",
+    "imageinfo": {
+      "size": 4646359,
+      "width": 5152,
+      "height": 3864,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Caleche_Vieux-Montreal_06.jpg/3840px-Caleche_Vieux-Montreal_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Caleche_Vieux-Montreal_06.jpg/3840px-Caleche_Vieux-Montreal_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Caleche_Vieux-Montreal_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caleche_Vieux-Montreal_06.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48995991",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-24 21:25:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Caleche Vieux-Montreal 06",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old Montreal|Saint-Sulpice Seminary, Montreal|Self-published work|Files with coordinates missing SDC location of creation|Horse-drawn taxis in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.504175",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.557205",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calèche du Vieux-Montréal<br>\nLe Vieux Séminaire de Saint-Sulpice, au 116, Notre-Dame Ouest, à Montréal. Construit en 1684 sur des plans de François Dollier de Casson.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jeangagnon\" title=\"User:Jeangagnon\">Jeangagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/hotel-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Caleche_Vieux-Montreal_06.jpg/3840px-Caleche_Vieux-Montreal_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "65a632f256454ebd1f0c849649100753f15e810aab7991d5f65fa43915c687e7"
+  },
+  {
+    "key": "montreal/region-2",
+    "slot": "region-2",
+    "topic": "Mont Royal",
+    "path": "/images/destinations/montreal/curated-region-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Foggy morning over Mount Royal, Montreal.jpg",
+    "imageinfo": {
+      "size": 1986914,
+      "width": 3648,
+      "height": 2736,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Foggy_morning_over_Mount_Royal%2C_Montreal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Foggy_morning_over_Mount_Royal%2C_Montreal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Foggy_morning_over_Mount_Royal%2C_Montreal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Foggy_morning_over_Mount_Royal,_Montreal.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29935938",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-11-30 14:37:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Foggy morning over Mount Royal, Montreal",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Mount Royal (mountain)|Taken with Canon PowerShot A495|CC-Zero|Plateau Mont-Royal|Self-published work|November 2013 in Quebec|Fog in Montreal|Ice fog in Canada",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Ice fog (according to the Weather Network), seen over Mount Royal, Saturday morning",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-11-30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Shawn_in_Montreal\" class=\"mw-redirect\" title=\"User:Shawn in Montreal\">Shawn in Montreal</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/region-2.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Foggy_morning_over_Mount_Royal%2C_Montreal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "6f5b713041de6c5509bdbea734ca49e8cbfbf8cd65f0a3b57129402e42a857b8"
+  },
+  {
+    "key": "montreal/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Mont Royal",
+    "path": "/images/destinations/montreal/curated-hotel-list-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:1930s, Montreal from Mount Royal 01.jpg",
+    "imageinfo": {
+      "size": 32985685,
+      "width": 8042,
+      "height": 5668,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/1930s%2C_Montreal_from_Mount_Royal_01.jpg/3840px-1930s%2C_Montreal_from_Mount_Royal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1692,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/1930s%2C_Montreal_from_Mount_Royal_01.jpg/3840px-1930s%2C_Montreal_from_Mount_Royal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1692
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/1930s%2C_Montreal_from_Mount_Royal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:1930s,_Montreal_from_Mount_Royal_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=180320548",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-12-19 20:17:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "1930s, Montreal from Mount Royal 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Views from Mount Royal (mountain)|Author died more than 70 years ago public domain images|20th century by decade|Template Unknown (author)|CC-PD-Mark|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.503920",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.587480",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of Montreal from Mount Royal,  Montreal, Quebec, Canada.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "<div class=\"catlinks\" dir=\"ltr\" style=\"clear:none;display:table;margin:2px auto;padding:2px\"><div style=\"display:table:cell;font-size:88%;line-height:normal\"><span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1890s\" title=\"Category:1890s\">◀</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1900s\" title=\"Category:1900s\">1900s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1910s\" title=\"Category:1910s\">1910s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1920s\" title=\"Category:1920s\">1920s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1930s\" title=\"Category:1930s\">1930s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1940s\" title=\"Category:1940s\">1940s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1950s\" title=\"Category:1950s\">1950s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1960s\" title=\"Category:1960s\">1960s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1970s\" title=\"Category:1970s\">1970s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1980s\" title=\"Category:1980s\">1980s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:1990s\" title=\"Category:1990s\">1990s</a> <b>·</b></span> <span style=\"white-space:nowrap\"><a href=\"//commons.wikimedia.org/wiki/Category:2000s\" title=\"Category:2000s\">▶</a></span>  <em>(<a href=\"//commons.wikimedia.org/wiki/Category:20th_century\" title=\"Category:20th century\">20th century</a>)</em></div></div>",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Achat au marché aux Puces Saint-Michel, Montréal, Canada.",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/hotel-list-2.jpg",
+    "dimensions": [
+      2400,
+      1691
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/1930s%2C_Montreal_from_Mount_Royal_01.jpg/3840px-1930s%2C_Montreal_from_Mount_Royal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "7fcd841d1af144b99693e76a09133bbb08321abed331f28322189e0eb97d1e7a"
+  },
+  {
+    "key": "montreal/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Downtown",
+    "path": "/images/destinations/montreal/curated-region-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Downtown Montreal (8392011668).jpg",
+    "imageinfo": {
+      "size": 3684077,
+      "width": 4608,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Downtown_Montreal_%288392011668%29.jpg/3840px-Downtown_Montreal_%288392011668%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Downtown_Montreal_%288392011668%29.jpg/3840px-Downtown_Montreal_%288392011668%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Downtown_Montreal_%288392011668%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Downtown_Montreal_(8392011668).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69502666",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-05-28 09:24:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Downtown Montreal (8392011668)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Downtown Montreal|Champ-de-Mars (Montreal)|Flickr images reviewed by FlickreviewR 2|Photographs by shankar s.",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Directly behind the Vauquelin monument on Vauquelin Square in Vieux Montreal is a long balustrade, behind which the ground slopes steeply downward. The balustrade really gives an impression of overlooking an urban city scene from a balcony. Well, here is a 'balcony view' of the modern part of Montreal. Meaning, behind us is Old or Vieux Montreal with all those historic buildings, and ahead is modern downtown Montreal. (Montreal, Canada, Dec. 2012)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-12-01 00:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/shankaronline/8392011668/\">Downtown Montreal</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/77742560@N06\">shankar s.</a> from Dubai, united arab emirates",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Downtown_Montreal_%288392011668%29.jpg/3840px-Downtown_Montreal_%288392011668%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "db42b1fb49ad7afe3b1f48cc7d45fad618b0bdc01a5af35e5bf51e386deb1e0f"
+  },
+  {
+    "key": "montreal/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Montreal",
+    "path": "/images/destinations/montreal/curated-day-0.jpg",
+    "pool": "support-arrival",
+    "status": "pending-visual-review",
+    "title": "File:Aéroport Montréal-Trudeau 2010.jpg",
+    "imageinfo": {
+      "size": 601554,
+      "width": 2395,
+      "height": 1591,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/91/A%C3%A9roport_Montr%C3%A9al-Trudeau_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1594,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/A%C3%A9roport_Montr%C3%A9al-Trudeau_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1594
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/A%C3%A9roport_Montr%C3%A9al-Trudeau_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:A%C3%A9roport_Montr%C3%A9al-Trudeau_2010.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12861729",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2011-01-30 21:34:09",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Aéroport Montréal-Trudeau 2010",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D90|Flickr images reviewed by File Upload Bot (Magnus Manske)|Photographs by abdallahh|August 2010 in Montreal|Airport tower at Montréal-Pierre Elliott Trudeau International Airport|Montréal-Pierre Elliott Trudeau International Airport Terminal|Montréal-Pierre Elliott Trudeau International Airport at night",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Montreal-Trudeau International Airport, Montreal, Quebec, Canada",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2010-08-12 20:37",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/husseinabdallah/5399811060/\">Aéroport International de Montréal (P-E Trudeau)</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Skeezix1000\" title=\"User:Skeezix1000\">Skeezix1000</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/22168167@N00\">abdallahh</a> from Montréal, Canada",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/day-0.jpg",
+    "dimensions": [
+      2395,
+      1591
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/A%C3%A9roport_Montr%C3%A9al-Trudeau_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "379c1a2d964a2e836d41550d94d2bf8cf380ca20d1a6e5d664b5ef3b1c7c147c"
+  },
+  {
+    "key": "montreal/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "path": "/images/destinations/montreal/curated-essential-transporte.jpg",
+    "pool": "support-transport",
+    "status": "pending-visual-review",
+    "title": "File:Cremazie Metro Station.jpg",
+    "imageinfo": {
+      "size": 5588530,
+      "width": 5712,
+      "height": 4284,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Cremazie_Metro_Station.jpg/3840px-Cremazie_Metro_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Cremazie_Metro_Station.jpg/3840px-Cremazie_Metro_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cremazie_Metro_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cremazie_Metro_Station.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=180447256",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-12-21 14:46:37",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cremazie Metro Station",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Crémazie (Montreal Metro)|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.546039",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.638747",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Metro cremazie train platform",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-12-21 09:44:30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:IFish12&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:IFish12 (page does not exist)\">IFish12</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/essential-transporte.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Cremazie_Metro_Station.jpg/3840px-Cremazie_Metro_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "469bed8a5b3ba3d7b259389f92e91840996851f2faf614cf232540dd6b0eac22"
+  },
+  {
+    "key": "montreal/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Montreal",
+    "path": "/images/destinations/montreal/curated-costs.jpg",
+    "pool": "support-food",
+    "status": "pending-visual-review",
+    "title": "File:Montreal Poutine, Vieux-Montréal, Montreal, Quebec (29441102733).jpg",
+    "imageinfo": {
+      "size": 20936122,
+      "width": 3456,
+      "height": 5184,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Montreal_Poutine%2C_Vieux-Montr%C3%A9al%2C_Montreal%2C_Quebec_%2829441102733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Montreal_Poutine%2C_Vieux-Montr%C3%A9al%2C_Montreal%2C_Quebec_%2829441102733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Montreal_Poutine%2C_Vieux-Montr%C3%A9al%2C_Montreal%2C_Quebec_%2829441102733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Montreal_Poutine,_Vieux-Montr%C3%A9al,_Montreal,_Quebec_(29441102733).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=146611383",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-03-20 22:20:44",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Montreal Poutine, Vieux-Montréal, Montreal, Quebec (29441102733)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Files with coordinates missing SDC location of creation|Photographs by Ken Lund|Flickr images reviewed by FlickreviewR 2|Resto bar Montréal Poutine",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.507497",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.553005",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>Old Montreal (French: Vieux-Montréal) is the oldest area in the city of Montreal, Quebec, Canada, with a few remains dating back to New France. Located in the borough of Ville-Marie, the area is bordered on the west by McGill St., on the north by Ruelle des Fortifications, on the east by rue Saint-André and on the south by the Saint Lawrence River. Following recent amendments, the district has been expanded slightly to include the rue des Soeurs Grises in the west, Saint Antoine St. in the north and Saint Hubert Street in the east. It also includes the Old Port of Montreal. Most of Old Montreal was declared a historic district in 1964 by the Ministère des Affaires culturelles du Québec.\n</p><p>Old Montreal is a major tourist attraction; with some of its buildings dating to the 17th century, it is one of the oldest urban areas in North America. In the eastern part of the old city (near Place Jacques-Cartier) are found Montreal City Hall, Bonsecours Market and Notre-Dame-de-Bon-Secours Chapel, as well as preserved colonial mansions such as the Château Ramezay and the Sir George-Étienne Cartier National Historic Site of Canada. Further west, Place d'Armes is dominated by Notre-Dame Basilica on its southern side, accompanied by the Saint-Sulpice Seminary (the oldest extant building in Montreal). The other sides of the square are devoted to commerce; to the north is the former Bank of Montreal Head Office and to the west, the Aldred Building and the 1888 New York Life Building, the oldest skyscraper in Canada. The rest of Saint Jacques Street is lined with old bank buildings (like the Old Royal Bank Building) from its heyday as Canada's financial centre. The southwest of the old city contains important archeological remains of Montreal's first settlement (around Place d'Youville and Place Royale) in the Pointe-à-Callière museum. Architecture and cobbled streets in Old Montreal have been maintained or restored to keep the look of the city in its earliest days as a settlement, and horse-drawn calèches help maintain that image. The old town's riverbank is taken up by the Old Port (Vieux-Port), whose maritime facilities are surrounded with recreational space and a variety of museums and attractions. The Iberville terminal on the Alexandra Pier serves as the cruise terminal for about 50,000 passengers annually from large cruise ships plying the St Lawrence Seaway.\n</p><p>&lt;a href=\"<a class=\"external free\" href=\"https://en.wikipedia.org/wiki/Old_Montreal\">https://en.wikipedia.org/wiki/Old_Montreal</a>\" rel=\"noreferrer nofollow\"&gt;en.wikipedia.org/wiki/Old_Montreal&lt;/a&gt;\n</p>\n&lt;a href=\"<a class=\"external free\" href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_Lichttps://www.flickr.com/photos/kenlund/29440677853/in/datetaken/ense\">https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_Lichttps://www.flickr.com/photos/kenlund/29440677853/in/datetaken/ense</a>\" rel=\"noreferrer nofollow\"&gt;en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_...&lt;/a&gt;",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-09-30 07:52",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/kenlund/29441102733/\">Montreal Poutine, Vieux-Montréal, Montreal, Quebec</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/75683070@N00\">Ken Lund</a> from Reno, Nevada, USA",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/costs.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Montreal_Poutine%2C_Vieux-Montr%C3%A9al%2C_Montreal%2C_Quebec_%2829441102733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "943616f689b9802ec360e52590b6ec01e7d8eb5e7bec989beb5402099db9a174"
+  },
+  {
+    "key": "montreal/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/montreal/curated-tips.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:Caleche Vieux-Montreal 05.jpg",
+    "imageinfo": {
+      "size": 4635456,
+      "width": 5152,
+      "height": 3864,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Caleche_Vieux-Montreal_05.jpg/3840px-Caleche_Vieux-Montreal_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Caleche_Vieux-Montreal_05.jpg/3840px-Caleche_Vieux-Montreal_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Caleche_Vieux-Montreal_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caleche_Vieux-Montreal_05.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48995971",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-24 21:23:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Caleche Vieux-Montreal 05",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old Montreal|Saint-Sulpice Seminary, Montreal|Self-published work|Pink carriages|Files with coordinates missing SDC location of creation|Horse-drawn taxis in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.504175",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.557205",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calèche du Vieux-Montréal<br>\nLe Vieux Séminaire de Saint-Sulpice, au 116, Notre-Dame Ouest, à Montréal. Construit en 1684 sur des plans de François Dollier de Casson.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jeangagnon\" title=\"User:Jeangagnon\">Jeangagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/tips.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Caleche_Vieux-Montreal_05.jpg/3840px-Caleche_Vieux-Montreal_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "1d4babf98fbf27fcb8d13c710dd0411330b00d82fb1f39206e4a28de5777c70e"
+  },
+  {
+    "key": "montreal/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "path": "/images/destinations/montreal/curated-day-2.jpg",
+    "pool": "support-quarter",
+    "status": "pending-visual-review",
+    "title": "File:Caleche Vieux-Montreal 11.jpg",
+    "imageinfo": {
+      "size": 4202953,
+      "width": 5152,
+      "height": 3864,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Caleche_Vieux-Montreal_11.jpg/3840px-Caleche_Vieux-Montreal_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Caleche_Vieux-Montreal_11.jpg/3840px-Caleche_Vieux-Montreal_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Caleche_Vieux-Montreal_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Caleche_Vieux-Montreal_11.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48996108",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-05-24 21:41:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Caleche Vieux-Montreal 11",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Old Montreal|Saint-Sulpice Seminary, Montreal|The English Pug and the French Poodle|Self-published work|Files with coordinates missing SDC location of creation|Horse-drawn taxis in Montreal",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.504175",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.557205",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Calèche du Vieux-Montréal<br>\nLe Vieux Séminaire de Saint-Sulpice, au 116, Notre-Dame Ouest, à Montréal. Construit en 1684 sur des plans de François Dollier de Casson.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jeangagnon\" title=\"User:Jeangagnon\">Jeangagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/day-2.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Caleche_Vieux-Montreal_11.jpg/3840px-Caleche_Vieux-Montreal_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "bd2e9342e15fb12b230e3fd6087ddc7329d2c385a92d8bcc46eceea28adeefa6"
+  },
+  {
+    "key": "montreal/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/montreal/curated-essential-idioma.jpg",
+    "pool": "support-language",
+    "status": "pending-visual-review",
+    "title": "File:10 Dec 2014 Metro Montreal sign snow.jpg",
+    "imageinfo": {
+      "size": 3833216,
+      "width": 3264,
+      "height": 2448,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/22/10_Dec_2014_Metro_Montreal_sign_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/10_Dec_2014_Metro_Montreal_sign_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/10_Dec_2014_Metro_Montreal_sign_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:10_Dec_2014_Metro_Montreal_sign_snow.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=39344371",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-04-02 00:31:28",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "10 Dec 2014 Metro Montreal sign snow",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Square-Victoria–OACI (Montreal Metro)|Montreal Metro stations|Flickr images reviewed by FlickreviewR|People with snow|Snow in Montreal|Files with coordinates missing SDC location of creation|Snow storms in Quebec|Signs of Montreal metro",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.501293",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-73.560515",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Square-Victoria–OACI Metro station sign during a snow storm in Montreal, 10 December 2014.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-12-10 22:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/fredisonfire/15996115815/\">IMG_20141210_180118</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/29442760@N00\">Mohammed Jaffar</a> from Montreal, Canada",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/essential-idioma.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/10_Dec_2014_Metro_Montreal_sign_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "84904e858ecca0e2592612d66aa39ed5a3202648225735b471249111326618af"
+  },
+  {
+    "key": "montreal/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "support-currency"
+  },
+  {
+    "key": "montreal/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  },
+  {
+    "key": "montreal/trip-2",
+    "slot": "trip-2",
+    "topic": "Destino costeiro ou histórico próximo",
+    "path": "/images/destinations/montreal/curated-trip-2.jpg",
+    "pool": "support-trip-2",
+    "status": "pending-visual-review",
+    "title": "File:Chambly (Québec)-Canal de Chambly-Vue de la maison du gardien, de la marina et du bassin de Chambly-2022-08-29.jpg",
+    "imageinfo": {
+      "size": 7568580,
+      "width": 11303,
+      "height": 3853,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chambly_%28Qu%C3%A9bec%29-Canal_de_Chambly-Vue_de_la_maison_du_gardien%2C_de_la_marina_et_du_bassin_de_Chambly-2022-08-29.jpg/3840px-Chambly_%28Qu%C3%A9bec%29-Canal_de_Chambly-Vue_de_la_maison_du_gardien%2C_de_la_marina_et_du_bassin_de_Chambly-2022-08-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 818,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chambly_%28Qu%C3%A9bec%29-Canal_de_Chambly-Vue_de_la_maison_du_gardien%2C_de_la_marina_et_du_bassin_de_Chambly-2022-08-29.jpg/3840px-Chambly_%28Qu%C3%A9bec%29-Canal_de_Chambly-Vue_de_la_maison_du_gardien%2C_de_la_marina_et_du_bassin_de_Chambly-2022-08-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 818
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Chambly_%28Qu%C3%A9bec%29-Canal_de_Chambly-Vue_de_la_maison_du_gardien%2C_de_la_marina_et_du_bassin_de_Chambly-2022-08-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Chambly_(Qu%C3%A9bec)-Canal_de_Chambly-Vue_de_la_maison_du_gardien,_de_la_marina_et_du_bassin_de_Chambly-2022-08-29.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=122477256",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-08-30 16:54:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Chambly (Québec)-Canal de Chambly-Vue de la maison du gardien, de la marina et du bassin de Chambly-2022-08-29",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Chambly Canal|Chambly, Quebec|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Panoramic view of the Chambly canal lock keepers's cabin, the marina, the Chambly basin and Mont Saint-Hilaire in the background, in August 2022",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-08-29 13:10:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Veillg1\" title=\"User:Veillg1\">Veillg1</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/montreal/trip-2.jpg",
+    "dimensions": [
+      2400,
+      818
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chambly_%28Qu%C3%A9bec%29-Canal_de_Chambly-Vue_de_la_maison_du_gardien%2C_de_la_marina_et_du_bassin_de_Chambly-2022-08-29.jpg/3840px-Chambly_%28Qu%C3%A9bec%29-Canal_de_Chambly-Vue_de_la_maison_du_gardien%2C_de_la_marina_et_du_bassin_de_Chambly-2022-08-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "8731ddf1ae78c0f8232fc2935cab3235e152cd19c8ac9eaf1a869f8e1ee96a3e"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "city": "havai",
+  "region": "americas",
+  "center": [
+    20.8,
+    -156.5,
+    1000
+  ],
+  "pools": {
+    "food": {
+      "query": "\"Wardsplatelunch\"",
+      "required": [
+        "poke",
+        "ward"
+      ],
+      "preferredTitles": [
+        "File:Wardsplatelunch.jpg"
+      ],
+      "limit": 20,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "slots": [
+        "costs"
+      ]
+    },
+    "north-shore": {
+      "query": "\"Banzai Pipeline\" \"Oahu\"",
+      "required": [
+        "pipeline",
+        "oahu|north shore"
+      ],
+      "requiredTitle": "pipeline",
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "reject": "portrait|engraving|painting|postcard|surfer at|competitor|winner",
+      "slots": [
+        "attraction-5"
+      ]
+    },
+    "big-island": {
+      "query": "\"Punaluu\" \"beach\"",
+      "required": [
+        "punaluu|punalu.u"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "reject": "portrait|painting|postcard|turtle close|detail",
+      "slots": [
+        "hotel-list-3"
+      ]
+    }
+  }
+}

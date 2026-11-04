@@ -1,0 +1,27 @@
+{
+  "city": "quito",
+  "region": "americas",
+  "center": [
+    0,
+    0,
+    20040
+  ],
+  "pools": {
+    "food": {
+      "query": "\"Llapingachos\" \"Ecuador\"",
+      "required": [
+        "llapingacho",
+        "ecuador|ambato"
+      ],
+      "slots": [
+        "costs"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "roosevelt|new york|united states|argentina|brazil|brasil|logo|painting|drawing|map",
+      "requiredTitle": "llapingacho"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "quito/region-0": {
+    "decision": "rejected",
+    "notes": "Enquadramento proximo da vista do mesmo bairro ja selecionada; rejeitado preventivamente por repeticao visual."
+  },
+  "quito/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Histórico, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "quito/hotel-0": {
+    "decision": "rejected",
+    "notes": "Vista e enquadramento proximos do mesmo centro historico ja selecionado."
+  },
+  "quito/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Outro recorte da mesma vista do centro historico, composicao repetitiva."
+  },
+  "quito/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Mariscal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "quito/region-list-1": {
+    "decision": "rejected",
+    "notes": "Mapa de bairros, proibido como fotografia de regiao."
+  },
+  "quito/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Mariscal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "quito/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Mariscal, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "quito/region-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Teleférico, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "quito/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Teleférico, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "quito/hotel-2": {
+    "decision": "rejected",
+    "notes": "Capela isolada, contexto insuficiente para hospedagem ilustrativa."
+  },
+  "quito/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Teleférico, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "quito/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Mitad del Mundo, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "quito/region-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Mitad del Mundo, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "quito/hotel-3": {
+    "decision": "rejected",
+    "notes": "Vista frontal do monumento com composicao proxima do registro ja aprovado."
+  },
+  "quito/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Outro enquadramento frontal proximo do mesmo monumento, rejeitado por repeticao visual."
+  }
+}

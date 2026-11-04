@@ -1,0 +1,271 @@
+{
+  "city": "quito",
+  "region": "americas",
+  "center": [
+    -0.1807,
+    -78.4678,
+    40
+  ],
+  "pools": {
+    "highlight-intro": {
+      "query": "\"Quito\" \"Panecillo\"",
+      "required": [
+        "quito"
+      ],
+      "locationPatterns": [
+        "quito|ecuador"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "intro"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-guide-card": {
+      "query": "\"Quito\" \"Basilica del Voto Nacional\"",
+      "required": [
+        "quito"
+      ],
+      "locationPatterns": [
+        "quito|ecuador"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "guide-card"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-guide-highlight": {
+      "query": "\"Quito\" \"panorama\"",
+      "required": [
+        "quito"
+      ],
+      "locationPatterns": [
+        "quito|ecuador"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "guide-highlight"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "attractions-attraction-3": {
+      "query": "La Ronda Quito",
+      "required": [
+        "ronda"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "attractions-attraction-5": {
+      "query": "Parque La Carolina Quito",
+      "required": [
+        "carolina"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-5"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Centro Historico Quito",
+      "required": [
+        "centro historico|historic center|historic centre"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "La Floresta Quito",
+      "required": [
+        "floresta"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-2"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Cumbaya Quito",
+      "required": [
+        "cumbaya"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "regions-hotels-region-0": {
+      "query": "Quito historic center",
+      "required": [
+        "centro historico|historic center|historic centre"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-0",
+        "hotel-list-0"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "regions-hotels-region-1": {
+      "query": "La Mariscal Quito",
+      "required": [
+        "mariscal"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-1"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "regions-hotels-region-3": {
+      "query": "Mitad del Mundo",
+      "required": [
+        "mitad del mundo"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-3"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-food": {
+      "query": "Locro Quito Ecuador",
+      "required": [
+        "locro"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-icon": {
+      "query": "Quito historic centre",
+      "required": [
+        "quito"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1"
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-quarter": {
+      "query": "Centro Historico Quito",
+      "required": [
+        "centro historico|historic center|historic centre"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-documents": {
+      "query": "Ecuadorian passport cover",
+      "required": [
+        "ecuadorian passport|pasaporte ecuatoriano"
+      ],
+      "locationPatterns": [
+        "ecuador"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    }
+  }
+}

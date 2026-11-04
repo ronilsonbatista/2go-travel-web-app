@@ -1,0 +1,70 @@
+{
+  "bogota/home": {
+    "decision": "accepted",
+    "notes": "Capitolio Nacional e Plaza de Bolívar em Bogotá com praça e visitantes; marco real em foto horizontal diurna."
+  },
+  "bogota/guide-card": {
+    "decision": "accepted",
+    "notes": "Panorama de Bogotá com skyline, área verde e montanhas ao fundo; fotografia real horizontal e horizonte correto."
+  },
+  "bogota/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Fachada com mural colorido em Bogotá e contexto de rua; arte urbana real da cidade em foto horizontal, sem inversão."
+  },
+  "bogota/home-slide": {
+    "decision": "accepted",
+    "notes": "Fachada da Catedral Primada de Bogotá com torres e praça; marco real reconhecível em fotografia diurna."
+  },
+  "bogota/home-thumb": {
+    "decision": "rejected",
+    "notes": "Apenas nuvens e pôr do sol; não identifica Bogotá como destino."
+  },
+  "bogota/map-attraction-3": {
+    "decision": "rejected",
+    "notes": "Via NQS/Carrera 15 com trânsito; não representa o núcleo turístico da atração Usaquén."
+  },
+  "bogota/map-list-5": {
+    "decision": "rejected",
+    "notes": "Mão e smartphone dominam a foto; jardim botânico pouco legível."
+  },
+  "bogota/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Fachada colonial na Carrera 1 com Calle 10 em La Candelaria em 2019; contexto real do bairro histórico."
+  },
+  "bogota/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Edifício Beaux-Arts de Chapinero na Avenida Caracas com Calle 59A; arquitetura local real do bairro."
+  },
+  "bogota/region-0": {
+    "decision": "accepted",
+    "notes": "Casa histórica da Calle 10 em La Candelaria com varanda e fachada amarela; contexto real da região Histórica."
+  },
+  "bogota/hotel-0": {
+    "decision": "accepted",
+    "notes": "Interior amplo de igreja histórica em Bogotá com nave e altar; patrimônio real da região para contexto de hospedagem ilustrativa."
+  },
+  "bogota/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Ônibus em primeiro plano sem contexto de hospedagem no Norte."
+  },
+  "bogota/region-list-2": {
+    "decision": "rejected",
+    "notes": "Mapa de Chapinero, não foto editorial da região."
+  },
+  "bogota/hotel-2": {
+    "decision": "accepted",
+    "notes": "Edifício Bancafé em Chapinero, confirmado pela categoria de localização da fonte; contexto urbano real para hospedagem ilustrativa."
+  },
+  "bogota/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Igreja da Carrera 11 com Calle 74 em Chapinero; marco real do bairro para contexto de hospedagem ilustrativa."
+  },
+  "bogota/day-1": {
+    "decision": "accepted",
+    "notes": "Vista dos Cerros Monserrate e Guadalupe desde Bogotá, com cidade ao pé das montanhas; ícones reais do roteiro."
+  },
+  "bogota/tips": {
+    "decision": "accepted",
+    "notes": "Passeio e acesso turístico de Monserrate decorados com fitas; contexto real de visita ao marco cultural do destino."
+  }
+}

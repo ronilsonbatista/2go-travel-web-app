@@ -1,0 +1,101 @@
+{
+  "city": "cidade-do-mexico",
+  "region": "americas",
+  "center": [
+    19.4326,
+    -99.1332,
+    65
+  ],
+  "pools": {
+    "home": {
+      "query": "\"Palacio de Bellas Artes\" \"Mexico\"",
+      "required": [
+        "bellas artes"
+      ],
+      "requiredTitle": "bellas artes",
+      "locationPatterns": [
+        "mexico"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home"
+      ]
+    },
+    "guide-card": {
+      "query": "\"Zocalo\" \"Mexico\"",
+      "required": [
+        "zocalo"
+      ],
+      "requiredTitle": "zocalo",
+      "locationPatterns": [
+        "mexico"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "guide-card"
+      ]
+    },
+    "guide-highlight": {
+      "query": "\"Angel de la Independencia\"",
+      "required": [
+        "angel.*independencia"
+      ],
+      "requiredTitle": "angel.*independencia",
+      "locationPatterns": [
+        "mexico"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "guide-highlight"
+      ]
+    },
+    "home-slide": {
+      "query": "\"Xochimilco\" \"trajineras\"",
+      "required": [
+        "xochimilco|trajinera"
+      ],
+      "requiredTitle": "xochimilco|trajinera",
+      "locationPatterns": [
+        "mexico"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home-slide"
+      ]
+    },
+    "home-thumb": {
+      "query": "\"Chapultepec Castle\"",
+      "required": [
+        "chapultepec"
+      ],
+      "requiredTitle": "chapultepec",
+      "locationPatterns": [
+        "mexico"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|satellite|diagram|floor plan|workshop|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home-thumb"
+      ]
+    }
+  }
+}

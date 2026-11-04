@@ -1,0 +1,90 @@
+{
+  "orlando/home": {
+    "decision": "accepted",
+    "notes": "Skyline de Orlando e cisnes sobre Lake Eola em foto de 2023; destaque horizontal real, nítido e orientado corretamente."
+  },
+  "orlando/home-slide": {
+    "decision": "accepted",
+    "notes": "Panorama de Downtown Orlando e Lake Eola com fontes e árvores; imagem real horizontal distinta, com horizonte correto."
+  },
+  "orlando/map-list-3": {
+    "decision": "rejected",
+    "notes": "Vista de complexo do Kennedy Space Center em 1998, anterior às expansões atuais; manter gap por desatualização."
+  },
+  "orlando/map-list-4": {
+    "decision": "rejected",
+    "notes": "Rua de Lake Eola Heights sem o lago; não representa a atração Lake Eola."
+  },
+  "orlando/map-list-5": {
+    "decision": "rejected",
+    "notes": "Fachada isolada de hotel; não caracteriza International Drive como atração turística."
+  },
+  "orlando/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Terminal de ônibus do Walt Disney World Resort em 2022; infraestrutura real que contextualiza a Disney Area."
+  },
+  "orlando/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Placa de entrada de hotel com pouco entorno; contexto insuficiente para International Drive como bairro."
+  },
+  "orlando/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Vista aérea de Downtown Orlando com edifícios e malha urbana; fotografia real da região, sem mapa ou render."
+  },
+  "orlando/region-0": {
+    "decision": "accepted",
+    "notes": "Enchanted Tiki Room e vegetação no Magic Kingdom; atração real da região Disney e orientação correta."
+  },
+  "orlando/hotel-0": {
+    "decision": "rejected",
+    "notes": "Fachada de loja Lululemon; tema comercial isolado não representa contexto de hospedagem Disney."
+  },
+  "orlando/region-list-1": {
+    "decision": "accepted",
+    "notes": "Pharos Lighthouse na área da Universal Orlando em 2023; marco real e reconhecível da região."
+  },
+  "orlando/hotel-1": {
+    "decision": "accepted",
+    "notes": "Universal CityWalk com passeio, lojas e visitantes; contexto real da região Universal para hospedagem ilustrativa."
+  },
+  "orlando/region-2": {
+    "decision": "rejected",
+    "notes": "Buffet de café da manhã no interior de hotel; não representa a região I-Drive."
+  },
+  "orlando/region-list-2": {
+    "decision": "rejected",
+    "notes": "Restaurante interno de hotel sem contexto da região; não representa International Drive."
+  },
+  "orlando/hotel-2": {
+    "decision": "accepted",
+    "notes": "Trecho da International Drive com palmeiras e sinalização da I-4; contexto real para hospedagem ilustrativa na região."
+  },
+  "orlando/day-0": {
+    "decision": "accepted",
+    "notes": "Brightline e terminal intermodal do aeroporto de Orlando; infraestrutura real de chegada e ligação ferroviária."
+  },
+  "orlando/mistakes": {
+    "decision": "rejected",
+    "notes": "Restaurante no aeroporto sem área de chegada ou transporte; assunto não corresponde a erros comuns de chegada."
+  },
+  "orlando/costs": {
+    "decision": "rejected",
+    "notes": "Militares cortando bolo em celebração do Exército; não representa pratos típicos de Orlando."
+  },
+  "orlando/day-4": {
+    "decision": "accepted",
+    "notes": "Casa histórica de Lake Eola Heights fotografada em preto e branco, com arquitetura preservada e sem evidência de captura pré-1990; passeio de folga pelo bairro."
+  },
+  "orlando/tips": {
+    "decision": "rejected",
+    "notes": "Portal da Disney em foto antiga com baixa definição e cores alteradas; insuficiente para seleção HQ."
+  },
+  "orlando/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Placa de igreja em Orlando com horários e textos em inglês; sinalização local legível e fotografia real."
+  },
+  "orlando/trip-1": {
+    "decision": "rejected",
+    "notes": "Ônibus Downtown Disney em foto de desfile; não representa passeio regional em Winter Park."
+  }
+}

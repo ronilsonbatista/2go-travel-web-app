@@ -1,0 +1,32 @@
+{
+  "city": "medellin",
+  "region": "americas",
+  "center": [
+    6.2476,
+    -75.5658,
+    40
+  ],
+  "pools": {
+    "highlights": {
+      "query": "Medellin skyline panorama",
+      "required": [
+        "medellin"
+      ],
+      "locationPatterns": [
+        "medellin|colombia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "intro",
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ]
+    }
+  }
+}

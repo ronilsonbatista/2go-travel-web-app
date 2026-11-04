@@ -1,0 +1,67 @@
+{
+  "city": "medellin",
+  "region": "americas",
+  "center": [
+    6.2476,
+    -75.5658,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "El Poblado Medellin",
+      "required": [
+        "poblado"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Laureles Medellin",
+      "required": [
+        "laureles"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Centro Medellin",
+      "required": [
+        "centro|downtown|la candelaria"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Envigado Colombia",
+      "required": [
+        "envigado"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

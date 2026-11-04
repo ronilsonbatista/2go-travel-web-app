@@ -1,0 +1,67 @@
+{
+  "city": "porto-rico",
+  "region": "americas",
+  "center": [
+    18.4655,
+    -66.1057,
+    50
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Old San Juan Puerto Rico",
+      "required": [
+        "old san juan|viejo san juan"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Condado Puerto Rico",
+      "required": [
+        "condado"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Santurce Puerto Rico",
+      "required": [
+        "santurce"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Isla Verde Puerto Rico",
+      "required": [
+        "isla verde"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

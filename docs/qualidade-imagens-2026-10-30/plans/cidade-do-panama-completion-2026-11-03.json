@@ -1,0 +1,222 @@
+{
+  "city": "cidade-do-panama",
+  "region": "americas",
+  "center": [
+    8.9824,
+    -79.5199,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Panama City skyline",
+      "required": [
+        "panama"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "intro",
+        "home",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-0": {
+      "query": "Miraflores locks Panama Canal",
+      "required": [
+        "miraflores"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "El Cangrejo Panama",
+      "required": [
+        "cangrejo"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-1"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Amador Panama",
+      "required": [
+        "amador"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Casco Viejo Panama",
+      "required": [
+        "casco viejo|casco antiguo"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Miraflores Panama Canal",
+      "required": [
+        "miraflores"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-1"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Amador Causeway Panama",
+      "required": [
+        "causeway|calzada de amador"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "hotel-list-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Panama City financial district",
+      "required": [
+        "financial district|area bancaria|obarrio"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "Tocumen International Airport",
+      "required": [
+        "tocumen"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "mistakes"
+      ]
+    },
+    "support-food": {
+      "query": "Mercado Mariscos Panama ceviche",
+      "required": [
+        "ceviche"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "support-culture": {
+      "query": "Biomuseo Panama",
+      "required": [
+        "biomuseo"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "support-documents": {
+      "query": "Panamanian passport cover",
+      "required": [
+        "panamanian passport|pasaporte panameno"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-trip-2": {
+      "query": "Portobelo Panama",
+      "required": [
+        "portobelo"
+      ],
+      "locationPatterns": [
+        "panama"
+      ],
+      "countryPattern": "panama",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        9.55,
+        -79.66,
+        25
+      ]
+    }
+  }
+}

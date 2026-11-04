@@ -1,0 +1,41 @@
+{
+  "city": "chicago",
+  "region": "americas",
+  "center": [
+    41.8781,
+    -87.6298,
+    40
+  ],
+  "pools": {
+    "cloud": {
+      "query": "\"Cloud Gate\" \"Chicago\"",
+      "required": [
+        "cloud gate"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "map-attraction-0",
+        "tips"
+      ]
+    },
+    "west": {
+      "query": "\"Wicker Park\" \"Chicago\"",
+      "required": [
+        "wicker park"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    }
+  }
+}

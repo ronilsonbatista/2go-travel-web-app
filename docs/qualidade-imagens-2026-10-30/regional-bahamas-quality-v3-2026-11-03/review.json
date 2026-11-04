@@ -1,0 +1,23 @@
+[
+  {
+    "key": "bahamas/home",
+    "slot": "home",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "quality"
+  },
+  {
+    "key": "bahamas/guide-card",
+    "slot": "guide-card",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "quality"
+  },
+  {
+    "key": "bahamas/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Bahamas",
+    "status": "no-candidate",
+    "pool": "quality"
+  }
+]

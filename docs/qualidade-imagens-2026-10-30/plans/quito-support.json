@@ -1,0 +1,233 @@
+{
+  "city": "quito",
+  "region": "americas",
+  "center": [
+    -0.1807,
+    -78.4678,
+    40
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Mariscal Sucre Airport",
+      "required": [
+        "mariscal sucre"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Quito Metro train",
+      "required": [
+        "metro"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Locro Quito Ecuador",
+      "required": [
+        "locro"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Museo Ciudad Quito",
+      "required": [
+        "museo de la ciudad"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Parque La Carolina Quito",
+      "required": [
+        "carolina"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Quito historic centre",
+      "required": [
+        "quito"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Centro Historico Quito",
+      "required": [
+        "centro historico|historic center|historic centre"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Quito Ecuador sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "quito|mitad del mundo"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Ecuadorian passport cover",
+      "required": [
+        "ecuadorian passport|pasaporte ecuatoriano"
+      ],
+      "locationPatterns": [
+        "ecuador"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Otavalo Ecuador",
+      "required": [
+        "otavalo"
+      ],
+      "locationPatterns": [
+        "ecuador"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        0.23,
+        -78.26,
+        25
+      ]
+    },
+    "trip-1": {
+      "query": "Mindo Ecuador",
+      "required": [
+        "mindo"
+      ],
+      "locationPatterns": [
+        "ecuador"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        -0.05,
+        -78.78,
+        25
+      ]
+    },
+    "trip-2": {
+      "query": "Cotopaxi Ecuador",
+      "required": [
+        "cotopaxi"
+      ],
+      "locationPatterns": [
+        "ecuador"
+      ],
+      "countryPattern": "ecuador",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        -0.68,
+        -78.44,
+        30
+      ]
+    }
+  }
+}

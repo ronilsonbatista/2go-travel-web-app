@@ -1,0 +1,30 @@
+{
+  "barcelona/hero": {
+    "decision": "accepted",
+    "notes": "Panorama urbano de Barcelona com skyline e torre Agbar visiveis; fotografia ampla, clara e orientada corretamente."
+  },
+  "barcelona/intro": {
+    "decision": "accepted",
+    "notes": "Panorama real do porto Port Vell, com cidade e embarcacoes; contexto reconhecivel de Barcelona, sem inversao."
+  },
+  "barcelona/home-slide": {
+    "decision": "accepted",
+    "notes": "Paisagem urbana de Barcelona com mar e arvores em primeiro plano; composicao contextual e boa leitura."
+  },
+  "barcelona/home": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe isolado de banco/grade ou guindaste e corda contra o ceu, sem paisagem reconhecivel suficiente para destaque do destino."
+  },
+  "barcelona/guide-highlight": {
+    "decision": "accepted",
+    "notes": "Abside e vitrais da Sagrada Familia em vista arquitetonica para cima; imagem real, orientacao intencional e tema correto."
+  },
+  "barcelona/guide-card": {
+    "decision": "rejected",
+    "notes": "Revisao visual: detalhe isolado de banco/grade ou guindaste e corda contra o ceu, sem paisagem reconhecivel suficiente para destaque do destino."
+  },
+  "barcelona/home-thumb": {
+    "decision": "accepted",
+    "notes": "Praca do Park Guell com panorama de Barcelona ao fundo, elemento caracteristico para acesso ao destino."
+  }
+}

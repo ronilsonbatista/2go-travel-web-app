@@ -1,0 +1,120 @@
+[
+  {
+    "key": "orlando/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Orlando",
+    "status": "no-candidate",
+    "pool": "food"
+  },
+  {
+    "key": "orlando/trip-1",
+    "slot": "trip-1",
+    "topic": "Passeio regional de meio dia",
+    "path": "/images/destinations/orlando/curated-trip-1.jpg",
+    "pool": "winter",
+    "status": "pending-visual-review",
+    "title": "File:Rifle Paper Co.jpg",
+    "imageinfo": {
+      "size": 2993930,
+      "width": 1671,
+      "height": 2500,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rifle_Paper_Co.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3591,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rifle_Paper_Co.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3591
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rifle_Paper_Co.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rifle_Paper_Co.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57741034",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-04-05 18:52:18",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Rifle Paper Co",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Gift shops|Winter Park, Florida|Self-published work|Stationery shops|Paper goods manufactures",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Rifle Paper Co.'s studio and Flagship Store are located in Winter Park, Florida.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-03-30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Riflepaperco&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Riflepaperco (page does not exist)\">Rifle Paper Co.</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/orlando/trip-1.jpg",
+    "dimensions": [
+      1604,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rifle_Paper_Co.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "6506161d28ccb8d5ee7a9cf48653f7d832cbb632032c2355789a9f5a9b557f91"
+  }
+]

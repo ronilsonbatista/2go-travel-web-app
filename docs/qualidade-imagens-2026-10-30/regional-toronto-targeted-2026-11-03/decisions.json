@@ -1,0 +1,30 @@
+{
+  "toronto/home-slide": {
+    "decision": "accepted",
+    "notes": "Skyline clássico de Toronto com CN Tower visto do lago; foto real horizontal nítida e horizonte correto."
+  },
+  "toronto/home-thumb": {
+    "decision": "rejected",
+    "notes": "Vista aérea muito distante e pouco nítida; composição insuficiente para miniatura turística HQ."
+  },
+  "toronto/region-list-1": {
+    "decision": "accepted",
+    "notes": "Edifícios altos e rua do centro financeiro de Toronto à noite; contexto urbano real de Downtown, tomada para cima sem inversão."
+  },
+  "toronto/region-list-3": {
+    "decision": "accepted",
+    "notes": "Comércio e esquina de Greenwood-Coxwell em Toronto East; região urbana real em fotografia diurna."
+  },
+  "toronto/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Rua e comércio de Greenwood-Coxwell com calçada em primeiro plano; contexto real de hospedagem ilustrativa em East, ângulo distinto."
+  },
+  "toronto/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Placa de bonde de 1922 em museu; não representa transporte atual de Toronto."
+  },
+  "toronto/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Apenas letreiro Toronto sem texto útil do idioma; contexto linguístico insuficiente."
+  }
+}

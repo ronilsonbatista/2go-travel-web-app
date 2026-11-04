@@ -1,0 +1,86 @@
+{
+  "havana/attraction-5": {
+    "decision": "accepted",
+    "notes": "Vista elevada do bairro Vedado com casario e skyline de Havana; contexto urbano real e orientação correta."
+  },
+  "havana/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Fachada de Habana Vieja com varandas e estrutura de restauração; arquitetura real do bairro histórico, sem tema de outro país."
+  },
+  "havana/neighborhood-1": {
+    "decision": "rejected",
+    "notes": "Close de oficina comercial escura; pouca legibilidade e contexto insuficiente para Vedado."
+  },
+  "havana/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Entrada de casa particular em Vedado com fachada urbana e varanda; contexto residencial real do bairro."
+  },
+  "havana/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Fachada e palmeiras na rua de Miramar em Havana; contexto residencial real do bairro e orientação correta."
+  },
+  "havana/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Fotografia de 1973 indicada no título; arquivo pré-1990 sem override, rejeitado."
+  },
+  "havana/region-0": {
+    "decision": "rejected",
+    "notes": "Folhas em silhueta e preto e branco; não identifica Habana Vieja."
+  },
+  "havana/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Pessoa em sombra sem contexto do bairro; retrato genérico inadequado para hotel ilustrativo."
+  },
+  "havana/region-1": {
+    "decision": "accepted",
+    "notes": "Avenida do Malecón, mar e edifícios ao fundo em foto diurna de 2018; orla local identificável e horizonte correto."
+  },
+  "havana/region-list-1": {
+    "decision": "rejected",
+    "notes": "Placa de perigo e gramado dominam a imagem; Malecón aparece apenas parcialmente."
+  },
+  "havana/hotel-1": {
+    "decision": "rejected",
+    "notes": "Jovens pulando no mar dominam o enquadramento; não representa contexto de hospedagem."
+  },
+  "havana/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Panorama diurno do Malecón com curva da avenida e casario; contexto costeiro da hospedagem ilustrativa, sem atribuir edifício a hotel."
+  },
+  "havana/region-2": {
+    "decision": "accepted",
+    "notes": "Vista ampla do casario de Vedado em Havana; tecido urbano real e orientação correta."
+  },
+  "havana/region-list-2": {
+    "decision": "accepted",
+    "notes": "Esquina com casa colorida e ruas de Vedado, captura de 2017; bairro real distinto do panorama usado em outra posição."
+  },
+  "havana/hotel-2": {
+    "decision": "accepted",
+    "notes": "Vista urbana com edifícios de Vedado; contexto real de hospedagem ilustrativa, diferente das outras fotos da região."
+  },
+  "havana/hotel-list-2": {
+    "decision": "accepted",
+    "notes": "Quarto real de casa particular em Vedado, origem e local documentados; imagem ilustrativa de hospedagem sem afirmar identidade do hotel listado."
+  },
+  "havana/day-0": {
+    "decision": "accepted",
+    "notes": "Interior do aeroporto José Martí com sinalização de destinos e área de circulação; contexto real de chegada a Havana, orientação correta."
+  },
+  "havana/costs": {
+    "decision": "rejected",
+    "notes": "Pintura de Hemingway na parede do bar, sem pratos ou preços; não corresponde ao tema gastronômico."
+  },
+  "havana/day-1": {
+    "decision": "rejected",
+    "notes": "Close de esquina escura e fechada; não mostra ícones principais de Havana."
+  },
+  "havana/tips": {
+    "decision": "rejected",
+    "notes": "Fachada de quartel de bombeiros sem relação específica com dicas do guia."
+  },
+  "havana/day-2": {
+    "decision": "rejected",
+    "notes": "Pessoa sentada no vão de janela; retrato de rua sem cena de bairro ou gastronomia."
+  }
+}

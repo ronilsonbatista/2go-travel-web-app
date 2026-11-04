@@ -1,0 +1,38 @@
+{
+  "toronto/home-slide": {
+    "decision": "rejected",
+    "notes": "Vista aérea muito distante com estacionamentos e instalações dominando a composição; qualidade turística insuficiente para destaque HQ."
+  },
+  "toronto/home-thumb": {
+    "decision": "rejected",
+    "notes": "Placa de estação de tratamento de esgoto isolada; não representa Toronto em miniatura turística."
+  },
+  "toronto/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "King Street com edifício histórico e calçada em Toronto; contexto urbano real do Entertainment District."
+  },
+  "toronto/region-1": {
+    "decision": "accepted",
+    "notes": "Entrada do College Park em Yonge Street com arquitetura e contexto de rua; marco real de Downtown Toronto."
+  },
+  "toronto/region-list-1": {
+    "decision": "rejected",
+    "notes": "Rua com neve em imagem pouco nítida e baixo contraste; qualidade insuficiente para seleção atual."
+  },
+  "toronto/region-list-3": {
+    "decision": "rejected",
+    "notes": "Retrato de cantora em show; não representa Toronto East como região."
+  },
+  "toronto/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Retrato de cantora no mesmo show; não corresponde a contexto de hospedagem em East."
+  },
+  "toronto/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Bonde antigo em museu ferroviário, fora do serviço atual; transporte desatualizado."
+  },
+  "toronto/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Letreiro contém apenas o nome Toronto e reflexo; não apresenta texto útil do idioma."
+  }
+}

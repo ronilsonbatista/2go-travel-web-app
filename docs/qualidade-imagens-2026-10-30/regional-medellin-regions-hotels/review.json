@@ -1,0 +1,1832 @@
+[
+  {
+    "key": "medellin/region-0",
+    "slot": "region-0",
+    "topic": "Poblado",
+    "path": "/images/destinations/medellin/curated-region-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:2018 Medellín casa en la calle 8 con carrera 43 D (EL Poblado).jpg",
+    "imageinfo": {
+      "size": 6479976,
+      "width": 5184,
+      "height": 3888,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/2018_Medell%C3%ADn_casa_en_la_calle_8_con_carrera_43_D_%28EL_Poblado%29.jpg/3840px-2018_Medell%C3%ADn_casa_en_la_calle_8_con_carrera_43_D_%28EL_Poblado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/2018_Medell%C3%ADn_casa_en_la_calle_8_con_carrera_43_D_%28EL_Poblado%29.jpg/3840px-2018_Medell%C3%ADn_casa_en_la_calle_8_con_carrera_43_D_%28EL_Poblado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/2018_Medell%C3%ADn_casa_en_la_calle_8_con_carrera_43_D_%28EL_Poblado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_casa_en_la_calle_8_con_carrera_43_D_(EL_Poblado).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69393621",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-05-23 14:10:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2018 Medellín casa en la calle 8 con carrera 43 D (EL Poblado)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "El Poblado|Self-published work|White houses in Colombia|Houses in Medellín|April 2018 in Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Medellín",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-04-25 15:18:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pedro_Felipe\" title=\"User:Pedro Felipe\">Felipe Restrepo Acosta</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/region-0.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/2018_Medell%C3%ADn_casa_en_la_calle_8_con_carrera_43_D_%28EL_Poblado%29.jpg/3840px-2018_Medell%C3%ADn_casa_en_la_calle_8_con_carrera_43_D_%28EL_Poblado%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "17ce47cb76585a21e722748f6625cb69e80a742ecee3b4dc659b41337e8748b4"
+  },
+  {
+    "key": "medellin/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Poblado",
+    "path": "/images/destinations/medellin/curated-region-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Clinica Medellin-Sede Poblado.JPG",
+    "imageinfo": {
+      "size": 1814157,
+      "width": 1704,
+      "height": 2272,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Clinica_Medellin-Sede_Poblado.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Clinica_Medellin-Sede_Poblado.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Clinica_Medellin-Sede_Poblado.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Clinica_Medellin-Sede_Poblado.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2531295",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-08-07 23:15:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Clinica Medellin-Sede Poblado",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Clínica Medellín|El Poblado|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Clínica Medellín, Avenida Poblado, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "7 August 2007 (upload date)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Trabajo propio, reconocimiento requerido, mantener licencia:(Creative Commons CC-BY-SA-2.5). Citar a la Wikipedia como fuente si la imagen es utilizada en otros medios que no sean de los proyectos de Wikipedia.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/region-list-0.jpg",
+    "dimensions": [
+      1704,
+      2272
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Clinica_Medellin-Sede_Poblado.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "d3e5fa0539369869f0d058f2524a58f16d12625bda2f3838a9043a137b0975c2"
+  },
+  {
+    "key": "medellin/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Poblado",
+    "path": "/images/destinations/medellin/curated-hotel-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:Escultura en la Avenida poblado- Medellin.JPG",
+    "imageinfo": {
+      "size": 1745543,
+      "width": 1704,
+      "height": 2272,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Escultura_en_la_Avenida_poblado-_Medellin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Escultura_en_la_Avenida_poblado-_Medellin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Escultura_en_la_Avenida_poblado-_Medellin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Escultura_en_la_Avenida_poblado-_Medellin.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2531369",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-08-07 23:25:51",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Escultura en la Avenida poblado- Medellin",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "El Poblado|Self-published work|COR-TEN-Steel sculptures|Sculptures by Ronny Vayda in Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p><b>Escultura</b>: Croquis \n<b>Autor</b>:Ronny Vayda\n<b>Técnica</b>:Acero oxidado\n<b>Dimensiones</b>:850x1000x210cms\n<b>Año</b> (creación o publicación):1994\n</p>\n<b>Ubicación</b>: Avenida Poblado, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "7 August 2007 (upload date)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Trabajo propio, reconocimiento requerido, mantener licencia:(Creative Commons CC-BY-SA-2.5). Citar a la Wikipedia como fuente si la imagen es utilizada en otros medios que no sean de los proyectos de Wikipedia.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.5",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.5",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.5",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/hotel-0.jpg",
+    "dimensions": [
+      1704,
+      2272
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Escultura_en_la_Avenida_poblado-_Medellin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "216e4c51deb5aa29e1eb776d2101610ef5ddf5da6c6da68df63287024aed2d2c"
+  },
+  {
+    "key": "medellin/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Poblado",
+    "path": "/images/destinations/medellin/curated-hotel-list-0.jpg",
+    "pool": "region-0",
+    "status": "pending-visual-review",
+    "title": "File:2018 Iglesia de El Poblado (Medellín).jpg",
+    "imageinfo": {
+      "size": 4950210,
+      "width": 3681,
+      "height": 5059,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/2018_Iglesia_de_El_Poblado_%28Medell%C3%ADn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3298,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/2018_Iglesia_de_El_Poblado_%28Medell%C3%ADn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3298
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/2018_Iglesia_de_El_Poblado_%28Medell%C3%ADn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:2018_Iglesia_de_El_Poblado_(Medell%C3%ADn).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69379958",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-05-23 02:57:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "2018 Iglesia de El Poblado (Medellín)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Exterior of the Iglesia de San José del Poblado|Self-published work|Churches in Colombia photographed in 2018|Church facades in Medellín|April 2018 in Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Medellín",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-04-22 15:05:54",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pedro_Felipe\" title=\"User:Pedro Felipe\">Felipe Restrepo Acosta</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/hotel-list-0.jpg",
+    "dimensions": [
+      1746,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/2018_Iglesia_de_El_Poblado_%28Medell%C3%ADn%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "60b0ca6ff8a1639b6a4e9ab0dc02c8f1f9e4c5a08a10cf8f28beb7e84229f885"
+  },
+  {
+    "key": "medellin/region-1",
+    "slot": "region-1",
+    "topic": "Comuna 13",
+    "path": "/images/destinations/medellin/curated-region-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Graffiti in Comuna 13, Medellín 03.jpg",
+    "imageinfo": {
+      "size": 4786506,
+      "width": 4352,
+      "height": 2901,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_03.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_03.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Graffiti_in_Comuna_13,_Medell%C3%ADn_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99422508",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-01-30 19:24:18",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Graffiti in Comuna 13, Medellín 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation|Comuna 13, Medellín|Graffiti in Comuna 13, Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.257672",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.613625",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Graffiti in Comuna 13 San Javier, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/region-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_03.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "5d465446f68cd8b609b041017e69935eb90aa7efed59ce2013545fa5173f9723"
+  },
+  {
+    "key": "medellin/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Comuna 13",
+    "path": "/images/destinations/medellin/curated-region-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Graffiti in Comuna 13, Medellín 02.jpg",
+    "imageinfo": {
+      "size": 3573105,
+      "width": 4026,
+      "height": 2684,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_02.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_02.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Graffiti_in_Comuna_13,_Medell%C3%ADn_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99422442",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-01-30 19:23:03",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Graffiti in Comuna 13, Medellín 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation|Comuna 13, Medellín|Graffiti in Comuna 13, Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.257672",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.613625",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Graffiti in Comuna 13 San Javier, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/region-list-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_02.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d3ff7384b76c6201a86fe31249c5009a14ad51ef099086cbb973f7aba10bbe55"
+  },
+  {
+    "key": "medellin/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Comuna 13",
+    "path": "/images/destinations/medellin/curated-hotel-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Comuna 13, Medellín 04.jpg",
+    "imageinfo": {
+      "size": 7997228,
+      "width": 5393,
+      "height": 3595,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Comuna_13%2C_Medell%C3%ADn_04.jpg/3840px-Comuna_13%2C_Medell%C3%ADn_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Comuna_13%2C_Medell%C3%ADn_04.jpg/3840px-Comuna_13%2C_Medell%C3%ADn_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Comuna_13%2C_Medell%C3%ADn_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Comuna_13,_Medell%C3%ADn_04.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99422100",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-01-30 19:15:26",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Comuna 13, Medellín 04",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Buildings in Medellín|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation|Views of Medellín|Comuna 13, Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.257672",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.613625",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Comuna 13 San Javier, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Comuna_13%2C_Medell%C3%ADn_04.jpg/3840px-Comuna_13%2C_Medell%C3%ADn_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "fd6a88362d7e9bc18f278b654966cb716f8c1c10e438099edfed7de79d32cf6d"
+  },
+  {
+    "key": "medellin/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Comuna 13",
+    "path": "/images/destinations/medellin/curated-hotel-list-1.jpg",
+    "pool": "region-1",
+    "status": "pending-visual-review",
+    "title": "File:Graffiti in Comuna 13, Medellín 09.jpg",
+    "imageinfo": {
+      "size": 4377881,
+      "width": 5019,
+      "height": 3346,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_09.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_09.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Graffiti_in_Comuna_13,_Medell%C3%ADn_09.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99422831",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-01-30 19:30:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Graffiti in Comuna 13, Medellín 09",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation|Graffiti of birds|Graffiti in Comuna 13, Medellín",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "6.257672",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-75.613625",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Graffiti in Comuna 13 San Javier, Medellín, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/hotel-list-1.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Graffiti_in_Comuna_13%2C_Medell%C3%ADn_09.jpg/3840px-Graffiti_in_Comuna_13%2C_Medell%C3%ADn_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b8c22dc469ac547c0c4d4cdd465922dce0cf04859ca14530e8e9b590f6b62f77"
+  },
+  {
+    "key": "medellin/region-2",
+    "slot": "region-2",
+    "topic": "Centro",
+    "path": "/images/destinations/medellin/curated-region-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Parque Berrío. Medellín, 1923.jpg",
+    "imageinfo": {
+      "size": 764159,
+      "width": 2048,
+      "height": 1287,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Parque_Berr%C3%ADo._Medell%C3%ADn%2C_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1508,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Parque_Berr%C3%ADo._Medell%C3%ADn%2C_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1508
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Parque_Berr%C3%ADo._Medell%C3%ADn%2C_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Parque_Berr%C3%ADo._Medell%C3%ADn,_1923.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80092124",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-07-01 23:52:22",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Parque Berrío. Medellín, 1923",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "1923 in Colombia|PD-Colombia|Gonzalo Escovar Gaviria|Historical images of Medellín|PD-old missing SDC copyright status|Buildings in La Candelaria (Medellín)|Historical images of Berrío Park|Medellín in the 1920s",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Parque Berrío. Medellín, 1923",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "1923",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.bibliotecapiloto.gov.co/foto-antioquia/resources/pics/BPP-F-012-0655.jpg\">https://www.bibliotecapiloto.gov.co/foto-antioquia/resources/pics/BPP-F-012-0655.jpg</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q64878296\" class=\"extiw\" title=\"d:Q64878296\"><span title=\"Colombian photographer\">Gonzalo Escovar Gaviria</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/region-2.jpg",
+    "dimensions": [
+      2048,
+      1287
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Parque_Berr%C3%ADo._Medell%C3%ADn%2C_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "7a9e162495d42c493d9713c47e15e3eaf34720878686a4730c653eea8fb296d2"
+  },
+  {
+    "key": "medellin/region-list-2",
+    "slot": "region-list-2",
+    "topic": "Centro",
+    "path": "/images/destinations/medellin/curated-region-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Catedral y Parque Berrío. Medellín, 1922.jpg",
+    "imageinfo": {
+      "size": 604770,
+      "width": 2048,
+      "height": 1313,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Catedral_y_Parque_Berr%C3%ADo._Medell%C3%ADn%2C_1922.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1539,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Catedral_y_Parque_Berr%C3%ADo._Medell%C3%ADn%2C_1922.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1539
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Catedral_y_Parque_Berr%C3%ADo._Medell%C3%ADn%2C_1922.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Catedral_y_Parque_Berr%C3%ADo._Medell%C3%ADn,_1922.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80092150",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-07-01 23:56:02",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Catedral y Parque Berrío. Medellín, 1922",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "1922 in Colombia|PD-Colombia|Gonzalo Escovar Gaviria|PD-old missing SDC copyright status|Historical images of the Basilica of La Candelaria (Medellín)|Historical images of Berrío Park",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Catedral y Parque Berrío. Medellín, 1922",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "1922",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.bibliotecapiloto.gov.co/foto-antioquia/resources/pics/BPP-F-012-0650.jpg\">https://www.bibliotecapiloto.gov.co/foto-antioquia/resources/pics/BPP-F-012-0650.jpg</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q64878296\" class=\"extiw\" title=\"d:Q64878296\"><span title=\"Colombian photographer\">Gonzalo Escovar Gaviria</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/region-list-2.jpg",
+    "dimensions": [
+      2048,
+      1313
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Catedral_y_Parque_Berr%C3%ADo._Medell%C3%ADn%2C_1922.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "ddaafffb3d55fe34442d0061d53f1a65ab99d42543d73ff0f9244f32d1403776"
+  },
+  {
+    "key": "medellin/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Centro",
+    "path": "/images/destinations/medellin/curated-hotel-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:Parque Berrio-Coltejer-Medellin.JPG",
+    "imageinfo": {
+      "size": 356870,
+      "width": 1200,
+      "height": 1600,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Parque_Berrio-Coltejer-Medellin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Parque_Berrio-Coltejer-Medellin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Parque_Berrio-Coltejer-Medellin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Parque_Berrio-Coltejer-Medellin.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1721989",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-02-27 00:33:57",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Parque Berrio-Coltejer-Medellin",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon Coolpix 2100|Edificio Coltejer|Self-published work|PD-self|Parque Berrío",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Parque Berrio y Edificio Coltejer, Medellín, Colombia.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-02-26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Trabajo propio, libero todos los derechos (dominio público)",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/hotel-2.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Parque_Berrio-Coltejer-Medellin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "6ec471f1c69332f01666c1317132acec2c1b789805d4896a7e96f7a6af9afb07"
+  },
+  {
+    "key": "medellin/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Centro",
+    "path": "/images/destinations/medellin/curated-hotel-list-2.jpg",
+    "pool": "region-2",
+    "status": "pending-visual-review",
+    "title": "File:AlumbradosParque Berrío-2007.jpg",
+    "imageinfo": {
+      "size": 1437854,
+      "width": 2048,
+      "height": 1536,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/24/AlumbradosParque_Berr%C3%ADo-2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/AlumbradosParque_Berr%C3%ADo-2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/AlumbradosParque_Berr%C3%ADo-2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:AlumbradosParque_Berr%C3%ADo-2007.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3239634",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2007-12-17 07:48:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "AlumbradosParque Berrío-2007",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Sony DSC-H2|Flickr images uploaded by Flickr upload bot|Information field template with formatting|Night in Medellín|Parque Berrío|Christmas in Medellín, 2007",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Alumbrados en el Parque Berrío 2007. Medellín, Colombia<br>MEDELLIN - ANTIOQUIA",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-12-07 19:23:12",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/15072398@N00/2109928913\">Flickr</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/15072398@N00\">laloking97</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table id=\"FlickrReview\" style=\"width:100%; margin:0.3em auto; text-align:start; background-color:var(--background-color-success-subtle,#d5fdf4); padding: 3px; border:1px solid var(--border-color-base,#a2a9b1); color:inherit;\" dir=\"ltr\" lang=\"en\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><a href=\"https://en.wikipedia.org/wiki/Flickr\" class=\"extiw\" title=\"en:Flickr\">Flickr</a></b>, was uploaded to Commons using <b><a href=\"//commons.wikimedia.org/wiki/User:Flickr_upload_bot\" title=\"User:Flickr upload bot\">Flickr upload bot</a></b> on 17 December 2007, 07:48 by <span id=\"flickr_upload_bot_reviewer\"><b><a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">SajoR</a></b></span>. On that date, it was confirmed to be licensed under the terms of the license indicated.\n</td>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/60px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/120px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span></span>\n</td></tr></tbody></table>\n<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/2.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/2.0/deed.en\">Attribution-Share Alike 2.0 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/2.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 2.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 2.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/hotel-list-2.jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/AlumbradosParque_Berr%C3%ADo-2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "b355d881e39ba3275b04d4f0cd3243cbb0739c0197d7b0f4fa47564a489c5163"
+  },
+  {
+    "key": "medellin/region-3",
+    "slot": "region-3",
+    "topic": "Arví",
+    "path": "/images/destinations/medellin/curated-region-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Scaphosepalum lima (Orquídea de pedúnculos ásperos) 02.jpg",
+    "imageinfo": {
+      "size": 2202153,
+      "width": 3000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_02.jpg/1920px-Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_02.jpg/1920px-Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Scaphosepalum_lima_(Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros)_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192570470",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-05-22 02:05:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Scaphosepalum lima (Orquídea de pedúnculos ásperos) 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Flora of Colombia|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Endemic flora by country|Self-published work|Self-published work missing SDC copyright license|Images from Wiki Loves Earth missing SDC location of creation|Images from Wiki Loves Earth missing SDC source of file|Images from Wiki Loves Earth missing SDC copyright status|Images from Wiki Loves Earth missing SDC copyright license|Images from Wiki Loves Earth missing SDC creator|Images from Wiki Loves Earth missing SDC participant in|Uploaded via Campaign:wle-co|Images from Wiki Loves Earth 2026|Images from Wiki Loves Earth 2026 in Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The scaphosepalum lima is an orchidea endemic of the Antioquia region, in Colombia. This one in particular was found in the Parque Arví, in Medellín",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-05-18 14:46:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Federico2599&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Federico2599 (page does not exist)\">Federico2599</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/region-3.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_02.jpg/1920px-Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "89a05ab0fd507afe231730041bbf7b6415a23892f2f7a435f19c926efb04e70f"
+  },
+  {
+    "key": "medellin/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Arví",
+    "path": "/images/destinations/medellin/curated-region-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Scaphosepalum lima (Orquídea de pedúnculos ásperos) 01.jpg",
+    "imageinfo": {
+      "size": 2299353,
+      "width": 3000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_01.jpg/1920px-Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_01.jpg/1920px-Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Scaphosepalum_lima_(Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros)_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192570468",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-05-22 02:05:06",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Scaphosepalum lima (Orquídea de pedúnculos ásperos) 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Flora of Colombia|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Endemic flora by country|Self-published work|Self-published work missing SDC copyright license|Images from Wiki Loves Earth missing SDC location of creation|Images from Wiki Loves Earth missing SDC source of file|Images from Wiki Loves Earth missing SDC copyright status|Images from Wiki Loves Earth missing SDC copyright license|Images from Wiki Loves Earth missing SDC creator|Images from Wiki Loves Earth missing SDC participant in|Uploaded via Campaign:wle-co|Images from Wiki Loves Earth 2026|Images from Wiki Loves Earth 2026 in Colombia",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The scaphosepalum lima is an orchidea endemic of the Antioquia region, in Colombia. This one in particular was found in the Parque Arví, in Medellín",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-05-18 14:45:24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Federico2599&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Federico2599 (page does not exist)\">Federico2599</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/region-list-3.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_01.jpg/1920px-Scaphosepalum_lima_%28Orqu%C3%ADdea_de_ped%C3%BAnculos_%C3%A1speros%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "dceaf651a312ed1230ade6e956b52c2b944e960966d9f075013b381e8be4e7af"
+  },
+  {
+    "key": "medellin/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Arví",
+    "path": "/images/destinations/medellin/curated-hotel-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Vino de jaboticaba.jpg",
+    "imageinfo": {
+      "size": 11746289,
+      "width": 6526,
+      "height": 5275,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Vino_de_jaboticaba.jpg/3840px-Vino_de_jaboticaba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1940,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Vino_de_jaboticaba.jpg/3840px-Vino_de_jaboticaba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1940
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vino_de_jaboticaba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vino_de_jaboticaba.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=104323335",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-04-25 11:43:29",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Vino de jaboticaba",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Plinia cauliflora|Self-published work|Pictures taken by User:El Mono Español",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Vino de jaboticaba (<i>Plinia cauliflora</i>), comprado en el parque arví de Medellín, Colombia (2019)",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-04-25 13:14:10",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:El_Mono_Espa%C3%B1ol\" title=\"User:El Mono Español\">El Mono Español</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/hotel-3.jpg",
+    "dimensions": [
+      2400,
+      1940
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Vino_de_jaboticaba.jpg/3840px-Vino_de_jaboticaba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "0163ddbe43b531f4f186b203319799d8d3e172db1460d9d1592eb1d30d499fc1"
+  },
+  {
+    "key": "medellin/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Arví",
+    "path": "/images/destinations/medellin/curated-hotel-list-3.jpg",
+    "pool": "region-3",
+    "status": "pending-visual-review",
+    "title": "File:Panorámica de Medellín desde metrocable.jpg",
+    "imageinfo": {
+      "size": 5242550,
+      "width": 5664,
+      "height": 3184,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Panor%C3%A1mica_de_Medell%C3%ADn_desde_metrocable.jpg/3840px-Panor%C3%A1mica_de_Medell%C3%ADn_desde_metrocable.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1349,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Panor%C3%A1mica_de_Medell%C3%ADn_desde_metrocable.jpg/3840px-Panor%C3%A1mica_de_Medell%C3%ADn_desde_metrocable.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1349
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Panor%C3%A1mica_de_Medell%C3%ADn_desde_metrocable.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Panor%C3%A1mica_de_Medell%C3%ADn_desde_metrocable.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=127473879",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-01-07 00:42:38",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Panorámica de Medellín desde metrocable",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Wikivacaciones 2022|Views of Medellín|Uploaded via Campaign:Wikivacaciones 2022",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Panorámica de Medellín desde el metrocable turístico que lleva al parque Arví. Medellín. Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2021-09-12 15:54:13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:SajoR\" title=\"User:SajoR\">Alejandro Rojas (SajoR)</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "file": "/tmp/2go-regional-photo-review/medellin/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      1349
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Panor%C3%A1mica_de_Medell%C3%ADn_desde_metrocable.jpg/3840px-Panor%C3%A1mica_de_Medell%C3%ADn_desde_metrocable.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ef6e8b286160f2ce12fbf8f33107c6e2ba463df98eeb41f49a7908859103270c"
+  }
+]

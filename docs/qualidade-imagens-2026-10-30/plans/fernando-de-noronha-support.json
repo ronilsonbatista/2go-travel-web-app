@@ -1,0 +1,233 @@
+{
+  "city": "fernando-de-noronha",
+  "region": "americas",
+  "center": [
+    -3.854,
+    -32.423,
+    20
+  ],
+  "pools": {
+    "arrival": {
+      "query": "Fernando de Noronha Airport",
+      "required": [
+        "noronha"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0",
+        "mistakes"
+      ]
+    },
+    "transport": {
+      "query": "Fernando de Noronha buggy",
+      "required": [
+        "buggy|buggies|bugue"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "food": {
+      "query": "Fernando de Noronha seafood",
+      "required": [
+        "seafood|fish|pescado|peixe"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "culture": {
+      "query": "Mirante Golfinhos Noronha",
+      "required": [
+        "golfinhos|dolphin"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ]
+    },
+    "leisure": {
+      "query": "Cacimba do Padre Noronha",
+      "required": [
+        "cacimba"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-4"
+      ]
+    },
+    "icon": {
+      "query": "Baia do Sancho",
+      "required": [
+        "sancho"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "quarter": {
+      "query": "Vila dos Remedios Noronha",
+      "required": [
+        "remedios"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "language": {
+      "query": "Fernando de Noronha sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "noronha"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "currency": {
+      "query": "Brazilian real banknotes",
+      "required": [
+        "real|reais"
+      ],
+      "locationPatterns": [
+        "brazil|brasil"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "documents": {
+      "query": "Brazilian passport cover",
+      "required": [
+        "brazilian passport|passaporte brasileiro"
+      ],
+      "locationPatterns": [
+        "brazil|brasil"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "trip-0": {
+      "query": "Baia dos Porcos Noronha",
+      "required": [
+        "porcos"
+      ],
+      "locationPatterns": [
+        "brazil|brasil"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        -3.85,
+        -32.42,
+        20
+      ]
+    },
+    "trip-1": {
+      "query": "Atalaia Noronha",
+      "required": [
+        "atalaia"
+      ],
+      "locationPatterns": [
+        "brazil|brasil"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        -3.85,
+        -32.42,
+        20
+      ]
+    },
+    "trip-2": {
+      "query": "Forte Remedios Noronha",
+      "required": [
+        "forte|fort"
+      ],
+      "locationPatterns": [
+        "brazil|brasil"
+      ],
+      "countryPattern": "brazil|brasil",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        -3.85,
+        -32.42,
+        20
+      ]
+    }
+  }
+}

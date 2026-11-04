@@ -1,0 +1,78 @@
+{
+  "los-angeles/attraction-0": {
+    "decision": "accepted",
+    "notes": "Santa Monica Pier com roda-gigante, píer e oceano ao entardecer; atração reconhecível e horizonte correto."
+  },
+  "los-angeles/map-attraction-3": {
+    "decision": "accepted",
+    "notes": "Vista aérea do Getty Center com edifícios e jardins; complexo real inequivocamente reconhecível, sem mapa ou render."
+  },
+  "los-angeles/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Vista diurna do centro e praia de Santa Monica com prédios e oceano; contexto real do bairro e orientação correta."
+  },
+  "los-angeles/neighborhood-detail-1": {
+    "decision": "rejected",
+    "notes": "Retrato de cantora Halsey em show; não caracteriza o bairro Hollywood."
+  },
+  "los-angeles/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Downtown Los Angeles e freeway 110 à noite com skyline iluminado; bairro reconhecível e foto real."
+  },
+  "los-angeles/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Pacific Design Center visto da biblioteca de West Hollywood; marco e via urbana reais do bairro."
+  },
+  "los-angeles/hotel-0": {
+    "decision": "accepted",
+    "notes": "Vista aérea de UCLA e Westwood na Westside de Los Angeles; contexto regional real para hospedagem ilustrativa."
+  },
+  "los-angeles/hotel-list-0": {
+    "decision": "accepted",
+    "notes": "Fachada do Farsi Café e rua de West Los Angeles; comércio e arquitetura reais da Westside para contexto de hospedagem ilustrativa."
+  },
+  "los-angeles/region-1": {
+    "decision": "rejected",
+    "notes": "Circus Liquor fica em North Hollywood/San Fernando Valley; bairro errado para Hollywood."
+  },
+  "los-angeles/hotel-1": {
+    "decision": "accepted",
+    "notes": "Rua de East Hollywood com Griffith Observatory ao fundo e palmeiras; contexto real de hospedagem ilustrativa na região."
+  },
+  "los-angeles/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Hollywood Hills com Hollywood Sign visível e casario nas encostas; contexto real para hospedagem ilustrativa."
+  },
+  "los-angeles/region-2": {
+    "decision": "accepted",
+    "notes": "Panorama noturno do skyline de Downtown Los Angeles; região identificável e horizonte correto."
+  },
+  "los-angeles/hotel-2": {
+    "decision": "rejected",
+    "notes": "Close de adesivos e estacionamento no Downtown; não representa contexto de hospedagem."
+  },
+  "los-angeles/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Saguão vazio de prédio sem contexto externo; não comprova relação temática com hotel ou bairro."
+  },
+  "los-angeles/region-list-3": {
+    "decision": "accepted",
+    "notes": "Vista de San Fernando Valley e Verdugos desde Panorama City; paisagem urbana regional real e orientação correta."
+  },
+  "los-angeles/hotel-3": {
+    "decision": "accepted",
+    "notes": "Vista ampla de San Fernando Valley em 2016, com montanhas e cidade; contexto real da hospedagem ilustrativa."
+  },
+  "los-angeles/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Hospital Northridge em primeiro plano; assunto médico não corresponde ao contexto de hospedagem em Valley."
+  },
+  "los-angeles/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Plataforma e acesso do 7th Street Metro Center em 2025; transporte público de Los Angeles reconhecível."
+  },
+  "los-angeles/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Placa física do monumento Will Rogers em Santa Monica com texto em inglês; sinalização real do destino e orientação correta."
+  }
+}

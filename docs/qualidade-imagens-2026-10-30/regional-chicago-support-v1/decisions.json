@@ -1,0 +1,62 @@
+{
+  "chicago/day-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Chegada em Chicago, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/mistakes": {
+    "decision": "rejected",
+    "notes": "Esqueleto exposto no teto domina o assunto, pouco contexto para erros de viagem."
+  },
+  "chicago/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Transporte, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/costs": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Pratos típicos de Chicago, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/day-4": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bate-volta ou folga, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/day-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Ícones principais, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/tips": {
+    "decision": "rejected",
+    "notes": "Variante da foto Flickr 9694666470 ja usada em Cloud Gate; repeticao do mesmo original."
+  },
+  "chicago/day-2": {
+    "decision": "rejected",
+    "notes": "Detalhe de tampa no pavimento, sem representacao suficiente de bairros e gastronomia."
+  },
+  "chicago/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Idioma, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/essential-moeda": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Moeda & pagamentos, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/essential-docs": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Documentação & seguro, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Arredores de Chicago, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/trip-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Passeio regional de meio dia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "chicago/trip-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Destino costeiro ou histórico próximo, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  }
+}

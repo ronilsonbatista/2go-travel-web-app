@@ -1,0 +1,63 @@
+{
+  "city": "assuncao",
+  "region": "americas",
+  "center": [
+    -25.2637,
+    -57.5759,
+    40
+  ],
+  "pools": {
+    "cathedral": {
+      "query": "\"Catedral\" \"Asuncion\" -intitle:panoramio",
+      "required": [
+        "asuncion",
+        "catedral|cathedral"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "intro",
+        "guide-card",
+        "home-thumb"
+      ]
+    },
+    "panteon": {
+      "query": "\"Panteon Nacional\" \"Asuncion\"",
+      "required": [
+        "panteon",
+        "asuncion|paraguay"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "home",
+        "guide-highlight",
+        "home-slide"
+      ]
+    },
+    "palacio": {
+      "query": "\"Palacio de Lopez\"",
+      "required": [
+        "palacio",
+        "lopez",
+        "asuncion|paraguay"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "attraction-0",
+        "map-list-0",
+        "tips"
+      ]
+    }
+  }
+}

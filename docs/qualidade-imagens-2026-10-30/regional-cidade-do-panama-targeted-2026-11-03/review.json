@@ -1,0 +1,384 @@
+[
+  {
+    "key": "cidade-do-panama/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "El Cangrejo",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-1"
+  },
+  {
+    "key": "cidade-do-panama/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Amador",
+    "path": "/images/destinations/cidade-do-panama/curated-neighborhood-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:08-009 Cementerio Amador (15).jpg",
+    "imageinfo": {
+      "size": 1401072,
+      "width": 1500,
+      "height": 844,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/08-009_Cementerio_Amador_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/08-009_Cementerio_Amador_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/08-009_Cementerio_Amador_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:08-009_Cementerio_Amador_(15).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51894954",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-09-29 19:00:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "08-009 Cementerio Amador (15)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Plaques in Panama|Cementerio Amador|Self-published work|Wiki Loves Monuments 2016 in Panama|Panama photographs taken on 2015-06-07",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Jaime Massot Hernández Panamá R.P.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 7 June 2015, 11:31:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jaimemassot&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jaimemassot (page does not exist)\">Jaime Massot Hernández</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-panama/neighborhood-3.jpg",
+    "dimensions": [
+      1500,
+      844
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/08-009_Cementerio_Amador_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "ae3b1be615eb598429f7f6ba7d2ddef7d22750fd74a3c2eeb51a51b8954d17b4"
+  },
+  {
+    "key": "cidade-do-panama/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Amador",
+    "path": "/images/destinations/cidade-do-panama/curated-neighborhood-detail-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:08-009 Cementerio Amador (22).jpg",
+    "imageinfo": {
+      "size": 1377834,
+      "width": 1500,
+      "height": 844,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/94/08-009_Cementerio_Amador_%2822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/08-009_Cementerio_Amador_%2822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/08-009_Cementerio_Amador_%2822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:08-009_Cementerio_Amador_(22).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=51894961",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-09-29 19:00:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "08-009 Cementerio Amador (22)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Cementerio Amador|Self-published work|Wiki Loves Monuments 2016 in Panama|Panama photographs taken on 2015-06-07",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Jaime Massot Hernández Panamá R.P.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 7 June 2015, 11:38:22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jaimemassot&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jaimemassot (page does not exist)\">Jaime Massot Hernández</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-panama/neighborhood-detail-3.jpg",
+    "dimensions": [
+      1500,
+      844
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/08-009_Cementerio_Amador_%2822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "091522e028e023fe2fde78494b6a759d3d87b38bc6ee53ade4e203a60045735c"
+  },
+  {
+    "key": "cidade-do-panama/region-2",
+    "slot": "region-2",
+    "topic": "Amador",
+    "path": "/images/destinations/cidade-do-panama/curated-region-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Causeway de Amador.jpg",
+    "imageinfo": {
+      "size": 281842,
+      "width": 1024,
+      "height": 768,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Causeway_de_Amador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Causeway_de_Amador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Causeway_de_Amador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Causeway_de_Amador.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=8814888",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-12-23 16:21:16",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Causeway de Amador",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "2008 in Panama|Amador Causeway|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Amador Causeway, on the way to the city.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2008-04-12",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Allanes\" title=\"User:Allanes\">Allanes</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/cidade-do-panama/region-2.jpg",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Causeway_de_Amador.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "e4ad13802661458d5d63acb9162166ba0482c5d4447c065efca8b6244ed59447"
+  },
+  {
+    "key": "cidade-do-panama/region-3",
+    "slot": "region-3",
+    "topic": "Financial",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-3"
+  },
+  {
+    "key": "cidade-do-panama/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Financial",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-3"
+  },
+  {
+    "key": "cidade-do-panama/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Financial",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-3"
+  },
+  {
+    "key": "cidade-do-panama/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Financial",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-3"
+  },
+  {
+    "key": "cidade-do-panama/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Cidade do Panamá",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "cidade-do-panama/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "city": "porto-rico",
+  "region": "americas",
+  "center": [
+    18.4655,
+    -66.1057,
+    50
+  ],
+  "pools": {
+    "highlight-home-thumb": {
+      "query": "\"San Juan\" \"El Morro\"",
+      "required": [
+        "san juan"
+      ],
+      "locationPatterns": [
+        "puerto rico"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home-thumb"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "attractions-attraction-2": {
+      "query": "Mosquito Bay Vieques bioluminescent",
+      "required": [
+        "mosquito bay|bioluminescen"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "regions-hotels-region-3": {
+      "query": "Culebra Puerto Rico",
+      "required": [
+        "culebra"
+      ],
+      "locationPatterns": [
+        "puerto rico|vieques|culebra"
+      ],
+      "countryPattern": "puerto rico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-3"
+      ],
+      "center": [
+        18.3,
+        -65.3,
+        45
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    }
+  }
+}

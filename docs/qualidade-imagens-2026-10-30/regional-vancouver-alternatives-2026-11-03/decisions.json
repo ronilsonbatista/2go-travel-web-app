@@ -1,0 +1,30 @@
+{
+  "vancouver/home-slide": {
+    "decision": "rejected",
+    "notes": "Barco dos bombeiros domina a imagem, sem skyline ou marco turístico suficiente; inadequado para destaque geral de Vancouver."
+  },
+  "vancouver/attraction-4": {
+    "decision": "accepted",
+    "notes": "Canada Place com velas brancas e navios visto da água; marco real reconhecível e horizonte correto."
+  },
+  "vancouver/map-list-4": {
+    "decision": "accepted",
+    "notes": "Canada Place e skyline de Vancouver em enquadramento frontal desde a água; atração real e distinta do panorama mais amplo."
+  },
+  "vancouver/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Beco de Downtown Eastside em composição parcial e desfocada; não representa bem o bairro Downtown do guia."
+  },
+  "vancouver/region-0": {
+    "decision": "accepted",
+    "notes": "Área verde de Stanley Park junto à água com skyline ao fundo; contexto regional real e orientação correta."
+  },
+  "vancouver/region-list-2": {
+    "decision": "rejected",
+    "notes": "Retrato de parlamentar diante de painel; não representa North Shore como região."
+  },
+  "vancouver/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Trem Canada Line SkyTrain chegando à estação com trilhos visíveis; transporte público real de Vancouver."
+  }
+}

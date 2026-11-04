@@ -1,0 +1,30 @@
+{
+  "bogota/hero": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Bogotá, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "bogota/intro": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: vista real de Bogotá, paisagem compatível com o destino, composição legível e orientação correta; não é mapa nem panorama esférico deformado. Fonte e licença individual verificadas."
+  },
+  "bogota/home": {
+    "decision": "rejected",
+    "notes": "Composição escura e obstruída, skyline pouco legível para destaque."
+  },
+  "bogota/guide-card": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  },
+  "bogota/guide-highlight": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  },
+  "bogota/home-slide": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  },
+  "bogota/home-thumb": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; nova busca necessária."
+  }
+}

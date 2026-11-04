@@ -1,0 +1,283 @@
+{
+  "city": "montreal",
+  "region": "americas",
+  "center": [
+    45.5017,
+    -73.5673,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Montreal skyline panorama",
+      "required": [
+        "montreal"
+      ],
+      "locationPatterns": [
+        "montreal|quebec"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home-thumb"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-0": {
+      "query": "Old Montreal Vieux Montreal",
+      "required": [
+        "old montreal|vieux montreal"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Vieux Montreal",
+      "required": [
+        "vieux montreal|old montreal"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "Plateau Mont Royal",
+      "required": [
+        "plateau"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-1"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Mile End Montreal",
+      "required": [
+        "mile end"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Vieux Montreal",
+      "required": [
+        "vieux montreal|old montreal"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "countryPattern": "canada|quebec",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "hotel-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Mount Royal Montreal",
+      "required": [
+        "mount royal|mont royal"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "countryPattern": "canada|quebec",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "hotel-list-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Downtown Montreal",
+      "required": [
+        "downtown|centre.ville"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "countryPattern": "canada|quebec",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-3"
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "Montreal Trudeau Airport",
+      "required": [
+        "trudeau"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "countryPattern": "canada|quebec",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0"
+      ]
+    },
+    "support-transport": {
+      "query": "Montreal Metro train",
+      "required": [
+        "metro|azur"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "countryPattern": "canada|quebec",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "support-food": {
+      "query": "Poutine Montreal",
+      "required": [
+        "poutine"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "countryPattern": "canada|quebec",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "support-icon": {
+      "query": "Old Montreal Vieux Montreal",
+      "required": [
+        "old montreal|vieux montreal"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "countryPattern": "canada|quebec",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "tips"
+      ]
+    },
+    "support-quarter": {
+      "query": "Vieux Montreal",
+      "required": [
+        "vieux montreal|old montreal"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "countryPattern": "canada|quebec",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ]
+    },
+    "support-language": {
+      "query": "Montreal sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "montreal"
+      ],
+      "countryPattern": "canada|quebec",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "support-currency": {
+      "query": "Canadian polymer banknotes",
+      "required": [
+        "polymer|frontier series|2011|2012|2013|2018"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "Canadian passport cover",
+      "required": [
+        "canadian passport|passeport canadien"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-trip-2": {
+      "query": "Fort Chambly Quebec",
+      "required": [
+        "chambly"
+      ],
+      "locationPatterns": [
+        "canada|quebec"
+      ],
+      "countryPattern": "canada|quebec",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        45.45,
+        -73.28,
+        20
+      ]
+    }
+  }
+}

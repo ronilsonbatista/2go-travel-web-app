@@ -1,0 +1,34 @@
+{
+  "bahamas/neighborhood-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Nassau Downtown: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "bahamas/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Texto em painel de museu, não é fotografia representativa do bairro."
+  },
+  "bahamas/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Paradise Island: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "bahamas/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha do bairro Paradise Island: foto real com assunto e localização compatíveis, orientação correta e composição utilizável; não é mapa, retrato dominante ou imagem invertida. Fonte/licença individual conferidas."
+  },
+  "bahamas/neighborhood-2": {
+    "decision": "rejected",
+    "notes": "Registro antigo de 1988 com qualidade inadequada para cartão atual do bairro."
+  },
+  "bahamas/neighborhood-detail-2": {
+    "decision": "rejected",
+    "notes": "Registro antigo de 1970 e exposição escura, inadequado como vista atual do bairro."
+  },
+  "bahamas/neighborhood-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+  },
+  "bahamas/neighborhood-detail-3": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece pendente para nova busca."
+  }
+}

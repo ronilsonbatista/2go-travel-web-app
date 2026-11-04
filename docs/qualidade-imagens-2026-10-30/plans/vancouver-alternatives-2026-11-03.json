@@ -1,0 +1,165 @@
+{
+  "city": "vancouver",
+  "region": "americas",
+  "center": [
+    49.2827,
+    -123.1207,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Vancouver",
+      "required": [
+        "vancouver"
+      ],
+      "locationPatterns": [
+        "vancouver|british columbia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home-slide"
+      ],
+      "limit": 100,
+      "offset": 0
+    },
+    "attractions-attraction-4": {
+      "query": "Canada Place Vancouver",
+      "required": [
+        "canada place"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Downtown Vancouver",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-0"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Stanley Park Vancouver",
+      "required": [
+        "stanley park"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "North Vancouver Lonsdale",
+      "required": [
+        "lonsdale|north vancouver"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-2"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "support-transport": {
+      "query": "Vancouver SkyTrain",
+      "required": [
+        "skytrain"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ],
+      "offset": 100
+    },
+    "support-food": {
+      "query": "Japadog Vancouver",
+      "required": [
+        "japadog"
+      ],
+      "locationPatterns": [
+        "vancouver|capilano|grouse mountain"
+      ],
+      "countryPattern": "canada|british columbia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ],
+      "offset": 100
+    },
+    "support-currency": {
+      "query": "Canadian polymer banknotes",
+      "required": [
+        "polymer|frontier series|2011|2012|2013|2018"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    },
+    "support-documents": {
+      "query": "Canadian passport cover",
+      "required": [
+        "canadian passport|passeport canadien"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    }
+  }
+}

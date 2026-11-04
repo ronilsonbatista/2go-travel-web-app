@@ -1,0 +1,78 @@
+{
+  "havai/map-attraction-0": {
+    "decision": "accepted",
+    "notes": "Waikiki Beach com píer, praia e mar azul em foto diurna; assunto corresponde à praia e horizonte correto."
+  },
+  "havai/map-list-0": {
+    "decision": "rejected",
+    "notes": "Prédio alto domina a vista e Waikiki Beach quase não aparece; tema da praia pouco legível."
+  },
+  "havai/attraction-1": {
+    "decision": "accepted",
+    "notes": "Entrada de Pearl Harbor vista do alto com canais, enseadas e infraestrutura costeira; geografia da atração reconhecível."
+  },
+  "havai/map-attraction-1": {
+    "decision": "rejected",
+    "notes": "Retrato de veterano em cerimônia; não representa Pearl Harbor como atração."
+  },
+  "havai/map-attraction-2": {
+    "decision": "accepted",
+    "notes": "Cratera de Diamond Head em vista aérea ampla com litoral ao fundo; marco inequívoco e orientação correta."
+  },
+  "havai/attraction-3": {
+    "decision": "rejected",
+    "notes": "Prancha técnica de parapeitos de ponte; desenho/diagrama não é foto editorial."
+  },
+  "havai/map-attraction-3": {
+    "decision": "rejected",
+    "notes": "Prancha técnica de tipologias de ponte; desenho/diagrama proibido como foto da atração."
+  },
+  "havai/map-list-3": {
+    "decision": "accepted",
+    "notes": "Ponte curva da Hana Highway em vegetação tropical; estrada Road to Hana reconhecível e sem rotação incorreta."
+  },
+  "havai/attraction-5": {
+    "decision": "rejected",
+    "notes": "Pessoa pedindo carona domina a imagem; não caracteriza a North Shore."
+  },
+  "havai/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Close de fachada Gucci com pouco entorno; não caracteriza Waikiki como bairro."
+  },
+  "havai/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Pessoas fantasiadas no Halloween; evento/retrato sem contexto suficiente do bairro."
+  },
+  "havai/neighborhood-2": {
+    "decision": "accepted",
+    "notes": "Pôr do sol no litoral rochoso da North Shore com oceano e horizonte; paisagem costeira real do bairro/região."
+  },
+  "havai/region-list-0": {
+    "decision": "rejected",
+    "notes": "Fachada de agência bancária; assunto genérico não caracteriza Oahu South."
+  },
+  "havai/hotel-0": {
+    "decision": "rejected",
+    "notes": "Retrato de pessoas fantasiadas; não é contexto de hospedagem em Oahu South."
+  },
+  "havai/region-list-3": {
+    "decision": "accepted",
+    "notes": "Costa rochosa e ondas na Big Island junto a Kahakai Park; paisagem real que corresponde à região, sem inversão."
+  },
+  "havai/mistakes": {
+    "decision": "accepted",
+    "notes": "Fachada e torre do Daniel K. Inouye International Airport com nome legível em 2025; contexto real de chegada e planejamento."
+  },
+  "havai/costs": {
+    "decision": "rejected",
+    "notes": "Restaurante de poke em Viena, Áustria; país errado para pratos típicos do Havaí."
+  },
+  "havai/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Letreiro Hawaii Kai em jardim de Oahu, com texto local em inglês; foto real, clara e orientada corretamente."
+  },
+  "havai/essential-moeda": {
+    "decision": "accepted",
+    "notes": "Close real de cédula americana de cinco dólares com assinatura Lynn Malerba, foto de 2024; USD atual, sem moeda antiga."
+  }
+}

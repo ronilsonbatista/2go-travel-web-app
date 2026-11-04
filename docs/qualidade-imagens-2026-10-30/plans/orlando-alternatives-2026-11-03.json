@@ -1,0 +1,215 @@
+{
+  "city": "orlando",
+  "region": "americas",
+  "center": [
+    28.5383,
+    -81.3792,
+    50
+  ],
+  "pools": {
+    "attractions-attraction-3": {
+      "query": "Kennedy Space Center",
+      "required": [
+        "kennedy space"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-4": {
+      "query": "Lake Eola Orlando",
+      "required": [
+        "lake eola"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-5": {
+      "query": "International Drive Orlando",
+      "required": [
+        "international drive"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "International Drive Orlando",
+      "required": [
+        "international drive"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-1"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Walt Disney World Florida",
+      "required": [
+        "disney"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-0"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "International Drive Orlando",
+      "required": [
+        "international drive"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "support-arrival": {
+      "query": "Orlando International Airport terminal",
+      "required": [
+        "orlando"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "mistakes"
+      ],
+      "offset": 100
+    },
+    "support-food": {
+      "query": "Orlando Florida barbecue",
+      "required": [
+        "barbecue|barbeque|bbq"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ],
+      "offset": 100
+    },
+    "support-icon": {
+      "query": "Walt Disney World Florida",
+      "required": [
+        "disney"
+      ],
+      "locationPatterns": [
+        "orlando|florida|kennedy space"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "tips"
+      ],
+      "offset": 100
+    },
+    "support-currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    },
+    "support-documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    },
+    "support-trip-1": {
+      "query": "Winter Park Florida",
+      "required": [
+        "winter park"
+      ],
+      "locationPatterns": [
+        "florida|united states|usa"
+      ],
+      "countryPattern": "florida|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        28.6,
+        -81.35,
+        20
+      ],
+      "offset": 100
+    }
+  }
+}

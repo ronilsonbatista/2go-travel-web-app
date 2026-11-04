@@ -1,0 +1,2325 @@
+[
+  {
+    "key": "los-angeles/home",
+    "slot": "home",
+    "topic": "Los Angeles",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "los-angeles/guide-card",
+    "slot": "guide-card",
+    "topic": "Los Angeles",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "los-angeles/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Los Angeles",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "los-angeles/home-slide",
+    "slot": "home-slide",
+    "topic": "Los Angeles",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "los-angeles/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Los Angeles: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "los-angeles/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Santa Monica Pier",
+    "path": "/images/destinations/los-angeles/curated-attraction-0.jpg",
+    "pool": "attractions-attraction-0",
+    "status": "pending-visual-review",
+    "title": "File:Santa Monica Pier (22944807230).jpg",
+    "imageinfo": {
+      "size": 1553043,
+      "width": 2048,
+      "height": 1152,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Santa_Monica_Pier_%2822944807230%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Santa_Monica_Pier_%2822944807230%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Santa_Monica_Pier_%2822944807230%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Santa_Monica_Pier_(22944807230).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=59025148",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-05-18 08:15:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Santa Monica Pier (22944807230)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Santa Monica Pier|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Aerial photographs of Santa Monica, California|Files from CucombreLibre Flickr stream",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.012142",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.501045",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Santa Monica Pier",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-11-22 16:43",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/33200530@N04/22944807230/\">Santa Monica Pier</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33200530@N04\">CucombreLibre</a> from New York, NY, USA",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/attraction-0.jpg",
+    "dimensions": [
+      2048,
+      1152
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Santa_Monica_Pier_%2822944807230%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "fbe2fa5923e5591f44dfa08f0ad7e18b2448baf762e61f8a7d139989c40b0b24"
+  },
+  {
+    "key": "los-angeles/map-attraction-3",
+    "slot": "map-attraction-3",
+    "topic": "Getty Center",
+    "path": "/images/destinations/los-angeles/curated-map-attraction-3.jpg",
+    "pool": "attractions-attraction-3",
+    "status": "pending-visual-review",
+    "title": "File:Aerial Getty Museum.jpg",
+    "imageinfo": {
+      "size": 1658074,
+      "width": 1731,
+      "height": 1227,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aerial_Getty_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1701,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aerial_Getty_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1701
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aerial_Getty_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aerial_Getty_Museum.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7418879",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-11-26 16:11:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Aerial Getty Museum",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Westside (Los Angeles County)|Self-published work|PD-self|Aerial photographs of Los Angeles|Museums in the United States photographed in 2009|Aerial photographs of museums|Buildings at the Getty Center",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "An aerial view of the <b><a href=\"//commons.wikimedia.org/wiki/Category:Getty_Center\" title=\"Category:Getty Center\">Getty Center</a></b> museum in <a href=\"//commons.wikimedia.org/wiki/Category:Brentwood,_Los_Angeles\" title=\"Category:Brentwood, Los Angeles\">Brentwood, Los Angeles</a>, viewed from the south.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-07-25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jelson25\" title=\"User:Jelson25\">Jelson25</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "Public domain",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Public domain",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Copyrighted": {
+          "value": "False",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "pd",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/map-attraction-3.jpg",
+    "dimensions": [
+      1731,
+      1227
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aerial_Getty_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "7ab25cd0aee7706abd74432df7173a4e72ef85303df52c1fe6e88fae40b782f7"
+  },
+  {
+    "key": "los-angeles/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Santa Monica",
+    "path": "/images/destinations/los-angeles/curated-neighborhood-0.jpg",
+    "pool": "neighborhoods-neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Santa Monica - Downtown - Beach.jpg",
+    "imageinfo": {
+      "size": 17418790,
+      "width": 7194,
+      "height": 4793,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Santa_Monica_-_Downtown_-_Beach.jpg/3840px-Santa_Monica_-_Downtown_-_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1599,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Santa_Monica_-_Downtown_-_Beach.jpg/3840px-Santa_Monica_-_Downtown_-_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1599
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Santa_Monica_-_Downtown_-_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Santa_Monica_-_Downtown_-_Beach.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=62514859",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-09-17 20:29:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Santa Monica - Downtown - Beach",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Santa Monica Bay|Images with annotations|Santa Monica State Beach|Buildings in Santa Monica, California|Self-published work|Files with coordinates missing SDC location of creation|September 2017 in Santa Monica, California|100 Wilshire, Santa Monica, California|Ocean Avenue (Santa Monica)|Wilshire Palisades|1221 Ocean Avenue|Second Street (Santa Monica)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.018764",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.500975",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Downtown Santa Monica, California, vista from the 15th store of the Huntley Hotel.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-09-06 13:40:25",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cayambe\" title=\"User:Cayambe\">Cayambe</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/neighborhood-0.jpg",
+    "dimensions": [
+      2400,
+      1599
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Santa_Monica_-_Downtown_-_Beach.jpg/3840px-Santa_Monica_-_Downtown_-_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "69f20fd9ba5d1156374acf80a4d49e0c7146efbd9dd1d250ad8b26b658b8c440"
+  },
+  {
+    "key": "los-angeles/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "Hollywood",
+    "path": "/images/destinations/los-angeles/curated-neighborhood-detail-1.jpg",
+    "pool": "neighborhoods-neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Halsey @ Hollywood Forever 10 14 2025 (54925702473).jpg",
+    "imageinfo": {
+      "size": 5674472,
+      "width": 2800,
+      "height": 3501,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Halsey_%40_Hollywood_Forever_10_14_2025_%2854925702473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3001,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Halsey_%40_Hollywood_Forever_10_14_2025_%2854925702473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3001
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Halsey_%40_Hollywood_Forever_10_14_2025_%2854925702473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Halsey_@_Hollywood_Forever_10_14_2025_(54925702473).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=178629455",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-11-17 16:17:51",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Halsey @ Hollywood Forever 10 14 2025 (54925702473)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Hollywood Forever Cemetery|Files with Assessments template missing SDC Commons quality assessment|Photographs by Justin Higuchi|Flickr images reviewed by FlickreviewR 2|Halsey (vocalist) in 2025",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "featured",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Halsey (Ashley Frangipane) performing live on the Fairbanks Lawn at Hollywood Forever cemetery in Los Angeles California on October 14 2025 (10/14/2025). Photo credit must be given to Justin Higuchi wherever these images are used.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-10-14 19:59",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/jus10h/54925702473/\">Halsey @ Hollywood Forever 10/14/2025</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/39400957@N03\">Justin Higuchi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/neighborhood-detail-1.jpg",
+    "dimensions": [
+      1919,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Halsey_%40_Hollywood_Forever_10_14_2025_%2854925702473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "12634f655a07276f730dfb8f3b1a4d7dd855c74325abd0ce4f7a91978ba2a835"
+  },
+  {
+    "key": "los-angeles/neighborhood-detail-2",
+    "slot": "neighborhood-detail-2",
+    "topic": "Downtown",
+    "path": "/images/destinations/los-angeles/curated-neighborhood-detail-2.jpg",
+    "pool": "neighborhoods-neighborhood-2",
+    "status": "pending-visual-review",
+    "title": "File:Downtown Los Angeles and 110 freeway.jpg",
+    "imageinfo": {
+      "size": 6257975,
+      "width": 3712,
+      "height": 4097,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Downtown_Los_Angeles_and_110_freeway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 2649,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Downtown_Los_Angeles_and_110_freeway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2649
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Downtown_Los_Angeles_and_110_freeway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Downtown_Los_Angeles_and_110_freeway.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75796957",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-01-13 02:29:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Downtown Los Angeles and 110 freeway",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Skyscrapers in Los Angeles|Downtown Los Angeles|Self-published work|Los Angeles night skylines|Obstacle lights in the United States|Arroyo Seco Parkway in Los Angeles",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Downtown Los Angeles skyline at night as seen from Park Row Bridge in Elysian Park neighborhood, 110 Freeway South, also known as Arroyo Seco Parkway is in view.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-01-04 17:34:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Camiloarenivar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Camiloarenivar (page does not exist)\">Camiloarenivar</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/neighborhood-detail-2.jpg",
+    "dimensions": [
+      2174,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Downtown_Los_Angeles_and_110_freeway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "5886c42d19098731ac93755553f5f68c69cf019918d876c9d5a0c1b208260657"
+  },
+  {
+    "key": "los-angeles/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "West Hollywood",
+    "path": "/images/destinations/los-angeles/curated-neighborhood-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Pacific Design Center from West Hollywood Library.jpg",
+    "imageinfo": {
+      "size": 3248214,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Pacific_Design_Center_from_West_Hollywood_Library.jpg/3840px-Pacific_Design_Center_from_West_Hollywood_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Pacific_Design_Center_from_West_Hollywood_Library.jpg/3840px-Pacific_Design_Center_from_West_Hollywood_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Pacific_Design_Center_from_West_Hollywood_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pacific_Design_Center_from_West_Hollywood_Library.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=143178074",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-12-30 22:01:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Pacific Design Center from West Hollywood Library",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Pacific Design Center|Self-published work|Files with coordinates missing SDC location of creation|Streets in West Hollywood, California",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.081933",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.384011",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The Pacific Design Center in December 2023. Photo taken from across the street at the West Hollywood Library.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-12-30 13:42:08",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Blervis",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/neighborhood-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Pacific_Design_Center_from_West_Hollywood_Library.jpg/3840px-Pacific_Design_Center_from_West_Hollywood_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2c2c256ea94c461951e0f7243b6de49c4b478f09272f4c5e73029feae8c51040"
+  },
+  {
+    "key": "los-angeles/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Westside",
+    "path": "/images/destinations/los-angeles/curated-hotel-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Los-Angeles-UCLA-and-Westwood-Aerial-view-from-south-August-2014.jpg",
+    "imageinfo": {
+      "size": 2862541,
+      "width": 3264,
+      "height": 1840,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Los-Angeles-UCLA-and-Westwood-Aerial-view-from-south-August-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1353,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Los-Angeles-UCLA-and-Westwood-Aerial-view-from-south-August-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1353
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Los-Angeles-UCLA-and-Westwood-Aerial-view-from-south-August-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Los-Angeles-UCLA-and-Westwood-Aerial-view-from-south-August-2014.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35019423",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-08-30 06:27:09",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Los-Angeles-UCLA-and-Westwood-Aerial-view-from-south-August-2014",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with HTC One X|CC-Zero|Wilshire Boulevard|Self-published work|Aerial photographs of Los Angeles|Buildings in Westwood, Los Angeles|Campus of the University of California, Los Angeles",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Wilshire Blvd is the street running horizontally with the tall buildings.  UCLA campus is above it.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-08-20 11:03:32",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Firstcultural\" title=\"User:Firstcultural\">Alfred Twu</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/hotel-0.jpg",
+    "dimensions": [
+      2400,
+      1353
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Los-Angeles-UCLA-and-Westwood-Aerial-view-from-south-August-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "2450f3630e98b64212ec5cddc61edef4083ae109cbe974f5f7f07e2dfa51eb49"
+  },
+  {
+    "key": "los-angeles/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Westside",
+    "path": "/images/destinations/los-angeles/curated-hotel-list-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Farsi Café (West Los Angeles, Los Angeles).jpg",
+    "imageinfo": {
+      "size": 5994724,
+      "width": 4304,
+      "height": 4278,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Farsi_Caf%C3%A9_%28West_Los_Angeles%2C_Los_Angeles%29.jpg/3840px-Farsi_Caf%C3%A9_%28West_Los_Angeles%2C_Los_Angeles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 2386,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Farsi_Caf%C3%A9_%28West_Los_Angeles%2C_Los_Angeles%29.jpg/3840px-Farsi_Caf%C3%A9_%28West_Los_Angeles%2C_Los_Angeles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2386
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Farsi_Caf%C3%A9_%28West_Los_Angeles%2C_Los_Angeles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Farsi_Caf%C3%A9_(West_Los_Angeles,_Los_Angeles).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=151913584",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-08-28 16:03:31",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Farsi Café (West Los Angeles, Los Angeles)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Files with coordinates missing SDC location of creation|Restaurants in the United States photographed in 2024|United States photographs taken on 2024-08-25|August 2024 in Los Angeles|Photographs by Alexis Doine|Westwood Boulevard|Persian shops in Tehrangeles|Streets in West Los Angeles|Restaurants in West Los Angeles|Persian style restaurants in Los Angeles",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.047897",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.435325",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Farsi Café (West Los Angeles, Los Angeles).",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-08-26 15:36:36",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Alexis Doine",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/hotel-list-0.jpg",
+    "dimensions": [
+      2400,
+      2386
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Farsi_Caf%C3%A9_%28West_Los_Angeles%2C_Los_Angeles%29.jpg/3840px-Farsi_Caf%C3%A9_%28West_Los_Angeles%2C_Los_Angeles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "31014810d08dba2f2b2af8c562bf5984ea1b2783f7ac11bd50c1249e79bec453"
+  },
+  {
+    "key": "los-angeles/region-1",
+    "slot": "region-1",
+    "topic": "Hollywood",
+    "path": "/images/destinations/los-angeles/curated-region-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Circus Liquor, North Hollywood, California.JPG",
+    "imageinfo": {
+      "size": 1065808,
+      "width": 2025,
+      "height": 3038,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Circus_Liquor%2C_North_Hollywood%2C_California.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3601,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Circus_Liquor%2C_North_Hollywood%2C_California.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3601
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Circus_Liquor%2C_North_Hollywood%2C_California.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Circus_Liquor,_North_Hollywood,_California.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17965604",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-12-18 08:16:00",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Circus Liquor, North Hollywood, California",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "2008 in California|GFDL|Taken with Pentax Optio V10|Clowns from the United States|License migration redundant|Alcohol advertisements|North Hollywood, Los Angeles|Vineland Avenue|Shop signs in California|Liquor stores in California|Neon signs in California|Self-published work|Built in Los Angeles in 1959|Sculptures of clowns|Signs in North Hollywood, Los Angeles",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Circus Liquor, 5600 Vineland, North Hollywood, California. Built in 1959.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2008-04",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">self-made</bdi></i></span>)",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/User:Cbl62\" class=\"extiw\" title=\"en:User:Cbl62\">Cbl62</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Cbl62\" class=\"extiw\" title=\"en:User talk:Cbl62\">talk</a>)",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/User:Cbl62\" class=\"extiw\" title=\"wikipedia:User:Cbl62\">Cbl62</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/region-1.jpg",
+    "dimensions": [
+      1600,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Circus_Liquor%2C_North_Hollywood%2C_California.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "339c471dec6b38413233dfa4bee321e76e315d33e9d6da9f2b20b4a6ae454fe9"
+  },
+  {
+    "key": "los-angeles/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Hollywood",
+    "path": "/images/destinations/los-angeles/curated-hotel-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Griffith Observatory from E Hollywood, Los Angeles.jpg",
+    "imageinfo": {
+      "size": 2321830,
+      "width": 3456,
+      "height": 2592,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Griffith_Observatory_from_E_Hollywood%2C_Los_Angeles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Griffith_Observatory_from_E_Hollywood%2C_Los_Angeles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Griffith_Observatory_from_E_Hollywood%2C_Los_Angeles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Griffith_Observatory_from_E_Hollywood,_Los_Angeles.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=114913858",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-02-02 17:24:50",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Griffith Observatory from E Hollywood, Los Angeles",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Griffith Observatory|Self-published work|Files with coordinates missing SDC location of creation|Buildings in East Hollywood, Los Angeles|Streets in East Hollywood, Los Angeles",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.092750",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.297339",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of Griffith Observatory from Kenmore Avenue, East Hollywood, Los Angeles",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-01-28 11:09:28",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Downtowngal\" title=\"User:Downtowngal\">Downtowngal</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Griffith_Observatory_from_E_Hollywood%2C_Los_Angeles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "99cd9287cb74b1b9b038b5575bb5b7c65231614c11a01c7e9f8b520e9c027b8b"
+  },
+  {
+    "key": "los-angeles/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Hollywood",
+    "path": "/images/destinations/los-angeles/curated-hotel-list-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Hollywood Hills with view of the Hollywood Sign.jpg",
+    "imageinfo": {
+      "size": 2746605,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Hollywood_Hills_with_view_of_the_Hollywood_Sign.jpg/3840px-Hollywood_Hills_with_view_of_the_Hollywood_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Hollywood_Hills_with_view_of_the_Hollywood_Sign.jpg/3840px-Hollywood_Hills_with_view_of_the_Hollywood_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hollywood_Hills_with_view_of_the_Hollywood_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hollywood_Hills_with_view_of_the_Hollywood_Sign.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=182553701",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-01-27 17:41:12",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Hollywood Hills with view of the Hollywood Sign",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Hollywood Sign|Self-published work|Files with coordinates missing SDC location of creation|Hollywood Hills, Los Angeles",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.100814",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.294358",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "View of the Hollywood Hills and Hollywood sign taken from Barnsdall Park",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-12-08 14:40:56",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mundanemetal&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mundanemetal (page does not exist)\">Mundanemetal</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/hotel-list-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Hollywood_Hills_with_view_of_the_Hollywood_Sign.jpg/3840px-Hollywood_Hills_with_view_of_the_Hollywood_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "4f09a3583c858cb374a56ff1864c5c676622454f1b1e81512e68050f22e65557"
+  },
+  {
+    "key": "los-angeles/region-2",
+    "slot": "region-2",
+    "topic": "DTLA",
+    "path": "/images/destinations/los-angeles/curated-region-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Downtown Los Angeles at Night.jpg",
+    "imageinfo": {
+      "size": 2940682,
+      "width": 2846,
+      "height": 1601,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Downtown_Los_Angeles_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Downtown_Los_Angeles_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Downtown_Los_Angeles_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Downtown_Los_Angeles_at_Night.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75796956",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-05-28 12:12:42",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Downtown Los Angeles at Night",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Downtown Los Angeles|Views from the Griffith Observatory|Self-published work|Los Angeles night skylines|Obstacle lights in the United States",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "downtown Los Angeles at night as seen from Griffith Park Observatory",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-01-03 17:37:58",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Camiloarenivar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Camiloarenivar (page does not exist)\">Camiloarenivar</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/region-2.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Downtown_Los_Angeles_at_Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "077a277c318c65d1799ace77156936d1c73f809b62c0e7c4d27a6d55d1ca0ff6"
+  },
+  {
+    "key": "los-angeles/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em DTLA",
+    "path": "/images/destinations/los-angeles/curated-hotel-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Downtown Los Angeles - February 2024 - Sarah Stierch 03.jpg",
+    "imageinfo": {
+      "size": 4112329,
+      "width": 5712,
+      "height": 4284,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch_03.jpg/3840px-Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch_03.jpg/3840px-Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145431890",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-02-16 23:11:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Downtown Los Angeles - February 2024 - Sarah Stierch 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Downtown Los Angeles|Self-published work|Traffic signals in Los Angeles|Photos by Sarah Stierch|Files with coordinates missing SDC location of creation|February 2024 in Los Angeles|United States photographs taken on 2024-02-05|Pedestrian signal push buttons in California",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.048686",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.259011",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Downtown Los Angeles",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 5 February 2024",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Missvain\" title=\"User:Missvain\">Missvain</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/hotel-2.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch_03.jpg/3840px-Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "1cc342b4527b2105c65f063cdcf34357526ecac95cf26aeb6a761896d26e7ea4"
+  },
+  {
+    "key": "los-angeles/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em DTLA",
+    "path": "/images/destinations/los-angeles/curated-hotel-list-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Downtown Los Angeles - February 2024 - Sarah Stierch.jpg",
+    "imageinfo": {
+      "size": 2477298,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch.jpg/3840px-Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch.jpg/3840px-Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145180777",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-02-10 05:12:20",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Downtown Los Angeles - February 2024 - Sarah Stierch",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Downtown Los Angeles|Entrances in California|Self-published work|Photos by Sarah Stierch|Files with coordinates missing SDC location of creation|February 2024 in Los Angeles|United States photographs taken on 2024-02-05",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.047694",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.257194",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Entrance to a building in Downtown Los Angeles",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 5 February 2024",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Missvain\" title=\"User:Missvain\">Missvain</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/hotel-list-2.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch.jpg/3840px-Downtown_Los_Angeles_-_February_2024_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "8549fc58047a3842f46c496370b7c9dbcf24132ca1fe2addd6a65881fea68f52"
+  },
+  {
+    "key": "los-angeles/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Valley",
+    "path": "/images/destinations/los-angeles/curated-region-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:SFV & Verdugos from Panorama City.jpg",
+    "imageinfo": {
+      "size": 1689294,
+      "width": 4000,
+      "height": 3000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/SFV_%26_Verdugos_from_Panorama_City.jpg/3840px-SFV_%26_Verdugos_from_Panorama_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/SFV_%26_Verdugos_from_Panorama_City.jpg/3840px-SFV_%26_Verdugos_from_Panorama_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/SFV_%26_Verdugos_from_Panorama_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:SFV_%26_Verdugos_from_Panorama_City.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=162849539",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-03-27 05:54:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "SFV & Verdugos from Panorama City",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Washingtonia filifera (cultivated)|Verdugo Mountains|North Hollywood, Los Angeles|Self-published work|Overcast in the United States|San Fernando Valley, Los Angeles|Wat Thai of Los Angeles|Buildings in Panorama City, Los Angeles",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Eastward view of the San Fernando Valley and the Verdugo Mountains from the Kaiser Permanente Hospital in Panorama City. The Wat Thai of Los Angeles can be seen in the center.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-11-23 11:51:51",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:AragonChristopherR17Z\" title=\"User:AragonChristopherR17Z\">AragonChristopherR17Z</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/region-list-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/SFV_%26_Verdugos_from_Panorama_City.jpg/3840px-SFV_%26_Verdugos_from_Panorama_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2990db09f0d6cebd04742aac45a26c43e4eede0b70a662badfe5e4c1f025125f"
+  },
+  {
+    "key": "los-angeles/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Valley",
+    "path": "/images/destinations/los-angeles/curated-hotel-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:San Fernando Valley 12 16 2016 (188655481).jpeg",
+    "imageinfo": {
+      "size": 660861,
+      "width": 2048,
+      "height": 1365,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/San_Fernando_Valley_12_16_2016_%28188655481%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/San_Fernando_Valley_12_16_2016_%28188655481%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/San_Fernando_Valley_12_16_2016_%28188655481%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:San_Fernando_Valley_12_16_2016_(188655481).jpeg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71590685",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-08-13 22:24:16",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "<div class=\"fn\">\nSan Fernando Valley 12 16 2016</div>",
+          "source": "commons-desc-page"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "San Fernando Valley|Files with coordinates missing SDC location of creation|Photos imported with import-500px",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.131755",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.449623",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Artist": {
+          "value": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/unquietwiki\">Michael Adams</a></div>",
+          "source": "commons-desc-page"
+        },
+        "ImageDescription": {
+          "value": "<div class=\"description\">\n500px provided description: Facing North from Stone Canyon Overlook on Mulholland Drive. [#city ,#clouds ,#cloudscape ,#urban ,#california ,#skyline ,#valley ,#los angeles ,#outdoors ,#scenic ,#vista ,#view from above]</div>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "16 December 2016, 15:13:01 (UTC)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Imported from <a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/photo/188655481/san-fernando-valley-12-16-2016-by-michael-adams\">500px</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/201807id_/https://drscdn.500px.org/photo/188655481/m%3D2048/v2?webp=true&amp;sig=f42f0efb276aaf2c841e375a18bd0e3fc8fb60ec8689fe68b5a05108451de8d5\">archived version</a>) by <a rel=\"nofollow\" class=\"external text\" href=\"https://www.archiveteam.org/index.php?title=500px\">the Archive Team</a>. (<a href=\"https://iw.toolforge.org/import-500px/photo/188655481\" class=\"extiw\" title=\"toolforge:import-500px/photo/188655481\">detail page</a>)",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/3.0/deed.en\">Attribution-Share Alike 3.0 Unported</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/hotel-3.jpg",
+    "dimensions": [
+      2048,
+      1365
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/San_Fernando_Valley_12_16_2016_%28188655481%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "27cf1667183f3593825a0cf32c2020c6572467b5e9b425234cfb1a9acd6e96bd"
+  },
+  {
+    "key": "los-angeles/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Valley",
+    "path": "/images/destinations/los-angeles/curated-hotel-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Los Angeles CA 20181207 (173).jpg",
+    "imageinfo": {
+      "size": 382669,
+      "width": 3264,
+      "height": 2448,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Los_Angeles_CA_20181207_%28173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Los_Angeles_CA_20181207_%28173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Los_Angeles_CA_20181207_%28173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_CA_20181207_(173).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150595823",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-07-21 14:49:50",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Los Angeles CA 20181207 (173)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Files with coordinates missing SDC location of creation|Hospitals in the San Fernando Valley, Los Angeles|Buildings in Northridge, Los Angeles",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.220781",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.535919",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Los Angeles",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-12-07 16:28:40",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sony_19th\" title=\"User:Sony 19th\">Sony 1992</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Los_Angeles_CA_20181207_%28173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "fd26bc33874eadcf0a29fa7c5651b4f5794384a668c48e0bbe141174968702df"
+  },
+  {
+    "key": "los-angeles/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "path": "/images/destinations/los-angeles/curated-essential-transporte.jpg",
+    "pool": "support-transport",
+    "status": "pending-visual-review",
+    "title": "File:7th St Metro Center Platform 2025.jpg",
+    "imageinfo": {
+      "size": 6037804,
+      "width": 5614,
+      "height": 4210,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/7th_St_Metro_Center_Platform_2025.jpg/3840px-7th_St_Metro_Center_Platform_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/7th_St_Metro_Center_Platform_2025.jpg/3840px-7th_St_Metro_Center_Platform_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/7th_St_Metro_Center_Platform_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:7th_St_Metro_Center_Platform_2025.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=169387092",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-07-07 06:09:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "7th St Metro Center Platform 2025",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "E Line (Los Angeles Metro)|7th Street/Metro Center station|A Line (Los Angeles Metro)|D Line (Los Angeles Metro)|B Line (Los Angeles Metro)|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.048217",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.258811",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Light rail and subway platforms of LA Metro's 7th St/Metro Center station. The light rail tracks for the A and E lines cross over the heavy rail (subway) tracks of the B and D lines.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2025-07-06 13:04:06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:DJTechYT\" title=\"User:DJTechYT\">DJTechYT</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/essential-transporte.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/7th_St_Metro_Center_Platform_2025.jpg/3840px-7th_St_Metro_Center_Platform_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "bfed9ef6941d56d4ee48f456f0184588f05e7fcb81a8bbfbf1839acead66402a"
+  },
+  {
+    "key": "los-angeles/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/los-angeles/curated-essential-idioma.jpg",
+    "pool": "support-language",
+    "status": "pending-visual-review",
+    "title": "File:Los Angeles (California, USA), Santa Monica Beach, Will Rogers Monument -- 2012 -- 5306.jpg",
+    "imageinfo": {
+      "size": 18417546,
+      "width": 4981,
+      "height": 3456,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Los_Angeles_%28California%2C_USA%29%2C_Santa_Monica_Beach%2C_Will_Rogers_Monument_--_2012_--_5306.jpg/3840px-Los_Angeles_%28California%2C_USA%29%2C_Santa_Monica_Beach%2C_Will_Rogers_Monument_--_2012_--_5306.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1665,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Los_Angeles_%28California%2C_USA%29%2C_Santa_Monica_Beach%2C_Will_Rogers_Monument_--_2012_--_5306.jpg/3840px-Los_Angeles_%28California%2C_USA%29%2C_Santa_Monica_Beach%2C_Will_Rogers_Monument_--_2012_--_5306.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1665
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Los_Angeles_%28California%2C_USA%29%2C_Santa_Monica_Beach%2C_Will_Rogers_Monument_--_2012_--_5306.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_(California,_USA),_Santa_Monica_Beach,_Will_Rogers_Monument_--_2012_--_5306.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30026851",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-11-19 11:34:49",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Los Angeles (California, USA), Santa Monica Beach, Will Rogers Monument -- 2012 -- 5306",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Photographs by Dietmar Rabich/Quality images of the United States|Taken with Canon EOS 600D|ISO speed rating 100|Taken with Canon EF-S 18-135mm F3.5-5.6 IS|Photographs with aspect ratio of 13:9|Summer in California|Lawns in California|Historical information signs in California|Plaques in Los Angeles County, California|Self-published work|Photographs by Dietmar Rabich/United States|Exposure time 1/320 sec|Photographs by Dietmar Rabich/Quality images|Information field template with formatting|Signs in Los Angeles|Photographs by Dietmar Rabich/Quality images of plants|Template Unknown (artist)|Plaques to Will Rogers|F-number f/10|July 2012 in Los Angeles|Changes of XRay's photographs of the recent weeks|Images by XRay (flat list)|Photographs by Dietmar Rabich/Quality images of gardens and parks|United States photographs taken on 2012-07-20|English-language plaques in the United States|Bronze plaques in the United States|Plaques referencing 1952 in the United States|Historic plaques in California|Ground-based plaques in California|Lens focal length 41 mm|Photographs by Dietmar Rabich/Quality images of plaques|Three-quarter views of objects|Signs in Santa Monica, California|Plaques to transport in the United States|Photographs by Dietmar Rabich/Year/2012|Locations along U.S. Route 66 in Los Angeles County, California",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "34.015000",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-118.502000",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<a href=\"https://en.wikipedia.org/wiki/Will_Rogers\" class=\"extiw\" title=\"en:Will Rogers\">Will Rogers</a> Monument in <a href=\"https://en.wikipedia.org/wiki/Los_Angeles\" class=\"extiw\" title=\"en:Los Angeles\">Los Angeles</a>/St Monica <a href=\"https://en.wikipedia.org/wiki/California\" class=\"extiw\" title=\"en:California\">California</a>, USA",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 20 July 2012, 11:47",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\">Self-photographed</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table class=\"layouttemplate navigation-not-searchable\" style=\"margin:.25em;padding:.25em .5em;background-color:var(--background-color-base,#ffffff);color:inherit;border:1px solid var(--background-color-disabled,#eeeeee)\" data-nosnippet=\"\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/40px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"14\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/60px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1000\" data-file-height=\"600\"></span></span>\n</td>\n<td>Dieser Text und viele andere auch sind ebenso in deutscher Sprache verfügbar. Um diese sehen zu können, wähle bitte auf dieser Webseite die Spracheinstellung „Deutsch“.\n</td></tr></tbody></table><div style=\"clear:both;border:1px solid var(--background-color-disabled,#eeeeee);margin:.25em;padding:.25em .5em;background-color:var(--background-color-base,#ffffff);color:inherit;font-size:90%;\" class=\"searchaux\" data-nosnippet=\"\">\n<figure class=\"mw-halign-right\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:HSSection_sign.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/HSSection_sign.svg/120px-HSSection_sign.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"100\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/HSSection_sign.svg/250px-HSSection_sign.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"156\" data-file-height=\"156\"></a><figcaption></figcaption></figure><figure class=\"mw-halign-right\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Cc_by-sa_(1).svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cc_by-sa_%281%29.svg/120px-Cc_by-sa_%281%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"35\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cc_by-sa_%281%29.svg/250px-Cc_by-sa_%281%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"120\" data-file-height=\"42\"></a><figcaption></figcaption></figure><div><b>I. Licence</b></div>\n<div style=\"margin-top:0.5em;\">This photograph is protected by copyright law. However, it may be used for free by anyone, provided it is used in accordance with the license <b>Creative Commons License <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed\">“Attribution-ShareAlike 4.0 International”</a></b> (CC BY-SA 4.0). These include, among other things, the naming of the author and the license, as well as the setting of a link to the license text or its complete imprint. The attribution should be done as follows:</div>\n<div style=\"margin-top:0.5em; text-align:center;\"><i><a href=\"//commons.wikimedia.org/wiki/User:XRay\" title=\"User:XRay\">Dietmar Rabich</a> / <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a> / <span class=\"plainlinks noprint\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/File:Los_Angeles_(California,_USA),_Santa_Monica_Beach,_Will_Rogers_Monument_--_2012_--_5306.jpg\" href=\"https://commons.wikimedia.org/wiki/File:Los_Angeles_(California,_USA),_Santa_Monica_Beach,_Will_Rogers_Monument_--_2012_--_5306.jpg\">“Los Angeles (California, USA), Santa Monica Beach, Will Rogers Monument -- 2012 -- 5306”</a></span> / <span class=\"plainlinks noprint\"><a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a></span></i></div>\n<div style=\"margin-top:0.5em;\">Please read the text of the license carefully before using the photograph. If you do not agree with the conditions of the license or if you do not understand these conditions, please refrain from using the photo. If you have any questions regarding the license or the reuse of the image, please contact me before using it. If you do not comply with the terms of the license, you do not acquire any right to use the image. If you need another license to use, please contact the author <b>before</b> using.</div>\n<div style=\"margin-top:0.5em;\">For informations about the licence see section <a class=\"mw-selflink-fragment\" href=\"#ImgLic\">Licensing</a> or as <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">human-readable summary</a> or as <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">full licence text</a> at Creative Commons. In addition to the above, a link to the source - so this page with the descriptions and license terms - is appreciated. More information or examples of use can be found at <a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">re-use (with example file)</a>. The <a rel=\"nofollow\" class=\"external text\" href=\"https://lizenzhinweisgenerator.de/?lang=en&amp;url=https://commons.wikimedia.org/wiki/File:Los_Angeles_(California,_USA),_Santa_Monica_Beach,_Will_Rogers_Monument_--_2012_--_5306.jpg\">Attribution Generator</a> is helpful in licensing matters.</div>\n<div style=\"margin:0.5em auto 1em;text-align:center;\" class=\"plainlinks\"><span class=\"plainlinks\"><a rel=\"nofollow\" class=\"external text\" href=\"https://lizenzhinweisgenerator.de/?lang=en&amp;url=https://commons.wikimedia.org/wiki/File:Los_Angeles_(California,_USA),_Santa_Monica_Beach,_Will_Rogers_Monument_--_2012_--_5306.jpg\"><span class=\"submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-secondary ui-button-blue\" role=\"button\"><span class=\"ui-button-text\">Generate License <b>Attribution</b></span><span class=\"ui-button-icon-secondary ui-icon ui-icon-extlink\"> </span></span></a></span></div>\n<div style=\"margin-top:0.5em;\">As an alternative to the Creative Commons License <i>CC BY-SA 4.0</i>, the <i><a href=\"https://en.wikipedia.org/wiki/Free_Art_License\" class=\"extiw\" title=\"en:Free Art License\">Free Art License</a></i> (<a rel=\"nofollow\" class=\"external text\" href=\"http://artlibre.org/licence/lal/en/\">from version 1.3</a>) may also be used.</div>\n<div style=\"margin-top:0.75em;\"><b>II. Fairness</b></div>\n<div style=\"margin-top:0.5em;\">From printed materials and other tangible products that use that work, the user is asked to send a copy to the author as thank you. However, this is not a condition for the use of the photo, but a voluntary service. The mailing address can be requested via the contact options.</div>\n<div style=\"margin-top:0.5em;\">Please note that the author had quite considerable effort to draw up this file. Thus, it is only fair to comply with the conditions of <a href=\"https://en.wikipedia.org/wiki/Free_license\" class=\"extiw\" title=\"en:Free license\">free licenses</a> listed here. In the case of violation of the license conditions, the rights granted hereunder will expire automatically.</div>\n<div style=\"margin-top:0.75em; clear: both;\"><b>III. Disclaimer</b></div>\n<div style=\"margin-top:0.5em;\">Please note that the rights granted under the license apply exclusively to the photograph itself, but not to the rights of third parties — such as copyrights or property rights in the object depicted or the personal rights of any individuals who may be depicted. (See <a href=\"//commons.wikimedia.org/wiki/Commons:L\" class=\"mw-redirect\" title=\"Commons:L\">licences</a> and <a href=\"//commons.wikimedia.org/wiki/Commons:SOSUMI\" class=\"mw-redirect\" title=\"Commons:SOSUMI\">non-copyright restrictions</a>.) I do not grant any warranty that the subsequent use of the photograph is legally possible concerning the object or person shown in the photograph. You are responsible to check and respect these rights in the publication in the respective medium or country.</div>\n<div style=\"margin-top:0.5em;\">The author is not responsible for the accuracy of the information contained herein (description, title, etc.). Likewise, the author assumes no liability for further use. Please note the <a href=\"//commons.wikimedia.org/wiki/Commons:General_disclaimer\" title=\"Commons:General disclaimer\">general disclaimer</a> and please read <a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">reusing content outside Wikimedia</a> too.</div>\n<div style=\"margin-top:0.75em;\"><b>IV. Contact</b></div>\n<div style=\"margin-top:0.5em;\"><b><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span> <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/XRay\" title=\"Special:EmailUser/XRay\">E-mail to the author</a></b> or the <a href=\"//commons.wikimedia.org/wiki/User_talk:XRay\" title=\"User talk:XRay\">author's talk page</a> <small>or the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.rabich.de/\">author's website</a></small></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<b><a href=\"//commons.wikimedia.org/wiki/User:XRay\" title=\"User:XRay\">Dietmar Rabich</a></b>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/los-angeles/essential-idioma.jpg",
+    "dimensions": [
+      2400,
+      1665
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Los_Angeles_%28California%2C_USA%29%2C_Santa_Monica_Beach%2C_Will_Rogers_Monument_--_2012_--_5306.jpg/3840px-Los_Angeles_%28California%2C_USA%29%2C_Santa_Monica_Beach%2C_Will_Rogers_Monument_--_2012_--_5306.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c859ed8e55625a3e33e5bdf1d7566e277a49638d7cfa8c0b802505de1900fc0a"
+  },
+  {
+    "key": "los-angeles/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  }
+]

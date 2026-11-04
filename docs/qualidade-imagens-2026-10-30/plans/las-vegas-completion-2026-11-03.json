@@ -1,0 +1,271 @@
+{
+  "city": "las-vegas",
+  "region": "americas",
+  "center": [
+    36.1699,
+    -115.1398,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Las Vegas Strip panorama",
+      "required": [
+        "las vegas"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home",
+        "guide-highlight",
+        "home-slide"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-1": {
+      "query": "Bellagio Fountains Las Vegas",
+      "required": [
+        "bellagio"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-1"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-4": {
+      "query": "High Roller Las Vegas",
+      "required": [
+        "high roller"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Las Vegas Strip",
+      "required": [
+        "las vegas strip"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-0"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "Downtown Las Vegas",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "Summerlin Nevada",
+      "required": [
+        "summerlin"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-2"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "Paradise Nevada",
+      "required": [
+        "paradise"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Resorts World Las Vegas",
+      "required": [
+        "resorts world"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Fremont Street Las Vegas",
+      "required": [
+        "fremont"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Red Rock Canyon Nevada",
+      "required": [
+        "red rock canyon"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "limit": 100
+    },
+    "support-transport": {
+      "query": "Las Vegas Monorail",
+      "required": [
+        "monorail"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ]
+    },
+    "support-icon": {
+      "query": "Las Vegas Strip",
+      "required": [
+        "las vegas strip"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-1",
+        "tips"
+      ]
+    },
+    "support-language": {
+      "query": "Las Vegas Nevada sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "las vegas|nevada|hoover dam|boulder city"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "support-currency": {
+      "query": "United States dollar banknotes Federal Reserve",
+      "required": [
+        "federal reserve|us dollar|united states dollar"
+      ],
+      "locationPatterns": [
+        "united states|american|us dollar"
+      ],
+      "countryPattern": "united states|american|us dollar",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-trip-2": {
+      "query": "Lake Mead Nevada",
+      "required": [
+        "lake mead"
+      ],
+      "locationPatterns": [
+        "nevada|united states|usa"
+      ],
+      "countryPattern": "nevada|united states|usa",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-2"
+      ],
+      "center": [
+        36.0,
+        -114.8,
+        60
+      ]
+    }
+  }
+}

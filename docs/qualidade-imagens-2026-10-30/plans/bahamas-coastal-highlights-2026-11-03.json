@@ -1,0 +1,33 @@
+{
+  "city": "bahamas",
+  "region": "americas",
+  "center": [
+    24.5,
+    -76,
+    650
+  ],
+  "pools": {
+    "nassau": {
+      "query": "\"Nassau\" \"Bahamas\" \"beach\"",
+      "required": [
+        "bahamas|nassau",
+        "beach|coast|harbo|plage|praia"
+      ],
+      "requiredTitle": "nassau|bahamas",
+      "locationPatterns": [
+        "bahamas|nassau"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "portrait|military|hurricane|storm damage|wreck|map|diagram|cruise ship interior|museum|painting|engraving|postcard",
+      "slots": [
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-thumb"
+      ]
+    }
+  }
+}

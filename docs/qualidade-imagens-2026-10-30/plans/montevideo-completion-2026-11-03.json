@@ -1,0 +1,285 @@
+{
+  "city": "montevideo",
+  "region": "americas",
+  "center": [
+    -34.9011,
+    -56.1645,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Montevideo skyline rambla",
+      "required": [
+        "montevideo"
+      ],
+      "locationPatterns": [
+        "montevideo|uruguay"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "intro",
+        "home",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-1": {
+      "query": "Ciudad Vieja Montevideo",
+      "required": [
+        "ciudad vieja"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-3": {
+      "query": "Pocitos Montevideo",
+      "required": [
+        "pocitos"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-3"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "limit": 100
+    },
+    "attractions-attraction-5": {
+      "query": "Parque Rodo Montevideo",
+      "required": [
+        "parque rodo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-5"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "Centro Montevideo",
+      "required": [
+        "centro|downtown|avenida 18"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1"
+      ],
+      "limit": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "Pocitos Montevideo",
+      "required": [
+        "pocitos"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Ciudad Vieja Montevideo",
+      "required": [
+        "ciudad vieja"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "countryPattern": "uruguay",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "hotel-list-0"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Pocitos Montevideo",
+      "required": [
+        "pocitos"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "countryPattern": "uruguay",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "hotel-1",
+        "hotel-list-1"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Rambla Montevideo",
+      "required": [
+        "rambla"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "countryPattern": "uruguay",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-2"
+      ],
+      "limit": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Carrasco Montevideo",
+      "required": [
+        "carrasco"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "countryPattern": "uruguay",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3"
+      ],
+      "limit": 100
+    },
+    "support-arrival": {
+      "query": "Carrasco International Airport",
+      "required": [
+        "carrasco"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "countryPattern": "uruguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-0"
+      ]
+    },
+    "support-food": {
+      "query": "Chivito Montevideo",
+      "required": [
+        "chivito"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "countryPattern": "uruguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ]
+    },
+    "support-icon": {
+      "query": "Rambla Montevideo",
+      "required": [
+        "rambla"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "countryPattern": "uruguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "tips"
+      ]
+    },
+    "support-language": {
+      "query": "Montevideo Uruguay sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "montevideo|montevideu"
+      ],
+      "countryPattern": "uruguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ]
+    },
+    "support-currency": {
+      "query": "Uruguayan peso banknotes",
+      "required": [
+        "uruguay|uruguayan peso"
+      ],
+      "locationPatterns": [
+        "uruguay"
+      ],
+      "countryPattern": "uruguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-documents": {
+      "query": "Uruguayan passport cover",
+      "required": [
+        "uruguayan passport|pasaporte uruguayo"
+      ],
+      "locationPatterns": [
+        "uruguay"
+      ],
+      "countryPattern": "uruguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ]
+    },
+    "support-trip-0": {
+      "query": "Punta del Este Uruguay",
+      "required": [
+        "punta del este"
+      ],
+      "locationPatterns": [
+        "uruguay"
+      ],
+      "countryPattern": "uruguay",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-0"
+      ],
+      "center": [
+        -34.96,
+        -54.95,
+        25
+      ]
+    }
+  }
+}

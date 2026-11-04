@@ -1,0 +1,2597 @@
+[
+  {
+    "key": "havana/home",
+    "slot": "home",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/guide-card",
+    "slot": "guide-card",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/home-slide",
+    "slot": "home-slide",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Havana: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "havana/attraction-5",
+    "slot": "attraction-5",
+    "topic": "Vedado",
+    "path": "/images/destinations/havana/curated-attraction-5.jpg",
+    "pool": "attractions-attraction-5",
+    "status": "pending-visual-review",
+    "title": "File:Barrio Vedado (27128268878).jpg",
+    "imageinfo": {
+      "size": 23757174,
+      "width": 3990,
+      "height": 5990,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Barrio_Vedado_%2827128268878%29.jpg/3840px-Barrio_Vedado_%2827128268878%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3603,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Barrio_Vedado_%2827128268878%29.jpg/3840px-Barrio_Vedado_%2827128268878%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3603
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Barrio_Vedado_%2827128268878%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barrio_Vedado_(27128268878).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77144819",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-08-12 06:23:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Barrio Vedado (27128268878)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Views of Havana|Vedado|Flickr images missing SDC creator|2017 in Havana|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.142076",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.388341",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Barrio Vedado",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-08 19:11",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/27128268878/\">Barrio Vedado</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/attraction-5.jpg",
+    "dimensions": [
+      1599,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Barrio_Vedado_%2827128268878%29.jpg/3840px-Barrio_Vedado_%2827128268878%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "9e90cc3549fddd205db1226ac8c4594c6a1d39c94adc94e1a74e60d1e73d75ee"
+  },
+  {
+    "key": "havana/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Habana Vieja",
+    "path": "/images/destinations/havana/curated-neighborhood-0.jpg",
+    "pool": "neighborhoods-neighborhood-0",
+    "status": "pending-visual-review",
+    "title": "File:Habana Vieja (36679981280).jpg",
+    "imageinfo": {
+      "size": 28395970,
+      "width": 6140,
+      "height": 4140,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Habana_Vieja_%2836679981280%29.jpg/3840px-Habana_Vieja_%2836679981280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1618,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Habana_Vieja_%2836679981280%29.jpg/3840px-Habana_Vieja_%2836679981280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1618
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Habana_Vieja_%2836679981280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(36679981280).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77138130",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-06 18:39:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Habana Vieja (36679981280)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Havana Vieja|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.138097",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.352542",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Habana Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-19 14:36",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/36679981280/\">Habana Vieja</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/neighborhood-0.jpg",
+    "dimensions": [
+      2400,
+      1618
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Habana_Vieja_%2836679981280%29.jpg/3840px-Habana_Vieja_%2836679981280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a94bddb94030150cf44320c7835c60da9ccad9204de10425d4278f7e341b9f15"
+  },
+  {
+    "key": "havana/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Vedado",
+    "path": "/images/destinations/havana/curated-neighborhood-1.jpg",
+    "pool": "neighborhoods-neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Barrio Vedado (37133037424).jpg",
+    "imageinfo": {
+      "size": 25230688,
+      "width": 3964,
+      "height": 5317,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Barrio_Vedado_%2837133037424%29.jpg/3840px-Barrio_Vedado_%2837133037424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3219,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Barrio_Vedado_%2837133037424%29.jpg/3840px-Barrio_Vedado_%2837133037424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3219
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Barrio_Vedado_%2837133037424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barrio_Vedado_(37133037424).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77141494",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-06-27 13:54:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Barrio Vedado (37133037424)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Plaza de la Revolución (Havana)|Vedado|Flickr images missing SDC creator|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Signs in Havana|Shops in Havana|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.143152",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.392837",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Barrio Vedado",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-12 17:02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/37133037424/\">Barrio Vedado</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/neighborhood-1.jpg",
+    "dimensions": [
+      1789,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Barrio_Vedado_%2837133037424%29.jpg/3840px-Barrio_Vedado_%2837133037424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d5d9ca6bcd9e7d439014167f4a4927def73e8fc0bd0bea5d56e36d6f41577229"
+  },
+  {
+    "key": "havana/neighborhood-detail-1",
+    "slot": "neighborhood-detail-1",
+    "topic": "Vedado",
+    "path": "/images/destinations/havana/curated-neighborhood-detail-1.jpg",
+    "pool": "neighborhoods-neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Casa particular de Teresa (Vedado, Havano) 03.jpg",
+    "imageinfo": {
+      "size": 3335992,
+      "width": 4160,
+      "height": 2336,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_03.jpg/3840px-Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1348,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_03.jpg/3840px-Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1348
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Casa_particular_de_Teresa_(Vedado,_Havano)_03.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=110526605",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-09-28 18:07:57",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Casa particular de Teresa (Vedado, Havano) 03",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Buildings in Havana|Vedado|Self-published work|2015 in Havana|Cuba photographs taken on 2015-11-17|Casas particulares in Cuba|Doors in Havana",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Casa particular de Teresa. Vedado, Havano, Kubo.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 17 November 2015, 14:18:52",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\">Self-photographed</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:RG72\" title=\"User:RG72\">RG72</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/neighborhood-detail-1.jpg",
+    "dimensions": [
+      2400,
+      1348
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_03.jpg/3840px-Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "59202053511f10ee53a2e5acb1ae786cfedd3b8a8656a6f06868a273ddfd0403"
+  },
+  {
+    "key": "havana/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Miramar",
+    "path": "/images/destinations/havana/curated-neighborhood-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Facade with Palm Trees - Miramar - Havana - Cuba.jpg",
+    "imageinfo": {
+      "size": 1862357,
+      "width": 2272,
+      "height": 1704,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Facade_with_Palm_Trees_-_Miramar_-_Havana_-_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Facade_with_Palm_Trees_-_Miramar_-_Havana_-_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Facade_with_Palm_Trees_-_Miramar_-_Havana_-_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Facade_with_Palm_Trees_-_Miramar_-_Havana_-_Cuba.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7594235",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2009-08-18 17:51:15",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Facade with Palm Trees - Miramar - Havana - Cuba",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Buildings in Havana|Miramar, Havana|Self-published work|Facades in Cuba|Arecaceae in Cuba|2009 in Havana|Roads with palm trees|Photographs by Adam Jones|Stairs in Havana",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Weathered facade with palm trees, Miramar, Havana, Cuba. December 2006.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2009-08-18",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Adam Jones <a href=\"//commons.wikimedia.org/wiki/User:Adam63\" title=\"User:Adam63\">Adam63</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Please inform author of use. Credit must read: Photo by Adam Jones adamjones.freeservers.com",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/neighborhood-3.jpg",
+    "dimensions": [
+      2272,
+      1704
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Facade_with_Palm_Trees_-_Miramar_-_Havana_-_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "3b7bad6b936417f0302eeeef280154ba904908f52a670d338aa42db24f7398c1"
+  },
+  {
+    "key": "havana/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Miramar",
+    "path": "/images/destinations/havana/curated-neighborhood-detail-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Hotel Sierra Maestra and Rio Mar in Miramar Havana 1973 PD 10.jpg",
+    "imageinfo": {
+      "size": 5713371,
+      "width": 2397,
+      "height": 1479,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hotel_Sierra_Maestra_and_Rio_Mar_in_Miramar_Havana_1973_PD_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1481,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hotel_Sierra_Maestra_and_Rio_Mar_in_Miramar_Havana_1973_PD_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1481
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hotel_Sierra_Maestra_and_Rio_Mar_in_Miramar_Havana_1973_PD_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hotel_Sierra_Maestra_and_Rio_Mar_in_Miramar_Havana_1973_PD_10.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21106273",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2012-09-05 10:59:31",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Hotel Sierra Maestra and Rio Mar in Miramar Havana 1973 PD 10",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Views of Havana|Río Almendares|El Malecón|Miramar, Havana|Self-published work|1973 in Havana|Scanned with Nikon Super Coolscan 5000 ED|Hotel Sierra Maestra (Havana)|Edificio Riomar",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Havanna 1973; Dia-Scans; Blick vom Hotel Riviera Richtung Westen, über die Mündung des Río Almendares; rüber zum Hotel Sierra Maestra und Rio Mar in Miramar Havana; heute Hotel Antiguo edificio Rosita de Ornedo",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-09-04 17:18:01",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bin_im_Garten\" title=\"User:Bin im Garten\">Bin im Garten</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/neighborhood-detail-3.jpg",
+    "dimensions": [
+      2397,
+      1479
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hotel_Sierra_Maestra_and_Rio_Mar_in_Miramar_Havana_1973_PD_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "0c9fb7a33b828c7826107ac43abb3cba350473ef0a648bde26abb9d238dfff66"
+  },
+  {
+    "key": "havana/region-0",
+    "slot": "region-0",
+    "topic": "Vieja",
+    "path": "/images/destinations/havana/curated-region-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Habana Vieja (36600495064).jpg",
+    "imageinfo": {
+      "size": 7989238,
+      "width": 3926,
+      "height": 5440,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Habana_Vieja_%2836600495064%29.jpg/3840px-Habana_Vieja_%2836600495064%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3326,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Habana_Vieja_%2836600495064%29.jpg/3840px-Habana_Vieja_%2836600495064%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3326
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Habana_Vieja_%2836600495064%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(36600495064).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77139352",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-06 19:47:03",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Habana Vieja (36600495064)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Havana Vieja|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.136158",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.349745",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Habana Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-06-01 11:15",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/36600495064/\">Habana Vieja</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/region-0.jpg",
+    "dimensions": [
+      1732,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Habana_Vieja_%2836600495064%29.jpg/3840px-Habana_Vieja_%2836600495064%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "5b0d4434854cee334afed4679590f2903ca9f1421bf42576356daf85625ffeb9"
+  },
+  {
+    "key": "havana/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Vieja",
+    "path": "/images/destinations/havana/curated-hotel-list-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Habana Vieja (35993617426).jpg",
+    "imageinfo": {
+      "size": 7374710,
+      "width": 4092,
+      "height": 4100,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Habana_Vieja_%2835993617426%29.jpg/3840px-Habana_Vieja_%2835993617426%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 2405,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Habana_Vieja_%2835993617426%29.jpg/3840px-Habana_Vieja_%2835993617426%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 2405
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Habana_Vieja_%2835993617426%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(35993617426).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77136255",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-06 16:43:18",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Habana Vieja (35993617426)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Havana Vieja|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.137552",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.349139",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Habana Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-16 16:19",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/35993617426/\">Habana Vieja</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/hotel-list-0.jpg",
+    "dimensions": [
+      2395,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Habana_Vieja_%2835993617426%29.jpg/3840px-Habana_Vieja_%2835993617426%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ea1d358689a68e6babf06fb5adcaa2926e9ee8dc874560ca44092c629413d717"
+  },
+  {
+    "key": "havana/region-1",
+    "slot": "region-1",
+    "topic": "Malecón",
+    "path": "/images/destinations/havana/curated-region-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Cuba Trip Feb-2018-003.jpg",
+    "imageinfo": {
+      "size": 590771,
+      "width": 2000,
+      "height": 1500,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cuba_Trip_Feb-2018-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cuba_Trip_Feb-2018-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cuba_Trip_Feb-2018-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cuba_Trip_Feb-2018-003.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=176615524",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2025-10-12 19:43:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Cuba Trip Feb-2018-003",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "El Malecón|2018 in Havana|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|February 2018 in Cuba",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.142297",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.375428",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Malecón, Havana",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-02-04 12:38:13",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/iconeon/39311862635/\">https://www.flickr.com/photos/iconeon/39311862635/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "Devyn Caldwell",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/region-1.jpg",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cuba_Trip_Feb-2018-003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "25b91810f3587225e1b15c125c861ff1cce74e37035f7c8cbf611c00434dc8df"
+  },
+  {
+    "key": "havana/region-list-1",
+    "slot": "region-list-1",
+    "topic": "Malecón",
+    "path": "/images/destinations/havana/curated-region-list-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Havana, Hotel Nacional De Cuba - View to Malecon. - panoramio.jpg",
+    "imageinfo": {
+      "size": 5078531,
+      "width": 3264,
+      "height": 2448,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Havana%2C_Hotel_Nacional_De_Cuba_-_View_to_Malecon._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Havana%2C_Hotel_Nacional_De_Cuba_-_View_to_Malecon._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Havana%2C_Hotel_Nacional_De_Cuba_-_View_to_Malecon._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Havana,_Hotel_Nacional_De_Cuba_-_View_to_Malecon._-_panoramio.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57881125",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-04-10 10:28:21",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Havana, Hotel Nacional De Cuba - View to Malecon. - panoramio",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "El Malecón|Panoramio files uploaded by Panoramio upload bot|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Cuba photographs taken on 2013-11-05|Signs in Havana",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.144062",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.379841",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Havana, Hotel Nacional De Cuba - View to Malecon.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 5 November 2013",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161028144737/http://www.panoramio.com/photo/107892445\">https://web.archive.org/web/20161028144737/http://www.panoramio.com/photo/107892445</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161028144746/http://www.panoramio.com/user/993814?with_photo_id=107892445\">Alexander Berezhnoy</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">Alexander Berezhnoy</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 10 April 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "Alexander Berezhnoy",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/region-list-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Havana%2C_Hotel_Nacional_De_Cuba_-_View_to_Malecon._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "e9aecbbbe55e9248cb3187ee373f7f759b200f54b8cb1ac40a12f60441140aca"
+  },
+  {
+    "key": "havana/hotel-1",
+    "slot": "hotel-1",
+    "topic": "Hotel em Malecón",
+    "path": "/images/destinations/havana/curated-hotel-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:Jumping off the Malecon in Havana Cuba.jpg",
+    "imageinfo": {
+      "size": 1989348,
+      "width": 4100,
+      "height": 2758,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Jumping_off_the_Malecon_in_Havana_Cuba.jpg/3840px-Jumping_off_the_Malecon_in_Havana_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1614,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Jumping_off_the_Malecon_in_Havana_Cuba.jpg/3840px-Jumping_off_the_Malecon_in_Havana_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1614
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Jumping_off_the_Malecon_in_Havana_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jumping_off_the_Malecon_in_Havana_Cuba.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24323750",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-01-29 19:56:26",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Jumping off the Malecon in Havana Cuba",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Taken with Nikon D90|License migration redundant|El Malecón|Waterfronts|Self-published work|Uploaded with en.wp upload wizard|Young adults of Cuba",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Boys jumping off the Malecón in Havana Cuba",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2002-07-09",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p>When I was walking along the Malecon<br>\n</p>\n<b>Previously published:</b> previously published on Flickr here: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/mennonot/4221108918/in/photostream/\">https://www.flickr.com/photos/mennonot/4221108918/in/photostream/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mennonot&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mennonot (page does not exist)\">Mennonot</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/hotel-1.jpg",
+    "dimensions": [
+      2400,
+      1614
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Jumping_off_the_Malecon_in_Havana_Cuba.jpg/3840px-Jumping_off_the_Malecon_in_Havana_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "f1264616ad6a8416c7df2c776c8b3400ebbf54389e27af8618a45e764cc5a5ce"
+  },
+  {
+    "key": "havana/hotel-list-1",
+    "slot": "hotel-list-1",
+    "topic": "Hotel em Malecón",
+    "path": "/images/destinations/havana/curated-hotel-list-1.jpg",
+    "pool": "regions-hotels-region-1",
+    "status": "pending-visual-review",
+    "title": "File:DJI 0197 crp wiki.jpg",
+    "imageinfo": {
+      "size": 180702,
+      "width": 1920,
+      "height": 1080,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/12/DJI_0197_crp_wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/DJI_0197_crp_wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/DJI_0197_crp_wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:DJI_0197_crp_wiki.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=95264999",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-10-20 18:08:20",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "DJI 0197 crp wiki",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with DJI FC2103|Views of Havana|El Malecón|Self-published work|Files with coordinates missing SDC location of creation|Aerial photographs of Havana",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.142488",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.363659",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Malecón, Havana, Cuba",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-12-31 14:02:56",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:RenaatPeeters&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:RenaatPeeters (page does not exist)\">RenaatPeeters</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/hotel-list-1.jpg",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/DJI_0197_crp_wiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "3e291afdf934afd07431ac7f22ee20dec677d520b5b5bc003d6422354d1a30f2"
+  },
+  {
+    "key": "havana/region-2",
+    "slot": "region-2",
+    "topic": "Vedado",
+    "path": "/images/destinations/havana/curated-region-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Barrio Vedado (40430191391).jpg",
+    "imageinfo": {
+      "size": 33827326,
+      "width": 5990,
+      "height": 3990,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Barrio_Vedado_%2840430191391%29.jpg/3840px-Barrio_Vedado_%2840430191391%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1599,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Barrio_Vedado_%2840430191391%29.jpg/3840px-Barrio_Vedado_%2840430191391%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1599
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Barrio_Vedado_%2840430191391%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barrio_Vedado_(40430191391).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77144732",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-08-12 06:25:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Barrio Vedado (40430191391)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Views of Havana|Vedado|Flickr images missing SDC creator|2017 in Havana|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.142352",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.386198",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Barrio Vedado",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-12 17:50",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/40430191391/\">Barrio Vedado</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/region-2.jpg",
+    "dimensions": [
+      2400,
+      1599
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Barrio_Vedado_%2840430191391%29.jpg/3840px-Barrio_Vedado_%2840430191391%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "399c8e74b8bf3d4d0dd16297dc80c326a99cd7eb1cf8354c4c68b29e5afb0f3e"
+  },
+  {
+    "key": "havana/region-list-2",
+    "slot": "region-list-2",
+    "topic": "Vedado",
+    "path": "/images/destinations/havana/curated-region-list-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Barrio Vedado (26282537188).jpg",
+    "imageinfo": {
+      "size": 19689855,
+      "width": 3904,
+      "height": 5858,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Barrio_Vedado_%2826282537188%29.jpg/3840px-Barrio_Vedado_%2826282537188%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3601,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Barrio_Vedado_%2826282537188%29.jpg/3840px-Barrio_Vedado_%2826282537188%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3601
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Barrio_Vedado_%2826282537188%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barrio_Vedado_(26282537188).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77144657",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-06-22 05:06:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Barrio Vedado (26282537188)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Vedado|Flickr images missing SDC creator|2017 in Havana|Houses in Havana|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.142647",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.391814",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Barrio Vedado",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-12 17:07",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/26282537188/\">Barrio Vedado</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/region-list-2.jpg",
+    "dimensions": [
+      1599,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Barrio_Vedado_%2826282537188%29.jpg/3840px-Barrio_Vedado_%2826282537188%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "997bcb3d24592026a3763bc937c46a016424a914b25640e95bd9f99873a2821b"
+  },
+  {
+    "key": "havana/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Vedado",
+    "path": "/images/destinations/havana/curated-hotel-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Barrio Vedado, Habana (36156792632).jpg",
+    "imageinfo": {
+      "size": 24496724,
+      "width": 5415,
+      "height": 3839,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Barrio_Vedado%2C_Habana_%2836156792632%29.jpg/3840px-Barrio_Vedado%2C_Habana_%2836156792632%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1701,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Barrio_Vedado%2C_Habana_%2836156792632%29.jpg/3840px-Barrio_Vedado%2C_Habana_%2836156792632%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1701
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Barrio_Vedado%2C_Habana_%2836156792632%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Barrio_Vedado,_Habana_(36156792632).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77136948",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-08-12 06:26:30",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Barrio Vedado, Habana (36156792632)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Views of Havana|Vedado|Flickr images missing SDC creator|2017 in Havana|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.144838",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.387483",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Barrio Vedado, Habana",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-09 08:02",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/36156792632/\">Barrio Vedado, Habana</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/hotel-2.jpg",
+    "dimensions": [
+      2400,
+      1701
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Barrio_Vedado%2C_Habana_%2836156792632%29.jpg/3840px-Barrio_Vedado%2C_Habana_%2836156792632%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "3a42d39b0d2d9bb760c37932d29776063ddbd3be81bf52611939c0524be086ea"
+  },
+  {
+    "key": "havana/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Vedado",
+    "path": "/images/destinations/havana/curated-hotel-list-2.jpg",
+    "pool": "regions-hotels-region-2",
+    "status": "pending-visual-review",
+    "title": "File:Casa particular de Teresa (Vedado, Havano) 02.jpg",
+    "imageinfo": {
+      "size": 2802772,
+      "width": 4160,
+      "height": 2336,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_02.jpg/3840px-Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1348,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_02.jpg/3840px-Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1348
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Casa_particular_de_Teresa_(Vedado,_Havano)_02.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=110526607",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-09-28 18:07:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Casa particular de Teresa (Vedado, Havano) 02",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Vedado|Self-published work|Bedrooms in Cuba|2015 in Havana|November 2015 in Cuba|Casas particulares in Cuba|Building interiors in Havana",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Casa particular de Teresa. Vedado, Havano, Kubo.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-11-17 14:16:46",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:RG72\" title=\"User:RG72\">RG72</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/hotel-list-2.jpg",
+    "dimensions": [
+      2400,
+      1348
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_02.jpg/3840px-Casa_particular_de_Teresa_%28Vedado%2C_Havano%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "2ac3c6480e71a84069d89abdcc3fc3054237fe094dc0485e04dfcca78a304a7b"
+  },
+  {
+    "key": "havana/day-0",
+    "slot": "day-0",
+    "topic": "Chegada em Havana",
+    "path": "/images/destinations/havana/curated-day-0.jpg",
+    "pool": "support-arrival",
+    "status": "pending-visual-review",
+    "title": "File:Elflugejo de la flughaveno José Martí 01.jpg",
+    "imageinfo": {
+      "size": 2621122,
+      "width": 4160,
+      "height": 2336,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Elflugejo_de_la_flughaveno_Jos%C3%A9_Mart%C3%AD_01.jpg/3840px-Elflugejo_de_la_flughaveno_Jos%C3%A9_Mart%C3%AD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1348,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Elflugejo_de_la_flughaveno_Jos%C3%A9_Mart%C3%AD_01.jpg/3840px-Elflugejo_de_la_flughaveno_Jos%C3%A9_Mart%C3%AD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1348
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Elflugejo_de_la_flughaveno_Jos%C3%A9_Mart%C3%AD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Elflugejo_de_la_flughaveno_Jos%C3%A9_Mart%C3%AD_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=110524531",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-09-28 17:01:10",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Elflugejo de la flughaveno José Martí 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "José Martí International Airport|Self-published work|2015 in Havana|2015 in aviation in Cuba|November 2015 in Cuba|Building interiors in Havana",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Elflugejo de la flughaveno José Martí. Havano, Kubo.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-11-29 12:46:09",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:RG72\" title=\"User:RG72\">RG72</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/day-0.jpg",
+    "dimensions": [
+      2400,
+      1348
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Elflugejo_de_la_flughaveno_Jos%C3%A9_Mart%C3%AD_01.jpg/3840px-Elflugejo_de_la_flughaveno_Jos%C3%A9_Mart%C3%AD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "706e456e629070040f5c3796cc81d20b8c1003f72a7a5bd3058bc9b07c337985"
+  },
+  {
+    "key": "havana/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Havana",
+    "path": "/images/destinations/havana/curated-costs.jpg",
+    "pool": "support-food",
+    "status": "pending-visual-review",
+    "title": "File:Ernest Hemingway en el muro exterior de La Bodeguita del Medio, La Habana, Cuba (47625515261).jpg",
+    "imageinfo": {
+      "size": 13770231,
+      "width": 2662,
+      "height": 3537,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ernest_Hemingway_en_el_muro_exterior_de_La_Bodeguita_del_Medio%2C_La_Habana%2C_Cuba_%2847625515261%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3189,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ernest_Hemingway_en_el_muro_exterior_de_La_Bodeguita_del_Medio%2C_La_Habana%2C_Cuba_%2847625515261%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3189
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ernest_Hemingway_en_el_muro_exterior_de_La_Bodeguita_del_Medio%2C_La_Habana%2C_Cuba_%2847625515261%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_en_el_muro_exterior_de_La_Bodeguita_del_Medio,_La_Habana,_Cuba_(47625515261).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=105046865",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2021-05-08 14:23:59",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Ernest Hemingway en el muro exterior de La Bodeguita del Medio, La Habana, Cuba (47625515261)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-GH3|Monuments and memorials in Havana|F-number f/5|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|2019 in Old Havana|Lens focal length 12 mm|Murals in Centro Habana|Homages to Ernest Hemingway",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.140784",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.352507",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>La pared exterior de La Bodeguita del Medio se caracteriza por estar cubierta con firmas y dedicatorias de los turistas que la han visitado.\n</p><p>Sobre una de las calles que da a la plaza de la Catedral hay un pequeño establecimiento famoso en el mundo entero: es la Bodeguita del Medio, donde Ernest Hemingway acudía a tomar su mojito.\n</p><p>En 1939 Hemingway había vuelto de España y era ya un reconocido reportero y novelista. El escritor americano y su pareja sentimental Martha, dejaron ese año su isla de Florida para afincarse en Cuba, donde compraron una casa a 15 km de La Habana, Finca Vigía. En \"este paraíso de paz en el que no entraban ni la guerra ni la revolución\" el escritor vivió durante los próximos 20 años. En 1961 se disparó un tiro con una escopeta.\n</p><p>El escritor solía salir a pescar el merlin en Cojímar, donde tenía un barco y un restaurante. Además era adicto a las fiestas y al alcohol. \"Papá\", como le conocían en la isla, era capaz de tomarse 15 daiquiris en una noche. Sus sitios preferidos eran La Floridita y la Bodeguita del Medio, ambos en la Habana.\n</p><p>La Bodeguita del Medio era originalmente un ultramarinos, hasta que en 1950 se convirtió en un restaurante de cocina criolla.\n</p><p>A pesar de asociar el lugar al escritor, la verdad es que Hemingway no solía comer aquí. Incluso la conocida frase \"Mi mojito en La Bodeguita, mi daiquiri en La Floridita\" que aparece colgada y firmada por él en una de las paredes, parece ser que no es original suya.\n</p><p>Pero la Bodeguita no se hizo famosa sólo por Hemingway. Fue el restaurante de moda de La Habana durante mucho tiempo, y a él acudían a comer todos los famosos, como el poeta cubano Nicolás Guillén, los premios nobel Gabriela Mistral y Pablo Neruda, políticos como Salvador Allende, y aristas como Nat King Cole y Marlene Dietrich, y muchos otros. \n</p><p>Sus paredes están repletas de fotos firmadas, frases, recuerdos... Hoy la Bodeguita es un rincón de obligada visita para todo turista que pase por La Habana. El restaurante sigue abierto y uno puede comer en él, siempre que se haga una reserva con tiempo.\n</p><p>El afortunado podrá degustar las delicias de la cocina cubana: masas de cerdo frito, ropa vieja, picadillo a la habanera, pollo a la cacerola o camarones enchilados. Dicen que aquí se inventó el mojito. \n</p>\nFuente: Un planeta lleno de islas.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2019-01-12 09:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/ewolivera/47625515261/\">Ernest Hemingway en el muro exterior de La Bodeguita del Medio, La Habana, Cuba</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/124137421@N04\">Edgardo W. Olivera</a> from Montevideo, Uruguay",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/costs.jpg",
+    "dimensions": [
+      1806,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ernest_Hemingway_en_el_muro_exterior_de_La_Bodeguita_del_Medio%2C_La_Habana%2C_Cuba_%2847625515261%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "f6ea226d6dfe5cbd78631e5d84010972611997de2d922dda51c398db72243397"
+  },
+  {
+    "key": "havana/day-4",
+    "slot": "day-4",
+    "topic": "Bate-volta ou folga",
+    "status": "no-candidate",
+    "pool": "support-leisure"
+  },
+  {
+    "key": "havana/day-1",
+    "slot": "day-1",
+    "topic": "Ícones principais",
+    "path": "/images/destinations/havana/curated-day-1.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:Habana Vieja (27622779639).jpg",
+    "imageinfo": {
+      "size": 27015467,
+      "width": 6140,
+      "height": 4140,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Habana_Vieja_%2827622779639%29.jpg/3840px-Habana_Vieja_%2827622779639%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1618,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Habana_Vieja_%2827622779639%29.jpg/3840px-Habana_Vieja_%2827622779639%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1618
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Habana_Vieja_%2827622779639%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(27622779639).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77144083",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-06 23:29:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Habana Vieja (27622779639)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Tiles|Havana Vieja|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.136169",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.357156",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Habana Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-14 12:24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/27622779639/\">Habana Vieja</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/day-1.jpg",
+    "dimensions": [
+      2400,
+      1618
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Habana_Vieja_%2827622779639%29.jpg/3840px-Habana_Vieja_%2827622779639%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "231991b4044b236ce4c7f6c16dbbab0490731ae3535c33a6b0590b0efc195e03"
+  },
+  {
+    "key": "havana/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "path": "/images/destinations/havana/curated-tips.jpg",
+    "pool": "support-icon",
+    "status": "pending-visual-review",
+    "title": "File:Habana Vieja (34837663456).jpg",
+    "imageinfo": {
+      "size": 12858494,
+      "width": 3746,
+      "height": 4953,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Habana_Vieja_%2834837663456%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 3173,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Habana_Vieja_%2834837663456%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3173
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Habana_Vieja_%2834837663456%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(34837663456).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77133745",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-06 14:58:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Habana Vieja (34837663456)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Havana Vieja|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.139166",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.358056",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Habana Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-13 13:48",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/34837663456/\">Habana Vieja</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/tips.jpg",
+    "dimensions": [
+      1815,
+      2400
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Habana_Vieja_%2834837663456%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "f708a9f83cb2fc88b888cd4257ac423844d28fa369609e0cc4368d824ff70760"
+  },
+  {
+    "key": "havana/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "path": "/images/destinations/havana/curated-day-2.jpg",
+    "pool": "support-quarter",
+    "status": "pending-visual-review",
+    "title": "File:Habana Vieja (33821876734).jpg",
+    "imageinfo": {
+      "size": 20694782,
+      "width": 4140,
+      "height": 5774,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Habana_Vieja_%2833821876734%29.jpg/3840px-Habana_Vieja_%2833821876734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3347,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Habana_Vieja_%2833821876734%29.jpg/3840px-Habana_Vieja_%2833821876734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3347
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Habana_Vieja_%2833821876734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(33821876734).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77133368",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-06 14:42:51",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Habana Vieja (33821876734)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Havana Vieja|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.132605",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.351287",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Habana Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-14 11:57",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/33821876734/\">Habana Vieja</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/havana/day-2.jpg",
+    "dimensions": [
+      1721,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Habana_Vieja_%2833821876734%29.jpg/3840px-Habana_Vieja_%2833821876734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e47e2fb7037201f4a13ea440e1587093d538448867eae9774fb92e0df39562c4"
+  },
+  {
+    "key": "havana/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "support-currency"
+  }
+]

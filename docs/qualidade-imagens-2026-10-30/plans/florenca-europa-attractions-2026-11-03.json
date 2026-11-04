@@ -1,0 +1,131 @@
+{
+  "city": "florenca",
+  "region": "europa",
+  "center": [
+    43.7696,
+    11.2558,
+    20
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Florence Santa Maria del Fiore cathedral exterior",
+      "required": [
+        "florence|firenze",
+        "fiore|duomo|brunelleschi"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ]
+    },
+    "attraction-1": {
+      "query": "Uffizi Florence exterior",
+      "required": [
+        "florence|firenze",
+        "uffizi"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ]
+    },
+    "attraction-2": {
+      "query": "Ponte Vecchio Florence",
+      "required": [
+        "florence|firenze",
+        "ponte vecchio"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ]
+    },
+    "attraction-3": {
+      "query": "Palazzo Pitti Florence",
+      "required": [
+        "florence|firenze",
+        "pitti"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ]
+    },
+    "attraction-4": {
+      "query": "Piazzale Michelangelo Florence view",
+      "required": [
+        "florence|firenze",
+        "michelangelo"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ]
+    },
+    "attraction-5": {
+      "query": "Galleria Accademia Florence exterior",
+      "required": [
+        "florence|firenze",
+        "accademia"
+      ],
+      "locationPatterns": [
+        "florence|firenze"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|postcard|engraving|painting|portrait|photomontage|aerial map|satellite|floor plan|diagram|render",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ]
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "city": "los-angeles",
+  "region": "americas",
+  "center": [
+    34.0522,
+    -118.2437,
+    70
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Santa Monica Pier",
+      "required": [
+        "santa monica pier"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ]
+    },
+    "attraction-1": {
+      "query": "Griffith Observatory",
+      "required": [
+        "griffith observatory"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ]
+    },
+    "attraction-2": {
+      "query": "Hollywood Boulevard",
+      "required": [
+        "hollywood boulevard"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ]
+    },
+    "attraction-3": {
+      "query": "Getty Center",
+      "required": [
+        "getty center"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ]
+    },
+    "attraction-4": {
+      "query": "Venice Beach Los Angeles",
+      "required": [
+        "venice"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ]
+    },
+    "attraction-5": {
+      "query": "Downtown Los Angeles",
+      "required": [
+        "downtown|financial district"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "orlando/map-list-3": {
+    "decision": "accepted",
+    "notes": "Rocket Garden do Kennedy Space Center com foguetes e visitantes; atração real reconhecível, orientação correta."
+  },
+  "orlando/map-list-4": {
+    "decision": "accepted",
+    "notes": "Margem de Lake Eola com água, árvores e skyline ao fundo; lago real reconhecível e horizonte correto."
+  },
+  "orlando/map-list-5": {
+    "decision": "rejected",
+    "notes": "Fichas de brinquedo McDonalds em mão, sem International Drive visível; tema da atração não corresponde."
+  },
+  "orlando/hotel-0": {
+    "decision": "accepted",
+    "notes": "Lago e vegetação da área China no World Showcase do EPCOT; contexto real da região Disney para hospedagem ilustrativa."
+  },
+  "orlando/mistakes": {
+    "decision": "rejected",
+    "notes": "Placas rodoviárias e terminal em foto de 2002, anteriores à configuração atual; manter gap por desatualização."
+  },
+  "orlando/tips": {
+    "decision": "rejected",
+    "notes": "Great Movie Ride foi encerrado; não usar atração descontinuada como dica atual."
+  },
+  "orlando/essential-moeda": {
+    "decision": "rejected",
+    "notes": "Mistura de dólares com cédulas afegãs em operação militar de Bagram; moeda estrangeira domina o primeiro plano, tema errado."
+  },
+  "orlando/trip-1": {
+    "decision": "rejected",
+    "notes": "Rodovia I-4 com saída Fairbanks, sem Winter Park como destino visível; contexto insuficiente para passeio regional."
+  }
+}

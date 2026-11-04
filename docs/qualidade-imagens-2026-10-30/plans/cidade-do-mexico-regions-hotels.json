@@ -1,0 +1,79 @@
+{
+  "city": "cidade-do-mexico",
+  "region": "americas",
+  "center": [
+    19.4326,
+    -99.1332,
+    50
+  ],
+  "pools": {
+    "region-0": {
+      "query": "Mexico City historic center",
+      "required": [
+        "centro historico|historic center|historic centre"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ]
+    },
+    "region-1": {
+      "query": "Chapultepec Mexico City",
+      "required": [
+        "chapultepec"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ]
+    },
+    "region-2": {
+      "query": "Coyoacan Mexico City",
+      "required": [
+        "coyoacan"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-2",
+        "region-list-2",
+        "hotel-2",
+        "hotel-list-2"
+      ]
+    },
+    "region-3": {
+      "query": "Teotihuacan Mexico",
+      "required": [
+        "teotihuacan"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ]
+    }
+  }
+}

@@ -1,0 +1,823 @@
+[
+  {
+    "key": "milao/hero",
+    "slot": "hero",
+    "topic": "Milão",
+    "path": "/images/destinations/milao/curated-hero.jpg",
+    "pool": "highlight-0",
+    "status": "pending-visual-review",
+    "title": "File:Full Milan skyline from Duomo roof.jpg",
+    "imageinfo": {
+      "size": 13645115,
+      "width": 6048,
+      "height": 3264,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Full_Milan_skyline_from_Duomo_roof.jpg/3840px-Full_Milan_skyline_from_Duomo_roof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1295,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Full_Milan_skyline_from_Duomo_roof.jpg/3840px-Full_Milan_skyline_from_Duomo_roof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1295
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Full_Milan_skyline_from_Duomo_roof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Full_Milan_skyline_from_Duomo_roof.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55077602",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-04-02 02:05:28",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Full Milan skyline from Duomo roof",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|License migration redundant|Self-published work|Clouds in Milan|Media with estimated locations|Files with coordinates missing SDC location of creation|Italy photographs taken on 2016-06-21|Clouds and blue sky in Italy|Milan skyline from the Duomo",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.464280",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "9.191370",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Milan skyline from roof of the <a href=\"https://en.wikipedia.org/wiki/Milan_Cathedral\" class=\"extiw\" title=\"w:Milan Cathedral\">Duomo</a>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-06-21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Daniel_Case\" title=\"User:Daniel Case\">Daniel Case</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "You may select the license of your choice.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/milao/hero.jpg",
+    "dimensions": [
+      2400,
+      1295
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Full_Milan_skyline_from_Duomo_roof.jpg/3840px-Full_Milan_skyline_from_Duomo_roof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "d7265662e8e93ac282cbcc820caa7372093f7ebb1947c982544898206feee82c"
+  },
+  {
+    "key": "milao/intro",
+    "slot": "intro",
+    "topic": "Milão",
+    "path": "/images/destinations/milao/curated-intro.jpg",
+    "pool": "highlight-0",
+    "status": "pending-visual-review",
+    "title": "File:Milan skyline skyscrapers of Porta Nuova business district.jpg",
+    "imageinfo": {
+      "size": 10771761,
+      "width": 4896,
+      "height": 3264,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg/3840px-Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg/3840px-Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=59053766",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-12-17 18:10:22",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Milan skyline skyscrapers of Porta Nuova business district",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Files from external sources with reviewed licenses|Images with extracted images|Files from Pexels|NoFoP-Italy|Skylines of Milan",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Picture showing the skyline of Milan.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-04-29 11:28:35",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.pexels.com/photo/architecture-blue-sky-buildings-city-409127/\">https://www.pexels.com/photo/architecture-blue-sky-buildings-city-409127/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.pexels.com/u/ghostpresenter/\">Francesco Ungaro</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/milao/intro.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg/3840px-Milan_skyline_skyscrapers_of_Porta_Nuova_business_district.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a7572506bf3ef745d4d9ac92a201939a1b15d966470f7aeca28a5ed9b862092e"
+  },
+  {
+    "key": "milao/home-slide",
+    "slot": "home-slide",
+    "topic": "Milão",
+    "path": "/images/destinations/milao/curated-home-slide.jpg",
+    "pool": "highlight-0",
+    "status": "pending-visual-review",
+    "title": "File:General skyline of Milan - 2017.jpg",
+    "imageinfo": {
+      "size": 631439,
+      "width": 2331,
+      "height": 815,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/General_skyline_of_Milan_-_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 839,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/General_skyline_of_Milan_-_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 839
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/General_skyline_of_Milan_-_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:General_skyline_of_Milan_-_2017.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133022482",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-06-12 16:04:20",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "General skyline of Milan - 2017",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|NoFoP-Italy|Images from Pixabay|May 2017 in Milan|Skylines of Milan",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Panorama on Milan",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-05-30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://pixabay.com/photos/milan-panorama-corso-como-2351098/\">https://pixabay.com/photos/milan-panorama-corso-como-2351098/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "pippocucu",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/milao/home-slide.jpg",
+    "dimensions": [
+      2331,
+      815
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/General_skyline_of_Milan_-_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "54c34aa736fd1a2f177fb8ddfcde36add705711fbc810e83cfbed4ca1320e870"
+  },
+  {
+    "key": "milao/home",
+    "slot": "home",
+    "topic": "Milão",
+    "path": "/images/destinations/milao/curated-home.jpg",
+    "pool": "highlight-1",
+    "status": "pending-visual-review",
+    "title": "File:Milano - Duomo 0433.JPG",
+    "imageinfo": {
+      "size": 12158404,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Milano_-_Duomo_0433.JPG/3840px-Milano_-_Duomo_0433.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Milano_-_Duomo_0433.JPG/3840px-Milano_-_Duomo_0433.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Milano_-_Duomo_0433.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Milano_-_Duomo_0433.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=144950029",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-02-03 03:40:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Milano - Duomo 0433",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D3400|Self-published work|Churches in Italy photographed in 2022|Files by Phyrexian - Milano|Italy photographs taken on 2022-07-05|July 2022 in Milan|Duomo (Milan) - Roof details|Exterior of the Duomo (Milan) - Reliefs",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The <a href=\"https://en.wikipedia.org/wiki/Milan_Cathedral\" class=\"extiw\" title=\"en:Milan Cathedral\">cathedral of Milan</a>, <a href=\"https://en.wikipedia.org/wiki/Italy\" class=\"extiw\" title=\"en:Italy\">Italy</a>.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 5 July 2022",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Phyrexian\" title=\"User:Phyrexian\">Phyrexian</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/milao/home.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Milano_-_Duomo_0433.JPG/3840px-Milano_-_Duomo_0433.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c2600ed1b1baf8c8177b9ab81cec617395c8ffdd38997192c660e0569a1c90e5"
+  },
+  {
+    "key": "milao/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Milão",
+    "path": "/images/destinations/milao/curated-guide-highlight.jpg",
+    "pool": "highlight-1",
+    "status": "pending-visual-review",
+    "title": "File:Duomo di Milano 4.jpg",
+    "imageinfo": {
+      "size": 563182,
+      "width": 2048,
+      "height": 1536,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Duomo_di_Milano_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/Duomo_di_Milano_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Duomo_di_Milano_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Duomo_di_Milano_4.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=154071921",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-10-19 13:06:48",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Duomo di Milano 4",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Exterior of the Duomo (Milan)|Self-published work|Uploaded with Mobile/Android|Photographs taken on 2009-07-20",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Exterior of the Duomo (Milan).",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "20 July 2009 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SycedCustomName&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SycedCustomName (page does not exist)\">SycedCustomName</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/milao/guide-highlight.jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Duomo_di_Milano_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "b6474eb57e011d4d549eec7b880217caf44d604143d4c489885a83d01bfd2bde"
+  },
+  {
+    "key": "milao/guide-card",
+    "slot": "guide-card",
+    "topic": "Milão",
+    "path": "/images/destinations/milao/curated-guide-card.jpg",
+    "pool": "highlight-2",
+    "status": "pending-visual-review",
+    "title": "File:Canal Nord Navigli - Milan (IT25) - 2022-09-02 - 4.jpg",
+    "imageinfo": {
+      "size": 2919411,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_4.jpg/3840px-Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_4.jpg/3840px-Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Canal_Nord_Navigli_-_Milan_(IT25)_-_2022-09-02_-_4.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=122683626",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-09-05 15:15:43",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Canal Nord Navigli - Milan (IT25) - 2022-09-02 - 4",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Darsena (Milan)|Self-published work|Italy photographs taken on 2022-09-02|Files with coordinates missing SDC location of creation|September 2022 in Milan|Images by Chabe01 taken with iPhone 13 Pro|Images of Milan by Chabe01",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.452369",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "9.177369",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Canal Nord Navigli, Milan.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-09-02 18:41:18",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Chabe01\" title=\"User:Chabe01\">Chabe01</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/milao/guide-card.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_4.jpg/3840px-Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "753bde3b63ba3a0b5190cf064004ee3ec300dd44ce2eae0b8ca2f1118094922a"
+  },
+  {
+    "key": "milao/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Milão: miniatura da home",
+    "path": "/images/destinations/milao/curated-home-thumb.jpg",
+    "pool": "highlight-2",
+    "status": "pending-visual-review",
+    "title": "File:Canal Nord Navigli - Milan (IT25) - 2022-09-02 - 1.jpg",
+    "imageinfo": {
+      "size": 3428193,
+      "width": 4032,
+      "height": 3024,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_1.jpg/3840px-Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_1.jpg/3840px-Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Canal_Nord_Navigli_-_Milan_(IT25)_-_2022-09-02_-_1.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=122683615",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2022-09-05 15:15:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Canal Nord Navigli - Milan (IT25) - 2022-09-02 - 1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Darsena (Milan)|Self-published work|Italy photographs taken on 2022-09-02|Files with coordinates missing SDC location of creation|September 2022 in Milan|Images by Chabe01 taken with iPhone 13 Pro|Images of Milan by Chabe01",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "45.452492",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "9.179600",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Canal Nord Navigli, Milan.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2022-09-02 18:38:45",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Chabe01\" title=\"User:Chabe01\">Chabe01</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/milao/home-thumb.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_1.jpg/3840px-Canal_Nord_Navigli_-_Milan_%28IT25%29_-_2022-09-02_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "b0a1bf84dada6ac032f0350fdfa1d54940b699213d6c345d3b1735d7a66b5be0"
+  }
+]

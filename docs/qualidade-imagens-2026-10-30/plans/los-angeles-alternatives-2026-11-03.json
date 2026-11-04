@@ -1,0 +1,117 @@
+{
+  "city": "los-angeles",
+  "region": "americas",
+  "center": [
+    34.0522,
+    -118.2437,
+    70
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Los Angeles",
+      "required": [
+        "los angeles"
+      ],
+      "locationPatterns": [
+        "los angeles|california"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100,
+      "offset": 0
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "Hollywood Los Angeles",
+      "required": [
+        "hollywood"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-detail-1"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Hollywood Los Angeles",
+      "required": [
+        "hollywood"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "Downtown Los Angeles",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-2",
+        "hotel-list-2"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "San Fernando Valley Los Angeles",
+      "required": [
+        "san fernando valley"
+      ],
+      "locationPatterns": [
+        "los angeles|santa monica|venice beach|griffith observatory|hollywood boulevard|pacific palisades"
+      ],
+      "countryPattern": "california|united states|usa",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-3"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "support-documents": {
+      "query": "United States passport cover",
+      "required": [
+        "united states passport|american passport|u.s. passport"
+      ],
+      "locationPatterns": [
+        "united states|american|u.s. passport"
+      ],
+      "countryPattern": "united states|american|u.s. passport",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    }
+  }
+}

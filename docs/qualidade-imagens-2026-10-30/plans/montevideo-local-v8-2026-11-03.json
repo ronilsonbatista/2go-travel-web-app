@@ -1,0 +1,27 @@
+{
+  "city": "montevideo",
+  "region": "americas",
+  "center": [
+    0,
+    0,
+    20040
+  ],
+  "pools": {
+    "food": {
+      "query": "\"Chivito\"",
+      "required": [
+        "chivito",
+        "sandwich|urugua"
+      ],
+      "slots": [
+        "costs"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|sculpture|escultura|bust|busto|food bank|food donation|airport museum|transport museum|transportation museum",
+      "requiredTitle": "chivito"
+    }
+  }
+}

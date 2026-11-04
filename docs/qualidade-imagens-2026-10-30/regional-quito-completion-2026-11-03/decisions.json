@@ -1,0 +1,82 @@
+{
+  "quito/attraction-0": {
+    "decision": "accepted",
+    "notes": "Fachada histórica do Centro de Quito em rua colonial, com janelas e varandas identificáveis; foto diurna real e orientada corretamente."
+  },
+  "quito/map-attraction-2": {
+    "decision": "accepted",
+    "notes": "Cabines, cabos e estação do TelefériQo na encosta de Cruz Loma; atração claramente reconhecível e sem inversão."
+  },
+  "quito/map-list-3": {
+    "decision": "rejected",
+    "notes": "Close de placas da Calle La Ronda; falta contexto da rua como atração turística."
+  },
+  "quito/map-attraction-5": {
+    "decision": "rejected",
+    "notes": "Pista de corrida cortada sem marco reconhecível; enquadramento inadequado para Parque La Carolina."
+  },
+  "quito/neighborhood-0": {
+    "decision": "rejected",
+    "notes": "Placa isolada de rua; não representa contexto de bairro Centro Histórico."
+  },
+  "quito/neighborhood-detail-0": {
+    "decision": "rejected",
+    "notes": "Foto em preto e branco pouco informativa e fechada na torre; não atende a seleção atual do bairro."
+  },
+  "quito/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Eleição com fila de pessoas domina a imagem; não representa Cumbayá como bairro turístico."
+  },
+  "quito/region-0": {
+    "decision": "rejected",
+    "notes": "Close de placas de rua; falta contexto da região Histórica."
+  },
+  "quito/hotel-0": {
+    "decision": "rejected",
+    "notes": "Placas de esquina e parede cortada; falta contexto de hospedagem no Centro Histórico."
+  },
+  "quito/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Porta isolada sem contexto de rua; inadequada para hospedagem ilustrativa da região."
+  },
+  "quito/region-list-1": {
+    "decision": "rejected",
+    "notes": "Aeroporto Mariscal Sucre fica em Tababela; não é o bairro Mariscal, falso match de nome."
+  },
+  "quito/hotel-2": {
+    "decision": "accepted",
+    "notes": "Igreja junto ao TelefériQo e paisagem montanhosa de Quito; contexto real para hospedagem ilustrativa da região."
+  },
+  "quito/hotel-3": {
+    "decision": "accepted",
+    "notes": "Monumento Mitad del Mundo com linha equatorial e praça; contexto regional real da hospedagem ilustrativa, orientação correta."
+  },
+  "quito/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Brasão isolado no monumento; não representa contexto regional de hospedagem em Mitad del Mundo."
+  },
+  "quito/day-3": {
+    "decision": "rejected",
+    "notes": "Close de ornamentos de porta do museu; falta contexto de cultura e mirantes do roteiro."
+  },
+  "quito/day-1": {
+    "decision": "rejected",
+    "notes": "Banco de praça isolado; não mostra os ícones principais de Quito."
+  },
+  "quito/day-2": {
+    "decision": "rejected",
+    "notes": "Placa de rua em preto e branco; não mostra cena de bairros ou gastronomia."
+  },
+  "quito/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Placa Calle Manabí e Calle del Teatro em Quito, com texto em espanhol legível; sinalização local em fotografia real."
+  },
+  "quito/essential-moeda": {
+    "decision": "accepted",
+    "notes": "Cédula real de dez dólares americanos com Hamilton, capturada em 2024 e assinatura Rosa Rios; USD é moeda de pagamentos do Equador."
+  },
+  "quito/trip-0": {
+    "decision": "accepted",
+    "notes": "Jardins e construção de Hostería Puertolago em Otavalo, destino regional próximo; paisagem real nítida e orientação correta."
+  }
+}

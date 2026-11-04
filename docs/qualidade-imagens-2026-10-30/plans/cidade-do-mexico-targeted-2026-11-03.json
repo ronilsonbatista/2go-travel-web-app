@@ -1,0 +1,227 @@
+{
+  "city": "cidade-do-mexico",
+  "region": "americas",
+  "center": [
+    19.4326,
+    -99.1332,
+    50
+  ],
+  "pools": {
+    "highlight-intro": {
+      "query": "\"Palacio de Bellas Artes\" \"Mexico\"",
+      "required": [
+        "mexico city|ciudad de mexico"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "intro"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-home": {
+      "query": "\"Mexico City\" \"Paseo de la Reforma\"",
+      "required": [
+        "mexico city|ciudad de mexico"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-guide-card": {
+      "query": "Mexico City skyline panorama",
+      "required": [
+        "mexico city|ciudad de mexico"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "guide-card"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-guide-highlight": {
+      "query": "Mexico City skyline panorama",
+      "required": [
+        "mexico city|ciudad de mexico"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "guide-highlight"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-home-slide": {
+      "query": "Mexico City skyline panorama",
+      "required": [
+        "mexico city|ciudad de mexico"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home-slide"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-home-thumb": {
+      "query": "Mexico City skyline panorama",
+      "required": [
+        "mexico city|ciudad de mexico"
+      ],
+      "locationPatterns": [
+        "mexico"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home-thumb"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "attractions-attraction-0": {
+      "query": "Zocalo Mexico City Cathedral",
+      "required": [
+        "zocalo|catedral|cathedral"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-0"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "attractions-attraction-2": {
+      "query": "Frida Kahlo Museum",
+      "required": [
+        "frida kahlo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "attractions-attraction-3": {
+      "query": "Chapultepec Mexico City",
+      "required": [
+        "chapultepec"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "regions-hotels-region-1": {
+      "query": "Chapultepec Mexico City",
+      "required": [
+        "chapultepec"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-1",
+        "hotel-1",
+        "hotel-list-1"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "regions-hotels-region-3": {
+      "query": "Teotihuacan Mexico",
+      "required": [
+        "teotihuacan"
+      ],
+      "locationPatterns": [
+        "mexico|teotihuacan"
+      ],
+      "countryPattern": "mexico",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-3"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-currency": {
+      "query": "Mexican peso banknotes",
+      "required": [
+        "mexican peso|pesos mexicanos"
+      ],
+      "locationPatterns": [
+        "mexic"
+      ],
+      "countryPattern": "mexic",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    }
+  }
+}

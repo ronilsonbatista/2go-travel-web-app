@@ -1,0 +1,101 @@
+{
+  "city": "chicago",
+  "region": "americas",
+  "center": [
+    41.8781,
+    -87.6298,
+    40
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Cloud Gate Millennium Park Chicago",
+      "required": [
+        "cloud gate|millennium park"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ]
+    },
+    "attraction-1": {
+      "query": "Art Institute Chicago",
+      "required": [
+        "art institute"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ]
+    },
+    "attraction-2": {
+      "query": "Navy Pier Chicago",
+      "required": [
+        "navy pier"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ]
+    },
+    "attraction-3": {
+      "query": "Willis Tower Chicago",
+      "required": [
+        "willis tower|sears tower"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ]
+    },
+    "attraction-4": {
+      "query": "Chicago Riverwalk",
+      "required": [
+        "riverwalk"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ]
+    },
+    "attraction-5": {
+      "query": "Lincoln Park Chicago",
+      "required": [
+        "lincoln park"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "chicago"
+      ]
+    }
+  }
+}

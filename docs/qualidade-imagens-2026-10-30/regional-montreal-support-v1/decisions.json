@@ -1,0 +1,62 @@
+{
+  "montreal/day-0": {
+    "decision": "rejected",
+    "notes": "Retrato de homem ao telefone domina a cena; aeroporto nao fica reconhecivel."
+  },
+  "montreal/mistakes": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Erros comuns, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "montreal/essential-transporte": {
+    "decision": "rejected",
+    "notes": "Passageiros em primeiro plano dominam o enquadramento e reduzem a utilidade editorial."
+  },
+  "montreal/costs": {
+    "decision": "rejected",
+    "notes": "Mostra patio e arvore, sem o prato poutine solicitado."
+  },
+  "montreal/day-3": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Cultura e mirantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "montreal/day-4": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bate-volta ou folga, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "montreal/day-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Ícones principais, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "montreal/tips": {
+    "decision": "rejected",
+    "notes": "Carruagem isolada nao oferece contexto visual suficiente do destino."
+  },
+  "montreal/day-2": {
+    "decision": "rejected",
+    "notes": "Carruagem e pessoas dominam a cena; bairro pouco visivel."
+  },
+  "montreal/essential-idioma": {
+    "decision": "rejected",
+    "notes": "Retrato de homem fazendo gesto, sem idioma frances ou ingles visivel."
+  },
+  "montreal/essential-moeda": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "montreal/essential-docs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "montreal/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Arredores de Montreal, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "montreal/trip-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Passeio regional de meio dia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "montreal/trip-2": {
+    "decision": "rejected",
+    "notes": "Cemiterio nao corresponde ao passeio historico de Chambly proposto."
+  }
+}

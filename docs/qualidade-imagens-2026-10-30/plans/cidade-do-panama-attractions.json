@@ -1,0 +1,101 @@
+{
+  "city": "cidade-do-panama",
+  "region": "americas",
+  "center": [
+    8.9824,
+    -79.5199,
+    40
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Miraflores locks Panama Canal",
+      "required": [
+        "miraflores"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "panama"
+      ]
+    },
+    "attraction-1": {
+      "query": "Casco Viejo Panama City",
+      "required": [
+        "casco viejo|casco antiguo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "panama"
+      ]
+    },
+    "attraction-2": {
+      "query": "Cinta Costera Panama",
+      "required": [
+        "cinta costera"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "panama"
+      ]
+    },
+    "attraction-3": {
+      "query": "Biomuseo Panama",
+      "required": [
+        "biomuseo"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "panama"
+      ]
+    },
+    "attraction-4": {
+      "query": "Amador Causeway Panama",
+      "required": [
+        "amador"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "panama"
+      ]
+    },
+    "attraction-5": {
+      "query": "Mercado de Mariscos Panama",
+      "required": [
+        "mercado de mariscos"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "panama"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "cidade-do-panama/neighborhood-3": {
+    "decision": "rejected",
+    "notes": "Placa administrativa de cemitério Amador no continente; local errado para Causeway/ilhas de Amador."
+  },
+  "cidade-do-panama/neighborhood-detail-3": {
+    "decision": "rejected",
+    "notes": "Cemitério de Amador, não bairro turístico da Calzada/Causeway; falso match geográfico."
+  },
+  "cidade-do-panama/region-2": {
+    "decision": "accepted",
+    "notes": "Causeway de Amador com via costeira, palmeiras e mar; região turística correta em fotografia real, sem confundir com cemitério de Amador."
+  }
+}

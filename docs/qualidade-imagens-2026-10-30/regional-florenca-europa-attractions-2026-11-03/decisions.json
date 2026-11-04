@@ -1,0 +1,74 @@
+{
+  "florenca/attraction-0": {
+    "decision": "accepted",
+    "notes": "Exterior da catedral Santa Maria del Fiore e batisterio, conjunto arquitetonico do Duomo correto."
+  },
+  "florenca/map-attraction-0": {
+    "decision": "accepted",
+    "notes": "Duomo de Florenca com campanario e batisterio em luz diurna, tema reconhecivel e orientacao correta."
+  },
+  "florenca/map-list-0": {
+    "decision": "accepted",
+    "notes": "Praca do Duomo, batisterio e campanario sob ceu nublado; arquitetura local legivel."
+  },
+  "florenca/attraction-1": {
+    "decision": "accepted",
+    "notes": "Perspectiva do patio da Galleria degli Uffizi com torre ao fundo; arquitetura real da galeria indicada."
+  },
+  "florenca/map-attraction-1": {
+    "decision": "rejected",
+    "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+  },
+  "florenca/map-list-1": {
+    "decision": "accepted",
+    "notes": "Ala dos Uffizi iluminada a noite e perspectiva ate a torre, fachadas legiveis e tema correto."
+  },
+  "florenca/attraction-2": {
+    "decision": "accepted",
+    "notes": "Ponte Vecchio ao anoitecer com casas iluminadas e reflexo no Arno; ponte real, imagem orientada normalmente."
+  },
+  "florenca/map-attraction-2": {
+    "decision": "accepted",
+    "notes": "Ponte Vecchio iluminada com fogos de artificio e reflexos; a ponte permanece reconhecivel, sem inversao."
+  },
+  "florenca/map-list-2": {
+    "decision": "rejected",
+    "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+  },
+  "florenca/attraction-3": {
+    "decision": "rejected",
+    "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+  },
+  "florenca/map-attraction-3": {
+    "decision": "accepted",
+    "notes": "Teto pintado e ornamentacao do Palazzo Pitti em vista para cima; patrimonio interior real do palacio."
+  },
+  "florenca/map-list-3": {
+    "decision": "accepted",
+    "notes": "Afresco e moldura ornamental do teto do Palazzo Pitti, fotografia arquitetonica intencional do local correto."
+  },
+  "florenca/attraction-4": {
+    "decision": "accepted",
+    "notes": "Panorama de Florenca ao anoitecer desde Piazzale Michelangelo; cidade e Duomo legiveis, horizonte correto."
+  },
+  "florenca/map-attraction-4": {
+    "decision": "accepted",
+    "notes": "Catedral de Florenca vista de Piazzale Michelangelo ao entardecer, tema e ponto de vista correspondentes."
+  },
+  "florenca/map-list-4": {
+    "decision": "accepted",
+    "notes": "Ponte Vecchio e Arno vistos desde Piazzale Michelangelo, panorama real de Florenca com horizonte normal."
+  },
+  "florenca/attraction-5": {
+    "decision": "rejected",
+    "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+  },
+  "florenca/map-attraction-5": {
+    "decision": "rejected",
+    "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+  },
+  "florenca/map-list-5": {
+    "decision": "rejected",
+    "notes": "Revisao visual: workshop e pessoas encostadas na parede nao mostram o David nem a galeria; teto sem contexto para card principal, enquadramento obstruido ou variante muito semelhante de fogos."
+  }
+}

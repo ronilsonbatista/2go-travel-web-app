@@ -1,0 +1,234 @@
+{
+  "city": "medellin",
+  "region": "americas",
+  "center": [
+    6.2476,
+    -75.5658,
+    40
+  ],
+  "pools": {
+    "highlight-hero": {
+      "query": "\"Medellin\" \"Colombia\" \"skyline\"",
+      "required": [
+        "medellin"
+      ],
+      "locationPatterns": [
+        "medellin|colombia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-intro": {
+      "query": "\"Medellin\" \"Plaza Botero\"",
+      "required": [
+        "medellin"
+      ],
+      "locationPatterns": [
+        "medellin|colombia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "intro"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-home": {
+      "query": "\"Medellin\" \"Colombia\" \"panorama\"",
+      "required": [
+        "medellin"
+      ],
+      "locationPatterns": [
+        "medellin|colombia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-guide-card": {
+      "query": "\"Medellin\" \"Colombia\" \"Pueblito Paisa\"",
+      "required": [
+        "medellin"
+      ],
+      "locationPatterns": [
+        "medellin|colombia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "guide-card"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-guide-highlight": {
+      "query": "\"Medellin\" \"Colombia\" \"Metrocable\"",
+      "required": [
+        "medellin"
+      ],
+      "locationPatterns": [
+        "medellin|colombia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "guide-highlight"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "highlight-home-thumb": {
+      "query": "\"Medellin\" \"Colombia\" \"Botero\"",
+      "required": [
+        "medellin"
+      ],
+      "locationPatterns": [
+        "medellin|colombia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home-thumb"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1600
+    },
+    "attractions-attraction-1": {
+      "query": "Parque Arvi",
+      "required": [
+        "arvi"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "regions-hotels-region-3": {
+      "query": "Parque Arvi",
+      "required": [
+        "arvi"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-3",
+        "region-list-3",
+        "hotel-3",
+        "hotel-list-3"
+      ],
+      "limit": 100,
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-arrival": {
+      "query": "Jose Maria Cordova Airport",
+      "required": [
+        "cordova|cordoba"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "mistakes"
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-culture": {
+      "query": "Museo Antioquia Medellin",
+      "required": [
+        "antioquia"
+      ],
+      "locationPatterns": [
+        "medellin|guatape|antioquia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-3"
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-currency": {
+      "query": "Colombian peso banknotes",
+      "required": [
+        "colombian peso|pesos colombianos"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    },
+    "support-documents": {
+      "query": "Colombian passport cover",
+      "required": [
+        "colombian passport|pasaporte colombiano"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 0,
+      "minimumLongEdge": 1024
+    }
+  }
+}

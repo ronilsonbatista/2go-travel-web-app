@@ -1,0 +1,66 @@
+{
+  "assuncao/region-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "assuncao/region-list-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "assuncao/hotel-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "assuncao/hotel-list-0": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizável; permanece placeholder para nova busca."
+  },
+  "assuncao/region-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Villa Morra, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "assuncao/region-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Villa Morra, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "assuncao/hotel-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Villa Morra, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "assuncao/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Villa Morra, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "assuncao/region-2": {
+    "decision": "rejected",
+    "notes": "Fachada de hostel chamado Costanera sem representação suficiente da região."
+  },
+  "assuncao/region-list-2": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Costanera, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "assuncao/hotel-2": {
+    "decision": "rejected",
+    "notes": "Centro de informação turística, não hospedagem; fachada isolada pode induzir identificação incorreta de hotel."
+  },
+  "assuncao/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Escultura isolada e composição escura, contexto insuficiente para imagem ilustrativa de hospedagem na região."
+  },
+  "assuncao/region-3": {
+    "decision": "rejected",
+    "notes": "Campo de futebol domina a composição, pouco representativo da região de Lambaré."
+  },
+  "assuncao/region-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Lambaré, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "assuncao/hotel-3": {
+    "decision": "rejected",
+    "notes": "Detalhe de estátua junto a prédio cívico, pouco representativo da região de hospedagem."
+  },
+  "assuncao/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Fachada identificada como Prefeitura de Lambaré, inadequada para ilustrar hospedagem."
+  }
+}

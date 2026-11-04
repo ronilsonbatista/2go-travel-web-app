@@ -1,0 +1,417 @@
+[
+  {
+    "key": "havana/home",
+    "slot": "home",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlight-home"
+  },
+  {
+    "key": "havana/guide-card",
+    "slot": "guide-card",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlight-guide-card"
+  },
+  {
+    "key": "havana/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlight-guide-highlight"
+  },
+  {
+    "key": "havana/home-slide",
+    "slot": "home-slide",
+    "topic": "Havana",
+    "status": "no-candidate",
+    "pool": "highlight-home-slide"
+  },
+  {
+    "key": "havana/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Havana: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlight-home-thumb"
+  },
+  {
+    "key": "havana/neighborhood-1",
+    "slot": "neighborhood-1",
+    "topic": "Vedado",
+    "path": "/images/destinations/havana/curated-neighborhood-1.jpg",
+    "pool": "neighborhoods-neighborhood-1",
+    "status": "pending-visual-review",
+    "title": "File:Casa particular de Teresa (Vedado, Havano).jpg",
+    "imageinfo": {
+      "size": 2538868,
+      "width": 4160,
+      "height": 2336,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29.jpg/3840px-Casa_particular_de_Teresa_%28Vedado%2C_Havano%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1348,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29.jpg/3840px-Casa_particular_de_Teresa_%28Vedado%2C_Havano%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1348
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Casa_particular_de_Teresa_(Vedado,_Havano).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73080602",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2018-09-26 10:34:39",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Casa particular de Teresa (Vedado, Havano)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Vedado|Self-published work|2015 in Havana|November 2015 in Cuba|Casas particulares in Cuba",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Casa particular de Teresa. Vedado, Havano, Kubo.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-11-17 14:16:21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:RG72\" title=\"User:RG72\">RG72</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/havana/neighborhood-1.jpg",
+    "dimensions": [
+      2400,
+      1348
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Casa_particular_de_Teresa_%28Vedado%2C_Havano%29.jpg/3840px-Casa_particular_de_Teresa_%28Vedado%2C_Havano%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "1857084566e01bcdf0e0107b708df205251e586d1d95e708715f5747fc26183d"
+  },
+  {
+    "key": "havana/region-0",
+    "slot": "region-0",
+    "topic": "Vieja",
+    "path": "/images/destinations/havana/curated-region-0.jpg",
+    "pool": "regions-hotels-region-0",
+    "status": "pending-visual-review",
+    "title": "File:Habana Vieja (27955284599).jpg",
+    "imageinfo": {
+      "size": 22949060,
+      "width": 5809,
+      "height": 3919,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Habana_Vieja_%2827955284599%29.jpg/3840px-Habana_Vieja_%2827955284599%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1619,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Habana_Vieja_%2827955284599%29.jpg/3840px-Habana_Vieja_%2827955284599%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1619
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Habana_Vieja_%2827955284599%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(27955284599).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77144346",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-06 23:46:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Habana Vieja (27955284599)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Havana Vieja|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.132338",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.352242",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Habana Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-14 11:59",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/27955284599/\">Habana Vieja</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/havana/region-0.jpg",
+    "dimensions": [
+      2400,
+      1619
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Habana_Vieja_%2827955284599%29.jpg/3840px-Habana_Vieja_%2827955284599%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c3c365d189f7ecce0bed71f578f3b0a26c9e62cda963a9f1e5a826f8d7394222"
+  },
+  {
+    "key": "havana/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Havana",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "havana/day-4",
+    "slot": "day-4",
+    "topic": "Bate-volta ou folga",
+    "status": "no-candidate",
+    "pool": "support-leisure"
+  },
+  {
+    "key": "havana/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "path": "/images/destinations/havana/curated-day-2.jpg",
+    "pool": "support-quarter",
+    "status": "pending-visual-review",
+    "title": "File:Habana Vieja (28294177117).jpg",
+    "imageinfo": {
+      "size": 27208879,
+      "width": 4035,
+      "height": 5983,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Habana_Vieja_%2828294177117%29.jpg/3840px-Habana_Vieja_%2828294177117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3559,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Habana_Vieja_%2828294177117%29.jpg/3840px-Habana_Vieja_%2828294177117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3559
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Habana_Vieja_%2828294177117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Habana_Vieja_(28294177117).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=77145165",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2019-03-07 00:59:14",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Habana Vieja (28294177117)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Havana Vieja|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Antonio Schubert|Flickr images missing SDC published in",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "23.138613",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-82.352692",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Habana Vieja",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-05-19 14:35",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/apedros/28294177117/\">Habana Vieja</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/33192910@N07\">Antonio Schubert</a> from Rio de Janeiro, Brasil",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/havana/day-2.jpg",
+    "dimensions": [
+      1619,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Habana_Vieja_%2828294177117%29.jpg/3840px-Habana_Vieja_%2828294177117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "db39ff822e2220c154ebce0668d718aeffedcd4716773ccdf01c98e5144586b9"
+  },
+  {
+    "key": "havana/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "support-currency"
+  }
+]

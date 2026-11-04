@@ -1,0 +1,152 @@
+{
+  "city": "toronto",
+  "region": "americas",
+  "center": [
+    43.6532,
+    -79.3832,
+    40
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "Toronto",
+      "required": [
+        "toronto"
+      ],
+      "locationPatterns": [
+        "toronto|ontario"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100,
+      "offset": 0
+    },
+    "neighborhoods-neighborhood-1": {
+      "query": "Entertainment District Toronto",
+      "required": [
+        "entertainment district"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-1": {
+      "query": "Downtown Toronto",
+      "required": [
+        "downtown"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-1",
+        "region-list-1"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Leslieville Toronto",
+      "required": [
+        "leslieville"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-list-3",
+        "hotel-list-3"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "support-transport": {
+      "query": "TTC streetcar Toronto",
+      "required": [
+        "ttc|streetcar"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ],
+      "offset": 100
+    },
+    "support-language": {
+      "query": "Toronto sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "toronto"
+      ],
+      "countryPattern": "canada|ontario",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ],
+      "offset": 100
+    },
+    "support-currency": {
+      "query": "Canadian polymer banknotes",
+      "required": [
+        "polymer|frontier series|2011|2012|2013|2018"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    },
+    "support-documents": {
+      "query": "Canadian passport cover",
+      "required": [
+        "canadian passport|passeport canadien"
+      ],
+      "locationPatterns": [
+        "canada|canadian"
+      ],
+      "countryPattern": "canada|canadian",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "porto-rico/intro": {
+    "decision": "rejected",
+    "notes": "Panorama equiretangular 360 graus com carro e costura visíveis; distorção inadequada para foto editorial convencional."
+  },
+  "porto-rico/home": {
+    "decision": "rejected",
+    "notes": "Panorama 360 graus de rua com carro e distorção; não serve como destaque HQ convencional."
+  },
+  "porto-rico/home-thumb": {
+    "decision": "rejected",
+    "notes": "Panorama 360 graus com costura e veículo; enquadramento distorcido inadequado para miniatura."
+  },
+  "porto-rico/attraction-2": {
+    "decision": "rejected",
+    "notes": "Escavadeira e operação militar em Mosquito Bay; não representa a bioluminescência."
+  },
+  "porto-rico/map-attraction-2": {
+    "decision": "rejected",
+    "notes": "Militar trabalhando em embarcação; não representa baía bioluminescente como atração."
+  },
+  "porto-rico/map-list-2": {
+    "decision": "rejected",
+    "notes": "Embarcação militar transportando material; assunto não corresponde à bioluminescência."
+  },
+  "porto-rico/attraction-5": {
+    "decision": "accepted",
+    "notes": "Corais e luz subaquática em Culebra, com origem local documentada; paisagem marinha real da atração, sem render."
+  },
+  "porto-rico/neighborhood-detail-1": {
+    "decision": "accepted",
+    "notes": "Mar e orla rochosa de Condado em San Juan; contexto costeiro real do bairro e horizonte correto."
+  },
+  "porto-rico/neighborhood-detail-2": {
+    "decision": "accepted",
+    "notes": "Vista aérea de Ocean Park e Santurce com cidade e praia; bairro real identificável e orientação correta."
+  },
+  "porto-rico/neighborhood-3": {
+    "decision": "accepted",
+    "notes": "Praia e skyline de Isla Verde ao anoitecer; contexto costeiro real do bairro, horizonte correto."
+  },
+  "porto-rico/region-0": {
+    "decision": "accepted",
+    "notes": "Fachada colorida de Old San Juan com bandeira porto-riquenha; arquitetura local real da região e orientação correta."
+  },
+  "porto-rico/region-list-1": {
+    "decision": "accepted",
+    "notes": "Córrego, rochas e vegetação tropical de El Yunque; paisagem florestal real da região, sem inversão."
+  },
+  "porto-rico/hotel-1": {
+    "decision": "accepted",
+    "notes": "Floresta tropical de El Yunque com vegetação e trilha; contexto real de natureza para hospedagem ilustrativa da região."
+  },
+  "porto-rico/region-2": {
+    "decision": "accepted",
+    "notes": "Praia de Fajardo com palmeiras, areia e ondas; região Este real e horizonte correto."
+  },
+  "porto-rico/region-list-2": {
+    "decision": "accepted",
+    "notes": "Fachada e placa Calle Hermanos Avila em Fajardo; contexto urbano real da região Este e orientação correta."
+  },
+  "porto-rico/region-3": {
+    "decision": "rejected",
+    "notes": "Pista de aeroporto sob céu cinzento sem contexto das ilhas; tema regional insuficiente."
+  },
+  "porto-rico/region-list-3": {
+    "decision": "rejected",
+    "notes": "Cemitério de Culebra; não representa a região turística Ilhas."
+  },
+  "porto-rico/mistakes": {
+    "decision": "accepted",
+    "notes": "Terminal do aeroporto Luis Muñoz Marín ao nascer do sol com aeronave e portão; contexto real de planejamento de chegada."
+  },
+  "porto-rico/trip-0": {
+    "decision": "accepted",
+    "notes": "Grande ceiba de Vieques com visitantes na base; marco natural real para passeio regional e orientação correta."
+  }
+}

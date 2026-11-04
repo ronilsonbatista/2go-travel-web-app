@@ -1,0 +1,28 @@
+{
+  "city": "quito",
+  "region": "americas",
+  "center": [
+    -0.18,
+    -78.47,
+    40
+  ],
+  "pools": {
+    "specific": {
+      "query": "\"Quito\" incategory:\"Quality images\"",
+      "required": [
+        "quito",
+        "plaza|historic|historico|san francisco|compania|cathedral|catedral"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|interior|indoors|sculpture|escultura|bust|busto|turtle|bird|flower|fish|lizard|monkey|insect|butterfly|tayrona|tenerife|la palma|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "day-1",
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    }
+  }
+}

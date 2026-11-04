@@ -1,0 +1,66 @@
+{
+  "havana/region-0": {
+    "decision": "rejected",
+    "notes": "Escultura isolada em interior, sem representação suficiente da região de Habana Vieja."
+  },
+  "havana/region-list-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Vieja, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havana/hotel-0": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Vieja, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havana/hotel-list-0": {
+    "decision": "rejected",
+    "notes": "Interior escuro com objetos e pinturas, sem contexto suficiente para hospedagem."
+  },
+  "havana/region-1": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, não fotografia atual do Malecón."
+  },
+  "havana/region-list-1": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, inadequado como vista atual da região."
+  },
+  "havana/hotel-1": {
+    "decision": "rejected",
+    "notes": "Registro histórico monocromático, inadequado para hospedagem atual."
+  },
+  "havana/hotel-list-1": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, inadequado para hospedagem atual."
+  },
+  "havana/region-2": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado de igreja, não fotografia atual de Vedado."
+  },
+  "havana/region-list-2": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado do tennis club, não vista atual da região."
+  },
+  "havana/hotel-2": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, inadequado para hospedagem atual."
+  },
+  "havana/hotel-list-2": {
+    "decision": "rejected",
+    "notes": "Cartão-postal histórico colorizado, inadequado para hospedagem atual."
+  },
+  "havana/region-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Centro, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havana/region-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Centro, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havana/hotel-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Centro, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  },
+  "havana/hotel-list-3": {
+    "decision": "accepted",
+    "notes": "Inspeção visual da prancha: foto real de Hotel em Centro, assunto/localização compatíveis, composição legível e orientação correta, sem mapa ou inversão. Hotel usa foto ilustrativa da região ou interior de hospedagem local, conforme badge existente; não identifica estabelecimento específico."
+  }
+}

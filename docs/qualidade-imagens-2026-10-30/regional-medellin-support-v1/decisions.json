@@ -1,0 +1,62 @@
+{
+  "medellin/day-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Chegada em Medellín, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/mistakes": {
+    "decision": "rejected",
+    "notes": "Escultura domina a imagem e o aeroporto aparece apenas ao fundo; procurar contexto de chegada mais claro."
+  },
+  "medellin/essential-transporte": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Transporte, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/costs": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Pratos típicos de Medellín, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/day-3": {
+    "decision": "rejected",
+    "notes": "Imagem de exposicao temporaria: nao apresenta de modo duravel o museu ou mirante do roteiro."
+  },
+  "medellin/day-4": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bate-volta ou folga, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/day-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Ícones principais, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/tips": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Dicas importantes, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/day-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Bairros e gastronomia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/essential-idioma": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Idioma, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/essential-moeda": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "medellin/essential-docs": {
+    "decision": "pending",
+    "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
+  },
+  "medellin/trip-0": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Arredores de Medellín, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/trip-1": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Passeio regional de meio dia, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  },
+  "medellin/trip-2": {
+    "decision": "accepted",
+    "notes": "Inspecao visual da prancha: fotografia real de Destino costeiro ou histórico próximo, assunto e local compativeis com o pool explicito; orientacao correta e composicao legivel, sem mapa, retrato dominante ou inversao. Documentos/moeda seguem o pais emissor; passeios seguem local nomeado na fonte."
+  }
+}

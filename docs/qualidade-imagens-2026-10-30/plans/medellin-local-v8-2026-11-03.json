@@ -1,0 +1,29 @@
+{
+  "city": "medellin",
+  "region": "americas",
+  "center": [
+    6.24,
+    -75.58,
+    50
+  ],
+  "pools": {
+    "arvi": {
+      "query": "\"Parque Arvi\"",
+      "required": [
+        "parque arvi"
+      ],
+      "slots": [
+        "map-attraction-1",
+        "map-list-1",
+        "region-3",
+        "region-list-3"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|bird|flower|fish|lizard|monkey|insect|butterfly|moth|orchid|collection|collecion|museum",
+      "requiredTitle": "arvi"
+    }
+  }
+}

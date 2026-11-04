@@ -1,0 +1,101 @@
+{
+  "city": "havai",
+  "region": "americas",
+  "center": [
+    21.3069,
+    -157.8583,
+    80
+  ],
+  "pools": {
+    "attraction-0": {
+      "query": "Waikiki Beach Hawaii",
+      "required": [
+        "waikiki"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-0",
+        "map-attraction-0",
+        "map-list-0"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ]
+    },
+    "attraction-1": {
+      "query": "Pearl Harbor Hawaii",
+      "required": [
+        "pearl harbor"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-1",
+        "map-attraction-1",
+        "map-list-1"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ]
+    },
+    "attraction-2": {
+      "query": "Diamond Head Hawaii",
+      "required": [
+        "diamond head"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-2",
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ]
+    },
+    "attraction-3": {
+      "query": "Road to Hana Maui",
+      "required": [
+        "hana"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ]
+    },
+    "attraction-4": {
+      "query": "Hawaii Volcanoes National Park",
+      "required": [
+        "volcanoes national park|kilauea"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-4",
+        "map-attraction-4",
+        "map-list-4"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ]
+    },
+    "attraction-5": {
+      "query": "North Shore Oahu Hawaii",
+      "required": [
+        "north shore"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-5",
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "hawai|oahu|maui|kilauea"
+      ]
+    }
+  }
+}

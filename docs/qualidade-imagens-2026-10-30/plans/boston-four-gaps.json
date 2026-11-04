@@ -1,0 +1,61 @@
+{
+  "city": "boston",
+  "region": "americas",
+  "center": [
+    42.3601,
+    -71.0589,
+    50
+  ],
+  "pools": {
+    "north-end": {
+      "query": "North End Boston",
+      "required": [
+        "north end"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "preferredTitles": [
+        "File:North End Boston.jpg",
+        "File:20180526 - 50 - Boston, MA (North End) - \"North End Nights\".jpg"
+      ],
+      "reject": "stereograph|historic photograph|engraving|painting|19[0-6][0-9]|18[0-9][0-9]|February 2022",
+      "slots": [
+        "day-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "harvard": {
+      "query": "Harvard Yard",
+      "required": [
+        "harvard yard"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "preferredTitles": [
+        "File:Harvard Yard in autumn, Boston, Massachusetts, 2015.jpg"
+      ],
+      "reject": "stereograph|historic photograph|engraving|painting|19[0-6][0-9]|18[0-9][0-9]|February 2022",
+      "slots": [
+        "map-list-2"
+      ]
+    },
+    "downtown": {
+      "query": "Boston skyline",
+      "required": [
+        "boston"
+      ],
+      "locationPatterns": [
+        "boston|cambridge|massachusetts"
+      ],
+      "preferredTitles": [
+        "File:Skyline of Downtown Boston 20240702.jpg"
+      ],
+      "reject": "stereograph|historic photograph|engraving|painting|19[0-6][0-9]|18[0-9][0-9]|February 2022",
+      "slots": [
+        "hotel-list-0"
+      ]
+    }
+  }
+}

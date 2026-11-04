@@ -1,0 +1,14 @@
+{
+  "san-andres/neighborhood-1": {
+    "decision": "accepted",
+    "notes": "Praia de San Luis com faixa de areia e mar caribenho sob céu nublado; local corresponde ao bairro e horizonte está correto."
+  },
+  "san-andres/hotel-list-1": {
+    "decision": "accepted",
+    "notes": "Praia de San Luis com água azul, areia e banhistas; contexto costeiro real da hospedagem ilustrativa, orientação correta."
+  },
+  "san-andres/hotel-list-3": {
+    "decision": "rejected",
+    "notes": "Píer com banhistas sem ilha/cayo identificável; metadados e enquadramento não comprovam a região Cays."
+  }
+}

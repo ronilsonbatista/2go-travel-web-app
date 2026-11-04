@@ -1,0 +1,54 @@
+{
+  "city": "bogota",
+  "region": "americas",
+  "center": [
+    4.711,
+    -74.0721,
+    50
+  ],
+  "pools": {
+    "sky": {
+      "query": "\"Bogota\" \"panorama\"",
+      "required": [
+        "bogota"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "home-thumb"
+      ]
+    },
+    "usaquen": {
+      "query": "\"Usaquen\" \"Bogota\"",
+      "required": [
+        "usaquen"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "map-attraction-3",
+        "hotel-list-1"
+      ]
+    },
+    "botanic": {
+      "query": "\"Jardin Botanico\" \"Bogota\"",
+      "required": [
+        "botanico"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "portrait|archival|postcard|engraving|painting|render|visualization|mockup|satellite|diagram|floor plan|map of",
+      "slots": [
+        "map-list-5"
+      ]
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "city": "san-andres",
+  "region": "americas",
+  "center": [
+    12.5847,
+    -81.7006,
+    30
+  ],
+  "pools": {
+    "highlights-highlights": {
+      "query": "San Andres Colombia island",
+      "required": [
+        "san andres"
+      ],
+      "locationPatterns": [
+        "san andres|colombia"
+      ],
+      "minRatio": 1.35,
+      "maxRatio": 3.6,
+      "reject": "historic photograph|archival|engraving|painting|black.and.white|protest|fireworks|fire incident|portrait|satellite|aerial map|18[0-9][0-9]|19[0-8][0-9]",
+      "slots": [
+        "hero",
+        "intro",
+        "home",
+        "guide-card",
+        "guide-highlight",
+        "home-slide",
+        "home-thumb"
+      ],
+      "limit": 100,
+      "offset": 0
+    },
+    "attractions-attraction-2": {
+      "query": "La Piscinita San Andres",
+      "required": [
+        "piscinita"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-2",
+        "map-list-2"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-3": {
+      "query": "Spratt Bight",
+      "required": [
+        "spratt bight"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "attraction-3",
+        "map-attraction-3",
+        "map-list-3"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "attractions-attraction-5": {
+      "query": "Morgan Cave San Andres",
+      "required": [
+        "morgan"
+      ],
+      "reject": "black and white|historic photograph|postcard|illustration|earthquake damage|protest|activist|nudity",
+      "slots": [
+        "map-attraction-5",
+        "map-list-5"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "neighborhoods-neighborhood-0": {
+      "query": "Spratt Bight San Andres",
+      "required": [
+        "spratt bight"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "neighborhoods-neighborhood-2": {
+      "query": "El Cove San Andres",
+      "required": [
+        "el cove"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "neighborhoods-neighborhood-3": {
+      "query": "La Loma San Andres",
+      "required": [
+        "la loma"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-0": {
+      "query": "Spratt Bight San Andres",
+      "required": [
+        "spratt bight"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0",
+        "hotel-list-0"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-2": {
+      "query": "West View San Andres",
+      "required": [
+        "west view"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-2"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "regions-hotels-region-3": {
+      "query": "Johnny Cay",
+      "required": [
+        "johnny cay"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "hotel-list-3"
+      ],
+      "limit": 100,
+      "offset": 100
+    },
+    "support-transport": {
+      "query": "San Andres Colombia bus",
+      "required": [
+        "bus|taxi|transport"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-transporte"
+      ],
+      "offset": 100
+    },
+    "support-food": {
+      "query": "San Andres Colombia seafood",
+      "required": [
+        "seafood|fish|pescado|rondon"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "costs"
+      ],
+      "offset": 100
+    },
+    "support-quarter": {
+      "query": "Spratt Bight San Andres",
+      "required": [
+        "spratt bight"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "day-2"
+      ],
+      "offset": 100
+    },
+    "support-language": {
+      "query": "San Andres Colombia sign",
+      "required": [
+        "sign|street|calle|rua|cartel|placa"
+      ],
+      "locationPatterns": [
+        "san.andres|colombia|johnny cay"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-idioma"
+      ],
+      "offset": 100
+    },
+    "support-currency": {
+      "query": "Colombian peso banknotes",
+      "required": [
+        "colombian peso|pesos colombianos"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-moeda"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    },
+    "support-documents": {
+      "query": "Colombian passport cover",
+      "required": [
+        "colombian passport|pasaporte colombiano"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "essential-docs"
+      ],
+      "center": [
+        0,
+        0,
+        20050
+      ],
+      "offset": 100
+    },
+    "support-trip-1": {
+      "query": "Haynes Cay San Andres",
+      "required": [
+        "haynes cay|acuario"
+      ],
+      "locationPatterns": [
+        "colombia"
+      ],
+      "countryPattern": "colombia",
+      "limit": 100,
+      "reject": "portrait|nudity|nude|erotic|military exercise|car crash|demonstration|protest|confederate|counterfeit",
+      "slots": [
+        "trip-1"
+      ],
+      "center": [
+        12.55,
+        -81.69,
+        10
+      ],
+      "offset": 100
+    }
+  }
+}

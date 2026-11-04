@@ -1,0 +1,1174 @@
+[
+  {
+    "key": "assuncao/hero",
+    "slot": "hero",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "assuncao/intro",
+    "slot": "intro",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "assuncao/home",
+    "slot": "home",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "assuncao/guide-card",
+    "slot": "guide-card",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "assuncao/guide-highlight",
+    "slot": "guide-highlight",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "assuncao/home-slide",
+    "slot": "home-slide",
+    "topic": "Assunção",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "assuncao/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Assunção: miniatura da home",
+    "status": "no-candidate",
+    "pool": "highlights-highlights"
+  },
+  {
+    "key": "assuncao/attraction-0",
+    "slot": "attraction-0",
+    "topic": "Palacio de López",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-0"
+  },
+  {
+    "key": "assuncao/map-list-0",
+    "slot": "map-list-0",
+    "topic": "Palacio de López",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-0"
+  },
+  {
+    "key": "assuncao/attraction-4",
+    "slot": "attraction-4",
+    "topic": "Cerro Lambaré",
+    "path": "/images/destinations/assuncao/curated-attraction-4.jpg",
+    "pool": "attractions-attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:Entrada a Paseo Cerro Alto, Lambaré, Central, Paraguay.jpg",
+    "imageinfo": {
+      "size": 4354233,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Entrada_a_Paseo_Cerro_Alto%2C_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg/3840px-Entrada_a_Paseo_Cerro_Alto%2C_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Entrada_a_Paseo_Cerro_Alto%2C_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg/3840px-Entrada_a_Paseo_Cerro_Alto%2C_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Entrada_a_Paseo_Cerro_Alto%2C_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Entrada_a_Paseo_Cerro_Alto,_Lambar%C3%A9,_Central,_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=197208386",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-08-11 02:57:32",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Entrada a Paseo Cerro Alto, Lambaré, Central, Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Buildings in Paraguay|CC-Zero|Central Department|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Lambaré|Self-published work|Self-published work missing SDC copyright license|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.342260",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.605484",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Entrada a Paseo Cerro Alto, Lambaré, Central, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chipachyryry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chipachyryry (page does not exist)\">Chipachyryry</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/attraction-4.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Entrada_a_Paseo_Cerro_Alto%2C_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg/3840px-Entrada_a_Paseo_Cerro_Alto%2C_Lambar%C3%A9%2C_Central%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "035054eb876547180e8afe516f62ff4abc2bbfc351acf4192f7f92b1e8fd4003"
+  },
+  {
+    "key": "assuncao/map-list-4",
+    "slot": "map-list-4",
+    "topic": "Cerro Lambaré",
+    "path": "/images/destinations/assuncao/curated-map-list-4.jpg",
+    "pool": "attractions-attraction-4",
+    "status": "pending-visual-review",
+    "title": "File:LA ESCULTURA DE STROESSNER.jpg",
+    "imageinfo": {
+      "size": 10488344,
+      "width": 3024,
+      "height": 4032,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/LA_ESCULTURA_DE_STROESSNER.jpg/1920px-LA_ESCULTURA_DE_STROESSNER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 3200,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/LA_ESCULTURA_DE_STROESSNER.jpg/1920px-LA_ESCULTURA_DE_STROESSNER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 3200
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/LA_ESCULTURA_DE_STROESSNER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:LA_ESCULTURA_DE_STROESSNER.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145179715",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-02-10 03:34:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "LA ESCULTURA DE STROESSNER",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Paraguay|Stroessner (surname)|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.277169",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.638286",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "TITLED COLOMBIAN WORK\n<p>\"COUNTERMONUMENT\"\nBURIED BETWEEN TWO CONCRETE BLOCKS\nTHE REMAINS OF STROESSNER'S SCULPTURE THAT HAD BEEN LOCATED ON THE LAMBARE HILL.\n</p>\nTHROUGH THIS WORK, COLOMBINO SEEK TO SYMBOLIZE THE DEFEAT OF AUTHORITARISM AND THE HOPE IN THE ADVENT OF DEMOCRATIC FORCES.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2024-02-08 18:17:28",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Vatono&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Vatono (page does not exist)\">Vatono</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/map-list-4.jpg",
+    "dimensions": [
+      1800,
+      2400
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/LA_ESCULTURA_DE_STROESSNER.jpg/1920px-LA_ESCULTURA_DE_STROESSNER.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "5e874f96d4215c91bd9699c3e7c7573a3b4842cd0d22bbfa1b1f76a903b49604"
+  },
+  {
+    "key": "assuncao/attraction-5",
+    "slot": "attraction-5",
+    "topic": "Barrio Loma San Jerónimo",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-5"
+  },
+  {
+    "key": "assuncao/map-attraction-5",
+    "slot": "map-attraction-5",
+    "topic": "Barrio Loma San Jerónimo",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-5"
+  },
+  {
+    "key": "assuncao/map-list-5",
+    "slot": "map-list-5",
+    "topic": "Barrio Loma San Jerónimo",
+    "status": "no-candidate",
+    "pool": "attractions-attraction-5"
+  },
+  {
+    "key": "assuncao/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-0"
+  },
+  {
+    "key": "assuncao/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-0"
+  },
+  {
+    "key": "assuncao/neighborhood-2",
+    "slot": "neighborhood-2",
+    "topic": "Carmelitas",
+    "status": "no-candidate",
+    "pool": "neighborhoods-neighborhood-2"
+  },
+  {
+    "key": "assuncao/neighborhood-3",
+    "slot": "neighborhood-3",
+    "topic": "Costanera",
+    "path": "/images/destinations/assuncao/curated-neighborhood-3.jpg",
+    "pool": "neighborhoods-neighborhood-3",
+    "status": "pending-visual-review",
+    "title": "File:Bahia de Asunción.jpg",
+    "imageinfo": {
+      "size": 1363069,
+      "width": 2048,
+      "height": 1536,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bahia_de_Asunci%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bahia_de_Asunci%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bahia_de_Asunci%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bahia_de_Asunci%C3%B3n.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=27641874",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2013-08-10 01:08:52",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bahia de Asunción",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Streets in Asunción|Self-published work|2013 in Asunción",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Avenida costanera de la ciudad de Asunción",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2013-05-14 15:30:06",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cnossos_85&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cnossos 85 (page does not exist)\">Cnossos 85</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/neighborhood-3.jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bahia_de_Asunci%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "sha256": "3afdbba1b8a71a701300845d066a09afa1fe92f9e7aa17a7aa1a06f0c14d1640"
+  },
+  {
+    "key": "assuncao/region-0",
+    "slot": "region-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "assuncao/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Centro",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "assuncao/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Centro",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "assuncao/hotel-list-0",
+    "slot": "hotel-list-0",
+    "topic": "Hotel em Centro",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-0"
+  },
+  {
+    "key": "assuncao/region-2",
+    "slot": "region-2",
+    "topic": "Costanera",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-2"
+  },
+  {
+    "key": "assuncao/hotel-2",
+    "slot": "hotel-2",
+    "topic": "Hotel em Costanera",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-2"
+  },
+  {
+    "key": "assuncao/hotel-list-2",
+    "slot": "hotel-list-2",
+    "topic": "Hotel em Costanera",
+    "status": "no-candidate",
+    "pool": "regions-hotels-region-2"
+  },
+  {
+    "key": "assuncao/region-3",
+    "slot": "region-3",
+    "topic": "Lambaré",
+    "path": "/images/destinations/assuncao/curated-region-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Entrada al Estadio Luciano Zacarias, Club Atlético Colegiales, Lambaré, Paraguay.jpg",
+    "imageinfo": {
+      "size": 4487151,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Entrada_al_Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Entrada_al_Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Entrada_al_Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Entrada_al_Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Entrada_al_Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Entrada_al_Estadio_Luciano_Zacarias,_Club_Atl%C3%A9tico_Colegiales,_Lambar%C3%A9,_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=187390129",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-03-29 13:31:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Entrada al Estadio Luciano Zacarias, Club Atlético Colegiales, Lambaré, Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Sports in Paraguay|Central Department|Lambaré|Self-published work|Files with coordinates missing SDC location of creation|Paraguay photographs taken on 2026-03-24",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.375586",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.581679",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Entrada al Estadio Luciano Zacarias, Club Atlético Colegiales, Lambaré, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chipachyryry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chipachyryry (page does not exist)\">Chipachyryry</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/region-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Entrada_al_Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Entrada_al_Estadio_Luciano_Zacarias%2C_Club_Atl%C3%A9tico_Colegiales%2C_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "63970575caccefdfc9d5ccf2e12b6b636e62ce7ffb8178482bd53f58ebbd4855"
+  },
+  {
+    "key": "assuncao/hotel-3",
+    "slot": "hotel-3",
+    "topic": "Hotel em Lambaré",
+    "path": "/images/destinations/assuncao/curated-hotel-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Monumento a la Burrerita de Lambaré, Paraguay.jpg",
+    "imageinfo": {
+      "size": 5866058,
+      "width": 4080,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Monumento_a_la_Burrerita_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Monumento_a_la_Burrerita_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1807,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Monumento_a_la_Burrerita_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Monumento_a_la_Burrerita_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1807
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Monumento_a_la_Burrerita_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Monumento_a_la_Burrerita_de_Lambar%C3%A9,_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=197207424",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-08-11 02:33:35",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Monumento a la Burrerita de Lambaré, Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|History of Paraguay|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Lambaré|Self-published work|Statues in Paraguay|Self-published work missing SDC copyright license|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.342179",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.624842",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Monumento a la Burrerita de Lambaré, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chipachyryry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chipachyryry (page does not exist)\">Chipachyryry</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/hotel-3.jpg",
+    "dimensions": [
+      2400,
+      1807
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Monumento_a_la_Burrerita_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Monumento_a_la_Burrerita_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a86ba562439bacfd0baa0a02723af2ea915e7e3ddeb11bdfe42498abaed09439"
+  },
+  {
+    "key": "assuncao/hotel-list-3",
+    "slot": "hotel-list-3",
+    "topic": "Hotel em Lambaré",
+    "path": "/images/destinations/assuncao/curated-hotel-list-3.jpg",
+    "pool": "regions-hotels-region-3",
+    "status": "pending-visual-review",
+    "title": "File:Casa de la Cultura de Lambaré, Paraguay.jpg",
+    "imageinfo": {
+      "size": 6096192,
+      "width": 4096,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Casa_de_la_Cultura_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Casa_de_la_Cultura_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Casa_de_la_Cultura_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Casa_de_la_Cultura_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Casa_de_la_Cultura_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Casa_de_la_Cultura_de_Lambar%C3%A9,_Paraguay.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=197208027",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-08-11 02:47:50",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Casa de la Cultura de Lambaré, Paraguay",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|History of Paraguay|Central Department|Creative Commons CC0 1.0 Universal Public Domain Dedication missing SDC copyright license|Lambaré|Self-published work|Self-published work missing SDC copyright license|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.342089",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.625651",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Casa de la Cultura Profesor Héctor Portillo, ciudad de Lambaré, Departamento Central, Paraguay. Ubicado detrás de la municipalidad de Lambaré.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-03-31",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chipachyryry&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chipachyryry (page does not exist)\">Chipachyryry</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/hotel-list-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Casa_de_la_Cultura_de_Lambar%C3%A9%2C_Paraguay.jpg/3840px-Casa_de_la_Cultura_de_Lambar%C3%A9%2C_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "52f45404d338843642443df8a092b87d3c4230f6934d979f8d0732551e553b3b"
+  },
+  {
+    "key": "assuncao/costs",
+    "slot": "costs",
+    "topic": "Pratos típicos de Assunção",
+    "status": "no-candidate",
+    "pool": "support-food"
+  },
+  {
+    "key": "assuncao/day-4",
+    "slot": "day-4",
+    "topic": "Bate-volta ou folga",
+    "status": "no-candidate",
+    "pool": "support-leisure"
+  },
+  {
+    "key": "assuncao/tips",
+    "slot": "tips",
+    "topic": "Dicas importantes",
+    "status": "no-candidate",
+    "pool": "support-icon"
+  },
+  {
+    "key": "assuncao/day-2",
+    "slot": "day-2",
+    "topic": "Bairros e gastronomia",
+    "status": "no-candidate",
+    "pool": "support-quarter"
+  },
+  {
+    "key": "assuncao/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/assuncao/curated-essential-idioma.jpg",
+    "pool": "support-language",
+    "status": "pending-visual-review",
+    "title": "File:Catedral, Asuncion, Paraguay - panoramio (93).jpg",
+    "imageinfo": {
+      "size": 743333,
+      "width": 3008,
+      "height": 2000,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Catedral%2C_Asuncion%2C_Paraguay_-_panoramio_%2893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1596,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Catedral%2C_Asuncion%2C_Paraguay_-_panoramio_%2893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1596
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Catedral%2C_Asuncion%2C_Paraguay_-_panoramio_%2893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Catedral,_Asuncion,_Paraguay_-_panoramio_(93).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=58557527",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2017-05-07 00:03:55",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Catedral, Asuncion, Paraguay - panoramio (93)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Streets in Asunción|Panoramio files uploaded by Panoramio upload bot|Signs in Paraguay|Panoramio images reviewed by trusted users|Photos from Panoramio|Files with coordinates missing SDC location of creation|Paraguay photographs taken on 2014-10-25|Photos from Panoramio ID 8476411",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-25.285930",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-57.631307",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Catedral, Asuncion, Paraguay",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 25 October 2014",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/20161101042220/http://www.panoramio.com/photo/113197535\">https://web.archive.org/web/20161101042220/http://www.panoramio.com/photo/113197535</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161101042124/http://www.panoramio.com/user/8476411?with_photo_id=113197535\">labCHA</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by/3.0/deed.en\" class=\"extiw\" title=\"creativecommons:by/3.0/deed.en\">Attribution 3.0 Unported</a> license.</div><div class=\"rlicense-attr\" style=\"font-weight: bold;\">Attribution: <div style=\"display:inline;font-size:larger;\" class=\"licensetpl_attr\">labCHA</div></div><div class=\"rlicense-desc\" style=\"text-align:start;\" dir=\"ltr\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li></ul></dd></dl>\n</div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by/3.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY 3.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution 3.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\n<style data-mw-deduplicate=\"TemplateStyles:r901585720\">.mw-parser-output .panoramioreview{width:100%;margin:0.5em 0;background-color:var(--background-color-warning-subtle,#fffff0);padding:5px;border:1px solid var(--border-color-warning,#aa8);color:inherit}.mw-parser-output .panoramioreview-failed{background-color:var(--background-color-error-subtle,#fcc);color:inherit}.mw-parser-output .panoramioreview-passed{background-color:var(--background-color-success-subtle,#efe);color:inherit}</style>\n<table class=\"panoramioreview panoramioreview-passed\" lang=\"en\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img alt=\"\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td>This image, which was originally posted to <b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Panoramio\" class=\"extiw\" title=\"en:Panoramio\">Panoramio</a></span></b>, was automatically reviewed on 7 May 2017 by <b><a href=\"//commons.wikimedia.org/wiki/User:Panoramio_upload_bot\" title=\"User:Panoramio upload bot\">Panoramio upload bot</a></b>, who confirmed that it was available on Panoramio under the above license on that date.\n</td>\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Star_and_ring.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/60px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Star_and_ring.svg/120px-Star_and_ring.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"75\" data-file-height=\"75\"></a></span>\n</td></tr></tbody></table>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "labCHA",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/essential-idioma.jpg",
+    "dimensions": [
+      2400,
+      1596
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Catedral%2C_Asuncion%2C_Paraguay_-_panoramio_%2893%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "f300a72e5b875d415bd59264d075551ea536db0ff5e0c8968b267a4609007585"
+  },
+  {
+    "key": "assuncao/essential-moeda",
+    "slot": "essential-moeda",
+    "topic": "Moeda & pagamentos",
+    "status": "no-candidate",
+    "pool": "support-currency"
+  },
+  {
+    "key": "assuncao/essential-docs",
+    "slot": "essential-docs",
+    "topic": "Documentação & seguro",
+    "status": "no-candidate",
+    "pool": "support-documents"
+  },
+  {
+    "key": "assuncao/trip-1",
+    "slot": "trip-1",
+    "topic": "Passeio regional de meio dia",
+    "path": "/images/destinations/assuncao/curated-trip-1.jpg",
+    "pool": "support-trip-1",
+    "status": "pending-visual-review",
+    "title": "File:Manor in San Bernardino-2.jpg",
+    "imageinfo": {
+      "size": 1225615,
+      "width": 2816,
+      "height": 2112,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Manor_in_San_Bernardino-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Manor_in_San_Bernardino-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Manor_in_San_Bernardino-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Manor_in_San_Bernardino-2.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150080628",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-07-06 20:48:45",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Manor in San Bernardino-2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|San Bernardino, Paraguay|Self-published work",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Manor in San Bernardino",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2007-11-10 17:41:48",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cmasi\" title=\"User:Cmasi\">Cmasi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/assuncao/trip-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Manor_in_San_Bernardino-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "7db53bc0674489a9eeeb3006dc497da0f07f1e849f8c1ed8c07ce38713354aa8"
+  }
+]

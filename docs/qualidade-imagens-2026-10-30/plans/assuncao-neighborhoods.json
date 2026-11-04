@@ -1,0 +1,67 @@
+{
+  "city": "assuncao",
+  "region": "americas",
+  "center": [
+    -25.2637,
+    -57.5759,
+    40
+  ],
+  "pools": {
+    "neighborhood-0": {
+      "query": "Asuncion historic center",
+      "required": [
+        "centro|historic|downtown"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-0",
+        "neighborhood-detail-0"
+      ]
+    },
+    "neighborhood-1": {
+      "query": "Villa Morra Asuncion",
+      "required": [
+        "villa morra"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-1",
+        "neighborhood-detail-1"
+      ]
+    },
+    "neighborhood-2": {
+      "query": "Carmelitas Asuncion",
+      "required": [
+        "carmelitas"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-2",
+        "neighborhood-detail-2"
+      ]
+    },
+    "neighborhood-3": {
+      "query": "Costanera Asuncion",
+      "required": [
+        "costanera"
+      ],
+      "locationPatterns": [
+        "asuncion|asuncao|paraguay"
+      ],
+      "reject": "historic photograph|engraving|painting|military exercise|demonstration|protest|black.and.white|portrait",
+      "slots": [
+        "neighborhood-3",
+        "neighborhood-detail-3"
+      ]
+    }
+  }
+}

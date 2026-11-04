@@ -1,0 +1,113 @@
+[
+  {
+    "key": "las-vegas/home-slide",
+    "slot": "home-slide",
+    "topic": "Las Vegas",
+    "path": "/images/destinations/las-vegas/curated-home-slide.jpg",
+    "pool": "scenic",
+    "status": "pending-visual-review",
+    "title": "File:Las Vegas Strip at night, 2012.jpg",
+    "imageinfo": {
+      "size": 6366811,
+      "width": 3722,
+      "height": 2442,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Las_Vegas_Strip_at_night%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1575,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Las_Vegas_Strip_at_night%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1575
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Las_Vegas_Strip_at_night%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Las_Vegas_Strip_at_night,_2012.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24697664",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-06-16 18:24:34",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Las Vegas Strip at night, 2012",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Stroads|Self-published work|Las Vegas Strip at night|July 2012 in Las Vegas|Views from Eiffel Tower (Las Vegas)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Le strip de Las Vegas vu depuis le sommet de la tour Eiffel du Paris Las Vegas",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-07-20 07:58:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cl%C3%A9ment_Bardot\" title=\"User:Clément Bardot\">Clément Bardot</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/las-vegas/home-slide.jpg",
+    "dimensions": [
+      2400,
+      1575
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Las_Vegas_Strip_at_night%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "08ca6fe0c0f65be4e02327dff7527dc81c36988818b3786315da033b4d1665cf"
+  }
+]
