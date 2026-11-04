@@ -5,7 +5,6 @@ import Header from './Header';
 import Footer from './Footer';
 import Breadcrumbs from './Breadcrumbs';
 import AppDownloadModal from './AppDownloadModal';
-import { PhoneFrame, PhoneScreenImage } from './AppPhoneMockup';
 
 export default function RoteirosClient() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
@@ -37,44 +36,6 @@ export default function RoteirosClient() {
               Criar meu roteiro
             </button>
           </header>
-
-          <section className="my-8 bg-white border border-border-gray rounded-[28px] p-5 sm:p-8">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-              <div className="lg:col-span-5 text-left">
-                <p className="text-[11px] font-extrabold tracking-wide text-brand-orange">Prints do aplicativo</p>
-                <h2 className="font-headers text-2xl sm:text-3xl font-extrabold text-brand-navy mt-2">
-                  Da próxima viagem ao dia a dia
-                </h2>
-                <p className="text-sm text-text-muted mt-3 leading-relaxed max-w-md">
-                  A home mostra a viagem que vem. O roteiro abre o dia, o horário e o mapa. Você ajusta tudo no app.
-                </p>
-              </div>
-              <div className="lg:col-span-7 flex flex-wrap justify-center lg:justify-end gap-5 sm:gap-8 py-6 lg:py-2">
-                <PhoneFrame
-                  size="md"
-                  className="max-w-[176px] sm:max-w-[206px]"
-                  glowClassName="bg-[#081B6B]/18"
-                >
-                  <PhoneScreenImage
-                    src="/assets/app-home-gustavo.webp"
-                    alt="Tela inicial do app 2GO, com a próxima viagem para Roma"
-                    objectPosition="top center"
-                  />
-                </PhoneFrame>
-                <PhoneFrame
-                  size="md"
-                  className="max-w-[176px] sm:max-w-[206px] translate-y-3 sm:translate-y-5"
-                  glowClassName="bg-brand-orange/18"
-                >
-                  <PhoneScreenImage
-                    src="/assets/app-roteiro-roma.webp"
-                    alt="Dia 1 do roteiro de Roma no app 2GO, com countdown, datas e timeline"
-                    objectPosition="top center"
-                  />
-                </PhoneFrame>
-              </div>
-            </div>
-          </section>
 
         </div>
       </main>
