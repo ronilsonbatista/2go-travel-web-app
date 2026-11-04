@@ -61,11 +61,6 @@ export default function Footer({ onOpenDownload }) {
                 Guia de Viagem
               </Link>
             </li>
-            <li>
-              <Link href="/roteiros" className="inline-flex min-h-11 items-center text-sm text-white/75 hover:text-brand-orange transition-colors cursor-pointer text-left">
-                Roteiros
-              </Link>
-            </li>
           </ul>
         </div>
 

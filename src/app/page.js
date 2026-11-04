@@ -894,30 +894,30 @@ export default function Home() {
 
               <div className="relative z-10 flex flex-col items-center gap-3 sm:gap-4">
                 <span className="bg-brand-orange text-white text-[11px] font-extrabold tracking-widest px-2.5 py-1 rounded-full w-fit">
-                  Roteiros personalizados
+                  Guia de Viagem
                 </span>
                 <h2 className="font-headers text-2xl sm:text-3xl md:text-[2.35rem] lg:text-[2.5rem] font-black leading-[1.12] tracking-tight text-brand-navy max-w-2xl">
-                  Crie seu roteiro personalizado
+                  Explore nossos guias de viagem
                 </h2>
                 <p className="text-sm sm:text-base text-text-muted leading-relaxed max-w-lg">
-                  Planeje sua próxima viagem do seu jeito, com muito mais praticidade.
+                  Inspire-se nos destinos e organize a viagem do seu jeito, com praticidade.
                 </p>
 
                 <div className="flex flex-col gap-2 mt-2 w-full sm:w-auto items-center">
                   <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto justify-center">
+                    <Link
+                      href="/guias"
+                      className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 text-sm no-underline"
+                    >
+                      Explorar guias
+                    </Link>
                     <button
                       type="button"
                       onClick={() => setIsDownloadOpen(true)}
-                      className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 border-none text-sm"
+                      className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl transition-all flex items-center justify-center bg-transparent text-sm cursor-pointer"
                     >
-                      Criar meu roteiro
+                      Baixar o App
                     </button>
-                    <Link
-                      href="/roteiros"
-                      className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl transition-all flex items-center justify-center bg-transparent text-sm"
-                    >
-                      Ver roteiros
-                    </Link>
                   </div>
                   <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-0.5">
                     A prévia fica no site. O dia a dia, no aplicativo.

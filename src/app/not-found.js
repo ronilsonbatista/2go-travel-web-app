@@ -43,10 +43,10 @@ export default function NotFound() {
               <Home className="w-4 h-4" /> Ir para Início
             </Link>
             <Link 
-              href="/roteiros"
+              href="/guias"
               className="btn btn-outline flex-1 py-3 text-xs font-bold justify-center flex items-center gap-2 cursor-pointer transition-all hover:bg-brand-orange hover:text-white hover:border-brand-orange"
             >
-              <Compass className="w-4 h-4" /> Ver Roteiros
+              <Compass className="w-4 h-4" /> Ver Guias
             </Link>
           </div>
         </div>
