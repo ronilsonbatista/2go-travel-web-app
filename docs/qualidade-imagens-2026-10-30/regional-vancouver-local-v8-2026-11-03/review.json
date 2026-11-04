@@ -1,0 +1,113 @@
+[
+  {
+    "key": "vancouver/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Downtown",
+    "path": "/images/destinations/vancouver/curated-neighborhood-detail-0.jpg",
+    "pool": "downtown",
+    "status": "pending-visual-review",
+    "title": "File:Hudson's Bay Company Vancouver.jpg",
+    "imageinfo": {
+      "size": 8883984,
+      "width": 4608,
+      "height": 3072,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Hudson%27s_Bay_Company_Vancouver.jpg/3840px-Hudson%27s_Bay_Company_Vancouver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Hudson%27s_Bay_Company_Vancouver.jpg/3840px-Hudson%27s_Bay_Company_Vancouver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Hudson%27s_Bay_Company_Vancouver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hudson%27s_Bay_Company_Vancouver.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41161433",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2015-06-24 07:27:25",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Hudson's Bay Company Vancouver",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|2015 Photographs by user:Xicotencatl|Hudson's Bay (Downtown Vancouver)",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Hudson's Bay Company Building, Downtown Vancouver",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2015-06-20 07:45:22",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Xicotencatl\" title=\"User:Xicotencatl\">Xicotencatl</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/vancouver/neighborhood-detail-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Hudson%27s_Bay_Company_Vancouver.jpg/3840px-Hudson%27s_Bay_Company_Vancouver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ad37d85569852409154d0bb2a7503daf5fb4d1cba26ff44da455c592021f18d7"
+  }
+]

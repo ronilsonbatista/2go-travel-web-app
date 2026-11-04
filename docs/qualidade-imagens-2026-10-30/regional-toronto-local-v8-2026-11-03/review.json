@@ -1,0 +1,244 @@
+[
+  {
+    "key": "toronto/essential-transporte",
+    "slot": "essential-transporte",
+    "topic": "Transporte",
+    "status": "no-candidate",
+    "pool": "transit"
+  },
+  {
+    "key": "toronto/essential-idioma",
+    "slot": "essential-idioma",
+    "topic": "Idioma",
+    "path": "/images/destinations/toronto/curated-essential-idioma.jpg",
+    "pool": "language",
+    "status": "pending-visual-review",
+    "title": "File:Bilingual exit sign (49975061333).jpg",
+    "imageinfo": {
+      "size": 290878,
+      "width": 2900,
+      "height": 1631,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Bilingual_exit_sign_%2849975061333%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1350,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Bilingual_exit_sign_%2849975061333%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1350
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Bilingual_exit_sign_%2849975061333%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bilingual_exit_sign_(49975061333).jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150512674",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2024-07-19 12:01:46",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bilingual exit sign (49975061333)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "August 1999 in Toronto|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Bilingual English-French signs in Canada|Exit signs in Canada|Double exit signs in different languages|CN Tower in 1999",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "43.642372",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-79.387142",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "<p>Exit sign in English and French at the CN Tower in Toronto.  The need for this sort of bilingual exit sign was eliminated in 2014, when Ontario adopted the green and white \"running man\" pictogram as the standard for exit signs.\n</p><p>More at <i>The Schumin Web</i>:\n&lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://www.schuminweb.com/odds-and-ends/canada-trip-part-1/\">https://www.schuminweb.com/odds-and-ends/canada-trip-part-1/</a>\" rel=\"noreferrer nofollow\"&gt;www.schuminweb.com/odds-and-ends/canada-trip-part-1/&lt;/a&gt;\n</p>\n<i>Ben Schumin is a professional photographer who captures the intricacies of daily life.  This image may be used under Creative Commons Attribution-ShareAlike 2.0.  Please provide artist attribution, as well as a link to the original photo and to the license terms.</i>",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "1999-08-09 00:00",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/schuminweb/49975061333/\">Bilingual exit sign</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/64873675@N00\">Ben Schumin</a> from Montgomery Village, Maryland, USA",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1024,
+    "file": "/tmp/2go-regional-photo-review/toronto/essential-idioma.jpg",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Bilingual_exit_sign_%2849975061333%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "dfab4d3474ca22e3c5265dd3b68eeed605a549b01d7d60f08429051bab3546d3"
+  },
+  {
+    "key": "toronto/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Toronto: miniatura da home",
+    "path": "/images/destinations/toronto/curated-home-thumb.jpg",
+    "pool": "thumbnail",
+    "status": "pending-visual-review",
+    "title": "File:Toronto Skyline March 2023 14.jpg",
+    "imageinfo": {
+      "size": 17012489,
+      "width": 6000,
+      "height": 4000,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Toronto_Skyline_March_2023_14.jpg/3840px-Toronto_Skyline_March_2023_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Toronto_Skyline_March_2023_14.jpg/3840px-Toronto_Skyline_March_2023_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Toronto_Skyline_March_2023_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Toronto_Skyline_March_2023_14.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129636184",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2023-03-16 02:18:51",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Toronto Skyline March 2023 14",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Remote views of the CN Tower|Project Korikath-All images|Images by User:Fabian Roudra Baroi|Skylines of Toronto in 2023|12th solo photowalk of Project Korikath, March 2023|Uploaded via Campaign:Project Korikath Fabian",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Toronto Skyline, Toronto, Ontario, Canada",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2023-03-09 18:41:05",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Fabian_Roudra_Baroi\" title=\"User:Fabian Roudra Baroi\">Fabian Roudra Baroi</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/toronto/home-thumb.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Toronto_Skyline_March_2023_14.jpg/3840px-Toronto_Skyline_March_2023_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "c7b089bb3684ba129efd6ca513207124fc92e185f184120b4aaa8d0ae67eaf92"
+  }
+]

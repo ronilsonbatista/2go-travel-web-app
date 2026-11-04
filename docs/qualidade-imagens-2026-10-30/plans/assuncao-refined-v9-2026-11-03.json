@@ -1,0 +1,26 @@
+{
+  "city": "assuncao",
+  "region": "americas",
+  "center": [
+    0,
+    0,
+    20040
+  ],
+  "pools": {
+    "food": {
+      "query": "\"Sopa paraguaya\" \"Paraguay\"",
+      "required": [
+        "sopa paraguaya"
+      ],
+      "slots": [
+        "costs"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 3.6,
+      "reject": "argentina|misiones province|brazil|brasil|united states|roosevelt|new york|logo|painting|drawing|map",
+      "requiredTitle": "sopa.*paraguaya"
+    }
+  }
+}

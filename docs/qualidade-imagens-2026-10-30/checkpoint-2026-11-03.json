@@ -1,24 +1,27 @@
 {
-  "baselineRef": "ecae228",
-  "newApplied": 6,
+  "baselineRef": "ddc66b2",
+  "newApplied": 9,
   "newKeys": [
-    "lima/essential-moeda",
-    "montreal/essential-moeda",
-    "quito/hotel-0",
-    "quito/neighborhood-detail-0",
-    "toronto/essential-moeda",
-    "vancouver/essential-moeda"
+    "las-vegas/neighborhood-detail-3",
+    "las-vegas/region-list-0",
+    "medellin/map-attraction-1",
+    "montevideo/costs",
+    "montreal/costs",
+    "montreal/day-2",
+    "quito/costs",
+    "toronto/essential-transporte",
+    "vancouver/neighborhood-detail-0"
   ],
-  "preservedSourceRecords": 2725,
+  "preservedSourceRecords": 2731,
   "changedPreservedMetadata": [],
   "changedPreservedBinaries": [],
   "auditIssuesInvolvingNewKeys": [],
-  "remaining": 4114,
+  "remaining": 4105,
   "regions": {
     "americas": {
       "label": "Américas",
-      "replaced": 1372,
-      "remaining": 164,
+      "replaced": 1381,
+      "remaining": 155,
       "complete": false
     },
     "europa": {

@@ -7442,5 +7442,69 @@
     "sha256": "74fd93d6fc7ad7b6bc4b9154ff5de49b20969c0e0cdb35603d2d720d705a4a54",
     "decision": "rejected",
     "notes": "A foto é nítida e canadense, mas mostra caixas Desjardins em Montreal; para Vancouver, preferir imagem de uma rede bancária com serviço nacional mais representativo, evitando sugerir uma agência local da cooperativa de Quebec."
+  },
+  {
+    "bundle": "regional-assuncao-local-v8-2026-11-03",
+    "key": "assuncao/costs",
+    "title": "File:Sopa paraguaya (porción de bandeja).jpg",
+    "sha256": "6cd075741ec5312f124b13f0921eee28f14f9431e2c62193c6789984fb56c4a0",
+    "decision": "rejected",
+    "notes": "La foto describe sopa paraguaya, pero las coordenadas y categoría Cuisine of Misiones Province corresponden a Argentina. Mantener criterio de país correcto y buscar una fotografía de preparación en Paraguay."
+  },
+  {
+    "bundle": "regional-quito-local-v8-2026-11-03",
+    "key": "quito/costs",
+    "title": "File:Llapingachos and chorizos.jpg",
+    "sha256": "2e94ed4900b6b081ee742087747ed2d0f3595e440324096d0674fbdd44dc3ef6",
+    "decision": "rejected",
+    "notes": "La fuente sitúa la comida en Roosevelt Avenue y no acredita captura en Ecuador; además, reflejos de bandejas y embutidos dominan sobre los llapingachos. Buscar una foto más clara y con país comprobado."
+  },
+  {
+    "bundle": "regional-toronto-local-v8-2026-11-03",
+    "key": "toronto/essential-idioma",
+    "title": "File:Bilingual exit sign (49975061333).jpg",
+    "sha256": "dfab4d3474ca22e3c5265dd3b68eeed605a549b01d7d60f08429051bab3546d3",
+    "decision": "rejected",
+    "notes": "La placa EXIT/SORTIE es de Toronto, pero la captura es de 1999 y la propia fuente indica que el modelo fue sustituido por otro estándar en 2014. Buscar señalización contemporánea para evitar ilustración desactualizada."
+  },
+  {
+    "bundle": "regional-toronto-local-v8-2026-11-03",
+    "key": "toronto/home-thumb",
+    "title": "File:Toronto Skyline March 2023 14.jpg",
+    "sha256": "c7b089bb3684ba129efd6ca513207124fc92e185f184120b4aaa8d0ae67eaf92",
+    "decision": "rejected",
+    "notes": "La composición corta la CN Tower en el borde izquierdo; pese a resolución suficiente, el encuadre no es adecuado para miniatura principal. Buscar una vista con el hito completo."
+  },
+  {
+    "bundle": "regional-toronto-refined-v9-2026-11-03",
+    "key": "toronto/home-thumb",
+    "title": "File:Toronto - ON - Skyline bei Nacht.jpg",
+    "sha256": "1eb30cef7905bad2fa8f59912c5187e3849106e0efce083652996f29b6488314",
+    "decision": "rejected",
+    "notes": "A vista tem a torre muito próxima da borda superior e pouca margem para recorte da miniatura; buscar composição com hito completo e espaço de enquadramento."
+  },
+  {
+    "bundle": "regional-toronto-refined-v9-2026-11-03",
+    "key": "toronto/essential-idioma",
+    "title": "File:Re-elect John Tory for Mayor election sign on Cummer Avenue - 20221015.jpg",
+    "sha256": "f9397c94782908f9171b1e93f809fc2bd2666fced167230e58d36bb9f520c385",
+    "decision": "rejected",
+    "notes": "A imagem é dominada por trânsito, placa de proibição e campanha eleitoral de 2022; o texto não é adequado nem legível para ilustrar idioma de um guia de viagem."
+  },
+  {
+    "bundle": "regional-las-vegas-refined-v9-2026-11-03",
+    "key": "las-vegas/region-0",
+    "title": "File:Jeep Wrangler Sahara JK on Lone Mountain Rd.jpg",
+    "sha256": "aac4daf4b1bb771acf9147ca8490b9750c6b6441c46a6c608b038860ae14795c",
+    "decision": "rejected",
+    "notes": "Sahara é o nome do modelo Jeep fotografado em Lone Mountain Road, não o hotel nem a região Strip Norte. Rejeitado como falso match de nome."
+  },
+  {
+    "bundle": "regional-las-vegas-refined-v9-2026-11-03",
+    "key": "las-vegas/hotel-0",
+    "title": "File:RTC (Las Vegas, NV) Sahara Express NFI XN60 Sahara Blvd @ Las Vegas Blvd (51717310895).jpg",
+    "sha256": "22a41ff9a35196ddeca0f8298dccb9c7b53612abc189ac959d68346eaa445941",
+    "decision": "rejected",
+    "notes": "A imagem mostra um ônibus da linha Sahara Express, não uma hospedagem; o nome da rota provocou falso match com o hotel Sahara."
   }
 ]

@@ -27536,20 +27536,31 @@
   "montevideo/costs": {
     "city": "montevideo",
     "slot": "costs",
-    "query": "Montevideo Uruguay food restaurant",
     "path": "/images/destinations/montevideo/curated-costs.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:montevideo/costs",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Pratos típicos de Montevidéu",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Chivito_al_pan_uruguayo.jpg",
+    "title": "File:Chivito al pan uruguayo.jpg",
+    "author": "https://www.flickr.com/photos/mattrubens/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Chivito al pan, un plato típico de Uruguay a base de carne vacuna y especias.",
+    "categories": "Chivito|Flickr images reviewed by trusted users|November 2006 in Uruguay",
+    "date": "2006-11-23",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Chivito_al_pan_uruguayo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Chivito_al_pan_uruguayo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      1024,
+      711
+    ],
+    "originalDimensions": [
+      1024,
+      711
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Chivito al pan uruguayo, con carne, pan, vegetales y papas legibles; preparación típica uruguaya verificada en fuente oficial, foto real CC BY-SA 2.0, 1024px nativos sin ampliación, apta para el card de gastronomía.",
+    "assetSha256": "40d018cb5c9a3ee8aa03adf337f2f59f6c7d8dea4736ca3d629f4d46f3e06f9d",
+    "minimumLongEdge": 1024
   },
   "montevideo/mistakes": {
     "city": "montevideo",
@@ -33057,20 +33068,31 @@
   "medellin/map-attraction-1": {
     "city": "medellin",
     "slot": "map-attraction-1",
-    "query": "Parque Arví",
     "path": "/images/destinations/medellin/curated-map-attraction-1.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:medellin/map-attraction-1",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Parque Arví",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Bosque_Parque_Arv%C3%AD.JPG",
+    "title": "File:Bosque Parque Arví.JPG",
+    "author": "Paco Godoy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "This is a photo of a Colombian monument with location ID",
+    "categories": "Zona Arqueológica de Piedras Blancas|Arví Park|Self-published work|Images from Wiki Loves Monuments 2014|Images from Wiki Loves Monuments 2014 in Colombia|Monuments in Colombia with known location IDs|Uploaded via Campaign:wlm-co|Colombia photographs taken on 2012-08-24|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation",
+    "date": "2012-08-24 10:03:48",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bosque_Parque_Arv%C3%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bosque_Parque_Arv%C3%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      2592,
+      1944
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Bosque real del Parque Arví con sendero, árboles y sotobosque legibles; source identifica el parque colombiano, fotografía CC BY-SA 3.0, 2592px nativos, orientación correcta y tema natural específico del atractivo.",
+    "assetSha256": "403536bc51c7a0567c6c5c97f7ba9b5abee691c50d7498adf2afc85a8b918d5e",
+    "minimumLongEdge": 1600
   },
   "medellin/map-list-1": {
     "city": "medellin",
@@ -34631,20 +34653,31 @@
   "quito/costs": {
     "city": "quito",
     "slot": "costs",
-    "query": "Quito Ecuador food restaurant",
     "path": "/images/destinations/quito/curated-costs.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:quito/costs",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Pratos típicos de Quito",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Llapingachos._%2840491622163%29.jpg",
+    "title": "File:Llapingachos. (40491622163).jpg",
+    "author": "young shanahan from Bratislava, Slovakia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Llapingachos are small patties of grated potato, cheese and seasoning that are fried. We had them in the main market in Baños. This is my plate with chorizo also VERY delicious!\n\nBaños - Ecuador.",
+    "categories": "Fried food|Llapingachos|Flickr images reviewed by FlickreviewR 2",
+    "date": "2019-03-01 00:00",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Llapingachos._%2840491622163%29.jpg/3840px-Llapingachos._%2840491622163%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Llapingachos._%2840491622163%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      4288,
+      3216
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Llapingachos com chorizo fotografados no mercado de Baños, Equador, conforme descrição da fonte; prato típico do mesmo país e da gastronomia andina presente em Quito, vínculo confirmado no Visit Quito. Fotografia nítida CC BY 2.0, 4288px nativos, alimento legível e orientação correta.",
+    "assetSha256": "b59d98756d7b377720bcca8aa98fed5ef076fdcc51413a5fd5cfc507473b2dc1",
+    "minimumLongEdge": 1024
   },
   "quito/mistakes": {
     "city": "quito",
@@ -46270,20 +46303,31 @@
   "vancouver/neighborhood-detail-0": {
     "city": "vancouver",
     "slot": "neighborhood-detail-0",
-    "query": "Vancouver Downtown street",
     "path": "/images/destinations/vancouver/curated-neighborhood-detail-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:vancouver/neighborhood-detail-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Downtown",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Hudson%27s_Bay_Company_Vancouver.jpg",
+    "title": "File:Hudson's Bay Company Vancouver.jpg",
+    "author": "Xicotencatl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Hudson's Bay Company Building, Downtown Vancouver",
+    "categories": "Self-published work|2015 Photographs by user:Xicotencatl|Hudson's Bay (Downtown Vancouver)",
+    "date": "2015-06-20 07:45:22",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Hudson%27s_Bay_Company_Vancouver.jpg/3840px-Hudson%27s_Bay_Company_Vancouver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Hudson%27s_Bay_Company_Vancouver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "originalDimensions": [
+      4608,
+      3072
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Detalle arquitectónico nítido de la fachada histórica del Hudson’s Bay Company Building en Downtown Vancouver; fuente identifica edificio y barrio, CC BY-SA 4.0, 4608px nativos. Perspectiva ascendente intencional, orientación correcta; no se presenta como hotel ni como recomendación de tienda.",
+    "assetSha256": "ad37d85569852409154d0bb2a7503daf5fb4d1cba26ff44da455c592021f18d7",
+    "minimumLongEdge": 1600
   },
   "vancouver/neighborhood-1": {
     "city": "vancouver",
@@ -47272,20 +47316,33 @@
   "toronto/essential-transporte": {
     "city": "toronto",
     "slot": "essential-transporte",
-    "query": "Toronto CN Tower transit transport",
     "path": "/images/destinations/toronto/curated-essential-transporte.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:toronto/essential-transporte",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Transporte",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Flexity_Outlook_%28Toronto_streetcar%29%3B_September_2019.jpg",
+    "title": "File:Flexity Outlook (Toronto streetcar); September 2019.jpg",
+    "author": "Bernard Spragg. NZ",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "The Flexity Outlook is the latest model in the rolling stock of the Toronto streetcar system owned by the Toronto Transit Commission (TTC). Based on the Flexity Outlook vehicles used in several European cities, the new streetcars were first ordered in 2009 and are built by Bombardier Transportation in Thunder Bay and Kingston, Ontario, Canada, with specific modifications for Toronto, such as unidirectional operation and the ability to operate on the unique broad Toronto gauge (4 ft 10 7⁄8 in / 1,495 mm).",
+    "categories": "504 King|CC-Zero|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Bombardier LRV in Toronto in 2019",
+    "date": "2019-09-26 06:50:38",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Flexity_Outlook_%28Toronto_streetcar%29%3B_September_2019.jpg/3840px-Flexity_Outlook_%28Toronto_streetcar%29%3B_September_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Flexity_Outlook_%28Toronto_streetcar%29%3B_September_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1441
+    ],
+    "originalDimensions": [
+      4902,
+      2942
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Bonde Flexity Outlook da TTC em operação na rua de Toronto, com veículo, trilhos e contexto urbano legíveis; GPS local, captura de setembro de 2019, origem Flickr comprovada, CC0 e 4902px nativos.",
+    "assetSha256": "89f4a0a7306af5eada04b85daadd2ebbba17aa31bc5e85af11045b64d8ffdf5c",
+    "minimumLongEdge": 1600,
+    "latitude": 43.646888,
+    "longitude": -79.388988
   },
   "toronto/essential-docs": {
     "city": "toronto",
@@ -49194,20 +49251,33 @@
   "montreal/costs": {
     "city": "montreal",
     "slot": "costs",
-    "query": "Montreal Quebec food restaurant",
     "path": "/images/destinations/montreal/curated-costs.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:montreal/costs",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Pratos típicos de Montreal",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:La_Banquise_Poutine.jpg",
+    "title": "File:La Banquise Poutine.jpg",
+    "author": "Yuri Long from Arlington, VA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Poutine Classique at La Banquise in Montreal.",
+    "categories": "Poutine|Taken with Canon EOS 1000D|Gravy|Images with extracted images|Flickr images reviewed by FlickreviewR|Photographs taken on 2010-08-15|Files with coordinates missing SDC location of creation|La Banquise (restaurant)|Food in Montreal|Flickr images missing SDC published in",
+    "date": "2010-08-15 12:48",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/La_Banquise_Poutine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/La_Banquise_Poutine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      1028,
+      685
+    ],
+    "originalDimensions": [
+      1028,
+      685
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Poutine Classique de La Banquise en Montreal, con papas, salsa y queso legibles; restaurante y plato documentados, GPS local, fotografía real CC BY 2.0, 1028px nativos sin ampliación.",
+    "assetSha256": "b8a026a83ecd7dcee149305806fefbdc4e3b16cc0a6c55944ae0310f689b77d3",
+    "minimumLongEdge": 1024,
+    "latitude": 45.525386,
+    "longitude": -73.574874
   },
   "montreal/mistakes": {
     "city": "montreal",
@@ -49829,20 +49899,31 @@
   "montreal/day-2": {
     "city": "montreal",
     "slot": "day-2",
-    "query": "Montreal Quebec day 3",
     "path": "/images/destinations/montreal/curated-day-2.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:montreal/day-2",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Bairros e gastronomia",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Poutine_%40_D%C3%A9carie_Hot_Dog_%40_Montr%C3%A9al_%2830435389821%29.jpg",
+    "title": "File:Poutine @ Décarie Hot Dog @ Montréal (30435389821).jpg",
+    "author": "Guilhem Vellut from Annecy, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Poutine @ Décarie Hot Dog @ Montréal",
+    "categories": "Poutine|Files from Guilhem Vellut Flickr stream|Flickr images reviewed by FlickreviewR 2|Files from Food album of Guilhem Vellut uploaded by Netha Hussain",
+    "date": "2016-10-14 14:33",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Poutine_%40_D%C3%A9carie_Hot_Dog_%40_Montr%C3%A9al_%2830435389821%29.jpg/3840px-Poutine_%40_D%C3%A9carie_Hot_Dog_%40_Montr%C3%A9al_%2830435389821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Poutine_%40_D%C3%A9carie_Hot_Dog_%40_Montr%C3%A9al_%2830435389821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "originalDimensions": [
+      5472,
+      3648
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Poutine servida en Décarie Hot Dog de Montreal; foto cenital nítida de gastronomía local, origen Flickr comprobado, licencia CC BY 2.0, 5472px nativos y orientación correcta. Representa la parte gastronómica del día de barrios y comida.",
+    "assetSha256": "9b036d83b15ceabbc3b0f66bec14890a1b338bf922c04c66b2eed1f78317e9d7",
+    "minimumLongEdge": 1024
   },
   "montreal/day-3": {
     "city": "montreal",
@@ -64717,20 +64798,33 @@
   "las-vegas/neighborhood-detail-3": {
     "city": "las-vegas",
     "slot": "neighborhood-detail-3",
-    "query": "Las Vegas Paradise street",
     "path": "/images/destinations/las-vegas/curated-neighborhood-detail-3.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:las-vegas/neighborhood-detail-3",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Paradise",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg",
+    "title": "File:Welcome to Fabulous Las Vegas sign, Nevada - April 2026.jpg",
+    "author": "Christian David",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "The famous \"Welcome to Fabulous Las Vegas Nevada\" sign on Las Vegas Boulevard South, Paradise, Clark County, Nevada, United States.",
+    "categories": "Welcome to Fabulous Las Vegas sign|Self-published work|Files with coordinates missing SDC location of creation|Images of the United States by Christian David",
+    "date": "2026-04-24 09:58:26",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg/3840px-Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      6744,
+      5058
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Welcome to Fabulous Las Vegas en Paradise, Nevada, confirmado por descripción y GPS; captura de abril de 2026, fotografía nítida CC BY-SA 4.0 con 6744px nativos, señal y entorno legibles, orientación correcta.",
+    "assetSha256": "a60a4b19dc5f94b65d03321130c325960e2e6214ff4bab4f57f80e0976b35a56",
+    "minimumLongEdge": 1600,
+    "latitude": 36.08199,
+    "longitude": -115.17277
   },
   "las-vegas/trip-0": {
     "city": "las-vegas",
@@ -64846,20 +64940,33 @@
   "las-vegas/region-list-0": {
     "city": "las-vegas",
     "slot": "region-list-0",
-    "query": "Las Vegas Strip Norte",
     "path": "/images/destinations/las-vegas/curated-region-list-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:las-vegas/region-list-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Strip Norte",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Nevada_-_Las_Vegas_Intersection_of_the_Strip_and_Sahara_Avenue_-_in_the_background_the_skyline_of_downtown_Las_Vegas_%2849541973966%29.jpg",
+    "title": "File:Nevada - Las Vegas Intersection of the Strip and Sahara Avenue - in the background the skyline of downtown Las Vegas (49541973966).jpg",
+    "author": "Reinhard Link from Germany",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "State Route 589 comprised a large portion of Sahara Avenue, a major east–west section line road in the Las Vegas Valley. The road is named after the Sahara Hotel and Casino which is located on Las Vegas Boulevard where it intersects with Sahara Avenue.",
+    "categories": "Las Vegas|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Files uploaded by Orizan",
+    "date": "2019-11-06 14:32",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Nevada_-_Las_Vegas_Intersection_of_the_Strip_and_Sahara_Avenue_-_in_the_background_the_skyline_of_downtown_Las_Vegas_%2849541973966%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Nevada_-_Las_Vegas_Intersection_of_the_Strip_and_Sahara_Avenue_-_in_the_background_the_skyline_of_downtown_Las_Vegas_%2849541973966%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1350
+    ],
+    "originalDimensions": [
+      2800,
+      1575
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Interseção real de Las Vegas Boulevard com Sahara Avenue, no norte da Strip, com contexto urbano e skyline legíveis; GPS local, captura de novembro de 2019, licença CC BY 2.0 e 2800px nativos, orientação correta.",
+    "assetSha256": "0df2d5b53c1027267fd112a515012f7d0ec10af89e3c51830a92d86885b03e30",
+    "minimumLongEdge": 1600,
+    "latitude": 36.143447,
+    "longitude": -115.15558
   },
   "las-vegas/region-1": {
     "city": "las-vegas",

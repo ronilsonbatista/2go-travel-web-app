@@ -1,0 +1,147 @@
+[
+  {
+    "key": "las-vegas/region-0",
+    "slot": "region-0",
+    "topic": "Strip Norte",
+    "status": "no-candidate",
+    "pool": "north-region"
+  },
+  {
+    "key": "las-vegas/region-list-0",
+    "slot": "region-list-0",
+    "topic": "Strip Norte",
+    "status": "no-candidate",
+    "pool": "north-region"
+  },
+  {
+    "key": "las-vegas/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Strip Norte",
+    "status": "no-candidate",
+    "pool": "north-region"
+  },
+  {
+    "key": "las-vegas/neighborhood-detail-3",
+    "slot": "neighborhood-detail-3",
+    "topic": "Paradise",
+    "path": "/images/destinations/las-vegas/curated-neighborhood-detail-3.jpg",
+    "pool": "paradise",
+    "status": "pending-visual-review",
+    "title": "File:Welcome to Fabulous Las Vegas sign, Nevada - April 2026.jpg",
+    "imageinfo": {
+      "size": 26718197,
+      "width": 6744,
+      "height": 5058,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg/3840px-Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg/3840px-Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Welcome_to_Fabulous_Las_Vegas_sign,_Nevada_-_April_2026.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192542530",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2026-05-21 14:05:19",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Welcome to Fabulous Las Vegas sign, Nevada - April 2026",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Welcome to Fabulous Las Vegas sign|Self-published work|Files with coordinates missing SDC location of creation|Images of the United States by Christian David",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "36.081990",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-115.172770",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "The famous \"Welcome to Fabulous Las Vegas Nevada\" sign on Las Vegas Boulevard South, Paradise, Clark County, Nevada, United States.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2026-04-24 09:58:26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Espandero\" title=\"User:Espandero\">Christian David</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/las-vegas/neighborhood-detail-3.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg/3840px-Welcome_to_Fabulous_Las_Vegas_sign%2C_Nevada_-_April_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "a60a4b19dc5f94b65d03321130c325960e2e6214ff4bab4f57f80e0976b35a56"
+  }
+]

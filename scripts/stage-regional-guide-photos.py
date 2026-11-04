@@ -119,6 +119,11 @@ for name,pool in plan['pools'].items():
    if re.search(r'\b(postcards?|stereographs?|stereoscopic|lithographs?|engravings?|cartes postales|ansichtskarten|photochrome prints)\b',text,re.I):continue
    capture=norm(re.sub('<[^>]+>','',meta.get('DateTimeOriginal',{}).get('value','')))
    if re.search(r'\b(?:1[0-8]\d{2}|19[0-8]\d)\b',capture):continue
+  if pool.get('minimumCaptureYear'):
+   capture_text=norm(re.sub('<[^>]+>','',meta.get('DateTimeOriginal',{}).get('value','')))
+   if re.search(r'upload|publication|publicad|mise en ligne',capture_text):continue
+   capture_years=re.findall(r'\b(?:19|20)\d{2}\b',capture_text)
+   if not capture_years or int(capture_years[0])<pool['minimumCaptureYear']:continue
   if pool.get('requiredTitle') and not re.search(pool['requiredTitle'],norm(p['title']),re.I):continue
   if norm(p['title']) in rejected_titles and p['title'] not in pool.get('reconsiderRejectedTitles',[]):continue
   if plan.get('center'):

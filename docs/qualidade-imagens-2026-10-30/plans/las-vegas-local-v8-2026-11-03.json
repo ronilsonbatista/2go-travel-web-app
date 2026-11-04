@@ -1,0 +1,45 @@
+{
+  "city": "las-vegas",
+  "region": "americas",
+  "center": [
+    36.16,
+    -115.15,
+    60
+  ],
+  "pools": {
+    "north-region": {
+      "query": "\"Sahara Las Vegas\" \"2023\"",
+      "required": [
+        "sahara",
+        "las vegas"
+      ],
+      "slots": [
+        "region-0",
+        "region-list-0",
+        "hotel-0"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|sculpture|escultura|bust|busto|food bank|food donation|airport museum|transport museum|transportation museum",
+      "requiredTitle": "sahara"
+    },
+    "paradise": {
+      "query": "\"Paradise Nevada\" incategory:\"Quality images\"",
+      "required": [
+        "paradise",
+        "nevada"
+      ],
+      "slots": [
+        "neighborhood-detail-3"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.1,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|sculpture|escultura|bust|busto|food bank|food donation|airport museum|transport museum|transportation museum",
+      "requiredTitle": "paradise|vegas"
+    }
+  }
+}

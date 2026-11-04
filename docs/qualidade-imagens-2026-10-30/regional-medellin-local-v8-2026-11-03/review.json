@@ -1,0 +1,134 @@
+[
+  {
+    "key": "medellin/map-attraction-1",
+    "slot": "map-attraction-1",
+    "topic": "Parque Arví",
+    "path": "/images/destinations/medellin/curated-map-attraction-1.jpg",
+    "pool": "arvi",
+    "status": "pending-visual-review",
+    "title": "File:Bosque Parque Arví.JPG",
+    "imageinfo": {
+      "size": 1477378,
+      "width": 2592,
+      "height": 1944,
+      "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bosque_Parque_Arv%C3%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "thumbwidth": 2400,
+      "thumbheight": 1800,
+      "thumbattribs": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bosque_Parque_Arv%C3%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1800
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bosque_Parque_Arv%C3%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bosque_Parque_Arv%C3%AD.JPG",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35804777",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2014-09-30 17:34:56",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Bosque Parque Arví",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Zona Arqueológica de Piedras Blancas|Arví Park|Self-published work|Images from Wiki Loves Monuments 2014|Images from Wiki Loves Monuments 2014 in Colombia|Monuments in Colombia with known location IDs|Uploaded via Campaign:wlm-co|Colombia photographs taken on 2012-08-24|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "This is a photo of a Colombian monument with location ID",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-08-24 10:03:48",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Paco_Godoy&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Paco Godoy (page does not exist)\">Paco Godoy</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/medellin/map-attraction-1.jpg",
+    "dimensions": [
+      2400,
+      1800
+    ],
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bosque_Parque_Arv%C3%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "sha256": "403536bc51c7a0567c6c5c97f7ba9b5abee691c50d7498adf2afc85a8b918d5e"
+  },
+  {
+    "key": "medellin/map-list-1",
+    "slot": "map-list-1",
+    "topic": "Parque Arví",
+    "status": "no-candidate",
+    "pool": "arvi"
+  },
+  {
+    "key": "medellin/region-3",
+    "slot": "region-3",
+    "topic": "Arví",
+    "status": "no-candidate",
+    "pool": "arvi"
+  },
+  {
+    "key": "medellin/region-list-3",
+    "slot": "region-list-3",
+    "topic": "Arví",
+    "status": "no-candidate",
+    "pool": "arvi"
+  }
+]

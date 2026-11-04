@@ -1770,63 +1770,6 @@
     ]
   },
   {
-    "key": "montevideo/costs",
-    "city": "montevideo",
-    "slot": "costs",
-    "topic": "Pratos típicos de Montevidéu",
-    "path": "/images/destinations/montevideo/curated-costs.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-montevideo-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-food",
-        "error": null
-      },
-      {
-        "bundle": "regional-montevideo-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-food",
-        "error": null
-      },
-      {
-        "bundle": "regional-montevideo-local-v8-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Chivito al pan uruguayo.jpg",
-        "pool": "food",
-        "error": null
-      },
-      {
-        "bundle": "regional-montevideo-support-v1",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "food",
-        "error": null
-      },
-      {
-        "bundle": "regional-montevideo-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Montevideo downtown, Uruguay.jpg",
-        "pool": "support-food",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-montevideo-support-v1",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
-      },
-      {
-        "bundle": "regional-montevideo-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Arquitetura e rua sem pratos ou preços; não corresponde a custos/gastronomia."
-      }
-    ]
-  },
-  {
     "key": "montevideo/trip-0",
     "city": "montevideo",
     "slot": "trip-0",
@@ -2161,6 +2104,13 @@
         "error": null
       },
       {
+        "bundle": "regional-assuncao-refined-v9-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "food",
+        "error": null
+      },
+      {
         "bundle": "regional-assuncao-support-v1",
         "status": "no-candidate",
         "title": null,
@@ -2180,6 +2130,11 @@
         "bundle": "regional-assuncao-local-final-2026-11-03",
         "decision": "rejected",
         "notes": "Chipa paraguaia correta, mas inspeção em resolução completa revela foco macio e ruído com perda de detalhes da comida; não atende ao padrão fotográfico HQ solicitado."
+      },
+      {
+        "bundle": "regional-assuncao-local-v8-2026-11-03",
+        "decision": "rejected",
+        "notes": "La foto describe sopa paraguaya, pero las coordenadas y categoría Cuisine of Misiones Province corresponden a Argentina. Mantener criterio de país correcto y buscar una fotografía de preparación en Paraguay."
       },
       {
         "bundle": "regional-assuncao-support-v1",
@@ -3431,68 +3386,6 @@
     ]
   },
   {
-    "key": "medellin/map-attraction-1",
-    "city": "medellin",
-    "slot": "map-attraction-1",
-    "topic": "Parque Arví",
-    "path": "/images/destinations/medellin/curated-map-attraction-1.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-medellin",
-        "status": "pending-visual-review",
-        "title": "File:Metro Cable Parque Arvi - panoramio.jpg",
-        "pool": "attraction-1",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "attractions-attraction-1",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Colombian Police (6694667853).jpg",
-        "pool": "attractions-attraction-1",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-local-v8-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Bosque Parque Arví.JPG",
-        "pool": "arvi",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Alala Sister, Arvi Park, Colombia.jpg",
-        "pool": "attractions-attraction-1",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-medellin",
-        "decision": "rejected",
-        "notes": "Reflexos e janela escura da gôndola prejudicam a leitura do parque."
-      },
-      {
-        "bundle": "regional-medellin-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Policial em primeiro plano; não representa Parque Arví como atração."
-      },
-      {
-        "bundle": "regional-medellin-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Borboleta isolada em macro; Parque Arví não é reconhecível como atração."
-      }
-    ]
-  },
-  {
     "key": "medellin/map-list-1",
     "city": "medellin",
     "slot": "map-list-1",
@@ -3525,6 +3418,13 @@
         "bundle": "regional-medellin-local-v8-2026-11-03",
         "status": "no-candidate",
         "title": null,
+        "pool": "arvi",
+        "error": null
+      },
+      {
+        "bundle": "regional-medellin-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Arvi (Medellin metro).JPG",
         "pool": "arvi",
         "error": null
       },
@@ -3651,6 +3551,13 @@
         "error": null
       },
       {
+        "bundle": "regional-medellin-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Estación Arví (Metro de Medellín).jpg",
+        "pool": "arvi",
+        "error": null
+      },
+      {
         "bundle": "regional-medellin-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -3708,6 +3615,13 @@
         "error": null
       },
       {
+        "bundle": "regional-medellin-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Arvi Metrocable station - panoramio.jpg",
+        "pool": "arvi",
+        "error": null
+      },
+      {
         "bundle": "regional-medellin-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -3758,6 +3672,13 @@
         "error": null
       },
       {
+        "bundle": "regional-medellin-specific-v10-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "piedras",
+        "error": null
+      },
+      {
         "bundle": "regional-medellin-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -3800,6 +3721,13 @@
         "status": "pending-visual-review",
         "title": "File:Panorámica de Medellín desde metrocable.jpg",
         "pool": "region-3",
+        "error": null
+      },
+      {
+        "bundle": "regional-medellin-specific-v10-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "piedras",
         "error": null
       },
       {
@@ -3876,58 +3804,6 @@
     ]
   },
   {
-    "key": "quito/costs",
-    "city": "quito",
-    "slot": "costs",
-    "topic": "Pratos típicos de Quito",
-    "path": "/images/destinations/quito/curated-costs.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-quito-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-food",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-food",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-local-v8-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Llapingachos and chorizos.jpg",
-        "pool": "food",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-support-v1",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "food",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-food",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-quito-support-v1",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
-      }
-    ]
-  },
-  {
     "key": "quito/map-list-3",
     "city": "quito",
     "slot": "map-list-3",
@@ -3954,6 +3830,13 @@
         "status": "pending-visual-review",
         "title": "File:Calle La Ronda, Quito, pic,a.o1697.jpg",
         "pool": "attractions-attraction-3",
+        "error": null
+      },
+      {
+        "bundle": "regional-quito-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Ama la Vida - Flickr - Periodista inglés Ben Fogle visita barrio La Ronda - Quito Ecuador (14787311104).jpg",
+        "pool": "ronda",
         "error": null
       },
       {
@@ -4162,6 +4045,13 @@
         "error": null
       },
       {
+        "bundle": "regional-quito-specific-v10-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "floresta",
+        "error": null
+      },
+      {
         "bundle": "regional-quito-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -4204,6 +4094,13 @@
         "status": "pending-visual-review",
         "title": "File:B1 Ecuador 036 Road to Quito, Cumbaya, January 1985.jpg",
         "pool": "neighborhood-3",
+        "error": null
+      },
+      {
+        "bundle": "regional-quito-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Votaciones Presidenciales en Cumbayá (8483928076).jpg",
+        "pool": "cumbaya",
         "error": null
       },
       {
@@ -4259,6 +4156,13 @@
         "status": "pending-visual-review",
         "title": "File:Barrios de La Mariscal y Parroquias limítrofes.png",
         "pool": "region-1",
+        "error": null
+      },
+      {
+        "bundle": "regional-quito-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Plaza-foch.jpg",
+        "pool": "mariscal",
         "error": null
       },
       {
@@ -5554,6 +5458,13 @@
         "error": null
       },
       {
+        "bundle": "regional-los-angeles-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:7-Eleven Store at 1810 N Cahuenga Blvd, Los Angeles 20110807 1.jpg",
+        "pool": "highlights",
+        "error": null
+      },
+      {
         "bundle": "regional-los-angeles-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Hollywood Hills view from Jefferson Park.jpg",
@@ -5625,6 +5536,13 @@
         "status": "pending-visual-review",
         "title": "File:Griffith Observatory skyline at sunset. (Unsplash).jpg",
         "pool": "scenic",
+        "error": null
+      },
+      {
+        "bundle": "regional-los-angeles-specific-v10-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "highlights",
         "error": null
       },
       {
@@ -5960,85 +5878,6 @@
     ]
   },
   {
-    "key": "vancouver/neighborhood-detail-0",
-    "city": "vancouver",
-    "slot": "neighborhood-detail-0",
-    "topic": "Downtown",
-    "path": "/images/destinations/vancouver/curated-neighborhood-detail-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-vancouver-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Downtown Eastside, Vancouver during coronavirus pandemic (49791572552).jpg",
-        "pool": "neighborhoods-neighborhood-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-vancouver-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:A Street Scene in Downtown, Vancouver (49642976282).jpg",
-        "pool": "neighborhoods-neighborhood-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-vancouver-local-v8-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Hudson's Bay Company Vancouver.jpg",
-        "pool": "downtown",
-        "error": null
-      },
-      {
-        "bundle": "regional-vancouver-neighborhoods",
-        "status": "pending-visual-review",
-        "title": "File:Downtown Vancouver (5429681957).jpg",
-        "pool": "neighborhood-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-vancouver-resume-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Vancouver (BC, Canada), Robson Street, Handabdrücke an einer Mauer -- 2022 -- 1929.jpg",
-        "pool": "downtown",
-        "error": null
-      },
-      {
-        "bundle": "regional-vancouver-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:A Street Scene in Downtown, Vancouver (49642177768).jpg",
-        "pool": "neighborhoods-neighborhood-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-vancouver-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Beco de Downtown Eastside em composição parcial e desfocada; não representa bem o bairro Downtown do guia."
-      },
-      {
-        "bundle": "regional-vancouver-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Pedestres e coluna desfocada dominam a imagem; contexto de Downtown pouco legível."
-      },
-      {
-        "bundle": "regional-vancouver-neighborhoods",
-        "decision": "rejected",
-        "notes": "Rua muito subexposta, prédios e contexto urbano pouco legíveis."
-      },
-      {
-        "bundle": "regional-vancouver-resume-2026-11-03",
-        "decision": "rejected",
-        "notes": "Close de parede com marcas de maos, sem paisagem ou marco identificavel de Downtown."
-      },
-      {
-        "bundle": "regional-vancouver-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Pedestres em primeiro plano dominam a foto; bairro Downtown pouco legível."
-      }
-    ]
-  },
-  {
     "key": "toronto/home-thumb",
     "city": "toronto",
     "slot": "home-thumb",
@@ -6075,6 +5914,20 @@
         "error": null
       },
       {
+        "bundle": "regional-toronto-refined-v9-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Toronto - ON - Skyline bei Nacht.jpg",
+        "pool": "thumbnail",
+        "error": null
+      },
+      {
+        "bundle": "regional-toronto-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Toronto - ON - Toronto Skyline2.jpg",
+        "pool": "thumbnail",
+        "error": null
+      },
+      {
         "bundle": "regional-toronto-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:2009 Toronto.jpg",
@@ -6097,6 +5950,16 @@
         "bundle": "regional-toronto-highlights",
         "decision": "rejected",
         "notes": "Panorama esférico distorcido e repetição de enquadramento do mesmo ensaio."
+      },
+      {
+        "bundle": "regional-toronto-local-v8-2026-11-03",
+        "decision": "rejected",
+        "notes": "La composición corta la CN Tower en el borde izquierdo; pese a resolución suficiente, el encuadre no es adecuado para miniatura principal. Buscar una vista con el hito completo."
+      },
+      {
+        "bundle": "regional-toronto-refined-v9-2026-11-03",
+        "decision": "rejected",
+        "notes": "A vista tem a torre muito próxima da borda superior e pouca margem para recorte da miniatura; buscar composição com hito completo e espaço de enquadramento."
       },
       {
         "bundle": "regional-toronto-targeted-2026-11-03",
@@ -6135,6 +5998,13 @@
         "error": null
       },
       {
+        "bundle": "regional-toronto-refined-v9-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Re-elect John Tory for Mayor election sign on Cummer Avenue - 20221015.jpg",
+        "pool": "language",
+        "error": null
+      },
+      {
         "bundle": "regional-toronto-support-v1",
         "status": "pending-visual-review",
         "title": "File:Nathan Phillips Square 3D Toronto sign close-up.jpg",
@@ -6161,6 +6031,16 @@
         "notes": "Letreiro contém apenas o nome Toronto; não apresenta texto do idioma ou sinalização útil."
       },
       {
+        "bundle": "regional-toronto-local-v8-2026-11-03",
+        "decision": "rejected",
+        "notes": "La placa EXIT/SORTIE es de Toronto, pero la captura es de 1999 y la propia fuente indica que el modelo fue sustituido por otro estándar en 2014. Buscar señalización contemporánea para evitar ilustración desactualizada."
+      },
+      {
+        "bundle": "regional-toronto-refined-v9-2026-11-03",
+        "decision": "rejected",
+        "notes": "A imagem é dominada por trânsito, placa de proibição e campanha eleitoral de 2022; o texto não é adequado nem legível para ilustrar idioma de um guia de viagem."
+      },
+      {
         "bundle": "regional-toronto-support-v1",
         "decision": "rejected",
         "notes": "Hashtag xoTO sem palavras do idioma, insuficiente para esta secao."
@@ -6169,73 +6049,6 @@
         "bundle": "regional-toronto-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Apenas letreiro Toronto sem texto útil do idioma; contexto linguístico insuficiente."
-      }
-    ]
-  },
-  {
-    "key": "toronto/essential-transporte",
-    "city": "toronto",
-    "slot": "essential-transporte",
-    "topic": "Transporte",
-    "path": "/images/destinations/toronto/curated-essential-transporte.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-toronto-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:TTC 4600 streetcar at the Halton County Railway Museum.jpg",
-        "pool": "support-transport",
-        "error": null
-      },
-      {
-        "bundle": "regional-toronto-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:19950529 23 TTC Streetcar Queen St. @ Yonge St.jpg",
-        "pool": "support-transport",
-        "error": null
-      },
-      {
-        "bundle": "regional-toronto-local-v8-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "transit",
-        "error": null
-      },
-      {
-        "bundle": "regional-toronto-support-v1",
-        "status": "pending-visual-review",
-        "title": "File:Disused TTC Streetcar Tracks at Adelaide and Peter.jpg",
-        "pool": "transport",
-        "error": null
-      },
-      {
-        "bundle": "regional-toronto-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:TTC Roncesvalles Streetcar Carhouse (5797836451).jpg",
-        "pool": "support-transport",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-toronto-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Bonde antigo em museu ferroviário, fora do serviço atual; transporte desatualizado."
-      },
-      {
-        "bundle": "regional-toronto-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Bonde TTC fotografado em 1995, frota retirada de serviço; não representa transporte atual."
-      },
-      {
-        "bundle": "regional-toronto-support-v1",
-        "decision": "rejected",
-        "notes": "Trilhos desativados em cruzamento vazio, nao representa transporte em operacao."
-      },
-      {
-        "bundle": "regional-toronto-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Placa de bonde de 1922 em museu; não representa transporte atual de Toronto."
       }
     ]
   },
@@ -6350,68 +6163,6 @@
         "bundle": "regional-montreal-visitor-documents-simple-2026-11-03",
         "decision": "rejected",
         "notes": "Carimbo de saída do Brasil em documento estrangeiro; não representa passaporte/documentação correta do brasileiro para o Canadá."
-      }
-    ]
-  },
-  {
-    "key": "montreal/costs",
-    "city": "montreal",
-    "slot": "costs",
-    "topic": "Pratos típicos de Montreal",
-    "path": "/images/destinations/montreal/curated-costs.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-montreal-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-food",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Montreal Poutine, Vieux-Montréal, Montreal, Quebec (29441102733).jpg",
-        "pool": "support-food",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-local-v8-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:La Banquise Poutine.jpg",
-        "pool": "food",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-support-v1",
-        "status": "pending-visual-review",
-        "title": "File:Montreal Poutine, Vieux-Montréal, Montreal, Quebec (29954647922).jpg",
-        "pool": "food",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Montreal Poutine, Vieux-Montréal, Montreal, Quebec (29954668362).jpg",
-        "pool": "support-food",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-montreal-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Fachada de restaurante sem poutine visível; tema de pratos típicos não corresponde."
-      },
-      {
-        "bundle": "regional-montreal-support-v1",
-        "decision": "rejected",
-        "notes": "Mostra patio e arvore, sem o prato poutine solicitado."
-      },
-      {
-        "bundle": "regional-montreal-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Mesas de restaurante sem poutine ou pratos visíveis; tema de gastronomia não corresponde."
       }
     ]
   },
@@ -6532,73 +6283,6 @@
         "bundle": "regional-montreal-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Carruagem e cavalo dominam a foto; serviço de calèches descontinuado, não usar como atração atual."
-      }
-    ]
-  },
-  {
-    "key": "montreal/day-2",
-    "city": "montreal",
-    "slot": "day-2",
-    "topic": "Bairros e gastronomia",
-    "path": "/images/destinations/montreal/curated-day-2.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-montreal-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Basilique Notre-Dame de Montréal, Vieux-Montreal, Montreal, Quebec (29954772852).jpg",
-        "pool": "support-quarter",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Caleche Vieux-Montreal 11.jpg",
-        "pool": "support-quarter",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-local-v8-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Poutine @ Décarie Hot Dog @ Montréal (30435389821).jpg",
-        "pool": "food",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-support-v1",
-        "status": "pending-visual-review",
-        "title": "File:Caleche Vieux-Montreal 05a.jpg",
-        "pool": "quarter",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Alley, Vieux-Montreal, Montreal, Quebec (29440677853).jpg",
-        "pool": "support-quarter",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-montreal-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Fachada da basílica quase idêntica à foto do detalhe de bairro; rejeitado para evitar repetição visual próxima."
-      },
-      {
-        "bundle": "regional-montreal-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Mesma sequência de carruagens descontinuadas; inadequada para roteiro atual e repetição visual próxima."
-      },
-      {
-        "bundle": "regional-montreal-support-v1",
-        "decision": "rejected",
-        "notes": "Carruagem e pessoas dominam a cena; bairro pouco visivel."
-      },
-      {
-        "bundle": "regional-montreal-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Beco muito escuro, vazio e pouco nítido; qualidade insuficiente para dia de bairros e gastronomia."
       }
     ]
   },
@@ -7001,6 +6685,13 @@
         "error": null
       },
       {
+        "bundle": "regional-cidade-do-panama-specific-v10-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "financial",
+        "error": null
+      },
+      {
         "bundle": "regional-cidade-do-panama-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -7043,6 +6734,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "region-3",
+        "error": null
+      },
+      {
+        "bundle": "regional-cidade-do-panama-specific-v10-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "financial",
         "error": null
       },
       {
@@ -7091,6 +6789,13 @@
         "error": null
       },
       {
+        "bundle": "regional-cidade-do-panama-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Hotel Riu Plaza Panamá.jpg",
+        "pool": "riu",
+        "error": null
+      },
+      {
         "bundle": "regional-cidade-do-panama-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -7133,6 +6838,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "region-3",
+        "error": null
+      },
+      {
+        "bundle": "regional-cidade-do-panama-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Hall Hotel Riu Plaza Panamá.jpg",
+        "pool": "riu",
         "error": null
       },
       {
@@ -7937,6 +7649,13 @@
         "error": null
       },
       {
+        "bundle": "regional-bahamas-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Atlantis Lagoon.JPG",
+        "pool": "atlantis",
+        "error": null
+      },
+      {
         "bundle": "regional-bahamas-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -8022,6 +7741,13 @@
         "status": "pending-visual-review",
         "title": "File:Barracuda Beach, Williams Cay, Great Exuma, Bahamas - panoramio.jpg",
         "pool": "scenic",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Upper Lagoon Atlantis Paradise Island photo Don Ramey Logan.jpg",
+        "pool": "atlantis",
         "error": null
       },
       {
@@ -8115,6 +7841,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "scenic",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-specific-v10-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Fish1 tank Atlantis Paradise Island Photo Don Ramey Logan.jpg",
+        "pool": "atlantis",
         "error": null
       },
       {
@@ -8938,73 +8671,6 @@
     ]
   },
   {
-    "key": "las-vegas/neighborhood-detail-3",
-    "city": "las-vegas",
-    "slot": "neighborhood-detail-3",
-    "topic": "Paradise",
-    "path": "/images/destinations/las-vegas/curated-neighborhood-detail-3.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-las-vegas-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Paradise, NV, USA - panoramio (132).jpg",
-        "pool": "neighborhoods-neighborhood-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:2015-11-04 16 16 06 View west along Nevada State Route 594 (Russell Road) at Frank Sinatra Boulevard in Paradise, Nevada.jpg",
-        "pool": "neighborhoods-neighborhood-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-local-v8-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Welcome to Fabulous Las Vegas sign, Nevada - April 2026.jpg",
-        "pool": "paradise",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-neighborhoods",
-        "status": "pending-visual-review",
-        "title": "File:Secret Garden Dolphins Being Fed After Performance.jpg",
-        "pool": "neighborhood-3",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:2015-11-04 16 15 51 View west along Nevada State Route 594 (Russell Road) at Las Vegas Boulevard in Paradise, Nevada.jpg",
-        "pool": "neighborhoods-neighborhood-3",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-las-vegas-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Timestamp vermelho e composição de rua pouco expressiva; qualidade insuficiente para detalhe de bairro."
-      },
-      {
-        "bundle": "regional-las-vegas-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Rua sob contraluz e chuva, com pouco contexto de Paradise; qualidade e legibilidade insuficientes."
-      },
-      {
-        "bundle": "regional-las-vegas-neighborhoods",
-        "decision": "rejected",
-        "notes": "Golfinhos e cuidadores sem contexto suficiente da região de Paradise."
-      },
-      {
-        "bundle": "regional-las-vegas-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Via molhada sob contraluz e pouco contexto urbano; qualidade insuficiente para detalhe de Paradise."
-      }
-    ]
-  },
-  {
     "key": "las-vegas/region-0",
     "city": "las-vegas",
     "slot": "region-0",
@@ -9034,6 +8700,13 @@
         "error": null
       },
       {
+        "bundle": "regional-las-vegas-refined-v9-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Jeep Wrangler Sahara JK on Lone Mountain Rd.jpg",
+        "pool": "sahara",
+        "error": null
+      },
+      {
         "bundle": "regional-las-vegas-regions-hotels",
         "status": "pending-visual-review",
         "title": "File:Conrad Las Vegas at Resorts World February 2023 HDR.jpg",
@@ -9041,6 +8714,13 @@
         "error": null
       },
       {
+        "bundle": "regional-las-vegas-specific-v10-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "sahara",
+        "error": null
+      },
+      {
         "bundle": "regional-las-vegas-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -9049,62 +8729,15 @@
       }
     ],
     "decisions": [
+      {
+        "bundle": "regional-las-vegas-refined-v9-2026-11-03",
+        "decision": "rejected",
+        "notes": "Sahara é o nome do modelo Jeep fotografado em Lone Mountain Road, não o hotel nem a região Strip Norte. Rejeitado como falso match de nome."
+      },
       {
         "bundle": "regional-las-vegas-regions-hotels",
         "decision": "rejected",
         "notes": "Interior de quarto de hotel, sem representação visual da região Strip Norte."
-      }
-    ]
-  },
-  {
-    "key": "las-vegas/region-list-0",
-    "city": "las-vegas",
-    "slot": "region-list-0",
-    "topic": "Strip Norte",
-    "path": "/images/destinations/las-vegas/curated-region-list-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-las-vegas-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-local-v8-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "north-region",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-regions-hotels",
-        "status": "pending-visual-review",
-        "title": "File:Las Vegas Strip from Resorts World February 2023 HDR 2.jpg",
-        "pool": "region-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "regions-hotels-region-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-las-vegas-regions-hotels",
-        "decision": "rejected",
-        "notes": "Panorama próximo do HDR 1 já usado no mapa; rejeitado preventivamente como possível variante do mesmo original."
       }
     ]
   },
@@ -9138,10 +8771,24 @@
         "error": null
       },
       {
+        "bundle": "regional-las-vegas-refined-v9-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:RTC (Las Vegas, NV) Sahara Express NFI XN60 Sahara Blvd @ Las Vegas Blvd (51717310895).jpg",
+        "pool": "sahara",
+        "error": null
+      },
+      {
         "bundle": "regional-las-vegas-regions-hotels",
         "status": "pending-visual-review",
         "title": "File:Resorts World Las Vegas March 2020.jpg",
         "pool": "region-0",
+        "error": null
+      },
+      {
+        "bundle": "regional-las-vegas-specific-v10-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "sahara",
         "error": null
       },
       {
@@ -9153,6 +8800,11 @@
       }
     ],
     "decisions": [
+      {
+        "bundle": "regional-las-vegas-refined-v9-2026-11-03",
+        "decision": "rejected",
+        "notes": "A imagem mostra um ônibus da linha Sahara Express, não uma hospedagem; o nome da rota provocou falso match com o hotel Sahara."
+      },
       {
         "bundle": "regional-las-vegas-regions-hotels",
         "decision": "rejected",
