@@ -1,0 +1,28 @@
+{
+  "city": "medellin",
+  "region": "americas",
+  "center": [
+    6.24,
+    -75.58,
+    40
+  ],
+  "pools": {
+    "scenic": {
+      "query": "\"Medellin\" \"skyline\"",
+      "required": [
+        "medellin"
+      ],
+      "requiredTitle": "medellin",
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|indoor|interior|hurricane|storm damage|fireworks|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home",
+        "guide-card",
+        "home-thumb"
+      ]
+    }
+  }
+}

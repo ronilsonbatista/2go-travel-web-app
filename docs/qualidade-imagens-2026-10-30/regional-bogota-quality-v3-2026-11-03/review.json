@@ -1,0 +1,126 @@
+[
+  {
+    "key": "bogota/home-thumb",
+    "slot": "home-thumb",
+    "topic": "Bogotá: miniatura da home",
+    "path": "/images/destinations/bogota/curated-home-thumb.jpg",
+    "pool": "quality",
+    "status": "pending-visual-review",
+    "title": "File:Primatial Cathedral of Bogotá 01.jpg",
+    "imageinfo": {
+      "size": 6568517,
+      "width": 4719,
+      "height": 3146,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Primatial_Cathedral_of_Bogot%C3%A1_01.jpg/3840px-Primatial_Cathedral_of_Bogot%C3%A1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Primatial_Cathedral_of_Bogot%C3%A1_01.jpg/3840px-Primatial_Cathedral_of_Bogot%C3%A1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Primatial_Cathedral_of_Bogot%C3%A1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Primatial_Cathedral_of_Bogot%C3%A1_01.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=93309048",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2020-08-19 18:28:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Primatial Cathedral of Bogotá 01",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|Images with annotations|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Files with coordinates missing SDC location of creation|Facade of Capilla del Sagrario (Bogotá)|Main facade of the Primate Cathedral of Bogota",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "4.597853",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-74.075286",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Primatial Cathedral of Bogotá, Colombia",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-01-11",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/bogota/home-thumb.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Primatial_Cathedral_of_Bogot%C3%A1_01.jpg/3840px-Primatial_Cathedral_of_Bogot%C3%A1_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "e74f3c60e274d1c8499d83995ac56975d2ff23f8e99adaba23a1b9cc14f4a0ba"
+  }
+]

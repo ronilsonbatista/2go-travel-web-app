@@ -1,0 +1,27 @@
+{
+  "city": "montevideo",
+  "region": "americas",
+  "center": [
+    -34.9,
+    -56.16,
+    50
+  ],
+  "pools": {
+    "scenic": {
+      "query": "\"Montevideo\" \"rambla\"",
+      "required": [
+        "montevideo|rambla"
+      ],
+      "requiredTitle": "montevideo|rambla",
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|indoor|interior|hurricane|storm damage|fireworks|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home-slide",
+        "home-thumb"
+      ]
+    }
+  }
+}

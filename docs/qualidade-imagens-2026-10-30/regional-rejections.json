@@ -7298,5 +7298,101 @@
     "sha256": "1f32dfe04e0a3cf1a9f395b2b9e0bce38ba7e4b762d74ef99965b50b221b0364",
     "decision": "rejected",
     "notes": "Chipa paraguaia correta, mas inspeção em resolução completa revela foco macio e ruído com perda de detalhes da comida; não atende ao padrão fotográfico HQ solicitado."
+  },
+  {
+    "bundle": "regional-bogota-skyline-v2-2026-11-03",
+    "key": "bogota/home-thumb",
+    "title": "File:Horizons proyect guadalupe church Bogota.jpg",
+    "sha256": "20466bb9b64fc56b1eff8e92b7337a97a804d303ae1627f0b6410175f42034fd",
+    "decision": "rejected",
+    "notes": "A vista tem forte dominante azul, céu excessivo e cidade pequena no enquadramento; não atende à qualidade visual de miniatura de destaque."
+  },
+  {
+    "bundle": "regional-quito-skyline-v2-2026-11-03",
+    "key": "quito/guide-card",
+    "title": "File:Quito Panorama of the historic center from Casa Bella Vista 15.jpg",
+    "sha256": "11640e662eedd0e9392c461e8c5dd52a674703d6e3821118d6782890927f4359",
+    "decision": "rejected",
+    "notes": "Telhados e parede em primeiro plano obstruem grande parte da cidade; a vista histórica fica pequena e sem ícones claros para um card principal."
+  },
+  {
+    "bundle": "regional-quito-skyline-v2-2026-11-03",
+    "key": "quito/guide-highlight",
+    "title": "File:Quito Panorama of the historic center from Casa Bella Vista 01.jpg",
+    "sha256": "6da53d88f976e5aa712c82eece2fb36886ba257b661ad9f600ce0089e505ffc9",
+    "decision": "rejected",
+    "notes": "A névoa e a exposição cinzenta reduzem a leitura do centro histórico e das montanhas; rejeitada para destaque principal."
+  },
+  {
+    "bundle": "regional-medellin-skyline-v2-2026-11-03",
+    "key": "medellin/guide-card",
+    "title": "File:Valley of Medellín- skyline.jpg",
+    "sha256": "bc39176050d2d0ec0fe5a35aad29c169742c3e1012ab4ab008a563c359fcd5ff",
+    "decision": "rejected",
+    "notes": "Inspeção completa revela foco macio, sombras profundas e céu estourado; rejeitada para card de destaque apesar de representar corretamente Medellín."
+  },
+  {
+    "bundle": "regional-los-angeles-skyline-v2-2026-11-03",
+    "key": "los-angeles/guide-highlight",
+    "title": "File:Los Angeles Nighttime Griffith Observatory.jpg",
+    "sha256": "c241fbd76000ffdd26e40cc40a49d93a2adacceb0b07c49ab2c5e8d0787f3d6e",
+    "decision": "rejected",
+    "notes": "O skyline é correto, mas a inspeção completa revela luzes e contornos macios, céu escuro dominante e baixa leitura das fachadas para destaque HQ."
+  },
+  {
+    "bundle": "regional-los-angeles-skyline-v2-2026-11-03",
+    "key": "los-angeles/home-thumb",
+    "title": "File:Griffith Observatory skyline at sunset. (Unsplash).jpg",
+    "sha256": "1658aa43d483d5aefc10a8d44726c7fe0dfe56edae118d9e3b67d0529ef98e6a",
+    "decision": "rejected",
+    "notes": "Sol estourado e primeiro plano em silhueta escondem a cidade; pouca informação identificável para uma miniatura de Los Angeles."
+  },
+  {
+    "bundle": "regional-montevideo-skyline-v2-2026-11-03",
+    "key": "montevideo/home-slide",
+    "title": "File:Rambla0.png",
+    "sha256": "915f5980a5bbc4f5da735aef090b6580214275711deeaf8c474dbaa813c996e6",
+    "decision": "rejected",
+    "notes": "A composição é dominada por semáforo, poste, placas e céu cinzento, sem vista urbana ou costeira representativa para home-slide de Montevidéu."
+  },
+  {
+    "bundle": "regional-montevideo-skyline-v2-2026-11-03",
+    "key": "montevideo/home-thumb",
+    "title": "File:Ventana a la ciudad, Rambla 25 de Agosto. - panoramio.jpg",
+    "sha256": "e78fd638b74ff689fef570296bf6aeb740331735a47897416a70208e848f0551",
+    "decision": "rejected",
+    "notes": "A foto mostra uma janela com reflexo e não uma vista legível da cidade; não corresponde ao destaque turístico da miniatura."
+  },
+  {
+    "bundle": "regional-bahamas-skyline-v2-2026-11-03",
+    "key": "bahamas/home",
+    "title": "File:Exuma Cays Land and Sea Park.jpg",
+    "sha256": "9717c669e69016fface77adca698aa09bf4282b68405c9a6ca70eecd181ae307",
+    "decision": "rejected",
+    "notes": "Vegetação rasteira domina o enquadramento e a praia aparece apenas como faixa distante; não serve como vista principal representativa das Bahamas."
+  },
+  {
+    "bundle": "regional-bahamas-skyline-v2-2026-11-03",
+    "key": "bahamas/guide-card",
+    "title": "File:Barracuda Beach, Williams Cay, Great Exuma, Bahamas - panoramio.jpg",
+    "sha256": "19d3c991fac62f97ef4e2b78e0c67bd9fa8afd6bb59d5ea2b284d5e11f7a292f",
+    "decision": "rejected",
+    "notes": "A composição mostra água em primeiro plano e margem distante escura; falta leitura de praia e força visual para um card principal do destino."
+  },
+  {
+    "bundle": "regional-montevideo-quality-v3-2026-11-03",
+    "key": "montevideo/home-slide",
+    "title": "File:RamblaSurMontevideo-feb2020.2B&W.jpg",
+    "sha256": "1bcd6f41526f29e047c5568655280c6c223ec8a9fd3f8f193713740c1b17fa3e",
+    "decision": "rejected",
+    "notes": "Embora seja foto real de 2020 e tecnicamente nítida, o enquadramento é dominado por pista, gramado e postes, com cidade e costa pouco representativas para o destaque principal. A conversão em preto e branco também reduz a leitura da paisagem costeira pretendida."
+  },
+  {
+    "bundle": "regional-montevideo-quality-v3-2026-11-03",
+    "key": "montevideo/home-thumb",
+    "title": "File:At Montevideo 2023 235.jpg",
+    "sha256": "4ff0ecc3b3eca0b2eeb7440361181b33ed96483b86e615fe018efd0f8c22a22c",
+    "decision": "rejected",
+    "notes": "O enquadramento mostra um busto isolado diante de edifício; não representa de modo legível a cidade para a miniatura de destino."
   }
 ]

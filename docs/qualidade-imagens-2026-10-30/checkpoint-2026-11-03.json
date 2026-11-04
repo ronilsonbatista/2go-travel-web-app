@@ -1,25 +1,26 @@
 {
-  "baselineRef": "e41d129",
-  "newApplied": 7,
+  "baselineRef": "1e69e8e",
+  "newApplied": 8,
   "newKeys": [
-    "assuncao/attraction-0",
-    "bahamas/home-thumb",
-    "cidade-do-mexico/map-attraction-0",
-    "havai/home-slide",
-    "havai/home-thumb",
-    "havai/map-attraction-1",
-    "havai/neighborhood-0"
+    "bogota/home-thumb",
+    "havana/home",
+    "las-vegas/home-slide",
+    "medellin/guide-card",
+    "medellin/home",
+    "medellin/home-thumb",
+    "quito/guide-card",
+    "quito/guide-highlight"
   ],
-  "preservedSourceRecords": 2710,
+  "preservedSourceRecords": 2717,
   "changedPreservedMetadata": [],
   "changedPreservedBinaries": [],
   "auditIssuesInvolvingNewKeys": [],
-  "remaining": 4128,
+  "remaining": 4120,
   "regions": {
     "americas": {
       "label": "Américas",
-      "replaced": 1358,
-      "remaining": 178,
+      "replaced": 1366,
+      "remaining": 170,
       "complete": false
     },
     "europa": {

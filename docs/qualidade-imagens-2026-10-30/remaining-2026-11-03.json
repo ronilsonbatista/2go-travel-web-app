@@ -1509,6 +1509,20 @@
         "error": null
       },
       {
+        "bundle": "regional-montevideo-quality-v3-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:RamblaSurMontevideo-feb2020.2B&W.jpg",
+        "pool": "quality",
+        "error": null
+      },
+      {
+        "bundle": "regional-montevideo-skyline-v2-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Rambla0.png",
+        "pool": "scenic",
+        "error": null
+      },
+      {
         "bundle": "regional-montevideo-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -1521,6 +1535,16 @@
         "bundle": "regional-montevideo-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
+      },
+      {
+        "bundle": "regional-montevideo-quality-v3-2026-11-03",
+        "decision": "rejected",
+        "notes": "Embora seja foto real de 2020 e tecnicamente nítida, o enquadramento é dominado por pista, gramado e postes, com cidade e costa pouco representativas para o destaque principal. A conversão em preto e branco também reduz a leitura da paisagem costeira pretendida."
+      },
+      {
+        "bundle": "regional-montevideo-skyline-v2-2026-11-03",
+        "decision": "rejected",
+        "notes": "A composição é dominada por semáforo, poste, placas e céu cinzento, sem vista urbana ou costeira representativa para home-slide de Montevidéu."
       }
     ]
   },
@@ -1554,6 +1578,20 @@
         "error": null
       },
       {
+        "bundle": "regional-montevideo-quality-v3-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:At Montevideo 2023 235.jpg",
+        "pool": "quality",
+        "error": null
+      },
+      {
+        "bundle": "regional-montevideo-skyline-v2-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Ventana a la ciudad, Rambla 25 de Agosto. - panoramio.jpg",
+        "pool": "scenic",
+        "error": null
+      },
+      {
         "bundle": "regional-montevideo-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -1566,6 +1604,16 @@
         "bundle": "regional-montevideo-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
+      },
+      {
+        "bundle": "regional-montevideo-quality-v3-2026-11-03",
+        "decision": "rejected",
+        "notes": "O enquadramento mostra um busto isolado diante de edifício; não representa de modo legível a cidade para a miniatura de destino."
+      },
+      {
+        "bundle": "regional-montevideo-skyline-v2-2026-11-03",
+        "decision": "rejected",
+        "notes": "A foto mostra uma janela com reflexo e não uma vista legível da cidade; não corresponde ao destaque turístico da miniatura."
       }
     ]
   },
@@ -2910,73 +2958,6 @@
     ]
   },
   {
-    "key": "bogota/home-thumb",
-    "city": "bogota",
-    "slot": "home-thumb",
-    "topic": "Bogotá: miniatura da home",
-    "path": "/images/destinations/bogota/curated-home-thumb.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-bogota-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:El cielo del atardecer sobre Bogotá, Colombia, 2015, por Cristian Baron (Unsplash).jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-bogota-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-bogota-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-bogota-resume-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Horizonte bogotá.jpg",
-        "pool": "sky",
-        "error": null
-      },
-      {
-        "bundle": "regional-bogota-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Construcción de la Nueva Cinemateca Distrital desde la Calle 19.jpg",
-        "pool": "highlight-home-thumb",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-bogota-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Apenas nuvens e pôr do sol; não identifica Bogotá como destino."
-      },
-      {
-        "bundle": "regional-bogota-highlights",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizável; nova busca necessária."
-      },
-      {
-        "bundle": "regional-bogota-resume-2026-11-03",
-        "decision": "rejected",
-        "notes": "Cidade escura e pequena sob excesso de ceu, com data impressa; qualidade insuficiente para destaque."
-      },
-      {
-        "bundle": "regional-bogota-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Obra da Cinemateca com guindaste domina a cena; inadequada para miniatura turística HQ."
-      }
-    ]
-  },
-  {
     "key": "bogota/essential-moeda",
     "city": "bogota",
     "slot": "essential-moeda",
@@ -3236,156 +3217,6 @@
         "bundle": "regional-bogota-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Panorama de 2000 com baixa definição e localização genérica; contexto de hospedagem no Norte insuficiente."
-      }
-    ]
-  },
-  {
-    "key": "medellin/home",
-    "city": "medellin",
-    "slot": "home",
-    "topic": "Medellín",
-    "path": "/images/destinations/medellin/curated-home.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-medellin-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Medellín - Medellín, un viaje en el tiempo 1.jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Mural en homenaje a Frank, bloque 1, Universidad de Antioquia 01.jpg",
-        "pool": "highlight-home",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-medellin-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Medellín na Espanha com castelo e casario; país errado para Medellín, Colômbia."
-      },
-      {
-        "bundle": "regional-medellin-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Fachada universitária e gramado sem marco turístico legível; composição insuficiente para destaque geral da home."
-      }
-    ]
-  },
-  {
-    "key": "medellin/guide-card",
-    "city": "medellin",
-    "slot": "guide-card",
-    "topic": "Medellín",
-    "path": "/images/destinations/medellin/curated-guide-card.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-medellin-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:'Medellin es una Chimba' - Comuna 13 - Medellín - Colombia 2024.jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Colombian Police (6694681231).jpg",
-        "pool": "highlight-guide-card",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-medellin-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Letreiro em loja e cabeças em primeiro plano; contexto insuficiente para destaque HQ do destino."
-      },
-      {
-        "bundle": "regional-medellin-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Retrato de policiais e criança; não caracteriza Medellín como destino."
-      }
-    ]
-  },
-  {
-    "key": "medellin/home-thumb",
-    "city": "medellin",
-    "slot": "home-thumb",
-    "topic": "Medellín: miniatura da home",
-    "path": "/images/destinations/medellin/curated-home-thumb.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-medellin-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Medellín Sandra Ramírez Giraldo.jpg",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-medellin-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Chico Algodón.jpg",
-        "pool": "highlight-home-thumb",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-medellin-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Sol e nuvens dominam a composição, cidade muito escura; qualidade insuficiente para miniatura turística."
-      },
-      {
-        "bundle": "regional-medellin-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Retrato de homem com peruca e algodão-doce; não representa o destino em miniatura turística."
       }
     ]
   },
@@ -3910,106 +3741,6 @@
         "bundle": "regional-medellin-regions-hotels",
         "decision": "rejected",
         "notes": "Panorama urbano visto do acesso de metrocable, não representa a região florestal de Arví."
-      }
-    ]
-  },
-  {
-    "key": "quito/guide-card",
-    "city": "quito",
-    "slot": "guide-card",
-    "topic": "Quito",
-    "path": "/images/destinations/quito/curated-guide-card.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-quito-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Iglesia de San Francisco, Quito, Ecuador, 2015-07-22, DD 159-161 HDR.JPG",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Garciamorenovoto2025.jpg",
-        "pool": "highlight-guide-card",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-quito-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Teto decorativo em enquadramento abstrato; não caracteriza o destino em miniatura do guia."
-      },
-      {
-        "bundle": "regional-quito-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Estátua em primeiro plano e basílica cortada sob céu cinza; composição insuficiente para destaque HQ."
-      }
-    ]
-  },
-  {
-    "key": "quito/guide-highlight",
-    "city": "quito",
-    "slot": "guide-highlight",
-    "topic": "Quito",
-    "path": "/images/destinations/quito/curated-guide-highlight.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-quito-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Iglesia de San Francisco, Quito, Ecuador, 2015-07-22, DD 168-170 HDR.JPG",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:CONMEMORACIÓN DEL DÍA INTERNACIONAL DE LAS VÍCTIMAS DEL HOLOCAUSTO. QUITO, 24 DE ENERO 2020 (49435542807).jpg",
-        "pool": "highlight-guide-highlight",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-quito-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Close de teto decorativo pouco reconhecível; composição insuficiente para destaque geral de Quito."
-      },
-      {
-        "bundle": "regional-quito-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Cerimônia comemorativa com pessoas e placa de vítimas do Holocausto; não representa Quito como destaque turístico."
       }
     ]
   },
@@ -5823,6 +5554,20 @@
         "error": null
       },
       {
+        "bundle": "regional-los-angeles-quality-v3-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "quality",
+        "error": null
+      },
+      {
+        "bundle": "regional-los-angeles-skyline-v2-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Los Angeles Nighttime Griffith Observatory.jpg",
+        "pool": "scenic",
+        "error": null
+      },
+      {
         "bundle": "regional-los-angeles-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Hollywood Hills view from Jefferson Park.jpg",
@@ -5840,6 +5585,11 @@
         "bundle": "regional-los-angeles-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
+      },
+      {
+        "bundle": "regional-los-angeles-skyline-v2-2026-11-03",
+        "decision": "rejected",
+        "notes": "O skyline é correto, mas a inspeção completa revela luzes e contornos macios, céu escuro dominante e baixa leitura das fachadas para destaque HQ."
       },
       {
         "bundle": "regional-los-angeles-targeted-2026-11-03",
@@ -5878,6 +5628,20 @@
         "error": null
       },
       {
+        "bundle": "regional-los-angeles-quality-v3-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "quality",
+        "error": null
+      },
+      {
+        "bundle": "regional-los-angeles-skyline-v2-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Griffith Observatory skyline at sunset. (Unsplash).jpg",
+        "pool": "scenic",
+        "error": null
+      },
+      {
         "bundle": "regional-los-angeles-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Los Angeles from the Getty Center (5465084241).jpg",
@@ -5895,6 +5659,11 @@
         "bundle": "regional-los-angeles-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
+      },
+      {
+        "bundle": "regional-los-angeles-skyline-v2-2026-11-03",
+        "decision": "rejected",
+        "notes": "Sol estourado e primeiro plano em silhueta escondem a cidade; pouca informação identificável para uma miniatura de Los Angeles."
       },
       {
         "bundle": "regional-los-angeles-targeted-2026-11-03",
@@ -7483,63 +7252,6 @@
     ]
   },
   {
-    "key": "havana/home",
-    "city": "havana",
-    "slot": "home",
-    "topic": "Havana",
-    "path": "/images/destinations/havana/curated-home.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-havana-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-highlights",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-landmarks-hq-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Old Buick car near Capitol building in Havanna Cuba.jpg",
-        "pool": "home",
-        "error": null
-      },
-      {
-        "bundle": "regional-havana-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-havana-highlights",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizável; nova busca necessária."
-      },
-      {
-        "bundle": "regional-havana-landmarks-hq-2026-11-03",
-        "decision": "rejected",
-        "notes": "Movimento deixa o Capitólio e a maior parte do carro borrados; composição insuficiente para destaque HQ da home."
-      }
-    ]
-  },
-  {
     "key": "havana/essential-moeda",
     "city": "havana",
     "slot": "essential-moeda",
@@ -8311,6 +8023,20 @@
         "error": null
       },
       {
+        "bundle": "regional-bahamas-quality-v3-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "quality",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-skyline-v2-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Exuma Cays Land and Sea Park.jpg",
+        "pool": "scenic",
+        "error": null
+      },
+      {
         "bundle": "regional-bahamas-targeted-2026-11-03",
         "status": "no-candidate",
         "title": null,
@@ -8333,6 +8059,11 @@
         "bundle": "regional-bahamas-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
+      },
+      {
+        "bundle": "regional-bahamas-skyline-v2-2026-11-03",
+        "decision": "rejected",
+        "notes": "Vegetação rasteira domina o enquadramento e a praia aparece apenas como faixa distante; não serve como vista principal representativa das Bahamas."
       }
     ]
   },
@@ -8380,6 +8111,20 @@
         "error": null
       },
       {
+        "bundle": "regional-bahamas-quality-v3-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "quality",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-skyline-v2-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Barracuda Beach, Williams Cay, Great Exuma, Bahamas - panoramio.jpg",
+        "pool": "scenic",
+        "error": null
+      },
+      {
         "bundle": "regional-bahamas-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Old Hobby Horse Track - panoramio.jpg",
@@ -8402,6 +8147,11 @@
         "bundle": "regional-bahamas-highlights",
         "decision": "pending",
         "notes": "Nenhum candidato utilizável; nova busca necessária."
+      },
+      {
+        "bundle": "regional-bahamas-skyline-v2-2026-11-03",
+        "decision": "rejected",
+        "notes": "A composição mostra água em primeiro plano e margem distante escura; falta leitura de praia e força visual para um card principal do destino."
       },
       {
         "bundle": "regional-bahamas-targeted-2026-11-03",
@@ -8451,6 +8201,20 @@
         "status": "pending-visual-review",
         "title": "File:Cautethia exuma BMNHE273056 male un.jpg",
         "pool": "guide-highlight",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-quality-v3-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "quality",
+        "error": null
+      },
+      {
+        "bundle": "regional-bahamas-skyline-v2-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "scenic",
         "error": null
       },
       {
@@ -9213,56 +8977,6 @@
         "bundle": "regional-bahamas-regions-hotels",
         "decision": "rejected",
         "notes": "Veículos e terreno em registro de 1989, contexto insuficiente para hospedagem."
-      }
-    ]
-  },
-  {
-    "key": "las-vegas/home-slide",
-    "city": "las-vegas",
-    "slot": "home-slide",
-    "topic": "Las Vegas",
-    "path": "/images/destinations/las-vegas/curated-home-slide.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-las-vegas-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Las Vegas Strip Hotels at night with captions.png",
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlights-highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-highlights",
-        "status": "pending-visual-review",
-        "title": "File:Panoramas of American Megalopolis (5388716388).jpg",
-        "pool": "highlights",
-        "error": null
-      },
-      {
-        "bundle": "regional-las-vegas-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "highlight-home-slide",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-las-vegas-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Mesma fotografia do panorama de hotéis, com legendas acrescentadas; derivada repetida proibida."
-      },
-      {
-        "bundle": "regional-las-vegas-highlights",
-        "decision": "rejected",
-        "notes": "Coloração violeta excessiva prejudica a reprodução natural da cena."
       }
     ]
   },

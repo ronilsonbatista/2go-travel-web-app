@@ -1,0 +1,10 @@
+{
+  "medellin/home": {
+    "decision": "accepted",
+    "notes": "Vista real de Medellín com a malha urbana, estádio, vegetação e encostas legíveis; 2592px nativos, licença CC BY-SA 2.0, orientação correta, foco suficiente na inspeção completa apesar de névoa distante."
+  },
+  "medellin/guide-card": {
+    "decision": "rejected",
+    "notes": "Inspeção completa revela foco macio, sombras profundas e céu estourado; rejeitada para card de destaque apesar de representar corretamente Medellín."
+  }
+}

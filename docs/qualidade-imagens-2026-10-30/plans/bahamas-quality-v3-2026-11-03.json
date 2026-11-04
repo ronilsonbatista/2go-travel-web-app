@@ -1,0 +1,28 @@
+{
+  "city": "bahamas",
+  "region": "americas",
+  "center": [
+    24.5,
+    -76,
+    650
+  ],
+  "pools": {
+    "quality": {
+      "query": "\"Bahamas\" incategory:\"Quality images\"",
+      "required": [
+        "bahamas|nassau|exuma"
+      ],
+      "requiredTitle": "bahamas|nassau|exuma",
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|interior|sculpture|escultura|close.up|bird|flower|fish|turtle|lizard|monkey|insect|butterfly|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home",
+        "guide-card",
+        "guide-highlight"
+      ]
+    }
+  }
+}
