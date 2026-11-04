@@ -14,20 +14,40 @@ import ScrollReveal from '@/components/ScrollReveal';
 
 import { listDestinations } from '@/lib/cms';
 import { destinationGuides } from '@/data/guidesData';
+import {
+  VISIBLE_DESTINATION_IDS,
+  publicGuideSlugs,
+  visibleDestinations
+} from '@/data/destinationsCatalog';
 
 function sameCity(left, right) {
   const normalize = (value) => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   return normalize(left) === normalize(right);
 }
 
-const destinations = listDestinations();
-const guides = Object.values(destinationGuides);
+const publicSlugSet = new Set(publicGuideSlugs());
+const visibleCityKeys = new Set(
+  visibleDestinations().map((entry) =>
+    entry.city.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  )
+);
+const featuredOrder = new Map(VISIBLE_DESTINATION_IDS.map((id, index) => [id, index]));
+
+const destinations = listDestinations().filter((destination) =>
+  visibleCityKeys.has(destination.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''))
+);
+const guides = Object.values(destinationGuides).filter((guide) => publicSlugSet.has(guide.slug));
 
 function guideForDestination(destination) {
   return guides.find((guide) => sameCity(guide.city, destination.name)) || null;
 }
 
 const guideOnlyCities = guides.filter((guide) => !destinations.some((destination) => sameCity(destination.name, guide.city)));
+
+function featuredSortKey(item) {
+  const entry = visibleDestinations().find((destination) => sameCity(destination.city, item.name));
+  return featuredOrder.get(entry?.id) ?? 999;
+}
 
 const CONTINENT_BY_COUNTRY = {
   'França': 'Europa',
@@ -115,7 +135,7 @@ const featuredGuides = [
     link: `/guias/${guide.slug}`,
     hasGuide: true
   }))
-];
+].sort((left, right) => featuredSortKey(left) - featuredSortKey(right));
 
 const CONTINENT_FILTERS = [
   { id: 'Todos', label: 'Todos' },
@@ -127,7 +147,20 @@ const CONTINENT_FILTERS = [
   { id: 'Oceania', label: '🌊 Oceania' }
 ].filter((item) => item.id === 'Todos' || featuredGuides.some((guide) => guide.continent === item.id));
 
-const premiumSlides = [
+const PREMIUM_SLIDE_CATALOG_ID = {
+  paris: 'paris',
+  ny: 'nova-york',
+  tokyo: 'toquio',
+  rio: 'rio-de-janeiro',
+  roma: 'roma',
+  londres: 'londres',
+  istanbul: 'istambul',
+  sydney: 'sydney',
+  bangkok: 'bangkok',
+  amsterdam: 'amsterdam'
+};
+
+const premiumSlidesAll = [
   {
     id: 'paris',
     name: 'Paris, França',
@@ -250,7 +283,12 @@ const premiumSlides = [
   }
 ];
 
-const publishedDestinationCount = destinations.length + guideOnlyCities.length;
+const premiumSlides = premiumSlidesAll.filter((slide) => {
+  const catalogId = PREMIUM_SLIDE_CATALOG_ID[slide.id];
+  return catalogId && featuredOrder.has(catalogId);
+});
+
+const publishedDestinationCount = featuredGuides.length;
 
 // Dynamic CSS filters per destination for a cinematic, elegant, lower-saturation look
 const getSlideFilterClass = (id) => {

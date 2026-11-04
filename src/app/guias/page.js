@@ -34,6 +34,7 @@ function coverOf(guide) {
 
 const FEATURED = getFeaturedDestinations();
 const CATALOG_TOTAL = GUIAS_DESTINATIONS.length;
+const regionsWithVisible = new Set(GUIAS_DESTINATIONS.map((destination) => destination.region));
 
 const REGIONS = [
   { id: 'europa', label: 'Europa', detail: 'Capitais clássicas e costa europeia.', icon: Landmark, match: 'Europa' },
@@ -42,7 +43,7 @@ const REGIONS = [
   { id: 'asia', label: 'Ásia', detail: 'Oriente, metrôs e street food.', icon: Compass, match: 'Ásia' },
   { id: 'oriente-medio', label: 'Oriente Médio', detail: 'Entre continentes e desertos.', icon: Mountain, match: 'Oriente Médio' },
   { id: 'todos', label: 'Todos os destinos', detail: 'Catálogo completo com filtros.', icon: Globe2, match: null }
-];
+].filter((region) => region.match == null || regionsWithVisible.has(region.match));
 
 export default function GuiasIndex() {
   const router = useRouter();
