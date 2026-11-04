@@ -138,7 +138,7 @@ const premiumSlides = [
     tags: ['Cultura', 'Romance'],
     img: '/images/destinations/paris/curated-home-slide.jpg',
     thumbImage: '/images/destinations/paris/curated-home-thumb.jpg',
-    ctaLink: '/roteiros/paris-3-dias'
+    ctaLink: '/guias/como-planejar-viagem-paris'
   },
   {
     id: 'ny',
@@ -162,7 +162,7 @@ const premiumSlides = [
     tags: ['Cultura', 'Tecnologia'],
     img: '/images/destinations/toquio/curated-home-slide.jpg',
     thumbImage: '/images/destinations/toquio/curated-home-thumb.jpg',
-    ctaLink: '/roteiros/toquio-3-dias'
+    ctaLink: '/guias/como-planejar-viagem-toquio'
   },
   {
     id: 'rio',
@@ -174,7 +174,7 @@ const premiumSlides = [
     tags: ['Praias', 'Natureza'],
     img: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1400&q=85',
     thumbImage: '/images/destinations/rio-de-janeiro/curated-home-thumb.jpg',
-    ctaLink: '/roteiros?search=Rio de Janeiro'
+    ctaLink: '/guias/como-planejar-viagem-rio-de-janeiro'
   },
   {
     id: 'roma',
@@ -186,7 +186,7 @@ const premiumSlides = [
     tags: ['História', 'Gastronomia'],
     img: '/images/destinations/roma/curated-home-slide.jpg',
     thumbImage: '/images/destinations/roma/curated-home-thumb.jpg',
-    ctaLink: '/roteiros/roma-3-dias'
+    ctaLink: '/guias/como-planejar-viagem-roma'
   },
   {
     id: 'londres',
@@ -198,7 +198,7 @@ const premiumSlides = [
     tags: ['Cultura', 'História'],
     img: '/images/destinations/londres/curated-home-slide.jpg',
     thumbImage: '/images/destinations/londres/curated-home-thumb.jpg',
-    ctaLink: '/roteiros/londres-3-dias'
+    ctaLink: '/guias/como-planejar-viagem-londres'
   },
   {
     id: 'istanbul',
@@ -222,7 +222,7 @@ const premiumSlides = [
     tags: ['Praias', 'Arquitetura'],
     img: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=85',
     thumbImage: '/images/destinations/sydney/curated-home-thumb.jpg',
-    ctaLink: '/roteiros?search=Sydney'
+    ctaLink: '/guias/como-planejar-viagem-sydney'
   },
   {
     id: 'bangkok',
@@ -234,7 +234,7 @@ const premiumSlides = [
     tags: ['Cultura', 'Gastronomia'],
     img: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1400&q=85',
     thumbImage: '/images/destinations/bangkok/curated-home-thumb.jpg',
-    ctaLink: '/roteiros?search=Bangkok'
+    ctaLink: '/guias/como-planejar-viagem-bangkok'
   },
   {
     id: 'amsterdam',
@@ -246,7 +246,7 @@ const premiumSlides = [
     tags: ['Cultura', 'Canais'],
     img: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=85',
     thumbImage: '/images/destinations/amsterdam/curated-home-thumb.jpg',
-    ctaLink: '/roteiros?search=Amsterdã'
+    ctaLink: '/guias/como-planejar-viagem-amsterdam'
   }
 ];
 
@@ -439,10 +439,10 @@ export default function Home() {
                         Baixar o App
                       </button>
                       <Link
-                        href="/roteiros"
+                        href={premiumSlides[currentSlide].ctaLink}
                         className="w-full max-w-[280px] sm:w-auto border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-transparent font-bold px-8 py-3.5 rounded-xl transition-all inline-flex items-center justify-center"
                       >
-                        Ver roteiros
+                        Ver destinos
                       </Link>
                     </div>
                     <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-1 text-center sm:text-left">
