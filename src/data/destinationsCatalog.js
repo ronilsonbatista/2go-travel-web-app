@@ -2,7 +2,7 @@
  * Master destinations catalog for /guias hub featured + /guias/destinos filters.
  * Deduped (case/accents): Milano→Milão, Zurich→Zurique; Santiago & Punta Cana once.
  * `status: 'published'` when a full guide exists in guidesData.
- * `visible: true` only for destinations published in the public Guia (home order 1–10).
+ * `visible: true` only for destinations published in the public Guia (home order 1–14).
  * Content for hidden destinations stays in the repo; flip via VISIBLE_DESTINATION_IDS.
  */
 
@@ -16,7 +16,7 @@ export function normalizeDestinationKey(value) {
 }
 
 /**
- * Public Guia destinations (home featured order 1–10).
+ * Public Guia destinations (home featured order 1–14).
  * To publish another destination later: add its `id` here (and optionally number it in the control spreadsheet).
  */
 export const VISIBLE_DESTINATION_IDS = [
@@ -29,7 +29,11 @@ export const VISIBLE_DESTINATION_IDS = [
   'istambul',
   'rio-de-janeiro',
   'lisboa',
-  'barcelona'
+  'barcelona',
+  'abu-dhabi',
+  'amsterdam',
+  'andorra',
+  'antalya'
 ];
 
 const VISIBLE_IN_GUIDE = new Set(VISIBLE_DESTINATION_IDS);
@@ -205,7 +209,7 @@ export function publishedDestinations() {
   return DESTINATIONS_CATALOG.filter((d) => d.status === 'published');
 }
 
-/** Destinations with `visible: true` (public Guia listings, home order 1–10). */
+/** Destinations with `visible: true` (public Guia listings, home order 1–14). */
 export function visibleDestinations() {
   return VISIBLE_DESTINATION_IDS
     .map((id) => DESTINATIONS_CATALOG.find((d) => d.id === id))
@@ -218,7 +222,7 @@ export function isGuideSlugPublic(slug) {
   return DESTINATIONS_CATALOG.some((d) => d.visible && d.slug === slug);
 }
 
-/** Guide slugs for sitemap / static params (visible only, home order 1–10). */
+/** Guide slugs for sitemap / static params (visible only, home order 1–14). */
 export function publicGuideSlugs() {
   return visibleDestinations().map((d) => d.slug).filter(Boolean);
 }
