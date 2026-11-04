@@ -5,7 +5,7 @@ import {
   VISIBLE_DESTINATION_IDS
 } from '@/data/destinationsCatalog';
 
-/** Editorial featured destinations for /guias hub (max 10). Order is intentional. */
+/** Editorial featured destinations for /guias hub (max 14). Order is intentional. */
 export const FEATURED_DESTINATION_IDS = VISIBLE_DESTINATION_IDS;
 
 export const BADGE_BY_ID = {
@@ -52,7 +52,7 @@ export function enrichDestination(entry) {
 /** Full catalog enriched (includes hidden). Prefer GUIAS_DESTINATIONS for public UI. */
 export const GUIAS_DESTINATIONS_ALL = DESTINATIONS_CATALOG.map(enrichDestination);
 
-/** Public Guia listings — visible destinations in home order 1–10. */
+/** Public Guia listings — visible destinations in home order 1–14. */
 export const GUIAS_DESTINATIONS = FEATURED_DESTINATION_IDS
   .map((id) => GUIAS_DESTINATIONS_ALL.find((destination) => destination.id === id))
   .filter(Boolean);

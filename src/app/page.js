@@ -155,11 +155,16 @@ const PREMIUM_SLIDE_CATALOG_ID = {
   roma: 'roma',
   londres: 'londres',
   istanbul: 'istambul',
-  sydney: 'sydney',
-  bangkok: 'bangkok',
-  amsterdam: 'amsterdam'
+  dubai: 'dubai',
+  lisboa: 'lisboa',
+  barcelona: 'barcelona',
+  'abu-dhabi': 'abu-dhabi',
+  amsterdam: 'amsterdam',
+  andorra: 'andorra',
+  antalya: 'antalya'
 };
 
+/** Curated home hero slides keyed by short slide id; membership follows VISIBLE_DESTINATION_IDS. */
 const premiumSlidesAll = [
   {
     id: 'paris',
@@ -186,28 +191,16 @@ const premiumSlidesAll = [
     ctaLink: '/guias/como-planejar-viagem-nova-york'
   },
   {
-    id: 'tokyo',
-    name: 'Tóquio, Japão',
-    country: 'Japão',
-    emoji: '🇯🇵',
-    phrase: 'Tradição, tecnologia e experiências únicas.',
-    desc: 'A majestosa Tokyo Tower iluminada durante a blue hour em harmonia entre a tradição e a vanguarda tecnológica.',
-    tags: ['Cultura', 'Tecnologia'],
-    img: '/images/destinations/toquio/curated-home-slide.jpg',
-    thumbImage: '/images/destinations/toquio/curated-home-thumb.jpg',
-    ctaLink: '/guias/como-planejar-viagem-toquio'
-  },
-  {
-    id: 'rio',
-    name: 'Rio de Janeiro, Brasil',
-    country: 'Brasil',
-    emoji: '🇧🇷',
-    phrase: 'Praias, montanhas e paisagens inesquecíveis.',
-    desc: 'Pão de Açúcar ao pôr do sol em tons suaves de fim de tarde e natureza exuberante.',
-    tags: ['Praias', 'Natureza'],
-    img: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1400&q=85',
-    thumbImage: '/images/destinations/rio-de-janeiro/curated-home-thumb.jpg',
-    ctaLink: '/guias/como-planejar-viagem-rio-de-janeiro'
+    id: 'londres',
+    name: 'Londres, Reino Unido',
+    country: 'Reino Unido',
+    emoji: '🇬🇧',
+    phrase: 'História, cultura e ícones reconhecidos no mundo inteiro.',
+    desc: 'Big Ben e o Palácio de Westminster durante a blue hour com tons frios e refinados.',
+    tags: ['Cultura', 'História'],
+    img: '/images/destinations/londres/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/londres/curated-home-thumb.jpg',
+    ctaLink: '/guias/como-planejar-viagem-londres'
   },
   {
     id: 'roma',
@@ -222,16 +215,28 @@ const premiumSlidesAll = [
     ctaLink: '/guias/como-planejar-viagem-roma'
   },
   {
-    id: 'londres',
-    name: 'Londres, Reino Unido',
-    country: 'Reino Unido',
-    emoji: '🇬🇧',
-    phrase: 'História, cultura e ícones reconhecidos no mundo inteiro.',
-    desc: 'Big Ben e o Palácio de Westminster durante a blue hour com tons frios e refinados.',
-    tags: ['Cultura', 'História'],
-    img: '/images/destinations/londres/curated-home-slide.jpg',
-    thumbImage: '/images/destinations/londres/curated-home-thumb.jpg',
-    ctaLink: '/guias/como-planejar-viagem-londres'
+    id: 'tokyo',
+    name: 'Tóquio, Japão',
+    country: 'Japão',
+    emoji: '🇯🇵',
+    phrase: 'Tradição, tecnologia e experiências únicas.',
+    desc: 'A majestosa Tokyo Tower iluminada durante a blue hour em harmonia entre a tradição e a vanguarda tecnológica.',
+    tags: ['Cultura', 'Tecnologia'],
+    img: '/images/destinations/toquio/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/toquio/curated-home-thumb.jpg',
+    ctaLink: '/guias/como-planejar-viagem-toquio'
+  },
+  {
+    id: 'dubai',
+    name: 'Dubai, Emirados Árabes Unidos',
+    country: 'Emirados Árabes Unidos',
+    emoji: '🇦🇪',
+    phrase: 'Luxo, arranha-céus e o deserto ao lado.',
+    desc: 'O skyline de Dubai e o Burj Khalifa sob a luz dourada do entardecer no Golfo.',
+    tags: ['Luxo', 'Urbano'],
+    img: '/images/destinations/dubai/curated-home.jpg',
+    thumbImage: '/images/destinations/dubai/curated-home.jpg',
+    ctaLink: '/guias/como-planejar-viagem-dubai'
   },
   {
     id: 'istanbul',
@@ -246,28 +251,52 @@ const premiumSlidesAll = [
     ctaLink: '/guias/como-planejar-viagem-istambul'
   },
   {
-    id: 'sydney',
-    name: 'Sydney, Austrália',
-    country: 'Austrália',
-    emoji: '🇦🇺',
-    phrase: 'Praias, natureza e arquitetura icônica.',
-    desc: 'A Opera House de Sydney em blue hour com o skyline noturno refletido nas águas da baía.',
-    tags: ['Praias', 'Arquitetura'],
-    img: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=85',
-    thumbImage: '/images/destinations/sydney/curated-home-thumb.jpg',
-    ctaLink: '/guias/como-planejar-viagem-sydney'
+    id: 'rio',
+    name: 'Rio de Janeiro, Brasil',
+    country: 'Brasil',
+    emoji: '🇧🇷',
+    phrase: 'Praias, montanhas e paisagens inesquecíveis.',
+    desc: 'Pão de Açúcar ao pôr do sol em tons suaves de fim de tarde e natureza exuberante.',
+    tags: ['Praias', 'Natureza'],
+    img: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1400&q=85',
+    thumbImage: '/images/destinations/rio-de-janeiro/curated-home-thumb.jpg',
+    ctaLink: '/guias/como-planejar-viagem-rio-de-janeiro'
   },
   {
-    id: 'bangkok',
-    name: 'Bangkok, Tailândia',
-    country: 'Tailândia',
-    emoji: '🇹🇭',
-    phrase: 'Templos, sabores e uma cidade cheia de vida.',
-    desc: 'A silhueta inconfundível do templo Wat Arun no Rio Chao Phraya durante a luz serena do entardecer.',
+    id: 'lisboa',
+    name: 'Lisboa, Portugal',
+    country: 'Portugal',
+    emoji: '🇵🇹',
+    phrase: 'Colinas, elétricos e o Tejo ao entardecer.',
+    desc: 'Telhados de Lisboa e o rio Tejo sob a luz dourada típica da capital portuguesa.',
     tags: ['Cultura', 'Gastronomia'],
-    img: 'https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&w=1400&q=85',
-    thumbImage: '/images/destinations/bangkok/curated-home-thumb.jpg',
-    ctaLink: '/guias/como-planejar-viagem-bangkok'
+    img: '/images/destinations/lisboa/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/lisboa/curated-home-thumb.jpg',
+    ctaLink: '/guias/como-planejar-viagem-lisboa'
+  },
+  {
+    id: 'barcelona',
+    name: 'Barcelona, Espanha',
+    country: 'Espanha',
+    emoji: '🇪🇸',
+    phrase: 'Gaudí, praia urbana e o ritmo catalão.',
+    desc: 'A Sagrada Família e o skyline de Barcelona sob a luz suave do Mediterrâneo.',
+    tags: ['Cultura', 'Praias'],
+    img: '/images/destinations/barcelona/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/barcelona/curated-home-thumb.jpg',
+    ctaLink: '/guias/como-planejar-viagem-barcelona'
+  },
+  {
+    id: 'abu-dhabi',
+    name: 'Abu Dhabi, Emirados Árabes Unidos',
+    country: 'Emirados Árabes Unidos',
+    emoji: '🇦🇪',
+    phrase: 'Mesquitas, museus e a capital dos EAU.',
+    desc: 'A Sheikh Zayed Grand Mosque e o horizonte de Abu Dhabi sob o céu do Golfo.',
+    tags: ['Cultura', 'Luxo'],
+    img: '/images/destinations/abu-dhabi/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/abu-dhabi/curated-home-thumb.jpg',
+    ctaLink: '/guias/como-planejar-viagem-abu-dhabi'
   },
   {
     id: 'amsterdam',
@@ -277,16 +306,46 @@ const premiumSlidesAll = [
     phrase: 'Canais, cultura e charme em cada rua.',
     desc: 'Os canais seculares ao anoitecer com luzes acolhedoras refletidas na água e arquitetura histórica.',
     tags: ['Cultura', 'Canais'],
-    img: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=1400&q=85',
+    img: '/images/destinations/amsterdam/curated-home-slide.jpg',
     thumbImage: '/images/destinations/amsterdam/curated-home-thumb.jpg',
     ctaLink: '/guias/como-planejar-viagem-amsterdam'
+  },
+  {
+    id: 'andorra',
+    name: 'Andorra',
+    country: 'Andorra',
+    emoji: '🇦🇩',
+    phrase: 'Esqui, compras e os Pirineus.',
+    desc: 'Picos nevados e vilarejos dos Pirineus sob a luz clara do inverno andorrano.',
+    tags: ['Montanha', 'Inverno'],
+    img: '/images/destinations/andorra/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/andorra/curated-home-thumb.jpg',
+    ctaLink: '/guias/como-planejar-viagem-andorra'
+  },
+  {
+    id: 'antalya',
+    name: 'Antalya, Turquia',
+    country: 'Turquia',
+    emoji: '🇹🇷',
+    phrase: 'Costa turquesa, ruínas e resorts.',
+    desc: 'A costa turquesa de Antalya com o Mediterrâneo e o casario histórico ao pôr do sol.',
+    tags: ['Praias', 'História'],
+    img: '/images/destinations/antalya/curated-home-slide.jpg',
+    thumbImage: '/images/destinations/antalya/curated-home-thumb.jpg',
+    ctaLink: '/guias/como-planejar-viagem-antalya'
   }
 ];
 
-const premiumSlides = premiumSlidesAll.filter((slide) => {
-  const catalogId = PREMIUM_SLIDE_CATALOG_ID[slide.id];
-  return catalogId && featuredOrder.has(catalogId);
-});
+const premiumSlides = premiumSlidesAll
+  .filter((slide) => {
+    const catalogId = PREMIUM_SLIDE_CATALOG_ID[slide.id];
+    return catalogId && featuredOrder.has(catalogId);
+  })
+  .sort(
+    (a, b) =>
+      featuredOrder.get(PREMIUM_SLIDE_CATALOG_ID[a.id]) -
+      featuredOrder.get(PREMIUM_SLIDE_CATALOG_ID[b.id])
+  );
 
 const publishedDestinationCount = featuredGuides.length;
 
@@ -307,12 +366,20 @@ const getSlideFilterClass = (id) => {
       return 'brightness-[0.82] contrast-[1.05] saturate-[0.72]';
     case 'istanbul':
       return 'brightness-[0.84] contrast-[1.04] saturate-[0.78]';
-    case 'sydney':
-      return 'brightness-[0.83] contrast-[1.05] saturate-[0.75]';
-    case 'bangkok':
+    case 'dubai':
+      return 'brightness-[0.84] contrast-[1.05] saturate-[0.76]';
+    case 'lisboa':
       return 'brightness-[0.84] contrast-[1.04] saturate-[0.78]';
+    case 'barcelona':
+      return 'brightness-[0.85] contrast-[1.04] saturate-[0.80]';
+    case 'abu-dhabi':
+      return 'brightness-[0.84] contrast-[1.05] saturate-[0.76]';
     case 'amsterdam':
       return 'brightness-[0.82] contrast-[1.06] saturate-[0.74]';
+    case 'andorra':
+      return 'brightness-[0.83] contrast-[1.05] saturate-[0.74]';
+    case 'antalya':
+      return 'brightness-[0.85] contrast-[1.03] saturate-[0.80]';
     default:
       return 'brightness-[0.83] contrast-[1.04] saturate-[0.76]';
   }
