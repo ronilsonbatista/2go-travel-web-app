@@ -45,34 +45,34 @@ const ORIG_PINS = [
   }
 ];
 
-/** Geographic % for stitched free-tile basemaps (same Paris bbox). */
+/** Geographic % for stitched ESRI Light Gray basemap (Paris z13 frame). */
 const GEO_PINS = [
-  { ...ORIG_PINS[0], pin: { top: '68.1%', left: '26.5%' } },
-  { ...ORIG_PINS[1], pin: { top: '64.7%', left: '59.7%' } },
-  { ...ORIG_PINS[2], pin: { top: '69.5%', left: '78.6%' } },
-  { ...ORIG_PINS[3], pin: { top: '23.9%', left: '63.9%' } }
+  { ...ORIG_PINS[0], pin: { top: '60.6%', left: '30.3%' } },
+  { ...ORIG_PINS[1], pin: { top: '58.2%', left: '51.3%' } },
+  { ...ORIG_PINS[2], pin: { top: '63.7%', left: '64.9%' } },
+  { ...ORIG_PINS[3], pin: { top: '29.3%', left: '53.9%' } }
 ];
 
 export const MAP_STYLE_OPTIONS = [
   {
-    id: 'atual-slate',
-    name: 'Vintage wash (produção)',
-    short: 'atual-slate',
-    description: 'PNG vintage + wash papel old-school — produção em todos os guias (revert do Modern light).',
-    mapSrc: '/images/maps/vintage/paris.png',
-    pins: ORIG_PINS,
+    id: 'modern-light',
+    name: 'Modern light (produção)',
+    short: 'modern-light',
+    description: 'ESRI Light Gray / Positron-like + wash leve — produção em todos os guias.',
+    mapSrc: '/images/maps/paris.png',
+    pins: GEO_PINS,
     productionLike: true,
-    cssTheme: 'atual-slate'
+    cssTheme: 'modern-light'
   },
   {
-    id: 'modern-light',
-    name: 'Modern light',
-    short: 'modern-light',
-    description: 'Base clara Positron-like + wash leve — opção anterior (histórico).',
-    mapSrc: '/images/maps/paris.png',
+    id: 'atual-slate',
+    name: 'Vintage wash',
+    short: 'atual-slate',
+    description: 'PNG vintage + wash papel old-school — histórico (pré-Modern light).',
+    mapSrc: '/images/maps/vintage/paris.png',
     pins: ORIG_PINS,
     productionLike: false,
-    cssTheme: 'modern-light'
+    cssTheme: 'atual-slate'
   },
   {
     id: 'dark-slate',
@@ -183,7 +183,7 @@ function MapPreview({ option, activeId = 'eiffel' }) {
 
 function PreviewInner() {
   const params = useSearchParams();
-  const styleId = params.get('style') || 'atual-slate';
+  const styleId = params.get('style') || 'modern-light';
   const shot = params.get('shot') === '1';
   const option =
     MAP_STYLE_OPTIONS.find((o) => o.id === styleId) || MAP_STYLE_OPTIONS[0];
@@ -223,8 +223,8 @@ function PreviewInner() {
             Opções de estilo do mapa — Paris
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-text-muted">
-            Produção = Vintage wash (PNG vintage) em todos os guias. Comparativo histórico
-            das outras opções; sem Place IDs.
+            Produção = Modern light (PNG claro Positron-like) em todos os guias. Comparativo
+            histórico das outras opções; sem Place IDs.
           </p>
         </header>
 
