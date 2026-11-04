@@ -1,13 +1,13 @@
 {
   "status": "partial-do-not-merge",
   "baselinePlaceholders": 5566,
-  "replaced": 1446,
-  "remaining": 4120,
+  "replaced": 1452,
+  "remaining": 4114,
   "regions": {
     "americas": {
       "label": "Américas",
-      "replaced": 1366,
-      "remaining": 170,
+      "replaced": 1372,
+      "remaining": 164,
       "complete": false
     },
     "europa": {
@@ -37,20 +37,20 @@
     "havai": 63,
     "havana": 60,
     "las-vegas": 59,
-    "lima": 62,
+    "lima": 63,
     "los-angeles": 59,
     "medellin": 54,
     "milao": 24,
     "montevideo": 56,
-    "montreal": 57,
+    "montreal": 58,
     "orlando": 61,
     "porto-rico": 60,
     "punta-cana": 49,
-    "quito": 54,
+    "quito": 56,
     "san-andres": 39,
     "sao-francisco": 64,
-    "toronto": 59,
-    "vancouver": 60
+    "toronto": 60,
+    "vancouver": 61
   },
   "appliedKeys": [
     "assuncao/attraction-0",
@@ -754,6 +754,7 @@
     "lima/day-3",
     "lima/day-4",
     "lima/essential-idioma",
+    "lima/essential-moeda",
     "lima/essential-transporte",
     "lima/guide-card",
     "lima/guide-highlight",
@@ -1007,6 +1008,7 @@
     "montreal/day-3",
     "montreal/day-4",
     "montreal/essential-idioma",
+    "montreal/essential-moeda",
     "montreal/essential-transporte",
     "montreal/guide-card",
     "montreal/guide-highlight",
@@ -1242,6 +1244,7 @@
     "quito/home",
     "quito/home-slide",
     "quito/home-thumb",
+    "quito/hotel-0",
     "quito/hotel-1",
     "quito/hotel-2",
     "quito/hotel-3",
@@ -1264,6 +1267,7 @@
     "quito/mistakes",
     "quito/neighborhood-1",
     "quito/neighborhood-2",
+    "quito/neighborhood-detail-0",
     "quito/neighborhood-detail-1",
     "quito/neighborhood-detail-3",
     "quito/region-0",
@@ -1392,6 +1396,7 @@
     "toronto/day-2",
     "toronto/day-3",
     "toronto/day-4",
+    "toronto/essential-moeda",
     "toronto/guide-card",
     "toronto/guide-highlight",
     "toronto/hero",
@@ -1451,6 +1456,7 @@
     "vancouver/day-3",
     "vancouver/day-4",
     "vancouver/essential-idioma",
+    "vancouver/essential-moeda",
     "vancouver/essential-transporte",
     "vancouver/guide-card",
     "vancouver/guide-highlight",
@@ -1500,7 +1506,7 @@
     "vancouver/trip-1",
     "vancouver/trip-2"
   ],
-  "rejectedCandidates": 923,
+  "rejectedCandidates": 929,
   "note": "Only explicitly inspected candidates were applied. Unreviewed and rejected candidates stay placeholders. No claim of 107/107 visual acceptance.",
   "rejectionCountNote": "Decision records, not unique photos: a candidate may have been rejected in multiple search rounds."
 }

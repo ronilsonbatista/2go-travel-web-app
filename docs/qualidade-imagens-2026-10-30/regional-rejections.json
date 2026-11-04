@@ -7394,5 +7394,53 @@
     "sha256": "4ff0ecc3b3eca0b2eeb7440361181b33ed96483b86e615fe018efd0f8c22a22c",
     "decision": "rejected",
     "notes": "O enquadramento mostra um busto isolado diante de edifício; não representa de modo legível a cidade para a miniatura de destino."
+  },
+  {
+    "bundle": "regional-quito-targeted-v4-2026-11-03",
+    "key": "quito/day-1",
+    "title": "File:Plazoleta Benalcázar sign.jpg",
+    "sha256": "683480dbb13346e501225c22c0acaac2f353a07e7f0932a2807e08d4c41f7aa5",
+    "decision": "rejected",
+    "notes": "A foto mostra apenas uma placa de sinalização sobre parede, sem retratar os ícones da cidade; não atende ao tema de roteiro de ícones principais."
+  },
+  {
+    "bundle": "regional-assuncao-targeted-v4-2026-11-03",
+    "key": "assuncao/home-thumb",
+    "title": "File:Catedral de la Asunción, Ciudadela, Victoria, isla de Gozo, Malta, 2021-08-22, DD 30.jpg",
+    "sha256": "aeccb58c2743839f14c9b96d7351c620f1de289d2491083297265b347755ded4",
+    "decision": "rejected",
+    "notes": "A fotografia representa a Catedral da Assunção em Gozo, Malta, conforme título e descrição; é o país e o destino errados, apesar da categoria Quality images."
+  },
+  {
+    "bundle": "regional-lima-targeted-v4-2026-11-03",
+    "key": "lima/essential-moeda",
+    "title": "File:S1 2013 Sol Anverso.jpg",
+    "sha256": "334c4a8ec643e7aa3c0ac6258e82558e91119d719d32a379a872b46686070710",
+    "decision": "rejected",
+    "notes": "A página Commons tem aviso de copyright do Banco Central peruano para moedas modernas apesar do rótulo Public domain; licença contraditória para reprodução de moeda de 2013, rejeitada sem resolver a dúvida por suposição. Fonte: https://commons.wikimedia.org/wiki/File:S1_2013_Sol_Anverso.jpg"
+  },
+  {
+    "bundle": "regional-vancouver-payments-v5-2026-11-03",
+    "key": "vancouver/essential-moeda",
+    "title": "File:Mobile ATM at Art in the Park, Windsor, Ontario, 2025-06-07.jpg",
+    "sha256": "48308a5ebe654ad2a6b70461dc4af2d68c320bf4b4b441a181d1200e31a62ca1",
+    "decision": "rejected",
+    "notes": "O caixa móvel é uma instalação temporária de festival em Windsor, Ontário; apesar do país correto, o trailer de evento não representa bem o uso bancário cotidiano de um viajante em Vancouver."
+  },
+  {
+    "bundle": "regional-bogota-payments-v5-2026-11-03",
+    "key": "bogota/essential-moeda",
+    "title": "File:Cajero Davivienda La Rivera Cúcuta de noche.jpeg",
+    "sha256": "c1dcbeaa9a36963b326eb2c7cc591aaf200309ada8704ffc7691f260833c635b",
+    "decision": "rejected",
+    "notes": "Fachada noturna com reflexo estourado, foco insuficiente e caixa quase oculto; apesar de ser Davivienda na Colômbia, não oferece leitura clara do serviço bancário para o card."
+  },
+  {
+    "bundle": "regional-vancouver-payments-french-v6-2026-11-03",
+    "key": "vancouver/essential-moeda",
+    "title": "File:Guichets automatiques Desjardins - 2022-10-22.jpg",
+    "sha256": "74fd93d6fc7ad7b6bc4b9154ff5de49b20969c0e0cdb35603d2d720d705a4a54",
+    "decision": "rejected",
+    "notes": "A foto é nítida e canadense, mas mostra caixas Desjardins em Montreal; para Vancouver, preferir imagem de uma rede bancária com serviço nacional mais representativo, evitando sugerir uma agência local da cooperativa de Quebec."
   }
 ]

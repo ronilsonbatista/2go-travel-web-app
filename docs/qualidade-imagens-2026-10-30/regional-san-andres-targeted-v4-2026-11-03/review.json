@@ -1,0 +1,37 @@
+[
+  {
+    "key": "san-andres/attraction-3",
+    "slot": "attraction-3",
+    "topic": "Spratt Bight",
+    "status": "no-candidate",
+    "pool": "specific"
+  },
+  {
+    "key": "san-andres/map-attraction-3",
+    "slot": "map-attraction-3",
+    "topic": "Spratt Bight",
+    "status": "no-candidate",
+    "pool": "specific"
+  },
+  {
+    "key": "san-andres/map-list-3",
+    "slot": "map-list-3",
+    "topic": "Spratt Bight",
+    "status": "no-candidate",
+    "pool": "specific"
+  },
+  {
+    "key": "san-andres/neighborhood-0",
+    "slot": "neighborhood-0",
+    "topic": "Centro / Spratt Bight",
+    "status": "no-candidate",
+    "pool": "specific"
+  },
+  {
+    "key": "san-andres/neighborhood-detail-0",
+    "slot": "neighborhood-detail-0",
+    "topic": "Centro / Spratt Bight",
+    "status": "no-candidate",
+    "pool": "specific"
+  }
+]

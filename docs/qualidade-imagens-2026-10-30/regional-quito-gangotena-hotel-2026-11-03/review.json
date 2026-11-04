@@ -1,0 +1,127 @@
+[
+  {
+    "key": "quito/hotel-0",
+    "slot": "hotel-0",
+    "topic": "Hotel em Histórico",
+    "path": "/images/destinations/quito/curated-hotel-0.jpg",
+    "pool": "specific",
+    "status": "pending-visual-review",
+    "title": "File:Palacio Gangotena, Quito.jpg",
+    "imageinfo": {
+      "size": 5039353,
+      "width": 3886,
+      "height": 2591,
+      "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Palacio_Gangotena%2C_Quito.jpg/3840px-Palacio_Gangotena%2C_Quito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumbwidth": 2400,
+      "thumbheight": 1600,
+      "thumbattribs": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Palacio_Gangotena%2C_Quito.jpg/3840px-Palacio_Gangotena%2C_Quito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "decoding": "async",
+        "loading": "lazy",
+        "width": 2400,
+        "height": 1600
+      },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Palacio_Gangotena%2C_Quito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Palacio_Gangotena,_Quito.jpg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48275291",
+      "extmetadata": {
+        "DateTime": {
+          "value": "2016-04-19 21:57:13",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Palacio Gangotena, Quito",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "GFDL|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Palacio Gangotena (Quito)|Self-published work|Files with coordinates missing SDC location of creation",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "-0.221167",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "-78.515369",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Palacio Gangotena, San Francisco Square, Quito, Ecuador",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2014-12-03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "mime": "image/jpeg"
+    },
+    "minimumLongEdge": 1600,
+    "file": "/tmp/2go-regional-photo-review/quito/hotel-0.jpg",
+    "dimensions": [
+      2400,
+      1600
+    ],
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Palacio_Gangotena%2C_Quito.jpg/3840px-Palacio_Gangotena%2C_Quito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sha256": "ed75163e4692d85d74ec6e8a2fc64168ae13afa2960b884fbbbbd479e0d91fb8",
+    "retargetedFrom": "quito/neighborhood-0"
+  }
+]

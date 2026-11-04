@@ -495,6 +495,13 @@
         "title": null,
         "pool": "attractions-attraction-3",
         "error": null
+      },
+      {
+        "bundle": "regional-san-andres-targeted-v4-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "specific",
+        "error": null
       }
     ],
     "decisions": [
@@ -552,6 +559,13 @@
         "title": null,
         "pool": "attractions-attraction-3",
         "error": null
+      },
+      {
+        "bundle": "regional-san-andres-targeted-v4-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "specific",
+        "error": null
       }
     ],
     "decisions": [
@@ -608,6 +622,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "attractions-attraction-3",
+        "error": null
+      },
+      {
+        "bundle": "regional-san-andres-targeted-v4-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "specific",
         "error": null
       }
     ],
@@ -801,6 +822,13 @@
         "title": null,
         "pool": "neighborhoods-neighborhood-0",
         "error": null
+      },
+      {
+        "bundle": "regional-san-andres-targeted-v4-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "specific",
+        "error": null
       }
     ],
     "decisions": [
@@ -857,6 +885,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "neighborhoods-neighborhood-0",
+        "error": null
+      },
+      {
+        "bundle": "regional-san-andres-targeted-v4-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "specific",
         "error": null
       }
     ],
@@ -1375,61 +1410,6 @@
     ]
   },
   {
-    "key": "lima/essential-moeda",
-    "city": "lima",
-    "slot": "essential-moeda",
-    "topic": "Moeda & pagamentos",
-    "path": "/images/destinations/lima/curated-essential-moeda.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-lima-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:50 Soles de Oro 1971 Tupac Amaru Anverso.jpg",
-        "pool": "support-currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-current-currency-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "current-currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-support-v1",
-        "status": "pending-visual-review",
-        "title": "File:Peru 1 Centavo coin of 1944 reverse.jpg",
-        "pool": "currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-lima-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:100 Soles de Oro 1967 Libertad Sentada Anverso.jpg",
-        "pool": "support-currency",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-lima-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Moeda de 50 soles de oro de 1971, unidade antiga fora de circulação; não representa pagamentos atuais."
-      },
-      {
-        "bundle": "regional-lima-support-v1",
-        "decision": "rejected",
-        "notes": "Moeda de 1 centavo de 1944, objeto historico inadequado para pagamentos atuais."
-      },
-      {
-        "bundle": "regional-lima-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Moeda de 100 soles de oro de 1967; unidade antiga fora de circulação, inadequada para pagamentos atuais."
-      }
-    ]
-  },
-  {
     "key": "lima/essential-docs",
     "city": "lima",
     "slot": "essential-docs",
@@ -1812,6 +1792,13 @@
         "error": null
       },
       {
+        "bundle": "regional-montevideo-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Chivito al pan uruguayo.jpg",
+        "pool": "food",
+        "error": null
+      },
+      {
         "bundle": "regional-montevideo-support-v1",
         "status": "no-candidate",
         "title": null,
@@ -2008,6 +1995,13 @@
         "title": null,
         "pool": "highlight-home-thumb",
         "error": null
+      },
+      {
+        "bundle": "regional-assuncao-targeted-v4-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Catedral de la Asunción, Ciudadela, Victoria, isla de Gozo, Malta, 2021-08-22, DD 30.jpg",
+        "pool": "specific",
+        "error": null
       }
     ],
     "decisions": [
@@ -2020,6 +2014,11 @@
         "bundle": "regional-assuncao-resume-2026-11-03",
         "decision": "pending",
         "notes": "Nenhum candidato aprovado nesta tentativa; permanece pendente."
+      },
+      {
+        "bundle": "regional-assuncao-targeted-v4-2026-11-03",
+        "decision": "rejected",
+        "notes": "A fotografia representa a Catedral da Assunção em Gozo, Malta, conforme título e descrição; é o país e o destino errados, apesar da categoria Quality images."
       }
     ]
   },
@@ -2151,6 +2150,13 @@
         "bundle": "regional-assuncao-local-final-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Chipa Paraguay.jpg",
+        "pool": "food",
+        "error": null
+      },
+      {
+        "bundle": "regional-assuncao-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Sopa paraguaya (porción de bandeja).jpg",
         "pool": "food",
         "error": null
       },
@@ -2525,6 +2531,13 @@
         "title": null,
         "pool": "neighborhoods-neighborhood-0",
         "error": null
+      },
+      {
+        "bundle": "regional-assuncao-targeted-v4-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "specific",
+        "error": null
       }
     ],
     "decisions": [
@@ -2569,6 +2582,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "neighborhoods-neighborhood-0",
+        "error": null
+      },
+      {
+        "bundle": "regional-assuncao-targeted-v4-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "specific",
         "error": null
       }
     ],
@@ -2660,6 +2680,13 @@
         "title": null,
         "pool": "regions-hotels-region-0",
         "error": null
+      },
+      {
+        "bundle": "regional-assuncao-targeted-v4-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "specific",
+        "error": null
       }
     ],
     "decisions": [
@@ -2704,6 +2731,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "regions-hotels-region-0",
+        "error": null
+      },
+      {
+        "bundle": "regional-assuncao-targeted-v4-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "specific",
         "error": null
       }
     ],
@@ -2987,6 +3021,13 @@
         "error": null
       },
       {
+        "bundle": "regional-bogota-payments-v5-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Cajero Davivienda La Rivera Cúcuta de noche.jpeg",
+        "pool": "payments",
+        "error": null
+      },
+      {
         "bundle": "regional-bogota-support-v1",
         "status": "no-candidate",
         "title": null,
@@ -3006,6 +3047,11 @@
         "bundle": "regional-bogota-current-currency-2026-11-03",
         "decision": "rejected",
         "notes": "Fonte descreve ocorrência policial ou retrato de suspeito; pesos aparecem apenas no texto sobre recompensa/arrecadação. A fotografia não representa moeda nem pagamentos de viagem."
+      },
+      {
+        "bundle": "regional-bogota-payments-v5-2026-11-03",
+        "decision": "rejected",
+        "notes": "Fachada noturna com reflexo estourado, foco insuficiente e caixa quase oculto; apesar de ser Davivienda na Colômbia, não oferece leitura clara do serviço bancário para o card."
       },
       {
         "bundle": "regional-bogota-support-v1",
@@ -3414,6 +3460,13 @@
         "error": null
       },
       {
+        "bundle": "regional-medellin-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Bosque Parque Arví.JPG",
+        "pool": "arvi",
+        "error": null
+      },
+      {
         "bundle": "regional-medellin-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:Alala Sister, Arvi Park, Colombia.jpg",
@@ -3466,6 +3519,13 @@
         "status": "pending-visual-review",
         "title": "File:Metrocable (5083090610).jpg",
         "pool": "attractions-attraction-1",
+        "error": null
+      },
+      {
+        "bundle": "regional-medellin-local-v8-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "arvi",
         "error": null
       },
       {
@@ -3577,6 +3637,13 @@
         "error": null
       },
       {
+        "bundle": "regional-medellin-local-v8-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "arvi",
+        "error": null
+      },
+      {
         "bundle": "regional-medellin-regions-hotels",
         "status": "pending-visual-review",
         "title": "File:Scaphosepalum lima (Orquídea de pedúnculos ásperos) 02.jpg",
@@ -3624,6 +3691,13 @@
         "status": "pending-visual-review",
         "title": "File:Metrocable - Reaching the least developed suburban areas of Medellín (5083096780).jpg",
         "pool": "regions-hotels-region-3",
+        "error": null
+      },
+      {
+        "bundle": "regional-medellin-local-v8-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "arvi",
         "error": null
       },
       {
@@ -3824,6 +3898,13 @@
         "error": null
       },
       {
+        "bundle": "regional-quito-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Llapingachos and chorizos.jpg",
+        "pool": "food",
+        "error": null
+      },
+      {
         "bundle": "regional-quito-support-v1",
         "status": "no-candidate",
         "title": null,
@@ -3941,6 +4022,13 @@
         "title": "File:Calle Rocafuerte, Quito, custom garage, entrance, pic.1of8 Historic Center of Quito.jpg",
         "pool": "support-icon",
         "error": null
+      },
+      {
+        "bundle": "regional-quito-targeted-v4-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Plazoleta Benalcázar sign.jpg",
+        "pool": "specific",
+        "error": null
       }
     ],
     "decisions": [
@@ -3963,6 +4051,11 @@
         "bundle": "regional-quito-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Saída de garagem isolada; não representa os ícones principais de Quito."
+      },
+      {
+        "bundle": "regional-quito-targeted-v4-2026-11-03",
+        "decision": "rejected",
+        "notes": "A foto mostra apenas uma placa de sinalização sobre parede, sem retratar os ícones da cidade; não atende ao tema de roteiro de ícones principais."
       }
     ]
   },
@@ -4001,6 +4094,13 @@
         "title": "File:(El Centro Histórico de Quito) Avenue Tarqui, Quito (Photography by David Adam Kess).jpg",
         "pool": "neighborhoods-neighborhood-0",
         "error": null
+      },
+      {
+        "bundle": "regional-quito-targeted-v4-2026-11-03",
+        "status": "reassigned-to-hotel-0",
+        "title": "File:Palacio Gangotena, Quito.jpg",
+        "pool": "specific",
+        "error": null
       }
     ],
     "decisions": [
@@ -4023,66 +4123,12 @@
         "bundle": "regional-quito-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Placa da Avenida Tarqui em close; não representa o Centro Histórico como bairro."
-      }
-    ]
-  },
-  {
-    "key": "quito/neighborhood-detail-0",
-    "city": "quito",
-    "slot": "neighborhood-detail-0",
-    "topic": "Centro Histórico",
-    "path": "/images/destinations/quito/curated-neighborhood-detail-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-quito-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Calle Mejía, Quito pic a El Centro Histórico de Quito.jpg",
-        "pool": "neighborhoods-neighborhood-0",
-        "error": null
       },
       {
-        "bundle": "regional-quito-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:\" El Centro Histórico de Quito pic. bb Photography by David Adam Kess.jpg",
-        "pool": "neighborhoods-neighborhood-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-neighborhoods",
-        "status": "pending-visual-review",
-        "title": "File:La Loma Grande, Quito (Centro Histórico, Quito).jpg",
-        "pool": "neighborhood-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:(antique wooden door, Calle Venezuela, Quito) pic.a.3 Hand Carved Exterior Doors (Centro Histórico, Quito).jpg",
-        "pool": "neighborhoods-neighborhood-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-quito-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Placa de rua em preto e branco; não caracteriza o bairro."
-      },
-      {
-        "bundle": "regional-quito-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Foto em preto e branco pouco informativa e fechada na torre; não atende a seleção atual do bairro."
-      },
-      {
-        "bundle": "regional-quito-neighborhoods",
-        "decision": "rejected",
-        "notes": "Placa de identificação isolada, contexto insuficiente do bairro histórico."
-      },
-      {
-        "bundle": "regional-quito-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Porta e calçada isoladas; não representa o Centro Histórico como bairro."
+        "bundle": "regional-quito-targeted-v4-2026-11-03",
+        "decision": "reassigned",
+        "toKey": "quito/hotel-0",
+        "notes": "Fachada de hotel real: candidatura transferida para a posição mais específica de hospedagem, sem usar a foto duas vezes."
       }
     ]
   },
@@ -4243,66 +4289,6 @@
         "bundle": "regional-quito-targeted-2026-11-03",
         "decision": "rejected",
         "notes": "Aeroporto Mariscal Sucre em Tababela, não bairro Mariscal; falso match de nome."
-      }
-    ]
-  },
-  {
-    "key": "quito/hotel-0",
-    "city": "quito",
-    "slot": "hotel-0",
-    "topic": "Hotel em Histórico",
-    "path": "/images/destinations/quito/curated-hotel-0.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-quito-alternatives-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Historic Center at night, Quito La Plaza de de la Independencia (Ecuador) pic.ao123 Plaza de la Independencia (Quito).jpg",
-        "pool": "regions-hotels-region-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-completion-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:Calle Marañon, Quito Historic Center of Quito, street scene, detail of street sign.jpg",
-        "pool": "regions-hotels-region-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-regions-hotels",
-        "status": "pending-visual-review",
-        "title": "File:In the Historic Center of Quito a UNESCO World Heritage Site, pic.a7707.jpg",
-        "pool": "region-0",
-        "error": null
-      },
-      {
-        "bundle": "regional-quito-targeted-2026-11-03",
-        "status": "pending-visual-review",
-        "title": "File:(Calle Oriente, Quito) Historic Center of Quito, manhole cover. brick sidewalk.jpg",
-        "pool": "regions-hotels-region-0",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-quito-alternatives-2026-11-03",
-        "decision": "rejected",
-        "notes": "Mesma sequência e composição quase idêntica ao monumento da região; rejeitado para evitar repetição visual próxima."
-      },
-      {
-        "bundle": "regional-quito-completion-2026-11-03",
-        "decision": "rejected",
-        "notes": "Placas de esquina e parede cortada; falta contexto de hospedagem no Centro Histórico."
-      },
-      {
-        "bundle": "regional-quito-regions-hotels",
-        "decision": "rejected",
-        "notes": "Vista e enquadramento proximos do mesmo centro historico ja selecionado."
-      },
-      {
-        "bundle": "regional-quito-targeted-2026-11-03",
-        "decision": "rejected",
-        "notes": "Tampa de bueiro em calçada; não corresponde ao contexto de hospedagem no Centro Histórico."
       }
     ]
   },
@@ -5845,51 +5831,6 @@
     ]
   },
   {
-    "key": "vancouver/essential-moeda",
-    "city": "vancouver",
-    "slot": "essential-moeda",
-    "topic": "Moeda & pagamentos",
-    "path": "/images/destinations/vancouver/curated-essential-moeda.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-vancouver-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-vancouver-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-vancouver-support-v1",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-vancouver-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-currency",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-vancouver-support-v1",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
-      }
-    ]
-  },
-  {
     "key": "vancouver/essential-docs",
     "city": "vancouver",
     "slot": "essential-docs",
@@ -6041,6 +5982,13 @@
         "error": null
       },
       {
+        "bundle": "regional-vancouver-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Hudson's Bay Company Vancouver.jpg",
+        "pool": "downtown",
+        "error": null
+      },
+      {
         "bundle": "regional-vancouver-neighborhoods",
         "status": "pending-visual-review",
         "title": "File:Downtown Vancouver (5429681957).jpg",
@@ -6120,6 +6068,13 @@
         "error": null
       },
       {
+        "bundle": "regional-toronto-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Toronto Skyline March 2023 14.jpg",
+        "pool": "thumbnail",
+        "error": null
+      },
+      {
         "bundle": "regional-toronto-targeted-2026-11-03",
         "status": "pending-visual-review",
         "title": "File:2009 Toronto.jpg",
@@ -6151,51 +6106,6 @@
     ]
   },
   {
-    "key": "toronto/essential-moeda",
-    "city": "toronto",
-    "slot": "essential-moeda",
-    "topic": "Moeda & pagamentos",
-    "path": "/images/destinations/toronto/curated-essential-moeda.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-toronto-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-toronto-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-toronto-support-v1",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-toronto-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-currency",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-toronto-support-v1",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
-      }
-    ]
-  },
-  {
     "key": "toronto/essential-idioma",
     "city": "toronto",
     "slot": "essential-idioma",
@@ -6215,6 +6125,13 @@
         "status": "pending-visual-review",
         "title": "File:3D TORONTO, large illuminated sign (23107925143).jpg",
         "pool": "support-language",
+        "error": null
+      },
+      {
+        "bundle": "regional-toronto-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Bilingual exit sign (49975061333).jpg",
+        "pool": "language",
         "error": null
       },
       {
@@ -6275,6 +6192,13 @@
         "status": "pending-visual-review",
         "title": "File:19950529 23 TTC Streetcar Queen St. @ Yonge St.jpg",
         "pool": "support-transport",
+        "error": null
+      },
+      {
+        "bundle": "regional-toronto-local-v8-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "transit",
         "error": null
       },
       {
@@ -6373,51 +6297,6 @@
     ]
   },
   {
-    "key": "montreal/essential-moeda",
-    "city": "montreal",
-    "slot": "essential-moeda",
-    "topic": "Moeda & pagamentos",
-    "path": "/images/destinations/montreal/curated-essential-moeda.jpg",
-    "region": "americas",
-    "searchEvidence": [
-      {
-        "bundle": "regional-montreal-alternatives-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-completion-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-support-v1",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "currency",
-        "error": null
-      },
-      {
-        "bundle": "regional-montreal-targeted-2026-11-03",
-        "status": "no-candidate",
-        "title": null,
-        "pool": "support-currency",
-        "error": null
-      }
-    ],
-    "decisions": [
-      {
-        "bundle": "regional-montreal-support-v1",
-        "decision": "pending",
-        "notes": "Nenhum candidato utilizavel; permanece pendente para nova busca."
-      }
-    ]
-  },
-  {
     "key": "montreal/essential-docs",
     "city": "montreal",
     "slot": "essential-docs",
@@ -6494,6 +6373,13 @@
         "status": "pending-visual-review",
         "title": "File:Montreal Poutine, Vieux-Montréal, Montreal, Quebec (29441102733).jpg",
         "pool": "support-food",
+        "error": null
+      },
+      {
+        "bundle": "regional-montreal-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:La Banquise Poutine.jpg",
+        "pool": "food",
         "error": null
       },
       {
@@ -6669,6 +6555,13 @@
         "status": "pending-visual-review",
         "title": "File:Caleche Vieux-Montreal 11.jpg",
         "pool": "support-quarter",
+        "error": null
+      },
+      {
+        "bundle": "regional-montreal-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Poutine @ Décarie Hot Dog @ Montréal (30435389821).jpg",
+        "pool": "food",
         "error": null
       },
       {
@@ -6886,6 +6779,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "support-food",
+        "error": null
+      },
+      {
+        "bundle": "regional-cidade-do-panama-local-v8-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "food",
         "error": null
       },
       {
@@ -9060,6 +8960,13 @@
         "error": null
       },
       {
+        "bundle": "regional-las-vegas-local-v8-2026-11-03",
+        "status": "pending-visual-review",
+        "title": "File:Welcome to Fabulous Las Vegas sign, Nevada - April 2026.jpg",
+        "pool": "paradise",
+        "error": null
+      },
+      {
         "bundle": "regional-las-vegas-neighborhoods",
         "status": "pending-visual-review",
         "title": "File:Secret Garden Dolphins Being Fed After Performance.jpg",
@@ -9120,6 +9027,13 @@
         "error": null
       },
       {
+        "bundle": "regional-las-vegas-local-v8-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "north-region",
+        "error": null
+      },
+      {
         "bundle": "regional-las-vegas-regions-hotels",
         "status": "pending-visual-review",
         "title": "File:Conrad Las Vegas at Resorts World February 2023 HDR.jpg",
@@ -9165,6 +9079,13 @@
         "error": null
       },
       {
+        "bundle": "regional-las-vegas-local-v8-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "north-region",
+        "error": null
+      },
+      {
         "bundle": "regional-las-vegas-regions-hotels",
         "status": "pending-visual-review",
         "title": "File:Las Vegas Strip from Resorts World February 2023 HDR 2.jpg",
@@ -9207,6 +9128,13 @@
         "status": "no-candidate",
         "title": null,
         "pool": "regions-hotels-region-0",
+        "error": null
+      },
+      {
+        "bundle": "regional-las-vegas-local-v8-2026-11-03",
+        "status": "no-candidate",
+        "title": null,
+        "pool": "north-region",
         "error": null
       },
       {

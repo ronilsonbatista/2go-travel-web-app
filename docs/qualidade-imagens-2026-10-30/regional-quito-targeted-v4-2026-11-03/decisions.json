@@ -1,0 +1,15 @@
+{
+  "quito/day-1": {
+    "decision": "rejected",
+    "notes": "A foto mostra apenas uma placa de sinalização sobre parede, sem retratar os ícones da cidade; não atende ao tema de roteiro de ícones principais."
+  },
+  "quito/neighborhood-detail-0": {
+    "decision": "accepted",
+    "notes": "Vista ampla e nítida da Plaza Grande de Quito com praça, jardins, monumento e fachadas históricas legíveis; fotografia real de Diego Delso, CC BY-SA 4.0, 8624px nativos e orientação correta."
+  },
+  "quito/neighborhood-0": {
+    "decision": "reassigned",
+    "toKey": "quito/hotel-0",
+    "notes": "Fachada de hotel real: candidatura transferida para a posição mais específica de hospedagem, sem usar a foto duas vezes."
+  }
+}

@@ -25631,20 +25631,31 @@
   "lima/essential-moeda": {
     "city": "lima",
     "slot": "essential-moeda",
-    "query": "Peru currency money",
     "path": "/images/destinations/lima/curated-essential-moeda.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:lima/essential-moeda",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Moeda & pagamentos",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Bank_BCP_ATM_Huaraz.jpg",
+    "title": "File:Bank BCP ATM Huaraz.jpg",
+    "author": "AgainErick",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "ATM's of Banco de Crédito (BCP) in Huaraz, Peru",
+    "categories": "GFDL|Taken with Canon PowerShot S2 IS|CC-BY-SA-3.0,2.5,2.0,1.0|Banco de Crédito del Perú|License migration redundant|Self-published work|Automatic teller machines in Peru|Economy in Huaraz",
+    "date": "",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bank_BCP_ATM_Huaraz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bank_BCP_ATM_Huaraz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      2592,
+      1944
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Caixas BCP no Peru, com equipamentos e marca legíveis; fotografia real de saque bancário em Huaraz, licença CC BY-SA 3.0, 2592px nativos. Ilustração do serviço bancário peruano no tema pagamentos, sem alegar que a agência fotografada fica em Lima.",
+    "assetSha256": "d540d8453ab3a1cd3dcb8ab0079d29e850ab911c456ec2ccb929c5fd48051de9",
+    "minimumLongEdge": 1024
   },
   "lima/essential-idioma": {
     "city": "lima",
@@ -35355,20 +35366,31 @@
   "quito/neighborhood-detail-0": {
     "city": "quito",
     "slot": "neighborhood-detail-0",
-    "query": "Quito Centro Histórico street",
     "path": "/images/destinations/quito/curated-neighborhood-detail-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:quito/neighborhood-detail-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Centro Histórico",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_Grande%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_71.JPG",
+    "title": "File:Plaza Grande, Quito, Ecuador, 2015-07-22, DD 71.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Plaza Grande, Quito, Ecuador",
+    "categories": "Taken with Canon EOS 5DS R|Plaza de la Independencia (Quito)|Images by User:Poco a poco|Images of Ecuador by User:Poco a poco|2015 in Quito|Ecuador photographs taken on 2015-07-22|Images by User:Poco a poco taken in 2015",
+    "date": "2015-07-22",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Plaza_Grande%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_71.JPG/3840px-Plaza_Grande%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_71.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Plaza_Grande%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_71.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1235
+    ],
+    "originalDimensions": [
+      8624,
+      4437
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Vista ampla e nítida da Plaza Grande de Quito com praça, jardins, monumento e fachadas históricas legíveis; fotografia real de Diego Delso, CC BY-SA 4.0, 8624px nativos e orientação correta.",
+    "assetSha256": "c83030924e1247de953f5669684aef742ad11a439cf57036d5450e9718d52b81",
+    "minimumLongEdge": 1600
   },
   "quito/neighborhood-1": {
     "city": "quito",
@@ -35833,20 +35855,33 @@
   "quito/hotel-0": {
     "city": "quito",
     "slot": "hotel-0",
-    "query": "Quito hotel 0",
     "path": "/images/destinations/quito/curated-hotel-0.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:quito/hotel-0",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Hotel em Histórico",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:Palacio_Gangotena%2C_Quito.jpg",
+    "title": "File:Palacio Gangotena, Quito.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Palacio Gangotena, San Francisco Square, Quito, Ecuador",
+    "categories": "GFDL|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Palacio Gangotena (Quito)|Self-published work|Files with coordinates missing SDC location of creation",
+    "date": "2014-12-03",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Palacio_Gangotena%2C_Quito.jpg/3840px-Palacio_Gangotena%2C_Quito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Palacio_Gangotena%2C_Quito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "originalDimensions": [
+      3886,
+      2591
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Fachada real do Palacio/Casa Gangotena, hotel boutique situado na Plaza San Francisco no centro histórico de Quito; identidade e hospedagem confirmadas no site oficial https://www.casagangotena.com/our-hotel/. Foto nítida CC BY-SA 3.0, 3886px nativos, orientação correta; aplicada somente nesta posição.",
+    "assetSha256": "ed75163e4692d85d74ec6e8a2fc64168ae13afa2960b884fbbbbd479e0d91fb8",
+    "minimumLongEdge": 1600,
+    "latitude": -0.221167,
+    "longitude": -78.515369
   },
   "quito/hotel-list-0": {
     "city": "quito",
@@ -45339,20 +45374,31 @@
   "vancouver/essential-moeda": {
     "city": "vancouver",
     "slot": "essential-moeda",
-    "query": "Canadá currency money",
     "path": "/images/destinations/vancouver/curated-essential-moeda.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:vancouver/essential-moeda",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Moeda & pagamentos",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:ScotiabankATM.jpg",
+    "title": "File:ScotiabankATM.jpg",
+    "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "A Scotiabank ATM",
+    "categories": "CC-Zero|Scotiabank|Self-published work|Automatic teller machines in Canada",
+    "date": "2015-06-22 21:13:41",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/ScotiabankATM.jpg/3840px-ScotiabankATM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/ScotiabankATM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1589
+    ],
+    "originalDimensions": [
+      4928,
+      3264
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Caixas Scotiabank fotografados no Canadá, com equipamentos de saque e marca legíveis; rede bancária canadense, foto real CC0 de 4928px nativos, orientação correta. Uso ilustrativo de pagamentos e saques no país, sem alegar localização de uma agência específica de Vancouver.",
+    "assetSha256": "6adc32fff683f627200132088eb3d1a9a730ffa8d52e8e59dc67fb5758b38ffd",
+    "minimumLongEdge": 1024
   },
   "vancouver/essential-idioma": {
     "city": "vancouver",
@@ -47179,20 +47225,31 @@
   "toronto/essential-moeda": {
     "city": "toronto",
     "slot": "essential-moeda",
-    "query": "Canadá currency money",
     "path": "/images/destinations/toronto/curated-essential-moeda.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:toronto/essential-moeda",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Moeda & pagamentos",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:CIBC_ATM.jpg",
+    "title": "File:CIBC ATM.jpg",
+    "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "description": "A CIBC ATM inside a shopping mall.\nLocation: Markham, Ontario, Canada",
+    "categories": "Canadian Imperial Bank of Commerce|Taken with Olympus uD600 / S-600|Self-published work|PD-self|Automatic teller machines in Canada",
+    "date": "2008-07-27",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/CIBC_ATM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/CIBC_ATM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1800
+    ],
+    "originalDimensions": [
+      2816,
+      2112
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Caixas bancários CIBC em Markham, na região de Toronto, Canadá; foto real de serviço de saque em dólares canadenses, domínio público, 2816px nativos, orientação correta e equipamentos legíveis. Ilustra pagamentos e saques no país, sem reproduzir cédulas.",
+    "assetSha256": "379e7597e21cdf2d54a43a9183b378ddedb85ebb120501fbb832458c319c17b2",
+    "minimumLongEdge": 1024
   },
   "toronto/essential-idioma": {
     "city": "toronto",
@@ -49028,20 +49085,31 @@
   "montreal/essential-moeda": {
     "city": "montreal",
     "slot": "essential-moeda",
-    "query": "Canadá currency money",
     "path": "/images/destinations/montreal/curated-essential-moeda.jpg",
-    "source": "placeholder-pending-commons",
-    "title": "Placeholder:montreal/essential-moeda",
-    "article": "",
-    "description": "Temporary unique placeholder — replace in Codex image quality pass",
-    "license": "placeholder",
-    "author": "2GO seed",
-    "categories": "",
-    "date": "",
-    "licenseUrl": "",
     "topic": "Moeda & pagamentos",
-    "visualReview": "pending",
-    "reviewedAt": "2026-10-30"
+    "source": "https://commons.wikimedia.org/wiki/File:RBCATM2.jpg",
+    "title": "File:RBCATM2.jpg",
+    "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "description": "RBC ATM",
+    "categories": "Royal Bank of Canada|Taken with Nikon D3100|Self-published work|PD-self|Automatic teller machines in Canada|Path (Toronto)",
+    "date": "2010-12-13",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/RBCATM2.jpg/3840px-RBCATM2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/RBCATM2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "assetDimensions": [
+      2400,
+      1600
+    ],
+    "originalDimensions": [
+      4608,
+      3072
+    ],
+    "visualReview": "accepted",
+    "reviewedAt": "2026-11-03",
+    "reviewNotes": "Caixas bancários RBC no Canadá, com equipamentos e marca legíveis; fotografia real em domínio público, 4608px nativos, orientação correta. Uso ilustrativo do serviço bancário canadense, sem alegar que a agência fotografada fica em Montreal.",
+    "assetSha256": "e5d92836c3b5f6b338735cb74d852ffa236d108d1cc4256a9a7af751685cb6cd",
+    "minimumLongEdge": 1024
   },
   "montreal/essential-idioma": {
     "city": "montreal",

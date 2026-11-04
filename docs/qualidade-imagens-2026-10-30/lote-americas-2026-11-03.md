@@ -2,24 +2,24 @@
 
 **Parcial. PR #34 draft. DO NOT MERGE.**
 
-Base comum com origin/main: `de75083`. Continuação a partir de `1e69e8e`; ver evidência do rebase quando aplicável.
-Fotos novas aplicadas neste ciclo: **8**; placeholders substituídos acumulados: **1446 / 5.566**; restantes absolutos: **4120**.
+Base comum com origin/main: `de75083`. Continuação a partir de `ecae228`; ver evidência do rebase quando aplicável.
+Fotos novas aplicadas neste ciclo: **6**; placeholders substituídos acumulados: **1452 / 5.566**; restantes absolutos: **4114**.
 
 | Região | Novas neste ciclo | Restantes absolutos |
 | --- | ---: | ---: |
-| Américas | 8 | 170 |
+| Américas | 6 | 164 |
 | Europa | 0 | 2352 |
 | Mundo | 0 | 1598 |
 
 | Destino tocado | Novas | Restantes |
 | --- | ---: | ---: |
-| bogota | 1 | 4 |
-| havana | 1 | 4 |
-| las-vegas | 1 | 5 |
-| medellin | 3 | 10 |
-| quito | 2 | 10 |
+| lima | 1 | 1 |
+| montreal | 1 | 6 |
+| quito | 2 | 8 |
+| toronto | 1 | 4 |
+| vancouver | 1 | 3 |
 
-Preservação verificada: **2717 registros reais herdados**, incluindo os 958 anteriores e os 39 highlights; zero mudança em metadados ou bytes desses arquivos. Somente placeholders foram substituídos, mantendo path e tópico.
+Preservação verificada: **2725 registros reais herdados**, incluindo os 958 anteriores e os 39 highlights; zero mudança em metadados ou bytes desses arquivos. Somente placeholders foram substituídos, mantendo path e tópico.
 
 Audit global: **FAIL esperado**. Ocorrências envolvendo chaves novas: **0**. O log integral acompanha este checkpoint. Não há aprovação global de 107/107.
 
@@ -29,13 +29,14 @@ Lima/chegada: os dois slots foram substituídos por fotos do terminal novo; ver 
 
 Sem alteração de layout, CSS, catálogo, conteúdo editorial, Admin, Core ou Flutter. Contagens regionais na tabela acima. Pendências das Américas e das demais regiões permanecem abertas; nenhuma região foi declarada concluída sem zerar seu inventário.
 
-## Checkpoint após rebase sobre de75083
+## Checkpoint de hospedagem histórica e pagamentos
 
-- Rebase publicado em 1e69e8e; 1.438 substituições e os 39 highlights preservados. Os sete arquivos do redesign #35 são idênticos à main. Build completo e teste de sitemap passaram após o rebase.
-- Oito substituições novas: Medellín 3, Quito 2, Bogotá 1, Las Vegas 1, Havana 1. Todos os destaques novos têm >=1.600px nativos no lado maior.
-- Restantes absolutos: Américas 170, Europa 2.352, Mundo 1.598; total 4.120. Substituições acumuladas: 1.446 (Américas 1.366, Europa 80).
-- Preservados 2.717 registros reais da base 1e69e8e em bytes e metadados. Comparação das oito novas com 2.725 fotos reais: zero candidatas perceptuais (dHash <=5, proporção <20%). Auditoria global FAIL esperado e zero ocorrências nas posições novas.
-- Rejeitados skyline com foco insuficiente, panoramas obstruídos, dominante azul excessiva, janela/reflexo, busto isolado, costa pouco legível e silhueta contra sol estourado. Consultas sem candidato ficam registradas como tentativas, sem declarar inexistência global de fontes.
-- Nenhuma alteração em src, layout, CSS ou catálogo neste lote. Lima/terminal novo continua resolvido. Cancún, Bariloche e duplicata herdada de Gramado permanecem no passe residual.
+- Seis substituições: Quito 2, Toronto 1, Montreal 1, Vancouver 1 e Lima 1. Acumulado: 1.452 substituições (Américas 1.372, Europa 80). Restantes absolutos: Américas 164, Europa 2.352, Mundo 1.598; total 4.114.
+- Quito: Plaza Grande e fachada do hotel Casa Gangotena, cuja identidade foi confirmada no site oficial. A fachada foi transferida da candidatura genérica de bairro para hotel-0, aplicada uma única vez, com retarget documentado.
+- Pagamentos: CIBC e RBC (domínio público), Scotiabank (CC0) e BCP peruano (CC BY-SA 3.0). Fotos legíveis de caixas bancários no país correto, usadas como ilustração do serviço nacional de saque/pagamentos, sem alegar que cada agência está na cidade do guia nem recomendar banco ou tarifa.
+- A reprodução da moeda peruana de 2013 foi rejeitada por licença contraditória na própria página Commons. Também foram rejeitados Malta como Assunção, placa isolada como roteiro de ícones, ATM temporário de festival, cooperativa regional pouco representativa para Vancouver e fachada noturna sem leitura do caixa.
+- Preservados os 2.725 registros reais da base ecae228 em bytes e metadados, incluindo 1.438 anteriores e 39 highlights. Comparação das seis novas com 2.731 fotos reais: zero candidatas perceptuais (dHash <=5, proporção <20%). Audit global FAIL esperado, zero ocorrências nas posições novas.
+- Rebase sobre de75083 mantido, sem alterações nos arquivos do redesign #35. Build e teste de sitemap passaram após o rebase; este lote adicional muda só fotos e evidências. Lima agora tem apenas documentação/seguro pendente.
+- Cancún, Bariloche, duplicata herdada de Gramado e demais rejected continuam no passe residual. Nenhuma região foi declarada concluída.
 
 PR #34 ainda draft. DO NOT MERGE. Sem alegação 107/107.

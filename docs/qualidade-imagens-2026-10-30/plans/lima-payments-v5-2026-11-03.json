@@ -1,0 +1,31 @@
+{
+  "city": "lima",
+  "region": "americas",
+  "center": [
+    -10,
+    -76,
+    2000
+  ],
+  "pools": {
+    "payments": {
+      "query": "incategory:\"Automatic teller machines in Peru\"",
+      "required": [
+        "atm|cajero|automatic teller"
+      ],
+      "requiredTitle": "atm|cajero|automatic teller",
+      "countryPattern": "peru|peruvian",
+      "locationPatterns": [
+        "peru|peruvian"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1024,
+      "minRatio": 0.65,
+      "maxRatio": 2.8,
+      "reject": "bitcoin atm|bitcoin automatic|crypto.*atm|burned|destroyed|rioter|museum|historical|painting|diagram|logo|logotipo",
+      "slots": [
+        "essential-moeda"
+      ],
+      "preferredTitles": []
+    }
+  }
+}

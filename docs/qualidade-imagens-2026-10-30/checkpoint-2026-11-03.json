@@ -1,26 +1,24 @@
 {
-  "baselineRef": "1e69e8e",
-  "newApplied": 8,
+  "baselineRef": "ecae228",
+  "newApplied": 6,
   "newKeys": [
-    "bogota/home-thumb",
-    "havana/home",
-    "las-vegas/home-slide",
-    "medellin/guide-card",
-    "medellin/home",
-    "medellin/home-thumb",
-    "quito/guide-card",
-    "quito/guide-highlight"
+    "lima/essential-moeda",
+    "montreal/essential-moeda",
+    "quito/hotel-0",
+    "quito/neighborhood-detail-0",
+    "toronto/essential-moeda",
+    "vancouver/essential-moeda"
   ],
-  "preservedSourceRecords": 2717,
+  "preservedSourceRecords": 2725,
   "changedPreservedMetadata": [],
   "changedPreservedBinaries": [],
   "auditIssuesInvolvingNewKeys": [],
-  "remaining": 4120,
+  "remaining": 4114,
   "regions": {
     "americas": {
       "label": "Américas",
-      "replaced": 1366,
-      "remaining": 170,
+      "replaced": 1372,
+      "remaining": 164,
       "complete": false
     },
     "europa": {

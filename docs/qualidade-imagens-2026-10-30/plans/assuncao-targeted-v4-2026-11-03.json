@@ -1,0 +1,30 @@
+{
+  "city": "assuncao",
+  "region": "americas",
+  "center": [
+    -25.3,
+    -57.6,
+    40
+  ],
+  "pools": {
+    "specific": {
+      "query": "\"Asunci\u00f3n\" incategory:\"Quality images\"",
+      "required": [
+        "asuncion",
+        "catedral|cathedral|lopez|panteon|historic|historico|centro|downtown"
+      ],
+      "limit": 100,
+      "minimumLongEdge": 1600,
+      "minRatio": 1.2,
+      "maxRatio": 2.8,
+      "reject": "portrait|painting|engraving|postcard|diagram|logo|logotipo|emblem|mural|interior|indoors|sculpture|escultura|bust|busto|turtle|bird|flower|fish|lizard|monkey|insect|butterfly|tayrona|tenerife|la palma|197[0-9]|198[0-9]|19[0-6][0-9]",
+      "slots": [
+        "home-thumb",
+        "neighborhood-0",
+        "neighborhood-detail-0",
+        "region-0",
+        "region-list-0"
+      ]
+    }
+  }
+}
