@@ -2,7 +2,7 @@
 
 **Parcial. PR #34 draft. DO NOT MERGE.**
 
-Base main: `c2e7504`. Continuação a partir de `e41d129`. Sem rebase necessário: main não avançou.
+Base main atual: `de75083`; rebase concluído preservando as 1.438 substituições e 39 highlights. Continuação a partir de `e41d129`. Redesign #35 preservado integralmente; build e teste de sitemap passaram após o rebase.
 Fotos novas aplicadas neste ciclo: **7**; placeholders substituídos acumulados: **1438 / 5.566**; restantes absolutos: **4128**.
 
 | Região | Novas neste ciclo | Restantes absolutos |
