@@ -492,12 +492,12 @@ export default function Home() {
           </div>
 
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20 max-w-[1440px] w-full">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-start">
               
-              {/* Left text panel */}
-              <div className="lg:col-span-7 flex flex-col items-center sm:items-start text-left">
+              {/* Left text panel — 8/12 so the frosted card fills toward the sidebar (no dead gap) */}
+              <div className="lg:col-span-8 flex flex-col items-center lg:items-stretch text-left w-full min-w-0">
                 <div 
-                  className="w-full max-w-3xl bg-white/26 backdrop-blur-[6px] lg:backdrop-blur-[10px] border border-white/30 lg:border-white/35 shadow-[0_15px_45px_rgba(8,27,107,0.06)] lg:shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-4 sm:p-8 md:p-10 rounded-[20px] lg:rounded-[28px] flex flex-col gap-3.5 lg:gap-6 animate-fade-in-up items-center sm:items-start"
+                  className="w-full bg-white/26 backdrop-blur-[6px] lg:backdrop-blur-[10px] border border-white/30 lg:border-white/35 shadow-[0_15px_45px_rgba(8,27,107,0.06)] lg:shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-4 sm:p-8 md:p-10 rounded-[20px] lg:rounded-[28px] flex flex-col gap-3.5 lg:gap-6 animate-fade-in-up items-center sm:items-start"
                 >
                   <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5">
                     <span className="bg-[#F47A20] text-white text-[10px] sm:text-[12px] font-black tracking-wide px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full w-fit shadow-md shadow-[#F47A20]/15">
@@ -511,13 +511,13 @@ export default function Home() {
                   <div className="flex flex-col gap-1 lg:gap-2 text-center sm:text-left w-full">
                     <h1 
                       style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
-                      className="font-headers text-brand-navy font-extrabold text-[30px] sm:text-[46px] lg:text-[clamp(56px,6vw,88px)] leading-[1.0] lg:leading-[0.95] tracking-[-0.03em] max-w-2xl transition-all duration-500 overflow-wrap-normal"
+                      className="font-headers text-brand-navy font-extrabold text-[30px] sm:text-[46px] lg:text-[clamp(52px,5.2vw,80px)] leading-[1.0] lg:leading-[0.95] tracking-[-0.03em] max-w-3xl transition-all duration-500 overflow-wrap-normal"
                     >
                       {premiumSlides[currentSlide].name}
                     </h1>
                     <p 
                       style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
-                      className="font-headers text-brand-navy font-bold text-base sm:text-xl lg:text-[1.38rem] leading-snug tracking-tight max-w-xl hidden sm:block"
+                      className="font-headers text-brand-navy font-bold text-base sm:text-xl lg:text-[1.38rem] leading-snug tracking-tight max-w-2xl hidden sm:block"
                     >
                       A sua próxima viagem, planejada em minutos.
                     </p>
@@ -525,7 +525,7 @@ export default function Home() {
                   
                   <p 
                     style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
-                    className="text-xs sm:text-base text-brand-navy/80 leading-relaxed max-w-xl line-clamp-2 sm:line-clamp-none text-center sm:text-left font-medium"
+                    className="text-xs sm:text-base text-brand-navy/80 leading-relaxed max-w-2xl line-clamp-2 sm:line-clamp-none text-center sm:text-left font-medium"
                   >
                     A 2GO cria roteiros personalizados e une tecnologia, curadoria e praticidade para você viajar do seu jeito.
                   </p>
@@ -547,7 +547,7 @@ export default function Home() {
                         href={premiumSlides[currentSlide].ctaLink}
                         className="w-full max-w-[280px] sm:w-auto border border-brand-navy text-brand-navy hover:bg-brand-navy/5 bg-transparent font-bold px-8 py-3.5 rounded-xl transition-all inline-flex items-center justify-center"
                       >
-                        Ver destinos
+                        Ver destino
                       </Link>
                     </div>
                     <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-1 text-center sm:text-left">
@@ -590,28 +590,28 @@ export default function Home() {
               </div>
 
               {/* Right Columns: Interactive Side Slider Previews (Apple TV Style) */}
-              <div className="lg:col-span-5 flex flex-col lg:border-l lg:border-brand-navy/10 lg:pl-8 mt-6 lg:mt-0 w-full overflow-hidden">
+              <div className="lg:col-span-4 flex flex-col lg:border-l lg:border-brand-navy/10 lg:pl-6 xl:pl-8 mt-6 lg:mt-0 w-full min-w-0">
                 <span className="text-[11px] lg:text-[12px] font-black text-brand-navy/60 tracking-wide mb-2 lg:mb-3 block text-center lg:text-left">Mais destinos</span>
                 
-                <div className="flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-visible lg:overflow-y-visible gap-2 pb-4 lg:pb-0 custom-scrollbar-hide flex-nowrap lg:flex-wrap w-full px-1 lg:px-0 snap-x snap-mandatory scroll-smooth">
+                <div className="flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-hidden lg:overflow-y-auto lg:max-h-[min(36rem,calc(100vh-9rem))] gap-2 pb-4 lg:pb-1 custom-scrollbar-hide flex-nowrap lg:flex-nowrap w-full px-1 lg:px-0 snap-x lg:snap-none snap-mandatory scroll-smooth">
                   {premiumSlides.map((slide, idx) => {
                     const isSelected = idx === currentSlide;
                     return (
                       <button
                         key={slide.id}
                         onClick={() => selectSlide(idx)}
-                        className={`group flex items-center gap-2.5 p-2 lg:p-3 rounded-xl border text-left transition-all duration-300 cursor-pointer shrink-0 w-[185px] lg:w-full snap-start ${
+                        className={`group flex items-center gap-2.5 p-2 lg:p-2.5 xl:p-3 rounded-xl border text-left transition-all duration-300 cursor-pointer shrink-0 w-[185px] lg:w-full snap-start ${
                           isSelected 
                             ? 'bg-white/75 border-white/50 shadow-md border-l-4 border-l-[#F47A20] backdrop-blur-md pl-3 text-brand-navy font-bold' 
                             : 'bg-brand-navy/5 border-brand-navy/5 border-l-4 border-l-transparent hover:bg-brand-navy/10 text-brand-navy/70 pl-3'
                         }`}
                       >
-                        <div className="w-9 h-9 lg:w-12 lg:h-12 rounded-lg overflow-hidden shrink-0 border border-brand-navy/10 relative">
+                        <div className="w-9 h-9 lg:w-11 lg:h-11 xl:w-12 xl:h-12 rounded-lg overflow-hidden shrink-0 border border-brand-navy/10 relative">
                           <img src={slide.thumbImage} alt={slide.name} className="w-full h-full object-cover transition-transform group-hover:scale-[1.03]" />
                         </div>
                         <div className="min-w-0 flex-1 flex flex-col justify-center">
                           <h4 className={`text-xs lg:text-sm font-extrabold truncate ${isSelected ? 'text-brand-navy font-black' : 'text-brand-navy/80 group-hover:text-brand-navy'}`}>{slide.name}</h4>
-                          <p className="text-[11px] lg:text-[13px] font-medium line-clamp-1 lg:line-clamp-2 mt-0.5 leading-snug whitespace-normal text-brand-navy/60 group-hover:text-brand-navy/80">{slide.phrase}</p>
+                          <p className="text-[11px] lg:text-[12px] xl:text-[13px] font-medium line-clamp-1 lg:line-clamp-2 mt-0.5 leading-snug whitespace-normal text-brand-navy/60 group-hover:text-brand-navy/80">{slide.phrase}</p>
                         </div>
                       </button>
                     );
