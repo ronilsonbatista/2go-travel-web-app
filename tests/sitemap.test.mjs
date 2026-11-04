@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import nextConfig from '../next.config.mjs';
 import { listDestinations, listItineraries, listBlogPosts } from '../src/lib/cms.js';
-import { destinationGuides } from '../src/data/guidesData.js';
+import { publicGuideSlugs } from '../src/data/destinationsCatalog.js';
 import {
   buildSitemapEntries,
   pathnameOf,
@@ -27,7 +27,7 @@ test('sitemap omits redirects and private routes', async () => {
     destinations: listDestinations(),
     itineraries: listItineraries(),
     blogPosts: listBlogPosts(),
-    guideSlugs: Object.keys(destinationGuides),
+    guideSlugs: publicGuideSlugs(),
     redirectSources
   });
   const paths = entries.map((entry) => pathnameOf(entry.url));
@@ -46,6 +46,8 @@ test('sitemap omits redirects and private routes', async () => {
   assert.ok(entries.every((entry) => entry.url === SITE_URL || entry.url.startsWith(`${SITE_URL}/`)));
   assert.equal(entries.some((entry) => /2go\.com\.br|2go-site\.vercel\.app|2go-travel-react\.vercel\.app/.test(entry.url)), false);
   assert.equal(paths.filter((path) => path === '/guias/como-planejar-viagem-paris').length, 1);
+  assert.equal(paths.includes('/guias/como-planejar-viagem-sydney'), false);
+  assert.equal(publicGuideSlugs().length, 10);
   assert.equal(paths.includes('/blog'), false);
   assert.equal(paths.some((path) => path.startsWith('/blog/')), false);
   for (const retired of ['/planejamento', '/premium', '/consultoria', '/consultoria-personalizada', '/criar-roteiro']) {

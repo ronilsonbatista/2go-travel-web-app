@@ -2,6 +2,8 @@
  * Master destinations catalog for /guias hub featured + /guias/destinos filters.
  * Deduped (case/accents): Milano→Milão, Zurich→Zurique; Santiago & Punta Cana once.
  * `status: 'published'` when a full guide exists in guidesData.
+ * `visible: true` only for destinations published in the public Guia (home order 1–10).
+ * Content for hidden destinations stays in the repo; flip via VISIBLE_DESTINATION_IDS.
  */
 
 export function normalizeDestinationKey(value) {
@@ -13,6 +15,25 @@ export function normalizeDestinationKey(value) {
     .replace(/^-|-$/g, '');
 }
 
+/**
+ * Public Guia destinations (home featured order 1–10).
+ * To publish another destination later: add its `id` here (and optionally number it in the control spreadsheet).
+ */
+export const VISIBLE_DESTINATION_IDS = [
+  'paris',
+  'nova-york',
+  'londres',
+  'roma',
+  'toquio',
+  'dubai',
+  'istambul',
+  'rio-de-janeiro',
+  'lisboa',
+  'barcelona'
+];
+
+const VISIBLE_IN_GUIDE = new Set(VISIBLE_DESTINATION_IDS);
+
 /** @typedef {{
  *  id: string,
  *  city: string,
@@ -22,12 +43,13 @@ export function normalizeDestinationKey(value) {
  *  desc: string,
  *  slug?: string,
  *  status: 'published' | 'planned',
- *  batch?: 'existing' | 'A' | 'B' | 'cms'
+ *  batch?: 'existing' | 'A' | 'B' | 'cms',
+ *  visible?: boolean
  * }} DestinationEntry
  */
 
-/** @type {DestinationEntry[]} */
-export const DESTINATIONS_CATALOG = [
+/** @type {Omit<DestinationEntry, 'visible'>[]} */
+const DESTINATIONS_CATALOG_ENTRIES = [
   // —— Existing published guides ——
   { id: 'paris', city: 'Paris', country: 'França', region: 'Europa', tags: ['cidade', 'europa', 'cultura', 'romantico'], desc: 'Documentos, metrô, arrondissements e o que reservar antes.', slug: 'como-planejar-viagem-paris', status: 'published', batch: 'existing' },
   { id: 'nova-york', city: 'Nova York', country: 'Estados Unidos', region: 'América do Norte', tags: ['cidade', 'urbano', 'cultura'], desc: 'Visto, OMNY, bairros e o essencial da primeira visita.', slug: 'como-planejar-viagem-nova-york', status: 'published', batch: 'existing' },
@@ -144,6 +166,12 @@ export const DESTINATIONS_CATALOG = [
   { id: 'fernando-de-noronha', city: 'Fernando de Noronha', country: 'Brasil', region: 'América do Sul', tags: ['praia', 'brasil', 'natureza'], desc: 'Arquipélago protegido e o Atlântico brasileiro.', slug: 'como-planejar-viagem-fernando-de-noronha', status: 'published', batch: 'cms' }
 ];
 
+/** @type {DestinationEntry[]} */
+export const DESTINATIONS_CATALOG = DESTINATIONS_CATALOG_ENTRIES.map((entry) => ({
+  ...entry,
+  visible: VISIBLE_IN_GUIDE.has(entry.id)
+}));
+
 export const REGION_OPTIONS = [
   { id: 'Europa', label: 'Europa' },
   { id: 'América do Norte', label: 'América do Norte' },
@@ -177,14 +205,34 @@ export function publishedDestinations() {
   return DESTINATIONS_CATALOG.filter((d) => d.status === 'published');
 }
 
+/** Destinations with `visible: true` (public Guia listings, home order 1–10). */
+export function visibleDestinations() {
+  return VISIBLE_DESTINATION_IDS
+    .map((id) => DESTINATIONS_CATALOG.find((d) => d.id === id))
+    .filter(Boolean);
+}
+
+/** True when the guide slug is publicly listable/browsable. */
+export function isGuideSlugPublic(slug) {
+  if (!slug) return false;
+  return DESTINATIONS_CATALOG.some((d) => d.visible && d.slug === slug);
+}
+
+/** Guide slugs for sitemap / static params (visible only, home order 1–10). */
+export function publicGuideSlugs() {
+  return visibleDestinations().map((d) => d.slug).filter(Boolean);
+}
+
 export function catalogStats() {
   const byStatus = DESTINATIONS_CATALOG.reduce((acc, d) => {
     acc[d.status] = (acc[d.status] || 0) + 1;
     return acc;
   }, {});
+  const visible = DESTINATIONS_CATALOG.filter((d) => d.visible).length;
   return {
     total: DESTINATIONS_CATALOG.length,
     published: byStatus.published || 0,
-    planned: byStatus.planned || 0
+    planned: byStatus.planned || 0,
+    visible
   };
 }

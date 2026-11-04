@@ -1,20 +1,12 @@
 import { Flame, Heart, MapPin, Star } from 'lucide-react';
 import { destinationGuides } from '@/data/guidesData';
-import { DESTINATIONS_CATALOG } from '@/data/destinationsCatalog';
+import {
+  DESTINATIONS_CATALOG,
+  VISIBLE_DESTINATION_IDS
+} from '@/data/destinationsCatalog';
 
 /** Editorial featured destinations for /guias hub (max 10). Order is intentional. */
-export const FEATURED_DESTINATION_IDS = [
-  'paris',
-  'nova-york',
-  'londres',
-  'roma',
-  'toquio',
-  'dubai',
-  'istambul',
-  'rio-de-janeiro',
-  'lisboa',
-  'barcelona'
-];
+export const FEATURED_DESTINATION_IDS = VISIBLE_DESTINATION_IDS;
 
 export const BADGE_BY_ID = {
   paris: { label: 'Mais acessado', tone: 'orange', icon: Flame },
@@ -57,7 +49,13 @@ export function enrichDestination(entry) {
   };
 }
 
-export const GUIAS_DESTINATIONS = DESTINATIONS_CATALOG.map(enrichDestination);
+/** Full catalog enriched (includes hidden). Prefer GUIAS_DESTINATIONS for public UI. */
+export const GUIAS_DESTINATIONS_ALL = DESTINATIONS_CATALOG.map(enrichDestination);
+
+/** Public Guia listings — visible destinations in home order 1–10. */
+export const GUIAS_DESTINATIONS = FEATURED_DESTINATION_IDS
+  .map((id) => GUIAS_DESTINATIONS_ALL.find((destination) => destination.id === id))
+  .filter(Boolean);
 
 export function getFeaturedDestinations(destinations = GUIAS_DESTINATIONS) {
   const byId = new Map(destinations.map((d) => [d.id, d]));

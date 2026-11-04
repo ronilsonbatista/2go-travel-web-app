@@ -11,8 +11,8 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import AppDownloadModal from '@/components/AppDownloadModal';
 import CountryCombobox from '@/components/CountryCombobox';
 import {
-  REGION_OPTIONS,
-  TAG_OPTIONS,
+  REGION_OPTIONS as ALL_REGION_OPTIONS,
+  TAG_OPTIONS as ALL_TAG_OPTIONS,
   normalizeDestinationKey
 } from '@/data/destinationsCatalog';
 import {
@@ -20,6 +20,14 @@ import {
   GUIAS_DESTINATIONS,
   normalizeSearch
 } from '@/lib/guiasDestinations';
+
+const REGION_OPTIONS = ALL_REGION_OPTIONS.filter((region) =>
+  GUIAS_DESTINATIONS.some((destination) => destination.region === region.id)
+);
+
+const TAG_OPTIONS = ALL_TAG_OPTIONS.filter((tag) =>
+  GUIAS_DESTINATIONS.some((destination) => destination.tags?.includes(tag.id))
+);
 
 function coverOf(guide) {
   return guideImage(guide, 'guide-card');

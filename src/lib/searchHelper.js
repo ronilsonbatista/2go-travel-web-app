@@ -1,14 +1,18 @@
 import { listDestinations } from './cms';
 import { destinationGuides } from '../data/guidesData';
+import { publicGuideSlugs, visibleDestinations } from '../data/destinationsCatalog';
 
 const publishedSlugs = new Set(listDestinations().map((destination) => destination.slug));
+const publicSlugSet = new Set(publicGuideSlugs());
 const guideCities = new Set(
-  Object.values(destinationGuides).map((guide) =>
-    guide.city
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-  )
+  visibleDestinations()
+    .filter((entry) => entry.slug && publicSlugSet.has(entry.slug) && destinationGuides[entry.slug])
+    .map((entry) =>
+      entry.city
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+    )
 );
 
 // Helper for search query normalization and semantic/experience synonyms mapping
