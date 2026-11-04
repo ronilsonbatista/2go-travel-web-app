@@ -179,10 +179,10 @@ export default function Perfil() {
                         
                         <div className="flex gap-2 w-full sm:w-auto justify-end">
                           <Link
-                            href={`/roteiros/${it.slug}`}
+                            href="/guias"
                             className="bg-brand-navy hover:bg-brand-orange text-white text-[10px] font-bold px-4 py-2.5 rounded-xl transition-all flex items-center gap-1 cursor-pointer"
                           >
-                            Ver roteiro <ArrowRight className="w-3.5 h-3.5" />
+                            Ver guias <ArrowRight className="w-3.5 h-3.5" />
                           </Link>
                         </div>
                       </div>
@@ -229,10 +229,10 @@ export default function Perfil() {
                             <span>{copiedLink === it.slug ? 'Copiado!' : 'Compartilhar'}</span>
                           </button>
                           <Link
-                            href={`/roteiros/${it.slug}`}
+                            href="/guias"
                             className="bg-brand-navy hover:bg-brand-orange text-white text-[10px] font-bold px-4 py-2 rounded-xl transition-all flex items-center gap-1 cursor-pointer"
                           >
-                            Abrir Roteiro <ArrowRight className="w-3 h-3" />
+                            Abrir guias <ArrowRight className="w-3 h-3" />
                           </Link>
                         </div>
                       </div>
@@ -242,7 +242,7 @@ export default function Perfil() {
                   <div className="text-center py-8 text-text-muted flex flex-col items-center justify-center gap-2">
                     <Compass className="w-10 h-10 text-text-muted/65" />
                     <p className="text-xs">Nenhum roteiro detalhado salvo nos favoritos ainda.</p>
-                    <Link href="/roteiros" className="text-xs font-bold text-brand-orange hover:underline mt-1">Explorar Roteiros Disponíveis</Link>
+                    <Link href="/guias" className="text-xs font-bold text-brand-orange hover:underline mt-1">Explorar guias</Link>
                   </div>
                 )}
               </section>

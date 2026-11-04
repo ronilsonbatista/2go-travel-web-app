@@ -20,7 +20,7 @@ export function isPrivateSitemapPath(pathname) {
 export function buildSitemapEntries({
   baseUrl,
   destinations,
-  itineraries,
+  itineraries: _itineraries = [],
   blogPosts,
   guideSlugs,
   redirectSources = []
@@ -28,7 +28,6 @@ export function buildSitemapEntries({
   const staticRoutes = [
     '',
     '/app',
-    '/roteiros',
     '/quanto-custa',
     '/guias',
     '/guias/destinos',
@@ -47,7 +46,6 @@ export function buildSitemapEntries({
 
   const paths = [
     ...staticRoutes,
-    ...itineraries.map((itinerary) => `/roteiros/${itinerary.slug}`),
     ...destinations.map((destination) => `/quanto-custa/${destination.slug}`),
     ...destinations.map((destination) => `/o-que-fazer/${destination.slug}`),
     ...destinations.map((destination) => `/melhor-epoca/${destination.slug}`),

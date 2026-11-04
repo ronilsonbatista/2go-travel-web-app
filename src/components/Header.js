@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import { useUiOverlayLock } from './UiOverlayContext';
 
-export default function Header({ onOpenDownload, solid = false, overDark = false }) {
+export default function Header({ onOpenDownload: _onOpenDownload, solid = false, overDark = false }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
@@ -24,7 +24,6 @@ export default function Header({ onOpenDownload, solid = false, overDark = false
   }, []);
 
   const menuItems = [
-    { label: 'Roteiros', href: '/roteiros' },
     { label: 'Guia de Viagem', href: '/guias' },
     { label: 'Quem somos', href: '/quem-somos' }
   ];
@@ -84,13 +83,12 @@ export default function Header({ onOpenDownload, solid = false, overDark = false
 
           {/* Commercial CTA Action Buttons */}
           <div className="flex items-center gap-2 sm:gap-4">
-            <button
-              type="button"
-              onClick={onOpenDownload}
+            <Link
+              href="/guias"
               className="btn btn-primary btn-sm !hidden cursor-pointer whitespace-nowrap px-4 xl:px-5 lg:!inline-flex"
             >
-              Criar meu roteiro
-            </button>
+              Explorar guias
+            </Link>
             
             {/* Mobile Hamburger Burger Icon */}
             <button 
@@ -134,16 +132,13 @@ export default function Header({ onOpenDownload, solid = false, overDark = false
           </ul>
           
           <div className="mt-auto flex flex-col gap-3.5 pt-4 pb-[max(0.5rem,env(safe-area-inset-bottom,0px))] border-t border-border-gray/30">
-            <button 
-              type="button"
-              onClick={() => {
-                setIsMobileMenuOpen(false);
-                onOpenDownload();
-              }}
-              className="w-full min-h-11 bg-[#081B6B] hover:bg-[#06144f] text-white py-3.5 px-4 pr-5 flex items-center justify-center cursor-pointer font-bold rounded-xl shadow-md shadow-brand-navy/10 text-sm border-none whitespace-nowrap"
+            <Link
+              href="/guias"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="w-full min-h-11 bg-[#081B6B] hover:bg-[#06144f] text-white py-3.5 px-4 pr-5 flex items-center justify-center cursor-pointer font-bold rounded-xl shadow-md shadow-brand-navy/10 text-sm border-none whitespace-nowrap no-underline"
             >
-              Criar meu roteiro
-            </button>
+              Explorar guias
+            </Link>
           </div>
         </div>
       </div>

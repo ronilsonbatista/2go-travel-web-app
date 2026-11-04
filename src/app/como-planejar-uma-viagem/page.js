@@ -115,10 +115,10 @@ export default function ComoPlanejarUmaViagem() {
                     Divida suas atividades agrupando atrações próximas para economizar transporte e evitar exaustão. Separe os passeios mais distantes ou cansativos para o meio da viagem.
                   </p>
                   <Link 
-                    href="/roteiros"
+                    href="/guias"
                     className="text-xs font-bold text-brand-orange hover:underline mt-2 inline-block"
                   >
-                    Navegar por roteiros prontos curados →
+                    Explorar guias de viagem →
                   </Link>
                 </div>
               </div>

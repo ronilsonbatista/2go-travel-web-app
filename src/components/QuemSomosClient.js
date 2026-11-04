@@ -253,10 +253,10 @@ export default function QuemSomosClient() {
                   <ArrowRight className="h-4 w-4" />
                 </button>
                 <Link
-                  href="/roteiros"
+                  href="/guias"
                   className="inline-flex items-center justify-center rounded-full border border-brand-navy/25 bg-white/70 px-7 py-3.5 text-sm font-bold text-brand-navy backdrop-blur-sm transition-colors hover:bg-white"
                 >
-                  Ver roteiros
+                  Explorar guias
                 </Link>
               </div>
 
