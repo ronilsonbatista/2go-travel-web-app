@@ -8552,30 +8552,29 @@
   "londres/home-thumb": {
     "city": "londres",
     "slot": "home-thumb",
-    "query": "unsplash:1488646953014-85cb44e25828",
+    "query": "Tower_Bridge_from_Shad_Thames.jpg",
     "path": "/images/destinations/londres/curated-home-thumb.jpg",
     "topic": "Londres: miniatura da home",
-    "source": "https://unsplash.com/photos/1488646953014-85cb44e25828",
-    "title": "Unsplash photo 1488646953014-85cb44e25828",
-    "author": "Jaromír Kavan",
-    "license": "Unsplash License",
-    "licenseUrl": "https://unsplash.com/license",
-    "description": "Londres: miniatura da home — home-ten HQ pass4",
+    "source": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_from_Shad_Thames.jpg",
+    "title": "File:Tower Bridge from Shad Thames.jpg",
+    "author": "Colin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Londres: miniatura da home — Tower Bridge landmark (Filipe feedback 2026-11-10)",
     "categories": "",
     "date": "",
     "latitude": null,
     "longitude": null,
-    "downloadUrl": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=2400&q=80",
+    "downloadUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tower_Bridge_from_Shad_Thames.jpg?width=2400",
     "assetDimensions": [
       1600,
-      1264
+      1201
     ],
     "visualReview": "accepted",
-    "reviewedAt": "2026-11-04",
-    "reviewNotes": "Home-ten HQ pass4 for londres/home-thumb",
-    "assetSha256": "d28a54ee13910defbd3706a585476180bd9487179290d096a0e165bf7c0dec37",
-    "minimumLongEdge": 1600,
-    "unsplashId": "1488646953014-85cb44e25828"
+    "reviewedAt": "2026-11-10",
+    "reviewNotes": "Replaced suitcase flat-lay stock with clear Tower Bridge landmark crop for Mais destinos thumb",
+    "assetSha256": "4372a57516f40998520719008a48d563bc0e768a7db15b9b53492a233709e47d",
+    "minimumLongEdge": 1600
   },
   "istambul/home-thumb": {
     "city": "istambul",
