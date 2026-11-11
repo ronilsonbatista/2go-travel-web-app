@@ -58,7 +58,7 @@ export const MAP_STYLE_OPTIONS = [
     id: 'modern-light',
     name: 'Modern light (produção)',
     short: 'modern-light',
-    description: 'Street basemap claro + wash mínimo — ruas/labels legíveis sem sepia vintage.',
+    description: 'Street basemap com contraste reforçado + wash desligado — ruas/labels legíveis.',
     mapSrc: '/images/maps/paris.png',
     pins: GEO_PINS,
     productionLike: true,
