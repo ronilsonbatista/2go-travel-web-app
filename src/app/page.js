@@ -1,7 +1,7 @@
 "use client";
 
 import { guideImage } from '@/lib/curatedGuideImages';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { CalendarDays, Clock3, Compass, MapPinned, Navigation, Sliders, ArrowRight } from 'lucide-react';
 
@@ -406,6 +406,7 @@ export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [progress, setProgress] = useState(0);
   const [guideContinent, setGuideContinent] = useState('Todos');
+  const slideItemRefs = useRef([]);
 
   // Auto transition for Hero Carousel
   useEffect(() => {
@@ -422,6 +423,17 @@ export default function Home() {
       clearInterval(interval);
       clearInterval(progressInterval);
     };
+  }, [currentSlide]);
+
+  // Keep the active "Mais destinos" item visible when the carousel rotates or the user selects off-screen.
+  useEffect(() => {
+    const activeItem = slideItemRefs.current[currentSlide];
+    if (!activeItem) return;
+    activeItem.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'nearest'
+    });
   }, [currentSlide]);
 
   const selectSlide = (idx) => {
@@ -593,12 +605,15 @@ export default function Home() {
               <div className="lg:col-span-4 flex flex-col lg:border-l lg:border-brand-navy/10 lg:pl-6 xl:pl-8 mt-6 lg:mt-0 w-full min-w-0">
                 <span className="text-[11px] lg:text-[12px] font-black text-brand-navy/60 tracking-wide mb-2 lg:mb-3 block text-center lg:text-left">Mais destinos</span>
                 
-                <div className="flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-hidden lg:overflow-y-auto lg:max-h-[min(36rem,calc(100vh-9rem))] gap-2 pb-4 lg:pb-1 custom-scrollbar-hide flex-nowrap lg:flex-nowrap w-full px-1 lg:px-0 snap-x lg:snap-none snap-mandatory scroll-smooth">
+                <div className="mais-destinos-scroll flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-hidden lg:overflow-y-scroll lg:max-h-[min(36rem,calc(100vh-9rem))] gap-2 pb-4 lg:pb-1 flex-nowrap lg:flex-nowrap w-full px-1 lg:pr-1 lg:px-0 snap-x lg:snap-none snap-mandatory scroll-smooth">
                   {premiumSlides.map((slide, idx) => {
                     const isSelected = idx === currentSlide;
                     return (
                       <button
                         key={slide.id}
+                        ref={(el) => {
+                          slideItemRefs.current[idx] = el;
+                        }}
                         onClick={() => selectSlide(idx)}
                         className={`group flex items-center gap-2.5 p-2 lg:p-2.5 xl:p-3 rounded-xl border text-left transition-all duration-300 cursor-pointer shrink-0 w-[185px] lg:w-full snap-start ${
                           isSelected 

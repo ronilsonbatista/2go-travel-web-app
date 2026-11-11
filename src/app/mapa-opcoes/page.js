@@ -45,7 +45,7 @@ const ORIG_PINS = [
   }
 ];
 
-/** Geographic % for stitched ESRI Light Gray basemap (Paris z13 frame). */
+/** Geographic % for modern-light street basemap (Paris frame). */
 const GEO_PINS = [
   { ...ORIG_PINS[0], pin: { top: '60.6%', left: '30.3%' } },
   { ...ORIG_PINS[1], pin: { top: '58.2%', left: '51.3%' } },
@@ -58,7 +58,7 @@ export const MAP_STYLE_OPTIONS = [
     id: 'modern-light',
     name: 'Modern light (produção)',
     short: 'modern-light',
-    description: 'ESRI Light Gray / Positron-like + wash leve — produção em todos os guias.',
+    description: 'Street basemap claro + wash mínimo — ruas/labels legíveis sem sepia vintage.',
     mapSrc: '/images/maps/paris.png',
     pins: GEO_PINS,
     productionLike: true,

@@ -206,6 +206,28 @@ body {
   scrollbar-width: none;
 }
 
+/* Discreet scrollbar for Home "Mais destinos" — signals more destinations below */
+.mais-destinos-scroll {
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(8, 27, 107, 0.45) rgba(8, 27, 107, 0.08);
+}
+.mais-destinos-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.mais-destinos-scroll::-webkit-scrollbar-track {
+  background: rgba(8, 27, 107, 0.06);
+  border-radius: 999px;
+}
+.mais-destinos-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(8, 27, 107, 0.42);
+  border-radius: 999px;
+}
+.mais-destinos-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(8, 27, 107, 0.58);
+}
+
 /* Mobile FAB clearance — keep bottom content / anchors scrollable past the App button */
 html {
   scroll-padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
@@ -237,12 +259,12 @@ html {
  */
 .guide-city-map {
   --guide-map-zoom: 1.48;
-  background: linear-gradient(160deg, #eef2f6 0%, #f7f9fb 100%);
+  background: linear-gradient(160deg, #e8eef4 0%, #f3f6f9 100%);
 }
 
 .guide-city-map__img {
-  /* ESRI Light Gray / Positron-like assets + zoom; light contrast for street labels. */
-  filter: contrast(1.08) brightness(1.03);
+  /* Modern light street basemap + optical zoom; light polish only — streets/labels stay readable. */
+  filter: contrast(1.06) saturate(0.92) brightness(1.01);
   transform: scale(var(--guide-map-zoom));
   transform-origin: center;
 }
@@ -250,23 +272,23 @@ html {
 .guide-city-map__wash {
   pointer-events: none;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.22) 0%, transparent 34%, rgba(15, 23, 42, 0.05) 100%),
-    linear-gradient(120deg, rgba(148, 163, 184, 0.06), transparent 52%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, transparent 28%, rgba(15, 23, 42, 0.04) 100%),
+    linear-gradient(120deg, rgba(100, 116, 139, 0.03), transparent 52%);
   mix-blend-mode: normal;
-  opacity: 0.36;
+  opacity: 0.14;
 }
 
 .guide-city-map__wash::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(248, 250, 252, 0.06), transparent 40%, rgba(15, 23, 42, 0.05));
+  background: linear-gradient(180deg, rgba(248, 250, 252, 0.02), transparent 40%, rgba(15, 23, 42, 0.03));
   mix-blend-mode: soft-light;
 }
 
 .guide-city-map__grid {
   pointer-events: none;
-  opacity: 0.08;
+  opacity: 0.04;
   background-image:
     linear-gradient(rgba(15, 23, 42, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(15, 23, 42, 0.05) 1px, transparent 1px);
@@ -299,21 +321,21 @@ html {
 }
 
 .guide-city-map[data-map-theme='modern-light'] {
-  background: linear-gradient(160deg, #eef2f6 0%, #f7f9fb 100%);
+  background: linear-gradient(160deg, #e8eef4 0%, #f3f6f9 100%);
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__img {
-  filter: contrast(1.08) brightness(1.03);
+  filter: contrast(1.06) saturate(0.92) brightness(1.01);
   transform: scale(var(--guide-map-zoom));
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__wash {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.22) 0%, transparent 34%, rgba(15, 23, 42, 0.05) 100%),
-    linear-gradient(120deg, rgba(148, 163, 184, 0.06), transparent 52%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, transparent 28%, rgba(15, 23, 42, 0.04) 100%),
+    linear-gradient(120deg, rgba(100, 116, 139, 0.03), transparent 52%);
   mix-blend-mode: normal;
-  opacity: 0.36;
+  opacity: 0.14;
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__grid {
-  opacity: 0.08;
+  opacity: 0.04;
 }
 
 .guide-city-map[data-map-theme='dark-slate'] {

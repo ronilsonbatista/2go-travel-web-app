@@ -120,7 +120,7 @@ function CityMapCanvas({ mapSrc, pins, activeId, onSelect, mode, animate = true 
       />
       <div className="guide-city-map__grid absolute inset-0" />
       <div
-        className={`absolute inset-0 bg-gradient-to-t from-slate-900/15 via-transparent to-slate-900/8 ${animate ? 'guide-enter-fade' : ''}`}
+        className={`absolute inset-0 bg-gradient-to-t from-slate-900/10 via-transparent to-slate-900/4 ${animate ? 'guide-enter-fade' : ''}`}
         style={animate ? { animationDelay: '120ms' } : undefined}
       />
 
@@ -365,7 +365,6 @@ export default function GuideThirtySeconds({ guide }) {
             {pins.map((pin, index) => {
               const active = pin.id === activeId;
               if (tab === 'hotels') {
-                const showIllustrative = pin.imageIllustrative !== false;
                 return (
                   <li key={pin.id} className="guide-enter" style={{ animationDelay: `${220 + index * 55}ms` }}>
                     <button
@@ -383,11 +382,6 @@ export default function GuideThirtySeconds({ guide }) {
                         <span className="absolute left-1.5 top-1.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-brand-navy/90 text-white shadow-sm">
                           <Hotel className="h-3 w-3" />
                         </span>
-                        {showIllustrative ? (
-                          <span className="absolute inset-x-0 bottom-0 bg-black/65 px-1 py-0.5 text-center text-[8px] font-bold uppercase tracking-wide text-white">
-                            Imagem ilustrativa
-                          </span>
-                        ) : null}
                       </span>
                       <span className="flex min-w-0 flex-1 flex-col justify-center py-0.5">
                         <span className="block font-headers text-[13px] font-extrabold leading-snug text-brand-navy [display:-webkit-box] [-webkit-line-clamp:2] [-webkit-box-orient:vertical] overflow-hidden">
