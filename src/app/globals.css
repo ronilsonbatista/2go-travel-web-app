@@ -256,39 +256,35 @@ html {
  * Modern light (Opção 2) — production default for all city-guide 30s maps.
  * Optical zoom enlarges baked street / neighborhood labels. No Place IDs.
  * Pins keep 2GO navy/orange brand chrome (not map CSS).
+ * Contrast is intentional: Filipe rejected washed Light Gray / pale street tiles.
  */
 .guide-city-map {
   --guide-map-zoom: 1.48;
-  background: linear-gradient(160deg, #e8eef4 0%, #f3f6f9 100%);
+  background: linear-gradient(160deg, #dbe4ee 0%, #eef2f6 100%);
 }
 
 .guide-city-map__img {
-  /* Modern light street basemap + optical zoom; light polish only — streets/labels stay readable. */
-  filter: contrast(1.06) saturate(0.92) brightness(1.01);
+  /* Stronger contrast so streets/labels read clearly; no desaturate/bleach. */
+  filter: contrast(1.28) saturate(1.12) brightness(0.97);
   transform: scale(var(--guide-map-zoom));
   transform-origin: center;
 }
 
 .guide-city-map__wash {
+  /* Keep layer for structure, but do not bleach the basemap. */
   pointer-events: none;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, transparent 28%, rgba(15, 23, 42, 0.04) 100%),
-    linear-gradient(120deg, rgba(100, 116, 139, 0.03), transparent 52%);
+  background: transparent;
   mix-blend-mode: normal;
-  opacity: 0.14;
+  opacity: 0;
 }
 
 .guide-city-map__wash::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(248, 250, 252, 0.02), transparent 40%, rgba(15, 23, 42, 0.03));
-  mix-blend-mode: soft-light;
+  content: none;
 }
 
 .guide-city-map__grid {
   pointer-events: none;
-  opacity: 0.04;
+  opacity: 0.03;
   background-image:
     linear-gradient(rgba(15, 23, 42, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(15, 23, 42, 0.05) 1px, transparent 1px);
@@ -321,21 +317,19 @@ html {
 }
 
 .guide-city-map[data-map-theme='modern-light'] {
-  background: linear-gradient(160deg, #e8eef4 0%, #f3f6f9 100%);
+  background: linear-gradient(160deg, #dbe4ee 0%, #eef2f6 100%);
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__img {
-  filter: contrast(1.06) saturate(0.92) brightness(1.01);
+  filter: contrast(1.28) saturate(1.12) brightness(0.97);
   transform: scale(var(--guide-map-zoom));
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__wash {
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, transparent 28%, rgba(15, 23, 42, 0.04) 100%),
-    linear-gradient(120deg, rgba(100, 116, 139, 0.03), transparent 52%);
+  background: transparent;
   mix-blend-mode: normal;
-  opacity: 0.14;
+  opacity: 0;
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__grid {
-  opacity: 0.04;
+  opacity: 0.03;
 }
 
 .guide-city-map[data-map-theme='dark-slate'] {
