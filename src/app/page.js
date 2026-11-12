@@ -523,7 +523,7 @@ export default function Home() {
                   <div className="flex flex-col gap-1 lg:gap-2 text-center sm:text-left w-full">
                     <h1 
                       style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
-                      className="font-headers text-brand-navy font-extrabold text-[30px] sm:text-[46px] lg:text-[clamp(52px,5.2vw,80px)] leading-[1.0] lg:leading-[0.95] tracking-[-0.03em] max-w-3xl transition-all duration-500 overflow-wrap-normal"
+                      className="font-headers text-brand-navy font-extrabold text-[30px] sm:text-[46px] lg:text-[clamp(56px,6vw,88px)] leading-[1.0] lg:leading-[0.95] tracking-[-0.03em] max-w-3xl transition-all duration-500 overflow-wrap-normal"
                     >
                       {premiumSlides[currentSlide].name}
                     </h1>
@@ -626,7 +626,7 @@ export default function Home() {
                         </div>
                         <div className="min-w-0 flex-1 flex flex-col justify-center">
                           <h4 className={`text-xs lg:text-sm font-extrabold truncate ${isSelected ? 'text-brand-navy font-black' : 'text-brand-navy/80 group-hover:text-brand-navy'}`}>{slide.name}</h4>
-                          <p className="text-[11px] lg:text-[12px] xl:text-[13px] font-medium line-clamp-1 lg:line-clamp-2 mt-0.5 leading-snug whitespace-normal text-brand-navy/60 group-hover:text-brand-navy/80">{slide.phrase}</p>
+                          <p className="text-[11px] lg:text-[13px] font-medium line-clamp-1 lg:line-clamp-2 mt-0.5 leading-snug whitespace-normal text-brand-navy/60 group-hover:text-brand-navy/80">{slide.phrase}</p>
                         </div>
                       </button>
                     );
@@ -779,7 +779,7 @@ export default function Home() {
                 </p>
               </div>
               <Link
-                href="/guias/destinos"
+                href="/guias#todos-destinos"
                 className="inline-flex min-h-11 items-center gap-1 text-sm font-bold text-brand-orange hover:text-[#96AB21] transition-colors whitespace-nowrap cursor-pointer"
               >
                 Ver todos &rarr;
@@ -909,30 +909,30 @@ export default function Home() {
 
               <div className="relative z-10 flex flex-col items-center gap-3 sm:gap-4">
                 <span className="bg-brand-orange text-white text-[11px] font-extrabold tracking-widest px-2.5 py-1 rounded-full w-fit">
-                  Guia de Viagem
+                  Roteiros personalizados
                 </span>
                 <h2 className="font-headers text-2xl sm:text-3xl md:text-[2.35rem] lg:text-[2.5rem] font-black leading-[1.12] tracking-tight text-brand-navy max-w-2xl">
-                  Explore nossos guias de viagem
+                  Crie seu roteiro personalizado
                 </h2>
                 <p className="text-sm sm:text-base text-text-muted leading-relaxed max-w-lg">
-                  Inspire-se nos destinos e organize a viagem do seu jeito, com praticidade.
+                  Planeje sua próxima viagem do seu jeito, com muito mais praticidade.
                 </p>
 
                 <div className="flex flex-col gap-2 mt-2 w-full sm:w-auto items-center">
                   <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto justify-center">
-                    <Link
-                      href="/guias"
-                      className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 text-sm no-underline"
-                    >
-                      Explorar guias
-                    </Link>
                     <button
                       type="button"
                       onClick={() => setIsDownloadOpen(true)}
-                      className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl transition-all flex items-center justify-center bg-transparent text-sm cursor-pointer"
+                      className="bg-[#F47A20] hover:bg-[#ff8f3c] text-white font-extrabold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl shadow-md shadow-brand-orange/20 flex items-center justify-center gap-2 cursor-pointer transition-all duration-300 hover:scale-[1.01] active:scale-95 border-none text-sm"
                     >
-                      Baixar o App
+                      Criar meu roteiro
                     </button>
+                    <Link
+                      href="/guias"
+                      className="border border-brand-navy/30 text-brand-navy hover:bg-brand-navy/5 font-bold px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl transition-all flex items-center justify-center bg-transparent text-sm no-underline"
+                    >
+                      Ver guias
+                    </Link>
                   </div>
                   <p className="text-[11px] text-brand-navy/60 font-semibold tracking-wide mt-0.5">
                     A prévia fica no site. O dia a dia, no aplicativo.
