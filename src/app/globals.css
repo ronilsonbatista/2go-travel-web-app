@@ -256,7 +256,8 @@ html {
  * Modern light (Opção 2) — production default for all city-guide 30s maps.
  * Optical zoom enlarges baked street / neighborhood labels. No Place IDs.
  * Pins keep 2GO navy/orange brand chrome (not map CSS).
- * Contrast is intentional: Filipe rejected washed Light Gray / pale street tiles.
+ * Basemap PNGs are cool flat digital streets (not terracotta street-atlas).
+ * CSS keeps mild cool contrast — avoid saturate boost that rewarms roads.
  */
 .guide-city-map {
   --guide-map-zoom: 1.48;
@@ -264,8 +265,8 @@ html {
 }
 
 .guide-city-map__img {
-  /* Stronger contrast so streets/labels read clearly; no desaturate/bleach. */
-  filter: contrast(1.28) saturate(1.12) brightness(0.97);
+  /* Subtle cool contrast; labels/streets already baked into the asset. */
+  filter: contrast(1.12) saturate(0.92) brightness(1.01);
   transform: scale(var(--guide-map-zoom));
   transform-origin: center;
 }
@@ -320,7 +321,7 @@ html {
   background: linear-gradient(160deg, #dbe4ee 0%, #eef2f6 100%);
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__img {
-  filter: contrast(1.28) saturate(1.12) brightness(0.97);
+  filter: contrast(1.12) saturate(0.92) brightness(1.01);
   transform: scale(var(--guide-map-zoom));
 }
 .guide-city-map[data-map-theme='modern-light'] .guide-city-map__wash {

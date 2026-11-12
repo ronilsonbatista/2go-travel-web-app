@@ -1,4 +1,4 @@
-/** Modern light street basemaps (production). Vintage PNGs remain at /images/maps/vintage/* for /mapa-opcoes. */
+/** Modern light flat street basemaps (production — cool digital, not terracotta atlas). Vintage PNGs remain at /images/maps/vintage/* for /mapa-opcoes. */
 const CITY_MAPS = {
   paris: '/images/maps/paris.png',
   'nova-york': '/images/maps/nova-york.png',
