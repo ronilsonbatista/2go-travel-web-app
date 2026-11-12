@@ -58,7 +58,7 @@ export const MAP_STYLE_OPTIONS = [
     id: 'modern-light',
     name: 'Modern light (produção)',
     short: 'modern-light',
-    description: 'Street basemap com contraste reforçado + wash desligado — ruas/labels legíveis.',
+    description: 'Flat modern-light digital streets (cool gray) — sem ruas terracotta; labels legíveis.',
     mapSrc: '/images/maps/paris.png',
     pins: GEO_PINS,
     productionLike: true,
@@ -223,8 +223,8 @@ function PreviewInner() {
             Opções de estilo do mapa — Paris
           </h1>
           <p className="mt-2 max-w-2xl text-sm text-text-muted">
-            Produção = Modern light (PNG claro Positron-like) em todos os guias. Comparativo
-            histórico das outras opções; sem Place IDs.
+            Produção = Modern light flat (ruas cinza digitais, sem atlas terracotta) em todos os
+            guias. Comparativo histórico das outras opções; sem Place IDs.
           </p>
         </header>
 
