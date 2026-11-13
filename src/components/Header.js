@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import { useUiOverlayLock } from './UiOverlayContext';
 
-export default function Header({ onOpenDownload: _onOpenDownload, solid = false, overDark = false }) {
+export default function Header({ onOpenDownload, solid = false, overDark = false }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
@@ -69,7 +69,7 @@ export default function Header({ onOpenDownload: _onOpenDownload, solid = false,
                   <li key={idx}>
                     <Link
                       href={item.href}
-                      className={`font-body font-semibold text-[0.78rem] xl:text-[0.92rem] py-2 whitespace-nowrap relative cursor-pointer transition-colors ${
+                      className={`font-body font-semibold text-[0.82rem] xl:text-[0.98rem] py-2 whitespace-nowrap relative cursor-pointer transition-colors ${
                         isActive ? 'text-brand-orange' : idleClass
                       } after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-brand-orange after:transition-all after:duration-300 after:rounded-full after:w-0 hover:after:w-full`}
                     >
@@ -83,12 +83,13 @@ export default function Header({ onOpenDownload: _onOpenDownload, solid = false,
 
           {/* Commercial CTA Action Buttons */}
           <div className="flex items-center gap-2 sm:gap-4">
-            <Link
-              href="/guias"
+            <button
+              type="button"
+              onClick={onOpenDownload}
               className="btn btn-primary btn-sm !hidden cursor-pointer whitespace-nowrap px-4 xl:px-5 lg:!inline-flex"
             >
-              Explorar guias
-            </Link>
+              Criar meu roteiro
+            </button>
             
             {/* Mobile Hamburger Burger Icon */}
             <button 
@@ -132,13 +133,16 @@ export default function Header({ onOpenDownload: _onOpenDownload, solid = false,
           </ul>
           
           <div className="mt-auto flex flex-col gap-3.5 pt-4 pb-[max(0.5rem,env(safe-area-inset-bottom,0px))] border-t border-border-gray/30">
-            <Link
-              href="/guias"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="w-full min-h-11 bg-[#081B6B] hover:bg-[#06144f] text-white py-3.5 px-4 pr-5 flex items-center justify-center cursor-pointer font-bold rounded-xl shadow-md shadow-brand-navy/10 text-sm border-none whitespace-nowrap no-underline"
+            <button 
+              type="button"
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                onOpenDownload?.();
+              }}
+              className="w-full min-h-11 bg-[#081B6B] hover:bg-[#06144f] text-white py-3.5 px-4 pr-5 flex items-center justify-center cursor-pointer font-bold rounded-xl shadow-md shadow-brand-navy/10 text-sm border-none whitespace-nowrap"
             >
-              Explorar guias
-            </Link>
+              Criar meu roteiro
+            </button>
           </div>
         </div>
       </div>
