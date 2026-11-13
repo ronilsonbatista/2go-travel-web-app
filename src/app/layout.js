@@ -34,6 +34,11 @@ export default function RootLayout({ children }) {
     <html
       lang="pt-BR"
       className={`${inter.variable} ${plusJakartaSans.variable} h-full antialiased`}
+      style={{
+        // If hashed __variable_* classes drift from CSS (prod bug), still set vars.
+        ["--font-inter"]: inter.style.fontFamily,
+        ["--font-plus-jakarta-sans"]: plusJakartaSans.style.fontFamily,
+      }}
     >
       <head>
         {pixelId ? (
@@ -68,7 +73,7 @@ export default function RootLayout({ children }) {
         <link rel="preload" href="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1200&q=80" as="image" />
       </head>
       
-      <body className="min-h-full flex flex-col bg-[#F7F8FA] text-[#1E293B] relative">
+      <body className={`${inter.className} min-h-full flex flex-col bg-[#F7F8FA] text-[#1E293B] relative`}>
         {gtmId ? (
           <noscript>
             <iframe 
