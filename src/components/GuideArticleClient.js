@@ -455,7 +455,7 @@ export default function GuideArticleClient({ guide }) {
                     </div>
                     <div
                       className={`flex flex-1 flex-col justify-center text-left ${
-                        itinerarySingle ? 'p-5 sm:p-6 lg:p-8' : 'p-5'
+                        itinerarySingle ? 'px-5 py-5 sm:px-6 sm:py-6 lg:px-8 lg:py-8' : 'px-5 py-5 sm:px-6 sm:py-6'
                       }`}
                     >
                       <p className="text-[10px] font-extrabold uppercase tracking-wider text-brand-orange">
@@ -484,7 +484,7 @@ export default function GuideArticleClient({ guide }) {
 
           <ScrollReveal className="mt-16" delay={80}>
             <section id="atracoes" className="scroll-mt-28">
-              <div className="mb-5 text-left sm:mb-6">
+              <div className="mb-5 px-0.5 text-left sm:mb-6">
                 <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-brand-orange">Imperdíveis</p>
                 <h2 className="font-headers mt-2 text-2xl font-extrabold text-brand-navy sm:text-[1.65rem]">
                   Imperdíveis em {guide.city}
@@ -513,13 +513,23 @@ export default function GuideArticleClient({ guide }) {
                         alt={att.name}
                         className="absolute inset-0 h-full w-full object-cover"
                       />
-                      <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider text-brand-orange">
+                      <span
+                        className={`absolute left-3 top-3 rounded-full px-2.5 py-1 text-[10px] font-extrabold uppercase tracking-wider ${
+                          String(att.priority || '')
+                            .toLowerCase()
+                            .startsWith('alta')
+                            ? 'bg-brand-navy text-white'
+                            : 'bg-white/95 text-brand-orange ring-1 ring-black/5'
+                        }`}
+                      >
                         Prioridade {att.priority}
                       </span>
                     </div>
                     <div
                       className={`flex flex-1 flex-col justify-center ${
-                        attractionSingle ? 'p-5 sm:p-6 lg:p-8' : 'p-5'
+                        attractionSingle
+                          ? 'px-5 py-5 sm:px-6 sm:py-6 lg:px-8 lg:py-8'
+                          : 'px-5 py-5 sm:px-6 sm:py-6'
                       }`}
                     >
                       <h3

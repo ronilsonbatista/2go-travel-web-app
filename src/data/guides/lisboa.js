@@ -189,21 +189,21 @@ export const guide = {
   ],
   "costsTable": {
     "economy": {
-      "daily": "Econômico",
-      "hotel": "Hostel / 2★",
-      "food": "Mercados e praças",
-      "transport": "Transporte público"
+      "daily": "€ 55 - € 85",
+      "hotel": "Hostel ou hotel 2★ (€ 40-70)",
+      "food": "Pastéis, tascas e mercados (€ 15-25)",
+      "transport": "Metro + elétrico (Navegante)"
     },
     "comfort": {
-      "daily": "Intermediário",
-      "hotel": "3–4★ cêntrico",
-      "food": "Restaurantes locais",
+      "daily": "€ 120 - € 180",
+      "hotel": "Hotel 3–4★ cêntrico (€ 90-140)",
+      "food": "Restaurantes locais (€ 35-55)",
       "transport": "Público + apps"
     },
     "luxury": {
-      "daily": "Alto",
-      "hotel": "5★ / boutique",
-      "food": "Alta gastronomia",
+      "daily": "€ 350+",
+      "hotel": "5★ / boutique (€ 280+)",
+      "food": "Alta gastronomia (€ 100+)",
       "transport": "Privativo"
     }
   },

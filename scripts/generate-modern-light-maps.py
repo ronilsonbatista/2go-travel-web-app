@@ -34,6 +34,14 @@ CITIES = {
     "roma": (41.9028, 12.4964),
     "istambul": (41.0082, 28.9784),
     "dubai": (25.1972, 55.2744),
+    # Public Guia destinos that previously had pins on empty gradient
+    "rio-de-janeiro": (-22.9519, -43.2105),
+    "lisboa": (38.7223, -9.1393),
+    "barcelona": (41.3874, 2.1686),
+    "abu-dhabi": (24.4539, 54.3773),
+    "amsterdam": (52.3676, 4.9041),
+    "andorra": (42.5063, 1.5218),
+    "antalya": (36.8969, 30.7133),
 }
 
 
@@ -146,11 +154,17 @@ def to_modern_light(street: Image.Image) -> Image.Image:
     return final
 
 
-def main() -> None:
+def main(only: set[str] | None = None) -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     PREVIEW_DIR.mkdir(parents=True, exist_ok=True)
 
-    for slug, (lat, lon) in CITIES.items():
+    cities = {
+        slug: coords
+        for slug, coords in CITIES.items()
+        if only is None or slug in only
+    }
+
+    for slug, (lat, lon) in cities.items():
         print(f"fetch {slug}…")
         street = fetch_street(lat, lon)
         modern = to_modern_light(street)
@@ -158,12 +172,16 @@ def main() -> None:
         modern.save(dest, optimize=True)
         print(f"  wrote {dest.relative_to(ROOT)} ({dest.stat().st_size} bytes)")
 
-    # Keep a Paris before/after preview artifact for /mapa-opcoes if useful later
-    paris = to_modern_light(fetch_street(*CITIES["paris"]))
-    preview = PREVIEW_DIR / "paris-modern-flat.png"
-    paris.save(preview, optimize=True)
-    print(f"  preview {preview.relative_to(ROOT)}")
+    if only is None or "paris" in cities:
+        # Keep a Paris before/after preview artifact for /mapa-opcoes if useful later
+        paris = to_modern_light(fetch_street(*CITIES["paris"]))
+        preview = PREVIEW_DIR / "paris-modern-flat.png"
+        paris.save(preview, optimize=True)
+        print(f"  preview {preview.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+
+    only = {a for a in sys.argv[1:] if not a.startswith("-")} or None
+    main(only)

@@ -16,7 +16,7 @@ export const GUIDE_THIRTY_SECONDS = {
   'como-planejar-viagem-paris': {
     facts: [
       { value: '5 – 7 dias', label: 'Tempo ideal', tone: 'green' },
-      { value: '€ 80 – 150', label: 'Por dia (média)', tone: 'yellow' },
+      { value: '€ 70 - € 100', label: 'Por dia (média)', tone: 'yellow' },
       { value: 'Metrô fácil', label: 'Rápido e eficiente', tone: 'orange' },
       { value: 'Reservas antecipadas', label: 'Para as principais atrações', tone: 'blue' }
     ],
@@ -679,8 +679,17 @@ export const GUIDE_THIRTY_SECONDS = {
 export function getThirtySeconds(guide) {
   const entry = GUIDE_THIRTY_SECONDS[guide?.slug];
   if (!entry) return { facts: [], regions: [], hotels: [] };
+  // Single source for daily cost: costsTable.economy.daily (keeps top bar ↔ 30s in sync).
+  const daily = guide?.costsTable?.economy?.daily;
+  const facts = (entry.facts || []).map((fact) => {
+    if (daily && /por dia/i.test(String(fact.label || ''))) {
+      return { ...fact, value: daily };
+    }
+    return fact;
+  });
   return {
     ...entry,
+    facts,
     regions: entry.regions.map((region, i) => ({ ...region,
       image: guideImage(guide, `region-${i}`),
       listImage: guideImage(guide, `region-list-${i}`)

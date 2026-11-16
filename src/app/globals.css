@@ -511,12 +511,13 @@ html {
   width: 100%;
   max-width: 1760px;
   margin-inline: auto;
-  padding-inline: 0.5rem;
+  /* Mobile was 0.5rem — titles/cards read flush; keep modest inset for guide sections */
+  padding-inline: 1rem;
 }
 
 @media (min-width: 640px) {
   .guide-shell {
-    padding-inline: 0.75rem;
+    padding-inline: 1.25rem;
   }
 }
 
@@ -594,12 +595,30 @@ html {
 }
 
 .guide-essential-card {
-  min-height: 168px;
+  display: flex;
+  min-height: 180px;
+  align-items: stretch;
 }
 
 .guide-essential-photo-wrap {
+  position: relative;
+  width: 38%;
+  max-width: 120px;
+  min-width: 96px;
+  flex-shrink: 0;
+  align-self: stretch;
   border-radius: 0 16px 16px 0;
   overflow: hidden;
+  background: #eef2f7;
+}
+
+.guide-essential-photo-wrap img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width: 639px) {

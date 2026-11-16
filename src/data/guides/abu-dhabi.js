@@ -189,20 +189,20 @@ export const guide = {
   ],
   "costsTable": {
     "economy": {
-      "daily": "Econômico",
-      "hotel": "Hostel / 2★",
-      "food": "Mercados e praças",
-      "transport": "Transporte público"
+      "daily": "AED 250 - 400",
+      "hotel": "Hotel 3★ (€/AED econômico)",
+      "food": "Street food e praças",
+      "transport": "Ônibus + apps"
     },
     "comfort": {
-      "daily": "Intermediário",
-      "hotel": "3–4★ cêntrico",
-      "food": "Restaurantes locais",
-      "transport": "Público + apps"
+      "daily": "AED 550 - 850",
+      "hotel": "Hotel 4★ corniche",
+      "food": "Restaurantes médios",
+      "transport": "Apps + táxi"
     },
     "luxury": {
-      "daily": "Alto",
-      "hotel": "5★ / boutique",
+      "daily": "AED 1.500+",
+      "hotel": "5★ / resort Saadiyat",
       "food": "Alta gastronomia",
       "transport": "Privativo"
     }

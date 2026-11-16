@@ -8,7 +8,7 @@ export const BATCH1_THIRTY_SECONDS = {
         "tone": "green"
       },
       {
-        "value": "R$ 250 – 1.000",
+        "value": "R$ 250 – 400",
         "label": "Por dia (faixa)",
         "tone": "yellow"
       },
