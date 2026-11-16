@@ -676,11 +676,17 @@ export const GUIDE_THIRTY_SECONDS = {
   }
 };
 
+/** Only Paris (+ Rio) sync top-bar economy daily into 30s — do not rewrite other flagships. */
+const COST_SYNC_SLUGS = new Set([
+  'como-planejar-viagem-paris',
+  'como-planejar-viagem-rio-de-janeiro'
+]);
+
 export function getThirtySeconds(guide) {
   const entry = GUIDE_THIRTY_SECONDS[guide?.slug];
   if (!entry) return { facts: [], regions: [], hotels: [] };
-  // Single source for daily cost: costsTable.economy.daily (keeps top bar ↔ 30s in sync).
-  const daily = guide?.costsTable?.economy?.daily;
+  const syncCost = COST_SYNC_SLUGS.has(guide?.slug);
+  const daily = syncCost ? guide?.costsTable?.economy?.daily : null;
   const facts = (entry.facts || []).map((fact) => {
     if (daily && /por dia/i.test(String(fact.label || ''))) {
       return { ...fact, value: daily };
