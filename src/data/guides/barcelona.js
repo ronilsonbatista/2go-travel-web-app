@@ -98,7 +98,7 @@ export const guide = {
     },
     {
       "name": "La Rambla / Boqueria",
-      "priority": "Média",
+      "priority": "Alta",
       "desc": "La Rambla / Boqueria — ponto imperdível em Barcelona.",
       "whyVisit": "Experiência essencial para entender Barcelona.",
       "recommendedTime": "1 a 3 horas",
@@ -112,7 +112,7 @@ export const guide = {
     },
     {
       "name": "Casa Batlló",
-      "priority": "Média",
+      "priority": "Alta",
       "desc": "Casa Batlló — ponto imperdível em Barcelona.",
       "whyVisit": "Experiência essencial para entender Barcelona.",
       "recommendedTime": "1 a 3 horas",
@@ -126,7 +126,7 @@ export const guide = {
     },
     {
       "name": "Praia da Barceloneta",
-      "priority": "Média",
+      "priority": "Alta",
       "desc": "Praia da Barceloneta — ponto imperdível em Barcelona.",
       "whyVisit": "Experiência essencial para entender Barcelona.",
       "recommendedTime": "1 a 3 horas",
@@ -189,21 +189,21 @@ export const guide = {
   ],
   "costsTable": {
     "economy": {
-      "daily": "Econômico",
-      "hotel": "Hostel / 2★",
-      "food": "Mercados e praças",
-      "transport": "Transporte público"
+      "daily": "€ 60 - € 95",
+      "hotel": "Hostel ou hotel simples (€ 45-75)",
+      "food": "Tapas e mercados (€ 18-30)",
+      "transport": "Metro TMB + FGC"
     },
     "comfort": {
-      "daily": "Intermediário",
-      "hotel": "3–4★ cêntrico",
-      "food": "Restaurantes locais",
-      "transport": "Público + apps"
+      "daily": "€ 140 - € 210",
+      "hotel": "Hotel 3–4★ Eixample/Born (€ 100-160)",
+      "food": "Restaurantes médios (€ 40-65)",
+      "transport": "Metro + apps"
     },
     "luxury": {
-      "daily": "Alto",
-      "hotel": "5★ / boutique",
-      "food": "Alta gastronomia",
+      "daily": "€ 400+",
+      "hotel": "5★ / design (€ 320+)",
+      "food": "Alta gastronomia (€ 120+)",
       "transport": "Privativo"
     }
   },

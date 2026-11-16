@@ -132,16 +132,14 @@ export default function GuideEssentialInfo({ guide }) {
               <div id={panelId} hidden={!open} className="sr-only">
                 {card.full}
               </div>
-              <div className="guide-essential-photo-wrap relative w-[38%] max-w-[120px] shrink-0 self-stretch">
+              <div className="guide-essential-photo-wrap">
                 {card.image ? (
                   <img
                     src={card.image}
                     alt=""
-                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                    className="transition-transform duration-500 group-hover:scale-[1.04]"
                   />
-                ) : (
-                  <div className="absolute inset-0 bg-bg-light" />
-                )}
+                ) : null}
               </div>
             </article>
           );

@@ -6,7 +6,14 @@ const CITY_MAPS = {
   londres: '/images/maps/londres.png',
   roma: '/images/maps/roma.png',
   istambul: '/images/maps/istambul.png',
-  dubai: '/images/maps/dubai.png'
+  dubai: '/images/maps/dubai.png',
+  'rio-de-janeiro': '/images/maps/rio-de-janeiro.png',
+  lisboa: '/images/maps/lisboa.png',
+  barcelona: '/images/maps/barcelona.png',
+  'abu-dhabi': '/images/maps/abu-dhabi.png',
+  amsterdam: '/images/maps/amsterdam.png',
+  andorra: '/images/maps/andorra.png',
+  antalya: '/images/maps/antalya.png'
 };
 
 export function mapImageFor(guide) {

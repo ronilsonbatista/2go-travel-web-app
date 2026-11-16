@@ -16,7 +16,7 @@ export const GUIDE_THIRTY_SECONDS = {
   'como-planejar-viagem-paris': {
     facts: [
       { value: '5 – 7 dias', label: 'Tempo ideal', tone: 'green' },
-      { value: '€ 80 – 150', label: 'Por dia (média)', tone: 'yellow' },
+      { value: '€ 70 - € 100', label: 'Por dia (média)', tone: 'yellow' },
       { value: 'Metrô fácil', label: 'Rápido e eficiente', tone: 'orange' },
       { value: 'Reservas antecipadas', label: 'Para as principais atrações', tone: 'blue' }
     ],
@@ -676,11 +676,26 @@ export const GUIDE_THIRTY_SECONDS = {
   }
 };
 
+/** Only Paris (+ Rio) sync top-bar economy daily into 30s — do not rewrite other flagships. */
+const COST_SYNC_SLUGS = new Set([
+  'como-planejar-viagem-paris',
+  'como-planejar-viagem-rio-de-janeiro'
+]);
+
 export function getThirtySeconds(guide) {
   const entry = GUIDE_THIRTY_SECONDS[guide?.slug];
   if (!entry) return { facts: [], regions: [], hotels: [] };
+  const syncCost = COST_SYNC_SLUGS.has(guide?.slug);
+  const daily = syncCost ? guide?.costsTable?.economy?.daily : null;
+  const facts = (entry.facts || []).map((fact) => {
+    if (daily && /por dia/i.test(String(fact.label || ''))) {
+      return { ...fact, value: daily };
+    }
+    return fact;
+  });
   return {
     ...entry,
+    facts,
     regions: entry.regions.map((region, i) => ({ ...region,
       image: guideImage(guide, `region-${i}`),
       listImage: guideImage(guide, `region-list-${i}`)
