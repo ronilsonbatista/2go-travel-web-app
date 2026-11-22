@@ -25,7 +25,6 @@ import ScrollReveal from '@/components/ScrollReveal';
 import GuiasHeroHighlight from '@/components/GuiasHeroHighlight';
 import {
   REGION_OPTIONS,
-  TAG_OPTIONS,
   normalizeDestinationKey
 } from '@/data/destinationsCatalog';
 import {
@@ -56,27 +55,13 @@ export default function GuiasIndex() {
   const [isDownloadOpen, setIsDownloadOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeRegion, setActiveRegion] = useState(null);
-  const [activeCountry, setActiveCountry] = useState(null);
-  const [activeTags, setActiveTags] = useState([]);
-  const [statusFilter, setStatusFilter] = useState('all'); // all | published | planned
   const carouselRef = useRef(null);
   const [paused, setPaused] = useState(false);
-
-  const countriesInScope = useMemo(() => {
-    const base = activeRegion
-      ? DESTINATIONS.filter((d) => d.region === activeRegion)
-      : DESTINATIONS;
-    return [...new Set(base.map((d) => d.country))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
-  }, [activeRegion]);
 
   const filtered = useMemo(() => {
     const query = normalizeSearch(searchQuery.trim());
     return DESTINATIONS.filter((destination) => {
       if (activeRegion && destination.region !== activeRegion) return false;
-      if (activeCountry && destination.country !== activeCountry) return false;
-      if (statusFilter === 'published' && !destination.published) return false;
-      if (statusFilter === 'planned' && destination.published) return false;
-      if (activeTags.length && !activeTags.every((tag) => destination.tags.includes(tag))) return false;
       if (!query) return true;
       const haystack = [
         destination.city,
@@ -88,17 +73,16 @@ export default function GuiasIndex() {
       ];
       return haystack.some((field) => normalizeSearch(field).includes(query));
     });
-  }, [searchQuery, activeRegion, activeCountry, activeTags, statusFilter]);
+  }, [searchQuery, activeRegion]);
 
   const featuredCarousel = useMemo(() => {
-    if (!activeRegion && !searchQuery.trim() && !activeCountry && !activeTags.length && statusFilter === 'all') {
+    if (!activeRegion && !searchQuery.trim()) {
       return FEATURED;
     }
     return filtered.filter((d) => d.published);
-  }, [activeRegion, searchQuery, activeCountry, activeTags, statusFilter, filtered]);
+  }, [activeRegion, searchQuery, filtered]);
 
   const publishedCount = filtered.filter((d) => d.published).length;
-  const plannedCount = filtered.length - publishedCount;
 
   const scrollToDestinos = () => {
     document.getElementById('destinos-destaque')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -115,26 +99,12 @@ export default function GuiasIndex() {
     el.scrollBy({ left: direction * amount, behavior: 'smooth' });
   };
 
-  const toggleTag = (tagId) => {
-    setActiveTags((current) =>
-      current.includes(tagId) ? current.filter((t) => t !== tagId) : [...current, tagId]
-    );
-  };
-
   const clearFilters = () => {
     setSearchQuery('');
     setActiveRegion(null);
-    setActiveCountry(null);
-    setActiveTags([]);
-    setStatusFilter('all');
   };
 
-  const hasActiveFilters =
-    Boolean(searchQuery.trim()) ||
-    Boolean(activeRegion) ||
-    Boolean(activeCountry) ||
-    activeTags.length > 0 ||
-    statusFilter !== 'all';
+  const hasActiveFilters = Boolean(searchQuery.trim()) || Boolean(activeRegion);
 
   useEffect(() => {
     const el = carouselRef.current;
@@ -154,12 +124,6 @@ export default function GuiasIndex() {
 
     return () => clearInterval(id);
   }, [featuredCarousel.length, paused]);
-
-  useEffect(() => {
-    if (activeCountry && !countriesInScope.includes(activeCountry)) {
-      setActiveCountry(null);
-    }
-  }, [activeCountry, countriesInScope]);
 
   return (
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
@@ -345,7 +309,7 @@ export default function GuiasIndex() {
             )}
           </section>
 
-          {/* Full catalog — scale-friendly filters + dense listing */}
+          {/* Full catalog — compact search + region chips for the visible set */}
           <section id="todos-destinos" className="mt-16 scroll-mt-28 sm:mt-20">
             <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
               <div>
@@ -353,9 +317,8 @@ export default function GuiasIndex() {
                   Todos os destinos
                 </h2>
                 <p className="mt-2 text-sm text-text-muted">
-                  {filtered.length} resultado{filtered.length === 1 ? '' : 's'}
+                  {filtered.length} destino{filtered.length === 1 ? '' : 's'}
                   {publishedCount ? ` · ${publishedCount} com guia` : ''}
-                  {plannedCount ? ` · ${plannedCount} em breve` : ''}
                 </p>
               </div>
               {hasActiveFilters && (
@@ -370,22 +333,19 @@ export default function GuiasIndex() {
               )}
             </div>
 
-            <div className="rounded-[28px] border border-border-gray/70 bg-[#F7F8FA] p-4 sm:p-6">
+            <div className="rounded-[24px] border border-border-gray/70 bg-[#F7F8FA] p-4 sm:p-5">
               <div className="relative max-w-xl">
                 <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-text-muted" />
                 <input
                   type="search"
                   value={searchQuery}
                   onChange={(event) => setSearchQuery(event.target.value)}
-                  placeholder="Filtrar por cidade, país, tag…"
+                  placeholder="Buscar cidade ou país…"
                   className="w-full rounded-full border border-border-gray/80 bg-white py-3 pl-11 pr-4 text-sm text-brand-navy placeholder:text-text-muted/70 focus:border-brand-navy focus:outline-none"
                 />
               </div>
 
-              <div className="mt-4 flex flex-wrap gap-2">
-                <span className="mr-1 self-center text-[11px] font-extrabold uppercase tracking-wide text-text-muted">
-                  Região
-                </span>
+              <div className="mt-3 flex flex-wrap gap-2">
                 <FilterChip
                   active={!activeRegion}
                   onClick={() => setActiveRegion(null)}
@@ -395,71 +355,16 @@ export default function GuiasIndex() {
                   <FilterChip
                     key={region.id}
                     active={activeRegion === region.id}
-                    onClick={() => setActiveRegion(region.id)}
+                    onClick={() => setActiveRegion(activeRegion === region.id ? null : region.id)}
                     label={region.label}
                   />
                 ))}
-              </div>
-
-              <div className="mt-3 flex flex-wrap gap-2">
-                <span className="mr-1 self-center text-[11px] font-extrabold uppercase tracking-wide text-text-muted">
-                  País
-                </span>
-                <FilterChip
-                  active={!activeCountry}
-                  onClick={() => setActiveCountry(null)}
-                  label="Todos"
-                />
-                {countriesInScope.slice(0, 18).map((country) => (
-                  <FilterChip
-                    key={country}
-                    active={activeCountry === country}
-                    onClick={() => setActiveCountry(country === activeCountry ? null : country)}
-                    label={country}
-                  />
-                ))}
-                {countriesInScope.length > 18 && (
-                  <span className="self-center text-[11px] text-text-muted">
-                    +{countriesInScope.length - 18} — refine pela busca
-                  </span>
-                )}
-              </div>
-
-              <div className="mt-3 flex flex-wrap gap-2">
-                <span className="mr-1 self-center text-[11px] font-extrabold uppercase tracking-wide text-text-muted">
-                  Tags
-                </span>
-                {TAG_OPTIONS.map((tag) => (
-                  <FilterChip
-                    key={tag.id}
-                    active={activeTags.includes(tag.id)}
-                    onClick={() => toggleTag(tag.id)}
-                    label={tag.label}
-                  />
-                ))}
-              </div>
-
-              <div className="mt-3 flex flex-wrap gap-2">
-                <span className="mr-1 self-center text-[11px] font-extrabold uppercase tracking-wide text-text-muted">
-                  Status
-                </span>
-                <FilterChip active={statusFilter === 'all'} onClick={() => setStatusFilter('all')} label="Todos" />
-                <FilterChip
-                  active={statusFilter === 'published'}
-                  onClick={() => setStatusFilter('published')}
-                  label="Com guia"
-                />
-                <FilterChip
-                  active={statusFilter === 'planned'}
-                  onClick={() => setStatusFilter('planned')}
-                  label="Em breve"
-                />
               </div>
             </div>
 
             {filtered.length === 0 ? (
               <p className="mt-6 rounded-[24px] border border-border-gray/70 bg-white px-5 py-8 text-sm text-text-muted">
-                Nenhum destino com esses filtros. Tente “praia”, “Brasil” ou “Europa”.
+                Nenhum destino com essa busca. Tente o nome da cidade ou do país.
               </p>
             ) : (
               <ul className="mt-6 divide-y divide-border-gray/60 overflow-hidden rounded-[28px] border border-border-gray/70 bg-white">
@@ -512,7 +417,7 @@ export default function GuiasIndex() {
                         </div>
                       </div>
                       <span className="hidden shrink-0 text-sm font-extrabold text-brand-orange sm:inline-flex sm:items-center sm:gap-1">
-                        {destination.published ? 'Abrir guia' : 'Em breve'}
+                        {destination.published ? 'Ver destino' : 'Em breve'}
                         {destination.published && <ArrowRight className="h-4 w-4" />}
                       </span>
                     </>

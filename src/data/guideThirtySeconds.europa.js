@@ -399,44 +399,44 @@ export const EUROPA_THIRTY_SECONDS = {
       {
         "id": "r0",
         "name": "Eixample",
-        "blurb": "Região de Barcelona",
+        "blurb": "Modernismo de Gaudí e avenidas",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "46.1%",
+          "left": "47.8%"
         },
         "hotel": "Hospedagem em Eixample"
       },
       {
         "id": "r1",
         "name": "Gótico",
-        "blurb": "Região de Barcelona",
+        "blurb": "Centro histórico e ruelas medievais",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "53.5%",
+          "left": "52.8%"
         },
         "hotel": "Hospedagem em Gótico"
       },
       {
         "id": "r2",
         "name": "Montjuïc",
-        "blurb": "Região de Barcelona",
+        "blurb": "Mirantes, parques e museus",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "64.0%",
+          "left": "46.5%"
         },
         "hotel": "Hospedagem em Montjuïc"
       },
       {
         "id": "r3",
         "name": "Praia",
-        "blurb": "Região de Barcelona",
+        "blurb": "Barceloneta e orla marítima",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "57.1%",
+          "left": "57.4%"
         },
         "hotel": "Hospedagem em Praia"
       }
@@ -450,8 +450,8 @@ export const EUROPA_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "46.1%",
+          "left": "47.8%"
         },
         "imageIllustrative": true
       },
@@ -463,8 +463,8 @@ export const EUROPA_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "53.5%",
+          "left": "52.8%"
         },
         "imageIllustrative": true
       },
@@ -476,8 +476,8 @@ export const EUROPA_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "64.0%",
+          "left": "46.5%"
         },
         "imageIllustrative": true
       },
@@ -489,8 +489,8 @@ export const EUROPA_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "57.1%",
+          "left": "57.4%"
         },
         "imageIllustrative": true
       }
@@ -3623,44 +3623,44 @@ export const EUROPA_THIRTY_SECONDS = {
       {
         "id": "r0",
         "name": "Capital",
-        "blurb": "Região de Andorra",
+        "blurb": "Andorra la Vella e compras",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "50.0%",
+          "left": "50.0%"
         },
         "hotel": "Hospedagem em Capital"
       },
       {
         "id": "r1",
         "name": "Grandvalira",
-        "blurb": "Região de Andorra",
+        "blurb": "Estações de esqui e montanha",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "29.0%",
+          "left": "69.5%"
         },
         "hotel": "Hospedagem em Grandvalira"
       },
       {
         "id": "r2",
         "name": "Norte",
-        "blurb": "Região de Andorra",
+        "blurb": "Ordino e vales tranquilos",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "12.3%",
+          "left": "53.7%"
         },
         "hotel": "Hospedagem em Norte"
       },
       {
         "id": "r3",
         "name": "Sul",
-        "blurb": "Região de Andorra",
+        "blurb": "Sant Julià e Naturland",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "82.1%",
+          "left": "40.2%"
         },
         "hotel": "Hospedagem em Sul"
       }
@@ -3674,8 +3674,8 @@ export const EUROPA_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "50.0%",
+          "left": "50.0%"
         },
         "imageIllustrative": true
       },
@@ -3687,8 +3687,8 @@ export const EUROPA_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "29.0%",
+          "left": "69.5%"
         },
         "imageIllustrative": true
       },
@@ -3700,8 +3700,8 @@ export const EUROPA_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "12.3%",
+          "left": "53.7%"
         },
         "imageIllustrative": true
       },
@@ -3713,8 +3713,8 @@ export const EUROPA_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "82.1%",
+          "left": "40.2%"
         },
         "imageIllustrative": true
       }

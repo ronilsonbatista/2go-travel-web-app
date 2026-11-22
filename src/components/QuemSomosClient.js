@@ -85,15 +85,9 @@ export default function QuemSomosClient() {
                   onClick={() => setIsDownloadOpen(true)}
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-orange px-7 py-3.5 text-sm font-extrabold text-white transition-transform hover:-translate-y-0.5"
                 >
-                  Baixar o App
+                  Criar meu roteiro
                   <ArrowRight className="h-4 w-4" />
                 </button>
-                <Link
-                  href="/guias"
-                  className="inline-flex items-center justify-center rounded-full border border-brand-navy/25 px-7 py-3.5 text-sm font-bold text-brand-navy transition-colors hover:bg-brand-navy/5"
-                >
-                  Ver guia
-                </Link>
               </div>
             </ScrollReveal>
 

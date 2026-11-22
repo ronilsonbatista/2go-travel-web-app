@@ -12,7 +12,7 @@ export const guide = {
   "categoryLabel": "Guia de destino",
   "metaTitle": "Barcelona: Guia completo",
   "metaDescription": "Gaudí, praia urbana e o ritmo catalão.",
-  "heroImage": "/images/destinations/barcelona/curated-hero.jpg",
+  "heroImage": "/images/destinations/barcelona/curated-hero.avif",
   "images": [],
   "summaryText": "Gaudí, praia urbana e o ritmo catalão.",
   "intro": "Barcelona é um destino que combina gaudí, praia urbana e o ritmo catalão. Organize documentação, transporte e bairros antes de embarcar.",

@@ -100,7 +100,7 @@ export default function GuiasHeroHighlight({ destinations = [] }) {
         <Link
           href={active.url}
           className="group relative block aspect-[16/11] w-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange focus-visible:ring-offset-2 sm:aspect-[16/10]"
-          aria-label={`Abrir guia de ${active.city}`}
+          aria-label={`Ver destino de ${active.city}`}
         >
           {slides.map((slide, slideIndex) => {
             const src =
