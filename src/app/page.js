@@ -294,8 +294,8 @@ const premiumSlidesAll = [
     phrase: 'Mesquitas, museus e a capital dos EAU.',
     desc: 'A Sheikh Zayed Grand Mosque e o horizonte de Abu Dhabi sob o céu do Golfo.',
     tags: ['Cultura', 'Luxo'],
-    img: '/images/destinations/abu-dhabi/curated-home-slide.jpg',
-    thumbImage: '/images/destinations/abu-dhabi/curated-home-thumb.jpg',
+    img: '/images/destinations/abu-dhabi/curated-home-slide-v2.jpg',
+    thumbImage: '/images/destinations/abu-dhabi/curated-home-thumb-v2.jpg',
     ctaLink: '/guias/como-planejar-viagem-abu-dhabi'
   },
   {
@@ -425,15 +425,41 @@ export default function Home() {
     };
   }, [currentSlide]);
 
-  // Keep the active "Mais destinos" item visible when the carousel rotates or the user selects off-screen.
+  // Keep the active "Mais destinos" item visible inside its own scroll container without moving the whole window/page scroll.
   useEffect(() => {
     const activeItem = slideItemRefs.current[currentSlide];
     if (!activeItem) return;
-    activeItem.scrollIntoView({
-      behavior: 'smooth',
-      block: 'nearest',
-      inline: 'nearest'
-    });
+    const container = activeItem.parentElement;
+    if (!container) return;
+
+    // Check if vertical scrolling container (desktop)
+    const isVerticalScroll = container.scrollHeight > container.clientHeight;
+    // Check if horizontal scrolling container (mobile)
+    const isHorizontalScroll = container.scrollWidth > container.clientWidth;
+
+    if (isVerticalScroll) {
+      const itemTop = activeItem.offsetTop;
+      const itemBottom = itemTop + activeItem.offsetHeight;
+      const containerScrollTop = container.scrollTop;
+      const containerHeight = container.clientHeight;
+
+      if (itemTop < containerScrollTop) {
+        container.scrollTo({ top: itemTop, behavior: 'smooth' });
+      } else if (itemBottom > containerScrollTop + containerHeight) {
+        container.scrollTo({ top: itemBottom - containerHeight, behavior: 'smooth' });
+      }
+    } else if (isHorizontalScroll) {
+      const itemLeft = activeItem.offsetLeft;
+      const itemRight = itemLeft + activeItem.offsetWidth;
+      const containerScrollLeft = container.scrollLeft;
+      const containerWidth = container.clientWidth;
+
+      if (itemLeft < containerScrollLeft) {
+        container.scrollTo({ left: itemLeft, behavior: 'smooth' });
+      } else if (itemRight > containerScrollLeft + containerWidth) {
+        container.scrollTo({ left: itemRight - containerWidth, behavior: 'smooth' });
+      }
+    }
   }, [currentSlide]);
 
   const selectSlide = (idx) => {
@@ -444,7 +470,7 @@ export default function Home() {
   return (
     <div className="w-full bg-white min-h-screen flex flex-col justify-between selection:bg-brand-orange/20 selection:text-brand-navy overflow-x-clip">
       <Header onOpenDownload={() => setIsDownloadOpen(true)} />
-      
+
       <main className="flex-grow">
         {/* 1. NEW CINEMATIC HERO SECTION */}
         <section className="relative min-h-[60vh] lg:min-h-screen flex items-center justify-start pt-[64px] pb-12 lg:pt-[78px] lg:pb-20 overflow-hidden bg-bg-light text-brand-navy">
@@ -453,10 +479,9 @@ export default function Home() {
             {premiumSlides.map((slide, idx) => (
               <div
                 key={slide.id}
-                className={`absolute inset-0 bg-cover bg-center transition-all duration-[1200ms] ${
-                  idx === currentSlide ? 'opacity-[0.88] scale-102' : 'opacity-0 scale-100'
-                } ${getSlideFilterClass(slide.id)}`}
-                style={{ 
+                className={`absolute inset-0 bg-cover bg-center transition-all duration-[1200ms] ${idx === currentSlide ? 'opacity-[0.88] scale-102' : 'opacity-0 scale-100'
+                  } ${getSlideFilterClass(slide.id)}`}
+                style={{
                   backgroundImage: `url(${slide.img})`,
                   transform: idx === currentSlide ? 'scale(1.05)' : 'scale(1)',
                   transition: 'opacity 1200ms ease-in-out, transform 5500ms linear'
@@ -464,22 +489,22 @@ export default function Home() {
               />
             ))}
             {/* Subtle dark overlay for image depth and text contrast */}
-            <div 
-              className="absolute inset-0 z-5 pointer-events-none transition-all duration-[1200ms]" 
+            <div
+              className="absolute inset-0 z-5 pointer-events-none transition-all duration-[1200ms]"
               style={{
                 backgroundImage: getSlideDarkOverlayStyle(premiumSlides[currentSlide].id)
               }}
             />
             {/* Elegant light linear overlay (Option A - Editorial Style) */}
-            <div 
-              className="absolute inset-0 z-10 pointer-events-none" 
+            <div
+              className="absolute inset-0 z-10 pointer-events-none"
               style={{
                 backgroundImage: 'linear-gradient(90deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.45) 35%, rgba(255, 255, 255, 0.15) 100%)'
               }}
             />
-            
+
             {/* Soft backdrop blur on the left side behind the text panel */}
-            <div 
+            <div
               className="absolute top-0 left-0 w-full lg:w-[55%] h-full z-10 pointer-events-none"
               style={{
                 backdropFilter: 'blur(6px)',
@@ -488,15 +513,15 @@ export default function Home() {
                 WebkitMaskImage: 'linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0.6) 60%, transparent 100%)'
               }}
             />
-            <div 
-              className="absolute inset-0 z-10 pointer-events-none animate-fade-in" 
+            <div
+              className="absolute inset-0 z-10 pointer-events-none animate-fade-in"
               style={{
                 backgroundImage: 'linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.35) 100%)'
               }}
             />
             {/* Warm overlay to add life to photos */}
-            <div 
-              className="absolute inset-0 z-10 pointer-events-none transition-all duration-[1200ms]" 
+            <div
+              className="absolute inset-0 z-10 pointer-events-none transition-all duration-[1200ms]"
               style={{
                 backgroundColor: getSlideWarmOverlayStyle(premiumSlides[currentSlide].id)
               }}
@@ -505,10 +530,10 @@ export default function Home() {
 
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20 max-w-[1440px] w-full">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-start">
-              
+
               {/* Left text panel — 8/12 so the frosted card fills toward the sidebar (no dead gap) */}
               <div className="lg:col-span-8 flex flex-col items-center lg:items-stretch text-left w-full min-w-0">
-                <div 
+                <div
                   className="w-full bg-white/26 backdrop-blur-[6px] lg:backdrop-blur-[10px] border border-white/30 lg:border-white/35 shadow-[0_15px_45px_rgba(8,27,107,0.06)] lg:shadow-[0_20px_60px_rgba(8,27,107,0.08)] p-4 sm:p-8 md:p-10 rounded-[20px] lg:rounded-[28px] flex flex-col gap-3.5 lg:gap-6 animate-fade-in-up items-center sm:items-start"
                 >
                   <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5">
@@ -521,31 +546,31 @@ export default function Home() {
                   </div>
 
                   <div className="flex flex-col gap-1 lg:gap-2 text-center sm:text-left w-full">
-                    <h1 
-                      style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
+                    <h1
+                      style={getHeroTextShadow(premiumSlides[currentSlide].id)}
                       className="font-headers text-brand-navy font-extrabold text-[30px] sm:text-[46px] lg:text-[clamp(56px,6vw,88px)] leading-[1.0] lg:leading-[0.95] tracking-[-0.03em] max-w-3xl transition-all duration-500 overflow-wrap-normal"
                     >
                       {premiumSlides[currentSlide].name}
                     </h1>
-                    <p 
-                      style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
+                    <p
+                      style={getHeroTextShadow(premiumSlides[currentSlide].id)}
                       className="font-headers text-brand-navy font-bold text-base sm:text-xl lg:text-[1.38rem] leading-snug tracking-tight max-w-2xl hidden sm:block"
                     >
                       A sua próxima viagem, planejada em minutos.
                     </p>
                   </div>
-                  
-                  <p 
-                    style={getHeroTextShadow(premiumSlides[currentSlide].id)} 
+
+                  <p
+                    style={getHeroTextShadow(premiumSlides[currentSlide].id)}
                     className="text-xs sm:text-base text-brand-navy/80 leading-relaxed max-w-2xl line-clamp-2 sm:line-clamp-none text-center sm:text-left font-medium"
                   >
                     A 2GO cria roteiros personalizados e une tecnologia, curadoria e praticidade para você viajar do seu jeito.
                   </p>
-                  
+
                   <div className="flex items-center mt-0.5 bg-brand-navy/5 border border-brand-navy/10 px-3.5 py-2 rounded-xl w-full max-w-full text-xs sm:text-sm">
                     <span className="text-brand-navy/85 text-sm italic font-medium break-words">"{premiumSlides[currentSlide].phrase}"</span>
                   </div>
-                  
+
                   <div className="hidden lg:flex flex-col gap-2 mt-2 w-full sm:w-auto items-center sm:items-start">
                     <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
                       <button
@@ -580,7 +605,7 @@ export default function Home() {
 
                   {/* Progress bar */}
                   <div className="w-full max-w-md bg-brand-navy/10 h-1 rounded-full overflow-hidden mt-1">
-                    <div 
+                    <div
                       className="bg-brand-orange h-full transition-all duration-100 ease-linear"
                       style={{ width: `${progress}%` }}
                     />
@@ -604,7 +629,7 @@ export default function Home() {
               {/* Right Columns: Interactive Side Slider Previews (Apple TV Style) */}
               <div className="lg:col-span-4 flex flex-col lg:border-l lg:border-brand-navy/10 lg:pl-6 xl:pl-8 mt-6 lg:mt-0 w-full min-w-0">
                 <span className="text-[11px] lg:text-[12px] font-black text-brand-navy/60 tracking-wide mb-2 lg:mb-3 block text-center lg:text-left">Mais destinos</span>
-                
+
                 <div className="mais-destinos-scroll flex flex-row lg:flex-col overflow-x-auto lg:overflow-x-hidden lg:overflow-y-scroll lg:max-h-[min(36rem,calc(100vh-9rem))] gap-2 pb-4 lg:pb-1 flex-nowrap lg:flex-nowrap w-full px-1 lg:pr-1 lg:px-0 snap-x lg:snap-none snap-mandatory scroll-smooth">
                   {premiumSlides.map((slide, idx) => {
                     const isSelected = idx === currentSlide;
@@ -615,11 +640,10 @@ export default function Home() {
                           slideItemRefs.current[idx] = el;
                         }}
                         onClick={() => selectSlide(idx)}
-                        className={`group flex items-center gap-2.5 p-2 lg:p-2.5 xl:p-3 rounded-xl border text-left transition-all duration-300 cursor-pointer shrink-0 w-[185px] lg:w-full snap-start ${
-                          isSelected 
-                            ? 'bg-white/75 border-white/50 shadow-md border-l-4 border-l-[#F47A20] backdrop-blur-md pl-3 text-brand-navy font-bold' 
+                        className={`group flex items-center gap-2.5 p-2 lg:p-2.5 xl:p-3 rounded-xl border text-left transition-all duration-300 cursor-pointer shrink-0 w-[185px] lg:w-full snap-start ${isSelected
+                            ? 'bg-white/75 border-white/50 shadow-md border-l-4 border-l-[#F47A20] backdrop-blur-md pl-3 text-brand-navy font-bold'
                             : 'bg-brand-navy/5 border-brand-navy/5 border-l-4 border-l-transparent hover:bg-brand-navy/10 text-brand-navy/70 pl-3'
-                        }`}
+                          }`}
                       >
                         <div className="w-9 h-9 lg:w-11 lg:h-11 xl:w-12 xl:h-12 rounded-lg overflow-hidden shrink-0 border border-brand-navy/10 relative">
                           <img src={slide.thumbImage} alt={slide.name} className="w-full h-full object-cover transition-transform group-hover:scale-[1.03]" />
@@ -794,11 +818,10 @@ export default function Home() {
                     key={cat.id}
                     type="button"
                     onClick={() => setGuideContinent(cat.id)}
-                    className={`min-h-11 px-4 sm:px-5 py-2.5 rounded-full border text-xs sm:text-sm font-extrabold shrink-0 transition-all duration-300 shadow-sm cursor-pointer ${
-                      selected
+                    className={`min-h-11 px-4 sm:px-5 py-2.5 rounded-full border text-xs sm:text-sm font-extrabold shrink-0 transition-all duration-300 shadow-sm cursor-pointer ${selected
                         ? 'bg-brand-navy text-white border-brand-navy'
                         : 'bg-white border-border-gray/70 text-brand-navy hover:border-[#96AB21] hover:text-[#96AB21]'
-                    }`}
+                      }`}
                   >
                     {cat.label}
                   </button>
@@ -853,24 +876,24 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[1200px] mx-auto w-full">
               {[
-                { 
-                  name: 'Amanda Martins', 
-                  avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80', 
-                  text: 'O dia a dia ficou claro antes mesmo de embarcar.', 
+                {
+                  name: 'Amanda Martins',
+                  avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80',
+                  text: 'O dia a dia ficou claro antes mesmo de embarcar.',
                   trip: 'Noronha • Roteiro no App',
                   badgeColor: 'bg-brand-orange/10 text-brand-orange'
                 },
-                { 
-                  name: 'Rodrigo Fonseca', 
-                  avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80', 
-                  text: 'Sentimos que o roteiro tinha sido feito para nós.', 
+                {
+                  name: 'Rodrigo Fonseca',
+                  avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80',
+                  text: 'Sentimos que o roteiro tinha sido feito para nós.',
                   trip: 'Tóquio • Roteiro no App',
                   badgeColor: 'bg-brand-green/10 text-brand-green'
                 },
-                { 
-                  name: 'Luísa Cavalcanti', 
-                  avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80', 
-                  text: 'Economizei semanas de pesquisa.', 
+                {
+                  name: 'Luísa Cavalcanti',
+                  avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80',
+                  text: 'Economizei semanas de pesquisa.',
                   trip: 'Lisboa • Roteiro no App',
                   badgeColor: 'bg-brand-orange/10 text-brand-orange'
                 }
@@ -881,8 +904,8 @@ export default function Home() {
                     "{review.text}"
                   </p>
                   <div className="flex items-center gap-3.5 mt-auto pt-4 border-t border-border-gray/30">
-                    <img 
-                      src={review.avatar} 
+                    <img
+                      src={review.avatar}
                       alt={review.name}
                       className="w-10 h-10 rounded-full object-cover border border-brand-navy/10 transition-transform group-hover:scale-105 duration-300"
                     />
@@ -952,10 +975,10 @@ export default function Home() {
       </main>
 
       <Footer onOpenDownload={() => setIsDownloadOpen(true)} />
-      
-      <AppDownloadModal 
-        isOpen={isDownloadOpen} 
-        onClose={() => setIsDownloadOpen(false)} 
+
+      <AppDownloadModal
+        isOpen={isDownloadOpen}
+        onClose={() => setIsDownloadOpen(false)}
       />
     </div>
   );

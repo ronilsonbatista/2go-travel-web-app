@@ -1515,44 +1515,44 @@ export const MUNDO_THIRTY_SECONDS = {
       {
         "id": "r0",
         "name": "Old Town",
-        "blurb": "Região de Antalya",
+        "blurb": "Kaleiçi e ruelas históricas",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "59.0%",
+          "left": "47.6%"
         },
         "hotel": "Hospedagem em Old Town"
       },
       {
         "id": "r1",
         "name": "Lara",
-        "blurb": "Região de Antalya",
+        "blurb": "Resorts e praia da falésia",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "84.1%",
+          "left": "75.3%"
         },
         "hotel": "Hospedagem em Lara"
       },
       {
         "id": "r2",
         "name": "Konyaaltı",
-        "blurb": "Região de Antalya",
+        "blurb": "Praia e calçadão aberto",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "64.4%",
+          "left": "24.2%"
         },
         "hotel": "Hospedagem em Konyaaltı"
       },
       {
         "id": "r3",
         "name": "Ruínas",
-        "blurb": "Região de Antalya",
+        "blurb": "Düden e sítios arqueológicos",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "84.8%",
+          "left": "73.3%"
         },
         "hotel": "Hospedagem em Ruínas"
       }
@@ -1566,8 +1566,8 @@ export const MUNDO_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "59.0%",
+          "left": "47.6%"
         },
         "imageIllustrative": true
       },
@@ -1579,8 +1579,8 @@ export const MUNDO_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "84.1%",
+          "left": "75.3%"
         },
         "imageIllustrative": true
       },
@@ -1592,8 +1592,8 @@ export const MUNDO_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "64.4%",
+          "left": "24.2%"
         },
         "imageIllustrative": true
       },
@@ -1605,8 +1605,8 @@ export const MUNDO_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "84.8%",
+          "left": "73.3%"
         },
         "imageIllustrative": true
       }
@@ -1887,44 +1887,44 @@ export const MUNDO_THIRTY_SECONDS = {
       {
         "id": "r0",
         "name": "Mosque",
-        "blurb": "Região de Abu Dhabi",
+        "blurb": "Grande Mesquita Sheikh Zayed",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "81.2%",
+          "left": "82.2%"
         },
         "hotel": "Hospedagem em Mosque"
       },
       {
         "id": "r1",
         "name": "Saadiyat",
-        "blurb": "Região de Abu Dhabi",
+        "blurb": "Distrito cultural e Louvre",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "22.0%",
+          "left": "57.0%"
         },
         "hotel": "Hospedagem em Saadiyat"
       },
       {
         "id": "r2",
         "name": "Yas",
-        "blurb": "Região de Abu Dhabi",
+        "blurb": "Ilha de lazer e Fórmula 1",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "28.7%",
+          "left": "90.4%"
         },
         "hotel": "Hospedagem em Yas"
       },
       {
         "id": "r3",
         "name": "Corniche",
-        "blurb": "Região de Abu Dhabi",
+        "blurb": "Orla central e praias urbanas",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "34.0%",
+          "left": "36.1%"
         },
         "hotel": "Hospedagem em Corniche"
       }
@@ -1938,8 +1938,8 @@ export const MUNDO_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "81.2%",
+          "left": "82.2%"
         },
         "imageIllustrative": true
       },
@@ -1951,8 +1951,8 @@ export const MUNDO_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "22.0%",
+          "left": "57.0%"
         },
         "imageIllustrative": true
       },
@@ -1964,8 +1964,8 @@ export const MUNDO_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "28.7%",
+          "left": "90.4%"
         },
         "imageIllustrative": true
       },
@@ -1977,8 +1977,8 @@ export const MUNDO_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "34.0%",
+          "left": "36.1%"
         },
         "imageIllustrative": true
       }

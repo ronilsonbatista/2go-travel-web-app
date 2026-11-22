@@ -12,6 +12,7 @@ import {
   TrainFront
 } from 'lucide-react';
 import { getThirtySeconds } from '@/data/guideThirtySeconds';
+import { GUIDE_ATTRACTION_PINS } from '@/data/guideAttractionPins';
 import { mapImageFor } from '@/lib/guideVisuals';
 
 const FACT_ICONS = {
@@ -232,16 +233,10 @@ export default function GuideThirtySeconds({ guide }) {
   const attractionPins = useMemo(() => {
     const items = (guide?.attractions || []).slice(0, 6);
     if (!items.length) return data.regions;
+    const precomputed = GUIDE_ATTRACTION_PINS[guide?.slug] || [];
     return items.map((att, index) => {
       const region = data.regions[index % Math.max(data.regions.length, 1)];
-      const pinOffsets = [
-        { top: '32%', left: '28%' },
-        { top: '48%', left: '52%' },
-        { top: '62%', left: '38%' },
-        { top: '40%', left: '68%' },
-        { top: '70%', left: '58%' },
-        { top: '25%', left: '45%' }
-      ];
+      const matchingPrecomputed = precomputed.find((p) => p.name === att.name) || precomputed[index];
       return {
         id: `att-${index}`,
         name: att.name,
@@ -249,7 +244,7 @@ export default function GuideThirtySeconds({ guide }) {
         color: region?.color || '#5B8DEF',
         image: guideImage(guide, `map-attraction-${index}`),
         listImage: guideImage(guide, `map-list-${index}`),
-        pin: pinOffsets[index] || region?.pin || { top: `${28 + index * 10}%`, left: `${26 + index * 12}%` },
+        pin: att.pin || matchingPrecomputed?.pin || region?.pin || { top: `${35 + index * 8}%`, left: `${35 + index * 8}%` },
         hotel: region?.hotel
       };
     });
@@ -299,11 +294,10 @@ export default function GuideThirtySeconds({ guide }) {
                 role="tab"
                 aria-selected={tab === item.id}
                 onClick={() => setTab(item.id)}
-                className={`min-h-11 shrink-0 rounded-full px-3.5 py-2 text-[11px] font-extrabold transition-all sm:text-xs ${
-                  tab === item.id
+                className={`min-h-11 shrink-0 rounded-full px-3.5 py-2 text-[11px] font-extrabold transition-all sm:text-xs ${tab === item.id
                     ? 'bg-brand-navy text-white shadow-sm'
                     : 'bg-bg-light text-slate-600 hover:text-brand-navy'
-                }`}
+                  }`}
               >
                 {item.label}
               </button>
@@ -371,11 +365,10 @@ export default function GuideThirtySeconds({ guide }) {
                       type="button"
                       onClick={() => setActiveRegion(pin.id)}
                       aria-pressed={active}
-                      className={`flex w-full min-h-11 items-stretch gap-3 rounded-2xl border p-2 text-left transition-all ${
-                        active
+                      className={`flex w-full min-h-11 items-stretch gap-3 rounded-2xl border p-2 text-left transition-all ${active
                           ? 'border-brand-navy/20 bg-brand-navy/[0.04] shadow-sm'
                           : 'border-border-gray/70 bg-white hover:border-brand-navy/10 hover:bg-bg-light/60'
-                      }`}
+                        }`}
                     >
                       <span className="relative h-16 w-16 shrink-0 overflow-hidden rounded-xl bg-bg-light">
                         <img src={pin.listImage} alt="" className="h-full w-full object-cover" />
@@ -411,11 +404,10 @@ export default function GuideThirtySeconds({ guide }) {
                     type="button"
                     onClick={() => setActiveRegion(pin.id)}
                     aria-pressed={active}
-                    className={`flex w-full min-h-11 items-center gap-2.5 rounded-2xl border px-2.5 py-2 text-left transition-all ${
-                      active
+                    className={`flex w-full min-h-11 items-center gap-2.5 rounded-2xl border px-2.5 py-2 text-left transition-all ${active
                         ? 'border-brand-navy/15 bg-brand-navy/[0.04] shadow-sm'
                         : 'border-border-gray/70 bg-white hover:border-brand-navy/10 hover:bg-bg-light/60'
-                    }`}
+                      }`}
                   >
                     <span
                       className="h-2.5 w-2.5 shrink-0 rounded-full"

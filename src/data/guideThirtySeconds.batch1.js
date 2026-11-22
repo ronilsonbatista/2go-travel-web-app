@@ -30,8 +30,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "blurb": "Praias e orla",
         "color": "#5B8DEF",
         "pin": {
-          "top": "62%",
-          "left": "48%"
+          "top": "63.6%",
+          "left": "60.1%"
         },
         "hotel": "Hotéis em Copacabana e Ipanema"
       },
@@ -41,8 +41,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "blurb": "Bondinho e baía",
         "color": "#F47A20",
         "pin": {
-          "top": "48%",
-          "left": "58%"
+          "top": "47.9%",
+          "left": "68.5%"
         },
         "hotel": "Pousadas próximas à Urca"
       },
@@ -52,8 +52,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "blurb": "Museus e Lapa",
         "color": "#8B7CF6",
         "pin": {
-          "top": "40%",
-          "left": "52%"
+          "top": "20.5%",
+          "left": "60.7%"
         },
         "hotel": "Hotéis boutique no Centro"
       },
@@ -63,8 +63,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "blurb": "Floresta urbana",
         "color": "#96AB21",
         "pin": {
-          "top": "28%",
-          "left": "42%"
+          "top": "52.3%",
+          "left": "28.7%"
         },
         "hotel": "Base na Zona Sul + day trip"
       }
@@ -78,8 +78,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "R$ $$ · Frente-mar clássico",
         "color": "#5B8DEF",
         "pin": {
-          "top": "64%",
-          "left": "50%"
+          "top": "63.6%",
+          "left": "60.1%"
         },
         "imageIllustrative": true
       },
@@ -91,8 +91,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "R$ $$$ · Praia e gastronomia",
         "color": "#F47A20",
         "pin": {
-          "top": "68%",
-          "left": "46%"
+          "top": "76.5%",
+          "left": "52.0%"
         },
         "imageIllustrative": true
       },
@@ -104,8 +104,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "R$ $$ · Vista da baía",
         "color": "#8B7CF6",
         "pin": {
-          "top": "52%",
-          "left": "54%"
+          "top": "44.8%",
+          "left": "59.7%"
         },
         "imageIllustrative": true
       },
@@ -117,8 +117,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "R$ $$$ · Sofisticado",
         "color": "#96AB21",
         "pin": {
-          "top": "70%",
-          "left": "42%"
+          "top": "74.9%",
+          "left": "45.7%"
         },
         "imageIllustrative": true
       }
@@ -523,44 +523,44 @@ export const BATCH1_THIRTY_SECONDS = {
       {
         "id": "r0",
         "name": "Baixa",
-        "blurb": "Região de Lisboa",
+        "blurb": "Coração histórico e praças",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "58.2%",
+          "left": "50.1%"
         },
         "hotel": "Hospedagem em Baixa"
       },
       {
         "id": "r1",
         "name": "Belém",
-        "blurb": "Região de Lisboa",
+        "blurb": "Monumentos e Tejo",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "69.2%",
+          "left": "27.9%"
         },
         "hotel": "Hospedagem em Belém"
       },
       {
         "id": "r2",
         "name": "Alfama",
-        "blurb": "Região de Lisboa",
+        "blurb": "Ruelas e miradouros",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "57.5%",
+          "left": "52.9%"
         },
         "hotel": "Hospedagem em Alfama"
       },
       {
         "id": "r3",
         "name": "Parque das Nações",
-        "blurb": "Região de Lisboa",
+        "blurb": "Modernidade e oceanário",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "15.7%",
+          "left": "65.1%"
         },
         "hotel": "Hospedagem em Parque das Nações"
       }
@@ -574,8 +574,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "58.2%",
+          "left": "50.1%"
         },
         "imageIllustrative": true
       },
@@ -587,8 +587,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "69.2%",
+          "left": "27.9%"
         },
         "imageIllustrative": true
       },
@@ -600,8 +600,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "57.5%",
+          "left": "52.9%"
         },
         "imageIllustrative": true
       },
@@ -613,8 +613,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "15.7%",
+          "left": "65.1%"
         },
         "imageIllustrative": true
       }
@@ -647,44 +647,44 @@ export const BATCH1_THIRTY_SECONDS = {
       {
         "id": "r0",
         "name": "Museumplein",
-        "blurb": "Região de Amsterdã",
+        "blurb": "Museus e arte",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "57.3%",
+          "left": "42.4%"
         },
         "hotel": "Hospedagem em Museumplein"
       },
       {
         "id": "r1",
         "name": "Jordaan",
-        "blurb": "Região de Amsterdã",
+        "blurb": "Canais charmosos e cafés",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "45.9%",
+          "left": "41.7%"
         },
         "hotel": "Hospedagem em Jordaan"
       },
       {
         "id": "r2",
         "name": "Centro / Dam",
-        "blurb": "Região de Amsterdã",
+        "blurb": "Praça Dam e centro histórico",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "45.9%",
+          "left": "46.2%"
         },
         "hotel": "Hospedagem em Centro / Dam"
       },
       {
         "id": "r3",
         "name": "De Pijp",
-        "blurb": "Região de Amsterdã",
+        "blurb": "Vida boêmia e mercados",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "60.3%",
+          "left": "47.0%"
         },
         "hotel": "Hospedagem em De Pijp"
       }
@@ -698,8 +698,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#5B8DEF",
         "pin": {
-          "top": "25%",
-          "left": "30%"
+          "top": "57.3%",
+          "left": "42.4%"
         },
         "imageIllustrative": true
       },
@@ -711,8 +711,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#F47A20",
         "pin": {
-          "top": "37%",
-          "left": "40%"
+          "top": "45.9%",
+          "left": "41.7%"
         },
         "imageIllustrative": true
       },
@@ -724,8 +724,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#8B7CF6",
         "pin": {
-          "top": "49%",
-          "left": "50%"
+          "top": "45.9%",
+          "left": "46.2%"
         },
         "imageIllustrative": true
       },
@@ -737,8 +737,8 @@ export const BATCH1_THIRTY_SECONDS = {
         "note": "$$ · Ilustrativo — confirme disponibilidade",
         "color": "#96AB21",
         "pin": {
-          "top": "61%",
-          "left": "60%"
+          "top": "60.3%",
+          "left": "47.0%"
         },
         "imageIllustrative": true
       }
