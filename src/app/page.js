@@ -770,8 +770,8 @@ export default function Home() {
                   glowClassName="bg-[#081B6B]/18"
                 >
                   <PhoneScreenImage
-                    src="/assets/app-home-gustavo.webp"
-                    alt="Prévia real do app 2GO: tela inicial com a próxima viagem para Roma"
+                    src="/assets/app-home-lisboa.webp"
+                    alt="Prévia real do app 2GO: tela inicial com Lisboa e destinos em alta"
                     objectPosition="top center"
                   />
                 </PhoneFrame>
@@ -781,8 +781,8 @@ export default function Home() {
                   glowClassName="bg-brand-orange/18"
                 >
                   <PhoneScreenImage
-                    src="/assets/app-roteiro-roma.webp"
-                    alt="Prévia real do app 2GO: dia 1 do roteiro de Roma com countdown, datas e timeline"
+                    src="/assets/app-roteiro-lisboa.webp"
+                    alt="Prévia real do app 2GO: dia 1 do roteiro de Lisboa com hero, countdown e timeline"
                     objectPosition="top center"
                   />
                 </PhoneFrame>
